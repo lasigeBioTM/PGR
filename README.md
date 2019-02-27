@@ -99,8 +99,8 @@ where [ENTITY TYPE] (gene or go) corresponds to the intended pair of entities (h
 
 * Creates: 
     * **corpora/pgr_gene/** (with [ENTITY TYPE] = gene)
-    * **corpora/pgr_go/** (with [ENTITY TYPE] = go)
     * **corpora/go_phenotype_annotations/** (with [ENTITY TYPE] = go)
+    * **corpora/pgr_go/** (with [ENTITY TYPE] = go)
     
 ### General Statistics
 
