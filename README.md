@@ -83,9 +83,11 @@ where [NUMBER] (integer) corresponds to the intended number of abstracts per gen
 ````
 
 * Creates: 
-    * **corpora/new_annotations/**
-    * **corpora/new_corpus/** (without abstracts that do not have entities from both types)
+    * **corpora/gene_phenotype_annotations/** 
     * __corpora/relations.tsv__
+    
+* Changes:
+    * **corpora/pubmed_corpus/** (removes abstracts that do not have entities from both types)
 
 ### Creating a XML Format Corpus
 
@@ -98,6 +100,7 @@ where [ENTITY TYPE] (gene or go) corresponds to the intended pair of entities (h
 * Creates: 
     * **corpora/pgr_gene/** (with [ENTITY TYPE] = gene)
     * **corpora/pgr_go/** (with [ENTITY TYPE] = go)
+    * **corpora/go_phenotype_annotations/** (with [ENTITY TYPE] = go)
     
 ### General Statistics
 
@@ -108,7 +111,8 @@ where [ENTITY TYPE] (gene or go) corresponds to the intended pair of entities (h
 * Creates: 
     * __report.txt__
 
-## Reference:
+## Reference
 
-- Diana Sousa, Andre Lamurias, and Francisco M. Couto. 2019. A Silver Standard Corpus of Human Phenotype-Gene Relations. In Proceedings  of  the  2019  Conference  of  the  North American Chapter of the Association for Computational Linguistics: Human Language Technologies,
-Volume ? (Short Papers), pages ???–???. Association for Computational Linguistics (?https://github.com/lasigeBioTM?).
+- Diana Sousa, Andre Lamurias, and Francisco M. Couto. 2019. A Silver Standard Corpus of Human Phenotype-Gene Relations. In Proceedings  of  the  2019  Conference  of  the  North American Chapter of the Association for Computational Linguistics: Human Language Technologies.
+
+[//]: # ", Volume ? (Short Papers), pages ???–???. Association for Computational Linguistics (?https://github.com/lasigeBioTM?)."

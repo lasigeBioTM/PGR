@@ -1068,9 +1068,9 @@ def main():
 
     elif type_gene_or_go == 'go':
         os.system('mkdir -p corpora/pgr_go/ || true')
-        os.system('mkdir -p corpora/final_go_phenotype_annotations/ || true')
-        pgr_go('data/gene2go', 'corpora/final_go_phenotype_annotations/',
-               'corpora/final_gene_phenotype_annotations/', 'corpora/relations.tsv',
+        os.system('mkdir -p corpora/go_phenotype_annotations/ || true')
+        pgr_go('data/gene2go', 'corpora/go_phenotype_annotations/',
+               'corpora/gene_phenotype_annotations/', 'corpora/relations.tsv',
                'corpora/pgr_go/')
 
     else:

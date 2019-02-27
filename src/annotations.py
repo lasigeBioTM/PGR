@@ -854,7 +854,7 @@ def main():
     os.system('mkdir -p corpora/per_directory_annotations || true')
     os.system('mkdir -p corpora/divided_by_sentences_annotations || true')
     os.system('mkdir -p corpora/added_annotations || true')
-    os.system('mkdir -p corpora/final_gene_phenotype_annotations || true')
+    os.system('mkdir -p corpora/gene_phenotype_annotations || true')
     os.system('mkdir -p corpora/new_corpus || true')
     number_of_directories = divide_directory('corpora/pubmed_corpus/', 'corpora/per_directory_text/')
 
@@ -875,10 +875,10 @@ def main():
     annotations('../../corpora/pubmed_corpus/', 'get_entities.sh','../../corpora/per_directory_annotations/final_report', 'data/hp_links.tsv', '../../corpora/')
     os.chdir('../..')
     update_annotations('corpora/pubmed_corpus/', 'data/', 'corpora/divided_by_sentences_annotations/','corpora/annotations_to_check.tsv', 'bin/MER/data/', 'corpora/added_annotations/')
-    final_annotations('corpora/added_annotations/', 'corpora/pubmed_corpus/', 'corpora/new_corpus/', 'corpora/final_gene_phenotype_annotations/')
+    final_annotations('corpora/added_annotations/', 'corpora/pubmed_corpus/', 'corpora/new_corpus/', 'corpora/gene_phenotype_annotations/')
     os.system('rm corpora/pubmed_corpus/* || true')
     os.system('mv corpora/new_corpus/* corpora/pubmed_corpus/ || true')
-    relations_annotations('corpora/pubmed_corpus/', 'data/ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt', 'data/ALL_SOURCES_ALL_FREQUENCIES_phenotype_to_genes.txt', 'corpora/final_gene_phenotype_annotations/', 'corpora/relations.tsv')
+    relations_annotations('corpora/pubmed_corpus/', 'data/ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt', 'data/ALL_SOURCES_ALL_FREQUENCIES_phenotype_to_genes.txt', 'corpora/gene_phenotype_annotations/', 'corpora/relations.tsv')
     #verify_relations_annotations('corpora/')  # if curator confirmation for a test corpus
     os.system('rm -rf corpora/per_directory_text corpora/per_directory_annotations corpora/divided_by_sentences_annotations corpora/added_annotations corpora/new_corpus || true')
 

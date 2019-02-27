@@ -23,43 +23,43 @@ def general_statistics(abstracts_path, annotations_path):
     report.write('------------------- ABSTRACTS -------------------')
     report.write('\n\n')
 
-    final_number_abstracts = os.popen('ls -l ' + abstracts_path + '* | egrep -c \'^-\'').read()
+    number_abstracts = os.popen('ls -l ' + abstracts_path + '* | egrep -c \'^-\'').read()
 
-    report.write('FINAL NUMBER OF ABSTRACTS ------> ' + str(final_number_abstracts))
+    report.write('NUMBER OF ABSTRACTS ------> ' + str(number_abstracts))
 
     report.write('\n\n')
     report.write('------------------ ANNOTATIONS ------------------')
     report.write('\n\n')
 
-    total_final_annotations = 0
-    total_final_phenotype_annotations = 0
-    total_final_gene_annotations = 0
+    total_annotations = 0
+    total_phenotype_annotations = 0
+    total_gene_annotations = 0
 
-    for (dir_path, dir_names, file_names) in os.walk(annotations_path + 'final_gene_annotations/'):
+    for (dir_path, dir_names, file_names) in os.walk(annotations_path + 'gene_phenotype_annotations/'):
 
         for filename in file_names:
 
-            annotation_file = open(annotations_path + 'final_gene_phenotype_annotations/' + filename, 'r', encoding = 'utf-8')
+            annotation_file = open(annotations_path + 'gene_phenotype_annotations/' + filename, 'r', encoding = 'utf-8')
             contents = annotation_file.readlines()
             annotation_file.close()
 
-            total_final_annotations += len(contents)
+            total_annotations += len(contents)
 
             for annotation in contents:
 
                 if 'HP_' in annotation:
 
-                    total_final_phenotype_annotations += 1
+                    total_phenotype_annotations += 1
 
                 else:
 
-                    total_final_gene_annotations += 1
+                    total_gene_annotations += 1
 
-    report.write('FINAL TOTAL NUMBER OF ANNOTATIONS ---------> ' + str(total_final_annotations))
+    report.write('TOTAL NUMBER OF ANNOTATIONS ---------> ' + str(total_annotations))
     report.write('\n')
-    report.write('FINAL NUMBER OF PHENOTYPE ANNOTATIONS -----> ' + str(total_final_phenotype_annotations))
+    report.write('NUMBER OF PHENOTYPE ANNOTATIONS -----> ' + str(total_phenotype_annotations))
     report.write('\n')
-    report.write('FINAL NUMBER OF GENE ANNOTATIONS ----------> ' + str(total_final_gene_annotations))
+    report.write('NUMBER OF GENE ANNOTATIONS ----------> ' + str(total_gene_annotations))
     report.write('\n')
 
     report.write('\n\n')
@@ -84,11 +84,11 @@ def general_statistics(abstracts_path, annotations_path):
 
             total_false_relations += 1
 
-    report.write('FINAL TOTAL NUMBER OF RELATIONS -------> ' + str(total_relations))
+    report.write('TOTAL NUMBER OF RELATIONS -------> ' + str(total_relations))
     report.write('\n')
-    report.write('FINAL NUMBER OF TRUE RELATIONS --------> ' + str(total_true_relations))
+    report.write('NUMBER OF TRUE RELATIONS --------> ' + str(total_true_relations))
     report.write('\n')
-    report.write('FINAL NUMBER OF FALSE RELATIONS -------> ' + str(total_false_relations))
+    report.write('NUMBER OF FALSE RELATIONS -------> ' + str(total_false_relations))
     report.write('\n')
 
     return
