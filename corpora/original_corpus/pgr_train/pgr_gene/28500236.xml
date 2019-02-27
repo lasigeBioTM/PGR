@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28500236">
+	<sentence id="s1" text="We extended our findings to BRAF WT tumor cell lines that are intrinsically resistant to vemurafenib and dabrafenib.">
+		<entity id="s1.e1" charOffset="28-32"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s1.e2" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The novel aspects of this study are the direct identification of serine biosynthesis as a critical mechanism of BRAF V600E inhibitor resistance and the first successful example of using gemcitabine + BRAFis in combination to kill previously drug-resistant cancer cells, creating the translational potential of pretreatment with gemcitabine prior to BRAFi treatment of tumor cells to reverse resistance within the mutational profile and the WT.">
+		<entity id="s2.e1" charOffset="112-116"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s2.e2" charOffset="368-373"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24619944">
+	<sentence id="s1" text="Exome sequencing revealed an insertion mutation in GRXCR2 as the cause of moderate-to-severe and likely progressive hearing loss in the affected individuals of the family.">
+		<entity id="s1.e1" charOffset="51-57"
+			type="GENE" text="GRXCR2" ontology_id="643226"/>
+		<entity id="s1.e2" charOffset="104-115"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<entity id="s1.e3" charOffset="116-128"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Targeted disruption of Grxcr2 is concurrently reported to cause hearing loss in mice.">
+		<entity id="s2.e1" charOffset="23-29"
+			type="GENE" text="Grxcr2" ontology_id="643226"/>
+		<entity id="s2.e2" charOffset="64-76"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results indicate that GRXCR2 should be considered in differential genetic diagnosis for individuals with early onset, moderate-to-severe and progressive hearing loss.">
+		<entity id="s3.e1" charOffset="26-32"
+			type="GENE" text="GRXCR2" ontology_id="643226"/>
+		<entity id="s3.e2" charOffset="145-156"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<entity id="s3.e3" charOffset="157-169"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

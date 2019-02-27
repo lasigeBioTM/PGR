@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27183861">
+	<sentence id="s1" text="Taken all together, these findings provide convincing evidence implicating FIBP aberrations in the newly recognized overgrowth syndrome and expand the associated phenotypes to include possible Wilms tumor predisposition.">
+		<entity id="s1.e1" charOffset="75-79"
+			type="GENE" text="FIBP" ontology_id="9158"/>
+		<entity id="s1.e2" charOffset="199-204"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

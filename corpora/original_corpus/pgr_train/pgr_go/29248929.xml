@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29248929">
+	<sentence id="s1" text="This interval encompasses several genes, especially the short stature homeobox (positive regulation of transcription by RNA polymerase II) and arylsulfatase (skeletal system development) genes.">
+		<entity id="s1.e1" charOffset="56-69"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e2" charOffset="80-137"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e3" charOffset="158-185"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

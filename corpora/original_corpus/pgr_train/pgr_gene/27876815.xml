@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27876815">
+	<sentence id="s1" text="Here, we have identified two novel and rare heterozygous variants in the SEMA3D and DPT genes segregating with the complete phenotype that have variable expressivity in two pedigrees with AD-FMD.">
+		<entity id="s1.e1" charOffset="73-79"
+			type="GENE" text="SEMA3D" ontology_id="223117"/>
+		<entity id="s1.e2" charOffset="84-87"
+			type="GENE" text="DPT" ontology_id="1805"/>
+		<entity id="s1.e3" charOffset="144-165"
+			type="HP" text="variable expressivity" ontology_id="HP_0003828"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

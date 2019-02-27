@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29343641">
+	<sentence id="s1" text="The F-box protein cellular response to DNA damage stimulus is a tumor suppressor that is encoded in 16q24.3, for which there is loss of heterozygosity in various solid tumors.">
+		<entity id="s1.e1" charOffset="18-58"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e2" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

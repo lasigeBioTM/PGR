@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28817240">
+	<sentence id="s1" text="Hyperphosphatasia with mental retardation syndrome (HPMRS) is caused by mutations in GPI anchor biosynthetic process and includes hyperphosphatasia as a diagnostic hallmark.">
+		<entity id="s1.e1" charOffset="85-116"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s1.e2" charOffset="130-147"
+			type="HP" text="hyperphosphatasia" ontology_id="HP_0003155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

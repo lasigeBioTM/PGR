@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30057354">
+	<sentence id="s1" text="Inhibition of DNA strand renaturation-negative regulation of transcription by RNA polymerase II complex has been emerging as a strategy for antitumoral drug development considering the pro-apoptotic role of functional p53 in tumor cells.">
+		<entity id="s1.e1" charOffset="14-37"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s1.e2" charOffset="38-95"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="91-96"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

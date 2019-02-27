@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30046887">
+	<sentence id="s1" text="With the notable exception of WNT10A (Tooth agenesis, selective, 4, MIM #150400), the genotype-phenotype relationships described in the present cohort represent an expansion of the clinical spectrum associated with these genes: TSPEAR (Deafness, autosomal recessive 98, MIM #614861), LAMB3 (Amelogenesis imperfecta, type IA, MIM #104530; Epidermolysis bullosa, junctional, MIMs #226700 and #226650), and BCOR (Microphthalmia, syndromic 2, MIM #300166).">
+		<entity id="s1.e1" charOffset="30-36"
+			type="GENE" text="WNT10A" ontology_id="80326"/>
+		<entity id="s1.e2" charOffset="228-234"
+			type="GENE" text="TSPEAR" ontology_id="54084"/>
+		<entity id="s1.e3" charOffset="246-265"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="284-289"
+			type="GENE" text="LAMB3" ontology_id="3914"/>
+		<entity id="s1.e5" charOffset="404-408"
+			type="GENE" text="BCOR" ontology_id="54880"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

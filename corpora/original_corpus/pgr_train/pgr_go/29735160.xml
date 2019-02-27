@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29735160">
+	<sentence id="s1" text="Genomics of tumors identified several new genes - including protein ubiquitination in adrenocortical carcinomas, mRNA processing in cortisol-producing adrenal adenomas, ARMC5 in primary macronodular adrenal hyperplasia and protein K63-linked deubiquitination in pituitary corticotroph adenomas.">
+		<entity id="s1.e1" charOffset="60-82"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s1.e2" charOffset="113-128"
+			type="GO" text="mRNA processing" ontology_id="GO_0006397"/>
+		<entity id="s1.e3" charOffset="190-209"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<entity id="s1.e4" charOffset="223-258"
+			type="GO" text="protein K63-linked deubiquitination" ontology_id="GO_0070536"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

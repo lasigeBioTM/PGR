@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29785025">
+	<sentence id="s1" text="Inactivation of signal transduction in mice compromised the cold-induced thermogenic response selectively in subcutaneous fat and exacerbated high-fat diet-induced obesity and associated metabolic disorders, indicating that even partial loss of beige fat regulation in vivo had detrimental consequences.">
+		<entity id="s1.e1" charOffset="16-35"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="164-171"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

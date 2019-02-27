@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29104481">
+	<sentence id="s1" text="First, a novel variation c.460-650AAAAAG was found in our study which might cause premature termination of splicing of the conserved domain in WDR36; second, c.1494+1111GAAAAT (rs13178997) had significantly different frequency in our JOAG patients compared to the reference frequency on NCBI; third, a variation c.710+30CAAAAT (rs10038177) was found in our study, which had already been reported to be related to high-pressure glaucoma.">
+		<entity id="s1.e1" charOffset="143-148"
+			type="GENE" text="WDR36" ontology_id="134430"/>
+		<entity id="s1.e2" charOffset="427-435"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

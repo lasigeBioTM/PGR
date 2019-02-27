@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29554304">
+	<sentence id="s1" text="Kleefstra syndrome, a disease with intellectual disability, autism spectrum disorders and other developmental defects is caused in humans by haploinsufficiency of chromatin organization.">
+		<entity id="s1.e1" charOffset="35-58"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="60-66"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e3" charOffset="163-185"
+			type="GO" text="chromatin organization" ontology_id="GO_0006325"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

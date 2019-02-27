@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28777481">
+	<sentence id="s1" text="Researchers have identified a subset of Holstein having a range of skeletal deformities, including vertebral anomalies, referred to as complex vertebral malformation due to mutations in the SLC35A3 gene.">
+		<entity id="s1.e1" charOffset="99-118"
+			type="HP" text="vertebral anomalies" ontology_id="HP_0003468"/>
+		<entity id="s1.e2" charOffset="190-197"
+			type="GENE" text="SLC35A3" ontology_id="23443"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report the first case in humans of SLC35A3-related vertebral anomalies.">
+		<entity id="s2.e1" charOffset="44-51"
+			type="GENE" text="SLC35A3" ontology_id="23443"/>
+		<entity id="s2.e2" charOffset="60-79"
+			type="HP" text="vertebral anomalies" ontology_id="HP_0003468"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Congenital disorders of glycosylation, including SLC35A3-CDG, can present as a wide phenotypic spectrum, including skeletal dysplasia.">
+		<entity id="s3.e1" charOffset="49-56"
+			type="GENE" text="SLC35A3" ontology_id="23443"/>
+		<entity id="s3.e2" charOffset="115-133"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Previously reported patients with SLC35A3-CDG have been described with syndromic autism, epilepsy, and arthrogryposis">
+		<entity id="s4.e1" charOffset="34-41"
+			type="GENE" text="SLC35A3" ontology_id="23443"/>
+		<entity id="s4.e2" charOffset="81-87"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s4.e3" charOffset="89-97"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620226">
+	<sentence id="s1" text="Particularly, NONO expression was statistically higher in tumors with greater tumor invasion depth.">
+		<entity id="s1.e1" charOffset="14-18"
+			type="GENE" text="NONO" ontology_id="4841"/>
+		<entity id="s1.e2" charOffset="58-63"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, our findings suggest that NONO might play an important role in promoting tumorigenesis of ESCC.">
+		<entity id="s2.e1" charOffset="42-46"
+			type="GENE" text="NONO" ontology_id="4841"/>
+		<entity id="s2.e2" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

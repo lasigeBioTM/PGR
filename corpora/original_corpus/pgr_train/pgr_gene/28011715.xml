@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28011715">
+	<sentence id="s1" text="Ectodermal dysplasia-9 (ED-9) is a congenital condition characterized by hypotrichosis and nail dystrophy without other disorders, and Hoxc13 is a pathogenic gene for ED-9.">
+		<entity id="s1.e1" charOffset="73-86"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<entity id="s1.e2" charOffset="135-141"
+			type="GENE" text="Hoxc13" ontology_id="3229"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

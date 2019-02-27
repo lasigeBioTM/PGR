@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19259137">
+	<sentence id="s1" text="Our study further emphasizes that mitochondrial electron transport, NADH to ubiquinone sequence should be analyzed in patients presenting with lethal neonatal lactic acidemia due to isolated complex I deficiency">
+		<entity id="s1.e1" charOffset="34-86"
+			type="GO" text="mitochondrial electron transport, NADH to ubiquinone" ontology_id="GO_0006120"/>
+		<entity id="s1.e2" charOffset="159-174"
+			type="HP" text="lactic acidemia" ontology_id="HP_0003128"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

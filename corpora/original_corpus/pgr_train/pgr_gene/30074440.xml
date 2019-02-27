@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30074440">
+	<sentence id="s1" text="GATA4, a transcription factor crucial for early liver development, has been implicated in the pathophysiology of hepatoblastoma, an embryonal tumor of childhood.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s1.e2" charOffset="113-127"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the molecular and phenotypic consequences of GATA4 expression in hepatoblastoma are not fully understood.">
+		<entity id="s2.e1" charOffset="54-59"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s2.e2" charOffset="74-88"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We surveyed GATA4 expression in 24 hepatoblastomas using RNA in situ hybridization and immunohistochemistry.">
+		<entity id="s3.e1" charOffset="12-17"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s3.e2" charOffset="35-49"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="RNA interference was used to inhibit GATA4 in human HUH6 hepatoblastoma cells, and changes in cell migration were measured with wound healing and transwell assays.">
+		<entity id="s4.e1" charOffset="37-42"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s4.e2" charOffset="57-71"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We found that GATA4 expression was high in most hepatoblastomas but weak or negligible in normal hepatocytes.">
+		<entity id="s5.e1" charOffset="14-19"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s5.e2" charOffset="48-62"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In conclusion, GATA4 is highly expressed in most hepatoblastomas and correlates with a mesenchymal, migratory phenotype of hepatoblastoma cells">
+		<entity id="s6.e1" charOffset="15-20"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s6.e2" charOffset="49-63"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

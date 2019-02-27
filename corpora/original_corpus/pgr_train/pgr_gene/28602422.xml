@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28602422">
+	<sentence id="s1" text="In aggregate, our findings implicate MYLK as a gene involved in the recessive form of MMIHS, confirming that this disease of the visceral organs is heterogeneous with a myopathic origin">
+		<entity id="s1.e1" charOffset="37-41"
+			type="GENE" text="MYLK" ontology_id="4638"/>
+		<entity id="s1.e2" charOffset="148-161"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

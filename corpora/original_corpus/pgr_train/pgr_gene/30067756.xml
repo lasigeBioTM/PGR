@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30067756">
+	<sentence id="s1" text="Mutations in KIF1C are responsible for autosomal recessive spastic paraplegia type 58 (SPG58) and spastic ataxia 2 (SPAX2).">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="KIF1C" ontology_id="10749"/>
+		<entity id="s1.e2" charOffset="39-58"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="67-77"
+			type="HP" text="paraplegia" ontology_id="HP_0010550"/>
+		<entity id="s1.e4" charOffset="87-92"
+			type="GENE" text="SPG58" ontology_id="10749"/>
+		<entity id="s1.e5" charOffset="106-112"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e6" charOffset="116-121"
+			type="GENE" text="SPAX2" ontology_id="10749"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e6"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e14"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We can now report that progressive ataxia of Charolais cattle results from a homozygous single nucleotide polymorphism in the coding region of the KIF1C gene.">
+		<entity id="s2.e1" charOffset="35-41"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e2" charOffset="147-152"
+			type="GENE" text="KIF1C" ontology_id="10749"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

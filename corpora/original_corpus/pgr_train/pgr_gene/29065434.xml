@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29065434">
+	<sentence id="s1" text="Breakthrough discoveries include the role of somatic variants in the KCNJ5, CACNA1D, ATP1A1, and ATP2B3 genes as causes of aldosterone-producing adenomas (APAs), and the recognition of three novel hyperaldosteronism syndromes with germline variants in the KCNJ5, CACNA1D, and CACNA1H genes.">
+		<entity id="s1.e1" charOffset="69-74"
+			type="GENE" text="KCNJ5" ontology_id="3762"/>
+		<entity id="s1.e2" charOffset="76-83"
+			type="GENE" text="CACNA1D" ontology_id="776"/>
+		<entity id="s1.e3" charOffset="85-91"
+			type="GENE" text="ATP1A1" ontology_id="476"/>
+		<entity id="s1.e4" charOffset="97-103"
+			type="GENE" text="ATP2B3" ontology_id="492"/>
+		<entity id="s1.e5" charOffset="197-215"
+			type="HP" text="hyperaldosteronism" ontology_id="HP_0000859"/>
+		<entity id="s1.e6" charOffset="276-283"
+			type="GENE" text="CACNA1H" ontology_id="8912"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

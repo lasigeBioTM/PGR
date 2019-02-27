@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28960866">
+	<sentence id="s1" text="The epithelial-mesenchymal transition (EMT) and mesenchymal-epithelial transition (MET) contribute to cancer metastasis of pancreatic ductal adenocarcinoma (PDAC).">
+		<entity id="s1.e1" charOffset="83-86"
+			type="GENE" text="MET" ontology_id="4233"/>
+		<entity id="s1.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

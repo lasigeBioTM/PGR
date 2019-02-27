@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28944580">
+	<sentence id="s1" text="Biallelic mutations in the GPD1 gene cause a rare autosomal recessive inherited disease known as transient infantile hypertriglyceridemia (OMIM #614480).">
+		<entity id="s1.e1" charOffset="27-31"
+			type="GENE" text="GPD1" ontology_id="2819"/>
+		<entity id="s1.e2" charOffset="50-69"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="117-137"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

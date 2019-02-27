@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30235708">
+	<sentence id="s1" text="The immunohistochemical expression of L1CAM in corresponding tissue was significantly higher in metastases than in glioblastomas.The present study demonstrates high levels of L1CAM in cyst fluid of glioblastoma and metastatic brain tumors.">
+		<entity id="s1.e1" charOffset="38-43"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<entity id="s1.e2" charOffset="115-127"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

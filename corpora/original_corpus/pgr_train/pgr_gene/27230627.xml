@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27230627">
+	<sentence id="s1" text="Because RSPRY1 was been discovered as the cause of progressive skeletal dysplasia, a loss of this gene might explain the skeletal defects observed in the patient">
+		<entity id="s1.e1" charOffset="8-14"
+			type="GENE" text="RSPRY1" ontology_id="89970"/>
+		<entity id="s1.e2" charOffset="63-81"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

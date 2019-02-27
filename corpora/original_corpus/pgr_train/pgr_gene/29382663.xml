@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29382663">
+	<sentence id="s1" text="Mechanistically, lncSHGL recruited heterogeneous nuclear ribonucleoprotein A1 (hnRNPA1) to enhance the translation efficiency of CALM mRNAs to increase calmodulin (CaM) protein level without affecting their transcription, leading to the activation of the phosphatidyl inositol 3-kinase (PI3K)/Akt pathway and repression of the mTOR/SREBP-1C pathway independent of insulin and calcium in hepatocytes.">
+		<entity id="s1.e1" charOffset="35-48"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="79-86"
+			type="GENE" text="hnRNPA1" ontology_id="3178"/>
+		<entity id="s1.e3" charOffset="164-167"
+			type="GENE" text="CaM" ontology_id="889"/>
+		<entity id="s1.e4" charOffset="293-296"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<entity id="s1.e5" charOffset="327-331"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s1.e6" charOffset="332-340"
+			type="GENE" text="SREBP-1C" ontology_id="6720"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Hepatic hnRNPA1 overexpression also activated the CaM/Akt pathway and repressed the mTOR/SREBP-1C pathway to ameliorate hyperglycemia and steatosis in obese mice.">
+		<entity id="s2.e1" charOffset="8-15"
+			type="GENE" text="hnRNPA1" ontology_id="3178"/>
+		<entity id="s2.e2" charOffset="50-53"
+			type="GENE" text="CaM" ontology_id="889"/>
+		<entity id="s2.e3" charOffset="54-57"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<entity id="s2.e4" charOffset="84-88"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s2.e5" charOffset="120-133"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

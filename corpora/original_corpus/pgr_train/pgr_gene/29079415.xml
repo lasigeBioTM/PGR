@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29079415">
+	<sentence id="s1" text="miR-25-3p, miR-30a-5p, miR-328 and miR-363-3p directly targeted adhesion-related genes, including COL5A1, COL11A1, ITGA5, MMP16 and THBS2. miR-363-3p and miR-328 inhibited proliferation of renal cancer cells, while miR-25-3p inhibited adhesion, promoted proliferation and migration of renal cancer cells.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="98-104"
+			type="GENE" text="COL5A1" ontology_id="1289"/>
+		<entity id="s1.e3" charOffset="106-113"
+			type="GENE" text="COL11A1" ontology_id="1301"/>
+		<entity id="s1.e4" charOffset="115-120"
+			type="GENE" text="ITGA5" ontology_id="3678"/>
+		<entity id="s1.e5" charOffset="122-127"
+			type="GENE" text="MMP16" ontology_id="4325"/>
+		<entity id="s1.e6" charOffset="132-137"
+			type="GENE" text="THBS2" ontology_id="7058"/>
+		<entity id="s1.e7" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The analyzed microRNAs, their target genes and TGF-b1 formed a network of strong correlations in tissue samples from renal cancer patients.">
+		<entity id="s2.e1" charOffset="51-53"
+			type="GENE" text="b1" ontology_id="27241"/>
+		<entity id="s2.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The expression signature of microRNAs linked with TGF-b1 levels correlated with poor survival of renal cancer patients.">
+		<entity id="s3.e1" charOffset="54-56"
+			type="GENE" text="b1" ontology_id="27241"/>
+		<entity id="s3.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

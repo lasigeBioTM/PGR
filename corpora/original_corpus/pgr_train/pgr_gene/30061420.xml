@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30061420">
+	<sentence id="s1" text="In this study, we generated GCN2 inhibitors and demonstrated that inhibition of GCN2 sensitizes cancer cells with low basal-level expression of asparagine synthetase (ASNS) to the antileukemic agent l-asparaginase (ASNase) in vitro and in vivo.">
+		<entity id="s1.e1" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="167-171"
+			type="GENE" text="ASNS" ontology_id="440"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

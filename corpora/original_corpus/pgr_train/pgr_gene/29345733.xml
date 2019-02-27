@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29345733">
+	<sentence id="s1" text="Well-established intrinsic mechanisms of cognitive decline include aging, apolipoprotein E (APOE) e4 carrier status, SORL1 mutations, neuroinflammation, mitochondrial dysfunction, amyloid deposition, and demyelination.">
+		<entity id="s1.e1" charOffset="92-96"
+			type="GENE" text="APOE" ontology_id="348"/>
+		<entity id="s1.e2" charOffset="117-122"
+			type="GENE" text="SORL1" ontology_id="6653"/>
+		<entity id="s1.e3" charOffset="153-178"
+			type="HP" text="mitochondrial dysfunction" ontology_id="HP_0003287"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

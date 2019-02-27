@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30204081">
+	<sentence id="s1" text="This was accompanied by neuronal loss and neuro-axonal dysfunction in adult OL-potassium ion import across plasma membrane cKO mice as shown by delayed visual evoked potentials, inner retinal thinning and progressive motor deficits.">
+		<entity id="s1.e1" charOffset="24-37"
+			type="HP" text="neuronal loss" ontology_id="HP_0002529"/>
+		<entity id="s1.e2" charOffset="79-122"
+			type="GO" text="potassium ion import across plasma membrane" ontology_id="GO_1990573"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

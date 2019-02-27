@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29086036">
+	<sentence id="s1" text="Prominent examples include mutations in the transporters for dopamine (DAT, monoamine transport), for creatine (CT1, creatine transmembrane transport), and for glycine (GlyT2, monoamine transport), which result in infantile dystonia, mental retardation, and hyperekplexia, respectively.">
+		<entity id="s1.e1" charOffset="76-95"
+			type="GO" text="monoamine transport" ontology_id="GO_0015844"/>
+		<entity id="s1.e2" charOffset="117-149"
+			type="GO" text="creatine transmembrane transport" ontology_id="GO_0015881"/>
+		<entity id="s1.e3" charOffset="176-195"
+			type="GO" text="monoamine transport" ontology_id="GO_0015844"/>
+		<entity id="s1.e4" charOffset="219-232"
+			type="HP" text="hyperekplexia" ontology_id="HP_0002267"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

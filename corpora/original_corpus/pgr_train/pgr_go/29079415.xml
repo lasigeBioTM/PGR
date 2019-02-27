@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29079415">
+	<sentence id="s1" text="protein polyubiquitination-25-3p, miR-30a-5p, miR-328 and miR-363-3p directly targeted adhesion-related genes, including negative regulation of endodermal cell differentiation, visual perception, cell adhesion mediated by integrin, proteolysis and negative regulation of angiogenesis. miR-363-3p and miR-328 inhibited proliferation of renal cancer cells, while miR-25-3p inhibited adhesion, promoted proliferation and migration of renal cancer cells.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="121-175"
+			type="GO" text="negative regulation of endodermal cell differentiation" ontology_id="GO_1903225"/>
+		<entity id="s1.e3" charOffset="177-194"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e4" charOffset="196-230"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s1.e5" charOffset="218-224"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e6" charOffset="232-243"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e7" charOffset="248-283"
+			type="GO" text="negative regulation of angiogenesis" ontology_id="GO_0016525"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The analyzed microRNAs, their target genes and TGF-protein localization to cilium formed a network of strong correlations in tissue samples from renal cancer patients.">
+		<entity id="s2.e1" charOffset="51-81"
+			type="GO" text="protein localization to cilium" ontology_id="GO_0061512"/>
+		<entity id="s2.e2" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The expression signature of microRNAs linked with TGF-protein localization to cilium levels correlated with poor survival of renal cancer patients.">
+		<entity id="s3.e1" charOffset="54-84"
+			type="GO" text="protein localization to cilium" ontology_id="GO_0061512"/>
+		<entity id="s3.e2" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

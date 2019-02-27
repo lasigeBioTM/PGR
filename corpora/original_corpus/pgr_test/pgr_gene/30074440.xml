@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30074440">
+	<sentence id="s1" text="We surveyed GATA4 expression in 24 hepatoblastomas using RNA in situ hybridization and immunohistochemistry.">
+		<entity id="s1.e1" charOffset="12-17"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s1.e2" charOffset="35-49"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

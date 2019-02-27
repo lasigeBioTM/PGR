@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29397868">
+	<sentence id="s1" text="From the integrative analysis of the transcriptome and clinicopathologic data of human multi-stage HCC tissues, we were able to identify barrier-to-autointegration factor 1 (BANF1), procollagen-lysine, 2-oxoglutarate 5-dioxygenase 3 (PLOD3) and splicing factor 3b subunit 4 (SF3B4) as early HCC biomarkers which could be detected in precancerous lesions of HCC, with superior capabilities to diagnose eHCC compared to the currently popular HCC diagnostic biomarkers: GPC3, GS, and HSP70.">
+		<entity id="s1.e1" charOffset="174-179"
+			type="GENE" text="BANF1" ontology_id="8815"/>
+		<entity id="s1.e2" charOffset="336-342"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="467-471"
+			type="GENE" text="GPC3" ontology_id="2719"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Notably, we demonstrated that aberrant SF3B4 overexpression altered the progress of splicing progress of the tumor suppressor gene, kruppel like factor 4 (KLF4), and resulted in non-functional skipped exon transcripts.">
+		<entity id="s2.e1" charOffset="109-114"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="155-159"
+			type="GENE" text="KLF4" ontology_id="9314"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

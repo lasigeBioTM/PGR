@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28396387">
+	<sentence id="s1" text="Oncogenic phosphorylation mutations are found in a significant fraction of human cancers, but therapeutic inhibition of PI3K has only shown limited success in clinical trials.">
+		<entity id="s1.e1" charOffset="10-25"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e2" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To understand how mutant phosphorylation contributes to cancer cell proliferation, we used genome scale loss-of-function screening in a large number of genomically annotated cancer cell lines.">
+		<entity id="s2.e1" charOffset="25-40"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s2.e2" charOffset="56-62"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="As expected, we found that phosphorylation mutant cancer cells require PIK3CA but also require the expression of the TCA cycle enzyme 2-oxoglutarate dehydrogenase (2-oxoglutarate metabolic process).">
+		<entity id="s3.e1" charOffset="27-42"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s3.e2" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="164-196"
+			type="GO" text="2-oxoglutarate metabolic process" ontology_id="GO_0006103"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

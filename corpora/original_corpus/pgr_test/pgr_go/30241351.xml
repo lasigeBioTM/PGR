@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30241351">
+	<sentence id="s1" text="DHEA prevents mitochondrial dysfunction by decreasing the activation of DNM1L and MFF, and increasing mitochondrial fusion expression.">
+		<entity id="s1.e1" charOffset="14-39"
+			type="HP" text="mitochondrial dysfunction" ontology_id="HP_0003287"/>
+		<entity id="s1.e2" charOffset="102-122"
+			type="GO" text="mitochondrial fusion" ontology_id="GO_0008053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

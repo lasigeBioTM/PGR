@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29890027">
+	<sentence id="s1" text="Lymphatic metastasis is facilitated by lymphangiogenic growth factor vascular endothelial growth factor-C (vascular endothelial growth factor receptor signaling pathway) that is secreted by some primary tumors.">
+		<entity id="s1.e1" charOffset="107-168"
+			type="GO" text="vascular endothelial growth factor receptor signaling pathway" ontology_id="GO_0048010"/>
+		<entity id="s1.e2" charOffset="203-208"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

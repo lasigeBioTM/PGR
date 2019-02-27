@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28984604">
+	<sentence id="s1" text="Whole exome sequencing identified a truncating pathogenic variant in modulation of chemical synaptic transmission at NM_001111125.2: c.2679_2680insA, p.(D894fs*10), a recently identified cause of epileptic encephalopathy in females (MIM 300522).">
+		<entity id="s1.e1" charOffset="69-113"
+			type="GO" text="modulation of chemical synaptic transmission" ontology_id="GO_0050804"/>
+		<entity id="s1.e2" charOffset="206-220"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29596520">
+	<sentence id="s1" text="We therefore sought to understand whether CAF-derived chemokines negative regulation of transcription by RNA polymerase II breast tumor cell motility through modification of the formin-assembled F-actin cytoskeleton.">
+		<entity id="s1.e1" charOffset="65-122"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our data suggest a mechanism whereby CAFs promote tumor cell migration and invasion through integrin activation secretion to regulate the mDia2-directed cytoskeleton in breast tumor cells">
+		<entity id="s2.e1" charOffset="50-55"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="92-111"
+			type="GO" text="integrin activation" ontology_id="GO_0033622"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

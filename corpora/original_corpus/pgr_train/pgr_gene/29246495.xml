@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29246495">
+	<sentence id="s1" text="A common form of hereditary autosomal dominant demyelinating neuropathy known as Charcot-Marie-Tooth disease type 1A (CMT1A) is linked with duplication of the peripheral myelin protein 22 (PMP22) gene.">
+		<entity id="s1.e1" charOffset="61-71"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="189-194"
+			type="GENE" text="PMP22" ontology_id="5827"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

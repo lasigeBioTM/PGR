@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30045675">
+	<sentence id="s1" text="Hepatocellular carcinoma (HCC) is the third leading cause of cancer-related death worldwide; however, the mutational properties of HCC-associated carcinogens remain largely uncharacterized.">
+		<entity id="s1.e1" charOffset="26-29"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s1.e2" charOffset="61-67"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We hypothesized that mechanisms underlying chemical-induced HCC can be characterized by evaluating the mutational spectra of these tumors.">
+		<entity id="s2.e1" charOffset="60-63"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s2.e2" charOffset="131-136"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The MEG tumors clustered closest to Catalogue of Somatic Mutations in Cancer signatures 4 and 24, which are, respectively, associated with benzo(a)pyrene- and aflatoxin-induced HCCs in humans.">
+		<entity id="s3.e1" charOffset="8-13"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="177-180"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30253652">
+	<sentence id="s1" text="Methods We identified all materials published mentioning both SAg and allergic rhinitis (AR), chronic sinusitis, asthma, and atopic dermatitis (AD) that are indexed on PubMed, Google, or the ProQuest Central databases.">
+		<entity id="s1.e1" charOffset="62-65"
+			type="GENE" text="SAg" ontology_id="9616"/>
+		<entity id="s1.e2" charOffset="125-142"
+			type="HP" text="atopic dermatitis" ontology_id="HP_0001047"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

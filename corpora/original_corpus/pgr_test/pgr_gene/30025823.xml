@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30025823">
+	<sentence id="s1" text="Taken together, we firstly revealed that quercetin suppressed the progression of breast cancer by inhibiting cell mobility and glycolysis through Akt-mTOR pathway mediated autophagy induction and may provide a potential therapeutic target for breast cancer treatment">
+		<entity id="s1.e1" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="150-154"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

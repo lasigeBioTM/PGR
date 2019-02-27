@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28181389">
+	<sentence id="s1" text="Mutations in LINS1 were suspected in this non-syndromic ID case with mutism.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="LINS1" ontology_id="55180"/>
+		<entity id="s1.e2" charOffset="69-75"
+			type="HP" text="mutism" ontology_id="HP_0002300"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="LINS1 alterations affect ELAV1 expression and result in reduction in the commissural axonal growth, thus affecting peripheral and central neuronal function.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="LINS1" ontology_id="55180"/>
+		<entity id="s2.e2" charOffset="130-137"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

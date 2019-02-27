@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29764768">
+	<sentence id="s1" text="Over-expression of aspartyl (asparagynal)-b-hydroxylase (ASPH) contributes to hepatocellular carcinoma (HCC) invasiveness, but the role of ASPH hydroxylase activity in this process remains to be defined.">
+		<entity id="s1.e1" charOffset="57-61"
+			type="GENE" text="ASPH" ontology_id="444"/>
+		<entity id="s1.e2" charOffset="78-102"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="As such, the current study investigated the role of ASPH hydroxylase activity in downstream signalling of HCC tumorgenesis and, specifically, metastasis development.">
+		<entity id="s2.e1" charOffset="52-56"
+			type="GENE" text="ASPH" ontology_id="444"/>
+		<entity id="s2.e2" charOffset="110-115"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

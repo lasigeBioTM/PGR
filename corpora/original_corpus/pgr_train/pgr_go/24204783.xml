@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24204783">
+	<sentence id="s1" text="Similar to salubrinal--the phosphomimetic response to endoplasmic reticulum stress variant--S51D--increased sensitivity to radiation, and both abrogated radiation-induced increase in breast cancer type 1 susceptibility gene, thus implicating enhanced phosphorylation of eIF2a in modulation of DNA repair.">
+		<entity id="s1.e1" charOffset="42-82"
+			type="GO" text="response to endoplasmic reticulum stress" ontology_id="GO_0034976"/>
+		<entity id="s1.e2" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These experiments suggest that excessive phosphorylation of eIF2a decreases survival of cancer cells; making eIF2a a worthy target for drug development, with the potential to enhance the cytotoxic effects of established anti-neoplastic therapies and circumvent resistance to rapalogues and possibly to other drugs that inhibit upstream components of the regulation of cell growth pathway">
+		<entity id="s2.e1" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="354-379"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28556291">
+	<sentence id="s1" text="Genes with DMRs were involved in inflammatory response (neutrophil mediated immunity and positive regulation of cell proliferation), cancer (double-strand break repair via homologous recombination and ion transport), endocrine function (biological_process), and male fertility (IFT140, TESC, and oligodendrocyte development).">
+		<entity id="s1.e1" charOffset="56-84"
+			type="GO" text="neutrophil mediated immunity" ontology_id="GO_0002446"/>
+		<entity id="s1.e2" charOffset="89-130"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e3" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="141-196"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e5" charOffset="201-214"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<entity id="s1.e6" charOffset="237-255"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e7" charOffset="296-323"
+			type="GO" text="oligodendrocyte development" ontology_id="GO_0014003"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

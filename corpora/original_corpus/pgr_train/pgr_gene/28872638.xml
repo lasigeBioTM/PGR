@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28872638">
+	<sentence id="s1" text="As one of the first findings being confirmed by genome-wide association studies for the phenotype of panic disorder and agoraphobia, allelic variation in a gene coding for the glycine receptor beta subunit (GLRB) has recently been associated with increased neural fear network activation and enhanced acoustic startle reflexes.">
+		<entity id="s1.e1" charOffset="120-131"
+			type="HP" text="agoraphobia" ontology_id="HP_0000756"/>
+		<entity id="s1.e2" charOffset="207-211"
+			type="GENE" text="GLRB" ontology_id="2743"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29529044">
+	<sentence id="s1" text="A heterozygous mutation in the Wolfram syndrome type 1 gene (WFS1) causes autosomal dominant nonsyndromic hereditary hearing loss, negative regulation of transcription by RNA polymerase II/14/38, or Wolfram-like syndrome.">
+		<entity id="s1.e1" charOffset="117-129"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="131-188"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, negative regulation of transcription by RNA polymerase II variants were screened in a large series of Japanese hearing loss (HL) patients to clarify the prevalence and clinical characteristics of negative regulation of transcription by RNA polymerase II/14/38 and Wolfram-like syndrome.">
+		<entity id="s2.e1" charOffset="22-79"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="133-145"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e3" charOffset="218-275"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

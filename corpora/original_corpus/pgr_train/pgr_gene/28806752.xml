@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28806752">
+	<sentence id="s1" text="In human plasma, osmotic shock increased cBIN1 detection by enzyme-linked immunosorbent assay (ELISA), and cBIN1 level decreased in humans with heart failure, a condition with reduced cardiac muscle cBIN1, both of which support cBIN1 release in MPs from human hearts.">
+		<entity id="s1.e1" charOffset="42-46"
+			type="GENE" text="BIN1" ontology_id="274"/>
+		<entity id="s1.e2" charOffset="144-157"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29378965">
+	<sentence id="s1" text="Medulloblastoma (MB) is the most common malignant pediatric brain tumor, and overactivation of the Sonic Hedgehog (positive regulation of cell proliferation) signaling pathway, which requires the primary cilium, causes 30% of MBs.">
+		<entity id="s1.e1" charOffset="66-71"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="115-156"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="positive regulation of cell proliferation signaling mutations, like those that remove Patched1 (positive regulation of cholesterol efflux) or activate polyamine catabolic processothened (Smo), cause tumors dependent on the presence of cilia.">
+		<entity id="s2.e1" charOffset="0-41"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e2" charOffset="96-137"
+			type="GO" text="positive regulation of cholesterol efflux" ontology_id="GO_0010875"/>
+		<entity id="s2.e3" charOffset="139-144"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="151-178"
+			type="GO" text="polyamine catabolic process" ontology_id="GO_0006598"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e4"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we show that deletion of smoothened signaling pathway reduced positive regulation of cell proliferation signaling levels in the presence of oncogenic polyamine catabolic processA1, suggesting Arl13b acts downstream of known tumor resistance mechanisms.">
+		<entity id="s3.e1" charOffset="31-59"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<entity id="s3.e2" charOffset="46-87"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s3.e3" charOffset="134-161"
+			type="GO" text="polyamine catabolic process" ontology_id="GO_0006598"/>
+		<entity id="s3.e4" charOffset="184-189"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Importantly, loss of smoothened signaling pathway in a Ptch1-deleted mouse model of MB inhibited tumor formation.">
+		<entity id="s4.e1" charOffset="21-49"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<entity id="s4.e2" charOffset="97-102"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

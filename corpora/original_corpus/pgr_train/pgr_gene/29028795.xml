@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29028795">
+	<sentence id="s1" text="Inactivation of ALX4/Alx4 causes lacrimal gland aplasia in both human and mouse.">
+		<entity id="s1.e1" charOffset="16-20"
+			type="GENE" text="ALX4" ontology_id="60529"/>
+		<entity id="s1.e2" charOffset="21-25"
+			type="GENE" text="Alx4" ontology_id="60529"/>
+		<entity id="s1.e3" charOffset="33-55"
+			type="HP" text="lacrimal gland aplasia" ontology_id="HP_0007656"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

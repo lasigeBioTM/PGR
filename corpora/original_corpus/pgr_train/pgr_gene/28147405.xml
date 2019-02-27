@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28147405">
+	<sentence id="s1" text="In the third family, POD was observed in father and child with early onset cone-rod dystrophy and a novel autosomal recessive p.(W31*) homozygous mutation in ABCA4.">
+		<entity id="s1.e1" charOffset="106-125"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="158-163"
+			type="GENE" text="ABCA4" ontology_id="24"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29642179">
+	<sentence id="s1" text="We present the new observations of postoperative microcystic macular edema (MME) as a mild form of cystoid macular lesions (CMLs) after standard phacoemulsification.To report the incidence, risk factors, and pathophysiology of MME compared to conventional concept of pseudophakic cystoid macular edema (CME), we retrospectively reviewed patients* records.">
+		<entity id="s1.e1" charOffset="61-74"
+			type="HP" text="macular edema" ontology_id="HP_0040049"/>
+		<entity id="s1.e2" charOffset="76-79"
+			type="GENE" text="MME" ontology_id="4311"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Pseudophakic MMEs were more likely to have a history of diabetic retinopathy, epiretinal membrane, and eyes were not treated with topical NSAID.This study showed a wide clinical spectrum of CMLs.">
+		<entity id="s2.e1" charOffset="13-16"
+			type="GENE" text="MME" ontology_id="4311"/>
+		<entity id="s2.e2" charOffset="78-97"
+			type="HP" text="epiretinal membrane" ontology_id="HP_0100014"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

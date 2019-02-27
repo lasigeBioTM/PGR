@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29183726">
+	<sentence id="s1" text="In conclusion, our findings firstly revealed that negative regulation of cell proliferation switches chemotherapy drug-induced caspase-3 dependent apoptosis into pyroptosis in gastric cancer cells">
+		<entity id="s1.e1" charOffset="50-91"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e2" charOffset="184-190"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

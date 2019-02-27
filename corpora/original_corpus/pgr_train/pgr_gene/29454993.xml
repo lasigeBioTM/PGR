@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29454993">
+	<sentence id="s1" text="Mutations in the human TRNT1 gene encoding tRNA nucleotidyltransferase (tRNA-NT), an essential enzyme responsible for addition of the CCA (cytidine-cytidine-adenosine) sequence to the 3*-termini of tRNAs, have been linked to disease phenotypes including congenital sideroblastic anemia with B-cell immunodeficiency, periodic fevers and developmental delay (SIFD) or retinitis pigmentosa with erythrocyte microcytosis.">
+		<entity id="s1.e1" charOffset="23-28"
+			type="GENE" text="TRNT1" ontology_id="51095"/>
+		<entity id="s1.e2" charOffset="336-355"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="404-416"
+			type="HP" text="microcytosis" ontology_id="HP_0025066"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

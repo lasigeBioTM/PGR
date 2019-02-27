@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29693184">
+	<sentence id="s1" text="We examined differences in the expression levels of EGFR in GC and adjacent non-cancerous tissues.">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s1.e2" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

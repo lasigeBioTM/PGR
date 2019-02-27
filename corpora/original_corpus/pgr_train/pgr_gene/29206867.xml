@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29206867">
+	<sentence id="s1" text="The G-protein beta subunit 3 (GNB3) gene has been implicated in obesity risk; however, the molecular mechanism of GNB3-related disease is unknown.">
+		<entity id="s1.e1" charOffset="30-34"
+			type="GENE" text="GNB3" ontology_id="2784"/>
+		<entity id="s1.e2" charOffset="64-71"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="GNB3 duplication is responsible for a syndromic form of childhood obesity, and an activating DNA sequence variant (C825T) in GNB3 is also associated with obesity.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="GNB3" ontology_id="2784"/>
+		<entity id="s2.e2" charOffset="66-73"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To test the hypothesis that GNB3 overexpression causes obesity, we created bacterial artificial chromosome (BAC) transgenic mice that carry an extra copy of the human GNB3 risk allele.">
+		<entity id="s3.e1" charOffset="28-32"
+			type="GENE" text="GNB3" ontology_id="2784"/>
+		<entity id="s3.e2" charOffset="55-62"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Taken together, our study provides the first functional link between GNB3 and obesity, and presents insight into novel pathways that could be applied to combat obesity and type 2 diabetes">
+		<entity id="s4.e1" charOffset="69-73"
+			type="GENE" text="GNB3" ontology_id="2784"/>
+		<entity id="s4.e2" charOffset="78-85"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

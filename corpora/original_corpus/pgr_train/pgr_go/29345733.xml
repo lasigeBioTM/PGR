@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29345733">
+	<sentence id="s1" text="Well-established intrinsic mechanisms of cognitive decline include aging, apolipoprotein E (negative regulation of endothelial cell proliferation) e4 carrier status, protein targeting mutations, neuroinflammation, mitochondrial dysfunction, amyloid deposition, and demyelination.">
+		<entity id="s1.e1" charOffset="92-145"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s1.e2" charOffset="166-183"
+			type="GO" text="protein targeting" ontology_id="GO_0006605"/>
+		<entity id="s1.e3" charOffset="202-227"
+			type="HP" text="mitochondrial dysfunction" ontology_id="HP_0003287"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

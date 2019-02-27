@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28264803">
+	<sentence id="s1" text="Compared with the AA genotype, amino-acid betaine metabolic process (rs492842 and rs542852) GG and AG genotypes were associated with twice the riskof congenital heart defects (BFDP=0.74 and 0.79, respectively).">
+		<entity id="s1.e1" charOffset="31-67"
+			type="GO" text="amino-acid betaine metabolic process" ontology_id="GO_0006577"/>
+		<entity id="s1.e2" charOffset="150-174"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Single nucleotide polymorphism in infant genes in the folate (tetrahydrofolate metabolic process rs12438477), homocysteine (tRNA methylation rs6602178 and S-adenosylmethionine metabolic process rs11752813) and transsulfuration (GSTP1 rs7941395 and oxidation-reduction process rs7294985) pathways were also associated with an increased risk of congenital heart defects.Conclusions Common maternal or infant genetic variants in folate, homocysteine, or transsulfuration pathways are associated with an increased risk of certain congenital heart defects among children of women taking SSRIs during cardiogenesis">
+		<entity id="s2.e1" charOffset="62-96"
+			type="GO" text="tetrahydrofolate metabolic process" ontology_id="GO_0046653"/>
+		<entity id="s2.e2" charOffset="95-111"
+			type="GO" text="tRNA methylation" ontology_id="GO_0030488"/>
+		<entity id="s2.e3" charOffset="126-164"
+			type="GO" text="S-adenosylmethionine metabolic process" ontology_id="GO_0046500"/>
+		<entity id="s2.e4" charOffset="175-202"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s2.e5" charOffset="270-294"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="SSRI use was obtained from telephone interviews with mothers.Results For women who reported taking SSRIs periconceptionally, maternal glycine metabolic process (rs9909104) GG and AGgenotypes were associated with a 5.9 and 2.4 increased risk of select congenital heart defects in offspring, respectively, versus the AA genotype (BFDP=0.69).">
+		<entity id="s3.e1" charOffset="134-159"
+			type="GO" text="glycine metabolic process" ontology_id="GO_0006544"/>
+		<entity id="s3.e2" charOffset="251-275"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

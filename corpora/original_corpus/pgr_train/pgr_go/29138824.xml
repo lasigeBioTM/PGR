@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29138824">
+	<sentence id="s1" text="Patients who carry the collagen type IVA3 chain (activation of cysteine-type endopeptidase activity involved in apoptotic process) or glomerular basement membrane development mutations usually exhibit Alport Syndrome (AS), thin basement membrane neuropathy or familial hematuria (FH).">
+		<entity id="s1.e1" charOffset="49-129"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s1.e2" charOffset="134-174"
+			type="GO" text="glomerular basement membrane development" ontology_id="GO_0032836"/>
+		<entity id="s1.e3" charOffset="212-222"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Genomic DNA of the siblings affected by FH with biopsy-proven FSGS was analyzed, and their father was screened for 18 gene mutations associated with FSGS [nephrin, podocin, CD2 associated protein, phospholipase C e, actinin a 4, transient receptor potential cation channel subfamily C member 6, inverted formin, FH2 and WH2 domain containing, Wilms tumor 1, LIM homeobox transcription factor 1 b, laminin subunit b 2, laminin subunit b 3, galactosida a, integrin subunit b 4, scavenger receptor class B member 2, coenzyme Q2, decaprenyl diphosphate synthase subunit 2, mitochondrially encoded tRNA leucine 1 (UUA/G; TRNL1) and chromatin remodeling/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a like 1] using matrix-assisted laser desorption/ionization time-of-flight mass spectrometry technology.">
+		<entity id="s2.e1" charOffset="349-354"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="627-647"
+			type="GO" text="chromatin remodeling" ontology_id="GO_0006338"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

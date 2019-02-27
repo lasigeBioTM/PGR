@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25357075">
+	<sentence id="s1" text="In Mfrprd6 eyes, a significant 1.5- to 2.0-fold decrease was observed among transcripts of genes linked to retinal degeneration, including those involved in visual cycle (Rpe65, Lrat, Rgr), phototransduction (Pde6a, Guca1b, Rgs9), and photoreceptor disc morphogenesis (Rpgrip1 and Fscn2).">
+		<entity id="s1.e1" charOffset="107-127"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e2" charOffset="209-214"
+			type="GENE" text="P.e2a" ontology_id="5145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

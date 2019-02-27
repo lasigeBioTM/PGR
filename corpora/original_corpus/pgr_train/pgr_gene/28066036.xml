@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28066036">
+	<sentence id="s1" text="Idiopathic pulmonary fibrosis (IPF) is a complex, heterogeneous genetic disorder that is associated with rare and common sequence variants in many genes (MUC5B, SFTPC, SFTPA2, RTEL1, TERT, and hTR), 11 novel loci, and multiple emerging epigenetic and transcriptional profiles.">
+		<entity id="s1.e1" charOffset="50-63"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="154-159"
+			type="GENE" text="MUC5B" ontology_id="727897"/>
+		<entity id="s1.e3" charOffset="161-166"
+			type="GENE" text="SFTPC" ontology_id="6440"/>
+		<entity id="s1.e4" charOffset="168-174"
+			type="GENE" text="SFTPA2" ontology_id="729238"/>
+		<entity id="s1.e5" charOffset="176-181"
+			type="GENE" text="RTEL1" ontology_id="51750"/>
+		<entity id="s1.e6" charOffset="183-187"
+			type="GENE" text="TERT" ontology_id="7015"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the past 5 years, we have found that: 1) genetic risk variants play major and similar roles in the development of both familial and sporadic fibrotic idiopathic interstitial pneumonia, accounting for up to 35% of the risk of idiopathic interstitial pneumonia (a disease that was previously thought to be idiopathic); 2) a promoter variant in MUC5B rs35705950 is the strongest risk factor for the development of IIP and IPF; however, rs35705950 has a low penetrance; and 3) IPF is a complex genetic disease with 11 independent loci contributing to the development of this disease, pronounced changes in DNA methylation, and transcriptional subtypes.">
+		<entity id="s2.e1" charOffset="135-143"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="177-186"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<entity id="s2.e3" charOffset="345-350"
+			type="GENE" text="MUC5B" ontology_id="727897"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

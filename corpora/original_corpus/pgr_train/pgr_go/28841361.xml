@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28841361">
+	<sentence id="s1" text="Although DNA strand renaturationR2 has been linked to human cancer, its role in cervical cancer remains unknown.">
+		<entity id="s1.e1" charOffset="9-32"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s1.e2" charOffset="60-66"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we investigated the expression and clinical significance of DNA strand renaturationR2 in early-stage cervical cancer.">
+		<entity id="s2.e1" charOffset="75-98"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s2.e2" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="DNA strand renaturationR2 expression is significantly upregulated at both mRNA and protein levels in cervical cancer cells and tissues, compared with that in matched normal cervical cells and tissues, respectively.">
+		<entity id="s3.e1" charOffset="0-23"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s3.e2" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="DNA strand renaturationR2 overexpression is associated with increased risk of pelvic lymph node metastasis (PLNM, p = 0.001) and cancer relapse (p = 0.009).">
+		<entity id="s4.e1" charOffset="0-23"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s4.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Patients with high DNA strand renaturationR2 expression have a shorter overall survival (OS) and disease-free survival (DFS). p53R2 is an independent factor for predicting OS and DFS of cervical cancer patients.">
+		<entity id="s5.e1" charOffset="19-42"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s5.e2" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="We further show that DNA strand renaturationR2 is important for oncogenic growth, migration and invasion in cervical cancer cells.">
+		<entity id="s6.e1" charOffset="21-44"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s6.e2" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s7" text="In conclusion, our study demonstrates for the first time that DNA strand renaturationR2 protein is overexpressed in early-stage cervical cancer and unravels some unconventional oncogenic functions of p53R2. p53R2 may be a useful prognostic biomarker and therapeutic target for cervical cancer">
+		<entity id="s7.e1" charOffset="62-85"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s7.e2" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="true"/>
+	</sentence>
+</document>

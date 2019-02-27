@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28322503">
+	<sentence id="s1" text="Segregation analysis of heterozygous variants, related to hearing loss, identified by whole exome sequencing in the child (ILDR1: c.1159TAAAAC, SYNE4: c.313GAAAAC, and GPR98: c.18746TAAAAG) excluded them from being responsible for the hearing loss in the proposita.">
+		<entity id="s1.e1" charOffset="58-70"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="123-128"
+			type="GENE" text="ILDR1" ontology_id="286676"/>
+		<entity id="s1.e3" charOffset="144-149"
+			type="GENE" text="SYNE4" ontology_id="163183"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, we conclude that the novel splice-site variant identified in COL27A1 is the most likely cause for Steel syndrome in this family and that the hearing loss is part of this syndrome*s phenotype">
+		<entity id="s2.e1" charOffset="72-79"
+			type="GENE" text="COL27A1" ontology_id="85301"/>
+		<entity id="s2.e2" charOffset="152-164"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

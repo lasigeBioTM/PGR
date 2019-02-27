@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29621339">
+	<sentence id="s1" text="In this study, we investigated the functional significance of the expansion of myeloid-derived suppressor cell (MDSC)-like CD11b+Gr-1+ cells in response to the macrolide antibiotic clarithromycin (CAM) in mouse models of shock and post-influenza pneumococcal pneumonia as well as in humans.">
+		<entity id="s1.e1" charOffset="197-200"
+			type="GENE" text="CAM" ontology_id="889"/>
+		<entity id="s1.e2" charOffset="259-268"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CAM also improved survival in post-influenza, CAM-resistant pneumococcal pneumonia, with improved lung pathology as well as decreased interferon (IFN)-y and increased IL-10 levels.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="CAM" ontology_id="889"/>
+		<entity id="s2.e2" charOffset="73-82"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Adoptive transfer of CAM-treated CD11b+Gr-1+ cells protected mice from post-influenza pneumococcal pneumonia.">
+		<entity id="s3.e1" charOffset="21-24"
+			type="GENE" text="CAM" ontology_id="889"/>
+		<entity id="s3.e2" charOffset="99-108"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

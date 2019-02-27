@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30168069">
+	<sentence id="s1" text="p16 is an important tumor suppressor gene encoded by the INK4A/ARF/regulation of cyclin-dependent protein serine/threonine kinase activity gene locus that is conserved in humans, rodents, and canids.">
+		<entity id="s1.e1" charOffset="20-25"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="67-138"
+			type="GO" text="regulation of cyclin-dependent protein serine/threonine kinase activity" ontology_id="GO_0000079"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

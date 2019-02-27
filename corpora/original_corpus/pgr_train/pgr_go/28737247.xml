@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28737247">
+	<sentence id="s1" text="Oculocutaneous albinism type 4 (OCA4) in humans and similar phenotypes in many animal species are caused by variants in the sucrose transport gene, encoding a putative sugar transporter.">
+		<entity id="s1.e1" charOffset="15-23"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<entity id="s1.e2" charOffset="124-141"
+			type="GO" text="sucrose transport" ontology_id="GO_0015770"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In dog, two independent sucrose transport variants are known that cause oculocutaneous albinism in Doberman Pinschers and several small dog breeds respectively.">
+		<entity id="s2.e1" charOffset="24-41"
+			type="GO" text="sucrose transport" ontology_id="GO_0015770"/>
+		<entity id="s2.e2" charOffset="87-95"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We therefore suggest that sucrose transport:c.1287delC causes the observed oculocutaneous albinism in the affected Bullmastiff">
+		<entity id="s3.e1" charOffset="26-43"
+			type="GO" text="sucrose transport" ontology_id="GO_0015770"/>
+		<entity id="s3.e2" charOffset="90-98"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

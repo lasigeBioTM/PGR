@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29857855">
+	<sentence id="s1" text="Using whole-exome sequencing, we identified compound heterozygous positive regulation of mitochondrial translation variants in a 4-year-old patient with congenital lactic acidosis, severe myopathy, hearing loss, renal failure, and dysautonomia.">
+		<entity id="s1.e1" charOffset="66-114"
+			type="GO" text="positive regulation of mitochondrial translation" ontology_id="GO_0070131"/>
+		<entity id="s1.e2" charOffset="198-210"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

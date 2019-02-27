@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28576939">
+	<sentence id="s1" text="Mutations and deletions of the interleukin-1 receptor accessory protein like 1 (IL1RAPL1) gene, located on the X chromosome, are associated with intellectual disability (ID) and autism spectrum disorder (ASD).">
+		<entity id="s1.e1" charOffset="80-88"
+			type="GENE" text="IL1RAPL1" ontology_id="11141"/>
+		<entity id="s1.e2" charOffset="178-184"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

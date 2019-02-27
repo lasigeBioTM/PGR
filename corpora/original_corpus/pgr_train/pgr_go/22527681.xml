@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22527681">
+	<sentence id="s1" text="Exome and targeted sequencing has recently identified four new genes causing ataxia: peptide cross-linking, cation transport, biological_process, and rundataxin.">
+		<entity id="s1.e1" charOffset="77-83"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="85-106"
+			type="GO" text="peptide cross-linking" ontology_id="GO_0018149"/>
+		<entity id="s1.e3" charOffset="108-124"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s1.e4" charOffset="115-133"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

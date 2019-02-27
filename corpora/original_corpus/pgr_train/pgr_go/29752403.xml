@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29752403">
+	<sentence id="s1" text="Importantly, dysfunction in other family members leads to learning deficits (TRPC1/4/5) and ataxia (positive regulation of calcium ion transport into cytosol).">
+		<entity id="s1.e1" charOffset="92-98"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="100-157"
+			type="GO" text="positive regulation of calcium ion transport into cytosol" ontology_id="GO_0010524"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

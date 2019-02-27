@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26552302">
+	<sentence id="s1" text="This paper shows the significant difference in distribution of CRYGB promoter (G(-47)--AAAAA) genotypes in patients with cataract compared to the control group.">
+		<entity id="s1.e1" charOffset="63-68"
+			type="GENE" text="CRYGB" ontology_id="1419"/>
+		<entity id="s1.e2" charOffset="121-129"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

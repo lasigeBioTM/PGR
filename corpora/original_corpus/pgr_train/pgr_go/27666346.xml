@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27666346">
+	<sentence id="s1" text="The human tongue cancer cell line CAL27 was used to study the effects of establishment of epithelial cell polarity.">
+		<entity id="s1.e1" charOffset="17-23"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="73-114"
+			type="GO" text="establishment of epithelial cell polarity" ontology_id="GO_0090162"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results showed establishment of epithelial cell polarity overexpression in tongue squamous cell carcinoma, and the positive reaction was predominately located in the cytoplasm.">
+		<entity id="s2.e1" charOffset="19-60"
+			type="GO" text="establishment of epithelial cell polarity" ontology_id="GO_0090162"/>
+		<entity id="s2.e2" charOffset="86-109"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The findings of the present study suggest that establishment of epithelial cell polarity expression correlates with the development of tongue squamous cell carcinoma.">
+		<entity id="s3.e1" charOffset="47-88"
+			type="GO" text="establishment of epithelial cell polarity" ontology_id="GO_0090162"/>
+		<entity id="s3.e2" charOffset="142-165"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

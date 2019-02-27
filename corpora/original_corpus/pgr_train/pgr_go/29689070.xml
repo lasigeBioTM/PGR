@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29689070">
+	<sentence id="s1" text="Using a targeted sequencing skeletal dysplasia panel, the proband was found to be a compound heterozygote for two mutations in sulfate transmembrane transport, one novel mutation, p.Ser522Phe and the other, the common mutation, p.Arg279Trp.">
+		<entity id="s1.e1" charOffset="28-46"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e2" charOffset="127-158"
+			type="GO" text="sulfate transmembrane transport" ontology_id="GO_1902358"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

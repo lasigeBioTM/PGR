@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28742274">
+	<sentence id="s1" text="Hemangioblastomas (HBs) are uncommon tumors characterized by the presence of inactivating alterations in the von Hippel-Lindau (protein ubiquitination) gene in inherited cases and by infrequent somatic mutation in sporadic entities.">
+		<entity id="s1.e1" charOffset="128-150"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s1.e2" charOffset="194-210"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s1.e3" charOffset="214-222"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Genes harboring the most significant mutations include cell adhesion, protein monoubiquitination, biological_process, and protein ubiquitination in sporadic HBs, and regulation of transcription by RNA polymerase II, protein homooligomerization, protein-containing complex assembly, PNN, and killing of cells of other organism in familial HBs.">
+		<entity id="s2.e1" charOffset="55-68"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s2.e2" charOffset="70-96"
+			type="GO" text="protein monoubiquitination" ontology_id="GO_0006513"/>
+		<entity id="s2.e3" charOffset="83-105"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s2.e4" charOffset="98-116"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e5" charOffset="109-117"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e6" charOffset="166-214"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e7" charOffset="216-243"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<entity id="s2.e8" charOffset="245-280"
+			type="GO" text="protein-containing complex assembly" ontology_id="GO_0065003"/>
+		<entity id="s2.e9" charOffset="291-325"
+			type="GO" text="killing of cells of other organism" ontology_id="GO_0031640"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e5"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e5"
+		    e2="s2.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Five genes, including sensory perception of sound, G protein-coupled receptor signaling pathway, keratinocyte differentiation, proteolysis, and negative regulation of Wnt signaling pathway, have CNVs in the six patients with sporadic HBs, and three genes, including lipid transport, protein peptidyl-prolyl isomerization, and muscle organ development, have CNVs in the five patients with familial HBs.">
+		<entity id="s3.e1" charOffset="22-49"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s3.e2" charOffset="51-95"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s3.e3" charOffset="97-125"
+			type="GO" text="keratinocyte differentiation" ontology_id="GO_0030216"/>
+		<entity id="s3.e4" charOffset="116-124"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s3.e5" charOffset="127-138"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s3.e6" charOffset="144-188"
+			type="GO" text="negative regulation of Wnt signaling pathway" ontology_id="GO_0030178"/>
+		<entity id="s3.e7" charOffset="266-281"
+			type="GO" text="lipid transport" ontology_id="GO_0006869"/>
+		<entity id="s3.e8" charOffset="273-310"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<entity id="s3.e9" charOffset="316-340"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e6"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e4"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e4"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e4"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p9" e1="s3.e4"
+		    e2="s3.e16" pgr="false"/>
+		<pair id="s3.p10" e1="s3.e4"
+		    e2="s3.e16" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Genes harboring the most significant mutations include PCDH9, KLHL12, DCAF4L1, and VHL in sporadic HBs, and ZNF814, DLG2, RIMS1, cell adhesion, and MUC7 in familial HBs.">
+		<entity id="s4.e1" charOffset="90-98"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s4.e2" charOffset="129-142"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

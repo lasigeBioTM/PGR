@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29257344">
+	<sentence id="s1" text="The expression of uncarboxylated cartilage condensation (ucMGP), carboxylated MGP (cMGP), matrix metalloproteinase (MMP)-13, collagen type X, collagen type II, tumor necrosis factor (protein import into nucleus, translocation)-a and interleukin (IL)-1b were detected by ELISA, immunohistochemistry, reverse transcription-quantitative polymerase chain reaction and western blotting.">
+		<entity id="s1.e1" charOffset="33-55"
+			type="GO" text="cartilage condensation" ontology_id="GO_0001502"/>
+		<entity id="s1.e2" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="183-225"
+			type="GO" text="protein import into nucleus, translocation" ontology_id="GO_0000060"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

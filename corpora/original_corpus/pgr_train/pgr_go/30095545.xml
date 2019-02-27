@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30095545">
+	<sentence id="s1" text="Finally, twenty-four important hub genes (positive regulation of GTPase activity, IKZF1, positive regulation of cytokinesis, positive regulation of interleukin-12 biosynthetic process, B cell receptor signaling pathway, biological_process, chemotaxis, P2RY10, RHOH, desmosome assembly, aging, cilium assembly, peptide cross-linking, keratinization, nucleobase-containing compound metabolic process, establishment of skin barrier, IL1RN, desmosome assembly, ubiquitin-dependent protein catabolic process, aging, epithelial cell maturation, memory, cell-matrix adhesion and cell-matrix adhesion) were treated as valuable factors involved in the immune response and tumor cell development in tumorigenesis.">
+		<entity id="s1.e1" charOffset="42-80"
+			type="GO" text="positive regulation of GTPase activity" ontology_id="GO_0043547"/>
+		<entity id="s1.e2" charOffset="89-123"
+			type="GO" text="positive regulation of cytokinesis" ontology_id="GO_0032467"/>
+		<entity id="s1.e3" charOffset="96-154"
+			type="GO" text="positive regulation of interleukin-12 biosynthetic process" ontology_id="GO_0045084"/>
+		<entity id="s1.e4" charOffset="156-189"
+			type="GO" text="B cell receptor signaling pathway" ontology_id="GO_0050853"/>
+		<entity id="s1.e5" charOffset="191-209"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e6" charOffset="211-221"
+			type="GO" text="chemotaxis" ontology_id="GO_00062215"/>
+		<entity id="s1.e7" charOffset="237-255"
+			type="GO" text="desmosome assembly" ontology_id="GO_0002159"/>
+		<entity id="s1.e8" charOffset="257-262"
+			type="GO" text="aging" ontology_id="GO_0007568"/>
+		<entity id="s1.e9" charOffset="264-279"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e10" charOffset="281-302"
+			type="GO" text="peptide cross-linking" ontology_id="GO_0018149"/>
+		<entity id="s1.e11" charOffset="304-318"
+			type="GO" text="keratinization" ontology_id="GO_0031424"/>
+		<entity id="s1.e12" charOffset="307-312"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e13" charOffset="320-368"
+			type="GO" text="nucleobase-containing compound metabolic process" ontology_id="GO_0006139"/>
+		<entity id="s1.e14" charOffset="370-399"
+			type="GO" text="establishment of skin barrier" ontology_id="GO_0063706"/>
+		<entity id="s1.e15" charOffset="408-426"
+			type="GO" text="desmosome assembly" ontology_id="GO_0002159"/>
+		<entity id="s1.e16" charOffset="428-473"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s1.e17" charOffset="475-480"
+			type="GO" text="aging" ontology_id="GO_0007568"/>
+		<entity id="s1.e18" charOffset="482-508"
+			type="GO" text="epithelial cell maturation" ontology_id="GO_0002070"/>
+		<entity id="s1.e19" charOffset="510-516"
+			type="GO" text="memory" ontology_id="GO_0007613"/>
+		<entity id="s1.e20" charOffset="518-538"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e21" charOffset="543-563"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e13"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e14"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e15"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e16"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e17"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e18"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e19"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e20"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p19" e1="s1.e21"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e2"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+</document>

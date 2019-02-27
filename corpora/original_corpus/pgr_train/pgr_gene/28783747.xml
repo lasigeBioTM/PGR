@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28783747">
+	<sentence id="s1" text="Loss-of-function mutations of CASK are associated with intellectual disability and microcephaly with pontine and cerebellar hypoplasia (MICPCH), especially in females.">
+		<entity id="s1.e1" charOffset="30-34"
+			type="GENE" text="CASK" ontology_id="8573"/>
+		<entity id="s1.e2" charOffset="55-78"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="83-95"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="113-134"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our results not only identified the etiology of MICPCH in nearly all the investigated patients but also suggest that MICPCH is a genetically heterogeneous condition, in which CASK inactivating mutations appear to account for the majority of cases">
+		<entity id="s2.e1" charOffset="141-154"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="175-179"
+			type="GENE" text="CASK" ontology_id="8573"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

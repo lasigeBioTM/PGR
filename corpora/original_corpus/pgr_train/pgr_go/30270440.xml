@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30270440">
+	<sentence id="s1" text="The negative regulation of transcription by RNA polymerase II of superoxide metabolic process and ROS on cancer development is only partly explored.">
+		<entity id="s1.e1" charOffset="4-61"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="14-42"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s1.e3" charOffset="54-60"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recent research published in the Journal of Pathology showed that genetic depletion of any of the superoxide metabolic process subunits cytochrome complex assembly, Cybb, Ncf1, superoxide metabolic process and superoxide metabolic process reduced the formation of lung metastases following intravenous injection of murine tumor cells.">
+		<entity id="s2.e1" charOffset="98-126"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s2.e2" charOffset="136-163"
+			type="GO" text="cytochrome complex assembly" ontology_id="GO_0017004"/>
+		<entity id="s2.e3" charOffset="177-205"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s2.e4" charOffset="210-238"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s2.e5" charOffset="251-256"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These findings, along with the role of superoxide metabolic process in maintaining self-tolerance, imply that NOX2 is a targetable immune checkpoint in cancer.">
+		<entity id="s3.e1" charOffset="39-67"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s3.e2" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

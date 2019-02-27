@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30215753">
+	<sentence id="s1" text="Loss of function mutations in human Usb1 cause the rare disorder poikiloderma with neutropenia (PN), and result in U6 snRNAs with elongated 3* ends that are aberrantly adenylated.">
+		<entity id="s1.e1" charOffset="36-40"
+			type="GENE" text="Usb1" ontology_id="79650"/>
+		<entity id="s1.e2" charOffset="83-94"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

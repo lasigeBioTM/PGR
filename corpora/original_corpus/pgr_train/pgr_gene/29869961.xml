@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29869961">
+	<sentence id="s1" text="Purpose To compare digital mammography (DM) plus digital breast tomosynthesis (DBT) versus DM alone for breast cancer screening in the Reggio Emilia Tomosynthesis trial, a two-arm test-and-treat randomized controlled trial.">
+		<entity id="s1.e1" charOffset="79-82"
+			type="GENE" text="DBT" ontology_id="1629"/>
+		<entity id="s1.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="PPV of the recall was 13.0% and 24.1%, respectively (P = .0002); 72 of 80 cancers found in the DBT+DM arm and with complete DBT imaging were positive at least at one DBT-alone reading.">
+		<entity id="s2.e1" charOffset="74-80"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="95-98"
+			type="GENE" text="DBT" ontology_id="1629"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The greater detection rate for DM+DBT was stronger for ductal carcinoma in situ (+180%, 95% CI: 1, 665); it was notable for small and medium invasive cancers, but not for large ones (+94 [95% CI: 6, 254]; +122 [95% CI: 18, 316]; -12 [95% CI: -68, 141]; for invasive cancers AAAA 10 mm, 10-19 mm, and G 20 mm, respectively).">
+		<entity id="s3.e1" charOffset="34-37"
+			type="GENE" text="DBT" ontology_id="1629"/>
+		<entity id="s3.e2" charOffset="150-156"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

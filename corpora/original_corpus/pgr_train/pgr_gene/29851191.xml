@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29851191">
+	<sentence id="s1" text="Previously we implicated four missense variants in the X-linked THOC2 gene in intellectual disability (ID).">
+		<entity id="s1.e1" charOffset="64-69"
+			type="GENE" text="THOC2" ontology_id="57187"/>
+		<entity id="s1.e2" charOffset="78-101"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We present detailed clinical assessment and functional studies on a de novo variant in a female with an epileptic encephalopathy and discuss an additional four families with rare variants in THOC2 with supportive evidence for pathogenicity.">
+		<entity id="s2.e1" charOffset="114-128"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s2.e2" charOffset="191-196"
+			type="GENE" text="THOC2" ontology_id="57187"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

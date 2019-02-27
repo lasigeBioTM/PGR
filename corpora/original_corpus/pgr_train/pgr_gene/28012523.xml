@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28012523">
+	<sentence id="s1" text="Bartter syndrome type IV, characterized by salt-losing nephropathies and sensorineural deafness, is caused by mutations of BSND or simultaneous mutations of both CLCNKA and CLCNKB.">
+		<entity id="s1.e1" charOffset="87-95"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="123-127"
+			type="GENE" text="BSND" ontology_id="7809"/>
+		<entity id="s1.e3" charOffset="162-168"
+			type="GENE" text="CLCNKA" ontology_id="1187"/>
+		<entity id="s1.e4" charOffset="173-179"
+			type="GENE" text="CLCNKB" ontology_id="1188"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="GJB2 is the primary causative gene for non-syndromic sensorineural deafness and associated with several syndromic sensorineural deafness.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s2.e2" charOffset="67-75"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results indicated that the homozygous mutation c.22C AAAA T was the key genetic reason for the proband, and a digenic effect of BSND and GJB2 might contributed to sensorineural deafness.">
+		<entity id="s3.e1" charOffset="132-136"
+			type="GENE" text="BSND" ontology_id="7809"/>
+		<entity id="s3.e2" charOffset="181-189"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

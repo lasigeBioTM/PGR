@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30166519">
+	<sentence id="s1" text="positive regulation of gene expression activation, often due to genetic amplification, represents the driving oncogenic event for a number of human tumors, conferring apoptotic process prognosis and predicting very poor responses even to the most aggressive therapeutic protocols.">
+		<entity id="s1.e1" charOffset="0-38"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e2" charOffset="148-153"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="167-184"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Intriguingly, double-strand break repair via homologous recombination is highly expressed and predicts bad prognosis in positive regulation of gene expression-amplified neuroblastoma.">
+		<entity id="s2.e1" charOffset="14-69"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e2" charOffset="120-158"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s2.e3" charOffset="135-148"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Encapsulation of mirin in nanoparticles allowed its use on positive regulation of gene expression-amplified neuroblastoma xenografts in vivo, which resulted in a sharp impairment of tumor growth, associated with DDR activation, p53 accumulation, and cell death.">
+		<entity id="s3.e1" charOffset="59-97"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s3.e2" charOffset="108-121"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s3.e3" charOffset="182-187"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Therefore, we propose that double-strand break repair via homologous recombination inhibition might be an effective strategy to treat positive regulation of gene expression-amplified and DNA strand renaturation wild-type neuroblastoma, and suggest that targeting replication stress with appropriate tools should be further exploited to tackle positive regulation of gene expression-driven tumors">
+		<entity id="s4.e1" charOffset="27-82"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s4.e2" charOffset="134-172"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s4.e3" charOffset="167-180"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s4.e4" charOffset="187-210"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s4.e5" charOffset="301-306"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e4"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e5" pgr="true"/>
+		<pair id="s4.p5" e1="s4.e2"
+		    e2="s4.e8" pgr="true"/>
+		<pair id="s4.p6" e1="s4.e5"
+		    e2="s4.e8" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27387124">
+	<sentence id="s1" text="Co-mutations of nucleosome disassembly, negative regulation of epidermal growth factor-activated receptor activity and MLL2 introduced by CRISPR/Cas9 significantly enhance the capabilities of self-renewal and tumor-initiating of BCNSCs.">
+		<entity id="s1.e1" charOffset="16-38"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s1.e2" charOffset="24-98"
+			type="GO" text="negative regulation of epidermal growth factor-activated receptor activity" ontology_id="GO_0007175"/>
+		<entity id="s1.e3" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

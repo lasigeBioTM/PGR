@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28887715">
+	<sentence id="s1" text="A large tissue microarray of lower grade glioma (WHO grades II-III, n = 19 patients) and glioblastoma (GBM) (WHO grade IV, n = 50 patients) was stained for positive regulation of cell-matrix adhesion.">
+		<entity id="s1.e1" charOffset="89-101"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<entity id="s1.e2" charOffset="156-199"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

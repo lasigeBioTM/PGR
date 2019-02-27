@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28600779">
+	<sentence id="s1" text="Two of these genes were independently mutated in more than one family with similar phenotypes, which substantiates their link to human disease (regulation of membrane repolarization in intellectual disability and ubiquitin-dependent protein catabolic process in early dementia).">
+		<entity id="s1.e1" charOffset="144-181"
+			type="GO" text="regulation of membrane repolarization" ontology_id="GO_0060306"/>
+		<entity id="s1.e2" charOffset="185-208"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="213-258"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

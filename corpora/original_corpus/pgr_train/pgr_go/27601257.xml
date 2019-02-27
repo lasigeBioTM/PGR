@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27601257">
+	<sentence id="s1" text="The deficiency of 3-methycrotonyl-CoA carboxylase (3-establishment of protein localization; EC 6.4.1.4) is an autosomal recessive organic aciduria that is included in the newborn screening programs of several countries.">
+		<entity id="s1.e1" charOffset="53-90"
+			type="GO" text="establishment of protein localization" ontology_id="GO_0045184"/>
+		<entity id="s1.e2" charOffset="110-129"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="130-146"
+			type="HP" text="organic aciduria" ontology_id="HP_0001992"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

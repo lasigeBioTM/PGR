@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29390243">
+	<sentence id="s1" text="Bardet-Biedl Syndrome (BBS) is a rare multi-systemic disease with autosomal recessive transmission.">
+		<entity id="s1.e1" charOffset="10-12"
+			type="GENE" text="dl" ontology_id="10913"/>
+		<entity id="s1.e2" charOffset="23-26"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<entity id="s1.e3" charOffset="66-85"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Currently, 21 genes (BBS1-21) present on different chromosomes have been mapped: these genes are responsible for BBS phenotypes and they show a great heterogeneity of mutations.The most common genes are BBS1 (locus 11q13) and BBS10.We show here the case of a 50 year old patient with BBS.">
+		<entity id="s2.e1" charOffset="21-25"
+			type="GENE" text="BBS1" ontology_id="582"/>
+		<entity id="s2.e2" charOffset="113-116"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<entity id="s2.e3" charOffset="150-163"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

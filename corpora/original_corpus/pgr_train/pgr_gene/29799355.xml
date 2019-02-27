@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29799355">
+	<sentence id="s1" text="Higher gene expression of the inositol 1,4,5-trisphosphate receptor 2 gene (ITPR2), encoding the IP3 receptor 2 (IP3R2), was detected in sporadic ALS patients.">
+		<entity id="s1.e1" charOffset="76-81"
+			type="GENE" text="ITPR2" ontology_id="3709"/>
+		<entity id="s1.e2" charOffset="137-145"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

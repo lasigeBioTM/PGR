@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26876013">
+	<sentence id="s1" text="Here we show that the microphthalmia-associated transcription factor, positive regulation of gene expression, which plays a central role in the development and function of carbohydrate metabolic process cells, regulates the expression of two visual cycle genes, retinoid metabolic process which encodes retinaldehyde binding protein-1 (retinoid metabolic process), and retinoid metabolic process, which encodes retinol dehydrogenase-5 (retinoid metabolic process).">
+		<entity id="s1.e1" charOffset="22-36"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e2" charOffset="70-108"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e3" charOffset="138-168"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_0005975"/>
+		<entity id="s1.e4" charOffset="262-288"
+			type="GO" text="retinoid metabolic process" ontology_id="GO_0001523"/>
+		<entity id="s1.e5" charOffset="336-362"
+			type="GO" text="retinoid metabolic process" ontology_id="GO_0001523"/>
+		<entity id="s1.e6" charOffset="369-395"
+			type="GO" text="retinoid metabolic process" ontology_id="GO_0001523"/>
+		<entity id="s1.e7" charOffset="436-462"
+			type="GO" text="retinoid metabolic process" ontology_id="GO_0001523"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Third, the retinal degeneration associated with the disruption of the visual cycle in positive regulation of gene expression-deficient mice can be partially corrected both structurally and functionally by an exogenous supply of 9-cis-retinal.">
+		<entity id="s2.e1" charOffset="11-31"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e2" charOffset="86-124"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

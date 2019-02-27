@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29266774">
+	<sentence id="s1" text="Occurring in the sinonasal area of middle-aged patients, SNS is a locally aggressive tumor harboring in 90% of cases recurrent gene fusions involving the positive regulation of transcription, DNA-templated gene, in which the chimeric transcription factor induces an aberrant dual myogenic and neural phenotype.">
+		<entity id="s1.e1" charOffset="85-90"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="154-205"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report an unusual oropharyngeal monomorphic spindle cell sarcoma in a 53-year-old man that revealed a novel positive regulation of transcription by RNA polymerase II-MKL2 gene fusion by RNA sequencing with the Illumina TruSight RNA Fusion Panel.">
+		<entity id="s2.e1" charOffset="66-73"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s2.e2" charOffset="117-174"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

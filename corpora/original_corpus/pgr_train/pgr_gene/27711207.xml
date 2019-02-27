@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27711207">
+	<sentence id="s1" text="We hypothesized that newly identified genetic risk factors for the general African American population could also impact laboratory biomarkers known to contribute to the clinical disease expression of SCA, including variants influencing the white blood cell count and the development of albuminuria and abnormal glomerular filtration rate.">
+		<entity id="s1.e1" charOffset="114-120"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="287-298"
+			type="HP" text="albuminuria" ontology_id="HP_0012592"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The APOL1 G1 polymorphism, an identified risk factor for non-diabetic renal disease, was associated with albuminuria.">
+		<entity id="s2.e1" charOffset="4-9"
+			type="GENE" text="APOL1" ontology_id="8542"/>
+		<entity id="s2.e2" charOffset="105-116"
+			type="HP" text="albuminuria" ontology_id="HP_0012592"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

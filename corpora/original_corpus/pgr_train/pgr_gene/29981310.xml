@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29981310">
+	<sentence id="s1" text="It is associated with multiple genetic and environmental risk factors, including mutations in the genes encoding signaling molecules in the sonic hedgehog (Shh) pathway, which are risk factors for cleft palate in both humans and mice.">
+		<entity id="s1.e1" charOffset="156-159"
+			type="GENE" text="Shh" ontology_id="6469"/>
+		<entity id="s1.e2" charOffset="197-209"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Collectively, our data illustrate that persistent Hh signaling in the palatal epithelium contributes to the etiology and pathogenesis of submucous cleft palate through its interaction with a p63/Irf6-dependent biological regulatory loop and through a p63-induced cell adhesion network">
+		<entity id="s2.e1" charOffset="147-159"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<entity id="s2.e2" charOffset="191-194"
+			type="GENE" text="p63" ontology_id="8626"/>
+		<entity id="s2.e3" charOffset="195-199"
+			type="GENE" text="Irf6" ontology_id="3664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28498422">
+	<sentence id="s1" text="The effect of garlic extract in cancer prevention was evaluated using the T24 BC BALB/C-nude mouse xenograft model.">
+		<entity id="s1.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="88-92"
+			type="GENE" text="nude" ontology_id="54820"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Protein kinase A (PKA) signaling pathway including AKAP12, RDX, and RAB13 genes were identified as potential mechanisms for the activity of garlic extract in cancer prevention.">
+		<entity id="s2.e1" charOffset="51-57"
+			type="GENE" text="AKAP12" ontology_id="9590"/>
+		<entity id="s2.e2" charOffset="59-62"
+			type="GENE" text="RDX" ontology_id="5962"/>
+		<entity id="s2.e3" charOffset="158-164"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

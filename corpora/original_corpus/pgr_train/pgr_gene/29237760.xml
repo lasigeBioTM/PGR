@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29237760">
+	<sentence id="s1" text="Bidirectional sequencing of exons of ATAD1, the gene encoding Thorase, in a cohort of patients with schizophrenia and healthy controls revealed rare Thorase variants.">
+		<entity id="s1.e1" charOffset="37-42"
+			type="GENE" text="ATAD1" ontology_id="84896"/>
+		<entity id="s1.e2" charOffset="100-113"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28086241">
+	<sentence id="s1" text="The present study identified a functional long non-coding RNA, SLC6A9-5:2, which was involved in the radioactive therapy resistance of thyroid cancer.">
+		<entity id="s1.e1" charOffset="63-69"
+			type="GENE" text="SLC6A9" ontology_id="6536"/>
+		<entity id="s1.e2" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We demonstrated that SLC6A9-5:2 was remarkably downregulated in 131I-resistant thyroid cancer cell lines and 131I-insensitive patients and was positively correlated with Poly (ADP-ribose) polymerase 1 (PARP-1) expression and its activation.">
+		<entity id="s2.e1" charOffset="21-27"
+			type="GENE" text="SLC6A9" ontology_id="6536"/>
+		<entity id="s2.e2" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="202-206"
+			type="GENE" text="PARP" ontology_id="142"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="After downregulating SLC6A9 or blocking PARP-1 artificially, the sensitive thyroid cancer cells mostly displayed a tolerant phenotype under 131I exposure.">
+		<entity id="s3.e1" charOffset="21-27"
+			type="GENE" text="SLC6A9" ontology_id="6536"/>
+		<entity id="s3.e2" charOffset="40-44"
+			type="GENE" text="PARP" ontology_id="142"/>
+		<entity id="s3.e3" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, SLC6A9-5:2 overexpression was positively correlated with PARP-1 mRNA and protein levels, which restored the sensitivity of resistant thyroid cancer cells.">
+		<entity id="s4.e1" charOffset="13-19"
+			type="GENE" text="SLC6A9" ontology_id="6536"/>
+		<entity id="s4.e2" charOffset="70-74"
+			type="GENE" text="PARP" ontology_id="142"/>
+		<entity id="s4.e3" charOffset="154-160"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The present study further revealed that cancer cell death was primarily caused by ATP exhaustion in excessive DNA repair with high PARP-1 activity.">
+		<entity id="s5.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="131-135"
+			type="GENE" text="PARP" ontology_id="142"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In patients with thyroid cancer, a positive correlation between SLC6A9-5:2 and PARP-1 was identified, and low SLC6A9-5:2 expression was associated with a worse prognosis of papillary thyroid carcinoma.">
+		<entity id="s6.e1" charOffset="25-31"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="64-70"
+			type="GENE" text="SLC6A9" ontology_id="6536"/>
+		<entity id="s6.e3" charOffset="79-83"
+			type="GENE" text="PARP" ontology_id="142"/>
+		<entity id="s6.e4" charOffset="173-200"
+			type="HP" text="papillary thyroid carcinoma" ontology_id="HP_0002895"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p4" e1="s6.e4"
+		    e2="s6.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29167384">
+	<sentence id="s1" text="Mutations in three subunits (cilium-dependent cell motility, DRC2/regulation of cilium movement, DRC4/GAS8) have been linked to defects in ciliary motility in humans and lead to a ciliopathy known as primary ciliary dyskinesia (PCD).">
+		<entity id="s1.e1" charOffset="29-59"
+			type="GO" text="cilium-dependent cell motility" ontology_id="GO_0060285"/>
+		<entity id="s1.e2" charOffset="66-95"
+			type="GO" text="regulation of cilium movement" ontology_id="GO_0003352"/>
+		<entity id="s1.e3" charOffset="185-203"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

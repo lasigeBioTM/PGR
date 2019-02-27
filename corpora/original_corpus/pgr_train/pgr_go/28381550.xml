@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28381550">
+	<sentence id="s1" text="Bartter syndrome type 3 is a clinically heterogeneous hereditary salt-losing tubulopathy caused by mutations of the chloride voltage-gated channel Kb gene (excretion), which encodes the positive regulation of cell proliferation-Kb chloride channel involved in NaCl reabsorption in the renal tubule.">
+		<entity id="s1.e1" charOffset="40-53"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="156-165"
+			type="GO" text="excretion" ontology_id="GO_0007588"/>
+		<entity id="s1.e3" charOffset="186-227"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

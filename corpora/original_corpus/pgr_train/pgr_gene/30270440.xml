@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30270440">
+	<sentence id="s1" text="The impact of NOX2 and ROS on cancer development is only partly explored.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="14-18"
+			type="GENE" text="NOX2" ontology_id="1536"/>
+		<entity id="s1.e3" charOffset="30-36"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recent research published in the Journal of Pathology showed that genetic depletion of any of the NOX2 subunits Cyba, Cybb, Ncf1, Ncf2 and Ncf4 reduced the formation of lung metastases following intravenous injection of murine tumor cells.">
+		<entity id="s2.e1" charOffset="98-102"
+			type="GENE" text="NOX2" ontology_id="1536"/>
+		<entity id="s2.e2" charOffset="112-116"
+			type="GENE" text="Cyba" ontology_id="1535"/>
+		<entity id="s2.e3" charOffset="130-134"
+			type="GENE" text="Ncf2" ontology_id="4688"/>
+		<entity id="s2.e4" charOffset="139-143"
+			type="GENE" text="Ncf4" ontology_id="4689"/>
+		<entity id="s2.e5" charOffset="227-232"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These findings, along with the role of NOX2 in maintaining self-tolerance, imply that NOX2 is a targetable immune checkpoint in cancer.">
+		<entity id="s3.e1" charOffset="39-43"
+			type="GENE" text="NOX2" ontology_id="1536"/>
+		<entity id="s3.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

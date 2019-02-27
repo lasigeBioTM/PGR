@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30247721">
+	<sentence id="s1" text="Mutations in MGME1-coding gene lead to severe mitochondrial syndromes characterized by external ophthalmoplegia, emaciation, and respiratory failure in humans.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="MGME1" ontology_id="92667"/>
+		<entity id="s1.e2" charOffset="96-111"
+			type="HP" text="ophthalmoplegia" ontology_id="HP_0000602"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

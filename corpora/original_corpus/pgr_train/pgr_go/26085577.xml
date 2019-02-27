@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26085577">
+	<sentence id="s1" text="Mutations in AP5Z1, encoding a subunit of the AP-5 complex, have been reported to cause hereditary spastic paraplegia (HSP), although their negative regulation of transcription by RNA polymerase II at the cellular level has not been assessed.">
+		<entity id="s1.e1" charOffset="99-117"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e2" charOffset="140-197"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28638143">
+	<sentence id="s1" text="We report brothers with optic neuropathy who had novel mutations in the regulation of dendrite development gene.">
+		<entity id="s1.e1" charOffset="30-40"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="72-106"
+			type="GO" text="regulation of dendrite development" ontology_id="GO_0050773"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

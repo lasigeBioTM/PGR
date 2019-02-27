@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28686226">
+	<sentence id="s1" text="In DLBCL patients, overexpression of phosphatidylcholine biosynthetic process was in parallel with an increase in tumor negative regulation of transcription by RNA polymerase II, as well as a decrease in serum choline metabolite phosphatidylcholine levels and an International Prognostic Index, indicating intermediate-high or high risk.">
+		<entity id="s1.e1" charOffset="37-77"
+			type="GO" text="phosphatidylcholine biosynthetic process" ontology_id="GO_0006656"/>
+		<entity id="s1.e2" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="86-143"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

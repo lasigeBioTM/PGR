@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24290379">
+	<sentence id="s1" text="Here, we report that these defects can occur independently of albinism in people with recessive mutations in the putative glutamine transporter gene SLC38A8.">
+		<entity id="s1.e1" charOffset="62-70"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<entity id="s1.e2" charOffset="149-156"
+			type="GENE" text="SLC38A8" ontology_id="146167"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

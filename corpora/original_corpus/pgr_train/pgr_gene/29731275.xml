@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29731275">
+	<sentence id="s1" text="To date, there are no reports of symptomatic improvement in CTX related ataxia following treatment with Riluzole.">
+		<entity id="s1.e1" charOffset="60-63"
+			type="GENE" text="CTX" ontology_id="1593"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We report the case of a 45 year old woman diagnosed with CTX-related cerebellar ataxia.">
+		<entity id="s2.e1" charOffset="57-60"
+			type="GENE" text="CTX" ontology_id="1593"/>
+		<entity id="s2.e2" charOffset="80-86"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Thus, in addition to the standard therapy with CDCA, the addition of Riluzole may have some therapeutic benefits for ataxia caused by CTX.">
+		<entity id="s3.e1" charOffset="117-123"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s3.e2" charOffset="134-137"
+			type="GENE" text="CTX" ontology_id="1593"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

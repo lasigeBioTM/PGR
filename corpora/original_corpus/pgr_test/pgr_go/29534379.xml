@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29534379">
+	<sentence id="s1" text="One of the mechanisms of the growth inhibitory effect is probably that sphingosine-1-phosphate receptor signaling pathway inhibition lower the phosphorylation level of extracellular regulated protein kinase 1/2 (ERK1/2) pathway, which prevent the transformation of ovarian cancer cells from phase G(1) to S">
+		<entity id="s1.e1" charOffset="71-121"
+			type="GO" text="sphingosine-1-phosphate receptor signaling pathway" ontology_id="GO_0003376"/>
+		<entity id="s1.e2" charOffset="273-279"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Conclusions: The growth of ovarian cancer cells could be decreased by sphingosine-1-phosphate receptor signaling pathway inhibition in vitro and in vivo.">
+		<entity id="s2.e1" charOffset="35-41"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="70-120"
+			type="GO" text="sphingosine-1-phosphate receptor signaling pathway" ontology_id="GO_0003376"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

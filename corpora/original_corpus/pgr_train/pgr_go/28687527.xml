@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28687527">
+	<sentence id="s1" text="To the best of our knowledge, this is the first report describing sporadic XLID with de novo peptidyl-L-cysteine S-palmitoylation mutation identified by targeted next-generation sequencing">
+		<entity id="s1.e1" charOffset="66-74"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="93-129"
+			type="GO" text="peptidyl-L-cysteine S-palmitoylation" ontology_id="GO_0018230"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27415467">
+	<sentence id="s1" text="Developmental exposure to endocrine-disrupting chemicals (EDCs), 17b-estradiol-3-benzoate (EB) and bisphenol A (response to wounding), increases susceptibility to prostate cancer (PCa) in rodent models.">
+		<entity id="s1.e1" charOffset="112-132"
+			type="GO" text="response to wounding" ontology_id="GO_0009611"/>
+		<entity id="s1.e2" charOffset="172-178"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Cell-based assays, using 5-aza-cytidine-treated normal (NbE-1) and cancerous (AIT) rat prostate cells, added evidence of DNA methylation-mediated gene expression of 6 genes (exception: biological_process).">
+		<entity id="s2.e1" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="185-203"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

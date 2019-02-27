@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29408595">
+	<sentence id="s1" text="The roles of STX3 in human breast cancer remains elusive.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="STX3" ontology_id="6809"/>
+		<entity id="s1.e2" charOffset="34-40"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we report that STX3 acts as an oncogenic protein in human breast cancer.">
+		<entity id="s2.e1" charOffset="20-24"
+			type="GENE" text="STX3" ontology_id="6809"/>
+		<entity id="s2.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The mRNA and protein levels of STX3 are significantly up-regulated in human breast cancer compared with matched adjacent non-cancer tissues.">
+		<entity id="s3.e1" charOffset="31-35"
+			type="GENE" text="STX3" ontology_id="6809"/>
+		<entity id="s3.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The up-regulation of STX3 is correlated with high disease stage and predicts overall and disease-free survival in patients with breast cancer.">
+		<entity id="s4.e1" charOffset="21-25"
+			type="GENE" text="STX3" ontology_id="6809"/>
+		<entity id="s4.e2" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Lentivirus-mediated knockdown of STX3 represses in vitro proliferation and colony formation and in vivo growth of breast cancer cells, whereas STX3 overexpression promotes the growth of breast cancer cells in vitro and in vivo.">
+		<entity id="s5.e1" charOffset="33-37"
+			type="GENE" text="STX3" ontology_id="6809"/>
+		<entity id="s5.e2" charOffset="121-127"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="We find that STX3 promotes the proliferation of breast cancer cells by increasing the activation of the Akt-mTOR signaling, and Akt inhibitor Ipatasertib or MK-2206 represses STX3 effects on the growth of breast cancer cells.">
+		<entity id="s6.e1" charOffset="13-17"
+			type="GENE" text="STX3" ontology_id="6809"/>
+		<entity id="s6.e2" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="104-107"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<entity id="s6.e4" charOffset="108-112"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s6.e5" charOffset="157-159"
+			type="GENE" text="MK" ontology_id="4192"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="true"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p4" e1="s6.e2"
+		    e2="s6.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Therefore, STX3 promotes the growth of breast cancer cells by regulating the PTEN-PI3K-Akt-mTOR signaling">
+		<entity id="s7.e1" charOffset="11-15"
+			type="GENE" text="STX3" ontology_id="6809"/>
+		<entity id="s7.e2" charOffset="46-52"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="77-81"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s7.e4" charOffset="82-86"
+			type="GENE" text="PI3K" ontology_id="5290"/>
+		<entity id="s7.e5" charOffset="87-90"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<entity id="s7.e6" charOffset="91-95"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e2"
+		    e2="s7.e5" pgr="true"/>
+		<pair id="s7.p3" e1="s7.e2"
+		    e2="s7.e6" pgr="false"/>
+		<pair id="s7.p4" e1="s7.e2"
+		    e2="s7.e3" pgr="true"/>
+		<pair id="s7.p5" e1="s7.e2"
+		    e2="s7.e4" pgr="true"/>
+	</sentence>
+</document>

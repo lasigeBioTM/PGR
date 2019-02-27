@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28576939">
+	<sentence id="s1" text="Mutations and deletions of the interleukin-1 receptor accessory protein like 1 (regulation of postsynapse organization) gene, located on the X chromosome, are associated with intellectual disability (ID) and autism spectrum disorder (ASD).">
+		<entity id="s1.e1" charOffset="80-118"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<entity id="s1.e2" charOffset="175-198"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we show that the X-linked intellectual disability protein interleukin-1 receptor accessory protein like 1 (regulation of postsynapse organization) regulates dendrite morphology of mice hippocampal neurons and induced pluripotent stem cell-derived neurons from a patient carrying a null mutation of IL1RAPL1 gene.">
+		<entity id="s2.e1" charOffset="31-54"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e2" charOffset="112-150"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

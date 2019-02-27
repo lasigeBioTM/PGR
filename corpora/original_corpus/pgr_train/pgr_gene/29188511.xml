@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29188511">
+	<sentence id="s1" text="Therefore, the CRB1 gene is a key target in the fight against blindness.">
+		<entity id="s1.e1" charOffset="15-19"
+			type="GENE" text="CRB1" ontology_id="23418"/>
+		<entity id="s1.e2" charOffset="62-71"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

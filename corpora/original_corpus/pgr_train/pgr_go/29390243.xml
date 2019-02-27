@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29390243">
+	<sentence id="s1" text="Bardet-Biepositive regulation of I-kappaB kinase/NF-kappaB signaling Syndrome (visual perception) is a rare multi-systemic disease with autosomal recessive transmission.">
+		<entity id="s1.e1" charOffset="10-68"
+			type="GO" text="positive regulation of I-kappaB kinase/NF-kappaB signaling" ontology_id="GO_0043123"/>
+		<entity id="s1.e2" charOffset="79-96"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e3" charOffset="122-141"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Currently, 21 genes (visual perception1-21) present on different chromosomes have been mapped: these genes are responsible for BBS phenotypes and they show a great heterogeneity of mutations.The most common genes are retina homeostasis (locus 11q13) and BBS10.We show here the case of a 50 year old patient with BBS.">
+		<entity id="s2.e1" charOffset="21-38"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e2" charOffset="164-177"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e3" charOffset="217-235"
+			type="GO" text="retina homeostasis" ontology_id="GO_0001895"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

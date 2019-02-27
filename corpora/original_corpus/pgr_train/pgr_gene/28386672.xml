@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28386672">
+	<sentence id="s1" text="Methods of diagnosing malignant pheochromocytoma (PCC) or paraganglioma (PGL) are needed.">
+		<entity id="s1.e1" charOffset="58-71"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e2" charOffset="73-76"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

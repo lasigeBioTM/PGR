@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30167850">
+	<sentence id="s1" text="Heterozygous de novo NALCN missense variants in the S5/S6 pore-forming segments lead to congenital contractures of the limbs and face, hypotonia, and developmental delay (CLIFAHDD, OMIM 616266) with some clinical overlap.">
+		<entity id="s1.e1" charOffset="21-26"
+			type="GENE" text="NALCN" ontology_id="259232"/>
+		<entity id="s1.e2" charOffset="52-54"
+			type="GENE" text="S5" ontology_id="6193"/>
+		<entity id="s1.e3" charOffset="55-57"
+			type="GENE" text="S6" ontology_id="5704"/>
+		<entity id="s1.e4" charOffset="99-111"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s1.e5" charOffset="150-169"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we present detailed clinical information of 16 novel individuals with biallelic NALCN variants, 1 individual with a heterozygous de novo NALCN missense variant and an interesting clinical phenotype without contractures, and 12 individuals with biallelic UNC80 variants.">
+		<entity id="s2.e1" charOffset="95-100"
+			type="GENE" text="NALCN" ontology_id="259232"/>
+		<entity id="s2.e2" charOffset="221-233"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s2.e3" charOffset="269-274"
+			type="GENE" text="UNC80" ontology_id="285175"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

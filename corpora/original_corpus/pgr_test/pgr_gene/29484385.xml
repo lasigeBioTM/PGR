@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29484385">
+	<sentence id="s1" text="In this study, we reported that SOX3 expression was upregulated in osteosarcoma tissues compared with non-cancerous bone cyst tissues.">
+		<entity id="s1.e1" charOffset="32-36"
+			type="GENE" text="SOX3" ontology_id="6658"/>
+		<entity id="s1.e2" charOffset="67-79"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

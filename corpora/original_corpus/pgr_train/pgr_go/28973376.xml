@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28973376">
+	<sentence id="s1" text="Biallelic mutations in the photoreceptor-expressed aryl hydrocarbon receptor interacting protein-like 1 (protein farnesylation) are associated with autosomal recessive Leber congenital amaurosis (LCA), the most severe form of inherited retinopathy in early childhood.">
+		<entity id="s1.e1" charOffset="105-126"
+			type="GO" text="protein farnesylation" ontology_id="GO_0018343"/>
+		<entity id="s1.e2" charOffset="148-167"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

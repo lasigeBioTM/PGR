@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27708425">
+	<sentence id="s1" text="Bardet-Biedl syndrome (visual perception) is an autosomal recessive disorder that is both genetically and clinically heterogeneous.">
+		<entity id="s1.e1" charOffset="23-40"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="48-67"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="117-130"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

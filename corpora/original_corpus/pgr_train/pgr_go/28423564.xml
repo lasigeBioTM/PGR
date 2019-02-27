@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28423564">
+	<sentence id="s1" text="Herein, we report that eye development expression was significantly down-regulated in gastric cancer tissues and associated with poor survival.">
+		<entity id="s1.e1" charOffset="23-38"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e2" charOffset="94-100"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In vitro, eye development knockdown promoted tumor cell proliferation and migration through BMPR II by activating Akt, Erk and b-catenin.">
+		<entity id="s2.e1" charOffset="10-25"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s2.e2" charOffset="45-50"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, we observed the hypermethylation of the eye development promoter in gastric cancer, which induced low expression of CHRDL1 and decreased its secretion to the supernatant.">
+		<entity id="s3.e1" charOffset="53-68"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s3.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Finally, in vivo experiments confirmed that eye development acted as a tumor suppressor gene in suppressing tumor growth and metastasis">
+		<entity id="s4.e1" charOffset="44-59"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s4.e2" charOffset="71-76"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

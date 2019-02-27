@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29518832">
+	<sentence id="s1" text="Objective: To analyze the clinical and imaging features of hypomyelination with brain stem and spinal cord involvement and leg spasticity (HBSL) due to mutations in DARS, and to identify DARS mutations responsible for HBSL.">
+		<entity id="s1.e1" charOffset="127-137"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<entity id="s1.e2" charOffset="165-169"
+			type="GENE" text="DARS" ontology_id="1615"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

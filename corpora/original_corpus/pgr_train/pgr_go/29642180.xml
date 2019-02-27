@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29642180">
+	<sentence id="s1" text="We previously conducted transcriptome analysis of a paired specimen of normal and esophageal squamous cell carcinoma (ESCC) tissues and found that mRNA expression of cystatin A (negative regulation of peptidase activity), a member of the cystatin superfamily, was perturbed in tumors compared with that in the background mucosa.">
+		<entity id="s1.e1" charOffset="93-116"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e2" charOffset="178-219"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s1.e3" charOffset="277-282"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, little is known about the significance of negative regulation of peptidase activity expression in ESCC.The mRNA expression of CSTA was evaluated by qRT-PCR using 28 paired frozen samples of tumor and nontumor mucosae.">
+		<entity id="s2.e1" charOffset="51-92"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s2.e2" charOffset="199-204"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="It was reduced in all ESCC tissue samples compared with normal tissues; however, negative regulation of peptidase activity expression levels in tumors showed considerable variation.">
+		<entity id="s3.e1" charOffset="81-122"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s3.e2" charOffset="144-149"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The expression of negative regulation of peptidase activity in tumors was significantly associated with pT classification (deeper tumor invasions) (P = .0118) and advanced TNM stages (P = .0497).">
+		<entity id="s4.e1" charOffset="18-59"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s4.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In negative regulation of peptidase activity-positive tumor samples, negative regulation of peptidase activity-expressing cancer cells often expressed Ki67, a proliferation marker, which was in sharp contrast to normal mucosa, where Ki67-expressing cells were limited to the basal layer and did not express CSTA.">
+		<entity id="s5.e1" charOffset="3-44"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s5.e2" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Furthermore, negative regulation of peptidase activity expression was observed in all 22 lymph node metastases analyzed.Relatively high levels of negative regulation of peptidase activity expression in tumors were correlated with tumor progression and advanced cancer stage, including lymph node metastasis">
+		<entity id="s6.e1" charOffset="13-54"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s6.e2" charOffset="165-170"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="224-230"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

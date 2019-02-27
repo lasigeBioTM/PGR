@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30208830">
+	<sentence id="s1" text="In recent years, high-throughput sequencing has been used to analyze exomes of virtually all human tumors, which allowed to construct phylogenetic trees of clonal cancer evolution with special emphasis on driver mutations in FGFR1-4 genes.">
+		<entity id="s1.e1" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="225-230"
+			type="GENE" text="FGFR1" ontology_id="2260"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

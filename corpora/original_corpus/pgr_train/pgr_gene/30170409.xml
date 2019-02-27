@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30170409">
+	<sentence id="s1" text="To explore the relationship between mouse double minute 2 binding protein (MTBP) and the prognosis of cancer patients, a databank-based reanalysis was conducted and a clinical observation about lung adenocarcinoma was taken to verify the result of data analysis.We reanalyzed all the downloaded data in order to make a conclusion about the relationship between MTBP and the prognosis of cancer patients.">
+		<entity id="s1.e1" charOffset="75-79"
+			type="GENE" text="MTBP" ontology_id="27085"/>
+		<entity id="s1.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="194-213"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="At last, we collected 112 lung cancer patients with MTBP information to verify the results of data analysis (GSE30219).The overall Kaplan-Meier curve results of 6 eligible data groups were shown in Fig.">
+		<entity id="s2.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="52-56"
+			type="GENE" text="MTBP" ontology_id="27085"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="4B, P = .000).Hyper expression of MTBP maybe an adverse event for the survival of some cancer patients, especially in glioblastoma, kidney cancer, and lung cancer patients, which has been verified in 112 lung cancer patients with MTBP status">
+		<entity id="s3.e1" charOffset="34-38"
+			type="GENE" text="MTBP" ontology_id="27085"/>
+		<entity id="s3.e2" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="118-130"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

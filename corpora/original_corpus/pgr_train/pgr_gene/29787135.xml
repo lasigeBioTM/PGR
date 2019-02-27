@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29787135">
+	<sentence id="s1" text="Mutations in ACVRL1, BMPR2, or ENG are associated with hereditary hemorrhagic telangiectasia and pulmonary arterial hypertension in humans [1, 2].">
+		<entity id="s1.e1" charOffset="13-19"
+			type="GENE" text="ACVRL1" ontology_id="94"/>
+		<entity id="s1.e2" charOffset="21-26"
+			type="GENE" text="BMPR2" ontology_id="659"/>
+		<entity id="s1.e3" charOffset="31-34"
+			type="GENE" text="ENG" ontology_id="2022"/>
+		<entity id="s1.e4" charOffset="97-128"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28441416">
+	<sentence id="s1" text="We report here that t-butyl alcohol, which is neither a substrate nor an inhibitor of alcohol dehydrogenases or Cyp2E1, is a potent inducer of holoprosencephaly in Cdon mutant mice.">
+		<entity id="s1.e1" charOffset="112-118"
+			type="GENE" text="Cyp2E1" ontology_id="1571"/>
+		<entity id="s1.e2" charOffset="143-160"
+			type="HP" text="holoprosencephaly" ontology_id="HP_0001360"/>
+		<entity id="s1.e3" charOffset="164-168"
+			type="GENE" text="Cdon" ontology_id="50937"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We have developed a gene-environment interaction model of holoprosencephaly in mice, in which mutation of the Sonic hedgehog coreceptor, Cdon, synergizes with transient in utero exposure to ethanol.">
+		<entity id="s2.e1" charOffset="58-75"
+			type="HP" text="holoprosencephaly" ontology_id="HP_0001360"/>
+		<entity id="s2.e2" charOffset="137-141"
+			type="GENE" text="Cdon" ontology_id="50937"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

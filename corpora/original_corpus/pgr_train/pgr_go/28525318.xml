@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28525318">
+	<sentence id="s1" text="The major aim of the present study was to explore the effects of cullin 4B (proteasomal protein catabolic process) on the proliferation and invasion of human gastric cancer cells.">
+		<entity id="s1.e1" charOffset="76-113"
+			type="GO" text="proteasomal protein catabolic process" ontology_id="GO_0010498"/>
+		<entity id="s1.e2" charOffset="166-172"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Gastric tumor tissues and paired adjacent non-tumor tissues were obtained from 21 gastric cancer patients, and gastric cancer cell lines (AGS, MGC-803, KATO-III, MKN-45, muscle organ development-7901, BGC-823 and MKN-74) were cultured.">
+		<entity id="s2.e1" charOffset="8-13"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="170-194"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The results indicated that compared with the adjacent non-tumor tissues and a normal gastric epithelial cell line, gastric cancer tissues and cell lines exhibited significantly higher expression of proteasomal protein catabolic process.">
+		<entity id="s3.e1" charOffset="58-63"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="198-235"
+			type="GO" text="proteasomal protein catabolic process" ontology_id="GO_0010498"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Knockdown of proteasomal protein catabolic process in gastric cancer cells suppressed cell proliferation, caused G1 arrest and inhibited cell invasion.">
+		<entity id="s4.e1" charOffset="13-50"
+			type="GO" text="proteasomal protein catabolic process" ontology_id="GO_0010498"/>
+		<entity id="s4.e2" charOffset="62-68"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These results indirectly demonstrate that proteasomal protein catabolic process enhances the proliferation and invasion abilities of gastric cancer cells by upregulating the constituent factors Wnt and b-catenin, as well as by negatively regulating the mRNA and protein expression of GSK-3b, caspase-3 and cyclin E.">
+		<entity id="s5.e1" charOffset="42-79"
+			type="GO" text="proteasomal protein catabolic process" ontology_id="GO_0010498"/>
+		<entity id="s5.e2" charOffset="141-147"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

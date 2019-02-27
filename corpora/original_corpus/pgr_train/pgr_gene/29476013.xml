@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29476013">
+	<sentence id="s1" text="Spinocerebellar ataxia type 3 (SCA3) is a neurodegenerative disorder caused by a CAG expansion in the ATXN3 gene leading to a polyglutamine expansion in the ataxin-3 protein.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="102-107"
+			type="GENE" text="ATXN3" ontology_id="4287"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, KPNA3 knockout in SCA3 mice resulted in an amelioration of molecular and behavioral disturbances such as total activity, anxiety, and gait.">
+		<entity id="s2.e1" charOffset="13-18"
+			type="GENE" text="KPNA3" ontology_id="3839"/>
+		<entity id="s2.e2" charOffset="86-109"
+			type="HP" text="behavioral disturbances" ontology_id="HP_0000708"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

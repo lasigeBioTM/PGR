@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30042132">
+	<sentence id="s1" text="In Ewing sarcoma, the oncogenic fusion protein EWS-FLI1 induces chromatin features typical of active enhancers at GGAA microsatellite repeats, but the function of these sites has not been directly demonstrated.">
+		<entity id="s1.e1" charOffset="9-16"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="47-50"
+			type="GENE" text="EWS" ontology_id="2130"/>
+		<entity id="s1.e3" charOffset="51-55"
+			type="GENE" text="FLI1" ontology_id="2314"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Epigenome silencing of these repeat sites does not affect gene expression in unrelated cells, can prevent the induction of gene expression by EWS-FLI1, and, in the case of a GGAA repeat that controls SOX2 expression from a distance of 470 kb, is sufficient to impair the growth of Ewing sarcoma xenografts.">
+		<entity id="s2.e1" charOffset="142-145"
+			type="GENE" text="EWS" ontology_id="2130"/>
+		<entity id="s2.e2" charOffset="146-150"
+			type="GENE" text="FLI1" ontology_id="2314"/>
+		<entity id="s2.e3" charOffset="200-204"
+			type="GENE" text="SOX2" ontology_id="6657"/>
+		<entity id="s2.e4" charOffset="287-294"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

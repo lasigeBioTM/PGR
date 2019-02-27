@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29757938">
+	<sentence id="s1" text="Application of a PIEZO1 agonist Yoda1 effectively induced Ca2+ response and cation channel currents in PIEZO1-expressing HEK (HEK-Piezo1) cells and synovial sarcoma SW982 (SW982) cells.">
+		<entity id="s1.e1" charOffset="17-23"
+			type="GENE" text="PIEZO1" ontology_id="9780"/>
+		<entity id="s1.e2" charOffset="121-124"
+			type="GENE" text="HEK" ontology_id="2042"/>
+		<entity id="s1.e3" charOffset="130-136"
+			type="GENE" text="Piezo1" ontology_id="9780"/>
+		<entity id="s1.e4" charOffset="157-164"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we examined the possibility that PIEZO1 is involved in the regulation of synovial sarcoma cell-viability.">
+		<entity id="s2.e1" charOffset="39-45"
+			type="GENE" text="PIEZO1" ontology_id="9780"/>
+		<entity id="s2.e2" charOffset="88-95"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

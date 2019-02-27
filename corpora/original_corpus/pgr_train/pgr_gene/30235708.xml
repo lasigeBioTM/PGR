@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30235708">
+	<sentence id="s1" text="L1 cell adhesion molecule (L1CAM) is a member of the immunoglobulin-like cell-adhesion molecule family that was shown to be associated with a worse prognosis in several human cancers.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<entity id="s1.e2" charOffset="175-181"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We evaluated the presence of L1CAM in cyst fluid and tissue from glioblastomas or brain metastases.The amount of L1CAM in cyst fluid of 9 glioblastomas and 11 brain metastases was assessed using enzyme-linked immunosorbent assay (ELISA).">
+		<entity id="s2.e1" charOffset="29-34"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<entity id="s2.e2" charOffset="65-77"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Corresponding tumor tissue slices were stained immunohistochemically for L1CAM.">
+		<entity id="s3.e1" charOffset="14-19"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="73-78"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Cerebrospinal fluid of 20 non-tumor patients served as controls.Mean levels of L1CAM in tumor cyst fluid were significantly higher in glioblastoma (6118 + 4095 ng/mL) and metastasis patients (8001 + 6535 ng/mL) than in CSF of control patients (714 + 22 ng/mL).">
+		<entity id="s4.e1" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="79-84"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<entity id="s4.e3" charOffset="134-146"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The immunohistochemical expression of L1CAM in corresponding tissue was significantly higher in metastases than in glioblastomas.The present study demonstrates high levels of L1CAM in cyst fluid of glioblastoma and metastatic brain tumors.">
+		<entity id="s5.e1" charOffset="38-43"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<entity id="s5.e2" charOffset="232-237"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Soluble L1CAM may represent a motility promoting molecule in cancer progression, a co-factor for development of tumor cysts and a target for new treatment strategies">
+		<entity id="s6.e1" charOffset="8-13"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<entity id="s6.e2" charOffset="61-67"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

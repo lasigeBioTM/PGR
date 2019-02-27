@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30107152">
+	<sentence id="s1" text="The tumour suppressor p53 negatively controls cell cycle progression in response to perturbed ribosome biogenesis in mammalian cells, thus coordinating growth with proliferation.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="22-25"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We studied the effect of specific inhibition of rRNA synthesis on cell cycle progression in human cancer cell lines using the small-interfering RNA procedure to silence the POLR1A gene, which encodes the catalytic subunit of RNA polymerase I.">
+		<entity id="s2.e1" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="173-179"
+			type="GENE" text="POLR1A" ontology_id="25885"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These results demonstrated the existence of a p53-independent mechanism that links cell growth to cell proliferation in mammalian cells, and suggested that selective targeting of the RNA polymerase I transcription machinery might be advisable to hinder proliferation of p53-deficient cancer cells">
+		<entity id="s3.e1" charOffset="46-49"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s3.e2" charOffset="284-290"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

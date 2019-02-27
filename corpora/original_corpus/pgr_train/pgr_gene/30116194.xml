@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30116194">
+	<sentence id="s1" text="In wild type (WT) mice, we found that ginsenoside Rg3 treatment significantly mitigated pathological damages and reduced myeloperoxidase (MPO) activity as well as the production of pro-inflammatory cytokines tumor necrosis factor-a (TNF-a), interleukin-1b (IL-1b) and interleukin-6 (IL-6); furthermore, the production of anti-inflammatory mediators interleukin-10 (IL-10) and transforming growth factor-b (TGF-b), polarization of M2 macrophages and expression levels of the phosphorylation of phosphatidylinositol 3-hydroxy kinase (PI3K), protein kinase B (PKB, also known as AKT), mammalian target of rapamycin (mTOR) and Mer receptor tyrosine kinase (MerTK) were promoted.">
+		<entity id="s1.e1" charOffset="138-141"
+			type="GENE" text="MPO" ontology_id="4353"/>
+		<entity id="s1.e2" charOffset="208-213"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="532-536"
+			type="GENE" text="PI3K" ontology_id="5290"/>
+		<entity id="s1.e4" charOffset="613-617"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s1.e5" charOffset="653-658"
+			type="GENE" text="MerTK" ontology_id="10461"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

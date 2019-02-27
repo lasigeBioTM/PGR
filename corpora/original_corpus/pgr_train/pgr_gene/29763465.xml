@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29763465">
+	<sentence id="s1" text="We have already reported that RNF31 mRNA levels are higher in breast cancer samples compared to adjacent non-tumor tissue.">
+		<entity id="s1.e1" charOffset="30-35"
+			type="GENE" text="RNF31" ontology_id="55072"/>
+		<entity id="s1.e2" charOffset="69-75"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="109-114"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study we extend these findings by demonstrating that the mRNA levels of RBCK1 and SHARPIN are also higher in tumors compared to adjacent non-tumor tissue in the same cross sectional study of samples (p AAAA 0.001).">
+		<entity id="s2.e1" charOffset="80-85"
+			type="GENE" text="RBCK1" ontology_id="10616"/>
+		<entity id="s2.e2" charOffset="90-97"
+			type="GENE" text="SHARPIN" ontology_id="81858"/>
+		<entity id="s2.e3" charOffset="117-122"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, we investigated whether there is an association between the mRNA and protein expression levels of RBCK1, RNF31 and SHARPIN and clinicopathological parameters including estrogen receptor (ER), progesterone receptor (PR) and human epidermal growth factor receptor (HER2) status and found that RNF31 protein is significantly higher in ERalpha-negative tumors than ERalpha-positive tumors (p = 0.034).">
+		<entity id="s3.e1" charOffset="111-116"
+			type="GENE" text="RBCK1" ontology_id="10616"/>
+		<entity id="s3.e2" charOffset="118-123"
+			type="GENE" text="RNF31" ontology_id="55072"/>
+		<entity id="s3.e3" charOffset="128-135"
+			type="GENE" text="SHARPIN" ontology_id="81858"/>
+		<entity id="s3.e4" charOffset="362-367"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Collectively, our findings indicate that up-regulated mRNA expression of RNF31, RBCK1 and SHARPIN could potentially be diagnostic biomarkers of breast cancer and RNF31 might be a drug target for ERalpha-negative breast cancers">
+		<entity id="s4.e1" charOffset="73-78"
+			type="GENE" text="RNF31" ontology_id="55072"/>
+		<entity id="s4.e2" charOffset="80-85"
+			type="GENE" text="RBCK1" ontology_id="10616"/>
+		<entity id="s4.e3" charOffset="90-97"
+			type="GENE" text="SHARPIN" ontology_id="81858"/>
+		<entity id="s4.e4" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

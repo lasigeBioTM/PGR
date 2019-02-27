@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29886586">
+	<sentence id="s1" text="The Ki-67 positive index of tumor varied from less than 2% (51.4%), 3% to 10% (41.3%) to AAAA10% (7.2%).">
+		<entity id="s1.e1" charOffset="4-6"
+			type="GENE" text="Ki" ontology_id="10197"/>
+		<entity id="s1.e2" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

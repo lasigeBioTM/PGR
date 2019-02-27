@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29920782">
+	<sentence id="s1" text="The lysosome-associated membrane proteins (regulation of autophagys) display differential expression particularly in cancer.">
+		<entity id="s1.e1" charOffset="43-66"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s1.e2" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The two glycoproteins were detected in the cytosol of tumor cells with varying intensity, regulation of autophagy-1 showing again enhanced expression.">
+		<entity id="s2.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="90-113"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, novel data on regulation of autophagy-1 overexpression in HGG are presented suggesting involvement of this gene and protein in cell adhesion and tumor progression.">
+		<entity id="s3.e1" charOffset="29-52"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s3.e2" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

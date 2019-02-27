@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23506900">
+	<sentence id="s1" text="Mutations of SLC49A1 encoding mitochondrial transport are noted in patients with a rare neurodegenerative disorder: posterior column ataxia with retinitis pigmentosa.">
+		<entity id="s1.e1" charOffset="30-53"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s1.e2" charOffset="133-139"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30063936">
+	<sentence id="s1" text="Also the well-known gene variants rs7903146 in negative regulation of transcription by RNA polymerase II, and rs17817449 in DNA dealkylation involved in DNA repair, were nominally associated with hyperglycemia (rs7903146), as well as with higher fasting insulin levels (rs17817449).">
+		<entity id="s1.e1" charOffset="47-104"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="124-163"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<entity id="s1.e3" charOffset="160-173"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29483281">
+	<sentence id="s1" text="Chronic l-DOPA treatment that induces dyskinesia selectively restores spine density and excitability in indirect pathway negative regulation of transcription by RNA polymerase IIs (iSPNs), whereas spine loss and hyperexcitability persist in direct pathway SPNs (dSPNs).">
+		<entity id="s1.e1" charOffset="38-48"
+			type="HP" text="dyskinesia" ontology_id="HP_0100660"/>
+		<entity id="s1.e2" charOffset="121-178"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This indicates that dopamine-mediated synaptic remodeling and plasticity is independent of dopamine innervation during negative regulation of transcription by RNA polymerase II development and that lens development in camera-type eye-/- mice are a good model because they develop the same pathology described in the toxins-based models and in human postmortem studies of advanced PD.SIGNIFICANCE STATEMENT As the only genetic model of Parkinson*s disease (PD) that develops dyskinesia, Pitx3-/- mice reproduce the behavioral effects seen in humans and are a good system for studying dopamine-induced synaptic remodeling.">
+		<entity id="s2.e1" charOffset="119-176"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="144-179"
+			type="GO" text="lens development in camera-type eye" ontology_id="GO_0002088"/>
+		<entity id="s2.e3" charOffset="420-430"
+			type="HP" text="dyskinesia" ontology_id="HP_0100660"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="lens development in camera-type eye-/- mice reproduced the alterations described in patients with advanced PD and in well accepted toxin-based models of PD and dyskinesia.">
+		<entity id="s3.e1" charOffset="0-35"
+			type="GO" text="lens development in camera-type eye" ontology_id="GO_0002088"/>
+		<entity id="s3.e2" charOffset="160-170"
+			type="HP" text="dyskinesia" ontology_id="HP_0100660"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

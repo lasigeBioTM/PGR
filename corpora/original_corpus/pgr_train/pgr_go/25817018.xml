@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25817018">
+	<sentence id="s1" text="We have identified mitotic cell cycle variants in individuals with autosomal-recessive microcephaly and chorioretinopathy.">
+		<entity id="s1.e1" charOffset="19-37"
+			type="GO" text="mitotic cell cycle" ontology_id="GO_0000278"/>
+		<entity id="s1.e2" charOffset="87-99"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Subsequent Sanger sequencing was performed on a panel of individuals from 12 French families affected by microcephaly and ophthalmic manifestations, and one other individual was identified with compound-heterozygous mutations in mitotic cell cycle.">
+		<entity id="s2.e1" charOffset="105-117"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e2" charOffset="229-247"
+			type="GO" text="mitotic cell cycle" ontology_id="GO_0000278"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, zebrafish treated with morpholinos against mitotic cell cycle were found to have reduced head volume and eye developmental anomalies with chorioretinal dysplasia.">
+		<entity id="s3.e1" charOffset="53-71"
+			type="GO" text="mitotic cell cycle" ontology_id="GO_0000278"/>
+		<entity id="s3.e2" charOffset="148-171"
+			type="HP" text="chorioretinal dysplasia" ontology_id="HP_0007731"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In summary, the identification of mitotic cell cycle mutations in individuals with microcephaly and a spectrum of anomalies in eye development, particularly photoreceptor anomalies, provides evidence of an important role for the y-TuRC in brain and eye development">
+		<entity id="s4.e1" charOffset="34-52"
+			type="GO" text="mitotic cell cycle" ontology_id="GO_0000278"/>
+		<entity id="s4.e2" charOffset="83-95"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742595">
+	<sentence id="s1" text="A 17-year-old adolescent boy with a history of hypoproteinemia underwent regulation of apoptotic process-NEB PET/MRI to evaluate possible lymphatic disorders suggested by FDG PET/phosphatidylcholine biosynthetic process imaging.">
+		<entity id="s1.e1" charOffset="47-62"
+			type="HP" text="hypoproteinemia" ontology_id="HP_0003075"/>
+		<entity id="s1.e2" charOffset="73-104"
+			type="GO" text="regulation of apoptotic process" ontology_id="GO_0042981"/>
+		<entity id="s1.e3" charOffset="179-219"
+			type="GO" text="phosphatidylcholine biosynthetic process" ontology_id="GO_0006656"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

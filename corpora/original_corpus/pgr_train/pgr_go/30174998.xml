@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30174998">
+	<sentence id="s1" text="This is an original cell junction assembly mutation in a MFM family with an atypical clinical and histopathological presentation, given the presence of significantly focal lesions and prominent sarcoplasmic masses in muscle biopsies and the constant heart involvement preceding significantly the onset of the myopathy.">
+		<entity id="s1.e1" charOffset="20-42"
+			type="GO" text="cell junction assembly" ontology_id="GO_0034329"/>
+		<entity id="s1.e2" charOffset="309-317"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Though a rare etiology, cell junction assembly gene should not be excluded in early-onset arrhythmia, even in the absence of myopathy, which occurs later in the disease course">
+		<entity id="s2.e1" charOffset="24-46"
+			type="GO" text="cell junction assembly" ontology_id="GO_0034329"/>
+		<entity id="s2.e2" charOffset="90-100"
+			type="HP" text="arrhythmia" ontology_id="HP_0011675"/>
+		<entity id="s2.e3" charOffset="125-133"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

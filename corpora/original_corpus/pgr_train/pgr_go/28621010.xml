@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28621010">
+	<sentence id="s1" text="Patients with intraciliary retrograde transport mutations can show various extrarenal manifestations such as skeletal disorders, Caroli disease, and retinal dystrophy, and typically display nephronophthisis as a renal phenotype.">
+		<entity id="s1.e1" charOffset="14-47"
+			type="GO" text="intraciliary retrograde transport" ontology_id="GO_0035721"/>
+		<entity id="s1.e2" charOffset="149-166"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, differences in pathology of the kidneys from intraciliary retrograde transport mutations may result in heterogeneous features in renal ultrasound findings.">
+		<entity id="s2.e1" charOffset="58-91"
+			type="GO" text="intraciliary retrograde transport" ontology_id="GO_0035721"/>
+		<entity id="s2.e2" charOffset="116-129"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

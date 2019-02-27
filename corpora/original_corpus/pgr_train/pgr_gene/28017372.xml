@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28017372">
+	<sentence id="s1" text="Here, we describe three individuals who are affected by global developmental delay, intellectual disability, and expressive speech disorder and carry de novo variants in EBF3.">
+		<entity id="s1.e1" charOffset="63-82"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="84-107"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="170-174"
+			type="GENE" text="EBF3" ontology_id="253738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our findings indicate that mutations in EBF3 cause a genetic neurodevelopmental syndrome and suggest that loss of EBF3 function might mediate a subset of neurologic phenotypes shared by ARX-related disorders, including intellectual disability, abnormal genitalia, and structural CNS malformations">
+		<entity id="s2.e1" charOffset="40-44"
+			type="GENE" text="EBF3" ontology_id="253738"/>
+		<entity id="s2.e2" charOffset="186-189"
+			type="GENE" text="ARX" ontology_id="10054"/>
+		<entity id="s2.e3" charOffset="219-242"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

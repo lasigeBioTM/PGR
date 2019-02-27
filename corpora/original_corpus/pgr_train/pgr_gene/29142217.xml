@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29142217">
+	<sentence id="s1" text="FBXO32 is also amplified in metastatic cancers and its depletion in a NSG mouse xenograft model inhibits tumor growth and metastasis.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="FBXO32" ontology_id="114907"/>
+		<entity id="s1.e2" charOffset="105-110"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

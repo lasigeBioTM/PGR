@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26701950">
+	<sentence id="s1" text="Somatic mutations in four genes (potassium ion import across plasma membrane, ATP1A1, regulation of cytosolic calcium ion concentration and calcium ion transport), differently implicated in intracellular ion homeostasis, have been identified in nearly 60% of the sporadic APAs.">
+		<entity id="s1.e1" charOffset="33-76"
+			type="GO" text="potassium ion import across plasma membrane" ontology_id="GO_1990573"/>
+		<entity id="s1.e2" charOffset="86-135"
+			type="GO" text="regulation of cytosolic calcium ion concentration" ontology_id="GO_0051860"/>
+		<entity id="s1.e3" charOffset="140-161"
+			type="GO" text="calcium ion transport" ontology_id="GO_0006816"/>
+		<entity id="s1.e4" charOffset="206-214"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Germline mutations in potassium ion import across plasma membrane and CACNA1H cause FH-III and FH-IV, respectively, while germline mutations in calcium ion transport cause the rare PASNA syndrome, featuring primary aldosteronism seizures and neurological abnormalities.">
+		<entity id="s2.e1" charOffset="22-65"
+			type="GO" text="potassium ion import across plasma membrane" ontology_id="GO_1990573"/>
+		<entity id="s2.e2" charOffset="144-165"
+			type="GO" text="calcium ion transport" ontology_id="GO_0006816"/>
+		<entity id="s2.e3" charOffset="215-223"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29735160">
+	<sentence id="s1" text="Genomics of tumors identified several new genes - including ZNRF3 in adrenocortical carcinomas, PRKACA in cortisol-producing adrenal adenomas, biological_process in primary macronodular adrenal hyperplasia and USP8 in pituitary corticotroph adenomas.">
+		<entity id="s1.e1" charOffset="143-161"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="186-205"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

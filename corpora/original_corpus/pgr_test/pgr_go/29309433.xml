@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29309433">
+	<sentence id="s1" text="Based upon the development-dependent onsets of these psychotomimetic effects, by using a DNA microarray technique, we identified the WD repeat domain 3 (WDR3) and chitobiosyldiphosphodolichol beta-mannosyltransferase (protein glycosylation) genes as novel candidates for schizophrenia-related molecules, whose mRNAs were up-regulated in the adult (postnatal week seven), but not in the infant (postnatal week one) rats by an indirect dopamine agonist, and phencyclidine, an antagonist of the NMDA receptor.">
+		<entity id="s1.e1" charOffset="218-239"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s1.e2" charOffset="271-284"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

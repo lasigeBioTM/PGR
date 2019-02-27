@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29777907">
+	<sentence id="s1" text="Variants of WNK1 (lysine deficient protein kinase 1), ADRB2 (b2 adrenergic receptor), NEDD4L (ubiquitin-protein ligase NEDD4-like), KLK1 (kallikrein 1) contribute to hypertension, and AKR1C3 (aldo-keto reductase family1 member C3), is associated with preeclampsia.">
+		<entity id="s1.e1" charOffset="12-16"
+			type="GENE" text="WNK1" ontology_id="65125"/>
+		<entity id="s1.e2" charOffset="54-59"
+			type="GENE" text="ADRB2" ontology_id="154"/>
+		<entity id="s1.e3" charOffset="86-92"
+			type="GENE" text="NEDD4L" ontology_id="23327"/>
+		<entity id="s1.e4" charOffset="132-136"
+			type="GENE" text="KLK1" ontology_id="3816"/>
+		<entity id="s1.e5" charOffset="166-178"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e6" charOffset="184-190"
+			type="GENE" text="AKR1C3" ontology_id="8644"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

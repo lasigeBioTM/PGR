@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29196475">
+	<sentence id="s1" text="Collectively, our data suggest that plus-end-directed vesicle transport along microtubule regulates MB degradation, and we present the first evidence that cancer invasiveness is a feature that can be modulated by the accumulation of MBs in cancer stem cells.This article has an associated First Person interview with the first author of the paper">
+		<entity id="s1.e1" charOffset="36-89"
+			type="GO" text="plus-end-directed vesicle transport along microtubule" ontology_id="GO_0072383"/>
+		<entity id="s1.e2" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

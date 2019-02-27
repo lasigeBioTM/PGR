@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29378965">
+	<sentence id="s1" text="Medulloblastoma (MB) is the most common malignant pediatric brain tumor, and overactivation of the Sonic Hedgehog (Shh) signaling pathway, which requires the primary cilium, causes 30% of MBs.">
+		<entity id="s1.e1" charOffset="66-71"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="115-118"
+			type="GENE" text="Shh" ontology_id="6469"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Shh signaling mutations, like those that remove Patched1 (Ptch1) or activate Smoothened (Smo), cause tumors dependent on the presence of cilia.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="Shh" ontology_id="6469"/>
+		<entity id="s2.e2" charOffset="58-63"
+			type="GENE" text="Ptch1" ontology_id="5727"/>
+		<entity id="s2.e3" charOffset="77-80"
+			type="GENE" text="Smo" ontology_id="54498"/>
+		<entity id="s2.e4" charOffset="101-106"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we show that deletion of Arl13b reduced Shh signaling levels in the presence of oncogenic SmoA1, suggesting Arl13b acts downstream of known tumor resistance mechanisms.">
+		<entity id="s3.e1" charOffset="31-37"
+			type="GENE" text="Arl13b" ontology_id="200894"/>
+		<entity id="s3.e2" charOffset="46-49"
+			type="GENE" text="Shh" ontology_id="6469"/>
+		<entity id="s3.e3" charOffset="96-99"
+			type="GENE" text="Smo" ontology_id="54498"/>
+		<entity id="s3.e4" charOffset="146-151"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Importantly, loss of Arl13b in a Ptch1-deleted mouse model of MB inhibited tumor formation.">
+		<entity id="s4.e1" charOffset="21-27"
+			type="GENE" text="Arl13b" ontology_id="200894"/>
+		<entity id="s4.e2" charOffset="75-80"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

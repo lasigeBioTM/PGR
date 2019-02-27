@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29410513">
+	<sentence id="s1" text="Biallelic mutations of the gene encoding diphthamide biosynthesis 1 (DPH1, NM_001383.3) cause developmental delay, dysmorphic features, sparse hair, and short stature (MIM *603527).">
+		<entity id="s1.e1" charOffset="69-73"
+			type="GENE" text="DPH1" ontology_id="1801"/>
+		<entity id="s1.e2" charOffset="94-113"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="136-147"
+			type="HP" text="sparse hair" ontology_id="HP_0008070"/>
+		<entity id="s1.e4" charOffset="153-166"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29559740">
+	<sentence id="s1" text="After exclusive analysis of 10 common variations of three hearing loss-related genes, GJB2, mtDNA12srRNA and SLC26A4, a novel truncated variant of SMPX, c.87dupA (p.Gly30Argfs*12) (NCBI ClinVar Submission ID: SUB3136126), was identified by whole-exome sequencing.">
+		<entity id="s1.e1" charOffset="58-70"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="86-90"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e3" charOffset="109-116"
+			type="GENE" text="SLC26A4" ontology_id="5172"/>
+		<entity id="s1.e4" charOffset="147-151"
+			type="GENE" text="SMPX" ontology_id="23676"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

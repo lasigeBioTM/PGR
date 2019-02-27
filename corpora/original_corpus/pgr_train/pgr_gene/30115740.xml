@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30115740">
+	<sentence id="s1" text="Previously, we demonstrated that a unique category of cancer antigens is selectively presented by tumor cells deficient for the peptide transporter TAP, enabling a specific attack of such tumors without causing immunopathology in mouse models.">
+		<entity id="s1.e1" charOffset="54-60"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="98-103"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="148-151"
+			type="GENE" text="TAP" ontology_id="2317"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

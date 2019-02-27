@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28347242">
+	<sentence id="s1" text="Our study revealed that the expression of WD repeat containing antisense to P53 (telomere maintenance via telomerase) is higher in lung-adenocarcinoma specimens than in specimens from adjacent non-tumor tissues.">
+		<entity id="s1.e1" charOffset="81-116"
+			type="GO" text="telomere maintenance via telomerase" ontology_id="GO_0007004"/>
+		<entity id="s1.e2" charOffset="197-202"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The prevalence of telomere maintenance via telomerase overexpression was significantly higher in patients with tumor larger than 3.0 cm than in patients with tumor smaller than 3.0 cm.">
+		<entity id="s2.e1" charOffset="18-53"
+			type="GO" text="telomere maintenance via telomerase" ontology_id="GO_0007004"/>
+		<entity id="s2.e2" charOffset="111-116"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26556829">
+	<sentence id="s1" text="Mutations in the ALS5/SPG11/chemical synaptic transmission gene are a frequent cause of autosomal recessive hereditary spastic paraplegia with thin corpus callosum and peripheral axonal neuropathy, and account for a 40% of autosomal recessive juvenile amyotrophic lateral sclerosis.">
+		<entity id="s1.e1" charOffset="28-58"
+			type="GO" text="chemical synaptic transmission" ontology_id="GO_0007268"/>
+		<entity id="s1.e2" charOffset="88-107"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="186-196"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The overlap of axonal Charcot-Marie-Tooth disease with both diseases, as well as the common autosomal recessive inheritance pattern of thin corpus callosum and axonal Charcot-Marie-Tooth disease in three related patients, prompted us to analyse the ALS5/SPG11/chemical synaptic transmission gene in affected individuals with autosomal recessive axonal Charcot-Marie-Tooth disease.">
+		<entity id="s2.e1" charOffset="92-111"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="260-290"
+			type="GO" text="chemical synaptic transmission" ontology_id="GO_0007268"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Besides, we screened for all the known genes related to axonal autosomal recessive Charcot-Marie-Tooth disease (CMT2A2/HMSN2A2/protein targeting to mitochondrion, CMT2B1/positive regulation of cell aging, CMT2B2/regulation of transcription by RNA polymerase II, CMT2B5/neurofilament bundle assembly, ARCMT2F/dHMN2B/regulation of protein phosphorylation, CMT2K/mitochondrial fission, CMT2P/protein polyubiquitination, CMT2R/regulation of neuron apoptotic process, CMT2S/protein homooligomerization, CMT2T/negative regulation of protein binding, CMTRID/mitochondrial electron transport, cytochrome c to oxygen, ARAN-NM/purine ribonucleotide catabolic process and protein ubiquitination/protein ubiquitination), for the genes related to autosomal recessive hereditary spastic paraplegia with thin corpus callosum and axonal peripheral neuropathy (SPG7/PGN, double-strand break repair via homologous recombination/double-strand break repair via homologous recombination, antigen receptor-mediated signaling pathway/antigen receptor-mediated signaling pathway, ceramide biosynthetic process/ceramide biosynthetic process, bile acid metabolic process/bile acid metabolic process, translational termination/translational termination and SPG56/CYP2U1), as well as for the causative gene of peripheral neuropathy with or without agenesis of the corpus callosum (ion transport).">
+		<entity id="s3.e1" charOffset="63-82"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s3.e2" charOffset="127-161"
+			type="GO" text="protein targeting to mitochondrion" ontology_id="GO_0006626"/>
+		<entity id="s3.e3" charOffset="170-203"
+			type="GO" text="positive regulation of cell aging" ontology_id="GO_0090343"/>
+		<entity id="s3.e4" charOffset="212-260"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s3.e5" charOffset="269-298"
+			type="GO" text="neurofilament bundle assembly" ontology_id="GO_0033693"/>
+		<entity id="s3.e6" charOffset="315-352"
+			type="GO" text="regulation of protein phosphorylation" ontology_id="GO_0001932"/>
+		<entity id="s3.e7" charOffset="360-381"
+			type="GO" text="mitochondrial fission" ontology_id="GO_0000266"/>
+		<entity id="s3.e8" charOffset="389-415"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e9" charOffset="423-461"
+			type="GO" text="regulation of neuron apoptotic process" ontology_id="GO_0043523"/>
+		<entity id="s3.e10" charOffset="457-467"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e11" charOffset="469-496"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<entity id="s3.e12" charOffset="504-542"
+			type="GO" text="negative regulation of protein binding" ontology_id="GO_0032091"/>
+		<entity id="s3.e13" charOffset="551-607"
+			type="GO" text="mitochondrial electron transport, cytochrome c to oxygen" ontology_id="GO_0006123"/>
+		<entity id="s3.e14" charOffset="617-656"
+			type="GO" text="purine ribonucleotide catabolic process" ontology_id="GO_0009154"/>
+		<entity id="s3.e15" charOffset="661-683"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s3.e16" charOffset="835-890"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s3.e17" charOffset="891-946"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s3.e18" charOffset="948-991"
+			type="GO" text="antigen receptor-mediated signaling pathway" ontology_id="GO_0050851"/>
+		<entity id="s3.e19" charOffset="992-1035"
+			type="GO" text="antigen receptor-mediated signaling pathway" ontology_id="GO_0050851"/>
+		<entity id="s3.e20" charOffset="1037-1066"
+			type="GO" text="ceramide biosynthetic process" ontology_id="GO_0046513"/>
+		<entity id="s3.e21" charOffset="1067-1096"
+			type="GO" text="ceramide biosynthetic process" ontology_id="GO_0046513"/>
+		<entity id="s3.e22" charOffset="1098-1125"
+			type="GO" text="bile acid metabolic process" ontology_id="GO_0008206"/>
+		<entity id="s3.e23" charOffset="1126-1153"
+			type="GO" text="bile acid metabolic process" ontology_id="GO_0008206"/>
+		<entity id="s3.e24" charOffset="1155-1180"
+			type="GO" text="translational termination" ontology_id="GO_0006415"/>
+		<entity id="s3.e25" charOffset="1181-1206"
+			type="GO" text="translational termination" ontology_id="GO_0006415"/>
+		<entity id="s3.e26" charOffset="1334-1347"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p7" e1="s3.e1"
+		    e2="s3.e8" pgr="true"/>
+		<pair id="s3.p8" e1="s3.e1"
+		    e2="s3.e9" pgr="true"/>
+		<pair id="s3.p9" e1="s3.e1"
+		    e2="s3.e11" pgr="true"/>
+		<pair id="s3.p10" e1="s3.e1"
+		    e2="s3.e12" pgr="true"/>
+		<pair id="s3.p11" e1="s3.e1"
+		    e2="s3.e13" pgr="true"/>
+		<pair id="s3.p12" e1="s3.e1"
+		    e2="s3.e14" pgr="true"/>
+		<pair id="s3.p13" e1="s3.e1"
+		    e2="s3.e15" pgr="true"/>
+		<pair id="s3.p14" e1="s3.e1"
+		    e2="s3.e16" pgr="true"/>
+		<pair id="s3.p15" e1="s3.e1"
+		    e2="s3.e17" pgr="true"/>
+		<pair id="s3.p16" e1="s3.e1"
+		    e2="s3.e18" pgr="true"/>
+		<pair id="s3.p17" e1="s3.e1"
+		    e2="s3.e19" pgr="true"/>
+		<pair id="s3.p18" e1="s3.e1"
+		    e2="s3.e20" pgr="true"/>
+		<pair id="s3.p19" e1="s3.e1"
+		    e2="s3.e21" pgr="true"/>
+		<pair id="s3.p20" e1="s3.e1"
+		    e2="s3.e22" pgr="true"/>
+		<pair id="s3.p21" e1="s3.e1"
+		    e2="s3.e23" pgr="true"/>
+		<pair id="s3.p22" e1="s3.e1"
+		    e2="s3.e24" pgr="true"/>
+		<pair id="s3.p23" e1="s3.e1"
+		    e2="s3.e25" pgr="true"/>
+		<pair id="s3.p24" e1="s3.e1"
+		    e2="s3.e26" pgr="true"/>
+		<pair id="s3.p25" e1="s3.e2"
+		    e2="s3.e10" pgr="true"/>
+		<pair id="s3.p26" e1="s3.e4"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p27" e1="s3.e6"
+		    e2="s3.e50" pgr="false"/>
+		<pair id="s3.p28" e1="s3.e8"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p29" e1="s3.e11"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p30" e1="s3.e13"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p31" e1="s3.e15"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p32" e1="s3.e17"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p33" e1="s3.e19"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p34" e1="s3.e21"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p35" e1="s3.e23"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p36" e1="s3.e25"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p37" e1="s3.e10"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p38" e1="s3.e50"
+		    e2="s3.e28" pgr="true"/>
+		<pair id="s3.p39" e1="s3.e50"
+		    e2="s3.e30" pgr="true"/>
+		<pair id="s3.p40" e1="s3.e50"
+		    e2="s3.e32" pgr="true"/>
+		<pair id="s3.p41" e1="s3.e50"
+		    e2="s3.e34" pgr="true"/>
+		<pair id="s3.p42" e1="s3.e50"
+		    e2="s3.e36" pgr="false"/>
+		<pair id="s3.p43" e1="s3.e50"
+		    e2="s3.e38" pgr="false"/>
+		<pair id="s3.p44" e1="s3.e50"
+		    e2="s3.e40" pgr="true"/>
+		<pair id="s3.p45" e1="s3.e50"
+		    e2="s3.e42" pgr="true"/>
+		<pair id="s3.p46" e1="s3.e50"
+		    e2="s3.e44" pgr="true"/>
+		<pair id="s3.p47" e1="s3.e50"
+		    e2="s3.e46" pgr="true"/>
+		<pair id="s3.p48" e1="s3.e50"
+		    e2="s3.e48" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Our results indicate that ALS5/SPG11/chemical synaptic transmission is the causative gene of a wide spectrum of clinical features, including autosomal recessive axonal Charcot-Marie-Tooth disease">
+		<entity id="s4.e1" charOffset="37-67"
+			type="GO" text="chemical synaptic transmission" ontology_id="GO_0007268"/>
+		<entity id="s4.e2" charOffset="141-160"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

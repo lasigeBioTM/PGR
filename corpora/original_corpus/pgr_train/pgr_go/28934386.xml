@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28934386">
+	<sentence id="s1" text="Loss-of-function mutations in protein dephosphorylation cause the severe congenital myopathy called myotubular myopathy (or X-linked centronuclear myopathy) while mutations in the protein dephosphorylation-related protein phosphatidylinositol dephosphorylation cause a recessive Charcot-Marie-Tooth peripheral neuropathy.">
+		<entity id="s1.e1" charOffset="30-55"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s1.e2" charOffset="84-92"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e3" charOffset="201-239"
+			type="GO" text="phosphatidylinositol dephosphorylation" ontology_id="GO_0046856"/>
+		<entity id="s1.e4" charOffset="245-255"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s1.e5" charOffset="256-266"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, adeno-associated virus-mediated exogenous expression of several phosphatidylinositol dephosphorylation isoforms ameliorates the myopathic phenotype owing to protein dephosphorylation loss, with increased muscle force, reduced myofiber atrophy, and reduction of the intracellular disorganization hallmarks associated with myotubular myopathy.">
+		<entity id="s2.e1" charOffset="74-112"
+			type="GO" text="phosphatidylinositol dephosphorylation" ontology_id="GO_0046856"/>
+		<entity id="s2.e2" charOffset="134-159"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s2.e3" charOffset="309-317"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="They also provide the proof-of-concept that expression of the neuropathy-associated phosphatidylinositol dephosphorylation gene improves the protein dephosphorylation-associated myopathy, thus identifying phosphatidylinositol dephosphorylation as a novel therapeutic target for myotubular myopathy">
+		<entity id="s3.e1" charOffset="62-72"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e2" charOffset="84-122"
+			type="GO" text="phosphatidylinositol dephosphorylation" ontology_id="GO_0046856"/>
+		<entity id="s3.e3" charOffset="108-133"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s3.e4" charOffset="145-153"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

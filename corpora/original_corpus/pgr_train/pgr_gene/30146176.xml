@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30146176">
+	<sentence id="s1" text="We found that LGR5 expression in the epithelium and stroma was associated with tumor stage, and by integrating functional experiments with LGR5-sorted cell RNA sequencing data from adenoma and normal organoids, we found correlations between LGR5 and CRC-specific genes, including dickkopf WNT signaling pathway inhibitor 4 (DKK4) and SPARC-related modular calcium binding 2 (SMOC2).">
+		<entity id="s1.e1" charOffset="14-18"
+			type="GENE" text="LGR5" ontology_id="8549"/>
+		<entity id="s1.e2" charOffset="79-84"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="324-328"
+			type="GENE" text="DKK4" ontology_id="27121"/>
+		<entity id="s1.e4" charOffset="334-339"
+			type="GENE" text="SPARC" ontology_id="6678"/>
+		<entity id="s1.e5" charOffset="375-380"
+			type="GENE" text="SMOC2" ontology_id="64094"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

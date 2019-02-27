@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29921390">
+	<sentence id="s1" text="To study the effect and related mechanism of IL-21 alone and in combination with 5-Fluorouracil on the proliferation and growth, transferability, and apoptosis of gastric cancer cells, we cultivated gastric cancer cell muscle organ development-7901 and created four experimental groups with varying concentrations of IL-21 and 5-Fluorouracil: IL-21 group (IL-21 100ng/ml), semi-combination group (5-Fluorouracil 25ug/ml+IL-21 100ng/ml), 5-Fluorouracil group (5-Fluorouracil 50ug/ml), and combination group (5-Fluorouracil 50ug/ml+IL-21 100ng/ml).">
+		<entity id="s1.e1" charOffset="171-177"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="219-243"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TUNEL assay was used to detect the effect of each group on the apoptosis of the gastric cancer cells, and Western blot was used to detect the expression of caspase-3, caspase-8, bcl-2, and c-negative regulation of transcription by RNA polymerase II, which are the proteins related to apoptosis, after the drug effect in each group.">
+		<entity id="s2.e1" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="191-248"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, IL-21 used alone and in combination with 5-Fluorouracil are anti-tumor mechanisms in muscle organ development-7901">
+		<entity id="s3.e1" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="100-124"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

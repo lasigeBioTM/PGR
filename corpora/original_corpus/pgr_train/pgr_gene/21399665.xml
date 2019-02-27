@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21399665">
+	<sentence id="s1" text="Data on the relationship between ribosome biogenesis and p53 function indicate that the tumour suppressor can be activated by either nucleolar disruption or ribosomal protein defects.">
+		<entity id="s1.e1" charOffset="57-60"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s1.e2" charOffset="88-94"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We found that a downregulation of rRNA synthesis, induced by silencing the POLR1A gene coding for the RNA polymerase I catalytic subunit, stabilised p53 without altering the nucleolar integrity in human cancer cells.">
+		<entity id="s2.e1" charOffset="75-81"
+			type="GENE" text="POLR1A" ontology_id="25885"/>
+		<entity id="s2.e2" charOffset="149-152"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s2.e3" charOffset="203-209"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, we demonstrated that in three different experimental models characterised by an upregulation of rRNA synthesis, cancer cells treated with insulin or exposed to the insulin-like growth factor 1, rat liver stimulated by cortisol and regenerating rat liver after partial hepatectomy, the p53 protein level was reduced due to a lowered ribosomal protein availability for MDM2 binding.">
+		<entity id="s3.e1" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="298-301"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s3.e3" charOffset="380-384"
+			type="GENE" text="MDM2" ontology_id="4193"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

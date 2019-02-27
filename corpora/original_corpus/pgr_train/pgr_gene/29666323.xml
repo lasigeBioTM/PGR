@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29666323">
+	<sentence id="s1" text="Type II (middle type) patients show development delay and the distinctive facial phenotype (midface retraction, short and upturned nose), lacking both hydronephrosis and typical skeletal abnormalities, with existence of SETBP1mutation.">
+		<entity id="s1.e1" charOffset="151-165"
+			type="HP" text="hydronephrosis" ontology_id="HP_0000126"/>
+		<entity id="s1.e2" charOffset="220-226"
+			type="GENE" text="SETBP1" ontology_id="26040"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Type III (simple type) patients with SETBP1 alteration show their major symptom is development delay, in which expressive language delay is the most striking feature.">
+		<entity id="s2.e1" charOffset="37-43"
+			type="GENE" text="SETBP1" ontology_id="26040"/>
+		<entity id="s2.e2" charOffset="122-136"
+			type="HP" text="language delay" ontology_id="HP_0000750"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

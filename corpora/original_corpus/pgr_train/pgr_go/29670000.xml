@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29670000">
+	<sentence id="s1" text="Patients with non-oxidation-reduction process driven metastases may, however, benefit from therapies targeting the tumor microenvironment.">
+		<entity id="s1.e1" charOffset="18-45"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s1.e2" charOffset="115-120"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, the current study specifically investigated bone cell activity in clinical bone metastases in relation to tumor cell oxidation-reduction process activity, in order to gain novel insight into biological heterogeneities of possible importance for patient stratification into bone-targeting therapies.">
+		<entity id="s2.e1" charOffset="117-122"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="128-155"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Importantly, bone cell activity was inversely correlated to tumor cell oxidation-reduction process activity (measured as AR, response to estradiol, HOXB13, regulation of systemic arterial blood pressure, KLK3, positive regulation of protein phosphorylation, Golgi to plasma membrane transport, and proteolysis expression) and to patient serum prostate-specific antigen (PSA) levels.">
+		<entity id="s3.e1" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="71-98"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s3.e3" charOffset="125-146"
+			type="GO" text="response to estradiol" ontology_id="GO_0032355"/>
+		<entity id="s3.e4" charOffset="156-202"
+			type="GO" text="regulation of systemic arterial blood pressure" ontology_id="GO_0003073"/>
+		<entity id="s3.e5" charOffset="210-256"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s3.e6" charOffset="258-292"
+			type="GO" text="Golgi to plasma membrane transport" ontology_id="GO_0006893"/>
+		<entity id="s3.e7" charOffset="298-309"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Functional enrichment analysis indicated high bone morphogenetic protein (BMP) signaling in metastases with high bone cell activity and low tumor cell oxidation-reduction process activity.">
+		<entity id="s4.e1" charOffset="140-145"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="151-178"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="This was confirmed by negative regulation of transcription by RNA polymerase II immunoreactivity in tumor cells of metastases with ongoing bone formation, as determined by histological evaluation of van Gieson-stained sections.">
+		<entity id="s5.e1" charOffset="22-79"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s5.e2" charOffset="100-105"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In conclusion, the inverse relation observed between bone cell activity and tumor cell oxidation-reduction process activity in prostate cancer bone metastasis may be of importance for patient response to oxidation-reduction process and/or bone targeting therapies, but needs to be evaluated in clinical settings in relation to serum markers for bone remodeling, radiography and patient response to therapy.">
+		<entity id="s6.e1" charOffset="76-81"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="87-114"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s6.e3" charOffset="136-142"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

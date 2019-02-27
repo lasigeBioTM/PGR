@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28441375">
+	<sentence id="s1" text="Immunoperoxidase levels in the tumor were positive for factor VIII and CD31 and negative for S100, protein Melan-A, CD34, synaptophysin, chromogranin, desmin, muscle specific actin, ETFA (EMA), KRT20 (CK20), CDX2, TTF1, LNPEP (PLAP), inhibin, ?-fetoprotein, CD30, hepatocyte paraffin, and aberrant expression of cytokeratin 7 and pankeratin.">
+		<entity id="s1.e1" charOffset="31-36"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="182-186"
+			type="GENE" text="ETFA" ontology_id="2108"/>
+		<entity id="s1.e3" charOffset="194-199"
+			type="GENE" text="KRT20" ontology_id="54474"/>
+		<entity id="s1.e4" charOffset="208-212"
+			type="GENE" text="CDX2" ontology_id="1045"/>
+		<entity id="s1.e5" charOffset="214-218"
+			type="GENE" text="TTF1" ontology_id="7080"/>
+		<entity id="s1.e6" charOffset="220-225"
+			type="GENE" text="LNPEP" ontology_id="4012"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

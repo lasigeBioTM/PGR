@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28818478">
+	<sentence id="s1" text="We previously described a relatively pure hereditary spastic paraplegia (HSP) phenotype associated with mutations in positive regulation of mitochondrial fission.">
+		<entity id="s1.e1" charOffset="53-71"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e2" charOffset="117-161"
+			type="GO" text="positive regulation of mitochondrial fission" ontology_id="GO_0090141"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we report a complex form of HSP associated with retinal dystrophy and a pattern of neurodegeneration with brain iron accumulation (NBIA) on brain MRI, due to a novel homozygous mutation in positive regulation of mitochondrial fission.">
+		<entity id="s2.e1" charOffset="53-70"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<entity id="s2.e2" charOffset="194-238"
+			type="GO" text="positive regulation of mitochondrial fission" ontology_id="GO_0090141"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This observation enlarges the clinical spectrum of positive regulation of mitochondrial fission-associated disorders and sheds light on a new aetiology for syndromes associating retinopathy and NBIA.">
+		<entity id="s3.e1" charOffset="51-95"
+			type="GO" text="positive regulation of mitochondrial fission" ontology_id="GO_0090141"/>
+		<entity id="s3.e2" charOffset="178-189"
+			type="HP" text="retinopathy" ontology_id="HP_0000488"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

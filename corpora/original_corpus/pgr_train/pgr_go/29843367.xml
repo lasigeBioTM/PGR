@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29843367">
+	<sentence id="s1" text="The nucleotide degrading enzyme gene mismatch repair (ribonuclease H2 subunit A) has been found to be overexpressed in cancers.">
+		<entity id="s1.e1" charOffset="37-52"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s1.e2" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our aim was to understand the role of mismatch repair in cancer prognostication and to establish a scoring system based on the expressions of genes interacting with RNASEH2A.">
+		<entity id="s2.e1" charOffset="38-53"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s2.e2" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We screened the nucleotide degrading enzyme gene expression in RNAseq data of 14 cancer types derived from The Cancer Genome Atlas (TCGA) and found that mismatch repair overexpression was associated with poor patient survival only in renal cell carcinomas (RCCs).">
+		<entity id="s3.e1" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="153-168"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The combination of low positive regulation of cell migration expression and high mismatch repair expression resulted in impaired proliferation in four kidney cancer cell lines, suggesting potential synthetic dosage lethality (SDL) interactions between the two genes.">
+		<entity id="s4.e1" charOffset="23-60"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s4.e2" charOffset="49-64"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s4.e3" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="A prognostication scoring system was established based on the expression levels of mismatch repair-, peptidyl-serine phosphorylation-, and positive regulation of cell migration-related genes, which could effectively predict the overall survival in a TCGA clear cell RCC cohort (n = 533, 995.3 versus 2242.2 days, p AAAA 0.0001), in another clear cell renal cell carcinoma (ccRCC) cohort E-GEOD-22541 (n = 44, 390.0 versus 1889.2 days, p = 0.0007), and in a TCGA papillary RCC (mitotic cell cycle checkpoint) cohort (n = 287, 741.6 versus 1623.7 days, p AAAA 0.0001).">
+		<entity id="s5.e1" charOffset="83-98"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s5.e2" charOffset="101-132"
+			type="GO" text="peptidyl-serine phosphorylation" ontology_id="GO_0018105"/>
+		<entity id="s5.e3" charOffset="139-176"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s5.e4" charOffset="281-312"
+			type="HP" text="clear cell renal cell carcinoma" ontology_id="HP_0006770"/>
+		<entity id="s5.e5" charOffset="477-506"
+			type="GO" text="mitotic cell cycle checkpoint" ontology_id="GO_0007093"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e3"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e4"
+		    e2="s5.e5" pgr="false"/>
+	</sentence>
+</document>

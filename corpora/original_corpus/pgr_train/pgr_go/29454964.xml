@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29454964">
+	<sentence id="s1" text="Mutations in autophagosome membrane docking gene result in CEDNIK (Cerebral dysgenesis, neuropathy, ichthyosis and palmoplantar keratoderma) syndrome.">
+		<entity id="s1.e1" charOffset="13-43"
+			type="GO" text="autophagosome membrane docking" ontology_id="GO_0016240"/>
+		<entity id="s1.e2" charOffset="88-98"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="115-139"
+			type="HP" text="palmoplantar keratoderma" ontology_id="HP_0000982"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

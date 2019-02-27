@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29054765">
+	<sentence id="s1" text="Through a whole genome sequencing (WGS) analysis of the nine subjects (four lung cancer patients and five normal family members of FLC), we obtained a whole genome dataset of DNA alterations in FLC samples.">
+		<entity id="s1.e1" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="168-171"
+			type="GENE" text="set" ontology_id="6418"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Subsequently, the top 12 highly mutated genes were selected for validation by polymerase chain reaction and DNA sequencing in an expanded sample set including FLC, sporadic lung cancer, and healthy population.">
+		<entity id="s2.e1" charOffset="145-148"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e2" charOffset="164-172"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="178-184"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Mutations of the five genes (ARHGEF5, ANKRD20A2, ZNF595, ZNF812, MYO18B) may be potential germline mutations of lung cancer.">
+		<entity id="s3.e1" charOffset="29-36"
+			type="GENE" text="ARHGEF5" ontology_id="7984"/>
+		<entity id="s3.e2" charOffset="38-47"
+			type="GENE" text="ANKRD20A2" ontology_id="441430"/>
+		<entity id="s3.e3" charOffset="49-55"
+			type="GENE" text="ZNF595" ontology_id="152687"/>
+		<entity id="s3.e4" charOffset="65-71"
+			type="GENE" text="MYO18B" ontology_id="84700"/>
+		<entity id="s3.e5" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We also analyzed specific mutations within the 12 genes and found that some specific mutations within the MUC12, FOXD4L3 and FOXD4L5 genes showed higher frequencies in the samples of FLC and/or lung cancer tissue, compared with the healthy population.">
+		<entity id="s4.e1" charOffset="106-111"
+			type="GENE" text="MUC12" ontology_id="10071"/>
+		<entity id="s4.e2" charOffset="113-120"
+			type="GENE" text="FOXD4L3" ontology_id="286380"/>
+		<entity id="s4.e3" charOffset="125-132"
+			type="GENE" text="FOXD4L5" ontology_id="653427"/>
+		<entity id="s4.e4" charOffset="199-205"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

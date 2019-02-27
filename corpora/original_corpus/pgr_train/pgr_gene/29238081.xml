@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29238081">
+	<sentence id="s1" text="Pyridoxine 5*-phosphate oxidase (PNPO) is an enzyme that converts pyridoxine 5*-phosphate into pyridoxal 5*-phosphate (PLP), an active form of vitamin B6 implicated in several types of cancer.">
+		<entity id="s1.e1" charOffset="33-37"
+			type="GENE" text="PNPO" ontology_id="55163"/>
+		<entity id="s1.e2" charOffset="185-191"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the role of PNPO and its regulatory mechanism in epithelial ovarian cancer (EOC) are unknown.">
+		<entity id="s2.e1" charOffset="21-25"
+			type="GENE" text="PNPO" ontology_id="55163"/>
+		<entity id="s2.e2" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the present study, PNPO expression in human ovarian tumour tissue and its association with the clinicopathological features of patients with EOC were examined.">
+		<entity id="s3.e1" charOffset="22-26"
+			type="GENE" text="PNPO" ontology_id="55163"/>
+		<entity id="s3.e2" charOffset="55-61"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Xenografts of PNPO-shRNA-expressing cells into the nude mouse attenuated tumour growth.">
+		<entity id="s4.e1" charOffset="14-18"
+			type="GENE" text="PNPO" ontology_id="55163"/>
+		<entity id="s4.e2" charOffset="73-79"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

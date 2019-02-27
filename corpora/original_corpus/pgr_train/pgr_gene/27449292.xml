@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27449292">
+	<sentence id="s1" text="These data are consistent with the fact that expression of breast cancer anti-estrogen resistance 1 (BCAR1) was increased in O2 compared to V1 cells (p AAAA 0.01).">
+		<entity id="s1.e1" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="101-106"
+			type="GENE" text="BCAR1" ontology_id="9564"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

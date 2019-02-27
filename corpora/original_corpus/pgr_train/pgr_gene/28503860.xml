@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28503860">
+	<sentence id="s1" text="ADAMTS18 dysregulation plays an important role in many disease processes including cancer.">
+		<entity id="s1.e1" charOffset="0-8"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s1.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We previously found ADAMTS18 as frequently methylated tumor suppressor gene (TSG) for multiple carcinomas, however, its biological functions and underlying molecular mechanisms in breast carcinogenesis remain unknown.">
+		<entity id="s2.e1" charOffset="20-28"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s2.e2" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we found that ADAMTS18 was silenced or downregulated in breast cancer cell lines.">
+		<entity id="s3.e1" charOffset="20-28"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s3.e2" charOffset="69-75"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="ADAMTS18 was reduced in primary breast tumor tissues as compared with their adjacent noncancer tissues.">
+		<entity id="s4.e1" charOffset="0-8"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s4.e2" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="ADAMTS18 promoter methylation was detected in 70.8% of tumor tissues by methylation-specific PCR, but none of the normal tissues.">
+		<entity id="s5.e1" charOffset="0-8"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s5.e2" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Ectopic expression of ADAMTS18 in breast tumor cells resulted in inhibition of cell migration and invasion.">
+		<entity id="s6.e1" charOffset="22-30"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s6.e2" charOffset="41-46"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Nude mouse model further confirmed that ADAMTS18 suppressed breast cancer metastasis in vivo.">
+		<entity id="s7.e1" charOffset="40-48"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s7.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Further mechanistic studies showed that ADAMTS18 suppressed epithelial-mesenchymal transition (EMT), further inhibited migration and invasion of breast cancer cells.">
+		<entity id="s8.e1" charOffset="40-48"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s8.e2" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s9" text="Thus, ADAMTS18 as an antimetastatic tumor suppressor antagonizes AKT and NF-kB signaling in breast tumorigenesis.">
+		<entity id="s9.e1" charOffset="6-14"
+			type="GENE" text="ADAMTS18" ontology_id="170692"/>
+		<entity id="s9.e2" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s9.e3" charOffset="73-75"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+		<pair id="s9.p2" e1="s9.e2"
+		    e2="s9.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27835880">
+	<sentence id="s1" text="Oncogenic mutations in the phosphorylation/positive regulation of protein phosphorylation pathway are present in nearly half of human tumors.">
+		<entity id="s1.e1" charOffset="27-42"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e2" charOffset="43-89"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="91-96"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We find that lung squamous cell carcinoma (SQCC), which accounts for ~20% of lung cancer, exhibits increased expression of the phosphorylation subunit phosphatidylinositol 3-kinase signaling, which is at low expression levels in normal tissues.">
+		<entity id="s2.e1" charOffset="18-41"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s2.e2" charOffset="82-88"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="127-142"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s2.e4" charOffset="151-190"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0015165"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We generated tumor xenografts of SQCC cell lines and examined the consequences of targeting phosphatidylinositol 3-kinase signaling expression.">
+		<entity id="s3.e1" charOffset="13-18"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="92-131"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0014065"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In tumors with high phosphatidylinositol 3-kinase signaling expression, and independently of phosphorylation, positive regulation of protein phosphorylation, or PTEN mutations, PIK3R2 depletion induced lung SQCC xenograft regression without triggering phosphorylation/positive regulation of protein phosphorylation pathway rebound.">
+		<entity id="s4.e1" charOffset="3-8"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="20-59"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0014065"/>
+		<entity id="s4.e3" charOffset="93-108"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s4.e4" charOffset="110-156"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s4.e5" charOffset="168-183"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s4.e6" charOffset="184-230"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e5" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e6" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p5" e1="s4.e1"
+		    e2="s4.e4" pgr="true"/>
+	</sentence>
+</document>

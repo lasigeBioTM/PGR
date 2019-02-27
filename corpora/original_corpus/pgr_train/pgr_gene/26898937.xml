@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26898937">
+	<sentence id="s1" text="Among them four novel fusion genes SEPT9/CYHR, IGF1R/TTC23, SYT8/TNNI2 and CASZ1/DFFA were validated and characterized in 48 formalin-fixed paraffin-embedded (FFPE) specimens of bladder cancer.">
+		<entity id="s1.e1" charOffset="35-40"
+			type="GENE" text="SEPT9" ontology_id="10801"/>
+		<entity id="s1.e2" charOffset="47-52"
+			type="GENE" text="IGF1R" ontology_id="3480"/>
+		<entity id="s1.e3" charOffset="53-58"
+			type="GENE" text="TTC23" ontology_id="64927"/>
+		<entity id="s1.e4" charOffset="60-64"
+			type="GENE" text="SYT8" ontology_id="90019"/>
+		<entity id="s1.e5" charOffset="65-70"
+			type="GENE" text="TNNI2" ontology_id="7136"/>
+		<entity id="s1.e6" charOffset="75-80"
+			type="GENE" text="CASZ1" ontology_id="54897"/>
+		<entity id="s1.e7" charOffset="81-85"
+			type="GENE" text="DFFA" ontology_id="1676"/>
+		<entity id="s1.e8" charOffset="186-192"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In contrast, the SYT8/TNNI2 fusion transcript resulting from transcription-induced chimerism by read-through mechanisms was a rather common and tumor-specific event occurring in 37.5% (18/48) of the UC specimens.">
+		<entity id="s2.e1" charOffset="17-21"
+			type="GENE" text="SYT8" ontology_id="90019"/>
+		<entity id="s2.e2" charOffset="22-27"
+			type="GENE" text="TNNI2" ontology_id="7136"/>
+		<entity id="s2.e3" charOffset="144-149"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

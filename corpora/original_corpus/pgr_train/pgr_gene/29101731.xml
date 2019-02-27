@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29101731">
+	<sentence id="s1" text="microRNAs have been reported to play vital role in lung cancer proliferation and metastasis; the role of miR-4326 in tumor progression has not been studied.">
+		<entity id="s1.e1" charOffset="56-62"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="105-108"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e3" charOffset="117-122"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we studied the effect of miR-4326 on lung cancer cell proliferation; we found that miR-4326 was significantly upregulated in lung cancer tissues determined using TCGA dataset and clinical specimens, meanwhile it was also upregulated in lung cancer cells.">
+		<entity id="s2.e1" charOffset="31-34"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="48-54"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overexpression of miR-4326 promoted lung cancer cell proliferation analyzed by MTT, soft agar growth, and BrdU incorporation assay, while miR-4326 knockdown suppressed lung cancer cell proliferation.">
+		<entity id="s3.e1" charOffset="18-21"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="41-47"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We found miR-4326 targets tumor suppressor adenomatous polyposis coli 2 (APC2), which is a negative regulator of Wnt pathway, by binding to the 3*UTR of APC2.">
+		<entity id="s4.e1" charOffset="9-12"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s4.e2" charOffset="26-31"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="73-77"
+			type="GENE" text="APC2" ontology_id="29882"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Moreover, double knockdown of APC2 and miR-4326 promoted lung cancer cell proliferation, confirming that miR-4326 promoted lung cancer cell proliferation by inhibiting APC2">
+		<entity id="s5.e1" charOffset="30-34"
+			type="GENE" text="APC2" ontology_id="29882"/>
+		<entity id="s5.e2" charOffset="39-42"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s5.e3" charOffset="62-68"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

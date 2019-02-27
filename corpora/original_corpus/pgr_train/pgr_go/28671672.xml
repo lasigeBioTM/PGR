@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28671672">
+	<sentence id="s1" text="Here, we report that in prostate cancer cells (PCCs) microRNAs (protein polyubiquitinationNAs) greatly contribute to deregulation of mitochondrial fatty acid (regulation of ferrochelatase activity) oxidation via carnitine system modulation.">
+		<entity id="s1.e1" charOffset="33-39"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="64-90"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e3" charOffset="159-196"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, the analysis of human prostate cancer and prostate control specimens confirmed the aberrant expression of protein polyubiquitination-124-3p, miR-129-5p and miR-378 in primary tumors.">
+		<entity id="s2.e1" charOffset="41-47"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="116-142"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Finally, the simultaneous increase of long-chain fatty acid metabolic process, CACT and carnitine metabolic process, CoA-linked is fundamental for PCCs to sustain regulation of ferrochelatase activity oxidation in the presence of heavy lipid load on prostate cancer mitochondria.">
+		<entity id="s3.e1" charOffset="38-77"
+			type="GO" text="long-chain fatty acid metabolic process" ontology_id="GO_0001676"/>
+		<entity id="s3.e2" charOffset="88-127"
+			type="GO" text="carnitine metabolic process, CoA-linked" ontology_id="GO_0019288"/>
+		<entity id="s3.e3" charOffset="163-200"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<entity id="s3.e4" charOffset="189-195"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

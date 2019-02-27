@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28834584">
+	<sentence id="s1" text="Mutations in the kinesin family member 1A (anterograde neuronal dense core vesicle transport) gene have been associated with a wide range of phenotypes including recessive mutations causing hereditary sensory neuropathy and hereditary spastic paraplegia and de novo dominant mutations causing a more complex neurological disorder affecting both the central and peripheral nervous system.">
+		<entity id="s1.e1" charOffset="43-92"
+			type="GO" text="anterograde neuronal dense core vesicle transport" ontology_id="GO_1990048"/>
+		<entity id="s1.e2" charOffset="209-219"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="235-253"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

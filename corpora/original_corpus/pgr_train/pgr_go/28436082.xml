@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28436082">
+	<sentence id="s1" text="Moreover, we observed that well-differentiated RT-112 and de-differentiated regulation of integrin activation-29 bladder cancer cells show an inverse expression of tricellulin and ubiquitin-dependent protein catabolic process.">
+		<entity id="s1.e1" charOffset="76-109"
+			type="GO" text="regulation of integrin activation" ontology_id="GO_0033623"/>
+		<entity id="s1.e2" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="150-195"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

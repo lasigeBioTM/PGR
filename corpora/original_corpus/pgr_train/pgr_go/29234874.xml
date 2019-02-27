@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29234874">
+	<sentence id="s1" text="The aim of this work is to provide supplementary information about cholesterol biosynthetic process variability useful in the molecular diagnosis of MKD, as well as to unravel the presence of novel genes potentially involved as involved in the clinical heterogeneity of MKD phenotype.">
+		<entity id="s1.e1" charOffset="67-99"
+			type="GO" text="cholesterol biosynthetic process" ontology_id="GO_0006695"/>
+		<entity id="s1.e2" charOffset="253-266"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

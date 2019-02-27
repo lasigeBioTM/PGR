@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28409271">
+	<sentence id="s1" text="Metabolic cutis laxa results from Menkes syndrome, caused by a defect in the ATPase copper transporting alpha (positive regulation of oxidoreductase activity) gene; congenital disorders of glycosylation due to mutations in subunit 7 of the component of oligomeric Golgi (protein glycosylation)-congenital disorders of glycosylation (CDG) complex; combined disorder of N- and O-linked glycosylation, due to mutations in ATPase H+ transporting V0 subunit a2 (ATP6VOA2) gene; pyrroline-5-carboxylate reductase 1 deficiency; pyrroline-5-carboxylate synthase deficiency; macrocephaly, alopecia, cutis laxa, and scoliosis (MACS) syndrome, due to Ras and Rab interactor 2 (small GTPase mediated signal transduction) mutations; transaldolase deficiency caused by mutations in the transaldolase 1 (pentose-phosphate shunt, non-oxidative branch) gene; Gerodermia osteodysplastica due to mutations in the golgin, peptidyl-cysteine methylation-interacting (hair follicle morphogenesis or SCYL1BP1) gene; and mitogen-activated pathway (MAP) kinase defects, caused by mutations in several genes [protein tyrosine phosphatase, non-receptor-type 11 (peptidyl-tyrosine dephosphorylation), RAF, NF, regulation of neurotransmitter receptor localization to postsynaptic specialization membrane proto-oncogene, GTPase (regulation of neurotransmitter receptor localization to postsynaptic specialization membrane), B-Raf proto-oncogene, serine/threonine kinase (protein phosphorylation), activation of MAPK activity/2, positive regulation of protein phosphorylation proto-oncogene, GTPase (positive regulation of protein phosphorylation), SOS Ras/G protein-coupled receptor signaling pathway guanine nucleotide exchange factor 2 (G protein-coupled receptor signaling pathway), leucine rich repeat scaffold protein (positive regulation of Ras protein signal transduction), positive regulation of endothelial cell proliferation proto-oncogene, GTPase (positive regulation of endothelial cell proliferation), and Raf-1 proto-oncogene, serine/threonine kinase (activation of MAPKK activity)], which regulate the Ras-MAPK cascade.">
+		<entity id="s1.e1" charOffset="111-157"
+			type="GO" text="positive regulation of oxidoreductase activity" ontology_id="GO_0051353"/>
+		<entity id="s1.e2" charOffset="271-292"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s1.e3" charOffset="549-561"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s1.e4" charOffset="589-598"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<entity id="s1.e5" charOffset="666-707"
+			type="GO" text="small GTPase mediated signal transduction" ontology_id="GO_0007264"/>
+		<entity id="s1.e6" charOffset="789-834"
+			type="GO" text="pentose-phosphate shunt, non-oxidative branch" ontology_id="GO_0009052"/>
+		<entity id="s1.e7" charOffset="902-931"
+			type="GO" text="peptidyl-cysteine methylation" ontology_id="GO_0018125"/>
+		<entity id="s1.e8" charOffset="945-972"
+			type="GO" text="hair follicle morphogenesis" ontology_id="GO_0031069"/>
+		<entity id="s1.e9" charOffset="1134-1169"
+			type="GO" text="peptidyl-tyrosine dephosphorylation" ontology_id="GO_0035335"/>
+		<entity id="s1.e10" charOffset="1181-1273"
+			type="GO" text="regulation of neurotransmitter receptor localization to postsynaptic specialization membrane" ontology_id="GO_0098696"/>
+		<entity id="s1.e11" charOffset="1298-1390"
+			type="GO" text="regulation of neurotransmitter receptor localization to postsynaptic specialization membrane" ontology_id="GO_0098696"/>
+		<entity id="s1.e12" charOffset="1440-1463"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e13" charOffset="1466-1493"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e14" charOffset="1497-1543"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e15" charOffset="1583-1627"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0030032"/>
+		<entity id="s1.e16" charOffset="1666-1710"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s1.e17" charOffset="1751-1805"
+			type="GO" text="positive regulation of Ras protein signal transduction" ontology_id="GO_0046579"/>
+		<entity id="s1.e18" charOffset="1808-1861"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s1.e19" charOffset="1944-1972"
+			type="GO" text="activation of MAPKK activity" ontology_id="GO_0000186"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e3"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e3"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e3"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e3"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e3"
+		    e2="s1.e16" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e3"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e3"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e3"
+		    e2="s1.e19" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e2"
+		    e2="s1.e36" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e36"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e36"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p22" e1="s1.e36"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p23" e1="s1.e36"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p24" e1="s1.e36"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p25" e1="s1.e36"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p26" e1="s1.e36"
+		    e2="s1.e19" pgr="true"/>
+		<pair id="s1.p27" e1="s1.e36"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p28" e1="s1.e36"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p29" e1="s1.e36"
+		    e2="s1.e24" pgr="true"/>
+		<pair id="s1.p30" e1="s1.e36"
+		    e2="s1.e26" pgr="false"/>
+		<pair id="s1.p31" e1="s1.e36"
+		    e2="s1.e28" pgr="true"/>
+		<pair id="s1.p32" e1="s1.e36"
+		    e2="s1.e30" pgr="false"/>
+		<pair id="s1.p33" e1="s1.e36"
+		    e2="s1.e32" pgr="true"/>
+		<pair id="s1.p34" e1="s1.e36"
+		    e2="s1.e34" pgr="true"/>
+	</sentence>
+</document>

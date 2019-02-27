@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28674240">
+	<sentence id="s1" text="Genetic studies on consanguineous families with primary microcephaly have identified 15 (MCPH) causative genes that include negative regulation of transcription by RNA polymerase II, mitotic spindle organization, microtubule cytoskeleton organization, CASC5, spindle organization, centriole elongation, centrosome duplication, centriole replication, centrosome duplication, brain development, histone ubiquitination, positive regulation of cell-matrix adhesion, mitotic chromosome movement towards spindle pole, centriole replication lysophospholipid transport central nervous system development and mitotic cytokinesis (Khan et al. 2014; Yamamoto et al. 2014; Alakbarzade et al. 2015;Morris-Rosendahl and Kaindl 2015; Basit et al. 2016).">
+		<entity id="s1.e1" charOffset="56-68"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="124-181"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="183-211"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<entity id="s1.e4" charOffset="213-250"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<entity id="s1.e5" charOffset="259-279"
+			type="GO" text="spindle organization" ontology_id="GO_0007051"/>
+		<entity id="s1.e6" charOffset="281-301"
+			type="GO" text="centriole elongation" ontology_id="GO_0061511"/>
+		<entity id="s1.e7" charOffset="303-325"
+			type="GO" text="centrosome duplication" ontology_id="GO_0051298"/>
+		<entity id="s1.e8" charOffset="327-348"
+			type="GO" text="centriole replication" ontology_id="GO_0007099"/>
+		<entity id="s1.e9" charOffset="350-372"
+			type="GO" text="centrosome duplication" ontology_id="GO_0051298"/>
+		<entity id="s1.e10" charOffset="374-391"
+			type="GO" text="brain development" ontology_id="GO_0007420"/>
+		<entity id="s1.e11" charOffset="393-415"
+			type="GO" text="histone ubiquitination" ontology_id="GO_0016574"/>
+		<entity id="s1.e12" charOffset="417-460"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e13" charOffset="462-510"
+			type="GO" text="mitotic chromosome movement towards spindle pole" ontology_id="GO_0007079"/>
+		<entity id="s1.e14" charOffset="512-533"
+			type="GO" text="centriole replication" ontology_id="GO_0007099"/>
+		<entity id="s1.e15" charOffset="534-560"
+			type="GO" text="lysophospholipid transport" ontology_id="GO_0051977"/>
+		<entity id="s1.e16" charOffset="561-595"
+			type="GO" text="central nervous system development" ontology_id="GO_0007417"/>
+		<entity id="s1.e17" charOffset="600-619"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e1"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e1"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e1"
+		    e2="s1.e17" pgr="true"/>
+	</sentence>
+</document>

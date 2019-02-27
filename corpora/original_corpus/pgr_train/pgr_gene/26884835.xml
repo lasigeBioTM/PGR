@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26884835">
+	<sentence id="s1" text="Recently, TMEM98 is supposed to be of great value for the discoveries of anti-tumor drugs.">
+		<entity id="s1.e1" charOffset="10-16"
+			type="GENE" text="TMEM98" ontology_id="26022"/>
+		<entity id="s1.e2" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Clinical lung cancer tissue and normal tissue were collected, and the mRNA expression of TMEM98 in cancer tissue was significantly higher than that in normal tissue.">
+		<entity id="s2.e1" charOffset="14-20"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="89-95"
+			type="GENE" text="TMEM98" ontology_id="26022"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To conclude, our results indicated that siRNA-TMEM98 inhibited the invasion and migration of lung cancer cells, which can be considered as a novel target for NSCLC treatment.">
+		<entity id="s3.e1" charOffset="46-52"
+			type="GENE" text="TMEM98" ontology_id="26022"/>
+		<entity id="s3.e2" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

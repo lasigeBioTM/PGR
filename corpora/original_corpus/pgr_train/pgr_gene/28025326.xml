@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28025326">
+	<sentence id="s1" text="Genetic screening of patients diagnosed with macular dystrophy disclosed a novel mutation in the GUCA1A gene, namely a c.526C AAAA T substitution leading to the amino acid substitution p.L176F in the guanylate cyclase-activating protein 1 (GCAP1).">
+		<entity id="s1.e1" charOffset="45-62"
+			type="HP" text="macular dystrophy" ontology_id="HP_0007754"/>
+		<entity id="s1.e2" charOffset="97-103"
+			type="GENE" text="GUCA1A" ontology_id="2978"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

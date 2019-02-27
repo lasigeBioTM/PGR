@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26310293">
+	<sentence id="s1" text="Yeast trm7D mutants grow poorly due to lack of 2*-O-methylated C32 (Cm32 ) and Gm34 on tRNA(Phe) , catalyzed by Trm7-Trm732 and Trm7-Trm734, respectively, which in turn results in loss of wybutosine at G37 . Mutations in human FTSJ1, the likely TRM7 homolog, cause nonsyndromic X-linked intellectual disability (NSXLID), but the role of FTSJ1 in tRNA modification is unknown.">
+		<entity id="s1.e1" charOffset="6-10"
+			type="GENE" text="trm7" ontology_id="24140"/>
+		<entity id="s1.e2" charOffset="112-116"
+			type="GENE" text="Trm7" ontology_id="24140"/>
+		<entity id="s1.e3" charOffset="227-232"
+			type="GENE" text="FTSJ1" ontology_id="24140"/>
+		<entity id="s1.e4" charOffset="287-310"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

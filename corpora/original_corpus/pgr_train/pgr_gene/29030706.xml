@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29030706">
+	<sentence id="s1" text="In search of novel germline alterations predisposing to tumors, in particular to gliomas, we studied a family with two brothers affected by anaplastic gliomas, and their father and paternal great-uncle diagnosed with prostate carcinoma.">
+		<entity id="s1.e1" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="81-87"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e3" charOffset="190-195"
+			type="GENE" text="great" ontology_id="122042"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this family, whole-exome sequencing yielded rare, simultaneously heterozygous variants in the Aicardi-Goutieres syndrome (AGS) genes ADAR and RNASEH2B co-segregating with the tumor phenotype.">
+		<entity id="s2.e1" charOffset="136-140"
+			type="GENE" text="ADAR" ontology_id="103"/>
+		<entity id="s2.e2" charOffset="145-153"
+			type="GENE" text="RNASEH2B" ontology_id="79621"/>
+		<entity id="s2.e3" charOffset="178-183"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="By targeted sequencing, we identified novel ADAR and RNASEH2B variants, and a 3- to 17-fold frequency increase of the AGS mutations ADAR,c.577CAAAAG;p.(P193A) and RNASEH2B,c.529GAAAAA;p.(A177T) in the germline of familial glioma patients as well as in test and validation cohorts of glioblastomas and prostate carcinomas versus ethnicity-matched controls, whereby rare RNASEH2B variants were significantly more frequent in familial glioma patients.">
+		<entity id="s3.e1" charOffset="44-48"
+			type="GENE" text="ADAR" ontology_id="103"/>
+		<entity id="s3.e2" charOffset="222-228"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="An increased ISG expression was also induced by ADAR and RNASEH2B variants in tumor cells and was blocked by the JAK inhibitor Ruxolitinib.">
+		<entity id="s4.e1" charOffset="48-52"
+			type="GENE" text="ADAR" ontology_id="103"/>
+		<entity id="s4.e2" charOffset="57-65"
+			type="GENE" text="RNASEH2B" ontology_id="79621"/>
+		<entity id="s4.e3" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our data implicate rare variants in the AGS genes ADAR and RNASEH2B and a type I interferon signature in glioma and prostate carcinoma risk and tumorigenesis, consistent with a genetic basis underlying inflammation-driven malignant transformation in glioma and prostate carcinoma development">
+		<entity id="s5.e1" charOffset="50-54"
+			type="GENE" text="ADAR" ontology_id="103"/>
+		<entity id="s5.e2" charOffset="59-67"
+			type="GENE" text="RNASEH2B" ontology_id="79621"/>
+		<entity id="s5.e3" charOffset="105-111"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s5.e4" charOffset="144-149"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e2"
+		    e2="s5.e6" pgr="false"/>
+	</sentence>
+</document>

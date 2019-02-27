@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28370826">
+	<sentence id="s1" text="Our observations strengthen the evidence supporting a role for EFHC1 in JME in a population ethnically and geographically distinct from the one in which the gene was initially identified, and broaden the extent of allelic heterogeneity in the gene">
+		<entity id="s1.e1" charOffset="63-68"
+			type="GENE" text="EFHC1" ontology_id="114327"/>
+		<entity id="s1.e2" charOffset="222-235"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

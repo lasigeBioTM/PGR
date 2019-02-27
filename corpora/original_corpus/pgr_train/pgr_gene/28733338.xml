@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28733338">
+	<sentence id="s1" text="We addressed this issue using mouse pancreatic acinar tumor cell line 266-6 and primary PAC of wild-type and transgenic mice carrying the SLC25A19 promoter that were fed alcohol chronically.">
+		<entity id="s1.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="138-146"
+			type="GENE" text="SLC25A19" ontology_id="60386"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Similarly, chronic alcohol feeding of mice led to a significant inhibition in expression of MTPPT protein, mRNA, heterogeneous nuclear RNA, as well as in activity of SLC25A19 promoter in PAC.">
+		<entity id="s2.e1" charOffset="113-126"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="166-174"
+			type="GENE" text="SLC25A19" ontology_id="60386"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

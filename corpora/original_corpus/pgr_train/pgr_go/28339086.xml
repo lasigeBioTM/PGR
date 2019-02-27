@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28339086">
+	<sentence id="s1" text="negative regulation of protein phosphorylation, positive regulation of protein phosphorylation and phosphatidylinositol 3-kinase signaling were the most frequently mutated canonical cancer-related genes.">
+		<entity id="s1.e1" charOffset="0-46"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e2" charOffset="48-94"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="99-138"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0014065"/>
+		<entity id="s1.e4" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

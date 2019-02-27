@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29100834">
+	<sentence id="s1" text="We report a sibling pair with FTHS caused by a homozygous, novel mutation pLys133Glnfs*13 in the superoxide metabolic process gene: one sibling had bilateral ocular hypertension and unilateral colobomas of iris, choroid and retina; the other, unilateral myelinated nerve fiber layer of the optic disk and papilledema due to idiopathic intracranial hypertension.">
+		<entity id="s1.e1" charOffset="97-125"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s1.e2" charOffset="148-157"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e3" charOffset="182-192"
+			type="HP" text="unilateral" ontology_id="HP_0012833"/>
+		<entity id="s1.e4" charOffset="305-316"
+			type="HP" text="papilledema" ontology_id="HP_0001085"/>
+		<entity id="s1.e5" charOffset="335-360"
+			type="HP" text="intracranial hypertension" ontology_id="HP_0002516"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

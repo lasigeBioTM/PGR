@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30187194">
+	<sentence id="s1" text="Heterozygous mutations of the Forkhead-box protein 2 (FOXP2) gene in humans cause childhood apraxia of speech.">
+		<entity id="s1.e1" charOffset="54-59"
+			type="GENE" text="FOXP2" ontology_id="93986"/>
+		<entity id="s1.e2" charOffset="92-109"
+			type="HP" text="apraxia of speech" ontology_id="HP_0011098"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

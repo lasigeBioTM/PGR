@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29529059">
+	<sentence id="s1" text="One of these two is a novel AMD GWAS locus, near the retinal clusterin-like protein (CLUL1) gene, and the other, near the retinaldehyde binding protein 1 (RLBP1), was recently identified in a joint analysis of nuclear and mitochondrial variants.">
+		<entity id="s1.e1" charOffset="85-90"
+			type="GENE" text="CLUL1" ontology_id="27098"/>
+		<entity id="s1.e2" charOffset="155-160"
+			type="GENE" text="RLBP1" ontology_id="6017"/>
+		<entity id="s1.e3" charOffset="222-235"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

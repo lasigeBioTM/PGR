@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28172817">
+	<sentence id="s1" text="rRNA catabolic process encodes a catalytic subunit of the nuclear RNA exosome complex that mediates RNA processing and decay, and is mutated in several cancers.">
+		<entity id="s1.e1" charOffset="0-22"
+			type="GO" text="rRNA catabolic process" ontology_id="GO_0016075"/>
+		<entity id="s1.e2" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In conclusion, we have identified a putative functional indel variant at chr13q22.1 that associates with decreased rRNA catabolic process expression in carriers of pancreatic cancer risk-increasing alleles, and could therefore affect nuclear RNA processing and/or decay">
+		<entity id="s2.e1" charOffset="115-137"
+			type="GO" text="rRNA catabolic process" ontology_id="GO_0016075"/>
+		<entity id="s2.e2" charOffset="175-181"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

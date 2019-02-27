@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27217339">
+	<sentence id="s1" text="Complex recessive spastic paraplegias have in the past been frequently associated with mutations in SPG11 (spatacsin), ZFYVE26/SPG15, SPG7 (paraplegin) and a handful of other rare genes, but many cases remain genetically undefined.">
+		<entity id="s1.e1" charOffset="18-36"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e2" charOffset="119-126"
+			type="GENE" text="ZFYVE26" ontology_id="23503"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In the remaining cases, next generation sequencing was carried out revealing variants in a number of other known complex spastic paraplegia genes, including five in SPG7 (5/97), four in FA2H (also known as SPG35) (4/97) and two in ZFYVE26/SPG15 Variants were identified in genes usually associated with pure spastic paraplegia and also in the Parkinson*s disease-associated gene ATP13A2, neuronal ceroid lipofuscinosis gene TPP1 and the hereditary motor and sensory neuropathy DNMT1 gene, highlighting the genetic heterogeneity of spastic paraplegia.">
+		<entity id="s2.e1" charOffset="121-139"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s2.e2" charOffset="239-244"
+			type="GENE" text="SPG15" ontology_id="23503"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

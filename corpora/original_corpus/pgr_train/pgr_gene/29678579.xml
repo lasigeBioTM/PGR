@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29678579">
+	<sentence id="s1" text="In the present study, we silenced CBX3 expression in pancreatic cancer cell lines and identified the positive roles of CBX3 in cancer cell proliferation.">
+		<entity id="s1.e1" charOffset="34-38"
+			type="GENE" text="CBX3" ontology_id="11335"/>
+		<entity id="s1.e2" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, we demonstrated that silencing CBX3 in pancreatic cancer cells inhibited aerobic glycolysis, the basis for providing cancer cells with building blocks for macromolecule synthesis and ATP that required.">
+		<entity id="s2.e1" charOffset="44-48"
+			type="GENE" text="CBX3" ontology_id="11335"/>
+		<entity id="s2.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To search for the underlying molecular mechanism, we turned to examine the impact of CBX3 on the expression of FBP1, a negative regulator of aerobic glycolysis in pancreatic cancer and indicated that CBX3 negatively regulated FBP1 expression.">
+		<entity id="s3.e1" charOffset="75-81"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s3.e2" charOffset="85-89"
+			type="GENE" text="CBX3" ontology_id="11335"/>
+		<entity id="s3.e3" charOffset="111-115"
+			type="GENE" text="FBP1" ontology_id="2203"/>
+		<entity id="s3.e4" charOffset="174-180"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Silencing FBP1 expression attenuated the decrease in glycolytic capacity that caused by CBX3 knockdown in pancreatic cancer cells.">
+		<entity id="s4.e1" charOffset="10-14"
+			type="GENE" text="FBP1" ontology_id="2203"/>
+		<entity id="s4.e2" charOffset="88-92"
+			type="GENE" text="CBX3" ontology_id="11335"/>
+		<entity id="s4.e3" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Taken together, these data reveal that CBX3 serves as a positive regulator of aerobic glycolysis via suppressing of the FBP1 in pancreatic cancer cells.">
+		<entity id="s5.e1" charOffset="39-43"
+			type="GENE" text="CBX3" ontology_id="11335"/>
+		<entity id="s5.e2" charOffset="120-124"
+			type="GENE" text="FBP1" ontology_id="2203"/>
+		<entity id="s5.e3" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Disrupting the CBX3-FBP1 signaling axis would be effective to treat pancreatic cancer and prevent aerobic glycolysis">
+		<entity id="s6.e1" charOffset="15-19"
+			type="GENE" text="CBX3" ontology_id="11335"/>
+		<entity id="s6.e2" charOffset="20-24"
+			type="GENE" text="FBP1" ontology_id="2203"/>
+		<entity id="s6.e3" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

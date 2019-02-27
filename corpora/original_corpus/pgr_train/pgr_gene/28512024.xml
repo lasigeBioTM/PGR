@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28512024">
+	<sentence id="s1" text="NGLY1 patients produce little or no N-glycanase (Ngly1), and the symptoms include global developmental delay, frequent seizures, complex hyperkinetic movement disorder, difficulty in swallowing/aspiration, liver dysfunction, and a lack of tears.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="NGLY1" ontology_id="55768"/>
+		<entity id="s1.e2" charOffset="49-54"
+			type="GENE" text="Ngly1" ontology_id="55768"/>
+		<entity id="s1.e3" charOffset="89-108"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e4" charOffset="119-127"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e5" charOffset="150-167"
+			type="HP" text="movement disorder" ontology_id="HP_0100022"/>
+		<entity id="s1.e6" charOffset="206-223"
+			type="HP" text="liver dysfunction" ontology_id="HP_0001410"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e10" pgr="true"/>
+	</sentence>
+</document>

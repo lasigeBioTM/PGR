@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29634755">
+	<sentence id="s1" text="The variants GJB2 c.235delC, SLC26A4 c.919-2AAAAAG, and mitochondrial variants m.1555AAAAAG and m.1494CAAAAT were assayed using real time PCR.">
+		<entity id="s1.e1" charOffset="29-36"
+			type="GENE" text="SLC26A4" ontology_id="5172"/>
+		<entity id="s1.e2" charOffset="56-69"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The most frequent hearing loss associated allele detected in this population was the 235delC variant in GJB2 gene.">
+		<entity id="s2.e1" charOffset="18-30"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="104-108"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The variants GJB2 c.235delC, SLC26A4 c.919-2AAAAAG, and mitochondrial variants m.1555AAAAAG and m.1494CAAAAT were assayed using real time PCR.">
+		<entity id="s3.e1" charOffset="13-17"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s3.e2" charOffset="56-69"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28684402">
+	<sentence id="s1" text="Initial antitumoral responses are often seen, but drug-resistant clones with reactivation of the MEK-ERK pathway soon appear.">
+		<entity id="s1.e1" charOffset="12-17"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="101-104"
+			type="GENE" text="ERK" ontology_id="2048"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To elucidate the possible functions of EVs in BRAF-mutant melanoma, we determined the RNA content of the EVs, including apoptotic bodies, microvesicles, and exosomes, released from such cancer cells after vemurafenib treatment.">
+		<entity id="s2.e1" charOffset="46-50"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s2.e2" charOffset="186-192"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="RNA sequencing and quantitative PCR show that cells and EVs from vemurafenib-treated cell cultures and tumor tissues harvested from cell-derived and patient-derived xenografts harbor unique miRNAs, especially increased expression of miR-211-5p.">
+		<entity id="s3.e1" charOffset="103-108"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="190-193"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

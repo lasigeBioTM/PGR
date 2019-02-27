@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29118297">
+	<sentence id="s1" text="striated muscle contraction encoding dystrobrevin-a (a-DB) is a putative causal gene associated with left ventricular noncompaction cardiomyopathy (LVNC).">
+		<entity id="s1.e1" charOffset="0-27"
+			type="GO" text="striated muscle contraction" ontology_id="GO_0006941"/>
+		<entity id="s1.e2" charOffset="101-131"
+			type="HP" text="left ventricular noncompaction" ontology_id="HP_0030682"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In conclusion, overexpression of the striated muscle contraction-p.N49S mutation in a mouse heart can be responsible for the phenotype of deep trabeculation, dilated cardiomyopathy, and cardiac dysfunction, which resembles the phenotype of LVNC">
+		<entity id="s2.e1" charOffset="37-64"
+			type="GO" text="striated muscle contraction" ontology_id="GO_0006941"/>
+		<entity id="s2.e2" charOffset="166-180"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27374774">
+	<sentence id="s1" text="We provide functional evidence to support the pathogenicity of these mitochondrial respiratory chain complex I assembly variants, including evidence of founder effects for both variants, and establish defects within this gene as a cause of complex I deficiency in association with either pure myopathy in adulthood or, in one individual, a severe multisystem presentation (chronic renal failure and cardiomyopathy) in infancy.">
+		<entity id="s1.e1" charOffset="69-119"
+			type="GO" text="mitochondrial respiratory chain complex I assembly" ontology_id="GO_0032981"/>
+		<entity id="s1.e2" charOffset="381-394"
+			type="HP" text="renal failure" ontology_id="HP_0000083"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

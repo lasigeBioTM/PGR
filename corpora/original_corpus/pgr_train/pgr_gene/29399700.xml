@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29399700">
+	<sentence id="s1" text="Never in mitosis gene-A (NIMA)-related expressed kinase 2 (NEK2) has been recently reported to play a role in tumor progression, drug resistance and tumorigenesis.">
+		<entity id="s1.e1" charOffset="59-63"
+			type="GENE" text="NEK2" ontology_id="4751"/>
+		<entity id="s1.e2" charOffset="110-115"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, little is known about the effects of NEK2 in hepatocellular carcinoma (HCC) metastasis and the underlying mechanism.">
+		<entity id="s2.e1" charOffset="46-50"
+			type="GENE" text="NEK2" ontology_id="4751"/>
+		<entity id="s2.e2" charOffset="54-78"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

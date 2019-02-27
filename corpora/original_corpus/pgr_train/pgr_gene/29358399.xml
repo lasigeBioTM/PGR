@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29358399">
+	<sentence id="s1" text="These changes were accompanied by cortical atrophy as well as increased expression of angiogenesis-related genes such as Vegfa, Serpine1, and Plau in CD31-positive endothelial cells.">
+		<entity id="s1.e1" charOffset="34-50"
+			type="HP" text="cortical atrophy" ontology_id="HP_0002120"/>
+		<entity id="s1.e2" charOffset="121-126"
+			type="GENE" text="Vegfa" ontology_id="7422"/>
+		<entity id="s1.e3" charOffset="128-136"
+			type="GENE" text="Serpi.e3" ontology_id="5054"/>
+		<entity id="s1.e4" charOffset="142-146"
+			type="GENE" text="Plau" ontology_id="5328"/>
+		<entity id="s1.e5" charOffset="150-154"
+			type="GENE" text="CD31" ontology_id="5175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

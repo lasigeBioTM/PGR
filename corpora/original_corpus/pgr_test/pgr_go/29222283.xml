@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29222283">
+	<sentence id="s1" text="In particular, angiogenesis mutations result in congenital macrothrombocytopenia and predispose to kidney failure, hearing loss, and cataracts, MPL and MECOM mutations cause congenital thrombocytopenia evolving into bone marrow failure, whereas thrombocytopenias caused by RUNX1, negative regulation of fat cell differentiation, and negative regulation of transcription by RNA polymerase II mutations are characterized by predisposition to hematological malignancies.">
+		<entity id="s1.e1" charOffset="15-27"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e2" charOffset="51-72"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<entity id="s1.e3" charOffset="115-127"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="280-327"
+			type="GO" text="negative regulation of fat cell differentiation" ontology_id="GO_0045599"/>
+		<entity id="s1.e5" charOffset="333-390"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

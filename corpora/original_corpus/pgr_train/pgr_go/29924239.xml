@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29924239">
+	<sentence id="s1" text="The diagnosis is based on genetic criteria, by the identification of inactivating pathogenic mutation of tumor suppressor genes regulation of translation and positive regulation of macroautophagy, and clinical criteria, including cutaneous, renal, pulmonary, cardiac and neurological manifestations.">
+		<entity id="s1.e1" charOffset="105-110"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="128-153"
+			type="GO" text="regulation of translation" ontology_id="GO_0006417"/>
+		<entity id="s1.e3" charOffset="158-195"
+			type="GO" text="positive regulation of macroautophagy" ontology_id="GO_0016239"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

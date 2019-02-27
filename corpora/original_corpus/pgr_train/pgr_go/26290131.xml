@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26290131">
+	<sentence id="s1" text="Three patients presented with cognitive impairment, reinforcing the association between the disrupted genes (cell surface receptor signaling pathway-cell surface receptor signaling pathway, KIAA2022-MRX98, and regulation of postsynapse organization-MRX21/34) and intellectual disability.">
+		<entity id="s1.e1" charOffset="109-148"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s1.e2" charOffset="116-155"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s1.e3" charOffset="177-215"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<entity id="s1.e4" charOffset="200-223"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The expression assays did not detect protein palmitoylation gene expression in the patient, thus questioning its involvement in intellectual disability.">
+		<entity id="s2.e1" charOffset="37-59"
+			type="GO" text="protein palmitoylation" ontology_id="GO_0018345"/>
+		<entity id="s2.e2" charOffset="128-151"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

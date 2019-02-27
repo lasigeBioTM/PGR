@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30194140">
+	<sentence id="s1" text="Anaplastic lymphoma kinase (phosphorylation) rearrangements were first implicated as driving mutations in non-small cell lung cancer in 2007.">
+		<entity id="s1.e1" charOffset="28-43"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e2" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Since then, a number of novel, small-molecule inhibitors directed against the phosphorylation receptor have demonstrated superiority over standard chemotherapies in the treatment of ALK rearrangement-positive lung cancer.">
+		<entity id="s2.e1" charOffset="78-93"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s2.e2" charOffset="214-220"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28066036">
+	<sentence id="s1" text="Idiopathic pulmonary fibrosis (IPF) is a complex, heterogeneous genetic disorder that is associated with rare and common sequence variants in many genes (MUC5B, SFTPC, SFTPA2, RTEL1, TERT, and hTR), 11 novel loci, and multiple emerging epigenetic and transcriptional profiles.">
+		<entity id="s1.e1" charOffset="50-63"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="168-174"
+			type="GENE" text="SFTPA2" ontology_id="729238"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

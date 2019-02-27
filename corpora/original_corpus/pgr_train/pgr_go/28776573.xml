@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28776573">
+	<sentence id="s1" text="The more common member of this family, intraductal papillary mucinous neoplasm, often carries genetic alterations typical of pancreatic infiltrating ductal adenocarcinoma (positive regulation of protein phosphorylation, TP53, and G1/S transition of mitotic cell cycle) but additionally has mutations in adenylate cyclase-activating G protein-coupled receptor signaling pathway and RNF43 genes.">
+		<entity id="s1.e1" charOffset="70-78"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="172-218"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="230-267"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e4" charOffset="376-376"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="All intraductal tubulopapillary neoplasms revealed the characteristic histologic (cellular intraductal nodules of back-to-back tubular glands lined by predominantly cuboidal cells with atypical nuclei and no obvious intracellular mucin) and immunohistochemical (immunolabeled with MUC1 and stimulatory C-type lectin receptor signaling pathway but were negative for maintenance of gastrointestinal epithelium and phosphatidylinositol-mediated signaling) features.">
+		<entity id="s2.e1" charOffset="32-40"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="290-342"
+			type="GO" text="stimulatory C-type lectin receptor signaling pathway" ontology_id="GO_0002223"/>
+		<entity id="s2.e3" charOffset="365-407"
+			type="GO" text="maintenance of gastrointestinal epithelium" ontology_id="GO_0030277"/>
+		<entity id="s2.e4" charOffset="412-451"
+			type="GO" text="phosphatidylinositol-mediated signaling" ontology_id="GO_0048015"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, certain chromatin remodeling genes (MLL1, MLL2, MLL3, cell adhesion, negative regulation of cell proliferation, negative regulation of transcription by RNA polymerase II, and nucleosome assembly) were found to be mutated in 7/22 (32%) of intraductal tubulopapillary neoplasms and 27% harbored phosphatidylinositol 3-kinase (PI3K) pathway (PIK3CA, phosphorylation, phosphatidylinositol biosynthetic process, and negative regulation of protein phosphorylation) mutations.">
+		<entity id="s3.e1" charOffset="63-76"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s3.e2" charOffset="78-119"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s3.e3" charOffset="121-178"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e4" charOffset="170-178"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<entity id="s3.e5" charOffset="184-203"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<entity id="s3.e6" charOffset="356-371"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s3.e7" charOffset="373-414"
+			type="GO" text="phosphatidylinositol biosynthetic process" ontology_id="GO_0006661"/>
+		<entity id="s3.e8" charOffset="420-466"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e4"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e4"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e4"
+		    e2="s3.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In addition, 4/18 (18%) of intraductal tubulopapillary neoplasms had positive regulation of cell proliferation fusions (FGFR2-nucleus organization, FGFR2-centriole replication, diaphragm development-FGFR2, FGFR2-cytokine-mediated signaling pathway, and FGFR2-VCL) and 1/18 (5.5%) had negative regulation of cell proliferation-phosphorylation fusion.">
+		<entity id="s4.e1" charOffset="55-63"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="69-110"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s4.e3" charOffset="126-146"
+			type="GO" text="nucleus organization" ontology_id="GO_0006997"/>
+		<entity id="s4.e4" charOffset="154-175"
+			type="GO" text="centriole replication" ontology_id="GO_0007099"/>
+		<entity id="s4.e5" charOffset="177-198"
+			type="GO" text="diaphragm development" ontology_id="GO_0060539"/>
+		<entity id="s4.e6" charOffset="212-247"
+			type="GO" text="cytokine-mediated signaling pathway" ontology_id="GO_0019221"/>
+		<entity id="s4.e7" charOffset="284-325"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s4.e8" charOffset="326-341"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p5" e1="s4.e1"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p6" e1="s4.e1"
+		    e2="s4.e7" pgr="false"/>
+		<pair id="s4.p7" e1="s4.e1"
+		    e2="s4.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="All intraductal tubulopapillary neoplasms revealed the characteristic histologic (cellular intraductal nodules of back-to-back tubular glands lined by predominantly cuboidal cells with atypical nuclei and no obvious intracellular mucin) and immunohistochemical (immunolabeled with DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest and MUC6 but were negative for MUC2 and MUC5AC) features.">
+		<entity id="s5.e1" charOffset="32-40"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="281-374"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest" ontology_id="GO_0006977"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

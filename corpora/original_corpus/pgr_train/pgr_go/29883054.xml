@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29883054">
+	<sentence id="s1" text="In this review, we describe the significance and paradoxical requirement of hemopoiesis tumor suppressor in hematological malignancies based on recent findings such as AAAAAAGenetic compensation of RUNX family transcription factors in leukemia,AAAAAA AAAAAARUNX1 inhibition-induced inhibitory effects on leukemia cells through p53 activationAAAAAA and our novel promising theory AAAAAACluster regulation of RUNX (CROX)AAAAAA through the RUNX gene switch method using pyrrole-imidazole polyamides as a new technique that could contribute to the next generation of leukemia treatment strategies">
+		<entity id="s1.e1" charOffset="76-87"
+			type="GO" text="hemopoiesis" ontology_id="GO_0030097"/>
+		<entity id="s1.e2" charOffset="88-93"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

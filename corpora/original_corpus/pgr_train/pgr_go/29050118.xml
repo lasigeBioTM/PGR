@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29050118">
+	<sentence id="s1" text="Result: Three mutant genes (peptidyl-tyrosine dephosphorylation gene in chromosome 12, Ras protein signal transduction gene in chromosome 1 and activation of MAPKK activity gene in chromosome 3) in five cases all had been reported to be related to hypertrophic cardiomyopathy.">
+		<entity id="s1.e1" charOffset="28-63"
+			type="GO" text="peptidyl-tyrosine dephosphorylation" ontology_id="GO_0035335"/>
+		<entity id="s1.e2" charOffset="87-118"
+			type="GO" text="Ras protein signal transduction" ontology_id="GO_0007265"/>
+		<entity id="s1.e3" charOffset="144-172"
+			type="GO" text="activation of MAPKK activity" ontology_id="GO_0000186"/>
+		<entity id="s1.e4" charOffset="210-224"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The reported hypertrophic cardiomyopathy relevant genes sarcomere organization, regulation of the force of heart contraction and MYBP3 had also been found in case 1 and 2.">
+		<entity id="s2.e1" charOffset="26-40"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e2" charOffset="56-78"
+			type="GO" text="sarcomere organization" ontology_id="GO_0045214"/>
+		<entity id="s2.e3" charOffset="80-124"
+			type="GO" text="regulation of the force of heart contraction" ontology_id="GO_0002026"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

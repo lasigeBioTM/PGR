@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27751755">
+	<sentence id="s1" text="In the eyes of steroid biosynthetic process-/- phospholipid translocation-/- mice, a mouse model with defects in retinoid cycle that displays some symbolic characteristics of age-related macular degeneration (AMD), the level of atRAL-dimer was increased compared to wild-type mice, and was even much greater than that of A2E AAAAA isomers.">
+		<entity id="s1.e1" charOffset="15-43"
+			type="GO" text="steroid biosynthetic process" ontology_id="GO_0006694"/>
+		<entity id="s1.e2" charOffset="47-73"
+			type="GO" text="phospholipid translocation" ontology_id="GO_0045332"/>
+		<entity id="s1.e3" charOffset="166-186"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

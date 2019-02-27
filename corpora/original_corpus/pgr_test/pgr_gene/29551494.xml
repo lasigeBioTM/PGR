@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29551494">
+	<sentence id="s1" text="Furthermore, the xenograft study confirmed the tumor proliferation-promoting role of SPRY4-IT1 in PANC1 cells.">
+		<entity id="s1.e1" charOffset="47-52"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="91-94"
+			type="GENE" text="IT1" ontology_id="79441"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

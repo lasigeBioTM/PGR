@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30242264">
+	<sentence id="s1" text="Mutations in zeaxanthin biosynthetic process result in a disrupted chromophore supply, retinal degeneration, and blindness.">
+		<entity id="s1.e1" charOffset="13-44"
+			type="GO" text="zeaxanthin biosynthetic process" ontology_id="GO_1901827"/>
+		<entity id="s1.e2" charOffset="87-107"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="113-122"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

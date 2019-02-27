@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29694336">
+	<sentence id="s1" text="Additionally, despite GDAP1 affecting mitochondrial functionality, and hence being of great importance to cellular function, the GDAP1-associated Charcot-Marie-Tooth disease is mainly characterized by axonal degeneration.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="GDAP1" ontology_id="54332"/>
+		<entity id="s1.e2" charOffset="201-220"
+			type="HP" text="axonal degeneration" ontology_id="HP_0040078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

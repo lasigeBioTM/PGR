@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29961886">
+	<sentence id="s1" text="Although chaperone-mediated protein folding is ubiquitously present, it is particularly abundant in the central nervous system and at spliceosomal snRNP assembly-relevant sites including motor neuron growth cones and neuromuscular junctions.">
+		<entity id="s1.e1" charOffset="9-43"
+			type="GO" text="chaperone-mediated protein folding" ontology_id="GO_0061077"/>
+		<entity id="s1.e2" charOffset="74-81"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e3" charOffset="104-131"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

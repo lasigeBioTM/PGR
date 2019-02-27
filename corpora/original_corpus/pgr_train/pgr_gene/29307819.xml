@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29307819">
+	<sentence id="s1" text="The use of low fidelity DNA polymerases in the translesional synthesis (TLS) DNA damage response pathway that repairs lesions caused by cisplatin also presents a mutational carcinogenic burden on cells that needs to be regulated by the tumor suppressor protein p53.">
+		<entity id="s1.e1" charOffset="236-241"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="261-264"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, there is much debate over the roles of the reversionless 3-like (REV3L) protein responsible for TLS and p53 in regulating cancer cell metabolism.">
+		<entity id="s2.e1" charOffset="74-79"
+			type="GENE" text="REV3L" ontology_id="5980"/>
+		<entity id="s2.e2" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In this study, the fluorescence lifetime of the metabolic coenzyme NADH reveals that the absence of REV3L can promote the p53-mediated upregulation of oxidative phosphorylation in cisplatin-treated H1299 lung carcinoma cells and increases cancer cell sensitivity to this platinum-based chemotherapy.">
+		<entity id="s3.e1" charOffset="100-105"
+			type="GENE" text="REV3L" ontology_id="5980"/>
+		<entity id="s3.e2" charOffset="122-125"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s3.e3" charOffset="239-245"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="These results demonstrate a previously unrecognized relationship between p53 and REV3L in cancer cell metabolism and may lead to improvements in chemotherapy treatment plans that reduce cisplatin resistance in lung cancer">
+		<entity id="s4.e1" charOffset="73-76"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s4.e2" charOffset="81-86"
+			type="GENE" text="REV3L" ontology_id="5980"/>
+		<entity id="s4.e3" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29587389">
+	<sentence id="s1" text="Lynch syndrome, a hereditary cancer syndrome, occurs because of germline mutations in at least one of four DNA mismatch repair genes (MutL Homolog 1 (mismatch repair), MutS Homolog 2 (DNA repair), MutS Homolog 6 (DNA repair), and mismatch repair Homolog 2 (mismatch repair)).">
+		<entity id="s1.e1" charOffset="29-35"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="150-165"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s1.e3" charOffset="184-194"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e4" charOffset="213-223"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e5" charOffset="230-245"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s1.e6" charOffset="257-272"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

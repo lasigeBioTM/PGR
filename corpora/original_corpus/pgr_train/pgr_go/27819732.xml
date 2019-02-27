@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27819732">
+	<sentence id="s1" text="The aim of this study was to screen the visual system homeobox 1 (regulation of transcription, DNA-templated) gene in Turkish patients with keratoconus (KC).">
+		<entity id="s1.e1" charOffset="66-108"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="140-151"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

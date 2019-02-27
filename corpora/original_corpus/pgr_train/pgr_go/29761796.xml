@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29761796">
+	<sentence id="s1" text="BACKGROUND This study aimed to investigate the mechanism of regulation of transcription, DNA-templated gene dysfunction in drug resistance of triple negative breast cancer (TNBC) cells.">
+		<entity id="s1.e1" charOffset="60-102"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="165-171"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

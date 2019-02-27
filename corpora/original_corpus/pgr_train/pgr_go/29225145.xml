@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29225145">
+	<sentence id="s1" text="The most common genetic cause is cell-matrix adhesion-related X-linked hydrocephalus and that explains only 5%-10% of all male cases.">
+		<entity id="s1.e1" charOffset="33-53"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e2" charOffset="71-84"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This suggests that children with stress-activated protein kinase signaling cascade-related autosomal recessive hydrocephalus can have normal developmental outcomes under certain circumstances.">
+		<entity id="s2.e1" charOffset="33-82"
+			type="GO" text="stress-activated protein kinase signaling cascade" ontology_id="GO_0031098"/>
+		<entity id="s2.e2" charOffset="91-110"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="111-124"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We recommend stress-activated protein kinase signaling cascade analysis in cases of severe non-syndromic congenital hydrocephalus, especially when aqueduct stenosis with or without a medial diverticulum is seen, in order to aid prognosis discussion">
+		<entity id="s3.e1" charOffset="13-62"
+			type="GO" text="stress-activated protein kinase signaling cascade" ontology_id="GO_0031098"/>
+		<entity id="s3.e2" charOffset="116-129"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

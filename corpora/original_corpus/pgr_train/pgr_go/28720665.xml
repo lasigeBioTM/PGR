@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28720665">
+	<sentence id="s1" text="Tumors showing this phenotype, but no alterations in the known predisposing genes, could harbor mutations in other Krebs cycle genes.Experimental Design: We used downregulation and methylation of negative regulation of transcription, DNA-templated, as a marker of a hypermethylation phenotype, to select eleven pheochromocytomas and paragangliomas for targeted exome sequencing of a panel of Krebs cycle-related genes.">
+		<entity id="s1.e1" charOffset="196-247"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="333-347"
+			type="HP" text="paragangliomas" ontology_id="HP_0002668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Methylation profiling, metabolite assessment and additional analyses were also performed in selected cases.Results: One of the 11 tumors was found to carry a known cancer-predisposing somatic mutation in isocitrate metabolic process A variant in aspartate catabolic process, c.357AAAAAT, found in a patient with multiple tumors, was associated with higher tumor mRNA and protein expression levels, increased aspartate catabolic process enzymatic activity in lymphoblastic cells, and altered metabolite ratios both in tumors and in aspartate catabolic process knockdown HeLa cells transfected with the variant.">
+		<entity id="s2.e1" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="184-200"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s2.e4" charOffset="204-232"
+			type="GO" text="isocitrate metabolic process" ontology_id="GO_0006102"/>
+		<entity id="s2.e5" charOffset="246-273"
+			type="GO" text="aspartate catabolic process" ontology_id="GO_0006533"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e9"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Array methylation-based analysis uncovered a somatic epigenetic mutation in mitochondrial electron transport, succinate to ubiquinone in a patient with multiple pheochromocytomas and a gastrointestinal stromal tumor.">
+		<entity id="s3.e1" charOffset="76-133"
+			type="GO" text="mitochondrial electron transport, succinate to ubiquinone" ontology_id="GO_0006121"/>
+		<entity id="s3.e2" charOffset="210-215"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29757257">
+	<sentence id="s1" text="The mammalian target of rapamycin (mTOR) pathway is overactivated in thyroid cancer (TC).">
+		<entity id="s1.e1" charOffset="35-39"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s1.e2" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We previously demonstrated that phospho-mTOR expression is associated with tumor aggressiveness, therapy resistance, and lower mRNA expression of SLC5A5 in papillary thyroid carcinoma (PTC), while phospho-S6 (mTORC1 effector) expression was associated with less aggressive clinicopathological features.">
+		<entity id="s2.e1" charOffset="40-44"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s2.e2" charOffset="75-80"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="81-95"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<entity id="s2.e4" charOffset="146-152"
+			type="GENE" text="SLC5A5" ontology_id="6528"/>
+		<entity id="s2.e5" charOffset="156-183"
+			type="HP" text="papillary thyroid carcinoma" ontology_id="HP_0002895"/>
+		<entity id="s2.e6" charOffset="205-207"
+			type="GENE" text="S6" ontology_id="5704"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e6"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e14"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e14" pgr="false"/>
+	</sentence>
+</document>

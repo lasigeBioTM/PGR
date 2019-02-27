@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29945888">
+	<sentence id="s1" text="Here, we applied domain-focused CRISPR screening to human cancer cell lines to identify the transcription factor (TF) POU2F3 (POU class 2 homeobox 3; also known as negative regulation by host of viral transcription/OCT-11) as a powerful dependency in a subset of SCLC lines.">
+		<entity id="s1.e1" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="164-214"
+			type="GO" text="negative regulation by host of viral transcription" ontology_id="GO_0043922"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

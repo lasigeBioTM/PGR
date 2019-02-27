@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28398482">
+	<sentence id="s1" text="In humans, CERKL mutations cause widespread retinal degeneration: early dysfunction and loss of rod and cone photoreceptors in the outer retina and, progressively, death of cells in the inner retina.">
+		<entity id="s1.e1" charOffset="11-16"
+			type="GENE" text="CERKL" ontology_id="375298"/>
+		<entity id="s1.e2" charOffset="44-64"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

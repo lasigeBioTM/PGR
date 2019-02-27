@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29025582">
+	<sentence id="s1" text="hemopoiesis fusions are associated with myeloid and lymphoid neoplasms with eosinophilia.">
+		<entity id="s1.e1" charOffset="0-11"
+			type="GO" text="hemopoiesis" ontology_id="GO_0030097"/>
+		<entity id="s1.e2" charOffset="76-88"
+			type="HP" text="eosinophilia" ontology_id="HP_0001880"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We suggest that leukemias and lymphomas with hemopoiesis fusion genes exhibit similar clinicopathologic features to, and should be included in, the WHO category of AAAAAAMyeloid and lymphoid neoplasms with eosinophilia and abnormalities of positive regulation of cell proliferation, signal transduction, or positive regulation of cell proliferation, or with negative regulation of transcription by RNA polymerase II-JAK2.AAAAA">
+		<entity id="s2.e1" charOffset="45-56"
+			type="GO" text="hemopoiesis" ontology_id="GO_0030097"/>
+		<entity id="s2.e2" charOffset="206-218"
+			type="HP" text="eosinophilia" ontology_id="HP_0001880"/>
+		<entity id="s2.e3" charOffset="240-281"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e4" charOffset="248-267"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s2.e5" charOffset="272-313"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e6" charOffset="323-380"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

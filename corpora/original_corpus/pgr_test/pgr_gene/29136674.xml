@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29136674">
+	<sentence id="s1" text="3) Multiple endocrine neoplasia type 1 (MEN1) is most frequently expressed as PHPT with asymmetric enlargement of 3-4 parathyroids.">
+		<entity id="s1.e1" charOffset="22-31"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="40-44"
+			type="GENE" text="MEN1" ontology_id="4221"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

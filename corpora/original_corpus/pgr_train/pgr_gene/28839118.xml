@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28839118">
+	<sentence id="s1" text="We detected 11 novel mutations in GJA3, GJA8, CRYAA, CRYBB2, CRYGS, CRYGA, GCNT2, CRYGA, and MIP; and three previously reported cataract-causing mutations in GJA8, CRYAA, and CRYBB2 The most commonly mutated genes were those coding for gap junctions and crystallin proteins.">
+		<entity id="s1.e1" charOffset="34-38"
+			type="GENE" text="GJA3" ontology_id="2700"/>
+		<entity id="s1.e2" charOffset="40-44"
+			type="GENE" text="GJA8" ontology_id="2703"/>
+		<entity id="s1.e3" charOffset="46-51"
+			type="GENE" text="CRYAA" ontology_id="1409"/>
+		<entity id="s1.e4" charOffset="53-59"
+			type="GENE" text="CRYBB2" ontology_id="1415"/>
+		<entity id="s1.e5" charOffset="68-73"
+			type="GENE" text="CRYGA" ontology_id="1418"/>
+		<entity id="s1.e6" charOffset="75-80"
+			type="GENE" text="GCNT2" ontology_id="2651"/>
+		<entity id="s1.e7" charOffset="93-96"
+			type="GENE" text="MIP" ontology_id="4285"/>
+		<entity id="s1.e8" charOffset="128-136"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+</document>

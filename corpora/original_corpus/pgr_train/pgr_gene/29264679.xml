@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29264679">
+	<sentence id="s1" text="These findings link Cntn5 deficiency to obesity and hypertension">
+		<entity id="s1.e1" charOffset="20-25"
+			type="GENE" text="Cntn5" ontology_id="53942"/>
+		<entity id="s1.e2" charOffset="40-47"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

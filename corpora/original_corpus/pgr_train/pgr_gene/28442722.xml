@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28442722">
+	<sentence id="s1" text="In order to expand the mutation spectrum of the causative genes in Chinese adult population, we investigated three genes, SLC39A5, LEPREL1 and LRPAP1, in a cohort of 187 independent Chinese patients with high myopia.">
+		<entity id="s1.e1" charOffset="122-129"
+			type="GENE" text="SLC39A5" ontology_id="283375"/>
+		<entity id="s1.e2" charOffset="143-149"
+			type="GENE" text="LRPAP1" ontology_id="4043"/>
+		<entity id="s1.e3" charOffset="209-215"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28620870">
+	<sentence id="s1" text="Mutations in the glutaminyl-tRNA synthetase (QARS) gene have been reported in patients with progressive microcephaly, cerebral-cerebellar atrophy, and intractable seizures.">
+		<entity id="s1.e1" charOffset="45-49"
+			type="GENE" text="QARS" ontology_id="2058"/>
+		<entity id="s1.e2" charOffset="104-116"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="127-145"
+			type="HP" text="cerebellar atrophy" ontology_id="HP_0001272"/>
+		<entity id="s1.e4" charOffset="163-171"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The clinical presentation of our patients differs from the original QARS-associated syndrome in the severe postnatal growth failure, absence of epilepsy, and minor MRI findings, thus further expanding the phenotypic spectrum of the glutaminyl-tRNA synthetase deficiency syndromes">
+		<entity id="s2.e1" charOffset="68-72"
+			type="GENE" text="QARS" ontology_id="2058"/>
+		<entity id="s2.e2" charOffset="144-152"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

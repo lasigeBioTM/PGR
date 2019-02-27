@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29799355">
+	<sentence id="s1" text="Higher gene expression of the inositol 1,4,5-trisphosphate receptor 2 gene (response to hypoxia), encoding the IP3 receptor 2 (IP3R2), was detected in sporadic ALS patients.">
+		<entity id="s1.e1" charOffset="76-95"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s1.e2" charOffset="151-159"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

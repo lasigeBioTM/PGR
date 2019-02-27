@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29551497">
+	<sentence id="s1" text="The analysis of the two exons of SLITRK6 gene in a Moroccan family allowed us to identify a novel single deleterious mutation c.696delG, p.Trp232Cysfs*10 at homozygous state in the exon 2 of the SLITRK6, a gene reported to cause deafness and myopia in various populations">
+		<entity id="s1.e1" charOffset="33-40"
+			type="GENE" text="SLITRK6" ontology_id="84189"/>
+		<entity id="s1.e2" charOffset="229-237"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="242-248"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

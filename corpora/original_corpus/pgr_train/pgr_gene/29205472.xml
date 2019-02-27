@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29205472">
+	<sentence id="s1" text="Methods: Ten potentially functional single nucleotide polymorphisms (SNPs) in seven prostate CSC marker genes, TACSTD2, PROM1, ITGA2, POU5F1, EZH2, PSCA, and CD44, were selected for analysis of their association with disease recurrence by Kaplan-Meier analysis and Cox regression in a cohort of 320 patients with localized prostate cancer receiving radical prostatectomy.">
+		<entity id="s1.e1" charOffset="111-118"
+			type="GENE" text="TACSTD2" ontology_id="4070"/>
+		<entity id="s1.e2" charOffset="120-125"
+			type="GENE" text="PROM1" ontology_id="8842"/>
+		<entity id="s1.e3" charOffset="127-132"
+			type="GENE" text="ITGA2" ontology_id="3673"/>
+		<entity id="s1.e4" charOffset="134-140"
+			type="GENE" text="POU5F1" ontology_id="5460"/>
+		<entity id="s1.e5" charOffset="142-146"
+			type="GENE" text="EZH2" ontology_id="2146"/>
+		<entity id="s1.e6" charOffset="148-152"
+			type="GENE" text="PSCA" ontology_id="8000"/>
+		<entity id="s1.e7" charOffset="332-338"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Results: We identified one independent SNP, rs2394882, in POU5F1 that was associated with prostate cancer recurrence (hazard ratio 0.32, 95% confidence interval 0.14-0.71, P = 0.005) after adjustment for known clinical predictors.">
+		<entity id="s2.e1" charOffset="58-64"
+			type="GENE" text="POU5F1" ontology_id="5460"/>
+		<entity id="s2.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further in silico functional analyses revealed that rs2394882 affects POU5F1 expression, which in turn is significantly correlated with prostate cancer aggressiveness and patient prognosis.">
+		<entity id="s3.e1" charOffset="70-76"
+			type="GENE" text="POU5F1" ontology_id="5460"/>
+		<entity id="s3.e2" charOffset="145-151"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="152-166"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

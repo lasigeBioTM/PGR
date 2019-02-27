@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27759032">
+	<sentence id="s1" text="Variants in the unconventional myosin gene, MYO1A, have been reported to cause non-syndromic sensorineural hearing loss with a pattern of autosomal dominant inheritance.">
+		<entity id="s1.e1" charOffset="44-49"
+			type="GENE" text="MYO1A" ontology_id="4640"/>
+		<entity id="s1.e2" charOffset="107-119"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We used a genotypic ascertainment study design to test the association of MYO1A variants with hearing loss.">
+		<entity id="s2.e1" charOffset="74-79"
+			type="GENE" text="MYO1A" ontology_id="4640"/>
+		<entity id="s2.e2" charOffset="94-106"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We evaluated MYO1A variants from a cohort of 951 individuals with exome sequencing who were not ascertained for hearing loss.">
+		<entity id="s3.e1" charOffset="13-18"
+			type="GENE" text="MYO1A" ontology_id="4640"/>
+		<entity id="s3.e2" charOffset="112-124"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="These data do not support a causal relationship of variants in MYO1A to sensorineural hearing loss.">
+		<entity id="s4.e1" charOffset="63-68"
+			type="GENE" text="MYO1A" ontology_id="4640"/>
+		<entity id="s4.e2" charOffset="86-98"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

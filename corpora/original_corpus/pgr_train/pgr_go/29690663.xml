@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29690663">
+	<sentence id="s1" text="Objective: To investigate the expression of succinate dehydrogenase complex subunit protein in succinate dehydrogenase-deficient gastrointestinal stromal tumors (sarcosine catabolic process-deficient GISTs).">
+		<entity id="s1.e1" charOffset="154-159"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="162-189"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Five of the fifteen sarcosine catabolic process-deficient GISTs had follow-up data: one patient died 8 months after surgery from unknown cause, four had no recurrences or metastases, and there was no history of paraganglioma and pulmonary chondroma found in patients and their families.">
+		<entity id="s2.e1" charOffset="20-47"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<entity id="s2.e2" charOffset="211-224"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s2.e3" charOffset="229-248"
+			type="HP" text="pulmonary chondroma" ontology_id="HP_0031474"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

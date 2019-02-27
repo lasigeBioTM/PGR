@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28545128">
+	<sentence id="s1" text="Increased expression of MLF1 was observed in neuroblastoma cells homozygous for the rs6441201 risk allele (P = 0.02), and significant growth inhibition was observed upon depletion of MLF1 (P AAAA 0.0001) in neuroblastoma cells.">
+		<entity id="s1.e1" charOffset="24-28"
+			type="GENE" text="MLF1" ontology_id="4291"/>
+		<entity id="s1.e2" charOffset="45-58"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, we show that common DNA variants within CPZ at 4p16 and upstream of MLF1 at 3q25 influence neuroblastoma susceptibility and MLF1 likely plays an important role in neuroblastoma tumorigenesis">
+		<entity id="s2.e1" charOffset="84-88"
+			type="GENE" text="MLF1" ontology_id="4291"/>
+		<entity id="s2.e2" charOffset="107-120"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

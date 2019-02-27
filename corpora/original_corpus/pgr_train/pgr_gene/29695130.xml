@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29695130">
+	<sentence id="s1" text="HtrA1 is a serine protease suggested to play a role in the pathogenesis of various diseases, including age-related macular degeneration and osteoarthritis, by modulating extracellular matrix or cell surface proteins.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="HtrA1" ontology_id="5654"/>
+		<entity id="s1.e2" charOffset="115-135"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

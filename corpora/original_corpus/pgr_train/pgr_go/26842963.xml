@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26842963">
+	<sentence id="s1" text="tRNA wobble adenosine to inosine editing-related intellectual disability has been recently described in 24 individuals from eight Saudi families who had cognitive impairment and strabismus.">
+		<entity id="s1.e1" charOffset="0-40"
+			type="GO" text="tRNA wobble adenosine to inosine editing" ontology_id="GO_0002100"/>
+		<entity id="s1.e2" charOffset="49-72"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="178-188"
+			type="HP" text="strabismus" ontology_id="HP_0000486"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="tRNA wobble adenosine to inosine editing-related intellectual disability is an important recognizable cause of intellectual disability in Arabia">
+		<entity id="s2.e1" charOffset="0-40"
+			type="GO" text="tRNA wobble adenosine to inosine editing" ontology_id="GO_0002100"/>
+		<entity id="s2.e2" charOffset="49-72"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

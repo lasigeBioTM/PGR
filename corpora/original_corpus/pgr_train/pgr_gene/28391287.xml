@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28391287">
+	<sentence id="s1" text="Biallelic pathogenic variant in AHI1 gene can cause Joubert syndrome-related disorders with oculomotor apraxia characteristics.">
+		<entity id="s1.e1" charOffset="32-36"
+			type="GENE" text="AHI1" ontology_id="54806"/>
+		<entity id="s1.e2" charOffset="92-110"
+			type="HP" text="oculomotor apraxia" ontology_id="HP_0000657"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, we concluded that AHI1 c.3257AAAAAG and NEB c.914 AAAAAG were potential causal variants in this strabismus pedigree.">
+		<entity id="s2.e1" charOffset="29-33"
+			type="GENE" text="AHI1" ontology_id="54806"/>
+		<entity id="s2.e2" charOffset="51-54"
+			type="GENE" text="NEB" ontology_id="4703"/>
+		<entity id="s2.e3" charOffset="107-117"
+			type="HP" text="strabismus" ontology_id="HP_0000486"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29183726">
+	<sentence id="s1" text="In conclusion, our findings firstly revealed that GSDME switches chemotherapy drug-induced caspase-3 dependent apoptosis into pyroptosis in gastric cancer cells">
+		<entity id="s1.e1" charOffset="50-55"
+			type="GENE" text="GSDME" ontology_id="1687"/>
+		<entity id="s1.e2" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

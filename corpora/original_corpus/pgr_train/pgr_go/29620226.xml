@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620226">
+	<sentence id="s1" text="Particularly, activation of innate immune response expression was statistically higher in tumors with greater tumor invasion depth.">
+		<entity id="s1.e1" charOffset="14-50"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s1.e2" charOffset="90-95"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, our findings suggest that activation of innate immune response might play an important role in promoting tumorigenesis of ESCC.">
+		<entity id="s2.e1" charOffset="42-78"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s2.e2" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

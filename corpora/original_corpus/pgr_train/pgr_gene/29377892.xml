@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29377892">
+	<sentence id="s1" text="Finally, twenty-four important hub genes (RASGRP2, IKZF1, CXCR5, LTB, BLK, LINGO3, CCR6, P2RY10, RHOH, JUP, KRT14, PLA2G3, SPRR1A, KRT78, SFN, CLDN4, IL1RN, PKP3, CBLC, KRT16, TMEM79, KLK8, LYPD3 and LYPD5) were treated as valuable factors involved in the immune response and tumor cell development in tumorigenesis.">
+		<entity id="s1.e1" charOffset="42-49"
+			type="GENE" text="RASGRP2" ontology_id="10235"/>
+		<entity id="s1.e2" charOffset="51-56"
+			type="GENE" text="IKZF1" ontology_id="10320"/>
+		<entity id="s1.e3" charOffset="58-63"
+			type="GENE" text="CXCR5" ontology_id="643"/>
+		<entity id="s1.e4" charOffset="65-68"
+			type="GENE" text="LTB" ontology_id="4050"/>
+		<entity id="s1.e5" charOffset="70-73"
+			type="GENE" text="BLK" ontology_id="640"/>
+		<entity id="s1.e6" charOffset="75-81"
+			type="GENE" text="LINGO3" ontology_id="645191"/>
+		<entity id="s1.e7" charOffset="83-87"
+			type="GENE" text="CCR6" ontology_id="1235"/>
+		<entity id="s1.e8" charOffset="97-101"
+			type="GENE" text="RHOH" ontology_id="399"/>
+		<entity id="s1.e9" charOffset="103-106"
+			type="GENE" text="JUP" ontology_id="3728"/>
+		<entity id="s1.e10" charOffset="108-113"
+			type="GENE" text="KRT14" ontology_id="3861"/>
+		<entity id="s1.e11" charOffset="115-121"
+			type="GENE" text="PLA2G3" ontology_id="50487"/>
+		<entity id="s1.e12" charOffset="123-129"
+			type="GENE" text="SPRR1A" ontology_id="6698"/>
+		<entity id="s1.e13" charOffset="131-136"
+			type="GENE" text="KRT78" ontology_id="196374"/>
+		<entity id="s1.e14" charOffset="138-141"
+			type="GENE" text="SFN" ontology_id="25996"/>
+		<entity id="s1.e15" charOffset="143-148"
+			type="GENE" text="CLDN4" ontology_id="1364"/>
+		<entity id="s1.e16" charOffset="157-161"
+			type="GENE" text="PKP3" ontology_id="11187"/>
+		<entity id="s1.e17" charOffset="163-167"
+			type="GENE" text="CBLC" ontology_id="23624"/>
+		<entity id="s1.e18" charOffset="169-174"
+			type="GENE" text="KRT16" ontology_id="3868"/>
+		<entity id="s1.e19" charOffset="176-182"
+			type="GENE" text="TMEM79" ontology_id="84283"/>
+		<entity id="s1.e20" charOffset="184-188"
+			type="GENE" text="KLK8" ontology_id="11202"/>
+		<entity id="s1.e21" charOffset="190-195"
+			type="GENE" text="LYPD3" ontology_id="27076"/>
+		<entity id="s1.e22" charOffset="200-205"
+			type="GENE" text="LYPD5" ontology_id="284348"/>
+		<entity id="s1.e23" charOffset="276-281"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e23" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e12"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e13"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e14"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e15"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e16"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e17"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e18"
+		    e2="s1.e23" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e19"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p19" e1="s1.e20"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e21"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p21" e1="s1.e8"
+		    e2="s1.e23" pgr="false"/>
+		<pair id="s1.p22" e1="s1.e22"
+		    e2="s1.e23" pgr="false"/>
+	</sentence>
+</document>

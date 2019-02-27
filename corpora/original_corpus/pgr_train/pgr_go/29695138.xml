@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29695138">
+	<sentence id="s1" text="Interestingly, programmed cell death2 has been recognized as one of the essential genes for the cancer-specific energy metabolism termed the AAAAAldquo;Warburg effectAAAAArdquo;.">
+		<entity id="s1.e1" charOffset="15-36"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Also, we examined the regulatory mechanisms of programmed cell death isoform expression by testing each of these miRNAs in human cancer cell lines.">
+		<entity id="s2.e1" charOffset="47-68"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<entity id="s2.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, the expression levels of these miRNAs were downregulated in cancer cells that had originated from these tissues, resulting in programmed cell death2 dominance.">
+		<entity id="s3.e1" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="136-157"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our results suggest that the organ-specific distribution of miRNAs is one of the principal means by which miRNA establishes characteristics of a tissue and that dysregulation of these miRNAs results in cancer development through a change in the ratio of programmed cell death isoform expression.">
+		<entity id="s4.e1" charOffset="202-208"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="254-275"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

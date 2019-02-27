@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29412390">
+	<sentence id="s1" text="A 7.5 year-old boy born to second-degree cousins presented with severe short stature (height SDS -3.7) and bone age of 6 years.">
+		<entity id="s1.e1" charOffset="71-84"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e2" charOffset="93-96"
+			type="GENE" text="SDS" ontology_id="51119"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29656462">
+	<sentence id="s1" text="magnesium ion homeostasis and NT5C2 are genes recently identified as susceptibility genes for schizophrenia in Europeans, but the exact mechanism by which these genes confer risk for schizophrenia remains unknown.">
+		<entity id="s1.e1" charOffset="0-25"
+			type="GO" text="magnesium ion homeostasis" ontology_id="GO_0010960"/>
+		<entity id="s1.e2" charOffset="94-107"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we examined the potential for genetic susceptibility to schizophrenia of a three-gene cluster region, toxin metabolic process-magnesium ion homeostasis-NT5C2.">
+		<entity id="s2.e1" charOffset="71-84"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="117-140"
+			type="GO" text="toxin metabolic process" ontology_id="GO_0009404"/>
+		<entity id="s2.e3" charOffset="123-148"
+			type="GO" text="magnesium ion homeostasis" ontology_id="GO_0010960"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further haplotype and imputation analyses also validated these results, and bioinformatics analyses indicated that cation transport, which is located approximately 630kb away from magnesium ion homeostasis, might be a susceptible gene for schizophrenia.">
+		<entity id="s3.e1" charOffset="115-131"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s3.e2" charOffset="170-195"
+			type="GO" text="magnesium ion homeostasis" ontology_id="GO_0010960"/>
+		<entity id="s3.e3" charOffset="229-242"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our results provide further support that toxin metabolic process, magnesium ion homeostasis and cation transport are involved with the etiology and pathogenesis of schizophrenia, suggesting these genes are potential targets of interest for the improvement of disease management and the development of novel pharmacological strategies">
+		<entity id="s4.e1" charOffset="41-64"
+			type="GO" text="toxin metabolic process" ontology_id="GO_0009404"/>
+		<entity id="s4.e2" charOffset="48-73"
+			type="GO" text="magnesium ion homeostasis" ontology_id="GO_0010960"/>
+		<entity id="s4.e3" charOffset="96-112"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s4.e4" charOffset="136-149"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

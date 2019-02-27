@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28525603">
+	<sentence id="s1" text="Gene-based tests highlighted 20 additional genes of which 5 had previously been associated to schizophrenia and/or bipolar disorder: CSMD1, CCDC141, SLC1A2, CACNA1C, and SNAP25.">
+		<entity id="s1.e1" charOffset="94-107"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="115-131"
+			type="HP" text="bipolar disorder" ontology_id="HP_0007302"/>
+		<entity id="s1.e3" charOffset="133-138"
+			type="GENE" text="CSMD1" ontology_id="64478"/>
+		<entity id="s1.e4" charOffset="140-147"
+			type="GENE" text="CCDC141" ontology_id="285025"/>
+		<entity id="s1.e5" charOffset="149-155"
+			type="GENE" text="SLC1A2" ontology_id="6506"/>
+		<entity id="s1.e6" charOffset="157-164"
+			type="GENE" text="CACNA1C" ontology_id="775"/>
+		<entity id="s1.e7" charOffset="170-176"
+			type="GENE" text="SNAP25" ontology_id="6616"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e11"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e11"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e11"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

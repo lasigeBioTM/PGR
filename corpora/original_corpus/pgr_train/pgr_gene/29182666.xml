@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29182666">
+	<sentence id="s1" text="Biallelic, partial loss-of-function mutations in GNRHR cause a wide spectrum of reproductive phenotypes from constitutional delay of growth and puberty to complete congenital hypogonadotropic hypogonadism.">
+		<entity id="s1.e1" charOffset="49-54"
+			type="GENE" text="GNRHR" ontology_id="2798"/>
+		<entity id="s1.e2" charOffset="192-204"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28475863">
+	<sentence id="s1" text="In a multiplex consanguineous Saudi family affected by severe and recurrent large joint dislocation and severe myopia, we identified a homozygous truncating variant in negative regulation of transcription by RNA polymerase II through a combined autozygome and exome approach.">
+		<entity id="s1.e1" charOffset="111-117"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s1.e2" charOffset="168-225"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Independently, the same approach identified a second homozygous truncating negative regulation of transcription by RNA polymerase II variant in another multiplex consanguineous family affected by severe myopia, retinal detachment, and milder skeletal involvement.">
+		<entity id="s2.e1" charOffset="75-132"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="203-209"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s2.e3" charOffset="211-229"
+			type="HP" text="retinal detachment" ontology_id="HP_0000541"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our results suggest that negative regulation of transcription by RNA polymerase II mutations cause a phenotype of severe myopia and significant articular involvement not previously described in Larsen syndrome">
+		<entity id="s3.e1" charOffset="25-82"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="121-127"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

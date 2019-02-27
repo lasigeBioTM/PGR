@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28173650">
+	<sentence id="s1" text="The patient carried GLRB gene mutations found by genetic analysis, and was finally diagnosed with hyperekplexia.">
+		<entity id="s1.e1" charOffset="20-24"
+			type="GENE" text="GLRB" ontology_id="2743"/>
+		<entity id="s1.e2" charOffset="98-111"
+			type="HP" text="hyperekplexia" ontology_id="HP_0002267"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

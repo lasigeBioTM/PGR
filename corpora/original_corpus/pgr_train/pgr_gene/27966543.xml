@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27966543">
+	<sentence id="s1" text="Since RAPSN-associated limb-girdle type CMS was only manifested in AK9 homozygous variant carriers, the disease phenotype was of digenic inheritance, and was determined by the novel disease modifier AK9 which provides NTPs for N-glycosylation.">
+		<entity id="s1.e1" charOffset="6-11"
+			type="GENE" text="RAPSN" ontology_id="5913"/>
+		<entity id="s1.e2" charOffset="129-148"
+			type="HP" text="digenic inheritance" ontology_id="HP_0010984"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

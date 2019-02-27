@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29207117">
+	<sentence id="s1" text="The present study aimed to investigate the relationship between the expression of collagen and calcium-binding epidermal growth factor domain-containing protein 1 (positive regulation of vascular endothelial growth factor production) and lymphatic vessel endothelial hyaluronan receptor 1 (cell-matrix adhesion) in tumor tissue with the clinical prognosis of lung cancer.">
+		<entity id="s1.e1" charOffset="164-232"
+			type="GO" text="positive regulation of vascular endothelial growth factor production" ontology_id="GO_0010575"/>
+		<entity id="s1.e2" charOffset="290-310"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e3" charOffset="300-305"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="349-355"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="positive regulation of vascular endothelial growth factor production and cell-matrix adhesion expression was assessed in samples from normal and tumor tissue using polymerase chain reaction, western blot analysis and immunohistochemistry.">
+		<entity id="s2.e1" charOffset="0-68"
+			type="GO" text="positive regulation of vascular endothelial growth factor production" ontology_id="GO_0010575"/>
+		<entity id="s2.e2" charOffset="73-93"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s2.e3" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Conversely, cell-matrix adhesion expression appeared to be upregulated in lung cancer tissue.">
+		<entity id="s3.e1" charOffset="12-32"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s3.e2" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, the present results suggested that positive regulation of vascular endothelial growth factor production and cell-matrix adhesion may have potential as biomarkers for the identification of lung cancer patients at a high risk of LNM">
+		<entity id="s4.e1" charOffset="50-118"
+			type="GO" text="positive regulation of vascular endothelial growth factor production" ontology_id="GO_0010575"/>
+		<entity id="s4.e2" charOffset="123-143"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_00071123"/>
+		<entity id="s4.e3" charOffset="193-199"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

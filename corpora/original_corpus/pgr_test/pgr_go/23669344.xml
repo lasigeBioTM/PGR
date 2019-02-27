@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23669344">
+	<sentence id="s1" text="These findings establish these mutant mice as a suitable model system to elucidate how negative regulation of endopeptidase activity deficiency causes deafness in humans">
+		<entity id="s1.e1" charOffset="87-132"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<entity id="s1.e2" charOffset="151-159"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29666346">
+	<sentence id="s1" text="Thus, here we report a new candidate gene (NOL4) and a haplotype of IRF6 forVWS, and highlight the genetic heterogeneity of this disorder in the Indian population">
+		<entity id="s1.e1" charOffset="43-47"
+			type="GENE" text="NOL4" ontology_id="8715"/>
+		<entity id="s1.e2" charOffset="68-72"
+			type="GENE" text="IRF6" ontology_id="3664"/>
+		<entity id="s1.e3" charOffset="107-120"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21233802">
+	<sentence id="s1" text="These three CNVs are close to two known PWS genes, nervous system development (necdin homolog) and C15orf2 (chromosome 15 open reading frame 2), and partially overlap with another obesity gene PWRN1 (Prader-Willi region nonprotein-coding RNA 1).">
+		<entity id="s1.e1" charOffset="51-77"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s1.e2" charOffset="180-187"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

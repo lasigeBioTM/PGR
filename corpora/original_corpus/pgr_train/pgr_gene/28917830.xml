@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28917830">
+	<sentence id="s1" text="Al-Awadi-Raas-Rothschild syndrome (AARRS; OMIM 276820) is a very rare autosomal recessive limb malformation syndrome caused by WNT7A mutations.">
+		<entity id="s1.e1" charOffset="70-89"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="127-132"
+			type="GENE" text="WNT7A" ontology_id="7476"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Whole exome sequencing of the patient and his parents ruled out mutations in 11 known hypodontia-associated genes including WNT10A, MSX1, EDA, EDAR, EDARADD, PAX9, AXIN2, GREM2, NEMO, KRT17, and TFAP2B.">
+		<entity id="s2.e1" charOffset="86-96"
+			type="HP" text="hypodontia" ontology_id="HP_0000668"/>
+		<entity id="s2.e2" charOffset="124-130"
+			type="GENE" text="WNT10A" ontology_id="80326"/>
+		<entity id="s2.e3" charOffset="132-136"
+			type="GENE" text="MSX1" ontology_id="4487"/>
+		<entity id="s2.e4" charOffset="138-141"
+			type="GENE" text="EDA" ontology_id="1896"/>
+		<entity id="s2.e5" charOffset="164-169"
+			type="GENE" text="AXIN2" ontology_id="8313"/>
+		<entity id="s2.e6" charOffset="171-176"
+			type="GENE" text="GREM2" ontology_id="64388"/>
+		<entity id="s2.e7" charOffset="184-189"
+			type="GENE" text="KRT17" ontology_id="3872"/>
+		<entity id="s2.e8" charOffset="195-201"
+			type="GENE" text="TFAP2B" ontology_id="7021"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="All lines of evidence suggest that WNT7A has important role in tooth development and its mutation may lead to tooth agenesis, microdontia, and taurodontism.">
+		<entity id="s3.e1" charOffset="35-40"
+			type="GENE" text="WNT7A" ontology_id="7476"/>
+		<entity id="s3.e2" charOffset="126-137"
+			type="HP" text="microdontia" ontology_id="HP_0000691"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

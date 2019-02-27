@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28901407">
+	<sentence id="s1" text="Top 10 genes in the brown module, including EGF containing fibulin like extracellular matrix protein 2 (EFEMP2), fibrillin 1 (FBN1) and secreted protein acidic and cysteine rich (SPARC) were also associated with survival time of colon cancer patients.">
+		<entity id="s1.e1" charOffset="44-47"
+			type="GENE" text="EGF" ontology_id="1950"/>
+		<entity id="s1.e2" charOffset="104-110"
+			type="GENE" text="EFEMP2" ontology_id="30008"/>
+		<entity id="s1.e3" charOffset="126-130"
+			type="GENE" text="FBN1" ontology_id="2200"/>
+		<entity id="s1.e4" charOffset="179-184"
+			type="GENE" text="SPARC" ontology_id="6678"/>
+		<entity id="s1.e5" charOffset="235-241"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Further analysis revealed that the function of cell adhesion, biological adhesion, extracellular matrix (ECM) organization, pathways of ECM-receptor interaction and focal adhesion were the significantly changed terms in colon cancer.">
+		<entity id="s2.e1" charOffset="105-108"
+			type="GENE" text="ECM" ontology_id="22915"/>
+		<entity id="s2.e2" charOffset="226-232"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, SERP2, EFEMP2, FBN1, SPARC, and LINC0219 were revealed to be the recurrence-associated molecular and prognostic indicators in colon cancer by WGCNA co-expression network analysis">
+		<entity id="s3.e1" charOffset="22-28"
+			type="GENE" text="EFEMP2" ontology_id="30008"/>
+		<entity id="s3.e2" charOffset="30-34"
+			type="GENE" text="FBN1" ontology_id="2200"/>
+		<entity id="s3.e3" charOffset="36-41"
+			type="GENE" text="SPARC" ontology_id="6678"/>
+		<entity id="s3.e4" charOffset="147-153"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30242264">
+	<sentence id="s1" text="Mutations in RPE65 result in a disrupted chromophore supply, retinal degeneration, and blindness.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="RPE65" ontology_id="6121"/>
+		<entity id="s1.e2" charOffset="61-81"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="87-96"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

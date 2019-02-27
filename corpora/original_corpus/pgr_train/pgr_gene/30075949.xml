@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30075949">
+	<sentence id="s1" text="Lately, ARMC5 was linked to the cyclic AMP signaling pathway, which could be implicated in all of mechanisms of cortisol-secreting by macronodules adrenal hyperplasia and the molecular defects in: G protein aberrant receptors; MC2R; GNAS; PRKAR1A; PDE11A; PDE8B.">
+		<entity id="s1.e1" charOffset="8-13"
+			type="GENE" text="ARMC5" ontology_id="79798"/>
+		<entity id="s1.e2" charOffset="147-166"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<entity id="s1.e3" charOffset="233-237"
+			type="GENE" text="GNAS" ontology_id="2778"/>
+		<entity id="s1.e4" charOffset="239-246"
+			type="GENE" text="PRKAR1A" ontology_id="5573"/>
+		<entity id="s1.e5" charOffset="248-254"
+			type="GENE" text="PDE11A" ontology_id="50940"/>
+		<entity id="s1.e6" charOffset="256-261"
+			type="GENE" text="PDE8B" ontology_id="8622"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Around 50 % of patient*s relatives with PMAH and 30 % of apparently sporadic hypercortisolism carried ARMC5 mutations.">
+		<entity id="s2.e1" charOffset="68-76"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="77-93"
+			type="HP" text="hypercortisolism" ontology_id="HP_0003118"/>
+		<entity id="s2.e3" charOffset="102-107"
+			type="GENE" text="ARMC5" ontology_id="79798"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

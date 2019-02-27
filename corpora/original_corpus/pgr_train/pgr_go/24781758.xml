@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24781758">
+	<sentence id="s1" text="The protein targeting-associated phenotype has previously been assigned to spastic paraplegia-47.">
+		<entity id="s1.e1" charOffset="4-21"
+			type="GO" text="protein targeting" ontology_id="GO_0006605"/>
+		<entity id="s1.e2" charOffset="75-93"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

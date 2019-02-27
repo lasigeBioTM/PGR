@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29925637">
+	<sentence id="s1" text="We demonstrated that linc-adenosine catabolic process interacts with heterogeneous nuclear ribonucleoprotein U (regulation of alternative mRNA splicing, via spliceosome) and insulin-like growth factor 2 mRNA binding protein 2 (negative regulation of translation) at distinct subcellular locations to regulate adipocyte differentiation and lipogenesis">
+		<entity id="s1.e1" charOffset="26-53"
+			type="GO" text="adenosine catabolic process" ontology_id="GO_0006154"/>
+		<entity id="s1.e2" charOffset="69-82"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="112-168"
+			type="GO" text="regulation of alternative mRNA splicing, via spliceosome" ontology_id="GO_0000381"/>
+		<entity id="s1.e4" charOffset="227-261"
+			type="GO" text="negative regulation of translation" ontology_id="GO_0017148"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

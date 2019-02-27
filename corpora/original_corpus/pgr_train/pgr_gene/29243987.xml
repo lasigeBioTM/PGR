@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29243987">
+	<sentence id="s1" text="HACE1 is a putative Wilms* tumor susceptibility gene.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="HACE1" ontology_id="57531"/>
+		<entity id="s1.e2" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We investigated the association between five HACE1 gene polymorphisms and Wilms* tumor susceptibility in a Chinese population consisting of 145 patients and 531 controls.">
+		<entity id="s2.e1" charOffset="45-50"
+			type="GENE" text="HACE1" ontology_id="57531"/>
+		<entity id="s2.e2" charOffset="81-86"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We found a significant association between HACE1 rs9404576 polymorphism and decreased Wilms* tumor risk.">
+		<entity id="s3.e1" charOffset="43-48"
+			type="GENE" text="HACE1" ontology_id="57531"/>
+		<entity id="s3.e2" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Our results indicated that HACE1 rs9404576 polymorphism may be associated with Wilms* tumor susceptibility in the Chinese population">
+		<entity id="s4.e1" charOffset="27-32"
+			type="GENE" text="HACE1" ontology_id="57531"/>
+		<entity id="s4.e2" charOffset="86-91"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

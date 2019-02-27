@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29625618">
+	<sentence id="s1" text="Depletion of PRODH and GSALDH in humans leads to hyperprolinemia, which is associated with mental disorders such as schizophrenia.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="PRODH" ontology_id="5625"/>
+		<entity id="s1.e2" charOffset="49-64"
+			type="HP" text="hyperprolinemia" ontology_id="HP_0008358"/>
+		<entity id="s1.e3" charOffset="116-129"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

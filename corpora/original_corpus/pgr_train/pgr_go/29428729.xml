@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29428729">
+	<sentence id="s1" text="negative regulation of kinase activity, also known as p57kip2, is considered to be a potential tumor suppressor implicated in several kinds of human cancers.">
+		<entity id="s1.e1" charOffset="0-38"
+			type="GO" text="negative regulation of kinase activity" ontology_id="GO_0033673"/>
+		<entity id="s1.e2" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the current knowledge of negative regulation of kinase activity in breast cancer remains obscure.">
+		<entity id="s2.e1" charOffset="34-72"
+			type="GO" text="negative regulation of kinase activity" ontology_id="GO_0033673"/>
+		<entity id="s2.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In the present study, we demonstrated that negative regulation of kinase activity was dramatically downregulated in breast cancer compared with normal tissues by using real-time quantitative polymerase chain reaction, western blot and two public data portals: The Cancer Genome Atlas (TCGA) and Oncomine datanegative regulation of transcription, DNA-templateds.">
+		<entity id="s3.e1" charOffset="43-81"
+			type="GO" text="negative regulation of kinase activity" ontology_id="GO_0033673"/>
+		<entity id="s3.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="308-359"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Moreover, the expression of negative regulation of kinase activity was correlated with age and tumor size in the TCGA cohort containing 708 cases of breast cancer.">
+		<entity id="s4.e1" charOffset="28-66"
+			type="GO" text="negative regulation of kinase activity" ontology_id="GO_0033673"/>
+		<entity id="s4.e2" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="156-162"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In conclusion, our data suggested an essential role of negative regulation of kinase activity in the tumorgenesis of breast cancer.">
+		<entity id="s5.e1" charOffset="55-93"
+			type="GO" text="negative regulation of kinase activity" ontology_id="GO_0033673"/>
+		<entity id="s5.e2" charOffset="101-106"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="Targeting negative regulation of kinase activity may be a promising strategy for anticancer therapeutics">
+		<entity id="s6.e1" charOffset="10-48"
+			type="GO" text="negative regulation of kinase activity" ontology_id="GO_0033673"/>
+		<entity id="s6.e2" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+</document>

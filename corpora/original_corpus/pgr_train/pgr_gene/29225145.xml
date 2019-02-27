@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29225145">
+	<sentence id="s1" text="The most common genetic cause is L1CAM-related X-linked hydrocephalus and that explains only 5%-10% of all male cases.">
+		<entity id="s1.e1" charOffset="33-38"
+			type="GENE" text="L1CAM" ontology_id="3897"/>
+		<entity id="s1.e2" charOffset="56-69"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This suggests that children with CCDC88C-related autosomal recessive hydrocephalus can have normal developmental outcomes under certain circumstances.">
+		<entity id="s2.e1" charOffset="33-40"
+			type="GENE" text="CCDC88C" ontology_id="440193"/>
+		<entity id="s2.e2" charOffset="49-68"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="69-82"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We recommend CCDC88C analysis in cases of severe non-syndromic congenital hydrocephalus, especially when aqueduct stenosis with or without a medial diverticulum is seen, in order to aid prognosis discussion">
+		<entity id="s3.e1" charOffset="13-20"
+			type="GENE" text="CCDC88C" ontology_id="440193"/>
+		<entity id="s3.e2" charOffset="74-87"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

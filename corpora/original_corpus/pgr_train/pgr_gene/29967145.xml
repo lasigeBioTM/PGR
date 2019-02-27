@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29967145">
+	<sentence id="s1" text="Zyxin regulates YAP activity through the colon cancer oncogene CDK8.">
+		<entity id="s1.e1" charOffset="16-19"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s1.e2" charOffset="47-53"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="63-67"
+			type="GENE" text="CDK8" ontology_id="1024"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CDK8 knockout phenocopied Zyxin knockdown in colon cancer cells, while ectopic expression of CDK8 substantially restored the tumorigenic defects of Zyxin-depletion cells.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="CDK8" ontology_id="1024"/>
+		<entity id="s2.e2" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="125-130"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Fully activated YAP is required to support the growth in CDK8-knockout colon cancer cells in vitro and in vivo.">
+		<entity id="s3.e1" charOffset="16-19"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s3.e2" charOffset="57-61"
+			type="GENE" text="CDK8" ontology_id="1024"/>
+		<entity id="s3.e3" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Together, these observations suggest that Zyxin promotes colon cancer tumorigenesis in a mitotic-phosphorylation-dependent manner and through CDK8-mediated YAP activation">
+		<entity id="s4.e1" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="70-75"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="142-146"
+			type="GENE" text="CDK8" ontology_id="1024"/>
+		<entity id="s4.e4" charOffset="156-159"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e5"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

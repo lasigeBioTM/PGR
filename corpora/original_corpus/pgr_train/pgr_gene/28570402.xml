@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28570402">
+	<sentence id="s1" text="On the other hand, MYH1, MYH2, MYH3, MYH7, MYH8, FOXO3, NFATC1, PTGS2, KAT6B, HDAC4, and RUNX2 expression is suspected to be involved in the epigenetic regulations behind the mandibular prognathism phenotype">
+		<entity id="s1.e1" charOffset="19-23"
+			type="GENE" text="MYH1" ontology_id="4619"/>
+		<entity id="s1.e2" charOffset="25-29"
+			type="GENE" text="MYH2" ontology_id="4620"/>
+		<entity id="s1.e3" charOffset="31-35"
+			type="GENE" text="MYH3" ontology_id="4621"/>
+		<entity id="s1.e4" charOffset="37-41"
+			type="GENE" text="MYH7" ontology_id="4625"/>
+		<entity id="s1.e5" charOffset="43-47"
+			type="GENE" text="MYH8" ontology_id="4626"/>
+		<entity id="s1.e6" charOffset="49-54"
+			type="GENE" text="FOXO3" ontology_id="2309"/>
+		<entity id="s1.e7" charOffset="64-69"
+			type="GENE" text="PTGS2" ontology_id="5743"/>
+		<entity id="s1.e8" charOffset="71-76"
+			type="GENE" text="KAT6B" ontology_id="23522"/>
+		<entity id="s1.e9" charOffset="89-94"
+			type="GENE" text="RUNX2" ontology_id="860"/>
+		<entity id="s1.e10" charOffset="186-197"
+			type="HP" text="prognathism" ontology_id="HP_0000303"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

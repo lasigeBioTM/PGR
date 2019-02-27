@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30046000">
+	<sentence id="s1" text="Analysis of the adult Hnf4a mutant kidney also showed proximal tubule dysgenesis and nephrocalcinosis.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="Hnf4a" ontology_id="3172"/>
+		<entity id="s1.e2" charOffset="85-101"
+			type="HP" text="nephrocalcinosis" ontology_id="HP_0000121"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

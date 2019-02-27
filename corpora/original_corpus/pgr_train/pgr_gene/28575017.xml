@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28575017">
+	<sentence id="s1" text="Alterations in FOXC1 levels cause ocular malformations and disrupt stress response in ocular tissues, thereby contributing to glaucoma progression.">
+		<entity id="s1.e1" charOffset="15-20"
+			type="GENE" text="FOXC1" ontology_id="2296"/>
+		<entity id="s1.e2" charOffset="126-134"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, we found that FOXC1 regulation of RAB3GAP1, RAB3GAP2 and SNAP25 affects secretion of Myocilin (MYOC), a protein associated with juvenile onset glaucoma and steroid-induced glaucoma.">
+		<entity id="s2.e1" charOffset="27-32"
+			type="GENE" text="FOXC1" ontology_id="2296"/>
+		<entity id="s2.e2" charOffset="47-55"
+			type="GENE" text="RAB3GAP1" ontology_id="22930"/>
+		<entity id="s2.e3" charOffset="57-65"
+			type="GENE" text="RAB3GAP2" ontology_id="25782"/>
+		<entity id="s2.e4" charOffset="70-76"
+			type="GENE" text="SNAP25" ontology_id="6616"/>
+		<entity id="s2.e5" charOffset="108-112"
+			type="GENE" text="MYOC" ontology_id="4653"/>
+		<entity id="s2.e6" charOffset="141-155"
+			type="HP" text="juvenile onset" ontology_id="HP_0003621"/>
+		<entity id="s2.e7" charOffset="156-164"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e4"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e3"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e5"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+</document>

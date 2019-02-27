@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29970507">
+	<sentence id="s1" text="Smith-Magenis syndrome (positive regulation of transcription, DNA-templated), a neurodevelopmental disorder characterized by dysmorphic features, intellectual disability (ID), and sleep disturbances, results from a 17p11.2 microdeletion or a mutation in the positive regulation of transcription, DNA-templated gene.">
+		<entity id="s1.e1" charOffset="24-75"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e2" charOffset="146-169"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="180-198"
+			type="HP" text="sleep disturbances" ontology_id="HP_0002360"/>
+		<entity id="s1.e4" charOffset="258-309"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

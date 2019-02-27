@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26395031">
+	<sentence id="s1" text="Our genome-wide study showed that Ppp2r1b, a PP2A subunit encoding tumor suppressor gene, is underexpressed in submandibular gland tumors of Smgb-Tag mice.">
+		<entity id="s1.e1" charOffset="34-41"
+			type="GENE" text="Ppp2r1b" ontology_id="5519"/>
+		<entity id="s1.e2" charOffset="67-72"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="141-145"
+			type="GENE" text="Smgb" ontology_id="55095"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, parallel immunohistochemical analysis of three PP2A inhibitors demonstrated that two PP2A inhibitors, CIP2A and SET, are highly expressed in both dysplastic and adenocarcinomatous tumors of the Smgb-Tag mice.">
+		<entity id="s2.e1" charOffset="115-120"
+			type="GENE" text="CIP2A" ontology_id="57650"/>
+		<entity id="s2.e2" charOffset="125-128"
+			type="GENE" text="SET" ontology_id="6418"/>
+		<entity id="s2.e3" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To reveal novel molecular factors behind the development of salivary gland cancer, we performed gene expression analyses from Smgb-Tag mouse salivary gland samples.">
+		<entity id="s3.e1" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="126-130"
+			type="GENE" text="Smgb" ontology_id="55095"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, parallel immunohistochemical analysis of three PP2A inhibitors demonstrated that two PP2A inhibitors, CIP2A and SET, are highly expressed in both dysplastic and adenocarcinomatous tumors of the Smgb-Tag mice.">
+		<entity id="s4.e1" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="207-211"
+			type="GENE" text="Smgb" ontology_id="55095"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="To reveal novel molecular factors behind the development of salivary gland cancer, we performed gene expression analyses from Smgb-Tag mouse salivary gland samples.">
+		<entity id="s5.e1" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="126-130"
+			type="GENE" text="Smgb" ontology_id="55095"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Furthermore, parallel immunohistochemical analysis of three PP2A inhibitors demonstrated that two PP2A inhibitors, CIP2A and SET, are highly expressed in both dysplastic and adenocarcinomatous tumors of the Smgb-Tag mice.">
+		<entity id="s6.e1" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="207-211"
+			type="GENE" text="Smgb" ontology_id="55095"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="To reveal novel molecular factors behind the development of salivary gland cancer, we performed gene expression analyses from Smgb-Tag mouse salivary gland samples.">
+		<entity id="s7.e1" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e2" charOffset="126-130"
+			type="GENE" text="Smgb" ontology_id="55095"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Furthermore, parallel immunohistochemical analysis of three PP2A inhibitors demonstrated that two PP2A inhibitors, CIP2A and SET, are highly expressed in both dysplastic and adenocarcinomatous tumors of the Smgb-Tag mice.">
+		<entity id="s8.e1" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s8.e2" charOffset="207-211"
+			type="GENE" text="Smgb" ontology_id="55095"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

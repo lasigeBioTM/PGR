@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28442722">
+	<sentence id="s1" text="In order to expand the mutation spectrum of the causative genes in Chinese adult population, we investigated three genes, eye development, LEPREL1 and negative regulation of very-low-density lipoprotein particle clearance, in a cohort of 187 independent Chinese patients with high myopia.">
+		<entity id="s1.e1" charOffset="122-137"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e2" charOffset="151-221"
+			type="GO" text="negative regulation of very-low-density lipoprotein particle clearance" ontology_id="GO_0010916"/>
+		<entity id="s1.e3" charOffset="217-223"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

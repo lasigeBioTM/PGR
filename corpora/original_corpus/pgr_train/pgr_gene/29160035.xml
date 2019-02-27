@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29160035">
+	<sentence id="s1" text="A 10-year-old girl had progressive neurologic deterioration, macular cherry-red spot, and cornea verticillata.">
+		<entity id="s1.e1" charOffset="76-79"
+			type="GENE" text="red" ontology_id="8444"/>
+		<entity id="s1.e2" charOffset="90-109"
+			type="HP" text="cornea verticillata" ontology_id="HP_0500008"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

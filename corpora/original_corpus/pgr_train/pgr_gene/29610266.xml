@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29610266">
+	<sentence id="s1" text="Heterozygous Edn1H/+ females showed no obvious abnormalities before pregnancy, but when mated with wild-type (WT) males developed a full spectrum of preeclampsia-like phenotypes, including increased systolic blood pressure, proteinuria, glomerular endotheliosis, and intrauterine fetal growth restriction.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="Edn1" ontology_id="1906"/>
+		<entity id="s1.e2" charOffset="224-235"
+			type="HP" text="proteinuria" ontology_id="HP_0000093"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

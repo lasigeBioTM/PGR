@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29700912">
+	<sentence id="s1" text="The aims of the present study were to evaluate the relation of dysregulated positive regulation of transcription by RNA polymerase II, c-MET, and positive regulation of DNA binding-negative regulation of cell migration expression with the histopathological features of tumors in recurrence formation in eCC cases.">
+		<entity id="s1.e1" charOffset="76-133"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="146-180"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s1.e3" charOffset="181-218"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<entity id="s1.e4" charOffset="204-209"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The relationship between the altered expression of positive regulation of transcription by RNA polymerase II, c-endothelial cell morphogenesis, and positive regulation of DNA binding-negative regulation of cell migration and pathological microenvironmental features, including the presence of tumor budding and desmoplasia, were assessed.">
+		<entity id="s2.e1" charOffset="51-108"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="112-142"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0006357"/>
+		<entity id="s2.e3" charOffset="148-182"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s2.e4" charOffset="183-220"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<entity id="s2.e5" charOffset="201-206"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In addition, the coexistence of high positive regulation of transcription by RNA polymerase II and low NM23-negative regulation of cell migration expression and tumor budding was associated with short OS (p AAAA 0.001).">
+		<entity id="s3.e1" charOffset="37-94"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e2" charOffset="108-145"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<entity id="s3.e3" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We suggest that the combination of reduced positive regulation of DNA binding-negative regulation of cell migration, induced positive regulation of transcription by RNA polymerase II, and the presence of tumor budding are promising biomarkers for the prediction of recurrence and may aid the stratification of patients with stage II colon cancer for adjuvant chemotherapy">
+		<entity id="s4.e1" charOffset="43-77"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s4.e2" charOffset="78-115"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<entity id="s4.e3" charOffset="117-122"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="125-182"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s4.e5" charOffset="274-280"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e4"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e6" pgr="true"/>
+		<pair id="s4.p5" e1="s4.e2"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p6" e1="s4.e5"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The aims of the present study were to evaluate the relation of dysregulated MACC1, c-endothelial cell morphogenesis, and NM23-H1 expression with the histopathological features of tumors in recurrence formation in eCC cases.">
+		<entity id="s5.e1" charOffset="85-115"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0006357"/>
+		<entity id="s5.e2" charOffset="179-184"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="We suggest that the combination of reduced NM23-H1, induced positive regulation of transcription by RNA polymerase II, and the presence of tumor budding are promising biomarkers for the prediction of recurrence and may aid the stratification of patients with stage II colon cancer for adjuvant chemotherapy">
+		<entity id="s6.e1" charOffset="60-117"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s6.e2" charOffset="139-144"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="The aims of the present study were to evaluate the relation of dysregulated MACC1, c-endothelial cell morphogenesis, and NM23-H1 expression with the histopathological features of tumors in recurrence formation in eCC cases.">
+		<entity id="s7.e1" charOffset="85-115"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0006357"/>
+		<entity id="s7.e2" charOffset="179-184"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="We suggest that the combination of reduced NM23-H1, induced positive regulation of transcription by RNA polymerase II, and the presence of tumor budding are promising biomarkers for the prediction of recurrence and may aid the stratification of patients with stage II colon cancer for adjuvant chemotherapy">
+		<entity id="s8.e1" charOffset="60-117"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s8.e2" charOffset="139-144"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s9" text="The aims of the present study were to evaluate the relation of dysregulated MACC1, c-endothelial cell morphogenesis, and NM23-H1 expression with the histopathological features of tumors in recurrence formation in eCC cases.">
+		<entity id="s9.e1" charOffset="85-115"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0006357"/>
+		<entity id="s9.e2" charOffset="179-184"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+	</sentence>
+</document>

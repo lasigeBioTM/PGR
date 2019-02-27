@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27996046">
+	<sentence id="s1" text="The most significantly mutated CMG is heart looping with biallelic inactivation and loss of DNAAF1 expression shown in tumours from carriers.">
+		<entity id="s1.e1" charOffset="38-51"
+			type="GO" text="heart looping" ontology_id="GO_0001947"/>
+		<entity id="s1.e2" charOffset="119-125"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

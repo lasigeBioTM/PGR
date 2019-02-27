@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27279129">
+	<sentence id="s1" text="Missense mutations in the mitochondrial seryl-tRNA synthetase gene, seryl-tRNA aminoacylation, have been identified in HUPRA syndrome (hyperuricemia, pulmonary hypertension, renal failure in infancy, and alkalosis).">
+		<entity id="s1.e1" charOffset="68-93"
+			type="GO" text="seryl-tRNA aminoacylation" ontology_id="GO_0006434"/>
+		<entity id="s1.e2" charOffset="135-148"
+			type="HP" text="hyperuricemia" ontology_id="HP_0002149"/>
+		<entity id="s1.e3" charOffset="174-187"
+			type="HP" text="renal failure" ontology_id="HP_0000083"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

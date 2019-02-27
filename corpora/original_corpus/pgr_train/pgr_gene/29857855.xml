@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29857855">
+	<sentence id="s1" text="Using whole-exome sequencing, we identified compound heterozygous RMND1 variants in a 4-year-old patient with congenital lactic acidosis, severe myopathy, hearing loss, renal failure, and dysautonomia.">
+		<entity id="s1.e1" charOffset="66-71"
+			type="GENE" text="RMND1" ontology_id="55005"/>
+		<entity id="s1.e2" charOffset="155-167"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="169-182"
+			type="HP" text="renal failure" ontology_id="HP_0000083"/>
+		<entity id="s1.e4" charOffset="188-200"
+			type="HP" text="dysautonomia" ontology_id="HP_0012332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

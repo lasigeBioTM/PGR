@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28941661">
+	<sentence id="s1" text="A plethora of human diseases are associated with mutations in the genes encoding human SLC26 transporters, including chondrodysplasias with varying severity in SLC26A2 (~50 mutations, 27 point mutations), congenital chloride-losing diarrhea in sperm capacitation (~70 mutations, 31 point mutations) and Pendred Syndrome or deafness autosomal recessive type 4 in SLC26A4 (~500 mutations, 203 point mutations).">
+		<entity id="s1.e1" charOffset="244-262"
+			type="GO" text="sperm capacitation" ontology_id="GO_0048240"/>
+		<entity id="s1.e2" charOffset="323-331"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

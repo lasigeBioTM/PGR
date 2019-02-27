@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29649375">
+	<sentence id="s1" text="We previously developed specific and sensitive anti-PODXL monoclonal antibodies, PcMab-47 (mouse IgG1, kappa) and its mouse IgG2a-type (47-mG2a), both of which were suitable for immunohistochemical analyses of oral cancers.">
+		<entity id="s1.e1" charOffset="52-57"
+			type="GENE" text="PODXL" ontology_id="5420"/>
+		<entity id="s1.e2" charOffset="215-221"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

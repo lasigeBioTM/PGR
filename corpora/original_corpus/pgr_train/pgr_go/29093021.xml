@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29093021">
+	<sentence id="s1" text="Mutations in the RNA exosome gene positive regulation of cell growth cause a distinct syndrome with various tissue-specific phenotypes including retinitis pigmentosa and mild intellectual disability.">
+		<entity id="s1.e1" charOffset="34-68"
+			type="GO" text="positive regulation of cell growth" ontology_id="GO_0030307"/>
+		<entity id="s1.e2" charOffset="175-198"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

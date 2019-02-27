@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29115372">
+	<sentence id="s1" text="However, after 4 mo in males and 8 mo in females, mitochondrial electron transport, NADH to ubiquinone(gt/gt) mice are at increased risk of cardiac failure and death.">
+		<entity id="s1.e1" charOffset="50-102"
+			type="GO" text="mitochondrial electron transport, NADH to ubiquinone" ontology_id="GO_0006120"/>
+		<entity id="s1.e2" charOffset="140-155"
+			type="HP" text="cardiac failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

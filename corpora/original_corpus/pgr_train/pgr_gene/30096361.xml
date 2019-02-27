@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30096361">
+	<sentence id="s1" text="One important line of evidence comes from genetic studies, which have repeatedly detected an association between the neuronal isoform of nitric oxide synthase (nNOS or NOS1) and schizophrenia.">
+		<entity id="s1.e1" charOffset="168-172"
+			type="GENE" text="NOS1" ontology_id="340719"/>
+		<entity id="s1.e2" charOffset="178-191"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29596383">
+	<sentence id="s1" text="TASK-3 potassium channels are believed to promote proliferation and survival of cancer cells, in part, by augmenting their resistance to both hypoxia and serum deprivation.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="TASK" ontology_id="3777"/>
+		<entity id="s1.e2" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="While overexpression of TASK-3 is frequently observed in cancers, the understanding of its role and regulation during tumorigenesis remains incomplete.">
+		<entity id="s2.e1" charOffset="24-28"
+			type="GENE" text="TASK" ontology_id="3777"/>
+		<entity id="s2.e2" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our observations implicate TASK-3 as a critical factor in cell cycle progression and corroborate its potential as a therapeutic target in breast cancer treatment">
+		<entity id="s3.e1" charOffset="27-31"
+			type="GENE" text="TASK" ontology_id="3777"/>
+		<entity id="s3.e2" charOffset="145-151"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

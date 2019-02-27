@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29482058">
+	<sentence id="s1" text="Here, we aimed to figure out the role of PDCD10 in resistance to anti-cancer agents in different cell lines.">
+		<entity id="s1.e1" charOffset="41-47"
+			type="GENE" text="PDCD10" ontology_id="11235"/>
+		<entity id="s1.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We found that PDCD10 expression was cell- and anti-cancer agent-specific; down-regulated in doxorubicin- and docetaxel-resistant MCF7 cells while up-regulated in doxorubicin-resistant HeLa cells.">
+		<entity id="s2.e1" charOffset="14-20"
+			type="GENE" text="PDCD10" ontology_id="11235"/>
+		<entity id="s2.e2" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

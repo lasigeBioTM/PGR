@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30042132">
+	<sentence id="s1" text="In Ewing sarcoma, the oncogenic fusion protein regulation of transcription, DNA-templated-multicellular organism development induces chromatin features typical of active enhancers at GGAA microsatellite repeats, but the function of these sites has not been directly demonstrated.">
+		<entity id="s1.e1" charOffset="9-16"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="47-89"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e3" charOffset="90-124"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Epigenome silencing of these repeat sites does not affect gene expression in unrelated cells, can prevent the induction of gene expression by regulation of transcription, DNA-templated-multicellular organism development, and, in the case of a GGAA repeat that controls osteoblast differentiation expression from a distance of 470 kb, is sufficient to impair the growth of Ewing sarcoma xenografts.">
+		<entity id="s2.e1" charOffset="142-184"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e2" charOffset="185-219"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s2.e3" charOffset="269-295"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s2.e4" charOffset="326-333"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

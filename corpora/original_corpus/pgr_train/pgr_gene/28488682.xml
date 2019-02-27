@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28488682">
+	<sentence id="s1" text="To date variants in four genes GLI3, ZNF141, MIPOL1 and PITX1 have been implicated in developing non-syndromic form of polydactyly.">
+		<entity id="s1.e1" charOffset="31-35"
+			type="GENE" text="GLI3" ontology_id="2737"/>
+		<entity id="s1.e2" charOffset="37-43"
+			type="GENE" text="ZNF141" ontology_id="7700"/>
+		<entity id="s1.e3" charOffset="45-51"
+			type="GENE" text="MIPOL1" ontology_id="145282"/>
+		<entity id="s1.e4" charOffset="56-61"
+			type="GENE" text="PITX1" ontology_id="5307"/>
+		<entity id="s1.e5" charOffset="119-130"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="A homozygous splice acceptor site variant (c.395-1GAAAAA) was identified in the IQCE gene, which completely co-segregated with post-axial polydactyly phenotype within the family.">
+		<entity id="s2.e1" charOffset="80-84"
+			type="GENE" text="IQCE" ontology_id="23288"/>
+		<entity id="s2.e2" charOffset="132-137"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<entity id="s2.e3" charOffset="138-149"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

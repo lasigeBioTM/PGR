@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28293831">
+	<sentence id="s1" text="Biallelic mutations in the SPATA5 gene, encoding ATPase family protein, are an important cause of newly recognized epileptic encephalopathy classified as epilepsy, hearing loss, and mental retardation syndrome (EHLMRS, OMIM: 616577).">
+		<entity id="s1.e1" charOffset="27-33"
+			type="GENE" text="SPATA5" ontology_id="166378"/>
+		<entity id="s1.e2" charOffset="125-139"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e3" charOffset="154-162"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="164-176"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

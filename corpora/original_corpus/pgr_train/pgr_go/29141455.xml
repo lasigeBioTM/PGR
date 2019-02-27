@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29141455">
+	<sentence id="s1" text="protein homotetramerization reduction is associated with increased oxidative stress, progenitor cell expansion, genomic instability, and other mechanisms implicated in tumorigenesis.">
+		<entity id="s1.e1" charOffset="0-27"
+			type="GO" text="protein homotetramerization" ontology_id="GO_0051289"/>
+		<entity id="s1.e2" charOffset="168-173"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="S-adenosylmethionine biosynthetic process/S-adenosylmethionine biosynthetic process induction confers growth and survival advantage to cancerous cells, enhancing tumor migration.">
+		<entity id="s2.e1" charOffset="0-41"
+			type="GO" text="S-adenosylmethionine biosynthetic process" ontology_id="GO_0006556"/>
+		<entity id="s2.e2" charOffset="42-83"
+			type="GO" text="S-adenosylmethionine biosynthetic process" ontology_id="GO_000425542"/>
+		<entity id="s2.e3" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In this subset of extra-hepatic cancers, MAT2A and S-adenosylmethionine biosynthetic process are induced via different regulatory mechanisms.">
+		<entity id="s3.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="51-92"
+			type="GO" text="S-adenosylmethionine biosynthetic process" ontology_id="GO_0006556"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="negative regulation of transcription by RNA polymerase II statement This review examines the role of methionine adenosyltransferases (MATs) in human cancer development, with a particular focus on liver cancers in which all three MAT genes are implicated in tumorigenesis.">
+		<entity id="s4.e1" charOffset="0-57"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e2" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="257-262"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

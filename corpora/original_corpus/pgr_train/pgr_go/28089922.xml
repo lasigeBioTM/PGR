@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28089922">
+	<sentence id="s1" text="In this study, we report a family with X-linked recessive syndrome caused by mutated biological_process and characterized by elliptocytosis with or without anemia, midface hypoplasia, proportionate short stature and hearing loss.">
+		<entity id="s1.e1" charOffset="85-103"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="125-139"
+			type="HP" text="elliptocytosis" ontology_id="HP_0004445"/>
+		<entity id="s1.e3" charOffset="164-182"
+			type="HP" text="midface hypoplasia" ontology_id="HP_0011800"/>
+		<entity id="s1.e4" charOffset="198-211"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e5" charOffset="216-228"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, mutations in biological_process were reported in two maternal half-brothers, presenting with nephrocalcinosis, midface hypoplasia and, in one of the siblings, deafness and elliptocytosis.">
+		<entity id="s2.e1" charOffset="23-41"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e2" charOffset="103-119"
+			type="HP" text="nephrocalcinosis" ontology_id="HP_0000121"/>
+		<entity id="s2.e3" charOffset="121-139"
+			type="HP" text="midface hypoplasia" ontology_id="HP_0011800"/>
+		<entity id="s2.e4" charOffset="169-177"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s2.e5" charOffset="182-196"
+			type="HP" text="elliptocytosis" ontology_id="HP_0004445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="biological_process gene is localized in the critical region of contiguous deletion syndrome on Xq22.3 implicated in Alport syndrome, mental retardation, midface hypoplasia, and elliptocytosis (AMME complex).">
+		<entity id="s3.e1" charOffset="0-18"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e2" charOffset="153-171"
+			type="HP" text="midface hypoplasia" ontology_id="HP_0011800"/>
+		<entity id="s3.e3" charOffset="177-191"
+			type="HP" text="elliptocytosis" ontology_id="HP_0004445"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

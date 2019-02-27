@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28254648">
+	<sentence id="s1" text="Recently mutations in the central nervous system myelination/cell adhesion complex have been associated with similar severe phenotypes and central nervous system myelination gene mutations, causing loss of the central nervous system myelination protein, were shown to cause severe, prenatal onset arthrogryposis multiplex congenita in four unrelated families.">
+		<entity id="s1.e1" charOffset="26-60"
+			type="GO" text="central nervous system myelination" ontology_id="GO_0022010"/>
+		<entity id="s1.e2" charOffset="61-74"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s1.e3" charOffset="139-173"
+			type="GO" text="central nervous system myelination" ontology_id="GO_0022010"/>
+		<entity id="s1.e4" charOffset="218-232"
+			type="HP" text="prenatal onset" ontology_id="HP_0003577"/>
+		<entity id="s1.e5" charOffset="233-247"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we report a consanguineous Arab family from Qatar with three children having an early lethal form of arthrogryposis multiplex congenita and a novel frameshift mutation in central nervous system myelination.">
+		<entity id="s2.e1" charOffset="106-120"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s2.e2" charOffset="176-210"
+			type="GO" text="central nervous system myelination" ontology_id="GO_0022010"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We further expand the existing central nervous system myelination-associated phenotype to include profound cerebral and cerebellar atrophy">
+		<entity id="s3.e1" charOffset="31-65"
+			type="GO" text="central nervous system myelination" ontology_id="GO_0022010"/>
+		<entity id="s3.e2" charOffset="98-106"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

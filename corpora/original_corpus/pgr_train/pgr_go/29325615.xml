@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29325615">
+	<sentence id="s1" text="This chapter focuses on the current data covering the etiology and epidemiology, clinical presentation, and pathogenesis of four monogenic forms of isolated dystonia: DYT-protein homooligomerization, DYT-negative regulation of transcription by RNA polymerase II, DYT-tetrahydrobiopterin biosynthetic process, and DYT-GNAL">
+		<entity id="s1.e1" charOffset="157-165"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s1.e2" charOffset="171-198"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<entity id="s1.e3" charOffset="204-261"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="267-307"
+			type="GO" text="tetrahydrobiopterin biosynthetic process" ontology_id="GO_0006729"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

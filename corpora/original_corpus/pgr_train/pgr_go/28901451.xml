@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28901451">
+	<sentence id="s1" text="The present study also identified in tumor and potentially malignant lesions common alterations of chromosomal regions and genes, including protein ubiquitination, cellular glucuronidation, steroid metabolic process, histone H4-K5 acetylation, GSTT1 and peptidyl-tyrosine dephosphorylation, being some of these typical aberrations described in oral cancer and others are linked to chemoradioresistance.">
+		<entity id="s1.e1" charOffset="37-42"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="140-162"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s1.e3" charOffset="164-188"
+			type="GO" text="cellular glucuronidation" ontology_id="GO_0052695"/>
+		<entity id="s1.e4" charOffset="190-215"
+			type="GO" text="steroid metabolic process" ontology_id="GO_0008202"/>
+		<entity id="s1.e5" charOffset="217-242"
+			type="GO" text="histone H4-K5 acetylation" ontology_id="GO_0043981"/>
+		<entity id="s1.e6" charOffset="254-289"
+			type="GO" text="peptidyl-tyrosine dephosphorylation" ontology_id="GO_0035335"/>
+		<entity id="s1.e7" charOffset="266-272"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e7"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e11"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e11"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e11"
+		    e2="s1.e1" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Several putative genes associated with hallmarks of malignancy that may have an important role in predicting the progression of leukoplakia and erythroleukoplakia to squamous cell carcinoma, namely gains in apoptotic process, response to cytokine, sister chromatid cohesion, positive regulation of cytokinesis and protein ubiquitination genes were also identified">
+		<entity id="s2.e1" charOffset="166-189"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s2.e2" charOffset="207-224"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e3" charOffset="226-246"
+			type="GO" text="response to cytokine" ontology_id="GO_0034097"/>
+		<entity id="s2.e4" charOffset="248-273"
+			type="GO" text="sister chromatid cohesion" ontology_id="GO_0007062"/>
+		<entity id="s2.e5" charOffset="275-309"
+			type="GO" text="positive regulation of cytokinesis" ontology_id="GO_0032467"/>
+		<entity id="s2.e6" charOffset="314-336"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

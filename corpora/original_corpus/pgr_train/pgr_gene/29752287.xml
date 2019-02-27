@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29752287">
+	<sentence id="s1" text="RNASET2 deficiency in humans is associated with infant cystic leukoencephalopathy, which causes psychomotor impairment, spasticity and epilepsy.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="RNASET2" ontology_id="8635"/>
+		<entity id="s1.e2" charOffset="62-81"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e3" charOffset="96-118"
+			type="HP" text="psychomotor impairment" ontology_id="HP_0025356"/>
+		<entity id="s1.e4" charOffset="120-130"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<entity id="s1.e5" charOffset="135-143"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

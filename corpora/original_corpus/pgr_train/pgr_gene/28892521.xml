@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28892521">
+	<sentence id="s1" text="The PR-specific hubs were involved in Wnt SP, signaling by Notch1 in cancer, telomere maintenance, and transcriptional misregulation.">
+		<entity id="s1.e1" charOffset="4-6"
+			type="GENE" text="PR" ontology_id="5555"/>
+		<entity id="s1.e2" charOffset="69-75"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results revealed that the most PR-specific proteins were associated with events involved in tumor development, while chemotherapy in the PS group was associated with side effects of drugs and/or cancer recurrence.">
+		<entity id="s2.e1" charOffset="35-37"
+			type="GENE" text="PR" ontology_id="5555"/>
+		<entity id="s2.e2" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="141-143"
+			type="GENE" text="PS" ontology_id="653247"/>
+		<entity id="s2.e4" charOffset="199-205"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30168061">
+	<sentence id="s1" text="The tumor samples were divided into three groups depending on the SOX9 expression level.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="66-70"
+			type="GENE" text="SOX9" ontology_id="6662"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

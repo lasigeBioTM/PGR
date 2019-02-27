@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29084757">
+	<sentence id="s1" text="Defects of CIB2, calcium- and integrin-binding protein 2, have been reported to cause isolated deafness, DFNB48 and Usher syndrome type-IJ, characterized by congenital profound deafness, balance defects and blindness.">
+		<entity id="s1.e1" charOffset="11-15"
+			type="GENE" text="CIB2" ontology_id="10518"/>
+		<entity id="s1.e2" charOffset="95-103"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="131-135"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e4" charOffset="168-176"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s1.e5" charOffset="207-216"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We report here two new nonsense mutations (pGln12* and pTyr110*) in CIB2 patients displaying nonsyndromic profound hearing loss, with no evidence of vestibular or retinal dysfunction.">
+		<entity id="s2.e1" charOffset="68-72"
+			type="GENE" text="CIB2" ontology_id="10518"/>
+		<entity id="s2.e2" charOffset="106-114"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Also, the generated CIB2-/- mice display an early onset profound deafness and have normal balance and retinal functions.">
+		<entity id="s3.e1" charOffset="20-24"
+			type="GENE" text="CIB2" ontology_id="10518"/>
+		<entity id="s3.e2" charOffset="56-64"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s3.e3" charOffset="65-73"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This essential role of CIB2 in mechanotransduction and cell survival that, we show, is restricted to the cochlea, probably accounts for the presence in CIB2-/- mice and CIB2 patients, unlike in Usher syndrome, of isolated hearing loss without balance and vision deficits">
+		<entity id="s4.e1" charOffset="23-27"
+			type="GENE" text="CIB2" ontology_id="10518"/>
+		<entity id="s4.e2" charOffset="222-234"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Defects of CIB2, calcium- and integrin-binding protein 2, have been reported to cause isolated deafness, DFNB48 and Usher syndrome type-IJ, characterized by congenital profound deafness, balance defects and blindness.">
+		<entity id="s5.e1" charOffset="11-15"
+			type="GENE" text="CIB2" ontology_id="10518"/>
+		<entity id="s5.e2" charOffset="207-216"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30112019">
+	<sentence id="s1" text="The gene expression levels of Ki-67, BCL11A, FOXC1, HOXD13, PCDHGB7 and her-2 were used as an auxiliary diagnostic index for patients with breast cancer in the early stage.">
+		<entity id="s1.e1" charOffset="30-32"
+			type="GENE" text="Ki" ontology_id="10197"/>
+		<entity id="s1.e2" charOffset="37-43"
+			type="GENE" text="BCL11A" ontology_id="53335"/>
+		<entity id="s1.e3" charOffset="45-50"
+			type="GENE" text="FOXC1" ontology_id="2296"/>
+		<entity id="s1.e4" charOffset="52-58"
+			type="GENE" text="HOXD13" ontology_id="3239"/>
+		<entity id="s1.e5" charOffset="146-152"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

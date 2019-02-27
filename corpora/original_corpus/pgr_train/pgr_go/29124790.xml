@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29124790">
+	<sentence id="s1" text="We review the literature of genetic PD autopsies from cases with molecularly confirmed PD or parkinsonism and summarize main findings on positive regulation of receptor recycling (n = 25), Parkin (n = 20, 17 bi-allelic and 3 heterozygotes), positive regulation of protein phosphorylation (n = 5, 1 bi-allelic and 4 heterozygotes), DJ-1 (n = 1), MAPK cascade (n = 55), negative regulation of protein homooligomerization (n = 10 Gaucher disease patients with parkinsonism), endosome organization, tetrahydrobiopterin biosynthetic process, cellular calcium ion homeostasis, antibacterial humoral response (n = 8 patients, 2 with PD), MPAN (n = 2), ubiquitin-dependent protein catabolic process, regulation of autophagy, and ATXN2 (SCA2), as well as on 22q deletion syndrome (n = 3).">
+		<entity id="s1.e1" charOffset="93-105"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<entity id="s1.e2" charOffset="137-178"
+			type="GO" text="positive regulation of receptor recycling" ontology_id="GO_0001921"/>
+		<entity id="s1.e3" charOffset="241-287"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e4" charOffset="345-357"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e5" charOffset="368-418"
+			type="GO" text="negative regulation of protein homooligomerization" ontology_id="GO_0032463"/>
+		<entity id="s1.e6" charOffset="472-493"
+			type="GO" text="endosome organization" ontology_id="GO_0007032"/>
+		<entity id="s1.e7" charOffset="495-535"
+			type="GO" text="tetrahydrobiopterin biosynthetic process" ontology_id="GO_0006729"/>
+		<entity id="s1.e8" charOffset="537-569"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s1.e9" charOffset="571-601"
+			type="GO" text="antibacterial humoral response" ontology_id="GO_0019731"/>
+		<entity id="s1.e10" charOffset="645-690"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s1.e11" charOffset="692-715"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+	</sentence>
+</document>

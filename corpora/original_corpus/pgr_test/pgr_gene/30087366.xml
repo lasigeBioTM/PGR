@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30087366">
+	<sentence id="s1" text="MED1 mediates induction of cell proliferation and migration and the genes associated with it (JUN, FOS, EGFR, VEGF, MMP1, and ERBB4) in breast cancer, which is abrogated when used together with miR-191-inhibition.">
+		<entity id="s1.e1" charOffset="116-120"
+			type="GENE" text="MMP1" ontology_id="4312"/>
+		<entity id="s1.e2" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

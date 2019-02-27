@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29734672">
+	<sentence id="s1" text="This validation revealed that the expression of FREM2AAAAAmdash;but not SPRY1AAAAAmdash;is higher in glioblastoma cell lines when compared to non-malignant astrocytes.">
+		<entity id="s1.e1" charOffset="48-53"
+			type="GENE" text="FREM2" ontology_id="341640"/>
+		<entity id="s1.e2" charOffset="101-113"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

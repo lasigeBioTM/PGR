@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27546599">
+	<sentence id="s1" text="Mutations in the LDB3 gene have been identified in patients with Z-disc-associated, alternatively spliced, PDZ motif-containing protein (ZASP)-related myofibrillar myopathy (ZASP-MFM) characterized by late-onset distal myopathy with signs of cardiomyopathy and neuropathy.">
+		<entity id="s1.e1" charOffset="17-21"
+			type="GENE" text="LDB3" ontology_id="11155"/>
+		<entity id="s1.e2" charOffset="137-141"
+			type="GENE" text="ZASP" ontology_id="11155"/>
+		<entity id="s1.e3" charOffset="242-256"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s1.e4" charOffset="261-271"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We describe an autosomal dominant inherited pedigree with ZASP-MFM that is in line with the typical phenotype of distal myopathy without cardiomyopathy and neuropathy, while mild asymmetrical muscle atrophy can be observed in some affected members.">
+		<entity id="s2.e1" charOffset="58-62"
+			type="GENE" text="ZASP" ontology_id="11155"/>
+		<entity id="s2.e2" charOffset="137-151"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e3" charOffset="156-166"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

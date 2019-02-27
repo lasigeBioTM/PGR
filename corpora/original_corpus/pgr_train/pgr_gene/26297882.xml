@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26297882">
+	<sentence id="s1" text="Two recent reports describe a new syndrome of intellectual disability, short stature, microcephaly, and young onset diabetes or disturbed glucose metabolism in association with inactivating mutations in the TRMT10A gene.">
+		<entity id="s1.e1" charOffset="46-69"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="71-84"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e3" charOffset="86-98"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="207-214"
+			type="GENE" text="TRMT10A" ontology_id="93587"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29899147">
+	<sentence id="s1" text="Moebius syndrome (MBS) is a rare congenital disorder characterized by rhombencephalic myelination development, mainly presenting with facial palsy with limited gaze abduction.">
+		<entity id="s1.e1" charOffset="86-97"
+			type="GO" text="myelination" ontology_id="GO_0042552"/>
+		<entity id="s1.e2" charOffset="134-146"
+			type="HP" text="facial palsy" ontology_id="HP_0010628"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutant mice for positive regulation of transcription by RNA polymerase II were reported to present with facial weakness, resembling MBS.">
+		<entity id="s2.e1" charOffset="16-73"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="104-119"
+			type="HP" text="facial weakness" ontology_id="HP_0030319"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We screened 95 sporadic patients diagnosed as MBS or HCFP for mutations in positive regulation of transcription by RNA polymerase II.">
+		<entity id="s3.e1" charOffset="15-23"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s3.e2" charOffset="75-132"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

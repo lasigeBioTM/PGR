@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29165358">
+	<sentence id="s1" text="Several tumor suppressor genes and proto-oncogenes have been implicated in BCC pathogenesis, including the key components of the Hedgehog pathway, PTCH1 and polyamine catabolic process, the TP53 tumor suppressor, and members of the RAS proto-oncogene family.">
+		<entity id="s1.e1" charOffset="8-13"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="157-184"
+			type="GO" text="polyamine catabolic process" ontology_id="GO_0006598"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Aberrant activation of the Hedgehog pathway represents the molecular driver in basal cell carcinoma pathogenesis, with the majority of BCCs carrying somatic point mutations, mainly ultraviolet (UV)-induced, and/or copy-loss of heterozygosis in the positive regulation of cholesterol efflux gene.">
+		<entity id="s2.e1" charOffset="79-99"
+			type="HP" text="basal cell carcinoma" ontology_id="HP_0002671"/>
+		<entity id="s2.e2" charOffset="248-289"
+			type="GO" text="positive regulation of cholesterol efflux" ontology_id="GO_0010875"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Thus, it is clear that a more complex genetic network of cancer-associated genes than previously hypothesized is involved in BCC carcinogenesis, with a potential negative regulation of transcription by RNA polymerase II on the development of new molecular targeted therapies.">
+		<entity id="s3.e1" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="162-219"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

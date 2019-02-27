@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29506214">
+	<sentence id="s1" text="We previously reported a potential predictive value of HSD17B4 hypermethylation for pathological complete response after preoperative trastuzumab plus chemotherapy in HER2-positive breast cancer.">
+		<entity id="s1.e1" charOffset="55-62"
+			type="GENE" text="HSD17B4" ontology_id="3295"/>
+		<entity id="s1.e2" charOffset="167-171"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s1.e3" charOffset="188-194"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We will prospectively evaluate the predictive performance of HSD17B4 hypermethylation in patients with HER2-positive/HR-negative breast cancer treated with sequential chemo-radiotherapy.">
+		<entity id="s2.e1" charOffset="61-68"
+			type="GENE" text="HSD17B4" ontology_id="3295"/>
+		<entity id="s2.e2" charOffset="103-107"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s2.e3" charOffset="136-142"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The primary endpoint is the rate of pathological complete response, defined as the absence of invasive and intraductal tumor cells in the breast at surgery, in breast cancer with HSD17B4 hypermethylation.">
+		<entity id="s3.e1" charOffset="167-173"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="179-186"
+			type="GENE" text="HSD17B4" ontology_id="3295"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

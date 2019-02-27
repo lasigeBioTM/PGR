@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28856750">
+	<sentence id="s1" text="Herein, we describe the clinical and genetic characterization of 79 patients with inherited thiamine defects causing encephalopathy in childhood, identifying outcome predictors in patients with pathogenic SLC19A3 variants, the most common genetic etiology.">
+		<entity id="s1.e1" charOffset="117-131"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e2" charOffset="205-212"
+			type="GENE" text="SLC19A3" ontology_id="80704"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

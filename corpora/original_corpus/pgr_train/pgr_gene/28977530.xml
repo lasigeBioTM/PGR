@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28977530">
+	<sentence id="s1" text="Although PABPN1 plays a critical role in the regulation of RNA processing, mutation of the gene encoding this ubiquitously expressed RNA binding protein causes a specific form of muscular dystrophy termed oculopharyngeal muscular dystrophy (OPMD).">
+		<entity id="s1.e1" charOffset="9-15"
+			type="GENE" text="PABPN1" ontology_id="8106"/>
+		<entity id="s1.e2" charOffset="179-197"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The MATR3 gene is mutated in a form of distal myopathy and amyotrophic lateral sclerosis (ALS).">
+		<entity id="s2.e1" charOffset="4-9"
+			type="GENE" text="MATR3" ontology_id="9782"/>
+		<entity id="s2.e2" charOffset="39-45"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s2.e3" charOffset="46-54"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

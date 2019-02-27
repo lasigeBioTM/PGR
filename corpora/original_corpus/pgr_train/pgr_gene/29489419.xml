@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29489419">
+	<sentence id="s1" text="Mutations in GJA8 are associated with hereditary autosomal dominant and recessive cataract formation.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="GJA8" ontology_id="2703"/>
+		<entity id="s1.e2" charOffset="82-90"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this study, a novel insert mutation in GJA8 was identified in a Chinese congenital cataract family and cosegregated with the disease in this pedigree.">
+		<entity id="s2.e1" charOffset="42-46"
+			type="GENE" text="GJA8" ontology_id="2703"/>
+		<entity id="s2.e2" charOffset="86-94"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Taken together, these data suggest that the novel insert mutation in the TM2 domain of Cx50 protein, which impairs its trafficking to the cell membrane and gap-junction function, is associated with the cataract formation in this Chinese pedigree">
+		<entity id="s3.e1" charOffset="87-91"
+			type="GENE" text="Cx50" ontology_id="2703"/>
+		<entity id="s3.e2" charOffset="202-210"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

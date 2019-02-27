@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29596470">
+	<sentence id="s1" text="We previously demonstrated that transforming growth factor-b1 (TGF-b1) promotes the epithelial-mesenchymal transition (EMT) of human oral squamous cell carcinoma (hOSCC) cells; however, it remains to be clarified whether the TGF-b superfamily member bone morphogenetic protein (BMP) affects this process in hOSCC cells.">
+		<entity id="s1.e1" charOffset="59-61"
+			type="GENE" text="b1" ontology_id="27241"/>
+		<entity id="s1.e2" charOffset="138-161"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

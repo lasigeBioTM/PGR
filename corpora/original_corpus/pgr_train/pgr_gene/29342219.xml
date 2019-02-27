@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29342219">
+	<sentence id="s1" text="Higher expression of EEF1A2, EEF1B2, EEF1G, EEF1D, EEF1E1 and EEF2 was observed in most of the cancer types, whereas reverse trend was observed for EEF1A1.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="GENE" text="EEF1A2" ontology_id="1917"/>
+		<entity id="s1.e2" charOffset="37-42"
+			type="GENE" text="EEF1G" ontology_id="1937"/>
+		<entity id="s1.e3" charOffset="44-49"
+			type="GENE" text="EEF1D" ontology_id="1936"/>
+		<entity id="s1.e4" charOffset="51-57"
+			type="GENE" text="EEF1E1" ontology_id="9521"/>
+		<entity id="s1.e5" charOffset="62-66"
+			type="GENE" text="EEF2" ontology_id="1938"/>
+		<entity id="s1.e6" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e7" charOffset="148-154"
+			type="GENE" text="EEF1A1" ontology_id="1915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Overexpression of many factors predicted poor prognosis in breast (EEF1D, EEF1E1, EEF2) and lung cancer (EEF1A2, EEF1B2, EEF1G, EEF1E1).">
+		<entity id="s2.e1" charOffset="67-72"
+			type="GENE" text="EEF1D" ontology_id="1936"/>
+		<entity id="s2.e2" charOffset="74-80"
+			type="GENE" text="EEF1E1" ontology_id="9521"/>
+		<entity id="s2.e3" charOffset="82-86"
+			type="GENE" text="EEF2" ontology_id="1938"/>
+		<entity id="s2.e4" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e5" charOffset="105-111"
+			type="GENE" text="EEF1A2" ontology_id="1917"/>
+		<entity id="s2.e6" charOffset="113-119"
+			type="GENE" text="EEF1B2" ontology_id="1933"/>
+		<entity id="s2.e7" charOffset="121-126"
+			type="GENE" text="EEF1G" ontology_id="1937"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e6"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e4"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="EEF1A1 and EEF1A2, in most of the cancer types.">
+		<entity id="s3.e1" charOffset="0-6"
+			type="GENE" text="EEF1A1" ontology_id="1915"/>
+		<entity id="s3.e2" charOffset="11-17"
+			type="GENE" text="EEF1A2" ontology_id="1917"/>
+		<entity id="s3.e3" charOffset="34-40"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

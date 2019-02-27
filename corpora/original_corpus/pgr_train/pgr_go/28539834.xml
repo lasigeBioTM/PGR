@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28539834">
+	<sentence id="s1" text="In 2007, DNA dealkylation involved in DNA repair (fat mass and obesity associated) was the first gene identified through a genome-wide association study (GWAS) associated with obesity in humans.">
+		<entity id="s1.e1" charOffset="9-48"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<entity id="s1.e2" charOffset="63-70"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recent prevalent research topic concentrated in the three neighboring genes of DNA dealkylation involved in DNA repair: negative regulation of G protein-coupled receptor signaling pathway, energy homeostasis and gonad development, as having a functional link between obesity-associated common variants within FTO and the observed human phenotypes.">
+		<entity id="s2.e1" charOffset="79-118"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<entity id="s2.e2" charOffset="120-187"
+			type="GO" text="negative regulation of G protein-coupled receptor signaling pathway" ontology_id="GO_0045744"/>
+		<entity id="s2.e3" charOffset="181-188"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e4" charOffset="189-207"
+			type="GO" text="energy homeostasis" ontology_id="GO_0097009"/>
+		<entity id="s2.e5" charOffset="212-229"
+			type="GO" text="gonad development" ontology_id="GO_0008406"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e4"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The purpose of this review is to present a comprehensive picture of the negative regulation of transcription by RNA polymerase II of DNA dealkylation involved in DNA repair on obesity susceptibility and to illuminate these new studies of FTO function in adipose tissue">
+		<entity id="s3.e1" charOffset="72-129"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="133-172"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<entity id="s3.e3" charOffset="140-147"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

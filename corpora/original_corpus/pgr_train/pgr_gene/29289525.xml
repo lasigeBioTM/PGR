@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29289525">
+	<sentence id="s1" text="In 2016, two research groups independently identified microdeletions and pathogenic variants in the lysine-specific histone methyltransferase 2B gene, KMT2B in patients with early-onset progressive dystonia.">
+		<entity id="s1.e1" charOffset="151-156"
+			type="GENE" text="KMT2B" ontology_id="9757"/>
+		<entity id="s1.e2" charOffset="198-206"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="KMT2B-dystonia (DYT28) is emerging as an important and frequent cause of childhood-onset progressive generalised dystonia and is estimated to potentially account for up to 10% of early-onset generalised dystonia.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="KMT2B" ontology_id="9757"/>
+		<entity id="s2.e2" charOffset="6-14"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Herein, we review variants in KMT2B associated with dystonia, as well as the clinical phenotype, treatment and underlying disease mechanisms.">
+		<entity id="s3.e1" charOffset="30-35"
+			type="GENE" text="KMT2B" ontology_id="9757"/>
+		<entity id="s3.e2" charOffset="52-60"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

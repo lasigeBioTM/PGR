@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29207163">
+	<sentence id="s1" text="MTORC1/2 inhibition shows antitumor activity in cell culture models of DIPG due to the effect of MTORC2 inhibition on AKT.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="MTOR" ontology_id="2475"/>
+		<entity id="s1.e2" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="118-121"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

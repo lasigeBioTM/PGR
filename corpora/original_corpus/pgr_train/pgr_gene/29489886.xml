@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29489886">
+	<sentence id="s1" text="Although many new anti-cancer drugs were developed in the last years, it is unclear which of these drugs can be safely combined to improve standard therapy without antagonizing anti-CD20 efficacy.">
+		<entity id="s1.e1" charOffset="23-29"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="182-186"
+			type="GENE" text="CD20" ontology_id="931"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29467240">
+	<sentence id="s1" text="We found that positive regulation of canonical Wnt signaling pathway expression in the epithelium and stroma was associated with tumor stage, and by integrating functional experiments with LGR5-sorted cell RNA sequencing data from adenoma and normal organoids, we found correlations between LGR5 and CRC-specific genes, including dickkopf WNT signaling pathway inhibitor 4 (negative regulation of canonical Wnt signaling pathway) and negative regulation of endothelial cell proliferation-related modular calcium binding 2 (positive regulation of endothelial cell migration).">
+		<entity id="s1.e1" charOffset="14-68"
+			type="GO" text="positive regulation of canonical Wnt signaling pathway" ontology_id="GO_0090263"/>
+		<entity id="s1.e2" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="374-428"
+			type="GO" text="negative regulation of canonical Wnt signaling pathway" ontology_id="GO_0090090"/>
+		<entity id="s1.e4" charOffset="434-487"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s1.e5" charOffset="523-572"
+			type="GO" text="positive regulation of endothelial cell migration" ontology_id="GO_0010595"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

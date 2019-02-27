@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29096595">
+	<sentence id="s1" text="In proximal renal tubules, regulation of phosphate transport suppresses the membrane expression of the sodium-phosphate cotransporters Npt2a and Npt2c which mediate urinary reabsorption of filtered phosphate.">
+		<entity id="s1.e1" charOffset="3-11"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<entity id="s1.e2" charOffset="27-60"
+			type="GO" text="regulation of phosphate transport" ontology_id="GO_0010966"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In distal renal tubules, regulation of phosphate transport signaling activates with-no-lysine kinase 4, leading to increased renal tubular reabsorption of calcium and sodium.">
+		<entity id="s2.e1" charOffset="3-9"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s2.e2" charOffset="25-58"
+			type="GO" text="regulation of phosphate transport" ontology_id="GO_0010966"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In addition, regulation of phosphate transport suppresses proximal tubular expression of 1a-hydroxylase, the key enzyme responsible for vitamin D hormone production.">
+		<entity id="s3.e1" charOffset="13-46"
+			type="GO" text="regulation of phosphate transport" ontology_id="GO_0010966"/>
+		<entity id="s3.e2" charOffset="58-66"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

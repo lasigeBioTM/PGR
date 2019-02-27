@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28697332">
+	<sentence id="s1" text="Reporting in this issue of Developmental Cell, Kanie et al. (2017) shed light on the mechanism of transport by implicating CEP19, which is associated with an autosomal-recessive obesity syndrome when mutated, in the triggering of intraflagellar transport">
+		<entity id="s1.e1" charOffset="123-128"
+			type="GENE" text="CEP19" ontology_id="84984"/>
+		<entity id="s1.e2" charOffset="178-185"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

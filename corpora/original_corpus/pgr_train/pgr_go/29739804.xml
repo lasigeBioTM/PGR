@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29739804">
+	<sentence id="s1" text="X-fatty acid beta-oxidation is clinically heterogeneous, with the cerebral form being the most severe.">
+		<entity id="s1.e1" charOffset="2-27"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e2" charOffset="42-55"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that loss of the Drosophila long-/very-long-chain acyl-CoA synthetase genes bgm and/or dbb is indistinguishable from loss of the Drosophila ABC transporter gene ABCD Shared loss-of-function phenotypes for synthetase and transporter mutants point to a lipid metabolic pathway association with fatty acid beta-oxidation-like neurodegenerative disease in Drosophila; a pathway association that has yet to be established in humans.">
+		<entity id="s2.e1" charOffset="300-325"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s2.e2" charOffset="331-356"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

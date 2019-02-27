@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28596487">
+	<sentence id="s1" text="Here we investigated roles for the vertebrate-specific BTB domain zinc finger gene ZNF131 in the context of human brain tumors.">
+		<entity id="s1.e1" charOffset="83-89"
+			type="GENE" text="ZNF131" ontology_id="7690"/>
+		<entity id="s1.e2" charOffset="120-125"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, ZNF131 and HAUS5 kd phenocopied each other in GSCs, each causing: mitotic arrest, centrosome fragmentation, loss of Augmin/HAUS complex on the mitotic spindle, and loss of GSC self-renewal and tumor formation capacity.">
+		<entity id="s2.e1" charOffset="10-16"
+			type="GENE" text="ZNF131" ontology_id="7690"/>
+		<entity id="s2.e2" charOffset="21-26"
+			type="GENE" text="HAUS5" ontology_id="23354"/>
+		<entity id="s2.e3" charOffset="56-59"
+			type="GENE" text="GSC" ontology_id="145258"/>
+		<entity id="s2.e4" charOffset="203-208"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

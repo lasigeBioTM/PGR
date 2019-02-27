@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29394704">
+	<sentence id="s1" text="The tumor abnormally accumulated FDGin PET-phosphatidylcholine biosynthetic process examination(SUVmax 3.3).">
+		<entity id="s1.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="43-83"
+			type="GO" text="phosphatidylcholine biosynthetic process" ontology_id="GO_0006656"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The tumor was diagnosed ACC with immunohistochemistry; positive to ACC phenotype(DNA clamp unloading-antitrypsin, a1-antichymotrypsin, toll-like receptor signaling pathway).">
+		<entity id="s2.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="81-100"
+			type="GO" text="DNA clamp unloading" ontology_id="GO_0090618"/>
+		<entity id="s2.e3" charOffset="135-171"
+			type="GO" text="toll-like receptor signaling pathway" ontology_id="GO_0002224"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29748515">
+	<sentence id="s1" text="Until now, more than 90 GHR mutations relevant to human short stature (Laron syndrome and idiopathic short stature), including deletions, missense, nonsense, frameshift, and splice site mutations, and four GHR defects associated with chicken dwarfism, have been described.">
+		<entity id="s1.e1" charOffset="24-26"
+			type="GENE" text="GH" ontology_id="2688"/>
+		<entity id="s1.e2" charOffset="56-69"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

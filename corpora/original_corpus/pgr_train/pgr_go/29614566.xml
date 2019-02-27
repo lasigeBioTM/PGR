@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29614566">
+	<sentence id="s1" text="For families that neuromuscular process controlling posture mutations were not detected by Sanger sequencing, candidate gene mutations were further screened by next-generation sequencing for epilepsy.">
+		<entity id="s1.e1" charOffset="18-59"
+			type="GO" text="neuromuscular process controlling posture" ontology_id="GO_0050884"/>
+		<entity id="s1.e2" charOffset="191-199"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

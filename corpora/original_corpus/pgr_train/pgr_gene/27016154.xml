@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27016154">
+	<sentence id="s1" text="We identified a homozygous frameshift mutation in CWF19L1 (c.467delC; p.(P156Hfs*33)) by a combination of linkage analysis and Whole Exome Sequencing in a consanguineous Turkish family with a 9-year-old boy affected by early onset cerebellar ataxia and mild ID.">
+		<entity id="s1.e1" charOffset="50-57"
+			type="GENE" text="CWF19L1" ontology_id="55280"/>
+		<entity id="s1.e2" charOffset="231-248"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="So far, homozygous or compound heterozygous mutations in CWF19L1 have been identified in two Turkish siblings and a Dutch girl, respectively, affected by cerebellar ataxia and ID.">
+		<entity id="s2.e1" charOffset="57-64"
+			type="GENE" text="CWF19L1" ontology_id="55280"/>
+		<entity id="s2.e2" charOffset="154-171"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

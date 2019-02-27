@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30195326">
+	<sentence id="s1" text="The protein product of the breast and ovarian cancer gene, BRCA1, is part of an obligate heterodimer with BARD1.">
+		<entity id="s1.e1" charOffset="46-52"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="59-64"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s1.e3" charOffset="106-111"
+			type="GENE" text="BARD1" ontology_id="580"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

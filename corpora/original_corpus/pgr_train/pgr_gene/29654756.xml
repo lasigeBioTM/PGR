@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29654756">
+	<sentence id="s1" text="PPM1B is a metal-dependent serine/threonine protein phosphatase, with a similar structure and function to the well-known oncogene in breast cancer, PPM1D (WIP1).">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="PPM1B" ontology_id="5495"/>
+		<entity id="s1.e2" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="148-153"
+			type="GENE" text="PPM1D" ontology_id="8493"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, clinical significance of PPM1B as a pharmacological target in cancer therapy has not been explored.">
+		<entity id="s2.e1" charOffset="34-39"
+			type="GENE" text="PPM1B" ontology_id="5495"/>
+		<entity id="s2.e2" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To test if PPM1B can be a drug target in the cellular proliferation and death pathway, the lentiviral PPM1B shRNA was stably expressed in cancer cell lines and its regulatory function in the RB1-E2F1 pathway was examined.">
+		<entity id="s3.e1" charOffset="11-16"
+			type="GENE" text="PPM1B" ontology_id="5495"/>
+		<entity id="s3.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="191-194"
+			type="GENE" text="RB1" ontology_id="5925"/>
+		<entity id="s3.e4" charOffset="195-199"
+			type="GENE" text="E2F1" ontology_id="1869"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our results suggest that PPM1B plays a negative role in the activation of the p38-RB1-E2F1 pathway and that targeting PPM1B could be useful in certain types of cancer by stimulating chemotherapy-induced cell death">
+		<entity id="s4.e1" charOffset="25-30"
+			type="GENE" text="PPM1B" ontology_id="5495"/>
+		<entity id="s4.e2" charOffset="78-81"
+			type="GENE" text="p38" ontology_id="10598"/>
+		<entity id="s4.e3" charOffset="82-85"
+			type="GENE" text="RB1" ontology_id="5925"/>
+		<entity id="s4.e4" charOffset="86-90"
+			type="GENE" text="E2F1" ontology_id="1869"/>
+		<entity id="s4.e5" charOffset="160-166"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e5" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e4"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28475127">
+	<sentence id="s1" text="The up-regulation of ALL1-fused gene from chromosome 1q (AF1q) is commonly seen in aggressive hematologic malignancies as well as in several solid tumor tissues.">
+		<entity id="s1.e1" charOffset="57-61"
+			type="GENE" text="AF1q" ontology_id="10962"/>
+		<entity id="s1.e2" charOffset="147-152"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Clinical specimens revealed that AF1q was up-regulated in human CRC tissues, and that this up-regulation was associated with tumor metastasis and late tumor, lymph node, metastasis (TNM) stage.">
+		<entity id="s2.e1" charOffset="33-37"
+			type="GENE" text="AF1q" ontology_id="10962"/>
+		<entity id="s2.e2" charOffset="125-130"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="AF1q knockdown by shRNA inhibited tumor cell proliferation, migration, invasion, and epithelial-mesenchymal transition in vitro, as well as tumorigenesis and liver metastasis in vivo, whereas these effects were reversed following AF1q overexpression.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="AF1q" ontology_id="10962"/>
+		<entity id="s3.e2" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="These AF1q-mediated effects were modulated by the protein kinase B (AKT) signaling pathway, and inhibition of AKT signaling attenuated AF1q-induced tumor promotion.">
+		<entity id="s4.e1" charOffset="6-10"
+			type="GENE" text="AF1q" ontology_id="10962"/>
+		<entity id="s4.e2" charOffset="148-153"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Thus, AF1q contributes to CRC tumorigenesis and progression through the activation of the AKT signaling pathway.">
+		<entity id="s5.e1" charOffset="6-10"
+			type="GENE" text="AF1q" ontology_id="10962"/>
+		<entity id="s5.e2" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29053855">
+	<sentence id="s1" text="In summary, our results reveal that rare loss-of-function variants in signal transduction increase the risk for a varying combination of epilepsy, intellectual disability/developmental delay and dysmorphic features, presenting in some pedigrees with an X-linked inheritance pattern">
+		<entity id="s1.e1" charOffset="70-89"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="137-145"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

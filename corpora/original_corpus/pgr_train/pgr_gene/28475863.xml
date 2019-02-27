@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28475863">
+	<sentence id="s1" text="In a multiplex consanguineous Saudi family affected by severe and recurrent large joint dislocation and severe myopia, we identified a homozygous truncating variant in GZF1 through a combined autozygome and exome approach.">
+		<entity id="s1.e1" charOffset="111-117"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s1.e2" charOffset="168-172"
+			type="GENE" text="GZF1" ontology_id="64412"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Independently, the same approach identified a second homozygous truncating GZF1 variant in another multiplex consanguineous family affected by severe myopia, retinal detachment, and milder skeletal involvement.">
+		<entity id="s2.e1" charOffset="75-79"
+			type="GENE" text="GZF1" ontology_id="64412"/>
+		<entity id="s2.e2" charOffset="150-156"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s2.e3" charOffset="158-176"
+			type="HP" text="retinal detachment" ontology_id="HP_0000541"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our results suggest that GZF1 mutations cause a phenotype of severe myopia and significant articular involvement not previously described in Larsen syndrome">
+		<entity id="s3.e1" charOffset="25-29"
+			type="GENE" text="GZF1" ontology_id="64412"/>
+		<entity id="s3.e2" charOffset="68-74"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

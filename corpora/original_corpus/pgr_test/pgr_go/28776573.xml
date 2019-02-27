@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28776573">
+	<sentence id="s1" text="However, certain chromatin remodeling genes (MLL1, MLL2, MLL3, BAP1, PBRM1, EED, and ATRX) were found to be mutated in 7/22 (32%) of intraductal tubulopapillary neoplasms and 27% harbored phosphatidylinositol 3-kinase (PI3K) pathway (phosphorylation, PIK3CB, INPP4A, and PTEN) mutations.">
+		<entity id="s1.e1" charOffset="161-169"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="234-249"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

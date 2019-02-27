@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28934386">
+	<sentence id="s1" text="Loss-of-function mutations in MTM1 cause the severe congenital myopathy called myotubular myopathy (or X-linked centronuclear myopathy) while mutations in the MTM1-related protein MTMR2 cause a recessive Charcot-Marie-Tooth peripheral neuropathy.">
+		<entity id="s1.e1" charOffset="30-34"
+			type="GENE" text="MTM1" ontology_id="4534"/>
+		<entity id="s1.e2" charOffset="63-71"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e3" charOffset="180-185"
+			type="GENE" text="MTMR2" ontology_id="8898"/>
+		<entity id="s1.e4" charOffset="224-234"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s1.e5" charOffset="235-245"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, adeno-associated virus-mediated exogenous expression of several MTMR2 isoforms ameliorates the myopathic phenotype owing to MTM1 loss, with increased muscle force, reduced myofiber atrophy, and reduction of the intracellular disorganization hallmarks associated with myotubular myopathy.">
+		<entity id="s2.e1" charOffset="74-79"
+			type="GENE" text="MTMR2" ontology_id="8898"/>
+		<entity id="s2.e2" charOffset="134-138"
+			type="GENE" text="MTM1" ontology_id="4534"/>
+		<entity id="s2.e3" charOffset="288-296"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="They also provide the proof-of-concept that expression of the neuropathy-associated MTMR2 gene improves the MTM1-associated myopathy, thus identifying MTMR2 as a novel therapeutic target for myotubular myopathy">
+		<entity id="s3.e1" charOffset="62-72"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e2" charOffset="84-89"
+			type="GENE" text="MTMR2" ontology_id="8898"/>
+		<entity id="s3.e3" charOffset="108-112"
+			type="GENE" text="MTM1" ontology_id="4534"/>
+		<entity id="s3.e4" charOffset="124-132"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

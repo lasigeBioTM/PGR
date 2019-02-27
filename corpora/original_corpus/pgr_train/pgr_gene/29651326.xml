@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29651326">
+	<sentence id="s1" text="The aim of this study is to determine the role of serum CK18, MMP-9, and TIMP1 levels in predicting R0 resection in patients with gastric cancer.">
+		<entity id="s1.e1" charOffset="73-78"
+			type="GENE" text="TIMP1" ontology_id="7076"/>
+		<entity id="s1.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Although serum CK18, MMP-9, and TIMP1 preop measurements in patients scheduled for curative surgery due to gastric adenocarcinoma did not help to gain any idea of tumor resectability, we concluded that our study had valuable results in significantly predicting N3 stage">
+		<entity id="s2.e1" charOffset="32-37"
+			type="GENE" text="TIMP1" ontology_id="7076"/>
+		<entity id="s2.e2" charOffset="163-168"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

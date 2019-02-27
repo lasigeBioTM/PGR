@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29529044">
+	<sentence id="s1" text="A heterozygous mutation in the Wolfram syndrome type 1 gene (WFS1) causes autosomal dominant nonsyndromic hereditary hearing loss, DFNA6/14/38, or Wolfram-like syndrome.">
+		<entity id="s1.e1" charOffset="61-65"
+			type="GENE" text="WFS1" ontology_id="7466"/>
+		<entity id="s1.e2" charOffset="117-129"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

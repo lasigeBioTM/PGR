@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29931788">
+	<sentence id="s1" text="Ras-association domain family 6 (RASSF6) is a tumor suppressor that interacts with MDM2 and stabilizes p53.">
+		<entity id="s1.e1" charOffset="33-39"
+			type="GENE" text="RASSF6" ontology_id="166824"/>
+		<entity id="s1.e2" charOffset="46-51"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="83-87"
+			type="GENE" text="MDM2" ontology_id="4193"/>
+		<entity id="s1.e4" charOffset="103-106"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="These findings support that UNC119 is a regulator of the RASSF6-MDM2-p53 axis and functions as a tumor suppressor">
+		<entity id="s2.e1" charOffset="28-34"
+			type="GENE" text="UNC119" ontology_id="9094"/>
+		<entity id="s2.e2" charOffset="64-68"
+			type="GENE" text="MDM2" ontology_id="4193"/>
+		<entity id="s2.e3" charOffset="69-72"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s2.e4" charOffset="97-102"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

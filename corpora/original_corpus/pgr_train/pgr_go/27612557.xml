@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27612557">
+	<sentence id="s1" text="The proteomic data suggested that Danu-regulated cytoplasmic translation signaling might contribute to the cancer cell killing effect.">
+		<entity id="s1.e1" charOffset="49-72"
+			type="GO" text="cytoplasmic translation" ontology_id="GO_0002181"/>
+		<entity id="s1.e2" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29127204">
+	<sentence id="s1" text="To gain insight into the molecular basis of the heterogeneous phenotype observed in men with the deletion we defined the type of DAZ and spermatogenesis genes deleted.">
+		<entity id="s1.e1" charOffset="48-61"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="137-152"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

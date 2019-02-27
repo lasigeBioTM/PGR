@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29293331">
+	<sentence id="s1" text="Finally, in colon cancer cells, we prove that the Wnt signaling pathway, calcium modulating pathway/phosphorylation axis elicited by FzM1.8 preserves stemness and promotes proliferation of undifferentiated cells">
+		<entity id="s1.e1" charOffset="18-24"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="50-99"
+			type="GO" text="Wnt signaling pathway, calcium modulating pathway" ontology_id="GO_0007223"/>
+		<entity id="s1.e3" charOffset="100-115"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

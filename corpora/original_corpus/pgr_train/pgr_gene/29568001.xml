@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29568001">
+	<sentence id="s1" text="SLC29A3 mutations have been reported as the causal gene in two DOS families, however, genetic heterogeneity has been suggested.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="SLC29A3" ontology_id="55315"/>
+		<entity id="s1.e2" charOffset="94-107"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TNFRSF11A mutations have previously been reported in two autosomal dominant diseases (osteolysis, familial expansile and Paget disease of bone 2, early-onset) and an autosomal recessive disease (osteopetrosis, autosomal recessive 7).">
+		<entity id="s2.e1" charOffset="0-9"
+			type="GENE" text="TNFRSF11A" ontology_id="8792"/>
+		<entity id="s2.e2" charOffset="166-185"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30119033">
+	<sentence id="s1" text="We studied the expression of TMEM9 and its effect on cytokine secretion in tumor necrosis factor-alpha (TNF-a)-induced LX-2 cells.">
+		<entity id="s1.e1" charOffset="29-34"
+			type="GENE" text="TMEM9" ontology_id="252839"/>
+		<entity id="s1.e2" charOffset="75-80"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="104-107"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

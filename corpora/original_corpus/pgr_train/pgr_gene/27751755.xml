@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27751755">
+	<sentence id="s1" text="In the eyes of Rdh8-/- Abca4-/- mice, a mouse model with defects in retinoid cycle that displays some symbolic characteristics of age-related macular degeneration (AMD), the level of atRAL-dimer was increased compared to wild-type mice, and was even much greater than that of A2E AAAAA isomers.">
+		<entity id="s1.e1" charOffset="15-19"
+			type="GENE" text="Rdh8" ontology_id="50700"/>
+		<entity id="s1.e2" charOffset="23-28"
+			type="GENE" text="Abca4" ontology_id="24"/>
+		<entity id="s1.e3" charOffset="142-162"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

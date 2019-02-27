@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29278326">
+	<sentence id="s1" text="We recently found that ER to Golgi vesicle-mediated transport is a principal triglyceride hydrolase in the central nervous system (CNS) and that genetic deletion of this enzyme in mice leads to ectopic lipid droplet (positive regulation of macroautophagy) accumulation in neurons throughout the brain.">
+		<entity id="s1.e1" charOffset="23-61"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="107-114"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e3" charOffset="217-254"
+			type="GO" text="positive regulation of macroautophagy" ontology_id="GO_0016239"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

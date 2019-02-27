@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28052027">
+	<sentence id="s1" text="On these bases, we investigated whether the ligation of negative regulation of transcription by RNA polymerase II by a selective agonist, the 2,3-bis(4-hydroxyphenyl)-propionitrile (DPN), could negative regulation of transcription by RNA polymerase II HL tumor growth.">
+		<entity id="s1.e1" charOffset="56-113"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="140-197"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="201-206"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="After negative regulation of transcription by RNA polymerase II activation, both DRAM2 and protein 1 light chain 3 (LC3), a key actor in the autophagosome formation, strictly interacted each other and localized at mitochondrial level.Altogether these results suggest that targeting ERb with selective agonists might affect HL cell proliferation and tumor growth via a mechanism that brings into play DRAM2-dependent autophagic cascade">
+		<entity id="s2.e1" charOffset="6-63"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="349-354"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

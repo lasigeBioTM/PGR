@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27215383">
+	<sentence id="s1" text="We identified a homozygous missense mutation, c.1308 G-A (p.V421M) in mitochondrial respiratory chain complex I assembly in a patient who presented with epilepsy and severe psychomotor retardation.">
+		<entity id="s1.e1" charOffset="70-120"
+			type="GO" text="mitochondrial respiratory chain complex I assembly" ontology_id="GO_0032981"/>
+		<entity id="s1.e2" charOffset="153-161"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="166-172"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A patient myoblast line showed a severe reduction in complex I, associated with the accumulation of subassemblies centered around a340 kDa, and a milder decrease in complex II, all of which were rescued by retroviral expression of wild-type mitochondrial respiratory chain complex I assembly.">
+		<entity id="s2.e1" charOffset="33-39"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<entity id="s2.e2" charOffset="241-291"
+			type="GO" text="mitochondrial respiratory chain complex I assembly" ontology_id="GO_0032981"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

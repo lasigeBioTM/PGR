@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29430824">
+	<sentence id="s1" text="Here we report three individuals with biallelic FANCM truncating mutations who developed early-onset cancer and toxicity to chemotherapy but did not present congenital malformations or any hematological phenotype suggestive of FA.MethodsChromosomal breakages, interstrand crosslink sensitivity, and FANCD2 monoubiquitination were assessed in primary fibroblasts.">
+		<entity id="s1.e1" charOffset="48-53"
+			type="GENE" text="FANCM" ontology_id="57697"/>
+		<entity id="s1.e2" charOffset="101-107"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="299-305"
+			type="GENE" text="FANCD2" ontology_id="2177"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Patient-derived cells were genetically complemented upon wild-type FANCM complementary DNA expression.ConclusionLoss-of-function mutations in FANCM cause a cancer predisposition syndrome clinically distinct from bona fide FA.">
+		<entity id="s2.e1" charOffset="67-72"
+			type="GENE" text="FANCM" ontology_id="57697"/>
+		<entity id="s2.e2" charOffset="156-162"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

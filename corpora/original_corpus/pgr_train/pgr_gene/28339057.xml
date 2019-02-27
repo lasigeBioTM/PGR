@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28339057">
+	<sentence id="s1" text="The aim of the present study was to evaluate mutations of the G protein-coupled receptor 143 (GPR143) gene for ocular albinism type 1 (OA1) in Chinese patients.">
+		<entity id="s1.e1" charOffset="94-100"
+			type="GENE" text="GPR143" ontology_id="4935"/>
+		<entity id="s1.e2" charOffset="118-126"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23754376">
+	<sentence id="s1" text="The RAD51 recombinase plays a central role in homologous recombination (HR), which is critical for repair of DNA double-strand breaks, maintenance of genomic stability, and prevention of developmental disorders and cancer.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="GENE" text="RAD51" ontology_id="5888"/>
+		<entity id="s1.e2" charOffset="215-221"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Interestingly, FIGNL1 is recruited to sites of DNA damage in a manner that is independent of breast cancer 2, early onset, RAD51, and probably, RAD51 paralogs.">
+		<entity id="s2.e1" charOffset="15-21"
+			type="GENE" text="FIGNL1" ontology_id="63979"/>
+		<entity id="s2.e2" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="123-128"
+			type="GENE" text="RAD51" ontology_id="5888"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Collectively, our study uncovers a protein complex, which consists of FIGNL1 and KIAA0146/SPIDR, in DNA repair and provides potential directions for cancer diagnosis and therapy.">
+		<entity id="s3.e1" charOffset="70-76"
+			type="GENE" text="FIGNL1" ontology_id="63979"/>
+		<entity id="s3.e2" charOffset="81-89"
+			type="GENE" text="KIAA0146" ontology_id="23514"/>
+		<entity id="s3.e3" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

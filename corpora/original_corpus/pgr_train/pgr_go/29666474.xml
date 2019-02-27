@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29666474">
+	<sentence id="s1" text="In humans, mutations in regulation of autophagy result in Wolfram syndrome 2, a disease in which the patients display juvenile diabetes, neuropsychiatric disorders and defective platelet aggregation.">
+		<entity id="s1.e1" charOffset="24-47"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s1.e2" charOffset="168-198"
+			type="HP" text="defective platelet aggregation" ontology_id="HP_0003540"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

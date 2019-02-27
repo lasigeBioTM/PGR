@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30125135">
+	<sentence id="s1" text="Pure hair and nail ectodermal dysplasia 9 (ECTD-9) is an autosomal recessive genetic disease caused by mutation of HOXC13 and is characterized by hypotrichosis and nail dystrophy in humans.">
+		<entity id="s1.e1" charOffset="19-39"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e2" charOffset="57-76"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="115-121"
+			type="GENE" text="HOXC13" ontology_id="3229"/>
+		<entity id="s1.e4" charOffset="146-159"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Unlike patients with ECTD-9, Hoxc13-mutated mice and pigs do not faithfully recapitulate the phenotype of hypotrichosis, so there is a limited understanding of the molecular mechanism of Hoxc13-mediated hypotrichosis in animal models and clinically.">
+		<entity id="s2.e1" charOffset="29-35"
+			type="GENE" text="Hoxc13" ontology_id="3229"/>
+		<entity id="s2.e2" charOffset="53-57"
+			type="GENE" text="pigs" ontology_id="94005"/>
+		<entity id="s2.e3" charOffset="106-119"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, the homozygous Hoxc13-/- rabbits showed complete loss of hair on the head and dorsum, whereas hypotrichosis in the limbs and tail were determined in the Hoxc13-/- rabbits.">
+		<entity id="s3.e1" charOffset="21-27"
+			type="GENE" text="Hoxc13" ontology_id="3229"/>
+		<entity id="s3.e2" charOffset="100-113"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In addition, reduced hair follicles (HFs) while the enlarged and increased number of sebaceous glands (SGs) were also found in the Hoxc13-/- rabbits, showing that the disrupted balance between HFs and SGs may respond to hypotrichosis of ECTD-9 in an animal model and clinically.">
+		<entity id="s4.e1" charOffset="131-137"
+			type="GENE" text="Hoxc13" ontology_id="3229"/>
+		<entity id="s4.e2" charOffset="220-233"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Therefore, our findings demonstrate that Hoxc13-/- rabbits can be used as a model for human ECTD-9, especially to understand the pathologic mechanism of hypotrichosis.">
+		<entity id="s5.e1" charOffset="41-47"
+			type="GENE" text="Hoxc13" ontology_id="3229"/>
+		<entity id="s5.e2" charOffset="153-166"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="Moreover, the disrupted balance between HFs and SGs, especially in the Hoxc13-/- rabbits, can be used as an ideal animal model for dermatology ailments, such as acne and hypotrichosis, in preclinical studies.-Deng, J., Chen, M., Liu, Z., Song, Y., Sui, T., Lai, L., Li, Z.">
+		<entity id="s6.e1" charOffset="71-77"
+			type="GENE" text="Hoxc13" ontology_id="3229"/>
+		<entity id="s6.e2" charOffset="170-183"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+</document>

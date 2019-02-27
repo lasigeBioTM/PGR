@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29048736">
+	<sentence id="s1" text="Furthermore, 1751 normal Chinese individuals served as controls, and 122 Chinese families segregating with apparent ARNSHL, who had been previously excluded for variants in the common deafness genes GJB2 and SLC26A4, were subjected to screening for candidate mutations.">
+		<entity id="s1.e1" charOffset="184-192"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="199-203"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e3" charOffset="208-215"
+			type="GENE" text="SLC26A4" ontology_id="5172"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

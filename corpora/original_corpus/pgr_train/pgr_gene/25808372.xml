@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25808372">
+	<sentence id="s1" text="We report the identification of mutations in PMPCA in 17 patients from four families affected with cerebellar ataxia, including the large Lebanese family previously described with autosomal recessive cerebellar ataxia and short stature of Norman type and localized to chromosome 9q34 (OMIM #213200).">
+		<entity id="s1.e1" charOffset="45-50"
+			type="GENE" text="PMPCA" ontology_id="23203"/>
+		<entity id="s1.e2" charOffset="99-116"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="180-199"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="222-235"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

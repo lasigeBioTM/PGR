@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29713869">
+	<sentence id="s1" text="Monoallelic and biallelic deleterious sequence variants in FOXE3 cause aphakia, cataracts, sclerocornea and microphthalmia in humans.">
+		<entity id="s1.e1" charOffset="59-64"
+			type="GENE" text="FOXE3" ontology_id="2301"/>
+		<entity id="s1.e2" charOffset="80-89"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e3" charOffset="91-103"
+			type="HP" text="sclerocornea" ontology_id="HP_0000647"/>
+		<entity id="s1.e4" charOffset="108-122"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Whole genome transcriptome analysis (RNA-Seq) on RNA isolated from wildtype larvae and larvae with eye defects that were putative homozygotes for the foxe3 indel variant found significant dysregulation of genes expressed in the lens and eye whose orthologues are associated with cataracts in human patients, including cryba2a, cryba1l1, mipa and hsf4.">
+		<entity id="s2.e1" charOffset="150-155"
+			type="GENE" text="fo.e1" ontology_id="2301"/>
+		<entity id="s2.e2" charOffset="279-288"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s2.e3" charOffset="346-350"
+			type="GENE" text="hsf4" ontology_id="3299"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

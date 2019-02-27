@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30174217">
+	<sentence id="s1" text="On the other hand, growing tumors evade immune surveillance by exploiting co-inhibitory signaling through expression of negative regulation of regulatory T cell differentiation, positive regulation of T cell apoptotic process and PDL-1.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="120-176"
+			type="GO" text="negative regulation of regulatory T cell differentiation" ontology_id="GO_0045590"/>
+		<entity id="s1.e3" charOffset="178-225"
+			type="GO" text="positive regulation of T cell apoptotic process" ontology_id="GO_0070234"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Immune checkpoint blockade (ICB) using anti-negative regulation of regulatory T cell differentiation and anti-positive regulation of T cell apoptotic process has drawn considerable attention towards co-signaling receptors in tumor immunology and created renewed interest in studying other co-signaling receptors, which until recently have not been as well studied.">
+		<entity id="s2.e1" charOffset="44-100"
+			type="GO" text="negative regulation of regulatory T cell differentiation" ontology_id="GO_0045590"/>
+		<entity id="s2.e2" charOffset="110-157"
+			type="GO" text="positive regulation of T cell apoptotic process" ontology_id="GO_0070234"/>
+		<entity id="s2.e3" charOffset="181-186"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

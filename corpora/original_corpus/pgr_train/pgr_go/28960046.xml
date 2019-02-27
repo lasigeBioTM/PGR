@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28960046">
+	<sentence id="s1" text="We reported a milder form of intra-Golgi vesicle-mediated transport defect showing Friedreich*s-ataxia-like phenotypes without hypotonia, microcephaly, and short stature that were observed in most patients with intra-Golgi vesicle-mediated transport defect">
+		<entity id="s1.e1" charOffset="29-67"
+			type="GO" text="intra-Golgi vesicle-mediated transport" ontology_id="GO_0006891"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="138-150"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="156-169"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

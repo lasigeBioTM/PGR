@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28396387">
+	<sentence id="s1" text="Oncogenic PIK3CA mutations are found in a significant fraction of human cancers, but therapeutic inhibition of PI3K has only shown limited success in clinical trials.">
+		<entity id="s1.e1" charOffset="10-16"
+			type="GENE" text="PIK3CA" ontology_id="5290"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To understand how mutant PIK3CA contributes to cancer cell proliferation, we used genome scale loss-of-function screening in a large number of genomically annotated cancer cell lines.">
+		<entity id="s2.e1" charOffset="25-31"
+			type="GENE" text="PIK3CA" ontology_id="5290"/>
+		<entity id="s2.e2" charOffset="47-53"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="As expected, we found that PIK3CA mutant cancer cells require PIK3CA but also require the expression of the TCA cycle enzyme 2-oxoglutarate dehydrogenase (OGDH).">
+		<entity id="s3.e1" charOffset="27-33"
+			type="GENE" text="PIK3CA" ontology_id="5290"/>
+		<entity id="s3.e2" charOffset="41-47"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="155-159"
+			type="GENE" text="OGDH" ontology_id="4967"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

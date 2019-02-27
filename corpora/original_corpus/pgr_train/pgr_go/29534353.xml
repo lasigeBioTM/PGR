@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29534353">
+	<sentence id="s1" text="Immunohistochemically, the tumor cells were positive for S-100 protein (4/4), oligodendrocyte development(3/4), defense response to virus/CD207(4/4), CD1a(3/4), CD68(3/4), CD163(3/4), and mRNA splicing, via spliceosome-1(4/4).">
+		<entity id="s1.e1" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="78-105"
+			type="GO" text="oligodendrocyte development" ontology_id="GO_0014003"/>
+		<entity id="s1.e3" charOffset="112-137"
+			type="GO" text="defense response to virus" ontology_id="GO_0051607"/>
+		<entity id="s1.e4" charOffset="188-218"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28218742">
+	<sentence id="s1" text="Altogether, our data indicate that the levels of these protein polyubiquitinationNAs may be used as biological markers for evaluating hepatocellular carcinoma progression.">
+		<entity id="s1.e1" charOffset="55-81"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="134-158"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

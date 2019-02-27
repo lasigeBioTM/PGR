@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28839461">
+	<sentence id="s1" text="Here, we report that in breast cancer tissue samples and breast cancer cell lines, 2-oxoglutarate metabolic process expression level was markedly elevated and correlated with the pathological grades of breast cancers.">
+		<entity id="s1.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="83-115"
+			type="GO" text="2-oxoglutarate metabolic process" ontology_id="GO_0006103"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="2-oxoglutarate metabolic process overexpression increased the subpopulation of breast cancer stem cells in vitro and promoted tumorigenesis in mice.">
+		<entity id="s2.e1" charOffset="0-32"
+			type="GO" text="2-oxoglutarate metabolic process" ontology_id="GO_0006103"/>
+		<entity id="s2.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overall, 2-oxoglutarate metabolic process promotes tumorigenesis and stemness of breast cancer cells by activating the positive regulation of cell proliferation signaling, suggesting that GTP2 is a potential target for breast cancer therapy">
+		<entity id="s3.e1" charOffset="9-41"
+			type="GO" text="2-oxoglutarate metabolic process" ontology_id="GO_0006103"/>
+		<entity id="s3.e2" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="119-160"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

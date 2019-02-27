@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27790702">
+	<sentence id="s1" text="We report a novel ARL2BP splice site mutation after whole-exome sequencing (WES) applied to a Moroccan family including two sisters affected with autosomal recessive rod-cone dystrophy (arRCD).">
+		<entity id="s1.e1" charOffset="18-24"
+			type="GENE" text="ARL2BP" ontology_id="23568"/>
+		<entity id="s1.e2" charOffset="146-165"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

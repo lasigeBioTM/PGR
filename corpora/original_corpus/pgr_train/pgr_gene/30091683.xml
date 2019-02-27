@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30091683">
+	<sentence id="s1" text="This study identifies the influence of miR-142-3p on mammary stemness properties and breast cancer radioresistance to establish its role in this setting.">
+		<entity id="s1.e1" charOffset="39-42"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="92-98"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="miR-142-3p overexpression resulted in a strong decline in breast cancer stem cell characteristics with a decrease in CD44, CD133, ALDH1, Bod1, BRCA2, and mammosphere formation as well as reduced survival after irradiation.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="137-141"
+			type="GENE" text="Bod1" ontology_id="91272"/>
+		<entity id="s2.e4" charOffset="143-148"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We conclude that miR-142-3p downregulates cancer stem cell characteristics and radioresistance in breast cancer, mediated by a reduced role of b-catenin in miR-142-3p-overexpressing cells.">
+		<entity id="s3.e1" charOffset="17-20"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="42-48"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="miR-142-3p might therefore help to target cancer stem cells">
+		<entity id="s4.e1" charOffset="0-3"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s4.e2" charOffset="42-48"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="However, the effects of the microRNA miR-142-3p, a small endogenous regulator of gene expression on breast cancer stem cells, have not been investigated.">
+		<entity id="s5.e1" charOffset="37-40"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s5.e2" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

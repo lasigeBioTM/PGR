@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28575017">
+	<sentence id="s1" text="Alterations in eye development levels cause ocular malformations and disrupt stress response in ocular tissues, thereby contributing to glaucoma progression.">
+		<entity id="s1.e1" charOffset="15-30"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e2" charOffset="136-144"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, we found that eye development regulation of regulation of GTPase activity, establishment of protein localization to endoplasmic reticulum membrane and exocytosis affects secretion of Myocilin (osteoblast differentiation), a protein associated with juvenile onset glaucoma and steroid-induced glaucoma.">
+		<entity id="s2.e1" charOffset="27-42"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s2.e2" charOffset="57-86"
+			type="GO" text="regulation of GTPase activity" ontology_id="GO_0043087"/>
+		<entity id="s2.e3" charOffset="67-138"
+			type="GO" text="establishment of protein localization to endoplasmic reticulum membrane" ontology_id="GO_0097051"/>
+		<entity id="s2.e4" charOffset="143-153"
+			type="GO" text="exocytosis" ontology_id="GO_0006887"/>
+		<entity id="s2.e5" charOffset="151-165"
+			type="HP" text="juvenile onset" ontology_id="HP_0003621"/>
+		<entity id="s2.e6" charOffset="166-174"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s2.e7" charOffset="185-211"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e7"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e3"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e7"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+</document>

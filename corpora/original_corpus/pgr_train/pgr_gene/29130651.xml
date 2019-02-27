@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29130651">
+	<sentence id="s1" text="In four of them otosclerosis was said to be present, one patient had hearing loss due to severe stapes fixation at the age of 6 years, providing evidence that hearing loss in the GDF6-related multiple synostoses syndrome can be present in childhood.">
+		<entity id="s1.e1" charOffset="69-81"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="179-183"
+			type="GENE" text="GDF6" ontology_id="392255"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

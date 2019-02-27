@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28515149">
+	<sentence id="s1" text="Here, we assessed whether disrupting pyruvate kinase-M (programmed cell death), an enzyme that acts in the terminal steps of glycolysis, would alter CGNP metabolism, proliferation, and tumorigenesis.">
+		<entity id="s1.e1" charOffset="56-77"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<entity id="s1.e2" charOffset="185-190"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We observed a dichotomous pattern of programmed cell death expression, in which postmitotic neurons throughout the brain expressed the constitutively active PKM1 isoform, while neural progenitors and medulloblastomas exclusively expressed the less active PKM2.">
+		<entity id="s2.e1" charOffset="37-58"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<entity id="s2.e2" charOffset="200-215"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="programmed cell death2 deletion accelerated tumor formation in medulloblastoma-prone ND2:SmoA1 mice, indicating the disrupting programmed cell death releases CGNPs from a tumor-suppressive effect.">
+		<entity id="s3.e1" charOffset="0-21"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<entity id="s3.e2" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="63-78"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<entity id="s3.e4" charOffset="127-148"
+			type="GO" text="programmed cell death" ontology_id="GO_0012501"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29666346">
+	<sentence id="s1" text="Thus, here we report a new candidate gene (biological_process) and a haplotype of cell cycle arrest forVWS, and highlight the genetic heterogeneity of this disorder in the Indian population">
+		<entity id="s1.e1" charOffset="43-61"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="68-85"
+			type="GO" text="cell cycle arrest" ontology_id="GO_0007050"/>
+		<entity id="s1.e3" charOffset="120-133"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

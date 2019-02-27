@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30195330">
+	<sentence id="s1" text="Blocking the expression of integrin cell surface receptor signaling pathwayb1, which was accomplished by transduction of a2-specific shRNA, resulted in significant inhibition of proliferation and clonal activity in human MCF-7 breast carcinoma and negative regulation of transcription by RNA polymerase II-Mel-147 melanoma cells.">
+		<entity id="s1.e1" charOffset="36-75"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s1.e2" charOffset="227-243"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<entity id="s1.e3" charOffset="248-305"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

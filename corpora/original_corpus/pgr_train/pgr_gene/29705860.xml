@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29705860">
+	<sentence id="s1" text="In 20/23 cases, MDRrel BSI occurred during neutropenia.">
+		<entity id="s1.e1" charOffset="19-22"
+			type="GENE" text="rel" ontology_id="5966"/>
+		<entity id="s1.e2" charOffset="43-54"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MDR rectal colonization occurs in 6.5% of haematological inpatients and predicts a 16% probability of MDRrel BSI, particularly during neutropenia, as well as a higher probability of unfavourable outcomes in CR-rel BSIs.">
+		<entity id="s2.e1" charOffset="105-108"
+			type="GENE" text="rel" ontology_id="5966"/>
+		<entity id="s2.e2" charOffset="134-145"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<entity id="s2.e3" charOffset="207-209"
+			type="GENE" text="CR" ontology_id="1604"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28512024">
+	<sentence id="s1" text="glycoprotein catabolic process patients produce little or no N-glycanase (Ngly1), and the symptoms include global developmental delay, frequent seizures, complex hyperkinetic movement disorder, difficulty in swallowing/aspiration, liver dysfunction, and a lack of tears.">
+		<entity id="s1.e1" charOffset="0-30"
+			type="GO" text="glycoprotein catabolic process" ontology_id="GO_0006516"/>
+		<entity id="s1.e2" charOffset="231-248"
+			type="HP" text="liver dysfunction" ontology_id="HP_0001410"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29778912">
+	<sentence id="s1" text="From a GeneMatcher-enabled international collaboration, we identified ten individuals affected by intellectual disability, speech delay, ataxia, and facial dysmorphism and carrying a deleterious positive regulation of transcription, DNA-templated variant detected by whole-exome sequencing.">
+		<entity id="s1.e1" charOffset="98-121"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="123-135"
+			type="HP" text="speech delay" ontology_id="HP_0000750"/>
+		<entity id="s1.e3" charOffset="149-167"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<entity id="s1.e4" charOffset="195-246"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our findings demonstrate that variants disrupting positive regulation of transcription, DNA-templated-mediated transcriptional regulation cause intellectual disability and developmental delay and are present in a0.1% of individuals with unexplained neurodevelopmental disorders">
+		<entity id="s2.e1" charOffset="50-101"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s2.e2" charOffset="144-167"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="172-191"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30168063">
+	<sentence id="s1" text="Stimulation of BxPC-3, Panc-1, and MIA PaCA-2 pancreatic cancer cells with EGF, HGF, FGF-1, FGF-2, FGF-7, and FGF-10 growth factors caused changes in the expression of master genes regulating pancreatic development (SOX9, HNF3b, GATA-4, GATA-6, and HES1).">
+		<entity id="s1.e1" charOffset="35-38"
+			type="GENE" text="MIA" ontology_id="8190"/>
+		<entity id="s1.e2" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="75-78"
+			type="GENE" text="EGF" ontology_id="1950"/>
+		<entity id="s1.e4" charOffset="80-83"
+			type="GENE" text="HGF" ontology_id="3569"/>
+		<entity id="s1.e5" charOffset="229-233"
+			type="GENE" text="GATA" ontology_id="55278"/>
+		<entity id="s1.e6" charOffset="249-253"
+			type="GENE" text="HES1" ontology_id="3280"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

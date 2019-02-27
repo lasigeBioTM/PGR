@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29577047">
+	<sentence id="s1" text="The canonical Hippo tumor suppressor pathway in mammalian cells is primarily composed of the MST1/2-SAV1-LATS1/2-MOB1-YAP/TAZ cascade.">
+		<entity id="s1.e1" charOffset="20-25"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="93-97"
+			type="GENE" text="MST1" ontology_id="6789"/>
+		<entity id="s1.e3" charOffset="118-121"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s1.e4" charOffset="122-125"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

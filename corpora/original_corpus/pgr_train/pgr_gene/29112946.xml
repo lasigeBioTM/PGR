@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29112946">
+	<sentence id="s1" text="In this study, we show that microRNA (miR)-587 confers resistance to 5-fluorouracil (5-FU)-induced apoptosis in vitro and reduces the potency of 5-FU in the inhibition of tumor growth in a mouse xenograft model in vivo.">
+		<entity id="s1.e1" charOffset="38-41"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="87-89"
+			type="GENE" text="FU" ontology_id="27148"/>
+		<entity id="s1.e3" charOffset="171-176"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Knockdown of PPP2R1B expression increases AKT phosphorylation, which leads to elevated XIAP expression and enhanced 5-FU resistance; whereas rescue of PPP2R1B expression in miR-587-expressing cells decreases AKT phosphorylation/XIAP expression, re-sensitizing colon cancer cells to 5-FU-induced apoptosis.">
+		<entity id="s2.e1" charOffset="13-20"
+			type="GENE" text="PPP2R1B" ontology_id="5519"/>
+		<entity id="s2.e2" charOffset="87-91"
+			type="GENE" text="XIAP" ontology_id="331"/>
+		<entity id="s2.e3" charOffset="118-120"
+			type="GENE" text="FU" ontology_id="27148"/>
+		<entity id="s2.e4" charOffset="173-176"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e5" charOffset="266-272"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e5"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Importantly, studies of colorectal cancer specimens indicate that the expression of miR-587 and PPP2R1B positively and inversely correlates with chemoresistance, respectively, in colorectal cancer.">
+		<entity id="s3.e1" charOffset="35-41"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="84-87"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e3" charOffset="96-103"
+			type="GENE" text="PPP2R1B" ontology_id="5519"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="These findings indicate that the miR-587/PPP2R1B/pAKT/XIAP signaling axis has an important role in mediating response to chemotherapy in colorectal cancer.">
+		<entity id="s4.e1" charOffset="33-36"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s4.e2" charOffset="41-48"
+			type="GENE" text="PPP2R1B" ontology_id="5519"/>
+		<entity id="s4.e3" charOffset="54-58"
+			type="GENE" text="XIAP" ontology_id="331"/>
+		<entity id="s4.e4" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="A major implication of our study is that inhibition of miR-587 or restoration of PPP2R1B expression may have significant therapeutic potential to overcome drug resistance in colorectal cancer patients and that the combined use of an AKT inhibitor with 5-FU may increase efficacy in colorectal cancer treatment">
+		<entity id="s5.e1" charOffset="55-58"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s5.e2" charOffset="81-88"
+			type="GENE" text="PPP2R1B" ontology_id="5519"/>
+		<entity id="s5.e3" charOffset="185-191"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e4" charOffset="254-256"
+			type="GENE" text="FU" ontology_id="27148"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28674222">
+	<sentence id="s1" text="We found no correlation between the DLEC1, TUSC4 and mismatch repair gene expression and NSCLC patient characteristics (gender, age and smoking) or cancer histopathology.">
+		<entity id="s1.e1" charOffset="53-68"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s1.e2" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

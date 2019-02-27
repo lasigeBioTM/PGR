@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28921304">
+	<sentence id="s1" text="The FGF9 subfamily, including FGF9, regulation of endothelial cell proliferation, and negative regulation of neuron apoptotic process, in addition to rhFGF16, rhFGF9, and rhFGF20, were shown to stimulate the proliferation and migration of HuH7 human hepatocellular carcinoma (HCC) cells.">
+		<entity id="s1.e1" charOffset="36-80"
+			type="GO" text="regulation of endothelial cell proliferation" ontology_id="GO_0001936"/>
+		<entity id="s1.e2" charOffset="86-133"
+			type="GO" text="negative regulation of neuron apoptotic process" ontology_id="GO_0043524"/>
+		<entity id="s1.e3" charOffset="208-232"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29364887">
+	<sentence id="s1" text="Mutations in THAP1 [THAP (Thanatos-associated protein) domain containing, apoptosis associated protein 1], a ubiquitously expressed transcription factor with DNA binding and protein-interaction domains, cause dystonia, DYT6.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="THAP1" ontology_id="55145"/>
+		<entity id="s1.e2" charOffset="209-217"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, THAP1 downstream targets in neurons, and the mechanism via which it causes dystonia are largely unknown.">
+		<entity id="s2.e1" charOffset="9-14"
+			type="GENE" text="THAP1" ontology_id="55145"/>
+		<entity id="s2.e2" charOffset="84-92"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

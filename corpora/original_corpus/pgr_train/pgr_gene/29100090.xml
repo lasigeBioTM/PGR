@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29100090">
+	<sentence id="s1" text="Renal agenesis and hypodysplasia (RHD) are major causes of pediatric chronic kidney disease and are highly genetically heterogeneous.">
+		<entity id="s1.e1" charOffset="34-37"
+			type="GENE" text="RHD" ontology_id="6007"/>
+		<entity id="s1.e2" charOffset="119-132"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In an additional affected individual with RHD and a congenital heart defect, we found a homozygous loss-of-function (LOF) variant in SLIT3, recapitulating phenotypes reported with Slit3 inactivation in the mouse.">
+		<entity id="s2.e1" charOffset="42-45"
+			type="GENE" text="RHD" ontology_id="6007"/>
+		<entity id="s2.e2" charOffset="52-75"
+			type="HP" text="congenital heart defect" ontology_id="HP_0001627"/>
+		<entity id="s2.e3" charOffset="133-138"
+			type="GENE" text="SLIT3" ontology_id="6585"/>
+		<entity id="s2.e4" charOffset="180-185"
+			type="GENE" text="Slit3" ontology_id="6585"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

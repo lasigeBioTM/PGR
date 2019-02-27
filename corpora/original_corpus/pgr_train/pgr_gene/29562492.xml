@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29562492">
+	<sentence id="s1" text="In recent years, many studies have shown that Smac/DIABLO is closely related to tumor drug resistance.">
+		<entity id="s1.e1" charOffset="46-50"
+			type="GENE" text="Smac" ontology_id="56616"/>
+		<entity id="s1.e2" charOffset="51-57"
+			type="GENE" text="DIABLO" ontology_id="56616"/>
+		<entity id="s1.e3" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Smac/DIABLO expression is markedly different between drug-resistant and chemo sensitive tumor cells.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="Smac" ontology_id="56616"/>
+		<entity id="s2.e2" charOffset="5-11"
+			type="GENE" text="DIABLO" ontology_id="56616"/>
+		<entity id="s2.e3" charOffset="88-93"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Up-regulation of Smac/DIABLO has been shown to increase tumor cell chemotherapy sensitivity.">
+		<entity id="s3.e1" charOffset="17-21"
+			type="GENE" text="Smac" ontology_id="56616"/>
+		<entity id="s3.e2" charOffset="22-28"
+			type="GENE" text="DIABLO" ontology_id="56616"/>
+		<entity id="s3.e3" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We found that Smac, combined with DDP greatly inhibited proliferation of subcutaneous xenografts of ovarian cancer cell line SKOV3/DDP without side effects.">
+		<entity id="s4.e1" charOffset="14-18"
+			type="GENE" text="Smac" ontology_id="56616"/>
+		<entity id="s4.e2" charOffset="34-37"
+			type="GENE" text="DDP" ontology_id="1678"/>
+		<entity id="s4.e3" charOffset="108-114"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Mechanistic studies showed that Smac can inhibit the expression of Survivin, promote cell apoptosis of drug-resistant ovarian cancer cells and reverse the drug resistance">
+		<entity id="s5.e1" charOffset="32-36"
+			type="GENE" text="Smac" ontology_id="56616"/>
+		<entity id="s5.e2" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

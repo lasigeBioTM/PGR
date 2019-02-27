@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28077841">
+	<sentence id="s1" text="Biallelic PARS2 or NARS2 mutations are reported to cause Alpers* syndrome, which is an autosomal recessive neurodegenerative disorder characterized by psychomotor regression and epilepsy with variable degree of liver involvement.">
+		<entity id="s1.e1" charOffset="10-15"
+			type="GENE" text="PARS2" ontology_id="25973"/>
+		<entity id="s1.e2" charOffset="19-24"
+			type="GENE" text="NARS2" ontology_id="79731"/>
+		<entity id="s1.e3" charOffset="178-186"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, it is known that NARS2 mutations cause various clinical phenotypes, including non-syndromic hearing loss, Leigh syndrome, intellectual disability with epilepsy and severe myopathy.">
+		<entity id="s2.e1" charOffset="27-32"
+			type="GENE" text="NARS2" ontology_id="79731"/>
+		<entity id="s2.e2" charOffset="102-114"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e3" charOffset="132-155"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e4" charOffset="161-169"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The individuals with PARS2 and NARS2 mutations, we have reported here demonstrate similar neurological features as those previously reported, with diversity in clinical presentation such as hearing loss and seizure type.">
+		<entity id="s3.e1" charOffset="21-26"
+			type="GENE" text="PARS2" ontology_id="25973"/>
+		<entity id="s3.e2" charOffset="31-36"
+			type="GENE" text="NARS2" ontology_id="79731"/>
+		<entity id="s3.e3" charOffset="190-202"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s3.e4" charOffset="207-214"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="true"/>
+	</sentence>
+</document>

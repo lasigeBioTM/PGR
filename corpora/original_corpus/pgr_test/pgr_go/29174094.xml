@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29174094">
+	<sentence id="s1" text="We expand the knowledge about TTC7A deficiency, describing a patient with the mild phenotype of TTC7A deficiency but presenting overlapping features of SD/THE and cell proliferation-CID: intestinal atresia and inflammatory bowel disease evocative of MIA-CID, but also dental abnormalities, huge forehead, liver abnormalities, autoimmune thyroiditis and hypogammaglobulinemia, evocative of SD/THE">
+		<entity id="s1.e1" charOffset="163-181"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s1.e2" charOffset="268-288"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Tricho-hepato-enteric syndrome (negative regulation of protein export from nucleus/THE) and Multiple intestinal atresia with combined immune deficiency (MIA-CID) are autosomal recessive disorders that present immunological and gastrointestinal features.">
+		<entity id="s2.e1" charOffset="32-82"
+			type="GO" text="negative regulation of protein export from nucleus" ontology_id="GO_0046826"/>
+		<entity id="s2.e2" charOffset="101-119"
+			type="HP" text="intestinal atresia" ontology_id="HP_0011100"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We expand the knowledge about protein localization to plasma membrane deficiency, describing a patient with the mild phenotype of TTC7A deficiency but presenting overlapping features of SD/THE and MIA-CID: intestinal atresia and inflammatory bowel disease evocative of MIA-CID, but also dental abnormalities, huge forehead, liver abnormalities, autoimmune thyroiditis and hypogammaglobulinemia, evocative of SD/THE">
+		<entity id="s3.e1" charOffset="30-69"
+			type="GO" text="protein localization to plasma membrane" ontology_id="GO_0072659"/>
+		<entity id="s3.e2" charOffset="287-307"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

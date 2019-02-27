@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28839118">
+	<sentence id="s1" text="We detected 11 novel mutations in cell-cell signaling, visual perception, negative regulation of intracellular transport, visual perception, CRYGS, visual perception, protein glycosylation, CRYGA, and proteolysis; and three previously reported cataract-causing mutations in GJA8, CRYAA, and CRYBB2 The most commonly mutated genes were those coding for gap junctions and crystallin proteins.">
+		<entity id="s1.e1" charOffset="34-53"
+			type="GO" text="cell-cell signaling" ontology_id="GO_0007267"/>
+		<entity id="s1.e2" charOffset="55-72"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e3" charOffset="74-120"
+			type="GO" text="negative regulation of intracellular transport" ontology_id="GO_0032387"/>
+		<entity id="s1.e4" charOffset="122-139"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e5" charOffset="143-151"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e6" charOffset="148-165"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e7" charOffset="167-188"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s1.e8" charOffset="201-212"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

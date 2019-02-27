@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29267967">
+	<sentence id="s1" text="We report the genetic and functional characterization of 4 FRMPD4 deleterious mutations that cause a new X-linked intellectual disability (ID) syndrome.">
+		<entity id="s1.e1" charOffset="59-65"
+			type="GENE" text="FRMPD4" ontology_id="9758"/>
+		<entity id="s1.e2" charOffset="114-137"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

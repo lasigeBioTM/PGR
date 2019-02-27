@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28422407">
+	<sentence id="s1" text="Our findings widen the phenotype spectrum caused by biological_process mutations and underline the phenotypic overlap with Temtamy preaxial brachydactyly syndrome.">
+		<entity id="s1.e1" charOffset="52-70"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="140-153"
+			type="HP" text="brachydactyly" ontology_id="HP_0001156"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

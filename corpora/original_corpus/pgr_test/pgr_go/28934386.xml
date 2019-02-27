@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28934386">
+	<sentence id="s1" text="Loss-of-function mutations in protein dephosphorylation cause the severe congenital myopathy called myotubular myopathy (or X-linked centronuclear myopathy) while mutations in the MTM1-related protein MTMR2 cause a recessive Charcot-Marie-Tooth peripheral neuropathy.">
+		<entity id="s1.e1" charOffset="30-55"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s1.e2" charOffset="245-255"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

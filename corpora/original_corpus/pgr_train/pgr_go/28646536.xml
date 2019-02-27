@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28646536">
+	<sentence id="s1" text="Cystinuria is a heterogeneous, rare but important cause of inherited kidney stone disease due to mutations in 2 genes: amino acid transport and neutral amino acid transport.">
+		<entity id="s1.e1" charOffset="16-29"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="119-139"
+			type="GO" text="amino acid transport" ontology_id="GO_0006865"/>
+		<entity id="s1.e3" charOffset="144-172"
+			type="GO" text="neutral amino acid transport" ontology_id="GO_0017204"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

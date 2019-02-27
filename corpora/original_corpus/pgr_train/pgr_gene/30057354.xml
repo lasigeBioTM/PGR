@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30057354">
+	<sentence id="s1" text="Inhibition of p53-MDM2 complex has been emerging as a strategy for antitumoral drug development considering the pro-apoptotic role of functional p53 in tumor cells.">
+		<entity id="s1.e1" charOffset="14-17"
+			type="GENE" text="p53" ontology_id="7157"/>
+		<entity id="s1.e2" charOffset="18-22"
+			type="GENE" text="MDM2" ontology_id="4193"/>
+		<entity id="s1.e3" charOffset="71-76"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27346687">
+	<sentence id="s1" text="They present with global negative regulation of autophagy, and one individual developed a hematological cancer (acute myeloid leukemia) in childhood.">
+		<entity id="s1.e1" charOffset="25-57"
+			type="GO" text="negative regulation of autophagy" ontology_id="GO_0010507"/>
+		<entity id="s1.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Collectively, these findings demonstrate that mutations in protein folding cause a cancer-prone negative regulation of autophagy syndrome due to corruption of early nuclear rRNA biogenesis and late cytoplasmic maturation of the 60S subunit">
+		<entity id="s2.e1" charOffset="59-74"
+			type="GO" text="protein folding" ontology_id="GO_0006457"/>
+		<entity id="s2.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="88-120"
+			type="GO" text="negative regulation of autophagy" ontology_id="GO_0010507"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29339485">
+	<sentence id="s1" text="Our study identifies urine D2HG and tissue response to manganese ion expression as biomarkers to identify patients at risk for progressing from colitis to cancer.">
+		<entity id="s1.e1" charOffset="43-68"
+			type="GO" text="response to manganese ion" ontology_id="GO_0010042"/>
+		<entity id="s1.e2" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The colonic expression of response to manganese ion is decreased in ulcerative colitis (UC) patients at baseline who progress to cancer.">
+		<entity id="s2.e1" charOffset="26-51"
+			type="GO" text="response to manganese ion" ontology_id="GO_0010042"/>
+		<entity id="s2.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

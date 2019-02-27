@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29902798">
+	<sentence id="s1" text="However, in recent clinical reports, autosomal recessive ODDD cases due to by signal transduction mutations were also described.">
+		<entity id="s1.e1" charOffset="37-56"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="78-97"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

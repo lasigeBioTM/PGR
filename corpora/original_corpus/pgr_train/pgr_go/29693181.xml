@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29693181">
+	<sentence id="s1" text="Four of the five genes, including adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway, SOPB, TCF7L2, endodermal cell differentiation and keratinocyte differentiation were downregulated, and were associated with the OS of patients with breast carcinoma.">
+		<entity id="s1.e1" charOffset="34-107"
+			type="GO" text="adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway" ontology_id="GO_0007193"/>
+		<entity id="s1.e2" charOffset="123-154"
+			type="GO" text="endodermal cell differentiation" ontology_id="GO_00359154"/>
+		<entity id="s1.e3" charOffset="159-187"
+			type="GO" text="keratinocyte differentiation" ontology_id="GO_0030216"/>
+		<entity id="s1.e4" charOffset="217-226"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

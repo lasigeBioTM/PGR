@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29298444">
+	<sentence id="s1" text="She manifested macrocephaly, preaxial polysyndactyly, psychomotor developmental delay, cerebral cavernous malformations, and glucose intolerance due to a 6.2-Mb deletion of 7p14.1p12.3 which included negative regulation of transcription by RNA polymerase II, protein phosphorylation, and vasculogenesis.">
+		<entity id="s1.e1" charOffset="15-27"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s1.e2" charOffset="66-85"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="200-257"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="259-282"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e5" charOffset="268-282"
+			type="GO" text="vasculogenesis" ontology_id="GO_0001570"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We summarize the phenotypic extent of smoothened signaling pathway/3 syndromes in the literature and determine that these 2 syndromes manifest opposite features to a certain extent, such as midface hypoplasia or macrocephaly, and anterior or posterior side of polydactyly.">
+		<entity id="s2.e1" charOffset="38-66"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<entity id="s2.e2" charOffset="190-208"
+			type="HP" text="midface hypoplasia" ontology_id="HP_0011800"/>
+		<entity id="s2.e3" charOffset="212-224"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s2.e4" charOffset="260-271"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="She manifested macrocephaly, preaxial polysyndactyly, psychomotor developmental delay, cerebral cavernous malformations, and glucose intolerance due to a 6.2-Mb deletion of 7p14.1p12.3 which included GLI3, protein phosphorylation, and CCM2.">
+		<entity id="s3.e1" charOffset="15-27"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s3.e2" charOffset="206-229"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

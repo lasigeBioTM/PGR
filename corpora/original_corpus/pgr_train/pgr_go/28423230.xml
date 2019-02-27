@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28423230">
+	<sentence id="s1" text="Here, we report that GOF DNA strand renaturation induces tumorigenicity through simultaneous activation of key oncogenic pathways including those controlling putative tumor-initiating cell functions.">
+		<entity id="s1.e1" charOffset="25-48"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s1.e2" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Thus, therapeutic inhibition of one GOF DNA strand renaturation-induced pathway would be insufficient to prevent tumor growth as the oncoprotein activates a multitude of parallel pathways.">
+		<entity id="s2.e1" charOffset="40-63"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s2.e2" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This discovery suggests enormous selection advantage for cancer cells with GOF DNA strand renaturation to induce oncogenic growth, highlighting the problems of cancer therapy">
+		<entity id="s3.e1" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="79-102"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

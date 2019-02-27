@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30072045">
+	<sentence id="s1" text="Exome analysis of APA has allowed the identification of recurrent somatic mutations in potassium ion import across plasma membrane, calcium ion transport, cellular sodium ion homeostasis, and regulation of cytosolic calcium ion concentration in more than 50 % of sporadic cases.">
+		<entity id="s1.e1" charOffset="87-130"
+			type="GO" text="potassium ion import across plasma membrane" ontology_id="GO_1990573"/>
+		<entity id="s1.e2" charOffset="132-153"
+			type="GO" text="calcium ion transport" ontology_id="GO_0006816"/>
+		<entity id="s1.e3" charOffset="155-186"
+			type="GO" text="cellular sodium ion homeostasis" ontology_id="GO_0006883"/>
+		<entity id="s1.e4" charOffset="181-189"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e5" charOffset="192-241"
+			type="GO" text="regulation of cytosolic calcium ion concentration" ontology_id="GO_0051480"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The negative regulation of cell proliferation mutations were also identified in cortisol-producing adenomas and adrenal cancer, but their role in APA development and the mechanisms specifying the hormonal production or the malignant phenotype remain unknown.">
+		<entity id="s2.e1" charOffset="4-45"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s2.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

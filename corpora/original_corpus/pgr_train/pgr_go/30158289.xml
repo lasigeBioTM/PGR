@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30158289">
+	<sentence id="s1" text="proteolysis mediates activation of several immune cell types and is involved in the proliferation and survival of cancer cells.">
+		<entity id="s1.e1" charOffset="0-11"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e2" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

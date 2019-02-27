@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30087366">
+	<sentence id="s1" text="Here we show that response to radiation, a Mediator subunit in the Middle module of Mediator complex, is overexpressed in breast cancer and is a negative prognostic factor.">
+		<entity id="s1.e1" charOffset="18-39"
+			type="GO" text="response to radiation" ontology_id="GO_0009314"/>
+		<entity id="s1.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="response to radiation mediates induction of cell proliferation and migration and the genes associated with it (transforming growth factor beta receptor signaling pathway, transforming growth factor beta receptor signaling pathway, positive regulation of protein phosphorylation, VEGF, MMP1, and signal transduction) in breast cancer, which is abrogated when used together with protein polyubiquitination-191-inhibition.">
+		<entity id="s2.e1" charOffset="0-21"
+			type="GO" text="response to radiation" ontology_id="GO_0009314"/>
+		<entity id="s2.e2" charOffset="111-169"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s2.e3" charOffset="160-166"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="171-229"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s2.e5" charOffset="211-237"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e6" charOffset="231-277"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s2.e7" charOffset="295-314"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e6"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e7"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overall, the results show that response to radiation/ER-a/protein polyubiquitination-191 axis promotes breast cancer cell proliferation and migration and may serve as a novel target for therapy">
+		<entity id="s3.e1" charOffset="31-52"
+			type="GO" text="response to radiation" ontology_id="GO_0009314"/>
+		<entity id="s3.e2" charOffset="58-84"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e3" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

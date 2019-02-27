@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27758879">
+	<sentence id="s1" text="In colorectal cancer, APC-mediated induction of unregulated cell growth involves posttranslational mechanisms that prevent proteasomal degradation of proto-oncogene b-catenin (CTNNB1) and its eventual translocation to the nucleus.">
+		<entity id="s1.e1" charOffset="14-20"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="22-25"
+			type="GENE" text="APC" ontology_id="324"/>
+		<entity id="s1.e3" charOffset="176-182"
+			type="GENE" text="CTNNB1" ontology_id="1499"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show in colorectal cancer that increased expression of ZNF148, the gene coding for transcription factor ZBP-89, correlated with reduced patient survival.">
+		<entity id="s2.e1" charOffset="28-34"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="64-70"
+			type="GENE" text="ZNF148" ontology_id="7707"/>
+		<entity id="s2.e3" charOffset="113-119"
+			type="GENE" text="ZBP-89" ontology_id="7707"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Tissue arrays showed that ZBP-89 protein was overexpressed in the early stages of colorectal cancer.">
+		<entity id="s3.e1" charOffset="26-32"
+			type="GENE" text="ZBP-89" ontology_id="7707"/>
+		<entity id="s3.e2" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

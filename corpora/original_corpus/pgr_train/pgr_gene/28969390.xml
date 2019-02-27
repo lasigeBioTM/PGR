@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28969390">
+	<sentence id="s1" text="Using exome sequencing, we identified dominant mutations in DNM1L on chromosome 12p11.21 in three large families with isolated optic atrophy, including the two families that defined the OPA5 locus on chromosome 19q12.1-13.1, the existence of which is denied by the present study.">
+		<entity id="s1.e1" charOffset="60-65"
+			type="GENE" text="DNM1L" ontology_id="10059"/>
+		<entity id="s1.e2" charOffset="127-140"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

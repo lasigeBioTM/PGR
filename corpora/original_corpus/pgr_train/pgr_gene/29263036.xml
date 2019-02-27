@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29263036">
+	<sentence id="s1" text="Mutations in one of our candidate genes, Smpx, have been reported as the cause of X-linked deafness in humans.">
+		<entity id="s1.e1" charOffset="41-45"
+			type="GENE" text="Smpx" ontology_id="23676"/>
+		<entity id="s1.e2" charOffset="91-99"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

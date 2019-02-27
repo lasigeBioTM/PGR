@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28453180">
+	<sentence id="s1" text="blood coagulation-associated severe congenital neutropenia (SCN) is a rare disorder characterized by life-threating infections, neutropenia, neutrophil and platelet dysfunction, poor response to filgrastim, and myelofibrosis with extramedullary hematopoiesis.">
+		<entity id="s1.e1" charOffset="0-17"
+			type="GO" text="blood coagulation" ontology_id="GO_0007596"/>
+		<entity id="s1.e2" charOffset="47-58"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

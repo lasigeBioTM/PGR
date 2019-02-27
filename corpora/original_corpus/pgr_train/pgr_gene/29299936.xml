@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29299936">
+	<sentence id="s1" text="Both in vitro and in vivo antitumor results demonstrated that the sustained-release PTX could induce the microtubules assembly and the over-expression of Bax and Cyclin B1 proteins, resulting in the microtubule dynamics disruption, G2/M phase arrest, and cell apoptosis accordingly.">
+		<entity id="s1.e1" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="154-157"
+			type="GENE" text="Bax" ontology_id="581"/>
+		<entity id="s1.e3" charOffset="232-234"
+			type="GENE" text="G2" ontology_id="25758"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

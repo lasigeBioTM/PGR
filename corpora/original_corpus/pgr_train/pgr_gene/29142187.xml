@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29142187">
+	<sentence id="s1" text="In Japan, 26 mutations in the ATP2A2 gene in 7 pedigrees and 19 sporadic cases with DD have been reported, among which one pedigree and one sporadic case were accompanied by neuropsychiatric symptoms.">
+		<entity id="s1.e1" charOffset="30-36"
+			type="GENE" text="ATP2A2" ontology_id="488"/>
+		<entity id="s1.e2" charOffset="64-72"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

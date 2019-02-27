@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29346494">
+	<sentence id="s1" text="In T2D patients, PAX4 Arg192His was associated with earlier age at diagnosis, and adenylate cyclase-activating G protein-coupled receptor signaling pathway Arg131Gln was associated with decreased risk of cardiovascular disease.">
+		<entity id="s1.e1" charOffset="82-155"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e2" charOffset="204-226"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

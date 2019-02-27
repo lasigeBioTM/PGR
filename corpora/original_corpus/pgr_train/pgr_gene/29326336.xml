@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29326336">
+	<sentence id="s1" text="ARID5B also activates the expression of the oncogene MYC Importantly, ARID5B is required for the survival and growth of T-ALL cells, and forced expression of ARID5B in immature thymocytes results in thymus retention, differentiation arrest, radioresistance, and tumor formation in zebrafish.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="ARID5B" ontology_id="84159"/>
+		<entity id="s1.e2" charOffset="53-56"
+			type="GENE" text="MYC" ontology_id="4609"/>
+		<entity id="s1.e3" charOffset="262-267"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

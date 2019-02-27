@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27008867">
+	<sentence id="s1" text="Bardet Biedl syndrome (BBS) is a multisystem genetically heterogeneous ciliopathy that most commonly leads to obesity, photoreceptor degeneration, digit anomalies, genito-urinary abnormalities, as well as cognitive impairment with autism, among other features.">
+		<entity id="s1.e1" charOffset="23-26"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<entity id="s1.e2" charOffset="57-70"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="110-117"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e4" charOffset="231-237"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in C8ORF37 were previously associated with severe autosomal recessive retinal dystrophies (retinitis pigmentosa RP64 and cone-rod dystrophy CORD16) but not BBS.">
+		<entity id="s2.e1" charOffset="13-20"
+			type="GENE" text="C8ORF37" ontology_id="157657"/>
+		<entity id="s2.e2" charOffset="60-79"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="166-169"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

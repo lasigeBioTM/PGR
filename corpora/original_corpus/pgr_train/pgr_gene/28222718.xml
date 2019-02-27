@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28222718">
+	<sentence id="s1" text="We report a sibling pair with FTHS caused by a homozygous, novel mutation pLys133Glnfs*13 in the SH3PXD2B gene: one sibling had bilateral ocular hypertension and unilateral colobomas of iris, choroid and retina; the other, unilateral myelinated nerve fiber layer of the optic disk and papilledema due to idiopathic intracranial hypertension.">
+		<entity id="s1.e1" charOffset="97-105"
+			type="GENE" text="SH3PXD2B" ontology_id="285590"/>
+		<entity id="s1.e2" charOffset="128-137"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e3" charOffset="162-172"
+			type="HP" text="unilateral" ontology_id="HP_0012833"/>
+		<entity id="s1.e4" charOffset="285-296"
+			type="HP" text="papilledema" ontology_id="HP_0001085"/>
+		<entity id="s1.e5" charOffset="315-340"
+			type="HP" text="intracranial hypertension" ontology_id="HP_0002516"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

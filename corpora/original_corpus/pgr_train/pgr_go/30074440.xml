@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30074440">
+	<sentence id="s1" text="positive regulation of transcription, DNA-templated, a transcription factor crucial for early liver development, has been implicated in the pathophysiology of hepatoblastoma, an embryonal tumor of childhood.">
+		<entity id="s1.e1" charOffset="0-51"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e2" charOffset="159-173"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the molecular and phenotypic consequences of positive regulation of transcription, DNA-templated expression in hepatoblastoma are not fully understood.">
+		<entity id="s2.e1" charOffset="54-105"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s2.e2" charOffset="120-134"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We surveyed positive regulation of transcription, DNA-templated expression in 24 hepatoblastomas using RNA in situ hybridization and immunohistochemistry.">
+		<entity id="s3.e1" charOffset="12-63"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s3.e2" charOffset="81-95"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="RNA interference was used to inhibit positive regulation of transcription, DNA-templated in human HUH6 hepatoblastoma cells, and changes in cell migration were measured with wound healing and transwell assays.">
+		<entity id="s4.e1" charOffset="37-88"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s4.e2" charOffset="103-117"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We found that positive regulation of transcription, DNA-templated expression was high in most hepatoblastomas but weak or negligible in normal hepatocytes.">
+		<entity id="s5.e1" charOffset="14-65"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s5.e2" charOffset="94-108"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In conclusion, positive regulation of transcription, DNA-templated is highly expressed in most hepatoblastomas and correlates with a mesenchymal, migratory phenotype of hepatoblastoma cells">
+		<entity id="s6.e1" charOffset="15-66"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s6.e2" charOffset="95-109"
+			type="HP" text="hepatoblastoma" ontology_id="HP_0002884"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

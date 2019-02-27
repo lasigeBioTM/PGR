@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28444220">
+	<sentence id="s1" text="While polyglutamine ataxias, linked to CAG repeat expansions in genes such as negative regulation of transcription, DNA-templated, negative regulation of receptor internalization, protein K63-linked deubiquitination, histone deubiquitination, positive regulation of cytosolic calcium ion concentration and transcription by RNA polymerase II, have been extensively characterized in large cohorts, there is a need for comprehensive assessment of frequency and phenotype of more *conventional* ataxias.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="78-129"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e3" charOffset="131-178"
+			type="GO" text="negative regulation of receptor internalization" ontology_id="GO_0002091"/>
+		<entity id="s1.e4" charOffset="180-215"
+			type="GO" text="protein K63-linked deubiquitination" ontology_id="GO_0070536"/>
+		<entity id="s1.e5" charOffset="217-241"
+			type="GO" text="histone deubiquitination" ontology_id="GO_0016578"/>
+		<entity id="s1.e6" charOffset="243-301"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s1.e7" charOffset="306-340"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Clinical comparisons showed that ataxias due to channelopathies had a significantly earlier age at onset with an average of 24.6 years, versus 40.9 years for polyglutamine expansion spinocerebellar ataxias and 37.8 years for regulation of mitochondrial membrane permeability-related forms (P = 0.001).">
+		<entity id="s2.e1" charOffset="33-39"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e2" charOffset="225-274"
+			type="GO" text="regulation of mitochondrial membrane permeability" ontology_id="GO_0046902"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Similar differences were found among a single gene group, comparing 23 patients with positive regulation of cytosolic calcium ion concentration expansions (spinocerebellar ataxia 6) to 22 patients with CACNA1A point mutations, which had lower average age at onset (25.2 versus 47.3 years) with longer disease duration (18.7 versus 10.9), but lower severity indexes (0.39 versus 0.44), indicating slower progression of the disease.">
+		<entity id="s3.e1" charOffset="85-143"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s3.e2" charOffset="172-178"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, we identified relevant genetic variations in up to 15% of cases after exclusion of polyglutamine expansion spinocerebellar ataxias, and confirmed positive regulation of cytosolic calcium ion concentration and regulation of mitochondrial membrane permeability as major ataxia genes.">
+		<entity id="s4.e1" charOffset="138-144"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s4.e2" charOffset="161-219"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s4.e3" charOffset="224-273"
+			type="GO" text="regulation of mitochondrial membrane permeability" ontology_id="GO_0046902"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

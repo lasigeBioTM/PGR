@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29618761">
+	<sentence id="s1" text="A novel mutation of an essential splice site in the cristae formation gene encoding cristae formation induces severe mitochondrial encephalopathy, hepatopathy and lactate acidosis consistent with psychomotor retardation.">
+		<entity id="s1.e1" charOffset="52-69"
+			type="GO" text="cristae formation" ontology_id="GO_0042407"/>
+		<entity id="s1.e2" charOffset="84-101"
+			type="GO" text="cristae formation" ontology_id="GO_0042407"/>
+		<entity id="s1.e3" charOffset="118-132"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

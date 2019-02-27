@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28921304">
+	<sentence id="s1" text="The FGF9 subfamily, including FGF9, FGF16, and FGF20, in addition to rhFGF16, rhFGF9, and rhFGF20, were shown to stimulate the proliferation and migration of HuH7 human hepatocellular carcinoma (HCC) cells.">
+		<entity id="s1.e1" charOffset="36-41"
+			type="GENE" text="FGF16" ontology_id="8823"/>
+		<entity id="s1.e2" charOffset="47-52"
+			type="GENE" text="FGF20" ontology_id="26281"/>
+		<entity id="s1.e3" charOffset="169-193"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

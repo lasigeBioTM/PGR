@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27827379">
+	<sentence id="s1" text="Kluver-Bucy syndrome (KBS) comprises a negative regulation of transcription, DNA-templated of neurobehavioral symptoms with psychic blindness, hypersexuality, disinhibition, hyperorality, and hypermetamorphosis that were originally observed after bilateral lobectomy in Rhesus monkeys.">
+		<entity id="s1.e1" charOffset="39-90"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="143-157"
+			type="HP" text="hypersexuality" ontology_id="HP_0030214"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

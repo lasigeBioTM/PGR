@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29097185">
+	<sentence id="s1" text="We compared the distribution and localization of UC and esterified cholesterol (EC); the age-related macular degeneration (AMD) associated EFEMP1/Fibulin3 (Fib3); and levels of acyl-coenzyme A (CoA): cholesterol acyltransferases (ACAT) ACAT1, ACAT2 and Apolipoprotein B (ApoB) in ARPE-19 cells cultured in serum-supplemented and serum-free media.">
+		<entity id="s1.e1" charOffset="101-121"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<entity id="s1.e2" charOffset="139-145"
+			type="GENE" text="EFEMP1" ontology_id="2202"/>
+		<entity id="s1.e3" charOffset="236-241"
+			type="GENE" text="ACAT1" ontology_id="38"/>
+		<entity id="s1.e4" charOffset="243-248"
+			type="GENE" text="ACAT2" ontology_id="8435"/>
+		<entity id="s1.e5" charOffset="271-275"
+			type="GENE" text="ApoB" ontology_id="338"/>
+		<entity id="s1.e6" charOffset="281-284"
+			type="GENE" text="RPE" ontology_id="6120"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

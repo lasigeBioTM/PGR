@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28901407">
+	<sentence id="s1" text="Top 10 genes in the brown module, including angiogenesis containing fibulin like extracellular matrix protein 2 (elastic fiber assembly), fibrillin 1 (cell adhesion mediated by integrin) and secreted protein acidic and cysteine rich (negative regulation of endothelial cell proliferation) were also associated with survival time of colon cancer patients.">
+		<entity id="s1.e1" charOffset="44-56"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e2" charOffset="113-135"
+			type="GO" text="elastic fiber assembly" ontology_id="GO_0048251"/>
+		<entity id="s1.e3" charOffset="151-185"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s1.e4" charOffset="234-287"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s1.e5" charOffset="244-250"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Further analysis revealed that the function of cell adhesion, biological adhesion, extracellular matrix (positive regulation of cell-substrate adhesion) organization, pathways of ECM-receptor interaction and focal adhesion were the significantly changed terms in colon cancer.">
+		<entity id="s2.e1" charOffset="105-151"
+			type="GO" text="positive regulation of cell-substrate adhesion" ontology_id="GO_0010811"/>
+		<entity id="s2.e2" charOffset="269-275"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, SERP2, elastic fiber assembly, cell adhesion mediated by integrin, negative regulation of endothelial cell proliferation, and LINC0219 were revealed to be the recurrence-associated molecular and prognostic indicators in colon cancer by WGCNA co-expression network analysis">
+		<entity id="s3.e1" charOffset="22-44"
+			type="GO" text="elastic fiber assembly" ontology_id="GO_0048251"/>
+		<entity id="s3.e2" charOffset="46-80"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s3.e3" charOffset="82-135"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s3.e4" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

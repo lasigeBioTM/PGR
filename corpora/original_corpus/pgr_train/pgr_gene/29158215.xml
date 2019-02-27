@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29158215">
+	<sentence id="s1" text="The most important parameters to consider when determining arrhythmic risk include electric instability, including the frequency of premature ventricular contractions and sustained ventricular arrhythmia; proband status; extent of structural disease; cardiac syncope; male sex; the presence of multiple mutations or a mutation in TMEM43; and the patient*s willingness to restrict exercise and to eliminate participation in competitive or endurance exercise">
+		<entity id="s1.e1" charOffset="132-166"
+			type="HP" text="premature ventricular contractions" ontology_id="HP_0006682"/>
+		<entity id="s1.e2" charOffset="181-203"
+			type="HP" text="ventricular arrhythmia" ontology_id="HP_0004308"/>
+		<entity id="s1.e3" charOffset="330-336"
+			type="GENE" text="TMEM43" ontology_id="79188"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

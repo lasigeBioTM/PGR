@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29693147">
+	<sentence id="s1" text="Carboxyl terminus of protein glycosylation-70-interacting protein (CHIP) is an E3 ubiquitin ligase that induces the ubiquitination and degradation of numerous tumor-associated proteins and serves as a suppressor or promoter in tumor progression.">
+		<entity id="s1.e1" charOffset="21-42"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s1.e2" charOffset="159-164"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19223546">
+	<sentence id="s1" text="The SNP rs11102001, which encodes a nonsynonymous amino acid change P356S in EPS8L3, is a potential candidate modifier of the effect of HCAs on prostate cancer risk.">
+		<entity id="s1.e1" charOffset="77-83"
+			type="GENE" text="EPS8L3" ontology_id="79574"/>
+		<entity id="s1.e2" charOffset="153-159"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

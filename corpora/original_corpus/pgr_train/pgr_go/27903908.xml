@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27903908">
+	<sentence id="s1" text="We report here that the tumor suppressor positive regulation of transcription, DNA-templatedb binds rDNA, regulates rDNA chromatin modifications and affects nucleolar localization of regulation of cell growth to modulate rRNA levels.">
+		<entity id="s1.e1" charOffset="24-29"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="41-92"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e3" charOffset="136-161"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

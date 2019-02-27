@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30174217">
+	<sentence id="s1" text="On the other hand, growing tumors evade immune surveillance by exploiting co-inhibitory signaling through expression of CTLA4, PD1 and PDL-1.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="120-125"
+			type="GENE" text="CTLA4" ontology_id="1493"/>
+		<entity id="s1.e3" charOffset="127-130"
+			type="GENE" text="PD1" ontology_id="5133"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Immune checkpoint blockade (ICB) using anti-CTLA4 and anti-PD1 has drawn considerable attention towards co-signaling receptors in tumor immunology and created renewed interest in studying other co-signaling receptors, which until recently have not been as well studied.">
+		<entity id="s2.e1" charOffset="44-49"
+			type="GENE" text="CTLA4" ontology_id="1493"/>
+		<entity id="s2.e2" charOffset="59-62"
+			type="GENE" text="PD1" ontology_id="5133"/>
+		<entity id="s2.e3" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

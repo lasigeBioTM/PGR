@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25666758">
+	<sentence id="s1" text="Suggestive evidence of association was found for the D-serine plasma-CSF ratio at the D-amino-acid oxidase (DAO) gene (b=-0.28; P=9.08 x 10(-8)), whereas a variant in L-serine metabolic process (that encodes serine racemase and is associated with schizophrenia) constituted the most strongly associated locus for the L-serine to D-serine ratio in CSF.">
+		<entity id="s1.e1" charOffset="167-193"
+			type="GO" text="L-serine metabolic process" ontology_id="GO_0006563"/>
+		<entity id="s1.e2" charOffset="247-260"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

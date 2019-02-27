@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28257692">
+	<sentence id="s1" text="Here de novo missense mutations in the cytoplasmic translation gene, which codes for uS12, are reported in two unrelated individuals with microcephaly, hearing loss, and overlapnegative regulation of endopeptidase activityng dysmorphic features.">
+		<entity id="s1.e1" charOffset="39-62"
+			type="GO" text="cytoplasmic translation" ontology_id="GO_0002181"/>
+		<entity id="s1.e2" charOffset="138-150"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="152-164"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="177-222"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

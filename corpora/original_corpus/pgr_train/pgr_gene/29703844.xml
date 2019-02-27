@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29703844">
+	<sentence id="s1" text="Analysis of specific DKD phenotypes identified a novel signal near GABRR1 (rs9942471, P = 4.5 x 10-8) associated with microalbuminuria in European T2D case subjects.">
+		<entity id="s1.e1" charOffset="67-73"
+			type="GENE" text="GABRR1" ontology_id="2569"/>
+		<entity id="s1.e2" charOffset="118-134"
+			type="HP" text="microalbuminuria" ontology_id="HP_0012594"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

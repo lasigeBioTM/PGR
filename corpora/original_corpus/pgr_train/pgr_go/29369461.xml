@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29369461">
+	<sentence id="s1" text="Curcumin decreased the expression of steroidogenic acute regulatory proteins, C21-steroid hormone biosynthetic process and steroid biosynthetic process in prostate cancer cell lines, supporting the decrease of testosterone production.">
+		<entity id="s1.e1" charOffset="78-118"
+			type="GO" text="C21-steroid hormone biosynthetic process" ontology_id="GO_0006700"/>
+		<entity id="s1.e2" charOffset="123-151"
+			type="GO" text="steroid biosynthetic process" ontology_id="GO_0006694"/>
+		<entity id="s1.e3" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Meanwhile, curcumin treatments considerably increased the expression of prostaglandin metabolic process in prostate cancer cell lines, supporting the decrease of dihydrotestosterone.">
+		<entity id="s2.e1" charOffset="72-103"
+			type="GO" text="prostaglandin metabolic process" ontology_id="GO_0006693"/>
+		<entity id="s2.e2" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

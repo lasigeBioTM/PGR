@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30061196">
+	<sentence id="s1" text="Using whole-exome sequencing, we identified seven unrelated individuals with global developmental delay, hypotonia, dysmorphic facial features, and an increased frequency of short stature, ataxia, and autism with de novo heterozygous frameshift, nonsense, splice, and missense variants in the Early B-cell Transcription Factor Family Member 3 (EBF3) gene.">
+		<entity id="s1.e1" charOffset="84-103"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="174-187"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e3" charOffset="189-195"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e4" charOffset="201-207"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e5" charOffset="344-348"
+			type="GENE" text="EBF3" ontology_id="253738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="EBF3 is a member of the collier/olfactory-1/early B-cell factor (COE) family of proteins, which are required for central nervous system (CNS) development.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="EBF3" ontology_id="253738"/>
+		<entity id="s2.e2" charOffset="113-120"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Haploinsufficiency of EBF3 may affect brain development and function, resulting in developmental delay, intellectual disability, and behavioral differences observed in individuals with a deleterious variant in EBF3">
+		<entity id="s3.e1" charOffset="22-26"
+			type="GENE" text="EBF3" ontology_id="253738"/>
+		<entity id="s3.e2" charOffset="83-102"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s3.e3" charOffset="104-127"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

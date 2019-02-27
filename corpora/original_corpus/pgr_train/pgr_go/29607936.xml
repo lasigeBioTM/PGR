@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29607936">
+	<sentence id="s1" text="Mutations in the purine nucleobase metabolic process gene cause TTR tetramer protein to dissociate to monomer, which is the rate-limiting step in familial amyloid polyneuropathy.">
+		<entity id="s1.e1" charOffset="17-52"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s1.e2" charOffset="163-177"
+			type="HP" text="polyneuropathy" ontology_id="HP_0001271"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

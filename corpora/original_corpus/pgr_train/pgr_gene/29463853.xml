@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29463853">
+	<sentence id="s1" text="PCP signalling disruption caused by Vangl2 (Vangl2Lp/+) or Celsr1 (Celsr1Crsh/+) mutations significantly reduced trabecular bone mass and distal tibial cortical thickness.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="PCP" ontology_id="5547"/>
+		<entity id="s1.e2" charOffset="36-42"
+			type="GENE" text="Vangl2" ontology_id="57216"/>
+		<entity id="s1.e3" charOffset="59-65"
+			type="GENE" text="Celsr1" ontology_id="9620"/>
+		<entity id="s1.e4" charOffset="138-144"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings document shared genetic networks between spina bifida risk and bone structure, including PCP components and Zic2.">
+		<entity id="s2.e1" charOffset="56-68"
+			type="HP" text="spina bifida" ontology_id="HP_0002414"/>
+		<entity id="s2.e2" charOffset="104-107"
+			type="GENE" text="PCP" ontology_id="5547"/>
+		<entity id="s2.e3" charOffset="123-127"
+			type="GENE" text="Zic2" ontology_id="7546"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

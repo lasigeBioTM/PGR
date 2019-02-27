@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28051070">
+	<sentence id="s1" text="Of those, transcription by RNA polymerase I is also implicated in a mandibulofacial dysostosis syndrome without leukodystrophy as negative regulation of protein localization to nucleolus is.">
+		<entity id="s1.e1" charOffset="10-43"
+			type="GO" text="transcription by RNA polymerase I" ontology_id="GO_0006360"/>
+		<entity id="s1.e2" charOffset="41-67"
+			type="HP" text="mandibulofacial dysostosis" ontology_id="HP_0005321"/>
+		<entity id="s1.e3" charOffset="103-159"
+			type="GO" text="negative regulation of protein localization to nucleolus" ontology_id="GO_1904750"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

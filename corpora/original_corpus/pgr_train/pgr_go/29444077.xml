@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29444077">
+	<sentence id="s1" text="We here report on the existence of Leber*s hereditary optic neuropathy (LHON) associated with peculiar combinations of individually non-pathogenic missense mitochondrial DNA (mtDNA) variants, affecting the fatty acid biosynthetic process-biological_process, MT-ND4L and MT-biological_process subunit genes of Complex I.">
+		<entity id="s1.e1" charOffset="60-70"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="206-237"
+			type="GO" text="fatty acid biosynthetic process" ontology_id="GO_0006633"/>
+		<entity id="s1.e3" charOffset="238-256"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e4" charOffset="273-291"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

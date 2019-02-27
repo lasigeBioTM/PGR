@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29891662">
+	<sentence id="s1" text="In acute leukemias, it is not clear whether transcription by RNA polymerase II alterations contribute to the development of the malignant clone or whether they are simply the effect of tumor expansion on the microenvironment.">
+		<entity id="s1.e1" charOffset="44-78"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s1.e2" charOffset="185-190"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Longer population doubling time in L-transcription by RNA polymerase IIs was not related to the AML characteristics at diagnosis (French-American-British type, cytogenetics, or tumor burden), but was related to patient age and independently associated with poorer patient outcome, as was cytogenetic prognostic feature.">
+		<entity id="s2.e1" charOffset="37-71"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s2.e2" charOffset="177-182"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings indicate that BM-derived transcription by RNA polymerase IIs from patients with newly diagnosed AML display phenotypic and functional alterations such as proliferative deficiency that could be attributed to tumor progression, but does not seem to play a special role in the leukemic process">
+		<entity id="s3.e1" charOffset="38-72"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s3.e2" charOffset="220-225"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

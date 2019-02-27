@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29352181">
+	<sentence id="s1" text="SAMHD1 regulates cellular deoxynucleotide levels and acts as a potential tumor suppressor in other leukemias.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="SAMHD1" ontology_id="25939"/>
+		<entity id="s1.e2" charOffset="73-78"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus, our study considerably extends the picture of pathways involved in molecular pathogenesis of T-PLL and identifies the tumor suppressor gene SAMHD1 with ~20% of T-PLL affected by destructive lesions likely as major player in T-PLL pathogenesis">
+		<entity id="s2.e1" charOffset="124-129"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="146-152"
+			type="GENE" text="SAMHD1" ontology_id="25939"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

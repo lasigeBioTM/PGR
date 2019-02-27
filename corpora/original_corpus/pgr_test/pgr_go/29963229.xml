@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29963229">
+	<sentence id="s1" text="Moreover, comparison of the porcine results to those reported by human melanoma GWAS indicated shared association signals notably at CDKAL1 and transcription, RNA-templated loci but also nearby CCND1, FTO, PLA2G6 and TMEM38B-RAD23B loci.">
+		<entity id="s1.e1" charOffset="71-79"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="144-172"
+			type="GO" text="transcription, RNA-templated" ontology_id="GO_0001172"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

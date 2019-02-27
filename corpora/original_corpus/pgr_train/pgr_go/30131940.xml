@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30131940">
+	<sentence id="s1" text="Because of these wide-ranging roles, dysregulation of the cGMP biosynthetic process-cGMP signaling axis has been implicated in the pathogenesis of bowel transit disorders, inflammatory bowel disease, and colorectal cancer.">
+		<entity id="s1.e1" charOffset="58-83"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<entity id="s1.e2" charOffset="215-221"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In colorectal tumors, endogenous cGMP biosynthetic process ligand expression is lost by a yet undefined mechanism conserved in mice and humans.">
+		<entity id="s2.e1" charOffset="14-19"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="33-58"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further, reconstitution of cGMP biosynthetic process signaling through genetic or oral ligand replacement opposes tumorigenesis in mice.">
+		<entity id="s3.e1" charOffset="27-52"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<entity id="s3.e2" charOffset="114-119"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Taken together, these findings suggest an intriguing hypothesis that colorectal cancer arises in a microenvironment of functional cGMP biosynthetic process inactivation, which can be repaired by oral ligand replacement.">
+		<entity id="s4.e1" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="130-155"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

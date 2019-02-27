@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29309433">
+	<sentence id="s1" text="Based upon the development-dependent onsets of these psychotomimetic effects, by using a DNA microarray technique, we identified the WD repeat domain 3 (WDR3) and chitobiosyldiphosphodolichol beta-mannosyltransferase (protein glycosylation) genes as novel candidates for schizophrenia-related molecules, whose mRNAs were up-regulated in the adult (postnatal week seven), but not in the infant (postnatal week one) rats by an indirect dopamine agonist, and phencyclidine, an antagonist of the NMDA receptor.">
+		<entity id="s1.e1" charOffset="218-239"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s1.e2" charOffset="271-284"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To further elucidate the molecular pathophysiology of schizophrenia, we have evaluated the genetic association of rRNA processing and protein glycosylation in schizophrenia.">
+		<entity id="s2.e1" charOffset="54-67"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="114-129"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s2.e3" charOffset="134-155"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings suggest that the rRNA processing gene may likely be a sensitive factor in female patients with schizophrenia, and that modification of the WDR3 signaling pathway warrants further investigation as to the pathophysiology of schizophrenia">
+		<entity id="s3.e1" charOffset="30-45"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s3.e2" charOffset="108-121"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Based upon the development-dependent onsets of these psychotomimetic effects, by using a DNA microarray technique, we identified the WD repeat domain 3 (rRNA processing) and chitobiosyldiphosphodolichol beta-mannosyltransferase (ALG1) genes as novel candidates for schizophrenia-related molecules, whose mRNAs were up-regulated in the adult (postnatal week seven), but not in the infant (postnatal week one) rats by an indirect dopamine agonist, and phencyclidine, an antagonist of the NMDA receptor.">
+		<entity id="s4.e1" charOffset="153-168"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s4.e2" charOffset="265-278"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29127012">
+	<sentence id="s1" text="DYT1 is the prototypic hereditary dystonia and is caused by the mutation of the protein homooligomerization gene.">
+		<entity id="s1.e1" charOffset="34-42"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s1.e2" charOffset="80-107"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Dystonia-4 (negative regulation of microtubule polymerization) is another autosomal dominant dystonia that is characterized by onset in the second to third decade of progressive laryngeal dysphonia.">
+		<entity id="s2.e1" charOffset="12-61"
+			type="GO" text="negative regulation of microtubule polymerization" ontology_id="GO_0031115"/>
+		<entity id="s2.e2" charOffset="93-101"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

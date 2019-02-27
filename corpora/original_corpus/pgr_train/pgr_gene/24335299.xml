@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24335299">
+	<sentence id="s1" text="However, because nectin4 and CD46 have substantially overlapping receptor binding surfaces on H, disruption of nectin4 binding compromised CD46 binding and greatly diminished the oncolytic potency of these viruses on human cancer cells.">
+		<entity id="s1.e1" charOffset="17-24"
+			type="GENE" text="nectin4" ontology_id="81607"/>
+		<entity id="s1.e2" charOffset="223-229"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

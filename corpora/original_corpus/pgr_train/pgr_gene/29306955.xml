@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29306955">
+	<sentence id="s1" text="MATERIAL AND METHODS A total of 63 paired gastric cancer tissues and matched adjacent mucosa were used to measure the ANXA11 levels and its correlation with clinical characteristics.">
+		<entity id="s1.e1" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="118-124"
+			type="GENE" text="ANXA11" ontology_id="311"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="RESULTS The expression of ANXA11 in cancer tissues was higher than in adjacent mucosa at mRNA and protein levels.">
+		<entity id="s2.e1" charOffset="26-32"
+			type="GENE" text="ANXA11" ontology_id="311"/>
+		<entity id="s2.e2" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="CONCLUSIONS ANXA11 plays a critical role in regulating GC proliferation, migration, and invasion via the AKT/GSK-3b pathway, and can potentially be used as a prognostic factor and therapeutic target for gastric cancer patients">
+		<entity id="s3.e1" charOffset="12-18"
+			type="GENE" text="ANXA11" ontology_id="311"/>
+		<entity id="s3.e2" charOffset="105-108"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<entity id="s3.e3" charOffset="211-217"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In clinicopathological analysis, we found that increased expression of ANXA11 was significantly associated with tumor size, tumor infiltration, local lymph node metastasis, TNM staging, and vascular invasion.">
+		<entity id="s4.e1" charOffset="71-77"
+			type="GENE" text="ANXA11" ontology_id="311"/>
+		<entity id="s4.e2" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Previous studies have shown that ANXA11 participates in many cellular functions and has significant influence on ovarian, breast, liver, and colorectal cancer.">
+		<entity id="s5.e1" charOffset="33-39"
+			type="GENE" text="ANXA11" ontology_id="311"/>
+		<entity id="s5.e2" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28784772">
+	<sentence id="s1" text="The common Ser96Ala human genetic variant of regulation of heart rate strongly correlates with life-threatening ventricular arrhythmias in patients with idiopathic dilated cardiomyopathy.">
+		<entity id="s1.e1" charOffset="45-69"
+			type="GO" text="regulation of heart rate" ontology_id="GO_0002027"/>
+		<entity id="s1.e2" charOffset="112-135"
+			type="HP" text="ventricular arrhythmias" ontology_id="HP_0004308"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

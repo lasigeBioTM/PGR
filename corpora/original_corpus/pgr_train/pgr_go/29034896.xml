@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29034896">
+	<sentence id="s1" text="Pathogenic sequence variants in the Sorting Nexin 10 (endosome organization) gene have been associated with autosomal recessive osteopetrosis (ARO) in human.">
+		<entity id="s1.e1" charOffset="54-75"
+			type="GO" text="endosome organization" ontology_id="GO_0007032"/>
+		<entity id="s1.e2" charOffset="108-127"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

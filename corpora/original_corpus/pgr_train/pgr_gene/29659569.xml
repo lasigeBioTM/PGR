@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29659569">
+	<sentence id="s1" text="We found monoallelic truncating/functionally deleterious mutations in seven genes, including ATM and CHEK2, which have previously been associated with PrCa predisposition, and five new candidate PrCa associated genes involved in cancer predisposing recessive disorders, namely RAD51C, FANCD2, FANCI, CEP57 and RECQL4.">
+		<entity id="s1.e1" charOffset="93-96"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s1.e2" charOffset="101-106"
+			type="GENE" text="CHEK2" ontology_id="11200"/>
+		<entity id="s1.e3" charOffset="229-235"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="277-283"
+			type="GENE" text="RAD51C" ontology_id="5889"/>
+		<entity id="s1.e5" charOffset="285-291"
+			type="GENE" text="FANCD2" ontology_id="2177"/>
+		<entity id="s1.e6" charOffset="293-298"
+			type="GENE" text="FANCI" ontology_id="55215"/>
+		<entity id="s1.e7" charOffset="300-305"
+			type="GENE" text="CEP57" ontology_id="9702"/>
+		<entity id="s1.e8" charOffset="310-316"
+			type="GENE" text="RECQL4" ontology_id="9401"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, using in silico pathogenicity prediction of missense variants among 18 genes associated with breast/ovarian cancer and/or Lynch syndrome, followed by KASP genotyping in 710 healthy controls, we identified AAAAAAlikely pathogenicAAAAAA missense variants in ATM, BRIP1, CHEK2 and TP53.">
+		<entity id="s2.e1" charOffset="121-127"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="269-272"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s2.e3" charOffset="274-279"
+			type="GENE" text="BRIP1" ontology_id="64979"/>
+		<entity id="s2.e4" charOffset="281-286"
+			type="GENE" text="CHEK2" ontology_id="11200"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

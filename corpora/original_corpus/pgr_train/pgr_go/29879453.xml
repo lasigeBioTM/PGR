@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29879453">
+	<sentence id="s1" text="Glycoprotein-A repetitions predominant (cation transport) is a transmembrane protein that is highly expressed in breast cancer.">
+		<entity id="s1.e1" charOffset="40-56"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s1.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this investigation, using a large multiethnic cohort (1738 subjects), we aimed to determine whether the magnitude of anti-cation transport antibody responsiveness was significantly different in patients with breast cancer from that in matched healthy controls.">
+		<entity id="s2.e1" charOffset="125-141"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s2.e2" charOffset="218-224"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A combined analysis of all subjects showed that levels of anti-cation transport antibodies were significantly higher in patients with breast cancer than in healthy controls (mean + SD: 7.4 + 3.5 vs. 6.9 + 3.5 absorbance units per mL (AU/uL), p AAAA 0.0001).">
+		<entity id="s3.e1" charOffset="63-79"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s3.e2" charOffset="141-147"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In the two populations with the largest sample size, the probability of breast cancer generally increases as anti-cation transport antibody levels increase.">
+		<entity id="s4.e1" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="114-130"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These results, if confirmed by independent investigations, will aid in devising personalized cation transport-based immunotherapeutic strategies against breast cancer and other GARP-overexpressing malignancies">
+		<entity id="s5.e1" charOffset="93-109"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s5.e2" charOffset="160-166"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30249796">
+	<sentence id="s1" text="The G2019S mutation in Leucine-Rich Repeat Kinase 2 (LRRK2) is a prevalent cause of late-onset Parkinson*s Disease, producing psychiatric and motor symptoms, including depression, that are indistinguishable from sporadic cases.">
+		<entity id="s1.e1" charOffset="53-58"
+			type="GENE" text="LRRK2" ontology_id="120892"/>
+		<entity id="s1.e2" charOffset="212-220"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25111118">
+	<sentence id="s1" text="The created databases include branched-chain amino acid catabolic process (isobutyryl-CoA dehydrogenase deficiency (IBD)), branched-chain amino acid catabolic process (short-chain acyl-CoA dehydrogenase (SCAD) deficiency), fatty acid beta-oxidation (3-methylglutaconic aciduria (3-MGCA)), cholesterol biosynthetic process (Smith-Lemli-Opitz syndrome), acetyl-CoA metabolic process (3-hydroxy-3-methylglutaryl-CoA synthase 2 deficiency), protein homotetramerization (17-beta-hydroxysteroid dehydrogenase X deficiency), IRE1-mediated unfolded protein response (Ehlers-Danlos syndrome with progressive kyphoscoliosis, myopathy, and hearing loss; EDSKMH) and brain development (Kohlschutter-Tonz syndrome).">
+		<entity id="s1.e1" charOffset="30-73"
+			type="GO" text="branched-chain amino acid catabolic process" ontology_id="GO_0009083"/>
+		<entity id="s1.e2" charOffset="123-166"
+			type="GO" text="branched-chain amino acid catabolic process" ontology_id="GO_0009083"/>
+		<entity id="s1.e3" charOffset="223-248"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e4" charOffset="289-321"
+			type="GO" text="cholesterol biosynthetic process" ontology_id="GO_0006695"/>
+		<entity id="s1.e5" charOffset="352-380"
+			type="GO" text="acetyl-CoA metabolic process" ontology_id="GO_0006084"/>
+		<entity id="s1.e6" charOffset="415-442"
+			type="GO" text="protein homotetramerization" ontology_id="GO_0051289"/>
+		<entity id="s1.e7" charOffset="439-453"
+			type="HP" text="kyphoscoliosis" ontology_id="HP_0002751"/>
+		<entity id="s1.e8" charOffset="455-463"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e9" charOffset="469-481"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e10" charOffset="518-557"
+			type="GO" text="IRE1-mediated unfolded protein response" ontology_id="GO_0036498"/>
+		<entity id="s1.e11" charOffset="600-617"
+			type="GO" text="brain development" ontology_id="GO_0007420"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e2"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e4"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e5"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e5"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e10"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e14"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e2"
+		    e2="s1.e30" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e4"
+		    e2="s1.e30" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e11"
+		    e2="s1.e30" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e21"
+		    e2="s1.e30" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e5"
+		    e2="s1.e30" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e25"
+		    e2="s1.e30" pgr="true"/>
+		<pair id="s1.p22" e1="s1.e30"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p23" e1="s1.e21"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p24" e1="s1.e21"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p25" e1="s1.e21"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

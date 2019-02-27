@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29068549">
+	<sentence id="s1" text="These include the perinatal lethal short-rib polydactyly syndromes (SRPS) and the less severe asphyxiating thoracic dystrophy (ATD), Ellis-glycoprotein biosynthetic process Creveld (endochondral bone growth) syndrome, and cranioectodermal dysplasia (CED) phenotypes.">
+		<entity id="s1.e1" charOffset="45-56"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e2" charOffset="139-172"
+			type="GO" text="glycoprotein biosynthetic process" ontology_id="GO_0009101"/>
+		<entity id="s1.e3" charOffset="182-206"
+			type="GO" text="endochondral bone growth" ontology_id="GO_0003416"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

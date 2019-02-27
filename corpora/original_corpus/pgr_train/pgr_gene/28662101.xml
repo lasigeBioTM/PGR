@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28662101">
+	<sentence id="s1" text="To identify the genes that are targets of constitutive PI3K/AKT signalling in lung cancer cells, we performed a comparative transcriptomic analysis of human lung epithelial cells (BEAS-2B) expressing active mutant AKT1 (AKT1-E17K), active mutant PIK3CA (PIK3CA-E545K) or that are silenced for PTEN.">
+		<entity id="s1.e1" charOffset="55-59"
+			type="GENE" text="PI3K" ontology_id="5290"/>
+		<entity id="s1.e2" charOffset="60-63"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<entity id="s1.e3" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="293-297"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Expectedly, the analysis of the DEGs common to all three alterations highlighted a group of BioFunctions that included Cell Proliferation of tumor cell lines (14 DEGs), Invasion of cells (10 DEGs) and Migration of tumour cell lines (10 DEGs), with a common core of 5 genes (ATF3, CDKN1A, GDF15, HBEGF and LCN2) that likely represent downstream effectors of the pro-oncogenic activities of PI3K/AKT signalling.">
+		<entity id="s2.e1" charOffset="141-146"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="214-220"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="274-278"
+			type="GENE" text="ATF3" ontology_id="467"/>
+		<entity id="s2.e4" charOffset="280-286"
+			type="GENE" text="CDKN1A" ontology_id="1026"/>
+		<entity id="s2.e5" charOffset="288-293"
+			type="GENE" text="GDF15" ontology_id="9518"/>
+		<entity id="s2.e6" charOffset="295-300"
+			type="GENE" text="HBEGF" ontology_id="1839"/>
+		<entity id="s2.e7" charOffset="305-309"
+			type="GENE" text="LCN2" ontology_id="3934"/>
+		<entity id="s2.e8" charOffset="389-393"
+			type="GENE" text="PI3K" ontology_id="5290"/>
+		<entity id="s2.e9" charOffset="394-397"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e2"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e15"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p10" e1="s2.e15"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p11" e1="s2.e15"
+		    e2="s2.e10" pgr="true"/>
+		<pair id="s2.p12" e1="s2.e15"
+		    e2="s2.e14" pgr="false"/>
+		<pair id="s2.p13" e1="s2.e15"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

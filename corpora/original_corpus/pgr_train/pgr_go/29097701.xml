@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29097701">
+	<sentence id="s1" text="In conclusion, our results reveal a role for the cellular response to drug potassium channel in the regulation of human growth, and show that growth hormone deficiency associated with maternally inherited gingival fibromatosis is an allelic disorder with cardiac arrhythmia syndromes caused by cellular response to drug mutations">
+		<entity id="s1.e1" charOffset="49-74"
+			type="GO" text="cellular response to drug" ontology_id="GO_0035690"/>
+		<entity id="s1.e2" charOffset="205-226"
+			type="HP" text="gingival fibromatosis" ontology_id="HP_0000169"/>
+		<entity id="s1.e3" charOffset="255-273"
+			type="HP" text="cardiac arrhythmia" ontology_id="HP_0011675"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28526534">
+	<sentence id="s1" text="Our findings are both important for the differential diagnosis of patients with urea cycle disorders and also broaden the differential diagnosis of hyperammonemia associated with 3-methylglutaconic aciduria, which was earlier only reported in mitochondrial proton-transporting ATP synthase complex assembly and intracellular cholesterol transport defect">
+		<entity id="s1.e1" charOffset="148-162"
+			type="HP" text="hyperammonemia" ontology_id="HP_0001987"/>
+		<entity id="s1.e2" charOffset="243-306"
+			type="GO" text="mitochondrial proton-transporting ATP synthase complex assembly" ontology_id="GO_0033615"/>
+		<entity id="s1.e3" charOffset="311-346"
+			type="GO" text="intracellular cholesterol transport" ontology_id="GO_0032367"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

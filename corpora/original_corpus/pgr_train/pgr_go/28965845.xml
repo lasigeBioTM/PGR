@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28965845">
+	<sentence id="s1" text="Only overexpression of lipid transport induced a reduction of brain proliferating cells and concomitant microcephaly.">
+		<entity id="s1.e1" charOffset="23-38"
+			type="GO" text="lipid transport" ontology_id="GO_0006869"/>
+		<entity id="s1.e2" charOffset="104-116"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

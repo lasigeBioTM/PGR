@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28525603">
+	<sentence id="s1" text="Gene-based tests highlighted 20 additional genes of which 5 had previously been associated to schizophrenia and/or bipolar disorder: startle response, biological_process, L-glutamate transmembrane transport, positive regulation of cytosolic calcium ion concentration, and exocytosis.">
+		<entity id="s1.e1" charOffset="94-107"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="115-131"
+			type="HP" text="bipolar disorder" ontology_id="HP_0007302"/>
+		<entity id="s1.e3" charOffset="133-149"
+			type="GO" text="startle response" ontology_id="GO_0001964"/>
+		<entity id="s1.e4" charOffset="151-169"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e5" charOffset="171-206"
+			type="GO" text="L-glutamate transmembrane transport" ontology_id="GO_0015813"/>
+		<entity id="s1.e6" charOffset="208-266"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s1.e7" charOffset="272-282"
+			type="GO" text="exocytosis" ontology_id="GO_0006887"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e11"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e11"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e11"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

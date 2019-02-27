@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29335437">
+	<sentence id="s1" text="Here we perform an unbiased siRNA screen and identify that the second deubiquitinase, regulation of autophagy, regulates response to cytokine stability in lung and ovarian cancer cells.">
+		<entity id="s1.e1" charOffset="86-109"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s1.e2" charOffset="103-123"
+			type="GO" text="response to cytokine" ontology_id="GO_0034097"/>
+		<entity id="s1.e3" charOffset="154-160"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="As a result, regulation of autophagy depletion using CRISPR/Cas9 nuclease system inhibits tumor growth in xenografted nude mice.">
+		<entity id="s2.e1" charOffset="13-36"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s2.e2" charOffset="90-95"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We further report that genetic or pharmacological inhibition of regulation of autophagy considerably reduces response to cytokine protein abundance and significantly increases tumor cell sensitivity to BH3 mimetic inhibitors targeting BCL-2 and BCL-XL.">
+		<entity id="s3.e1" charOffset="64-87"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s3.e2" charOffset="91-111"
+			type="GO" text="response to cytokine" ontology_id="GO_0034097"/>
+		<entity id="s3.e3" charOffset="158-163"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Collectively, we nominate regulation of autophagy as a novel deubiquitinase which regulates response to cytokine turnover in diverse solid tumors and propose that USP13 may be a potential therapeutic target for the treatment of various malignancies">
+		<entity id="s4.e1" charOffset="26-49"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s4.e2" charOffset="74-94"
+			type="GO" text="response to cytokine" ontology_id="GO_0034097"/>
+		<entity id="s4.e3" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

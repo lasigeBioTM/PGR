@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26310293">
+	<sentence id="s1" text="Yeast cytoplasmic translationD mutants grow poorly due to lack of 2*-O-methylated C32 (Cm32 ) and Gm34 on tRNA(Phe) , catalyzed by cytoplasmic translation-Trm732 and Trm7-Trm734, respectively, which in turn results in loss of wybutosine at G37 . Mutations in human cytoplasmic translation, the likely TRM7 homolog, cause nonsyndromic X-linked intellectual disability (NSXLID), but the role of FTSJ1 in tRNA modification is unknown.">
+		<entity id="s1.e1" charOffset="6-29"
+			type="GO" text="cytoplasmic translation" ontology_id="GO_0002181"/>
+		<entity id="s1.e2" charOffset="112-135"
+			type="GO" text="cytoplasmic translation" ontology_id="GO_0002181"/>
+		<entity id="s1.e3" charOffset="246-269"
+			type="GO" text="cytoplasmic translation" ontology_id="GO_0002181"/>
+		<entity id="s1.e4" charOffset="306-329"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

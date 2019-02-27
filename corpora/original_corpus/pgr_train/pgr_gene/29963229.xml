@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29963229">
+	<sentence id="s1" text="Moreover, comparison of the porcine results to those reported by human melanoma GWAS indicated shared association signals notably at CDKAL1 and TERT loci but also nearby CCND1, FTO, PLA2G6 and TMEM38B-RAD23B loci.">
+		<entity id="s1.e1" charOffset="71-79"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="133-139"
+			type="GENE" text="CDKAL1" ontology_id="54901"/>
+		<entity id="s1.e3" charOffset="170-175"
+			type="GENE" text="CCND1" ontology_id="595"/>
+		<entity id="s1.e4" charOffset="177-180"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<entity id="s1.e5" charOffset="182-188"
+			type="GENE" text="PLA2G6" ontology_id="8398"/>
+		<entity id="s1.e6" charOffset="193-200"
+			type="GENE" text="TMEM38B" ontology_id="55151"/>
+		<entity id="s1.e7" charOffset="201-207"
+			type="GENE" text="RAD23B" ontology_id="5887"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Extensive search of the literature revealed a potential key role of genes at the identified porcine loci in tumor invasion (DST, PLEKHA5, CBY1, LIMK2 and ETV5) and immune response modulation (ETV5, HERC3 and DICER1) of the progression phenotypes.">
+		<entity id="s2.e1" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="124-127"
+			type="GENE" text="DST" ontology_id="667"/>
+		<entity id="s2.e3" charOffset="129-136"
+			type="GENE" text="PLEKHA5" ontology_id="54477"/>
+		<entity id="s2.e4" charOffset="138-142"
+			type="GENE" text="CBY1" ontology_id="25776"/>
+		<entity id="s2.e5" charOffset="144-149"
+			type="GENE" text="LIMK2" ontology_id="3985"/>
+		<entity id="s2.e6" charOffset="154-158"
+			type="GENE" text="ETV5" ontology_id="2119"/>
+		<entity id="s2.e7" charOffset="198-203"
+			type="GENE" text="HERC3" ontology_id="8916"/>
+		<entity id="s2.e8" charOffset="208-214"
+			type="GENE" text="DICER1" ontology_id="23405"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+	</sentence>
+</document>

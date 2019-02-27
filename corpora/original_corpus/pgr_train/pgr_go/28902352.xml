@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28902352">
+	<sentence id="s1" text="To understand the mechanism of TAM-resistance in GPER activated ER+ breast cancer, the function of regulation of neuron apoptotic process and Bim inducing cell apoptosis was studied.">
+		<entity id="s1.e1" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="99-137"
+			type="GO" text="regulation of neuron apoptotic process" ontology_id="GO_0043523"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="By using immunohistochemical and western blot analysis, there is an adverse correlation between regulation of neuron apoptotic process and Bim in TAM-resistant breast tumor tissues and MCF-7R cells.">
+		<entity id="s2.e1" charOffset="96-134"
+			type="GO" text="regulation of neuron apoptotic process" ontology_id="GO_0043523"/>
+		<entity id="s2.e2" charOffset="167-172"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Activation of GPER and its downstream signaling MAPK/angiogenesis, not phosphorylation/positive regulation of protein phosphorylation, led to enhanced regulation of neuron apoptotic process protein levels and affected the binding between TRIM2 and Bim which resulted in a reduced Bim in TAM-resistant breast cancer cells.">
+		<entity id="s3.e1" charOffset="53-65"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s3.e2" charOffset="71-86"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s3.e3" charOffset="87-133"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s3.e4" charOffset="88-126"
+			type="GO" text="regulation of neuron apoptotic process" ontology_id="GO_0043523"/>
+		<entity id="s3.e5" charOffset="245-251"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e5" pgr="true"/>
+	</sentence>
+</document>

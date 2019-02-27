@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30053818">
+	<sentence id="s1" text="Numerous evidence has demonstrated for an association between triglyceride metabolic process and the increased risk of obesity and metabolic syndrome, but the mechanism remains to be fully elucidated.">
+		<entity id="s1.e1" charOffset="62-92"
+			type="GO" text="triglyceride metabolic process" ontology_id="GO_0006641"/>
+		<entity id="s1.e2" charOffset="119-126"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, since adipocytes provide the largest storage depot for thyroid gland development and play a crucial role in the development of obesity, we could infer that triglyceride metabolic process also acts as a novel regulator to modulate TG storage in adipocytes.">
+		<entity id="s2.e1" charOffset="68-93"
+			type="GO" text="thyroid gland development" ontology_id="GO_0030878"/>
+		<entity id="s2.e2" charOffset="117-124"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e3" charOffset="146-176"
+			type="GO" text="triglyceride metabolic process" ontology_id="GO_0006641"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In this review, we focus on the association of gene and protein of triglyceride metabolic process with obesity and metabolic syndrome, and provide new insights into the physiological role of apoA5 in humans, giving a potential therapeutic target for obesity and associated disorders">
+		<entity id="s3.e1" charOffset="67-97"
+			type="GO" text="triglyceride metabolic process" ontology_id="GO_0006641"/>
+		<entity id="s3.e2" charOffset="103-110"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

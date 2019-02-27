@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28089576">
+	<sentence id="s1" text="Mutations in the Pejvakin (sensory perception of sound) gene cause autosomal recessive hearing loss DFNB59 with audiological features of auditory neuropathy spectrum disorder (ANSD) or cochlear dysfunction.">
+		<entity id="s1.e1" charOffset="27-54"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s1.e2" charOffset="67-86"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="87-99"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="146-156"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we demonstrate that mice with conditional ablation of the sensory perception of sound gene in all sensory hair cells or only in outer hair cells (OHCs) show similar auditory phenotypes with early-onset profound hearing loss.">
+		<entity id="s2.e1" charOffset="64-91"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s2.e2" charOffset="208-216"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s2.e3" charOffset="217-229"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="By contrast, loss of sensory perception of sound in adult OHCs causes a slowly progressive hearing loss associated with OHC degeneration and delayed loss of inner hair cells (IHCs), indicating a primary role for pejvakin in regulating OHC function and survival.">
+		<entity id="s3.e1" charOffset="21-48"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s3.e2" charOffset="91-103"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28055976">
+	<sentence id="s1" text="However, the mechanism for photoreceptor cell maintenance-mediated glioma progression has yet to be fully elucidated.">
+		<entity id="s1.e1" charOffset="27-57"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s1.e2" charOffset="67-73"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

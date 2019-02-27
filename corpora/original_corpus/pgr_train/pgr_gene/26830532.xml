@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26830532">
+	<sentence id="s1" text="Genotype-phenotype correlation was clarified after combined analysis of the cases and the literature review; anemia was most severe in HS patients with mutations on the ANK1 spectrin-binding domain (p AAAA 0.05), and SPTB mutations in HS patients spared the tetramerization domain in which mutations of hereditary elliptocytosis and pyropoikilocytosis are located.">
+		<entity id="s1.e1" charOffset="169-173"
+			type="GENE" text="ANK1" ontology_id="286"/>
+		<entity id="s1.e2" charOffset="217-221"
+			type="GENE" text="SPTB" ontology_id="6710"/>
+		<entity id="s1.e3" charOffset="333-351"
+			type="HP" text="pyropoikilocytosis" ontology_id="HP_0004839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

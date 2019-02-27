@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29784875">
+	<sentence id="s1" text="In humans, exons 5-10 in activation of MAPK activity are duplicated and fused to the FAM7A genetic element, giving rise to the hybrid gene signal transduction Its product, dupa7, is a truncated subunit lacking part of the N-terminal extracellular ligand-binding domain and is associated with neurological disorders, including schizophrenia, and immunomodulation.">
+		<entity id="s1.e1" charOffset="25-52"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e2" charOffset="139-158"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e3" charOffset="315-328"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

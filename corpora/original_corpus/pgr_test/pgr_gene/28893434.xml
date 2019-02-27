@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28893434">
+	<sentence id="s1" text="This case suggested a broad phenotypic spectrum arises from SZT2 mutations, forming a continuum from epileptic encephalopathy and severe developmental delay to mild intellectual disability without epilepsy.">
+		<entity id="s1.e1" charOffset="60-64"
+			type="GENE" text="SZT2" ontology_id="23334"/>
+		<entity id="s1.e2" charOffset="111-125"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

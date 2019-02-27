@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28965013">
+	<sentence id="s1" text="However, the role of TRIM44 in thyroid cancer has never been revealed.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="GENE" text="TRIM44" ontology_id="54765"/>
+		<entity id="s1.e2" charOffset="39-45"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, silencing of TRIM44 dramatically down-regulated the expression of b-catenin, cyclin-D1 and c-Myc in PEC cells, and the activator of the Wnt/b-catenin pathway LiCl rescued the anticancer effect of knockdown TRIM44 expression in PTC cells.">
+		<entity id="s2.e1" charOffset="26-32"
+			type="GENE" text="TRIM44" ontology_id="54765"/>
+		<entity id="s2.e2" charOffset="97-99"
+			type="GENE" text="D1" ontology_id="25802"/>
+		<entity id="s2.e3" charOffset="106-109"
+			type="GENE" text="Myc" ontology_id="4609"/>
+		<entity id="s2.e4" charOffset="192-198"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

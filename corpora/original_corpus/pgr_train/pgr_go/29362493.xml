@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29362493">
+	<sentence id="s1" text="SCA18 is a rare autosomal dominant sensory/motor neuropathy with ataxia (OMIM#607458) associated with a single missense variant c.514 AAAAAG in the interferon related developmental regulator 1 (myoblast fate determination) gene previously reported in a five-generation American family of Irish origin.">
+		<entity id="s1.e1" charOffset="49-59"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="65-71"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="194-221"
+			type="GO" text="myoblast fate determination" ontology_id="GO_0007518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

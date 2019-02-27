@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29464811">
+	<sentence id="s1" text="In the Japanese population, most patients with autosomal recessive woolly hair carry one of two founder mutations in the lipid catabolic process gene, c.736TAAAAA (p.Cys246Ser) or c.742CAAAAA (p.His248Asn).">
+		<entity id="s1.e1" charOffset="47-66"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="121-144"
+			type="GO" text="lipid catabolic process" ontology_id="GO_0016042"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

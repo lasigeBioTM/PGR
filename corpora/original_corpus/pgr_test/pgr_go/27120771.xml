@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27120771">
+	<sentence id="s1" text="Bardet-Biedl syndrome (visual perception) is a genetically heterogeneous disorder characterized by retinal dystrophy, polydactyly, obesity, developmental delay, and renal defects.">
+		<entity id="s1.e1" charOffset="23-40"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="59-72"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

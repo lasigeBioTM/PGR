@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29690599">
+	<sentence id="s1" text="Among all lung adenocarcinomas, the most prevalent subset develops via tumorigenesis and progression from atypical adenomatous hyperplasia (AAH) to adenocarcinoma in situ (AIS), to minimally invasive adenocarcinoma (cell proliferation), to overt invasive adenocarcinoma with a lepidic pattern.">
+		<entity id="s1.e1" charOffset="10-29"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s1.e2" charOffset="71-76"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="216-234"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Oncogene-induced senescence appears to decrease the frequency of the multistep progression in positive regulation of protein phosphorylation- or protein phosphorylation-mutated adenocarcinoma, whose tumor evolution may be associated with epigenetic alterations and kinase-inactive mutations.">
+		<entity id="s2.e1" charOffset="94-140"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s2.e2" charOffset="145-168"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e3" charOffset="180-185"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This review summarizes the current knowledge of tumorigenesis and tumor progression in early lung adenocarcinoma, with special focus on its clinicopathological characteristics and their associations with driver mutations (positive regulation of protein phosphorylation, positive regulation of protein phosphorylation, and protein phosphorylation) as well as on its molecular pathogenesis and progression">
+		<entity id="s3.e1" charOffset="48-53"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="93-112"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s3.e3" charOffset="222-268"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s3.e4" charOffset="228-274"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s3.e5" charOffset="280-303"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e7"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p6" e1="s3.e7"
+		    e2="s3.e6" pgr="true"/>
+	</sentence>
+</document>

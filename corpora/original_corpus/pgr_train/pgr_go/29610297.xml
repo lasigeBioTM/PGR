@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29610297">
+	<sentence id="s1" text="While these expansions occur in coding and noncoding regions, microsatellite sequence and repeat length diversity is more prominent in introns with eight different trinucleotide to hexanucleotide repeats, causing hereditary diseases such as myotonic dystrophy type 2 (DM2), Fuchs endothelial corneal dystrophy (FECD), and negative regulation of protein phosphorylation amyotrophic lateral sclerosis and frontotemporal dementia (cell killing-ALS/FTD).">
+		<entity id="s1.e1" charOffset="292-309"
+			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
+		<entity id="s1.e2" charOffset="322-368"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e3" charOffset="403-426"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<entity id="s1.e4" charOffset="428-440"
+			type="GO" text="cell killing" ontology_id="GO_0001906"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

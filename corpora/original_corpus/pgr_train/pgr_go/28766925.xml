@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28766925">
+	<sentence id="s1" text="mitochondrial transport encodes for a ubiquitous heme exporter, whose recessive mutations cause posterior column ataxia with retinitis pigmentosa (PCARP).">
+		<entity id="s1.e1" charOffset="0-23"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s1.e2" charOffset="113-119"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, mitochondrial transport recessive mutations were also found in two sporadic children with hereditary sensory-autonomic neuropathy (HSAN).">
+		<entity id="s2.e1" charOffset="10-33"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s2.e2" charOffset="77-85"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="129-139"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

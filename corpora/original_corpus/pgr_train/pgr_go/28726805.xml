@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28726805">
+	<sentence id="s1" text="Purposeregulation of synaptic vesicle exocytosis deficiency causes neonatal hypotonia, ptosis, neonatal feeding difficulties, childhood obesity, xerostomia, and growth hormone deficiency.">
+		<entity id="s1.e1" charOffset="7-48"
+			type="GO" text="regulation of synaptic vesicle exocytosis" ontology_id="GO_2000300"/>
+		<entity id="s1.e2" charOffset="87-93"
+			type="HP" text="ptosis" ontology_id="HP_0000508"/>
+		<entity id="s1.e3" charOffset="104-124"
+			type="HP" text="feeding difficulties" ontology_id="HP_0011968"/>
+		<entity id="s1.e4" charOffset="136-143"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e5" charOffset="145-155"
+			type="HP" text="xerostomia" ontology_id="HP_0000217"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

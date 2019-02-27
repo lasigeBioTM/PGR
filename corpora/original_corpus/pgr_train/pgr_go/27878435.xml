@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27878435">
+	<sentence id="s1" text="spliceosomal snRNP assembly was independently mutated in families with a syndrome of cataract, global developmental delay with or without renal involvement.">
+		<entity id="s1.e1" charOffset="0-27"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<entity id="s1.e2" charOffset="85-93"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also highlight a recognizable syndrome that resembles galactosemia (a fulminant infantile liver disease with cataract) caused by biallelic mutations in steroid biosynthetic process.">
+		<entity id="s2.e1" charOffset="112-120"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s2.e2" charOffset="155-183"
+			type="GO" text="steroid biosynthetic process" ontology_id="GO_0006694"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A founder mutation in positive regulation of GTPase activity (KIAA1432) was identified in patients with cataract, brain atrophy, microcephaly with or without cleft lip and palate.">
+		<entity id="s3.e1" charOffset="22-60"
+			type="GO" text="positive regulation of GTPase activity" ontology_id="GO_0043547"/>
+		<entity id="s3.e2" charOffset="104-112"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s3.e3" charOffset="129-141"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s3.e4" charOffset="158-167"
+			type="HP" text="cleft lip" ontology_id="HP_0410030"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="For non-syndromic pediatric cataract, we map a novel locus in a multiplex consanguineous family on 4p15.32 where exome sequencing revealed a homozygous truncating mutation in positive regulation of cilium assembly.">
+		<entity id="s4.e1" charOffset="28-36"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s4.e2" charOffset="175-213"
+			type="GO" text="positive regulation of cilium assembly" ontology_id="GO_0045724"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We report two further candidates that are biallelically inactivated each in a single cataract family: transcription by RNA polymerase I (cataract with global developmental delay) and biological_process (non-syndromic cataract).">
+		<entity id="s5.e1" charOffset="85-93"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s5.e2" charOffset="102-135"
+			type="GO" text="transcription by RNA polymerase I" ontology_id="GO_0006360"/>
+		<entity id="s5.e3" charOffset="158-177"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s5.e4" charOffset="183-201"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e6"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="A founder mutation in positive regulation of GTPase activity (KIAA1432) was identified in patients with cataract, brain atrophy, microcephaly with or without cleft lip and palate.">
+		<entity id="s6.e1" charOffset="22-60"
+			type="GO" text="positive regulation of GTPase activity" ontology_id="GO_0043547"/>
+		<entity id="s6.e2" charOffset="114-127"
+			type="HP" text="brain atrophy" ontology_id="HP_0012444"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="spliceosomal snRNP assembly was independently mutated in families with a syndrome of cataract, global developmental delay with or without renal involvement.">
+		<entity id="s7.e1" charOffset="0-27"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<entity id="s7.e2" charOffset="102-121"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29428669">
+	<sentence id="s1" text="In this study, we established PSMB8 as a therapeutic target for glioma treatment.">
+		<entity id="s1.e1" charOffset="30-35"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s1.e2" charOffset="64-70"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Expression of PSMB8 as well as Ki-67 was higher in glioma tissues demonstrated by western blot and immunohistochemistry.">
+		<entity id="s2.e1" charOffset="14-19"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s2.e2" charOffset="31-33"
+			type="GENE" text="Ki" ontology_id="10197"/>
+		<entity id="s2.e3" charOffset="51-57"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Then, the role of PSMB8 in migration and proliferation of glioma cells was investigated by conducting wound-healing, trans-well assay, cell counting kit (CCK)-8, flow cytometry assay and colony formation analysis.">
+		<entity id="s3.e1" charOffset="18-23"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s3.e2" charOffset="58-64"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e3" charOffset="149-152"
+			type="GENE" text="kit" ontology_id="3815"/>
+		<entity id="s3.e4" charOffset="154-157"
+			type="GENE" text="CCK" ontology_id="885"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The data showed that interfering PSMB8 may inhibit the migration and proliferation of glioma cells by reducing expression of cyclin A, cyclin B1, cyclin D1, Vimentin, and N-cadherin, and by increasing expression of E-cadherin.">
+		<entity id="s4.e1" charOffset="33-38"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s4.e2" charOffset="86-92"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s4.e3" charOffset="173-181"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Additionally, interfering PSMB8 may induce apoptosis of glioma cells by upregulating caspase-3 expression.">
+		<entity id="s5.e1" charOffset="26-31"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s5.e2" charOffset="56-62"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Furthermore, these in vitro findings were validated in vivo and the ERK1/2 and PI3k/AKT signaling pathways were involved in PSMB8-triggered migration and proliferation of glioma cells.">
+		<entity id="s6.e1" charOffset="68-72"
+			type="GENE" text="ERK1" ontology_id="5595"/>
+		<entity id="s6.e2" charOffset="79-83"
+			type="GENE" text="PI3k" ontology_id="5290"/>
+		<entity id="s6.e3" charOffset="84-87"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<entity id="s6.e4" charOffset="124-129"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s6.e5" charOffset="171-177"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s6.p1" e1="s6.e4"
+		    e2="s6.e5" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e5" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e5" pgr="true"/>
+		<pair id="s6.p4" e1="s6.e3"
+		    e2="s6.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="In an in vivo model, downregulation of PSMB8 suppressed tumor growth.">
+		<entity id="s7.e1" charOffset="39-44"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s7.e2" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="In conclusion, PSMB8 is closely associated with migration, proliferation, and apoptosis of glioma cells, and might be considered as a novel prognostic indicator in patients with gliomas">
+		<entity id="s8.e1" charOffset="15-20"
+			type="GENE" text="PSMB8" ontology_id="5696"/>
+		<entity id="s8.e2" charOffset="91-97"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28868793">
+	<sentence id="s1" text="TBXAS1 mutations result in Ghosal hematodiaphyseal dysplasia (OMIM 231095), the autosomal recessive syndrome associated with abnormal bone structure and BMF.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="TBXAS1" ontology_id="6916"/>
+		<entity id="s1.e2" charOffset="80-99"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="125-148"
+			type="HP" text="abnormal bone structure" ontology_id="HP_0003330"/>
+		<entity id="s1.e4" charOffset="153-156"
+			type="GENE" text="BMF" ontology_id="90427"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

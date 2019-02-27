@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29679755">
+	<sentence id="s1" text="In this study, we found XIST expression level was upregulated in colon cancer tissues and cell lines.">
+		<entity id="s1.e1" charOffset="35-37"
+			type="GENE" text="si" ontology_id="6490"/>
+		<entity id="s1.e2" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In short, the current study suggests XIST plays as an important role in colon cancer progression targeted by miR-34a via Wnt/b-catenin signaling pathway, providing a novel insight for the pathogenesis and underlying therapeutic target for colon cancer">
+		<entity id="s2.e1" charOffset="78-84"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="92-94"
+			type="GENE" text="si" ontology_id="6490"/>
+		<entity id="s2.e3" charOffset="109-112"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29973868">
+	<sentence id="s1" text="negative regulation of transcription by RNA polymerase II is a key Transcription Factor (TF) in the regulation of embryonic and adult neurogenesis, whose mutation has recently been linked to an intellectual disability syndrome in humans.">
+		<entity id="s1.e1" charOffset="0-57"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="194-217"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

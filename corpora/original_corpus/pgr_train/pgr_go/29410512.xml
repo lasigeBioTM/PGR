@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29410512">
+	<sentence id="s1" text="The aim of the study was to characterize the prolyl-tRNA aminoacylation- related phenotype.Three siblings with biallelic prolyl-tRNA aminoacylation mutations presented from birth with infantile spasms, secondary microcephaly, and similar facial dysmorphy.">
+		<entity id="s1.e1" charOffset="45-71"
+			type="GO" text="prolyl-tRNA aminoacylation" ontology_id="GO_0006433"/>
+		<entity id="s1.e2" charOffset="163-179"
+			type="HP" text="infantile spasms" ontology_id="HP_0012469"/>
+		<entity id="s1.e3" charOffset="191-203"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

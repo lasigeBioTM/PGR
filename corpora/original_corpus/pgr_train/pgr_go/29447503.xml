@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29447503">
+	<sentence id="s1" text="Estrogen receptor alpha (transcription by RNA polymerase II) and retinoic acid receptors (RARs) play important and opposite roles in breast cancer growth.">
+		<entity id="s1.e1" charOffset="25-59"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s1.e2" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

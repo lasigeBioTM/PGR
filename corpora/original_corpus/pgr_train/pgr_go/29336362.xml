@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29336362">
+	<sentence id="s1" text="Neonatal-onset multiple acyl-CoA dehydrogenase deficiency (fatty acid beta-oxidation using acyl-CoA dehydrogenase type I) is an autosomal recessive disorder of the electron transfer flavoprotein function characterized by a severe clinical and biochemical phenotype, including congenital abnormalities with unresponsiveness to riboflavin treatment as distinguishing features.">
+		<entity id="s1.e1" charOffset="59-113"
+			type="GO" text="fatty acid beta-oxidation using acyl-CoA dehydrogenase" ontology_id="GO_0033539"/>
+		<entity id="s1.e2" charOffset="128-147"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

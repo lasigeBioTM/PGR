@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28849415">
+	<sentence id="s1" text="The frequency of CRYGD p.(Tyr56*) in the ExAC dataset was higher than the estimated incidence of congenital cataract in the general population.">
+		<entity id="s1.e1" charOffset="17-22"
+			type="GENE" text="CRYGD" ontology_id="1421"/>
+		<entity id="s1.e2" charOffset="108-116"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

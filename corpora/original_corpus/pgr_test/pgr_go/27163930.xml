@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27163930">
+	<sentence id="s1" text="The most frequent hearing loss associated allele detected in this population was the 235delC variant in gap junction assembly gene.">
+		<entity id="s1.e1" charOffset="18-30"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="104-125"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

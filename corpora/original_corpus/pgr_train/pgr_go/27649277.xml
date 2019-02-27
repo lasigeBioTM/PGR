@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27649277">
+	<sentence id="s1" text="skeletal system development plays an important role in the development of distal limbs and lower genitourinary tract of the fetus.">
+		<entity id="s1.e1" charOffset="0-27"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s1.e2" charOffset="74-80"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

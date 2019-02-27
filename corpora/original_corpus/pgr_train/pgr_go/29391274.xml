@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29391274">
+	<sentence id="s1" text="This study aims to investigate the association of 2 single nucleotide polymorphisms (SNPs) in peptide hormone processing (rs2271037 and rs3749585) with hypertension, as well as their potential interactions with some risk factors of hypertension in a Han population of northeastern China.">
+		<entity id="s1.e1" charOffset="94-120"
+			type="GO" text="peptide hormone processing" ontology_id="GO_0016486"/>
+		<entity id="s1.e2" charOffset="152-164"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Interaction study showed the association between peptide hormone processing polymorphisms and hypertension could be changed by overweight (BMI G 25 kg/m2).">
+		<entity id="s2.e1" charOffset="49-75"
+			type="GO" text="peptide hormone processing" ontology_id="GO_0016486"/>
+		<entity id="s2.e2" charOffset="94-106"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, polymorphisms of rs2271037 and rs3749585 in peptide hormone processing were significantly associated with hypertension in a Han population of northeastern China.">
+		<entity id="s3.e1" charOffset="59-85"
+			type="GO" text="peptide hormone processing" ontology_id="GO_0016486"/>
+		<entity id="s3.e2" charOffset="121-133"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27193124">
+	<sentence id="s1" text="Here, we have performed a prospective nationwide genetic association study using the Human Exome BeadChip and identified gene variants in encoding dynactin 4 (nuclear migration), retinoic acid early transcript 1E (natural killer cell mediated cytotoxicity), and V-positive regulation of protein phosphorylation murine thymoma viral oncogene homolog 3 (positive regulation of blood vessel endothelial cell migration) to be associated with unfavourable outcome in patients with pneumococcal meningitis.">
+		<entity id="s1.e1" charOffset="159-176"
+			type="GO" text="nuclear migration" ontology_id="GO_0007097"/>
+		<entity id="s1.e2" charOffset="214-255"
+			type="GO" text="natural killer cell mediated cytotoxicity" ontology_id="GO_0042267"/>
+		<entity id="s1.e3" charOffset="264-310"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e4" charOffset="352-414"
+			type="GO" text="positive regulation of blood vessel endothelial cell migration" ontology_id="GO_0043536"/>
+		<entity id="s1.e5" charOffset="353-363"
+			type="HP" text="meningitis" ontology_id="HP_0001287"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="No clinical replication cohort is available, so we validated the role of one of these targets, positive regulation of blood vessel endothelial cell migration, in a pneumococcal meningitis mouse model.">
+		<entity id="s2.e1" charOffset="95-157"
+			type="GO" text="positive regulation of blood vessel endothelial cell migration" ontology_id="GO_0043536"/>
+		<entity id="s2.e2" charOffset="177-187"
+			type="HP" text="meningitis" ontology_id="HP_0001287"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

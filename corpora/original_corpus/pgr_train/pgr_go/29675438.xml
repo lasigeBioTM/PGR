@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29675438">
+	<sentence id="s1" text="Here, for the first time, we demonstrated the roles of substrate adhesion-dependent cell spreading in ovarian carcinoma (OC).">
+		<entity id="s1.e1" charOffset="55-98"
+			type="GO" text="substrate adhesion-dependent cell spreading" ontology_id="GO_0034446"/>
+		<entity id="s1.e2" charOffset="102-119"
+			type="HP" text="ovarian carcinoma" ontology_id="HP_0025318"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In vitro cell proliferation, apoptosis and migration assays, and in vivo subcutaneous xenograft tumor models were used to determine the role of substrate adhesion-dependent cell spreading.">
+		<entity id="s2.e1" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="144-187"
+			type="GO" text="substrate adhesion-dependent cell spreading" ontology_id="GO_0034446"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Loss of function of substrate adhesion-dependent cell spreading significantly influenced cell proliferation, apoptosis, and migration of OC cells in vitro and tumor growth in vivo.">
+		<entity id="s3.e1" charOffset="20-63"
+			type="GO" text="substrate adhesion-dependent cell spreading" ontology_id="GO_0034446"/>
+		<entity id="s3.e2" charOffset="159-164"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Taken together, substrate adhesion-dependent cell spreading is a potential predictor and plays an important role in tumor growth and Hh signaling which could serve as potential therapeutic targets for the treatment of OC">
+		<entity id="s4.e1" charOffset="16-59"
+			type="GO" text="substrate adhesion-dependent cell spreading" ontology_id="GO_0034446"/>
+		<entity id="s4.e2" charOffset="116-121"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="substrate adhesion-dependent cell spreading promoted tumor progression by crosstalk with Hedgehog (Hh) signaling.">
+		<entity id="s5.e1" charOffset="0-43"
+			type="GO" text="substrate adhesion-dependent cell spreading" ontology_id="GO_0034446"/>
+		<entity id="s5.e2" charOffset="53-58"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

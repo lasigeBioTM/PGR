@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28011712">
+	<sentence id="s1" text="Allelic heterogeneity was observed at MAPK cascade while European risk SNPs at 6 other loci including microtubule cytoskeleton organization and negative regulation of protein homooligomerization-plasma membrane repair were non-polymorphic or very rare in our cohort.">
+		<entity id="s1.e1" charOffset="8-21"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="38-50"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e3" charOffset="102-139"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<entity id="s1.e4" charOffset="144-194"
+			type="GO" text="negative regulation of protein homooligomerization" ontology_id="GO_0032463"/>
+		<entity id="s1.e5" charOffset="195-217"
+			type="GO" text="plasma membrane repair" ontology_id="GO_0001778"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

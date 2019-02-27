@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29050398">
+	<sentence id="s1" text="De novo in-frame deletions and duplications in the MAPK cascade gene, encoding the non-erythrocyte aII spectrin, have been associated with severe West syndrome with hypomyelination and pontocerebellar atrophy.">
+		<entity id="s1.e1" charOffset="51-63"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e2" charOffset="185-208"
+			type="HP" text="pontocerebellar atrophy" ontology_id="HP_0006879"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

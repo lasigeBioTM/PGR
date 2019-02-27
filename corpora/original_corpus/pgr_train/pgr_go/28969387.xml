@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28969387">
+	<sentence id="s1" text="We performed negative regulation of fat cell differentiation-based whole exome sequencing in seven subjects from five non-consanguineous families who presented with either microcephaly or microlissencephaly.">
+		<entity id="s1.e1" charOffset="13-60"
+			type="GO" text="negative regulation of fat cell differentiation" ontology_id="GO_0045599"/>
+		<entity id="s1.e2" charOffset="172-184"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="193-206"
+			type="HP" text="lissencephaly" ontology_id="HP_0001339"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This led to the identification of compound heterozygous mutations in negative regulation of phosphatase activity, a gene previously associated with cerebellar ataxia, intellectual disability and quadrupedal locomotion.">
+		<entity id="s2.e1" charOffset="69-112"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s2.e2" charOffset="148-165"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e3" charOffset="167-190"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In summary, we highlight the broad phenotypic spectrum of negative regulation of phosphatase activity-related brain malformations, which include microcephaly with moderate to extremely reduced gyration and cerebellar anomalies.">
+		<entity id="s3.e1" charOffset="58-101"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s3.e2" charOffset="145-157"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30180949">
+	<sentence id="s1" text="Although PHGDH FKO mice had no apparent defects in adipose tissue development, these mice ameliorated glucose intolerance upon diet-induced obesity.">
+		<entity id="s1.e1" charOffset="9-14"
+			type="GENE" text="PHGDH" ontology_id="26227"/>
+		<entity id="s1.e2" charOffset="140-147"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26531781">
+	<sentence id="s1" text="Here, we identify new patients with dextrocardia who have mutations in determination of left/right symmetry, a biological_processed-coil domain containing protein.">
+		<entity id="s1.e1" charOffset="36-48"
+			type="HP" text="dextrocardia" ontology_id="HP_0001651"/>
+		<entity id="s1.e2" charOffset="71-107"
+			type="GO" text="determination of left/right symmetry" ontology_id="GO_0007368"/>
+		<entity id="s1.e3" charOffset="111-129"
+			type="GO" text="biological_process" ontology_id="GO_00011150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that determination of left/right symmetry is required for cilia rotation specifically in Kupffer*s vesicle, the zebrafish laterality organ, providing a mechanism by which patients with CFAP53 mutations develop dextrocardia and heterotaxy, and confirming previous evidence that left-right asymmetry in humans is regulated through cilia-driven fluid flow in a laterality organ.">
+		<entity id="s2.e1" charOffset="13-49"
+			type="GO" text="determination of left/right symmetry" ontology_id="GO_0007368"/>
+		<entity id="s2.e2" charOffset="218-230"
+			type="HP" text="dextrocardia" ontology_id="HP_0001651"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

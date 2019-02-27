@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28973399">
+	<sentence id="s1" text="Patients also present a variable negative regulation of transcription, DNA-templated of poorly explained additional clinical features, including ichthyosis, impaired intelligence, developmental delay and anemia.">
+		<entity id="s1.e1" charOffset="33-84"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="180-199"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

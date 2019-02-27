@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29367538">
+	<sentence id="s1" text="Doxorubicin and the signal transduction targeted therapy, trastuzumab, are routinely used in the treatment of HER2+ breast cancer.">
+		<entity id="s1.e1" charOffset="20-39"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

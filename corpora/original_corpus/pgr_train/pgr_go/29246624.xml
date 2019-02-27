@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29246624">
+	<sentence id="s1" text="Improvements in our understanding of the molecular subtypes of gliomas and the underlying alterations in specific signaling pathways may negative regulation of transcription by RNA polymerase II both the diagnosis and the treatment strategies for patients with gliomas.">
+		<entity id="s1.e1" charOffset="63-69"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e2" charOffset="137-194"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Specifically, sensory perception of sound has been identified as a tumor suppressor in human cancers.">
+		<entity id="s2.e1" charOffset="14-41"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s2.e2" charOffset="67-72"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In contrast, sensory perception of sound appears to function as a tumor promoter, while otolith morphogenesis appears to have a function similar to that of LRIG1.">
+		<entity id="s3.e1" charOffset="13-40"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s3.e2" charOffset="66-71"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="88-109"
+			type="GO" text="otolith morphogenesis" ontology_id="GO_0032474"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

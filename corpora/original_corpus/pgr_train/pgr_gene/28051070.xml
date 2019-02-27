@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28051070">
+	<sentence id="s1" text="Of those, POLR1C is also implicated in a mandibulofacial dysostosis syndrome without leukodystrophy as POLR1A is.">
+		<entity id="s1.e1" charOffset="10-16"
+			type="GENE" text="POLR1C" ontology_id="9533"/>
+		<entity id="s1.e2" charOffset="41-67"
+			type="HP" text="mandibulofacial dysostosis" ontology_id="HP_0005321"/>
+		<entity id="s1.e3" charOffset="103-109"
+			type="GENE" text="POLR1A" ontology_id="25885"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

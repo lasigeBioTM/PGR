@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29491688">
+	<sentence id="s1" text="Synovial sarcoma (SS) is genetically characterized by chromosomal translocation, which generates positive regulation of transcription by RNA polymerase II-regulation of transcription, DNA-templated fusion transcripts.">
+		<entity id="s1.e1" charOffset="9-16"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="97-154"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e3" charOffset="155-197"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

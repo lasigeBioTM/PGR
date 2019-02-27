@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29452776">
+	<sentence id="s1" text="Corresponding implicated genes, such as protein phosphorylation, negative regulation of cell adhesion, MKL2, glucose homeostasis and protein phosphorylation, may explain the associations between reproductive factors and heart failure.">
+		<entity id="s1.e1" charOffset="40-63"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="65-101"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e3" charOffset="109-128"
+			type="GO" text="glucose homeostasis" ontology_id="GO_0042593"/>
+		<entity id="s1.e4" charOffset="133-156"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e5" charOffset="158-171"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

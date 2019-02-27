@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25484137">
+	<sentence id="s1" text="Here we report a novel role of protein polyubiquitination-155 in cancer metabolism through the up-regulation of thiamine in breast cancer cells.">
+		<entity id="s1.e1" charOffset="31-57"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A bioinformatic analysis of protein polyubiquitinationNA array and metabolite-profiling data from NCI-60 cancer cell panel revealed thiamine as a metabolite positively correlated with the miR-155 expression level.">
+		<entity id="s2.e1" charOffset="28-54"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We confirmed it in MCF7, MDA-MB-436 and two human primary breast cancer cells by showing reduced thiamine levels upon a knock-down of protein polyubiquitination-155.">
+		<entity id="s3.e1" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="134-160"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Taken altogether, our study demonstrates a role of protein polyubiquitination-155 in thiamine homeostasis and suggests a function of this oncogenic miRNA on breast cancer metabolism.">
+		<entity id="s4.e1" charOffset="51-77"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e2" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

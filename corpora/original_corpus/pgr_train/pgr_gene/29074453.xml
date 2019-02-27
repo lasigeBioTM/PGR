@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29074453">
+	<sentence id="s1" text="At the suggestive threshold (P AAAA .001), 6 genes were enriched for rare damaging variants (UHMK1, AP1G2, DNTA, CHST6, FGFR3, and EPHA1) and 7 genes had associations with pancreatic cancer risk, based on the sequence-kernel association test.">
+		<entity id="s1.e1" charOffset="93-98"
+			type="GENE" text="UHMK1" ontology_id="127933"/>
+		<entity id="s1.e2" charOffset="113-118"
+			type="GENE" text="CHST6" ontology_id="4166"/>
+		<entity id="s1.e3" charOffset="120-125"
+			type="GENE" text="FGFR3" ontology_id="2261"/>
+		<entity id="s1.e4" charOffset="131-136"
+			type="GENE" text="EPHA1" ontology_id="2041"/>
+		<entity id="s1.e5" charOffset="183-189"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We confirmed variants in BRCA2 as the most common high-penetrant genetic factor associated with pancreatic cancer and we also identified candidate pancreatic cancer genes.">
+		<entity id="s2.e1" charOffset="25-30"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s2.e2" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

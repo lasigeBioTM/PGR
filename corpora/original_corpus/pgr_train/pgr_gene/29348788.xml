@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29348788">
+	<sentence id="s1" text="We investigated the possible association between chemoresistance and cellular redox state regulation in patients undergoing neoadjuvant chemotherapy (NACT) for breast cancer.">
+		<entity id="s1.e1" charOffset="150-154"
+			type="GENE" text="NACT" ontology_id="284111"/>
+		<entity id="s1.e2" charOffset="167-173"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In total, 53 women with primarily inoperable or inflammatory breast cancer who were treated with NACT were included in the study.">
+		<entity id="s2.e1" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="97-101"
+			type="GENE" text="NACT" ontology_id="284111"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Pre-NACT core needle biopsies and postoperative tumor samples were immunohistochemically stained for nuclear factor erythroid 2-related factor 2 (Nrf2), Kelch-like ECH-associated protein 1 (Keap1), thioredoxin (Trx), and peroxiredoxin I (Prx I).">
+		<entity id="s3.e1" charOffset="4-8"
+			type="GENE" text="NACT" ontology_id="284111"/>
+		<entity id="s3.e2" charOffset="48-53"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="190-195"
+			type="GENE" text="Keap1" ontology_id="9817"/>
+		<entity id="s3.e4" charOffset="238-241"
+			type="GENE" text="Prx" ontology_id="9588"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Higher pre-NACT nuclear Prx I expression predicted smaller size of a resected tumor (p = 0.00052; r = -0.550), and higher pre-NACT cytoplasmic Prx I expression predicted a lower amount of evacuated nodal metastasis (p = 0.0024; r = -0.472).">
+		<entity id="s4.e1" charOffset="11-15"
+			type="GENE" text="NACT" ontology_id="284111"/>
+		<entity id="s4.e2" charOffset="24-27"
+			type="GENE" text="Prx" ontology_id="9588"/>
+		<entity id="s4.e3" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="198-203"
+			type="GENE" text="nodal" ontology_id="4838"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29438908">
+	<sentence id="s1" text="Models evaluated include a neuroblastoma cell line (SK-N-AS) and immortalized keratinocytes (HaCaT) as a control of high PTHLH production.">
+		<entity id="s1.e1" charOffset="27-40"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="121-126"
+			type="GENE" text="PTHLH" ontology_id="5744"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28686733">
+	<sentence id="s1" text="Mutations in the immunoglobulin superfamily, member 1 gene (IGSF1/Igsf1) cause an X-linked form of central hypothyroidism.">
+		<entity id="s1.e1" charOffset="60-65"
+			type="GENE" text="IGSF1" ontology_id="3547"/>
+		<entity id="s1.e2" charOffset="66-71"
+			type="GENE" text="Igsf1" ontology_id="3547"/>
+		<entity id="s1.e3" charOffset="99-106"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e4" charOffset="107-121"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

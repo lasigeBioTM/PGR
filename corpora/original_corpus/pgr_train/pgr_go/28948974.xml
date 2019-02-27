@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28948974">
+	<sentence id="s1" text="In humans, mutations in the NMD factor gene, nuclear-transcribed mRNA catabolic process, nonsense-mediated decay, cause intellectual disability (ID) and are strongly associated with autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD) and schizophrenia (SCZ).">
+		<entity id="s1.e1" charOffset="45-112"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s1.e2" charOffset="120-143"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="182-188"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e4" charOffset="266-279"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

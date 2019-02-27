@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29407108">
+	<sentence id="s1" text="Dysfunction of the cerebral glucose transporter GLUT1 (encoded by SLC2A1) is known to result in epilepsy, intellectual disability (ID), and movement disorder.">
+		<entity id="s1.e1" charOffset="66-72"
+			type="GENE" text="SLC2A1" ontology_id="6513"/>
+		<entity id="s1.e2" charOffset="96-104"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="106-129"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Using whole-exome sequencing, we identified rare homozygous missense variants (c.526CAAAAT [p.Arg176Trp] and c.629CAAAAT [p.Ala210Val]) in SLC45A1, encoding another cerebral glucose transporter, in two consanguineous multiplex families with moderate to severe ID, epilepsy, and variable neuropsychiatric features.">
+		<entity id="s2.e1" charOffset="139-146"
+			type="GENE" text="SLC45A1" ontology_id="50651"/>
+		<entity id="s2.e2" charOffset="264-272"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="All together, our data strongly suggest that recessive mutations in SLC45A1 cause ID and epilepsy.">
+		<entity id="s3.e1" charOffset="68-75"
+			type="GENE" text="SLC45A1" ontology_id="50651"/>
+		<entity id="s3.e2" charOffset="89-97"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Dysfunction of the cerebral glucose transporter GLUT1 (encoded by SLC2A1) is known to result in epilepsy, intellectual disability (ID), and movement disorder.">
+		<entity id="s4.e1" charOffset="66-72"
+			type="GENE" text="SLC2A1" ontology_id="6513"/>
+		<entity id="s4.e2" charOffset="140-157"
+			type="HP" text="movement disorder" ontology_id="HP_0100022"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29364887">
+	<sentence id="s1" text="Mutations in negative regulation of transcription by RNA polymerase II [THAP (Thanatos-associated protein) domain containing, apoptosis associated protein 1], a ubiquitously expressed transcription factor with DNA binding and protein-interaction domains, cause dystonia, DYT6.">
+		<entity id="s1.e1" charOffset="13-70"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="261-269"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, negative regulation of transcription by RNA polymerase II downstream targets in neurons, and the mechanism via which it causes dystonia are largely unknown.">
+		<entity id="s2.e1" charOffset="9-66"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="136-144"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

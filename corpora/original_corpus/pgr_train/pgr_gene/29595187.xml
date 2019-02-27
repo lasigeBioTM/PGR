@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29595187">
+	<sentence id="s1" text="BACKGROUND The aim of this study was to investigate the expression and silencing of the S100A8 gene, which encodes the S100 calcium-binding protein A8 (S100A8), and apoptosis and phosphorylation of protein kinase B (Akt) in tissue samples of endometrial carcinoma and HEC-1A endometrial adenocarcinoma cells in vitro.">
+		<entity id="s1.e1" charOffset="242-263"
+			type="HP" text="endometrial carcinoma" ontology_id="HP_0012114"/>
+		<entity id="s1.e2" charOffset="268-271"
+			type="GENE" text="HEC" ontology_id="10403"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="RESULTS IHC showed high levels of expression of S100A8 protein in endometrial carcinoma tissues, and HEC-1A adenocarcinoma cells (in G1 and G2).">
+		<entity id="s2.e1" charOffset="66-87"
+			type="HP" text="endometrial carcinoma" ontology_id="HP_0012114"/>
+		<entity id="s2.e2" charOffset="101-104"
+			type="GENE" text="HEC" ontology_id="10403"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

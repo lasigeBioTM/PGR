@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29293505">
+	<sentence id="s1" text="Fourteen different (half of them novel) non-gap junction assembly variants causing HL were found in 10 genes (skeletal system development, negative regulation of protein ubiquitination, positive regulation of gene expression, neurofilament bundle assembly, OTOF, SF3B4, regulation of pH, cell-matrix adhesion, regulation of gene expression, sensory perception of sound) among 13 probands, confirming the genetic heterogeneity of hereditary HL.">
+		<entity id="s1.e1" charOffset="44-65"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e2" charOffset="110-137"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s1.e3" charOffset="139-184"
+			type="GO" text="negative regulation of protein ubiquitination" ontology_id="GO_0031397"/>
+		<entity id="s1.e4" charOffset="186-224"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0018628"/>
+		<entity id="s1.e5" charOffset="222-235"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e6" charOffset="226-255"
+			type="GO" text="neurofilament bundle assembly" ontology_id="GO_0033693"/>
+		<entity id="s1.e7" charOffset="270-286"
+			type="GO" text="regulation of pH" ontology_id="GO_0006885"/>
+		<entity id="s1.e8" charOffset="288-308"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007308"/>
+		<entity id="s1.e9" charOffset="310-339"
+			type="GO" text="regulation of gene expression" ontology_id="GO_0010468"/>
+		<entity id="s1.e10" charOffset="341-368"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

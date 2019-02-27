@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28498422">
+	<sentence id="s1" text="Protein kinase A (PKA) signaling pathway including AKAP12, RDX, and protein kinase A signaling genes were identified as potential mechanisms for the activity of garlic extract in cancer prevention.">
+		<entity id="s1.e1" charOffset="68-94"
+			type="GO" text="protein kinase A signaling" ontology_id="GO_0010737"/>
+		<entity id="s1.e2" charOffset="179-185"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

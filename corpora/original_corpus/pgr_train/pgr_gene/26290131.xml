@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26290131">
+	<sentence id="s1" text="Three patients presented with cognitive impairment, reinforcing the association between the disrupted genes (TSPAN7-MRX58, KIAA2022-MRX98, and IL1RAPL1-MRX21/34) and intellectual disability.">
+		<entity id="s1.e1" charOffset="109-115"
+			type="GENE" text="TSPAN7" ontology_id="7102"/>
+		<entity id="s1.e2" charOffset="116-121"
+			type="GENE" text="MRX58" ontology_id="7102"/>
+		<entity id="s1.e3" charOffset="143-151"
+			type="GENE" text="IL1RAPL1" ontology_id="11141"/>
+		<entity id="s1.e4" charOffset="166-189"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The expression assays did not detect ZDHHC15 gene expression in the patient, thus questioning its involvement in intellectual disability.">
+		<entity id="s2.e1" charOffset="37-44"
+			type="GENE" text="ZDHHC15" ontology_id="158866"/>
+		<entity id="s2.e2" charOffset="113-136"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

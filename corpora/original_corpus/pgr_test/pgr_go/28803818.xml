@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803818">
+	<sentence id="s1" text="Our findings show that GPI anchor biosynthetic process mutations may lead to an isolated and mild limb girdle muscular dystrophy phenotype without cardiomyopathy">
+		<entity id="s1.e1" charOffset="23-54"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s1.e2" charOffset="110-128"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

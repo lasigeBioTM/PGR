@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28742274">
+	<sentence id="s1" text="Five genes, including OTOGL, PLCB4, SCEL, THSD4, and WWOX, have CNVs in the six patients with sporadic HBs, and three genes, including ABCA6, CWC27, and LAMA2, have CNVs in the five patients with familial HBs.">
+		<entity id="s1.e1" charOffset="53-57"
+			type="GENE" text="WWOX" ontology_id="51741"/>
+		<entity id="s1.e2" charOffset="94-102"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28223545">
+	<sentence id="s1" text="Ring finger protein 6 (RNF6) is a key oncogene in both prostate cancer and leukemia, but its role is elusive in breast cancer.">
+		<entity id="s1.e1" charOffset="23-27"
+			type="GENE" text="RNF6" ontology_id="6049"/>
+		<entity id="s1.e2" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we found that RNF6 was overexpressed in more than 70% of breast cancer tissues and it was associated with overall survival.">
+		<entity id="s2.e1" charOffset="36-40"
+			type="GENE" text="RNF6" ontology_id="6049"/>
+		<entity id="s2.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="RNF6 increased breast cancer cell proliferation, migration and reduced cell sensitivity to doxorubicin.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="RNF6" ontology_id="6049"/>
+		<entity id="s3.e2" charOffset="22-28"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Further studies showed that RNF6 was closely associated with increased expression of estrogen receptor, a critical factor in the development of breast cancers.">
+		<entity id="s4.e1" charOffset="28-32"
+			type="GENE" text="RNF6" ontology_id="6049"/>
+		<entity id="s4.e2" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In doxorubicin-resistant breast cancer cells, RNF6 was found to be elevated in association with increased ERa and anti-apoptotic Bcl-xL, but not pro-apoptotic Bim-1.">
+		<entity id="s5.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="46-50"
+			type="GENE" text="RNF6" ontology_id="6049"/>
+		<entity id="s5.e3" charOffset="129-135"
+			type="GENE" text="Bcl-xL" ontology_id="598"/>
+		<entity id="s5.e4" charOffset="159-162"
+			type="GENE" text="Bim" ontology_id="10018"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Therefore, this study demonstrated that there exists an RNF6/ERa/Bcl-xL axle in breast cancer which promotes cancer cell proliferation and survival.">
+		<entity id="s6.e1" charOffset="56-60"
+			type="GENE" text="RNF6" ontology_id="6049"/>
+		<entity id="s6.e2" charOffset="65-71"
+			type="GENE" text="Bcl-xL" ontology_id="598"/>
+		<entity id="s6.e3" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="true"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

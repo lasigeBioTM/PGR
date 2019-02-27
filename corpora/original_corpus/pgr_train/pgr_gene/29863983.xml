@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29863983">
+	<sentence id="s1" text="Western blot was used to analyze the cell cycle-related proteins, serine/threonine kinase ataxia telangiectasia mutant (ATM), ataxia telangiectasia and Rad3-related protein (ATR) and cyclin B1 (CCNB1).">
+		<entity id="s1.e1" charOffset="90-96"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="120-123"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s1.e3" charOffset="174-177"
+			type="GENE" text="ATR" ontology_id="84168"/>
+		<entity id="s1.e4" charOffset="194-199"
+			type="GENE" text="CCNB1" ontology_id="891"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

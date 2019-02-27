@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28332011">
+	<sentence id="s1" text="Furthermore, despite the otolith*s developmental delay until well after postural behaviors normally appear, downstream circuits can drive righting reflexes within DNA clamp unloading-2 days of its arrival, indicating that vestibular circuit wiring is not impaired by a delay in patterned activity.">
+		<entity id="s1.e1" charOffset="35-54"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="163-182"
+			type="GO" text="DNA clamp unloading" ontology_id="GO_0090618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

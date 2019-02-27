@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29684512">
+	<sentence id="s1" text="Steroid 21-Hydroxylase deficiency is an inherited autosomal recessive metabolic disorder of the adrenal steroidogenesis caused due to mutations in the steroid biosynthetic process gene in 95% of CAH cases.">
+		<entity id="s1.e1" charOffset="50-69"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="151-179"
+			type="GO" text="steroid biosynthetic process" ontology_id="GO_0006694"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

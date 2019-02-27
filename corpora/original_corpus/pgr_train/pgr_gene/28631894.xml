@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28631894">
+	<sentence id="s1" text="We present two pediatric cases of progressive myoclonic epilepsy with SERPINI1 pathogenic variants that lead to a severe presentation; we highlight the importance of including this gene, previously known as causing an adult-onset dementia-epilepsy syndrome, in the genetic work-up of childhood-onset progressive myoclonic epilepsies">
+		<entity id="s1.e1" charOffset="56-64"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="70-78"
+			type="GENE" text="SERPINI1" ontology_id="5274"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

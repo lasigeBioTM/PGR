@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25708584">
+	<sentence id="s1" text="The finding expands the molecular basis of congenital contractures and the phenotypic spectrum of respiratory system process mutations.">
+		<entity id="s1.e1" charOffset="54-66"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s1.e2" charOffset="98-124"
+			type="GO" text="respiratory system process" ontology_id="GO_0003016"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28494188">
+	<sentence id="s1" text="Knockdown of response to drug resulted in significant radiosensitization of HeLa (cervical), PSN-1 (pancreatic), and T24 (bladder), regulation of immune response-549 (breast) and MCF7 (breast) tumor lines as measured by colony formation assays.">
+		<entity id="s1.e1" charOffset="13-29"
+			type="GO" text="response to drug" ontology_id="GO_0042493"/>
+		<entity id="s1.e2" charOffset="132-161"
+			type="GO" text="regulation of immune response" ontology_id="GO_0050776"/>
+		<entity id="s1.e3" charOffset="166-171"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="response to drug depletion also resulted in the radiosensitization of normal lung fibroblast cell lines (HFL1 and negative regulation of NF-kappaB transcription factor activity-5), demonstrating that the effect is not restricted to tumor cells.">
+		<entity id="s2.e1" charOffset="0-16"
+			type="GO" text="response to drug" ontology_id="GO_0042493"/>
+		<entity id="s2.e2" charOffset="114-176"
+			type="GO" text="negative regulation of NF-kappaB transcription factor activity" ontology_id="GO_0032088"/>
+		<entity id="s2.e3" charOffset="173-178"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

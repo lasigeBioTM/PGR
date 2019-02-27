@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29152796">
+	<sentence id="s1" text="Seborrhoeic Dermatitis (negative regulation of protein export from nucleus) is a common inflammatory skin disease that presents as itchy, flaking skin in the seborrhoeic areas.">
+		<entity id="s1.e1" charOffset="24-74"
+			type="GO" text="negative regulation of protein export from nucleus" ontology_id="GO_0046826"/>
+		<entity id="s1.e2" charOffset="138-150"
+			type="HP" text="flaking skin" ontology_id="HP_0040189"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29568747">
+	<sentence id="s1" text="In the present study, we used a custom capture panel (MiamiOtoGenes) to target sequence 180 deafness-associated genes in 5 gap junction assembly negative deaf probands with autosomal recessive nonsyndromic HL from Iran.">
+		<entity id="s1.e1" charOffset="92-100"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="123-144"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e3" charOffset="173-192"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In these 5 families, we detected one reported and six novel mutations in 5 different deafness autosomal recessive (DFNB) genes (positive regulation of substrate adhesion-dependent cell spreading, ion transport, calcium ion transport, sensory perception of sound, and lysosome organization).">
+		<entity id="s2.e1" charOffset="85-93"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="94-113"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="128-194"
+			type="GO" text="positive regulation of substrate adhesion-dependent cell spreading" ontology_id="GO_1900026"/>
+		<entity id="s2.e4" charOffset="196-209"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<entity id="s2.e5" charOffset="211-232"
+			type="GO" text="calcium ion transport" ontology_id="GO_0006816"/>
+		<entity id="s2.e6" charOffset="234-261"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s2.e7" charOffset="267-288"
+			type="GO" text="lysosome organization" ontology_id="GO_0007040"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e9"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e9"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e9"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e9"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

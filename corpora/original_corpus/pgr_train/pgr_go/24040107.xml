@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24040107">
+	<sentence id="s1" text="We extended our findings to protein phosphorylation WT tumor cell lines that are intrinsically resistant to vemurafenib and dabrafenib.">
+		<entity id="s1.e1" charOffset="28-51"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The novel aspects of this study are the direct identification of serine biosynthesis as a critical mechanism of protein phosphorylation V600E inhibitor resistance and the first successful example of using gemcitabine + protein phosphorylationis in combination to kill previously drug-resistant cancer cells, creating the translational potential of pretreatment with gemcitabine prior to BRAFi treatment of tumor cells to reverse resistance within the mutational profile and the WT.">
+		<entity id="s2.e1" charOffset="112-135"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e2" charOffset="275-281"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="387-392"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

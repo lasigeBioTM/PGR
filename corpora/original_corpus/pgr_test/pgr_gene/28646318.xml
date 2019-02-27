@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28646318">
+	<sentence id="s1" text="Primary renal PGL and neoplasia was associated with about 2% of 710 cases of PC/PGL.">
+		<entity id="s1.e1" charOffset="14-17"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<entity id="s1.e2" charOffset="22-31"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Up to half of patients with PC/PGL and renal neoplasia had VHL syndrome, SDH deficiency, or alterations in TMEM127.">
+		<entity id="s2.e1" charOffset="31-34"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<entity id="s2.e2" charOffset="45-54"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

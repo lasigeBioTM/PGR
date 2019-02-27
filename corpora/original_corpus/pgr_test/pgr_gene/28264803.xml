@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28264803">
+	<sentence id="s1" text="Single nucleotide polymorphism in infant genes in the folate (MTHFS rs12438477), homocysteine (TRDMT1 rs6602178 and GNMT rs11752813) and transsulfuration (GSTP1 rs7941395 and MGST1 rs7294985) pathways were also associated with an increased risk of congenital heart defects.Conclusions Common maternal or infant genetic variants in folate, homocysteine, or transsulfuration pathways are associated with an increased risk of certain congenital heart defects among children of women taking SSRIs during cardiogenesis">
+		<entity id="s1.e1" charOffset="62-67"
+			type="GENE" text="MTHFS" ontology_id="10588"/>
+		<entity id="s1.e2" charOffset="155-160"
+			type="GENE" text="GSTP1" ontology_id="2950"/>
+		<entity id="s1.e3" charOffset="248-272"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

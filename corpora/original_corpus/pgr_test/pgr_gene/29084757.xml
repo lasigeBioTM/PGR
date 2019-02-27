@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29084757">
+	<sentence id="s1" text="We report here two new nonsense mutations (pGln12* and pTyr110*) in CIB2 patients displaying nonsyndromic profound hearing loss, with no evidence of vestibular or retinal dysfunction.">
+		<entity id="s1.e1" charOffset="68-72"
+			type="GENE" text="CIB2" ontology_id="10518"/>
+		<entity id="s1.e2" charOffset="115-127"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

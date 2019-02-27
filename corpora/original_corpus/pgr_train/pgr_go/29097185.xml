@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29097185">
+	<sentence id="s1" text="We compared the distribution and localization of UC and esterified cholesterol (EC); the age-related macular degeneration (AMD) associated regulation of transcription, DNA-templated/Fibulin3 (Fib3); and levels of acyl-coenzyme A (CoA): cholesterol acyltransferases (ACAT) acetyl-CoA biosynthetic process, cholesterol metabolic process and Apolipoprotein B (positive regulation of macrophage derived foam cell differentiation) in Acarbohydrate metabolic process-19 cells cultured in serum-supplemented and serum-free media.">
+		<entity id="s1.e1" charOffset="101-121"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<entity id="s1.e2" charOffset="139-181"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e3" charOffset="272-303"
+			type="GO" text="acetyl-CoA biosynthetic process" ontology_id="GO_0006085"/>
+		<entity id="s1.e4" charOffset="281-311"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_0005975"/>
+		<entity id="s1.e5" charOffset="305-334"
+			type="GO" text="cholesterol metabolic process" ontology_id="GO_0008203"/>
+		<entity id="s1.e6" charOffset="357-424"
+			type="GO" text="positive regulation of macrophage derived foam cell differentiation" ontology_id="GO_0010744"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

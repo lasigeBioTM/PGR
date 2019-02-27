@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29920276">
+	<sentence id="s1" text="Serendipitously, we found that overexpression of Twist1 in mouse muscle progenitor cells, either constitutively during development or inducibly in adult animals, caused severe muscle atrophy with features reminiscent of cachexia.">
+		<entity id="s1.e1" charOffset="49-55"
+			type="GENE" text="Twist1" ontology_id="7291"/>
+		<entity id="s1.e2" charOffset="220-228"
+			type="HP" text="cachexia" ontology_id="HP_0004326"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

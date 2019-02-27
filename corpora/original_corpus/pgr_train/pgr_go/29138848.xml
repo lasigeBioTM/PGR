@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29138848">
+	<sentence id="s1" text="However, the physiological characters and potential mechanisms of multicellular organism development-1 in hepatocellular carcinoma (HCC) progression remains unclear.">
+		<entity id="s1.e1" charOffset="66-100"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s1.e2" charOffset="106-130"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, multicellular organism development-1 was highly expressed in HCC samples and tumor cell lines.">
+		<entity id="s2.e1" charOffset="22-56"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s2.e2" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

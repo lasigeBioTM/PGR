@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29432985">
+	<sentence id="s1" text="Mutations in SCN8A gene have been described in relation to infantile onset epilepsy with movement disorders and developmental delay.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="SCN8A" ontology_id="6334"/>
+		<entity id="s1.e2" charOffset="75-83"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="112-131"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

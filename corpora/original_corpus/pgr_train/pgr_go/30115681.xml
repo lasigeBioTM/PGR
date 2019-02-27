@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30115681">
+	<sentence id="s1" text="Humans deficient in neutrophil mediated immunity activity have autosomal recessive primary immune deficiency (PID).">
+		<entity id="s1.e1" charOffset="20-48"
+			type="GO" text="neutrophil mediated immunity" ontology_id="GO_0002446"/>
+		<entity id="s1.e2" charOffset="63-82"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

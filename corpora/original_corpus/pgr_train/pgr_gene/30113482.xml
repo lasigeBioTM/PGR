@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30113482">
+	<sentence id="s1" text="The present study focuses on replicating the analyses completed by Ji et al to identify effects of rare variants in the population-based Atherosclerosis Risk in Communities (ARIC) study.We attempted to replicate the findings by Ji et al by applying their criteria to identify putative loss-of-function variants with allele frequency AAAA0.001 and complete conservation across a set of orthologs, to exome sequencing data from 7444 European ancestry participants of the ARIC study.Although we failed to replicate the previous findings when applying their methods to the ARIC study data, we observed a similar effect when we restricted analyses to the subset of variants they observed.These results simultaneously support the utility of exome sequencing data for studying extremely rare coding variants in hypertension and underscore the need for improved filtering methods for identifying functional variants in human sequences">
+		<entity id="s1.e1" charOffset="378-381"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="804-816"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

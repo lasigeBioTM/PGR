@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29599313">
+	<sentence id="s1" text="We previously reported that brain-derived neurotrophic factor (synapse assembly)/neurotrophic receptor tyrosine kinase 2 (Nprotein phosphorylation2/TRKB) signaling contributes to induction of malignant phenotype of gallbladder cancer (GBC).">
+		<entity id="s1.e1" charOffset="63-79"
+			type="GO" text="synapse assembly" ontology_id="GO_0007416"/>
+		<entity id="s1.e2" charOffset="123-146"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="207-213"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, pan-protein phosphorylation inhibitors have been evaluated and their dramatic clinical activity is being shown for a variety of cancer types harboring an NTRK rearrangement in phase I trials.">
+		<entity id="s2.e1" charOffset="14-37"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In this study, we evaluated the anticancer effect of ONO-7579 using GBC cells with or without positive regulation of protein phosphorylation mutant, NOZ, TYGBK-1.">
+		<entity id="s3.e1" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="94-140"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

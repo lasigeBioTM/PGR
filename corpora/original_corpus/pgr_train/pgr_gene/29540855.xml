@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29540855">
+	<sentence id="s1" text="Analyses of microRNA (miRNA) expression signatures obtained by RNA sequencing revealed that some passenger miRNAs (miR-144-5p, miR-145-3p, miR-149-3p, miR-150-3p, and miR-199a-3p) acted as anti-tumor miRNAs in several types of cancer cells.">
+		<entity id="s1.e1" charOffset="22-25"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Based on the miRNA signature of bladder cancer (BC) obtained by RNA sequencing, we focused on both strands of the miR-223-duplex (miR-223-5p and miR-223-3p) and investigated their functional significance in BC cells.">
+		<entity id="s2.e1" charOffset="13-16"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Ectopic expression of these miRNAs showed that both miR-223-3p (the guide strand) and miR-223-5p (the passenger strand) inhibited cancer cell migration and invasion of BC cells.">
+		<entity id="s3.e1" charOffset="28-31"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We suggest that studies of regulatory cancer networks, including the passenger strands of miRNAs, may provide new insights into the pathogenic mechanisms of BC">
+		<entity id="s4.e1" charOffset="38-44"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="90-93"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

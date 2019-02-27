@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29915082">
+	<sentence id="s1" text="We found that y-OH-cellular amino acid metabolic process and a-methyl-y-OH-PdG are the major adducts formed in tobacco smokers* buccal cells as well as the normal lung tissues of tobacco-smoking lung cancer patients, but not in lung tissues of nonsmokers.">
+		<entity id="s1.e1" charOffset="19-56"
+			type="GO" text="cellular amino acid metabolic process" ontology_id="GO_0006520"/>
+		<entity id="s1.e2" charOffset="200-206"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

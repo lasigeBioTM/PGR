@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29777907">
+	<sentence id="s1" text="Variants of protein phosphorylation (lysine deficient protein kinase 1), desensitization of G protein-coupled receptor signaling pathway by arrestin (b2 adrenergic receptor), regulation of membrane depolarization (ubiquitin-protein ligase NEDD4-like), regulation of systemic arterial blood pressure (kallikrein 1) contribute to hypertension, and protein import into nucleus, translocation (aldo-keto reductase family1 member C3), is associated with preeclampsia.">
+		<entity id="s1.e1" charOffset="12-35"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="73-148"
+			type="GO" text="desensitization of G protein-coupled receptor signaling pathway by arrestin" ontology_id="GO_0002032"/>
+		<entity id="s1.e3" charOffset="175-212"
+			type="GO" text="regulation of membrane depolarization" ontology_id="GO_0003254"/>
+		<entity id="s1.e4" charOffset="185-197"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e5" charOffset="252-298"
+			type="GO" text="regulation of systemic arterial blood pressure" ontology_id="GO_0003073"/>
+		<entity id="s1.e6" charOffset="346-388"
+			type="GO" text="protein import into nucleus, translocation" ontology_id="GO_0000060"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

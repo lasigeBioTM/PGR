@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29749548">
+	<sentence id="s1" text="Given the lack of specific targeted genes and pathways known to be involved in tumour cell dormancy, we proposed enriched candidate genes related to the negative regulation of cell proliferation, signalling pathways regulating pluripotency of stem cells and neuroactive ligand-receptor interaction, and 3 hub genes (intracellular sequestering of iron ion, G protein-coupled receptor signaling pathway and negative regulation of transcription by RNA polymerase II).">
+		<entity id="s1.e1" charOffset="79-85"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="316-354"
+			type="GO" text="intracellular sequestering of iron ion" ontology_id="GO_0006880"/>
+		<entity id="s1.e3" charOffset="356-400"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s1.e4" charOffset="405-462"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

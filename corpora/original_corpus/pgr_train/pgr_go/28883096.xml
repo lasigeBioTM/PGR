@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28883096">
+	<sentence id="s1" text="Mutations affecting human ER to Golgi vesicle-mediated transport, intra-Golgi vesicle-mediated transport and retrograde vesicle-mediated transport, Golgi to ER-COG8 cause monogenic forms of inherited, autosomal recessive CDGs.">
+		<entity id="s1.e1" charOffset="26-64"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="66-104"
+			type="GO" text="intra-Golgi vesicle-mediated transport" ontology_id="GO_0006891"/>
+		<entity id="s1.e3" charOffset="109-159"
+			type="GO" text="retrograde vesicle-mediated transport, Golgi to ER" ontology_id="GO_0006890"/>
+		<entity id="s1.e4" charOffset="121-140"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

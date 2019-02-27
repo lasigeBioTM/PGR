@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29642180">
+	<sentence id="s1" text="Furthermore, negative regulation of peptidase activity expression was observed in all 22 lymph node metastases analyzed.Relatively high levels of CSTA expression in tumors were correlated with tumor progression and advanced cancer stage, including lymph node metastasis">
+		<entity id="s1.e1" charOffset="13-54"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s1.e2" charOffset="224-230"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

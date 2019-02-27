@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28391250">
+	<sentence id="s1" text="In neonatal seizures, defects in ALDH7A1 and pyridoxal phosphate biosynthetic process explain a major fraction of cases.">
+		<entity id="s1.e1" charOffset="12-20"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="45-85"
+			type="GO" text="pyridoxal phosphate biosynthetic process" ontology_id="GO_0042823"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

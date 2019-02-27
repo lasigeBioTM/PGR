@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29450702">
+	<sentence id="s1" text="Our analyses revealed that the primary tumor and NCC-SS1-C1 cell line harbored the SS18-SSX1 fusion gene typical of synovial sarcoma and similar proteomics profiles.">
+		<entity id="s1.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="57-59"
+			type="GENE" text="C1" ontology_id="393"/>
+		<entity id="s1.e3" charOffset="88-92"
+			type="GENE" text="SSX1" ontology_id="6756"/>
+		<entity id="s1.e4" charOffset="125-132"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Results from the present study support that the NCC-SS1-C1 cell line will be an effective tool for sarcoma research">
+		<entity id="s2.e1" charOffset="56-58"
+			type="GENE" text="C1" ontology_id="393"/>
+		<entity id="s2.e2" charOffset="99-106"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our analyses revealed that the primary tumor and NCC-SS1-C1 cell line harbored the SS18-SSX1 fusion gene typical of synovial sarcoma and similar proteomics profiles.">
+		<entity id="s3.e1" charOffset="83-87"
+			type="GENE" text="SS18" ontology_id="6760"/>
+		<entity id="s3.e2" charOffset="125-132"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

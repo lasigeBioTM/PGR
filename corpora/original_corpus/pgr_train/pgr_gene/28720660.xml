@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28720660">
+	<sentence id="s1" text="Galloway-Mowat syndrome (GMS) is an inherited disorder characterized by microcephaly and nephrosis resulting from mutations in the WDR73 gene.">
+		<entity id="s1.e1" charOffset="72-84"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="131-136"
+			type="GENE" text="WDR73" ontology_id="84942"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

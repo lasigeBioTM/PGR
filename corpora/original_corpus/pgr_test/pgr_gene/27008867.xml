@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27008867">
+	<sentence id="s1" text="Bardet Biedl syndrome (BBS) is a multisystem genetically heterogeneous ciliopathy that most commonly leads to obesity, photoreceptor degeneration, digit anomalies, genito-urinary abnormalities, as well as cognitive impairment with autism, among other features.">
+		<entity id="s1.e1" charOffset="23-26"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<entity id="s1.e2" charOffset="231-237"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

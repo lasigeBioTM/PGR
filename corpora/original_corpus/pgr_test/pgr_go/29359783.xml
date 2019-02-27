@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29359783">
+	<sentence id="s1" text="In the present study, the results obtained from our previously published methylation array were analyzed and 10 candidate genes involved in DNA repair [protein phosphatase 4 catalytic subunit (PPP4C)], apoptosis [runt related transcription factor 3 (protein phosphorylation), interferon regulatory factor 4 (IRF4), ubiquitin C-terminal hydrolase L1 (UCHL1) and tumor protein p53 inducible protein 3 (TP53I3)], cell proliferation [cyclin D2 (CCND2) and Ras association domain family member 1 (RASSF1)], drug metabolism [aldehyde dehydrogenase 1 family member A3 (ALDH1A3) and solute carrier family 29 member 1 (neurotransmitter reuptake)] and angiogenesis [human immunodeficiency virus-1 tat interactive protein 2 (HTATIP2)] were selected for quantification of their methylation levels in 54 CCA and 19 adjacent normal tissues using methylation-sensitive high-resolution melting.">
+		<entity id="s1.e1" charOffset="250-273"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="343-348"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="592-617"
+			type="GO" text="neurotransmitter reuptake" ontology_id="GO_0098810"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

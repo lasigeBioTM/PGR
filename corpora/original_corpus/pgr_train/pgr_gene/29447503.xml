@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29447503">
+	<sentence id="s1" text="Estrogen receptor alpha (ERa) and retinoic acid receptors (RARs) play important and opposite roles in breast cancer growth.">
+		<entity id="s1.e1" charOffset="25-28"
+			type="GENE" text="ERa" ontology_id="2099"/>
+		<entity id="s1.e2" charOffset="109-115"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

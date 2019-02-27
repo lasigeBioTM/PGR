@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27007844">
+	<sentence id="s1" text="Individuals with smoothened signaling pathway deletion show symptoms of ADHD, sleep disruption, hypotonia, aggression, ASD, and ID.">
+		<entity id="s1.e1" charOffset="17-45"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<entity id="s1.e2" charOffset="107-117"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="NLS-bearing protein import into nucleus-restricted deletion of smoothened signaling pathway leads to attention deficits and hyperactivity, both of which are rescued by pharmacological augmentation of SK channel activity.">
+		<entity id="s2.e1" charOffset="0-39"
+			type="GO" text="NLS-bearing protein import into nucleus" ontology_id="GO_0006607"/>
+		<entity id="s2.e2" charOffset="27-55"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<entity id="s2.e3" charOffset="88-101"
+			type="HP" text="hyperactivity" ontology_id="HP_0000752"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Global smoothened signaling pathway deletion recapitulates learning impairment, hyper-aggression, and motor defects, all of which are insensitive to SK pharmacological targeting and not found in the NLS-bearing protein import into nucleus-restricted deletion mouse.">
+		<entity id="s3.e1" charOffset="7-35"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<entity id="s3.e2" charOffset="86-96"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<entity id="s3.e3" charOffset="199-238"
+			type="GO" text="NLS-bearing protein import into nucleus" ontology_id="GO_0006607"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

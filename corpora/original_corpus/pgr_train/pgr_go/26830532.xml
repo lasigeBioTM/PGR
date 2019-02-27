@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26830532">
+	<sentence id="s1" text="Genotype-phenotype correlation was clarified after combined analysis of the cases and the literature review; anemia was most severe in HS patients with mutations on the ER to Golgi vesicle-mediated transport spectrin-binding domain (p AAAA 0.05), and MAPK cascade mutations in HS patients spared the tetramerization domain in which mutations of hereditary elliptocytosis and pyropoikilocytosis are located.">
+		<entity id="s1.e1" charOffset="169-207"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="251-263"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e3" charOffset="367-385"
+			type="HP" text="pyropoikilocytosis" ontology_id="HP_0004839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

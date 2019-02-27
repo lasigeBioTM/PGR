@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28629181">
+	<sentence id="s1" text="Although three patients with male gonad development mutations were reported to have hypergonadotropic hypogonadism in their teens, the functional significance of MAMLD1 in the postnatal testis remains unclear.">
+		<entity id="s1.e1" charOffset="29-51"
+			type="GO" text="male gonad development" ontology_id="GO_0008584"/>
+		<entity id="s1.e2" charOffset="102-114"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

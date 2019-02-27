@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620292">
+	<sentence id="s1" text="Nevertheless, it is still ambiguous whether NIBP is involved in the chemoresistance of gastric cancer.">
+		<entity id="s1.e1" charOffset="44-48"
+			type="GENE" text="NIBP" ontology_id="83696"/>
+		<entity id="s1.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of the present study was to investigate the effect of NIBP on chemotherapy resistance of gastric cancer (GC) and to research the mechanisms of Ginkgo biloba extract 761 (EGb 761R) on reversing chemoresistence which has been confirmed in our previous study.">
+		<entity id="s2.e1" charOffset="62-66"
+			type="GENE" text="NIBP" ontology_id="83696"/>
+		<entity id="s2.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the present study, the results of immumohistochemisty revealed that the positive staining rates of NIBP, NF-kB p65 and NF-kB p-p65 in gastric cancer tissues were obviously higher than those in normal tissues.">
+		<entity id="s3.e1" charOffset="102-106"
+			type="GENE" text="NIBP" ontology_id="83696"/>
+		<entity id="s3.e2" charOffset="108-110"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s3.e3" charOffset="114-117"
+			type="GENE" text="p65" ontology_id="5970"/>
+		<entity id="s3.e4" charOffset="145-151"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, a close correlation was found to exist between the expression of NIBP and NF-kB p65 (p-p65) in gastric cancer tissues.">
+		<entity id="s4.e1" charOffset="87-89"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s4.e2" charOffset="93-96"
+			type="GENE" text="p65" ontology_id="5970"/>
+		<entity id="s4.e3" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Moreover, the overexpression of NIBP was closely related to tumor differentiation, depth of invasion, clinical stage and lymphatic metastasis in gastric cancer.">
+		<entity id="s5.e1" charOffset="32-36"
+			type="GENE" text="NIBP" ontology_id="83696"/>
+		<entity id="s5.e2" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Western blot analysis, real-time PCR, MTT assay and flow cytometric analysis were performed and the results demonstrated that compared with the gastric cancer SGC-7901 cells, the expression of NIBP, NF-kB p65, NF-kB p-p65 and mesenchymal marker vimentin were significantly increased in gastric cancer multidrug-resistant SGC-7901/CDDP cells, and the epithelial cell marker ZO-1 was significantly decreased.">
+		<entity id="s6.e1" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="159-162"
+			type="GENE" text="SGC" ontology_id="6443"/>
+		<entity id="s6.e3" charOffset="193-197"
+			type="GENE" text="NIBP" ontology_id="83696"/>
+		<entity id="s6.e4" charOffset="199-201"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s6.e5" charOffset="205-208"
+			type="GENE" text="p65" ontology_id="5970"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e5" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p4" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Altogether, these data indicate that the NIBP-regulated NF-kB signaling pathway plays a pivotal role in the chemoresistance of gastric cancer by promoting CD133-induced EMT">
+		<entity id="s7.e1" charOffset="41-45"
+			type="GENE" text="NIBP" ontology_id="83696"/>
+		<entity id="s7.e2" charOffset="56-58"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s7.e3" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e4" charOffset="155-160"
+			type="GENE" text="CD133" ontology_id="8842"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p3" e1="s7.e3"
+		    e2="s7.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Moreover, the overexpression of NIBP was closely related to tumor differentiation, depth of invasion, clinical stage and lymphatic metastasis in gastric cancer.">
+		<entity id="s8.e1" charOffset="32-36"
+			type="GENE" text="NIBP" ontology_id="83696"/>
+		<entity id="s8.e2" charOffset="153-159"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

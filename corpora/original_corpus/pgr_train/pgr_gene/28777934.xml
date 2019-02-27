@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28777934">
+	<sentence id="s1" text="Here, we report that variants in TRAPPC12 result in progressive childhood encephalopathy.">
+		<entity id="s1.e1" charOffset="33-41"
+			type="GENE" text="TRAPPC12" ontology_id="51112"/>
+		<entity id="s1.e2" charOffset="74-88"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

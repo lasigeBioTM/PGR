@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28450710">
+	<sentence id="s1" text="This included identification of: complex ocular phenotypes due to two novel positive regulation of transcription, DNA-templated mutations; progressive cortical cataract and lamellar cataract with lens subluxation due to two novel morphogenesis of an epithelium mutations.">
+		<entity id="s1.e1" charOffset="76-127"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e2" charOffset="160-168"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e3" charOffset="230-260"
+			type="GO" text="morphogenesis of an epithelium" ontology_id="GO_0002009"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

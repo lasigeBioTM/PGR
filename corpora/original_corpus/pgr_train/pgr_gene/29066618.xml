@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29066618">
+	<sentence id="s1" text="The anti-miR-663 reduced OXPHOS complex activity and increased in vitro cellular proliferation and promoted tumor development in vivo in mice.">
+		<entity id="s1.e1" charOffset="9-12"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="13-16"
+			type="GENE" text="663" ontology_id="55558"/>
+		<entity id="s1.e3" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also found that increased miR-663 expression in breast tumors consistently correlates with increased patient survival.">
+		<entity id="s2.e1" charOffset="29-32"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="33-36"
+			type="GENE" text="663" ontology_id="55558"/>
+		<entity id="s2.e3" charOffset="58-63"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We provide the first evidence for miRNA controlling retrograde signaling, demonstrating its epigenetic regulation and its role in breast tumorigenesis">
+		<entity id="s3.e1" charOffset="34-37"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="137-142"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

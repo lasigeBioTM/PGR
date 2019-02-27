@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29136674">
+	<sentence id="s1" text="4) Multiple endocrine neoplasia type 2A from regulation of cell adhesion activating mutation rarely presents as familial hyperparathyroidism, because medullary thyroid cancer and pheochromocytoma are more prominent.">
+		<entity id="s1.e1" charOffset="22-31"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="45-72"
+			type="GO" text="regulation of cell adhesion" ontology_id="GO_0030155"/>
+		<entity id="s1.e3" charOffset="121-140"
+			type="HP" text="hyperparathyroidism" ontology_id="HP_0000843"/>
+		<entity id="s1.e4" charOffset="168-174"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="179-195"
+			type="HP" text="pheochromocytoma" ontology_id="HP_0002666"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Five of the PHPT syndromes reflect overgrowth of parathyroid tissue; in contrast, familial hypocalciuric hypercalcemia reflects dysregulation of negative regulation of transcription by RNA polymerase II secretion with little or no parathyroid overgrowth.">
+		<entity id="s2.e1" charOffset="105-118"
+			type="HP" text="hypercalcemia" ontology_id="HP_0003072"/>
+		<entity id="s2.e2" charOffset="145-202"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

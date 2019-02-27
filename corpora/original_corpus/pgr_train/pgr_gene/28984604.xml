@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28984604">
+	<sentence id="s1" text="Whole exome sequencing identified a truncating pathogenic variant in IQSEC2 at NM_001111125.2: c.2679_2680insA, p.(D894fs*10), a recently identified cause of epileptic encephalopathy in females (MIM 300522).">
+		<entity id="s1.e1" charOffset="69-75"
+			type="GENE" text="IQSEC2" ontology_id="23096"/>
+		<entity id="s1.e2" charOffset="168-182"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

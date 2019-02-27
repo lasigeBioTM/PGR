@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29505581">
+	<sentence id="s1" text="At least some protein foldingB isoforms are of vital importance for the nervous system, since cellular calcium ion homeostasis and cellular calcium ion homeostasis are linked to respectively Parkinson disease and autism spectrum disorders">
+		<entity id="s1.e1" charOffset="14-29"
+			type="GO" text="protein folding" ontology_id="GO_0006457"/>
+		<entity id="s1.e2" charOffset="94-126"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s1.e3" charOffset="131-163"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s1.e4" charOffset="163-169"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

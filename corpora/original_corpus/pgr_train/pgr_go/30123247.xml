@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30123247">
+	<sentence id="s1" text="protein autophosphorylation is expressed in cochlear hair cells and retinal cells and is responsible for human recessive hereditary nonsyndromic deafness (protein autophosphorylation).">
+		<entity id="s1.e1" charOffset="0-27"
+			type="GO" text="protein autophosphorylation" ontology_id="GO_0046777"/>
+		<entity id="s1.e2" charOffset="145-153"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="155-182"
+			type="GO" text="protein autophosphorylation" ontology_id="GO_0046777"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To investigate the mechanism of protein autophosphorylation-type deafness, we established a mouse model of Myo3a kinase domain Y137C mutation by using CRISPR/Cas9 system.">
+		<entity id="s2.e1" charOffset="32-59"
+			type="GO" text="protein autophosphorylation" ontology_id="GO_0046777"/>
+		<entity id="s2.e2" charOffset="65-73"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This mouse line is an excellent model for studying protein autophosphorylation-type deafness in humans">
+		<entity id="s3.e1" charOffset="51-78"
+			type="GO" text="protein autophosphorylation" ontology_id="GO_0046777"/>
+		<entity id="s3.e2" charOffset="84-92"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="To investigate the mechanism of DFNB30-type deafness, we established a mouse model of protein autophosphorylation kinase domain Y137C mutation by using CRISPR/Cas9 system.">
+		<entity id="s4.e1" charOffset="44-52"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s4.e2" charOffset="86-113"
+			type="GO" text="protein autophosphorylation" ontology_id="GO_0046777"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

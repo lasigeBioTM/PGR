@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29679755">
+	<sentence id="s1" text="In this study, we found XIST expresmelanosome organizationon level was upregulated in colon cancer tissues and cell lines.">
+		<entity id="s1.e1" charOffset="35-58"
+			type="GO" text="melanosome organization" ontology_id="GO_0032438"/>
+		<entity id="s1.e2" charOffset="92-98"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In short, the current study suggests XIST plays as an important role in colon cancer progresmelanosome organizationon targeted by protein polyubiquitination-34a via Wnt/b-catenin signaling pathway, providing a novel insight for the pathogenesis and underlying therapeutic target for colon cancer">
+		<entity id="s2.e1" charOffset="78-84"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="92-115"
+			type="GO" text="melanosome organization" ontology_id="GO_0032438"/>
+		<entity id="s2.e3" charOffset="130-156"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

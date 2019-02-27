@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30213970">
+	<sentence id="s1" text="Analysis of the expression of the central protein acetylation genes over a 24-36 hour period in multiple peripheral tissues including fracture callus, proximal tibia growth plate and cardiac tissues after 12 days on a low phosphate diet showed higher levels of gene expression in the hypophosphatemia groups (p AAAA 0.001) and a 3 to 6 hour elongation of the circadian cycle.">
+		<entity id="s1.e1" charOffset="42-61"
+			type="GO" text="protein acetylation" ontology_id="GO_0006473"/>
+		<entity id="s1.e2" charOffset="284-300"
+			type="HP" text="hypophosphatemia" ontology_id="HP_0002148"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

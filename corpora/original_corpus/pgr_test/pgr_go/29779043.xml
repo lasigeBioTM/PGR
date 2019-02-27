@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29779043">
+	<sentence id="s1" text="Loss of negative regulation of transcription by RNA polymerase II function in humans and mice leads to the development of several pathologies, including neonatal diabetes and congenital hypothyroidism, polycystic kidney disease, and infertility.">
+		<entity id="s1.e1" charOffset="8-65"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="186-200"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

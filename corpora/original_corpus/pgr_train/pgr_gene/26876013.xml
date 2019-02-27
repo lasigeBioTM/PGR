@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26876013">
+	<sentence id="s1" text="Here we show that the microphthalmia-associated transcription factor, MITF, which plays a central role in the development and function of RPE cells, regulates the expression of two visual cycle genes, Rlbp1 which encodes retinaldehyde binding protein-1 (RLBP1), and Rdh5, which encodes retinol dehydrogenase-5 (RDH5).">
+		<entity id="s1.e1" charOffset="22-36"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e2" charOffset="70-74"
+			type="GENE" text="MITF" ontology_id="4286"/>
+		<entity id="s1.e3" charOffset="138-141"
+			type="GENE" text="RPE" ontology_id="6120"/>
+		<entity id="s1.e4" charOffset="201-206"
+			type="GENE" text="Rlbp1" ontology_id="6017"/>
+		<entity id="s1.e5" charOffset="254-259"
+			type="GENE" text="RLBP1" ontology_id="6017"/>
+		<entity id="s1.e6" charOffset="266-270"
+			type="GENE" text="Rdh5" ontology_id="5959"/>
+		<entity id="s1.e7" charOffset="311-315"
+			type="GENE" text="RDH5" ontology_id="5959"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Third, the retinal degeneration associated with the disruption of the visual cycle in Mitf-deficient mice can be partially corrected both structurally and functionally by an exogenous supply of 9-cis-retinal.">
+		<entity id="s2.e1" charOffset="11-31"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e2" charOffset="86-90"
+			type="GENE" text="Mitf" ontology_id="4286"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

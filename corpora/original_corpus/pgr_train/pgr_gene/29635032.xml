@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29635032">
+	<sentence id="s1" text="Several missense mutations in intestinal cell kinase (ICK) gene lead to endocrine-cerebro-osteodysplasia syndrome or short rib-polydactyly syndrome, lethal recessive developmental ciliopathies.">
+		<entity id="s1.e1" charOffset="54-57"
+			type="GENE" text="ICK" ontology_id="22858"/>
+		<entity id="s1.e2" charOffset="127-138"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

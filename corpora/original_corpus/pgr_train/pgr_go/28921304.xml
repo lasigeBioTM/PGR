@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28921304">
+	<sentence id="s1" text="In the present study, with the aim of reducing the cost of utilizing growth factors in cancer research, a simple and efficient method for the preparation of recombinant human (rh)positive regulation of cell proliferation in Escherichia coli was established.">
+		<entity id="s1.e1" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="179-220"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The positive regulation of cell proliferation subfamily, including FGF9, FGF16, and FGF20, in addition to rhFGF16, rhFGF9, and rhFGF20, were shown to stimulate the proliferation and migration of HuH7 human hepatocellular carcinoma (HCC) cells.">
+		<entity id="s2.e1" charOffset="4-45"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e2" charOffset="206-230"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

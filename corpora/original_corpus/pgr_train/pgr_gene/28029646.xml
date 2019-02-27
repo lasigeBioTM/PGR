@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28029646">
+	<sentence id="s1" text="Bhlha9-knockout mice showed syndactyly and poliosis in the limb.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="Bhlha9" ontology_id="727857"/>
+		<entity id="s1.e2" charOffset="28-38"
+			type="HP" text="syndactyly" ontology_id="HP_0001159"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29264679">
+	<sentence id="s1" text="These findings link cell adhesion deficiency to obesity and hypertension">
+		<entity id="s1.e1" charOffset="20-33"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s1.e2" charOffset="48-55"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

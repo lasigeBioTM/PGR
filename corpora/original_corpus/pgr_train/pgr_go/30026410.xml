@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30026410">
+	<sentence id="s1" text="A number of studies report that miRNAs are involved in homeostatic maintenance such as cell cycle regulation, cell division and apoptosis, and that aberrant expression of miRNAs is often detected in various types of diprotein glycosylationases, including cancer.">
+		<entity id="s1.e1" charOffset="218-239"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s1.e2" charOffset="255-261"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In cancer biology, miRNAs play functional roles in tumor protein glycosylationeding, drug sensitivity, and metastasis.">
+		<entity id="s2.e1" charOffset="51-56"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="57-78"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="MiRNAs are also protein glycosylationcreted through the small vesicles called exosomes, which are endosome-derived vesicles from various cell types including immune and tumor cells.">
+		<entity id="s3.e1" charOffset="16-37"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s3.e2" charOffset="169-174"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In addition to cellular miRNAs, protein glycosylationcreted miRNAs also play important roles in cancer development and metastasis.">
+		<entity id="s4.e1" charOffset="32-53"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s4.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Therefore, protein glycosylationcreted miRNAs in body fluids have been investigated as a promising biomarkers and therapeutic targets for the treatment of cancer patients.">
+		<entity id="s5.e1" charOffset="11-32"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<entity id="s5.e2" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In this review, we introduce the current knowledge of miRNA functions in cancer development and discuss the clinical applications of protein glycosylation-miRNAs, eg, as diagnostic markers and therapeutic targets">
+		<entity id="s6.e1" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="133-154"
+			type="GO" text="protein glycosylation" ontology_id="GO_0006486"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

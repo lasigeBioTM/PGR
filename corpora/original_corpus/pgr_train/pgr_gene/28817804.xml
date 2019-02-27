@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28817804">
+	<sentence id="s1" text="An accurate spatial and temporal control of NL-NRX signaling is crucial to balance excitatory and inhibitory neurotransmission, and perturbations are linked with neurodevelopmental and psychiatric disorders.">
+		<entity id="s1.e1" charOffset="47-50"
+			type="GENE" text="NRX" ontology_id="64359"/>
+		<entity id="s1.e2" charOffset="185-206"
+			type="HP" text="psychiatric disorders" ontology_id="HP_0000708"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Structural analyses guided the discovery of a broad, splicing-modulated interaction network between MDGA and NL family members and helped rationalize the impact of autism-linked mutations.">
+		<entity id="s2.e1" charOffset="154-160"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s2.e2" charOffset="164-170"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

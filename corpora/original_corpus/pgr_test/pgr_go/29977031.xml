@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29977031">
+	<sentence id="s1" text="Schnyder corneal dystrophy (quaternary ammonium group transport) is a rare autosomal dominant disease in humans, characterized by abnormal deposition of cholesterol and phospholipids in cornea caused by mutations in the UbiA prenyltransferase domain containing 1 (vitamin K biosynthetic process) gene.">
+		<entity id="s1.e1" charOffset="9-26"
+			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
+		<entity id="s1.e2" charOffset="28-63"
+			type="GO" text="quaternary ammonium group transport" ontology_id="GO_0015697"/>
+		<entity id="s1.e3" charOffset="264-294"
+			type="GO" text="vitamin K biosynthetic process" ontology_id="GO_0042371"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

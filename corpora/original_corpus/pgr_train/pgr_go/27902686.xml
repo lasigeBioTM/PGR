@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27902686">
+	<sentence id="s1" text="These include an enhancer in an ataxia telangiectasia mutated (protein phosphorylation) intron that has SNPs in linkage disequilibrium with a metformin treatment response GWAS lead SNP (rs11212617) that showed increased enhancer activity for the associated haplotype.">
+		<entity id="s1.e1" charOffset="32-38"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="63-86"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

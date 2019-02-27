@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620211">
+	<sentence id="s1" text="Microrchidia 2 (MORC2) is important in DNA damage repair and lipogenesis, however, the clinical and functional role of MORC2 in liver cancer remains to be fully elucidated.">
+		<entity id="s1.e1" charOffset="16-21"
+			type="GENE" text="MORC2" ontology_id="22880"/>
+		<entity id="s1.e2" charOffset="134-140"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim the present study was to clarify the role of MORC2 in liver cancer.">
+		<entity id="s2.e1" charOffset="53-58"
+			type="GENE" text="MORC2" ontology_id="22880"/>
+		<entity id="s2.e2" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Expression profile analysis, immunohistochemical staining, reverse transcription-quantitative polymerase chain reaction analysis and western blot analysis were performed to evaluate the levels of MORC2 in liver cancer patient specimens and cell lines; subsequently the expression of MORC2 was suppressed or increased in liver cancer cells and the effects of MORC2 on the cancerous transformation of liver cancer cells were examined in vitro and in vivo.">
+		<entity id="s3.e1" charOffset="196-201"
+			type="GENE" text="MORC2" ontology_id="22880"/>
+		<entity id="s3.e2" charOffset="211-217"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="MORC2 was upregulated in liver cancer tissues, and the upregulation was associated with certain clinicopathologic features of patients with liver cancer.">
+		<entity id="s4.e1" charOffset="0-5"
+			type="GENE" text="MORC2" ontology_id="22880"/>
+		<entity id="s4.e2" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="MORC2 knockdown caused marked inhibition of liver cancer cell proliferation and clonogenicity, whereas the overexpression of MORC2 substantially promoted liver cancer cell proliferation.">
+		<entity id="s5.e1" charOffset="0-5"
+			type="GENE" text="MORC2" ontology_id="22880"/>
+		<entity id="s5.e2" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In a model of nude mice, the overexpression of MORC2 promoted tumorigenicity and markedly enhanced pulmonary metastasis of liver cancer.">
+		<entity id="s6.e1" charOffset="47-52"
+			type="GENE" text="MORC2" ontology_id="22880"/>
+		<entity id="s6.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="For the first time, to the best of our knowledge, the present study confirmed that MORC2 was a novel oncogene in liver cancer.">
+		<entity id="s7.e1" charOffset="83-88"
+			type="GENE" text="MORC2" ontology_id="22880"/>
+		<entity id="s7.e2" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29280744">
+	<sentence id="s1" text="Traditionally, idiopathic hypogonadotropic hypogonadism (smoothened signaling pathway) is divided into two major categories: Kallmann syndrome (KS) and normosmic IHH (nIHH).">
+		<entity id="s1.e1" charOffset="43-55"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<entity id="s1.e2" charOffset="57-85"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In a clinical sense, recognizing those smoothened signaling pathway genes and associated phenotypes may improve our diagnostic capabilities by enabling us to prioritize the screening of particular gene(s) such as synkinesia (chemotaxis), dental agenesis (FGF8/FGFR1) and hearing loss (skeletal system development).">
+		<entity id="s2.e1" charOffset="39-67"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<entity id="s2.e2" charOffset="225-235"
+			type="GO" text="chemotaxis" ontology_id="GO_0006935"/>
+		<entity id="s2.e3" charOffset="233-248"
+			type="HP" text="dental agenesis" ontology_id="HP_0000674"/>
+		<entity id="s2.e4" charOffset="246-258"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e5" charOffset="285-312"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e8"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

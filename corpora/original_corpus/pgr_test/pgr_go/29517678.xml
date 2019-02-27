@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29517678">
+	<sentence id="s1" text="Gene set enrichment analysis was conducted to study the relevant mechanisms.Bladder cancer patients in negative regulation of endodermal cell differentiation low expression group were associated with better invasiveness (P AAAA .0001), tumor grade (P = .001), T staging (P AAAA .0001), N staging (P = .002), cancer specific survival (P AAAA .0001), overall survival (P AAAA .0001), and a trend of better M staging (P = .053) than those in COL5A2 high expression group.COL5A2 might affect the progression of bladder cancer through AAAAAACoagulation,AAAAAA AAAAAAHypoxia,AAAAAA AAAAAAApical junction,AAAAAA AAAAAAUltraviolet response,AAAAAA AAAAAAEpithelial mesenchymal transition,AAAAAA AAAAAAAngiogenesis,AAAAAA AAAAAAKRAS (KRAS proto-oncogene, GTPase) signaling,AAAAAAComplement,AAAAAAIL2-STAT5-signaling,AAAAAA AAAAAAInflammatory response,AAAAAA AAAAAAIL6-JAK-STAT3-signaling,AAAAAA AAAAAAMyogenesis,AAAAAA AAAAAATNF a signaling,AAAAAA AAAAAAApoptosis,AAAAAA and AAAAAAHedgehog-signaling.AAAAA;Our results demonstrated that COL5A2 was correlated with poor clinical outcomes and survivals of patients with bladder cancer, suggesting that it could be regarded as a biomarker of bladder cancer">
+		<entity id="s1.e1" charOffset="84-90"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="103-157"
+			type="GO" text="negative regulation of endodermal cell differentiation" ontology_id="GO_1903225"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

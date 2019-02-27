@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26813108">
+	<sentence id="s1" text="We find mutually exclusive associations between EECTGs and somatic mutations in mutated genes, such as PIK3CA in breast cancer.">
+		<entity id="s1.e1" charOffset="103-109"
+			type="GENE" text="PIK3CA" ontology_id="5290"/>
+		<entity id="s1.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We show that the meiosis-related EECTG (MEIOB) and its nearby CT-ncRNA have a role in tumorigenesis in lung adenocarcinoma.">
+		<entity id="s2.e1" charOffset="40-45"
+			type="GENE" text="MEIOB" ontology_id="254528"/>
+		<entity id="s2.e2" charOffset="103-122"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28677795">
+	<sentence id="s1" text="In addition, silencing of positive regulation of transcription by RNA polymerase II markedly increased the apoptosis of PCa cells in vitro, and decreased the expression of IL-8, AT2R, G1/S transition of mitotic cell cycle and proteolysis which are associated with cancer progression.">
+		<entity id="s1.e1" charOffset="26-83"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="184-221"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e3" charOffset="225-231"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="226-237"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

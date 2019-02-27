@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29986841">
+	<sentence id="s1" text="We conducted a case-control study within the Hispanic Community Health Study/Study of Latinos to investigate whether sleep disordered breathing, as a model of hypoxemia, is independently associated with elevated cFGF23 levels in the general population and with elevated cFGF23 and iFGF23 levels in patients with chronic kidney disease (CKD), in whom FGF23 cleavage may be impaired.">
+		<entity id="s1.e1" charOffset="159-168"
+			type="HP" text="hypoxemia" ontology_id="HP_0012418"/>
+		<entity id="s1.e2" charOffset="213-218"
+			type="GENE" text="FGF23" ontology_id="8074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

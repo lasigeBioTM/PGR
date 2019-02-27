@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29066618">
+	<sentence id="s1" text="The anti-protein polyubiquitination-negative regulation of cell adhesion reduced OXPHOS complex activity and increased in vitro cellular proliferation and promoted tumor development in vivo in mice.">
+		<entity id="s1.e1" charOffset="9-35"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="36-72"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e3" charOffset="131-136"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also found that increased protein polyubiquitination-negative regulation of cell adhesion expression in breast tumors consistently correlates with increased patient survival.">
+		<entity id="s2.e1" charOffset="29-55"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="56-92"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s2.e3" charOffset="81-86"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We provide the first evidence for protein polyubiquitinationNA controlling retrograde signaling, demonstrating its epigenetic regulation and its role in breast tumorigenesis">
+		<entity id="s3.e1" charOffset="34-60"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

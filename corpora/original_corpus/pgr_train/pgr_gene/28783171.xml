@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28783171">
+	<sentence id="s1" text="The PDGFRa-LAMB1 pathway supports tumor progression at the invasive front of human HCC through K19 expression">
+		<entity id="s1.e1" charOffset="4-10"
+			type="GENE" text="PDGFRa" ontology_id="5156"/>
+		<entity id="s1.e2" charOffset="11-16"
+			type="GENE" text="LAMB1" ontology_id="3912"/>
+		<entity id="s1.e3" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

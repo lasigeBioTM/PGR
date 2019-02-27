@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29979435">
+	<sentence id="s1" text="Although univariate analysis showed that tumor size (P = .012), grade (Z = -2.114, P = .034), and peritumoral enhancement (x = 4.464, P = .035) were associated with MVI, multiple logistic regression analysis showed that capsular invasion (odds ratio [OR] = 23.469, P AAAA .001), margins (OR = 6.751, P AAAA .001), and serum post-translational protein modification level (OR = 1.001, P = .038) were associated with MVI in HCC (P AAAA .05).">
+		<entity id="s1.e1" charOffset="41-46"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="324-363"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Radiographic hepatic capsular invasion and nonsmooth tumor margins identified by preoperative CT images, along with post-translational protein modification levels greater than 232.2 ng/mL, are important predictors of MVI">
+		<entity id="s2.e1" charOffset="53-58"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="116-155"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

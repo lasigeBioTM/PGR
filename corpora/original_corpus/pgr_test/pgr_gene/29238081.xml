@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29238081">
+	<sentence id="s1" text="In the present study, PNPO expression in human ovarian tumour tissue and its association with the clinicopathological features of patients with EOC were examined.">
+		<entity id="s1.e1" charOffset="22-26"
+			type="GENE" text="PNPO" ontology_id="55163"/>
+		<entity id="s1.e2" charOffset="55-61"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

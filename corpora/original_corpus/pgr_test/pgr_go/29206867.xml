@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29206867">
+	<sentence id="s1" text="Taken together, our study provides the first functional link between cell volume homeostasis and obesity, and presents insight into novel pathways that could be applied to combat obesity and type 2 diabetes">
+		<entity id="s1.e1" charOffset="69-92"
+			type="GO" text="cell volume homeostasis" ontology_id="GO_0006884"/>
+		<entity id="s1.e2" charOffset="97-104"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

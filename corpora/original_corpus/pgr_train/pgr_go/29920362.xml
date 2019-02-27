@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29920362">
+	<sentence id="s1" text="In this report we describe a female child with global developmental delay, microcephaly and myoclonic seizures harbouring a 5 Mb deletion in 14q12 locus resulting in deletion of single copy of brain specific genes negative regulation of transcription, DNA-templated, protein phosphorylation and negative regulation of cold-induced thermogenesis.">
+		<entity id="s1.e1" charOffset="54-73"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="75-87"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="102-110"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="214-265"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e5" charOffset="267-290"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e6" charOffset="277-326"
+			type="GO" text="negative regulation of cold-induced thermogenesis" ontology_id="GO_0120163"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e11"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e11"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

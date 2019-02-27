@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29512694">
+	<sentence id="s1" text="In addition, the analysis of upstream protein polyubiquitinationNAs showed that FOXF1 adjacent non-coding developmental regulatory RNA (FENDRR) had common upstream miRNAs, including miR-18b-5p, with another 119 differentially expressed genes, and that FENDRR was co-expressed with adenomatosis polyposis coli downregulated 1 (negative regulation of Wnt signaling pathway) and v-activation of MAPK activity Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog (activation of MAPK activity).">
+		<entity id="s1.e1" charOffset="38-64"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="326-370"
+			type="GO" text="negative regulation of Wnt signaling pathway" ontology_id="GO_0030178"/>
+		<entity id="s1.e3" charOffset="369-376"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e4" charOffset="378-405"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e5" charOffset="463-490"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29505581">
+	<sentence id="s1" text="At least some P5B isoforms are of vital importance for the nervous system, since ATP13A2 and ATP13A4 are linked to respectively Parkinson disease and autism spectrum disorders">
+		<entity id="s1.e1" charOffset="14-16"
+			type="GENE" text="P5" ontology_id="10130"/>
+		<entity id="s1.e2" charOffset="81-88"
+			type="GENE" text="ATP13A2" ontology_id="23400"/>
+		<entity id="s1.e3" charOffset="93-100"
+			type="GENE" text="ATP13A4" ontology_id="84239"/>
+		<entity id="s1.e4" charOffset="150-156"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

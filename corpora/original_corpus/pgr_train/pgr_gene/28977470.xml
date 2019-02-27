@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28977470">
+	<sentence id="s1" text="We observed overexpression and increased intra-nuclear accumulation of the PRMT5/WDR77 in breast cancer cell lines relative to immortalized breast epithelial cells.">
+		<entity id="s1.e1" charOffset="81-86"
+			type="GENE" text="WDR77" ontology_id="79084"/>
+		<entity id="s1.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We observed that the alternatively spliced transcripts of a subset of these genes, involved in proliferation and tumor cell migration like REPIN1/AP4, ST3GAL6, TRNAU1AP and PFKM are degraded upon loss of PRMT5.">
+		<entity id="s2.e1" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="139-145"
+			type="GENE" text="REPIN1" ontology_id="29803"/>
+		<entity id="s2.e3" charOffset="146-149"
+			type="GENE" text="AP4" ontology_id="29803"/>
+		<entity id="s2.e4" charOffset="151-158"
+			type="GENE" text="ST3GAL6" ontology_id="10402"/>
+		<entity id="s2.e5" charOffset="160-168"
+			type="GENE" text="TRNAU1AP" ontology_id="54952"/>
+		<entity id="s2.e6" charOffset="173-177"
+			type="GENE" text="PFKM" ontology_id="5213"/>
+		<entity id="s2.e7" charOffset="204-209"
+			type="GENE" text="PRMT5" ontology_id="10419"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

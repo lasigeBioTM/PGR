@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28298635">
+	<sentence id="s1" text="Six novel CRYGC mutations (p.Asp65ThrfsX38, p.Arg142GlyfsX5, p.Arg142AlafsX22, p.Tyr144X, p.Arg169X, and p.Tyr46Asp) were identified in other six families with congenital nuclear cataracts, respectively.">
+		<entity id="s1.e1" charOffset="10-15"
+			type="GENE" text="CRYGC" ontology_id="1420"/>
+		<entity id="s1.e2" charOffset="179-187"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

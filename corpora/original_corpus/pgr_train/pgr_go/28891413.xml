@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28891413">
+	<sentence id="s1" text="Post-infectious glomerulonephritis (GPI anchor biosynthetic process) is one of the most common causes of acute glomerulonephritis in children.">
+		<entity id="s1.e1" charOffset="25-34"
+			type="HP" text="nephritis" ontology_id="HP_0000123"/>
+		<entity id="s1.e2" charOffset="36-67"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Although post-streptococcal glomerulonephritis (PSGN) is still common, there is a wide spectrum of causative agents of GPI anchor biosynthetic process.">
+		<entity id="s2.e1" charOffset="37-46"
+			type="HP" text="nephritis" ontology_id="HP_0000123"/>
+		<entity id="s2.e2" charOffset="119-150"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The clinical presentation of GPI anchor biosynthetic process varies from a benign asymptomatic condition to rapidly progressive glomerulonephritis requiring dialysis.">
+		<entity id="s3.e1" charOffset="29-60"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s3.e2" charOffset="137-146"
+			type="HP" text="nephritis" ontology_id="HP_0000123"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="IgA-dominant nephritis, endocarditis-associated nephritis and shunt nephritis are special sub-subtypes of GPI anchor biosynthetic process.">
+		<entity id="s4.e1" charOffset="13-22"
+			type="HP" text="nephritis" ontology_id="HP_0000123"/>
+		<entity id="s4.e2" charOffset="24-36"
+			type="HP" text="endocarditis" ontology_id="HP_0100584"/>
+		<entity id="s4.e3" charOffset="106-137"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29222283">
+	<sentence id="s1" text="In particular, MYH9 mutations result in congenital macrothrombocytopenia and predispose to kidney failure, hearing loss, and cataracts, MPL and MECOM mutations cause congenital thrombocytopenia evolving into bone marrow failure, whereas thrombocytopenias caused by RUNX1, ANKRD26, and ETV6 mutations are characterized by predisposition to hematological malignancies.">
+		<entity id="s1.e1" charOffset="15-19"
+			type="GENE" text="MYH9" ontology_id="4627"/>
+		<entity id="s1.e2" charOffset="51-72"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<entity id="s1.e3" charOffset="107-119"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="125-134"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e5" charOffset="136-139"
+			type="GENE" text="MPL" ontology_id="4352"/>
+		<entity id="s1.e6" charOffset="144-149"
+			type="GENE" text="MECOM" ontology_id="2122"/>
+		<entity id="s1.e7" charOffset="265-270"
+			type="GENE" text="RUNX1" ontology_id="861"/>
+		<entity id="s1.e8" charOffset="272-279"
+			type="GENE" text="ANKRD26" ontology_id="22852"/>
+		<entity id="s1.e9" charOffset="285-289"
+			type="GENE" text="ETV6" ontology_id="2120"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e13"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e13"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e20"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e20"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e20"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e20"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e13"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e13"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e13"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+</document>

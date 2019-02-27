@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28556291">
+	<sentence id="s1" text="Genes with DMRs were involved in inflammatory response (IRAK4 and ESM1), cancer (BRCA1 and LASP1), endocrine function (CNPY1), and male fertility (IFT140, TESC, and PRDM8).">
+		<entity id="s1.e1" charOffset="56-61"
+			type="GENE" text="IRAK4" ontology_id="51135"/>
+		<entity id="s1.e2" charOffset="66-70"
+			type="GENE" text="ESM1" ontology_id="11082"/>
+		<entity id="s1.e3" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="81-86"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s1.e5" charOffset="91-96"
+			type="GENE" text="LASP1" ontology_id="3927"/>
+		<entity id="s1.e6" charOffset="119-124"
+			type="GENE" text="CNPY1" ontology_id="285888"/>
+		<entity id="s1.e7" charOffset="165-170"
+			type="GENE" text="PRDM8" ontology_id="56978"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

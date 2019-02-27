@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29902078">
+	<sentence id="s1" text="The role of leukemia inhibitory factor receptor (LIFR), which is important in the signal transduction of the interleukin-6 cytokine family, is still undefined in clear cell renal cell carcinoma (ccRCC).">
+		<entity id="s1.e1" charOffset="49-53"
+			type="GENE" text="LIFR" ontology_id="3977"/>
+		<entity id="s1.e2" charOffset="162-193"
+			type="HP" text="clear cell renal cell carcinoma" ontology_id="HP_0006770"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Low LIFR expression correlated with a poor prognosis and an aggressive tumor phenotype.">
+		<entity id="s2.e1" charOffset="4-8"
+			type="GENE" text="LIFR" ontology_id="3977"/>
+		<entity id="s2.e2" charOffset="71-76"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Conversely, YAP inhibition impaired the LIFR-silencing promotion of cell migration, invasion, and cancer stem cell marker expression.">
+		<entity id="s3.e1" charOffset="40-44"
+			type="GENE" text="LIFR" ontology_id="3977"/>
+		<entity id="s3.e2" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Moreover, drug sensitivity analysis and the Cancer Cell Line Encyclopedia database revealed that LIFR-deficient cells had high sensitivity to a YAP inhibitor and to two other anticancer drugs (PHA-665752, PF2341066).">
+		<entity id="s4.e1" charOffset="97-101"
+			type="GENE" text="LIFR" ontology_id="3977"/>
+		<entity id="s4.e2" charOffset="179-185"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our study revealed that LIFR attenuates tumor metastasis by suppressing YAP expression, suggesting that LIFR may serve as a potential target for ccRCC treatment">
+		<entity id="s5.e1" charOffset="24-28"
+			type="GENE" text="LIFR" ontology_id="3977"/>
+		<entity id="s5.e2" charOffset="40-45"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

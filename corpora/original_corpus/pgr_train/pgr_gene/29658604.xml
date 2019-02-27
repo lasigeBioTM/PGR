@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29658604">
+	<sentence id="s1" text="The aberrant expression or alteration of microRNAs (miRNAs/miRs) contributes to the development and progression of cancer.">
+		<entity id="s1.e1" charOffset="52-55"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, the functions of miR-96-5p in hepatocellular carcinoma (HCC) were investigated.">
+		<entity id="s2.e1" charOffset="39-42"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="52-76"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

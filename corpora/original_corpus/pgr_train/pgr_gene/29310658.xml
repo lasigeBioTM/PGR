@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29310658">
+	<sentence id="s1" text="Among these genes, mutations in VCP gene involve in inclusion body myopathy with Paget disease of bone and frontotemporal dementia (IBMPFD), familial amyotrophic lateral sclerosis (ALS), autism spectrum disorders (ASD), and hereditary spastic paraplegia (HSP).">
+		<entity id="s1.e1" charOffset="32-35"
+			type="GENE" text="VCP" ontology_id="7415"/>
+		<entity id="s1.e2" charOffset="107-130"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<entity id="s1.e3" charOffset="187-193"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

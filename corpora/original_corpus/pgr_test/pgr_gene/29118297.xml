@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29118297">
+	<sentence id="s1" text="In conclusion, overexpression of the DTNA-p.N49S mutation in a mouse heart can be responsible for the phenotype of deep trabeculation, dilated cardiomyopathy, and cardiac dysfunction, which resembles the phenotype of LVNC">
+		<entity id="s1.e1" charOffset="37-41"
+			type="GENE" text="DTNA" ontology_id="1837"/>
+		<entity id="s1.e2" charOffset="143-157"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

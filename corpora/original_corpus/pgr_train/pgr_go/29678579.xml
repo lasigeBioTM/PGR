@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29678579">
+	<sentence id="s1" text="In the present study, we silenced negative regulation of transcription, DNA-templated expression in pancreatic cancer cell lines and identified the positive roles of CBX3 in cancer cell proliferation.">
+		<entity id="s1.e1" charOffset="34-85"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, we demonstrated that silencing negative regulation of transcription, DNA-templated in pancreatic cancer cells inhibited aerobic glycolysis, the basis for providing cancer cells with building blocks for macromolecule synthesis and ATP that required.">
+		<entity id="s2.e1" charOffset="44-95"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e2" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To search for the underlying molecular mechanism, we turned to examine the negative regulation of transcription by RNA polymerase II of negative regulation of transcription, DNA-templated on the expression of fructose 6-phosphate metabolic process, a negative regulator of aerobic glycolysis in pancreatic cancer and indicated that CBX3 negatively regulated FBP1 expression.">
+		<entity id="s3.e1" charOffset="75-132"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="85-136"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s3.e3" charOffset="209-247"
+			type="GO" text="fructose 6-phosphate metabolic process" ontology_id="GO_0006002"/>
+		<entity id="s3.e4" charOffset="221-227"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Silencing fructose 6-phosphate metabolic process expression attenuated the decrease in glycolytic capacity that caused by negative regulation of transcription, DNA-templated knockdown in pancreatic cancer cells.">
+		<entity id="s4.e1" charOffset="10-48"
+			type="GO" text="fructose 6-phosphate metabolic process" ontology_id="GO_0006002"/>
+		<entity id="s4.e2" charOffset="88-139"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s4.e3" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Taken together, these data reveal that negative regulation of transcription, DNA-templated serves as a positive regulator of aerobic glycolysis via suppressing of the fructose 6-phosphate metabolic process in pancreatic cancer cells.">
+		<entity id="s5.e1" charOffset="39-90"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s5.e2" charOffset="167-205"
+			type="GO" text="fructose 6-phosphate metabolic process" ontology_id="GO_0006002"/>
+		<entity id="s5.e3" charOffset="186-192"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Disrupting the negative regulation of transcription, DNA-templated-fructose 6-phosphate metabolic process signaling axis would be effective to treat pancreatic cancer and prevent aerobic glycolysis">
+		<entity id="s6.e1" charOffset="15-66"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s6.e2" charOffset="67-105"
+			type="GO" text="fructose 6-phosphate metabolic process" ontology_id="GO_0006002"/>
+		<entity id="s6.e3" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

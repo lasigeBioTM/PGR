@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26857262">
+	<sentence id="s1" text="Finally, in diffuse-type gastric cancer, CDH1 mutation was found to be associated with shortened patient survival, independently of disease staging.">
+		<entity id="s1.e1" charOffset="33-39"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="41-45"
+			type="GENE" text="CDH1" ontology_id="51343"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

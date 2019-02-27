@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30265984">
+	<sentence id="s1" text="Moreover, the Kaplan-Meier survival analysis was performed using homologenes (response to virus, phosphorylation and protein phosphorylation) of hub genes in human to evaluate whether exposure to bisphenols may adversely affect breast cancer.">
+		<entity id="s1.e1" charOffset="78-95"
+			type="GO" text="response to virus" ontology_id="GO_0009615"/>
+		<entity id="s1.e2" charOffset="97-112"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e3" charOffset="117-140"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="208-214"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

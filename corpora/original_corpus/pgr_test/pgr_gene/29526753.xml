@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29526753">
+	<sentence id="s1" text="Microfibrillar-associated protein 5 (MFAP5) is a component of extracellular elastic microfibril which has been confirmed to function in tissue development and cancer progression.">
+		<entity id="s1.e1" charOffset="37-42"
+			type="GENE" text="MFAP5" ontology_id="8076"/>
+		<entity id="s1.e2" charOffset="159-165"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

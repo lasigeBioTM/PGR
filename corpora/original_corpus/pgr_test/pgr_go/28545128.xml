@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28545128">
+	<sentence id="s1" text="Taken together, we show that common DNA variants within peptide metabolic process at 4p16 and upstream of MLF1 at 3q25 influence neuroblastoma susceptibility and MLF1 likely plays an important role in neuroblastoma tumorigenesis">
+		<entity id="s1.e1" charOffset="56-81"
+			type="GO" text="peptide metabolic process" ontology_id="GO_0006518"/>
+		<entity id="s1.e2" charOffset="129-142"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

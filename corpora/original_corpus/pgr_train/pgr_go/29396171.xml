@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29396171">
+	<sentence id="s1" text="Mutations in the cellular sodium ion homeostasis gene, which encodes the alpha3-subunit of sodium-potassium ATPase, are related to a spectrum of neurological diseases including Rapid onset Dystonia-Parkinsonism (RDP), Alternating Hemiplegia of Childhood (AHC) and Cerebellar ataxia, Areflexia, Pes cavus, Optic atrophy and Sensorineural hearing loss (CAPOS) syndrome.">
+		<entity id="s1.e1" charOffset="17-48"
+			type="GO" text="cellular sodium ion homeostasis" ontology_id="GO_0006883"/>
+		<entity id="s1.e2" charOffset="275-281"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="337-349"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our cases confirm that cellular sodium ion homeostasis-related neurological disorders make up a phenotypic continuum rather than overlapping syndromes, in which early onset dystonia, ataxia and paroxysmal episodes with triggering or worsening factors are key diagnostic clues.">
+		<entity id="s2.e1" charOffset="23-54"
+			type="GO" text="cellular sodium ion homeostasis" ontology_id="GO_0006883"/>
+		<entity id="s2.e2" charOffset="173-181"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s2.e3" charOffset="183-189"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

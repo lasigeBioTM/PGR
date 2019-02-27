@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30147646">
+	<sentence id="s1" text="Genetic alterations in the expression of EN2 have been related to different neurologic conditions and more particularly to autism spectrum disorders (ASD).">
+		<entity id="s1.e1" charOffset="41-44"
+			type="GENE" text="EN2" ontology_id="2020"/>
+		<entity id="s1.e2" charOffset="123-129"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

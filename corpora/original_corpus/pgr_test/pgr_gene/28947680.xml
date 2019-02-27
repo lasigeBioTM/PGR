@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28947680">
+	<sentence id="s1" text="FRG1 regulates various muscle-related functions, but studies have proposed its role in development and angiogenesis also, where it is involved with tumor-associated molecules.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="FRG1" ontology_id="2483"/>
+		<entity id="s1.e2" charOffset="148-153"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

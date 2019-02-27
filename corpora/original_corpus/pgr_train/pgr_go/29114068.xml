@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29114068">
+	<sentence id="s1" text="The increased regulation of modification of postsynaptic actin cytoskeleton-GTP results from AKT phosphorylating three serines (S298, S329, and S567) in the negative regulation of cell proliferation tumor suppressor, a G protein-coupled receptor signaling pathway GTPase-activating protein (RhoGAP) associated with focal adhesions.">
+		<entity id="s1.e1" charOffset="14-75"
+			type="GO" text="regulation of modification of postsynaptic actin cytoskeleton" ontology_id="GO_1905274"/>
+		<entity id="s1.e2" charOffset="157-198"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e3" charOffset="162-167"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="219-263"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="That binding, which interferes with the interaction of regulation of modification of postsynaptic actin cytoskeleton-GTP with the RhoGAP domain, reduces the hydrolysis of RhoA-GTP, the binding of other negative regulation of cell proliferation ligands, and the colocalization of DLC1 with focal adhesions and attenuates tumor suppressor activity.">
+		<entity id="s2.e1" charOffset="55-116"
+			type="GO" text="regulation of modification of postsynaptic actin cytoskeleton" ontology_id="GO_1905274"/>
+		<entity id="s2.e2" charOffset="202-243"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s2.e3" charOffset="283-288"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="negative regulation of cell proliferation is a critical AKT target in negative regulation of cell proliferation-positive cancer because AKT inhibition has potent antitumor activity in the DLC1-positive transgenic cancer model and in a DLC1-positive cancer cell line but not in an isogenic DLC1-negative cell line">
+		<entity id="s3.e1" charOffset="0-41"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s3.e2" charOffset="84-90"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="That binding, which interferes with the interaction of G protein-coupled receptor signaling pathwayA-GTP with the G protein-coupled receptor signaling pathwayGAP domain, reduces the hydrolysis of G protein-coupled receptor signaling pathwayA-GTP, the binding of other DLC1 ligands, and the colocalization of DLC1 with focal adhesions and attenuates tumor suppressor activity.">
+		<entity id="s4.e1" charOffset="55-99"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s4.e2" charOffset="267-272"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

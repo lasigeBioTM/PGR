@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29028795">
+	<sentence id="s1" text="Inactivation of hair follicle development/hair follicle development causes lacrimal gland aplasia in both human and mouse.">
+		<entity id="s1.e1" charOffset="16-41"
+			type="GO" text="hair follicle development" ontology_id="GO_0001942"/>
+		<entity id="s1.e2" charOffset="21-46"
+			type="GO" text="hair follicle development" ontology_id="GO_0001942"/>
+		<entity id="s1.e3" charOffset="54-76"
+			type="HP" text="lacrimal gland aplasia" ontology_id="HP_0007656"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

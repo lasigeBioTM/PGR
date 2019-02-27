@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29767268">
+	<sentence id="s1" text="The CHAF1B gene in human hepatocellular carcinoma cell line HUH-7 was knocked down using a lentivirus and the transfected cells were assayed for migration and invasion abilities and cell cycle arrest using the scratch wound healingand Transwell assays as well as flow cytometry, respectively.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="GENE" text="CHAF1B" ontology_id="8208"/>
+		<entity id="s1.e2" charOffset="25-49"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The volumes of the tumors were similar between those injected with the empty vector and control, but were significantly smaller in the knockdown models, suggesting that the knockdown of the CHAF1B gene inhibited tumor growth.">
+		<entity id="s2.e1" charOffset="19-24"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="190-196"
+			type="GENE" text="CHAF1B" ontology_id="8208"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Models were constructed using CHAF1B-knockdown cells and investigated for tumor growth and pathological changes.">
+		<entity id="s3.e1" charOffset="30-36"
+			type="GENE" text="CHAF1B" ontology_id="8208"/>
+		<entity id="s3.e2" charOffset="74-79"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The roles and model of action of the chromatin assembly complex factor-1B (CHAF1B) gene in liver cancer have not been fully elucidated.">
+		<entity id="s4.e1" charOffset="75-81"
+			type="GENE" text="CHAF1B" ontology_id="8208"/>
+		<entity id="s4.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

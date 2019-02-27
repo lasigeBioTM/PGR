@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29068549">
+	<sentence id="s1" text="These include the perinatal lethal short-rib polydactyly syndromes (SRPS) and the less severe asphyxiating thoracic dystrophy (ATD), Ellis-van Creveld (EVC) syndrome, and cranioectodermal dysplasia (CED) phenotypes.">
+		<entity id="s1.e1" charOffset="45-56"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e2" charOffset="139-142"
+			type="GENE" text="van" ontology_id="10318"/>
+		<entity id="s1.e3" charOffset="152-155"
+			type="GENE" text="EVC" ontology_id="2121"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

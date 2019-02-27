@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29627895">
+	<sentence id="s1" text="Cisplatin (CDDP) is used in the treatment of non-small cell lung cancer (NSCLC), but due to the development of resistance, the benefit has been limited.">
+		<entity id="s1.e1" charOffset="12-15"
+			type="GENE" text="DDP" ontology_id="1678"/>
+		<entity id="s1.e2" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

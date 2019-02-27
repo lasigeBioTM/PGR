@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29227583">
+	<sentence id="s1" text="The dystrobrevin-binding protein 1 (DTNBP1) gene is a candidate risk factor for schizophrenia and has been associated with cognitive ability in both patient populations and healthy controls.">
+		<entity id="s1.e1" charOffset="36-42"
+			type="GENE" text="DTNBP1" ontology_id="84062"/>
+		<entity id="s1.e2" charOffset="80-93"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="DTNBP1 encodes dysbindin protein, which is localized to synaptic sites and is reduced in the prefrontal cortex and hippocampus of patients with schizophrenia, indicating a potential role in schizophrenia etiology.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="DTNBP1" ontology_id="84062"/>
+		<entity id="s2.e2" charOffset="144-157"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

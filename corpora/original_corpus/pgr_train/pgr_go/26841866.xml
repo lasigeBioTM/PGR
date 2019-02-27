@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26841866">
+	<sentence id="s1" text="Finally, by immunohistochemical staining of primary breast tissue microarrays we find that DNA repair/histone H3-K9 demethylation/negative regulation of transcription by RNA polymerase II complex subunits are frequently overexpressed in primary breast cancer cases in a correlative manner.">
+		<entity id="s1.e1" charOffset="91-101"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e2" charOffset="96-123"
+			type="GO" text="histone H3-K9 demethylation" ontology_id="GO_0033169"/>
+		<entity id="s1.e3" charOffset="130-187"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="194-200"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, these data open venues for exploring the possibility that sporadic breast cancer patients with EMSY amplification might benefit from epigenetic combination therapy targeting both the histone H3-K9 demethylation demethylase and histone deacetylases.">
+		<entity id="s2.e1" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="199-226"
+			type="GO" text="histone H3-K9 demethylation" ontology_id="GO_0033169"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

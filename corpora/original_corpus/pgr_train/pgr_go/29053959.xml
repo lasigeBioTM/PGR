@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29053959">
+	<sentence id="s1" text="Previous studies have identified a critical role for the tumor suppressors BRCA1 and mitotic cytokinesis in preventing the degradation of nascent DNA by the double-strand break repair via homologous recombination nuclease after replication stress.">
+		<entity id="s1.e1" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="85-104"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s1.e3" charOffset="157-212"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

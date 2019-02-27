@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29222283">
+	<sentence id="s1" text="In particular, MYH9 mutations result in congenital macrothrombocytopenia and predispose to kidney failure, hearing loss, and cataracts, MPL and MECOM mutations cause congenital thrombocytopenia evolving into bone marrow failure, whereas thrombocytopenias caused by RUNX1, ANKRD26, and ETV6 mutations are characterized by predisposition to hematological malignancies.">
+		<entity id="s1.e1" charOffset="15-19"
+			type="GENE" text="MYH9" ontology_id="4627"/>
+		<entity id="s1.e2" charOffset="51-72"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<entity id="s1.e3" charOffset="107-119"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="272-279"
+			type="GENE" text="ANKRD26" ontology_id="22852"/>
+		<entity id="s1.e5" charOffset="285-289"
+			type="GENE" text="ETV6" ontology_id="2120"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

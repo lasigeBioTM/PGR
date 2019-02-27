@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28501528">
+	<sentence id="s1" text="Mechanistically, branched-chain amino acid catabolic process promotes colorectal cancer by enhancing the MAPK signaling pathway through direct MEK phosphorylation, rather than by branched-chain amino acids catabolism.">
+		<entity id="s1.e1" charOffset="17-60"
+			type="GO" text="branched-chain amino acid catabolic process" ontology_id="GO_0009083"/>
+		<entity id="s1.e2" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we investigated that abnormal branched-chain amino acids catabolism in colorectal cancer is a result of the disease process, with no role in disease initiation; branched-chain amino acid catabolic process is widely expressed in colorectal cancer patients, and those patients that express higher levels of BCKDK have shorter survival times than those with lower levels; BCKDK promotes cell transformation or colorectal cancer ex vivo or in vivo.">
+		<entity id="s2.e1" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="166-209"
+			type="GO" text="branched-chain amino acid catabolic process" ontology_id="GO_0009083"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

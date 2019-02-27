@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29112993">
+	<sentence id="s1" text="Over the last 5 years, several single gene disorders of the autophagy pathway have emerged: autophagy-associated Vici syndrome, cellular response to starvation-associated b-propeller protein-associated neurodegeneration, autophagosome maturation-associated autosomal-recessive spinocerebellar ataxia 20, autophagy-associated autosomal-recessive ataxia syndrome, endosome organization/p62-associated childhood-onset neurodegeneration, and several forms of the hereditary spastic paraplegias.">
+		<entity id="s1.e1" charOffset="92-101"
+			type="GO" text="autophagy" ontology_id="GO_0006914"/>
+		<entity id="s1.e2" charOffset="128-159"
+			type="GO" text="cellular response to starvation" ontology_id="GO_0009267"/>
+		<entity id="s1.e3" charOffset="221-245"
+			type="GO" text="autophagosome maturation" ontology_id="GO_0097352"/>
+		<entity id="s1.e4" charOffset="248-254"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e5" charOffset="304-313"
+			type="GO" text="autophagy" ontology_id="GO_0006914"/>
+		<entity id="s1.e6" charOffset="362-383"
+			type="GO" text="endosome organization" ontology_id="GO_0007032"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

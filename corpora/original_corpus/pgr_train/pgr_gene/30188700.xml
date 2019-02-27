@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30188700">
+	<sentence id="s1" text="Our results showed that treatment with MEHP enriched the population of cancer-stem-cell (CSC)-like cells and upregulated IL-8 expression by inducing the AKT-b-catenin-TCF4 signaling pathway.">
+		<entity id="s1.e1" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="153-156"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<entity id="s1.e3" charOffset="167-171"
+			type="GENE" text="TCF4" ontology_id="6934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

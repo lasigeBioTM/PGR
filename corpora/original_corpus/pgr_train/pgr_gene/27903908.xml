@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27903908">
+	<sentence id="s1" text="We report here that the tumor suppressor ING1b binds rDNA, regulates rDNA chromatin modifications and affects nucleolar localization of mTOR to modulate rRNA levels.">
+		<entity id="s1.e1" charOffset="24-29"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="41-45"
+			type="GENE" text="ING1" ontology_id="3621"/>
+		<entity id="s1.e3" charOffset="136-140"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

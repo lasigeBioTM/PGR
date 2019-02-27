@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30133126">
+	<sentence id="s1" text="homophilic cell adhesion via plasma membrane adhesion molecules-knockout mice may provide a valuable rodent model for research on autism spectrum diseases and neurodevelopmental disorders">
+		<entity id="s1.e1" charOffset="0-63"
+			type="GO" text="homophilic cell adhesion via plasma membrane adhesion molecules" ontology_id="GO_0007156"/>
+		<entity id="s1.e2" charOffset="130-136"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

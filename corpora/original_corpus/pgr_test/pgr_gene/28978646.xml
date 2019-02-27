@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28978646">
+	<sentence id="s1" text="Moreover, in patients with low MRPL13 expression, two oxidative metabolic indicators, pyruvate dehydrogenase B expression and the ratio of lactate dehydrogenase type B to type A, significantly and negatively correlated with CLN1 expression, indicating that the combination of elevated glycolysis and deficient MRPL13 activity was closely linked to CLN1-mediated tumor activity in LIHC.">
+		<entity id="s1.e1" charOffset="31-37"
+			type="GENE" text="MRPL13" ontology_id="28998"/>
+		<entity id="s1.e2" charOffset="362-367"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26813285">
+	<sentence id="s1" text="Recently, mutations in transmembrane protein 240 (TMEM240) were identified as the cause of spinocerebellar ataxia type 21 (SCA21) in several French families.">
+		<entity id="s1.e1" charOffset="50-57"
+			type="GENE" text="TMEM240" ontology_id="339453"/>
+		<entity id="s1.e2" charOffset="107-113"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we used Sanger sequencing to detect mutations in exons of TMEM240 in 340 unrelated probands with spinocerebellar ataxia for whom commonly known causative mutations have been excluded (96 probands of autosomal dominant spinocerebellar ataxia families and 244 patients with sporadic spinocerebellar ataxia).">
+		<entity id="s2.e1" charOffset="63-70"
+			type="GENE" text="TMEM240" ontology_id="339453"/>
+		<entity id="s2.e2" charOffset="118-124"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e3" charOffset="277-285"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

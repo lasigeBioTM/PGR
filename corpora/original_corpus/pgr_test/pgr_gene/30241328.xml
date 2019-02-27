@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30241328">
+	<sentence id="s1" text="Leptin (LEP) and fat mass and obesity-associated (FTO) alleles are known to influence body fat mass in humans, potentially via effects on appetite.">
+		<entity id="s1.e1" charOffset="30-37"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="50-53"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620624">
+	<sentence id="s1" text="The purpose of this study was to detect the expression of high-temperature requirement A2 (proteolysis) and its diagnostic value in the patients with hepatocellular carcinoma (HCC).The relative serum HtrA2 expression at mRNA and protein level was severally detected by quantitative real-time polymerase chain reaction and western blot analysis in 198 HCC patients and 48 healthy controls.">
+		<entity id="s1.e1" charOffset="91-102"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e2" charOffset="150-174"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In addition, the high proteolysis expression was associated with large tumor size and advanced clinical stage.">
+		<entity id="s2.e1" charOffset="22-33"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s2.e2" charOffset="71-76"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

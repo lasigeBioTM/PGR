@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29229763">
+	<sentence id="s1" text="The MKK1/2 kinase tumour progression locus 2 (signal transduction by protein phosphorylation) is critical for the production of tumour necrosis factor alpha (protein import into nucleus, translocationa) in innate immune responses and a potential anti-inflammatory drug target.">
+		<entity id="s1.e1" charOffset="18-24"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="46-92"
+			type="GO" text="signal transduction by protein phosphorylation" ontology_id="GO_0023014"/>
+		<entity id="s1.e3" charOffset="117-159"
+			type="GO" text="protein import into nucleus, translocation" ontology_id="GO_0000060"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

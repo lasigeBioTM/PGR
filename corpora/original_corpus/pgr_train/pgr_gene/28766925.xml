@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28766925">
+	<sentence id="s1" text="FLVCR1 encodes for a ubiquitous heme exporter, whose recessive mutations cause posterior column ataxia with retinitis pigmentosa (PCARP).">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="FLVCR1" ontology_id="28982"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, FLVCR1 recessive mutations were also found in two sporadic children with hereditary sensory-autonomic neuropathy (HSAN).">
+		<entity id="s2.e1" charOffset="10-16"
+			type="GENE" text="FLVCR1" ontology_id="28982"/>
+		<entity id="s2.e2" charOffset="60-68"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="112-122"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

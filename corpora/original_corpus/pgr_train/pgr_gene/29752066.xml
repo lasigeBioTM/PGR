@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29752066">
+	<sentence id="s1" text="The triggering receptor expressed on myeloid cells 2 (TREM2) is a microglial innate immune receptor associated with a lethal form of early, progressive dementia, Nasu-Hakola disease, and with an increased risk of Alzheimer*s disease.">
+		<entity id="s1.e1" charOffset="54-59"
+			type="GENE" text="TREM2" ontology_id="54209"/>
+		<entity id="s1.e2" charOffset="140-160"
+			type="HP" text="progressive dementia" ontology_id="HP_0000726"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="TREM2 protein levels were also negatively correlated with the severity of symptoms in humans affected by autism.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="TREM2" ontology_id="54209"/>
+		<entity id="s2.e2" charOffset="105-111"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

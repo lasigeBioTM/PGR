@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27375131">
+	<sentence id="s1" text="Marden-Walker syndrome is challenging to diagnose, as there is significant overlap with other multi-system congenital contracture syndromes including Beals congenital contractural arachnodactyly, dermatan sulfate proteoglycan metabolic process-Deficient Ehlers-Danlos syndrome (adducted thumb-clubfoot syndrome), Schwartz-Jampel syndrome, Freeman-Sheldon syndrome, Cerebro-oculo-facio-skeletal syndrome, and Van den Ende-Gupta syndrome.">
+		<entity id="s1.e1" charOffset="118-129"
+			type="HP" text="contracture" ontology_id="HP_0001371"/>
+		<entity id="s1.e2" charOffset="180-194"
+			type="HP" text="arachnodactyly" ontology_id="HP_0001166"/>
+		<entity id="s1.e3" charOffset="196-243"
+			type="GO" text="dermatan sulfate proteoglycan metabolic process" ontology_id="GO_0050655"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="SNP microarray and whole exome sequencing identified a homozygous frameshift mutation (p.L870V) in heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules and predicted damaging mutations in several genes, most notably cognition (p.P75L) and neuron cell-cell adhesion (p.S147G), both possible candidates for this child*s intellectual disability.">
+		<entity id="s2.e1" charOffset="99-174"
+			type="GO" text="heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules" ontology_id="GO_0007157"/>
+		<entity id="s2.e2" charOffset="239-248"
+			type="GO" text="cognition" ontology_id="GO_0050890"/>
+		<entity id="s2.e3" charOffset="262-287"
+			type="GO" text="neuron cell-cell adhesion" ontology_id="GO_0007158"/>
+		<entity id="s2.e4" charOffset="317-340"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

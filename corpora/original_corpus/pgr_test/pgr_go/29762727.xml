@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29762727">
+	<sentence id="s1" text="In lung adenocarcinoma (LADC), specific thyroxin kinase inhibitors against positive regulation of protein phosphorylation mutations and ALK fusions are used as a standard treatment regimen and show significant positive efficacy.">
+		<entity id="s1.e1" charOffset="3-22"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s1.e2" charOffset="75-121"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

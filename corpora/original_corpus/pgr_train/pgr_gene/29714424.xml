@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29714424">
+	<sentence id="s1" text="Some genes, such as GSTM1, DNMT3L, and CYP1A1, have been shown to be potentially associated with oligospermia; some, such as CATSPER1, CRISP2, SEPT4, TCTE3, TEKT4, and DNAH1, with asthenospermia; and still others, such as DPY19L2 and AURKC, with teratospermia.">
+		<entity id="s1.e1" charOffset="20-25"
+			type="GENE" text="GSTM1" ontology_id="2944"/>
+		<entity id="s1.e2" charOffset="27-33"
+			type="GENE" text="DNMT3L" ontology_id="29947"/>
+		<entity id="s1.e3" charOffset="39-45"
+			type="GENE" text="CYP1A1" ontology_id="1543"/>
+		<entity id="s1.e4" charOffset="97-109"
+			type="HP" text="oligospermia" ontology_id="HP_0000798"/>
+		<entity id="s1.e5" charOffset="125-133"
+			type="GENE" text="CATSPER1" ontology_id="117144"/>
+		<entity id="s1.e6" charOffset="135-141"
+			type="GENE" text="CRISP2" ontology_id="7180"/>
+		<entity id="s1.e7" charOffset="143-148"
+			type="GENE" text="SEPT4" ontology_id="5414"/>
+		<entity id="s1.e8" charOffset="150-155"
+			type="GENE" text="TCTE3" ontology_id="6991"/>
+		<entity id="s1.e9" charOffset="157-162"
+			type="GENE" text="TEKT4" ontology_id="150483"/>
+		<entity id="s1.e10" charOffset="168-173"
+			type="GENE" text="DNAH1" ontology_id="25981"/>
+		<entity id="s1.e11" charOffset="222-229"
+			type="GENE" text="DPY19L2" ontology_id="283417"/>
+		<entity id="s1.e12" charOffset="234-239"
+			type="GENE" text="AURKC" ontology_id="6795"/>
+		<entity id="s1.e13" charOffset="246-259"
+			type="HP" text="teratospermia" ontology_id="HP_0012864"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e9"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e2"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e5"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e18"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e18"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e18"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e18"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e18"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e18"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e18"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+</document>

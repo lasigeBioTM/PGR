@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30159668">
+	<sentence id="s1" text="In humans, TPRN mutations cause autosomal recessive nonsyndromic deafness (DFNB79) by an unknown mechanism.">
+		<entity id="s1.e1" charOffset="11-15"
+			type="GENE" text="TPRN" ontology_id="286262"/>
+		<entity id="s1.e2" charOffset="65-73"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We observed significant hearing loss and progressive degeneration of stereocilia in the outer hair cells of Tprn-null mice starting from postnatal day 30.">
+		<entity id="s2.e1" charOffset="24-36"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="108-112"
+			type="GENE" text="Tprn" ontology_id="286262"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The generated Tprn-null mice are ideal models of human hereditary deafness DFNB79">
+		<entity id="s3.e1" charOffset="14-18"
+			type="GENE" text="Tprn" ontology_id="286262"/>
+		<entity id="s3.e2" charOffset="66-74"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

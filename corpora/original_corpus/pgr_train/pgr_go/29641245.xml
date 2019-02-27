@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29641245">
+	<sentence id="s1" text="Pathogenic variants in positive regulation of transcription, DNA-templated were recently described in three back-to-back publications in association with a novel neurodevelopmental disorder characterized by intellectual disability, speech delay, ataxia, and facial dysmorphisms.">
+		<entity id="s1.e1" charOffset="23-74"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e2" charOffset="207-230"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="232-244"
+			type="HP" text="speech delay" ontology_id="HP_0000750"/>
+		<entity id="s1.e4" charOffset="246-252"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

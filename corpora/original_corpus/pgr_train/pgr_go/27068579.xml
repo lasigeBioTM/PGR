@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27068579">
+	<sentence id="s1" text="Although there are nearly 100 different causative genes identified for nonsyndromic hearing loss (NSHL), Sanger sequencing-based DNA diagnostics usually only analyses three, namely, gap junction assembly, regulation of pH, and synaptic vesicle exocytosis.">
+		<entity id="s1.e1" charOffset="84-96"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="182-203"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e3" charOffset="205-221"
+			type="GO" text="regulation of pH" ontology_id="GO_0006885"/>
+		<entity id="s1.e4" charOffset="227-254"
+			type="GO" text="synaptic vesicle exocytosis" ontology_id="GO_0016079"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

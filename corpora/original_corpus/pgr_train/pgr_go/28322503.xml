@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28322503">
+	<sentence id="s1" text="Segregation analysis of heterozygous variants, related to hearing loss, identified by whole exome sequencing in the child (protein homooligomerization: c.1159TAAAAC, establishment of epithelial cell apical/basal polarity: c.313GAAAAC, and GPR98: c.18746TAAAAG) excluded them from being responsible for the hearing loss in the proposita.">
+		<entity id="s1.e1" charOffset="58-70"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="123-150"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<entity id="s1.e3" charOffset="166-220"
+			type="GO" text="establishment of epithelial cell apical/basal polarity" ontology_id="GO_0045220"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, we conclude that the novel splice-site variant identified in extracellular matrix organization is the most likely cause for Steel syndrome in this family and that the hearing loss is part of this syndrome*s phenotype">
+		<entity id="s2.e1" charOffset="72-105"
+			type="GO" text="extracellular matrix organization" ontology_id="GO_0030198"/>
+		<entity id="s2.e2" charOffset="178-190"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

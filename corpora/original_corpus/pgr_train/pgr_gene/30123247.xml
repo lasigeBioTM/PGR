@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30123247">
+	<sentence id="s1" text="Myo3a is expressed in cochlear hair cells and retinal cells and is responsible for human recessive hereditary nonsyndromic deafness (DFNB30).">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="Myo3a" ontology_id="53904"/>
+		<entity id="s1.e2" charOffset="123-131"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="133-139"
+			type="GENE" text="DFNB30" ontology_id="53904"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To investigate the mechanism of DFNB30-type deafness, we established a mouse model of Myo3a kinase domain Y137C mutation by using CRISPR/Cas9 system.">
+		<entity id="s2.e1" charOffset="32-38"
+			type="GENE" text="DFNB30" ontology_id="53904"/>
+		<entity id="s2.e2" charOffset="44-52"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This mouse line is an excellent model for studying DFNB30-type deafness in humans">
+		<entity id="s3.e1" charOffset="51-57"
+			type="GENE" text="DFNB30" ontology_id="53904"/>
+		<entity id="s3.e2" charOffset="63-71"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="To investigate the mechanism of DFNB30-type deafness, we established a mouse model of Myo3a kinase domain Y137C mutation by using CRISPR/Cas9 system.">
+		<entity id="s4.e1" charOffset="44-52"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s4.e2" charOffset="86-91"
+			type="GENE" text="Myo3a" ontology_id="53904"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

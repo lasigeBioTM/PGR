@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29367421">
+	<sentence id="s1" text="Missense mutations that disrupt the RING domain of the tumor suppressor gene double-strand break repair via homologous recombination lead to increased risk of breast and ovarian cancer.">
+		<entity id="s1.e1" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="77-132"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e3" charOffset="178-184"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The negative regulation of protein export from nucleus mutations also caused loss of transcriptional repression of double-strand break repair via homologous recombination-regulated estrogen metabolism genes lipid hydroxylation and lipid hydroxylation; breast epithelial cells edited to create heterozygous loss of BARD1 showed significantly higher expression of CYP1A1 and CYP3A4 Reintroduction of wild-type BARD1 into these cells restored CYP1A1 and CYP3A4 transcription to normal levels, but introduction of the cancer-predisposing BARD1 RING mutants failed to do so.">
+		<entity id="s2.e1" charOffset="4-54"
+			type="GO" text="negative regulation of protein export from nucleus" ontology_id="GO_0046826"/>
+		<entity id="s2.e2" charOffset="70-125"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e3" charOffset="207-226"
+			type="GO" text="lipid hydroxylation" ontology_id="GO_0002933"/>
+		<entity id="s2.e4" charOffset="231-250"
+			type="GO" text="lipid hydroxylation" ontology_id="GO_0002933"/>
+		<entity id="s2.e5" charOffset="443-449"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

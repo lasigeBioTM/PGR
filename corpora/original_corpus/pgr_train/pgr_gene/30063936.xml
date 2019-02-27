@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30063936">
+	<sentence id="s1" text="Also the well-known gene variants rs7903146 in TCF7L2, and rs17817449 in FTO, were nominally associated with hyperglycemia (rs7903146), as well as with higher fasting insulin levels (rs17817449).">
+		<entity id="s1.e1" charOffset="47-53"
+			type="GENE" text="TCF7L2" ontology_id="6934"/>
+		<entity id="s1.e2" charOffset="73-76"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<entity id="s1.e3" charOffset="109-122"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

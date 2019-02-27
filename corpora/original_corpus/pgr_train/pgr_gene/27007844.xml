@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27007844">
+	<sentence id="s1" text="Individuals with PTCHD1 deletion show symptoms of ADHD, sleep disruption, hypotonia, aggression, ASD, and ID.">
+		<entity id="s1.e1" charOffset="17-23"
+			type="GENE" text="PTCHD1" ontology_id="139411"/>
+		<entity id="s1.e2" charOffset="85-95"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TRN-restricted deletion of Ptchd1 leads to attention deficits and hyperactivity, both of which are rescued by pharmacological augmentation of SK channel activity.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="TRN" ontology_id="3842"/>
+		<entity id="s2.e2" charOffset="27-33"
+			type="GENE" text="Ptchd1" ontology_id="139411"/>
+		<entity id="s2.e3" charOffset="66-79"
+			type="HP" text="hyperactivity" ontology_id="HP_0000752"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Global Ptchd1 deletion recapitulates learning impairment, hyper-aggression, and motor defects, all of which are insensitive to SK pharmacological targeting and not found in the TRN-restricted deletion mouse.">
+		<entity id="s3.e1" charOffset="7-13"
+			type="GENE" text="Ptchd1" ontology_id="139411"/>
+		<entity id="s3.e2" charOffset="64-74"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<entity id="s3.e3" charOffset="177-180"
+			type="GENE" text="TRN" ontology_id="3842"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

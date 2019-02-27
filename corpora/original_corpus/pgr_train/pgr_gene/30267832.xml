@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30267832">
+	<sentence id="s1" text="Noise-induced hidden hearing loss (NIHHL) has attracted great attention in hearing research and clinical audiology since the discovery of significant noise-induced synaptic damage in the absence of permanent threshold shifts (PTS) in animal models.">
+		<entity id="s1.e1" charOffset="21-33"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="226-229"
+			type="GENE" text="PTS" ontology_id="5805"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

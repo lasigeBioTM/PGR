@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29269637">
+	<sentence id="s1" text="Seipinopathy is an autosomal dominant neurodegenerative disease caused by mutations of the Berardinelli-Seip Congenital Lipodystrophy 2 (BSCL2) gene.">
+		<entity id="s1.e1" charOffset="38-63"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="137-142"
+			type="GENE" text="BSCL2" ontology_id="26580"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

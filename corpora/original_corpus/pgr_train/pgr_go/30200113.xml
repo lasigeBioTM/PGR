@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30200113">
+	<sentence id="s1" text="However, in HaCaT and HEK293T cells that display transformed phenotypes, but do not originate from patient-derived tumors, the ER stress-inducing treatments resulted in an upregulation of negative regulation of protein phosphorylation and cellular glucose homeostasis, but not aging transcripts, By a luciferase reporter approach we identified a highly active response to endoplasmic reticulum stress-responsive element within the upstream region of the KRT16 gene.">
+		<entity id="s1.e1" charOffset="115-120"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="188-234"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e3" charOffset="215-220"
+			type="GO" text="aging" ontology_id="GO_0007568"/>
+		<entity id="s1.e4" charOffset="239-267"
+			type="GO" text="cellular glucose homeostasis" ontology_id="GO_0001678"/>
+		<entity id="s1.e5" charOffset="298-338"
+			type="GO" text="response to endoplasmic reticulum stress" ontology_id="GO_0034976"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results suggest a conditional regulation of aging gene by response to endoplasmic reticulum stress that may be inhibited in normal cells, but engaged during cancer progression.">
+		<entity id="s2.e1" charOffset="48-53"
+			type="GO" text="aging" ontology_id="GO_0007568"/>
+		<entity id="s2.e2" charOffset="62-102"
+			type="GO" text="response to endoplasmic reticulum stress" ontology_id="GO_0034976"/>
+		<entity id="s2.e3" charOffset="161-167"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

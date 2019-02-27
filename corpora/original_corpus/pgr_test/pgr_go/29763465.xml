@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29763465">
+	<sentence id="s1" text="Furthermore, we investigated whether there is an association between the mRNA and protein expression levels of RBCK1, protein polyubiquitination and SHARPIN and clinicopathological parameters including estrogen receptor (ER), progesterone receptor (PR) and human epidermal growth factor receptor (HER2) status and found that RNF31 protein is significantly higher in ERalpha-negative tumors than ERalpha-positive tumors (p = 0.034).">
+		<entity id="s1.e1" charOffset="118-144"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="383-388"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29263255">
+	<sentence id="s1" text="Insertion of a single-chain variable-fragment antibody (scFv) to signal transduction (human epidermal growth factor receptor 2) in gD, gH, or gB gives rise to herpes simplex viruses (HSVs) specifically retargeted to HER2-positive cancer cells, hence to highly specific nonattenuated oncolytic agents.">
+		<entity id="s1.e1" charOffset="65-84"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="230-236"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, we developed a double-retargeting strategy whereby gH carries the GCN4 peptide for retargeting to the noncancer producer Vero-GCN4R cell line and gD carries the scFv to signal transduction for cancer retargeting.">
+		<entity id="s2.e1" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="179-198"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Here, we describe a double-retargeting strategy, based on the simultaneous insertion of two ligands in gD, one for retargeting to a producer, universal Vero cell derivative and one for retargeting to the signal transduction cancer receptor.">
+		<entity id="s3.e1" charOffset="204-223"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s3.e2" charOffset="224-230"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28737756">
+	<sentence id="s1" text="Zinc finger protein 687 (regulation of transcription by RNA polymerase II), identified as a C2H2 zinc finger protein, has been found to be mutated and upregulated in giant cell tumor of bone and acute myeloid leukemia, suggesting an oncogenic role for regulation of transcription by RNA polymerase II in cancer.">
+		<entity id="s1.e1" charOffset="25-73"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="177-182"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="262-268"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the clinical significance and precise role of regulation of transcription by RNA polymerase II in cancer progression are largely unknown.">
+		<entity id="s2.e1" charOffset="55-103"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e2" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Herein, we report that regulation of transcription by RNA polymerase II was markedly upregulated in hepatocellular carcinoma (HCC) cell lines and HCC tissues, and was significantly correlated with relapse-free survival in HCC.">
+		<entity id="s3.e1" charOffset="23-71"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s3.e2" charOffset="100-124"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Importantly, extreme limiting dilution analysis revealed that even 1 x 102 regulation of transcription by RNA polymerase II-transduced cells could form tumors in vivo, indicating that ZNF687 contributes to HCC recurrence.">
+		<entity id="s4.e1" charOffset="75-123"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s4.e2" charOffset="152-157"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="regulation of transcription by RNA polymerase II overexpression greatly enhanced HCC cell capability for tumorsphere formation, invasion and chemoresistance in vitro, whereas inhibiting regulation of transcription by RNA polymerase II reduced these capabilities and inhibited HCC cell tumorigenic capability in vivo.">
+		<entity id="s5.e1" charOffset="0-48"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s5.e2" charOffset="105-110"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

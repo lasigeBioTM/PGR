@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28087737">
+	<sentence id="s1" text="In this study, we employed whole-exome sequencing and identified a homozygous missense mutation c.1522C AAAA A (p.Pro508Thr) in the mitotic cytokinesis gene as the cause of autosomal recessive APH in an Indian family.">
+		<entity id="s1.e1" charOffset="132-151"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s1.e2" charOffset="173-192"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

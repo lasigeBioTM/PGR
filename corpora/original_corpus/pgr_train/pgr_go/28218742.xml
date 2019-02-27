@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28218742">
+	<sentence id="s1" text="Identification of protein polyubiquitinationNAs related to metastasis enables us to obtain better insight into cancer development.">
+		<entity id="s1.e1" charOffset="18-44"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the current study, we investigated the protein polyubiquitinationNA expressional profiles in the highly invasive human hepatocellular carcinoma cell line MHCC97-H and MHCC97-L with lower metastatic potential using miRNA microarrays.">
+		<entity id="s2.e1" charOffset="42-68"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="122-146"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="protein polyubiquitination-26a, miR-548l and miR-34a, acting as tumor suppressors, may exert their effects by regulating ST3GAL5">
+		<entity id="s3.e1" charOffset="0-26"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

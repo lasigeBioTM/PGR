@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29705860">
+	<sentence id="s1" text="MDR rectal colonization occurs in 6.5% of haematological inpatients and predicts a 16% probability of MDRrel BSI, particularly during neutropenia, as well as a higher probability of unfavourable outcomes in positive regulation of cytosolic calcium ion concentration-rel BSIs.">
+		<entity id="s1.e1" charOffset="134-145"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<entity id="s1.e2" charOffset="207-265"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

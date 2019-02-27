@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24388663">
+	<sentence id="s1" text="With a combination of whole-genome mapping and exome sequencing, we identified three mutations in endoplasmic reticulum tubular network organization in two families with HSP: a missense variant (c.107TAAAAA [p.Val36Glu]) that segregated in the heterozygous state in a family with autosomal-dominant inheritance and a missense change (c.215TAAAAA [p.Phe72Tyr]) that segregated in trans with a splice site mutation (c.105+3GAAAAT) in a family with autosomal-recessive transmission.">
+		<entity id="s1.e1" charOffset="98-148"
+			type="GO" text="endoplasmic reticulum tubular network organization" ontology_id="GO_0071786"/>
+		<entity id="s1.e2" charOffset="299-310"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

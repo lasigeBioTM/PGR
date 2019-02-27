@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28705714">
+	<sentence id="s1" text="In the present study, a differential cytotoxicity screen of hormone-resistant prostate cancer LNCaP-hr cells and the parental LNCaP-FGC cells against normal MRC5 fibroblast cells, identified a small molecule compound, Aristeromycin (a derivative of 3-deazaneplanocin A (DZNeP)).">
+		<entity id="s1.e1" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="100-102"
+			type="GENE" text="hr" ontology_id="55806"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To further understand why AHCY inhibitors decreased prostate cancer cell growth, we performed microRNA expression profiling with LNCaP-hr cells.">
+		<entity id="s2.e1" charOffset="26-30"
+			type="GENE" text="AHCY" ontology_id="191"/>
+		<entity id="s2.e2" charOffset="61-67"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="135-137"
+			type="GENE" text="hr" ontology_id="55806"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

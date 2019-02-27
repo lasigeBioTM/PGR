@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30112019">
+	<sentence id="s1" text="The gene expression levels of regulation of proteasomal protein catabolic process-67, negative regulation of transcription by RNA polymerase II, eye development, positive regulation of transcription by RNA polymerase II, PCDHGB7 and her-2 were used as an auxiliary diagnostic index for patients with breast cancer in the early stage.">
+		<entity id="s1.e1" charOffset="30-81"
+			type="GO" text="regulation of proteasomal protein catabolic process" ontology_id="GO_0061136"/>
+		<entity id="s1.e2" charOffset="86-143"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="145-160"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e4" charOffset="162-219"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e5" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

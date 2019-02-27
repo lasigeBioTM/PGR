@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28991459">
+	<sentence id="s1" text="We hypothesized that dual inhibition of MDH1 and MDH2 might be a powerful approach to target cancer metabolism and selected methyl-3-(3-(4-(2,4,4-trimethylpentan-2-yl)phenoxy)propanamido)-benzoate (16c) as the most potent dual inhibitor.">
+		<entity id="s1.e1" charOffset="40-44"
+			type="GENE" text="MDH1" ontology_id="4190"/>
+		<entity id="s1.e2" charOffset="49-53"
+			type="GENE" text="MDH2" ontology_id="4191"/>
+		<entity id="s1.e3" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This finding provides concrete evidence that inhibition of both MDH1 and MDH2 may provide a valuable platform for developing novel therapeutics that target cancer metabolism and tumor growth">
+		<entity id="s2.e1" charOffset="64-68"
+			type="GENE" text="MDH1" ontology_id="4190"/>
+		<entity id="s2.e2" charOffset="73-77"
+			type="GENE" text="MDH2" ontology_id="4191"/>
+		<entity id="s2.e3" charOffset="156-162"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="178-183"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

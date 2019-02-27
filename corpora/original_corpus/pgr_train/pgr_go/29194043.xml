@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29194043">
+	<sentence id="s1" text="CBG concentration and affinity are affected by a number of common factors including oral contraceptive pills (OCPs), fever and infection, as well as rare mutations in the serine protease inhibitor A6 (negative regulation of endopeptidase activity) gene, and as such, total cortisol levels might not be the ideal way to assess adrenal function in all clinical circumstances.">
+		<entity id="s1.e1" charOffset="117-122"
+			type="HP" text="fever" ontology_id="HP_0001945"/>
+		<entity id="s1.e2" charOffset="201-246"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

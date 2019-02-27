@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28758966">
+	<sentence id="s1" text="We sequenced creatine biosynthetic process, creatine biosynthetic process and creatine transmembrane transport genes in 166 patients with autism (coding sequence, introns and adjacent untranslated regions).">
+		<entity id="s1.e1" charOffset="13-42"
+			type="GO" text="creatine biosynthetic process" ontology_id="GO_0006601"/>
+		<entity id="s1.e2" charOffset="44-73"
+			type="GO" text="creatine biosynthetic process" ontology_id="GO_0006601"/>
+		<entity id="s1.e3" charOffset="78-110"
+			type="GO" text="creatine transmembrane transport" ontology_id="GO_0015881"/>
+		<entity id="s1.e4" charOffset="87-93"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Nine variants in creatine biosynthetic process were shown to have a lower minor allele frequency (lens fiber cell differentiation) in the autism population than in the 1000 Genomes database, specifically in the East Asian population (Fisher*s exact test).">
+		<entity id="s2.e1" charOffset="17-46"
+			type="GO" text="creatine biosynthetic process" ontology_id="GO_0006601"/>
+		<entity id="s2.e2" charOffset="98-129"
+			type="GO" text="lens fiber cell differentiation" ontology_id="GO_0070306"/>
+		<entity id="s2.e3" charOffset="110-116"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In summary, there were no apparent associations of variants in creatine biosynthetic process and creatine transmembrane transport genes with autism.">
+		<entity id="s3.e1" charOffset="63-92"
+			type="GO" text="creatine biosynthetic process" ontology_id="GO_0006601"/>
+		<entity id="s3.e2" charOffset="97-129"
+			type="GO" text="creatine transmembrane transport" ontology_id="GO_0015881"/>
+		<entity id="s3.e3" charOffset="115-121"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The data implying there could be a lower association of some specific creatine biosynthetic process gene variants with autism is an observation that would need to be corroborated in a larger group of autism patients, and with sub-populations of Asian ethnicities.">
+		<entity id="s4.e1" charOffset="70-99"
+			type="GO" text="creatine biosynthetic process" ontology_id="GO_0006601"/>
+		<entity id="s4.e2" charOffset="119-125"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28223545">
+	<sentence id="s1" text="Ring finger protein 6 (protein K27-linked ubiquitination) is a key oncogene in both prostate cancer and leukemia, but its role is elusive in breast cancer.">
+		<entity id="s1.e1" charOffset="23-56"
+			type="GO" text="protein K27-linked ubiquitination" ontology_id="GO_0044314"/>
+		<entity id="s1.e2" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we found that protein K27-linked ubiquitination was overexpressed in more than 70% of breast cancer tissues and it was associated with overall survival.">
+		<entity id="s2.e1" charOffset="36-69"
+			type="GO" text="protein K27-linked ubiquitination" ontology_id="GO_0044314"/>
+		<entity id="s2.e2" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="protein K27-linked ubiquitination increased breast cancer cell proliferation, migration and reduced cell sensitivity to doxorubicin.">
+		<entity id="s3.e1" charOffset="0-33"
+			type="GO" text="protein K27-linked ubiquitination" ontology_id="GO_0044314"/>
+		<entity id="s3.e2" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Further studies showed that protein K27-linked ubiquitination was closely associated with increased expression of estrogen receptor, a critical factor in the development of breast cancers.">
+		<entity id="s4.e1" charOffset="28-61"
+			type="GO" text="protein K27-linked ubiquitination" ontology_id="GO_0044314"/>
+		<entity id="s4.e2" charOffset="180-186"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In doxorubicin-resistant breast cancer cells, protein K27-linked ubiquitination was found to be elevated in association with increased ERa and anti-apoptotic release of cytochrome c from mitochondria, but not pro-apoptotic intrinsic apoptotic signaling pathway in response to DNA damage-1.">
+		<entity id="s5.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="46-79"
+			type="GO" text="protein K27-linked ubiquitination" ontology_id="GO_0044314"/>
+		<entity id="s5.e3" charOffset="158-199"
+			type="GO" text="release of cytochrome c from mitochondria" ontology_id="GO_0001836"/>
+		<entity id="s5.e4" charOffset="188-251"
+			type="GO" text="intrinsic apoptotic signaling pathway in response to DNA damage" ontology_id="GO_0008630"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Therefore, this study demonstrated that there exists an protein K27-linked ubiquitination/ERa/release of cytochrome c from mitochondria axle in breast cancer which promotes cancer cell proliferation and survival.">
+		<entity id="s6.e1" charOffset="56-89"
+			type="GO" text="protein K27-linked ubiquitination" ontology_id="GO_0044314"/>
+		<entity id="s6.e2" charOffset="94-135"
+			type="GO" text="release of cytochrome c from mitochondria" ontology_id="GO_0001836"/>
+		<entity id="s6.e3" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="true"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

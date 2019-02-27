@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27143553">
+	<sentence id="s1" text="The gene that encodes C1q/TNF-related protein 5 (CTRP5), a secreted protein of the C1q family, is mutated in individuals with late-onset retinal degeneration.">
+		<entity id="s1.e1" charOffset="49-54"
+			type="GENE" text="CTRP5" ontology_id="114902"/>
+		<entity id="s1.e2" charOffset="137-157"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Adipose expression of CTRP5 was markedly upregulated in obese and diabetic humans and in genetic and dietary models of obesity in rodents.">
+		<entity id="s2.e1" charOffset="22-27"
+			type="GENE" text="CTRP5" ontology_id="114902"/>
+		<entity id="s2.e2" charOffset="119-126"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Inhibition of CTRP5 action may result in the alleviation of insulin resistance associated with obesity and diabetes">
+		<entity id="s3.e1" charOffset="14-19"
+			type="GENE" text="CTRP5" ontology_id="114902"/>
+		<entity id="s3.e2" charOffset="95-102"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

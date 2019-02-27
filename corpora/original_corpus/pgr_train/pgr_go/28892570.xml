@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28892570">
+	<sentence id="s1" text="Biallelic biological_process mutations were described in children with hyperphenylalaninemia, neurodevelopmental delay, and dystonia.">
+		<entity id="s1.e1" charOffset="10-28"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="71-92"
+			type="HP" text="hyperphenylalaninemia" ontology_id="HP_0004923"/>
+		<entity id="s1.e3" charOffset="94-118"
+			type="HP" text="neurodevelopmental delay" ontology_id="HP_0012758"/>
+		<entity id="s1.e4" charOffset="124-132"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We identified biological_process homozygous null variants (c.187AAAAAT;p.K63* and c.79-2AAAAAG;p.V27Wfs*14) in two kindreds with early-onset parkinsonism.">
+		<entity id="s2.e1" charOffset="14-32"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e2" charOffset="141-153"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results suggest that biological_process mutations (absent in 500 early-onset patients with Parkinson*s disease) rarely cause dopa-responsive nonprogressive parkinsonism in adulthood, but broaden the clinical spectrum of biological_process deficiency.">
+		<entity id="s3.e1" charOffset="25-43"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e2" charOffset="145-159"
+			type="HP" text="nonprogressive" ontology_id="HP_0003680"/>
+		<entity id="s3.e3" charOffset="160-172"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29397397">
+	<sentence id="s1" text="An inverse correlation between the expression levels of human Nanos1 and Nanos3 and E-cadherin was observed in several cancer cell lines.">
+		<entity id="s1.e1" charOffset="62-68"
+			type="GENE" text="Nanos1" ontology_id="340719"/>
+		<entity id="s1.e2" charOffset="73-79"
+			type="GENE" text="Nanos3" ontology_id="342977"/>
+		<entity id="s1.e3" charOffset="86-94"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<entity id="s1.e4" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Loss of E-cadherin, an important cell-cell adhesion protein, contributes to tumor invasion and metastasis.">
+		<entity id="s2.e1" charOffset="10-18"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<entity id="s2.e2" charOffset="76-81"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overexpression of Nanos3 induces epithelial-mesenchymal transition in lung cancer cell lines partly by repressing E-cadherin.">
+		<entity id="s3.e1" charOffset="18-24"
+			type="GENE" text="Nanos3" ontology_id="342977"/>
+		<entity id="s3.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="116-124"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

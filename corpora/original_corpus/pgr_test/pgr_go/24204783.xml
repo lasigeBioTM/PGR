@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24204783">
+	<sentence id="s1" text="In an effort to circumvent resistance to rapamycin--an regulation of cell growth inhibitor--we searched for novel rapamycin-downstream-targets that may be key players in the response of cancer cells to therapy.">
+		<entity id="s1.e1" charOffset="55-80"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e2" charOffset="186-192"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These experiments suggest that excessive phosphorylation of response to endoplasmic reticulum stress decreases survival of cancer cells; making eIF2a a worthy target for drug development, with the potential to enhance the cytotoxic effects of established anti-neoplastic therapies and circumvent resistance to rapalogues and possibly to other drugs that inhibit upstream components of the mTOR pathway">
+		<entity id="s2.e1" charOffset="60-100"
+			type="GO" text="response to endoplasmic reticulum stress" ontology_id="GO_0034976"/>
+		<entity id="s2.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

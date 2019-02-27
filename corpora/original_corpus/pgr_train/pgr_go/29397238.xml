@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29397238">
+	<sentence id="s1" text="Atypical teratoid/rhabdoid tumors (AT/RT) and renal/extrarenal malignant rhabdoid tumors of childhood, epithelioid sarcoma and small cell carcinoma of the ovary, hypercalcemic type (SCCOHT) represent the most commonly recognized chromatin remodeling/SNF-driven neoplasms.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="229-249"
+			type="GO" text="chromatin remodeling" ontology_id="GO_0006338"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Approximately one-third of pediatric malignant rhabdoid tumors are linked to germline chromatin remodeling/SNF alterations (nucleosome disassembly/INI1, rarely nucleosome disassembly) resulting in occasional familial clustering of these highly aggressive malignancies (so-called rhabdoid tumor predisposition syndrome, RTPS, types 1 and 2, respectively).">
+		<entity id="s2.e1" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="86-106"
+			type="GO" text="chromatin remodeling" ontology_id="GO_0006338"/>
+		<entity id="s2.e3" charOffset="124-146"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s2.e4" charOffset="160-182"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, more recently, inherited chromatin remodeling/SNF-deficiency has been linked to several benign syndromic tumors including a subset of familial schwannomatosis (linked to nucleosome disassembly) and multiple meningiomas (linked to nucleosome disassembly) as well as others.">
+		<entity id="s3.e1" charOffset="34-54"
+			type="GO" text="chromatin remodeling" ontology_id="GO_0006338"/>
+		<entity id="s3.e2" charOffset="114-119"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="179-201"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s3.e4" charOffset="239-261"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Beyond neoplasms, several congenital developmental functional disorders such as Coffin-Siris syndrome and intellectual disability are now known to be chromatin remodeling/SNF-related.">
+		<entity id="s4.e1" charOffset="106-129"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s4.e2" charOffset="150-170"
+			type="GO" text="chromatin remodeling" ontology_id="GO_0006338"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Approximately one-third of pediatric malignant rhabdoid tumors are linked to germline SWI/SNF alterations (SMARCB1/nucleosome disassembly, rarely SMARCA4) resulting in occasional familial clustering of these highly aggressive malignancies (so-called rhabdoid tumor predisposition syndrome, RTPS, types 1 and 2, respectively).">
+		<entity id="s5.e1" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="115-137"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29967145">
+	<sentence id="s1" text="Zyxin regulates regulation of cell cycle activity through the colon cancer oncogene protein phosphorylation.">
+		<entity id="s1.e1" charOffset="16-40"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s1.e2" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="84-107"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="protein phosphorylation knockout phenocopied Zyxin knockdown in colon cancer cells, while ectopic expression of protein phosphorylation substantially restored the tumorigenic defects of Zyxin-depletion cells.">
+		<entity id="s2.e1" charOffset="0-23"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="144-149"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Fully activated regulation of cell cycle is required to support the growth in protein phosphorylation-knockout colon cancer cells in vitro and in vivo.">
+		<entity id="s3.e1" charOffset="16-40"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s3.e2" charOffset="78-101"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e3" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Together, these observations suggest that Zyxin promotes colon cancer tumorigenesis in a mitotic-phosphorylation-dependent manner and through protein phosphorylation-mediated regulation of cell cycle activation">
+		<entity id="s4.e1" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="70-75"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="142-165"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s4.e4" charOffset="156-180"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e5"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

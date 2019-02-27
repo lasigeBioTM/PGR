@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29725254">
+	<sentence id="s1" text="A previous study showed that treatment with resveratrol inhibits muscular atrophy in mdx mice, a model of DMD.">
+		<entity id="s1.e1" charOffset="65-81"
+			type="HP" text="muscular atrophy" ontology_id="HP_0003202"/>
+		<entity id="s1.e2" charOffset="106-109"
+			type="GENE" text="DMD" ontology_id="1756"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

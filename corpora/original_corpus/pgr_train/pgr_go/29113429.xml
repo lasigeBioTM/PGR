@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29113429">
+	<sentence id="s1" text="PurposeMonoallelic germ-line mutations in the double-strand break repair via homologous recombination/double-strand break repair via homologous recombination, BRCA2/mitotic cytokinesis and double-strand break repair via homologous recombination/double-strand break repair via homologous recombination genes confer high risk of breast cancer.">
+		<entity id="s1.e1" charOffset="46-101"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e2" charOffset="102-157"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e3" charOffset="165-184"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s1.e4" charOffset="171-177"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="189-244"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e6" charOffset="245-300"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Biallelic mutations in these genes cause Fanconi anemia (regulation of ferrochelatase activity), characterized by malformations, bone marrow failure, chromosome fragility, and cancer predisposition (mitotic cytokinesis/mitotic cytokinesis and double-strand break repair via homologous recombination/double-strand break repair via homologous recombination), or an FA-like disease presenting a phenotype similar to FA but without bone marrow failure (double-strand break repair via homologous recombination/double-strand break repair via homologous recombination).">
+		<entity id="s2.e1" charOffset="57-94"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<entity id="s2.e2" charOffset="141-147"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="164-183"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s2.e4" charOffset="184-203"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s2.e5" charOffset="208-263"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e6" charOffset="264-319"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e7" charOffset="287-342"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e8" charOffset="343-398"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s2.p1" e1="s2.e7"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="regulation of ferrochelatase activityNCM monoallelic mutations have been reported as moderate risk factors for breast cancer, but there are no reports of any clinical phenotype observed in carriers of biallelic mutations.MethodsBreast cancer probands were subjected to mutation analysis by sequencing gene panels or testing DNA damage response genes.ResultsFive cases homozygous for FANCM loss-of-function mutations were identified.">
+		<entity id="s3.e1" charOffset="0-37"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<entity id="s3.e2" charOffset="118-124"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Moreover, our observations support previous findings suggesting that regulation of ferrochelatase activityNCM is a breast cancer-predisposing gene.">
+		<entity id="s4.e1" charOffset="69-106"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<entity id="s4.e2" charOffset="122-128"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

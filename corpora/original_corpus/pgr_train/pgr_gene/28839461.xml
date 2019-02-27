@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28839461">
+	<sentence id="s1" text="Here, we report that in breast cancer tissue samples and breast cancer cell lines, GPT2 expression level was markedly elevated and correlated with the pathological grades of breast cancers.">
+		<entity id="s1.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="83-87"
+			type="GENE" text="GPT2" ontology_id="84706"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="GPT2 overexpression increased the subpopulation of breast cancer stem cells in vitro and promoted tumorigenesis in mice.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="GPT2" ontology_id="84706"/>
+		<entity id="s2.e2" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overall, GPT2 promotes tumorigenesis and stemness of breast cancer cells by activating the Shh signaling, suggesting that GTP2 is a potential target for breast cancer therapy">
+		<entity id="s3.e1" charOffset="9-13"
+			type="GENE" text="GPT2" ontology_id="84706"/>
+		<entity id="s3.e2" charOffset="60-66"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="91-94"
+			type="GENE" text="Shh" ontology_id="6469"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

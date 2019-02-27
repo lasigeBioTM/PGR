@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29482704">
+	<sentence id="s1" text="Our patient had all the major characteristic features consistent with Ellis-glycoprotein biosynthetic process Creveld syndrome including post-axial polydactyly, teeth and nail abnormalities, congenital heart defect and skeletal dysplasia.">
+		<entity id="s1.e1" charOffset="76-109"
+			type="GO" text="glycoprotein biosynthetic process" ontology_id="GO_0009101"/>
+		<entity id="s1.e2" charOffset="142-147"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<entity id="s1.e3" charOffset="148-159"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e4" charOffset="191-214"
+			type="HP" text="congenital heart defect" ontology_id="HP_0001627"/>
+		<entity id="s1.e5" charOffset="219-237"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29920554">
+	<sentence id="s1" text="The FoxP2 transcription factor and its target genes have been implicated in developmental brain diseases with a prominent language component, such as developmental verbal dyspraxia and specific language impairment.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="GENE" text="FoxP2" ontology_id="93986"/>
+		<entity id="s1.e2" charOffset="164-180"
+			type="HP" text="verbal dyspraxia" ontology_id="HP_0011098"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

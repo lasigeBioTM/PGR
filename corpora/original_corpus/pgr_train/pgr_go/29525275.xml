@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29525275">
+	<sentence id="s1" text="In summary, a 15-lncRNA expression signature (BAIAP2-AS1, spliceosomal tri-snRNP complex assembly-203J24.8, LINC01133, positive regulation of ARF protein signal transduction-7G5.6, RP11-147L13.15, SERHL, CTC-537E7.3, RP11-440L14.1, RP11-131N11.4, ILF3-AS1, RP11-80H18.4, RP11-1096G20.5, CTD-2192J16.26, RP11-621L6.3, and RP11-571M6.18) were identified and validated which can predict cervical cancer patient survival.">
+		<entity id="s1.e1" charOffset="58-97"
+			type="GO" text="spliceosomal tri-snRNP complex assembly" ontology_id="GO_0000244"/>
+		<entity id="s1.e2" charOffset="119-173"
+			type="GO" text="positive regulation of ARF protein signal transduction" ontology_id="GO_0032014"/>
+		<entity id="s1.e3" charOffset="342-348"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

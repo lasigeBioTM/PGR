@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28515149">
+	<sentence id="s1" text="Here, we assessed whether disrupting pyruvate kinase-M (Pkm), an enzyme that acts in the terminal steps of glycolysis, would alter CGNP metabolism, proliferation, and tumorigenesis.">
+		<entity id="s1.e1" charOffset="56-59"
+			type="GENE" text="Pkm" ontology_id="5315"/>
+		<entity id="s1.e2" charOffset="167-172"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We observed a dichotomous pattern of PKM expression, in which postmitotic neurons throughout the brain expressed the constitutively active PKM1 isoform, while neural progenitors and medulloblastomas exclusively expressed the less active PKM2.">
+		<entity id="s2.e1" charOffset="37-40"
+			type="GENE" text="PKM" ontology_id="5315"/>
+		<entity id="s2.e2" charOffset="182-197"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Pkm2 deletion accelerated tumor formation in medulloblastoma-prone ND2:SmoA1 mice, indicating the disrupting PKM releases CGNPs from a tumor-suppressive effect.">
+		<entity id="s3.e1" charOffset="0-3"
+			type="GENE" text="Pkm" ontology_id="5315"/>
+		<entity id="s3.e2" charOffset="26-31"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="45-60"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<entity id="s3.e4" charOffset="109-112"
+			type="GENE" text="PKM" ontology_id="5315"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

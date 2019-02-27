@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30225353">
+	<sentence id="s1" text="Leucine-rich glioma-inactivated protein 1 (LGI1) is a secreted neuronal protein and a Nogo receptor 1 (NgR1) ligand.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e2" charOffset="43-47"
+			type="GENE" text="LGI1" ontology_id="9211"/>
+		<entity id="s1.e3" charOffset="103-107"
+			type="GENE" text="NgR1" ontology_id="29949"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in LGI1 in humans causes autosomal dominant lateral temporal lobe epilepsy and homozygous deletion of LGI1 in mice results in severe epileptic seizures that cause early postnatal death.">
+		<entity id="s2.e1" charOffset="13-17"
+			type="GENE" text="LGI1" ontology_id="9211"/>
+		<entity id="s2.e2" charOffset="76-84"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="153-161"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="RhoA activity is significantly increased in cortical cultures derived from LGI1 null mice and using a reconstituted system; we show directly that LGI1 antagonizes NgR1-tumor necrosis factor receptor orphan Y (TROY) signaling.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="RhoA" ontology_id="387"/>
+		<entity id="s3.e2" charOffset="75-79"
+			type="GENE" text="LGI1" ontology_id="9211"/>
+		<entity id="s3.e3" charOffset="163-167"
+			type="GENE" text="NgR1" ontology_id="29949"/>
+		<entity id="s3.e4" charOffset="168-173"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

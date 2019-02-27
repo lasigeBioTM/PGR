@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28283962">
+	<sentence id="s1" text="We here review the current knowledge and recent findings in the known genes for isolated dystonia TOR1A, THAP1, and GNAL as well as for the combined dystonias due to mutations in GCH1, ATP1A3, and SGCE.">
+		<entity id="s1.e1" charOffset="89-97"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s1.e2" charOffset="98-103"
+			type="GENE" text="TOR1A" ontology_id="1861"/>
+		<entity id="s1.e3" charOffset="105-110"
+			type="GENE" text="THAP1" ontology_id="55145"/>
+		<entity id="s1.e4" charOffset="116-120"
+			type="GENE" text="GNAL" ontology_id="2774"/>
+		<entity id="s1.e5" charOffset="179-183"
+			type="GENE" text="GCH1" ontology_id="2643"/>
+		<entity id="s1.e6" charOffset="185-191"
+			type="GENE" text="ATP1A3" ontology_id="478"/>
+		<entity id="s1.e7" charOffset="197-201"
+			type="GENE" text="SGCE" ontology_id="8910"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We present confirmatory evidence for a role of dystonia genes that had not yet been unequivocally established including PRKRA, TUBB4A, ANO3, and TAF1.">
+		<entity id="s2.e1" charOffset="47-55"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s2.e2" charOffset="120-125"
+			type="GENE" text="PRKRA" ontology_id="8575"/>
+		<entity id="s2.e3" charOffset="127-133"
+			type="GENE" text="TUBB4A" ontology_id="10382"/>
+		<entity id="s2.e4" charOffset="135-139"
+			type="GENE" text="ANO3" ontology_id="63982"/>
+		<entity id="s2.e5" charOffset="145-149"
+			type="GENE" text="TAF1" ontology_id="6872"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We finally discuss selected novel genes for dystonia such as KMT2B and VAC14 along with the challenges for gene identification in the NGS era and the translational importance of dystonia genetics in clinical practice">
+		<entity id="s3.e1" charOffset="44-52"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s3.e2" charOffset="61-66"
+			type="GENE" text="KMT2B" ontology_id="9757"/>
+		<entity id="s3.e3" charOffset="71-76"
+			type="GENE" text="VAC14" ontology_id="55697"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

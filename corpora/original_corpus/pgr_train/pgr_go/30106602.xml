@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30106602">
+	<sentence id="s1" text="We found that the human colorectal cancer cell line, HCT-116, displayed reduced expression of activation of MAPKK activity-connective tissue replacement involved in inflammatory response wound healing, and reintroduction of Raf1-tr sensitized the cells to bleomycin-induced apoptosis.">
+		<entity id="s1.e1" charOffset="35-41"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="94-122"
+			type="GO" text="activation of MAPKK activity" ontology_id="GO_0000186"/>
+		<entity id="s1.e3" charOffset="123-200"
+			type="GO" text="connective tissue replacement involved in inflammatory response wound healing" ontology_id="GO_0002248"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, we identified differential activation of MAPKK activity-tr expression in breast cancer cell lines and showed that breast cancer cells with increased Raf1-tr expression become sensitized to bleomycin-induced apoptosis.">
+		<entity id="s2.e1" charOffset="40-68"
+			type="GO" text="activation of MAPKK activity" ontology_id="GO_0000186"/>
+		<entity id="s2.e2" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

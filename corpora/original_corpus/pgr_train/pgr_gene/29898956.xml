@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29898956">
+	<sentence id="s1" text="Here we describe 4 families with autosomal recessive inherited macrothrombocytopenia with focal myelofibrosis due to germ line loss-of-function mutations in the megakaryocyte-specific immunoreceptor tyrosine-based inhibitory motif (ITIM)-containing receptor G6b-B (G6b, C6orf25, or MPIG6B).">
+		<entity id="s1.e1" charOffset="33-52"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="63-84"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<entity id="s1.e3" charOffset="282-288"
+			type="GENE" text="MPIG6B" ontology_id="80739"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

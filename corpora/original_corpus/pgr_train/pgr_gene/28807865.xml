@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28807865">
+	<sentence id="s1" text="GO exhibits an autosomal recessive inheritance pattern and is caused by loss-of-function mutations in GORAB, which encodes a protein important for Golgi-related transport.">
+		<entity id="s1.e1" charOffset="15-46"
+			type="HP" text="autosomal recessive inheritance" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="102-107"
+			type="GENE" text="GORAB" ontology_id="92344"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

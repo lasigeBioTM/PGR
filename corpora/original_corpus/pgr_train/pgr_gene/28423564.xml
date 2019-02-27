@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28423564">
+	<sentence id="s1" text="Herein, we report that CHRDL1 expression was significantly down-regulated in gastric cancer tissues and associated with poor survival.">
+		<entity id="s1.e1" charOffset="23-29"
+			type="GENE" text="CHRDL1" ontology_id="91851"/>
+		<entity id="s1.e2" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In vitro, CHRDL1 knockdown promoted tumor cell proliferation and migration through BMPR II by activating Akt, Erk and b-catenin.">
+		<entity id="s2.e1" charOffset="10-16"
+			type="GENE" text="CHRDL1" ontology_id="91851"/>
+		<entity id="s2.e2" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, we observed the hypermethylation of the CHRDL1 promoter in gastric cancer, which induced low expression of CHRDL1 and decreased its secretion to the supernatant.">
+		<entity id="s3.e1" charOffset="53-59"
+			type="GENE" text="CHRDL1" ontology_id="91851"/>
+		<entity id="s3.e2" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Finally, in vivo experiments confirmed that CHRDL1 acted as a tumor suppressor gene in suppressing tumor growth and metastasis">
+		<entity id="s4.e1" charOffset="44-50"
+			type="GENE" text="CHRDL1" ontology_id="91851"/>
+		<entity id="s4.e2" charOffset="62-67"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

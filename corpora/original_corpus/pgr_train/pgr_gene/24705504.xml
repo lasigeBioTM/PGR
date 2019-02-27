@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24705504">
+	<sentence id="s1" text="Friedreich ataxia (FRDA) is the most frequent progressive autosomal recessive disorder associated with unstable expansion of GAA trinucleotide repeats in the first intron of the FXN gene, which encodes for the mitochondrial frataxin protein.">
+		<entity id="s1.e1" charOffset="11-17"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="125-128"
+			type="GENE" text="GAA" ontology_id="2548"/>
+		<entity id="s1.e3" charOffset="178-181"
+			type="GENE" text="FXN" ontology_id="2395"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29920362">
+	<sentence id="s1" text="In this report we describe a female child with global developmental delay, microcephaly and myoclonic seizures harbouring a 5 Mb deletion in 14q12 locus resulting in deletion of single copy of brain specific genes FOXG1, PRKD1 and NOVA1.">
+		<entity id="s1.e1" charOffset="102-110"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="214-219"
+			type="GENE" text="FOXG1" ontology_id="2290"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

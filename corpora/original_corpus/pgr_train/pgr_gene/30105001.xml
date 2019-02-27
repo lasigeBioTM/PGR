@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30105001">
+	<sentence id="s1" text="Fat mass and obesity-associated protein (FTO) single-nucleotide polymorphisms (SNPs) have been linked to increased body mass and obesity in humans by genome-wide association studies (GWAS) since 2007.">
+		<entity id="s1.e1" charOffset="13-20"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="41-44"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although some recent studies suggest that the obesity-related SNPs in FTO influence obesity susceptibility likely through altering the expression of the adjacent genes such as IRX3 and RPGRIP1L, rather than FTO itself, a solid link between the SNP risk genotype and the increased FTO expression in both human blood cells and fibroblasts has been reported.">
+		<entity id="s2.e1" charOffset="46-53"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="70-73"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<entity id="s2.e3" charOffset="176-180"
+			type="GENE" text="IRX3" ontology_id="79191"/>
+		<entity id="s2.e4" charOffset="185-193"
+			type="GENE" text="RPGRIP1L" ontology_id="23322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Epidemiology studies also showed a strong association of FTO SNPs and overweight/obesity with increased risk of various types of cancers.">
+		<entity id="s3.e1" charOffset="57-60"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<entity id="s3.e2" charOffset="81-88"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="As the first identified messenger RNA N6-methyladenosine (m6A) demethylase, FTO has been shown recently to play m6A-dependent roles in adipogenesis and tumorigenesis (especially in the development of leukemia and glioblastoma).">
+		<entity id="s4.e1" charOffset="58-61"
+			type="GENE" text="m6A" ontology_id="56339"/>
+		<entity id="s4.e2" charOffset="76-79"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<entity id="s4.e3" charOffset="213-225"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="This mini review discusses the roles and underlying molecular mechanisms of FTO in both obesity and cancers, and also summarizes recent advances in the development of FTO inhibitors">
+		<entity id="s5.e1" charOffset="76-79"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<entity id="s5.e2" charOffset="88-95"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

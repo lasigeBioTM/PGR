@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29752403">
+	<sentence id="s1" text="Importantly, dysfunction in other family members leads to learning deficits (TRPC1/4/5) and ataxia (TRPC3).">
+		<entity id="s1.e1" charOffset="92-98"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="100-105"
+			type="GENE" text="TRPC3" ontology_id="7222"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

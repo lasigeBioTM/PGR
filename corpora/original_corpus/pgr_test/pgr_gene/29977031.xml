@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29977031">
+	<sentence id="s1" text="Schnyder corneal dystrophy (SCD) is a rare autosomal dominant disease in humans, characterized by abnormal deposition of cholesterol and phospholipids in cornea caused by mutations in the UbiA prenyltransferase domain containing 1 (UBIAD1) gene.">
+		<entity id="s1.e1" charOffset="9-26"
+			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="SCD" ontology_id="6584"/>
+		<entity id="s1.e3" charOffset="232-238"
+			type="GENE" text="UBIAD1" ontology_id="29914"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

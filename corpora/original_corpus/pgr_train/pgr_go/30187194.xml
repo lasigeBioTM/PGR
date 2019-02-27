@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30187194">
+	<sentence id="s1" text="Heterozygous mutations of the Forkhead-box protein 2 (negative regulation of transcription, DNA-templated) gene in humans cause childhood apraxia of speech.">
+		<entity id="s1.e1" charOffset="54-105"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="138-155"
+			type="HP" text="apraxia of speech" ontology_id="HP_0011098"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

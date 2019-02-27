@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29328486">
+	<sentence id="s1" text="Furthermore, we found that tumor necrosis factor (TNF) receptor-associated factor 5 (TRAF5) and TGF-b activated kinase 1 (activation of MAPKK activity) binding protein 1 (TAB1) were direct targets of miR-873 in CRC cells.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="122-150"
+			type="GO" text="activation of MAPKK activity" ontology_id="GO_0000186"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

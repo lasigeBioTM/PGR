@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29511320">
+	<sentence id="s1" text="An abnormality in the miRNA catabolic process/let-7a axis is relevant to the progression of hepatitis B virus (HBV)-positive hepatocellular carcinoma (HCC), which could be a novel therapeutic target for this malignant tumor.">
+		<entity id="s1.e1" charOffset="22-45"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s1.e2" charOffset="125-149"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e3" charOffset="218-223"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

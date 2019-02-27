@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28238293">
+	<sentence id="s1" text="With this data-driven weighting procedure the LRT detected significant signal in genes located in regions already confirmed as associated with schizophrenia - the biological_process (p = 1.020e-06) and the valyl-tRNA aminoacylation (p = 2.383e-06) - in the Swedish schizophrenia case-control cohort of 11,040 individuals with exome-sequencing data.">
+		<entity id="s1.e1" charOffset="143-156"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="163-181"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e3" charOffset="206-231"
+			type="GO" text="valyl-tRNA aminoacylation" ontology_id="GO_0006438"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

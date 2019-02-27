@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28578000">
+	<sentence id="s1" text="We propose that centrosome cycle protein level needs to be fine-tuned in order to ensure that its direct interactors, such as the microcephaly protein Cep215 and PCNT, function properly">
+		<entity id="s1.e1" charOffset="16-32"
+			type="GO" text="centrosome cycle" ontology_id="GO_0007098"/>
+		<entity id="s1.e2" charOffset="130-142"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

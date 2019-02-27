@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28893434">
+	<sentence id="s1" text="Mutations in SZT2 were first reported in 2013 as a cause of early-onset epileptic encephalopathy.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="SZT2" ontology_id="23334"/>
+		<entity id="s1.e2" charOffset="82-96"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This case suggested a broad phenotypic spectrum arises from SZT2 mutations, forming a continuum from epileptic encephalopathy and severe developmental delay to mild intellectual disability without epilepsy.">
+		<entity id="s2.e1" charOffset="60-64"
+			type="GENE" text="SZT2" ontology_id="23334"/>
+		<entity id="s2.e2" charOffset="137-156"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="197-205"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The characteristic thick and short corpus callosum observed in 7/8 cases with epilepsy, including the proband, but not in three non-syndromic cases, appears to be specific, and thus useful for indicating the possibility of SZT2 mutations.">
+		<entity id="s3.e1" charOffset="78-86"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s3.e2" charOffset="223-227"
+			type="GENE" text="SZT2" ontology_id="23334"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

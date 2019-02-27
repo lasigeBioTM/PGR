@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29207117">
+	<sentence id="s1" text="The present study aimed to investigate the relationship between the expression of collagen and calcium-binding epidermal growth factor domain-containing protein 1 (CCBE1) and lymphatic vessel endothelial hyaluronan receptor 1 (LYVE1) in tumor tissue with the clinical prognosis of lung cancer.">
+		<entity id="s1.e1" charOffset="164-169"
+			type="GENE" text="CCBE1" ontology_id="147372"/>
+		<entity id="s1.e2" charOffset="227-232"
+			type="GENE" text="LYVE1" ontology_id="10894"/>
+		<entity id="s1.e3" charOffset="237-242"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="286-292"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CCBE1 and LYVE1 expression was assessed in samples from normal and tumor tissue using polymerase chain reaction, western blot analysis and immunohistochemistry.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="CCBE1" ontology_id="147372"/>
+		<entity id="s2.e2" charOffset="10-15"
+			type="GENE" text="LYVE1" ontology_id="10894"/>
+		<entity id="s2.e3" charOffset="67-72"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Conversely, LYVE1 expression appeared to be upregulated in lung cancer tissue.">
+		<entity id="s3.e1" charOffset="12-17"
+			type="GENE" text="LYVE1" ontology_id="10894"/>
+		<entity id="s3.e2" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, the present results suggested that CCBE1 and LYVE1 may have potential as biomarkers for the identification of lung cancer patients at a high risk of LNM">
+		<entity id="s4.e1" charOffset="50-55"
+			type="GENE" text="CCBE1" ontology_id="147372"/>
+		<entity id="s4.e2" charOffset="60-65"
+			type="GENE" text="LYVE1" ontology_id="10894"/>
+		<entity id="s4.e3" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

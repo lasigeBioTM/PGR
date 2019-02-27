@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29129687">
+	<sentence id="s1" text="Here, we applied this method to identify differentially expressed proteins (such as coatomer subunit beta 2 [COPB2]) and evaluated the functions and molecular mechanisms of these proteins in prostate cancer (PCA) cell proliferation.">
+		<entity id="s1.e1" charOffset="109-114"
+			type="GENE" text="COPB2" ontology_id="9276"/>
+		<entity id="s1.e2" charOffset="200-206"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

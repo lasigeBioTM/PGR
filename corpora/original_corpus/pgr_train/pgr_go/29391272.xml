@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29391272">
+	<sentence id="s1" text="Type II (middle type) patients show development delay and the distinctive facial phenotype (midface retraction, short and upturned nose), lacking both hydronephrosis and typical skeletal abnormalities, with existence of regulation of transcription by RNA polymerase IImutation.">
+		<entity id="s1.e1" charOffset="151-165"
+			type="HP" text="hydronephrosis" ontology_id="HP_0000126"/>
+		<entity id="s1.e2" charOffset="220-268"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Type III (simple type) patients with regulation of transcription by RNA polymerase II alteration show their major symptom is development delay, in which expressive language delay is the most striking feature.">
+		<entity id="s2.e1" charOffset="37-85"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e2" charOffset="164-178"
+			type="HP" text="language delay" ontology_id="HP_0000750"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29544889">
+	<sentence id="s1" text="Her epilepsy onset was earlier than is typical for RTT patients.">
+		<entity id="s1.e1" charOffset="4-12"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="51-54"
+			type="GENE" text="RTT" ontology_id="4204"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="STXBP1 mutations cause early infantile epileptic encephalopathy (EIEE), various intractable epilepsies, and neurodevelopmental disorders.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="STXBP1" ontology_id="6812"/>
+		<entity id="s2.e2" charOffset="49-63"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28055976">
+	<sentence id="s1" text="photoreceptor cell maintenance has been shown to be an important stem cell factor that promotes glioma progression.">
+		<entity id="s1.e1" charOffset="0-30"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we found that photoreceptor cell maintenance mRNA expression was a prognostic marker in three independent glioma patient cohorts, corroborating a putative role for CD133 in glioma progression.">
+		<entity id="s2.e1" charOffset="29-59"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s2.e2" charOffset="121-127"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Importantly, we found that photoreceptor cell maintenance expression in glioma was highly correlated with the expression of HOX gene stem cell factors (positive regulation of receptor biosynthetic process, negative regulation of transcription by RNA polymerase II, positive regulation of transcription by RNA polymerase II, positive regulation of transcription by RNA polymerase II and HOXC6).">
+		<entity id="s3.e1" charOffset="27-57"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s3.e2" charOffset="72-78"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e3" charOffset="152-204"
+			type="GO" text="positive regulation of receptor biosynthetic process" ontology_id="GO_0010870"/>
+		<entity id="s3.e4" charOffset="206-263"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e5" charOffset="265-322"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e6" charOffset="324-381"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="photoreceptor cell maintenance (p = 0.021) and negative regulation of transcription by RNA polymerase II (p = 0.001) were independent prognostic markers when the three glioma patient cohorts were combined (n = 231).">
+		<entity id="s4.e1" charOffset="0-30"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s4.e2" charOffset="47-104"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000147"/>
+		<entity id="s4.e3" charOffset="116-122"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our results suggest that HOX genes may play a more important role in progression of glioma when photoreceptor cell maintenance expression is low.">
+		<entity id="s5.e1" charOffset="84-90"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s5.e2" charOffset="96-126"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Furthermore, we showed that low-level expression of cell-cell junction assembly in photoreceptor cell maintenance-high glioma was associated with poorer survival, suggesting that LIM2 could be a therapeutic target for glioma expressing a high level of CD133.">
+		<entity id="s6.e1" charOffset="52-79"
+			type="GO" text="cell-cell junction assembly" ontology_id="GO_0007043"/>
+		<entity id="s6.e2" charOffset="60-90"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s6.e3" charOffset="96-102"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Connectivity mapping identified vinblastine and vincristine as agents that could reverse the photoreceptor cell maintenance/HOX genes/cell-cell junction assembly-signature, and we confirmed this by in vitro analysis in glioma cell lines, demonstrating that CD133 and HOX genes were co-expressed and could be downregulated by vincristine.">
+		<entity id="s7.e1" charOffset="93-123"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s7.e2" charOffset="134-161"
+			type="GO" text="cell-cell junction assembly" ontology_id="GO_0007043"/>
+		<entity id="s7.e3" charOffset="196-202"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e2"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="In conclusion, our data show that photoreceptor cell maintenance and HOX genes are important prognostic markers in glioma and shed light on possible treatment strategies for glioma expressing a high level of CD133">
+		<entity id="s8.e1" charOffset="34-64"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s8.e2" charOffset="115-121"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29511213">
+	<sentence id="s1" text="double-strand break repair via homologous recombination is a tumor suppressor that regulates DNA repair by homologous recombination.">
+		<entity id="s1.e1" charOffset="0-55"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e2" charOffset="61-66"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Germline mutations in double-strand break repair via homologous recombination are associated with increased risk of breast and ovarian cancer and double-strand break repair via homologous recombination deficient tumors are exquisitely sensitive to poly (ADP-ribose) polymerase (PARP) inhibitors.">
+		<entity id="s2.e1" charOffset="22-77"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e2" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="162-167"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Lack-of-function mutations in deadenylation-independent decapping of nuclear-transcribed mRNA were detected in double-strand break repair via homologous recombination/2-mutation-negative breast cancer cases, suggesting a role in breast cancer susceptibility.">
+		<entity id="s3.e1" charOffset="30-93"
+			type="GO" text="deadenylation-independent decapping of nuclear-transcribed mRNA" ontology_id="GO_0031087"/>
+		<entity id="s3.e2" charOffset="52-107"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s3.e3" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

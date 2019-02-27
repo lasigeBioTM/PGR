@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29536172">
+	<sentence id="s1" text="To elucidate the influence of cerebellum atrophy and ataxia on the obtained results, the behavioral and neurophysiological findings in reeler mice were reproduced using the Disabled-1 (Dab1) cKO mice, in which the Reelin-Dab1 signal deficiency is confined to the cerebral cortex.">
+		<entity id="s1.e1" charOffset="53-59"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="185-189"
+			type="GENE" text="Dab1" ontology_id="1600"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

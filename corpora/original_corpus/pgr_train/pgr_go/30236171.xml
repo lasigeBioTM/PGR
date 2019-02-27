@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30236171">
+	<sentence id="s1" text="Several studies suggested that alcohol promotes tumor growth by altering immune cell phenotypesin the liver.Arginine methylation is a common posttranslational modification generated mostly by a single protein,histone methylation.">
+		<entity id="s1.e1" charOffset="48-53"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="209-228"
+			type="GO" text="histone methylation" ontology_id="GO_0016571"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We aimed to define the role of myeloid histone methylation in alcohol-associated liver tumor progressionusing a mouse model of DEN injection followed by Lieber-DeCarli alcohol liquid diet feeding.">
+		<entity id="s2.e1" charOffset="39-58"
+			type="GO" text="histone methylation" ontology_id="GO_0016571"/>
+		<entity id="s2.e2" charOffset="87-92"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We found that histone methylation knockout mice showed significantly lower expression of IL10 and IL6 cytokines in the liverand downstream regulation of transcription, DNA-templated activation, which correlated with reduced number of surface tumors, reduced proliferation and reduced number of M2 macrophages in the liver as well as within proliferating nodules.">
+		<entity id="s3.e1" charOffset="14-33"
+			type="GO" text="histone methylation" ontology_id="GO_0016571"/>
+		<entity id="s3.e2" charOffset="139-181"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s3.e3" charOffset="205-210"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We found that blocking IL6 signaling in alcohol fed mice reducedthe number of tumorsand liver proliferation in wild type mice but not in knockout mice suggesting that reduced IL6 in histone methylation knockout mice contributes to the protection from alcohol.">
+		<entity id="s4.e1" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="182-201"
+			type="GO" text="histone methylation" ontology_id="GO_0016571"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We found that histone methylation expression in tumor associated macrophages correlated with regulation of transcription, DNA-templated activation in human HCC specimens.">
+		<entity id="s5.e1" charOffset="14-33"
+			type="GO" text="histone methylation" ontology_id="GO_0016571"/>
+		<entity id="s5.e2" charOffset="48-53"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="93-135"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="Taken together these data suggest that the histone methylation-IL6-regulation of transcription, DNA-templated axis is an important mechanism of alcohol-associated tumor progression">
+		<entity id="s6.e1" charOffset="43-62"
+			type="GO" text="histone methylation" ontology_id="GO_0016571"/>
+		<entity id="s6.e2" charOffset="67-109"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s6.e3" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="true"/>
+	</sentence>
+</document>

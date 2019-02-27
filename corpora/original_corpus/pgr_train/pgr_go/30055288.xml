@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30055288">
+	<sentence id="s1" text="Aberrant expression of different family members of the positive regulation of cell-matrix adhesion/ephrin system, which comprises the Eph receptors (Ephs) and their ligands (ephrins), has been implicated in various malignancies including breast cancer.">
+		<entity id="s1.e1" charOffset="55-98"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e2" charOffset="245-251"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This review reflects the existing positive regulation of cell-matrix adhesion/ephrin literature while focusing on breast cancer heterogeneity.">
+		<entity id="s2.e1" charOffset="34-77"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s2.e2" charOffset="121-127"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="128-141"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="positive regulation of cell-matrix adhesionA2, EphB4 and EphB6 are the members most extensively studied in breast cancer.">
+		<entity id="s3.e1" charOffset="0-43"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s3.e2" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Existing research points to the potential use of various positive regulation of cell-matrix adhesion/ephrin members as biomarkers for assessing prognosis and selecting the most suitable therapeutic strategies in variable clinical scenarios, also for overcoming drug resistance, in the era of breast cancer heterogeneity">
+		<entity id="s4.e1" charOffset="57-100"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s4.e2" charOffset="299-305"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

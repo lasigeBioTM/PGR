@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28343235">
+	<sentence id="s1" text="In the present study, we performed three-dimensional fluorescence in situ hybridization experiments in the colorectal cancer cell lines DLD-1 and LoVo using whole chromosome painting probes for chromosomes 8 and 11 and BAC clones targeting four genes with different expression levels assessed by gene expression arrays and RT-PCR.">
+		<entity id="s1.e1" charOffset="118-124"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="136-139"
+			type="GENE" text="DLD" ontology_id="1738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

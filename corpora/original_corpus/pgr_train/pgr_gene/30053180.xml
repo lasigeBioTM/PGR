@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30053180">
+	<sentence id="s1" text="We report a surgical case of 51-year-old woman with myoepithelioma occurring in the posterior mediastinum that harbored the Ewing sarcoma breakpoint region1 (EWSR1) gene rearrangement.">
+		<entity id="s1.e1" charOffset="130-137"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="158-163"
+			type="GENE" text="EWSR1" ontology_id="2130"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

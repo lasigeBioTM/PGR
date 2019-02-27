@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30191738">
+	<sentence id="s1" text="single strand break repair plays an essential role in the resistance of cancer cells to currently used antitumour drugs based on DNA topological change inhibitors such as topotecan and irinotecan.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="single strand break repair" ontology_id="GO_0000012"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="151-151"
+			type="GO" text="DNA topological change" ontology_id="GO_0006265"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

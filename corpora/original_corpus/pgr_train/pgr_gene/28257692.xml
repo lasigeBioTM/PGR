@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28257692">
+	<sentence id="s1" text="Here de novo missense mutations in the RPS23 gene, which codes for uS12, are reported in two unrelated individuals with microcephaly, hearing loss, and overlapping dysmorphic features.">
+		<entity id="s1.e1" charOffset="39-44"
+			type="GENE" text="RPS23" ontology_id="6228"/>
+		<entity id="s1.e2" charOffset="120-132"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="134-146"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="159-161"
+			type="GENE" text="pi" ontology_id="5265"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

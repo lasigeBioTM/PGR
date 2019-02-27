@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28069272">
+	<sentence id="s1" text="The aim of the study was detailed clinicopathological investigation of nucleosome disassembly/nucleosome disassembly-deficient sinonasal carcinomas, including molecular genetic analysis of mutational status and DNA methylation of selected protooncogenes and tumor suppressor genes by means of next generation sequencing (NGS) and methylation-specific multiplex ligation-dependent probe amplification (MS-MLPA).">
+		<entity id="s1.e1" charOffset="71-93"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s1.e2" charOffset="94-116"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s1.e3" charOffset="240-245"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Regarding DNA methylation, all four nucleosome disassembly/nucleosome disassembly-deficient tumors showed methylation of Ras protein signal transduction gene by means of MS-MLPA.">
+		<entity id="s2.e1" charOffset="36-58"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s2.e2" charOffset="59-81"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s2.e3" charOffset="74-79"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="121-152"
+			type="GO" text="Ras protein signal transduction" ontology_id="GO_0007265"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="There was a statistically significant difference in Ras protein signal transduction gene methylation between nucleosome disassembly/nucleosome disassembly-deficient and SMARCB1/INI1-positive tumors (p=0.0095).">
+		<entity id="s3.e1" charOffset="52-83"
+			type="GO" text="Ras protein signal transduction" ontology_id="GO_0007265"/>
+		<entity id="s3.e2" charOffset="84-106"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s3.e3" charOffset="107-129"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s3.e4" charOffset="148-153"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In summary, we described four cases of SMARCB1/nucleosome disassembly-deficient sinonasal carcinoma with detailed clinicopathological data indicating that these tumors can be regarded as a distinct entity with aggressive behaviour.">
+		<entity id="s4.e1" charOffset="47-69"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s4.e2" charOffset="161-166"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

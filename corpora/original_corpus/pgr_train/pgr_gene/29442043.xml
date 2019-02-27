@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29442043">
+	<sentence id="s1" text="miR-223 is implicated in both vascular calcification and osteoporosis.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="30-52"
+			type="HP" text="vascular calcification" ontology_id="HP_0004934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus, upregulation of this miRNA to selectively increase osteoclast-like activity in calcified vessels of CKD-MBD could alleviate vascular calcification without altering bone structure">
+		<entity id="s2.e1" charOffset="27-30"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="130-152"
+			type="HP" text="vascular calcification" ontology_id="HP_0004934"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

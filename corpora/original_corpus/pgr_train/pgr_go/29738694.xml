@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29738694">
+	<sentence id="s1" text="Furthermore, in utero CRISPR-Cas9-mediated genome editing of regulation of translation or Tsc2 induced the development of spontaneous behavioral seizures, as well as cytomegalic neurons and cortical dyslamination.">
+		<entity id="s1.e1" charOffset="61-86"
+			type="GO" text="regulation of translation" ontology_id="GO_0006417"/>
+		<entity id="s1.e2" charOffset="145-153"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

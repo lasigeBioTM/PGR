@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29948256">
+	<sentence id="s1" text="Permanent visual impairment (bilateral chloride transport-corrected visual acuity AAAA 0.3) was found in 7 patients, including patients with a mutation in activation of MAPKK activity, positive regulation of Ras protein signal transduction, and positive regulation of protein phosphorylation.">
+		<entity id="s1.e1" charOffset="10-27"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<entity id="s1.e2" charOffset="39-57"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s1.e3" charOffset="155-183"
+			type="GO" text="activation of MAPKK activity" ontology_id="GO_0000186"/>
+		<entity id="s1.e4" charOffset="185-239"
+			type="GO" text="positive regulation of Ras protein signal transduction" ontology_id="GO_0046579"/>
+		<entity id="s1.e5" charOffset="245-291"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

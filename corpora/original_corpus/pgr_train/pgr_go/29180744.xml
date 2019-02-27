@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29180744">
+	<sentence id="s1" text="Shwachman-Diamond syndrome (mitotic spindle organization) (OMIM #260400) is a rare inherited bone marrow failure syndrome (IBMFS) that is primarily characterized by neutropenia and exocrine pancreatic insufficiency.">
+		<entity id="s1.e1" charOffset="28-56"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<entity id="s1.e2" charOffset="165-176"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="These 3 patients shared congenital neutropenia linked with various other mitotic spindle organization phenotypes.">
+		<entity id="s2.e1" charOffset="35-46"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<entity id="s2.e2" charOffset="73-101"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, autosomal dominant mutations in response to drug, a key member of the cotranslation protein-targeting pathway, lead to syndromic neutropenia with a Shwachman-Diamond-like phenotype">
+		<entity id="s3.e1" charOffset="47-63"
+			type="GO" text="response to drug" ontology_id="GO_0042493"/>
+		<entity id="s3.e2" charOffset="144-155"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

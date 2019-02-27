@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30072435">
+	<sentence id="s1" text="Eleven of the 43 kindreds affected by sporadic disease (26%) carry RPSA mutations, whereas 12 of the 13 multiplex kindreds (92%) carry RPSA mutations.">
+		<entity id="s1.e1" charOffset="38-46"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="67-71"
+			type="GENE" text="RPSA" ontology_id="3921"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

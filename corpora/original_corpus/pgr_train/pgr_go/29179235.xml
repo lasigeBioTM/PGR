@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29179235">
+	<sentence id="s1" text="A novel hereditary disorder encompassing high blood Mn levels, dystonia, polycythemia, distinctive T cell costimulation hyperintense signals in the basal ganglia on magnetic resonance imaging (MRI) brain, and chronic liver disease was recently described.">
+		<entity id="s1.e1" charOffset="63-71"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s1.e2" charOffset="73-85"
+			type="HP" text="polycythemia" ontology_id="HP_0001901"/>
+		<entity id="s1.e3" charOffset="99-119"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The older brother presented with progressive gait difficulties, hypotonia, intermittent dystonia, polycythemia, and characteristic T cell costimulation-hyperintense lesions on MRI brain.">
+		<entity id="s2.e1" charOffset="88-96"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s2.e2" charOffset="98-110"
+			type="HP" text="polycythemia" ontology_id="HP_0001901"/>
+		<entity id="s2.e3" charOffset="131-151"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

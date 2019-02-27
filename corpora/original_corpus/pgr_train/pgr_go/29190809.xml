@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29190809">
+	<sentence id="s1" text="Using this gene panel, we were able to identify disease-causing variants in 17 out of 87 (19.5%) analyzed patients, all found in known epilepsy-associated genes (potassium ion transmembrane transport, regulation of postsynapse organization, protein localization to plasma membrane, cardiac muscle cell action potential involved in contraction, cell adhesion, base-excision repair, gap-filling, protein-containing complex assembly, protein sumoylation, dolichol-linked oligosaccharide biosynthetic process, CHD2, negative regulation of Ras protein signal transduction, and neuron projection development).">
+		<entity id="s1.e1" charOffset="135-143"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="162-199"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s1.e3" charOffset="201-239"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<entity id="s1.e4" charOffset="241-280"
+			type="GO" text="protein localization to plasma membrane" ontology_id="GO_0072659"/>
+		<entity id="s1.e5" charOffset="282-342"
+			type="GO" text="cardiac muscle cell action potential involved in contraction" ontology_id="GO_0086002"/>
+		<entity id="s1.e6" charOffset="344-357"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s1.e7" charOffset="359-392"
+			type="GO" text="base-excision repair, gap-filling" ontology_id="GO_0006287"/>
+		<entity id="s1.e8" charOffset="394-429"
+			type="GO" text="protein-containing complex assembly" ontology_id="GO_0065003"/>
+		<entity id="s1.e9" charOffset="431-450"
+			type="GO" text="protein sumoylation" ontology_id="GO_0016925"/>
+		<entity id="s1.e10" charOffset="452-504"
+			type="GO" text="dolichol-linked oligosaccharide biosynthetic process" ontology_id="GO_0006488"/>
+		<entity id="s1.e11" charOffset="512-566"
+			type="GO" text="negative regulation of Ras protein signal transduction" ontology_id="GO_0046580"/>
+		<entity id="s1.e12" charOffset="572-601"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+</document>

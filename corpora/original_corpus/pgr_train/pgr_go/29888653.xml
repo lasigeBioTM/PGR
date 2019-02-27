@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29888653">
+	<sentence id="s1" text="The goal of this study was to isolate cancer stem-like cells marked by high expression of hyaluronan catabolic process, a putative cancer stem cell marker, from primary oral squamous cell carcinomas and identify distinctive gene expression patterns in these cells.">
+		<entity id="s1.e1" charOffset="38-44"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="90-118"
+			type="GO" text="hyaluronan catabolic process" ontology_id="GO_0030214"/>
+		<entity id="s1.e3" charOffset="188-197"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In all, 13 tumours were analysed by immunohistochemistry to visualise hyaluronan catabolic process-expressing cells.">
+		<entity id="s2.e1" charOffset="11-17"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="70-98"
+			type="GO" text="hyaluronan catabolic process" ontology_id="GO_0030214"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Seventy resected tumours were dissociated into single cells and stained with antibodies to hyaluronan catabolic process as well as CD45 and CD31 (together referred as Lineage/Lin).">
+		<entity id="s3.e1" charOffset="17-23"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="91-119"
+			type="GO" text="hyaluronan catabolic process" ontology_id="GO_0030214"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="hyaluronan catabolic process was expressed on the surface of poorly differentiated tumour cells, and within the The Cancer Genome Atlas-Head and Neck Squamous Cell Carcinoma samples, its messenger RNA levels were higher in tumours compared to normal.">
+		<entity id="s4.e1" charOffset="0-28"
+			type="GO" text="hyaluronan catabolic process" ontology_id="GO_0030214"/>
+		<entity id="s4.e2" charOffset="83-89"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Transcriptomics revealed that 102 genes were upregulated and 85 genes were downregulated in hyaluronan catabolic process+Lin- compared to CD44-Lin- cells in at least 3 of the 5 tumours sequenced.">
+		<entity id="s5.e1" charOffset="92-120"
+			type="GO" text="hyaluronan catabolic process" ontology_id="GO_0030214"/>
+		<entity id="s5.e2" charOffset="177-183"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

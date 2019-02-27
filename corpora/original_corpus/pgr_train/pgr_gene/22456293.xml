@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22456293">
+	<sentence id="s1" text="The autism susceptibility locus on human chromosome 7q32 contains the maternally imprinted MEST and the non-imprinted COPG2 and TSGA14 genes.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="91-95"
+			type="GENE" text="MEST" ontology_id="4232"/>
+		<entity id="s1.e3" charOffset="118-123"
+			type="GENE" text="COPG2" ontology_id="26958"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30228263">
+	<sentence id="s1" text="Additionally, adult sodium ion transmembrane transport mutant zebrafish develop an exaggerated spine curvature, reminiscent of kyphosis in humans.">
+		<entity id="s1.e1" charOffset="20-54"
+			type="GO" text="sodium ion transmembrane transport" ontology_id="GO_0035725"/>
+		<entity id="s1.e2" charOffset="127-135"
+			type="HP" text="kyphosis" ontology_id="HP_0002808"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

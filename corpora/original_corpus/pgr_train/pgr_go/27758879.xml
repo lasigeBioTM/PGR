@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27758879">
+	<sentence id="s1" text="In colorectal cancer, cellular response to DNA damage stimulus-mediated induction of unregulated cell growth involves posttranslational mechanisms that prevent proteasomal degradation of proto-oncogene b-catenin (negative regulation of cell proliferation) and its eventual translocation to the nucleus.">
+		<entity id="s1.e1" charOffset="14-20"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="22-62"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e3" charOffset="213-254"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show in colorectal cancer that increased expression of negative regulation of transcription by RNA polymerase II, the gene coding for transcription factor negative regulation of transcription by RNA polymerase II, correlated with reduced patient survival.">
+		<entity id="s2.e1" charOffset="28-34"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="64-121"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e3" charOffset="164-221"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Tissue arrays showed that negative regulation of transcription by RNA polymerase II protein was overexpressed in the early stages of colorectal cancer.">
+		<entity id="s3.e1" charOffset="26-83"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="144-150"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

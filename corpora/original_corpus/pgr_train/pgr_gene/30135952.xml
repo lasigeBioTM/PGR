@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30135952">
+	<sentence id="s1" text="Early postnatal overnutrition in humans is associated with long-term negative outcomes including obesity, increased risk of type-II diabetes, and cardiovascular disease.">
+		<entity id="s1.e1" charOffset="97-104"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="124-128"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="146-168"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

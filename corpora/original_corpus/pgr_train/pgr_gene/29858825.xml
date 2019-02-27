@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29858825">
+	<sentence id="s1" text="Conclusions: Two stable multidrug resistant cell lines of pancreatic cancer, JF305/CDDP and PANC-1/GEM, were successfully established.">
+		<entity id="s1.e1" charOffset="69-75"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="99-102"
+			type="GENE" text="GEM" ontology_id="51053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MSX2 might be a new drug resistance related gene in pancreatic cancer cells by up-regulation of MRP2 expression">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="MSX2" ontology_id="4488"/>
+		<entity id="s2.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

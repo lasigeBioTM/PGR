@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29962473">
+	<sentence id="s1" text="Recent studies demonstrated that glucose transmembrane transport activation improves ischemia-reperfusion-induced cardiac injury, and increased SGLT1 gene expression is observed in hypertrophic, ischemic, and diabetic cardiomyopathy in human hearts.">
+		<entity id="s1.e1" charOffset="33-64"
+			type="GO" text="glucose transmembrane transport" ontology_id="GO_1904659"/>
+		<entity id="s1.e2" charOffset="218-232"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

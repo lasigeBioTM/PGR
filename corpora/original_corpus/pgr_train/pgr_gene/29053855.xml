@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29053855">
+	<sentence id="s1" text="In summary, our results reveal that rare loss-of-function variants in GABRA3 increase the risk for a varying combination of epilepsy, intellectual disability/developmental delay and dysmorphic features, presenting in some pedigrees with an X-linked inheritance pattern">
+		<entity id="s1.e1" charOffset="70-76"
+			type="GENE" text="GABRA3" ontology_id="2556"/>
+		<entity id="s1.e2" charOffset="134-157"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="158-177"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

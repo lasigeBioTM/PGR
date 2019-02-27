@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28765176">
+	<sentence id="s1" text="Mitochondrial neurogastrointestinal encephalopathy (pyrimidine nucleoside metabolic process), usually an autosomal-recessive inherited condition, causes gastrointestinal dysmotility, ophthalmoplegia, ptosis, leukoencephalopathy and neuropathy.">
+		<entity id="s1.e1" charOffset="36-50"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e2" charOffset="52-91"
+			type="GO" text="pyrimidine nucleoside metabolic process" ontology_id="GO_0006213"/>
+		<entity id="s1.e3" charOffset="153-181"
+			type="HP" text="gastrointestinal dysmotility" ontology_id="HP_0002579"/>
+		<entity id="s1.e4" charOffset="183-198"
+			type="HP" text="ophthalmoplegia" ontology_id="HP_0000602"/>
+		<entity id="s1.e5" charOffset="200-206"
+			type="HP" text="ptosis" ontology_id="HP_0000508"/>
+		<entity id="s1.e6" charOffset="232-242"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The chromosome 22 disorder, due to mutations in the nuclear gene pyrimidine nucleoside metabolic process encoding thymidine phosphorylase (retina homeostasis), leads to the accumulation of thymidine and deoxyuridine, with mitochondrial dysfunction.This report describes a patient with an pyrimidine nucleoside metabolic process-like syndrome with a heterozygous pyrimidine nucleoside metabolic process mutation who showed marked, but transient improvement postallogeneic haematopoietic stem cell transplantation (HSCT).The patient, showing ptosis and ophthalmoplegia, was initially managed for myasthenia gravis.">
+		<entity id="s2.e1" charOffset="65-104"
+			type="GO" text="pyrimidine nucleoside metabolic process" ontology_id="GO_0006213"/>
+		<entity id="s2.e2" charOffset="139-157"
+			type="GO" text="retina homeostasis" ontology_id="GO_0001895"/>
+		<entity id="s2.e3" charOffset="272-311"
+			type="GO" text="pyrimidine nucleoside metabolic process" ontology_id="GO_0006213"/>
+		<entity id="s2.e4" charOffset="455-461"
+			type="HP" text="ptosis" ontology_id="HP_0000508"/>
+		<entity id="s2.e5" charOffset="466-481"
+			type="HP" text="ophthalmoplegia" ontology_id="HP_0000602"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e4"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="She developed gastrointestinal symptoms, dysarthria, dysphagia and weakness, and pyrimidine nucleoside metabolic process was considered due to its low retina homeostasis levels and improvement after platelet transfusions.">
+		<entity id="s3.e1" charOffset="41-51"
+			type="HP" text="dysarthria" ontology_id="HP_0001260"/>
+		<entity id="s3.e2" charOffset="53-62"
+			type="HP" text="dysphagia" ontology_id="HP_0002015"/>
+		<entity id="s3.e3" charOffset="81-120"
+			type="GO" text="pyrimidine nucleoside metabolic process" ontology_id="GO_0006213"/>
+		<entity id="s3.e4" charOffset="151-169"
+			type="GO" text="retina homeostasis" ontology_id="GO_0001895"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

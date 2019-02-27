@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29484429">
+	<sentence id="s1" text="Mounting evidence has shown that miR-23b-3p, which is associated with cell proliferation, invasion, and apoptosis, acts as a biomarker for diagnosis and outcomes in numerous cancers.">
+		<entity id="s1.e1" charOffset="33-36"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="174-180"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the clinicopathological implication of miR-23b-3p in hepatocellular carcinoma (HCC) remains unclear.">
+		<entity id="s2.e1" charOffset="48-51"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="62-86"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="miR-23b-3p expression was pronouncedly decreased in HCC tissues in contrast with their paired adjacent non-cancerous HCC (PAAAA0.001) with RT-qPCR.">
+		<entity id="s3.e1" charOffset="0-3"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In the pathway analysis, targets of miR-23b-3p were primarily enriched in the signaling pathways of renal cell carcinoma, hepatitis B and pancreatic cancer (corrected P-value AAAA0.05).">
+		<entity id="s4.e1" charOffset="36-39"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s4.e2" charOffset="100-120"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s4.e3" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

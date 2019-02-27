@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28711742">
+	<sentence id="s1" text="This disorder shows autosomal recessive inheritance and is caused mostly by mutations in the RDH5 gene.">
+		<entity id="s1.e1" charOffset="20-51"
+			type="HP" text="autosomal recessive inheritance" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="93-97"
+			type="GENE" text="RDH5" ontology_id="5959"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We present a novel pathogenic RDH5 gene mutation in a 16-year-old female patient with symptoms of night blindness.">
+		<entity id="s2.e1" charOffset="30-34"
+			type="GENE" text="RDH5" ontology_id="5959"/>
+		<entity id="s2.e2" charOffset="104-113"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

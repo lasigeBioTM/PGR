@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29255148">
+	<sentence id="s1" text="Collectively, our data highlight that, by inhibiting ANT1 and mitochondrial dysfunction, SHP2 orchestrates an intrinsic regulatory loop to limit excessive negative regulation of NF-kappaB transcription factor activity inflammasome activation">
+		<entity id="s1.e1" charOffset="62-87"
+			type="HP" text="mitochondrial dysfunction" ontology_id="HP_0003287"/>
+		<entity id="s1.e2" charOffset="155-217"
+			type="GO" text="negative regulation of NF-kappaB transcription factor activity" ontology_id="GO_0032088"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

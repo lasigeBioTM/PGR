@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28849415">
+	<sentence id="s1" text="The frequency of cellular response to reactive oxygen species p.(Tyr56*) in the ExAC dataset was higher than the estimated incidence of congenital cataract in the general population.">
+		<entity id="s1.e1" charOffset="17-61"
+			type="GO" text="cellular response to reactive oxygen species" ontology_id="GO_0034614"/>
+		<entity id="s1.e2" charOffset="147-155"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

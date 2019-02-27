@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28742274">
+	<sentence id="s1" text="Five genes, including OTOGL, PLCB4, SCEL, THSD4, and negative regulation of Wnt signaling pathway, have CNVs in the six patients with sporadic HBs, and three genes, including ABCA6, CWC27, and LAMA2, have CNVs in the five patients with familial HBs.">
+		<entity id="s1.e1" charOffset="53-97"
+			type="GO" text="negative regulation of Wnt signaling pathway" ontology_id="GO_0030178"/>
+		<entity id="s1.e2" charOffset="134-142"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

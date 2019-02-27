@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29325615">
+	<sentence id="s1" text="This chapter focuses on the current data covering the etiology and epidemiology, clinical presentation, and pathogenesis of four monogenic forms of isolated dystonia: DYT-TOR1A, DYT-THAP1, DYT-GCH1, and DYT-GNAL">
+		<entity id="s1.e1" charOffset="157-165"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s1.e2" charOffset="171-176"
+			type="GENE" text="TOR1A" ontology_id="1861"/>
+		<entity id="s1.e3" charOffset="182-187"
+			type="GENE" text="THAP1" ontology_id="55145"/>
+		<entity id="s1.e4" charOffset="193-197"
+			type="GENE" text="GCH1" ontology_id="2643"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

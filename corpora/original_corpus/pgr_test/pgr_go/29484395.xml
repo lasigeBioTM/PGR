@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29484395">
+	<sentence id="s1" text="X-inactive specific transcript (XIST), premature ovarian failure 1B (epithelial cell morphogenesis) and calmin (CLMN) were identified in the DEmRNA-DElncRNA co-expression network.">
+		<entity id="s1.e1" charOffset="39-64"
+			type="HP" text="premature ovarian failure" ontology_id="HP_0008209"/>
+		<entity id="s1.e2" charOffset="69-98"
+			type="GO" text="epithelial cell morphogenesis" ontology_id="GO_0003382"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

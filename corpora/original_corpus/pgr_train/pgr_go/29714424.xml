@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29714424">
+	<sentence id="s1" text="Some genes, such as glutathione metabolic process, negative regulation of transcription, DNA-templated, and lipid hydroxylation, have been shown to be potentially associated with oligospermia; some, such as spermatogenesis, biological_process, positive regulation of protein ubiquitination, biological_process, flagellated sperm motility, and inner dynein arm assembly, with asthenospermia; and still others, such as spermatid development and protein phosphorylation, with teratospermia.">
+		<entity id="s1.e1" charOffset="20-49"
+			type="GO" text="glutathione metabolic process" ontology_id="GO_0006749"/>
+		<entity id="s1.e2" charOffset="51-102"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e3" charOffset="108-127"
+			type="GO" text="lipid hydroxylation" ontology_id="GO_0002933"/>
+		<entity id="s1.e4" charOffset="121-133"
+			type="HP" text="oligospermia" ontology_id="HP_0000798"/>
+		<entity id="s1.e5" charOffset="207-222"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<entity id="s1.e6" charOffset="224-242"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e7" charOffset="244-289"
+			type="GO" text="positive regulation of protein ubiquitination" ontology_id="GO_0031398"/>
+		<entity id="s1.e8" charOffset="270-283"
+			type="HP" text="teratospermia" ontology_id="HP_0012864"/>
+		<entity id="s1.e9" charOffset="291-309"
+			type="GO" text="biological_process" ontology_id="GO_0008291"/>
+		<entity id="s1.e10" charOffset="298-324"
+			type="GO" text="flagellated sperm motility" ontology_id="GO_0030317"/>
+		<entity id="s1.e11" charOffset="330-355"
+			type="GO" text="inner dynein arm assembly" ontology_id="GO_0036159"/>
+		<entity id="s1.e12" charOffset="417-438"
+			type="GO" text="spermatid development" ontology_id="GO_0007286"/>
+		<entity id="s1.e13" charOffset="443-466"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e11"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e2"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e5"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e18"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e18"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e18"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e18"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e18"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e18"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e18"
+		    e2="s1.e13" pgr="false"/>
+	</sentence>
+</document>

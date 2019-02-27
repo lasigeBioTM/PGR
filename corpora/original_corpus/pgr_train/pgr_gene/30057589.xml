@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30057589">
+	<sentence id="s1" text="Mutations in a number of different genes causative for microcephaly have been identified, e.g., MCPH1, WDR62, and ASPM.">
+		<entity id="s1.e1" charOffset="55-67"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="96-101"
+			type="GENE" text="MCPH1" ontology_id="79648"/>
+		<entity id="s1.e3" charOffset="103-108"
+			type="GENE" text="WDR62" ontology_id="284403"/>
+		<entity id="s1.e4" charOffset="114-118"
+			type="GENE" text="ASPM" ontology_id="259266"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, mutations in the gene encoding the enzyme asparagine synthetase (ASNS) were associated to microcephaly and so far 24 different mutations in ASNS causing microcephaly have been described.">
+		<entity id="s2.e1" charOffset="75-79"
+			type="GENE" text="ASNS" ontology_id="440"/>
+		<entity id="s2.e2" charOffset="100-112"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

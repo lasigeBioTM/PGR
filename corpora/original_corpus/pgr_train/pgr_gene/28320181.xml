@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28320181">
+	<sentence id="s1" text="Peroxisome biogenesis factor 10 (PEX10) is involved in the import of peroxisomal matrix proteins, and the mutation of this gene causes 3 subtypes of peroxisome biogenesis disorders, namely Zellweger syndrome (severe), neonatal adrenoleukodystrophy (moderate) and an ataxic form (mild).">
+		<entity id="s1.e1" charOffset="33-38"
+			type="GENE" text="PEX10" ontology_id="5192"/>
+		<entity id="s1.e2" charOffset="279-283"
+			type="HP" text="mild" ontology_id="HP_0012825"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

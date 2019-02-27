@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30167850">
+	<sentence id="s1" text="Heterozygous de novo sodium ion transmembrane transport missense variants in the translation/positive regulation of RNA polymerase II transcriptional preinitiation complex assembly pore-forming segments lead to congenital contractures of the limbs and face, hypotonia, and developmental delay (CLIFAHDD, OMIM 616266) with some clinical overlap.">
+		<entity id="s1.e1" charOffset="21-55"
+			type="GO" text="sodium ion transmembrane transport" ontology_id="GO_0035725"/>
+		<entity id="s1.e2" charOffset="81-92"
+			type="GO" text="translation" ontology_id="GO_0006412"/>
+		<entity id="s1.e3" charOffset="93-180"
+			type="GO" text="positive regulation of RNA polymerase II transcriptional preinitiation complex assembly" ontology_id="GO_0045899"/>
+		<entity id="s1.e4" charOffset="128-140"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s1.e5" charOffset="179-198"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we present detailed clinical information of 16 novel individuals with biallelic sodium ion transmembrane transport variants, 1 individual with a heterozygous de novo NALCN missense variant and an interesting clinical phenotype without contractures, and 12 individuals with biallelic ion transmembrane transport variants.">
+		<entity id="s2.e1" charOffset="95-129"
+			type="GO" text="sodium ion transmembrane transport" ontology_id="GO_0035725"/>
+		<entity id="s2.e2" charOffset="250-262"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s2.e3" charOffset="298-325"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

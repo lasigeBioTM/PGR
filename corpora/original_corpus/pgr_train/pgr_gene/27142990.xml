@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27142990">
+	<sentence id="s1" text="Only four genetic midfrequency deafness genes, namely, DFNA10 (EYA4), DFNA8/12 (TECTA), DFNA13 (COL11A2), DFNA44 (CCDC50), have been reported to date.">
+		<entity id="s1.e1" charOffset="31-39"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="63-67"
+			type="GENE" text="EYA4" ontology_id="2070"/>
+		<entity id="s1.e3" charOffset="70-75"
+			type="GENE" text="DFNA8" ontology_id="7007"/>
+		<entity id="s1.e4" charOffset="80-85"
+			type="GENE" text="TECTA" ontology_id="7007"/>
+		<entity id="s1.e5" charOffset="96-103"
+			type="GENE" text="COL11A2" ontology_id="1302"/>
+		<entity id="s1.e6" charOffset="114-120"
+			type="GENE" text="CCDC50" ontology_id="152137"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

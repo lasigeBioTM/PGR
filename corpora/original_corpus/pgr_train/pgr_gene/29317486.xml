@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29317486">
+	<sentence id="s1" text="We show that the MRTF-SRF pathway is activated in cancer-associated fibroblasts (CAFs).">
+		<entity id="s1.e1" charOffset="22-25"
+			type="GENE" text="SRF" ontology_id="6722"/>
+		<entity id="s1.e2" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

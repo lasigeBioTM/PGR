@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28678915">
+	<sentence id="s1" text="The expression of the ID2, PRELP and SMOC2 genes was compared between the endometrium of women without endometriosis in the proliferative phase of their menstrual cycle and the eutopic and ectopic endometrium of women with endometriosis in the proliferative phase.">
+		<entity id="s1.e1" charOffset="37-42"
+			type="GENE" text="SMOC2" ontology_id="64094"/>
+		<entity id="s1.e2" charOffset="103-116"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

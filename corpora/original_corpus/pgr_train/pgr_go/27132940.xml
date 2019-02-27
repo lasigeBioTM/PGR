@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27132940">
+	<sentence id="s1" text="Like histone ubiquitination, protein deubiquitination and protein deubiquitination are required for normal cell proliferation, and their depletion suppresses tumor growth.">
+		<entity id="s1.e1" charOffset="5-27"
+			type="GO" text="histone ubiquitination" ontology_id="GO_0016574"/>
+		<entity id="s1.e2" charOffset="29-53"
+			type="GO" text="protein deubiquitination" ontology_id="GO_0016579"/>
+		<entity id="s1.e3" charOffset="39-63"
+			type="GO" text="protein deubiquitination" ontology_id="GO_0016579"/>
+		<entity id="s1.e4" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

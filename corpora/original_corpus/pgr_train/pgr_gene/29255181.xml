@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29255181">
+	<sentence id="s1" text="We performed permutation-based analysis to test for overall enrichment of these 510 genes carrying these 548 variants with genes mutated in Kallmann syndrome and with a control set of genes mutated in hypogonadotrophic hypogonadism without anosmia.">
+		<entity id="s1.e1" charOffset="177-180"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="219-231"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

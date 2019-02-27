@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30003121">
+	<sentence id="s1" text="Since excessive ingestion of vitamin A is known to induce spontaneous fractures and as the Vegfa-induced femur angulation in mice appears to be caused by intrauterine fractures, we analyzed bones from a CYP26B1 deficient human and rats with hypervitaminosis A to further explore Vegfa as a mechanistic link for the effect of vitamin A on bone.">
+		<entity id="s1.e1" charOffset="58-79"
+			type="HP" text="spontaneous fractures" ontology_id="HP_0002756"/>
+		<entity id="s1.e2" charOffset="91-96"
+			type="GENE" text="Vegfa" ontology_id="7422"/>
+		<entity id="s1.e3" charOffset="203-210"
+			type="GENE" text="CYP26B1" ontology_id="56603"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

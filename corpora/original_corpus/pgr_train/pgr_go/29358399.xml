@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29358399">
+	<sentence id="s1" text="These changes were accompanied by cortical atrophy as well as increased expression of angiogenesis-related genes such as negative regulation of transcription by RNA polymerase II, regulation of signaling receptor activity, and regulation of signaling receptor activity in phagocytosis-positive endothelial cells.">
+		<entity id="s1.e1" charOffset="34-50"
+			type="HP" text="cortical atrophy" ontology_id="HP_0002120"/>
+		<entity id="s1.e2" charOffset="121-178"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="180-221"
+			type="GO" text="regulation of signaling receptor activity" ontology_id="GO_0010469"/>
+		<entity id="s1.e4" charOffset="227-268"
+			type="GO" text="regulation of signaling receptor activity" ontology_id="GO_0010469"/>
+		<entity id="s1.e5" charOffset="235-247"
+			type="GO" text="phagocytosis" ontology_id="GO_0006909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

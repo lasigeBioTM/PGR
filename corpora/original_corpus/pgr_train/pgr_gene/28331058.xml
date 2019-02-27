@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28331058">
+	<sentence id="s1" text="Mutations in the proline dehydrogenase gene PRODH are linked to behavioral alterations in schizophrenia and as part of DiGeorge and velo-cardio-facial syndromes, but the role of PRODH in their etiology remains unclear.">
+		<entity id="s1.e1" charOffset="44-49"
+			type="GENE" text="PRODH" ontology_id="5625"/>
+		<entity id="s1.e2" charOffset="90-103"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

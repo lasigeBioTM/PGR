@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29286150">
+	<sentence id="s1" text="Although MPC is composed of two subunits, it has been reported that the mitochondrial pyruvate transmembrane transport subunit is specifically associated with poor prognosis in several cancers, including colorectal and prostate cancer.">
+		<entity id="s1.e1" charOffset="72-118"
+			type="GO" text="mitochondrial pyruvate transmembrane transport" ontology_id="GO_0006850"/>
+		<entity id="s1.e2" charOffset="185-191"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, only a few studies have assessed the clinical significance of mitochondrial pyruvate transmembrane transport and the molecular mechanisms underlying its influence on cancer progression are not well understood.">
+		<entity id="s2.e1" charOffset="71-117"
+			type="GO" text="mitochondrial pyruvate transmembrane transport" ontology_id="GO_0006850"/>
+		<entity id="s2.e2" charOffset="175-181"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Low mitochondrial pyruvate transmembrane transport expression correlated with poor ICC prognosis and was correlated with tumor invasion and distant metastasis.">
+		<entity id="s3.e1" charOffset="4-50"
+			type="GO" text="mitochondrial pyruvate transmembrane transport" ontology_id="GO_0006850"/>
+		<entity id="s3.e2" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Therefore, we investigated the negative regulation of transcription by RNA polymerase II of altering the mitochondrial pyruvate transmembrane transport gene expression on the malignant potential of cancer cells using biliary tract cancer cell lines in vitro.">
+		<entity id="s4.e1" charOffset="31-88"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e2" charOffset="54-100"
+			type="GO" text="mitochondrial pyruvate transmembrane transport" ontology_id="GO_0006850"/>
+		<entity id="s4.e3" charOffset="147-153"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Furthermore, the inhibition of mitochondrial pyruvate transmembrane transport expression induced EMT in cancer cells, and the overexpression of mitochondrial pyruvate transmembrane transport suppressed the migration of tumor cells.">
+		<entity id="s5.e1" charOffset="31-77"
+			type="GO" text="mitochondrial pyruvate transmembrane transport" ontology_id="GO_0006850"/>
+		<entity id="s5.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="177-182"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="These results indicated that mitochondrial pyruvate transmembrane transport could be a novel therapeutic target in some cancers">
+		<entity id="s6.e1" charOffset="29-75"
+			type="GO" text="mitochondrial pyruvate transmembrane transport" ontology_id="GO_0006850"/>
+		<entity id="s6.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

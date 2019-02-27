@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29408595">
+	<sentence id="s1" text="We analyzed the expression of positive regulation of cell proliferation in 148 patients with breast cancer.">
+		<entity id="s1.e1" charOffset="30-71"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e2" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

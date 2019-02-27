@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30028556">
+	<sentence id="s1" text="Consistent with this result, mutations in the learning gene coding for learning in human have been identified in neurodevelopmental disorders such as autism, intellectual disability, and epilepsy.">
+		<entity id="s1.e1" charOffset="46-54"
+			type="GO" text="learning" ontology_id="GO_0007612"/>
+		<entity id="s1.e2" charOffset="70-78"
+			type="GO" text="learning" ontology_id="GO_0007612"/>
+		<entity id="s1.e3" charOffset="149-155"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e4" charOffset="157-180"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e5" charOffset="186-194"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29104277">
+	<sentence id="s1" text="RT-PCR analysis showed that the overall transcriptional activity of the main HS biosynthesis-involved genes (EXT1, EXT2, NDST1, NDST2, GLCE, HS2ST1, HS3ST1, HS3ST2, HS6ST1, HS6ST2, SULF1, SULF2, HPSE) was decreased by 1.5-2-fold in Grade II-III glioma (p AAAA 0.01) and by 3-fold in Grade IV glioma (glioblastoma multiforme, GBM) (p AAAA 0.05), as compared with the para-tumourous tissue.">
+		<entity id="s1.e1" charOffset="128-133"
+			type="GENE" text="NDST2" ontology_id="8509"/>
+		<entity id="s1.e2" charOffset="188-193"
+			type="GENE" text="SULF2" ontology_id="55959"/>
+		<entity id="s1.e3" charOffset="245-251"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e4" charOffset="371-377"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

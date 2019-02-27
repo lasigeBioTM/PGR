@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29857117">
+	<sentence id="s1" text="In this study, we investigated the anticancer activity of cellular iron ion homeostasis-673451, a potent and selective inhibitor of signal transduction, on NSCLC cell lines (A549 and H358) and the potential mechanism.">
+		<entity id="s1.e1" charOffset="39-45"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="58-87"
+			type="GO" text="cellular iron ion homeostasis" ontology_id="GO_0006879"/>
+		<entity id="s1.e3" charOffset="132-151"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Specifically, Nrf2 plays an indispensable role in NSCLC cell sensitivity to platinum-based treatments and we found that combination of cellular iron ion homeostasis-673451 and cisplatin produced a synergistic anticancer effect and substantial ROS production in vitro.">
+		<entity id="s2.e1" charOffset="135-164"
+			type="GO" text="cellular iron ion homeostasis" ontology_id="GO_0006879"/>
+		<entity id="s2.e2" charOffset="213-219"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

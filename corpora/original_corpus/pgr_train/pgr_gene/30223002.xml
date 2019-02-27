@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30223002">
+	<sentence id="s1" text="It was our aim to investigate behavioral and obesity effects evoked by treatment with probiotics via neuroinflammatory factors and namely IL-1b, NLRP3, Caspase-1 and NF-kB levels in the Syrian golden hamster.">
+		<entity id="s1.e1" charOffset="45-52"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="145-150"
+			type="GENE" text="NLRP3" ontology_id="114548"/>
+		<entity id="s1.e3" charOffset="166-168"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

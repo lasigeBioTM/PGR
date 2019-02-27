@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29655283">
+	<sentence id="s1" text="Germline mutations in cell adhesion are responsible for a rare cancer predisposition syndrome that includes predisposition to mesothelioma.">
+		<entity id="s1.e1" charOffset="22-35"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s1.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

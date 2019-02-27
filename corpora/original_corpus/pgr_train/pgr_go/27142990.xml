@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27142990">
+	<sentence id="s1" text="Only four genetic midfrequency deafness genes, namely, DFNA10 (histone dephosphorylation), cell-matrix adhesion/12 (cell-matrix adhesion), DFNA13 (collagen fibril organization), DFNA44 (sensory perception of sound), have been reported to date.">
+		<entity id="s1.e1" charOffset="31-39"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="63-88"
+			type="GO" text="histone dephosphorylation" ontology_id="GO_0016576"/>
+		<entity id="s1.e3" charOffset="91-111"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e4" charOffset="116-136"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e5" charOffset="147-175"
+			type="GO" text="collagen fibril organization" ontology_id="GO_0030199"/>
+		<entity id="s1.e6" charOffset="186-213"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

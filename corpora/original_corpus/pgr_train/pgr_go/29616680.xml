@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29616680">
+	<sentence id="s1" text="BACKGROUND B cell cytokine production-related immunological activities are found in normal-pressure glaucoma (NPG) patients, in whom an elevated intraocular pressure (IOP) found in primary open-angle glaucoma (POAG) is not observed.">
+		<entity id="s1.e1" charOffset="11-37"
+			type="GO" text="B cell cytokine production" ontology_id="GO_0002368"/>
+		<entity id="s1.e2" charOffset="100-108"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

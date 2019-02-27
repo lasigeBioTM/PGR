@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29734672">
+	<sentence id="s1" text="Although some potential glioblastoma biomarkers have already been identified, there is a lack of cell membrane-bound biomarkers capable of distinguishing brain tissue from glioblastoma and/or glioblastoma stem cells (neural crest cell fate specification), which are responsible for the rapid post-operative tumor reoccurrence.">
+		<entity id="s1.e1" charOffset="24-36"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<entity id="s1.e2" charOffset="217-253"
+			type="GO" text="neural crest cell fate specification" ontology_id="GO_0014036"/>
+		<entity id="s1.e3" charOffset="307-312"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This validation revealed that the expression of FREM2AAAAAmdash;but not epithelial to mesenchymal transition involved in cardiac fibroblast developmentAAAAAmdash;is higher in glioblastoma cell lines when compared to non-malignant astrocytes.">
+		<entity id="s2.e1" charOffset="72-151"
+			type="GO" text="epithelial to mesenchymal transition involved in cardiac fibroblast development" ontology_id="GO_0060940"/>
+		<entity id="s2.e2" charOffset="175-187"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In addition, eye development gene and protein expression levels are higher in GB stem-like cell lines than in conventional glioblastoma cell lines.">
+		<entity id="s3.e1" charOffset="13-28"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s3.e2" charOffset="123-135"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="eye development is thus proposed as a novel GB biomarker and a putative biomarker of glioblastoma stem cells.">
+		<entity id="s4.e1" charOffset="0-15"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s4.e2" charOffset="85-97"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

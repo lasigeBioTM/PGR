@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26647310">
+	<sentence id="s1" text="Leber*s hereditary optic neuropathy (biological_process) is the most common mitochondrial disorder.">
+		<entity id="s1.e1" charOffset="25-35"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="37-55"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus, mutated tRNA aminoacylation aggravates mitochondrial dysfunctions associated with the m.11778GAAAAA mutation, exceeding the threshold for the expression of blindness phenotype.">
+		<entity id="s2.e1" charOffset="14-33"
+			type="GO" text="tRNA aminoacylation" ontology_id="GO_0043039"/>
+		<entity id="s2.e2" charOffset="162-171"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

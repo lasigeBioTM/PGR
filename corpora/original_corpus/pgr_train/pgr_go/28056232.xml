@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28056232">
+	<sentence id="s1" text="Objective: To investigate the genotype-phenotype correlation in Chinese familial hypertrophic cardiomyopathy (HCM )focusing on the cardiac troponin C gene negative regulation of ATPase activity c.">
+		<entity id="s1.e1" charOffset="94-108"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s1.e2" charOffset="155-193"
+			type="GO" text="negative regulation of ATPase activity" ontology_id="GO_0032780"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

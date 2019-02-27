@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29287890">
+	<sentence id="s1" text="Here, we report a novel hemizygous transition c.975GAAAAA (p.Trp325*) in POU3F4 gene (Xq21) found in two deaf half-brothers from one Yakut family (Eastern Siberia, Russia) with identical inner ear abnormalities (AAAAAAcorkscrewAAAAAA cochlea with an absence of modiolus) specific to X-linked deafness-2 (DFNX2).">
+		<entity id="s1.e1" charOffset="73-79"
+			type="GENE" text="POU3F4" ontology_id="5456"/>
+		<entity id="s1.e2" charOffset="292-300"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Comprehensive clinical evaluation (CT and MR-imaging, audiological and stabilometric examinations) of available members of this family revealed both already known (mixed progressive hearing loss) and additional (enlargement of semicircular canals and postural disorders) clinical DFNX2 features in affected males with c.975GAAAAA (p.Trp325*).">
+		<entity id="s2.e1" charOffset="42-44"
+			type="GENE" text="MR" ontology_id="4306"/>
+		<entity id="s2.e2" charOffset="182-194"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

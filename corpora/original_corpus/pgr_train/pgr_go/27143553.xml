@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27143553">
+	<sentence id="s1" text="The gene that encodes C1q/TNF-related protein 5 (protein secretion), a secreted protein of the C1q family, is mutated in individuals with late-onset retinal degeneration.">
+		<entity id="s1.e1" charOffset="49-66"
+			type="GO" text="protein secretion" ontology_id="GO_0009306"/>
+		<entity id="s1.e2" charOffset="149-169"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Adipose expression of protein secretion was markedly upregulated in obese and diabetic humans and in genetic and dietary models of obesity in rodents.">
+		<entity id="s2.e1" charOffset="22-39"
+			type="GO" text="protein secretion" ontology_id="GO_0009306"/>
+		<entity id="s2.e2" charOffset="131-138"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Inhibition of protein secretion action may result in the alleviation of insulin resistance associated with obesity and diabetes">
+		<entity id="s3.e1" charOffset="14-31"
+			type="GO" text="protein secretion" ontology_id="GO_0009306"/>
+		<entity id="s3.e2" charOffset="107-114"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

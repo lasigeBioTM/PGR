@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29596470">
+	<sentence id="s1" text="We previously demonstrated that transforming growth factor-protein localization to cilium (TGF-b1) promotes the epithelial-mesenchymal transition (EMT) of human oral squamous cell carcinoma (hOSCC) cells; however, it remains to be clarified whether the TGF-b superfamily member bone morphogenetic protein (BMP) affects this process in hOSCC cells.">
+		<entity id="s1.e1" charOffset="59-89"
+			type="GO" text="protein localization to cilium" ontology_id="GO_0061512"/>
+		<entity id="s1.e2" charOffset="166-189"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

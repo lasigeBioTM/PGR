@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29787571">
+	<sentence id="s1" text="Low signal transduction expression typified hyperproliferative tumors, and loss of taurine signaling correlated with reduced patient survival, suggesting this tumor suppressive mechanism operates in vivo">
+		<entity id="s1.e1" charOffset="4-23"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

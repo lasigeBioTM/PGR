@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28000701">
+	<sentence id="s1" text="Hearing impairment (potassium ion transport) is genetically heterogeneous which hampers genetic counseling and molecular diagnosis.">
+		<entity id="s1.e1" charOffset="20-43"
+			type="GO" text="potassium ion transport" ontology_id="GO_0006813"/>
+		<entity id="s1.e2" charOffset="60-73"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In our patient cohort, causative variants in gap junction assembly, sensory perception of sound, sensory perception of sound and auditory receptor cell stereocilium organization, and in DNA damage response, signal transduction by p53 class mediator were the leading causes for autosomal recessive and dominant potassium ion transport, respectively.">
+		<entity id="s2.e1" charOffset="45-66"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s2.e2" charOffset="51-78"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s2.e3" charOffset="69-117"
+			type="GO" text="auditory receptor cell stereocilium organization" ontology_id="GO_0060088"/>
+		<entity id="s2.e4" charOffset="97-124"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s2.e5" charOffset="115-134"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e6" charOffset="148-171"
+			type="GO" text="potassium ion transport" ontology_id="GO_0006813"/>
+		<entity id="s2.e7" charOffset="186-248"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator" ontology_id="GO_0030330"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e4"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e7"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+</document>

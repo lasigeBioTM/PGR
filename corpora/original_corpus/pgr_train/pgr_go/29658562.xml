@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29658562">
+	<sentence id="s1" text="Increasing attention has been paid to the roles of microRNAs (protein polyubiquitinations) in the pathogenesis of cardiovascular disease, including miR-1 and miR-133 (in the electrophysiological response), and miR-34a (in cardiac fibrosis).">
+		<entity id="s1.e1" charOffset="62-88"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="114-136"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

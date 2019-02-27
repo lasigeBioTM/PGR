@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29700912">
+	<sentence id="s1" text="In addition, the coexistence of high MACC1 and low NM23-H1 expression and tumor budding was associated with short OS (p AAAA 0.001).">
+		<entity id="s1.e1" charOffset="51-55"
+			type="GENE" text="NM23" ontology_id="4830"/>
+		<entity id="s1.e2" charOffset="74-79"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

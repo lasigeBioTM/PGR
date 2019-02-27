@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28596487">
+	<sentence id="s1" text="Here we investigated roles for the vertebrate-specific BTB domain zinc finger gene regulation of transcription, DNA-templated in the context of human brain tumors.">
+		<entity id="s1.e1" charOffset="83-125"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="156-161"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, regulation of transcription, DNA-templated and centrosome cycle kd phenocopied each other in neural crest cell fate specifications, each causing: mitotic arrest, centrosome fragmentation, loss of Augmin/HAUS complex on the mitotic spindle, and loss of GSC self-renewal and tumor formation capacity.">
+		<entity id="s2.e1" charOffset="10-52"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e2" charOffset="57-73"
+			type="GO" text="centrosome cycle" ontology_id="GO_0007098"/>
+		<entity id="s2.e3" charOffset="128-128"
+			type="GO" text="neural crest cell fate specification" ontology_id="GO_0014036"/>
+		<entity id="s2.e4" charOffset="239-244"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

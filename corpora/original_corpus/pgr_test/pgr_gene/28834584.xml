@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28834584">
+	<sentence id="s1" text="Mutations in the kinesin family member 1A (KIF1A) gene have been associated with a wide range of phenotypes including recessive mutations causing hereditary sensory neuropathy and hereditary spastic paraplegia and de novo dominant mutations causing a more complex neurological disorder affecting both the central and peripheral nervous system.">
+		<entity id="s1.e1" charOffset="43-48"
+			type="GENE" text="KIF1A" ontology_id="547"/>
+		<entity id="s1.e2" charOffset="191-209"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

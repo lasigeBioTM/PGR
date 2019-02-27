@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29272308">
+	<sentence id="s1" text="Our previous work showed that loss of DIO1 enhances proliferation and migration of renal cancer cells.">
+		<entity id="s1.e1" charOffset="38-42"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<entity id="s1.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the global effects of DIO1 expression in various tissues affected by cancer remain unknown.">
+		<entity id="s2.e1" charOffset="31-35"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<entity id="s2.e2" charOffset="78-84"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, the effects of stable DIO1 re-expression were analyzed on the proteome of renal cancer cells, followed by quantitative real-time PCR validation in two renal cancer-derived cell lines.">
+		<entity id="s3.e1" charOffset="28-32"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<entity id="s3.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="DIO1-induced changes in intracellular concentrations of thyroid hormones were quantified by L-MS/MS and correlations between expression of DIO1 and potential target genes were determined in tissue samples from renal cancer patients.">
+		<entity id="s4.e1" charOffset="0-4"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<entity id="s4.e2" charOffset="216-222"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Stable re-expression of DIO1, resulted in 26 downregulated proteins while 59 proteins were overexpressed in renal cancer cells.">
+		<entity id="s5.e1" charOffset="24-28"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<entity id="s5.e2" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Expression of DIO1-affected genes strongly correlated with DIO1 transcript levels in tissue samples from renal cancer patients as well as with their poor survival.">
+		<entity id="s6.e1" charOffset="14-18"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<entity id="s6.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="This first study addressing effects of deiodinase re-expression on proteome of cancer cells demonstrates that induced DIO1 re-expression in renal cancer robustly downregulates oncoproteins, affects key metabolic pathways, and triggers proteins involved in anti-oxidative protection.">
+		<entity id="s7.e1" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e2" charOffset="118-122"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="This data supports the notion that suppressed DIO1 expression and changes in local availability of thyroid hormones might favor a shift from a differentiated to a more proliferation-prone state of cancer tissues and cell lines">
+		<entity id="s8.e1" charOffset="46-50"
+			type="GENE" text="DIO1" ontology_id="11083"/>
+		<entity id="s8.e2" charOffset="197-203"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

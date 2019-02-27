@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29899147">
+	<sentence id="s1" text="Moebius syndrome (MBS) is a rare congenital disorder characterized by rhombencephalic mal development, mainly presenting with facial palsy with limited gaze abduction.">
+		<entity id="s1.e1" charOffset="86-89"
+			type="GENE" text="mal" ontology_id="4118"/>
+		<entity id="s1.e2" charOffset="126-138"
+			type="HP" text="facial palsy" ontology_id="HP_0010628"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutant mice for Hoxb1 were reported to present with facial weakness, resembling MBS.">
+		<entity id="s2.e1" charOffset="16-21"
+			type="GENE" text="Hoxb1" ontology_id="3211"/>
+		<entity id="s2.e2" charOffset="52-67"
+			type="HP" text="facial weakness" ontology_id="HP_0030319"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We screened 95 sporadic patients diagnosed as MBS or HCFP for mutations in HOXB1.">
+		<entity id="s3.e1" charOffset="15-23"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s3.e2" charOffset="75-80"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

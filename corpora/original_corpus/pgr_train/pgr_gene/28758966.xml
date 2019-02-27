@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28758966">
+	<sentence id="s1" text="We sequenced GATM, GAMT and SLC6A8 genes in 166 patients with autism (coding sequence, introns and adjacent untranslated regions).">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="GATM" ontology_id="2628"/>
+		<entity id="s1.e2" charOffset="19-23"
+			type="GENE" text="GAMT" ontology_id="2593"/>
+		<entity id="s1.e3" charOffset="28-34"
+			type="GENE" text="SLC6A8" ontology_id="6535"/>
+		<entity id="s1.e4" charOffset="62-68"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Nine variants in GATM were shown to have a lower minor allele frequency (MAF) in the autism population than in the 1000 Genomes database, specifically in the East Asian population (Fisher*s exact test).">
+		<entity id="s2.e1" charOffset="17-21"
+			type="GENE" text="GATM" ontology_id="2628"/>
+		<entity id="s2.e2" charOffset="73-76"
+			type="GENE" text="MAF" ontology_id="4094"/>
+		<entity id="s2.e3" charOffset="85-91"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In summary, there were no apparent associations of variants in GAMT and SLC6A8 genes with autism.">
+		<entity id="s3.e1" charOffset="63-67"
+			type="GENE" text="GAMT" ontology_id="2593"/>
+		<entity id="s3.e2" charOffset="72-78"
+			type="GENE" text="SLC6A8" ontology_id="6535"/>
+		<entity id="s3.e3" charOffset="90-96"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The data implying there could be a lower association of some specific GATM gene variants with autism is an observation that would need to be corroborated in a larger group of autism patients, and with sub-populations of Asian ethnicities.">
+		<entity id="s4.e1" charOffset="70-74"
+			type="GENE" text="GATM" ontology_id="2628"/>
+		<entity id="s4.e2" charOffset="94-100"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

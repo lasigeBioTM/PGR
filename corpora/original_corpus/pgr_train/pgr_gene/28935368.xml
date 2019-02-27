@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28935368">
+	<sentence id="s1" text="High UBE2T expression was correlated with higher pathological grade, advanced TNM stage, tumor vascular invasion, and poor overall and disease-free survivals in two independent cohorts containing 827 patients with HCC.">
+		<entity id="s1.e1" charOffset="5-10"
+			type="GENE" text="UBE2T" ontology_id="29089"/>
+		<entity id="s1.e2" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

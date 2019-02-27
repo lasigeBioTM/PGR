@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30250467">
+	<sentence id="s1" text="We documented 17 malignancies, which amounts to a cancer prevalence of 12.9% in affected negative regulation of regulatory T cell differentiation mutation carriers.">
+		<entity id="s1.e1" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="89-145"
+			type="GO" text="negative regulation of regulatory T cell differentiation" ontology_id="GO_0045590"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

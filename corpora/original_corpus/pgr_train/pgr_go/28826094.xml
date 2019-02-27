@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28826094">
+	<sentence id="s1" text="In addition, we found that HCRP1 up-regulation decreased the levels of p-ERK and p-positive regulation of protein phosphorylation in glioma cells.">
+		<entity id="s1.e1" charOffset="83-129"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e2" charOffset="133-139"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also emphasized that the angiogenesis and positive regulation of protein phosphorylation signaling pathways were the mechanisms underlying the inhibitory effect of HCRP1 on glioma cells.">
+		<entity id="s2.e1" charOffset="28-40"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s2.e2" charOffset="45-91"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s2.e3" charOffset="133-139"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

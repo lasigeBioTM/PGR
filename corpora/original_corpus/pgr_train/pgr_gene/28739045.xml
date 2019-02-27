@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28739045">
+	<sentence id="s1" text="FLNB-related disorders are classified as spondylocarpotarsal synostosis (SCT), Larsen syndrome (LS), atelosteogenesis (AO), boomerang dysplasia (BD), and isolated congenital talipes equinovarus, presenting with scoliosis, short-limbed dwarfism, clubfoot, joint dislocation and other unique skeletal abnormalities.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="FLNB" ontology_id="2317"/>
+		<entity id="s1.e2" charOffset="73-76"
+			type="GENE" text="SCT" ontology_id="6343"/>
+		<entity id="s1.e3" charOffset="211-220"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<entity id="s1.e4" charOffset="222-243"
+			type="HP" text="short-limbed dwarfism" ontology_id="HP_0008873"/>
+		<entity id="s1.e5" charOffset="245-253"
+			type="HP" text="clubfoot" ontology_id="HP_0001762"/>
+		<entity id="s1.e6" charOffset="290-312"
+			type="HP" text="skeletal abnormalities" ontology_id="HP_0000924"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Interventions on FLNB-related diseases require prenatal surveillance by sonography, gene testing in high-risk carriers, and proper orthosis or orthopedic surgeries to correct malformations including scoliosis, cervical spine instability, large joint dislocation, and clubfoot.">
+		<entity id="s2.e1" charOffset="17-21"
+			type="GENE" text="FLNB" ontology_id="2317"/>
+		<entity id="s2.e2" charOffset="199-208"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<entity id="s2.e3" charOffset="267-275"
+			type="HP" text="clubfoot" ontology_id="HP_0001762"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="FLNB-related disorders are classified as spondylocarpotarsal synostosis (SCT), Larsen syndrome (LS), atelosteogenesis (AO), boomerang dysplasia (BD), and isolated congenital talipes equinovarus, presenting with scoliosis, short-limbed dwarfism, clubfoot, joint dislocation and other unique skeletal abnormalities.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="FLNB" ontology_id="2317"/>
+		<entity id="s3.e2" charOffset="290-312"
+			type="HP" text="skeletal abnormalities" ontology_id="HP_0000924"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

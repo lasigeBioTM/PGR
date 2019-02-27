@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28778805">
+	<sentence id="s1" text="In the present study, we hypothesized that positive regulation of cell migration would enhance glioblastoma multiforme (GBM) cell survival.">
+		<entity id="s1.e1" charOffset="43-80"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s1.e2" charOffset="95-107"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29192325">
+	<sentence id="s1" text="Our previous studies of the microRNA (protein polyubiquitinationNA) expression signature in clear cell renal cell carcinoma (ccRCC) indicated that miRNA-1274a (miR-1274a) was significantly upregulated in clinical specimens, suggesting that miR-1274a may act as an oncogenic miRNA in ccRCC.">
+		<entity id="s1.e1" charOffset="38-64"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="92-123"
+			type="HP" text="clear cell renal cell carcinoma" ontology_id="HP_0006770"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to investigate the functional roles of protein polyubiquitination-1274a and identify downstream tumor-suppressive targets regulated by miR-1274a in ccRCC cells.">
+		<entity id="s2.e1" charOffset="65-91"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="122-127"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Suppression of protein polyubiquitination-1274a significantly inhibited cancer cell proliferation and induced apoptosis in the ccRCC cells.">
+		<entity id="s3.e1" charOffset="15-41"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We conclude that loss of oncogenic protein polyubiquitination-1274a reduced cancer cell proliferation and induced apoptosis in ccRCC through targeting protein phosphorylation.">
+		<entity id="s4.e1" charOffset="35-61"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="174-174"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

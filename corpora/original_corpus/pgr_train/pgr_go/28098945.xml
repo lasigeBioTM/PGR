@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28098945">
+	<sentence id="s1" text="Mutations in the X-linked gene regulation of signal transduction have been described in patients with seizures and neurodevelopmental deficits, especially those affecting language.">
+		<entity id="s1.e1" charOffset="31-64"
+			type="GO" text="regulation of signal transduction" ontology_id="GO_0009966"/>
+		<entity id="s1.e2" charOffset="102-110"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we sequenced 112 patients with phenotypes within the epilepsy-aphasia spectrum (EAS) to determine the frequency of regulation of signal transduction mutation within this complex negative regulation of transcription, DNA-templated of disorders.">
+		<entity id="s2.e1" charOffset="68-76"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="130-163"
+			type="GO" text="regulation of signal transduction" ontology_id="GO_0009966"/>
+		<entity id="s2.e3" charOffset="193-244"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

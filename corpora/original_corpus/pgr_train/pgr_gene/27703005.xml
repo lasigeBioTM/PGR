@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27703005">
+	<sentence id="s1" text="Substitutions of Arg838 in the dimerization domain of a human retinal membrane guanylyl cyclase 1 (RetGC1) linked to autosomal dominant cone-rod degeneration type 6 (CORD6) change RetGC1 regulation in vitro by Ca2+ In addition, we find that R838S substitution makes RetGC1 less sensitive to inhibition by retinal degeneration-3 protein (RD3).">
+		<entity id="s1.e1" charOffset="166-171"
+			type="GENE" text="CORD6" ontology_id="3000"/>
+		<entity id="s1.e2" charOffset="305-325"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29966563">
+	<sentence id="s1" text="Among the 44 cases of gastritis/hyperplasia, two cases (4.5%) were diagnosed as cellular amino acid metabolic process and 11 cases (25.0%) were diagnosed as cancer after resection.">
+		<entity id="s1.e1" charOffset="80-117"
+			type="GO" text="cellular amino acid metabolic process" ontology_id="GO_0006520"/>
+		<entity id="s1.e2" charOffset="157-163"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Among the 182 cases of low-grade dysplasia, 33 cases (18.1%) were diagnosed as cellular amino acid metabolic process and nine cases (5.0%) were diagnosed as cancer after resection.">
+		<entity id="s2.e1" charOffset="79-116"
+			type="GO" text="cellular amino acid metabolic process" ontology_id="GO_0006520"/>
+		<entity id="s2.e2" charOffset="157-163"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29976152">
+	<sentence id="s1" text="Before and after eight weeks daily treatment with six capsules of FAAAAAamp;V juice concentrate or placebo, peripheral blood gene expression (microarray, quantitative polymerase chain reaction (qPCR)), plasma tumour necrosis factor (protein import into nucleus, translocation)a (enzyme-linked immunosorbent assay (ELISA)), body composition (Dual-energy X-ray absorptiometry (DEXA)) and lipid profiles were assessed.">
+		<entity id="s1.e1" charOffset="209-215"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="233-275"
+			type="GO" text="protein import into nucleus, translocation" ontology_id="GO_0000060"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

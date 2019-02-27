@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29941555">
+	<sentence id="s1" text="Here, we show that the expression of ZNF281, a zinc finger factor involved in several cellular processes, decreases during terminal differentiation of murine cortical neurons and in retinoic acid-induced differentiation of neuroblastoma (NB) cells.">
+		<entity id="s1.e1" charOffset="37-43"
+			type="GENE" text="ZNF281" ontology_id="23528"/>
+		<entity id="s1.e2" charOffset="223-236"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

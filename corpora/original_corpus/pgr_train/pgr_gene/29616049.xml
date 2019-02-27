@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29616049">
+	<sentence id="s1" text="We previously reported that tyrosine phosphorylation activates and inhibits mitochondrial pyruvate dehydrogenase kinase (PDK) and phosphatase (PDP), respectively, leading to enhanced inhibitory serine phosphorylation of pyruvate dehydrogenase (PDH) and consequently inhibition of pyruvate dehydrogenase complex (PDC) in cancer cells.">
+		<entity id="s1.e1" charOffset="312-315"
+			type="GENE" text="PDC" ontology_id="25953"/>
+		<entity id="s1.e2" charOffset="320-326"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that multiple oncogenic tyrosine kinases directly phosphorylated PDP1 at Tyr-94, and Tyr-94 phosphorylation of PDP1 was common in diverse human cancer cells and primary leukemia cells from patients.">
+		<entity id="s2.e1" charOffset="74-78"
+			type="GENE" text="PDP1" ontology_id="54704"/>
+		<entity id="s2.e2" charOffset="82-85"
+			type="GENE" text="Tyr" ontology_id="7299"/>
+		<entity id="s2.e3" charOffset="153-159"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, expression of a phosphorylation-deficient PDP1 Y94F mutant in cancer cells resulted in increased oxidative phosphorylation, decreased cell proliferation under hypoxia, and reduced tumor growth in mice.">
+		<entity id="s3.e1" charOffset="52-56"
+			type="GENE" text="PDP1" ontology_id="54704"/>
+		<entity id="s3.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="190-195"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

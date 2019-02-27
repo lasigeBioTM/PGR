@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29117357">
+	<sentence id="s1" text="Additionally, the previously reported LMO1 neuroblastoma risk locus was statistically significant only in patients with positive regulation of gene expression-nonamplified high-risk tumors (OR = 0.63, 95% CI = 0.53 to 0.75, Pmeta = 1.51 x 10-8; Pmeta = .95).">
+		<entity id="s1.e1" charOffset="43-56"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="120-158"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

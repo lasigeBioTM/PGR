@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29199261">
+	<sentence id="s1" text="These results indicate that regulation of transcription by RNA polymerase II may work as an oncogene in colorectal cancer (CRC).">
+		<entity id="s1.e1" charOffset="28-76"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we investigated regulation of transcription by RNA polymerase II mRNA and protein expressions in colon cancer cells or surgically resected CRC.">
+		<entity id="s2.e1" charOffset="22-70"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e2" charOffset="109-115"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25287747">
+	<sentence id="s1" text="Intragenic mutations of the positive regulation of cell proliferation gene, as well as larger deletions of Xq24 encompassing UBE2A have in recent years been associated with a syndromic form of X-linked intellectual disability called UBE2A deficiency syndrome or X-linked intellectual disability type Nascimento (OMIM#300860).">
+		<entity id="s1.e1" charOffset="28-69"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e2" charOffset="202-225"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29630593">
+	<sentence id="s1" text="Spinocerebellar ataxia type 8 (SCA8) is a progressive neurological disorder caused by the expanded repeat CTA/CTG of two overlapping genes, ATXN8OS and ATXN8, expressed bidirectionally.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="140-145"
+			type="GENE" text="ATXN8" ontology_id="724066"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

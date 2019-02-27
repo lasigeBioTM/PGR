@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30018422">
+	<sentence id="s1" text="Mice with a homozygous null mutation in Slc9a1 (Nhe1) exhibited ataxia, recurrent seizures, and selective neuronal cell death.">
+		<entity id="s1.e1" charOffset="40-46"
+			type="GENE" text="Slc9a1" ontology_id="6548"/>
+		<entity id="s1.e2" charOffset="64-70"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="82-90"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In humans, three unrelated patients have been reported: a patient with a homozygous missense mutation in SLC9A1, c.913GAAAAA (p.Gly305Arg), which caused Lichtenstein-Knorr syndrome characterized by cerebellar ataxia and sensorineural hearing loss, a patient with compound heterozygous mutations, c.1351AAAAAC (p.Ile451Leu) and c.1585CAAAAT (p.His529Tyr), which caused a neuromuscular disorder, and a patient with de novo mutation, c.796AAAAAC (p.Asn266His) which associated multiple anomalies.">
+		<entity id="s2.e1" charOffset="105-111"
+			type="GENE" text="SLC9A1" ontology_id="6548"/>
+		<entity id="s2.e2" charOffset="209-215"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e3" charOffset="234-246"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The main clinical feature was similar to Lichtenstein-Knorr syndrome but deafness may not be an essential phenotypic feature of SLC9A1 mutation.">
+		<entity id="s3.e1" charOffset="73-81"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s3.e2" charOffset="128-134"
+			type="GENE" text="SLC9A1" ontology_id="6548"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29963229">
+	<sentence id="s1" text="Moreover, comparison of the porcine results to those reported by human melanoma GWAS indicated shared association signals notably at tRNA methylthiolation and TERT loci but also nearby G1/S transition of mitotic cell cycle, DNA dealkylation involved in DNA repair, antibacterial humoral response and potassium ion transmembrane transport-nucleotide-excision repair, DNA damage recognition loci.">
+		<entity id="s1.e1" charOffset="71-79"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="133-154"
+			type="GO" text="tRNA methylthiolation" ontology_id="GO_0035600"/>
+		<entity id="s1.e3" charOffset="185-222"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e4" charOffset="224-263"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<entity id="s1.e5" charOffset="265-295"
+			type="GO" text="antibacterial humoral response" ontology_id="GO_0019731"/>
+		<entity id="s1.e6" charOffset="300-337"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s1.e7" charOffset="338-388"
+			type="GO" text="nucleotide-excision repair, DNA damage recognition" ontology_id="GO_0000715"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Extensive search of the literature revealed a potential key role of genes at the identified porcine loci in tumor invasion (response to wounding, biological_process, negative regulation of Wnt signaling pathway, actin cytoskeleton organization and cellular response to oxidative stress) and immune response modulation (ETV5, protein ubiquitination and production of siRNA involved in RNA interference) of the progression phenotypes.">
+		<entity id="s2.e1" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="124-144"
+			type="GO" text="response to wounding" ontology_id="GO_0009611"/>
+		<entity id="s2.e3" charOffset="146-164"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e4" charOffset="166-210"
+			type="GO" text="negative regulation of Wnt signaling pathway" ontology_id="GO_0030178"/>
+		<entity id="s2.e5" charOffset="212-243"
+			type="GO" text="actin cytoskeleton organization" ontology_id="GO_0030036"/>
+		<entity id="s2.e6" charOffset="248-285"
+			type="GO" text="cellular response to oxidative stress" ontology_id="GO_0034599"/>
+		<entity id="s2.e7" charOffset="325-347"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s2.e8" charOffset="352-400"
+			type="GO" text="production of siRNA involved in RNA interference" ontology_id="GO_0030422"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+	</sentence>
+</document>

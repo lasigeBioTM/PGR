@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30148906">
+	<sentence id="s1" text="Accumulated evidence has suggested that microRNAs (protein polyubiquitinationNAs) have an important role in tumor development and progression by regulating diverse signaling pathways.">
+		<entity id="s1.e1" charOffset="51-77"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the precise role of protein polyubiquitinationNAs in gastric cancer (GC) has not been elucidated.">
+		<entity id="s2.e1" charOffset="29-55"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In this study, we describe the function and regulation network of protein polyubiquitination-491-5p in GC. miR-491-5p is frequently downregulated in GC tissues compared with adjacent non-cancerous tissues.">
+		<entity id="s3.e1" charOffset="66-92"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

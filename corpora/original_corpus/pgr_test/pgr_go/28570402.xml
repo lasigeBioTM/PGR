@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28570402">
+	<sentence id="s1" text="On the other hand, MYH1, MYH2, MYH3, MYH7, MYH8, FOXO3, NFATC1, PTGS2, KAT6B, negative regulation of transcription by RNA polymerase II, and RUNX2 expression is suspected to be involved in the epigenetic regulations behind the mandibular prognathism phenotype">
+		<entity id="s1.e1" charOffset="78-135"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="238-249"
+			type="HP" text="prognathism" ontology_id="HP_0000303"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

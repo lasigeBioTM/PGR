@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29962935">
+	<sentence id="s1" text="CHD proteins play an important role in neurodevelopment, as pathogenic variants in covalent chromatin modification, muscle organ development, ATP-dependent chromatin remodeling, skeletal system development and positive regulation of transcription, DNA-templated have been associated with a range of neurological phenotypes, including autism spectrum disorder (ASD), intellectual disability (ID) and epilepsy.">
+		<entity id="s1.e1" charOffset="83-114"
+			type="GO" text="covalent chromatin modification" ontology_id="GO_0016569"/>
+		<entity id="s1.e2" charOffset="116-140"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<entity id="s1.e3" charOffset="142-176"
+			type="GO" text="ATP-dependent chromatin remodeling" ontology_id="GO_0043044"/>
+		<entity id="s1.e4" charOffset="178-205"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s1.e5" charOffset="210-261"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e6" charOffset="214-220"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e7" charOffset="246-269"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e8" charOffset="272-280"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e4"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e7"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e9"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e4"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e7"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e9"
+		    e2="s1.e22" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Pathogenic variants in muscle organ development are associated with developmental epileptic encephalopathy (DEE) in humans, however little is known about how these variants contribute to this disorder.">
+		<entity id="s2.e1" charOffset="23-47"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<entity id="s2.e2" charOffset="92-106"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

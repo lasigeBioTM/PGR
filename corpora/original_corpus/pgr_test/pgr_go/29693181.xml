@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29693181">
+	<sentence id="s1" text="Four of the five genes, including AKAP12, SOPB, negative regulation of transcription by RNA polymerase II, COL12A1 and TXNIP were downregulated, and were associated with the OS of patients with breast carcinoma.">
+		<entity id="s1.e1" charOffset="48-105"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="201-210"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

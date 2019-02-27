@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30142790">
+	<sentence id="s1" text="This bioinformatics analysis demonstrated that stage-related prognostic DEGs, such as cell-matrix adhesion, positive regulation of epithelial to mesenchymal transition, transforming growth factor beta receptor signaling pathway, positive regulation of protein phosphorylation, and positive regulation of endothelial cell proliferation might play an unfavorable role in the development as well as metastasis of ovarian cancer.">
+		<entity id="s1.e1" charOffset="86-106"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e2" charOffset="108-167"
+			type="GO" text="positive regulation of epithelial to mesenchymal transition" ontology_id="GO_0010718"/>
+		<entity id="s1.e3" charOffset="169-227"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s1.e4" charOffset="222-228"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="229-275"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e6" charOffset="281-334"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

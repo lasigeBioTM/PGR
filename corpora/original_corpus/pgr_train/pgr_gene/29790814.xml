@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29790814">
+	<sentence id="s1" text="Homozygous recessive mutations in the PRICKLE1 gene were first described in three consanguineous families with myoclonic epilepsy.">
+		<entity id="s1.e1" charOffset="38-46"
+			type="GENE" text="PRICKLE1" ontology_id="144165"/>
+		<entity id="s1.e2" charOffset="121-129"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We describe a 7-year-old with a novel de novo missense mutation in PRICKLE1 associated with epilepsy, autism spectrum disorder and global developmental delay">
+		<entity id="s2.e1" charOffset="67-75"
+			type="GENE" text="PRICKLE1" ontology_id="144165"/>
+		<entity id="s2.e2" charOffset="92-100"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="102-108"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29090612">
+	<sentence id="s1" text="Hermansky-Pudlak syndrome (melanosome assembly) - characterized by the distinct clinical phenotypes of both oculocutaneous albinism and mild bleeding diathesis-is caused by mutations in genes that have crucial roles in the assembly of cellular organelles (skin melanosomes, platelet delta [dense] granules, lung lamellar bodies, and cytotoxic T-cell lymphocyte granules).">
+		<entity id="s1.e1" charOffset="27-46"
+			type="GO" text="melanosome assembly" ontology_id="GO_1903232"/>
+		<entity id="s1.e2" charOffset="123-131"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

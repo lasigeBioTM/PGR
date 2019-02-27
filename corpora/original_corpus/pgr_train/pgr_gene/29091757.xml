@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29091757">
+	<sentence id="s1" text="Progressive multifocal leukoencephalopathy (PML) is a lethal brain disease caused by uncontrolled replication of JC polyomavirus (JCV).">
+		<entity id="s1.e1" charOffset="12-22"
+			type="HP" text="multifocal" ontology_id="HP_0030651"/>
+		<entity id="s1.e2" charOffset="23-42"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e3" charOffset="44-47"
+			type="GENE" text="PML" ontology_id="5371"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

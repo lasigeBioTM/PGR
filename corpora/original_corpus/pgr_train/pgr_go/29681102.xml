@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29681102">
+	<sentence id="s1" text="quaternary ammonium group transport patients have some degree of (kypho)scoliosis, short stature and suffer from respiratory impairment due to the reduced size of their thoracic cage.">
+		<entity id="s1.e1" charOffset="0-35"
+			type="GO" text="quaternary ammonium group transport" ontology_id="GO_0015697"/>
+		<entity id="s1.e2" charOffset="72-81"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<entity id="s1.e3" charOffset="83-96"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, it seems plausible that mutations in biological_process are associated with a different (novel) subtype of quaternary ammonium group transport mainly characterized by severe rib anomalies but lacking clear segmentation defects of the vertebral bodies">
+		<entity id="s2.e1" charOffset="48-66"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e2" charOffset="105-140"
+			type="GO" text="quaternary ammonium group transport" ontology_id="GO_0015697"/>
+		<entity id="s2.e3" charOffset="172-185"
+			type="HP" text="rib anomalies" ontology_id="HP_0000772"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

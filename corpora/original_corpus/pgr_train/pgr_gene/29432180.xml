@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29432180">
+	<sentence id="s1" text="Piezo2 is needed by brain metastatic cells from breast cancer (MDA-MB-231-BrM2) to probe their physical environment as they anchor and pull on their surroundings or when confronted with confined migration through narrow pores.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="Piezo2" ontology_id="63895"/>
+		<entity id="s1.e2" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Consequently, hallmarks of cancer invasion and metastasis related to RhoA, actin cytoskeleton, and/or force transmission, such as migration, extracellular matrix degradation, and Serpin B2 secretion, were reduced in cells lacking Piezo2">
+		<entity id="s2.e1" charOffset="27-33"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="69-73"
+			type="GENE" text="RhoA" ontology_id="387"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

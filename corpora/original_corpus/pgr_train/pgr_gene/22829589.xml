@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22829589">
+	<sentence id="s1" text="Mutations in the SH3PXD2B gene coding for the Tks4 protein are responsible for the autosomal recessive Frank-ter Haar syndrome.">
+		<entity id="s1.e1" charOffset="17-25"
+			type="GENE" text="SH3PXD2B" ontology_id="285590"/>
+		<entity id="s1.e2" charOffset="83-102"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30078266">
+	<sentence id="s1" text="High grade transformation cases were analysed, the high grade SCSG components showed a significantly increased regulation of proteasomal protein catabolic process-67 index and cyclin D1 positive tumor cells compared to the conventional SCSG components.">
+		<entity id="s1.e1" charOffset="111-162"
+			type="GO" text="regulation of proteasomal protein catabolic process" ontology_id="GO_0061136"/>
+		<entity id="s1.e2" charOffset="195-200"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

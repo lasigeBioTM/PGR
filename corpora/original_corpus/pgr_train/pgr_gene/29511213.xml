@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29511213">
+	<sentence id="s1" text="BRCA1 is a tumor suppressor that regulates DNA repair by homologous recombination.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s1.e2" charOffset="11-16"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Germline mutations in BRCA1 are associated with increased risk of breast and ovarian cancer and BRCA1 deficient tumors are exquisitely sensitive to poly (ADP-ribose) polymerase (PARP) inhibitors.">
+		<entity id="s2.e1" charOffset="22-27"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s2.e2" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Lack-of-function mutations in EDC4 were detected in BRCA1/2-mutation-negative breast cancer cases, suggesting a role in breast cancer susceptibility.">
+		<entity id="s3.e1" charOffset="30-34"
+			type="GENE" text="EDC4" ontology_id="23644"/>
+		<entity id="s3.e2" charOffset="52-57"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s3.e3" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

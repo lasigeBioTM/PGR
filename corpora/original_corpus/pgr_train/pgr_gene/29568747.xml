@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29568747">
+	<sentence id="s1" text="In the present study, we used a custom capture panel (MiamiOtoGenes) to target sequence 180 deafness-associated genes in 5 GJB2 negative deaf probands with autosomal recessive nonsyndromic HL from Iran.">
+		<entity id="s1.e1" charOffset="92-100"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="123-127"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e3" charOffset="156-175"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In these 5 families, we detected one reported and six novel mutations in 5 different deafness autosomal recessive (DFNB) genes (TRIOBP, LHFPL5, CDH23, PCDH15, and MYO7A).">
+		<entity id="s2.e1" charOffset="85-93"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="94-113"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="128-134"
+			type="GENE" text="TRIOBP" ontology_id="11078"/>
+		<entity id="s2.e4" charOffset="136-142"
+			type="GENE" text="LHFPL5" ontology_id="222662"/>
+		<entity id="s2.e5" charOffset="144-149"
+			type="GENE" text="CDH23" ontology_id="64072"/>
+		<entity id="s2.e6" charOffset="151-157"
+			type="GENE" text="PCDH15" ontology_id="65217"/>
+		<entity id="s2.e7" charOffset="163-168"
+			type="GENE" text="MYO7A" ontology_id="4647"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e9"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e9"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e9"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e9"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

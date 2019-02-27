@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29086887">
+	<sentence id="s1" text="positive regulation of cytosolic calcium ion concentration and gap junction assembly genes variants contribute significantly in familial cases of prelingual recessive hearing loss (HL).">
+		<entity id="s1.e1" charOffset="0-58"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s1.e2" charOffset="63-84"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e3" charOffset="150-162"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

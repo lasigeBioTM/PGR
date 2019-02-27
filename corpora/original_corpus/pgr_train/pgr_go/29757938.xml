@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29757938">
+	<sentence id="s1" text="Application of a positive regulation of integrin activation agonist Yoda1 effectively induced Ca2+ response and cation channel currents in PIEZO1-expressing peptidyl-tyrosine phosphorylation (HEK-positive regulation of integrin activation) cells and synovial sarcoma SW982 (SW982) cells.">
+		<entity id="s1.e1" charOffset="17-59"
+			type="GO" text="positive regulation of integrin activation" ontology_id="GO_0033625"/>
+		<entity id="s1.e2" charOffset="157-190"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s1.e3" charOffset="193-200"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e4" charOffset="196-238"
+			type="GO" text="positive regulation of integrin activation" ontology_id="GO_0033625"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we examined the possibility that positive regulation of integrin activation is involved in the regulation of synovial sarcoma cell-viability.">
+		<entity id="s2.e1" charOffset="39-81"
+			type="GO" text="positive regulation of integrin activation" ontology_id="GO_0033625"/>
+		<entity id="s2.e2" charOffset="124-131"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

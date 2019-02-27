@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29437892">
+	<sentence id="s1" text="Growth abnormalities, motor dysfunction, hindlimb paralysis, muscle wasting, neurogenic atrophy, motor neuron degeneration, and loss of large-caliber axons in peripheral nerves occurred at an earlier age in Scyl1/Scyl3 double-deficient mice than in Scyl1-deficient mice.">
+		<entity id="s1.e1" charOffset="61-75"
+			type="HP" text="muscle wasting" ontology_id="HP_0003202"/>
+		<entity id="s1.e2" charOffset="207-212"
+			type="GENE" text="Scyl1" ontology_id="6357"/>
+		<entity id="s1.e3" charOffset="213-218"
+			type="GENE" text="Scyl3" ontology_id="6359"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

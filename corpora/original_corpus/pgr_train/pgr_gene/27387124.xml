@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27387124">
+	<sentence id="s1" text="Co-mutations of ARID1A, GPRC5A and MLL2 introduced by CRISPR/Cas9 significantly enhance the capabilities of self-renewal and tumor-initiating of BCNSCs.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="GENE" text="ARID1A" ontology_id="8289"/>
+		<entity id="s1.e2" charOffset="24-30"
+			type="GENE" text="GPRC5A" ontology_id="9052"/>
+		<entity id="s1.e3" charOffset="125-130"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

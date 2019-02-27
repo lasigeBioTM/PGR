@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29104277">
+	<sentence id="s1" text="RT-PCR analysis showed that the overall transcriptional activity of the main HS biosynthesis-involved genes (glycosaminoglycan biosynthetic process, EXT2, heparan sulfate proteoglycan biosynthetic process, regulation of angiotensin levels in blood, heparan sulfate proteoglycan biosynthetic process, HS2ST1, HS3ST1, HS3ST2, HS6ST1, HS6ST2, negative regulation of endothelial cell proliferation, positive regulation of Wnt signaling pathway, cell-matrix adhesion) was decreased by 1.5-2-fold in Grade II-III glioma (p AAAA 0.01) and by 3-fold in Grade IV glioma (glioblastoma multiforme, GBM) (p AAAA 0.05), as compared with the para-tumourous tissue.">
+		<entity id="s1.e1" charOffset="109-147"
+			type="GO" text="glycosaminoglycan biosynthetic process" ontology_id="GO_0006024"/>
+		<entity id="s1.e2" charOffset="155-204"
+			type="GO" text="heparan sulfate proteoglycan biosynthetic process" ontology_id="GO_0015012"/>
+		<entity id="s1.e3" charOffset="206-247"
+			type="GO" text="regulation of angiotensin levels in blood" ontology_id="GO_0002002"/>
+		<entity id="s1.e4" charOffset="213-262"
+			type="GO" text="heparan sulfate proteoglycan biosynthetic process" ontology_id="GO_0015012"/>
+		<entity id="s1.e5" charOffset="279-285"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e6" charOffset="304-357"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s1.e7" charOffset="359-403"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<entity id="s1.e8" charOffset="405-411"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e9" charOffset="441-461"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e7"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e8"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e9"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Heparanase (cell-matrix adhesion) expression was identified in 50% of GBM tumours by immunostaining, and was characterised by a high intratumoural heterogeneity of the presence of the HPSE protein.">
+		<entity id="s2.e1" charOffset="12-32"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s2.e2" charOffset="74-80"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

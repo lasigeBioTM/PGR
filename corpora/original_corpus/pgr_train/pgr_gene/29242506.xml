@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29242506">
+	<sentence id="s1" text="Integration of the differentially expressed miRNAs with matched mRNA expression profiles identified highly anti-correlated, putative targets, which were significantly enriched in cancer-associated pathways, including phosphatidylinositol (PI)), mitogen-activated protein kinase (MAPK), and B-cell receptor (BCR) signaling.">
+		<entity id="s1.e1" charOffset="44-47"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="179-185"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="307-310"
+			type="GENE" text="BCR" ontology_id="613"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

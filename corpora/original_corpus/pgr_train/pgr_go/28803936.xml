@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803936">
+	<sentence id="s1" text="negative regulation of cell proliferation expression detected by QPCR, immunoblots and immunofluorescent stain, was significantly decreased in mouse corneas subjected to alkali burn-induced corneal neovascularization (CNV).">
+		<entity id="s1.e1" charOffset="0-41"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e2" charOffset="190-216"
+			type="HP" text="corneal neovascularization" ontology_id="HP_0011496"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Addition of exogenous SLURP1 (6XHis-tagged, E. coli expressed and partially purified using Ni-ion columns) significantly suppressed the tumor necrosis factor-a (protein import into nucleus, translocation-a)-stimulated human umbilical cord vascular endothelial cell (HUVEC) tube formation.">
+		<entity id="s2.e1" charOffset="136-141"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="161-203"
+			type="GO" text="protein import into nucleus, translocation" ontology_id="GO_0000060"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

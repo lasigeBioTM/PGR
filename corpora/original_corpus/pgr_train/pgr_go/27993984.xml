@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27993984">
+	<sentence id="s1" text="Mutations of the human signal transductionL3 gene result in congenital cataracts.">
+		<entity id="s1.e1" charOffset="23-42"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="71-80"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

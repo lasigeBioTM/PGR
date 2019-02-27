@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28328138">
+	<sentence id="s1" text="Our findings expand the clinical phenotype and further demonstrate the clinical heterogeneity related to PTRH2 variants">
+		<entity id="s1.e1" charOffset="80-93"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="105-110"
+			type="GENE" text="PTRH2" ontology_id="51651"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

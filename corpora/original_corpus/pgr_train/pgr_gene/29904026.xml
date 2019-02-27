@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29904026">
+	<sentence id="s1" text="Neurotrophins and their receptors might regulate cell survival in head and neck squamous cell carcinoma (HNSCC). mRNA expression of nerve growth factor (NGF) and protein synthesis of high (NTRK1) and low affinity neurotrophin (p75 neurotrophin receptor; NTR) receptors were investigated in normal oral mucosa and in HNSCC.">
+		<entity id="s1.e1" charOffset="80-103"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e2" charOffset="107-110"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s1.e3" charOffset="153-156"
+			type="GENE" text="NGF" ontology_id="4803"/>
+		<entity id="s1.e4" charOffset="189-194"
+			type="GENE" text="NTRK1" ontology_id="4914"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="p75NTR in HNSCC might be related with NGF-independent therapy resistance, while NTRK1 might transduce a survival signal of NGF and contribute in this way to improved tumor cell survival after cell cycle arrest">
+		<entity id="s2.e1" charOffset="12-15"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s2.e2" charOffset="38-41"
+			type="GENE" text="NGF" ontology_id="4803"/>
+		<entity id="s2.e3" charOffset="166-171"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

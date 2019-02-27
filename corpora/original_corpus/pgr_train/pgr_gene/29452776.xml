@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29452776">
+	<sentence id="s1" text="Corresponding implicated genes, such as TNNI3K, ErbB3, MKL2, MTNR1B and PRKD1, may explain the associations between reproductive factors and heart failure.">
+		<entity id="s1.e1" charOffset="40-46"
+			type="GENE" text="TNNI3K" ontology_id="51086"/>
+		<entity id="s1.e2" charOffset="48-53"
+			type="GENE" text="ErbB3" ontology_id="2065"/>
+		<entity id="s1.e3" charOffset="61-67"
+			type="GENE" text="MTNR1B" ontology_id="4544"/>
+		<entity id="s1.e4" charOffset="72-77"
+			type="GENE" text="PRKD1" ontology_id="5587"/>
+		<entity id="s1.e5" charOffset="141-154"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29931788">
+	<sentence id="s1" text="Ras-association domain family 6 (apoptotic process) is a tumor suppressor that interacts with negative regulation of transcription by RNA polymerase II and stabilizes DNA strand renaturation.">
+		<entity id="s1.e1" charOffset="33-50"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="94-151"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="167-190"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="These findings support that lipoprotein transport is a regulator of the RASSF6-negative regulation of transcription by RNA polymerase II-DNA strand renaturation axis and functions as a tumor suppressor">
+		<entity id="s2.e1" charOffset="28-49"
+			type="GO" text="lipoprotein transport" ontology_id="GO_0042953"/>
+		<entity id="s2.e2" charOffset="79-136"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e3" charOffset="84-107"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s2.e4" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

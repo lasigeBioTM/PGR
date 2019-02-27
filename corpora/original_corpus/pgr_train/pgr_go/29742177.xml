@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742177">
+	<sentence id="s1" text="Downregulation of a-actinin-1 in E-integrin-mediated signaling pathway expressing basal-like breast cancer cells demonstrate that a-actinin-1-assembled actin fibers destabilize E-cadherin-based adhesions.">
+		<entity id="s1.e1" charOffset="35-70"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<entity id="s1.e2" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, these results indicate that increased a-actinin-1 expression destabilizes E-integrin-mediated signaling pathway-based adhesions, which is likely to promote the migratory potential of breast cancer cells.">
+		<entity id="s2.e1" charOffset="92-127"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<entity id="s2.e2" charOffset="206-212"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

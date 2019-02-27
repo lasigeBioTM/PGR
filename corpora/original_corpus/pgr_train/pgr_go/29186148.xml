@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29186148">
+	<sentence id="s1" text="negative regulation of fat cell differentiation exome sequencing has been successful in identifying genes with de novo mutations (DNMs) causing epileptic encephalopathy (EE) and other neurodevelopmental disorders.">
+		<entity id="s1.e1" charOffset="0-47"
+			type="GO" text="negative regulation of fat cell differentiation" ontology_id="GO_0045599"/>
+		<entity id="s1.e2" charOffset="154-168"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

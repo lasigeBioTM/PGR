@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29517678">
+	<sentence id="s1" text="The present study was aimed to investigate the relationship between the expression of collagen type V alpha 2 chain (COL5A2) and clinical outcomes of patients with bladder cancer.Chi-square test and log-rank-based survival analysis were performed to assess the correlation of COL5A2 expression with clinical characteristics and survivals of patients with bladder cancer using GSE13507.">
+		<entity id="s1.e1" charOffset="117-123"
+			type="GENE" text="COL5A2" ontology_id="1290"/>
+		<entity id="s1.e2" charOffset="172-178"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Gene set enrichment analysis was conducted to study the relevant mechanisms.Bladder cancer patients in COL5A2 low expression group were associated with better invasiveness (P AAAA .0001), tumor grade (P = .001), T staging (P AAAA .0001), N staging (P = .002), cancer specific survival (P AAAA .0001), overall survival (P AAAA .0001), and a trend of better M staging (P = .053) than those in COL5A2 high expression group.COL5A2 might affect the progression of bladder cancer through AAAAAACoagulation,AAAAAA AAAAAAHypoxia,AAAAAA AAAAAAApical junction,AAAAAA AAAAAAUltraviolet response,AAAAAA AAAAAAEpithelial mesenchymal transition,AAAAAA AAAAAAAngiogenesis,AAAAAA AAAAAAKRAS (KRAS proto-oncogene, GTPase) signaling,AAAAAAComplement,AAAAAAIL2-STAT5-signaling,AAAAAA AAAAAAInflammatory response,AAAAAA AAAAAAIL6-JAK-STAT3-signaling,AAAAAA AAAAAAMyogenesis,AAAAAA AAAAAATNF a signaling,AAAAAA AAAAAAApoptosis,AAAAAA and AAAAAAHedgehog-signaling.AAAAA;Our results demonstrated that COL5A2 was correlated with poor clinical outcomes and survivals of patients with bladder cancer, suggesting that it could be regarded as a biomarker of bladder cancer">
+		<entity id="s2.e1" charOffset="5-8"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e2" charOffset="84-90"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="103-109"
+			type="GENE" text="COL5A2" ontology_id="1290"/>
+		<entity id="s2.e4" charOffset="188-193"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e5" charOffset="670-674"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e6"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

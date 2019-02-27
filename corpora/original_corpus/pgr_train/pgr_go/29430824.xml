@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29430824">
+	<sentence id="s1" text="Here we report three individuals with biallelic resolution of meiotic recombination intermediates truncating mutations who developed early-onset cancer and toxicity to chemotherapy but did not present congenital malformations or any hematological phenotype suggestive of FA.MethodsChromosomal breakages, interstrand crosslink sensitivity, and response to gamma radiation monoubiquitination were assessed in primary fibroblasts.">
+		<entity id="s1.e1" charOffset="48-97"
+			type="GO" text="resolution of meiotic recombination intermediates" ontology_id="GO_0000712"/>
+		<entity id="s1.e2" charOffset="145-151"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="343-370"
+			type="GO" text="response to gamma radiation" ontology_id="GO_0010332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Patient-derived cells were genetically complemented upon wild-type resolution of meiotic recombination intermediates complementary DNA expression.ConclusionLoss-of-function mutations in FANCM cause a cancer predisposition syndrome clinically distinct from bona fide FA.">
+		<entity id="s2.e1" charOffset="67-116"
+			type="GO" text="resolution of meiotic recombination intermediates" ontology_id="GO_0000712"/>
+		<entity id="s2.e2" charOffset="200-206"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

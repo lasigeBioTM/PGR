@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27485409">
+	<sentence id="s1" text="We conclude that cristae formation/MIC13 deficiency in human, is associated with disassembly of the MICOS complex, with the associated aberration of cristae morphology and mitochondrial respiratory dysfunction.">
+		<entity id="s1.e1" charOffset="17-34"
+			type="GO" text="cristae formation" ontology_id="GO_0042407"/>
+		<entity id="s1.e2" charOffset="172-185"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="3-Methylglutaconic aciduria is associated with variants in genes encoding mitochondrial inner membrane organizing determinants, including positive regulation of cell proliferation, visual perception, intracellular cholesterol transport and cristae formation/MIC13">
+		<entity id="s2.e1" charOffset="74-87"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s2.e2" charOffset="138-179"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e3" charOffset="163-180"
+			type="GO" text="cristae formation" ontology_id="GO_0042407"/>
+		<entity id="s2.e4" charOffset="181-198"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e5" charOffset="200-235"
+			type="GO" text="intracellular cholesterol transport" ontology_id="GO_0032367"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

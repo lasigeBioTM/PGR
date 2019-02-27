@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29216791">
+	<sentence id="s1" text="Another polymorphism in ZBTB38-RASA2 has been observed to be associated with the susceptibility of sporadic Creutzfeldt-Jacob disease (sCJD) in UK.">
+		<entity id="s1.e1" charOffset="24-30"
+			type="GENE" text="ZBTB38" ontology_id="253461"/>
+		<entity id="s1.e2" charOffset="31-36"
+			type="GENE" text="RASA2" ontology_id="5922"/>
+		<entity id="s1.e3" charOffset="99-107"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Additionally, the SNP of rs57095329 showed statistical significances with the appearances of mutism and the positive of cerebrospinal fluid (CSF) protein 14-3-3 in sCJD patients, while the SNP of ZBTB38-RASA2 was significantly related with the appearance of myoclonus in sCJD patients.">
+		<entity id="s2.e1" charOffset="93-99"
+			type="HP" text="mutism" ontology_id="HP_0002300"/>
+		<entity id="s2.e2" charOffset="196-202"
+			type="GENE" text="ZBTB38" ontology_id="253461"/>
+		<entity id="s2.e3" charOffset="203-208"
+			type="GENE" text="RASA2" ontology_id="5922"/>
+		<entity id="s2.e4" charOffset="258-267"
+			type="HP" text="myoclonus" ontology_id="HP_0001336"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

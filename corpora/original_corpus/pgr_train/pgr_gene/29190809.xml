@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29190809">
+	<sentence id="s1" text="Using this gene panel, we were able to identify disease-causing variants in 17 out of 87 (19.5%) analyzed patients, all found in known epilepsy-associated genes (KCNQ2, CDKL5, STXBP1, SCN1A, PCDH19, POLG, SLC2A1, ARX, ALG13, CHD2, SYNGAP1, and GRIN1).">
+		<entity id="s1.e1" charOffset="135-143"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="162-167"
+			type="GENE" text="KCNQ2" ontology_id="3785"/>
+		<entity id="s1.e3" charOffset="169-174"
+			type="GENE" text="CDKL5" ontology_id="6792"/>
+		<entity id="s1.e4" charOffset="176-182"
+			type="GENE" text="STXBP1" ontology_id="6812"/>
+		<entity id="s1.e5" charOffset="184-189"
+			type="GENE" text="SCN1A" ontology_id="6323"/>
+		<entity id="s1.e6" charOffset="191-197"
+			type="GENE" text="PCDH19" ontology_id="57526"/>
+		<entity id="s1.e7" charOffset="199-203"
+			type="GENE" text="POLG" ontology_id="5428"/>
+		<entity id="s1.e8" charOffset="205-211"
+			type="GENE" text="SLC2A1" ontology_id="6513"/>
+		<entity id="s1.e9" charOffset="213-216"
+			type="GENE" text="ARX" ontology_id="10054"/>
+		<entity id="s1.e10" charOffset="218-223"
+			type="GENE" text="ALG13" ontology_id="79868"/>
+		<entity id="s1.e11" charOffset="231-238"
+			type="GENE" text="SYNGAP1" ontology_id="8831"/>
+		<entity id="s1.e12" charOffset="244-249"
+			type="GENE" text="GRIN1" ontology_id="114787"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+</document>

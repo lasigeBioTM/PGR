@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25704603">
+	<sentence id="s1" text="In summary, our genetic findings implicate homozygous SLC6A17 mutations in autosomal-recessive intellectual disability, and their pathogenic role is strengthened by genetic evidence and in silico and in vitro functional analyses">
+		<entity id="s1.e1" charOffset="54-61"
+			type="GENE" text="SLC6A17" ontology_id="388662"/>
+		<entity id="s1.e2" charOffset="95-118"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

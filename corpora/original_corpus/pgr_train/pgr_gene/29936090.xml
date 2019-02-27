@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29936090">
+	<sentence id="s1" text="We demonstrate the effectiveness of morphometric techniques in measuring changes in the relative size of neuroanatomical subdivisions in atoh7 morphant larvae and in identifying phenotypes in larvae treated with valproic acid, a chemical demonstrated to increase the risk of autism in humans.">
+		<entity id="s1.e1" charOffset="137-142"
+			type="GENE" text="atoh7" ontology_id="220202"/>
+		<entity id="s1.e2" charOffset="275-281"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

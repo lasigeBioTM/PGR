@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28973684">
+	<sentence id="s1" text="Our studies identified a novel homozygous mutation in the ciliary protein IFT43 as the underlying cause of recessive inherited retinal degeneration.">
+		<entity id="s1.e1" charOffset="74-79"
+			type="GENE" text="IFT43" ontology_id="112752"/>
+		<entity id="s1.e2" charOffset="127-147"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Whole-exome sequencing analysis identified a novel homozygous c.100 G AAAA A change in IFT43 segregating with retinal degeneration and not present in ethnicity-matched controls.">
+		<entity id="s2.e1" charOffset="87-92"
+			type="GENE" text="IFT43" ontology_id="112752"/>
+		<entity id="s2.e2" charOffset="110-130"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

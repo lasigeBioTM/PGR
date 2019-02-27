@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29057908">
+	<sentence id="s1" text="Here, we show that ablating or silencing the transcription factor Nfix ameliorates pathology in several forms of muscular dystrophy.">
+		<entity id="s1.e1" charOffset="66-70"
+			type="GENE" text="Nfix" ontology_id="4784"/>
+		<entity id="s1.e2" charOffset="113-131"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30235762">
+	<sentence id="s1" text="The pathogenic allele was a c.220C AAAA T mutation in the anoctamin 5 (ANO5) gene.The LGMD2L family was characterized by mild chronic myopathy and bilateral gastrocnemius hypertrophy with obviously increased CK levels.">
+		<entity id="s1.e1" charOffset="71-75"
+			type="GENE" text="ANO5" ontology_id="203859"/>
+		<entity id="s1.e2" charOffset="147-156"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

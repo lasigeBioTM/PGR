@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28967191">
+	<sentence id="s1" text="Missense variants in purine nucleobase metabolic process are usually associated with disease in male patients, including Arts syndrome, Charcot-Marie-Tooth, and nonsyndromic sensorineural deafness.">
+		<entity id="s1.e1" charOffset="21-56"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s1.e2" charOffset="188-196"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our data highlight the unexpected X-linked inheritance of retinal degeneration in females caused by variants in purine nucleobase metabolic process and suggest that tissue-specific skewed X-inactivation or variable levels of pyrophosphate synthetase-1 deficiency are the underlying mechanism(s).">
+		<entity id="s2.e1" charOffset="58-78"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e2" charOffset="112-147"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

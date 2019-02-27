@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29714424">
+	<sentence id="s1" text="Some genes, such as GSTM1, DNMT3L, and CYP1A1, have been shown to be potentially associated with oligospermia; some, such as CATSPER1, CRISP2, SEPT4, TCTE3, TEKT4, and DNAH1, with asthenospermia; and still others, such as DPY19L2 and AURKC, with teratospermia.">
+		<entity id="s1.e1" charOffset="97-109"
+			type="HP" text="oligospermia" ontology_id="HP_0000798"/>
+		<entity id="s1.e2" charOffset="143-148"
+			type="GENE" text="SEPT4" ontology_id="5414"/>
+		<entity id="s1.e3" charOffset="150-155"
+			type="GENE" text="TCTE3" ontology_id="6991"/>
+		<entity id="s1.e4" charOffset="246-259"
+			type="HP" text="teratospermia" ontology_id="HP_0012864"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

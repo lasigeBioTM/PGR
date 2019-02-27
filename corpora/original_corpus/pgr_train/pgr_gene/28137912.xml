@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28137912">
+	<sentence id="s1" text="Our data provide in vivo evidence that L2hgdh mutation leads to L-2-HG accumulation, leukoencephalopathy, and neurodegeneration in mice, thereby offering new insights into the pathophysiology of L-2-HGA in humans">
+		<entity id="s1.e1" charOffset="39-45"
+			type="GENE" text="L2hgdh" ontology_id="79944"/>
+		<entity id="s1.e2" charOffset="85-104"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

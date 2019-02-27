@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29948256">
+	<sentence id="s1" text="Permanent visual impairment (bilateral best-corrected visual acuity AAAA 0.3) was found in 7 patients, including patients with a mutation in RAF1, SHOC2, and KRAS.">
+		<entity id="s1.e1" charOffset="10-27"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<entity id="s1.e2" charOffset="39-43"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s1.e3" charOffset="141-145"
+			type="GENE" text="RAF1" ontology_id="5894"/>
+		<entity id="s1.e4" charOffset="147-152"
+			type="GENE" text="SHOC2" ontology_id="8036"/>
+		<entity id="s1.e5" charOffset="158-162"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

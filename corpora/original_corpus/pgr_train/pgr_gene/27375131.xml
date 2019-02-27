@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27375131">
+	<sentence id="s1" text="Marden-Walker syndrome is challenging to diagnose, as there is significant overlap with other multi-system congenital contracture syndromes including Beals congenital contractural arachnodactyly, D4ST1-Deficient Ehlers-Danlos syndrome (adducted thumb-clubfoot syndrome), Schwartz-Jampel syndrome, Freeman-Sheldon syndrome, Cerebro-oculo-facio-skeletal syndrome, and Van den Ende-Gupta syndrome.">
+		<entity id="s1.e1" charOffset="118-129"
+			type="HP" text="contracture" ontology_id="HP_0001371"/>
+		<entity id="s1.e2" charOffset="180-194"
+			type="HP" text="arachnodactyly" ontology_id="HP_0001166"/>
+		<entity id="s1.e3" charOffset="196-201"
+			type="GENE" text="D4ST1" ontology_id="113189"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="SNP microarray and whole exome sequencing identified a homozygous frameshift mutation (p.L870V) in SCARF2 and predicted damaging mutations in several genes, most notably DGCR2 (p.P75L) and NCAM2 (p.S147G), both possible candidates for this child*s intellectual disability.">
+		<entity id="s2.e1" charOffset="99-105"
+			type="GENE" text="SCARF2" ontology_id="91179"/>
+		<entity id="s2.e2" charOffset="170-175"
+			type="GENE" text="DGCR2" ontology_id="9993"/>
+		<entity id="s2.e3" charOffset="189-194"
+			type="GENE" text="NCAM2" ontology_id="4685"/>
+		<entity id="s2.e4" charOffset="248-271"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

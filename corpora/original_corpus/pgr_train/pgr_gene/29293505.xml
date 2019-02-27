@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29293505">
+	<sentence id="s1" text="Fourteen different (half of them novel) non-GJB2 variants causing HL were found in 10 genes (CHD7, HDAC8, MITF, NEFL, OTOF, SF3B4, SLC26A4, TECTA, TMPRSS3, USH2A) among 13 probands, confirming the genetic heterogeneity of hereditary HL.">
+		<entity id="s1.e1" charOffset="44-48"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e2" charOffset="93-97"
+			type="GENE" text="CHD7" ontology_id="55636"/>
+		<entity id="s1.e3" charOffset="99-104"
+			type="GENE" text="HDAC8" ontology_id="55869"/>
+		<entity id="s1.e4" charOffset="106-110"
+			type="GENE" text="MITF" ontology_id="4286"/>
+		<entity id="s1.e5" charOffset="112-116"
+			type="GENE" text="NEFL" ontology_id="4747"/>
+		<entity id="s1.e6" charOffset="131-138"
+			type="GENE" text="SLC26A4" ontology_id="5172"/>
+		<entity id="s1.e7" charOffset="140-145"
+			type="GENE" text="TECTA" ontology_id="7007"/>
+		<entity id="s1.e8" charOffset="147-154"
+			type="GENE" text="TMPRSS3" ontology_id="56649"/>
+		<entity id="s1.e9" charOffset="156-161"
+			type="GENE" text="USH2A" ontology_id="7399"/>
+		<entity id="s1.e10" charOffset="205-218"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

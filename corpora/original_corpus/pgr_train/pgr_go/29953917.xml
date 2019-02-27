@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29953917">
+	<sentence id="s1" text="Aberrant extracellular matrix organization expression has been associated with kidney fibrosis, cancer, congenital eye defects and various cardiovascular disorders.">
+		<entity id="s1.e1" charOffset="9-42"
+			type="GO" text="extracellular matrix organization" ontology_id="GO_0030198"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

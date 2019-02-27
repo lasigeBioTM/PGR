@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29757260">
+	<sentence id="s1" text="In the present study, we sought to identify the factors involved in the RARAAAAAalpha;-mediated transcriptional regulation of the tumor suppressor gene and the tissue factor pathway inhibitor 2 (TFPI2) in hepatocellular carcinoma (HCC).">
+		<entity id="s1.e1" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="195-200"
+			type="GENE" text="TFPI2" ontology_id="7980"/>
+		<entity id="s1.e3" charOffset="205-229"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The musculo-aponeurotic fibrosarcoma oncogene homolog B (MAFB) significantly enhanced the activation of the TFPI2 promoter via RARAAAAAalpha; while MAFF inhibited it.">
+		<entity id="s2.e1" charOffset="24-36"
+			type="HP" text="fibrosarcoma" ontology_id="HP_0100244"/>
+		<entity id="s2.e2" charOffset="57-61"
+			type="GENE" text="MAFB" ontology_id="9935"/>
+		<entity id="s2.e3" charOffset="108-113"
+			type="GENE" text="TFPI2" ontology_id="7980"/>
+		<entity id="s2.e4" charOffset="148-152"
+			type="GENE" text="MAFF" ontology_id="23764"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These results suggest that MAFB and MAFF play critical roles in the antitumor effects of retinoids by regulating the expression of retinoid target genes such as TFPI2 and can be promising for developing therapies to combat HCC invasion">
+		<entity id="s3.e1" charOffset="27-31"
+			type="GENE" text="MAFB" ontology_id="9935"/>
+		<entity id="s3.e2" charOffset="36-40"
+			type="GENE" text="MAFF" ontology_id="23764"/>
+		<entity id="s3.e3" charOffset="72-77"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="161-166"
+			type="GENE" text="TFPI2" ontology_id="7980"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

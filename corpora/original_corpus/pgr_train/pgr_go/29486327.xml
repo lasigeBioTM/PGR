@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29486327">
+	<sentence id="s1" text="The fat mass and obesity-associated (DNA dealkylation involved in DNA repair) gene is tightly related to body weight and fat mass, and plays a pivotal role in regulating lipid accumulation in hepatocytes.">
+		<entity id="s1.e1" charOffset="17-24"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="37-76"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

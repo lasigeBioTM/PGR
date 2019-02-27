@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30048823">
+	<sentence id="s1" text="ARHGEF9 alterations, some inherited from unaffected mothers, have been reported in males with autism, seizures and severe neurodevelopmental abnormalities.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="ARHGEF9" ontology_id="23229"/>
+		<entity id="s1.e2" charOffset="94-100"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e3" charOffset="102-110"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our findings highlight the importance of ARHGEF9 integrity and suggest further research on its correlation with autism and neurobehavioral problems">
+		<entity id="s2.e1" charOffset="41-48"
+			type="GENE" text="ARHGEF9" ontology_id="23229"/>
+		<entity id="s2.e2" charOffset="112-118"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

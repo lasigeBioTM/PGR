@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28233610">
+	<sentence id="s1" text="Here, we applied next-generation sequencing in 89 patients with a clinical diagnosis of distal renal tubular acidosis, analyzing the prevalence of genetic defects in anion transport, ossification, and ossification genes and the clinical phenotype.">
+		<entity id="s1.e1" charOffset="88-117"
+			type="HP" text="distal renal tubular acidosis" ontology_id="HP_0008341"/>
+		<entity id="s1.e2" charOffset="166-181"
+			type="GO" text="anion transport" ontology_id="GO_0006820"/>
+		<entity id="s1.e3" charOffset="183-195"
+			type="GO" text="ossification" ontology_id="GO_0001503"/>
+		<entity id="s1.e4" charOffset="201-213"
+			type="GO" text="ossification" ontology_id="GO_0001503"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

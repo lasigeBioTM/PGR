@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29444077">
+	<sentence id="s1" text="We here report on the existence of Leber*s hereditary optic neuropathy (LHON) associated with peculiar combinations of individually non-pathogenic missense mitochondrial DNA (mtDNA) variants, affecting the MT-ND4, MT-ND4L and MT-ND6 subunit genes of Complex I.">
+		<entity id="s1.e1" charOffset="60-70"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="206-208"
+			type="GENE" text="MT" ontology_id="27349"/>
+		<entity id="s1.e3" charOffset="209-212"
+			type="GENE" text="ND4" ontology_id="100873240"/>
+		<entity id="s1.e4" charOffset="229-232"
+			type="GENE" text="ND6" ontology_id="106481788"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28436082">
+	<sentence id="s1" text="Moreover, we observed that well-differentiated RT-112 and de-differentiated Cal-29 bladder cancer cells show an inverse expression of tricellulin and Itch.">
+		<entity id="s1.e1" charOffset="76-79"
+			type="GENE" text="Cal" ontology_id="54751"/>
+		<entity id="s1.e2" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="150-154"
+			type="GENE" text="Itch" ontology_id="83737"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

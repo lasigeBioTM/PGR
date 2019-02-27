@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27523599">
+	<sentence id="s1" text="Here, we report mutations in GNB5 that are associated with heart-rate disturbance, eye disease, intellectual disability, gastric problems, hypotonia, and seizures in nine individuals from six families.">
+		<entity id="s1.e1" charOffset="29-33"
+			type="GENE" text="GNB5" ontology_id="10681"/>
+		<entity id="s1.e2" charOffset="154-162"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

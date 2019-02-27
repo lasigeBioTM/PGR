@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26092689">
+	<sentence id="s1" text="We previously mapped a locus (ahl8) contributing to the progressive hearing loss of monocyte chemotaxis/2J (D2) mice and later showed that a missense variant of the actin cytoskeleton organization gene, unique to the D2 inbred strain, was responsible for the ahl8 effect.">
+		<entity id="s1.e1" charOffset="68-80"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="84-103"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<entity id="s1.e3" charOffset="165-196"
+			type="GO" text="actin cytoskeleton organization" ontology_id="GO_0030036"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

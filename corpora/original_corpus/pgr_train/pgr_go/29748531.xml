@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29748531">
+	<sentence id="s1" text="BACKGROUND This case-control study aimed to analyze the association of strand invasion polymorphisms (rs3218408 and rs3218384) with colorectal cancer (CRC) risk.">
+		<entity id="s1.e1" charOffset="71-86"
+			type="GO" text="strand invasion" ontology_id="GO_0042148"/>
+		<entity id="s1.e2" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

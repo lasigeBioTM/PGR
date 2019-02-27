@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26692240">
+	<sentence id="s1" text="Our data, with previously published reports, suggest that duplications involving cell morphogenesis and response to oxidative stress may represent a new syndromic X-linked ID critical region associated with mild to severe ID, speech delay +/- dysarthria, attention deficit disorder, precocious puberty, constipation, and motor delay.">
+		<entity id="s1.e1" charOffset="81-99"
+			type="GO" text="cell morphogenesis" ontology_id="GO_0000902"/>
+		<entity id="s1.e2" charOffset="104-132"
+			type="GO" text="response to oxidative stress" ontology_id="GO_0006979"/>
+		<entity id="s1.e3" charOffset="202-214"
+			type="HP" text="speech delay" ontology_id="HP_0000750"/>
+		<entity id="s1.e4" charOffset="297-308"
+			type="HP" text="motor delay" ontology_id="HP_0001270"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

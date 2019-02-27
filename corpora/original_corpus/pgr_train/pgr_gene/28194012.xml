@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28194012">
+	<sentence id="s1" text="In neuroimaging experiments, our analysis involving 23 participants showed that methylation levels for the cg07814318 site, which lies within the KLF13 gene, correlated with brain activity in the claustrum, putamen, cingulate gyrus and frontal gyri, some of which have been previously associated to food signaling, obesity or reward.">
+		<entity id="s1.e1" charOffset="146-151"
+			type="GENE" text="KLF13" ontology_id="51621"/>
+		<entity id="s1.e2" charOffset="315-322"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our results suggest the cg07814318 site could be involved in orexigenic processes, and also implicate KLF13 in obesity.">
+		<entity id="s2.e1" charOffset="102-107"
+			type="GENE" text="KLF13" ontology_id="51621"/>
+		<entity id="s2.e2" charOffset="111-118"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

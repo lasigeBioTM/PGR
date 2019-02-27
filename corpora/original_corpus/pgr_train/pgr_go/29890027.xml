@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29890027">
+	<sentence id="s1" text="We previously identified tumor necrosis factor superfamily 15 (activation of cysteine-type endopeptidase activity involved in apoptotic process), a blood vascular endothelium-derived cytokine, in lymphatic endothelial cells, as a key molecular modulator during lymphangiogenesis.">
+		<entity id="s1.e1" charOffset="25-30"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="63-143"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the effect of activation of cysteine-type endopeptidase activity involved in apoptotic process on tumor lymphatic metastasis and the underlying molecular mechanisms remain unclear.">
+		<entity id="s2.e1" charOffset="23-103"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s2.e2" charOffset="107-112"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We report here that activation of cysteine-type endopeptidase activity involved in apoptotic process, which is known to inhibit primary tumor growth by suppressing angiogenesis, can promote lymphatic metastasis through facilitating lymphangiogenesis in tumors.">
+		<entity id="s3.e1" charOffset="20-100"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s3.e2" charOffset="136-141"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Mice bearing tumors induced by A549 cells stably overexpressing activation of cysteine-type endopeptidase activity involved in apoptotic process exhibited a significant increase in densities of lymphatic vessels and a marked enhancement of A549 tumor cells in newly formed lymphatic vessels in the primary tumors as well as in lymph nodes.">
+		<entity id="s4.e1" charOffset="13-18"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="64-144"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In addition, activation of cysteine-type endopeptidase activity involved in apoptotic process/DR3 signaling pathways in A549 cells include activation of peripheral nervous system development-kB during tumor lymphangiogenesis.">
+		<entity id="s5.e1" charOffset="13-93"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s5.e2" charOffset="153-190"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<entity id="s5.e3" charOffset="166-171"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Our data indicate that activation of cysteine-type endopeptidase activity involved in apoptotic process, a cytokine mainly produced by blood endothelial cells, facilitates tumor lymphangiogenesis by upregulating VEGFC expression in A549 cells, contributing to lymphatic metastasis in tumor-bearing mice.">
+		<entity id="s6.e1" charOffset="23-103"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s6.e2" charOffset="172-177"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s7" text="In addition, TNFSF15/signal transduction signaling pathways in A549 cells include activation of NF-kB during tumor lymphangiogenesis.">
+		<entity id="s7.e1" charOffset="21-40"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s7.e2" charOffset="109-114"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Our data indicate that TNFSF15, a cytokine mainly produced by blood endothelial cells, facilitates tumor lymphangiogenesis by upregulating vascular endothelial growth factor receptor signaling pathway expression in A549 cells, contributing to lymphatic metastasis in tumor-bearing mice.">
+		<entity id="s8.e1" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s8.e2" charOffset="139-200"
+			type="GO" text="vascular endothelial growth factor receptor signaling pathway" ontology_id="GO_0048010"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

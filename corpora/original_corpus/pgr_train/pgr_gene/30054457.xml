@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30054457">
+	<sentence id="s1" text="NAA10-related syndrome is an X-linked condition with a broad spectrum of findings ranging from a severe phenotype in males with p.Ser37Pro in NAA10, originally described as Ogden syndrome, to the milder NAA10-related intellectual disability found with different variants in both males and females.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="NAA10" ontology_id="8260"/>
+		<entity id="s1.e2" charOffset="217-240"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

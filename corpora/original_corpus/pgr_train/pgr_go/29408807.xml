@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29408807">
+	<sentence id="s1" text="A dominant substitution (p.Arg544Gln) of endothelial cell morphogenesisTL13, encoding a predicted methyltransferase, is the DFNM1 suppressor of GAB1-associated deafness.">
+		<entity id="s1.e1" charOffset="41-71"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0001886"/>
+		<entity id="s1.e2" charOffset="160-168"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Expression of endothelial cell morphogenesis-signaling genes in human lymphoblastoid cells of individuals homozygous for p.Gly116Glu GPI anchor biosynthetic process revealed dysregulation of neutrophil apoptotic process, MET, SHP2, and negative regulation of peptidyl-threonine phosphorylation, all of which have reported variants associated with deafness.">
+		<entity id="s2.e1" charOffset="14-44"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0001886"/>
+		<entity id="s2.e2" charOffset="106-137"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s2.e3" charOffset="191-219"
+			type="GO" text="neutrophil apoptotic process" ontology_id="GO_0001781"/>
+		<entity id="s2.e4" charOffset="236-293"
+			type="GO" text="negative regulation of peptidyl-threonine phosphorylation" ontology_id="GO_0010801"/>
+		<entity id="s2.e5" charOffset="243-251"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, negative regulation of peptidyl-threonine phosphorylation was not dysregulated in normal-hearing humans homozygous for both the GPI anchor biosynthetic process DFNB26 deafness variant and the dominant endothelial cell morphogenesisTL13 deafness suppressor, indicating a plausible mechanism of suppression.">
+		<entity id="s3.e1" charOffset="9-66"
+			type="GO" text="negative regulation of peptidyl-threonine phosphorylation" ontology_id="GO_0010801"/>
+		<entity id="s3.e2" charOffset="85-116"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s3.e3" charOffset="124-132"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s3.e4" charOffset="158-188"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0001886"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

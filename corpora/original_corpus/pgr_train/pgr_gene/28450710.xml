@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28450710">
+	<sentence id="s1" text="This included identification of: complex ocular phenotypes due to two novel PAX6 mutations; progressive cortical cataract and lamellar cataract with lens subluxation due to two novel CRYGS mutations.">
+		<entity id="s1.e1" charOffset="76-80"
+			type="GENE" text="PAX6" ontology_id="5080"/>
+		<entity id="s1.e2" charOffset="113-121"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e3" charOffset="183-188"
+			type="GENE" text="CRYGS" ontology_id="1427"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

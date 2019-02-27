@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28815955">
+	<sentence id="s1" text="Herein we present a case series of six individuals (five males, one female) with intellectual disability and seizures found to have alterations in IQSEC2.">
+		<entity id="s1.e1" charOffset="81-104"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="109-117"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="147-153"
+			type="GENE" text="IQSEC2" ontology_id="23096"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We report these cases to demonstrate the exhaustive work-up prior to finding the changes in IQSEC2 gene, recommend that this gene be considered earlier in the diagnostic evaluation of individuals with global developmental delay, microcephaly, and severe, intractable epilepsy, and support the use of intellectual disability panels including IQSEC2 in the first-line evaluation of these patients">
+		<entity id="s2.e1" charOffset="92-98"
+			type="GENE" text="IQSEC2" ontology_id="23096"/>
+		<entity id="s2.e2" charOffset="208-227"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="229-241"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e4" charOffset="267-275"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e5" charOffset="300-323"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

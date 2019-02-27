@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29427669">
+	<sentence id="s1" text="The Kinesin family member 2a (mitotic spindle organization), that belongs to the Kinesin-13 microtubule depolymerases, plays an important role in cancer cell proliferation, migration and apoptosis in various types of cancer such as gastric cancer, breast cancer, and squamous cell carcinoma of the oral tongue, but, its role and mechanism in lung adenocarcinoma (LUAD) is largely unknown.">
+		<entity id="s1.e1" charOffset="30-58"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<entity id="s1.e2" charOffset="146-152"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="342-361"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, silencing mitotic spindle organization inhibited cell proliferation and induced apoptosis in lung adenocarcinoma(LUAD) cells.">
+		<entity id="s2.e1" charOffset="23-51"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<entity id="s2.e2" charOffset="106-125"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

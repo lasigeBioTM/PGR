@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30135134">
+	<sentence id="s1" text="This Perspective reviews evidence that 1) the relationship between hyperglycemia and microvascular dysfunction (MVD) is bidirectional and constitutes a vicious cycle; 2) MVD in diabetes affects many, if not all, organs, which may play a role in diabetes-associated comorbidities such as depression and cognitive impairment; and 3) MVD precedes, and contributes to, hyperglycemia in type 2 diabetes (T2D) through impairment of insulin-mediated glucose disposal and, possibly, insulin secretion.">
+		<entity id="s1.e1" charOffset="67-80"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<entity id="s1.e2" charOffset="112-115"
+			type="GENE" text="MVD" ontology_id="4597"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MVD can be improved through weight loss (in obesity) and through exercise.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="MVD" ontology_id="4597"/>
+		<entity id="s2.e2" charOffset="44-51"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

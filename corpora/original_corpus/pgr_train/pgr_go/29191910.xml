@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29191910">
+	<sentence id="s1" text="We investigated which host factors control NETs in vivo and found that two deoxyribonucleases (DNases), DNA catabolic process, endonucleolytic and DNase1-like 3, degraded NETs in circulation during sterile neutrophilia and septicemia.">
+		<entity id="s1.e1" charOffset="104-142"
+			type="GO" text="DNA catabolic process, endonucleolytic" ontology_id="GO_0000737"/>
+		<entity id="s1.e2" charOffset="206-218"
+			type="HP" text="neutrophilia" ontology_id="HP_0011897"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

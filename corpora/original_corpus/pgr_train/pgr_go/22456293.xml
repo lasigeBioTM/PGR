@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22456293">
+	<sentence id="s1" text="The autism susceptibility locus on human chromosome 7q32 contains the maternally imprinted regulation of lipid storage and the non-imprinted intra-Golgi vesicle-mediated transport and TSGA14 genes.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="91-118"
+			type="GO" text="regulation of lipid storage" ontology_id="GO_0010883"/>
+		<entity id="s1.e3" charOffset="141-179"
+			type="GO" text="intra-Golgi vesicle-mediated transport" ontology_id="GO_0006891"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

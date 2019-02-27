@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29206867">
+	<sentence id="s1" text="The G-protein beta subunit 3 (cell volume homeostasis) gene has been implicated in obesity risk; however, the molecular mechanism of GNB3-related disease is unknown.">
+		<entity id="s1.e1" charOffset="30-53"
+			type="GO" text="cell volume homeostasis" ontology_id="GO_0006884"/>
+		<entity id="s1.e2" charOffset="83-90"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="cell volume homeostasis duplication is responsible for a syndromic form of childhood obesity, and an activating DNA sequence variant (C825T) in GNB3 is also associated with obesity.">
+		<entity id="s2.e1" charOffset="0-23"
+			type="GO" text="cell volume homeostasis" ontology_id="GO_0006884"/>
+		<entity id="s2.e2" charOffset="85-92"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To test the hypothesis that cell volume homeostasis overexpression causes obesity, we created bacterial artificial chromosome (BAC) transgenic mice that carry an extra copy of the human GNB3 risk allele.">
+		<entity id="s3.e1" charOffset="28-51"
+			type="GO" text="cell volume homeostasis" ontology_id="GO_0006884"/>
+		<entity id="s3.e2" charOffset="74-81"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Taken together, our study provides the first functional link between cell volume homeostasis and obesity, and presents insight into novel pathways that could be applied to combat obesity and type 2 diabetes">
+		<entity id="s4.e1" charOffset="69-92"
+			type="GO" text="cell volume homeostasis" ontology_id="GO_0006884"/>
+		<entity id="s4.e2" charOffset="97-104"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

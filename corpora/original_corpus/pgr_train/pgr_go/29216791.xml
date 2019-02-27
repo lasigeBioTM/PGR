@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29216791">
+	<sentence id="s1" text="Another polymorphism in negative regulation of transcription, DNA-templated-MAPK cascade has been observed to be associated with the susceptibility of sporadic Creutzfeldt-Jacob disease (sCJD) in UK.">
+		<entity id="s1.e1" charOffset="24-75"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="76-88"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e3" charOffset="144-152"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Additionally, the SNP of rs57095329 showed statistical significances with the appearances of mutism and the positive of cerebrospinal fluid (CSF) protein 14-3-3 in sCJD patients, while the SNP of negative regulation of transcription, DNA-templated-MAPK cascade was significantly related with the appearance of myoclonus in sCJD patients.">
+		<entity id="s2.e1" charOffset="93-99"
+			type="HP" text="mutism" ontology_id="HP_0002300"/>
+		<entity id="s2.e2" charOffset="196-247"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e3" charOffset="248-260"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s2.e4" charOffset="303-312"
+			type="HP" text="myoclonus" ontology_id="HP_0001336"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

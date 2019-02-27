@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29074453">
+	<sentence id="s1" text="At the suggestive threshold (P AAAA .001), 6 genes were enriched for rare damaging variants (peptidyl-serine phosphorylation, AP1G2, DNTA, N-acetylglucosamine metabolic process, fibroblast growth factor receptor signaling pathway, and positive regulation of cell-matrix adhesion) and 7 genes had associations with pancreatic cancer risk, based on the sequence-kernel association test.">
+		<entity id="s1.e1" charOffset="93-124"
+			type="GO" text="peptidyl-serine phosphorylation" ontology_id="GO_0018105"/>
+		<entity id="s1.e2" charOffset="139-176"
+			type="GO" text="N-acetylglucosamine metabolic process" ontology_id="GO_0006044"/>
+		<entity id="s1.e3" charOffset="178-229"
+			type="GO" text="fibroblast growth factor receptor signaling pathway" ontology_id="GO_0008543"/>
+		<entity id="s1.e4" charOffset="209-215"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="235-278"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We confirmed variants in mitotic cytokinesis as the most common high-penetrant genetic factor associated with pancreatic cancer and we also identified candidate pancreatic cancer genes.">
+		<entity id="s2.e1" charOffset="25-44"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s2.e2" charOffset="121-127"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

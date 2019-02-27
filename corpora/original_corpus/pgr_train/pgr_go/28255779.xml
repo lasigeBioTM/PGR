@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28255779">
+	<sentence id="s1" text="Mutations in L-glutamate transmembrane transport are known to cause neonatal epileptic encephalopathy and migrating partial seizures in infancy.">
+		<entity id="s1.e1" charOffset="13-48"
+			type="GO" text="L-glutamate transmembrane transport" ontology_id="GO_0015813"/>
+		<entity id="s1.e2" charOffset="87-101"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e3" charOffset="124-132"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

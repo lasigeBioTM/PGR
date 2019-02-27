@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26701950">
+	<sentence id="s1" text="Germline mutations in KCNJ5 and regulation of membrane potential cause FH-III and FH-IV, respectively, while germline mutations in CACNA1D cause the rare PASNA syndrome, featuring primary aldosteronism seizures and neurological abnormalities.">
+		<entity id="s1.e1" charOffset="32-64"
+			type="GO" text="regulation of membrane potential" ontology_id="GO_0042391"/>
+		<entity id="s1.e2" charOffset="202-210"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

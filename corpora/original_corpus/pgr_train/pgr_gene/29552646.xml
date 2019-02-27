@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29552646">
+	<sentence id="s1" text="Here, we are elucidating the mechanism of a heritable CCT5 subunit mutation that causes profound neuropathy in humans.">
+		<entity id="s1.e1" charOffset="54-58"
+			type="GENE" text="CCT5" ontology_id="22948"/>
+		<entity id="s1.e2" charOffset="88-96"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s1.e3" charOffset="97-107"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

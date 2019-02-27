@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30112019">
+	<sentence id="s1" text="The gene expression levels of Ki-67, BCL11A, FOXC1, positive regulation of transcription by RNA polymerase II, PCDHGB7 and her-2 were used as an auxiliary diagnostic index for patients with breast cancer in the early stage.">
+		<entity id="s1.e1" charOffset="52-109"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="197-203"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25344692">
+	<sentence id="s1" text="Here we identify mutations in the genes encoding PLK4 kinase, a master regulator of centriole duplication, and its substrate TUBGCP6 in individuals with microcephalic primordial dwarfism and additional congenital anomalies, including retinopathy, thereby extending the human phenotypic spectrum associated with centriole dysfunction.">
+		<entity id="s1.e1" charOffset="49-53"
+			type="GENE" text="PLK4" ontology_id="10733"/>
+		<entity id="s1.e2" charOffset="125-132"
+			type="GENE" text="TUBGCP6" ontology_id="85378"/>
+		<entity id="s1.e3" charOffset="178-186"
+			type="HP" text="dwarfism" ontology_id="HP_0003510"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, we establish that different levels of impaired PLK4 activity result in growth and cilia phenotypes, providing a mechanism by which microcephaly disorders can occur with or without ciliopathic features.">
+		<entity id="s2.e1" charOffset="60-64"
+			type="GENE" text="PLK4" ontology_id="10733"/>
+		<entity id="s2.e2" charOffset="144-156"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28671672">
+	<sentence id="s1" text="Here, we report that in prostate cancer cells (PCCs) microRNAs (miRNAs) greatly contribute to deregulation of mitochondrial fatty acid (FA) oxidation via carnitine system modulation.">
+		<entity id="s1.e1" charOffset="33-39"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="64-67"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e3" charOffset="136-138"
+			type="GENE" text="FA" ontology_id="2395"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, the analysis of human prostate cancer and prostate control specimens confirmed the aberrant expression of miR-124-3p, miR-129-5p and miR-378 in primary tumors.">
+		<entity id="s2.e1" charOffset="41-47"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="116-119"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Finally, the simultaneous increase of CPT1A, CACT and CrAT is fundamental for PCCs to sustain FA oxidation in the presence of heavy lipid load on prostate cancer mitochondria.">
+		<entity id="s3.e1" charOffset="38-43"
+			type="GENE" text="CPT1A" ontology_id="1374"/>
+		<entity id="s3.e2" charOffset="54-58"
+			type="GENE" text="CrAT" ontology_id="1384"/>
+		<entity id="s3.e3" charOffset="94-96"
+			type="GENE" text="FA" ontology_id="2395"/>
+		<entity id="s3.e4" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

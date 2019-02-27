@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29454964">
+	<sentence id="s1" text="Mutations in SNAP29 gene result in CEDNIK (Cerebral dysgenesis, neuropathy, ichthyosis and palmoplantar keratoderma) syndrome.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="GENE" text="SNAP29" ontology_id="9342"/>
+		<entity id="s1.e2" charOffset="64-74"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="91-115"
+			type="HP" text="palmoplantar keratoderma" ontology_id="HP_0000982"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

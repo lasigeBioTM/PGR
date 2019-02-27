@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30261639">
+	<sentence id="s1" text="The HECT-type ubiquitin ligase HECT, UBA and WWE Domain Containing 1, (protein polyubiquitination) regulates key cancer-related pathways, including the negative regulation of transcription by RNA polymerase II oncogene.">
+		<entity id="s1.e1" charOffset="71-97"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="113-119"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="152-209"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

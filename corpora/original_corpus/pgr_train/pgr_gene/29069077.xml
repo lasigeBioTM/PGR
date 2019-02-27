@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29069077">
+	<sentence id="s1" text="Kleefstra syndrome, caused by haploinsufficiency of euchromatin histone methyltransferase 1 (EHMT1), is characterized by intellectual disability (ID), autism spectrum disorder (ASD), characteristic facial dysmorphisms, and other variable clinical features.">
+		<entity id="s1.e1" charOffset="93-98"
+			type="GENE" text="EHMT1" ontology_id="79813"/>
+		<entity id="s1.e2" charOffset="121-144"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="151-157"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29307819">
+	<sentence id="s1" text="However, there is much debate over the roles of the reversionless 3-like (REV3L) protein responsible for TLS and DNA strand renaturation in regulating cancer cell metabolism.">
+		<entity id="s1.e1" charOffset="113-136"
+			type="GO" text="DNA strand renaturation" ontology_id="GO_0000733"/>
+		<entity id="s1.e2" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

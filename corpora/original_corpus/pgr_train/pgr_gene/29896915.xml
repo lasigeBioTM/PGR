@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29896915">
+	<sentence id="s1" text="The molecular features of hepatocellular carcinoma arising from non-alcoholic fatty liver disease (NAFLD-HCC) are not well known.">
+		<entity id="s1.e1" charOffset="26-50"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="105-108"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

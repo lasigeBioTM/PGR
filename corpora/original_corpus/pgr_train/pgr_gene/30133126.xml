@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30133126">
+	<sentence id="s1" text="Neph2-knockout mice may provide a valuable rodent model for research on autism spectrum diseases and neurodevelopmental disorders">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="Neph2" ontology_id="84623"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29370175">
+	<sentence id="s1" text="In addition, these regulation of transcription, DNA-templated RGCs die early in the monocyte chemotaxis/2J model of glaucoma than most RGCs.">
+		<entity id="s1.e1" charOffset="19-61"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="84-103"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002584"/>
+		<entity id="s1.e3" charOffset="100-108"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29978334">
+	<sentence id="s1" text="We examined the effects of MEDI3622, a human mAb and potent response to hypoxia inhibitor, on NK cell activation by antibody-bound tumor cells.">
+		<entity id="s1.e1" charOffset="60-79"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s1.e2" charOffset="131-136"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings support response to hypoxia as a dynamic inhibitory checkpoint of the potent activating receptor CD16A, which can be targeted by MEDI3622 to potentially increase the efficacy of anti-tumor therapeutic antibodies">
+		<entity id="s2.e1" charOffset="23-42"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s2.e2" charOffset="198-203"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

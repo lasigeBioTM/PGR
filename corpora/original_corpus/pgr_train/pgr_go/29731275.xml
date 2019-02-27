@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29731275">
+	<sentence id="s1" text="To date, there are no reports of symptomatic improvement in bile acid biosynthetic process related ataxia following treatment with Riluzole.">
+		<entity id="s1.e1" charOffset="60-90"
+			type="GO" text="bile acid biosynthetic process" ontology_id="GO_0006699"/>
+		<entity id="s1.e2" charOffset="99-105"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We report the case of a 45 year old woman diagnosed with bile acid biosynthetic process-related cerebellar ataxia.">
+		<entity id="s2.e1" charOffset="57-87"
+			type="GO" text="bile acid biosynthetic process" ontology_id="GO_0006699"/>
+		<entity id="s2.e2" charOffset="107-113"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Thus, in addition to the standard therapy with CDCA, the addition of Riluzole may have some therapeutic benefits for ataxia caused by bile acid biosynthetic process.">
+		<entity id="s3.e1" charOffset="117-123"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s3.e2" charOffset="134-164"
+			type="GO" text="bile acid biosynthetic process" ontology_id="GO_0006699"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

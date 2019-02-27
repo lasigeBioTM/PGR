@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30262549">
+	<sentence id="s1" text="Using the larval startle response to the buzz of a predator (wasp), we examined PPI in wild-type flies and two mutants: an regulation of alternative mRNA splicing, via spliceosome mutant, which is implicated in Fragile X syndrome, and a centaurin gamma 1A (CenG1A) mutant, which is associated with GTPase, PH, ArfGAP, and ANK domains and implicated in autism.">
+		<entity id="s1.e1" charOffset="123-179"
+			type="GO" text="regulation of alternative mRNA splicing, via spliceosome" ontology_id="GO_0000381"/>
+		<entity id="s1.e2" charOffset="352-358"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

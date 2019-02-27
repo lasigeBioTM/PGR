@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29393450">
+	<sentence id="s1" text="Cullin7 (CUL7) is a member of Cullin protein family and exhibits a tumor-promoting role in several types of tumors, including breast, liver and ovarian.">
+		<entity id="s1.e1" charOffset="9-13"
+			type="GENE" text="CUL7" ontology_id="9820"/>
+		<entity id="s1.e2" charOffset="67-72"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, CUL7 expression in EC tissue was revealed to be significantly higher compared with nontumoral tissues, as detected by immunohistochemistry (IHC; P=0.000). x2 analysis confirmed that CUL7 expression was positively associated with invasion depth (P=0.000), lymph node involvement (P=0.033) and advanced clinical stage (P=0.000).">
+		<entity id="s2.e1" charOffset="22-26"
+			type="GENE" text="CUL7" ontology_id="9820"/>
+		<entity id="s2.e2" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These data may improve our understanding of the role of CUL7 in tumors and provide supporting evidence for the development of novel therapeutic targets for EC">
+		<entity id="s3.e1" charOffset="56-60"
+			type="GENE" text="CUL7" ontology_id="9820"/>
+		<entity id="s3.e2" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

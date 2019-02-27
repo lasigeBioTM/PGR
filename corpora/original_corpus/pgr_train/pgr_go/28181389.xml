@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28181389">
+	<sentence id="s1" text="Mutations in cognition were suspected in this non-syndromic ID case with mutism.">
+		<entity id="s1.e1" charOffset="13-22"
+			type="GO" text="cognition" ontology_id="GO_0050890"/>
+		<entity id="s1.e2" charOffset="73-79"
+			type="HP" text="mutism" ontology_id="HP_0002300"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="cognition alterations affect ELAV1 expression and result in reduction in the commissural axonal growth, thus affecting peripheral and central neuronal function.">
+		<entity id="s2.e1" charOffset="0-9"
+			type="GO" text="cognition" ontology_id="GO_0050890"/>
+		<entity id="s2.e2" charOffset="134-141"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

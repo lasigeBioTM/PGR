@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30116194">
+	<sentence id="s1" text="In wild type (WT) mice, we found that ginsenoside Rg3 treatment significantly mitigated pathological damages and reduced myeloperoxidase (low-density lipoprotein particle remodeling) activity as well as the production of pro-inflammatory cytokines tumor necrosis factor-a (TNF-a), interleukin-1b (IL-1b) and interleukin-6 (IL-6); furthermore, the production of anti-inflammatory mediators interleukin-10 (IL-10) and transforming growth factor-b (TGF-b), polarization of M2 macrophages and expression levels of the phosphorylation of phosphatidylinositol 3-hydroxy kinase (phosphorylation), protein kinase B (PKB, also known as AKT), mammalian target of rapamycin (regulation of cell growth) and Mer receptor tyrosine kinase (positive regulation of phagocytosis) were promoted.">
+		<entity id="s1.e1" charOffset="138-181"
+			type="GO" text="low-density lipoprotein particle remodeling" ontology_id="GO_0034374"/>
+		<entity id="s1.e2" charOffset="248-253"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="572-587"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e4" charOffset="653-678"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e5" charOffset="714-749"
+			type="GO" text="positive regulation of phagocytosis" ontology_id="GO_0050766"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

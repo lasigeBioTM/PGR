@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28934489">
+	<sentence id="s1" text="Here we report three families with homozygous truncating mutations in vesicle tethering to Golgi who display moderate to severe intellectual disability and microcephaly.">
+		<entity id="s1.e1" charOffset="70-96"
+			type="GO" text="vesicle tethering to Golgi" ontology_id="GO_0099041"/>
+		<entity id="s1.e2" charOffset="156-168"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

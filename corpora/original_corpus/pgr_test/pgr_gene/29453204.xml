@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29453204">
+	<sentence id="s1" text="We investigated plasma microRNA (miRNA) profiles associated with variation of hyperglycemia, measured as hemoglobin A1c (HbA1c), in two panels of patients with type 1 diabetes (T1D).">
+		<entity id="s1.e1" charOffset="33-36"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="78-91"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

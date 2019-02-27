@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24326380">
+	<sentence id="s1" text="Increasing evidence shows that patients with glycogen metabolic process mutations have a severe hepatic phenotype within the heterogeneous GSD IX disorder.">
+		<entity id="s1.e1" charOffset="45-71"
+			type="GO" text="glycogen metabolic process" ontology_id="GO_0005977"/>
+		<entity id="s1.e2" charOffset="125-138"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

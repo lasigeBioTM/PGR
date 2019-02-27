@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29724721">
+	<sentence id="s1" text="The second most frequently mutated gene, histone methyltransferase SETD2, has known roles in multiple cancers, but has not previously been strongly implicated in osteosarcoma.">
+		<entity id="s1.e1" charOffset="67-72"
+			type="GENE" text="SETD2" ontology_id="29072"/>
+		<entity id="s1.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="162-174"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This study points to the likely importance of histone modifications in osteosarcoma and highlights the strong genetic similarities between human and dog osteosarcoma, suggesting that canine osteosarcoma may serve as an excellent model for developing treatment strategies in both species.Significance: Canine osteosarcoma genomics identify SETD2 as a possible oncogenic driver of osteosarcoma, and findings establish the canine model as a useful comparative model for the corresponding human disease.">
+		<entity id="s2.e1" charOffset="71-83"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<entity id="s2.e2" charOffset="339-344"
+			type="GENE" text="SETD2" ontology_id="29072"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

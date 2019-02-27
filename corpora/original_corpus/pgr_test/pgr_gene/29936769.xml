@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29936769">
+	<sentence id="s1" text="Meanwhile, MLH3 rs175057 CAAAAT locus was also associated with longer overall survival time in locally advanced rectal cancer (HR=0.44, 95% CI: 0.20-0.96, P=0.038), whereas MSH2 rs3771273 TAAAAA, rs10188090 AAAAAG and rs10191478 TAAAAG loci were associated with shorter overall survival time (HR=1.74, 95% CI: 1.06-2.84, P=0.028; HR=1.64, 95% CI: 1.01-2.66, P=0.046; HR=1.71, 95% CI: 1.01-2.91, P=0.047, respectively).">
+		<entity id="s1.e1" charOffset="11-15"
+			type="GENE" text="MLH3" ontology_id="27030"/>
+		<entity id="s1.e2" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

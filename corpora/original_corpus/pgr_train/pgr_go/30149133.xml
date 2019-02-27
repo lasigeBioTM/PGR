@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30149133">
+	<sentence id="s1" text="The level of gene expression of activation of peripheral nervous system development-kappaB-inducing kinase activity, NF-kB, tumor necrosis factor-a (TNF-a), and interleukin-6 (IL-6) was measured by RT-PCR, and TNF-a, IL-6 levels in the cell supernatant were determined by ELISA.">
+		<entity id="s1.e1" charOffset="32-80"
+			type="GO" text="activation of NF-kappaB-inducing kinase activity" ontology_id="GO_0007250"/>
+		<entity id="s1.e2" charOffset="46-83"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<entity id="s1.e3" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The protein expression of activation of peripheral nervous system development-kappaB-inducing kinase activity and downstream molecules tumor necrosis factor receptor-associated factor 6 (protein polyubiquitination), inhibitor of nuclear factor kappa-B kinase (IKK), NF-kappa-B inhibitor alpha (IKBa), and NF-kB was detected by Western-blot analysis.">
+		<entity id="s2.e1" charOffset="26-74"
+			type="GO" text="activation of NF-kappaB-inducing kinase activity" ontology_id="GO_0007250"/>
+		<entity id="s2.e2" charOffset="40-77"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<entity id="s2.e3" charOffset="100-105"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="187-213"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29573245">
+	<sentence id="s1" text="Primary distal renal tubular acidosis (dRTA) caused by mutations of the SLC4A1 gene, which encodes for erythroid and kidney isoforms of anion exchanger, shows marked difference in inheritance patterns and clinical features in different parts of the world.">
+		<entity id="s1.e1" charOffset="8-37"
+			type="HP" text="distal renal tubular acidosis" ontology_id="HP_0008341"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="GENE" text="SLC4A1" ontology_id="6521"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

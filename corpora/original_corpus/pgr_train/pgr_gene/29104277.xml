@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29104277">
+	<sentence id="s1" text="RT-PCR analysis showed that the overall transcriptional activity of the main HS biosynthesis-involved genes (EXT1, EXT2, NDST1, NDST2, GLCE, HS2ST1, HS3ST1, HS3ST2, HS6ST1, HS6ST2, SULF1, SULF2, HPSE) was decreased by 1.5-2-fold in Grade II-III glioma (p AAAA 0.01) and by 3-fold in Grade IV glioma (glioblastoma multiforme, GBM) (p AAAA 0.05), as compared with the para-tumourous tissue.">
+		<entity id="s1.e1" charOffset="109-113"
+			type="GENE" text="EXT1" ontology_id="2131"/>
+		<entity id="s1.e2" charOffset="121-126"
+			type="GENE" text="NDST1" ontology_id="3340"/>
+		<entity id="s1.e3" charOffset="128-133"
+			type="GENE" text="NDST2" ontology_id="8509"/>
+		<entity id="s1.e4" charOffset="135-139"
+			type="GENE" text="GLCE" ontology_id="26035"/>
+		<entity id="s1.e5" charOffset="181-186"
+			type="GENE" text="SULF1" ontology_id="23213"/>
+		<entity id="s1.e6" charOffset="188-193"
+			type="GENE" text="SULF2" ontology_id="55959"/>
+		<entity id="s1.e7" charOffset="195-199"
+			type="GENE" text="HPSE" ontology_id="10855"/>
+		<entity id="s1.e8" charOffset="245-251"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e9" charOffset="371-377"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e5"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e9"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e7"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Heparanase (HPSE) expression was identified in 50% of GBM tumours by immunostaining, and was characterised by a high intratumoural heterogeneity of the presence of the HPSE protein.">
+		<entity id="s2.e1" charOffset="12-16"
+			type="GENE" text="HPSE" ontology_id="10855"/>
+		<entity id="s2.e2" charOffset="58-64"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

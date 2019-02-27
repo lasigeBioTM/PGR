@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30261639">
+	<sentence id="s1" text="The HECT-type ubiquitin ligase HECT, UBA and WWE Domain Containing 1, (HUWE1) regulates key cancer-related pathways, including the Myc oncogene.">
+		<entity id="s1.e1" charOffset="71-76"
+			type="GENE" text="HUWE1" ontology_id="10075"/>
+		<entity id="s1.e2" charOffset="92-98"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="131-134"
+			type="GENE" text="Myc" ontology_id="4609"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

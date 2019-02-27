@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28915070">
+	<sentence id="s1" text="Lastly, a syndromic form of PCD with retinal degeneration results in normal ciliary ultrastructure through mutations in the RPGR gene.">
+		<entity id="s1.e1" charOffset="37-57"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e2" charOffset="124-128"
+			type="GENE" text="RPGR" ontology_id="6103"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

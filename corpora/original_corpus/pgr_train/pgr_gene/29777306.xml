@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29777306">
+	<sentence id="s1" text="The HOXB1 gene plays a critical role as an oncogene in diverse tumors.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s1.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the functional role of HOXB1 and the mechanism regulating HOXB1 expression in glioma are not fully understood.">
+		<entity id="s2.e1" charOffset="32-37"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s2.e2" charOffset="87-93"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A preliminary bioinformatics analysis showed that HOXB1 is ectopically expressed in glioma, and that HOXB1 is a possible target of miR-3175.">
+		<entity id="s3.e1" charOffset="50-55"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s3.e2" charOffset="84-90"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e3" charOffset="131-134"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In this study, we investigated the function of HOXB1 and the relationship between HOXB1 and miR-3175 in glioma.">
+		<entity id="s4.e1" charOffset="47-52"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s4.e2" charOffset="92-95"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s4.e3" charOffset="104-110"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We show that HOXB1 expression is significantly downregulated in glioma tissues and cell lines, and that its expression may be closely associated with the degree of malignancy.">
+		<entity id="s5.e1" charOffset="13-18"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s5.e2" charOffset="64-70"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Reduced HOXB1 expression promoted the proliferation and invasion of glioma cells, and inhibited their apoptosis in vitro, and the downregulation of HOXB1 was also associated with worse survival in glioma patients.">
+		<entity id="s6.e1" charOffset="8-13"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s6.e2" charOffset="68-74"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="The downregulated expression of miR-3175 inhibited cell proliferation and invasion, and promoted apoptosis in glioma.">
+		<entity id="s7.e1" charOffset="32-35"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s7.e2" charOffset="110-116"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="The oncogenicity induced by low HOXB1 expression was prevented by an miR-3175 inhibitor in glioma cells.">
+		<entity id="s8.e1" charOffset="32-37"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s8.e2" charOffset="69-72"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s8.e3" charOffset="91-97"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e3" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e2"
+		    e2="s8.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s9" text="Our results suggest that HOXB1 functions as a tumor suppressor, regulated by miR-3175 in glioma.">
+		<entity id="s9.e1" charOffset="25-30"
+			type="GENE" text="HOXB1" ontology_id="3211"/>
+		<entity id="s9.e2" charOffset="46-51"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s9.e3" charOffset="77-80"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s9.e4" charOffset="89-95"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e4" pgr="false"/>
+		<pair id="s9.p2" e1="s9.e3"
+		    e2="s9.e4" pgr="false"/>
+		<pair id="s9.p3" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+	</sentence>
+</document>

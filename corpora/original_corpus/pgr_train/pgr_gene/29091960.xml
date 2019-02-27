@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29091960">
+	<sentence id="s1" text="In this study, we aimed to examine the expression of SLC4A11 in ovarian cancer and in normal ovarian tissues, its prognostic value and the possible mechanism of its dysregulation.">
+		<entity id="s1.e1" charOffset="53-60"
+			type="GENE" text="SLC4A11" ontology_id="83959"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Results showed that SLC4A11 was upregulated in ovarian cancer compared with normal ovarian epithelial tissues.">
+		<entity id="s2.e1" charOffset="20-27"
+			type="GENE" text="SLC4A11" ontology_id="83959"/>
+		<entity id="s2.e2" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In patients with primary serous ovarian cancer in TCGA-OV, the cases with lymphatic invasion (N = 133) had significantly higher SLC4A11 expression than those without lymphatic invasion (N = 77) (p = 0.0069).">
+		<entity id="s3.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="128-135"
+			type="GENE" text="SLC4A11" ontology_id="83959"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="320 out of 578 (55.4%) ovarian cancer cases had SLC4A11 amplification.">
+		<entity id="s4.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="48-55"
+			type="GENE" text="SLC4A11" ontology_id="83959"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Based on these findings, we infer that high SLC4A11 expression is an independent predictor for poor OS in grade 3/4 serous ovarian cancer.">
+		<entity id="s5.e1" charOffset="44-51"
+			type="GENE" text="SLC4A11" ontology_id="83959"/>
+		<entity id="s5.e2" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

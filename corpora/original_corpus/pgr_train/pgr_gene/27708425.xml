@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27708425">
+	<sentence id="s1" text="Bardet-Biedl syndrome (BBS) is an autosomal recessive disorder that is both genetically and clinically heterogeneous.">
+		<entity id="s1.e1" charOffset="23-26"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<entity id="s1.e2" charOffset="34-53"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="103-116"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28931725">
+	<sentence id="s1" text="Hence, we focus on the relationship between regulation of cell cycle/positive regulation of cell proliferation and serine metabolism to control methylation of DNA or histone in breast cancer with protein phosphorylation deficiency.">
+		<entity id="s1.e1" charOffset="44-68"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s1.e2" charOffset="69-110"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e3" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="137-160"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We hope that our study will stimulate further studies and a new targeted therapy and early medical intervention for regulation of cell cycle/TAZ could be a useful option for breast cancer cases complicated with protein phosphorylation deficiency">
+		<entity id="s2.e1" charOffset="116-140"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s2.e2" charOffset="160-166"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="190-213"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28600480">
+	<sentence id="s1" text="Tumor growth in xenografts as well as positive regulation of protein phosphorylation signaling were assessed in HCT116 cells expressing IL17RD with either a mutant 3* untranslated region (UTR) or wild-type (WT) 3*UTR.Results: protein polyubiquitination-31, miR-34a, miR-106b, and miR-193a-3p were significantly dysregulated in ulcerative colitis-neoplasia and adjacent tissue.">
+		<entity id="s1.e1" charOffset="38-84"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e2" charOffset="184-210"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e3" charOffset="304-313"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Significant down-regulation of protein polyubiquitination-193a-3p was also seen in an independent cohort of ulcerative colitis cancers.">
+		<entity id="s2.e1" charOffset="31-57"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Changes in methylation of protein polyubiquitination-193a or expression of pri-miR-193a were not observed in ulcerative colitis cancer.">
+		<entity id="s3.e1" charOffset="26-52"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="IL17RD expression was increased in ulcerative colitis cancers, and protein polyubiquitination-193a-3p treatment decreased growth and positive regulation of protein phosphorylation signaling of HCT116 cells in xenografts expressing both IL17RD with WT 3*UTR compared with cells expressing IL17RD with mutant 3*UTR.Conclusions: protein polyubiquitination-193a-3p is downregulated in ulcerative colitis neoplasia, and its loss promotes carcinogenesis through upregulation of IL17RD.">
+		<entity id="s4.e1" charOffset="54-60"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="67-93"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e3" charOffset="133-179"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s4.e4" charOffset="335-344"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e4"
+		    e2="s4.e6" pgr="true"/>
+	</sentence>
+</document>

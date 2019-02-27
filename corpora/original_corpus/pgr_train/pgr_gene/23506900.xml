@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23506900">
+	<sentence id="s1" text="Mutations of SLC49A1 encoding FLVCR1 are noted in patients with a rare neurodegenerative disorder: posterior column ataxia with retinitis pigmentosa.">
+		<entity id="s1.e1" charOffset="30-36"
+			type="GENE" text="FLVCR1" ontology_id="28982"/>
+		<entity id="s1.e2" charOffset="116-122"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

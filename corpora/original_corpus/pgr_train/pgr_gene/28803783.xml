@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803783">
+	<sentence id="s1" text="Disorders in the ISC machinery affect numerous Fe-S proteins and lead to a heterogeneous group of diseases with a wide variety of clinical symptoms and combined enzymatic defects.">
+		<entity id="s1.e1" charOffset="47-49"
+			type="GENE" text="Fe" ontology_id="2960"/>
+		<entity id="s1.e2" charOffset="75-88"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

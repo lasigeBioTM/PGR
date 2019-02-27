@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28992264">
+	<sentence id="s1" text="Taken together, proteasome-mediated ubiquitin-dependent protein catabolic process was identified as a potential gene that plays a role in the development of tamoxifen resistance in breast cancer cells.">
+		<entity id="s1.e1" charOffset="16-81"
+			type="GO" text="proteasome-mediated ubiquitin-dependent protein catabolic process" ontology_id="GO_0043161"/>
+		<entity id="s1.e2" charOffset="188-194"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30264912">
+	<sentence id="s1" text="Highlights include the discoveries of (i) a new genetic etiology, autosomal recessive SPPL2a deficiency, (ii) TYK2-deficient patients with a clinical phenotype of MSMD, (iii) an allelic form of partial recessive IFN-yR2 deficiency, and (iv) two forms of syndromic MSMD: RORy/RORyT and JAK1 deficiencies.">
+		<entity id="s1.e1" charOffset="66-85"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="212-215"
+			type="GENE" text="IFN" ontology_id="3439"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

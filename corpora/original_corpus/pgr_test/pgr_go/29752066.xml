@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29752066">
+	<sentence id="s1" text="positive regulation of antigen processing and presentation of peptide antigen via MHC class II protein levels were also negatively correlated with the severity of symptoms in humans affected by autism.">
+		<entity id="s1.e1" charOffset="0-94"
+			type="GO" text="positive regulation of antigen processing and presentation of peptide antigen via MHC class II" ontology_id="GO_0002588"/>
+		<entity id="s1.e2" charOffset="194-200"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

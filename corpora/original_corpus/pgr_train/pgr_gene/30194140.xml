@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30194140">
+	<sentence id="s1" text="Anaplastic lymphoma kinase (ALK) rearrangements were first implicated as driving mutations in non-small cell lung cancer in 2007.">
+		<entity id="s1.e1" charOffset="28-31"
+			type="GENE" text="ALK" ontology_id="238"/>
+		<entity id="s1.e2" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Since then, a number of novel, small-molecule inhibitors directed against the ALK receptor have demonstrated superiority over standard chemotherapies in the treatment of ALK rearrangement-positive lung cancer.">
+		<entity id="s2.e1" charOffset="78-81"
+			type="GENE" text="ALK" ontology_id="238"/>
+		<entity id="s2.e2" charOffset="202-208"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

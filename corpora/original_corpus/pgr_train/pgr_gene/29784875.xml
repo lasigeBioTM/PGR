@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29784875">
+	<sentence id="s1" text="In humans, exons 5-10 in CHRNA7 are duplicated and fused to the FAM7A genetic element, giving rise to the hybrid gene CHRFAM7A Its product, dupa7, is a truncated subunit lacking part of the N-terminal extracellular ligand-binding domain and is associated with neurological disorders, including schizophrenia, and immunomodulation.">
+		<entity id="s1.e1" charOffset="25-31"
+			type="GENE" text="CHRNA7" ontology_id="1139"/>
+		<entity id="s1.e2" charOffset="118-126"
+			type="GENE" text="CHRFAM7A" ontology_id="89832"/>
+		<entity id="s1.e3" charOffset="294-307"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

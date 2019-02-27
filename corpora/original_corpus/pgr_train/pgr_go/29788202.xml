@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29788202">
+	<sentence id="s1" text="Using human neuroblastoma SH-SY5Y cells in culture, we also observed that human proteolysis is ubiquitinated by positive regulation of protein ubiquitination, without being targeted for degradation.">
+		<entity id="s1.e1" charOffset="12-25"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="80-91"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e3" charOffset="105-150"
+			type="GO" text="positive regulation of protein ubiquitination" ontology_id="GO_0031398"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

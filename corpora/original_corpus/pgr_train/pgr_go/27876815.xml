@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27876815">
+	<sentence id="s1" text="Here, we have identified two novel and rare heterozygous variants in the neural crest cell migration and collagen fibril organization genes segregating with the complete phenotype that have variable expressivity in two pedigrees with AD-FMD.">
+		<entity id="s1.e1" charOffset="73-100"
+			type="GO" text="neural crest cell migration" ontology_id="GO_0001755"/>
+		<entity id="s1.e2" charOffset="105-133"
+			type="GO" text="collagen fibril organization" ontology_id="GO_0030199"/>
+		<entity id="s1.e3" charOffset="165-186"
+			type="HP" text="variable expressivity" ontology_id="HP_0003828"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

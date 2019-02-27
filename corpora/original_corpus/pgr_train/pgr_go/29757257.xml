@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29757257">
+	<sentence id="s1" text="The mammalian target of rapamycin (regulation of cell growth) pathway is overactivated in thyroid cancer (TC).">
+		<entity id="s1.e1" charOffset="35-60"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e2" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We previously demonstrated that phospho-regulation of cell growth expression is associated with tumor aggressiveness, therapy resistance, and lower mRNA expression of iodide transport in papillary thyroid carcinoma (PTC), while phospho-positive regulation of RNA polymerase II transcriptional preinitiation complex assembly (regulation of cell growthC1 effector) expression was associated with less aggressive clinicopathological features.">
+		<entity id="s2.e1" charOffset="40-65"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s2.e2" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="102-116"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<entity id="s2.e4" charOffset="166-193"
+			type="HP" text="papillary thyroid carcinoma" ontology_id="HP_0002895"/>
+		<entity id="s2.e5" charOffset="167-183"
+			type="GO" text="iodide transport" ontology_id="GO_0015705"/>
+		<entity id="s2.e6" charOffset="236-323"
+			type="GO" text="positive regulation of RNA polymerase II transcriptional preinitiation complex assembly" ontology_id="GO_0045899"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e6"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e14"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e14" pgr="false"/>
+	</sentence>
+</document>

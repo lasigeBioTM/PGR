@@ -64,12 +64,6 @@ WORKDIR /bin/IHP/bin
 RUN wget https://files.pythonhosted.org/packages/db/ee/087a1b7c381041403105e87d13d729d160fa7d6010a8851ba051b00f7c67/jsre-1.1.0.zip && unzip jsre-1.1.0.zip
 WORKDIR jsre
 
-# For Stanford CoreNLP
-#EXPOSE 9000
-#WORKDIR /bin/IHP/bin/stanford-corenlp-full-2015-12-09
-#ENV CLASSPATH="`find . -name '*.jar'`"
-#RUN nohup java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 &
-
 # Install Python Libraries
 WORKDIR /bin/IHP
 RUN apt-get update -y && apt-get -y install git liblapack-dev liblapack3 libopenblas-base libopenblas-dev

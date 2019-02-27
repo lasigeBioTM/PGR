@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29122497">
+	<sentence id="s1" text="Defects in ISC biogenesis lead to multiple mitochondrial dysfunction syndromes including: ISCA2 with infantile onset leukodystrophy.">
+		<entity id="s1.e1" charOffset="43-68"
+			type="HP" text="mitochondrial dysfunction" ontology_id="HP_0003287"/>
+		<entity id="s1.e2" charOffset="90-95"
+			type="GENE" text="ISCA2" ontology_id="122961"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

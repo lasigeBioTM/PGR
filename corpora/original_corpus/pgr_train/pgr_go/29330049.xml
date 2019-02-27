@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29330049">
+	<sentence id="s1" text="histone H3-K9 demethylation knockdown inhibits proliferation and promotes the apoptosis of ALL cells in vitro as well as attenuates tumor growth in vivo.">
+		<entity id="s1.e1" charOffset="0-27"
+			type="GO" text="histone H3-K9 demethylation" ontology_id="GO_0033169"/>
+		<entity id="s1.e2" charOffset="132-137"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

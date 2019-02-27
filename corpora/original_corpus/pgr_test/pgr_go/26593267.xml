@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26593267">
+	<sentence id="s1" text="Altogether, these data point to a pathophysiological mechanism responsible for RGC early degeneration and optic neuropathy and linking regulation of dendrite development functions to mitochondrial physiology, response to UV light, and dendrite growth during eye maturation">
+		<entity id="s1.e1" charOffset="112-122"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="135-169"
+			type="GO" text="regulation of dendrite development" ontology_id="GO_0050773"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

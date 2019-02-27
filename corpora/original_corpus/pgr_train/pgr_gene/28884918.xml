@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28884918">
+	<sentence id="s1" text="We present a case of type 2 autosomal recessive AOS associated with heterozygous mutations in the dedicator of cytokinesis 6 (DOCK6) gene, with characteristic findings of ACC, TTLD, intracerebral periventricular calcifications, and polymicrogyria">
+		<entity id="s1.e1" charOffset="28-47"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="126-131"
+			type="GENE" text="DOCK6" ontology_id="57572"/>
+		<entity id="s1.e3" charOffset="182-226"
+			type="HP" text="intracerebral periventricular calcifications" ontology_id="HP_0007229"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

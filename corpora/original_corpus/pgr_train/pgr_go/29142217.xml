@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29142217">
+	<sentence id="s1" text="protein ubiquitination is also amplified in metastatic cancers and its depletion in a NSG mouse xenograft model inhibits tumor growth and metastasis.">
+		<entity id="s1.e1" charOffset="0-22"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s1.e2" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

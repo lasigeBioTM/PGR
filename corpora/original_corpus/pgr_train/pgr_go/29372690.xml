@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29372690">
+	<sentence id="s1" text="This study aims to determine the association between activation of MAPK activity (rs4415084 CAAAAT), positive regulation of cell proliferation (rs2981582 CAAAAT) and cellular response to mechanical stimulus (rs889312 AAAAAC) gene polymorphisms and breast cancer, to analyse the discriminative ability of each SNP and to test the accuracy of the predictive breast cancer risk model which includes all SNPs.">
+		<entity id="s1.e1" charOffset="53-80"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e2" charOffset="101-142"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e3" charOffset="166-206"
+			type="GO" text="cellular response to mechanical stimulus" ontology_id="GO_0071260"/>
+		<entity id="s1.e4" charOffset="185-191"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We have revealed significant association of positive regulation of cell proliferation and cellular response to mechanical stimulus polymorphisms with breast cancer.">
+		<entity id="s2.e1" charOffset="44-85"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e2" charOffset="90-130"
+			type="GO" text="cellular response to mechanical stimulus" ontology_id="GO_0071260"/>
+		<entity id="s2.e3" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The Random Forest algorithm selected positive regulation of cell proliferation, cellular response to mechanical stimulus and age as important breast cancer predictors.">
+		<entity id="s3.e1" charOffset="37-78"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s3.e2" charOffset="44-84"
+			type="GO" text="cellular response to mechanical stimulus" ontology_id="GO_0071260"/>
+		<entity id="s3.e3" charOffset="113-119"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

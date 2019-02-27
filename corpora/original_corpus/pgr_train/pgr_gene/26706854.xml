@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26706854">
+	<sentence id="s1" text="Here we describe four additional individuals from three families, comprising two sporadic subjects (one of whom had no limb malformation) and a mildly affected female with a severely affected son.">
+		<entity id="s1.e1" charOffset="81-89"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="192-195"
+			type="GENE" text="son" ontology_id="6651"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

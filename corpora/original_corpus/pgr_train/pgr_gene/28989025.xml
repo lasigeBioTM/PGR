@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28989025">
+	<sentence id="s1" text="Mutations, A147T and A165V, within the ZM of ZASP-LDex10 cause myofibrillar myopathy, but the mechanism is unknown.">
+		<entity id="s1.e1" charOffset="45-49"
+			type="GENE" text="ZASP" ontology_id="11155"/>
+		<entity id="s1.e2" charOffset="76-84"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

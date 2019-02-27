@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29328486">
+	<sentence id="s1" text="MicroRNA-873 (miR-873) has been reported to be dysregulated in a variety of malignancies, however, the biological function and underlying molecular mechanism of miR-873 in colorectal cancer (CRC) remain unclear.">
+		<entity id="s1.e1" charOffset="14-17"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="183-189"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, we found that tumor necrosis factor (TNF) receptor-associated factor 5 (TRAF5) and TGF-b activated kinase 1 (MAP3K7) binding protein 1 (TAB1) were direct targets of miR-873 in CRC cells.">
+		<entity id="s2.e1" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="50-53"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<entity id="s2.e3" charOffset="85-90"
+			type="GENE" text="TRAF5" ontology_id="7188"/>
+		<entity id="s2.e4" charOffset="122-128"
+			type="GENE" text="MAP3K7" ontology_id="6885"/>
+		<entity id="s2.e5" charOffset="149-153"
+			type="GENE" text="TAB1" ontology_id="10454"/>
+		<entity id="s2.e6" charOffset="178-181"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Therefore, our findings established a tumor-suppressive role for miR-873 in the inhibition of CRC progression, which may be employed as a novel prognostic marker and as an effective therapeutic target for CRC">
+		<entity id="s3.e1" charOffset="38-43"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="65-68"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

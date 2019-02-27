@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28173650">
+	<sentence id="s1" text="The patient carried ion transport gene mutations found by genetic analysis, and was finally diagnosed with hyperekplexia.">
+		<entity id="s1.e1" charOffset="20-33"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<entity id="s1.e2" charOffset="107-120"
+			type="HP" text="hyperekplexia" ontology_id="HP_0002267"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

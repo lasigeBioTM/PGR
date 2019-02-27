@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28931725">
+	<sentence id="s1" text="We hope that our study will stimulate further studies and a new targeted therapy and early medical intervention for YAP/positive regulation of cell proliferation could be a useful option for breast cancer cases complicated with LKB1 deficiency">
+		<entity id="s1.e1" charOffset="120-161"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e2" charOffset="198-204"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

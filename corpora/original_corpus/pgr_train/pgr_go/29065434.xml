@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29065434">
+	<sentence id="s1" text="Breakthrough discoveries include the role of somatic variants in the potassium ion import across plasma membrane, calcium ion transport, cellular sodium ion homeostasis, and regulation of cytosolic calcium ion concentration genes as causes of aldosterone-producing adenomas (APAs), and the recognition of three novel hyperaldosteronism syndromes with germline variants in the KCNJ5, CACNA1D, and regulation of membrane potential genes.">
+		<entity id="s1.e1" charOffset="69-112"
+			type="GO" text="potassium ion import across plasma membrane" ontology_id="GO_1990573"/>
+		<entity id="s1.e2" charOffset="114-135"
+			type="GO" text="calcium ion transport" ontology_id="GO_0006816"/>
+		<entity id="s1.e3" charOffset="137-168"
+			type="GO" text="cellular sodium ion homeostasis" ontology_id="GO_0006883"/>
+		<entity id="s1.e4" charOffset="174-223"
+			type="GO" text="regulation of cytosolic calcium ion concentration" ontology_id="GO_0051480"/>
+		<entity id="s1.e5" charOffset="235-253"
+			type="HP" text="hyperaldosteronism" ontology_id="HP_0000859"/>
+		<entity id="s1.e6" charOffset="396-428"
+			type="GO" text="regulation of membrane potential" ontology_id="GO_0042391"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29788803">
+	<sentence id="s1" text="The JU-PI cells have a sub-tetraploid karyotype including the 1;10 chromosomal translocation and amplification of the proximal end of 3p; these features are considered genetic signatures of myxoinflammatory fibroblastic sarcoma.">
+		<entity id="s1.e1" charOffset="7-9"
+			type="GENE" text="PI" ontology_id="5265"/>
+		<entity id="s1.e2" charOffset="220-227"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Both the primary tumor and the JU-PI cells showed nuclear expression of the TFE3 transcription factor but TFE3-activating chromosomal rearrangements were not found.">
+		<entity id="s2.e1" charOffset="17-22"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="34-36"
+			type="GENE" text="PI" ontology_id="5265"/>
+		<entity id="s2.e3" charOffset="76-80"
+			type="GENE" text="TFE3" ontology_id="7030"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="To our knowledge, JU-PI is the first established myxoinflammatory fibroblastic sarcoma cell line.">
+		<entity id="s3.e1" charOffset="21-23"
+			type="GENE" text="PI" ontology_id="5265"/>
+		<entity id="s3.e2" charOffset="79-86"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28000701">
+	<sentence id="s1" text="Hearing impairment (HI) is genetically heterogeneous which hampers genetic counseling and molecular diagnosis.">
+		<entity id="s1.e1" charOffset="20-22"
+			type="GENE" text="HI" ontology_id="6833"/>
+		<entity id="s1.e2" charOffset="39-52"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In our patient cohort, causative variants in GJB2, USH2A, MYO15A and STRC, and in MYO6 were the leading causes for autosomal recessive and dominant HI, respectively.">
+		<entity id="s2.e1" charOffset="45-49"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s2.e2" charOffset="51-56"
+			type="GENE" text="USH2A" ontology_id="7399"/>
+		<entity id="s2.e3" charOffset="58-64"
+			type="GENE" text="MYO15A" ontology_id="51168"/>
+		<entity id="s2.e4" charOffset="69-73"
+			type="GENE" text="STRC" ontology_id="161497"/>
+		<entity id="s2.e5" charOffset="82-86"
+			type="GENE" text="MYO6" ontology_id="4646"/>
+		<entity id="s2.e6" charOffset="115-134"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e7" charOffset="148-150"
+			type="GENE" text="HI" ontology_id="6833"/>
+		<pair id="s2.p1" e1="s2.e6"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e6"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e5"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

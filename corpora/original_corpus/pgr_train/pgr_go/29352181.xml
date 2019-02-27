@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29352181">
+	<sentence id="s1" text="double-strand break repair via homologous recombination regulates cellular deoxynucleotide levels and acts as a potential tumor suppressor in other leukemias.">
+		<entity id="s1.e1" charOffset="0-55"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e2" charOffset="122-127"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus, our study considerably extends the picture of pathways involved in molecular pathogenesis of T-PLL and identifies the tumor suppressor gene double-strand break repair via homologous recombination with ~20% of T-PLL affected by destructive lesions likely as major player in T-PLL pathogenesis">
+		<entity id="s2.e1" charOffset="124-129"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="146-201"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

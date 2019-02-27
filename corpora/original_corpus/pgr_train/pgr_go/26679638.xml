@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26679638">
+	<sentence id="s1" text="More recently, evidence has indicated that variations in resolution of meiotic recombination intermediates gene could be causative for primary ovarian insufficiency (POI), also known as premature ovarian failure.">
+		<entity id="s1.e1" charOffset="57-106"
+			type="GO" text="resolution of meiotic recombination intermediates" ontology_id="GO_0000712"/>
+		<entity id="s1.e2" charOffset="186-211"
+			type="HP" text="premature ovarian failure" ontology_id="HP_0008209"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to investigate the association between resolution of meiotic recombination intermediates gene variants and sporadic POI in Chinese women.">
+		<entity id="s2.e1" charOffset="65-114"
+			type="GO" text="resolution of meiotic recombination intermediates" ontology_id="GO_0000712"/>
+		<entity id="s2.e2" charOffset="133-141"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

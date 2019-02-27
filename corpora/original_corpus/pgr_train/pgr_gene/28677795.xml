@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28677795">
+	<sentence id="s1" text="In addition, silencing of CtBP2 markedly increased the apoptosis of PCa cells in vitro, and decreased the expression of IL-8, AT2R, CCND1 and MMP9 which are associated with cancer progression.">
+		<entity id="s1.e1" charOffset="26-31"
+			type="GENE" text="CtBP2" ontology_id="1488"/>
+		<entity id="s1.e2" charOffset="132-137"
+			type="GENE" text="CCND1" ontology_id="595"/>
+		<entity id="s1.e3" charOffset="142-146"
+			type="GENE" text="MMP9" ontology_id="4318"/>
+		<entity id="s1.e4" charOffset="173-179"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

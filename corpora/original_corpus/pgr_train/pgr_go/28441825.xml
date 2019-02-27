@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28441825">
+	<sentence id="s1" text="The cases with complete clinical data retrieved on literature search at China National Knowledge Infrastructure, Wanfang Data Knowledge Service Platform and PubMed (up to August 2016) by using search terms ofAAAAAAmitochondrial ATP synthesis coupled electron transportAAAAAA ,AAAAAAapoptotic mitochondrial changesAAAAAA , orAAAAAAleukoencephalopathyAAAAAA , were summarized.">
+		<entity id="s1.e1" charOffset="214-268"
+			type="GO" text="mitochondrial ATP synthesis coupled electron transport" ontology_id="GO_0042775"/>
+		<entity id="s1.e2" charOffset="282-313"
+			type="GO" text="apoptotic mitochondrial changes" ontology_id="GO_0008637"/>
+		<entity id="s1.e3" charOffset="305-324"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

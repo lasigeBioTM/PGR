@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29382663">
+	<sentence id="s1" text="Mechanistically, lncSHGL recruited heterogeneous nuclear ribonucleoprotein A1 (positive regulation of telomere maintenance via telomerase) to enhance the translation efficiency of CALM mRNAs to increase calmodulin (negative regulation of endothelial cell proliferation) protein level without affecting their transcription, leading to the activation of the phosphatidyl inositol 3-kinase (PI3K)/positive regulation of protein phosphorylation pathway and repression of the regulation of cell growth/positive regulation of transcription by RNA polymerase II pathway independent of insulin and calcium in hepatocytes.">
+		<entity id="s1.e1" charOffset="35-48"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="79-137"
+			type="GO" text="positive regulation of telomere maintenance via telomerase" ontology_id="GO_0032212"/>
+		<entity id="s1.e3" charOffset="215-268"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s1.e4" charOffset="344-390"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e5" charOffset="421-446"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e6" charOffset="447-504"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Hepatic positive regulation of telomere maintenance via telomerase overexpression also activated the negative regulation of endothelial cell proliferation/positive regulation of protein phosphorylation pathway and repressed the regulation of cell growth/SREBP-1C pathway to ameliorate hyperglycemia and steatosis in obese mice.">
+		<entity id="s2.e1" charOffset="8-66"
+			type="GO" text="positive regulation of telomere maintenance via telomerase" ontology_id="GO_0032212"/>
+		<entity id="s2.e2" charOffset="101-154"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s2.e3" charOffset="105-151"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s2.e4" charOffset="171-184"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<entity id="s2.e5" charOffset="178-203"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e5"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27835880">
+	<sentence id="s1" text="In tumors with high PIK3R2 expression, and independently of PIK3CA, KRAS, or PTEN mutations, PIK3R2 depletion induced lung SQCC xenograft regression without triggering PI3K/AKT pathway rebound.">
+		<entity id="s1.e1" charOffset="3-8"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="20-26"
+			type="GENE" text="PIK3R2" ontology_id="5296"/>
+		<entity id="s1.e3" charOffset="77-81"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

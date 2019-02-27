@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28903065">
+	<sentence id="s1" text="myeloid dendritic cell chemotaxis rs3136685 AG+GG (p=0.032) was associated with a 1.52-1.70 fold increase in the risk of high grade cancer (Gleason scoreG7) among obese men.">
+		<entity id="s1.e1" charOffset="0-33"
+			type="GO" text="myeloid dendritic cell chemotaxis" ontology_id="GO_0002408"/>
+		<entity id="s1.e2" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

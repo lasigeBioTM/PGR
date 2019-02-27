@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29145165">
+	<sentence id="s1" text="Loss-of-function experiments revealed that DLX6-AS1 knockdown inhibited the proliferation, migration and invasion of HCC cells in vitro, and decreased the tumor growth in vivo.">
+		<entity id="s1.e1" charOffset="43-47"
+			type="GENE" text="DLX6" ontology_id="1750"/>
+		<entity id="s1.e2" charOffset="155-160"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

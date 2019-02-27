@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29086887">
+	<sentence id="s1" text="CIB2 and GJB2 genes variants contribute significantly in familial cases of prelingual recessive hearing loss (HL).">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="CIB2" ontology_id="10518"/>
+		<entity id="s1.e2" charOffset="9-13"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e3" charOffset="96-108"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

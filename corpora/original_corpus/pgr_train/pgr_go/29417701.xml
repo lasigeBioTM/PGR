@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29417701">
+	<sentence id="s1" text="Recent analyses of our microRNA (protein polyubiquitinationNA) expression signatures obtained from several types of cancer have provided novel information on their molecular pathology.">
+		<entity id="s1.e1" charOffset="33-59"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In renal cell carcinoma (RCC), expression of microRNA-451a (protein polyubiquitination-451a) was significantly downregulated in patient specimens and low expression of miR-451a was significantly associated with poor prognosis of RCC patients (P = .00305) based on data in The Cancer Genome Atlas.">
+		<entity id="s2.e1" charOffset="3-23"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s2.e2" charOffset="60-86"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Ectopic expression of protein polyubiquitination-451a significantly inhibited cancer cell migration and invasion by RCC cell lines, suggesting that miR-451a had antitumor roles.">
+		<entity id="s3.e1" charOffset="22-48"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="78-84"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Knockdown of mannose metabolic process in RCC cells inhibited cancer cell migration and invasion, indicating overexpression of PMM2 could promote malignancy.">
+		<entity id="s4.e1" charOffset="13-38"
+			type="GO" text="mannose metabolic process" ontology_id="GO_0006013"/>
+		<entity id="s4.e2" charOffset="62-68"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

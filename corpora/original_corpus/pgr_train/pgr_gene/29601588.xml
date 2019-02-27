@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29601588">
+	<sentence id="s1" text="Zinc finger MYND-type-containing 10 (ZMYND10), a cytoplasmic protein expressed in ciliated cells, causes primary ciliary dyskinesia (PCD) when mutated; however, its function is poorly understood.">
+		<entity id="s1.e1" charOffset="37-44"
+			type="GENE" text="ZMYND10" ontology_id="51364"/>
+		<entity id="s1.e2" charOffset="113-131"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, in this study, we examined the roles of ZMYND10 using Zmynd10-/-mice exhibiting typical PCD phenotypes, including hydrocephalus and laterality defects.">
+		<entity id="s2.e1" charOffset="51-58"
+			type="GENE" text="ZMYND10" ontology_id="51364"/>
+		<entity id="s2.e2" charOffset="65-72"
+			type="GENE" text="Zmynd10" ontology_id="51364"/>
+		<entity id="s2.e3" charOffset="125-138"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

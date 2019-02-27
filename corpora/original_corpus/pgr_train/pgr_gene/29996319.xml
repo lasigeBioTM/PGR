@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29996319">
+	<sentence id="s1" text="GPC3 was positive in yolk sac tumor component.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="GPC3" ontology_id="2719"/>
+		<entity id="s1.e2" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

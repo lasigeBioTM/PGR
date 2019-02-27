@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29684080">
+	<sentence id="s1" text="Patients with heritable cancer syndromes characterized by germline negative regulation of protein phosphorylation mutations (termed negative regulation of protein phosphorylation hamartoma tumor syndrome, PHTS) benefit from PTEN-enabled cancer risk assessment and clinical management.">
+		<entity id="s1.e1" charOffset="24-30"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="67-113"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e3" charOffset="147-152"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="negative regulation of protein phosphorylation-wildtype patients (~50%) remain at increased risk of developing certain cancers.">
+		<entity id="s2.e1" charOffset="0-46"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s2.e2" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Pathogenic or likely pathogenic cancer susceptibility gene alterations were found in 7 of the 87 (8%) carbohydrate metabolic process/CS-like and BRRS patients and included DNA repair, regulation of cell adhesion, positive regulation of macroautophagy, double-strand break repair via homologous recombination, mitotic cytokinesis, transcription-coupled nucleotide-excision repair and regulation of neurotransmitter receptor localization to postsynaptic specialization membrane.">
+		<entity id="s3.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="102-132"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_0005975"/>
+		<entity id="s3.e3" charOffset="172-182"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s3.e4" charOffset="184-211"
+			type="GO" text="regulation of cell adhesion" ontology_id="GO_0030155"/>
+		<entity id="s3.e5" charOffset="213-250"
+			type="GO" text="positive regulation of macroautophagy" ontology_id="GO_0016239"/>
+		<entity id="s3.e6" charOffset="252-307"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s3.e7" charOffset="309-328"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s3.e8" charOffset="330-378"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s3.e9" charOffset="383-475"
+			type="GO" text="regulation of neurotransmitter receptor localization to postsynaptic specialization membrane" ontology_id="GO_0098696"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p7" e1="s3.e1"
+		    e2="s3.e8" pgr="true"/>
+		<pair id="s3.p8" e1="s3.e1"
+		    e2="s3.e9" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Our data suggest that only a small subset of negative regulation of protein phosphorylation-wildtype carbohydrate metabolic process/CS-like and BRRS patients could be accounted for by germline variants in some of the known cancer-related genes.">
+		<entity id="s4.e1" charOffset="45-91"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s4.e2" charOffset="101-131"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_00010175"/>
+		<entity id="s4.e3" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

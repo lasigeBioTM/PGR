@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28422132">
+	<sentence id="s1" text="16q24 deletion involving the odontogenesis of dentin-containing tooth gene, ranging from 137 kb to 2 Mb, have been associated with a microdeletion syndrome characterized by variable cognitive impairment, autism spectrum disorder, facial dysmorphisms with dental anomalies, brain abnormalities essentially affecting the corpus callosum and short stature.">
+		<entity id="s1.e1" charOffset="29-69"
+			type="GO" text="odontogenesis of dentin-containing tooth" ontology_id="GO_0042475"/>
+		<entity id="s1.e2" charOffset="182-202"
+			type="HP" text="cognitive impairment" ontology_id="HP_0100543"/>
+		<entity id="s1.e3" charOffset="204-210"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e4" charOffset="255-271"
+			type="HP" text="dental anomalies" ontology_id="HP_0000164"/>
+		<entity id="s1.e5" charOffset="339-352"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="On the other hand, patients carrying either deletions encompassing solely odontogenesis of dentin-containing tooth or its loss-of-function variants were reported in association with the KBG syndrome, characterized by a very similar phenotype, including mild-to-moderate intellectual disability, short stature and macrodontia of upper incisors, with inter and intrafamilial variability.">
+		<entity id="s2.e1" charOffset="74-114"
+			type="GO" text="odontogenesis of dentin-containing tooth" ontology_id="GO_0042475"/>
+		<entity id="s2.e2" charOffset="270-293"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="295-308"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="By comparing the clinical and genetic features of our patients with those previously reported, we show that the severity of the neurological phenotype and the frequency of congenital heart defects characterize the deletions that, besides odontogenesis of dentin-containing tooth, contain regulation of definitive erythrocyte differentiation, cell morphogenesis and regulation of transcription by RNA polymerase II as well.">
+		<entity id="s3.e1" charOffset="172-196"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<entity id="s3.e2" charOffset="238-278"
+			type="GO" text="odontogenesis of dentin-containing tooth" ontology_id="GO_0042475"/>
+		<entity id="s3.e3" charOffset="288-340"
+			type="GO" text="regulation of definitive erythrocyte differentiation" ontology_id="GO_0010724"/>
+		<entity id="s3.e4" charOffset="342-360"
+			type="GO" text="cell morphogenesis" ontology_id="GO_0000902"/>
+		<entity id="s3.e5" charOffset="365-413"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The single patient not deleted for odontogenesis of dentin-containing tooth, whose phenotype is characterized by milder psychomotor delay, cardiac congenital malformation, thrombocytopenia and astigmatism, confirms all this data">
+		<entity id="s4.e1" charOffset="35-75"
+			type="GO" text="odontogenesis of dentin-containing tooth" ontology_id="GO_0042475"/>
+		<entity id="s4.e2" charOffset="120-137"
+			type="HP" text="psychomotor delay" ontology_id="HP_0001263"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

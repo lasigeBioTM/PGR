@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28556291">
+	<sentence id="s1" text="Genes with DMRs were involved in inflammatory response (IRAK4 and ESM1), cancer (BRCA1 and LASP1), endocrine function (CNPY1), and male fertility (skeletal system morphogenesis, positive regulation of granulocyte differentiation, and PRDM8).">
+		<entity id="s1.e1" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="147-176"
+			type="GO" text="skeletal system morphogenesis" ontology_id="GO_0048705"/>
+		<entity id="s1.e3" charOffset="155-205"
+			type="GO" text="positive regulation of granulocyte differentiation" ontology_id="GO_0030854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

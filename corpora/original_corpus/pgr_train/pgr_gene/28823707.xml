@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28823707">
+	<sentence id="s1" text="Here we report three families with homozygous truncating mutations in TBC1D23 who display moderate to severe intellectual disability and microcephaly.">
+		<entity id="s1.e1" charOffset="70-77"
+			type="GENE" text="TBC1D23" ontology_id="55773"/>
+		<entity id="s1.e2" charOffset="109-132"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="137-149"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

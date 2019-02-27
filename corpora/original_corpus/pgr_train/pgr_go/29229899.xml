@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29229899">
+	<sentence id="s1" text="BACKGROUND Ellis-glycoprotein biosynthetic process Creveld syndrome is an autosomal recessive chondro-ectodermal dysplasia characterized by disproportionate short stature, limb shortening, narrow chest, postaxial polydactyly and dysplastic nails and teeth.">
+		<entity id="s1.e1" charOffset="17-50"
+			type="GO" text="glycoprotein biosynthetic process" ontology_id="GO_0009101"/>
+		<entity id="s1.e2" charOffset="74-93"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="102-122"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e4" charOffset="157-170"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e5" charOffset="172-187"
+			type="HP" text="limb shortening" ontology_id="HP_0009826"/>
+		<entity id="s1.e6" charOffset="189-201"
+			type="HP" text="narrow chest" ontology_id="HP_0000774"/>
+		<entity id="s1.e7" charOffset="213-224"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

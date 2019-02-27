@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30241351">
+	<sentence id="s1" text="DHEA prevents mitochondrial dysfunction by decreasing the activation of DNM1L and MFF, and increasing MFN1 expression.">
+		<entity id="s1.e1" charOffset="14-39"
+			type="HP" text="mitochondrial dysfunction" ontology_id="HP_0003287"/>
+		<entity id="s1.e2" charOffset="72-77"
+			type="GENE" text="DNM1L" ontology_id="10059"/>
+		<entity id="s1.e3" charOffset="82-85"
+			type="GENE" text="MFF" ontology_id="56947"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

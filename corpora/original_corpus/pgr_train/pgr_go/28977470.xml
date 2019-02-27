@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28977470">
+	<sentence id="s1" text="We observed overexpression and increased intra-nuclear accumulation of the PRMT5/regulation of transcription by RNA polymerase II in breast cancer cell lines relative to immortalized breast epithelial cells.">
+		<entity id="s1.e1" charOffset="81-129"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We observed that the alternatively spliced transcripts of a subset of these genes, involved in proliferation and tumor cell migration like DNA replication/DNA replication, cellular protein modification process, selenocysteine incorporation and fructose 6-phosphate metabolic process are degraded upon loss of peptidyl-arginine N-methylation.">
+		<entity id="s2.e1" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="139-154"
+			type="GO" text="DNA replication" ontology_id="GO_0006260"/>
+		<entity id="s2.e3" charOffset="155-170"
+			type="GO" text="DNA replication" ontology_id="GO_0006260"/>
+		<entity id="s2.e4" charOffset="172-209"
+			type="GO" text="cellular protein modification process" ontology_id="GO_0006464"/>
+		<entity id="s2.e5" charOffset="204-235"
+			type="GO" text="peptidyl-arginine N-methylation" ontology_id="GO_0035246"/>
+		<entity id="s2.e6" charOffset="211-239"
+			type="GO" text="selenocysteine incorporation" ontology_id="GO_0001514"/>
+		<entity id="s2.e7" charOffset="244-282"
+			type="GO" text="fructose 6-phosphate metabolic process" ontology_id="GO_0006002"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+	</sentence>
+</document>

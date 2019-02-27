@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29199261">
+	<sentence id="s1" text="These results indicate that TBX19 may work as an oncogene in colorectal cancer (CRC).">
+		<entity id="s1.e1" charOffset="28-33"
+			type="GENE" text="TBX19" ontology_id="9095"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we investigated TBX19 mRNA and protein expressions in colon cancer cells or surgically resected CRC.">
+		<entity id="s2.e1" charOffset="22-27"
+			type="GENE" text="TBX19" ontology_id="9095"/>
+		<entity id="s2.e2" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

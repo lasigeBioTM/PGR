@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19304569">
+	<sentence id="s1" text="This report describes the first putative mutations, p.L70P and p.R450C, in the coding region of the UROC1 gene in a girl with urocanic aciduria presenting with mental retardation and intermittent ataxia.">
+		<entity id="s1.e1" charOffset="100-105"
+			type="GENE" text="UROC1" ontology_id="131669"/>
+		<entity id="s1.e2" charOffset="196-202"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

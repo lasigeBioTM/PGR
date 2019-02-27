@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29847599">
+	<sentence id="s1" text="Only minor changes in mRNA transcript levels occurred upon exposure to the compounds confirming that metabolic flux alone can be a key determinant of sialoglycoconjugate display in breast cancer cells; this result complements the well-established role of genetic control (e.g., the transcription of glycosphingolipid metabolic process) of sialylation abnormalities ubiquitously associated with cancer.">
+		<entity id="s1.e1" charOffset="188-194"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="299-334"
+			type="GO" text="glycosphingolipid metabolic process" ontology_id="GO_0006687"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We believe that this strategy combined with multi-dimensional analysis of sialic acid metabolism will ultimately provide novel insights into breast cancer subcardiac muscle tissue developments and provide a foundation for new methods of diagnosis">
+		<entity id="s2.e1" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="158-191"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

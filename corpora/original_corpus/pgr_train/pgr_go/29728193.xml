@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29728193">
+	<sentence id="s1" text="Among these genes, it is affirmative that brain development is a causative gene for intellectual disability; however, the pathogenic genes of other phenotypes remain unclear.">
+		<entity id="s1.e1" charOffset="42-59"
+			type="GO" text="brain development" ontology_id="GO_0007420"/>
+		<entity id="s1.e2" charOffset="84-107"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

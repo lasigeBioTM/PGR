@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27287804">
+	<sentence id="s1" text="negative regulation of transcription, DNA-templated encodes a homeodomain transcription factor expressed in the developing lateral craniofacial mesenchyme, retina and sensory ganglia.">
+		<entity id="s1.e1" charOffset="0-51"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="123-130"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we demonstrate that the negative regulation of transcription by RNA polymerase II of negative regulation of transcription, DNA-templated loss is greater than previously appreciated, with a variety of lateral cranioskeletal defects, auriculofacial nerve deficits, and duplication of the caudal region of the external ear.">
+		<entity id="s2.e1" charOffset="30-87"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="40-91"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e3" charOffset="155-162"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Using a transgenic approach, we demonstrate that a 594 bp sequence encompassing the ECR recapitulates specific aspects of the endogenous negative regulation of transcription, DNA-templated lateral facial expression pattern.">
+		<entity id="s3.e1" charOffset="137-188"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s3.e2" charOffset="189-196"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="These studies highlight the conserved role for negative regulation of transcription, DNA-templated in BA2-derived tissues and provide an entry point for improved understanding of the causes of the frequent lateral facial birth defects in humans">
+		<entity id="s4.e1" charOffset="47-98"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s4.e2" charOffset="206-213"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

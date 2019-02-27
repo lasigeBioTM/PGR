@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30089752">
+	<sentence id="s1" text="Analysis of epithelial cell development-disrupted spermatozoa in mice is difficult as Hydin-mutant mice (hy3) die within 3 weeks, before sexual maturation, due to hydrocephaly.">
+		<entity id="s1.e1" charOffset="12-39"
+			type="GO" text="epithelial cell development" ontology_id="GO_0002064"/>
+		<entity id="s1.e2" charOffset="163-175"
+			type="HP" text="hydrocephaly" ontology_id="HP_0000238"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29630152">
+	<sentence id="s1" text="The ichthyosis genetic panel showed mutations in the ABCA12 gene resulting in the lamellar ichthyosis phenotype of ARCI.">
+		<entity id="s1.e1" charOffset="4-14"
+			type="HP" text="ichthyosis" ontology_id="HP_0008064"/>
+		<entity id="s1.e2" charOffset="53-59"
+			type="GENE" text="ABCA12" ontology_id="26154"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

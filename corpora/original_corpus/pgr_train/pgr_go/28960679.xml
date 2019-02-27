@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28960679">
+	<sentence id="s1" text="WTX/positive regulation of protein ubiquitination is an important developmental regulator, mutations in which have been identified in a proportion of patients suffering from the renal neoplasm Wilms* tumor and in the bone malformation syndrome Osteopathia Striata with Cranial Sclerosis (OSCS).">
+		<entity id="s1.e1" charOffset="4-49"
+			type="GO" text="positive regulation of protein ubiquitination" ontology_id="GO_0031398"/>
+		<entity id="s1.e2" charOffset="178-192"
+			type="HP" text="renal neoplasm" ontology_id="HP_0009726"/>
+		<entity id="s1.e3" charOffset="200-205"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

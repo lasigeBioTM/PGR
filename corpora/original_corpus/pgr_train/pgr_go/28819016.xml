@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28819016">
+	<sentence id="s1" text="Biallelic loss-of-function mutations affecting growth plate cartilage chondrocyte development cause SOFT syndrome, an ultra-rare condition characterized by short stature, onychodysplasia, facial dysmorphism and hypotrichosis.">
+		<entity id="s1.e1" charOffset="47-93"
+			type="GO" text="growth plate cartilage chondrocyte development" ontology_id="GO_0003431"/>
+		<entity id="s1.e2" charOffset="156-169"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e3" charOffset="171-186"
+			type="HP" text="onychodysplasia" ontology_id="HP_0002164"/>
+		<entity id="s1.e4" charOffset="188-206"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<entity id="s1.e5" charOffset="211-224"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

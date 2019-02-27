@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30250467">
+	<sentence id="s1" text="We documented 17 malignancies, which amounts to a cancer prevalence of 12.9% in affected CTLA4 mutation carriers.">
+		<entity id="s1.e1" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="89-94"
+			type="GENE" text="CTLA4" ontology_id="1493"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

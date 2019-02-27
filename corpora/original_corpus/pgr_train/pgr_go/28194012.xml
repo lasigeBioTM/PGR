@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28194012">
+	<sentence id="s1" text="In neuroimaging experiments, our analysis involving 23 participants showed that methylation levels for the cg07814318 site, which lies within the regulation of transcription by RNA polymerase II gene, correlated with brain activity in the claustrum, putamen, cingulate gyrus and frontal gyri, some of which have been previously associated to food signaling, obesity or reward.">
+		<entity id="s1.e1" charOffset="146-194"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="358-365"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our results suggest the cg07814318 site could be involved in orexigenic processes, and also implicate regulation of transcription by RNA polymerase II in obesity.">
+		<entity id="s2.e1" charOffset="102-150"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e2" charOffset="154-161"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

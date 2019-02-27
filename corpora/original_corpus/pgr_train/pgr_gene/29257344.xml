@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29257344">
+	<sentence id="s1" text="The expression of uncarboxylated MGP (ucMGP), carboxylated MGP (cMGP), matrix metalloproteinase (MMP)-13, collagen type X, collagen type II, tumor necrosis factor (TNF)-a and interleukin (IL)-1b were detected by ELISA, immunohistochemistry, reverse transcription-quantitative polymerase chain reaction and western blotting.">
+		<entity id="s1.e1" charOffset="33-36"
+			type="GENE" text="MGP" ontology_id="4256"/>
+		<entity id="s1.e2" charOffset="141-146"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="164-167"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

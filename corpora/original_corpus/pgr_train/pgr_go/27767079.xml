@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27767079">
+	<sentence id="s1" text="Moreover, we show that over-expression of prostaglandin biosynthetic process dramatically decreases hepatic steatosis through increased autophagy in hepatocytes of HFD-fed mice.">
+		<entity id="s1.e1" charOffset="42-76"
+			type="GO" text="prostaglandin biosynthetic process" ontology_id="GO_0001516"/>
+		<entity id="s1.e2" charOffset="108-117"
+			type="HP" text="steatosis" ontology_id="HP_0001397"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

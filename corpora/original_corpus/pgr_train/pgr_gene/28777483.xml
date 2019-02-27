@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28777483">
+	<sentence id="s1" text="Mutations in DLG3 are a rare cause of non-syndromic X-linked intellectual disability (XLID) (MRX90, OMIM *300189).">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="DLG3" ontology_id="4356"/>
+		<entity id="s1.e2" charOffset="61-84"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29432985">
+	<sentence id="s1" text="Mutations in peripheral nervous system development gene have been described in relation to infantile onset epilepsy with movement disorders and developmental delay.">
+		<entity id="s1.e1" charOffset="13-50"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<entity id="s1.e2" charOffset="107-115"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="144-163"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

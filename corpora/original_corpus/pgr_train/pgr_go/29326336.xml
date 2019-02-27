@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29326336">
+	<sentence id="s1" text="negative regulation of transcription by RNA polymerase II also activates the expression of the oncogene negative regulation of transcription by RNA polymerase II Importantly, ARID5B is required for the survival and growth of T-ALL cells, and forced expression of ARID5B in immature thymocytes results in thymus retention, differentiation arrest, radioresistance, and tumor formation in zebrafish.">
+		<entity id="s1.e1" charOffset="0-57"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="104-161"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="313-318"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

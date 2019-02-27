@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28888721">
+	<sentence id="s1" text="Single-nucleotide polymorphisms in the lysosome localization gene have been identified as a risk factor in frontotemporal dementia (FTD).">
+		<entity id="s1.e1" charOffset="39-60"
+			type="GO" text="lysosome localization" ontology_id="GO_0032418"/>
+		<entity id="s1.e2" charOffset="107-130"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The major allele of SNP rs3173615 is a risk factor in sporadic FTD, whereas the minor allele seems protective in neutrophil degranulation- and negative regulation of protein phosphorylation-mediated FTD.">
+		<entity id="s2.e1" charOffset="54-62"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="113-137"
+			type="GO" text="neutrophil degranulation" ontology_id="GO_0043312"/>
+		<entity id="s2.e3" charOffset="143-189"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

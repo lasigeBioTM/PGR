@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29670000">
+	<sentence id="s1" text="Importantly, bone cell activity was inversely correlated to tumor cell AR activity (measured as AR, FOXA1, HOXB13, KLK2, KLK3, NKX3-1, STEAP2, and TMPRSS2 expression) and to patient serum prostate-specific antigen (PSA) levels.">
+		<entity id="s1.e1" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="107-113"
+			type="GENE" text="HOXB13" ontology_id="10481"/>
+		<entity id="s1.e3" charOffset="121-125"
+			type="GENE" text="KLK3" ontology_id="3818"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

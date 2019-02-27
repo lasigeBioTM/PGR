@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27848974">
+	<sentence id="s1" text="Blocking the expression of integrin a2b1, which was accomplished by transduction of a2-specific shRNA, resulted in significant inhibition of proliferation and clonal activity in human MCF-7 breast carcinoma and SK-Mel-147 melanoma cells.">
+		<entity id="s1.e1" charOffset="36-38"
+			type="GENE" text="a2" ontology_id="170589"/>
+		<entity id="s1.e2" charOffset="190-206"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<entity id="s1.e3" charOffset="211-213"
+			type="GENE" text="SK" ontology_id="22943"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

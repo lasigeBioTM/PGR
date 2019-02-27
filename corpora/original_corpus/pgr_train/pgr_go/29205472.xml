@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29205472">
+	<sentence id="s1" text="Methods: Ten potentially functional single nucleotide polymorphisms (SNPs) in seven prostate CSC marker genes, negative regulation of epithelial cell migration, photoreceptor cell maintenance, substrate-dependent cell migration, negative regulation of transcription by RNA polymerase II, negative regulation of transcription by RNA polymerase II, negative regulation of ERK1 and ERK2 cascade, and CD44, were selected for analysis of their association with disease recurrence by Kaplan-Meier analysis and Cox regression in a cohort of 320 patients with localized prostate cancer receiving radical prostatectomy.">
+		<entity id="s1.e1" charOffset="111-159"
+			type="GO" text="negative regulation of epithelial cell migration" ontology_id="GO_0010633"/>
+		<entity id="s1.e2" charOffset="161-191"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s1.e3" charOffset="193-227"
+			type="GO" text="substrate-dependent cell migration" ontology_id="GO_0006929"/>
+		<entity id="s1.e4" charOffset="229-286"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="288-345"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e6" charOffset="347-391"
+			type="GO" text="negative regulation of ERK1 and ERK2 cascade" ontology_id="GO_0070373"/>
+		<entity id="s1.e7" charOffset="373-379"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Results: We identified one independent SNP, rs2394882, in negative regulation of transcription by RNA polymerase II that was associated with prostate cancer recurrence (hazard ratio 0.32, 95% confidence interval 0.14-0.71, P = 0.005) after adjustment for known clinical predictors.">
+		<entity id="s2.e1" charOffset="58-115"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="150-156"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further in silico functional analyses revealed that rs2394882 affects negative regulation of transcription by RNA polymerase II expression, which in turn is significantly correlated with prostate cancer aggressiveness and patient prognosis.">
+		<entity id="s3.e1" charOffset="70-127"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="196-202"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="203-217"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

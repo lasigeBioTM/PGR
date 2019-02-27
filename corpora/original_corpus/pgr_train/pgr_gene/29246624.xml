@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29246624">
+	<sentence id="s1" text="Improvements in our understanding of the molecular subtypes of gliomas and the underlying alterations in specific signaling pathways may impact both the diagnosis and the treatment strategies for patients with gliomas.">
+		<entity id="s1.e1" charOffset="63-69"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e2" charOffset="137-143"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Specifically, LRIG1 has been identified as a tumor suppressor in human cancers.">
+		<entity id="s2.e1" charOffset="14-19"
+			type="GENE" text="LRIG1" ontology_id="26018"/>
+		<entity id="s2.e2" charOffset="45-50"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In contrast, LRIG2 appears to function as a tumor promoter, while LRIG3 appears to have a function similar to that of LRIG1.">
+		<entity id="s3.e1" charOffset="13-18"
+			type="GENE" text="LRIG2" ontology_id="9860"/>
+		<entity id="s3.e2" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="66-71"
+			type="GENE" text="LRIG3" ontology_id="121227"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

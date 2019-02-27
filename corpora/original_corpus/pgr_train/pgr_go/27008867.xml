@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27008867">
+	<sentence id="s1" text="Bardet Biedl syndrome (visual perception) is a multisystem genetically heterogeneous ciliopathy that most commonly leads to obesity, photoreceptor degeneration, digit anomalies, genito-urinary abnormalities, as well as cognitive impairment with autism, among other features.">
+		<entity id="s1.e1" charOffset="23-40"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="71-84"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="124-131"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e4" charOffset="245-251"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in photoreceptor cell morphogenesis were previously associated with severe autosomal recessive retinal dystrophies (retinitis pigmentosa RP64 and cone-rod dystrophy CORD16) but not visual perception.">
+		<entity id="s2.e1" charOffset="13-45"
+			type="GO" text="photoreceptor cell morphogenesis" ontology_id="GO_0008594"/>
+		<entity id="s2.e2" charOffset="85-104"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="191-208"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

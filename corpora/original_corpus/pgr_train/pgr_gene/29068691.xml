@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29068691">
+	<sentence id="s1" text="Herein, we performed comparative quantitative proteomics on whole plasma sampled from patients with stable angina (NMI), acute myocardial infarction (MI), and healthy control subjects (Ctrl).">
+		<entity id="s1.e1" charOffset="115-118"
+			type="GENE" text="NMI" ontology_id="9111"/>
+		<entity id="s1.e2" charOffset="127-148"
+			type="HP" text="myocardial infarction" ontology_id="HP_0001658"/>
+		<entity id="s1.e3" charOffset="185-189"
+			type="GENE" text="Ctrl" ontology_id="1506"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

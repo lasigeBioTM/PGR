@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29093011">
+	<sentence id="s1" text="Our results indicate that anti-Mullerian hormone signaling pathway-ED vaccination may be particularly useful in providing safe and effective preemptive immunity against EOC in women at high genetic or familial risk who have the greatest need for a preventive vaccine and ultimately in cancer-free postmenopausal women who account for 75% of all EOC cases.">
+		<entity id="s1.e1" charOffset="26-66"
+			type="GO" text="anti-Mullerian hormone signaling pathway" ontology_id="GO_1990262"/>
+		<entity id="s1.e2" charOffset="285-291"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

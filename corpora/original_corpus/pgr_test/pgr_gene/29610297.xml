@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29610297">
+	<sentence id="s1" text="While these expansions occur in coding and noncoding regions, microsatellite sequence and repeat length diversity is more prominent in introns with eight different trinucleotide to hexanucleotide repeats, causing hereditary diseases such as myotonic dystrophy type 2 (DM2), Fuchs endothelial corneal dystrophy (FECD), and C9orf72 amyotrophic lateral sclerosis and frontotemporal dementia (C9-ALS/FTD).">
+		<entity id="s1.e1" charOffset="292-309"
+			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
+		<entity id="s1.e2" charOffset="389-391"
+			type="GENE" text="C9" ontology_id="735"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

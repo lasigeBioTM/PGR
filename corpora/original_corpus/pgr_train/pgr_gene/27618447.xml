@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27618447">
+	<sentence id="s1" text="We identified 30 new blood pressure- or hypertension-associated genetic regions in the general population, including 3 rare missense variants in RBM47, COL21A1 and RRAS with larger effects (AAAA1.5 mm Hg/allele) than common variants.">
+		<entity id="s1.e1" charOffset="40-52"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e2" charOffset="145-150"
+			type="GENE" text="RBM47" ontology_id="54502"/>
+		<entity id="s1.e3" charOffset="152-159"
+			type="GENE" text="COL21A1" ontology_id="81578"/>
+		<entity id="s1.e4" charOffset="164-168"
+			type="GENE" text="RRAS" ontology_id="6237"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

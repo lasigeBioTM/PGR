@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29600549">
+	<sentence id="s1" text="Routine gene testing is not necessary to guide treatment for typical forms of paroxysmal kinesigenic dyskinesia (PKD), paroxysmal nonkinesigenic dyskinesia (negative regulation of neurotransmitter secretion), and episodic ataxia type 1 or 2.">
+		<entity id="s1.e1" charOffset="157-206"
+			type="GO" text="negative regulation of neurotransmitter secretion" ontology_id="GO_0046929"/>
+		<entity id="s1.e2" charOffset="213-221"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s1.e3" charOffset="222-228"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Antiepileptic drugs remain the treatment of choice for PKD and episodic ataxia type 1, benzodiazepines are often useful for negative regulation of neurotransmitter secretion, and episodic ataxia type 2 benefits from acetazolamide regardless of the genetic etiology">
+		<entity id="s2.e1" charOffset="63-71"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s2.e2" charOffset="72-78"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e3" charOffset="124-173"
+			type="GO" text="negative regulation of neurotransmitter secretion" ontology_id="GO_0046929"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

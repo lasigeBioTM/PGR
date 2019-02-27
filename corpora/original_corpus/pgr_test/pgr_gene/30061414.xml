@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30061414">
+	<sentence id="s1" text="By targeting DDR2, WRG-28 inhibits tumor invasion and migration, as well as tumor-supporting roles of the stroma, and inhibits metastatic breast tumor cell colonization in the lungs.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="DDR2" ontology_id="4921"/>
+		<entity id="s1.e2" charOffset="35-40"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

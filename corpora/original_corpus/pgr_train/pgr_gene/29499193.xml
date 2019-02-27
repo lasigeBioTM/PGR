@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29499193">
+	<sentence id="s1" text="Altogether, these data suggest that Polyphyllin I can inhibit the proliferation of gastric cancer cells by downregulating the expression of FAP and HGF in CAFs in vivo">
+		<entity id="s1.e1" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="140-143"
+			type="GENE" text="FAP" ontology_id="2191"/>
+		<entity id="s1.e3" charOffset="148-151"
+			type="GENE" text="HGF" ontology_id="3569"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

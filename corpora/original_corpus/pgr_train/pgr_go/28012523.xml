@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28012523">
+	<sentence id="s1" text="Bartter syndrome type IV, characterized by salt-losing nephropathies and sensorineural deafness, is caused by mutations of ion transmembrane transport or simultaneous mutations of both excretion and excretion.">
+		<entity id="s1.e1" charOffset="87-95"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="123-150"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s1.e3" charOffset="185-194"
+			type="GO" text="excretion" ontology_id="GO_0007588"/>
+		<entity id="s1.e4" charOffset="199-208"
+			type="GO" text="excretion" ontology_id="GO_0007588"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="gap junction assembly is the primary causative gene for non-syndromic sensorineural deafness and associated with several syndromic sensorineural deafness.">
+		<entity id="s2.e1" charOffset="0-21"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s2.e2" charOffset="84-92"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results indicated that the homozygous mutation c.22C AAAA T was the key genetic reason for the proband, and a digenic effect of ion transmembrane transport and GJB2 might contributed to sensorineural deafness.">
+		<entity id="s3.e1" charOffset="132-159"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s3.e2" charOffset="204-212"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

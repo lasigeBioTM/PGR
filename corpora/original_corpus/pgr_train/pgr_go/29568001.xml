@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29568001">
+	<sentence id="s1" text="nucleoside transmembrane transport mutations have been reported as the causal gene in two DOS families, however, genetic heterogeneity has been suggested.">
+		<entity id="s1.e1" charOffset="0-34"
+			type="GO" text="nucleoside transmembrane transport" ontology_id="GO_1901642"/>
+		<entity id="s1.e2" charOffset="121-134"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="positive regulation of DNA-binding transcription factor activity mutations have previously been reported in two autosomal dominant diseases (osteolysis, familial expansile and Paget disease of bone 2, early-onset) and an autosomal recessive disease (osteopetrosis, autosomal recessive 7).">
+		<entity id="s2.e1" charOffset="0-64"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s2.e2" charOffset="221-240"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

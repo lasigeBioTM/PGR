@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28991459">
+	<sentence id="s1" text="We hypothesized that dual inhibition of tricarboxylic acid cycle and malate metabolic process might be a powerful approach to target cancer metabolism and selected methyl-3-(3-(4-(2,4,4-trimethylpentan-2-yl)phenoxy)propanamido)-benzoate (16c) as the most potent dual inhibitor.">
+		<entity id="s1.e1" charOffset="40-64"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s1.e2" charOffset="49-73"
+			type="GO" text="malate metabolic process" ontology_id="GO_0006108"/>
+		<entity id="s1.e3" charOffset="113-119"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This finding provides concrete evidence that inhibition of both tricarboxylic acid cycle and malate metabolic process may provide a valuable platform for developing novel therapeutics that target cancer metabolism and tumor growth">
+		<entity id="s2.e1" charOffset="64-88"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s2.e2" charOffset="73-97"
+			type="GO" text="malate metabolic process" ontology_id="GO_0006108"/>
+		<entity id="s2.e3" charOffset="176-182"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="198-203"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

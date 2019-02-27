@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28017521">
+	<sentence id="s1" text="Here we provide structural and biochemical data that Cep104 contains a tubulin-binding TOG (tumor overexpressed gene) domain and a novel C2HC zinc finger array.">
+		<entity id="s1.e1" charOffset="53-59"
+			type="GENE" text="Cep104" ontology_id="9731"/>
+		<entity id="s1.e2" charOffset="92-97"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

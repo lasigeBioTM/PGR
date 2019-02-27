@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28945813">
+	<sentence id="s1" text="The present study reports a first ILDR1 gene mutation in the UAE population and confirms that the whole-exome sequencing approach is a robust tool for the diagnosis of monogenic diseases with high levels of allelic and locus heterogeneity.">
+		<entity id="s1.e1" charOffset="34-39"
+			type="GENE" text="ILDR1" ontology_id="286676"/>
+		<entity id="s1.e2" charOffset="225-238"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

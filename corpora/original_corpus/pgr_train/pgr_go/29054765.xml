@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29054765">
+	<sentence id="s1" text="Through a whole genome sequencing (WGS) analysis of the nine subjects (four lung cancer patients and five normal family members of FLC), we obtained a whole genome datanegative regulation of transcription, DNA-templated of DNA alterations in FLC samples.">
+		<entity id="s1.e1" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="168-219"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Subsequently, the top 12 highly mutated genes were selected for validation by polymerase chain reaction and DNA sequencing in an expanded sample negative regulation of transcription, DNA-templated including FLC, sporadic lung cancer, and healthy population.">
+		<entity id="s2.e1" charOffset="145-196"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e2" charOffset="212-220"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="226-232"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Mutations of the five genes (regulation of GTPase activity, biological_process, regulation of transcription by RNA polymerase II, ZNF812, vasculogenesis) may be potential germline mutations of lung cancer.">
+		<entity id="s3.e1" charOffset="29-58"
+			type="GO" text="regulation of GTPase activity" ontology_id="GO_0043087"/>
+		<entity id="s3.e2" charOffset="60-78"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e3" charOffset="80-128"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s3.e4" charOffset="138-152"
+			type="GO" text="vasculogenesis" ontology_id="GO_0001570"/>
+		<entity id="s3.e5" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We also analyzed specific mutations within the 12 genes and found that some specific mutations within the stimulatory C-type lectin receptor signaling pathway, regulation of transcription by RNA polymerase II and regulation of transcription by RNA polymerase II genes showed higher frequencies in the samples of FLC and/or lung cancer tissue, compared with the healthy population.">
+		<entity id="s4.e1" charOffset="106-158"
+			type="GO" text="stimulatory C-type lectin receptor signaling pathway" ontology_id="GO_0002223"/>
+		<entity id="s4.e2" charOffset="160-208"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s4.e3" charOffset="172-220"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s4.e4" charOffset="246-252"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

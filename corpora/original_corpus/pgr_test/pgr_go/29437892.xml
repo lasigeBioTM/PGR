@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29437892">
+	<sentence id="s1" text="Growth abnormalities, motor dysfunction, hindlimb paralysis, muscle wasting, neurogenic atrophy, motor neuron degeneration, and loss of large-caliber axons in peripheral nerves occurred at an earlier age in cytoskeleton organization/monocyte chemotaxis double-deficient mice than in Scyl1-deficient mice.">
+		<entity id="s1.e1" charOffset="61-75"
+			type="HP" text="muscle wasting" ontology_id="HP_0003202"/>
+		<entity id="s1.e2" charOffset="207-232"
+			type="GO" text="cytoskeleton organization" ontology_id="GO_0007010"/>
+		<entity id="s1.e3" charOffset="213-232"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

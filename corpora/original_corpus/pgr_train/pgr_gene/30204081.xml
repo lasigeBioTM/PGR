@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30204081">
+	<sentence id="s1" text="In humans, loss-of-function mutations of KCNJ10, which encodes the inward-rectifying potassium channel KIR4.1, causes seizures and progressive neurological decline.">
+		<entity id="s1.e1" charOffset="41-47"
+			type="GENE" text="KCNJ10" ontology_id="3766"/>
+		<entity id="s1.e2" charOffset="118-126"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Conditional knockout (cKO) of OL-Kcnj10 resulted in late onset mitochondrial damage and axonal degeneration.">
+		<entity id="s2.e1" charOffset="33-39"
+			type="GENE" text="Kcnj10" ontology_id="3766"/>
+		<entity id="s2.e2" charOffset="88-107"
+			type="HP" text="axonal degeneration" ontology_id="HP_0040078"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

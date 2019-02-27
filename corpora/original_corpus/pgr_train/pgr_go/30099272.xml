@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30099272">
+	<sentence id="s1" text="These compounds showed excellent anti-tumor activity against A549, Eca-109, HeLa, HepG2 and muscle organ development-7901 cell lines.">
+		<entity id="s1.e1" charOffset="38-43"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="92-116"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Compounds exhibit anti-cancer activity via apoptosis and autophagy through inhibition of negative regulation of endopeptidase activity3K/positive regulation of protein phosphorylation signaling pathway in HeLa cells">
+		<entity id="s2.e1" charOffset="23-29"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="89-134"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<entity id="s2.e3" charOffset="137-183"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

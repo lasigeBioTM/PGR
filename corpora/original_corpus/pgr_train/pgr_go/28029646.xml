@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28029646">
+	<sentence id="s1" text="regulation of transcription by RNA polymerase II-knockout mice showed syndactyly and poliosis in the limb.">
+		<entity id="s1.e1" charOffset="0-48"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="70-80"
+			type="HP" text="syndactyly" ontology_id="HP_0001159"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

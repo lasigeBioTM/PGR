@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29345289">
+	<sentence id="s1" text="In this study, we investigated the presence and functionality of EpoR, as well as the implications of Epo upon the proliferation and survival of lung cancer cells.">
+		<entity id="s1.e1" charOffset="65-68"
+			type="GENE" text="Epo" ontology_id="8288"/>
+		<entity id="s1.e2" charOffset="150-156"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

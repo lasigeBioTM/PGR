@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26621817">
+	<sentence id="s1" text="Using CRC and EC genome-wide association series, totalling 13,265 cancer cases and 40,245 controls, we found that the protective allele [G] at one previously-identified CRC polymorphism, rs2736100 near TERT, was associated with EC risk (odds ratio (OR) = 1.08, P = 0.000167); this polymorphism influences the risk of several other cancers.">
+		<entity id="s1.e1" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="202-206"
+			type="GENE" text="TERT" ontology_id="7015"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Another polymorphism, rs12970291 near gene TSHZ1, was associated with both CRC and EC (OR = 1.26, P = 4.82 x 10(-8)), with the alleles showing opposite effects on the risks of the two cancers">
+		<entity id="s2.e1" charOffset="43-48"
+			type="GENE" text="TSHZ1" ontology_id="10194"/>
+		<entity id="s2.e2" charOffset="184-190"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

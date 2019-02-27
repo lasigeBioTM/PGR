@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29399700">
+	<sentence id="s1" text="Never in mitosis gene-A (NIMA)-related expressed kinase 2 (protein phosphorylation) has been recently reported to play a role in tumor progression, drug resistance and tumorigenesis.">
+		<entity id="s1.e1" charOffset="59-82"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, little is known about the effects of protein phosphorylation in hepatocellular carcinoma (HCC) metastasis and the underlying mechanism.">
+		<entity id="s2.e1" charOffset="46-69"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e2" charOffset="73-97"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

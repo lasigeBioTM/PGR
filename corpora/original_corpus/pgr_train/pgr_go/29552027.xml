@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29552027">
+	<sentence id="s1" text="In parallel, we recently reported that positive regulation of I-kappaB kinase/NF-kappaB signaling-deficient mice present with cognitive and social deficits, hyperactivity and anxiety.">
+		<entity id="s1.e1" charOffset="39-97"
+			type="GO" text="positive regulation of I-kappaB kinase/NF-kappaB signaling" ontology_id="GO_0043123"/>
+		<entity id="s1.e2" charOffset="157-170"
+			type="HP" text="hyperactivity" ontology_id="HP_0000752"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We generated Cc2d1b knockout (KO), positive regulation of I-kappaB kinase/NF-kappaB signaling/1b double heterozygous and double KO mice, then performed behavioral studies to analyze learning and memory, social interactions, anxiety, and hyperactivity.">
+		<entity id="s2.e1" charOffset="35-93"
+			type="GO" text="positive regulation of I-kappaB kinase/NF-kappaB signaling" ontology_id="GO_0043123"/>
+		<entity id="s2.e2" charOffset="237-250"
+			type="HP" text="hyperactivity" ontology_id="HP_0000752"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29342219">
+	<sentence id="s1" text="Overexpression of many factors predicted poor prognosis in breast (EEF1D, EEF1E1, EEF2) and lung cancer (EEF1A2, EEF1B2, EEF1G, EEF1E1).">
+		<entity id="s1.e1" charOffset="67-72"
+			type="GENE" text="EEF1D" ontology_id="1936"/>
+		<entity id="s1.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

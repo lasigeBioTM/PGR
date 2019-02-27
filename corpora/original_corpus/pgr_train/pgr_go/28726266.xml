@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28726266">
+	<sentence id="s1" text="Biallelic microvillus organization mutations have recently been identified among infants with lethal congenital contracture syndrome 11 (LCCS11).">
+		<entity id="s1.e1" charOffset="10-34"
+			type="GO" text="microvillus organization" ontology_id="GO_0032528"/>
+		<entity id="s1.e2" charOffset="112-123"
+			type="HP" text="contracture" ontology_id="HP_0001371"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

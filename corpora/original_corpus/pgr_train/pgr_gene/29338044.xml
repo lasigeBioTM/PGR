@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29338044">
+	<sentence id="s1" text="To investigate the mechanism by which the a-crystallin mutations Cryaa-R49C and Cryab-R120G lead to cataract formation, we determined whether these mutations cause an altered expression of specific transcripts in the lens at an early postnatal age by RNA-seq analysis.">
+		<entity id="s1.e1" charOffset="65-70"
+			type="GENE" text="Cryaa" ontology_id="1409"/>
+		<entity id="s1.e2" charOffset="80-85"
+			type="GENE" text="Cryab" ontology_id="1410"/>
+		<entity id="s1.e3" charOffset="100-108"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, these findings offer additional insight into the early transcriptional changes caused by Cryaa and Cryab mutations associated with autosomal dominant human cataracts, and indicate that the transcript levels of certain genes are affected by the expression of mutant a-crystallin in vivo">
+		<entity id="s2.e1" charOffset="105-110"
+			type="GENE" text="Cryaa" ontology_id="1409"/>
+		<entity id="s2.e2" charOffset="115-120"
+			type="GENE" text="Cryab" ontology_id="1410"/>
+		<entity id="s2.e3" charOffset="172-181"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27940755">
+	<sentence id="s1" text="We report the case of a 10-year-old Spanish girl with mutations in NADK2 Prenatal central nervous system abnormalities showed ventriculomegaly, colpocephaly, and hypoplasia of the corpus callosum.">
+		<entity id="s1.e1" charOffset="67-72"
+			type="GENE" text="NADK2" ontology_id="133686"/>
+		<entity id="s1.e2" charOffset="144-156"
+			type="HP" text="colpocephaly" ontology_id="HP_0030048"/>
+		<entity id="s1.e3" charOffset="162-195"
+			type="HP" text="hypoplasia of the corpus callosum" ontology_id="HP_0002079"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

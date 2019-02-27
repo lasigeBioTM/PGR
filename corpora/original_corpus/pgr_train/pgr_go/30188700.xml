@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30188700">
+	<sentence id="s1" text="Our results showed that treatment with MEHP enriched the population of cancer-stem-cell (CSC)-like cells and upregulated IL-8 expression by inducing the positive regulation of protein phosphorylation-b-catenin-negative regulation of transcription by RNA polymerase II signaling pathway.">
+		<entity id="s1.e1" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="153-199"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="210-267"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29342219">
+	<sentence id="s1" text="Higher expression of positive regulation of lipid kinase activity, EEF1B2, response to virus, cellular response to ionizing radiation, positive regulation of cellular senescence and positive regulation of translation was observed in most of the cancer types, whereas reverse trend was observed for cellular response to epidermal growth factor stimulus.">
+		<entity id="s1.e1" charOffset="21-65"
+			type="GO" text="positive regulation of lipid kinase activity" ontology_id="GO_0090218"/>
+		<entity id="s1.e2" charOffset="75-92"
+			type="GO" text="response to virus" ontology_id="GO_0009615"/>
+		<entity id="s1.e3" charOffset="94-133"
+			type="GO" text="cellular response to ionizing radiation" ontology_id="GO_0071479"/>
+		<entity id="s1.e4" charOffset="133-139"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="135-177"
+			type="GO" text="positive regulation of cellular senescence" ontology_id="GO_2000774"/>
+		<entity id="s1.e6" charOffset="182-216"
+			type="GO" text="positive regulation of translation" ontology_id="GO_0045727"/>
+		<entity id="s1.e7" charOffset="298-351"
+			type="GO" text="cellular response to epidermal growth factor stimulus" ontology_id="GO_0071364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Overexpression of many factors predicted poor prognosis in breast (cellular response to ionizing radiation, positive regulation of cellular senescence, positive regulation of translation) and lung cancer (positive regulation of lipid kinase activity, translational elongation, response to virus, EEF1E1).">
+		<entity id="s2.e1" charOffset="67-106"
+			type="GO" text="cellular response to ionizing radiation" ontology_id="GO_0071479"/>
+		<entity id="s2.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="105-149"
+			type="GO" text="positive regulation of lipid kinase activity" ontology_id="GO_0090218"/>
+		<entity id="s2.e4" charOffset="108-150"
+			type="GO" text="positive regulation of cellular senescence" ontology_id="GO_20007108"/>
+		<entity id="s2.e5" charOffset="151-175"
+			type="GO" text="translational elongation" ontology_id="GO_0006414"/>
+		<entity id="s2.e6" charOffset="152-186"
+			type="GO" text="positive regulation of translation" ontology_id="GO_0045727"/>
+		<entity id="s2.e7" charOffset="177-194"
+			type="GO" text="response to virus" ontology_id="GO_0009615"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e4"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e6"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="cellular response to epidermal growth factor stimulus and positive regulation of lipid kinase activity, in most of the cancer types.">
+		<entity id="s3.e1" charOffset="0-53"
+			type="GO" text="cellular response to epidermal growth factor stimulus" ontology_id="GO_0071364"/>
+		<entity id="s3.e2" charOffset="11-55"
+			type="GO" text="positive regulation of lipid kinase activity" ontology_id="GO_0090218"/>
+		<entity id="s3.e3" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

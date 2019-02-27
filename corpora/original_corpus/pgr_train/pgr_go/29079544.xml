@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29079544">
+	<sentence id="s1" text="Megalencephalic leukoencephalopathy with subcortical cysts (MLC) is a rare type of leukodystrophy characterized by dysfunction of the role of glial cells in controlling brain fluid and ion homeostpositive regulation of T cell mediated cytotoxicityis.">
+		<entity id="s1.e1" charOffset="16-35"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e2" charOffset="196-247"
+			type="GO" text="positive regulation of T cell mediated cytotoxicity" ontology_id="GO_0001916"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

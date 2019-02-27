@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29053833">
+	<sentence id="s1" text="Brown-Vialetto-Van Laere syndrome represents a phenotypic spectrum of motor, sensory, and cranial nerve neuropathy, often with ataxia, optic atrophy and respiratory problems leading to ventilator-dependence.">
+		<entity id="s1.e1" charOffset="15-18"
+			type="GENE" text="Van" ontology_id="10318"/>
+		<entity id="s1.e2" charOffset="104-114"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="127-133"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e4" charOffset="135-148"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="By screening a large cohort of 132 patients with early-onset severe sensory, motor and cranial nerve neuropathy we confirmed the strong genetic link between riboflavin transporter mutations and Brown-Vialetto-Van Laere syndrome, identifying 22 pathogenic mutations in SLC52A2 and SLC52A3, 14 of which were novel.">
+		<entity id="s2.e1" charOffset="101-111"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s2.e2" charOffset="209-212"
+			type="GENE" text="Van" ontology_id="10318"/>
+		<entity id="s2.e3" charOffset="280-287"
+			type="GENE" text="SLC52A3" ontology_id="113278"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our findings expand the genetic, clinical and neuropathological features of Brown-Vialetto-Van Laere syndrome, implicate mitochondrial dysfunction as a downstream consequence of riboflavin transporter gene defects, and validate riboflavin esters as a potential therapeutic strategy">
+		<entity id="s3.e1" charOffset="91-94"
+			type="GENE" text="Van" ontology_id="10318"/>
+		<entity id="s3.e2" charOffset="121-146"
+			type="HP" text="mitochondrial dysfunction" ontology_id="HP_0003287"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

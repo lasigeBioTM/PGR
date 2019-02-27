@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29272213">
+	<sentence id="s1" text="Purpose To determine whether the rates and tumor characteristics of screening-detected and interval cancers differ for two-dimensional digital mammography (DM) versus digital breast tomosynthesis (DBT) mammography.">
+		<entity id="s1.e1" charOffset="43-48"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="197-200"
+			type="GENE" text="DBT" ontology_id="1629"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="There were no significant differences in tumor characteristics, including size at pathologic examination, grade, hormone receptor status, and nodal status, between the screening-detected invasive cancers on DM versus DBT (P = .09-.99).">
+		<entity id="s2.e1" charOffset="41-46"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="142-147"
+			type="GENE" text="nodal" ontology_id="4838"/>
+		<entity id="s2.e3" charOffset="217-220"
+			type="GENE" text="DBT" ontology_id="1629"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29293623">
+	<sentence id="s1" text="Misregulation of positive regulation of stress-activated MAPK cascade expression is associated with various diseases including midline malformation syndromes, cancer and neurodegenerative diseases.">
+		<entity id="s1.e1" charOffset="17-69"
+			type="GO" text="positive regulation of stress-activated MAPK cascade" ontology_id="GO_0032874"/>
+		<entity id="s1.e2" charOffset="159-165"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

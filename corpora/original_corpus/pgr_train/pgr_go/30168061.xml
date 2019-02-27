@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30168061">
+	<sentence id="s1" text="The tumor samples were divided into three groups depending on the aortic valve morphogenesis expression level.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="66-92"
+			type="GO" text="aortic valve morphogenesis" ontology_id="GO_0003180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

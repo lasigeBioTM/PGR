@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29538025">
+	<sentence id="s1" text="We present the case of a severe familial primary hyperparathyroidism related to a germline deletion in the HRPT2 (CDC73) gene.">
+		<entity id="s1.e1" charOffset="49-68"
+			type="HP" text="hyperparathyroidism" ontology_id="HP_0000843"/>
+		<entity id="s1.e2" charOffset="114-119"
+			type="GENE" text="CDC73" ontology_id="79577"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

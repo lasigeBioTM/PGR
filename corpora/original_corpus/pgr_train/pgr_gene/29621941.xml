@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29621941">
+	<sentence id="s1" text="In addition, resorcinol suppressed the expression of melanogenic gene microphthalmia-associated transcriptional factor (MITF) and its downstream target genes tyrosinase, tyrosinase-related protein (TRP)-1, and TRP-2.">
+		<entity id="s1.e1" charOffset="70-84"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e2" charOffset="120-124"
+			type="GENE" text="MITF" ontology_id="4286"/>
+		<entity id="s1.e3" charOffset="198-201"
+			type="GENE" text="TRP" ontology_id="7306"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

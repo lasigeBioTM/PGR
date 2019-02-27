@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29669919">
+	<sentence id="s1" text="To evaluate whether germline variants in genes encoding pancreatic secretory enzymes contribute to pancreatic cancer susceptibility, we sequenced the coding regions of proteolysis and other genes encoding pancreatic secretory enzymes and known pancreatitis susceptibility genes (proteolysis, proteolysis, cobalamin metabolic process, and negative regulation of nitric oxide mediated signal transduction) in a hospital series of pancreatic cancer cases and controls.">
+		<entity id="s1.e1" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="168-179"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e3" charOffset="279-290"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e4" charOffset="292-303"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e5" charOffset="305-332"
+			type="GO" text="cobalamin metabolic process" ontology_id="GO_0009235"/>
+		<entity id="s1.e6" charOffset="338-402"
+			type="GO" text="negative regulation of nitric oxide mediated signal transduction" ontology_id="GO_0010751"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Variants in proteolysis, proteolysis (encoding carboxypeptidase B1 and A1), and cobalamin metabolic process were evaluated in a second negative regulation of transcription, DNA-templated of cases with familial pancreatic cancer and controls.">
+		<entity id="s2.e1" charOffset="12-23"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s2.e2" charOffset="25-36"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s2.e3" charOffset="80-107"
+			type="GO" text="cobalamin metabolic process" ontology_id="GO_0009235"/>
+		<entity id="s2.e4" charOffset="135-186"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e5" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="More deleterious proteolysis variants, defined as having impaired protein secretion and induction of endoplasmic reticulum (ER) stress in transfected HEK 293T cells, were found in the hospital series of pancreatic cancer cases (5/986, 0.5%) than in controls (0/1,045, P = 0.027).">
+		<entity id="s3.e1" charOffset="17-28"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s3.e2" charOffset="214-220"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Among familial pancreatic cancer cases, ER stress-inducing proteolysis variants were found in 4 of 593 (0.67%) vs.">
+		<entity id="s4.e1" charOffset="26-32"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="59-70"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="More ER stress-inducing CPA1 variants were also found in the combined negative regulation of transcription, DNA-templated of hospital and familial cases with pancreatic cancer than in controls [7/1,546 vs. 1/2,012; P = 0.025; odds ratio, 9.36 (95% CI, 1.15-76.02)].">
+		<entity id="s5.e1" charOffset="70-121"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s5.e2" charOffset="169-175"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Overall, 16 (1%) of 1,579 pancreatic cancer cases had an ER stress-inducing proteolysis or proteolysis variant, compared with 1 of 2,068 controls (P AAAA 0.00001).">
+		<entity id="s6.e1" charOffset="37-43"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="76-87"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s6.e3" charOffset="84-95"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Our study indicates ER stress-inducing variants in proteolysis and proteolysis are associated with pancreatic cancer susceptibility and implicate ER stress in pancreatic acinar cells in pancreatic cancer development">
+		<entity id="s7.e1" charOffset="51-62"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s7.e2" charOffset="67-78"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s7.e3" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e2"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="More ER stress-inducing proteolysis variants were also found in the combined set of hospital and familial cases with pancreatic cancer than in controls [7/1,546 vs. 1/2,012; P = 0.025; odds ratio, 9.36 (95% CI, 1.15-76.02)].">
+		<entity id="s8.e1" charOffset="24-35"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s8.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

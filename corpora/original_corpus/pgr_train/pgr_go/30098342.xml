@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30098342">
+	<sentence id="s1" text="In addition, several studies have demonstrated that detection of calcium ion dysfunction may be associated with some fatal vascular diseases, such as pulmonary arterial hypertension, primary hypertension, diabetes, acute myocardial infarction and vascular calcification.">
+		<entity id="s1.e1" charOffset="52-76"
+			type="GO" text="detection of calcium ion" ontology_id="GO_0005513"/>
+		<entity id="s1.e2" charOffset="221-242"
+			type="HP" text="myocardial infarction" ontology_id="HP_0001658"/>
+		<entity id="s1.e3" charOffset="247-269"
+			type="HP" text="vascular calcification" ontology_id="HP_0004934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29428669">
+	<sentence id="s1" text="In this study, we established fat cell differentiation as a therapeutic target for glioma treatment.">
+		<entity id="s1.e1" charOffset="30-54"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s1.e2" charOffset="83-89"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Expression of fat cell differentiation as well as regulation of proteasomal protein catabolic process-67 was higher in glioma tissues demonstrated by western blot and immunohistochemistry.">
+		<entity id="s2.e1" charOffset="14-38"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s2.e2" charOffset="50-101"
+			type="GO" text="regulation of proteasomal protein catabolic process" ontology_id="GO_0061136"/>
+		<entity id="s2.e3" charOffset="70-76"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Then, the role of fat cell differentiation in migration and proliferation of glioma cells was investigated by conducting wound-healing, trans-well assay, cell counting activation of MAPK activity (neuron migration)-8, flow cytometry assay and colony formation analysis.">
+		<entity id="s3.e1" charOffset="18-42"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s3.e2" charOffset="77-83"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e3" charOffset="168-195"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s3.e4" charOffset="197-213"
+			type="GO" text="neuron migration" ontology_id="GO_0001764"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The data showed that interfering fat cell differentiation may inhibit the migration and proliferation of glioma cells by reducing expression of cyclin A, cyclin B1, cyclin D1, Vimentin, and N-integrin-mediated signaling pathway, and by increasing expression of E-cadherin.">
+		<entity id="s4.e1" charOffset="33-57"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s4.e2" charOffset="105-111"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s4.e3" charOffset="192-227"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Additionally, interfering fat cell differentiation may induce apoptosis of glioma cells by upregulating caspase-3 expression.">
+		<entity id="s5.e1" charOffset="26-50"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s5.e2" charOffset="75-81"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Furthermore, these in vitro findings were validated in vivo and the protein phosphorylation/2 and phosphorylation/positive regulation of protein phosphorylation signaling pathways were involved in fat cell differentiation-triggered migration and proliferation of glioma cells.">
+		<entity id="s6.e1" charOffset="68-91"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s6.e2" charOffset="98-113"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s6.e3" charOffset="114-160"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s6.e4" charOffset="124-148"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s6.e5" charOffset="190-196"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s6.p1" e1="s6.e4"
+		    e2="s6.e5" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e5" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e5" pgr="true"/>
+		<pair id="s6.p4" e1="s6.e3"
+		    e2="s6.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="In an in vivo model, downregulation of fat cell differentiation suppressed tumor growth.">
+		<entity id="s7.e1" charOffset="39-63"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s7.e2" charOffset="75-80"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="In conclusion, fat cell differentiation is closely associated with migration, proliferation, and apoptosis of glioma cells, and might be considered as a novel prognostic indicator in patients with gliomas">
+		<entity id="s8.e1" charOffset="15-39"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<entity id="s8.e2" charOffset="110-116"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

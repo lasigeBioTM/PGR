@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29891662">
+	<sentence id="s1" text="In acute leukemias, it is not clear whether MSC alterations contribute to the development of the malignant clone or whether they are simply the effect of tumor expansion on the microenvironment.">
+		<entity id="s1.e1" charOffset="44-47"
+			type="GENE" text="MSC" ontology_id="9242"/>
+		<entity id="s1.e2" charOffset="154-159"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Longer population doubling time in L-MSCs was not related to the AML characteristics at diagnosis (French-American-British type, cytogenetics, or tumor burden), but was related to patient age and independently associated with poorer patient outcome, as was cytogenetic prognostic feature.">
+		<entity id="s2.e1" charOffset="37-40"
+			type="GENE" text="MSC" ontology_id="9242"/>
+		<entity id="s2.e2" charOffset="146-151"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings indicate that BM-derived MSCs from patients with newly diagnosed AML display phenotypic and functional alterations such as proliferative deficiency that could be attributed to tumor progression, but does not seem to play a special role in the leukemic process">
+		<entity id="s3.e1" charOffset="38-41"
+			type="GENE" text="MSC" ontology_id="9242"/>
+		<entity id="s3.e2" charOffset="189-194"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

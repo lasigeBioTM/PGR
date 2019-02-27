@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29599313">
+	<sentence id="s1" text="We previously reported that brain-derived neurotrophic factor (BDNF)/neurotrophic receptor tyrosine kinase 2 (NTRK2/TRKB) signaling contributes to induction of malignant phenotype of gallbladder cancer (GBC).">
+		<entity id="s1.e1" charOffset="63-67"
+			type="GENE" text="BDNF" ontology_id="627"/>
+		<entity id="s1.e2" charOffset="111-114"
+			type="GENE" text="TRK" ontology_id="4914"/>
+		<entity id="s1.e3" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, pan-TRK inhibitors have been evaluated and their dramatic clinical activity is being shown for a variety of cancer types harboring an NTRK rearrangement in phase I trials.">
+		<entity id="s2.e1" charOffset="14-17"
+			type="GENE" text="TRK" ontology_id="4914"/>
+		<entity id="s2.e2" charOffset="118-124"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In this study, we evaluated the anticancer effect of ONO-7579 using GBC cells with or without KRAS mutant, NOZ, TYGBK-1.">
+		<entity id="s3.e1" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="94-98"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

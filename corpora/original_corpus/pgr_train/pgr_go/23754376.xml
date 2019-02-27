@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23754376">
+	<sentence id="s1" text="The double-strand break repair via homologous recombination recombinase plays a central role in homologous recombination (HR), which is critical for repair of DNA double-strand breaks, maintenance of genomic stability, and prevention of developmental disorders and cancer.">
+		<entity id="s1.e1" charOffset="4-59"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e2" charOffset="265-271"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Interestingly, regulation of double-strand break repair via homologous recombination is recruited to sites of DNA damage in a manner that is independent of breast cancer 2, early onset, double-strand break repair via homologous recombination, and probably, RAD51 paralogs.">
+		<entity id="s2.e1" charOffset="15-84"
+			type="GO" text="regulation of double-strand break repair via homologous recombination" ontology_id="GO_0010569"/>
+		<entity id="s2.e2" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="123-178"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Collectively, our study uncovers a protein complex, which consists of regulation of double-strand break repair via homologous recombination and cellular response to DNA damage stimulus/SPIDR, in DNA repair and provides potential directions for cancer diagnosis and therapy.">
+		<entity id="s3.e1" charOffset="70-139"
+			type="GO" text="regulation of double-strand break repair via homologous recombination" ontology_id="GO_0010569"/>
+		<entity id="s3.e2" charOffset="144-184"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s3.e3" charOffset="212-218"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

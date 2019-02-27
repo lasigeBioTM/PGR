@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29575836">
+	<sentence id="s1" text="Objective: To explore the expression of long noncoding RNA (lncRNA) HOXA11-AS in esophageal squamous cell carcinoma tissues and the relationship of HOXA11-AS level with clinical outcomes.">
+		<entity id="s1.e1" charOffset="68-74"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s1.e2" charOffset="75-77"
+			type="GENE" text="AS" ontology_id="3106"/>
+		<entity id="s1.e3" charOffset="92-115"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Methods: Quantitative real-time polymerase chain reaction (qRT-PCR) was applied to detect the expression level of HOXA11-AS in cell lines HET-1A, EC9706, EC109, and in tumor tissue and paired adjacent tissue samples from 73 ESCC patients who received surgical resection.The correlations of the expression level of HOXA11-AS with clinicopathological features and prognosis were also analyzed.">
+		<entity id="s2.e1" charOffset="114-120"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s2.e2" charOffset="121-123"
+			type="GENE" text="AS" ontology_id="3106"/>
+		<entity id="s2.e3" charOffset="138-141"
+			type="GENE" text="HET" ontology_id="6294"/>
+		<entity id="s2.e4" charOffset="168-173"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Results: The relative expression levels of HOXA11-AS in tumor tissue and paired adjacent tissue were 0.832+0.387 and 2.486+1.087, respectively, with significant difference (PAAAA0.001).">
+		<entity id="s3.e1" charOffset="43-49"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s3.e2" charOffset="50-52"
+			type="GENE" text="AS" ontology_id="3106"/>
+		<entity id="s3.e3" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Conclusions: The expression of HOXA11-AS is upregulated in esophageal cancer cell lines and tissues.">
+		<entity id="s4.e1" charOffset="38-40"
+			type="GENE" text="AS" ontology_id="3106"/>
+		<entity id="s4.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

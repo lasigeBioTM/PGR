@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29249625">
+	<sentence id="s1" text="Several genetic defects are responsible for impairment of GH and IGF-I actions resulting in short stature that could affect intrauterine growth or be present in the postnatal period.">
+		<entity id="s1.e1" charOffset="58-60"
+			type="GENE" text="GH" ontology_id="2688"/>
+		<entity id="s1.e2" charOffset="92-105"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Gene mutations in the IGF1 and IGF2 genes have been described in patients presenting intrauterine growth retardation and postnatal short stature.">
+		<entity id="s2.e1" charOffset="22-26"
+			type="GENE" text="IGF1" ontology_id="3479"/>
+		<entity id="s2.e2" charOffset="31-35"
+			type="GENE" text="IGF2" ontology_id="3481"/>
+		<entity id="s2.e3" charOffset="131-144"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

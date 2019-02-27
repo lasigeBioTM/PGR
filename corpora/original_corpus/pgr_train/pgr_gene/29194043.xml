@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29194043">
+	<sentence id="s1" text="CBG concentration and affinity are affected by a number of common factors including oral contraceptive pills (OCPs), fever and infection, as well as rare mutations in the serine protease inhibitor A6 (SERPINA6) gene, and as such, total cortisol levels might not be the ideal way to assess adrenal function in all clinical circumstances.">
+		<entity id="s1.e1" charOffset="117-122"
+			type="HP" text="fever" ontology_id="HP_0001945"/>
+		<entity id="s1.e2" charOffset="201-209"
+			type="GENE" text="SERPINA6" ontology_id="866"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

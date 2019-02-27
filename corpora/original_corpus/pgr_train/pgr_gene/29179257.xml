@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29179257">
+	<sentence id="s1" text="Testicular germ cell cancer (TGCC) is derived from germ cell neoplasia in situ (GCNIS), which arises due to niche disturbances affecting the Sertoli cells.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="21-23"
+			type="GENE" text="AA" ontology_id="7003"/>
+		<entity id="s1.e3" charOffset="61-70"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28570402">
+	<sentence id="s1" text="On the other hand, muscle contraction, muscle contraction, skeletal muscle contraction, regulation of the force of heart contraction, skeletal muscle contraction, negative regulation of transcription by RNA polymerase II, NFATC1, cyclooxygenase pathway, histone acetylation, HDAC4, and negative regulation of transcription, DNA-templated expression is suspected to be involved in the epigenetic regulations behind the mandibular prognathism phenotype">
+		<entity id="s1.e1" charOffset="19-37"
+			type="GO" text="muscle contraction" ontology_id="GO_0006936"/>
+		<entity id="s1.e2" charOffset="39-57"
+			type="GO" text="muscle contraction" ontology_id="GO_0006936"/>
+		<entity id="s1.e3" charOffset="59-86"
+			type="GO" text="skeletal muscle contraction" ontology_id="GO_0003009"/>
+		<entity id="s1.e4" charOffset="88-132"
+			type="GO" text="regulation of the force of heart contraction" ontology_id="GO_0002026"/>
+		<entity id="s1.e5" charOffset="134-161"
+			type="GO" text="skeletal muscle contraction" ontology_id="GO_0003009"/>
+		<entity id="s1.e6" charOffset="163-220"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e7" charOffset="178-200"
+			type="GO" text="cyclooxygenase pathway" ontology_id="GO_0019371"/>
+		<entity id="s1.e8" charOffset="200-211"
+			type="HP" text="prognathism" ontology_id="HP_0000303"/>
+		<entity id="s1.e9" charOffset="202-221"
+			type="GO" text="histone acetylation" ontology_id="GO_0016573"/>
+		<entity id="s1.e10" charOffset="234-285"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_00452342"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e9"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

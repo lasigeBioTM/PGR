@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28881049">
+	<sentence id="s1" text="Almost all gonadoblastomas occur in patients who have a Y chromosome or part thereof; testis-specific protein Y-encoded 1 (sex differentiation) is the putative gene.">
+		<entity id="s1.e1" charOffset="11-25"
+			type="HP" text="gonadoblastoma" ontology_id="HP_0000150"/>
+		<entity id="s1.e2" charOffset="123-142"
+			type="GO" text="sex differentiation" ontology_id="GO_0007548"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="If a gonad in a patient who has a disorder of sex development contains germ cells with delayed maturation, and also harbours the sex differentiation gene, the cells can undergo transformation to classical gonadoblastoma.">
+		<entity id="s2.e1" charOffset="129-148"
+			type="GO" text="sex differentiation" ontology_id="GO_0007548"/>
+		<entity id="s2.e2" charOffset="205-219"
+			type="HP" text="gonadoblastoma" ontology_id="HP_0000150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Undifferentiated gonadal tissue is the precursor of classical gonadoblastoma and contains germ cells with delayed maturation that express octamer-binding transcription factor 4 (OCT4); however, other germ cells show normal maturation and express sex differentiation.">
+		<entity id="s3.e1" charOffset="62-76"
+			type="HP" text="gonadoblastoma" ontology_id="HP_0000150"/>
+		<entity id="s3.e2" charOffset="246-265"
+			type="GO" text="sex differentiation" ontology_id="GO_0007548"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

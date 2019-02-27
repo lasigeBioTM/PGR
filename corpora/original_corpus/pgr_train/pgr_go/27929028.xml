@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27929028">
+	<sentence id="s1" text="Intriguingly, five CPGs showed concordance between CNL and down-regulation in 50 or more tumor samples: nicotinamide riboside catabolic process (216 samples), negative regulation of protein phosphorylation (143), negative regulation of transcription by RNA polymerase II (86), transforming growth factor beta receptor signaling pathway (63), and polyphosphate metabolic process (51), which may represent the recurrent driving force for gene expression change during oncogenesis.">
+		<entity id="s1.e1" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="104-143"
+			type="GO" text="nicotinamide riboside catabolic process" ontology_id="GO_0006738"/>
+		<entity id="s1.e3" charOffset="159-205"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e4" charOffset="213-270"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="277-335"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s1.e6" charOffset="346-377"
+			type="GO" text="polyphosphate metabolic process" ontology_id="GO_0006797"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

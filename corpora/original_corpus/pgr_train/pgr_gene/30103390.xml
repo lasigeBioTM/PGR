@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30103390">
+	<sentence id="s1" text="Anthocyanin consumption is linked to benefits in obesity-related metabolic alterations and non-alcoholic fatty liver disease (NAFLD), though the functional role of delphinidin (Dp) is yet to be established.">
+		<entity id="s1.e1" charOffset="49-56"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="177-179"
+			type="GENE" text="Dp" ontology_id="5729"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Dp did not affect body weight, energy intake, hyperglycemia, insulin resistance, or histological abnormalities elicited by the HFHC diet.">
+		<entity id="s2.e1" charOffset="0-2"
+			type="GENE" text="Dp" ontology_id="5729"/>
+		<entity id="s2.e2" charOffset="46-59"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30068703">
+	<sentence id="s1" text="Ribosome profiling and RNA sequencing identified membrane protein proteolysis as a principle node for gene expression regulation downstream from miRNA catabolic process In vitro and in vivo data demonstrate that epithelial IMP1 loss increases expression of WNT target genes and enhances LIN28B-mediated intestinal tumorigenesis, which was reversed when we overexpressed IMP1 independently in vivo.">
+		<entity id="s1.e1" charOffset="49-77"
+			type="GO" text="membrane protein proteolysis" ontology_id="GO_0033619"/>
+		<entity id="s1.e2" charOffset="121-144"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s1.e3" charOffset="290-295"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Together, our data provide new evidence for the opposing effects of the miRNA catabolic process-membrane protein proteolysis axis on post-transcriptional regulation of canonical WNT signaling, with implications in intestinal homeostasis, regeneration and tumorigenesis">
+		<entity id="s2.e1" charOffset="72-95"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s2.e2" charOffset="96-124"
+			type="GO" text="membrane protein proteolysis" ontology_id="GO_0033619"/>
+		<entity id="s2.e3" charOffset="231-236"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

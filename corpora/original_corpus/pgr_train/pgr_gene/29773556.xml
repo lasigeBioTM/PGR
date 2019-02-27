@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29773556">
+	<sentence id="s1" text="Here, we disrupt the peroxiredoxin 1 (PRDX1) and 7,8-dihydro-8-oxoguanine triphosphatase (MTH1) genes in cancer cells and demonstrate that PRDX1 and MTH1 cooperate to prevent accumulation of oxidized guanine in the genome.">
+		<entity id="s1.e1" charOffset="38-43"
+			type="GENE" text="PRDX1" ontology_id="5052"/>
+		<entity id="s1.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

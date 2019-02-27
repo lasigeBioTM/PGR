@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620629">
+	<sentence id="s1" text="In the PPI network, 2 clusters of VTE genes, including ribosomal protein family genes and NADH family-ubiquinol-cytochrome genes, were identified, such as ribosomal protein L9 (cytoplasmic translation), positive regulation of gene expression, nuclear-transcribed mRNA catabolic process, nonsense-mediated decay, protein-DNA complex disassembly, and tumor protein p53 (TP53).The nod-like receptor signaling pathway, ribosomal protein family genes, such as RPL9, RPL5, RPS20, and RPL23, and DEG of TP53 may have the potential to be used as targets for diagnosis and treatment of VTE">
+		<entity id="s1.e1" charOffset="177-200"
+			type="GO" text="cytoplasmic translation" ontology_id="GO_0002181"/>
+		<entity id="s1.e2" charOffset="203-241"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e3" charOffset="227-232"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="243-310"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s1.e5" charOffset="312-343"
+			type="GO" text="protein-DNA complex disassembly" ontology_id="GO_0032986"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

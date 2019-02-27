@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28384287">
+	<sentence id="s1" text="Recently, a new type of limb-girdle muscular dystrophy (LGMD type 2Z) has been identified due to a missense mutation in POGLUT1 (protein O-glucosyltransferase-Rumi), an enzyme capable of adding glucose to a distinct serine residue of epidermal growth factor-like repeats containing a C-X-S-X-(P/A)-C consensus sequence such as Notch receptors.">
+		<entity id="s1.e1" charOffset="24-54"
+			type="HP" text="limb-girdle muscular dystrophy" ontology_id="HP_0006785"/>
+		<entity id="s1.e2" charOffset="120-127"
+			type="GENE" text="POGLUT1" ontology_id="56983"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

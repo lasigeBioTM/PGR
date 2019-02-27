@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29615789">
+	<sentence id="s1" text="Ablation of peptidyl-tyrosine phosphorylation-3 or fructose 2,6-bisphosphate metabolic process suppresses breast tumour growth in mice and prevents metastasis to the lung from an orthotopic setting, as does Ser857Ala-mutant SRC-3.">
+		<entity id="s1.e1" charOffset="12-45"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s1.e2" charOffset="21-64"
+			type="GO" text="fructose 2,6-bisphosphate metabolic process" ontology_id="GO_0006003"/>
+		<entity id="s1.e3" charOffset="83-89"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="fructose 2,6-bisphosphate metabolic process and phosphorylated peptidyl-tyrosine phosphorylation-3 levels are increased and correlate in oestrogen receptor-positive tumours, whereas, in patients with the basal subtype, PFKFB4 and peptidyl-tyrosine phosphorylation-3 drive a common protein signature that correlates with the poor survival of patients with breast cancer.">
+		<entity id="s2.e1" charOffset="0-43"
+			type="GO" text="fructose 2,6-bisphosphate metabolic process" ontology_id="GO_0006003"/>
+		<entity id="s2.e2" charOffset="26-59"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s2.e3" charOffset="135-141"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="295-301"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="These findings suggest that the Warburg pathway enzyme fructose 2,6-bisphosphate metabolic process acts as a molecular fulcrum that couples sugar metabolism to transcriptional activation by stimulating peptidyl-tyrosine phosphorylation-3 to promote aggressive metastatic tumours">
+		<entity id="s3.e1" charOffset="55-98"
+			type="GO" text="fructose 2,6-bisphosphate metabolic process" ontology_id="GO_0006003"/>
+		<entity id="s3.e2" charOffset="202-235"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s3.e3" charOffset="241-247"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

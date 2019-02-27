@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27193124">
+	<sentence id="s1" text="Here, we have performed a prospective nationwide genetic association study using the Human Exome BeadChip and identified gene variants in encoding dynactin 4 (DCTN4), retinoic acid early transcript 1E (RAET1E), and V-akt murine thymoma viral oncogene homolog 3 (AKT3) to be associated with unfavourable outcome in patients with pneumococcal meningitis.">
+		<entity id="s1.e1" charOffset="262-266"
+			type="GENE" text="AKT3" ontology_id="10000"/>
+		<entity id="s1.e2" charOffset="341-351"
+			type="HP" text="meningitis" ontology_id="HP_0001287"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

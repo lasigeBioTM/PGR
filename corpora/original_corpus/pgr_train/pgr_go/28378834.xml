@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28378834">
+	<sentence id="s1" text="Mutations in skeletal muscle tissue regeneration are associated with autosomal recessive retinitis pigmentosa (arRP) and autosomal recessive cone-rod dystrophy (arCRD) however, the function of skeletal muscle tissue regeneration and the molecular mechanisms of how these mutations cause retinal degeneration are still unclear.">
+		<entity id="s1.e1" charOffset="13-48"
+			type="GO" text="skeletal muscle tissue regeneration" ontology_id="GO_0043403"/>
+		<entity id="s1.e2" charOffset="69-88"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="255-275"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We constructed an skeletal muscle tissue regeneration-knockout zebrafish-line by TALEN technology which showed visual impairment at an early age, while the histological and immunofluorescence assays indicated the presence of progressive retinal degeneration with a cone predominately affected pattern.">
+		<entity id="s2.e1" charOffset="18-53"
+			type="GO" text="skeletal muscle tissue regeneration" ontology_id="GO_0043403"/>
+		<entity id="s2.e2" charOffset="111-128"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<entity id="s2.e3" charOffset="237-257"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

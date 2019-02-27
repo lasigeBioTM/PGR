@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26928228">
+	<sentence id="s1" text="We found evidence for at least five independent causal variants, each associated with different phenotype sets, including estrogen receptor (ER(+) or ER(-)) and human signal transduction (HER2(+) or HER2(-)) tumor subtypes, mammographic density and tumor grade.">
+		<entity id="s1.e1" charOffset="167-186"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="208-213"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The best candidate causal variants for ER(-) tumors lie in four separate enhancer elements, and their risk alleles reduce expression of transcription by RNA polymerase II, positive regulation of mitochondrial translation and biological_process, whereas the risk alleles of the strongest candidates for the remaining independent causal variant disrupt a silencer element and putatively increase ESR1 and RMND1 expression.">
+		<entity id="s2.e1" charOffset="45-50"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="136-170"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s2.e3" charOffset="172-220"
+			type="GO" text="positive regulation of mitochondrial translation" ontology_id="GO_0070131"/>
+		<entity id="s2.e4" charOffset="225-243"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

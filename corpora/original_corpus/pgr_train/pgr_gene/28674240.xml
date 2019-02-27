@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28674240">
+	<sentence id="s1" text="Genetic studies on consanguineous families with primary microcephaly have identified 15 (MCPH) causative genes that include MCPH1, WDR62, CDK5RAP2, CASC5, ASPM, CENPJ, STIL, CEP135, CEP152, ZNF335, PHC1, CDK6, CENPE, SASS6 MFSD2A ANKLE2 and CIT (Khan et al. 2014; Yamamoto et al. 2014; Alakbarzade et al. 2015;Morris-Rosendahl and Kaindl 2015; Basit et al. 2016).">
+		<entity id="s1.e1" charOffset="56-68"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="124-129"
+			type="GENE" text="MCPH1" ontology_id="79648"/>
+		<entity id="s1.e3" charOffset="131-136"
+			type="GENE" text="WDR62" ontology_id="284403"/>
+		<entity id="s1.e4" charOffset="138-146"
+			type="GENE" text="CDK5RAP2" ontology_id="55755"/>
+		<entity id="s1.e5" charOffset="155-159"
+			type="GENE" text="ASPM" ontology_id="259266"/>
+		<entity id="s1.e6" charOffset="161-166"
+			type="GENE" text="CENPJ" ontology_id="55835"/>
+		<entity id="s1.e7" charOffset="168-172"
+			type="GENE" text="STIL" ontology_id="6491"/>
+		<entity id="s1.e8" charOffset="174-180"
+			type="GENE" text="CEP135" ontology_id="9662"/>
+		<entity id="s1.e9" charOffset="182-188"
+			type="GENE" text="CEP152" ontology_id="22995"/>
+		<entity id="s1.e10" charOffset="190-196"
+			type="GENE" text="ZNF335" ontology_id="63925"/>
+		<entity id="s1.e11" charOffset="198-202"
+			type="GENE" text="PHC1" ontology_id="1911"/>
+		<entity id="s1.e12" charOffset="204-208"
+			type="GENE" text="CDK6" ontology_id="1021"/>
+		<entity id="s1.e13" charOffset="210-215"
+			type="GENE" text="CENPE" ontology_id="1062"/>
+		<entity id="s1.e14" charOffset="217-222"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<entity id="s1.e15" charOffset="223-229"
+			type="GENE" text="MFSD2A" ontology_id="84879"/>
+		<entity id="s1.e16" charOffset="230-236"
+			type="GENE" text="ANKLE2" ontology_id="23141"/>
+		<entity id="s1.e17" charOffset="241-244"
+			type="GENE" text="CIT" ontology_id="11113"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e1"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e1"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e1"
+		    e2="s1.e17" pgr="true"/>
+	</sentence>
+</document>

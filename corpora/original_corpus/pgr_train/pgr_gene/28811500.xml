@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28811500">
+	<sentence id="s1" text="Using super-resolution and electron microscopy, we find that the human microcephaly protein, RTTN, is recruited to the proximal end of the procentriole at early S phase, and is located at the inner luminal walls of centrioles.">
+		<entity id="s1.e1" charOffset="71-83"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="93-97"
+			type="GENE" text="RTTN" ontology_id="25914"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Interestingly, the naturally occurring microcephaly-associated mutant, RTTN (A578P), shows a low affinity for STIL binding and blocks centriole assembly.">
+		<entity id="s2.e1" charOffset="39-51"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e2" charOffset="71-75"
+			type="GENE" text="RTTN" ontology_id="25914"/>
+		<entity id="s2.e3" charOffset="110-114"
+			type="GENE" text="STIL" ontology_id="6491"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="These findings reveal that RTTN contributes to building full-length centrioles and illuminate the molecular mechanism through which the RTTN (A578P) mutation causes primary microcephaly.Mutations in many centriolar protein-encoding genes cause primary microcephaly.">
+		<entity id="s3.e1" charOffset="27-31"
+			type="GENE" text="RTTN" ontology_id="25914"/>
+		<entity id="s3.e2" charOffset="173-185"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Here the authors show that human microcephaly protein RTTN directly interacts with STIL and acts downstream of STIL-mediated centriole assembly, contributing to building full-length centrioles">
+		<entity id="s4.e1" charOffset="33-45"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s4.e2" charOffset="54-58"
+			type="GENE" text="RTTN" ontology_id="25914"/>
+		<entity id="s4.e3" charOffset="83-87"
+			type="GENE" text="STIL" ontology_id="6491"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27835880">
+	<sentence id="s1" text="In tumors with high phosphatidylinositol 3-kinase signaling expression, and independently of PIK3CA, KRAS, or negative regulation of protein phosphorylation mutations, PIK3R2 depletion induced lung SQCC xenograft regression without triggering PI3K/AKT pathway rebound.">
+		<entity id="s1.e1" charOffset="3-8"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="20-59"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0014065"/>
+		<entity id="s1.e3" charOffset="77-123"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

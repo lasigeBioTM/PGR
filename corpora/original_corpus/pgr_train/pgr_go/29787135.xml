@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29787135">
+	<sentence id="s1" text="Mutations in protein phosphorylation, transmembrane receptor protein serine/threonine kinase signaling pathway, or positive regulation of protein phosphorylation are associated with hereditary hemorrhagic telangiectasia and pulmonary arterial hypertension in humans [1, 2].">
+		<entity id="s1.e1" charOffset="13-36"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="38-110"
+			type="GO" text="transmembrane receptor protein serine/threonine kinase signaling pathway" ontology_id="GO_0007178"/>
+		<entity id="s1.e3" charOffset="114-145"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s1.e4" charOffset="115-161"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

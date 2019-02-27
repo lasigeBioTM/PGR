@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27338702">
+	<sentence id="s1" text="Similar findings were observed in a patient with chronic hypophosphatemia as a result of a mutation in SLC34A3 who had a 50% reduction in both serum Pi content and muscle VATP After oral Pi repletion and normalization of serum Pi levels, muscle VATP completely normalized in the patient.">
+		<entity id="s1.e1" charOffset="57-73"
+			type="HP" text="hypophosphatemia" ontology_id="HP_0002148"/>
+		<entity id="s1.e2" charOffset="103-110"
+			type="GENE" text="SLC34A3" ontology_id="142680"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

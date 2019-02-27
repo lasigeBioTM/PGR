@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29484385">
+	<sentence id="s1" text="However, the expression and precise role of sex determination in osteosarcoma remain unclear.">
+		<entity id="s1.e1" charOffset="44-61"
+			type="GO" text="sex determination" ontology_id="GO_0007530"/>
+		<entity id="s1.e2" charOffset="65-77"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To elucidate the cellular and molecular function of sex determination, we examined the consequences of SOX3 knockdown in osteosarcoma cells.">
+		<entity id="s2.e1" charOffset="52-69"
+			type="GO" text="sex determination" ontology_id="GO_0007530"/>
+		<entity id="s2.e2" charOffset="121-133"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We found that the downregulation of sex determination inhibited the proliferation, migration and invasion of osteosarcoma cells.">
+		<entity id="s3.e1" charOffset="36-53"
+			type="GO" text="sex determination" ontology_id="GO_0007530"/>
+		<entity id="s3.e2" charOffset="109-121"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Taken together, our data indicate that sex determination may serve as an oncogene in osteosarcoma, and SOX3 downregulation may prove to be a novel approach for the inhibition of osteosarcoma progression">
+		<entity id="s4.e1" charOffset="39-56"
+			type="GO" text="sex determination" ontology_id="GO_0007530"/>
+		<entity id="s4.e2" charOffset="85-97"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

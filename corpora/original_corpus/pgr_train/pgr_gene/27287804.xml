@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27287804">
+	<sentence id="s1" text="Hmx1 encodes a homeodomain transcription factor expressed in the developing lateral craniofacial mesenchyme, retina and sensory ganglia.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="Hmx1" ontology_id="3166"/>
+		<entity id="s1.e2" charOffset="76-83"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we demonstrate that the impact of Hmx1 loss is greater than previously appreciated, with a variety of lateral cranioskeletal defects, auriculofacial nerve deficits, and duplication of the caudal region of the external ear.">
+		<entity id="s2.e1" charOffset="30-36"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s2.e2" charOffset="40-44"
+			type="GENE" text="Hmx1" ontology_id="3166"/>
+		<entity id="s2.e3" charOffset="108-115"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Using a transgenic approach, we demonstrate that a 594 bp sequence encompassing the ECR recapitulates specific aspects of the endogenous Hmx1 lateral facial expression pattern.">
+		<entity id="s3.e1" charOffset="137-141"
+			type="GENE" text="Hmx1" ontology_id="3166"/>
+		<entity id="s3.e2" charOffset="142-149"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="These studies highlight the conserved role for Hmx1 in BA2-derived tissues and provide an entry point for improved understanding of the causes of the frequent lateral facial birth defects in humans">
+		<entity id="s4.e1" charOffset="47-51"
+			type="GENE" text="Hmx1" ontology_id="3166"/>
+		<entity id="s4.e2" charOffset="159-166"
+			type="HP" text="lateral" ontology_id="HP_0025275"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

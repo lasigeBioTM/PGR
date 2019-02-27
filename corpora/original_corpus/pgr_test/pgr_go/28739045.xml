@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28739045">
+	<sentence id="s1" text="Interventions on cytoskeletal anchoring at plasma membrane-related diseases require prenatal surveillance by sonography, gene testing in high-risk carriers, and proper orthosis or orthopedic surgeries to correct malformations including scoliosis, cervical spine instability, large joint dislocation, and clubfoot.">
+		<entity id="s1.e1" charOffset="17-58"
+			type="GO" text="cytoskeletal anchoring at plasma membrane" ontology_id="GO_0007016"/>
+		<entity id="s1.e2" charOffset="236-245"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

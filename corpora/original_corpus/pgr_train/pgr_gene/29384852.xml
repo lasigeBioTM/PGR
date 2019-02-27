@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29384852">
+	<sentence id="s1" text="Peripheral schwannomas were detected in 3 LZTR1-mutant (60%) and 10 SMARCB1-mutant subjects (66.7%).">
+		<entity id="s1.e1" charOffset="11-22"
+			type="HP" text="schwannomas" ontology_id="HP_0100008"/>
+		<entity id="s1.e2" charOffset="42-47"
+			type="GENE" text="LZTR1" ontology_id="8216"/>
+		<entity id="s1.e3" charOffset="68-75"
+			type="GENE" text="SMARCB1" ontology_id="6598"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Among those with peripheral tumors, the median tumor number was 4 in the LZTR1 group (median total body tumor volume 30 cc) and 10 in the SMARCB1 group (median volume 85cc), (P=.2915 for tumor number and P = .2289 for volume).">
+		<entity id="s2.e1" charOffset="17-27"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s2.e2" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="73-78"
+			type="GENE" text="LZTR1" ontology_id="8216"/>
+		<entity id="s2.e4" charOffset="138-145"
+			type="GENE" text="SMARCB1" ontology_id="6598"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Pain scores correlated with total body tumor volume (rho = 0.32471, P = .0499), but not with number of tumors (rho = 0.23065, P = .1696).We found no significant difference in quantitative tumor burden between mutational groups, but spinal schwannomas were more common in LZTR1-mutant patients.">
+		<entity id="s3.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="53-56"
+			type="GENE" text="rho" ontology_id="6010"/>
+		<entity id="s3.e3" charOffset="239-250"
+			type="HP" text="schwannomas" ontology_id="HP_0100008"/>
+		<entity id="s3.e4" charOffset="271-276"
+			type="GENE" text="LZTR1" ontology_id="8216"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Pain was significantly higher in LZTR1-mutant than in SMARCB1-mutant patients, though spinal tumor location did not significantly correlate with pain.">
+		<entity id="s4.e1" charOffset="54-61"
+			type="GENE" text="SMARCB1" ontology_id="6598"/>
+		<entity id="s4.e2" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

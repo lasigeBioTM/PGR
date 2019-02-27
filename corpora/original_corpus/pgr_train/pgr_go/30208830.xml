@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30208830">
+	<sentence id="s1" text="In recent years, high-throughput sequencing has been used to analyze exomes of virtually all human tumors, which allowed to construct phylogenetic trees of clonal cancer evolution with special emphasis on driver mutations in positive regulation of cell proliferation-4 genes.">
+		<entity id="s1.e1" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="225-266"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this review, we discuss current data on the functioning of the FGFR family proteins in both normal and cancer cells, mutations in the positive regulation of cell proliferation-4 genes, and mechanisms underlying their oncogenic potential, which might be interesting to a broad range of scientists searching for specific tumor markers and targeted anti-cancer drugs">
+		<entity id="s2.e1" charOffset="106-112"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="137-178"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e3" charOffset="322-327"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

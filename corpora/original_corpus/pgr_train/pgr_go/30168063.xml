@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30168063">
+	<sentence id="s1" text="Stimulation of BxPC-3, Panc-1, and cell proliferation PaCA-2 pancreatic cancer cells with angiogenesis, neutrophil apoptotic process, FGF-1, FGF-2, FGF-7, and FGF-10 growth factors caused changes in the expression of master genes regulating pancreatic development (SOX9, HNF3b, glutaminyl-tRNAGln biosynthesis via transamidation-4, GATA-6, and negative regulation of transcription by RNA polymerase II).">
+		<entity id="s1.e1" charOffset="35-53"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="90-102"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e4" charOffset="104-132"
+			type="GO" text="neutrophil apoptotic process" ontology_id="GO_0001781"/>
+		<entity id="s1.e5" charOffset="278-328"
+			type="GO" text="glutaminyl-tRNAGln biosynthesis via transamidation" ontology_id="GO_0070681"/>
+		<entity id="s1.e6" charOffset="344-401"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

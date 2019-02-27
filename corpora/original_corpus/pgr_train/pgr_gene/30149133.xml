@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30149133">
+	<sentence id="s1" text="The level of gene expression of IRAK1, NF-kB, tumor necrosis factor-a (TNF-a), and interleukin-6 (IL-6) was measured by RT-PCR, and TNF-a, IL-6 levels in the cell supernatant were determined by ELISA.">
+		<entity id="s1.e1" charOffset="32-37"
+			type="GENE" text="IRAK1" ontology_id="3654"/>
+		<entity id="s1.e2" charOffset="39-41"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s1.e3" charOffset="46-51"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The protein expression of IRAK1 and downstream molecules tumor necrosis factor receptor-associated factor 6 (TRAF6), inhibitor of nuclear factor kappa-B kinase (IKK), NF-kappa-B inhibitor alpha (IKBa), and NF-kB was detected by Western-blot analysis.">
+		<entity id="s2.e1" charOffset="26-31"
+			type="GENE" text="IRAK1" ontology_id="3654"/>
+		<entity id="s2.e2" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="109-114"
+			type="GENE" text="TRAF6" ontology_id="7189"/>
+		<entity id="s2.e4" charOffset="167-169"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

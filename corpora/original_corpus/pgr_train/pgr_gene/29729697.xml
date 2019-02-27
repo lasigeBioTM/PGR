@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29729697">
+	<sentence id="s1" text="RASSF7 is recently reported to be up-regulated in several types of cancer.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="RASSF7" ontology_id="8045"/>
+		<entity id="s1.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the function of RASSF7 remain unknown in human cancers.">
+		<entity id="s2.e1" charOffset="25-31"
+			type="GENE" text="RASSF7" ontology_id="8045"/>
+		<entity id="s2.e2" charOffset="56-62"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To explore the role of RASSF7 in hepatocellular carcinoma (HCC) cells proliferation and molecular mechanism.">
+		<entity id="s3.e1" charOffset="23-29"
+			type="GENE" text="RASSF7" ontology_id="8045"/>
+		<entity id="s3.e2" charOffset="33-57"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="RASSF7 was significantly up-regulated in HCC tissues and cell lines, and correlated with AFP, poor tumor histology and T stage.">
+		<entity id="s4.e1" charOffset="0-6"
+			type="GENE" text="RASSF7" ontology_id="8045"/>
+		<entity id="s4.e2" charOffset="89-92"
+			type="GENE" text="AFP" ontology_id="174"/>
+		<entity id="s4.e3" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

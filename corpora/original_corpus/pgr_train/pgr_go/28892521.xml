@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28892521">
+	<sentence id="s1" text="The biological_process-specific hubs were involved in Wnt SP, signaling by Notch1 in cancer, telomere maintenance, and transcriptional misregulation.">
+		<entity id="s1.e1" charOffset="4-22"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results revealed that the most biological_process-specific proteins were associated with events involved in tumor development, while chemotherapy in the biological_process group was associated with side effects of drugs and/or cancer recurrence.">
+		<entity id="s2.e1" charOffset="35-53"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e2" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="141-159"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e4" charOffset="215-221"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

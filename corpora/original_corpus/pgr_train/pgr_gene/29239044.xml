@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29239044">
+	<sentence id="s1" text="Phaeochromocytoma and paraganglioma (PHEO/PGL) are rare tumours with an estimated annual incidence of 3 per million.">
+		<entity id="s1.e1" charOffset="22-35"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e2" charOffset="42-45"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<entity id="s1.e3" charOffset="56-62"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="It is therefore recommended that, depending on local resources and availability, at least some degree of genetic testing should be offered to all PHEO/PGL patients, including those with clinically sporadic disease.">
+		<entity id="s2.e1" charOffset="151-154"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<entity id="s2.e2" charOffset="197-205"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

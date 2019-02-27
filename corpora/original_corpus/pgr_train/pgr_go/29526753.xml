@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29526753">
+	<sentence id="s1" text="But the role of definitive hemopoiesis in breast cancer remains unclear.">
+		<entity id="s1.e1" charOffset="16-38"
+			type="GO" text="definitive hemopoiesis" ontology_id="GO_0060216"/>
+		<entity id="s1.e2" charOffset="49-55"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study demonstrated that definitive hemopoiesis was up-regulated in breast cancers compared with that in normal breast tissues, and further increased in breast cancer bone metastasis.">
+		<entity id="s2.e1" charOffset="36-58"
+			type="GO" text="definitive hemopoiesis" ontology_id="GO_0060216"/>
+		<entity id="s2.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Functionally, definitive hemopoiesis overexpression accelerated breast cancer cell proliferation and migration, while an opposite effect was observed when MFAP5 was knocked down.">
+		<entity id="s3.e1" charOffset="14-36"
+			type="GO" text="definitive hemopoiesis" ontology_id="GO_0060216"/>
+		<entity id="s3.e2" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="These findings may provide a better understanding about the mechanism of breast cancer and suggest that definitive hemopoiesis may be a potential prognostic biomarker and therapeutic target for breast cancer, especially for bone metastasis of breast cancer">
+		<entity id="s4.e1" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="104-126"
+			type="GO" text="definitive hemopoiesis" ontology_id="GO_0060216"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

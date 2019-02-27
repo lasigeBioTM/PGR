@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29191911">
+	<sentence id="s1" text="The ataxia telangiectasia-mutated and Rad3-related (actin cytoskeleton reorganization) kinase is a master regulator of DNA damage response and replication stress in humans, but the mechanism of its activation remains unclear.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="52-85"
+			type="GO" text="actin cytoskeleton reorganization" ontology_id="GO_0031532"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

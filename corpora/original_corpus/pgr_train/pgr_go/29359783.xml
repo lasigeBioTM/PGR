@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29359783">
+	<sentence id="s1" text="In the present study, the results obtained from our previously published methylation array were analyzed and 10 candidate genes involved in DNA repair [protein phosphatase 4 catalytic subunit (regulation of double-strand break repair via homologous recombination)], apoptosis [runt related transcription factor 3 (RUNX3), interferon regulatory factor 4 (positive regulation of interleukin-10 biosynthetic process), ubiquitin C-terminal hydrolase L1 (protein deubiquitination) and tumor protein p53 inducible protein 3 (TP53I3)], cell proliferation [cyclin D2 (positive regulation of protein phosphorylation) and Ras association domain family member 1 (Ras protein signal transduction)], drug metabolism [aldehyde dehydrogenase 1 family member A3 (retinoic acid biosynthetic process) and solute carrier family 29 member 1 (SLC29A1)] and angiogenesis [human immunodeficiency virus-1 2-oxoglutarate metabolic process interactive protein 2 (regulation of angiogenesis)] were selected for quantification of their methylation levels in 54 CCA and 19 adjacent normal tissues using methylation-sensitive high-resolution melting.">
+		<entity id="s1.e1" charOffset="193-262"
+			type="GO" text="regulation of double-strand break repair via homologous recombination" ontology_id="GO_0010569"/>
+		<entity id="s1.e2" charOffset="354-412"
+			type="GO" text="positive regulation of interleukin-10 biosynthetic process" ontology_id="GO_0045082"/>
+		<entity id="s1.e3" charOffset="396-420"
+			type="GO" text="protein deubiquitination" ontology_id="GO_0016579"/>
+		<entity id="s1.e4" charOffset="407-412"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="506-552"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e6" charOffset="598-629"
+			type="GO" text="Ras protein signal transduction" ontology_id="GO_0007265"/>
+		<entity id="s1.e7" charOffset="693-727"
+			type="GO" text="retinoic acid biosynthetic process" ontology_id="GO_0002138"/>
+		<entity id="s1.e8" charOffset="827-859"
+			type="GO" text="2-oxoglutarate metabolic process" ontology_id="GO_0006103"/>
+		<entity id="s1.e9" charOffset="883-909"
+			type="GO" text="regulation of angiogenesis" ontology_id="GO_0045765"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

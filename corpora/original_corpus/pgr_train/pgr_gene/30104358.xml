@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30104358">
+	<sentence id="s1" text="Because of technical limitations, this model of UHRF1-dependent DNA methylation inheritance has been constructed largely based on genetics and biochemical observations querying methylated DNA oligonucleotides, synthetic histone peptides, and heterogeneous chromatin extracted from cells.">
+		<entity id="s1.e1" charOffset="48-53"
+			type="GENE" text="UHRF1" ontology_id="29128"/>
+		<entity id="s1.e2" charOffset="242-255"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

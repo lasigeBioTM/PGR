@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29890027">
+	<sentence id="s1" text="We previously identified tumor necrosis factor superfamily 15 (TNFSF15), a blood vascular endothelium-derived cytokine, in lymphatic endothelial cells, as a key molecular modulator during lymphangiogenesis.">
+		<entity id="s1.e1" charOffset="25-30"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="63-70"
+			type="GENE" text="TNFSF15" ontology_id="9966"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the effect of TNFSF15 on tumor lymphatic metastasis and the underlying molecular mechanisms remain unclear.">
+		<entity id="s2.e1" charOffset="23-30"
+			type="GENE" text="TNFSF15" ontology_id="9966"/>
+		<entity id="s2.e2" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We report here that TNFSF15, which is known to inhibit primary tumor growth by suppressing angiogenesis, can promote lymphatic metastasis through facilitating lymphangiogenesis in tumors.">
+		<entity id="s3.e1" charOffset="20-27"
+			type="GENE" text="TNFSF15" ontology_id="9966"/>
+		<entity id="s3.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Mice bearing tumors induced by A549 cells stably overexpressing TNFSF15 exhibited a significant increase in densities of lymphatic vessels and a marked enhancement of A549 tumor cells in newly formed lymphatic vessels in the primary tumors as well as in lymph nodes.">
+		<entity id="s4.e1" charOffset="13-18"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="64-71"
+			type="GENE" text="TNFSF15" ontology_id="9966"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In addition, TNFSF15/DR3 signaling pathways in A549 cells include activation of NF-kB during tumor lymphangiogenesis.">
+		<entity id="s5.e1" charOffset="13-20"
+			type="GENE" text="TNFSF15" ontology_id="9966"/>
+		<entity id="s5.e2" charOffset="80-82"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s5.e3" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Our data indicate that TNFSF15, a cytokine mainly produced by blood endothelial cells, facilitates tumor lymphangiogenesis by upregulating VEGFC expression in A549 cells, contributing to lymphatic metastasis in tumor-bearing mice.">
+		<entity id="s6.e1" charOffset="23-30"
+			type="GENE" text="TNFSF15" ontology_id="9966"/>
+		<entity id="s6.e2" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s7" text="In addition, TNFSF15/DR3 signaling pathways in A549 cells include activation of NF-kB during tumor lymphangiogenesis.">
+		<entity id="s7.e1" charOffset="21-24"
+			type="GENE" text="DR3" ontology_id="8718"/>
+		<entity id="s7.e2" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Our data indicate that TNFSF15, a cytokine mainly produced by blood endothelial cells, facilitates tumor lymphangiogenesis by upregulating VEGFC expression in A549 cells, contributing to lymphatic metastasis in tumor-bearing mice.">
+		<entity id="s8.e1" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s8.e2" charOffset="139-144"
+			type="GENE" text="VEGFC" ontology_id="7424"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

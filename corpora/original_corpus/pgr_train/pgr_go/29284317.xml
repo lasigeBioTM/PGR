@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29284317">
+	<sentence id="s1" text="Here, we presented an X-fatty acid beta-oxidation case of a 46-year-old Asian male with severe autonomic dysfunction.">
+		<entity id="s1.e1" charOffset="24-49"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e2" charOffset="95-116"
+			type="HP" text="autonomic dysfunction" ontology_id="HP_0012332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

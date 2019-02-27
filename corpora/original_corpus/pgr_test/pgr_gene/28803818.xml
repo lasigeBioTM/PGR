@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803818">
+	<sentence id="s1" text="Our findings show that DPM3 mutations may lead to an isolated and mild limb girdle muscular dystrophy phenotype without cardiomyopathy">
+		<entity id="s1.e1" charOffset="23-27"
+			type="GENE" text="DPM3" ontology_id="54344"/>
+		<entity id="s1.e2" charOffset="83-101"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29343559">
+	<sentence id="s1" text="We phenotyped a large population of typical individuals for schizophrenia-spectrum and autism-spectrum traits, and genotyped them for the single-nucleotide polymorphism rs850807, which is putatively functional and linked with MAGEL2 and NDN Genetic variation in rs850807 was strongly and exclusively associated with the ideas of reference subscale of the schizophrenia spectrum, which is best typified as paranoia.">
+		<entity id="s1.e1" charOffset="87-93"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="226-232"
+			type="GENE" text="MAGEL2" ontology_id="54551"/>
+		<entity id="s1.e3" charOffset="237-240"
+			type="GENE" text="NDN" ontology_id="4692"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

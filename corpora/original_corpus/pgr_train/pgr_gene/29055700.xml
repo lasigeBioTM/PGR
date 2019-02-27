@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29055700">
+	<sentence id="s1" text="Trop2, a transmembrane glycoprotein, has emerged as a biomarker for targeted cancer therapy since it is overexpressed in 80% of triple negative breast cancer (TNBC) patients.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="Trop2" ontology_id="4070"/>
+		<entity id="s1.e2" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="For the site-specific delivery of the anticancer drug into TNBC, anti-Trop2 antibody-conjugated nanoparticles (ST-NPs) were prepared as the potential nanocarrier, composed of carboxymethyl dextran (CMD) derivatives with bioreducible disulfide bonds.">
+		<entity id="s2.e1" charOffset="42-48"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="70-75"
+			type="GENE" text="Trop2" ontology_id="4070"/>
+		<entity id="s2.e3" charOffset="114-117"
+			type="GENE" text="NPs" ontology_id="594857"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Consequently, DOX-ST-NPs exhibited higher toxicity to Trop2-positive MDA-MB-231 cancer cells, compared to DOX-loaded control nanoparticles without the disulfide bond or anti-Trop2 antibody.">
+		<entity id="s3.e1" charOffset="21-24"
+			type="GENE" text="NPs" ontology_id="594857"/>
+		<entity id="s3.e2" charOffset="54-59"
+			type="GENE" text="Trop2" ontology_id="4070"/>
+		<entity id="s3.e3" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

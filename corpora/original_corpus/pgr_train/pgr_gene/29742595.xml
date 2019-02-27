@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742595">
+	<sentence id="s1" text="A 17-year-old adolescent boy with a history of hypoproteinemia underwent Ga-NEB PET/MRI to evaluate possible lymphatic disorders suggested by FDG PET/CT imaging.">
+		<entity id="s1.e1" charOffset="47-62"
+			type="HP" text="hypoproteinemia" ontology_id="HP_0003075"/>
+		<entity id="s1.e2" charOffset="73-75"
+			type="GENE" text="Ga" ontology_id="27165"/>
+		<entity id="s1.e3" charOffset="150-152"
+			type="GENE" text="CT" ontology_id="5130"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30095545">
+	<sentence id="s1" text="Finally, twenty-four important hub genes (RASGRP2, IKZF1, CXCR5, LTB, BLK, LINGO3, CCR6, P2RY10, negative regulation of I-kappaB kinase/NF-kappaB signaling, JUP, KRT14, PLA2G3, SPRR1A, KRT78, SFN, CLDN4, IL1RN, PKP3, CBLC, KRT16, TMEM79, KLK8, LYPD3 and LYPD5) were treated as valuable factors involved in the immune response and tumor cell development in tumorigenesis.">
+		<entity id="s1.e1" charOffset="97-155"
+			type="GO" text="negative regulation of I-kappaB kinase/NF-kappaB signaling" ontology_id="GO_0043124"/>
+		<entity id="s1.e2" charOffset="330-335"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

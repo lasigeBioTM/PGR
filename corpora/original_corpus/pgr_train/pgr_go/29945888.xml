@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29945888">
+	<sentence id="s1" text="Here, we applied domain-focused CRISPR screening to human cancer cell lines to identify the transcription factor (TF) negative regulation by host of viral transcription (POU class 2 homeobox 3; also known as SKN-1a/OCT-11) as a powerful dependency in a subset of SCLC lines.">
+		<entity id="s1.e1" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="118-168"
+			type="GO" text="negative regulation by host of viral transcription" ontology_id="GO_0043922"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="An analysis of human SCLC specimens revealed that negative regulation by host of viral transcription is expressed exclusively in variant SCLC tumors that lack expression of neuroendocrine markers and instead express markers of a chemosensory lineage known as tuft cells.">
+		<entity id="s2.e1" charOffset="50-100"
+			type="GO" text="negative regulation by host of viral transcription" ontology_id="GO_0043922"/>
+		<entity id="s2.e2" charOffset="142-147"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, we show that most SCLC tumors can be classified into one of three lineages based on the expression of negative regulation by host of viral transcription, negative regulation of transcription by RNA polymerase II, or nitric oxide mediated signal transduction.">
+		<entity id="s3.e1" charOffset="33-38"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="112-162"
+			type="GO" text="negative regulation by host of viral transcription" ontology_id="GO_0043922"/>
+		<entity id="s3.e3" charOffset="164-221"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e4" charOffset="226-267"
+			type="GO" text="nitric oxide mediated signal transduction" ontology_id="GO_0007263"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

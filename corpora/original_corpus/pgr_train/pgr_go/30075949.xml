@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30075949">
+	<sentence id="s1" text="Lately, biological_process was linked to the cyclic AMP signaling pathway, which could be implicated in all of mechanisms of cortisol-secreting by macronodules adrenal hyperplasia and the molecular defects in: G protein aberrant receptors; MC2R; adenylate cyclase-activating G protein-coupled receptor signaling pathway; negative regulation of cAMP-dependent protein kinase activity; negative regulation of cGMP-mediated signaling; G protein-coupled receptor signaling pathway.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="147-166"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<entity id="s1.e3" charOffset="233-306"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e4" charOffset="321-382"
+			type="GO" text="negative regulation of cAMP-dependent protein kinase activity" ontology_id="GO_2000480"/>
+		<entity id="s1.e5" charOffset="384-430"
+			type="GO" text="negative regulation of cGMP-mediated signaling" ontology_id="GO_0010754"/>
+		<entity id="s1.e6" charOffset="432-476"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Around 50 % of patient*s relatives with PMAH and 30 % of apparently sporadic hypercortisolism carried biological_process mutations.">
+		<entity id="s2.e1" charOffset="68-76"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="77-93"
+			type="HP" text="hypercortisolism" ontology_id="HP_0003118"/>
+		<entity id="s2.e3" charOffset="102-120"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

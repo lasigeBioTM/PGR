@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28901451">
+	<sentence id="s1" text="The present study also identified in tumor and potentially malignant lesions common alterations of chromosomal regions and genes, including FBXL5, UGT2B15, UGT2B28, KANSL1, GSTT1 and DUSP22, being some of these typical aberrations described in oral cancer and others are linked to chemoradioresistance.">
+		<entity id="s1.e1" charOffset="37-42"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="140-145"
+			type="GENE" text="FBXL5" ontology_id="26234"/>
+		<entity id="s1.e3" charOffset="147-154"
+			type="GENE" text="UGT2B15" ontology_id="7366"/>
+		<entity id="s1.e4" charOffset="156-163"
+			type="GENE" text="UGT2B28" ontology_id="54490"/>
+		<entity id="s1.e5" charOffset="165-171"
+			type="GENE" text="KANSL1" ontology_id="284058"/>
+		<entity id="s1.e6" charOffset="183-189"
+			type="GENE" text="DUSP22" ontology_id="56940"/>
+		<entity id="s1.e7" charOffset="249-255"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e7"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e11"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e11"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e11"
+		    e2="s1.e1" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Several putative genes associated with hallmarks of malignancy that may have an important role in predicting the progression of leukoplakia and erythroleukoplakia to squamous cell carcinoma, namely gains in BNIPL, MCL1, STAG2, CSPP1 and ZNRF3 genes were also identified">
+		<entity id="s2.e1" charOffset="166-189"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s2.e2" charOffset="207-212"
+			type="GENE" text="BNIPL" ontology_id="149428"/>
+		<entity id="s2.e3" charOffset="214-218"
+			type="GENE" text="MCL1" ontology_id="4170"/>
+		<entity id="s2.e4" charOffset="220-225"
+			type="GENE" text="STAG2" ontology_id="10735"/>
+		<entity id="s2.e5" charOffset="227-232"
+			type="GENE" text="CSPP1" ontology_id="79848"/>
+		<entity id="s2.e6" charOffset="237-242"
+			type="GENE" text="ZNRF3" ontology_id="84133"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

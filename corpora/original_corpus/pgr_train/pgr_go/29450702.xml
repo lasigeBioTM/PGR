@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29450702">
+	<sentence id="s1" text="Our analyses revealed that the primary tumor and NCC-SS1-negative regulation of cell migration cell line harbored the SS18-regulation of transcription, DNA-templated fusion gene typical of synovial sarcoma and similar proteomics profiles.">
+		<entity id="s1.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="57-94"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<entity id="s1.e3" charOffset="123-165"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e4" charOffset="160-167"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Results from the present study support that the NCC-SS1-negative regulation of cell migration cell line will be an effective tool for sarcoma research">
+		<entity id="s2.e1" charOffset="56-93"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<entity id="s2.e2" charOffset="134-141"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our analyses revealed that the primary tumor and NCC-SS1-C1 cell line harbored the positive regulation of transcription by RNA polymerase II-SSX1 fusion gene typical of synovial sarcoma and similar proteomics profiles.">
+		<entity id="s3.e1" charOffset="83-140"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e2" charOffset="178-185"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

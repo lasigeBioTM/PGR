@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29263255">
+	<sentence id="s1" text="Recently, we developed a double-retargeting strategy whereby gH carries the GCN4 peptide for retargeting to the noncancer producer Vero-GCN4R cell line and gD carries the scFv to signal transduction for cancer retargeting.">
+		<entity id="s1.e1" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="179-198"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

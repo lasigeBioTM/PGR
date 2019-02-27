@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29124790">
+	<sentence id="s1" text="We review the literature of genetic PD autopsies from cases with molecularly confirmed PD or parkinsonism and summarize main findings on SNCA (n = 25), Parkin (n = 20, 17 bi-allelic and 3 heterozygotes), PINK1 (n = 5, 1 bi-allelic and 4 heterozygotes), DJ-1 (n = 1), LRRK2 (n = 55), GBA (n = 10 Gaucher disease patients with parkinsonism), DNAJC13, GCH1, ATP13A2, PLA2G6 (n = 8 patients, 2 with PD), MPAN (n = 2), FBXO7, RAB39B, and ATXN2 (SCA2), as well as on 22q deletion syndrome (n = 3).">
+		<entity id="s1.e1" charOffset="93-105"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<entity id="s1.e2" charOffset="137-141"
+			type="GENE" text="SNCA" ontology_id="6622"/>
+		<entity id="s1.e3" charOffset="204-209"
+			type="GENE" text="PINK1" ontology_id="65018"/>
+		<entity id="s1.e4" charOffset="267-272"
+			type="GENE" text="LRRK2" ontology_id="120892"/>
+		<entity id="s1.e5" charOffset="283-286"
+			type="GENE" text="GBA" ontology_id="2629"/>
+		<entity id="s1.e6" charOffset="340-347"
+			type="GENE" text="DNAJC13" ontology_id="23317"/>
+		<entity id="s1.e7" charOffset="349-353"
+			type="GENE" text="GCH1" ontology_id="2643"/>
+		<entity id="s1.e8" charOffset="355-362"
+			type="GENE" text="ATP13A2" ontology_id="23400"/>
+		<entity id="s1.e9" charOffset="364-370"
+			type="GENE" text="PLA2G6" ontology_id="8398"/>
+		<entity id="s1.e10" charOffset="414-419"
+			type="GENE" text="FBXO7" ontology_id="25793"/>
+		<entity id="s1.e11" charOffset="421-427"
+			type="GENE" text="RAB39B" ontology_id="116442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26556829">
+	<sentence id="s1" text="Mutations in the ALS5/SPG11/KIAA1840 gene are a frequent cause of autosomal recessive hereditary spastic paraplegia with thin corpus callosum and peripheral axonal neuropathy, and account for a 40% of autosomal recessive juvenile amyotrophic lateral sclerosis.">
+		<entity id="s1.e1" charOffset="28-36"
+			type="GENE" text="KIAA1840" ontology_id="80208"/>
+		<entity id="s1.e2" charOffset="66-85"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="164-174"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The overlap of axonal Charcot-Marie-Tooth disease with both diseases, as well as the common autosomal recessive inheritance pattern of thin corpus callosum and axonal Charcot-Marie-Tooth disease in three related patients, prompted us to analyse the ALS5/SPG11/KIAA1840 gene in affected individuals with autosomal recessive axonal Charcot-Marie-Tooth disease.">
+		<entity id="s2.e1" charOffset="92-111"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="260-268"
+			type="GENE" text="KIAA1840" ontology_id="80208"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Besides, we screened for all the known genes related to axonal autosomal recessive Charcot-Marie-Tooth disease (CMT2A2/HMSN2A2/MFN2, CMT2B1/LMNA, CMT2B2/MED25, CMT2B5/NEFL, ARCMT2F/dHMN2B/HSPB1, CMT2K/GDAP1, CMT2P/LRSAM1, CMT2R/TRIM2, CMT2S/IGHMBP2, CMT2T/HSJ1, CMTRID/COX6A1, ARAN-NM/HINT and GAN/GAN), for the genes related to autosomal recessive hereditary spastic paraplegia with thin corpus callosum and axonal peripheral neuropathy (SPG7/PGN, SPG15/ZFYVE26, SPG21/ACP33, SPG35/FA2H, SPG46/GBA2, SPG55/C12orf65 and SPG56/CYP2U1), as well as for the causative gene of peripheral neuropathy with or without agenesis of the corpus callosum (SLC12A6).">
+		<entity id="s3.e1" charOffset="63-82"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s3.e2" charOffset="127-131"
+			type="GENE" text="MFN2" ontology_id="9927"/>
+		<entity id="s3.e3" charOffset="140-144"
+			type="GENE" text="LMNA" ontology_id="4000"/>
+		<entity id="s3.e4" charOffset="153-158"
+			type="GENE" text="MED25" ontology_id="55090"/>
+		<entity id="s3.e5" charOffset="167-171"
+			type="GENE" text="NEFL" ontology_id="4747"/>
+		<entity id="s3.e6" charOffset="188-193"
+			type="GENE" text="HSPB1" ontology_id="3315"/>
+		<entity id="s3.e7" charOffset="201-206"
+			type="GENE" text="GDAP1" ontology_id="54332"/>
+		<entity id="s3.e8" charOffset="214-220"
+			type="GENE" text="LRSAM1" ontology_id="90678"/>
+		<entity id="s3.e9" charOffset="228-233"
+			type="GENE" text="TRIM2" ontology_id="23321"/>
+		<entity id="s3.e10" charOffset="241-248"
+			type="GENE" text="IGHMBP2" ontology_id="3508"/>
+		<entity id="s3.e11" charOffset="256-260"
+			type="GENE" text="HSJ1" ontology_id="3300"/>
+		<entity id="s3.e12" charOffset="269-275"
+			type="GENE" text="COX6A1" ontology_id="1337"/>
+		<entity id="s3.e13" charOffset="285-289"
+			type="GENE" text="HINT" ontology_id="3094"/>
+		<entity id="s3.e14" charOffset="294-297"
+			type="GENE" text="GAN" ontology_id="8139"/>
+		<entity id="s3.e15" charOffset="427-437"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e16" charOffset="449-454"
+			type="GENE" text="SPG15" ontology_id="23503"/>
+		<entity id="s3.e17" charOffset="455-462"
+			type="GENE" text="ZFYVE26" ontology_id="23503"/>
+		<entity id="s3.e18" charOffset="464-469"
+			type="GENE" text="SPG21" ontology_id="51324"/>
+		<entity id="s3.e19" charOffset="470-475"
+			type="GENE" text="ACP33" ontology_id="51324"/>
+		<entity id="s3.e20" charOffset="477-482"
+			type="GENE" text="SPG35" ontology_id="79152"/>
+		<entity id="s3.e21" charOffset="483-487"
+			type="GENE" text="FA2H" ontology_id="79152"/>
+		<entity id="s3.e22" charOffset="489-494"
+			type="GENE" text="SPG46" ontology_id="57704"/>
+		<entity id="s3.e23" charOffset="495-499"
+			type="GENE" text="GBA2" ontology_id="57704"/>
+		<entity id="s3.e24" charOffset="501-506"
+			type="GENE" text="SPG55" ontology_id="91574"/>
+		<entity id="s3.e25" charOffset="507-515"
+			type="GENE" text="C12orf65" ontology_id="91574"/>
+		<entity id="s3.e26" charOffset="643-650"
+			type="GENE" text="SLC12A6" ontology_id="9990"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p7" e1="s3.e1"
+		    e2="s3.e8" pgr="true"/>
+		<pair id="s3.p8" e1="s3.e1"
+		    e2="s3.e9" pgr="true"/>
+		<pair id="s3.p9" e1="s3.e1"
+		    e2="s3.e10" pgr="true"/>
+		<pair id="s3.p10" e1="s3.e1"
+		    e2="s3.e11" pgr="true"/>
+		<pair id="s3.p11" e1="s3.e1"
+		    e2="s3.e12" pgr="true"/>
+		<pair id="s3.p12" e1="s3.e1"
+		    e2="s3.e13" pgr="true"/>
+		<pair id="s3.p13" e1="s3.e1"
+		    e2="s3.e14" pgr="true"/>
+		<pair id="s3.p14" e1="s3.e1"
+		    e2="s3.e16" pgr="true"/>
+		<pair id="s3.p15" e1="s3.e1"
+		    e2="s3.e17" pgr="true"/>
+		<pair id="s3.p16" e1="s3.e1"
+		    e2="s3.e18" pgr="true"/>
+		<pair id="s3.p17" e1="s3.e1"
+		    e2="s3.e19" pgr="true"/>
+		<pair id="s3.p18" e1="s3.e1"
+		    e2="s3.e20" pgr="true"/>
+		<pair id="s3.p19" e1="s3.e1"
+		    e2="s3.e21" pgr="true"/>
+		<pair id="s3.p20" e1="s3.e1"
+		    e2="s3.e22" pgr="true"/>
+		<pair id="s3.p21" e1="s3.e1"
+		    e2="s3.e23" pgr="true"/>
+		<pair id="s3.p22" e1="s3.e1"
+		    e2="s3.e24" pgr="true"/>
+		<pair id="s3.p23" e1="s3.e1"
+		    e2="s3.e25" pgr="true"/>
+		<pair id="s3.p24" e1="s3.e1"
+		    e2="s3.e26" pgr="true"/>
+		<pair id="s3.p25" e1="s3.e2"
+		    e2="s3.e15" pgr="true"/>
+		<pair id="s3.p26" e1="s3.e4"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p27" e1="s3.e6"
+		    e2="s3.e50" pgr="false"/>
+		<pair id="s3.p28" e1="s3.e8"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p29" e1="s3.e10"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p30" e1="s3.e12"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p31" e1="s3.e14"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p32" e1="s3.e17"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p33" e1="s3.e19"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p34" e1="s3.e21"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p35" e1="s3.e23"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p36" e1="s3.e25"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p37" e1="s3.e15"
+		    e2="s3.e50" pgr="true"/>
+		<pair id="s3.p38" e1="s3.e50"
+		    e2="s3.e28" pgr="true"/>
+		<pair id="s3.p39" e1="s3.e50"
+		    e2="s3.e30" pgr="true"/>
+		<pair id="s3.p40" e1="s3.e50"
+		    e2="s3.e32" pgr="true"/>
+		<pair id="s3.p41" e1="s3.e50"
+		    e2="s3.e34" pgr="true"/>
+		<pair id="s3.p42" e1="s3.e50"
+		    e2="s3.e36" pgr="false"/>
+		<pair id="s3.p43" e1="s3.e50"
+		    e2="s3.e38" pgr="false"/>
+		<pair id="s3.p44" e1="s3.e50"
+		    e2="s3.e40" pgr="true"/>
+		<pair id="s3.p45" e1="s3.e50"
+		    e2="s3.e42" pgr="true"/>
+		<pair id="s3.p46" e1="s3.e50"
+		    e2="s3.e44" pgr="true"/>
+		<pair id="s3.p47" e1="s3.e50"
+		    e2="s3.e46" pgr="true"/>
+		<pair id="s3.p48" e1="s3.e50"
+		    e2="s3.e48" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Our results indicate that ALS5/SPG11/KIAA1840 is the causative gene of a wide spectrum of clinical features, including autosomal recessive axonal Charcot-Marie-Tooth disease">
+		<entity id="s4.e1" charOffset="37-45"
+			type="GENE" text="KIAA1840" ontology_id="80208"/>
+		<entity id="s4.e2" charOffset="119-138"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

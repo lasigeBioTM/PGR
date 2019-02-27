@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29551494">
+	<sentence id="s1" text="Additionally, decreased negative regulation of fibroblast growth factor receptor signaling pathway-centrosome cycle contributed to tumor suppressive effect through attenuating cell growth, clonogenic ability and facilitating apoptosis via protein polyubiquitination/caspase-3 pathway in PANC1 and Capan-2 cells.">
+		<entity id="s1.e1" charOffset="24-98"
+			type="GO" text="negative regulation of fibroblast growth factor receptor signaling pathway" ontology_id="GO_0040037"/>
+		<entity id="s1.e2" charOffset="99-115"
+			type="GO" text="centrosome cycle" ontology_id="GO_0007098"/>
+		<entity id="s1.e3" charOffset="118-123"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="239-265"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, the xenograft study confirmed the tumor proliferation-promoting role of negative regulation of fibroblast growth factor receptor signaling pathway-centrosome cycle in PANC1 cells.">
+		<entity id="s2.e1" charOffset="47-52"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="85-159"
+			type="GO" text="negative regulation of fibroblast growth factor receptor signaling pathway" ontology_id="GO_0040037"/>
+		<entity id="s2.e3" charOffset="160-176"
+			type="GO" text="centrosome cycle" ontology_id="GO_0007098"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

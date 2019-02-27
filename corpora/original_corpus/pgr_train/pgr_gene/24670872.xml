@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24670872">
+	<sentence id="s1" text="In zebrafish, downregulation of slc7a14 expression leads to an abnormal eye phenotype and defective light-induced locomotor response.">
+		<entity id="s1.e1" charOffset="32-39"
+			type="GENE" text="slc7a14" ontology_id="57709"/>
+		<entity id="s1.e2" charOffset="63-75"
+			type="HP" text="abnormal eye" ontology_id="HP_0000478"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, targeted knockout of Slc7a14 in mice results in retinal degeneration with abnormal ERG response.">
+		<entity id="s2.e1" charOffset="34-41"
+			type="GENE" text="Slc7a14" ontology_id="57709"/>
+		<entity id="s2.e2" charOffset="61-81"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e3" charOffset="96-99"
+			type="GENE" text="ERG" ontology_id="2078"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

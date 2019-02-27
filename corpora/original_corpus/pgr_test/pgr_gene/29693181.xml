@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29693181">
+	<sentence id="s1" text="Four of the five genes, including AKAP12, SOPB, TCF7L2, COL12A1 and TXNIP were downregulated, and were associated with the OS of patients with breast carcinoma.">
+		<entity id="s1.e1" charOffset="48-54"
+			type="GENE" text="TCF7L2" ontology_id="6934"/>
+		<entity id="s1.e2" charOffset="150-159"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29049013">
+	<sentence id="s1" text="Silencing of FGF12 showed significant inhibition in activity of tumor cell proliferation, colony formation, and cell migration.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="FGF12" ontology_id="2257"/>
+		<entity id="s1.e2" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results indicate that FGF12 has a potential role in ESCC and suggest that cancer genomic datasets with application of in silico approaches are instrumental for biomarker discovery research broadly and specifically, for the identification of FGF12 as a putative biomarker in ESCC">
+		<entity id="s2.e1" charOffset="28-33"
+			type="GENE" text="FGF12" ontology_id="2257"/>
+		<entity id="s2.e2" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

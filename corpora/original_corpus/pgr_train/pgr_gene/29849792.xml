@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29849792">
+	<sentence id="s1" text="Increased expression of the Src homology 2 B adaptor protein 1 (SH2B1) may stimulate the malignant progression of lung cancer, esophageal cancer and neuroblastoma.">
+		<entity id="s1.e1" charOffset="28-31"
+			type="GENE" text="Src" ontology_id="6714"/>
+		<entity id="s1.e2" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="149-162"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

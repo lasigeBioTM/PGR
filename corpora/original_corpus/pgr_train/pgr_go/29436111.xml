@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29436111">
+	<sentence id="s1" text="Mutations in actin cytoskeleton reorganization have been associated with GAPO (growth retardation, alopecia, pseudoanodontia, and optic atrophy) syndrome and infantile hemangioma, however no clinical characteristics associated with these conditions were observed in our study family.">
+		<entity id="s1.e1" charOffset="13-46"
+			type="GO" text="actin cytoskeleton reorganization" ontology_id="GO_0031532"/>
+		<entity id="s1.e2" charOffset="130-143"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s1.e3" charOffset="168-178"
+			type="HP" text="hemangioma" ontology_id="HP_0001028"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

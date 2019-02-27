@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27485409">
+	<sentence id="s1" text="We conclude that QIL1/MIC13 deficiency in human, is associated with disassembly of the MICOS complex, with the associated aberration of cristae morphology and mitochondrial respiratory dysfunction.">
+		<entity id="s1.e1" charOffset="17-21"
+			type="GENE" text="QIL1" ontology_id="125988"/>
+		<entity id="s1.e2" charOffset="159-172"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="3-Methylglutaconic aciduria is associated with variants in genes encoding mitochondrial inner membrane organizing determinants, including TAZ, DNAJC19, SERAC1 and QIL1/MIC13">
+		<entity id="s2.e1" charOffset="74-87"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s2.e2" charOffset="138-141"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s2.e3" charOffset="143-150"
+			type="GENE" text="DNAJC19" ontology_id="131118"/>
+		<entity id="s2.e4" charOffset="152-158"
+			type="GENE" text="SERAC1" ontology_id="84947"/>
+		<entity id="s2.e5" charOffset="163-167"
+			type="GENE" text="QIL1" ontology_id="125988"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

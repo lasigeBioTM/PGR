@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25779662">
+	<sentence id="s1" text="Here we developed a novel whole-body insertional mutagenesis screen in mice, which was designed for the discovery of negative regulation of protein phosphorylation-cooperating tumor suppressors.">
+		<entity id="s1.e1" charOffset="117-163"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e2" charOffset="176-181"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We validated positive regulation of glycolytic process, mRNA splice site selection, protein targeting to membrane, G protein-coupled receptor signaling pathway and cellular response to DNA damage stimulus, which were identified by our screens in multiple cancer types, as new tumor suppressor genes in prostate cancer.">
+		<entity id="s2.e1" charOffset="13-54"
+			type="GO" text="positive regulation of glycolytic process" ontology_id="GO_0045821"/>
+		<entity id="s2.e2" charOffset="56-82"
+			type="GO" text="mRNA splice site selection" ontology_id="GO_0006376"/>
+		<entity id="s2.e3" charOffset="84-113"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s2.e4" charOffset="115-159"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s2.e5" charOffset="126-166"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s2.e6" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e7" charOffset="156-161"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e5"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e4"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e4"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study identified complex negative regulation of protein phosphorylation-cooperating tumor suppressor networks in different cancer types, with potential clinical implications">
+		<entity id="s3.e1" charOffset="29-75"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s3.e2" charOffset="88-93"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We validated ZBTB20, CELF2, PARD3, G protein-coupled receptor signaling pathway and WAC, which were identified by our screens in multiple cancer types, as new tumor suppressor genes in prostate cancer.">
+		<entity id="s4.e1" charOffset="35-79"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s4.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

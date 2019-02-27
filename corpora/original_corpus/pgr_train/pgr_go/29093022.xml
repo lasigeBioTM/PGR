@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29093022">
+	<sentence id="s1" text="Giantin-knockout zebrafish exhibit hyperostosis and ectopic calcium deposits, recapitulating phenotypes of hyperphosphatemic familial tumoral calcinosis, a disease caused by mutations in protein O-linked glycosylation via serine.">
+		<entity id="s1.e1" charOffset="35-47"
+			type="HP" text="hyperostosis" ontology_id="HP_0100774"/>
+		<entity id="s1.e2" charOffset="142-152"
+			type="HP" text="calcinosis" ontology_id="HP_0003761"/>
+		<entity id="s1.e3" charOffset="187-228"
+			type="GO" text="protein O-linked glycosylation via serine" ontology_id="GO_0018242"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

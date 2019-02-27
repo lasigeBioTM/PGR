@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29112993">
+	<sentence id="s1" text="Over the last 5 years, several single gene disorders of the autophagy pathway have emerged: EPG5-associated Vici syndrome, WDR45-associated b-propeller protein-associated neurodegeneration, SNX14-associated autosomal-recessive spinocerebellar ataxia 20, ATG5-associated autosomal-recessive ataxia syndrome, SQSTM1/p62-associated childhood-onset neurodegeneration, and several forms of the hereditary spastic paraplegias.">
+		<entity id="s1.e1" charOffset="92-96"
+			type="GENE" text="EPG5" ontology_id="57724"/>
+		<entity id="s1.e2" charOffset="123-128"
+			type="GENE" text="WDR45" ontology_id="11152"/>
+		<entity id="s1.e3" charOffset="190-195"
+			type="GENE" text="SNX14" ontology_id="57231"/>
+		<entity id="s1.e4" charOffset="243-249"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e5" charOffset="254-258"
+			type="GENE" text="ATG5" ontology_id="9474"/>
+		<entity id="s1.e6" charOffset="307-313"
+			type="GENE" text="SQSTM1" ontology_id="8878"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

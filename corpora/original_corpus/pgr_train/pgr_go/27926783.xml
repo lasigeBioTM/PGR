@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27926783">
+	<sentence id="s1" text="The ubiquitin-fold modifier 1 (regulation of intracellular estrogen receptor signaling pathway)-system, a ubiquitin-like protein conjugation system, is involved in the development of breast cancer and several hereditary neurological syndromes.">
+		<entity id="s1.e1" charOffset="31-94"
+			type="GO" text="regulation of intracellular estrogen receptor signaling pathway" ontology_id="GO_0033146"/>
+		<entity id="s1.e2" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

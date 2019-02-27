@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29309433">
+	<sentence id="s1" text="Based upon the development-dependent onsets of these psychotomimetic effects, by using a DNA microarray technique, we identified the WD repeat domain 3 (WDR3) and chitobiosyldiphosphodolichol beta-mannosyltransferase (ALG1) genes as novel candidates for schizophrenia-related molecules, whose mRNAs were up-regulated in the adult (postnatal week seven), but not in the infant (postnatal week one) rats by an indirect dopamine agonist, and phencyclidine, an antagonist of the NMDA receptor.">
+		<entity id="s1.e1" charOffset="218-222"
+			type="GENE" text="ALG1" ontology_id="56052"/>
+		<entity id="s1.e2" charOffset="254-267"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To further elucidate the molecular pathophysiology of schizophrenia, we have evaluated the genetic association of WDR3 and ALG1 in schizophrenia.">
+		<entity id="s2.e1" charOffset="54-67"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="114-118"
+			type="GENE" text="WDR3" ontology_id="10885"/>
+		<entity id="s2.e3" charOffset="123-127"
+			type="GENE" text="ALG1" ontology_id="56052"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings suggest that the WDR3 gene may likely be a sensitive factor in female patients with schizophrenia, and that modification of the WDR3 signaling pathway warrants further investigation as to the pathophysiology of schizophrenia">
+		<entity id="s3.e1" charOffset="30-34"
+			type="GENE" text="WDR3" ontology_id="10885"/>
+		<entity id="s3.e2" charOffset="97-110"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Based upon the development-dependent onsets of these psychotomimetic effects, by using a DNA microarray technique, we identified the WD repeat domain 3 (WDR3) and chitobiosyldiphosphodolichol beta-mannosyltransferase (ALG1) genes as novel candidates for schizophrenia-related molecules, whose mRNAs were up-regulated in the adult (postnatal week seven), but not in the infant (postnatal week one) rats by an indirect dopamine agonist, and phencyclidine, an antagonist of the NMDA receptor.">
+		<entity id="s4.e1" charOffset="153-157"
+			type="GENE" text="WDR3" ontology_id="10885"/>
+		<entity id="s4.e2" charOffset="254-267"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

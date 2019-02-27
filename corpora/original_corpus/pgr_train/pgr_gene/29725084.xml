@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29725084">
+	<sentence id="s1" text="We found that Tctn3 KO mice exhibited abnormal global development, including prenatal lethality, microphthalmia, polysyndactyly, and abnormal head, sternum, and neural tube, whereas Tctn3 heterozygous KO mice did not show abnormal development or behaviors.">
+		<entity id="s1.e1" charOffset="14-19"
+			type="GENE" text="Tctn3" ontology_id="26123"/>
+		<entity id="s1.e2" charOffset="97-111"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e3" charOffset="133-146"
+			type="HP" text="abnormal head" ontology_id="HP_0000234"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

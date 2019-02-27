@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29307774">
+	<sentence id="s1" text="protoporphyrinogen IX metabolic process and urate metabolic process) were found to be downregulated in smokers as well as in cancer groups.">
+		<entity id="s1.e1" charOffset="0-39"
+			type="GO" text="protoporphyrinogen IX metabolic process" ontology_id="GO_0046501"/>
+		<entity id="s1.e2" charOffset="44-67"
+			type="GO" text="urate metabolic process" ontology_id="GO_0046415"/>
+		<entity id="s1.e3" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

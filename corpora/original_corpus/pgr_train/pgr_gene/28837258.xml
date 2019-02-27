@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28837258">
+	<sentence id="s1" text="Collagen type 4 alpha 1 (COL4A1) and collagen type 13 alpha 1 (COL13A1) produced by urothelial cancer cells support the vital oncogenic property of tumor invasion.">
+		<entity id="s1.e1" charOffset="25-31"
+			type="GENE" text="COL4A1" ontology_id="1282"/>
+		<entity id="s1.e2" charOffset="63-70"
+			type="GENE" text="COL13A1" ontology_id="1305"/>
+		<entity id="s1.e3" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="148-153"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We investigated the diagnostic and prognostic capability of COL4A1 and COL13A1 in voided urine and compared the observed values with those of fragments of cytokeratin-19 (CYFRA21-1), nuclear matrix protein 22 (NMP-22), and voided urine cytology in bladder cancer (BCa).">
+		<entity id="s2.e1" charOffset="60-66"
+			type="GENE" text="COL4A1" ontology_id="1282"/>
+		<entity id="s2.e2" charOffset="71-78"
+			type="GENE" text="COL13A1" ontology_id="1305"/>
+		<entity id="s2.e3" charOffset="256-262"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Among these biomarkers, the optimal cut-off value of COL4A1 + COL13A1 at 1.33 ng/mL resulted in 57.4%, 83.7%, 56.1%, 80.7%, and 91.7% sensitivity for low-grade tumors, high-grade tumors, Ta, T1, and muscle invasive disease, respectively.">
+		<entity id="s3.e1" charOffset="53-59"
+			type="GENE" text="COL4A1" ontology_id="1282"/>
+		<entity id="s3.e2" charOffset="62-69"
+			type="GENE" text="COL13A1" ontology_id="1305"/>
+		<entity id="s3.e3" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

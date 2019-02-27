@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28916652">
+	<sentence id="s1" text="Notably, genetic deletion or pharmacological inhibition of mitotic chromosome movement towards spindle pole significantly decreases tumor growth.">
+		<entity id="s1.e1" charOffset="59-107"
+			type="GO" text="mitotic chromosome movement towards spindle pole" ontology_id="GO_0007079"/>
+		<entity id="s1.e2" charOffset="132-137"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

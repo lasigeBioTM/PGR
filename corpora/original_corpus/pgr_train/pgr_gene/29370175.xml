@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29370175">
+	<sentence id="s1" text="In addition, these POU6F2 RGCs die early in the DBA/2J model of glaucoma than most RGCs.">
+		<entity id="s1.e1" charOffset="19-25"
+			type="GENE" text="POU6F2" ontology_id="11281"/>
+		<entity id="s1.e2" charOffset="48-51"
+			type="GENE" text="DBA" ontology_id="6223"/>
+		<entity id="s1.e3" charOffset="64-72"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27346687">
+	<sentence id="s1" text="They present with global BMF, and one individual developed a hematological cancer (acute myeloid leukemia) in childhood.">
+		<entity id="s1.e1" charOffset="25-28"
+			type="GENE" text="BMF" ontology_id="90427"/>
+		<entity id="s1.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Collectively, these findings demonstrate that mutations in DNAJC21 cause a cancer-prone BMF syndrome due to corruption of early nuclear rRNA biogenesis and late cytoplasmic maturation of the 60S subunit">
+		<entity id="s2.e1" charOffset="59-66"
+			type="GENE" text="DNAJC21" ontology_id="134218"/>
+		<entity id="s2.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="88-91"
+			type="GENE" text="BMF" ontology_id="90427"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

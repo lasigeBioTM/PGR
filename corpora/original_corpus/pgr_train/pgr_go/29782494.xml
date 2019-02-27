@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29782494">
+	<sentence id="s1" text="inflammatory response-null mice presented with a phenotype of OPLL, showing motor impairment, heterotopic ossification in the posterior ligament tissue, and osteoporosis in vertebrate tissue.">
+		<entity id="s1.e1" charOffset="0-21"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s1.e2" charOffset="94-118"
+			type="HP" text="heterotopic ossification" ontology_id="HP_0011986"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

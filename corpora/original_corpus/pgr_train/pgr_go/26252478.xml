@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26252478">
+	<sentence id="s1" text="In this study, we investigated the expression of the cancer/testis antigens binding of sperm to zona pellucida, biological_process and snRNA 3'-end processing in lung and breast cancer, the two most frequent human cancers, with the purpose of providing novel therapeutic targets for these diseases.">
+		<entity id="s1.e1" charOffset="53-59"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="76-110"
+			type="GO" text="binding of sperm to zona pellucida" ontology_id="GO_0007339"/>
+		<entity id="s1.e3" charOffset="112-130"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e4" charOffset="135-158"
+			type="GO" text="snRNA 3'-end processing" ontology_id="GO_0034472"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We used a negative regulation of transcription, DNA-templated of previously uncharacterized antibodies against the cancer/testis antigens binding of sperm to zona pellucida, biological_process and snRNA 3'-end processing to investigate their expression in a large panel of normal tissues as well as breast and lung cancers.">
+		<entity id="s2.e1" charOffset="10-61"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="90-124"
+			type="GO" text="binding of sperm to zona pellucida" ontology_id="GO_0007339"/>
+		<entity id="s2.e4" charOffset="126-144"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e5" charOffset="149-172"
+			type="GO" text="snRNA 3'-end processing" ontology_id="GO_0034472"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Surprisingly, we detected no binding of sperm to zona pellucida, biological_process and snRNA 3'-end processing in the 67 lung cancers (mainly non-small lung cancer) and 189 breast cancers, while MAGE-A proteins were present in 15% and 7-16% of these tumor types, respectively.">
+		<entity id="s3.e1" charOffset="29-63"
+			type="GO" text="binding of sperm to zona pellucida" ontology_id="GO_0007339"/>
+		<entity id="s3.e2" charOffset="65-83"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e3" charOffset="88-111"
+			type="GO" text="snRNA 3'-end processing" ontology_id="GO_0034472"/>
+		<entity id="s3.e4" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e5" charOffset="220-225"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e2"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e5"
+		    e2="s3.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Treatment with DNA methyltransferase inhibitors has been proposed as an attractive strategy to increase the expression of cancer/testis antigens in tumors before immunotargeting; however, neither binding of sperm to zona pellucida, biological_process nor snRNA 3'-end processing could be significantly induced in lung and breast cancer cell lines using this strategy.">
+		<entity id="s4.e1" charOffset="122-128"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="148-153"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="196-230"
+			type="GO" text="binding of sperm to zona pellucida" ontology_id="GO_0007339"/>
+		<entity id="s4.e4" charOffset="232-250"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s4.e5" charOffset="255-278"
+			type="GO" text="snRNA 3'-end processing" ontology_id="GO_0034472"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p5" e1="s4.e7"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p6" e1="s4.e7"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our results suggest that binding of sperm to zona pellucida, biological_process and snRNA 3'-end processing cancer/testis antigens are not promising targets for immunotherapy of breast and lung cancer.">
+		<entity id="s5.e1" charOffset="25-59"
+			type="GO" text="binding of sperm to zona pellucida" ontology_id="GO_0007339"/>
+		<entity id="s5.e2" charOffset="61-79"
+			type="GO" text="biological_process" ontology_id="GO_0008179"/>
+		<entity id="s5.e3" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e4" charOffset="84-107"
+			type="GO" text="snRNA 3'-end processing" ontology_id="GO_0034472"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e4"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

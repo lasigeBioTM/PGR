@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28467418">
+	<sentence id="s1" text="Our results therefore confirm the KCNC3R423H allele as causative for SCA13, through a dominant negative effect on KCNC3WT and links with EGFR that account for dominant inheritance, congenital onset, and disease pathology">
+		<entity id="s1.e1" charOffset="34-39"
+			type="GENE" text="KCNC3" ontology_id="3748"/>
+		<entity id="s1.e2" charOffset="137-141"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s1.e3" charOffset="168-179"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

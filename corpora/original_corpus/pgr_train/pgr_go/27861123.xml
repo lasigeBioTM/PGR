@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27861123">
+	<sentence id="s1" text="A third patient from a consanguineous Sudanese family diagnosed with catecholaminergic polymorphic ventricular tachycardia (CPVT) had a homozygous splice site mutation (c.331+1GAAAAA) in very long-chain fatty acid biosynthetic process Analysis of intracellular calcium ([Ca2+]i) dynamics in human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) generated from this individual (TECRLHom-hiPSCs), his heterozygous but clinically asymptomatic father (TECRLHet-hiPSCs), and a healthy individual (protein catabolic process-hiPSCs) from the same Sudanese family, revealed smaller [Ca2+]i transient amplitudes as well as elevated diastolic [Ca2+]i in TECRLHom-hiPSC-CMs compared with CTRL-hiPSC-CMs.">
+		<entity id="s1.e1" charOffset="99-122"
+			type="HP" text="ventricular tachycardia" ontology_id="HP_0004756"/>
+		<entity id="s1.e2" charOffset="187-234"
+			type="GO" text="very long-chain fatty acid biosynthetic process" ontology_id="GO_0042761"/>
+		<entity id="s1.e3" charOffset="509-534"
+			type="GO" text="protein catabolic process" ontology_id="GO_0030163"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

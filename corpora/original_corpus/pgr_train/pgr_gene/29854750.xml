@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29854750">
+	<sentence id="s1" text="To identify novel susceptibility genes and gene sets for obesity, we conducted a genomewide expression association analysis of obesity via integrating genomewide association study (GWAS) and expression quantitative trait loci (eQTLs) data.">
+		<entity id="s1.e1" charOffset="48-51"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="57-64"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The SMR single gene analysis results were further subjected to gene set enrichment analysis (GSEA) for identifying obesity associated gene sets.">
+		<entity id="s2.e1" charOffset="68-71"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e2" charOffset="115-122"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29231814">
+	<sentence id="s1" text="resolution of meiotic recombination intermediates is a DNA-biological_process response gene whose heterozygous mutations predispose to breast cancer.">
+		<entity id="s1.e1" charOffset="0-49"
+			type="GO" text="resolution of meiotic recombination intermediates" ontology_id="GO_0000712"/>
+		<entity id="s1.e2" charOffset="59-77"
+			type="GO" text="biological_process" ontology_id="GO_0008590"/>
+		<entity id="s1.e3" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

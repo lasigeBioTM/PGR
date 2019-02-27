@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28053051">
+	<sentence id="s1" text="Mutations in peripherin 2 (PRPH2), also known as retinal degeneration slow/RDS, lead to various retinal degenerations including retinitis pigmentosa (RP) and macular/pattern dystrophy (MD/PD).">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="PRPH2" ontology_id="5961"/>
+		<entity id="s1.e2" charOffset="49-69"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We asked whether ROM1 could modify the phenotype of a PRPH2 mutation associated with a high degree of intrafamilial phenotypic heterogeneity: Y141C.">
+		<entity id="s2.e1" charOffset="17-21"
+			type="GENE" text="ROM1" ontology_id="6094"/>
+		<entity id="s2.e2" charOffset="54-59"
+			type="GENE" text="PRPH2" ontology_id="5961"/>
+		<entity id="s2.e3" charOffset="127-140"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Mutations in peripherin 2 (PRPH2), also known as retinal degeneration slow/RDS, lead to various retinal degenerations including retinitis pigmentosa (RP) and macular/pattern dystrophy (MD/PD).">
+		<entity id="s3.e1" charOffset="49-69"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s3.e2" charOffset="75-78"
+			type="GENE" text="RDS" ontology_id="5961"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30025927">
+	<sentence id="s1" text="The ceRNA network indicated that lncRNA MIR194-2HG, AATBC and circRNA PGM5 could harbor bladder cancer-related microRNA (miRNA) recognition elements.">
+		<entity id="s1.e1" charOffset="70-74"
+			type="GENE" text="PGM5" ontology_id="5239"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

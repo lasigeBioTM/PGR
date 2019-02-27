@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29895129">
+	<sentence id="s1" text="Immunohistochemical method was used to examine the immunoexpression of ADAM10 and microvessel density in 80 cases of oral squamous cell carcinoma (OSCC): without metastases - OSCC M(-) (n = 38), and with metastases - OSCC M(+) (n = 42), in 24 cases of oral leukoplakia (OLK), (15 cases with low-grade dysplasia - OLK-LG, and 9 cases with high-grade dysplasia - OLK-HG), and 19 controls.">
+		<entity id="s1.e1" charOffset="71-77"
+			type="GENE" text="ADAM10" ontology_id="102"/>
+		<entity id="s1.e2" charOffset="252-268"
+			type="HP" text="oral leukoplakia" ontology_id="HP_0002745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings suggest that ADAM10 could potentially contribute to metastases of oral cancer.">
+		<entity id="s2.e1" charOffset="28-34"
+			type="GENE" text="ADAM10" ontology_id="102"/>
+		<entity id="s2.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

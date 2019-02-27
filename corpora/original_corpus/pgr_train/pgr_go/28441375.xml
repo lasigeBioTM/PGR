@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28441375">
+	<sentence id="s1" text="Immunoperoxidase levels in the tumor were positive for factor VIII and CD31 and negative for S100, protein Melan-A, CD34, synaptophysin, chromogranin, desmin, muscle specific actin, fatty acid beta-oxidation using acyl-CoA dehydrogenase (EMA), intermediate filament organization (CK20), negative regulation of transcription by RNA polymerase II, negative regulation of transcription by RNA polymerase II, negative regulation of cold-induced thermogenesis (PLAP), inhibin, ?-fetoprotein, CD30, hepatocyte paraffin, and aberrant expression of cytokeratin 7 and pankeratin.">
+		<entity id="s1.e1" charOffset="31-36"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="182-236"
+			type="GO" text="fatty acid beta-oxidation using acyl-CoA dehydrogenase" ontology_id="GO_0033539"/>
+		<entity id="s1.e3" charOffset="244-278"
+			type="GO" text="intermediate filament organization" ontology_id="GO_0045109"/>
+		<entity id="s1.e4" charOffset="287-344"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="346-403"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e6" charOffset="405-454"
+			type="GO" text="negative regulation of cold-induced thermogenesis" ontology_id="GO_0120163"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

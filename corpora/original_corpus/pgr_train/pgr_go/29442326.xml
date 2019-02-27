@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29442326">
+	<sentence id="s1" text="Clinical studies have also revealed that brain development gain of function mutations contribute to coronal craniosynostosis, a rare skull malformation.">
+		<entity id="s1.e1" charOffset="41-58"
+			type="GO" text="brain development" ontology_id="GO_0007420"/>
+		<entity id="s1.e2" charOffset="108-124"
+			type="HP" text="craniosynostosis" ontology_id="HP_0001363"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

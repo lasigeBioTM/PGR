@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29463853">
+	<sentence id="s1" text="negative regulation of systemic arterial blood pressure signalling disruption caused by establishment of planar polarity (Vangl2Lp/+) or establishment of planar polarity (Celsr1Crsh/+) mutations significantly reduced trabecular bone mass and distal tibial cortical thickness.">
+		<entity id="s1.e1" charOffset="0-55"
+			type="GO" text="negative regulation of systemic arterial blood pressure" ontology_id="GO_0003085"/>
+		<entity id="s1.e2" charOffset="88-120"
+			type="GO" text="establishment of planar polarity" ontology_id="GO_0001788"/>
+		<entity id="s1.e3" charOffset="137-169"
+			type="GO" text="establishment of planar polarity" ontology_id="GO_0001736"/>
+		<entity id="s1.e4" charOffset="190-196"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings document shared genetic networks between spina bifida risk and bone structure, including negative regulation of systemic arterial blood pressure components and visual perception.">
+		<entity id="s2.e1" charOffset="56-68"
+			type="HP" text="spina bifida" ontology_id="HP_0002414"/>
+		<entity id="s2.e2" charOffset="104-159"
+			type="GO" text="negative regulation of systemic arterial blood pressure" ontology_id="GO_0003085"/>
+		<entity id="s2.e3" charOffset="175-192"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

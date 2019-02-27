@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29030706">
+	<sentence id="s1" text="In search of novel germline alterations predisposing to tumors, in particular to gliomas, we studied a family with two brothers affected by anaplastic gliomas, and their father and paternal adenylate cyclase-activating G protein-coupled receptor signaling pathway-uncle diagnosed with prostate carcinoma.">
+		<entity id="s1.e1" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="81-87"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e3" charOffset="190-263"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this family, whole-exome sequencing yielded rare, simultaneously heterozygous variants in the Aicardi-Goutieres syndrome (AGS) genes adenosine to inosine editing and RNA catabolic process co-segregating with the tumor phenotype.">
+		<entity id="s2.e1" charOffset="136-164"
+			type="GO" text="adenosine to inosine editing" ontology_id="GO_0006382"/>
+		<entity id="s2.e2" charOffset="169-190"
+			type="GO" text="RNA catabolic process" ontology_id="GO_0006401"/>
+		<entity id="s2.e3" charOffset="202-207"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="By targeted sequencing, we identified novel adenosine to inosine editing and RNASEH2B variants, and a 3- to 17-fold frequency increase of the AGS mutations ADAR,c.577CAAAAG;p.(P193A) and RNASEH2B,c.529GAAAAA;p.(A177T) in the germline of familial glioma patients as well as in test and validation cohorts of glioblastomas and prostate carcinomas versus ethnicity-matched controls, whereby rare RNASEH2B variants were significantly more frequent in familial glioma patients.">
+		<entity id="s3.e1" charOffset="44-72"
+			type="GO" text="adenosine to inosine editing" ontology_id="GO_0006382"/>
+		<entity id="s3.e2" charOffset="246-252"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="An increased ISG expression was also induced by adenosine to inosine editing and RNA catabolic process variants in tumor cells and was blocked by the JAK inhibitor Ruxolitinib.">
+		<entity id="s4.e1" charOffset="48-76"
+			type="GO" text="adenosine to inosine editing" ontology_id="GO_0006382"/>
+		<entity id="s4.e2" charOffset="81-102"
+			type="GO" text="RNA catabolic process" ontology_id="GO_0006401"/>
+		<entity id="s4.e3" charOffset="102-107"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our data implicate rare variants in the AGS genes adenosine to inosine editing and RNA catabolic process and a type I interferon signature in glioma and prostate carcinoma risk and tumorigenesis, consistent with a genetic basis underlying inflammation-driven malignant transformation in glioma and prostate carcinoma development">
+		<entity id="s5.e1" charOffset="50-78"
+			type="GO" text="adenosine to inosine editing" ontology_id="GO_0006382"/>
+		<entity id="s5.e2" charOffset="83-104"
+			type="GO" text="RNA catabolic process" ontology_id="GO_0006401"/>
+		<entity id="s5.e3" charOffset="129-135"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s5.e4" charOffset="168-173"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e2"
+		    e2="s5.e6" pgr="false"/>
+	</sentence>
+</document>

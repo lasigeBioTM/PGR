@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29319808">
+	<sentence id="s1" text="However, because dicumarol did not affect well-known apoptosis inducers, such as anti-Fas IgG, tumor necrosis factor (TNF)-a, TNF-related apoptosis-inducing ligand, UV-B and H2O2 of HeLa cells at all, we concluded that NQO1-related intracellular reduction of CoQ, or its reduced product, ubiquinol, may participate in the apoptosis induction of HeLa cells">
+		<entity id="s1.e1" charOffset="86-89"
+			type="GENE" text="Fas" ontology_id="2194"/>
+		<entity id="s1.e2" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="118-121"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<entity id="s1.e4" charOffset="219-223"
+			type="GENE" text="NQO1" ontology_id="1728"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

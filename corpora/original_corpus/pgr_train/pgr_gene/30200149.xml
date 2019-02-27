@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30200149">
+	<sentence id="s1" text="TDP1 plays an essential role in the resistance of cancer cells to currently used antitumour drugs based on Top1 inhibitors such as topotecan and irinotecan.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="TDP1" ontology_id="55775"/>
+		<entity id="s1.e2" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="107-111"
+			type="GENE" text="Top1" ontology_id="7150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29420094">
+	<sentence id="s1" text="This study systematically reviewed previous literatures and analyzed the genotype-phenotype relationship between the multiple endocrine neoplasia type 2A (MEN 2A)-cutaneous lichen amyloidosis (CLA) and RET/OSMR/IL31RA mutations.">
+		<entity id="s1.e1" charOffset="136-145"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="202-205"
+			type="GENE" text="RET" ontology_id="5979"/>
+		<entity id="s1.e3" charOffset="211-217"
+			type="GENE" text="IL31RA" ontology_id="133396"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

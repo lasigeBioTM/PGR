@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27929028">
+	<sentence id="s1" text="Intriguingly, five CPGs showed concordance between CNL and down-regulation in 50 or more tumor samples: MTAP (216 samples), PTEN (143), MCPH1 (86), SMAD4 (63), and MINPP1 (51), which may represent the recurrent driving force for gene expression change during oncogenesis.">
+		<entity id="s1.e1" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="104-108"
+			type="GENE" text="MTAP" ontology_id="4507"/>
+		<entity id="s1.e3" charOffset="124-128"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s1.e4" charOffset="136-141"
+			type="GENE" text="MCPH1" ontology_id="79648"/>
+		<entity id="s1.e5" charOffset="148-153"
+			type="GENE" text="SMAD4" ontology_id="4089"/>
+		<entity id="s1.e6" charOffset="164-170"
+			type="GENE" text="MINPP1" ontology_id="9562"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

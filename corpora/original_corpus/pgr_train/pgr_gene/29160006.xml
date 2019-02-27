@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29160006">
+	<sentence id="s1" text="In two different patients with unilateral cryptorchidism, we found the variants rs121912556 and p.R105R of INSL3 gene in a heterozygous form associated with cryptorchidism, so we could considered them as risk factors for cryptorchidism.">
+		<entity id="s1.e1" charOffset="31-41"
+			type="HP" text="unilateral" ontology_id="HP_0012833"/>
+		<entity id="s1.e2" charOffset="42-56"
+			type="HP" text="cryptorchidism" ontology_id="HP_0000028"/>
+		<entity id="s1.e3" charOffset="107-112"
+			type="GENE" text="INSL3" ontology_id="3640"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

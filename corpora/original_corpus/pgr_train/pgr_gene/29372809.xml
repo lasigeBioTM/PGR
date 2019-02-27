@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29372809">
+	<sentence id="s1" text="A replicative analysis of associations of 15 SNPs located in the regions of 11 genes (TCF4, VRK2, NOTCH4, ZNF804A, AGBL1, RELN, ZFP64P1, KCNB2, CSMD1, CPVL, NRIP1) and three intergenic regions (SLCO6A1/LINCOO491, LOC105376248/LOC105376249, SPA17/NRGN) with schizophrenia was conducted in the Russian population of the Siberian region.">
+		<entity id="s1.e1" charOffset="86-90"
+			type="GENE" text="TCF4" ontology_id="6934"/>
+		<entity id="s1.e2" charOffset="92-96"
+			type="GENE" text="VRK2" ontology_id="7444"/>
+		<entity id="s1.e3" charOffset="98-104"
+			type="GENE" text="NOTCH4" ontology_id="4855"/>
+		<entity id="s1.e4" charOffset="106-113"
+			type="GENE" text="ZNF804A" ontology_id="91752"/>
+		<entity id="s1.e5" charOffset="115-120"
+			type="GENE" text="AGBL1" ontology_id="123624"/>
+		<entity id="s1.e6" charOffset="122-126"
+			type="GENE" text="RELN" ontology_id="5649"/>
+		<entity id="s1.e7" charOffset="137-142"
+			type="GENE" text="KCNB2" ontology_id="9312"/>
+		<entity id="s1.e8" charOffset="144-149"
+			type="GENE" text="CSMD1" ontology_id="64478"/>
+		<entity id="s1.e9" charOffset="151-155"
+			type="GENE" text="CPVL" ontology_id="54504"/>
+		<entity id="s1.e10" charOffset="157-162"
+			type="GENE" text="NRIP1" ontology_id="8204"/>
+		<entity id="s1.e11" charOffset="240-245"
+			type="GENE" text="SPA17" ontology_id="53340"/>
+		<entity id="s1.e12" charOffset="246-250"
+			type="GENE" text="NRGN" ontology_id="4900"/>
+		<entity id="s1.e13" charOffset="257-270"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e11"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e12"
+		    e2="s1.e13" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study confirmed associations of KCNB2 rs2247572, CSMD1 rs2616984, and intergenic rs12807809 located in SPA17/NRGN with schizophrenia.">
+		<entity id="s2.e1" charOffset="44-49"
+			type="GENE" text="KCNB2" ontology_id="9312"/>
+		<entity id="s2.e2" charOffset="61-66"
+			type="GENE" text="CSMD1" ontology_id="64478"/>
+		<entity id="s2.e3" charOffset="115-120"
+			type="GENE" text="SPA17" ontology_id="53340"/>
+		<entity id="s2.e4" charOffset="131-144"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

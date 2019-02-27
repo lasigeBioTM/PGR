@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30277423">
+	<sentence id="s1" text="Most instances of renal karyomegaly reported in humans represented cases of the genetic syndrome, karyomegalic interstitial nephritis, known to be caused by a mutation in the nucleotide-excision repair, DNA incision gene.">
+		<entity id="s1.e1" charOffset="111-133"
+			type="HP" text="interstitial nephritis" ontology_id="HP_0001970"/>
+		<entity id="s1.e2" charOffset="175-215"
+			type="GO" text="nucleotide-excision repair, DNA incision" ontology_id="GO_0033683"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

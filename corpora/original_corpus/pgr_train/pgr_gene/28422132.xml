@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28422132">
+	<sentence id="s1" text="16q24 deletion involving the ANKRD11 gene, ranging from 137 kb to 2 Mb, have been associated with a microdeletion syndrome characterized by variable cognitive impairment, autism spectrum disorder, facial dysmorphisms with dental anomalies, brain abnormalities essentially affecting the corpus callosum and short stature.">
+		<entity id="s1.e1" charOffset="29-36"
+			type="GENE" text="ANKRD11" ontology_id="29123"/>
+		<entity id="s1.e2" charOffset="149-169"
+			type="HP" text="cognitive impairment" ontology_id="HP_0100543"/>
+		<entity id="s1.e3" charOffset="171-177"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e4" charOffset="222-238"
+			type="HP" text="dental anomalies" ontology_id="HP_0000164"/>
+		<entity id="s1.e5" charOffset="306-319"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="On the other hand, patients carrying either deletions encompassing solely ANKRD11 or its loss-of-function variants were reported in association with the KBG syndrome, characterized by a very similar phenotype, including mild-to-moderate intellectual disability, short stature and macrodontia of upper incisors, with inter and intrafamilial variability.">
+		<entity id="s2.e1" charOffset="74-81"
+			type="GENE" text="ANKRD11" ontology_id="29123"/>
+		<entity id="s2.e2" charOffset="237-260"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="262-275"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="By comparing the clinical and genetic features of our patients with those previously reported, we show that the severity of the neurological phenotype and the frequency of congenital heart defects characterize the deletions that, besides ANKRD11, contain ZFPM1, CDH15 and ZNF778 as well.">
+		<entity id="s3.e1" charOffset="172-196"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<entity id="s3.e2" charOffset="238-245"
+			type="GENE" text="ANKRD11" ontology_id="29123"/>
+		<entity id="s3.e3" charOffset="255-260"
+			type="GENE" text="ZFPM1" ontology_id="161882"/>
+		<entity id="s3.e4" charOffset="262-267"
+			type="GENE" text="CDH15" ontology_id="1013"/>
+		<entity id="s3.e5" charOffset="272-278"
+			type="GENE" text="ZNF778" ontology_id="197320"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The single patient not deleted for ANKRD11, whose phenotype is characterized by milder psychomotor delay, cardiac congenital malformation, thrombocytopenia and astigmatism, confirms all this data">
+		<entity id="s4.e1" charOffset="35-42"
+			type="GENE" text="ANKRD11" ontology_id="29123"/>
+		<entity id="s4.e2" charOffset="87-104"
+			type="HP" text="psychomotor delay" ontology_id="HP_0001263"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29500468">
+	<sentence id="s1" text="Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL), caused by transcription initiation from RNA polymerase II promoter, primarily affects small cerebral arteries; however, stenosis of major intracranial arteries has occasionally been reported.">
+		<entity id="s1.e1" charOffset="71-90"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e2" charOffset="112-168"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recent studies identified a close association between the c.14576GAAAAA (p.R4859K, rs112735431) variant of the ring finger protein 213 (protein ubiquitination) gene and sporadic intracranial arterial stenosis (ICAS).">
+		<entity id="s2.e1" charOffset="136-158"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s2.e2" charOffset="169-177"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="191-208"
+			type="HP" text="arterial stenosis" ontology_id="HP_0100545"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

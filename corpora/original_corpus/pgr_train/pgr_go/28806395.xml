@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28806395">
+	<sentence id="s1" text="Increased RAD6 levels cause histone 2B ubiquitination-mediated epigenetic changes that stimulate transcription of stem cell genes, including oxidation-reduction process and osteoblast differentiation, leading to a cancer stem cell phenotype, which is implicated in disease recurrence and metastasis.">
+		<entity id="s1.e1" charOffset="141-168"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s1.e2" charOffset="173-199"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e3" charOffset="192-198"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

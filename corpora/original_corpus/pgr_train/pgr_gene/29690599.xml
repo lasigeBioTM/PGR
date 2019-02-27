@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29690599">
+	<sentence id="s1" text="Among all lung adenocarcinomas, the most prevalent subset develops via tumorigenesis and progression from atypical adenomatous hyperplasia (AAH) to adenocarcinoma in situ (AIS), to minimally invasive adenocarcinoma (MIA), to overt invasive adenocarcinoma with a lepidic pattern.">
+		<entity id="s1.e1" charOffset="10-29"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s1.e2" charOffset="71-76"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="216-219"
+			type="GENE" text="MIA" ontology_id="8190"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Oncogene-induced senescence appears to decrease the frequency of the multistep progression in KRAS- or BRAF-mutated adenocarcinoma, whose tumor evolution may be associated with epigenetic alterations and kinase-inactive mutations.">
+		<entity id="s2.e1" charOffset="94-98"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s2.e2" charOffset="103-107"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s2.e3" charOffset="138-143"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This review summarizes the current knowledge of tumorigenesis and tumor progression in early lung adenocarcinoma, with special focus on its clinicopathological characteristics and their associations with driver mutations (EGFR, KRAS, and BRAF) as well as on its molecular pathogenesis and progression">
+		<entity id="s3.e1" charOffset="48-53"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="93-112"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s3.e3" charOffset="222-226"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s3.e4" charOffset="228-232"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s3.e5" charOffset="238-242"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e7"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p6" e1="s3.e7"
+		    e2="s3.e6" pgr="true"/>
+	</sentence>
+</document>

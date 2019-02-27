@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28791728">
+	<sentence id="s1" text="Our analyses identified 15 CpG sites within the APC 1A promoter that were significantly hypermethylated and 14 CpG loci within the NFATC1 gene body that were significantly hypomethylated (pLIS AAAA 1 x 10-5 ) in the tumours of active smokers.">
+		<entity id="s1.e1" charOffset="48-51"
+			type="GENE" text="APC" ontology_id="324"/>
+		<entity id="s1.e2" charOffset="131-137"
+			type="GENE" text="NFATC1" ontology_id="4772"/>
+		<entity id="s1.e3" charOffset="216-222"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The APC 1A promoter was hypermethylated in 7 of 36 tumours from never-smokers (19%), 12 of 47 tumours from former smokers (26%), and 8 of 13 tumours from active smokers (62%).">
+		<entity id="s2.e1" charOffset="4-7"
+			type="GENE" text="APC" ontology_id="324"/>
+		<entity id="s2.e2" charOffset="51-57"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our findings provide exploratory evidence for hypermethylation of the key tumour suppressor gene APC being implicated in smoking-associated colorectal carcinogenesis.">
+		<entity id="s3.e1" charOffset="74-80"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="97-100"
+			type="GENE" text="APC" ontology_id="324"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

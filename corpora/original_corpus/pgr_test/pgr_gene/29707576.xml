@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29707576">
+	<sentence id="s1" text="Here we established a mutation detection system based on multiple fluorescent probe technique, which can detect and genotype nine hotspot mutations of four prominent hearing loss-related genes in two reactions on a four-channel real-time PCR instrument, including GJB2 (rs750188782, rs80338943, rs1110333204, and rs80338939), GJB3 (rs74315319), SLC26A4 (rs111033313 and rs121908362), and mtDNA 12S rRNA (rs267606617 and rs267606619).">
+		<entity id="s1.e1" charOffset="166-178"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="345-352"
+			type="GENE" text="SLC26A4" ontology_id="5172"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

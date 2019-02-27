@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28178522">
+	<sentence id="s1" text="Here, we demonstrate that MNK sustains mTORC1 activity following rapamycin treatment and contributes to mTORC1 signaling following T cell activation and growth stimuli in cancer cells.">
+		<entity id="s1.e1" charOffset="39-43"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s1.e2" charOffset="171-177"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

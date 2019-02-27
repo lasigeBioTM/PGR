@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29229763">
+	<sentence id="s1" text="The MKK1/2 kinase tumour progression locus 2 (TPL-2) is critical for the production of tumour necrosis factor alpha (TNFa) in innate immune responses and a potential anti-inflammatory drug target.">
+		<entity id="s1.e1" charOffset="18-24"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="46-51"
+			type="GENE" text="TPL-2" ontology_id="1326"/>
+		<entity id="s1.e3" charOffset="117-120"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

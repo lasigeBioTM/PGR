@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29159987">
+	<sentence id="s1" text="Disruption of MED13L, encoding a component of the Mediator complex, is increasingly recognized as the cause of an intellectual disability syndrome with associated facial dysmorphism.">
+		<entity id="s1.e1" charOffset="14-20"
+			type="GENE" text="MED13L" ontology_id="23389"/>
+		<entity id="s1.e2" charOffset="114-137"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="163-181"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

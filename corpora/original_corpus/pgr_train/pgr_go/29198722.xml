@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29198722">
+	<sentence id="s1" text="A recurrent de novo missense variant within the C-terminal Sin3-like domain of regulation of axon guidance was previously reported to cause acromelic frontonasal dysostosis (AFND), an autosomal-dominant severe frontonasal and limb malformation syndrome, associated with neurocognitive and motor delay, via a proposed gain-of-function effect.">
+		<entity id="s1.e1" charOffset="79-106"
+			type="GO" text="regulation of axon guidance" ontology_id="GO_1902667"/>
+		<entity id="s1.e2" charOffset="289-300"
+			type="HP" text="motor delay" ontology_id="HP_0001270"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We present detailed phenotypic information on seven unrelated individuals with a recurrent de novo nonsense variant (c.2737CAAAAT [p.Arg913Ter]) in the penultimate exon of regulation of axon guidance who have severe-profound intellectual disability and additional central and peripheral nervous system symptoms but an absence of frontonasal or limb malformations.">
+		<entity id="s2.e1" charOffset="172-199"
+			type="GO" text="regulation of axon guidance" ontology_id="GO_1902667"/>
+		<entity id="s2.e2" charOffset="225-248"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29345289">
+	<sentence id="s1" text="The use of recombinant human erythropoietin (defense response to bacterium) has consistently been shown to reduce the need for blood transfusions and to increase hemoglobin levels in lung cancer patients with chemotherapy-induced anemia.">
+		<entity id="s1.e1" charOffset="45-74"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<entity id="s1.e2" charOffset="188-194"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, clinical and preclinical studies have prompted concerns that defense response to bacterium and the presence of its receptor, EpoR, in tumor cells may be responsible for adverse effects and, eventually, death.">
+		<entity id="s2.e1" charOffset="70-99"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<entity id="s2.e2" charOffset="143-148"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The question has been raised whether defense response to bacterium promotes tumor growth and inhibits the death of cancer cells.">
+		<entity id="s3.e1" charOffset="37-66"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<entity id="s3.e2" charOffset="76-81"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Since the protein expression of both defense response to bacterium and EpoR is induced by hypoxia, which is frequently present in lung cancer, the cells were treated with Epo under both normoxic and hypoxic conditions (1% O2).">
+		<entity id="s4.e1" charOffset="37-66"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<entity id="s4.e2" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="By using quantitative (real-time) PCR, western blot analysis, and immunocytochemical staining, three non-small cell lung cancer (NSCLC) cell lines (A427, A549 and NCI-H358) were analyzed for the expression of defense response to bacteriumR and its specific downstream signaling pathways [Janus kinase 2 (positive regulation of cell-substrate adhesion)-signal transducer and activator of transcription 5 (STAT5), phosphatidylinositol-3-kinase (PI3K)-positive regulation of protein phosphorylation, mitogen-activated protein (MAP) kinase].">
+		<entity id="s5.e1" charOffset="121-127"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="209-238"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<entity id="s5.e3" charOffset="304-350"
+			type="GO" text="positive regulation of cell-substrate adhesion" ontology_id="GO_0010811"/>
+		<entity id="s5.e4" charOffset="449-495"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="While defense response to bacterium markedly enhanced the proliferation and reduced apoptosis of Epo-dependent UT-7/Epo leukemia cells, it did not affect tumor cell proliferation or the cisplatin-induced apoptosis of NSCLC cells.">
+		<entity id="s6.e1" charOffset="6-35"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<entity id="s6.e2" charOffset="154-159"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Thus, this in vitro study suggests that there are no tumor-promoting effects of defense response to bacterium in the NSCLC cell lines studied, neither under normoxic nor under hypoxic conditions">
+		<entity id="s7.e1" charOffset="53-58"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s7.e2" charOffset="80-109"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28587997">
+	<sentence id="s1" text="Patients with adult-onset NCL may present with slowly progressive ataxia, persistent photosensitivity, and seizures without dementia or extrapyramidal findings.">
+		<entity id="s1.e1" charOffset="26-29"
+			type="GENE" text="NCL" ontology_id="4691"/>
+		<entity id="s1.e2" charOffset="107-115"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

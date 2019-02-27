@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29034544">
+	<sentence id="s1" text="SPG56 is a rare autosomal recessive early onnegative regulation of transcription, DNA-templated complicated form of HSP caused by mutations in CYP2U1.">
+		<entity id="s1.e1" charOffset="16-35"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="44-95"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

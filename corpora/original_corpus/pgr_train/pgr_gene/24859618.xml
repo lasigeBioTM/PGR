@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24859618">
+	<sentence id="s1" text="In severe bilateral cases (anophthalmia or severe microphthalmia) the genetic cause is now identifiable in approximately 80 percent of cases, with de novo heterozygous loss-of-function mutations in SOX2 or OTX2 being the most common.">
+		<entity id="s1.e1" charOffset="27-39"
+			type="HP" text="anophthalmia" ontology_id="HP_0000528"/>
+		<entity id="s1.e2" charOffset="50-64"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e3" charOffset="198-202"
+			type="GENE" text="SOX2" ontology_id="6657"/>
+		<entity id="s1.e4" charOffset="206-210"
+			type="GENE" text="OTX2" ontology_id="5015"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

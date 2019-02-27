@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30200102">
+	<sentence id="s1" text="This study aimed to assess the effect of long noncoding RNAs (lncRNAs) taurine-upregulated gene 1 (TUG1) on cells proliferation and apoptosis as well as its targeting genes in epithelial ovarian cancer (EOC) cells.Blank mimic, lncRNA TUG1 mimic, blank inhibitor, and lncRNA TUG1 inhibitor plasmids were transfected into SK-OV-3 (SKOV3) cells.">
+		<entity id="s1.e1" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="320-322"
+			type="GENE" text="SK" ontology_id="22943"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

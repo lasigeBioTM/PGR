@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29393426">
+	<sentence id="s1" text="Thus, our data indicate that in pancreatic cancer cells, the expression of positive regulation of protein phosphorylation may be controlled by a pathway mediated by transforming growth factor beta receptor signaling pathway.">
+		<entity id="s1.e1" charOffset="43-49"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="75-121"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="165-223"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, positive regulation of protein phosphorylation was found to be related to the spheroid-forming ability of cells and to be involved in the invasive capacity of pancreatic cancer cells">
+		<entity id="s2.e1" charOffset="13-59"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s2.e2" charOffset="183-189"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

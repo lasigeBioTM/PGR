@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27296073">
+	<sentence id="s1" text="Evidence is accumulating to suggest that mutations in the Ankyrin and SOCS Box-containing protein-10 (post-translational protein modification) gene are associated with glaucoma.">
+		<entity id="s1.e1" charOffset="102-141"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s1.e2" charOffset="168-176"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Since its identification in a large Oregon family with primary open-angle glaucoma (POAG), post-translational protein modification variants have been associated with disease in US, German and Pakistani cohorts.">
+		<entity id="s2.e1" charOffset="74-82"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s2.e2" charOffset="91-130"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In this publication, we will review the literature that supports identification of post-translational protein modification as a glaucoma-associated gene and the current knowledge of the function of the ASB10 protein.">
+		<entity id="s3.e1" charOffset="83-122"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s3.e2" charOffset="128-136"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In addition, we present new data that indicates post-translational protein modification expression is up-regulated by the inflammatory cytokines tumor necrosis factor-a and interleukin-1a.">
+		<entity id="s4.e1" charOffset="48-87"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s4.e2" charOffset="145-150"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

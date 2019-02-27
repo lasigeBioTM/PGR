@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29538454">
+	<sentence id="s1" text="Here, we identify tumor-associated calcium signal transducer 2 (TACSTD2), one of the most downregulated genes in primary HCC tissue, as a host factor that interacts with CLDN1 and OCLN and regulates their cellular localization.">
+		<entity id="s1.e1" charOffset="18-23"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="64-71"
+			type="GENE" text="TACSTD2" ontology_id="4070"/>
+		<entity id="s1.e3" charOffset="170-175"
+			type="GENE" text="CLDN1" ontology_id="9076"/>
+		<entity id="s1.e4" charOffset="180-184"
+			type="GENE" text="OCLN" ontology_id="100506658"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28488682">
+	<sentence id="s1" text="To date variants in four genes negative regulation of transcription by RNA polymerase II, limb morphogenesis, biological_process and anatomical structure morphogenesis have been implicated in developing non-syndromic form of polydactyly.">
+		<entity id="s1.e1" charOffset="31-88"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="90-108"
+			type="GO" text="limb morphogenesis" ontology_id="GO_0035108"/>
+		<entity id="s1.e3" charOffset="110-128"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e4" charOffset="133-167"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<entity id="s1.e5" charOffset="172-183"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="A homozygous splice acceptor site variant (c.395-1GAAAAA) was identified in the limb morphogenesis gene, which completely co-segregated with post-axial polydactyly phenotype within the family.">
+		<entity id="s2.e1" charOffset="80-98"
+			type="GO" text="limb morphogenesis" ontology_id="GO_0035108"/>
+		<entity id="s2.e2" charOffset="146-151"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<entity id="s2.e3" charOffset="152-163"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

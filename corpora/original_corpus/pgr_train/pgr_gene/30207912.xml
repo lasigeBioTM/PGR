@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30207912">
+	<sentence id="s1" text="Drosophila mutants that were null for an orthologue of BRCA2 were sterile, and gonadal dysgenesis was present in both sexes.">
+		<entity id="s1.e1" charOffset="55-60"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s1.e2" charOffset="79-97"
+			type="HP" text="gonadal dysgenesis" ontology_id="HP_0000133"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29102476">
+	<sentence id="s1" text="Mutations in the cyclin F gene (CCNF) have been recently identified in a small number of patients with amyotrophic lateral sclerosis (ALS) and/or frontotemporal dementia, and their role in patients with ALS in Taiwan remains elusive.">
+		<entity id="s1.e1" charOffset="32-36"
+			type="GENE" text="CCNF" ontology_id="899"/>
+		<entity id="s1.e2" charOffset="146-169"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Two novel heterozygous missense mutations in CCNF, p.S222P (c.664TAAAAC) and p.S532R (c.1596CAAAAT), were identified; 1 in each patient with apparently sporadic ALS.">
+		<entity id="s2.e1" charOffset="45-49"
+			type="GENE" text="CCNF" ontology_id="899"/>
+		<entity id="s2.e2" charOffset="152-160"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

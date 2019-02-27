@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29668584">
+	<sentence id="s1" text="This similarity was revealed by the same number of passages, the same germ cell clusters formation and similar level of genes expression of spermatogonial markers including ubiquitin carboxyl-terminal esterase L1 (protein deubiquitination), zinc finger and BTB domain containing 16 (negative regulation of transcription by RNA polymerase II) and glial cell line-derived neurotrophic factor family receptor alpha 1 (nervous system development), as well as germ cell differentiation markers including signal transducer and activator of transcription 3 (regulation of transcription, DNA-templated), spermatogenesis and oogenesis specific basic helix-loophelix 2 (spermatogenesis), v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog (activation of MAPK activity) and synaptonemal complex protein 3 (spermatogenesis, exchange of chromosomal proteins).">
+		<entity id="s1.e1" charOffset="214-238"
+			type="GO" text="protein deubiquitination" ontology_id="GO_0016579"/>
+		<entity id="s1.e2" charOffset="283-340"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="415-441"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s1.e4" charOffset="551-593"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e5" charOffset="591-598"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e6" charOffset="623-638"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<entity id="s1.e7" charOffset="704-731"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e8" charOffset="769-818"
+			type="GO" text="spermatogenesis, exchange of chromosomal proteins" ontology_id="GO_0035093"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

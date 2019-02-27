@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28712849">
+	<sentence id="s1" text="Depletion of positive regulation of cell death and GSALDH in humans leads to hyperprolinemia, which is associated with mental disorders such as schizophrenia.">
+		<entity id="s1.e1" charOffset="13-46"
+			type="GO" text="positive regulation of cell death" ontology_id="GO_0010942"/>
+		<entity id="s1.e2" charOffset="77-92"
+			type="HP" text="hyperprolinemia" ontology_id="HP_0008358"/>
+		<entity id="s1.e3" charOffset="144-157"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

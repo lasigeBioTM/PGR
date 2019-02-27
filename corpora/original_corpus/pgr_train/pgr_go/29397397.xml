@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29397397">
+	<sentence id="s1" text="An inverse correlation between the expression levels of human posttranscriptional regulation of gene expression and negative regulation of translation and E-integrin-mediated signaling pathway was observed in several cancer cell lines.">
+		<entity id="s1.e1" charOffset="62-111"
+			type="GO" text="posttranscriptional regulation of gene expression" ontology_id="GO_0010608"/>
+		<entity id="s1.e2" charOffset="116-150"
+			type="GO" text="negative regulation of translation" ontology_id="GO_0017148"/>
+		<entity id="s1.e3" charOffset="157-192"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<entity id="s1.e4" charOffset="162-168"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Loss of E-integrin-mediated signaling pathway, an important cell-cell adhesion protein, contributes to tumor invasion and metastasis.">
+		<entity id="s2.e1" charOffset="10-45"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<entity id="s2.e2" charOffset="103-108"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overexpression of negative regulation of translation induces epithelial-mesenchymal transition in lung cancer cell lines partly by repressing E-integrin-mediated signaling pathway.">
+		<entity id="s3.e1" charOffset="18-52"
+			type="GO" text="negative regulation of translation" ontology_id="GO_0017148"/>
+		<entity id="s3.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="144-179"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

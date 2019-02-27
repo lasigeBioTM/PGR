@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29112861">
+	<sentence id="s1" text="Although disruption of the CDKN2A (INK4A/ARF) locus has been reported in end-stage disease, information is lacking on the status of this key tumor suppressor gene in pleural lesions preceding mesothelioma.">
+		<entity id="s1.e1" charOffset="27-33"
+			type="GENE" text="CDKN2A" ontology_id="1029"/>
+		<entity id="s1.e2" charOffset="141-146"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We show that hypermethylation of p16/Ink4a and p19/Arf in CNT- and asbestos-induced inflammatory lesions precedes mesothelioma; this results in silencing of Cdkn2a (Ink4a/Arf) and loss of p16 and p19 protein, consistent with epigenetic alterations playing a gatekeeper role in cancer.">
+		<entity id="s2.e1" charOffset="33-36"
+			type="GENE" text="p16" ontology_id="1029"/>
+		<entity id="s2.e2" charOffset="37-42"
+			type="GENE" text="Ink4a" ontology_id="1029"/>
+		<entity id="s2.e3" charOffset="47-50"
+			type="GENE" text="p19" ontology_id="51561"/>
+		<entity id="s2.e4" charOffset="51-54"
+			type="GENE" text="Arf" ontology_id="1029"/>
+		<entity id="s2.e5" charOffset="277-283"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+</document>

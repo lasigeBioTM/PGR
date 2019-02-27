@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28965760">
+	<sentence id="s1" text="The transcription factor positive regulation of transcription by RNA polymerase II is a master regulator of the cellular antioxidant response, and it is often genetically activated in non-small-cell lung cancers (NSCLCs) by, for instance, mutations in the negative regulator KEAP1.">
+		<entity id="s1.e1" charOffset="25-82"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="204-210"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

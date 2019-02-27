@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29577047">
+	<sentence id="s1" text="The canonical Hippo tumor suppressor pathway in mammalian cells is primarily composed of the cell morphogenesis/2-SAV1-LATS1/2-MOB1-regulation of cell cycle/positive regulation of cell proliferation cascade.">
+		<entity id="s1.e1" charOffset="20-25"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="93-111"
+			type="GO" text="cell morphogenesis" ontology_id="GO_0000902"/>
+		<entity id="s1.e3" charOffset="132-156"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s1.e4" charOffset="136-177"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

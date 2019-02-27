@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29668584">
+	<sentence id="s1" text="This similarity was revealed by the same number of passages, the same germ cell clusters formation and similar level of genes expression of spermatogonial markers including ubiquitin carboxyl-terminal esterase L1 (UCHL1), zinc finger and BTB domain containing 16 (ZBTB16) and glial cell line-derived neurotrophic factor family receptor alpha 1 (GFRA1), as well as germ cell differentiation markers including signal transducer and activator of transcription 3 (STAT3), spermatogenesis and oogenesis specific basic helix-loophelix 2 (SOHLH2), v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog (KIT) and synaptonemal complex protein 3 (SYCP3).">
+		<entity id="s1.e1" charOffset="214-219"
+			type="GENE" text="UCHL1" ontology_id="7345"/>
+		<entity id="s1.e2" charOffset="264-270"
+			type="GENE" text="ZBTB16" ontology_id="7704"/>
+		<entity id="s1.e3" charOffset="345-350"
+			type="GENE" text="GFRA1" ontology_id="2674"/>
+		<entity id="s1.e4" charOffset="460-465"
+			type="GENE" text="STAT3" ontology_id="6774"/>
+		<entity id="s1.e5" charOffset="532-538"
+			type="GENE" text="SOHLH2" ontology_id="54937"/>
+		<entity id="s1.e6" charOffset="572-579"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e7" charOffset="604-607"
+			type="GENE" text="KIT" ontology_id="3815"/>
+		<entity id="s1.e8" charOffset="645-650"
+			type="GENE" text="SYCP3" ontology_id="50511"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

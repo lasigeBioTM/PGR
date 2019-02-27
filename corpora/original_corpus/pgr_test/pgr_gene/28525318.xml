@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28525318">
+	<sentence id="s1" text="The results indicated that compared with the adjacent non-tumor tissues and a normal gastric epithelial cell line, gastric cancer tissues and cell lines exhibited significantly higher expression of CUL4B.">
+		<entity id="s1.e1" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="198-203"
+			type="GENE" text="CUL4B" ontology_id="8450"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

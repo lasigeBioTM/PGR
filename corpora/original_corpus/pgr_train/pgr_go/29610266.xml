@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29610266">
+	<sentence id="s1" text="Heterozygous negative regulation of transcription by RNA polymerase IIH/+ females showed no obvious abnormalities before pregnancy, but when mated with wild-type (WT) males developed a full spectrum of preeclampsia-like phenotypes, including increased systolic blood pressure, proteinuria, glomerular endotheliosis, and intrauterine fetal growth restriction.">
+		<entity id="s1.e1" charOffset="13-70"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="277-288"
+			type="HP" text="proteinuria" ontology_id="HP_0000093"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

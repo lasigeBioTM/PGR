@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29280744">
+	<sentence id="s1" text="Traditionally, idiopathic hypogonadotropic hypogonadism (IHH) is divided into two major categories: Kallmann syndrome (KS) and normosmic IHH (nIHH).">
+		<entity id="s1.e1" charOffset="43-55"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<entity id="s1.e2" charOffset="57-60"
+			type="GENE" text="IHH" ontology_id="3549"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In a clinical sense, recognizing those IHH genes and associated phenotypes may improve our diagnostic capabilities by enabling us to prioritize the screening of particular gene(s) such as synkinesia (ANOS1), dental agenesis (FGF8/FGFR1) and hearing loss (CHD7).">
+		<entity id="s2.e1" charOffset="39-42"
+			type="GENE" text="IHH" ontology_id="3549"/>
+		<entity id="s2.e2" charOffset="200-205"
+			type="GENE" text="ANOS1" ontology_id="3730"/>
+		<entity id="s2.e3" charOffset="208-223"
+			type="HP" text="dental agenesis" ontology_id="HP_0000674"/>
+		<entity id="s2.e4" charOffset="241-253"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e5" charOffset="255-259"
+			type="GENE" text="CHD7" ontology_id="55636"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e8"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

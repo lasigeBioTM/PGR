@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29763465">
+	<sentence id="s1" text="We have already reported that protein polyubiquitination mRNA levels are higher in breast cancer samples compared to adjacent non-tumor tissue.">
+		<entity id="s1.e1" charOffset="30-56"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study we extend these findings by demonstrating that the mRNA levels of protein polyubiquitination and regulation of tumor necrosis factor-mediated signaling pathway are also higher in tumors compared to adjacent non-tumor tissue in the same cross sectional study of samples (p AAAA 0.001).">
+		<entity id="s2.e1" charOffset="80-106"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="111-173"
+			type="GO" text="regulation of tumor necrosis factor-mediated signaling pathway" ontology_id="GO_0010803"/>
+		<entity id="s2.e3" charOffset="138-143"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, we investigated whether there is an association between the mRNA and protein expression levels of protein polyubiquitination, protein polyubiquitination and regulation of tumor necrosis factor-mediated signaling pathway and clinicopathological parameters including estrogen receptor (ER), progesterone receptor (PR) and human epidermal growth factor receptor (HER2) status and found that RNF31 protein is significantly higher in ERalpha-negative tumors than ERalpha-positive tumors (p = 0.034).">
+		<entity id="s3.e1" charOffset="111-137"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="139-165"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e3" charOffset="170-232"
+			type="GO" text="regulation of tumor necrosis factor-mediated signaling pathway" ontology_id="GO_0010803"/>
+		<entity id="s3.e4" charOffset="383-388"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Collectively, our findings indicate that up-regulated mRNA expression of protein polyubiquitination, protein polyubiquitination and regulation of tumor necrosis factor-mediated signaling pathway could potentially be diagnostic biomarkers of breast cancer and RNF31 might be a drug target for ERalpha-negative breast cancers">
+		<entity id="s4.e1" charOffset="73-99"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e2" charOffset="80-106"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e3" charOffset="132-194"
+			type="GO" text="regulation of tumor necrosis factor-mediated signaling pathway" ontology_id="GO_0010803"/>
+		<entity id="s4.e4" charOffset="172-178"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

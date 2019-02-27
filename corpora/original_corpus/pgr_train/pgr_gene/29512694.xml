@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29512694">
+	<sentence id="s1" text="In addition, the analysis of upstream miRNAs showed that FOXF1 adjacent non-coding developmental regulatory RNA (FENDRR) had common upstream miRNAs, including miR-18b-5p, with another 119 differentially expressed genes, and that FENDRR was co-expressed with adenomatosis polyposis coli downregulated 1 (APCDD1) and v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog (KIT).">
+		<entity id="s1.e1" charOffset="38-41"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="303-309"
+			type="GENE" text="APCDD1" ontology_id="147495"/>
+		<entity id="s1.e3" charOffset="317-320"
+			type="GENE" text="kit" ontology_id="3815"/>
+		<entity id="s1.e4" charOffset="346-353"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e5" charOffset="378-381"
+			type="GENE" text="KIT" ontology_id="3815"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30029010">
+	<sentence id="s1" text="Kaposi*s sarcoma (KS)-associated herpesvirus (KSHV) vFLIP, a latent gene of KSHV, was first identified as a FLICE-inhibitory protein (FLIP) protecting cells from apoptosis.">
+		<entity id="s1.e1" charOffset="9-16"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="108-113"
+			type="GENE" text="FLICE" ontology_id="841"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The vFLIP protein has been shown to activate the NF-kB signaling involved in spindle morphology formation both in HUVECs infected with KSHV and Kaposi*s sarcoma (KS) itself.">
+		<entity id="s2.e1" charOffset="49-51"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s2.e2" charOffset="153-160"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

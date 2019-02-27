@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28349680">
+	<sentence id="s1" text="Mutations, A147T and A165V, within the ZM of sarcomere organization-LDex10 cause myofibrillar myopathy, but the mechanism is unknown.">
+		<entity id="s1.e1" charOffset="45-67"
+			type="GO" text="sarcomere organization" ontology_id="GO_0045214"/>
+		<entity id="s1.e2" charOffset="94-102"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

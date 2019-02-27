@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29016863">
+	<sentence id="s1" text="Our findings enlarge the spectrum of tubulinopathies and emphasize that mutations of microtubule cytoskeleton organization should be considered in patients with congenital non-progressive facial palsy.">
+		<entity id="s1.e1" charOffset="85-122"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<entity id="s1.e2" charOffset="188-200"
+			type="HP" text="facial palsy" ontology_id="HP_0010628"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

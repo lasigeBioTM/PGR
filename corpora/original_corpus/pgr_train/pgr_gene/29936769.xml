@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29936769">
+	<sentence id="s1" text="Methods: Fourteen haplotype-tagging single nucleotide polymorphisms (htSNPs) of MLH1, MLH3 and MSH2 genes were genotyped by Sequenom MassARRAY method in 146 patients with locally advanced rectal cancer who received preoperative chemoradiotherapy.">
+		<entity id="s1.e1" charOffset="80-84"
+			type="GENE" text="MLH1" ontology_id="4292"/>
+		<entity id="s1.e2" charOffset="86-90"
+			type="GENE" text="MLH3" ontology_id="27030"/>
+		<entity id="s1.e3" charOffset="95-99"
+			type="GENE" text="MSH2" ontology_id="4436"/>
+		<entity id="s1.e4" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Meanwhile, MLH3 rs175057 CAAAAT locus was also associated with longer overall survival time in locally advanced rectal cancer (HR=0.44, 95% CI: 0.20-0.96, P=0.038), whereas MSH2 rs3771273 TAAAAA, rs10188090 AAAAAG and rs10191478 TAAAAG loci were associated with shorter overall survival time (HR=1.74, 95% CI: 1.06-2.84, P=0.028; HR=1.64, 95% CI: 1.01-2.66, P=0.046; HR=1.71, 95% CI: 1.01-2.91, P=0.047, respectively).">
+		<entity id="s2.e1" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="173-177"
+			type="GENE" text="MSH2" ontology_id="4436"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Conclusions: Genetic polymorphisms of MLH3 rs175057 and MSH2 rs13019654 loci can predict the nCRT response, while MLH3 rs175057 as well as MSH2 rs3771273, rs10188090 and rs10191478 may predict prognosis in patients with locally advanced rectal cancer who received preoperative chemoradiotherapy.">
+		<entity id="s3.e1" charOffset="38-42"
+			type="GENE" text="MLH3" ontology_id="27030"/>
+		<entity id="s3.e2" charOffset="56-60"
+			type="GENE" text="MSH2" ontology_id="4436"/>
+		<entity id="s3.e3" charOffset="244-250"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

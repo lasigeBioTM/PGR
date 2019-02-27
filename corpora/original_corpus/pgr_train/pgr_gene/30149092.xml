@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30149092">
+	<sentence id="s1" text="Haploinsufficiency of the chromatin remodeling factor ARID1B leads to autism spectrum disorder and intellectual disability.">
+		<entity id="s1.e1" charOffset="54-60"
+			type="GENE" text="ARID1B" ontology_id="57492"/>
+		<entity id="s1.e2" charOffset="70-76"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e3" charOffset="99-122"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Several independent research groups, including our own, recently examined the effects of heterozygous deletion of Arid1b in mice and reported severe behavioral abnormalities reminiscent of autism spectrum disorders and intellectual disability as well as marked changes in gene expression and decreased body size.">
+		<entity id="s2.e1" charOffset="114-120"
+			type="GENE" text="Arid1b" ontology_id="57492"/>
+		<entity id="s2.e2" charOffset="189-195"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s2.e3" charOffset="219-242"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

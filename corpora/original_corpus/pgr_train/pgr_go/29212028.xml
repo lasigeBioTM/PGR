@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29212028">
+	<sentence id="s1" text="Canonical osteoblast differentiation-dependent Hedgehog signaling is a negative regulator of WNT signaling in normal intestine and intestinal tumors.">
+		<entity id="s1.e1" charOffset="10-36"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e2" charOffset="142-147"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

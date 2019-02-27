@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30087366">
+	<sentence id="s1" text="Here we show that MED1, a Mediator subunit in the Middle module of Mediator complex, is overexpressed in breast cancer and is a negative prognostic factor.">
+		<entity id="s1.e1" charOffset="18-22"
+			type="GENE" text="MED1" ontology_id="8930"/>
+		<entity id="s1.e2" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MED1 mediates induction of cell proliferation and migration and the genes associated with it (JUN, FOS, EGFR, VEGF, MMP1, and ERBB4) in breast cancer, which is abrogated when used together with miR-191-inhibition.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="MED1" ontology_id="8930"/>
+		<entity id="s2.e2" charOffset="94-97"
+			type="GENE" text="JUN" ontology_id="3725"/>
+		<entity id="s2.e3" charOffset="99-102"
+			type="GENE" text="FOS" ontology_id="2353"/>
+		<entity id="s2.e4" charOffset="104-108"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s2.e5" charOffset="126-131"
+			type="GENE" text="ERBB4" ontology_id="2066"/>
+		<entity id="s2.e6" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e7" charOffset="194-197"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e6"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e4"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overall, the results show that MED1/ER-a/miR-191 axis promotes breast cancer cell proliferation and migration and may serve as a novel target for therapy">
+		<entity id="s3.e1" charOffset="31-35"
+			type="GENE" text="MED1" ontology_id="8930"/>
+		<entity id="s3.e2" charOffset="41-44"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e3" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

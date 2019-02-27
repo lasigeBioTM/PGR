@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29777306">
+	<sentence id="s1" text="The positive regulation of transcription by RNA polymerase II gene plays a critical role as an oncogene in diverse tumors.">
+		<entity id="s1.e1" charOffset="4-61"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="115-120"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the functional role of positive regulation of transcription by RNA polymerase II and the mechanism regulating HOXB1 expression in glioma are not fully understood.">
+		<entity id="s2.e1" charOffset="32-89"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="139-145"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A preliminary bioinformatics analysis showed that positive regulation of transcription by RNA polymerase II is ectopically expressed in glioma, and that HOXB1 is a possible target of protein polyubiquitination-3175.">
+		<entity id="s3.e1" charOffset="50-107"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e2" charOffset="136-142"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e3" charOffset="183-209"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In this study, we investigated the function of positive regulation of transcription by RNA polymerase II and the relationship between HOXB1 and protein polyubiquitination-3175 in glioma.">
+		<entity id="s4.e1" charOffset="47-104"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s4.e2" charOffset="144-170"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e3" charOffset="156-162"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We show that positive regulation of transcription by RNA polymerase II expression is significantly downregulated in glioma tissues and cell lines, and that its expression may be closely associated with the degree of malignancy.">
+		<entity id="s5.e1" charOffset="13-70"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s5.e2" charOffset="116-122"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Reduced positive regulation of transcription by RNA polymerase II expression promoted the proliferation and invasion of glioma cells, and inhibited their apoptosis in vitro, and the downregulation of HOXB1 was also associated with worse survival in glioma patients.">
+		<entity id="s6.e1" charOffset="8-65"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s6.e2" charOffset="120-126"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="The downregulated expression of protein polyubiquitination-3175 inhibited cell proliferation and invasion, and promoted apoptosis in glioma.">
+		<entity id="s7.e1" charOffset="32-58"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s7.e2" charOffset="133-139"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="The oncogenicity induced by low positive regulation of transcription by RNA polymerase II expression was prevented by an protein polyubiquitination-3175 inhibitor in glioma cells.">
+		<entity id="s8.e1" charOffset="32-89"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s8.e2" charOffset="121-147"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s8.e3" charOffset="143-149"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e3" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e2"
+		    e2="s8.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s9" text="Our results suggest that positive regulation of transcription by RNA polymerase II functions as a tumor suppressor, regulated by protein polyubiquitination-3175 in glioma.">
+		<entity id="s9.e1" charOffset="25-82"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s9.e2" charOffset="98-103"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s9.e3" charOffset="129-155"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s9.e4" charOffset="141-147"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e4" pgr="false"/>
+		<pair id="s9.p2" e1="s9.e3"
+		    e2="s9.e4" pgr="false"/>
+		<pair id="s9.p3" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+	</sentence>
+</document>

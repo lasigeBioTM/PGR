@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29656462">
+	<sentence id="s1" text="CNNM2 and NT5C2 are genes recently identified as susceptibility genes for schizophrenia in Europeans, but the exact mechanism by which these genes confer risk for schizophrenia remains unknown.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="CNNM2" ontology_id="54805"/>
+		<entity id="s1.e2" charOffset="74-87"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we examined the potential for genetic susceptibility to schizophrenia of a three-gene cluster region, AS3MT-CNNM2-NT5C2.">
+		<entity id="s2.e1" charOffset="71-84"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="117-122"
+			type="GENE" text="AS3MT" ontology_id="57412"/>
+		<entity id="s2.e3" charOffset="123-128"
+			type="GENE" text="CNNM2" ontology_id="54805"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further haplotype and imputation analyses also validated these results, and bioinformatics analyses indicated that CALHM1, which is located approximately 630kb away from CNNM2, might be a susceptible gene for schizophrenia.">
+		<entity id="s3.e1" charOffset="115-121"
+			type="GENE" text="CALHM1" ontology_id="255022"/>
+		<entity id="s3.e2" charOffset="170-175"
+			type="GENE" text="CNNM2" ontology_id="54805"/>
+		<entity id="s3.e3" charOffset="209-222"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our results provide further support that AS3MT, CNNM2 and CALHM1 are involved with the etiology and pathogenesis of schizophrenia, suggesting these genes are potential targets of interest for the improvement of disease management and the development of novel pharmacological strategies">
+		<entity id="s4.e1" charOffset="41-46"
+			type="GENE" text="AS3MT" ontology_id="57412"/>
+		<entity id="s4.e2" charOffset="48-53"
+			type="GENE" text="CNNM2" ontology_id="54805"/>
+		<entity id="s4.e3" charOffset="58-64"
+			type="GENE" text="CALHM1" ontology_id="255022"/>
+		<entity id="s4.e4" charOffset="116-129"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

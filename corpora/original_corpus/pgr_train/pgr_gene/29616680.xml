@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29616680">
+	<sentence id="s1" text="BACKGROUND HSP60-related immunological activities are found in normal-pressure glaucoma (NPG) patients, in whom an elevated intraocular pressure (IOP) found in primary open-angle glaucoma (POAG) is not observed.">
+		<entity id="s1.e1" charOffset="11-16"
+			type="GENE" text="HSP60" ontology_id="3329"/>
+		<entity id="s1.e2" charOffset="79-87"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

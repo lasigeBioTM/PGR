@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27977773">
+	<sentence id="s1" text="Our work confirms that the phenotype and the mode of inheritance associated with GNAT1 variants can vary from autosomal dominant, autosomal recessive congenital stationary night blindness to autosomal recessive rod-cone dystrophy">
+		<entity id="s1.e1" charOffset="45-64"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<entity id="s1.e2" charOffset="81-86"
+			type="GENE" text="GNAT1" ontology_id="2779"/>
+		<entity id="s1.e3" charOffset="130-149"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="178-187"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

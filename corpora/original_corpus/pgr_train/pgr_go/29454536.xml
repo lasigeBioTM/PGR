@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29454536">
+	<sentence id="s1" text="This review highlights recent advances in understanding how the epidermal cell differentiation-positive regulation of gene expression axis modulates cell differentiation and proliferation in human keratinocytes, hair follicles, and benign or malignant skin tumors including squamous cell carcinoma and malignant melanoma.">
+		<entity id="s1.e1" charOffset="64-94"
+			type="GO" text="epidermal cell differentiation" ontology_id="GO_0009913"/>
+		<entity id="s1.e2" charOffset="95-133"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e3" charOffset="241-264"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e4" charOffset="269-287"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29792983">
+	<sentence id="s1" text="Hermansky-Pudlak syndrome (HPS), first described in 1959, is a rare form of syndromic oculocutaneous albinism associated with bleeding diathesis and in some cases pulmonary fibrosis and granulomatous colitis.">
+		<entity id="s1.e1" charOffset="27-30"
+			type="GENE" text="HPS" ontology_id="3257"/>
+		<entity id="s1.e2" charOffset="101-109"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="HPS-5 therefore appears as a mild form of HPS, which is often clinically undistinguishable from mild oculocutaneous or ocular forms of albinism.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="HPS" ontology_id="3257"/>
+		<entity id="s2.e2" charOffset="135-143"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

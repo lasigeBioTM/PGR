@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29420561">
+	<sentence id="s1" text="However, in HaCaT and HEK293T cells that display transformed phenotypes, but do not originate from patient-derived tumors, the ER stress-inducing treatments resulted in an upregulation of FAM129A and HKDC1, but not KRT16 transcripts, By a luciferase reporter approach we identified a highly active ATF4-responsive element within the upstream region of the KRT16 gene.">
+		<entity id="s1.e1" charOffset="115-120"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="188-195"
+			type="GENE" text="FAM129A" ontology_id="116496"/>
+		<entity id="s1.e3" charOffset="200-205"
+			type="GENE" text="HKDC1" ontology_id="80201"/>
+		<entity id="s1.e4" charOffset="215-220"
+			type="GENE" text="KRT16" ontology_id="3868"/>
+		<entity id="s1.e5" charOffset="298-302"
+			type="GENE" text="ATF4" ontology_id="468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results suggest a conditional regulation of KRT16 gene by ATF4 that may be inhibited in normal cells, but engaged during cancer progression.">
+		<entity id="s2.e1" charOffset="48-53"
+			type="GENE" text="KRT16" ontology_id="3868"/>
+		<entity id="s2.e2" charOffset="62-66"
+			type="GENE" text="ATF4" ontology_id="468"/>
+		<entity id="s2.e3" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

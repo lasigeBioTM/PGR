@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29483676">
+	<sentence id="s1" text="Prolyl endopeptidase-like (PREPL) deficiency (MIM# 616224) is a rare autosomal recessive inherited congenital myasthenic syndrome characterized by neonatal hypotonia, feeding problems, mild dysmorphism, and neuromuscular symptoms, followed by hyperphagia and obesity in later childhood.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="PREPL" ontology_id="9581"/>
+		<entity id="s1.e2" charOffset="69-88"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="167-183"
+			type="HP" text="feeding problems" ontology_id="HP_0011968"/>
+		<entity id="s1.e4" charOffset="185-189"
+			type="HP" text="mild" ontology_id="HP_0012825"/>
+		<entity id="s1.e5" charOffset="243-254"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<entity id="s1.e6" charOffset="259-266"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

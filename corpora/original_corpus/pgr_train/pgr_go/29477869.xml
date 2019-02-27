@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29477869">
+	<sentence id="s1" text="In this study, we investigated the functional role of BKCa in endometrial cancer establishment of mitotic spindle orientation-1-B cells.">
+		<entity id="s1.e1" charOffset="74-80"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="81-125"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In summary, these data suggested an important role of BKCa in proliferation and migration of endometrial cancer establishment of mitotic spindle orientation-1-B cells.">
+		<entity id="s2.e1" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="112-156"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

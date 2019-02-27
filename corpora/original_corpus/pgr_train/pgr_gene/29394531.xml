@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29394531">
+	<sentence id="s1" text="The esophagorespiratory fistula(ERF)is a fatal complication ofesophageal cancer, because ofadvanced oncological status and poor conditions due to pneumonia and/or malnutrition.We report here a case of patient who was successfully treated for esophageal cancer with ERF with multimodality therapy including three-stage operation.">
+		<entity id="s1.e1" charOffset="32-35"
+			type="GENE" text="ERF" ontology_id="2107"/>
+		<entity id="s1.e2" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="146-155"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In previous reports, a total of 6 cases have been performed esophagectomy for esophageal cancer with ERF in Japan.">
+		<entity id="s2.e1" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="101-104"
+			type="GENE" text="ERF" ontology_id="2107"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This multimodality therapy can be one ofthe best strategies for the patients ofesophageal cancer with ERF, even ifthey have poor condition">
+		<entity id="s3.e1" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="102-105"
+			type="GENE" text="ERF" ontology_id="2107"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

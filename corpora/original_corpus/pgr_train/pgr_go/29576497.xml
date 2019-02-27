@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29576497">
+	<sentence id="s1" text="With a feature selection algorithm, we selected a panel of five urinary biomarkers (intracellular sequestering of iron ion: Ferritin light chain; biological_process: Mitogen-Activated Protein Kinase 1 Interacting Protein 1 Like; cell-matrix adhesion: Fibrinogen Beta Chain; regulation of cell growth: RAB33B, Member RAS Oncogene Family; positive regulation of regulated secretory pathway: RAB15, Member RAS Oncogene Family) and established a combinatorial model that can correctly classify the majority of lung cancer cases both in the training negative regulation of transcription, DNA-templated (n=46) and the test sets (n=14-47 per set) with an AUC ranging from 0.8747 to 0.9853.">
+		<entity id="s1.e1" charOffset="84-122"
+			type="GO" text="intracellular sequestering of iron ion" ontology_id="GO_0006880"/>
+		<entity id="s1.e2" charOffset="146-164"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e3" charOffset="229-249"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e4" charOffset="274-299"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e5" charOffset="337-387"
+			type="GO" text="positive regulation of regulated secretory pathway" ontology_id="GO_1903387"/>
+		<entity id="s1.e6" charOffset="421-427"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e7" charOffset="545-596"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The biomarker panel and the predictive model, when validated by more samples in a multi-center negative regulation of transcription, DNA-templatedting, may be used as an auxiliary diagnostic tool along with imaging technology for lung cancer detection">
+		<entity id="s2.e1" charOffset="95-146"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e2" charOffset="235-241"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

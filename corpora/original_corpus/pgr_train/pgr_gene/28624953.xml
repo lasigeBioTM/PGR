@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28624953">
+	<sentence id="s1" text="Silver-Russell Syndrome (SRS) is clinically heterogeneous disorder characterized by low birth weight, postnatal growth restriction, and variable dysmorphic features.">
+		<entity id="s1.e1" charOffset="44-57"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="119-123"
+			type="GENE" text="rest" ontology_id="5978"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

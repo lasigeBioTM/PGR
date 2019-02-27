@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28681861">
+	<sentence id="s1" text="We characterize MYMK-CFZS as a congenital myopathy with marked facial weakness and additional clinical and pathologic features that distinguish it from other congenital neuromuscular syndromes.">
+		<entity id="s1.e1" charOffset="16-20"
+			type="GENE" text="MYMK" ontology_id="389827"/>
+		<entity id="s1.e2" charOffset="63-78"
+			type="HP" text="facial weakness" ontology_id="HP_0030319"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

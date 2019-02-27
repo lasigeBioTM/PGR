@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29273914">
+	<sentence id="s1" text="t(12;22)(p13;q12) is a rare but recurrent chromosomal abnormality involving the ETS transcription factor negative regulation of transcription by RNA polymerase II and meningioma 1 (MN1) genes.">
+		<entity id="s1.e1" charOffset="105-162"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="167-177"
+			type="HP" text="meningioma" ontology_id="HP_0002858"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

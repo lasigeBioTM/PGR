@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29397868">
+	<sentence id="s1" text="From the integrative analysis of the transcriptome and clinicopathologic data of human multi-stage HCC tissues, we were able to identify barrier-to-autointegration factor 1 (BANF1), procollagen-lysine, 2-oxoglutarate 5-dioxygenase 3 (peptidyl-lysine hydroxylation) and splicing factor 3b subunit 4 (SF3B4) as early HCC biomarkers which could be detected in precancerous lesions of HCC, with superior capabilities to diagnose eHCC compared to the currently popular HCC diagnostic biomarkers: GPC3, GS, and HSP70.">
+		<entity id="s1.e1" charOffset="234-263"
+			type="GO" text="peptidyl-lysine hydroxylation" ontology_id="GO_0017185"/>
+		<entity id="s1.e2" charOffset="360-366"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

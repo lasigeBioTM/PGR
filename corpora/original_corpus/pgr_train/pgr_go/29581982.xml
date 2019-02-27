@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29581982">
+	<sentence id="s1" text="Furthermore, in cultured human BMSCs, TGF-a stimulated production of procancer cytokines including IL-6, VEGF, activation of MAPK activity, MAPK cascade, and TGF-protein localization to cilium in a dose-dependent manner.">
+		<entity id="s1.e1" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="111-138"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e3" charOffset="140-152"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e4" charOffset="162-192"
+			type="GO" text="protein localization to cilium" ontology_id="GO_0061512"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

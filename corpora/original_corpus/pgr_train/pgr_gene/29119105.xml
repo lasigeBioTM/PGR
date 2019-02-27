@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29119105">
+	<sentence id="s1" text="Mutations in genes involved in the biosynthesis of the glycosylphosphatidylinositol (GPI) anchor cause autosomal recessive glycosylation defects, with a wide phenotypic spectrum of intellectual disability, seizures, minor facial dysmorphism, hypotonia, and elevated serum alkaline phosphatase.">
+		<entity id="s1.e1" charOffset="85-88"
+			type="GENE" text="GPI" ontology_id="10007"/>
+		<entity id="s1.e2" charOffset="206-214"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="222-240"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

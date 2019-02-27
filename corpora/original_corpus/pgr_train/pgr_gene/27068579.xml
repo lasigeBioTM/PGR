@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27068579">
+	<sentence id="s1" text="Although there are nearly 100 different causative genes identified for nonsyndromic hearing loss (NSHL), Sanger sequencing-based DNA diagnostics usually only analyses three, namely, GJB2, SLC26A4, and OTOF.">
+		<entity id="s1.e1" charOffset="84-96"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="182-186"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e3" charOffset="188-195"
+			type="GENE" text="SLC26A4" ontology_id="5172"/>
+		<entity id="s1.e4" charOffset="201-205"
+			type="GENE" text="OTOF" ontology_id="9381"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

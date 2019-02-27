@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29050118">
+	<sentence id="s1" text="Result: Three mutant genes (PTPN11 gene in chromosome 12, RIT1 gene in chromosome 1 and RAF1 gene in chromosome 3) in five cases all had been reported to be related to hypertrophic cardiomyopathy.">
+		<entity id="s1.e1" charOffset="28-34"
+			type="GENE" text="PTPN11" ontology_id="5781"/>
+		<entity id="s1.e2" charOffset="58-62"
+			type="GENE" text="RIT1" ontology_id="6016"/>
+		<entity id="s1.e3" charOffset="88-92"
+			type="GENE" text="RAF1" ontology_id="5894"/>
+		<entity id="s1.e4" charOffset="181-195"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The reported hypertrophic cardiomyopathy relevant genes MYPN, MYH6 and MYBP3 had also been found in case 1 and 2.">
+		<entity id="s2.e1" charOffset="26-40"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e2" charOffset="56-60"
+			type="GENE" text="MYPN" ontology_id="84665"/>
+		<entity id="s2.e3" charOffset="62-66"
+			type="GENE" text="MYH6" ontology_id="4624"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

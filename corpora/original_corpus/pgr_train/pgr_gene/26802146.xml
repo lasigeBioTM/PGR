@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26802146">
+	<sentence id="s1" text="Retinitis pigmentosa (RP) describes a group of inherited retinopathies that are characterized by the progressive degeneration of photoreceptor neurons, which causes night blindness, a reduction in the peripheral visual field and decreased visual acuity.">
+		<entity id="s1.e1" charOffset="22-24"
+			type="GENE" text="RP" ontology_id="100287745"/>
+		<entity id="s1.e2" charOffset="171-180"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we analysed a Chinese family with autosomal recessive RP.">
+		<entity id="s2.e1" charOffset="56-75"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="76-78"
+			type="GENE" text="RP" ontology_id="100287745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

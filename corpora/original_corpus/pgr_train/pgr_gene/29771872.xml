@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29771872">
+	<sentence id="s1" text="Among the 363 outbreaks with a confirmed infectious etiology, 212 (58%) were caused by Cryptosporidium (which causes predominantly gastrointestinal illness), 57 (16%) by Legionella (which causes Legionnaires* disease, a severe pneumonia, and Pontiac fever, a milder illness with flu-like symptoms), and 47 (13%) by Pseudomonas (which causes folliculitis [AAAAAAhot tub rashAAAAAA] and otitis externa [AAAAAAswimmers* earAAAAAA]).">
+		<entity id="s1.e1" charOffset="227-236"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<entity id="s1.e2" charOffset="365-368"
+			type="GENE" text="tub" ontology_id="7275"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

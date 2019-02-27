@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29483533">
+	<sentence id="s1" text="Sherlock integrative analysis shows that endosomal transport, biological_process, and positive regulation of pathway-restricted SMAD protein phosphorylation are schizophrenia risk genes, which are validated using independent brain expression quantitative trait loci (eQTL) data and integrative analysis method (SMR).">
+		<entity id="s1.e1" charOffset="41-60"
+			type="GO" text="endosomal transport" ontology_id="GO_0016197"/>
+		<entity id="s1.e2" charOffset="62-80"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e3" charOffset="85-98"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e4" charOffset="86-156"
+			type="GO" text="positive regulation of pathway-restricted SMAD protein phosphorylation" ontology_id="GO_0010862"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

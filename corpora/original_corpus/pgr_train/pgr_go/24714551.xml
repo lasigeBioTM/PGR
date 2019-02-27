@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24714551">
+	<sentence id="s1" text="Heterozygous intermediate filament cytoskeleton organization mutations have previously been associated with autosomal dominant woolly hair/hypotrichosis simplex (ADWH).">
+		<entity id="s1.e1" charOffset="13-60"
+			type="GO" text="intermediate filament cytoskeleton organization" ontology_id="GO_0045104"/>
+		<entity id="s1.e2" charOffset="139-152"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

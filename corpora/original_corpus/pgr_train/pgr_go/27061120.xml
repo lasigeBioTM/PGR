@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27061120">
+	<sentence id="s1" text="We report a boy with intellectual disability carrying two de novo missense mutations in the last exon of positive regulation of glycolytic process (Ser616Phe and Gly741Arg; both previously unreported).">
+		<entity id="s1.e1" charOffset="21-44"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="105-146"
+			type="GO" text="positive regulation of glycolytic process" ontology_id="GO_0045821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

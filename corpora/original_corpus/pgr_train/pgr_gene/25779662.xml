@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25779662">
+	<sentence id="s1" text="Here we developed a novel whole-body insertional mutagenesis screen in mice, which was designed for the discovery of Pten-cooperating tumor suppressors.">
+		<entity id="s1.e1" charOffset="117-121"
+			type="GENE" text="Pten" ontology_id="5728"/>
+		<entity id="s1.e2" charOffset="134-139"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We validated ZBTB20, CELF2, PARD3, AKAP13 and WAC, which were identified by our screens in multiple cancer types, as new tumor suppressor genes in prostate cancer.">
+		<entity id="s2.e1" charOffset="13-19"
+			type="GENE" text="ZBTB20" ontology_id="26137"/>
+		<entity id="s2.e2" charOffset="21-26"
+			type="GENE" text="CELF2" ontology_id="10659"/>
+		<entity id="s2.e3" charOffset="28-33"
+			type="GENE" text="PARD3" ontology_id="56288"/>
+		<entity id="s2.e4" charOffset="35-41"
+			type="GENE" text="AKAP13" ontology_id="11214"/>
+		<entity id="s2.e5" charOffset="46-49"
+			type="GENE" text="WAC" ontology_id="51322"/>
+		<entity id="s2.e6" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e7" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e5"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e4"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e4"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study identified complex PTEN-cooperating tumor suppressor networks in different cancer types, with potential clinical implications">
+		<entity id="s3.e1" charOffset="29-33"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s3.e2" charOffset="46-51"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We validated ZBTB20, CELF2, PARD3, AKAP13 and WAC, which were identified by our screens in multiple cancer types, as new tumor suppressor genes in prostate cancer.">
+		<entity id="s4.e1" charOffset="35-41"
+			type="GENE" text="AKAP13" ontology_id="11214"/>
+		<entity id="s4.e2" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28707022">
+	<sentence id="s1" text="Furthermore, with an increasing number of pathogenic mutations leading to epilepsy and hearing loss being discovered in the TLDc protein TBC1D24, understanding the function of this family has important implications for a range of inherited neurological diseases">
+		<entity id="s1.e1" charOffset="74-82"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="87-99"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="137-144"
+			type="GENE" text="TBC1D24" ontology_id="57465"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

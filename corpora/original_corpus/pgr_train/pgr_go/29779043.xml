@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29779043">
+	<sentence id="s1" text="Single nucleotide polymorphisms in negative regulation of transcription by RNA polymerase II genes have been associated with increased risk of several diseases, including type 1 and type 2 diabetes, glaucoma, and neurological disorders.">
+		<entity id="s1.e1" charOffset="35-92"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="199-207"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

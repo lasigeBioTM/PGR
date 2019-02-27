@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27749845">
+	<sentence id="s1" text="Oral and pharyngeal cancers combined were associated with loci at 6p21.32 (rs3828805, immunoglobulin production involved in immunoglobulin mediated immune response), 10q26.13 (rs201982221, phosphate-containing compound metabolic process) and 11p15.4 (rs1453414, G protein-coupled receptor signaling pathway-TRIM5).">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="86-163"
+			type="GO" text="immunoglobulin production involved in immunoglobulin mediated immune response" ontology_id="GO_0002381"/>
+		<entity id="s1.e3" charOffset="189-236"
+			type="GO" text="phosphate-containing compound metabolic process" ontology_id="GO_0006796"/>
+		<entity id="s1.e4" charOffset="262-306"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Oral cancer was associated with two new regions, 2p23.3 (rs6547741, biological_process) and 9q34.12 (rs928674, extracellular matrix organization), and with known cancer-related loci-9p21.3 (rs8181047, regulation of cyclin-dependent protein serine/threonine kinase activity-AS1) and 5p15.33 (rs10462706, apoptotic process).">
+		<entity id="s2.e1" charOffset="5-11"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="68-86"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e3" charOffset="111-144"
+			type="GO" text="extracellular matrix organization" ontology_id="GO_0030198"/>
+		<entity id="s2.e4" charOffset="201-272"
+			type="GO" text="regulation of cyclin-dependent protein serine/threonine kinase activity" ontology_id="GO_0000079"/>
+		<entity id="s2.e5" charOffset="303-320"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Oropharyngeal cancer associations were limited to the human leukocyte antigen (HLA) region, and classical HLA allele imputation showed a protective association with the class II haplotype HLA-DRB1*1301-HLA-DQA1*0103-immunoglobulin production involved in immunoglobulin mediated immune response*0603 (odds ratio (OR) = 0.59, P = 2.7 x 10-9).">
+		<entity id="s3.e1" charOffset="14-20"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="216-293"
+			type="GO" text="immunoglobulin production involved in immunoglobulin mediated immune response" ontology_id="GO_0002381"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

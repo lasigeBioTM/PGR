@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29491688">
+	<sentence id="s1" text="Synovial sarcoma (SS) is genetically characterized by chromosomal translocation, which generates SYT-SSX fusion transcripts.">
+		<entity id="s1.e1" charOffset="9-16"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="97-100"
+			type="GENE" text="SYT" ontology_id="6760"/>
+		<entity id="s1.e3" charOffset="101-104"
+			type="GENE" text="SSX" ontology_id="6757"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

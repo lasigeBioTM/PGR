@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29844165">
+	<sentence id="s1" text="PEPCK-M (PCK2), the mitochondrial isoform of phosphoenolpyruvate carboxykinase (PEPCK), has been shown by us and others to be functionally expressed and to mediate gluconeogenesis, the reverse pathway of glycolysis, in different cancer cells.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="PEPCK" ontology_id="5106"/>
+		<entity id="s1.e2" charOffset="229-235"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

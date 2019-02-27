@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29394249">
+	<sentence id="s1" text="Our results demonstrate extensively overlapping functions between the Hsregulation of tumor necrosis factor-mediated signaling pathway and CeCYLD, which establish the C. elegans protein as a valuable model for the elucidation of the complex activity of the human tumor suppressor protein">
+		<entity id="s1.e1" charOffset="72-134"
+			type="GO" text="regulation of tumor necrosis factor-mediated signaling pathway" ontology_id="GO_0010803"/>
+		<entity id="s1.e2" charOffset="263-268"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

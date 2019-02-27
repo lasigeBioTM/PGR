@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28736820">
+	<sentence id="s1" text="Variants in the endoplasmic reticulum organization gene have been repeatedly described as the second most frequent cause of hereditary spastic paraplegia (HSP), a motor neuron disease manifested by progressive lower limb spasticity and weakness.">
+		<entity id="s1.e1" charOffset="16-50"
+			type="GO" text="endoplasmic reticulum organization" ontology_id="GO_0007029"/>
+		<entity id="s1.e2" charOffset="221-231"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28905882">
+	<sentence id="s1" text="Subsequently, we tested a cohort of 19 individuals with (mild) features of BMKS and 17 individuals with isolated choanal atresia for causative variants in TXNL4A by dideoxy-sequence analysis.">
+		<entity id="s1.e1" charOffset="113-128"
+			type="HP" text="choanal atresia" ontology_id="HP_0000453"/>
+		<entity id="s1.e2" charOffset="155-161"
+			type="GENE" text="TXNL4A" ontology_id="10907"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

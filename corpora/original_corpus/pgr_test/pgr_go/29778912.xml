@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29778912">
+	<sentence id="s1" text="From a GeneMatcher-enabled international collaboration, we identified ten individuals affected by intellectual disability, speech delay, ataxia, and facial dysmorphism and carrying a deleterious positive regulation of transcription, DNA-templated variant detected by whole-exome sequencing.">
+		<entity id="s1.e1" charOffset="137-143"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="195-246"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

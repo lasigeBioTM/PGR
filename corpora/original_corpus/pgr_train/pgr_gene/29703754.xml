@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29703754">
+	<sentence id="s1" text="To explore the complementary behaviors of KIF15 and Eg5, we also scored the effects of small-molecule inhibitors on admixtures of both motors, using both a microtubule (MT)-gliding assay and an assay for cancer cell viability.">
+		<entity id="s1.e1" charOffset="42-47"
+			type="GENE" text="KIF15" ontology_id="56992"/>
+		<entity id="s1.e2" charOffset="204-210"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that (i) KIF15 motility differs significantly from Eg5; (ii) KIF15-IN-1 is a potent inhibitor of KIF15 motility; (iii) MT gliding powered by KIF15 and Eg5 only ceases when both motors are inhibited; and (iv) pairing KIF15-IN-1 with Eg5 inhibitors synergistically reduces cancer cell growth.">
+		<entity id="s2.e1" charOffset="18-23"
+			type="GENE" text="KIF15" ontology_id="56992"/>
+		<entity id="s2.e2" charOffset="280-286"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

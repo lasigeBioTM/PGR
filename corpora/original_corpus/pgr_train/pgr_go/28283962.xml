@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28283962">
+	<sentence id="s1" text="We here review the current knowledge and recent findings in the known genes for isolated dystonia protein homooligomerization, negative regulation of transcription by RNA polymerase II, and adenylate cyclase-modulating G protein-coupled receptor signaling pathway as well as for the combined dystonias due to mutations in tetrahydrobiopterin biosynthetic process, cellular sodium ion homeostasis, and skeletal muscle tissue development.">
+		<entity id="s1.e1" charOffset="89-97"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s1.e2" charOffset="98-125"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<entity id="s1.e3" charOffset="127-184"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="190-263"
+			type="GO" text="adenylate cyclase-modulating G protein-coupled receptor signaling pathway" ontology_id="GO_0007188"/>
+		<entity id="s1.e5" charOffset="322-362"
+			type="GO" text="tetrahydrobiopterin biosynthetic process" ontology_id="GO_0006729"/>
+		<entity id="s1.e6" charOffset="364-395"
+			type="GO" text="cellular sodium ion homeostasis" ontology_id="GO_0006883"/>
+		<entity id="s1.e7" charOffset="401-435"
+			type="GO" text="skeletal muscle tissue development" ontology_id="GO_0007519"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We present confirmatory evidence for a role of dystonia genes that had not yet been unequivocally established including production of siRNA involved in RNA interference, negative regulation of microtubule polymerization, ion transmembrane transport, and protein polyubiquitination.">
+		<entity id="s2.e1" charOffset="47-55"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s2.e2" charOffset="120-168"
+			type="GO" text="production of siRNA involved in RNA interference" ontology_id="GO_0030422"/>
+		<entity id="s2.e3" charOffset="170-219"
+			type="GO" text="negative regulation of microtubule polymerization" ontology_id="GO_0031115"/>
+		<entity id="s2.e4" charOffset="221-248"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s2.e5" charOffset="254-280"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We finally discuss selected novel genes for dystonia such as histone H3-K4 methylation and phosphatidylinositol biosynthetic process along with the challenges for gene identification in the NGS era and the translational importance of dystonia genetics in clinical practice">
+		<entity id="s3.e1" charOffset="44-52"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s3.e2" charOffset="61-86"
+			type="GO" text="histone H3-K4 methylation" ontology_id="GO_0051568"/>
+		<entity id="s3.e3" charOffset="91-132"
+			type="GO" text="phosphatidylinositol biosynthetic process" ontology_id="GO_0006661"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

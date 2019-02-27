@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28931725">
+	<sentence id="s1" text="We hope that our study will stimulate further studies and a new targeted therapy and early medical intervention for YAP/TAZ could be a useful option for breast cancer cases complicated with LKB1 deficiency">
+		<entity id="s1.e1" charOffset="120-123"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s1.e2" charOffset="160-166"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28917830">
+	<sentence id="s1" text="Al-Awadi-Raas-Rothschild syndrome (AARRS; OMIM 276820) is a very rare autosomal recessive limb malformation syndrome caused by regulation of presynapse assembly mutations.">
+		<entity id="s1.e1" charOffset="70-89"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="127-160"
+			type="GO" text="regulation of presynapse assembly" ontology_id="GO_1905606"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Whole exome sequencing of the patient and his parents ruled out mutations in 11 known hypodontia-associated genes including canonical Wnt signaling pathway, cell morphogenesis, positive regulation of NF-kappaB transcription factor activity, EDAR, EDARADD, PAX9, cellular protein localization, embryonic body morphogenesis, NEMO, signal transduction, and negative regulation of transcription by RNA polymerase II.">
+		<entity id="s2.e1" charOffset="86-96"
+			type="HP" text="hypodontia" ontology_id="HP_0000668"/>
+		<entity id="s2.e2" charOffset="124-155"
+			type="GO" text="canonical Wnt signaling pathway" ontology_id="GO_0060070"/>
+		<entity id="s2.e3" charOffset="157-175"
+			type="GO" text="cell morphogenesis" ontology_id="GO_0000902"/>
+		<entity id="s2.e4" charOffset="177-239"
+			type="GO" text="positive regulation of NF-kappaB transcription factor activity" ontology_id="GO_0051092"/>
+		<entity id="s2.e5" charOffset="262-291"
+			type="GO" text="cellular protein localization" ontology_id="GO_0034613"/>
+		<entity id="s2.e6" charOffset="293-321"
+			type="GO" text="embryonic body morphogenesis" ontology_id="GO_0010172"/>
+		<entity id="s2.e7" charOffset="329-348"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s2.e8" charOffset="354-411"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="All lines of evidence suggest that regulation of presynapse assembly has important role in tooth development and its mutation may lead to tooth agenesis, microdontia, and taurodontism.">
+		<entity id="s3.e1" charOffset="35-68"
+			type="GO" text="regulation of presynapse assembly" ontology_id="GO_1905606"/>
+		<entity id="s3.e2" charOffset="154-165"
+			type="HP" text="microdontia" ontology_id="HP_0000691"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

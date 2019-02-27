@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30225353">
+	<sentence id="s1" text="Leucine-rich glioma-inactivated protein 1 (axon guidance) is a secreted neuronal protein and a Nogo receptor 1 (cytokine-mediated signaling pathway) ligand.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e2" charOffset="43-56"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s1.e3" charOffset="112-147"
+			type="GO" text="cytokine-mediated signaling pathway" ontology_id="GO_0019221"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in axon guidance in humans causes autosomal dominant lateral temporal lobe epilepsy and homozygous deletion of axon guidance in mice results in severe epileptic seizures that cause early postnatal death.">
+		<entity id="s2.e1" charOffset="13-26"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s2.e2" charOffset="85-93"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="162-170"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="regulation of modification of postsynaptic actin cytoskeleton activity is significantly increased in cortical cultures derived from axon guidance null mice and using a reconstituted system; we show directly that LGI1 antagonizes cytokine-mediated signaling pathway-tumor necrosis factor receptor orphan Y (TROY) signaling.">
+		<entity id="s3.e1" charOffset="0-61"
+			type="GO" text="regulation of modification of postsynaptic actin cytoskeleton" ontology_id="GO_1905274"/>
+		<entity id="s3.e2" charOffset="75-88"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s3.e3" charOffset="177-182"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="229-264"
+			type="GO" text="cytokine-mediated signaling pathway" ontology_id="GO_0019221"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e4"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

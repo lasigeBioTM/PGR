@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27132593">
+	<sentence id="s1" text="Here we report six affected individuals from four families with intellectual disability (ID) and neurological and other congenital abnormalities associated with compound heterozygous variants in regulation of TOR signaling.">
+		<entity id="s1.e1" charOffset="64-87"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="195-222"
+			type="GO" text="regulation of TOR signaling" ontology_id="GO_0032006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

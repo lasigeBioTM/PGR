@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29048676">
+	<sentence id="s1" text="Thus, our data indicate that in pancreatic cancer cells, the expression of ENG may be controlled by a pathway mediated by SMAD4.">
+		<entity id="s1.e1" charOffset="43-49"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="122-127"
+			type="GENE" text="SMAD4" ontology_id="4089"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, ENG was found to be related to the spheroid-forming ability of cells and to be involved in the invasive capacity of pancreatic cancer cells">
+		<entity id="s2.e1" charOffset="13-16"
+			type="GENE" text="ENG" ontology_id="2022"/>
+		<entity id="s2.e2" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Thus, our data indicate that in pancreatic cancer cells, the expression of ENG may be controlled by a pathway mediated by SMAD4.">
+		<entity id="s3.e1" charOffset="43-49"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="75-78"
+			type="GENE" text="ENG" ontology_id="2022"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

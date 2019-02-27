@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29051371">
+	<sentence id="s1" text="Codeletion of Adrb2 and Cox10, a gene encoding a cytochrome IV oxidase assembly factor, prevented the metabolic shift induced by Adrb2 deletion and rescued prostate cancer progression.">
+		<entity id="s1.e1" charOffset="14-19"
+			type="GENE" text="Adrb2" ontology_id="154"/>
+		<entity id="s1.e2" charOffset="24-29"
+			type="GENE" text="Cox10" ontology_id="1352"/>
+		<entity id="s1.e3" charOffset="165-171"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

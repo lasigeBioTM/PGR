@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28820624">
+	<sentence id="s1" text="The PCH1sub-types with early death (between ages 1 day and 17 months), seen in patients with p.G31A/rRNA processing or mitochondrial membrane fission mutations have a spliceosomal snRNP assembly type 1-like clinical presentation but with global developmental delay, visual and hearing impairment, with or without microcephaly, nystagmus and optic atrophy.">
+		<entity id="s1.e1" charOffset="100-115"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s1.e2" charOffset="119-149"
+			type="GO" text="mitochondrial membrane fission" ontology_id="GO_0090149"/>
+		<entity id="s1.e3" charOffset="167-194"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<entity id="s1.e4" charOffset="199-218"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e5" charOffset="231-249"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s1.e6" charOffset="267-279"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e7" charOffset="295-308"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e2"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e5"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e5"
+		    e2="s1.e20" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations with milder presentation (homozygous p.D132A/rRNA processing or protein phosphorylation) may display additionally signs of upper motor neuron impairment, dystonia or ataxia and die at age between 5 and 18 years.">
+		<entity id="s2.e1" charOffset="55-70"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s2.e2" charOffset="74-97"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e3" charOffset="157-163"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Other rRNA processing mutations and exonucleolytic trimming to generate mature 3'-end of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) cases are intermediate - spliceosomal snRNP assembly type 1-like presentation, spasticity (mostly in EXOSC8) and death between 3 months and 5 years.">
+		<entity id="s3.e1" charOffset="6-21"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s3.e2" charOffset="36-164"
+			type="GO" text="exonucleolytic trimming to generate mature 3'-end of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)" ontology_id="GO_0000467"/>
+		<entity id="s3.e3" charOffset="68-95"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<entity id="s3.e4" charOffset="98-108"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

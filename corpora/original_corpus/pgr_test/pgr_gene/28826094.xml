@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28826094">
+	<sentence id="s1" text="We also emphasized that the ERK and AKT signaling pathways were the mechanisms underlying the inhibitory effect of HCRP1 on glioma cells.">
+		<entity id="s1.e1" charOffset="28-31"
+			type="GENE" text="ERK" ontology_id="2048"/>
+		<entity id="s1.e2" charOffset="124-130"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26593267">
+	<sentence id="s1" text="Autosomal-recessive optic neuropathies are rare blinding conditions related to retinal ganglion cell (RGC) and optic-nerve degeneration, for which only mutations in optic nerve development and tricarboxylic acid cycle are known.">
+		<entity id="s1.e1" charOffset="111-135"
+			type="HP" text="optic-nerve degeneration" ontology_id="HP_0000648"/>
+		<entity id="s1.e2" charOffset="165-188"
+			type="GO" text="optic nerve development" ontology_id="GO_0021554"/>
+		<entity id="s1.e3" charOffset="193-217"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In four families with early-onset recessive optic neuropathy, we identified mutations in regulation of dendrite development, which encodes a mitochondrial ubiquinol oxydo-reductase.">
+		<entity id="s2.e1" charOffset="50-60"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s2.e2" charOffset="89-123"
+			type="GO" text="regulation of dendrite development" ontology_id="GO_0050773"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

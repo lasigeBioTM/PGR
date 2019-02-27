@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27993705">
+	<sentence id="s1" text="Patients with mutations in ZNF711 all present with mild to moderate ID and poor speech accompanied by additional features in some patients, including autistic features and mild facial dysmorphisms, suggesting that ZNF711 mutations cause non-syndromic ID">
+		<entity id="s1.e1" charOffset="27-33"
+			type="GENE" text="ZNF711" ontology_id="7552"/>
+		<entity id="s1.e2" charOffset="51-55"
+			type="HP" text="mild" ontology_id="HP_0012825"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

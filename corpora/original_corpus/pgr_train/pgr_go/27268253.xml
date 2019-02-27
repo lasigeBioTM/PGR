@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27268253">
+	<sentence id="s1" text="Its dysfunction, caused by mutations in either the enzyme itself or protein farnesylation (aryl hydrocarbon receptor-interacting protein-like 1), leads to retinal diseases culminating in blindness.">
+		<entity id="s1.e1" charOffset="68-89"
+			type="GO" text="protein farnesylation" ontology_id="GO_0018343"/>
+		<entity id="s1.e2" charOffset="187-196"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

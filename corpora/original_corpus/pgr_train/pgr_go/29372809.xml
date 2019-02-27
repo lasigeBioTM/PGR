@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29372809">
+	<sentence id="s1" text="A replicative analysis of associations of 15 SNPs located in the regions of 11 genes (negative regulation of transcription by RNA polymerase II, protein autophosphorylation, mammary gland development, positive regulation of gene expression, C-terminal protein deglutamylation, cell morphogenesis involved in differentiation, ZFP64P1, potassium ion transport, startle response, proteolysis involved in cellular protein catabolic process, negative regulation of transcription by RNA polymerase II) and three intergenic regions (SLCO6A1/LINCOO491, LOC105376248/LOC105376249, spermatogenesis/signal transduction) with schizophrenia was conducted in the Russian population of the Siberian region.">
+		<entity id="s1.e1" charOffset="86-143"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="145-172"
+			type="GO" text="protein autophosphorylation" ontology_id="GO_0046777"/>
+		<entity id="s1.e3" charOffset="174-199"
+			type="GO" text="mammary gland development" ontology_id="GO_0030879"/>
+		<entity id="s1.e4" charOffset="201-239"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0020128"/>
+		<entity id="s1.e5" charOffset="241-275"
+			type="GO" text="C-terminal protein deglutamylation" ontology_id="GO_0035609"/>
+		<entity id="s1.e6" charOffset="277-323"
+			type="GO" text="cell morphogenesis involved in differentiation" ontology_id="GO_0000904"/>
+		<entity id="s1.e7" charOffset="310-323"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e8" charOffset="334-357"
+			type="GO" text="potassium ion transport" ontology_id="GO_0006813"/>
+		<entity id="s1.e9" charOffset="359-375"
+			type="GO" text="startle response" ontology_id="GO_0001964"/>
+		<entity id="s1.e10" charOffset="377-435"
+			type="GO" text="proteolysis involved in cellular protein catabolic process" ontology_id="GO_0051603"/>
+		<entity id="s1.e11" charOffset="437-494"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e12" charOffset="572-587"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<entity id="s1.e13" charOffset="588-607"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e12"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e13"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study confirmed associations of potassium ion transport rs2247572, startle response rs2616984, and intergenic rs12807809 located in spermatogenesis/NRGN with schizophrenia.">
+		<entity id="s2.e1" charOffset="44-67"
+			type="GO" text="potassium ion transport" ontology_id="GO_0006813"/>
+		<entity id="s2.e2" charOffset="79-95"
+			type="GO" text="startle response" ontology_id="GO_0001964"/>
+		<entity id="s2.e3" charOffset="144-159"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<entity id="s2.e4" charOffset="149-162"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

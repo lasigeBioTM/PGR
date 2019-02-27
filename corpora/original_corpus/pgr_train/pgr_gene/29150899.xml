@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29150899">
+	<sentence id="s1" text="Variations in RNASEH2C cause an autosomal recessive form of AGS.">
+		<entity id="s1.e1" charOffset="14-22"
+			type="GENE" text="RNASEH2C" ontology_id="84153"/>
+		<entity id="s1.e2" charOffset="32-51"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28902630">
+	<sentence id="s1" text="Maternal loss-of-methylation at adenylate cyclase-activating G protein-coupled receptor signaling pathway exon A/B, observed in pseudohypoparathyroidism type 1b (PHP1B), leads to decreased expression of the stimulatory Gsa.">
+		<entity id="s1.e1" charOffset="32-105"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e2" charOffset="128-152"
+			type="HP" text="pseudohypoparathyroidism" ontology_id="HP_0000852"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

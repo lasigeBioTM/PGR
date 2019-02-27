@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28678915">
+	<sentence id="s1" text="The expression of the ID2, skeletal system development and positive regulation of endothelial cell migration genes was compared between the endometrium of women without endometriosis in the proliferative phase of their menstrual cycle and the eutopic and ectopic endometrium of women with endometriosis in the proliferative phase.">
+		<entity id="s1.e1" charOffset="27-54"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s1.e2" charOffset="59-108"
+			type="GO" text="positive regulation of endothelial cell migration" ontology_id="GO_0010595"/>
+		<entity id="s1.e3" charOffset="125-138"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The ID2 gene expression was increased in the most advanced stage of endometriosis and in ovarian endometriomas, the skeletal system development was more expressed in peritoneal lesions, and the positive regulation of endothelial cell migration was highly expressed in both peritoneal and endometrioma lesions.">
+		<entity id="s2.e1" charOffset="68-81"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s2.e2" charOffset="116-143"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s2.e3" charOffset="194-243"
+			type="GO" text="positive regulation of endothelial cell migration" ontology_id="GO_0010595"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

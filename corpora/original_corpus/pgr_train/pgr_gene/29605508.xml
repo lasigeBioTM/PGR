@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29605508">
+	<sentence id="s1" text="Importantly, AIF deficiency leads to severe mitochondrial dysfunction, causing muscle atrophy and neurodegeneration in model organisms as well as in humans.">
+		<entity id="s1.e1" charOffset="13-16"
+			type="GENE" text="AIF" ontology_id="9131"/>
+		<entity id="s1.e2" charOffset="79-93"
+			type="HP" text="muscle atrophy" ontology_id="HP_0003202"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

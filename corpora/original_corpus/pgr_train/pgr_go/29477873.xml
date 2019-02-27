@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29477873">
+	<sentence id="s1" text="Lamb-Shaffer syndrome (OMIM: 616803) is a neurodevelopmental disorder characterized by developmental delay, mild to moderate intellectual disability, speech delay, and mild characteristic facial appearance caused by positive regulation of chondrocyte differentiation haploinsufficiency on chromosome 12p12.1.">
+		<entity id="s1.e1" charOffset="87-106"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="125-148"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="150-162"
+			type="HP" text="speech delay" ontology_id="HP_0000750"/>
+		<entity id="s1.e4" charOffset="216-266"
+			type="GO" text="positive regulation of chondrocyte differentiation" ontology_id="GO_0032332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This report confirmed that haploinsufficiency of the 2 long forms of positive regulation of chondrocyte differentiation presents common clinical features, including mild intellectual disability and autistic features, which could be useful for the clinical diagnosis of Lamb-Shaffer syndrome">
+		<entity id="s2.e1" charOffset="69-119"
+			type="GO" text="positive regulation of chondrocyte differentiation" ontology_id="GO_0032332"/>
+		<entity id="s2.e2" charOffset="170-193"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

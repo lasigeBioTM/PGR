@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29887144">
+	<sentence id="s1" text="Multiple studies have now demonstrated the ability for superoxide dismutase-1, 43-kDa transactive response (TAR) DNA-binding protein, fused-in sarcoma, and most recently, negative regulation of protein phosphorylation-encoded polypeptides to display properties similar to those of prions.">
+		<entity id="s1.e1" charOffset="143-150"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="171-217"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

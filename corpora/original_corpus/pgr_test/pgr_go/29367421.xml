@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29367421">
+	<sentence id="s1" text="In families severely affected with breast cancer, we identified inherited negative regulation of protein export from nucleus missense mutations Cys53Trp, Cys71Tyr, and Cys83Arg that alter three zinc-binding residues of the BARD1 RING domain.">
+		<entity id="s1.e1" charOffset="42-48"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="74-124"
+			type="GO" text="negative regulation of protein export from nucleus" ontology_id="GO_0046826"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Missense mutations that disrupt the RING domain of the tumor suppressor gene double-strand break repair via homologous recombination lead to increased risk of breast and ovarian cancer.">
+		<entity id="s2.e1" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="77-132"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29312140">
+	<sentence id="s1" text="Furthermore, both the GnRH2 and GnRHR2 genes are expressed in human reproductive tumors and represent emerging targets for cancer treatment.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="GnRH2" ontology_id="2797"/>
+		<entity id="s1.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

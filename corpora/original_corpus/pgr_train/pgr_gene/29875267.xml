@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29875267">
+	<sentence id="s1" text="In humans, mutations in the CACNA2D4 gene encoding a2d-4 cause heterogeneous forms of vision impairment in humans, the underlying pathogenic mechanisms of which remain unclear.">
+		<entity id="s1.e1" charOffset="28-36"
+			type="GENE" text="CACNA2D4" ontology_id="93589"/>
+		<entity id="s1.e2" charOffset="51-54"
+			type="GENE" text="a2d" ontology_id="11273"/>
+		<entity id="s1.e3" charOffset="63-76"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We conclude that a2d-4 plays an essential role in maintaining the structural and functional integrity of rod and cone synapses, the disruption of which may contribute to visual impairment in humans with CACNA2D4 mutations.SIGNIFICANCE STATEMENT In the retina, visual information is first communicated by the synapse formed between photoreceptors and second-order neurons.">
+		<entity id="s2.e1" charOffset="17-20"
+			type="GENE" text="a2d" ontology_id="11273"/>
+		<entity id="s2.e2" charOffset="170-187"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<entity id="s2.e3" charOffset="203-211"
+			type="GENE" text="CACNA2D4" ontology_id="93589"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

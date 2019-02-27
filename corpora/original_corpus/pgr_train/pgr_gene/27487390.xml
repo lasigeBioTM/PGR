@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27487390">
+	<sentence id="s1" text="In humans, loss of TBC1D20 (TBC1 domain family, member 20) protein function causes Warburg Micro syndrome 4 (WARBM4), an autosomal recessive disorder characterized by congenital eye, brain, and genital abnormalities.">
+		<entity id="s1.e1" charOffset="19-26"
+			type="GENE" text="TBC1D20" ontology_id="128637"/>
+		<entity id="s1.e2" charOffset="194-215"
+			type="HP" text="genital abnormalities" ontology_id="HP_0000078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29863983">
+	<sentence id="s1" text="Western blot was used to analyze the cell cycle-related proteins, serine/threonine kinase ataxia telangiectasia mutant (protein phosphorylation), ataxia telangiectasia and Rad3-related protein (actin cytoskeleton reorganization) and cyclin B1 (positive regulation of G2/M transition of mitotic cell cycle).">
+		<entity id="s1.e1" charOffset="90-96"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="120-143"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="194-227"
+			type="GO" text="actin cytoskeleton reorganization" ontology_id="GO_0031532"/>
+		<entity id="s1.e4" charOffset="244-304"
+			type="GO" text="positive regulation of G2/M transition of mitotic cell cycle" ontology_id="GO_0010971"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

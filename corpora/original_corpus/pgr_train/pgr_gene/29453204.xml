@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29453204">
+	<sentence id="s1" text="We investigated plasma microRNA (miRNA) profiles associated with variation of hyperglycemia, measured as hemoglobin A1c (HbA1c), in two panels of patients with type 1 diabetes (T1D).">
+		<entity id="s1.e1" charOffset="33-36"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="78-91"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Dysregulation of these miRNAs, which are associated with hyperglycemia in patients with T1D, may contribute to the development of diabetes complications.">
+		<entity id="s2.e1" charOffset="23-26"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="57-70"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, our study identified four circulating miRNAs that were influenced by variation in hyperglycemia.">
+		<entity id="s3.e1" charOffset="53-56"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="97-110"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

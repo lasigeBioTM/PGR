@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28441825">
+	<sentence id="s1" text="The cases with complete clinical data retrieved on literature search at China National Knowledge Infrastructure, Wanfang Data Knowledge Service Platform and PubMed (up to August 2016) by using search terms ofAAAAAANDUFV1AAAAAA ,AAAAAANDUFS1AAAAAA , orAAAAAAleukoencephalopathyAAAAAA , were summarized.">
+		<entity id="s1.e1" charOffset="214-220"
+			type="GENE" text="NDUFV1" ontology_id="4723"/>
+		<entity id="s1.e2" charOffset="234-240"
+			type="GENE" text="NDUFS1" ontology_id="4719"/>
+		<entity id="s1.e3" charOffset="257-276"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

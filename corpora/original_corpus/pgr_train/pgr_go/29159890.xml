@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29159890">
+	<sentence id="s1" text="Our report of variant in cilium assembly Leading to Joubert syndrome phenotype (JS30), elucidates the genetic heterogeneity of Joubert syndrome, and expands the gene list for ciliopathies">
+		<entity id="s1.e1" charOffset="25-40"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e2" charOffset="110-123"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29772460">
+	<sentence id="s1" text="The estrogen receptor a (ER) and the progesterone receptor (PgR) are one of the most important prognostic and predictive immunohistochemical markers in breast cancer.">
+		<entity id="s1.e1" charOffset="60-63"
+			type="GENE" text="PgR" ontology_id="5241"/>
+		<entity id="s1.e2" charOffset="159-165"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Breast cancers may express various profiles of hormone receptors: ER(+)/PgR(+), ER(-)/PgR(-), ER(+)/PgR(-) and ER(-)/PgR(+).">
+		<entity id="s2.e1" charOffset="7-13"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="72-75"
+			type="GENE" text="PgR" ontology_id="5241"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The existence of the latter profile is a matter of controversy since PgR expressions is induced by ER-dependent pathways in breast cancer cells.">
+		<entity id="s3.e1" charOffset="69-72"
+			type="GENE" text="PgR" ontology_id="5241"/>
+		<entity id="s3.e2" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="One of the most extensively propagated hypotheses trying to explain the origin of ER(-)/PgR(+) breast cancers claims that they are technical artifacts dependent on the immunohistochemical procedure.">
+		<entity id="s4.e1" charOffset="88-91"
+			type="GENE" text="PgR" ontology_id="5241"/>
+		<entity id="s4.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In the following review, we present background theories on the ER(-)/PgR(+) breast cancer origin and their epidemiological and clinicopathological characteristics, including the predictive and prognostic significance of these rare tumors">
+		<entity id="s5.e1" charOffset="69-72"
+			type="GENE" text="PgR" ontology_id="5241"/>
+		<entity id="s5.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

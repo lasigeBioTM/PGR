@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28264803">
+	<sentence id="s1" text="Single nucleotide polymorphism in infant genes in the folate (tetrahydrofolate metabolic process rs12438477), homocysteine (TRDMT1 rs6602178 and GNMT rs11752813) and transsulfuration (negative regulation of protein kinase activity rs7941395 and MGST1 rs7294985) pathways were also associated with an increased risk of congenital heart defects.Conclusions Common maternal or infant genetic variants in folate, homocysteine, or transsulfuration pathways are associated with an increased risk of certain congenital heart defects among children of women taking SSRIs during cardiogenesis">
+		<entity id="s1.e1" charOffset="62-96"
+			type="GO" text="tetrahydrofolate metabolic process" ontology_id="GO_0046653"/>
+		<entity id="s1.e2" charOffset="155-201"
+			type="GO" text="negative regulation of protein kinase activity" ontology_id="GO_0006469"/>
+		<entity id="s1.e3" charOffset="289-313"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

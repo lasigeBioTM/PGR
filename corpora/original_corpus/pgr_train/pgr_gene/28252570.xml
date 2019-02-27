@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28252570">
+	<sentence id="s1" text="Nagashima-type palmoplantar keratosis (NPPK) is an autosomal recessive skin disorder with a high, unmet medical need that is caused by mutations in SERPINB7.">
+		<entity id="s1.e1" charOffset="15-37"
+			type="HP" text="palmoplantar keratosis" ontology_id="HP_0000972"/>
+		<entity id="s1.e2" charOffset="148-156"
+			type="GENE" text="SERPINB7" ontology_id="8710"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

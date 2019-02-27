@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29693182">
+	<sentence id="s1" text="regulation of cell shape has been revealed to be related with many carcinomas, but its expression and function in renal cell carcinoma (RCC) remain unknown.">
+		<entity id="s1.e1" charOffset="0-24"
+			type="GO" text="regulation of cell shape" ontology_id="GO_0008360"/>
+		<entity id="s1.e2" charOffset="114-134"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our data revealed that regulation of cell shape functions as a tumor promoter, plays a prominent role in proliferation, migration, and invasion of RCC cells with high expression, and may promote EMT and activate the Wnt/b-catenin signaling pathway">
+		<entity id="s2.e1" charOffset="23-47"
+			type="GO" text="regulation of cell shape" ontology_id="GO_0008360"/>
+		<entity id="s2.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

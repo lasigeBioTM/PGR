@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30256416">
+	<sentence id="s1" text="Multiple endocrine neoplasia (MEN) has not been reported in baboons, but this condition is well described in humans.">
+		<entity id="s1.e1" charOffset="19-28"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="30-33"
+			type="GENE" text="MEN" ontology_id="8178"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

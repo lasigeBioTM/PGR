@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27120771">
+	<sentence id="s1" text="Bardet-Biedl syndrome (BBS) is a genetically heterogeneous disorder characterized by retinal dystrophy, polydactyly, obesity, developmental delay, and renal defects.">
+		<entity id="s1.e1" charOffset="23-26"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<entity id="s1.e2" charOffset="85-102"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<entity id="s1.e3" charOffset="104-115"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e4" charOffset="117-124"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e5" charOffset="126-145"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

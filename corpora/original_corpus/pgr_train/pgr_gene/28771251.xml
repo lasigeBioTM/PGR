@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28771251">
+	<sentence id="s1" text="The 18 new diagnoses made with WGS included structural and non-exonic sequence variants not detectable with whole-exome sequencing, and confirmed recent disease associations with the genes PIGG, RNU4ATAC, TRIO, and UNC13A.ConclusionWGS as a primary clinical test provided a higher diagnostic yield than conventional genetic testing in a clinically heterogeneous cohort">
+		<entity id="s1.e1" charOffset="189-193"
+			type="GENE" text="PIGG" ontology_id="54872"/>
+		<entity id="s1.e2" charOffset="205-209"
+			type="GENE" text="TRIO" ontology_id="7204"/>
+		<entity id="s1.e3" charOffset="348-361"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27546599">
+	<sentence id="s1" text="Mutations in the sarcomere organization gene have been identified in patients with Z-disc-associated, alternatively spliced, PDZ motif-containing protein (sarcomere organization)-related myofibrillar myopathy (sarcomere organization-MFM) characterized by late-onset distal myopathy with signs of cardiomyopathy and neuropathy.">
+		<entity id="s1.e1" charOffset="17-39"
+			type="GO" text="sarcomere organization" ontology_id="GO_0045214"/>
+		<entity id="s1.e2" charOffset="155-177"
+			type="GO" text="sarcomere organization" ontology_id="GO_0045214"/>
+		<entity id="s1.e3" charOffset="260-274"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s1.e4" charOffset="279-289"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We describe an autosomal dominant inherited pedigree with sarcomere organization-MFM that is in line with the typical phenotype of distal myopathy without cardiomyopathy and neuropathy, while mild asymmetrical muscle atrophy can be observed in some affected members.">
+		<entity id="s2.e1" charOffset="58-80"
+			type="GO" text="sarcomere organization" ontology_id="GO_0045214"/>
+		<entity id="s2.e2" charOffset="155-169"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e3" charOffset="174-184"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

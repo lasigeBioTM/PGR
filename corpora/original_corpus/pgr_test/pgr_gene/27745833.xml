@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27745833">
+	<sentence id="s1" text="We characterize variants in the oxidoreductase PYROXD1 as a cause of early-onset myopathy with distinctive histopathology and introduce altered redox regulation as a primary cause of congenital muscle disease">
+		<entity id="s1.e1" charOffset="47-54"
+			type="GENE" text="PYROXD1" ontology_id="79912"/>
+		<entity id="s1.e2" charOffset="81-89"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

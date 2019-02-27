@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29180744">
+	<sentence id="s1" text="Shwachman-Diamond syndrome (SDS) (OMIM #260400) is a rare inherited bone marrow failure syndrome (IBMFS) that is primarily characterized by neutropenia and exocrine pancreatic insufficiency.">
+		<entity id="s1.e1" charOffset="28-31"
+			type="GENE" text="SDS" ontology_id="51119"/>
+		<entity id="s1.e2" charOffset="140-151"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="These 3 patients shared congenital neutropenia linked with various other SDS phenotypes.">
+		<entity id="s2.e1" charOffset="35-46"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<entity id="s2.e2" charOffset="73-76"
+			type="GENE" text="SDS" ontology_id="51119"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, autosomal dominant mutations in SRP54, a key member of the cotranslation protein-targeting pathway, lead to syndromic neutropenia with a Shwachman-Diamond-like phenotype">
+		<entity id="s3.e1" charOffset="47-52"
+			type="GENE" text="SRP54" ontology_id="6729"/>
+		<entity id="s3.e2" charOffset="133-144"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>
