@@ -119,4 +119,15 @@ RUN wget http://compbio.charite.de/jenkins/job/hpo.annotations.monthly/lastSucce
 WORKDIR /data
 RUN wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2go.gz
 
+
+# --------------------------------------------------------------
+#                         ADDED FEATURES
+# --------------------------------------------------------------
+
+ENV localedef -i en_US -f UTF-8 C.UTF-8
+ENV LANG="C.UTF-8"
+ENV LC_LANG="C.UTF-8"
+RUN apt-get update -y && apt-get install libicu-dev -y && pip3 install pycld2 && pip3 install pyicu && pip3 install polyglot
+
+
 WORKDIR /
