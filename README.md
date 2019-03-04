@@ -97,7 +97,7 @@ where [NUMBER] (integer) corresponds to the intended number of abstracts per gen
 ### Creating a XML Format Corpus
 
 ````
- python3 src/pgr_corpus [ENTITY TYPE]
+ python3 src/pgr_corpus.py [ENTITY TYPE]
 ````
 
 where [ENTITY TYPE] (*gene* or *go*) corresponds to the intended pair of entities (human phenotype-gene pair or human phenotype-go pair) to generate an XML format corpus with. The GO (Gene Ontology) term corresponds to the most representative term for the gene that establishes the relation with that human phenotype.
