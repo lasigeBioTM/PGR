@@ -121,6 +121,14 @@ RUN wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2go.gz
 
 
 # --------------------------------------------------------------
+#                   GENES SYNONYMS IDENTIFIERS
+# --------------------------------------------------------------
+
+WORKDIR /data
+RUN wget https://github.com/macarthur-lab/gene_lists/blob/master/other_data/gene_symbol_thesaurus.txt
+
+
+# --------------------------------------------------------------
 #                         ADDED FEATURES
 # --------------------------------------------------------------
 
