@@ -17,7 +17,7 @@ If you intend to create a new corpus you can follow the bellow guidelines.
 * Relation Extraction:
     * [Human Phenotype Ontology Gold Standard Relations](https://hpo.jax.org/app/download/annotation) (Knowledge Base)
     * [Gene Synonyms File](https://github.com/macarthur-lab/gene_lists/blob/master/other_data/gene_symbol_thesaurus.txt) (To match synonyms to identifiers.)
-    * [Gene2Go Correspondence File](ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2go.gz) (To facilitate the use of the [BO-LSTM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2584-5#Abs1) application.) [OPTIONAL]
+    * [Gene2Go Correspondence File](https://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2go.gz) (To facilitate the use of the [BO-LSTM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2584-5#Abs1) application.) [OPTIONAL]
     
 ## Getting Started
 
