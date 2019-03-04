@@ -86,6 +86,9 @@ def write_text(file_g2p, file_p2g, number_abstracts_per_gene, destination_path):
 
                     exit_file = open('abstract.xml', 'r', encoding = 'utf-8')
                     abstract = exit_file.read().split('<AbstractText>', 1)[-1].split('</AbstractText>', 1)[0]
+                    abstract = ''.join(x for x in abstract if x in string.printable)
+
+                    save_language = ''
 
                     for language in Detector(abstract).languages:
                         save_language = str(language).split()[1]
