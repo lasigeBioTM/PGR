@@ -113,14 +113,6 @@ RUN wget http://compbio.charite.de/jenkins/job/hpo.annotations.monthly/lastSucce
 
 
 # --------------------------------------------------------------
-#                   GENES SYNONYMS IDENTIFIERS
-# --------------------------------------------------------------
-
-WORKDIR /data
-RUN wget https://github.com/macarthur-lab/gene_lists/blob/master/other_data/gene_symbol_thesaurus.txt
-
-
-# --------------------------------------------------------------
 #                    GENE 2 GO CORRESPONDENCE
 # --------------------------------------------------------------
 

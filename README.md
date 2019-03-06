@@ -16,7 +16,6 @@ If you intend to create a new corpus you can follow the bellow guidelines.
         
 * Relation Extraction:
     * [Human Phenotype Ontology Gold Standard Relations](https://hpo.jax.org/app/download/annotation) (Knowledge Base)
-    * [Gene Synonyms File](https://github.com/macarthur-lab/gene_lists/blob/master/other_data/gene_symbol_thesaurus.txt) (To match synonyms to identifiers.)
     * [Gene2Go Correspondence File](https://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2go.gz) (To facilitate the use of the [BO-LSTM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2584-5#Abs1) application.) [OPTIONAL]
     
 ## Getting Started
@@ -53,7 +52,6 @@ Use the Dockerfile to setup the rest of the experimental environment.
 * ### data/
     * __ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt__
     * __ALL_SOURCES_ALL_FREQUENCIES_phenotype_to_genes.txt__
-    * __gene_symbol_thesaurus.txt__
     * __gene2go.gz__
     
 * ### src/

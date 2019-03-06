@@ -133,12 +133,13 @@ def get_genes_synonyms(data_path, mer_data_path):
 
     for gene_name, id in dict_join_all_genes.items():
         new_lexicon_file.write(gene_name + '\n')
-        new_lexicon_id_file.write(gene_name + '\t' + id + '\n')
+        new_lexicon_id_file.write(gene_name.lower() + '\t' + id + '\n')
 
     new_lexicon_file.close()
     new_lexicon_id_file.close()
 
     return
+
 
 #### HP DICTIONARY: HP ANNOTATION - ID ####
 
