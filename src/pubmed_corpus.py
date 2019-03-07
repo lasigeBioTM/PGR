@@ -85,13 +85,19 @@ def write_text(file_g2p, file_p2g, number_abstracts_per_gene, destination_path):
                 try:
 
                     exit_file = open('abstract.xml', 'r', encoding = 'utf-8')
-                    abstract = str(exit_file.read().split('<AbstractText>', 1)[-1].split('</AbstractText>', 1)[0]).encode('utf-8')
+                    abstract = exit_file.read().split('<AbstractText>', 1)[-1].split('</AbstractText>', 1)[0]
 
                     save_language = ''
 
-                    for language in Detector(abstract).languages:
-                        save_language = str(language).split()[1]
-                        break
+                    try:
+
+                        for language in Detector(abstract).languages:
+                            save_language = str(language).split()[1]
+                            break
+
+                    except:
+
+                        pass
 
                     if save_language == 'English':
                         output = open(destination_path + '/' + list_ids[counter], 'w', encoding = 'utf-8')
