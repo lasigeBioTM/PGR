@@ -180,7 +180,7 @@ def divide_directory(corpus_path, directory_path):
 
     for (dir_path, dir_names, file_names) in os.walk(corpus_path):
 
-        number_directories = int(len(file_names) / 500)
+        number_directories = int(len(file_names) / 500) + 1
 
         if number_directories == 0:
             number_directories = 1
