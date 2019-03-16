@@ -25,7 +25,7 @@ If you intend to create a new corpus you can follow the bellow guidelines.
  git clone git@github.com:lasigeBioTM/MER.git
  git clone -b IHP_Python3.6 --single-branch git@github.com:lasigeBioTM/IHP.git
 ````
-Use the Dockerfile to setup the rest of the experimental environment.
+Use the Dockerfile to setup the rest of the experimental environment or the [PGR Image](https://hub.docker.com/r/dpavot/pgr) available at Docker Hub.
 
 ## Configuration
 
