@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28650469">
+	<sentence id="s1" text="Sonic Hedgehog (SHH) signaling at primary cilia drives the proliferation and progression of a subset of medulloblastomas, the most common malignant paediatric brain tumor.">
+		<entity id="s1.e1" charOffset="16-19"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s1.e2" charOffset="104-120"
+			type="HP" text="medulloblastomas" ontology_id="HP_0002885"/>
+		<entity id="s1.e3" charOffset="165-170"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the role INPP5E plays in cancer is unknown and the contribution of PI3-kinase signaling to cilia function is little characterized.">
+		<entity id="s2.e1" charOffset="18-24"
+			type="GENE" text="INPP5E" ontology_id="23203"/>
+		<entity id="s2.e2" charOffset="34-40"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="76-79"
+			type="GENE" text="PI3" ontology_id="5266"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we reveal INPP5E promotes SHH signaling in SHH medulloblastoma by negatively regulating a cilia-compartmentalized PI3-kinase signaling axis that maintains primary cilia on tumor cells.">
+		<entity id="s3.e1" charOffset="16-22"
+			type="GENE" text="INPP5E" ontology_id="23203"/>
+		<entity id="s3.e2" charOffset="32-35"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s3.e3" charOffset="53-68"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<entity id="s3.e4" charOffset="120-123"
+			type="GENE" text="PI3" ontology_id="5266"/>
+		<entity id="s3.e5" charOffset="178-183"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e5"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e8"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Conditional deletion of Inpp5e in a murine model of constitutively active Smoothened-driven medulloblastoma slowed tumor progression, suppressed cell proliferation, reduced SHH signaling and promoted tumor cell cilia loss.">
+		<entity id="s4.e1" charOffset="24-30"
+			type="GENE" text="Inpp5e" ontology_id="23203"/>
+		<entity id="s4.e2" charOffset="92-107"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<entity id="s4.e3" charOffset="115-120"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="173-176"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The number of PtdIns(3,4,5)P<sub>3</sub>/pAKT/pGSK3β-positive cilia was increased in cultured Inpp5e-null tumor cells relative to controls.">
+		<entity id="s5.e1" charOffset="94-100"
+			type="GENE" text="Inpp5e" ontology_id="23203"/>
+		<entity id="s5.e2" charOffset="106-111"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="PI3-kinase inhibition or expression of wild-type, but not catalytically inactive HA-INPP5E partially rescued cilia loss in Inpp5e-null tumor cells in vitro.">
+		<entity id="s6.e1" charOffset="0-3"
+			type="GENE" text="PI3" ontology_id="5266"/>
+		<entity id="s6.e2" charOffset="84-90"
+			type="GENE" text="INPP5E" ontology_id="23203"/>
+		<entity id="s6.e3" charOffset="123-129"
+			type="GENE" text="Inpp5e" ontology_id="23203"/>
+		<entity id="s6.e4" charOffset="135-140"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e4"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e3"
+		    e2="s6.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="INPP5E mRNA and copy number were reduced in human SHH medulloblastoma compared to other molecular subtypes and consistent with the murine model, reduced INPP5E was associated with improved overall survival.">
+		<entity id="s7.e1" charOffset="0-6"
+			type="GENE" text="INPP5E" ontology_id="23203"/>
+		<entity id="s7.e2" charOffset="50-53"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s7.e3" charOffset="54-69"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Therefore our study identifies a compartmentalized PtdIns(3,4,5)P<sub>3</sub>/AKT/GSK3β signaling axis at cilia in SHH-dependent medulloblastoma that is regulated by INPP5E to maintain tumor cell cilia, promote SHH signaling and thereby medulloblastoma progression">
+		<entity id="s8.e1" charOffset="115-118"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s8.e2" charOffset="129-144"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<entity id="s8.e3" charOffset="166-172"
+			type="GENE" text="INPP5E" ontology_id="23203"/>
+		<entity id="s8.e4" charOffset="185-190"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e4" pgr="true"/>
+		<pair id="s8.p2" e1="s8.e3"
+		    e2="s8.e4" pgr="false"/>
+		<pair id="s8.p3" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+		<pair id="s8.p4" e1="s8.e6"
+		    e2="s8.e3" pgr="false"/>
+	</sentence>
+</document>

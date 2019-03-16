@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26351325">
+	<sentence id="s1" text="Furthermore, in vitro inhibition of cancer-derived BMP4 noncanonical signals results in an increase of chemosensitivity in a colorectal cancer cell line.">
+		<entity id="s1.e1" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="51-55"
+			type="GENE" text="BMP4" ontology_id="652"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

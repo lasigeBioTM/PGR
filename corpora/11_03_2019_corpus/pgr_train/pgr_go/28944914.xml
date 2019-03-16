@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28944914">
+	<sentence id="s1" text="The present study screened pathogenic genes, ectodysplasin A (positive regulation of NF-kappaB transcription factor activity) and lamin A/C (positive regulation of cell aging), in a patient with suspected syndromic hearing impairment and various other symptoms including tooth and skin abnormalities.">
+		<entity id="s1.e1" charOffset="62-124"
+			type="GO" text="positive regulation of NF-kappaB transcription factor activity" ontology_id="GO_0051092"/>
+		<entity id="s1.e2" charOffset="141-174"
+			type="GO" text="positive regulation of cell aging" ontology_id="GO_0090343"/>
+		<entity id="s1.e3" charOffset="186-204"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="252-270"
+			type="HP" text="skin abnormalities" ontology_id="HP_0000951"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The present findings did not identify copy number variation and mutations in positive regulation of NF-kappaB transcription factor activity; therefore, excluding the possibility of EDA‑initiated ectodermal dysplasia syndrome.">
+		<entity id="s2.e1" charOffset="77-139"
+			type="GO" text="positive regulation of NF-kappaB transcription factor activity" ontology_id="GO_0051092"/>
+		<entity id="s2.e2" charOffset="195-215"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The copy number variations and mutations were also used to identify single nucleotide variations (SNVs) in crystallin mu (negative regulation of transcription by RNA polymerase II), RAB3 GTPase activating protein catalytic subunit 1 (regulation of GTPase activity) and Wnt family member 10A (canonical Wnt signaling pathway), implicated in deafness, hypogonadism and tooth/skin abnormalities, respectively.">
+		<entity id="s3.e1" charOffset="122-179"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="234-263"
+			type="GO" text="regulation of GTPase activity" ontology_id="GO_0043087"/>
+		<entity id="s3.e3" charOffset="292-323"
+			type="GO" text="canonical Wnt signaling pathway" ontology_id="GO_0060070"/>
+		<entity id="s3.e4" charOffset="294-302"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s3.e5" charOffset="304-316"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<entity id="s3.e6" charOffset="327-345"
+			type="HP" text="skin abnormalities" ontology_id="HP_0000951"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e2"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e4"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e2"
+		    e2="s3.e14" pgr="true"/>
+		<pair id="s3.p9" e1="s3.e4"
+		    e2="s3.e14" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The canonical Wnt signaling pathway p.G213S mutation was confirmed to be the etiological cause of tooth agenesis and ectodermal dysplasia as previously described.">
+		<entity id="s4.e1" charOffset="4-35"
+			type="GO" text="canonical Wnt signaling pathway" ontology_id="GO_0060070"/>
+		<entity id="s4.e2" charOffset="117-137"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

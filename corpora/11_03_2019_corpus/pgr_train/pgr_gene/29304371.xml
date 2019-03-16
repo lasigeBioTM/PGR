@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29304371">
+	<sentence id="s1" text="We observed a higher rate of individuals with a history of high blood pressure among affected versus healthy individuals carrying ANGPTL6 variants, suggesting that ANGPTL6 could trigger cerebrovascular lesions when combined with other risk factors such as hypertension.">
+		<entity id="s1.e1" charOffset="130-137"
+			type="GENE" text="ANGPTL6" ontology_id="83854"/>
+		<entity id="s1.e2" charOffset="256-268"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

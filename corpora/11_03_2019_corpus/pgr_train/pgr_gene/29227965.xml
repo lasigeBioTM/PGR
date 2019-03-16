@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29227965">
+	<sentence id="s1" text="For combined mothers' and fathers' attained age, 10 loci were associated (pAAAA5*10<sup>-8</sup>), including 8 previously identified for traits including survival, Alzheimer's and cardiovascular disease.">
+		<entity id="s1.e1" charOffset="137-143"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<entity id="s1.e2" charOffset="180-202"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

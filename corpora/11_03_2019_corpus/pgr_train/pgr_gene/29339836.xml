@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29339836">
+	<sentence id="s1" text="The discovery of mutations in genes encoding the metabolic enzymes isocitrate dehydrogenase (IDH), succinate dehydrogenase (SDH), and fumarate hydratase (FH) has expanded our understanding not only of altered metabolic pathways but also epigenetic dysregulation in cancer.">
+		<entity id="s1.e1" charOffset="124-127"
+			type="GENE" text="SDH" ontology_id="1757"/>
+		<entity id="s1.e2" charOffset="265-271"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In contrast, SDH and FH act as tumor suppressors and genomic inactivation results in succinate and fumarate accumulation, respectively.">
+		<entity id="s2.e1" charOffset="13-16"
+			type="GENE" text="SDH" ontology_id="1757"/>
+		<entity id="s2.e2" charOffset="31-36"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="SDH deficiency may result from germline SDHA, SDHB, SDHC, or SDHD mutations and is found in autosomal-dominant familial paraganglioma/pheochromocytoma and Carney-Stratakis syndrome, describing the combination of paraganglioma and gastrointestinal stromal tumor (GIST).">
+		<entity id="s3.e1" charOffset="0-3"
+			type="GENE" text="SDH" ontology_id="1757"/>
+		<entity id="s3.e2" charOffset="120-133"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s3.e3" charOffset="134-150"
+			type="HP" text="pheochromocytoma" ontology_id="HP_0002666"/>
+		<entity id="s3.e4" charOffset="255-260"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In contrast, patients with the non-hereditary Carney triad, including paraganglioma, GIST, and pulmonary chondroma, usually lack germline SDH mutations and instead show epigenetic SDH complex inactivation through SDHC promoter methylation.">
+		<entity id="s4.e1" charOffset="70-83"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s4.e2" charOffset="95-114"
+			type="HP" text="pulmonary chondroma" ontology_id="HP_0031474"/>
+		<entity id="s4.e3" charOffset="138-141"
+			type="GENE" text="SDH" ontology_id="1757"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

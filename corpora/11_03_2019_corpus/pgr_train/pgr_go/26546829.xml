@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26546829">
+	<sentence id="s1" text="Familial hypercholesterolemia is usually due to loss-of-function mutations in intestinal cholesterol absorption, the gene coding for low density lipoprotein receptor and genes encoding for proteins that interact with the receptor: positive regulation of macrophage derived foam cell differentiation, negative regulation of receptor recycling and LDLRAP1.">
+		<entity id="s1.e1" charOffset="9-29"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s1.e2" charOffset="78-111"
+			type="GO" text="intestinal cholesterol absorption" ontology_id="GO_0030299"/>
+		<entity id="s1.e3" charOffset="231-298"
+			type="GO" text="positive regulation of macrophage derived foam cell differentiation" ontology_id="GO_0010744"/>
+		<entity id="s1.e4" charOffset="300-341"
+			type="GO" text="negative regulation of receptor recycling" ontology_id="GO_0001920"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Monogenic hypertriglyceridemia is the result of mutations in genes that regulate the metabolism of triglyceride rich lipoproteins (eg fatty acid metabolic process, positive regulation of phospholipase activity, triglyceride metabolic process, triglyceride metabolic process, positive regulation of lipoprotein lipase activity).">
+		<entity id="s2.e1" charOffset="10-30"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<entity id="s2.e2" charOffset="134-162"
+			type="GO" text="fatty acid metabolic process" ontology_id="GO_0006631"/>
+		<entity id="s2.e3" charOffset="164-209"
+			type="GO" text="positive regulation of phospholipase activity" ontology_id="GO_0010518"/>
+		<entity id="s2.e4" charOffset="211-241"
+			type="GO" text="triglyceride metabolic process" ontology_id="GO_0006641"/>
+		<entity id="s2.e5" charOffset="243-273"
+			type="GO" text="triglyceride metabolic process" ontology_id="GO_0006641"/>
+		<entity id="s2.e6" charOffset="275-325"
+			type="GO" text="positive regulation of lipoprotein lipase activity" ontology_id="GO_0051006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Conversely familial hypobetalipoproteinemia is caused by inactivation of the negative regulation of receptor recycling gene which increases the number of LDL receptors and decreases plasma cholesterol.">
+		<entity id="s3.e1" charOffset="20-43"
+			type="HP" text="hypobetalipoproteinemia" ontology_id="HP_0003563"/>
+		<entity id="s3.e2" charOffset="77-118"
+			type="GO" text="negative regulation of receptor recycling" ontology_id="GO_0001920"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

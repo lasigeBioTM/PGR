@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30015619">
+	<sentence id="s1" text="Abnormalities in nucleic acid processing are associated with the development of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD).">
+		<entity id="s1.e1" charOffset="111-114"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e2" charOffset="120-143"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in li>Matrin 3</i> (li>MATR3</i>), a poorly understood DNA- and RNA-binding protein, cause familial ALS/FTD, and MATR3 pathology is a feature of sporadic disease, suggesting that MATR3 dysfunction is integrally linked to ALS pathogenesis.">
+		<entity id="s2.e1" charOffset="33-38"
+			type="GENE" text="MATR3" ontology_id="9782"/>
+		<entity id="s2.e2" charOffset="110-113"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s2.e3" charOffset="155-163"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings offer a foundation for understanding MATR3-related neurodegeneration and how nucleic acid binding functions, localization, and pathogenic mutations drive sporadic and familial disease">
+		<entity id="s3.e1" charOffset="50-55"
+			type="GENE" text="MATR3" ontology_id="9782"/>
+		<entity id="s3.e2" charOffset="167-175"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

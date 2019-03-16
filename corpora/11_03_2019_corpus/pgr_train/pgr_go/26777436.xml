@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26777436">
+	<sentence id="s1" text="To dissect the genetic architecture of sporadic signal transduction, we undertook a large sequencing study in 755 apparently sporadic ALS cases and 959 controls, analyzing 10 ALS genes: response to superoxide, negative regulation of protein phosphorylation, RNA splicing, regulation of transcription, DNA-templated, angiogenesis, viral budding via host ESCRT complex, negative regulation of receptor internalization, magnesium ion transport, spliceosomal snRNP assembly, and UNC13A.">
+		<entity id="s1.e1" charOffset="39-47"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="48-67"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e3" charOffset="186-208"
+			type="GO" text="response to superoxide" ontology_id="GO_0000303"/>
+		<entity id="s1.e4" charOffset="210-256"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e5" charOffset="258-270"
+			type="GO" text="RNA splicing" ontology_id="GO_0008380"/>
+		<entity id="s1.e6" charOffset="272-314"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e7" charOffset="316-328"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e8" charOffset="330-366"
+			type="GO" text="viral budding via host ESCRT complex" ontology_id="GO_0039702"/>
+		<entity id="s1.e9" charOffset="368-415"
+			type="GO" text="negative regulation of receptor internalization" ontology_id="GO_0002091"/>
+		<entity id="s1.e10" charOffset="417-440"
+			type="GO" text="magnesium ion transport" ontology_id="GO_0015693"/>
+		<entity id="s1.e11" charOffset="442-469"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="false"/>
+	</sentence>
+</document>

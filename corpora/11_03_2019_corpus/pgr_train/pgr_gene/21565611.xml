@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21565611">
+	<sentence id="s1" text="Nephronophthisis (NPHP), Joubert (JBTS), and Meckel-Gruber (MKS) syndromes are autosomal-recessive ciliopathies presenting with cystic kidneys, retinal degeneration, and cerebellar/neural tube malformation.">
+		<entity id="s1.e1" charOffset="60-63"
+			type="GENE" text="MKS" ontology_id="54903"/>
+		<entity id="s1.e2" charOffset="144-164"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="188-192"
+			type="GENE" text="tube" ontology_id="51175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -182,9 +182,6 @@ def divide_directory(corpus_path, directory_path):
 
         number_directories = int(len(file_names) / 500) + 1
 
-        if number_directories == 0:
-            number_directories = 1
-
         for u in range(number_directories):
             os.system('mkdir -p ' + directory_path + 'directory_' + str(u) + ' || true')
 

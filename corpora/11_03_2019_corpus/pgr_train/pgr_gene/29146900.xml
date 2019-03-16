@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29146900">
+	<sentence id="s1" text="Surprisingly, germline variants in SAMD9 or SAMD9L were present in 17% of primary MDS patients, and these variants were routinely lost in the tumor cells by chromosomal deletions (e.g., monosomy 7) or copy number neutral loss of heterozygosity (CN-LOH).">
+		<entity id="s1.e1" charOffset="35-40"
+			type="GENE" text="SAMD9" ontology_id="54809"/>
+		<entity id="s1.e2" charOffset="82-85"
+			type="GENE" text="MDS" ontology_id="5048"/>
+		<entity id="s1.e3" charOffset="142-147"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

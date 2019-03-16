@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26614431">
+	<sentence id="s1" text="The SNPs rs2124437 (MAPK cascade), rs1335022 (synaptic transmission, glutamatergic), rs4512367 (G protein-coupled receptor signaling pathway), rs4748011 (negative regulation of tumor necrosis factor-mediated signaling pathway), and rs1435218 (ubiquitin-dependent protein catabolic process) were analyzed in 500 histopathologically confirmed oral cancers and 500 healthy controls with a minimum of 10 years of tobacco usage.">
+		<entity id="s1.e1" charOffset="20-32"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e2" charOffset="46-82"
+			type="GO" text="synaptic transmission, glutamatergic" ontology_id="GO_0035249"/>
+		<entity id="s1.e3" charOffset="96-140"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s1.e4" charOffset="154-225"
+			type="GO" text="negative regulation of tumor necrosis factor-mediated signaling pathway" ontology_id="GO_0010804"/>
+		<entity id="s1.e5" charOffset="169-175"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e6" charOffset="243-288"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A significant association of the SNPs in oral cancer was observed in MAPK cascade AA (rs2124437) (p AAAA 0.000, OR 1.34, 95 % confidence interval (CI) 1.01-1.76), synaptic transmission, glutamatergic TT (rs1335022) (p = 0.008, OR 1.58, 95 % CI 1.23-2.03), G protein-coupled receptor signaling pathway CC (p = 0.008, OR 1.56, 95 % CI 1.15-2.1), and TT (p AAAA 0.000, OR 2.77, 1.68-4.57) genotypes, whereas the heterozygous genotypes showed higher frequencies in controls, i.e., GRIK2 CT (rs1335022) (p = 0.029, OR 0.68, 95 % CI 0.53-0.87) and PREX2 CT (p = 0.004, OR 0.49, 95 % CI 0.37-0.64), indicating protection.">
+		<entity id="s2.e1" charOffset="46-52"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="69-81"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s2.e3" charOffset="163-199"
+			type="GO" text="synaptic transmission, glutamatergic" ontology_id="GO_0035249"/>
+		<entity id="s2.e4" charOffset="256-300"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

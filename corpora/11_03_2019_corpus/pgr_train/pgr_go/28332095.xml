@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28332095">
+	<sentence id="s1" text="Among others, an immature subpopulation of self-renewing and therapy-resistant tumor cells-often referred to as glioblastoma stem-like cells (neural crest cell fate specifications)-cellular response to platelet-derived growth factor stimulus been shown to contribute to disease recurrence.">
+		<entity id="s1.e1" charOffset="79-84"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="112-124"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<entity id="s1.e3" charOffset="142-178"
+			type="GO" text="neural crest cell fate specification" ontology_id="GO_0014036"/>
+		<entity id="s1.e4" charOffset="148-208"
+			type="GO" text="cellular response to platelet-derived growth factor stimulus" ontology_id="GO_0036120"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e1" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="by reactivating pre-existing anti-tumor immune responses against neural crest cell fate specification antigens.">
+		<entity id="s2.e1" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="65-101"
+			type="GO" text="neural crest cell fate specification" ontology_id="GO_0014036"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In summary, we identified novel immunogenic proteins, which frequently induce tumor-specific T cell responses in GBM patients and were also detected in vitro in therapy-resistant quiescent, slow-cycling neural crest cell fate specifications.">
+		<entity id="s3.e1" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="203-239"
+			type="GO" text="neural crest cell fate specification" ontology_id="GO_0014036"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

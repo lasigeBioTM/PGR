@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28746897">
+	<sentence id="s1" text="Here, we show that selective overexpression of the stress protein, heme oxygenase-1 (HO-1) in astrocytes of GFAP.HMOX1 transgenic mice between 8.5 and 19 months of age results in nigrostriatal hypodopaminergia associated with locomotor incoordination and stereotypy; downregulation of tyrosine hydroxylase, DAT, LMX1B, Nurr1, Pitx3 and DJ-1 mRNA and/or protein; overproduction of α-synuclein and ubiquitin; oxidative stress; basal ganglia siderosis; mitochondrial damage/mitophagy; and augmented GABAergic systems (increased GABA, GAD67 and reelin).">
+		<entity id="s1.e1" charOffset="130-134"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="236-250"
+			type="HP" text="incoordination" ontology_id="HP_0002311"/>
+		<entity id="s1.e3" charOffset="255-265"
+			type="HP" text="stereotypy" ontology_id="HP_0000733"/>
+		<entity id="s1.e4" charOffset="307-310"
+			type="GENE" text="DAT" ontology_id="6531"/>
+		<entity id="s1.e5" charOffset="312-317"
+			type="GENE" text="LMX1B" ontology_id="4010"/>
+		<entity id="s1.e6" charOffset="319-324"
+			type="GENE" text="Nurr1" ontology_id="4929"/>
+		<entity id="s1.e7" charOffset="326-331"
+			type="GENE" text="Pitx3" ontology_id="5309"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e12"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e12"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e12"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e12"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The neurophenotype of these GFAP.HMOX1<sup>8.5-19m</sup> mice is highly consistent with parkinsonism and differs dramatically from the schizophrenia-like features previously documented in younger GFAP.HMOX1<sup>0-12m</sup> mice.">
+		<entity id="s2.e1" charOffset="57-61"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="88-100"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28610891">
+	<sentence id="s1" text="Mucolipidosis cardiac muscle tissue development IV (protein homotetramerization) is a lysosomal storage disease exhibiting progressive intellectual disability, motor impairment, and premature death.">
+		<entity id="s1.e1" charOffset="14-47"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="52-79"
+			type="GO" text="protein homotetramerization" ontology_id="GO_0051289"/>
+		<entity id="s1.e3" charOffset="112-135"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Several studies have demonstrated that N-butyldeoxynojirimycin (NB-DNJ, also known as miglustat), an inhibitor of the enzyme glucosylceramide synthase (cysteine metabolic process), successfully delays the onset of motor deficits, improves longevity, and rescues some of the cerebellar abnormalities (e.g., Purkinje cell death) seen in another lysosomal disease known as Niemann-Pick cardiac muscle tissue development C (NPC).">
+		<entity id="s2.e1" charOffset="152-178"
+			type="GO" text="cysteine metabolic process" ontology_id="GO_0006534"/>
+		<entity id="s2.e2" charOffset="251-275"
+			type="HP" text="cerebellar abnormalities" ontology_id="HP_0001317"/>
+		<entity id="s2.e3" charOffset="360-393"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

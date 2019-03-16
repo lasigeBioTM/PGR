@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27481395">
+	<sentence id="s1" text="Glycine cleavage system (cysteine metabolic process) catalyzes the degradation of glycine and disruption of its components encoded by glycine catabolic process, glycine decarboxylation via glycine cleavage system and cysteine metabolic processH are the only known causes of glycine encephalopathy, also known as non-ketotic hyperglycinemia (glycine decarboxylation via glycine cleavage system).">
+		<entity id="s1.e1" charOffset="25-51"
+			type="GO" text="cysteine metabolic process" ontology_id="GO_0006534"/>
+		<entity id="s1.e2" charOffset="134-159"
+			type="GO" text="glycine catabolic process" ontology_id="GO_0006546"/>
+		<entity id="s1.e3" charOffset="161-212"
+			type="GO" text="glycine decarboxylation via glycine cleavage system" ontology_id="GO_0019464"/>
+		<entity id="s1.e4" charOffset="190-204"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e5" charOffset="232-247"
+			type="HP" text="hyperglycinemia" ontology_id="HP_0002154"/>
+		<entity id="s1.e6" charOffset="318-369"
+			type="GO" text="glycine decarboxylation via glycine cleavage system" ontology_id="GO_0019464"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27553190">
+	<sentence id="s1" text="Recent studies have revealed severe cases of microcephaly resulting from human mutations in the establishment of mitotic spindle orientation gene, which is involved in the regulation of cytoplasmic dynein.">
+		<entity id="s1.e1" charOffset="45-57"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="96-140"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="These results reveal that the severity of establishment of mitotic spindle orientation-associated microcephaly results not from defects in mitosis, but rather the inability of neural progenitors to ever reach this stage">
+		<entity id="s2.e1" charOffset="42-86"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<entity id="s2.e2" charOffset="98-110"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26659383">
+	<sentence id="s1" text="Ectodysplasin-A2 (EDA-A2) is a recently isolated member of the tumor necrosis factor superfamily that binds to X-linked ectodermal dysplasia receptor (XEDAR).">
+		<entity id="s1.e1" charOffset="18-24"
+			type="GENE" text="EDA-A2" ontology_id="1896"/>
+		<entity id="s1.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="120-140"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e4" charOffset="151-156"
+			type="GENE" text="XEDAR" ontology_id="60401"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

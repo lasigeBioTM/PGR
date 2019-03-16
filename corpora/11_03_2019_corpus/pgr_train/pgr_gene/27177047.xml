@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27177047">
+	<sentence id="s1" text="Auditory neuropathy is a type of hearing loss that constitutes a change in the conduct of the auditory stimulus by the involvement of inner hair cells or auditory nerve synapses.">
+		<entity id="s1.e1" charOffset="9-19"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="25-29"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="33-45"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="At present, four loci associated with non‑syndromic auditory neuropathy have been mapped: Autosomal recessive deafness‑9 [DFNB9; the otoferlin (OTOF) gene] and autosomal recessive deafness‑59 [DFNB59; the pejvakin (PJVK) gene], associated with autosomal recessive inheritance; the autosomal dominant auditory neuropathy gene [AUNA1; the diaphanous‑3 (DIAPH3) gene]; and AUNX1, linked to chromosome X.">
+		<entity id="s2.e1" charOffset="61-71"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s2.e2" charOffset="110-118"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s2.e3" charOffset="144-148"
+			type="GENE" text="OTOF" ontology_id="9381"/>
+		<entity id="s2.e4" charOffset="160-179"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e5" charOffset="215-219"
+			type="GENE" text="PJVK" ontology_id="494513"/>
+		<entity id="s2.e6" charOffset="264-275"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<entity id="s2.e7" charOffset="351-357"
+			type="GENE" text="DIAPH3" ontology_id="81624"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e8"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e7"
+		    e2="s2.e14" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e14"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p11" e1="s2.e19"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p12" e1="s2.e19"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="OTOF gene mutations exert a significant role in auditory neuropathy.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="OTOF" ontology_id="9381"/>
+		<entity id="s3.e2" charOffset="57-67"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The identification of genetic alterations responsible for auditory neuropathy is one of the challenges contributing to understand the molecular bases of the different phenotypes of hearing loss.">
+		<entity id="s4.e1" charOffset="67-77"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s4.e2" charOffset="172-176"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s4.e3" charOffset="181-193"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Thus, the present study aimed to investigate molecular changes in the OTOF gene in patients with auditory neuropathy, and to develop a DNA chip for the molecular diagnosis of auditory neuropathy using mass spectrometry for genotyping.">
+		<entity id="s5.e1" charOffset="70-74"
+			type="GENE" text="OTOF" ontology_id="9381"/>
+		<entity id="s5.e2" charOffset="106-116"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s5.e3" charOffset="139-143"
+			type="GENE" text="chip" ontology_id="10273"/>
+		<entity id="s5.e4" charOffset="201-205"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="Genetic alterations were investigated in 47 patients with hearing loss and clinical diagnosis of auditory neuropathy, and the c.35delG mutation in the GJB2 gene was identified in three homozygous patients, and the heterozygous parents of one of these cases.">
+		<entity id="s6.e1" charOffset="58-70"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s6.e2" charOffset="106-116"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s6.e3" charOffset="151-155"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="true"/>
+	</sentence>
+</document>

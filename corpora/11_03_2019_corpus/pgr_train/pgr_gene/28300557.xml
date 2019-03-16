@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28300557">
+	<sentence id="s1" text="These results indicated that the HFD aggravates BDE47-inhibited testosterone production through hyperinsulinemia, and the accumulation of testicular BDE47 that induces the up-regulation of DAX-1 and the subsequent down-regulation of steroidogenic proteins, i.e., StAR and 3β-HSD, in Leydig cells">
+		<entity id="s1.e1" charOffset="96-112"
+			type="HP" text="hyperinsulinemia" ontology_id="HP_0000842"/>
+		<entity id="s1.e2" charOffset="263-267"
+			type="GENE" text="StAR" ontology_id="2984"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

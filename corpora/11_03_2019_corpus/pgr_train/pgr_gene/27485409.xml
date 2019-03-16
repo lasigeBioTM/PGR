@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27485409">
+	<sentence id="s1" text="3-Methylglutaconic aciduria is associated with variants in genes encoding mitochondrial inner membrane organizing determinants, including TAZ, DNAJC19, SERAC1 and QIL1/MIC13">
+		<entity id="s1.e1" charOffset="74-87"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s1.e2" charOffset="138-141"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s1.e3" charOffset="143-150"
+			type="GENE" text="DNAJC19" ontology_id="131118"/>
+		<entity id="s1.e4" charOffset="152-158"
+			type="GENE" text="SERAC1" ontology_id="84947"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

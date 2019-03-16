@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28916654">
+	<sentence id="s1" text="DICER1 is an RNase III endoribonuclease central to miRNA biogenesis, and germline li>DICER1</i> mutations result in a cancer predisposition syndrome, associated with an increased risk of many tumor types.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="DICER1" ontology_id="23405"/>
+		<entity id="s1.e2" charOffset="118-124"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="192-197"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show that biallelic li>Dicer1</i> deletion with li>aP2-Cre</i> drives aggressive and metastatic angiosarcoma independent of other genetically engineered oncogenes or tumor suppressor loss.">
+		<entity id="s2.e1" charOffset="32-38"
+			type="GENE" text="Dicer1" ontology_id="23405"/>
+		<entity id="s2.e2" charOffset="105-117"
+			type="HP" text="angiosarcoma" ontology_id="HP_0200058"/>
+		<entity id="s2.e3" charOffset="175-180"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Angiosarcomas in li>aP2-Cre;Dicer1<sup>Flox/-</sup></i> mice histologically and genetically resemble human angiosarcoma.">
+		<entity id="s3.e1" charOffset="5-12"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s3.e2" charOffset="28-34"
+			type="GENE" text="Dicer1" ontology_id="23405"/>
+		<entity id="s3.e3" charOffset="56-60"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e4" charOffset="107-119"
+			type="HP" text="angiosarcoma" ontology_id="HP_0200058"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="These studies illustrate that Dicer1 can function as a traditional loss-of-function tumor suppressor gene, and they provide a fully penetrant animal model for the study of angiosarcoma development and metastasis.">
+		<entity id="s4.e1" charOffset="30-36"
+			type="GENE" text="Dicer1" ontology_id="23405"/>
+		<entity id="s4.e2" charOffset="84-89"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="172-184"
+			type="HP" text="angiosarcoma" ontology_id="HP_0200058"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

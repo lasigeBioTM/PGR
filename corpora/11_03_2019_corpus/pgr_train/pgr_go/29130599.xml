@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29130599">
+	<sentence id="s1" text="Shared facial features are a broad and wide forehead, similar shape of the eyes with long palpebral fissures, a bulbous biological_process of the nose and thick lips.">
+		<entity id="s1.e1" charOffset="39-52"
+			type="HP" text="wide forehead" ontology_id="HP_0000337"/>
+		<entity id="s1.e2" charOffset="120-138"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Of these five genes, the brain expressed peptidyl-serine phosphorylation gene constitutes a good candidate for the developmental delay, while the cellular homeostasis gene, involved in mitochondrial trafficking, might underlie the hypotonia and the excessive fatigue">
+		<entity id="s2.e1" charOffset="41-72"
+			type="GO" text="peptidyl-serine phosphorylation" ontology_id="GO_0018105"/>
+		<entity id="s2.e2" charOffset="115-134"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="146-166"
+			type="GO" text="cellular homeostasis" ontology_id="GO_0019725"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19334086">
+	<sentence id="s1" text="Treacher Collins syndrome (regulation of translation, OMIM 154500) is a well-defined mandibulofacial dysostosis characterized by symmetric facial anomalies consisting of malar hypoplasia, coloboma of the lower eyelid, dysplastic ears, micrognathia, cleft palate and deafness.">
+		<entity id="s1.e1" charOffset="27-52"
+			type="GO" text="regulation of translation" ontology_id="GO_0006417"/>
+		<entity id="s1.e2" charOffset="85-111"
+			type="HP" text="mandibulofacial dysostosis" ontology_id="HP_0005321"/>
+		<entity id="s1.e3" charOffset="139-155"
+			type="HP" text="facial anomalies" ontology_id="HP_0000271"/>
+		<entity id="s1.e4" charOffset="170-186"
+			type="HP" text="malar hypoplasia" ontology_id="HP_0000272"/>
+		<entity id="s1.e5" charOffset="218-233"
+			type="HP" text="dysplastic ears" ontology_id="HP_0000377"/>
+		<entity id="s1.e6" charOffset="235-247"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<entity id="s1.e7" charOffset="249-261"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<entity id="s1.e8" charOffset="266-274"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we describe three unrelated patients showing clinical features overlapping with regulation of translation, but who in addition have developmental delay, microcephaly and a distinct facial gestalt.">
+		<entity id="s2.e1" charOffset="85-110"
+			type="GO" text="regulation of translation" ontology_id="GO_0006417"/>
+		<entity id="s2.e2" charOffset="137-156"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="158-170"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Because of the distinct ear anomalies and the hearing loss a negative regulation of transcription by RNA polymerase II mutation was taken into account.">
+		<entity id="s3.e1" charOffset="24-37"
+			type="HP" text="ear anomalies" ontology_id="HP_0000598"/>
+		<entity id="s3.e2" charOffset="46-58"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s3.e3" charOffset="61-118"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

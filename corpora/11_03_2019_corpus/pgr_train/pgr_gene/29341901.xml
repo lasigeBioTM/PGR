@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29341901">
+	<sentence id="s1" text="However, BMP-9 is a big protein expensive to produce that can hardly access the central nervous system.">
+		<entity id="s1.e1" charOffset="9-14"
+			type="GENE" text="BMP-9" ontology_id="2658"/>
+		<entity id="s1.e2" charOffset="80-87"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Since it is known that the native protein, BMP-9, can act in synergy with other growth factors in the context of AD, here we study the potential synergistic effect of various combinations of SpBMP-9 with bFGF, EGF, IGF-2 or NGF on the cholinergic differentiation of human neuroblastoma cells SH-SY5Y.">
+		<entity id="s2.e1" charOffset="43-48"
+			type="GENE" text="BMP-9" ontology_id="2658"/>
+		<entity id="s2.e2" charOffset="54-57"
+			type="GENE" text="act" ontology_id="11332"/>
+		<entity id="s2.e3" charOffset="210-213"
+			type="GENE" text="EGF" ontology_id="1950"/>
+		<entity id="s2.e4" charOffset="224-227"
+			type="GENE" text="NGF" ontology_id="4803"/>
+		<entity id="s2.e5" charOffset="272-285"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

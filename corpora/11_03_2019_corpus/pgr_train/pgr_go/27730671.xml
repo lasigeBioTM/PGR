@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27730671">
+	<sentence id="s1" text="Appraisal of the present case against previously reported patients indicate that keratinocyte development mutations result in a distinctive skin fragility phenotype, with minimal blistering compared with other forms of basal EBS">
+		<entity id="s1.e1" charOffset="81-105"
+			type="GO" text="keratinocyte development" ontology_id="GO_0003334"/>
+		<entity id="s1.e2" charOffset="140-154"
+			type="HP" text="skin fragility" ontology_id="HP_0001030"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

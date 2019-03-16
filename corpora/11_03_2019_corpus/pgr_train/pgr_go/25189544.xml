@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25189544">
+	<sentence id="s1" text="Identification of novel genetic and epigenetic alterations is required for optimal stratification of patients with hepatocellular carcinoma (phosphatidylinositol phosphorylation) at risk for recurrence and adverse prognosis.">
+		<entity id="s1.e1" charOffset="115-139"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="141-177"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="ubiquinone biosynthetic process is a putative tumor suppressor, and promoter hypermethylation is a key regulatory mechanism in phosphatidylinositol phosphorylation.">
+		<entity id="s2.e1" charOffset="0-31"
+			type="GO" text="ubiquinone biosynthetic process" ontology_id="GO_0006744"/>
+		<entity id="s2.e2" charOffset="20-25"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="101-137"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

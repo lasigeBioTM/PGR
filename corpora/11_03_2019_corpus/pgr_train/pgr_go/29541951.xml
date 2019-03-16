@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29541951">
+	<sentence id="s1" text="Anti-mRNA splicing, via spliceosome antibodies were also observed in systemic lupus erythematosus (SLE), rheumatoid arthritis (RA), and Sjögren's syndrome (SS) patients at a positive rate of 17.3, 14.5, and 10.1% respectively.">
+		<entity id="s1.e1" charOffset="5-35"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s1.e2" charOffset="105-125"
+			type="HP" text="rheumatoid arthritis" ontology_id="HP_0001370"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

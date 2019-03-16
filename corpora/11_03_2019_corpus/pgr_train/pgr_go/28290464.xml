@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28290464">
+	<sentence id="s1" text="Naive CD4<sup>+</sup> T cells adhere to tumor slices in proportion to the abundance of monocyte chemotaxis-producing macrophages.">
+		<entity id="s1.e1" charOffset="40-45"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="87-106"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, adoptively transferred human naive CD4<sup>+</sup> T cells infiltrate human breast cancer orthotopic xenografts in a monocyte chemotaxis-dependent manner.">
+		<entity id="s2.e1" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="127-146"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In human breast cancer xenografts in humanized apoptotic process, blocking the recruitment of naive CD4<sup>+</sup> T cells into tumor by knocking down the expression of ER to Golgi vesicle-mediated transport, a monocyte chemotaxis receptor, significantly reduces intratumoral Tregs and inhibits tumor progression.">
+		<entity id="s3.e1" charOffset="16-22"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="47-64"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e3" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="170-208"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s3.e5" charOffset="212-231"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e7"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e7"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Inhibiting naive CD4<sup>+</sup> T cell recruitment into tumors by interfering with ER to Golgi vesicle-mediated transport recognition of monocyte chemotaxis may be an attractive strategy for anticancer immunotherapy">
+		<entity id="s4.e1" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="84-122"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s4.e3" charOffset="138-157"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<entity id="s4.e4" charOffset="182-188"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e4"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24463884">
+	<sentence id="s1" text="Mutations in the photoreceptor tetraspanin gene peripherin-2/retinal degeneration slow (PRPH2/cell surface receptor signaling pathway) cause both mitotic cell cycle checkpoint- and cone-dominant diseases.">
+		<entity id="s1.e1" charOffset="61-81"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e2" charOffset="94-133"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s1.e3" charOffset="146-175"
+			type="GO" text="mitotic cell cycle checkpoint" ontology_id="GO_0007093"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we took advantage of a transgenic mouse line expressing an cell surface receptor signaling pathway mutant (R172W) known to cause macular degeneration (MD) in humans.">
+		<entity id="s2.e1" charOffset="64-103"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s2.e2" charOffset="134-154"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Fundus imaging demonstrated that R172W apoptotic process developed severe clinical signs of disease nearly identical to those seen in human MD patients, including retinal degeneration, retinal pigment epithlium (carbohydrate metabolic process) defects and loss of the choriocapillaris.">
+		<entity id="s3.e1" charOffset="39-56"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e2" charOffset="163-183"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s3.e3" charOffset="212-242"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_0005975"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

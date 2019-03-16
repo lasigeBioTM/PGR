@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26497552">
+	<sentence id="s1" text="In order to determine the role of multicellular organism development during carcinogenesis, squamous cell carcinomas (negative regulation of peptidase activitys) were induced in Flii heterozygous (Flii+/-), wild-type and Flii overexpressing (FliiTg/Tg) apoptotic process by intradermal injection of 3-methylcholanthrene (MCA).">
+		<entity id="s1.e1" charOffset="34-68"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s1.e2" charOffset="92-116"
+			type="HP" text="squamous cell carcinomas" ontology_id="HP_0002860"/>
+		<entity id="s1.e3" charOffset="118-159"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s1.e4" charOffset="215-232"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="multicellular organism development was highly expressed in human negative regulation of peptidase activity biopsies particularly by the invading cells at the tumor edge.">
+		<entity id="s2.e1" charOffset="0-34"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s2.e2" charOffset="65-106"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s2.e3" charOffset="120-125"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In contrast multicellular organism development+/- apoptotic process had significantly smaller tumors that were less invasive.">
+		<entity id="s3.e1" charOffset="12-46"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s3.e2" charOffset="50-67"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e3" charOffset="81-86"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Intradermal injection of multicellular organism development neutralizing antibodies during negative regulation of peptidase activity initiation and progression significantly reduced the size of the tumors and, in vitro, decreased cellular sphere formation and invasion.">
+		<entity id="s4.e1" charOffset="25-59"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s4.e2" charOffset="91-132"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s4.e3" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Analysis of the tumors from the multicellular organism development overexpressing apoptotic process showed reduced caspase I and annexin V expression suggesting Flii may negatively regulate apoptosis within these tumors.">
+		<entity id="s5.e1" charOffset="16-21"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="32-66"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s5.e3" charOffset="82-99"
+			type="GO" text="apoptotic process" ontology_id="GO_0009915"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="These studies therefore suggest that multicellular organism development enhances negative regulation of peptidase activity tumor progression by decreasing apoptosis and enhancing tumor cell invasion.">
+		<entity id="s6.e1" charOffset="37-71"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s6.e2" charOffset="81-122"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s6.e3" charOffset="85-90"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

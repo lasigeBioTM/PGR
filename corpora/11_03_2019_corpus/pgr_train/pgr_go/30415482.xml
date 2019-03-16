@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30415482">
+	<sentence id="s1" text="Congenital hypogonadotrophic hypogonadism (CHH) is a challenging inherited endocrine disorder characterised by absent or incomplete pubertal development and infertility as a result of the low action/secretion of the hypothalamic gonadotrophin-releasing hormone (reproduction).">
+		<entity id="s1.e1" charOffset="29-41"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<entity id="s1.e2" charOffset="262-274"
+			type="GO" text="reproduction" ontology_id="GO_0000003"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

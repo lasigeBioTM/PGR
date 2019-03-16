@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29259009">
+	<sentence id="s1" text="Overall, our findings establish RASSF4 as a tumor-suppressive hub in MM and provide a mechanistic rationale for combining trametinib with HDAC inhibitors or bortezomib to treat patients with tumors exhibiting low RASSF4 expression.<b>Significance:</b> These findings provide a mechanistic rationale for combining trametinib with HDAC inhibitors or bortezomib in patients with multiple myeloma whose tumors exhibit low RASSF4 expression.">
+		<entity id="s1.e1" charOffset="32-38"
+			type="GENE" text="RASSF4" ontology_id="54453"/>
+		<entity id="s1.e2" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="62-65"
+			type="GENE" text="hub" ontology_id="1993"/>
+		<entity id="s1.e4" charOffset="138-142"
+			type="GENE" text="HDAC" ontology_id="9734"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

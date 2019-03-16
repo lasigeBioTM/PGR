@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29621546">
+	<sentence id="s1" text="We found that KLK10 was significantly overexpressed in tissues of pancreatic intraepithelial neoplasia (PanIN) and PDAC from Pdx1-Cre; LSL-Kras<sup>G12D/+</sup> mice (KC) and Pdx1-Cre; LSL-Kras<sup>G12D/+</sup>; LSL-Trp53<sup>R172H/+</sup> mice (KPC) by immunohistochemical analysis.">
+		<entity id="s1.e1" charOffset="14-19"
+			type="GENE" text="KLK10" ontology_id="5655"/>
+		<entity id="s1.e2" charOffset="93-102"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="161-165"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

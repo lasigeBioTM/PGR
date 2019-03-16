@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29391407">
+	<sentence id="s1" text="The molecular chaperone Hsp90 is overexpressed in prostate cancer (PCa) and is responsible for the folding, stabilization and maturation of multiple oncoproteins, which are implicated in PCa progression.">
+		<entity id="s1.e1" charOffset="24-29"
+			type="GENE" text="Hsp90" ontology_id="3320"/>
+		<entity id="s1.e2" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="67-70"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

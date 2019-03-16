@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30251688">
+	<sentence id="s1" text="Duchenne muscular dystrophy (peptide biosynthetic process) is characterized by a severe and progressive destruction of muscle fibers associated with altered Ca<sup>2+</sup> homeostasis.">
+		<entity id="s1.e1" charOffset="9-27"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="29-57"
+			type="GO" text="peptide biosynthetic process" ontology_id="GO_0043043"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

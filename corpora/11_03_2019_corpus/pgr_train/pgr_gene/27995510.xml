@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27995510">
+	<sentence id="s1" text="A growing body of clinical literature emphasizes the impact of cerebral edema in early brain injury following aneurysmal subarachnoid hemorrhage (aSAH).">
+		<entity id="s1.e1" charOffset="53-59"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="63-77"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<entity id="s1.e3" charOffset="146-150"
+			type="GENE" text="aSAH" ontology_id="427"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Although cerebral edema is not a universal feature of aSAH, it portends a poor clinical course, with quantitative analysis revealing a direct correlation between cerebral edema and poor outcome, including mortality and cognitive deficits.">
+		<entity id="s2.e1" charOffset="9-23"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<entity id="s2.e2" charOffset="54-58"
+			type="GENE" text="aSAH" ontology_id="427"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we review these cellular and molecular mechanisms of global cerebral edema formation in aSAH.">
+		<entity id="s3.e1" charOffset="66-80"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<entity id="s3.e2" charOffset="94-98"
+			type="GENE" text="aSAH" ontology_id="427"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Given the importance of edema to the outcome of patients with aSAH and its status as a highly modifiable pathological process, a better understanding of cerebral edema in aSAH promises to hasten the development of medical therapies to improve outcomes in this frequently devastating disease">
+		<entity id="s4.e1" charOffset="24-29"
+			type="HP" text="edema" ontology_id="HP_0000969"/>
+		<entity id="s4.e2" charOffset="62-66"
+			type="GENE" text="aSAH" ontology_id="427"/>
+		<entity id="s4.e3" charOffset="153-167"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

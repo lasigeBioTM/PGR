@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28691927">
+	<sentence id="s1" text="Promyelocytic leukemia (PML) is a pleiotropic tumor suppressor, but its role in tumor microenvironment regulation is poorly characterized.">
+		<entity id="s1.e1" charOffset="24-27"
+			type="GENE" text="PML" ontology_id="5371"/>
+		<entity id="s1.e2" charOffset="46-51"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="PML is frequently downregulated in many cancer types, including lung cancer.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="PML" ontology_id="5371"/>
+		<entity id="s2.e2" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Clinically, this PML degradation pathway is hyperactivated in lung cancer and correlates with poor prognosis.">
+		<entity id="s3.e1" charOffset="17-20"
+			type="GENE" text="PML" ontology_id="5371"/>
+		<entity id="s3.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The WDR4/PML axis induces a set of cell-surface or secreted factors, including CD73, urokinase-type plasminogen activator receptor (uPAR), and serum amyloid A2 (SAA2), which elicit paracrine effects to stimulate migration, invasion, and metastasis in multiple lung cancer models.">
+		<entity id="s4.e1" charOffset="4-8"
+			type="GENE" text="WDR4" ontology_id="10785"/>
+		<entity id="s4.e2" charOffset="9-12"
+			type="GENE" text="PML" ontology_id="5371"/>
+		<entity id="s4.e3" charOffset="28-31"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s4.e4" charOffset="132-136"
+			type="GENE" text="uPAR" ontology_id="5329"/>
+		<entity id="s4.e5" charOffset="161-165"
+			type="GENE" text="SAA2" ontology_id="6289"/>
+		<entity id="s4.e6" charOffset="265-271"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e6"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e4"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p5" e1="s4.e5"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In xenograft and genetically engineered mouse models, the WDR4/PML axis elevates intratumoral Tregs and M2-like macrophages and reduces CD8+ T cells to promote lung tumor growth.">
+		<entity id="s5.e1" charOffset="58-62"
+			type="GENE" text="WDR4" ontology_id="10785"/>
+		<entity id="s5.e2" charOffset="63-66"
+			type="GENE" text="PML" ontology_id="5371"/>
+		<entity id="s5.e3" charOffset="86-91"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Our study identifies WDR4 as an oncoprotein that negatively regulates PML via ubiquitination to promote lung cancer progression by fostering an immunosuppressive and prometastatic tumor microenvironment, suggesting the potential of immune-modulatory approaches for treating lung cancer with aberrant PML degradation">
+		<entity id="s6.e1" charOffset="21-25"
+			type="GENE" text="WDR4" ontology_id="10785"/>
+		<entity id="s6.e2" charOffset="70-73"
+			type="GENE" text="PML" ontology_id="5371"/>
+		<entity id="s6.e3" charOffset="109-115"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e4" charOffset="180-185"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e4"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p4" e1="s6.e1"
+		    e2="s6.e6" pgr="false"/>
+	</sentence>
+</document>

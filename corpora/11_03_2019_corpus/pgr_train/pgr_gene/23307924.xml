@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23307924">
+	<sentence id="s1" text="These findings implicate for the first time perturbed TGF-β signaling in the genesis of retinal dystrophies, support the study of related morphogenetic genes for comparable roles in retinal disease and may offer additional therapeutic opportunities for genetically heterogeneous disorders presently only treatable with gene therapy">
+		<entity id="s1.e1" charOffset="77-84"
+			type="GENE" text="genesis" ontology_id="27022"/>
+		<entity id="s1.e2" charOffset="88-107"
+			type="HP" text="retinal dystrophies" ontology_id="HP_0000556"/>
+		<entity id="s1.e3" charOffset="182-197"
+			type="HP" text="retinal disease" ontology_id="HP_0000479"/>
+		<entity id="s1.e4" charOffset="265-278"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29101791">
+	<sentence id="s1" text="We generated calpain-1 knockout Townes sickle (SSCKO) mice to investigate the role of calpain-1 in steady state and hypoxia/reoxygenation (H/R)-induced sickle platelet activation and aggregation, clot retraction, and pulmonary arterial hypertension.">
+		<entity id="s1.e1" charOffset="54-58"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="217-248"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

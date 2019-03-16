@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29479983">
+	<sentence id="s1" text="a small fraction of the breast cancer burden, mutations in the double-strand break repair via homologous recombination and mitotic cytokinesis genes are known to confer a high">
+		<entity id="s1.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="63-118"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e3" charOffset="123-142"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="studies have shown that mutations in the regulation of transcription, DNA-templated gene are involved in breast cancer susceptibility due to its impact">
+		<entity id="s2.e1" charOffset="41-83"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e2" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="germline mutations in regulation of transcription, DNA-templated gene (c.1100delC, R145W and I157T) in breast cancers in Rwanda.">
+		<entity id="s3.e1" charOffset="22-64"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s3.e2" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

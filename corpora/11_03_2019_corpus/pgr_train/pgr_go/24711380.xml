@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24711380">
+	<sentence id="s1" text="negative regulation of NF-kappaB transcription factor activity(-/-) apoptotic process rapidly develop decompensated cardiac hypertrophy, and following severe pressure overload all Erbin(-/-) mice died from heart failure.">
+		<entity id="s1.e1" charOffset="0-62"
+			type="GO" text="negative regulation of NF-kappaB transcription factor activity" ontology_id="GO_0032088"/>
+		<entity id="s1.e2" charOffset="68-85"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="193-206"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

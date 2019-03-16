@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30264546">
+	<sentence id="s1" text="However, in hepatocellular carcinoma (HCC), the characteristics and mechanism of IDO1 expression have not been well defined.">
+		<entity id="s1.e1" charOffset="12-36"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="38-41"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s1.e3" charOffset="81-85"
+			type="GENE" text="IDO1" ontology_id="3620"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, IDO1 expression in tumor cells (T-IDO1) was frequently detected (109/112) by immunohistochemistry in formalin-fixed paraffin-embedded specimens from HCC patients, and the expression patterns were mostly focal (102/109).">
+		<entity id="s2.e1" charOffset="15-19"
+			type="GENE" text="IDO1" ontology_id="3620"/>
+		<entity id="s2.e2" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="164-167"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These findings indicated that T-IDO1 expression in HCC is common and is dominantly driven by the host antitumor immune response, which is a favorable prognostic factor in HCC">
+		<entity id="s3.e1" charOffset="32-36"
+			type="GENE" text="IDO1" ontology_id="3620"/>
+		<entity id="s3.e2" charOffset="51-54"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s3.e3" charOffset="106-111"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29771335">
+	<sentence id="s1" text="Here, we showed that the homeostatic synaptic downscaling is absent in the hippocampal neurons of Fmr1 KO mice, the mouse model of the most common inherited autism, fragile X syndrome (FXS).">
+		<entity id="s1.e1" charOffset="98-102"
+			type="GENE" text="Fmr1" ontology_id="2332"/>
+		<entity id="s1.e2" charOffset="106-110"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="157-163"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that the impaired homeostatic synaptic downscaling in Fmr1 KO neurons is caused by loss-of-function dephosphorylation of an epilepsy-associated ubiquitin E3 ligase, neural precursor cell expressed developmentally down-regulated gene 4-2, Nedd4-2.">
+		<entity id="s2.e1" charOffset="63-67"
+			type="GENE" text="Fmr1" ontology_id="2332"/>
+		<entity id="s2.e2" charOffset="133-141"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="247-254"
+			type="GENE" text="Nedd4-2" ontology_id="23327"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Such dephosphorylation of Nedd4-2 is surprisingly caused by abnormally stable tumor suppressor p53 and subsequently destabilized kinase Akt.">
+		<entity id="s3.e1" charOffset="26-33"
+			type="GENE" text="Nedd4-2" ontology_id="23327"/>
+		<entity id="s3.e2" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

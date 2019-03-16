@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30181549">
+	<sentence id="s1" text="Further experiments demonstrated that the MYEOV ceRNA sequestered miR-30c-2-3p from binding its targets TGFBR2 and USP15 mRNAs, which in turn leading to constitutive activation of TGF-β signaling and tumor progression in NSCLC.">
+		<entity id="s1.e1" charOffset="42-47"
+			type="GENE" text="MYEOV" ontology_id="26579"/>
+		<entity id="s1.e2" charOffset="66-69"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e3" charOffset="104-110"
+			type="GENE" text="TGFBR2" ontology_id="7048"/>
+		<entity id="s1.e4" charOffset="115-120"
+			type="GENE" text="USP15" ontology_id="9958"/>
+		<entity id="s1.e5" charOffset="200-205"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

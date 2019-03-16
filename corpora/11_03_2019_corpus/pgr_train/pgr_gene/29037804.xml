@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29037804">
+	<sentence id="s1" text="Fluorescence in situ hybridisation (FISH) targeting specific genes has been used as an ancillary method for differential diagnosis of melanocytic tumours, but most previous studies have focused on non-acral lesions which may have genetic alterations different from acral lesions.">
+		<entity id="s1.e1" charOffset="36-40"
+			type="GENE" text="FISH" ontology_id="9644"/>
+		<entity id="s1.e2" charOffset="146-153"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="201-206"
+			type="HP" text="acral" ontology_id="HP_0025292"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We evaluated use of multi-site FISH in the diagnosis of acral melanoma in a series of 82 acral melanocytic tumours.">
+		<entity id="s2.e1" charOffset="31-35"
+			type="GENE" text="FISH" ontology_id="9644"/>
+		<entity id="s2.e2" charOffset="56-61"
+			type="HP" text="acral" ontology_id="HP_0025292"/>
+		<entity id="s2.e3" charOffset="107-114"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In 44 primary acral melanomas, sensitivity was 70.5% (31/44) using probe set 1 alone, and 59.1% (26/44) using probe set 2 alone.">
+		<entity id="s3.e1" charOffset="14-19"
+			type="HP" text="acral" ontology_id="HP_0025292"/>
+		<entity id="s3.e2" charOffset="20-29"
+			type="HP" text="melanomas" ontology_id="HP_0002861"/>
+		<entity id="s3.e3" charOffset="73-76"
+			type="GENE" text="set" ontology_id="6418"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In this study FISH exhibited sensitivity and specificity in diagnosis of acral melanoma which allows its application as an auxiliary diagnostic test in acral melanocytic tumours">
+		<entity id="s4.e1" charOffset="14-18"
+			type="GENE" text="FISH" ontology_id="9644"/>
+		<entity id="s4.e2" charOffset="73-78"
+			type="HP" text="acral" ontology_id="HP_0025292"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

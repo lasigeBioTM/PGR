@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30205301">
+	<sentence id="s1" text="The studied CVD biomarkers include AXL receptor tyrosine kinase, apolipoproteins, cholesterol, C-reactive protein (CRP), D-dimer, fibrinogen (Fib), glucose, insulin, interleukins, lipoproteins, myoglobin, N-terminal pro-B-type natriuretic peptide (BNP), tumor necrosis factor alpha (TNF-α) and troponins (Tns) on electrochemical transduction format.">
+		<entity id="s1.e1" charOffset="35-38"
+			type="GENE" text="AXL" ontology_id="558"/>
+		<entity id="s1.e2" charOffset="115-118"
+			type="GENE" text="CRP" ontology_id="1401"/>
+		<entity id="s1.e3" charOffset="142-145"
+			type="GENE" text="Fib" ontology_id="2091"/>
+		<entity id="s1.e4" charOffset="254-259"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="305-308"
+			type="GENE" text="Tns" ontology_id="7145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

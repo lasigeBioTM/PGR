@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30047423">
+	<sentence id="s1" text="Myelodysplastic syndromes (microtubule-based process) in children and adolescents are a rare heterogeneous group of clonal stem cell disorders.">
+		<entity id="s1.e1" charOffset="27-52"
+			type="GO" text="microtubule-based process" ontology_id="GO_0007017"/>
+		<entity id="s1.e2" charOffset="93-106"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

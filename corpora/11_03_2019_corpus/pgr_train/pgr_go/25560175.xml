@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25560175">
+	<sentence id="s1" text="Breast tissue and blood from patients with invasive breast cancer (n = 38) and benign breast disease (n = 30) were compared with those from healthy individuals (n = 36), matched with the cancer patients by age at diagnosis, ethnicity, body cell adhesion mediated by integrin index, menopausal status and familial history of cancer.">
+		<entity id="s1.e1" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="240-274"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Tumor-specific methylation changes at positive regulation of cell proliferation protein deubiquitination2 were observed in 59% of cancer patients, IGF2 DMR0 in 38%, regulation of cyclin-dependent protein serine/threonine kinase activity DMR in 36%, negative regulation of Wnt signaling pathway ICR in 23%, negative regulation of transcription by RNA polymerase II DMR in 21%, regulation of lipid storage ICR in 19%, H19 ICR in 18%, KvDMR in 8% and SNRPN/SNURF ICR in 4%.">
+		<entity id="s2.e1" charOffset="38-79"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e2" charOffset="80-104"
+			type="GO" text="protein deubiquitination" ontology_id="GO_0016579"/>
+		<entity id="s2.e3" charOffset="109-115"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="144-215"
+			type="GO" text="regulation of cyclin-dependent protein serine/threonine kinase activity" ontology_id="GO_0000079"/>
+		<entity id="s2.e5" charOffset="249-293"
+			type="GO" text="negative regulation of Wnt signaling pathway" ontology_id="GO_0030178"/>
+		<entity id="s2.e6" charOffset="306-363"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e7" charOffset="376-403"
+			type="GO" text="regulation of lipid storage" ontology_id="GO_0010883"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e3"
+		    e2="s2.e7" pgr="false"/>
+	</sentence>
+</document>

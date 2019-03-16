@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27488440">
+	<sentence id="s1" text="Overexpression of LOXL2 and SERPINH1 was observed in clinical specimens of lung cancer and fibrotic lesions.">
+		<entity id="s1.e1" charOffset="18-23"
+			type="GENE" text="LOXL2" ontology_id="4017"/>
+		<entity id="s1.e2" charOffset="28-36"
+			type="GENE" text="SERPINH1" ontology_id="871"/>
+		<entity id="s1.e3" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Downregulation of miR-29a caused overexpression of LOXL2 and SERPINH1 in lung cancer and IPF, suggesting that these genes are involved in the pathogenesis of these two diseases">
+		<entity id="s2.e1" charOffset="51-56"
+			type="GENE" text="LOXL2" ontology_id="4017"/>
+		<entity id="s2.e2" charOffset="61-69"
+			type="GENE" text="SERPINH1" ontology_id="871"/>
+		<entity id="s2.e3" charOffset="78-84"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

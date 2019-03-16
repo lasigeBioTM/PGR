@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27260292">
+	<sentence id="s1" text="Our data confirm the genetic heterogeneity of childhood-onset pure HSP, with SPG4/SPAST and SPG3A/ATL1 being the most frequent forms.">
+		<entity id="s1.e1" charOffset="29-42"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="82-87"
+			type="GENE" text="SPAST" ontology_id="6683"/>
+		<entity id="s1.e3" charOffset="98-102"
+			type="GENE" text="ATL1" ontology_id="51062"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

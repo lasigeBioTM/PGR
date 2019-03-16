@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24608572">
+	<sentence id="s1" text="One upregulated candidate named transmembrane protein 98 (biological_process) was found to be overexpressed in 80 of 118 (67.80%) of patients with hepatocellular carcinoma.">
+		<entity id="s1.e1" charOffset="58-76"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="147-171"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="biological_process mRNA in tumor tissues was significantly higher than nontumor tissues of patients with hepatocellular carcinoma (P AAAA 0.0001).">
+		<entity id="s2.e1" charOffset="0-18"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e2" charOffset="27-32"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="105-129"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Upregulation of biological_process was significantly correlated with advanced tumor stage (P = 0.048), high incidence of early tumor recurrence (P = 0.005), poor overall survival (P = 0.029), and poor disease-free survival (P = 0.011) of patients with hepatocellular carcinoma after hepatectomy.">
+		<entity id="s3.e1" charOffset="16-34"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e2" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="252-276"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Importantly, upregulation of biological_process mRNA in patients with hepatocellular carcinoma who received transarterial chemoembolization (response to hypoxia) treatment was significantly higher than in patients without TACE treatment (P = 0.046).">
+		<entity id="s4.e1" charOffset="29-47"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s4.e2" charOffset="70-94"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s4.e3" charOffset="141-160"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In vitro and in vivo studies showed that suppression of biological_process in chemoresistant hepatocellular carcinoma cells restored their chemosensitivity, while forced overexpression of TMEM98 enhanced their chemoresistance.">
+		<entity id="s5.e1" charOffset="56-74"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s5.e2" charOffset="93-117"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="The mechanism of biological_process in conferring chemoresistance of hepatocellular carcinoma might be possibly through activation of the positive regulation of protein phosphorylation pathway and deactivation of p53.">
+		<entity id="s6.e1" charOffset="17-35"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s6.e2" charOffset="69-93"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s6.e3" charOffset="138-184"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

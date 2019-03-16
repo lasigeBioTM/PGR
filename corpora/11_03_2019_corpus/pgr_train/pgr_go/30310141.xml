@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30310141">
+	<sentence id="s1" text="We first develop a doxycycline-inducible cell line expressing GFP-tagged cytoplasmic RNA splicing protein (iGFP-NLSm) as a cell-based system to screen and identify seeding activity of human brain-derived pathological TDP-43 isolated from sporadic FTLD-TDP and familial cases with Granulin (FTLD-TDP-GRN) or negative regulation of protein phosphorylation repeat expansion mutations (FTLD-TDP-C9+).">
+		<entity id="s1.e1" charOffset="85-97"
+			type="GO" text="RNA splicing" ontology_id="GO_0008380"/>
+		<entity id="s1.e2" charOffset="238-246"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e3" charOffset="307-353"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29494340">
+	<sentence id="s1" text="Backgorund: Sanjad-Sakati syndrome (SSS) is a rare autosomal recessive disease caused by a deletion mutation (155-166del) in exon 3 of the TBCE gene on chromosome 1q42-43.">
+		<entity id="s1.e1" charOffset="51-70"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="139-143"
+			type="GENE" text="TBCE" ontology_id="6905"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

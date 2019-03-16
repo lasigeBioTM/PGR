@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28290464">
+	<sentence id="s1" text="Naive CD4<sup>+</sup> T cells adhere to tumor slices in proportion to the abundance of CCL18-producing macrophages.">
+		<entity id="s1.e1" charOffset="40-45"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="87-92"
+			type="GENE" text="CCL18" ontology_id="6362"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, adoptively transferred human naive CD4<sup>+</sup> T cells infiltrate human breast cancer orthotopic xenografts in a CCL18-dependent manner.">
+		<entity id="s2.e1" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="127-132"
+			type="GENE" text="CCL18" ontology_id="6362"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In human breast cancer xenografts in humanized mice, blocking the recruitment of naive CD4<sup>+</sup> T cells into tumor by knocking down the expression of PITPNM3, a CCL18 receptor, significantly reduces intratumoral Tregs and inhibits tumor progression.">
+		<entity id="s3.e1" charOffset="16-22"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="47-51"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e3" charOffset="116-121"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="157-164"
+			type="GENE" text="PITPNM3" ontology_id="83394"/>
+		<entity id="s3.e5" charOffset="168-173"
+			type="GENE" text="CCL18" ontology_id="6362"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e7"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e7"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Inhibiting naive CD4<sup>+</sup> T cell recruitment into tumors by interfering with PITPNM3 recognition of CCL18 may be an attractive strategy for anticancer immunotherapy">
+		<entity id="s4.e1" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="84-91"
+			type="GENE" text="PITPNM3" ontology_id="83394"/>
+		<entity id="s4.e3" charOffset="107-112"
+			type="GENE" text="CCL18" ontology_id="6362"/>
+		<entity id="s4.e4" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e4"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+</document>

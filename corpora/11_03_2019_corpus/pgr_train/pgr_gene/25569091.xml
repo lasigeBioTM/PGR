@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25569091">
+	<sentence id="s1" text="The patients were classified according to the presence of significant coronary atherosclerosis (CAS) and history of myocardial infarction (MI).">
+		<entity id="s1.e1" charOffset="96-99"
+			type="GENE" text="CAS" ontology_id="9564"/>
+		<entity id="s1.e2" charOffset="116-137"
+			type="HP" text="myocardial infarction" ontology_id="HP_0001658"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

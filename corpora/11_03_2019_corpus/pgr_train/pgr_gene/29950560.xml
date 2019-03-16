@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29950560">
+	<sentence id="s1" text="Adult-type granulosa cell tumors of the ovary (aGCTs) are rare gynecologic malignancies that exhibit a high frequency of somatic FOXL2 c.C402G (p.Cys134Trp) mutation.">
+		<entity id="s1.e1" charOffset="26-32"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="129-134"
+			type="GENE" text="FOXL2" ontology_id="668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we show, using whole-exome and cancer gene panel sequencing of 79 aGCTs from two independent cohorts, that truncating mutation of the histone lysine methyltransferase gene KMT2D (also known as MLL2) is a recurrent somatic event in aGCT.">
+		<entity id="s2.e1" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="177-182"
+			type="GENE" text="KMT2D" ontology_id="8085"/>
+		<entity id="s2.e3" charOffset="198-202"
+			type="GENE" text="MLL2" ontology_id="9757"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="IHC detects additional non-KMT2D-mutated aGCTs with loss of nuclear KMT2D expression, suggesting that non-genetic KMT2D inactivation may occur in this tumor type.">
+		<entity id="s3.e1" charOffset="27-32"
+			type="GENE" text="KMT2D" ontology_id="8085"/>
+		<entity id="s3.e2" charOffset="151-156"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

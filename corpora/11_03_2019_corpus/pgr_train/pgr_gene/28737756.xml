@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28737756">
+	<sentence id="s1" text="Zinc finger protein 687 (ZNF687), identified as a C2H2 zinc finger protein, has been found to be mutated and upregulated in giant cell tumor of bone and acute myeloid leukemia, suggesting an oncogenic role for ZNF687 in cancer.">
+		<entity id="s1.e1" charOffset="25-31"
+			type="GENE" text="ZNF687" ontology_id="57592"/>
+		<entity id="s1.e2" charOffset="135-140"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="220-226"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the clinical significance and precise role of ZNF687 in cancer progression are largely unknown.">
+		<entity id="s2.e1" charOffset="55-61"
+			type="GENE" text="ZNF687" ontology_id="57592"/>
+		<entity id="s2.e2" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Herein, we report that ZNF687 was markedly upregulated in hepatocellular carcinoma (HCC) cell lines and HCC tissues, and was significantly correlated with relapse-free survival in HCC.">
+		<entity id="s3.e1" charOffset="23-29"
+			type="GENE" text="ZNF687" ontology_id="57592"/>
+		<entity id="s3.e2" charOffset="58-82"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s3.e3" charOffset="84-87"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="ZNF687 overexpression greatly enhanced HCC cell capability for tumorsphere formation, invasion and chemoresistance in vitro, whereas inhibiting ZNF687 reduced these capabilities and inhibited HCC cell tumorigenic capability in vivo.">
+		<entity id="s4.e1" charOffset="0-6"
+			type="GENE" text="ZNF687" ontology_id="57592"/>
+		<entity id="s4.e2" charOffset="39-42"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s4.e3" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Importantly, extreme limiting dilution analysis revealed that even 1 × 10<sup>2</sup> ZNF687-transduced cells could form tumors in vivo, indicating that ZNF687 contributes to HCC recurrence.">
+		<entity id="s5.e1" charOffset="86-92"
+			type="GENE" text="ZNF687" ontology_id="57592"/>
+		<entity id="s5.e2" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="175-178"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

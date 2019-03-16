@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29352327">
+	<sentence id="s1" text="regulation of synapse assemblyKs and SSH promote cancer cell invasion and metastasis and represent novel anti-cancer targets.">
+		<entity id="s1.e1" charOffset="0-30"
+			type="GO" text="regulation of synapse assembly" ontology_id="GO_0051963"/>
+		<entity id="s1.e2" charOffset="49-55"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, little is known regarding regulation of synapse assemblyK/cofilin and SSH in human colorectal cancer (CRC).">
+		<entity id="s2.e1" charOffset="35-65"
+			type="GO" text="regulation of synapse assembly" ontology_id="GO_0051963"/>
+		<entity id="s2.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We show that active cofilin, regulation of synapse assemblyK1, LIMK2, and regulation of cellular protein metabolic process are overexpressed in human CRC and are associated with tumor progression parameters.">
+		<entity id="s3.e1" charOffset="29-59"
+			type="GO" text="regulation of synapse assembly" ontology_id="GO_0051963"/>
+		<entity id="s3.e2" charOffset="74-122"
+			type="GO" text="regulation of cellular protein metabolic process" ontology_id="GO_0032268"/>
+		<entity id="s3.e3" charOffset="134-139"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In addition, immunofluorescence analysis showed increased expression of active cofilin, regulation of synapse assemblyK1, LIMK2, and regulation of cellular protein metabolic process in HT29 colon cancer cells resistant to 5-fluorouracil compared to parental HT29 cells.">
+		<entity id="s4.e1" charOffset="88-118"
+			type="GO" text="regulation of synapse assembly" ontology_id="GO_0051963"/>
+		<entity id="s4.e2" charOffset="133-181"
+			type="GO" text="regulation of cellular protein metabolic process" ontology_id="GO_0032268"/>
+		<entity id="s4.e3" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our results suggest that F-actin regulators regulation of synapse assemblyK/cofilin pathway and regulation of cellular protein metabolic process are associated with CRC progression and chemoresistance representing promising tumor biomarkers and therapeutic targets in CRC">
+		<entity id="s5.e1" charOffset="44-74"
+			type="GO" text="regulation of synapse assembly" ontology_id="GO_0051963"/>
+		<entity id="s5.e2" charOffset="96-144"
+			type="GO" text="regulation of cellular protein metabolic process" ontology_id="GO_0032268"/>
+		<entity id="s5.e3" charOffset="180-185"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

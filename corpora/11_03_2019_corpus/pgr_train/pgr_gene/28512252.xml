@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28512252">
+	<sentence id="s1" text="Loss of ZBTB18 contributes to the aggressive phenotype of glioblastoma through regulation of poor prognosis-associated signatures.">
+		<entity id="s1.e1" charOffset="8-14"
+			type="GENE" text="ZBTB18" ontology_id="10472"/>
+		<entity id="s1.e2" charOffset="58-70"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Restitution of ZBTB18 expression reverses the phenotype and impairs tumor-forming ability.">
+		<entity id="s2.e1" charOffset="15-21"
+			type="GENE" text="ZBTB18" ontology_id="10472"/>
+		<entity id="s2.e2" charOffset="68-73"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These results indicate that ZBTB18 functions as a tumor suppressor in GBM through the regulation of genes associated with phenotypically aggressive properties.<b>Implications:</b> This study characterizes the role of the putative tumor suppressor ZBTB18 and its regulation by promoter hypermethylation, which appears to be a common mechanism to silence ZBTB18 in the mesenchymal subtype of GBM and provides a new mechanistic opportunity to specifically target this tumor subclass.">
+		<entity id="s3.e1" charOffset="28-34"
+			type="GENE" text="ZBTB18" ontology_id="10472"/>
+		<entity id="s3.e2" charOffset="50-55"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

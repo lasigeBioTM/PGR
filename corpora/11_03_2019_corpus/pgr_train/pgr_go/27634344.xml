@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27634344">
+	<sentence id="s1" text="Congenital myasthenic syndromes (actin filament organization) are a heterogeneous group of genetic disorders.">
+		<entity id="s1.e1" charOffset="33-60"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s1.e2" charOffset="68-81"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We present a comprehensive description of the heterogeneous clinical features of the actin filament organization caused by the homozygous 1267delG mutation in the AChR Ɛ subunit in nine members of two large Gipsy kindreds.">
+		<entity id="s2.e1" charOffset="46-59"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="85-112"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

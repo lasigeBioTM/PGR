@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28814648">
+	<sentence id="s1" text="nervous system development is a small nuclear protein associated with intellectual disability and neural development in humans.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s1.e2" charOffset="70-93"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

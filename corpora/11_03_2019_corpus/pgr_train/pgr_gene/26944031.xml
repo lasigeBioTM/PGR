@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26944031">
+	<sentence id="s1" text="Mosaicism was identified for autosomal dominant (JAG1, COL3A1), autosomal recessive (PYGM), and X-linked (PHKA2, PDHA1, OTC, and SLC6A8) disorders.">
+		<entity id="s1.e1" charOffset="55-61"
+			type="GENE" text="COL3A1" ontology_id="1281"/>
+		<entity id="s1.e2" charOffset="64-83"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="85-89"
+			type="GENE" text="PYGM" ontology_id="5837"/>
+		<entity id="s1.e4" charOffset="106-111"
+			type="GENE" text="PHKA2" ontology_id="5256"/>
+		<entity id="s1.e5" charOffset="113-118"
+			type="GENE" text="PDHA1" ontology_id="5160"/>
+		<entity id="s1.e6" charOffset="120-123"
+			type="GENE" text="OTC" ontology_id="5009"/>
+		<entity id="s1.e7" charOffset="129-135"
+			type="GENE" text="SLC6A8" ontology_id="6535"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25255716">
+	<sentence id="s1" text="Spinocerebellar ataxia cardiac muscle tissue development 1 (negative regulation of transcription, DNA-templated) is a dominantly inherited neurodegenerative disease of the cerebellum caused by a polyglutamine-repeat expansion in the protein negative regulation of transcription, DNA-templated.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="23-56"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="60-111"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e4" charOffset="241-292"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

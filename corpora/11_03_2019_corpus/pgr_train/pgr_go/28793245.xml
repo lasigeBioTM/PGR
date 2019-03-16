@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28793245">
+	<sentence id="s1" text="It has been reported that functionally distinct cancer stem cells (CSCs) exist in human bladder cancer (intracellular signal transduction).">
+		<entity id="s1.e1" charOffset="48-54"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="104-137"
+			type="GO" text="intracellular signal transduction" ontology_id="GO_0035556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="osteoblast differentiation expression is absent in normal urothelial cells, but it begins to be expressed in pre-neoplastic bladder tumors and continues to be expressed in invasive mouse intracellular signal transduction.">
+		<entity id="s2.e1" charOffset="0-26"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s2.e2" charOffset="110-116"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="165-198"
+			type="GO" text="intracellular signal transduction" ontology_id="GO_0035556"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Using s as a reporter of osteoblast differentiation transcriptional expression, we demonstrated that Sox2-expressing cells protein phosphorylation a subpopulation of tumor cells that fuel the growth of established intracellular signal transduction.">
+		<entity id="s3.e1" charOffset="25-51"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s3.e2" charOffset="123-146"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e3" charOffset="125-130"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="173-206"
+			type="GO" text="intracellular signal transduction" ontology_id="GO_0035556"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Ablation of osteoblast differentiation-expressing cells within primary invasive intracellular signal transduction led to enhanced tumor regression, supporting the essential role of SOX2-positive cells in regulating BCa maintenance and progression.">
+		<entity id="s4.e1" charOffset="12-38"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s4.e2" charOffset="58-91"
+			type="GO" text="intracellular signal transduction" ontology_id="GO_0035556"/>
+		<entity id="s4.e3" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

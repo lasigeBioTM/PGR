@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28003435">
+	<sentence id="s1" text="To address this, we performed exome sequencing and copy number variant analysis on 1511 frozen human brains with a diagnosis of Alzheimer's disease (AD, n = 289), frontotemporal dementia/amyotrophic lateral sclerosis (FTD/ALS, n = 252), Creutzfeldt-Jakob disease (positive regulation of peptidyl-tyrosine phosphorylation, n = 239), Parkinson's disease (PD, n = 39), dementia with Lewy bodies (DLB, n = 58), other neurodegenerative, vascular, or neurogenetic disorders (n = 266), and controls with no significant neuropathology (n = 368).">
+		<entity id="s1.e1" charOffset="163-186"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<entity id="s1.e2" charOffset="264-320"
+			type="GO" text="positive regulation of peptidyl-tyrosine phosphorylation" ontology_id="GO_0050731"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

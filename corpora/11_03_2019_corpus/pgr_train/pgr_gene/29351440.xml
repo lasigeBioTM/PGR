@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29351440">
+	<sentence id="s1" text="Previously, we demonstrated that several common pathological gene regulatory programs such as innate inflammatory and profibrotic transcriptional networks were shared by COPD and heart failure.">
+		<entity id="s1.e1" charOffset="170-174"
+			type="GENE" text="COPD" ontology_id="372"/>
+		<entity id="s1.e2" charOffset="179-192"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

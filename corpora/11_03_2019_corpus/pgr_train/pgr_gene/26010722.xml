@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26010722">
+	<sentence id="s1" text="Biological relationships among these mutated genes were mined using Ingenuity Pathway Analysis, and the results demonstrated that top two networks with highest scores were highly associated with cancer and hematological diseases, indicating that the mutated genes identified by our method were highly relevant to MDS.">
+		<entity id="s1.e1" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="313-316"
+			type="GENE" text="MDS" ontology_id="5048"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results indicated two mutated driver pathways are important for the pathogenesis of MDS: pathway in cancer and in regulation of actin cytoskeleton.">
+		<entity id="s2.e1" charOffset="88-91"
+			type="GENE" text="MDS" ontology_id="5048"/>
+		<entity id="s2.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22951595">
+	<sentence id="s1" text="We further replicated pleiotropic associations of glycogen biosynthetic process in a childhood obesity study (n=482) and in a gestational diabetes study (n=1710), respectively.">
+		<entity id="s1.e1" charOffset="50-79"
+			type="GO" text="glycogen biosynthetic process" ontology_id="GO_0005978"/>
+		<entity id="s1.e2" charOffset="95-102"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

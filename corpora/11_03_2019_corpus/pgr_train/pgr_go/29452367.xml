@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29452367">
+	<sentence id="s1" text="Here we report a patient with a congenital syndrome consisting of severe global developmental delay, microcephaly, heart defects, failure to thrive and liver disease with a previously unreported homozygous NM_015352.1: c.485CAAAAT variant (p.Ser162Leu) in protein O-linked glycosylation detected by exome sequencing.">
+		<entity id="s1.e1" charOffset="80-99"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="101-113"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="130-147"
+			type="HP" text="failure to thrive" ontology_id="HP_0001508"/>
+		<entity id="s1.e4" charOffset="256-286"
+			type="GO" text="protein O-linked glycosylation" ontology_id="GO_0006493"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results suggest that this N-glycan of protein O-linked glycosylation is not required for its proper enzymatic function, and that the p.Ser162Leu mutation of protein O-linked glycosylation likely causes global developmental delay, microcephaly with vascular and cardiac defects">
+		<entity id="s2.e1" charOffset="44-74"
+			type="GO" text="protein O-linked glycosylation" ontology_id="GO_0006493"/>
+		<entity id="s2.e2" charOffset="191-210"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="212-224"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

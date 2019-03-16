@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30256478">
+	<sentence id="s1" text="Therefore, quantification of glioma extracellular pH (pHe) is of crucial importance.">
+		<entity id="s1.e1" charOffset="29-35"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e2" charOffset="50-52"
+			type="GENE" text="pH" ontology_id="5053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This study is focused on the application of the YbHPDO3A (ytterbium 1,4,7-triscarboxymethyl-1,4,7,10-tetraazacyclododecane) probe for in vivo glioma pHe quantification using chemical exchange saturation transfer (CEST)-MRI and its correlation with tumor metabolism assessed by immunohistochemistry.">
+		<entity id="s2.e1" charOffset="142-148"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s2.e2" charOffset="149-151"
+			type="GENE" text="pH" ontology_id="5053"/>
+		<entity id="s2.e3" charOffset="248-253"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In vivo MRI sequences consisted of T<sub>2w</sub> for tumor localization, T<sub>2w</sub> * to assess YbHPDO3A biodistribution by exploiting its magnetic susceptibility effect and CEST for glioma pHe mapping.">
+		<entity id="s3.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="188-194"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e3" charOffset="195-197"
+			type="GENE" text="pH" ontology_id="5053"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="These immunohistochemical results are consistent with our pHe mapping (Pearson correlation coefficient AAAA 0.70) and provide evidence for the feasibility of the CEST-MRI method with the YbHPDO3A probe for glioma pHe quantification at 4.7 T.">
+		<entity id="s4.e1" charOffset="58-60"
+			type="GENE" text="pH" ontology_id="5053"/>
+		<entity id="s4.e2" charOffset="206-212"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

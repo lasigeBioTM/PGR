@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30565239">
+	<sentence id="s1" text="One hundred and forty-eight CTLA4 mutation carriers have been reported; patients showed hypogammaglobulinemia, recurrent infectious diseases, various autoimmune diseases, and lymphocytic infiltration into multiple organs.">
+		<entity id="s1.e1" charOffset="28-33"
+			type="GENE" text="CTLA4" ontology_id="1493"/>
+		<entity id="s1.e2" charOffset="88-109"
+			type="HP" text="hypogammaglobulinemia" ontology_id="HP_0004313"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

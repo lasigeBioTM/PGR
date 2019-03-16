@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27666723">
+	<sentence id="s1" text="The present study, therefore, aimed to evaluate the expression levels of the following growth factors and receptors in squamous cell carcinoma (SCC) of the tongue: the vascular endothelial growth factor (VEGF)‑C and VEGF‑D, which bind to the cell surface tyrosine kinase receptor VEGF receptor‑3 (VEGFR‑3); C‑C motif chemokine receptor 7 (CCR7); neuropilin (NRP)1 and NRP2; and semaphorin 3E (SEMA3E).">
+		<entity id="s1.e1" charOffset="119-142"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e2" charOffset="144-147"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s1.e3" charOffset="204-208"
+			type="GENE" text="VEGF" ontology_id="7422"/>
+		<entity id="s1.e4" charOffset="339-343"
+			type="GENE" text="CCR7" ontology_id="1236"/>
+		<entity id="s1.e5" charOffset="358-361"
+			type="GENE" text="NRP" ontology_id="4673"/>
+		<entity id="s1.e6" charOffset="393-399"
+			type="GENE" text="SEMA3E" ontology_id="9723"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

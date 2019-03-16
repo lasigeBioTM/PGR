@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28537267">
+	<sentence id="s1" text="In addition to replicating previously reported loci, we identify five novel loci significantly associated with endometriosis risk (PAAAA5 × 10<sup>-8</sup>), implicating genes involved in sex steroid hormone pathways (FN1, CCDC170, ESR1, SYNE1 and FSHB).">
+		<entity id="s1.e1" charOffset="111-124"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s1.e2" charOffset="188-191"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s1.e3" charOffset="223-230"
+			type="GENE" text="CCDC170" ontology_id="80129"/>
+		<entity id="s1.e4" charOffset="232-236"
+			type="GENE" text="ESR1" ontology_id="2099"/>
+		<entity id="s1.e5" charOffset="238-243"
+			type="GENE" text="SYNE1" ontology_id="23345"/>
+		<entity id="s1.e6" charOffset="248-252"
+			type="GENE" text="FSHB" ontology_id="2488"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Conditional analysis identified five secondary association signals, including two at the ESR1 locus, resulting in 19 independent single nucleotide polymorphisms (SNPs) robustly associated with endometriosis, which together explain up to 5.19% of variance in endometriosis.">
+		<entity id="s2.e1" charOffset="89-93"
+			type="GENE" text="ESR1" ontology_id="2099"/>
+		<entity id="s2.e2" charOffset="193-206"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

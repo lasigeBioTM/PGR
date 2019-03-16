@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28752484">
+	<sentence id="s1" text="Small series of cases have documented the co-occurrence of ganglioneuroma with a pheochromocytoma (Pheo)/paraganglioma (tricarboxylic acid cycle) component.">
+		<entity id="s1.e1" charOffset="81-97"
+			type="HP" text="pheochromocytoma" ontology_id="HP_0002666"/>
+		<entity id="s1.e2" charOffset="105-118"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e3" charOffset="120-144"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Mutations of the succinate dehydrogenase (sarcosine catabolic process) complex subunits (A, B, C, D, and SDHAF2) have been implicated in predicting metastatic behavior and in identifying possible paraganglioma syndromes.">
+		<entity id="s2.e1" charOffset="42-69"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<entity id="s2.e2" charOffset="196-209"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="One patient had a retroperitoneal composite tricarboxylic acid cycle-ganglioneuroma in the setting of neurofibromatosis cardiac muscle tissue development 1.">
+		<entity id="s3.e1" charOffset="44-68"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s3.e2" charOffset="102-119"
+			type="HP" text="neurofibromatosis" ontology_id="HP_0001067"/>
+		<entity id="s3.e3" charOffset="120-153"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

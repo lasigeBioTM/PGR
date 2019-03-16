@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29068161">
+	<sentence id="s1" text="The deleted in colorectal cancer (regulation of neuron death) gene encodes the netrin-1 (substrate-dependent cell migration, cell extension) receptor DCC, a transmembrane protein required for the guidance of commissural axons.">
+		<entity id="s1.e1" charOffset="26-32"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="34-60"
+			type="GO" text="regulation of neuron death" ontology_id="GO_1901214"/>
+		<entity id="s1.e3" charOffset="89-139"
+			type="GO" text="substrate-dependent cell migration, cell extension" ontology_id="GO_0006930"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Germline regulation of neuron death mutations disrupt the development of predominantly commissural tracts in the central nervous system (CNS) and cause a spectrum of neurological disorders.">
+		<entity id="s2.e1" charOffset="9-35"
+			type="GO" text="regulation of neuron death" ontology_id="GO_1901214"/>
+		<entity id="s2.e2" charOffset="113-120"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

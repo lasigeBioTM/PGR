@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30176312">
+	<sentence id="s1" text="Several studies have investigated single nucleotide polymorphisms (SNPs) in a number of genes associated with the susceptibility to or severity and outcome of community-acquired pneumonia (CAP), but no research has yet been conducted on the role of IRF5 gene polymorphisms in CAP.">
+		<entity id="s1.e1" charOffset="178-187"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<entity id="s1.e2" charOffset="189-192"
+			type="GENE" text="CAP" ontology_id="23476"/>
+		<entity id="s1.e3" charOffset="249-253"
+			type="GENE" text="IRF5" ontology_id="3663"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

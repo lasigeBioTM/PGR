@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28271496">
+	<sentence id="s1" text="Mutations in transcription initiation from RNA polymerase II promoter causes cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (transcription initiation from RNA polymerase II promoter), a hereditary cerebrovascular disease that leads to ischemic strokes and dementia, but in which migraine is often present, sometimes long before the onset of other symptoms.">
+		<entity id="s1.e1" charOffset="13-69"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s1.e2" charOffset="148-167"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e3" charOffset="169-225"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

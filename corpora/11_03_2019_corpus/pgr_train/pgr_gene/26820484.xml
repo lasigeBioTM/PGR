@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26820484">
+	<sentence id="s1" text="Membrane transporters (such as ABCs, SLCs and ATPases) act in carcinogenesis and chemoresistance development, but their relevance for prognosis of epithelial ovarian cancer (EOC) remains poorly understood.">
+		<entity id="s1.e1" charOffset="37-40"
+			type="GENE" text="SLC" ontology_id="6366"/>
+		<entity id="s1.e2" charOffset="55-58"
+			type="GENE" text="act" ontology_id="11332"/>
+		<entity id="s1.e3" charOffset="166-172"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

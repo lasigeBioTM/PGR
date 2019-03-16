@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28655712">
+	<sentence id="s1" text="Alterations in li>MEK1/2</i> occur in cancers, both in the treatment-naïve state and following targeted therapies, most notably BRAF and MEK inhibitors in li>BRAF</i>-V600E-mutant melanoma and colorectal cancer.">
+		<entity id="s1.e1" charOffset="38-44"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="128-132"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This work highlights the importance of classifying mutations based on structural and phenotypic consequences, both in terms of pathway signaling output and response to pharmacologic inhibition.<b>Implications:</b> This study suggests that alternate modes of target inhibition, such as ERK inhibition, will be required to effectively treat tumors harboring these MEK1/2-resistant alleles.">
+		<entity id="s2.e1" charOffset="285-288"
+			type="GENE" text="ERK" ontology_id="2048"/>
+		<entity id="s2.e2" charOffset="339-345"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

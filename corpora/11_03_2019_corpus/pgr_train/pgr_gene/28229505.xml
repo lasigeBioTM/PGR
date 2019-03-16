@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28229505">
+	<sentence id="s1" text="A recent genome-wide association study (GWAS) linked hypercalciuria and kidney stones to a claudin-14 (CLDN14) risk haplotype.">
+		<entity id="s1.e1" charOffset="53-67"
+			type="HP" text="hypercalciuria" ontology_id="HP_0002150"/>
+		<entity id="s1.e2" charOffset="103-109"
+			type="GENE" text="CLDN14" ontology_id="23562"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We hypothesized therefore that some children with hypercalciuria and kidney stones harbor a CLDN14 variant that inappropriately increases gene expression.">
+		<entity id="s2.e1" charOffset="50-64"
+			type="HP" text="hypercalciuria" ontology_id="HP_0002150"/>
+		<entity id="s2.e2" charOffset="92-98"
+			type="GENE" text="CLDN14" ontology_id="23562"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To test this hypothesis, we sequenced the CLDN14 risk haplotype in a cohort of children with idiopathic hypercalciuria and kidney stones.">
+		<entity id="s3.e1" charOffset="42-48"
+			type="GENE" text="CLDN14" ontology_id="23562"/>
+		<entity id="s3.e2" charOffset="104-118"
+			type="HP" text="hypercalciuria" ontology_id="HP_0002150"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our data suggest that children with the INSM1 binding site within the CLDN14 risk haplotype have a higher likelihood of hypercalciuria and kidney stones.">
+		<entity id="s4.e1" charOffset="40-45"
+			type="GENE" text="INSM1" ontology_id="3642"/>
+		<entity id="s4.e2" charOffset="70-76"
+			type="GENE" text="CLDN14" ontology_id="23562"/>
+		<entity id="s4.e3" charOffset="120-134"
+			type="HP" text="hypercalciuria" ontology_id="HP_0002150"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

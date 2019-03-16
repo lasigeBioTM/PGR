@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27834349">
+	<sentence id="s1" text="Eleven (79%) and five (36%) of fourteen keratinizing squamous cell carcinomas tested contained TP53 and G1/S transition of mitotic cell cycle mutations, respectively.">
+		<entity id="s1.e1" charOffset="53-77"
+			type="HP" text="squamous cell carcinomas" ontology_id="HP_0002860"/>
+		<entity id="s1.e2" charOffset="104-141"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The findings indicate that although phosphorylation mutations are found in AAAA10% of vulvar squamous cell carcinomas, they may be specific for a particular pathway involving atypical verruciform lesions, which could function as either a direct precursor or a risk factor for vulvar squamous cell carcinoma.">
+		<entity id="s2.e1" charOffset="36-51"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s2.e2" charOffset="93-117"
+			type="HP" text="squamous cell carcinomas" ontology_id="HP_0002860"/>
+		<entity id="s2.e3" charOffset="283-306"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Whether they function as direct precursors to a less common form of squamous cell carcinoma will require further study, but carcinomas associated with these lesions might warrant testing for phosphorylation mutations to address this question">
+		<entity id="s3.e1" charOffset="68-91"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s3.e2" charOffset="191-206"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27288692">
+	<sentence id="s1" text="As a result, 14 SNPs had a significant odds ratio (OR) for lung cancer risk with P FDR AAAA 0.05, of which rs3115672 in MSH5 (OR = 1.20, 95% CI = 1.14-1.27) and rs114596632 in GTF2H4 (OR = 1.19, 95% CI = 1.12-1.25) at 6q21.33 were the most statistically significant (P combined = 3.99×10(-11) and P combined = 5.40×10(-10), respectively).">
+		<entity id="s1.e1" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="120-124"
+			type="GENE" text="MSH5" ontology_id="4439"/>
+		<entity id="s1.e3" charOffset="176-182"
+			type="GENE" text="GTF2H4" ontology_id="2968"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

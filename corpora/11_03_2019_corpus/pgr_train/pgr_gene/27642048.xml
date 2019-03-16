@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27642048">
+	<sentence id="s1" text="Mutations in subunits of mitochondrial m-AAA proteases in the inner membrane cause neurodegeneration in spinocerebellar ataxia (SCA28) and hereditary spastic paraplegia (HSP7).">
+		<entity id="s1.e1" charOffset="128-133"
+			type="GENE" text="SCA28" ontology_id="10939"/>
+		<entity id="s1.e2" charOffset="150-168"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

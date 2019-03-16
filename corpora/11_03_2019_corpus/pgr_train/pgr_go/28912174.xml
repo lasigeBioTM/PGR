@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28912174">
+	<sentence id="s1" text="The deregulation of its expression or activity contributes to leukemia, in which hypermethylation of CpG island can be either an oncogene or a tumor suppressor.">
+		<entity id="s1.e1" charOffset="81-111"
+			type="GO" text="hypermethylation of CpG island" ontology_id="GO_0044027"/>
+		<entity id="s1.e2" charOffset="143-148"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Herein we explored whether cellular senescence, an anti-tumoral pathway that restrains cell proliferation, is a mechanism by which hypermethylation of CpG island limits hematopoietic cell expansion, and thus prevents the development of leukemia.">
+		<entity id="s2.e1" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="131-161"
+			type="GO" text="hypermethylation of CpG island" ontology_id="GO_0044027"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

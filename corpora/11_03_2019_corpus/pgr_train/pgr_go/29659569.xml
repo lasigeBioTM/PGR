@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29659569">
+	<sentence id="s1" text="We found monoallelic truncating/functionally deleterious mutations in seven genes, including protein phosphorylation and regulation of transcription, DNA-templated, which have previously been associated with PrCa predisposition, and five new candidate PrCa associated genes involved in cancer predisposing recessive disorders, namely DNA repair, response to gamma radiation, positive regulation of protein ubiquitination, fibroblast growth factor receptor signaling pathway and RECQL4.">
+		<entity id="s1.e1" charOffset="93-116"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="121-163"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e3" charOffset="249-255"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="334-344"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e5" charOffset="346-373"
+			type="GO" text="response to gamma radiation" ontology_id="GO_0010332"/>
+		<entity id="s1.e6" charOffset="375-420"
+			type="GO" text="positive regulation of protein ubiquitination" ontology_id="GO_0031398"/>
+		<entity id="s1.e7" charOffset="422-473"
+			type="GO" text="fibroblast growth factor receptor signaling pathway" ontology_id="GO_0008543"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, using in silico pathogenicity prediction of missense variants among 18 genes associated with breast/ovarian cancer and/or Lynch syndrome, followed by KASP genotyping in 710 healthy controls, we identified AAAAAAlikely pathogenicAAAAAA missense variants in protein phosphorylation, ribosome biogenesis, regulation of transcription, DNA-templated and TP53.">
+		<entity id="s2.e1" charOffset="121-127"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="269-292"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e3" charOffset="294-313"
+			type="GO" text="ribosome biogenesis" ontology_id="GO_0042254"/>
+		<entity id="s2.e4" charOffset="301-343"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26960553">
+	<sentence id="s1" text="Serine biosynthesis defects result from deficiencies in cellular amino acid metabolic process, PSAT, or antimicrobial humoral response and have a broad phenotypic spectrum ranging from Neu-Laxova syndrome, a lethal multiple congenital anomaly disease at the severe positive regulation of protein phosphorylation to a childhood disease with intellectual disability at the mild end, with infantile growth deficiency, and severe neurological manifestations as an intermediate phenotype.">
+		<entity id="s1.e1" charOffset="56-93"
+			type="GO" text="cellular amino acid metabolic process" ontology_id="GO_0006520"/>
+		<entity id="s1.e2" charOffset="104-134"
+			type="GO" text="antimicrobial humoral response" ontology_id="GO_0019730"/>
+		<entity id="s1.e3" charOffset="265-311"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e4" charOffset="270-293"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The second was a neonate with growth deficiency, microcephaly, ichthyotic skin lesions, seizures, contractures, hypertonia, distinctive facial features, and a homozygous mutation in L-serine biosynthetic process.">
+		<entity id="s2.e1" charOffset="49-61"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e2" charOffset="88-96"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="98-110"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s2.e4" charOffset="112-122"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<entity id="s2.e5" charOffset="182-211"
+			type="GO" text="L-serine biosynthetic process" ontology_id="GO_0006564"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The third subject was an infant with growth deficiency, microcephaly, ichthyotic skin lesions, anemia, hypertonia, distinctive facial features, low serine and glycine in plasma and CSF, and a novel homozygous mutation in cellular amino acid metabolic process gene.">
+		<entity id="s3.e1" charOffset="56-68"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s3.e2" charOffset="95-101"
+			type="HP" text="anemia" ontology_id="HP_0001903"/>
+		<entity id="s3.e3" charOffset="103-113"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<entity id="s3.e4" charOffset="221-258"
+			type="GO" text="cellular amino acid metabolic process" ontology_id="GO_0006520"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30547349">
+	<sentence id="s1" text="Mutation in negative regulation of transcription by RNA polymerase I causes a wide spectrum of disease including skeletal dysplasia, neuronal migration abnormality, cardiovascular malformation, intellectual disability and intestinal obstruction.">
+		<entity id="s1.e1" charOffset="12-68"
+			type="GO" text="negative regulation of transcription by RNA polymerase I" ontology_id="GO_0016479"/>
+		<entity id="s1.e2" charOffset="113-131"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e3" charOffset="194-217"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e4" charOffset="222-244"
+			type="HP" text="intestinal obstruction" ontology_id="HP_0005214"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Reviewing the emerging dataset, we underline this unanticipated phenotypic consequence of pathogenic negative regulation of transcription by RNA polymerase I mutation-associated pulmonary disease.Conclusion: From the emerging data, we suggest that while reviewing complex cases with a sustained oxygen requirement against a clincial background of cardiac concerns or intestinal obstruction to have a high index of suspicion for FLNA related pathology and to instigate early MRI brain scan and FLNA mutation analysis.">
+		<entity id="s2.e1" charOffset="101-157"
+			type="GO" text="negative regulation of transcription by RNA polymerase I" ontology_id="GO_0016479"/>
+		<entity id="s2.e2" charOffset="367-389"
+			type="HP" text="intestinal obstruction" ontology_id="HP_0005214"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

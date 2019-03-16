@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24895405">
+	<sentence id="s1" text="BCS is an autosomal recessive generalized connective tissue disorder associated with extreme corneal thinning and a high risk of corneal rupture.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="BCS" ontology_id="617"/>
+		<entity id="s1.e2" charOffset="10-29"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Some individuals with heterozygous PRDM5 mutations demonstrate a carrier ocular phenotype, which includes a mildly reduced corneal thickness, keratoconus and blue sclera.">
+		<entity id="s2.e1" charOffset="35-40"
+			type="GENE" text="PRDM5" ontology_id="11107"/>
+		<entity id="s2.e2" charOffset="142-153"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We hypothesized that heterozygous variants in PRDM5 and ZNF469 predispose to the development of isolated keratoconus.">
+		<entity id="s3.e1" charOffset="46-51"
+			type="GENE" text="PRDM5" ontology_id="11107"/>
+		<entity id="s3.e2" charOffset="56-62"
+			type="GENE" text="ZNF469" ontology_id="84627"/>
+		<entity id="s3.e3" charOffset="105-116"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We found a significant enrichment of potentially pathologic heterozygous alleles in ZNF469 associated with the development of keratoconus (P = 0.00102) resulting in a relative risk of 12.0.">
+		<entity id="s4.e1" charOffset="84-90"
+			type="GENE" text="ZNF469" ontology_id="84627"/>
+		<entity id="s4.e2" charOffset="126-137"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="This enrichment of rare potentially pathogenic alleles in ZNF469 in 12.5% of keratoconus patients represents a significant mutational load and highlights ZNF469 as the most significant genetic factor responsible for keratoconus identified to date.">
+		<entity id="s5.e1" charOffset="58-64"
+			type="GENE" text="ZNF469" ontology_id="84627"/>
+		<entity id="s5.e2" charOffset="77-88"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

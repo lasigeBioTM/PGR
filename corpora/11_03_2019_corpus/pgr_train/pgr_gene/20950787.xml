@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20950787">
+	<sentence id="s1" text="L371P mutation in MED17 is a founder mutation in the Caucasus Jewish community and that homozygosity for this mutation is associated with infantile cerebral and cerebellar atrophy with poor myelination">
+		<entity id="s1.e1" charOffset="18-23"
+			type="GENE" text="MED17" ontology_id="9440"/>
+		<entity id="s1.e2" charOffset="161-179"
+			type="HP" text="cerebellar atrophy" ontology_id="HP_0001272"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

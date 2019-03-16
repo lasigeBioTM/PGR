@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26818569">
+	<sentence id="s1" text="Ellis-van Creveld (EVC) syndrome is a rare autosomal recessive disorder characterized by hypoplastic nails, polydactyly, and achondroplasia.">
+		<entity id="s1.e1" charOffset="19-22"
+			type="GENE" text="EVC" ontology_id="2121"/>
+		<entity id="s1.e2" charOffset="89-106"
+			type="HP" text="hypoplastic nails" ontology_id="HP_0001792"/>
+		<entity id="s1.e3" charOffset="108-119"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This is, to our knowledge, a most severe phenotype of EVC syndrome, illustrating that the specific pattern of EVC2 compound heterozygous mutations may cause severe developmental delay and intestinal malfunction.">
+		<entity id="s2.e1" charOffset="54-57"
+			type="GENE" text="EVC" ontology_id="2121"/>
+		<entity id="s2.e2" charOffset="164-183"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28263981">
+	<sentence id="s1" text="The presynaptic cytomatrix protein Piccolo, encoded by PCLO, is frequently mutated and amplified in esophageal squamous cell carcinoma (ESCC), but its exact roles in ESCC remain unclear.">
+		<entity id="s1.e1" charOffset="55-59"
+			type="GENE" text="PCLO" ontology_id="27445"/>
+		<entity id="s1.e2" charOffset="111-134"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results demonstrate that Piccolo contributes to tumor aggressiveness in ESCC, likely by stabilizing EGFR and promoting EGFR-dependent signaling.">
+		<entity id="s2.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="60-74"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<entity id="s2.e3" charOffset="106-110"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

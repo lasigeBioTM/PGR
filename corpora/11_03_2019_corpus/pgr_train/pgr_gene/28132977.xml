@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28132977">
+	<sentence id="s1" text="This case of adult-diagnosed MTP deficiency was characterized by slowly progressive peripheral neuropathy masquerading CMT in addition to muscular symptoms.">
+		<entity id="s1.e1" charOffset="29-32"
+			type="GENE" text="MTP" ontology_id="4547"/>
+		<entity id="s1.e2" charOffset="84-94"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s1.e3" charOffset="95-105"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MTP deficiency should be considered in patients with the combination of peripheral neuropathy and recurrent rhabdomyolysis">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="MTP" ontology_id="4547"/>
+		<entity id="s2.e2" charOffset="72-82"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s2.e3" charOffset="83-93"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28448568">
+	<sentence id="s1" text="The therapeutic capacity of fenretinide (N-[4-hydroxyphenyl] retinamide; 4-HPR) has been demonstrated for several conditions, including cancer, obesity, diabetes, and ocular disease.">
+		<entity id="s1.e1" charOffset="75-78"
+			type="GENE" text="HPR" ontology_id="3250"/>
+		<entity id="s1.e2" charOffset="136-142"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="144-151"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="For example, administration of 3-keto-HPR instead of fenretinide may be preferential if inhibition of SCD1 or DES1 activity is the goal (cancer), while MPR may be better for BCO1 modulation (carotenoid metabolism).">
+		<entity id="s2.e1" charOffset="38-41"
+			type="GENE" text="HPR" ontology_id="3250"/>
+		<entity id="s2.e2" charOffset="110-114"
+			type="GENE" text="DES1" ontology_id="8560"/>
+		<entity id="s2.e3" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="174-178"
+			type="GENE" text="BCO1" ontology_id="53630"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25343988">
+	<sentence id="s1" text="In humans, mutations in several genes involved in the Notch pathway are associated with SDV, with both autosomal recessive (mesoderm formation, skeletal system development, regulation of somitogenesis, somitogenesis) and autosomal dominant (negative regulation of transcription by RNA polymerase II) inheritance.">
+		<entity id="s1.e1" charOffset="103-122"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="124-142"
+			type="GO" text="mesoderm formation" ontology_id="GO_0001707"/>
+		<entity id="s1.e3" charOffset="144-171"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s1.e4" charOffset="173-200"
+			type="GO" text="regulation of somitogenesis" ontology_id="GO_0014807"/>
+		<entity id="s1.e5" charOffset="202-215"
+			type="GO" text="somitogenesis" ontology_id="GO_0001756"/>
+		<entity id="s1.e6" charOffset="241-298"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

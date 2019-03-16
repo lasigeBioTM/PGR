@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30361054">
+	<sentence id="s1" text="Familial amyloid polyneuropathy (FAP) is a rare autosomal dominant disorder characterized by amyloid accumulation in the peripheral nerves and other organs, including the heart, kidney, and eyes.">
+		<entity id="s1.e1" charOffset="21-31"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="33-36"
+			type="GENE" text="FAP" ontology_id="2191"/>
+		<entity id="s1.e3" charOffset="121-131"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

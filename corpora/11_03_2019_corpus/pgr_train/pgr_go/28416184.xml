@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28416184">
+	<sentence id="s1" text="Together, our findings suggest that in CRC positive regulation of cell proliferation suppresses tumor progression by regulating regulation of cell cycle/positive regulation of cell proliferation activity">
+		<entity id="s1.e1" charOffset="43-84"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e2" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="128-152"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s1.e4" charOffset="132-173"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29317501">
+	<sentence id="s1" text="protein polyubiquitination plays a protective role in mouse models of neurodegenerative disease, and in humans, mutations in protein polyubiquitination cause spinocerebellar ataxia autosomal recessive cardiac muscle tissue development 16 (SCAR16), a fatal neurodegenerative disease characterized by truncal and limb ataxia that results in gait instability.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="70-95"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e3" charOffset="152-158"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e4" charOffset="159-178"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e5" charOffset="179-212"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17245537">
+	<sentence id="s1" text="Corticosteroid-binding globulin (negative regulation of endopeptidase activity) deficiency is an extremely rare hereditary disorder characterized by reduced corticosteroid-binding capacity with normal or low plasma corticosteroid-binding globulin concentration, and normal or low basal cortisol levels associated with hypo-/hypertension and muscle fatigue.">
+		<entity id="s1.e1" charOffset="33-78"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<entity id="s1.e2" charOffset="324-336"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

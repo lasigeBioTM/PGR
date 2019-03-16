@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29625811">
+	<sentence id="s1" text="The genetic testing revealed a de novo heterozygous mutation of c.2452G AAAA A (p.Glu818Lys) in the ATP1A3 gene, which was compatible with the clinical phenotype of CAPOS (cerebellar ataxia, areflexia, pes cavus, optic atrophy, and sensorineural hearing loss)/CAOS syndrome.">
+		<entity id="s1.e1" charOffset="100-106"
+			type="GENE" text="ATP1A3" ontology_id="478"/>
+		<entity id="s1.e2" charOffset="183-189"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="191-200"
+			type="HP" text="areflexia" ontology_id="HP_0001284"/>
+		<entity id="s1.e4" charOffset="202-205"
+			type="GENE" text="pes" ontology_id="23481"/>
+		<entity id="s1.e5" charOffset="213-226"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s1.e6" charOffset="246-258"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e14"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

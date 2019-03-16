@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28687524">
+	<sentence id="s1" text="His facial features included a high anterior hairline, small eyes with narrowed palpebral fissures, a bulbous nasal tip with a short columella, and a large mouth with a thin upper vermilion, and small chin.">
+		<entity id="s1.e1" charOffset="116-119"
+			type="GENE" text="tip" ontology_id="81533"/>
+		<entity id="s1.e2" charOffset="127-142"
+			type="HP" text="short columella" ontology_id="HP_0002000"/>
+		<entity id="s1.e3" charOffset="150-161"
+			type="HP" text="large mouth" ontology_id="HP_0000154"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="De novo missense and frameshift mutations and deletions involving TBL1XR1 have been described in patients with intellectual disability and autism, but without any of the dysmorphic findings or malformations associated with Pierpont syndrome, implying a mutation-specific mechanism for the pathogenicity of p.Tyr446Cys.">
+		<entity id="s2.e1" charOffset="66-73"
+			type="GENE" text="TBL1XR1" ontology_id="79718"/>
+		<entity id="s2.e2" charOffset="111-134"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="139-145"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="His distinctive facial and digital features are further evidence that p.Tyr446Cys results in a clinically recognizable, syndromic form of intellectual disability in contrast to other TBL1XR1 mutations">
+		<entity id="s3.e1" charOffset="138-161"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s3.e2" charOffset="183-190"
+			type="GENE" text="TBL1XR1" ontology_id="79718"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

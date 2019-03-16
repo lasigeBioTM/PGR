@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24346768">
+	<sentence id="s1" text="Three predicted driver genes (G1/S transition of mitotic cell cycle, positive regulation of protein phosphorylation, negative regulation of cell proliferation) were found common in these three cancers by comparative analysis.">
+		<entity id="s1.e1" charOffset="30-67"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e2" charOffset="69-115"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="117-158"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_00082158"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

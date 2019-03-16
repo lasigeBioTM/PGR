@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28327575">
+	<sentence id="s1" text="Mutations in 18 genes that encode components of glucosamine catabolic process-anchor biogenesis result in a phenotypic spectrum that includes learning disability, epilepsy, microcephaly, congenital malformations and mild dysmorphic features.">
+		<entity id="s1.e1" charOffset="48-77"
+			type="GO" text="glucosamine catabolic process" ontology_id="GO_0006043"/>
+		<entity id="s1.e2" charOffset="163-171"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="173-185"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

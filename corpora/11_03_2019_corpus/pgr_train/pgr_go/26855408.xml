@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26855408">
+	<sentence id="s1" text="Megaconial congenital muscular dystrophy is a disease caused by pathogenic mutations in the gene encoding choline kinase beta (phosphatidylethanolamine biosynthetic process).">
+		<entity id="s1.e1" charOffset="22-40"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="127-172"
+			type="GO" text="phosphatidylethanolamine biosynthetic process" ontology_id="GO_0006646"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

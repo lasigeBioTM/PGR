@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30306202">
+	<sentence id="s1" text="Dendritic cell (neuron migration)-based immunotherapies have been created for a broad expanse of cancers, and neuron migration vaccines prepared with Wilms' tumor protein 1 (negative regulation of transcription by RNA polymerase II) peptides have shown adenylate cyclase-activating G protein-coupled receptor signaling pathway therapeutic efficacy in these diseases.">
+		<entity id="s1.e1" charOffset="16-32"
+			type="GO" text="neuron migration" ontology_id="GO_0001764"/>
+		<entity id="s1.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="160-217"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="171-244"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this paper, we report the results of a phase I/II study of a neuron migration-based vaccination for advanced breast, ovarian, and gastric cancers, and we offer evidence that patients can be effectively vaccinated with autologous DCs pulsed with negative regulation of transcription by RNA polymerase II peptide.">
+		<entity id="s2.e1" charOffset="64-80"
+			type="GO" text="neuron migration" ontology_id="GO_0001764"/>
+		<entity id="s2.e2" charOffset="133-148"
+			type="HP" text="gastric cancers" ontology_id="HP_0012126"/>
+		<entity id="s2.e3" charOffset="248-305"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

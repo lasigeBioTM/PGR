@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30245141">
+	<sentence id="s1" text="We summarize genetic, clinical and neuropathological findings related to the 27 genes reported in the literature since 1997, associated either with autosomal dominant (AD): MAPK cascade, positive regulation of receptor recycling, positive regulation of gene expression, tetrahydrobiopterin biosynthetic process, negative regulation of receptor internalization, endosome organization, synaptic vesicle transport, posttranscriptional gene silencing, proteolysis, synaptic transmission, cholinergic, positive regulation of mRNA cap binding, protein deubiquitination, positive regulation of transcription by RNA polymerase II, and glucosylceramide catabolic process; or autosomal recessive (AR) inheritance: protein polyubiquitination, positive regulation of protein phosphorylation, DJ1, cellular calcium ion homeostasis, antibacterial humoral response, ubiquitin-dependent protein catabolic process, synaptic vesicle uncoating, phosphatidylinositol dephosphorylation, chemical synaptic transmission, mitochondrion organization, positive regulation of cell migration, and biological_process; or an X-linked transmission: RAB39B.">
+		<entity id="s1.e1" charOffset="173-185"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e2" charOffset="180-221"
+			type="GO" text="positive regulation of receptor recycling" ontology_id="GO_0001921"/>
+		<entity id="s1.e3" charOffset="230-268"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e4" charOffset="270-310"
+			type="GO" text="tetrahydrobiopterin biosynthetic process" ontology_id="GO_0006729"/>
+		<entity id="s1.e5" charOffset="312-359"
+			type="GO" text="negative regulation of receptor internalization" ontology_id="GO_0002091"/>
+		<entity id="s1.e6" charOffset="317-336"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e7" charOffset="361-382"
+			type="GO" text="endosome organization" ontology_id="GO_0007032"/>
+		<entity id="s1.e8" charOffset="384-410"
+			type="GO" text="synaptic vesicle transport" ontology_id="GO_0048489"/>
+		<entity id="s1.e9" charOffset="412-446"
+			type="GO" text="posttranscriptional gene silencing" ontology_id="GO_0016441"/>
+		<entity id="s1.e10" charOffset="448-459"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e11" charOffset="461-495"
+			type="GO" text="synaptic transmission, cholinergic" ontology_id="GO_0007271"/>
+		<entity id="s1.e12" charOffset="497-536"
+			type="GO" text="positive regulation of mRNA cap binding" ontology_id="GO_1905612"/>
+		<entity id="s1.e13" charOffset="538-562"
+			type="GO" text="protein deubiquitination" ontology_id="GO_0016579"/>
+		<entity id="s1.e14" charOffset="564-621"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e15" charOffset="627-661"
+			type="GO" text="glucosylceramide catabolic process" ontology_id="GO_0006680"/>
+		<entity id="s1.e16" charOffset="704-730"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e17" charOffset="732-778"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e18" charOffset="785-817"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s1.e19" charOffset="819-849"
+			type="GO" text="antibacterial humoral response" ontology_id="GO_0019731"/>
+		<entity id="s1.e20" charOffset="851-896"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s1.e21" charOffset="898-924"
+			type="GO" text="synaptic vesicle uncoating" ontology_id="GO_0016191"/>
+		<entity id="s1.e22" charOffset="926-964"
+			type="GO" text="phosphatidylinositol dephosphorylation" ontology_id="GO_0046856"/>
+		<entity id="s1.e23" charOffset="966-996"
+			type="GO" text="chemical synaptic transmission" ontology_id="GO_0007268"/>
+		<entity id="s1.e24" charOffset="998-1024"
+			type="GO" text="mitochondrion organization" ontology_id="GO_0007005"/>
+		<entity id="s1.e25" charOffset="1026-1063"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s1.e26" charOffset="1069-1087"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e6"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e12"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e13"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e14"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e15"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e6"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e6"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e6"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e6"
+		    e2="s1.e19" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e6"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p20" e1="s1.e6"
+		    e2="s1.e21" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e6"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p22" e1="s1.e6"
+		    e2="s1.e23" pgr="true"/>
+		<pair id="s1.p23" e1="s1.e6"
+		    e2="s1.e24" pgr="true"/>
+		<pair id="s1.p24" e1="s1.e6"
+		    e2="s1.e25" pgr="false"/>
+		<pair id="s1.p25" e1="s1.e6"
+		    e2="s1.e26" pgr="false"/>
+	</sentence>
+</document>

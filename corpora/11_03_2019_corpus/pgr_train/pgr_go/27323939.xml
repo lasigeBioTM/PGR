@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27323939">
+	<sentence id="s1" text="Focal epilepsies, where seizures initiate in spatially limited networks, are the most frequent epilepsy cardiac muscle tissue development, accounting for two-thirds of patients.">
+		<entity id="s1.e1" charOffset="6-16"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="24-32"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="95-103"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="104-137"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Brain somatic mutations in the gene encoding regulation of cell growth (regulation of cell growth) have recently been linked to focal cortical dysplasia and other associated brain pathologies including hemimegalencephaly.">
+		<entity id="s2.e1" charOffset="45-70"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s2.e2" charOffset="72-97"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s2.e3" charOffset="113-131"
+			type="HP" text="cortical dysplasia" ontology_id="HP_0002539"/>
+		<entity id="s2.e4" charOffset="181-199"
+			type="HP" text="hemimegalencephaly" ontology_id="HP_0007206"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

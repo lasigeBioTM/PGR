@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30589983">
+	<sentence id="s1" text="Smad3, a major transcription factor in transforming growth factor-β (TGF-β) signaling, plays critical roles in both tumor-suppressive and pro-oncogenic functions.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="Smad3" ontology_id="4088"/>
+		<entity id="s1.e2" charOffset="116-121"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, recent discoveries of Smad3-interacting molecules that preferentially bind phosphorylated Smad3 linker serine/threonine residues have shown a multitude of signal transductions that either enhance or suppress TGF-β responses associated with Smad3 turnover or cancer progression.">
+		<entity id="s2.e1" charOffset="31-36"
+			type="GENE" text="Smad3" ontology_id="4088"/>
+		<entity id="s2.e2" charOffset="267-273"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

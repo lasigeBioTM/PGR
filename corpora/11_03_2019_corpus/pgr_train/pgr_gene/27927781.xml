@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27927781">
+	<sentence id="s1" text="Elevated serum PTH concentrations in primary and secondary hyperparathyroidism have been associated with bone disease, hypertension, and in some studies, cardiovascular mortality.">
+		<entity id="s1.e1" charOffset="15-18"
+			type="GENE" text="PTH" ontology_id="5741"/>
+		<entity id="s1.e2" charOffset="59-78"
+			type="HP" text="hyperparathyroidism" ontology_id="HP_0000843"/>
+		<entity id="s1.e3" charOffset="119-131"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

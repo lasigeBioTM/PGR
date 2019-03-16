@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29432535">
+	<sentence id="s1" text="The importance of PKC enzymes in Purkinje neuron health is apparent as mutations in PRKCG (encoding PKCγ) cause cerebellar ataxia.">
+		<entity id="s1.e1" charOffset="84-89"
+			type="GENE" text="PRKCG" ontology_id="5582"/>
+		<entity id="s1.e2" charOffset="112-129"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="PRKCG has also been identified as an important node in ataxia gene networks more broadly, but the functional role of PKC in other forms of ataxia remains unexplored, and the mechanisms by which PKC isozymes regulate Purkinje neuron health are not well understood.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="PRKCG" ontology_id="5582"/>
+		<entity id="s2.e2" charOffset="55-61"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Using mouse models of spinocerebellar ataxia type 1 (SCA1) and 2 (SCA2) we identify an increase in PKC-mediated substrate phosphorylation in two different forms of inherited cerebellar ataxia.">
+		<entity id="s3.e1" charOffset="27-44"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<entity id="s3.e2" charOffset="45-49"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e3" charOffset="53-57"
+			type="GENE" text="SCA1" ontology_id="6310"/>
+		<entity id="s3.e4" charOffset="66-70"
+			type="GENE" text="SCA2" ontology_id="6311"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

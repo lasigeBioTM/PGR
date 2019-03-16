@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26148476">
+	<sentence id="s1" text="Aberrant expression of receptor intercoenzyme A biosynthetic processing protein kinase 4 (morphogenesis of an epithelium), a crucial regulatory protein of Wnt/β-catenin signaling, has recently been reported to be involved in several cancers.">
+		<entity id="s1.e1" charOffset="37-68"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s1.e2" charOffset="62-92"
+			type="GO" text="morphogenesis of an epithelium" ontology_id="GO_0002009"/>
+		<entity id="s1.e3" charOffset="205-211"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report the potential clinical implication and biological functions of morphogenesis of an epithelium in cervical squamous cell carcinoma (CSCC).">
+		<entity id="s2.e1" charOffset="79-109"
+			type="GO" text="morphogenesis of an epithelium" ontology_id="GO_0002009"/>
+		<entity id="s2.e2" charOffset="122-145"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Knockdown of morphogenesis of an epithelium reduced cell migration and invasion via inhibition of Vimentin, proteolysis and Fibronectin expression in cervical cancer cells.">
+		<entity id="s3.e1" charOffset="13-43"
+			type="GO" text="morphogenesis of an epithelium" ontology_id="GO_0002009"/>
+		<entity id="s3.e2" charOffset="108-119"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s3.e3" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30217758">
+	<sentence id="s1" text="Interestingly, de novo loss-of-function and missense variants in histone H3-K4 demethylation were identified in patients with intellectual disability (ID) and autism spectrum disorder (ASD) but also in unaffected individuals.">
+		<entity id="s1.e1" charOffset="65-92"
+			type="GO" text="histone H3-K4 demethylation" ontology_id="GO_0034720"/>
+		<entity id="s1.e2" charOffset="126-149"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="159-165"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The c.808 + 1G AAAA A variant was identified in a boy with mild ID and autism negative regulation of transcription by RNA polymerase II and is associated with a significant reduced histone H3-K4 demethylation mRNA expression without alteration of its H3K4me3 pattern.">
+		<entity id="s2.e1" charOffset="71-77"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s2.e2" charOffset="78-135"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e3" charOffset="130-157"
+			type="GO" text="histone H3-K4 demethylation" ontology_id="GO_0034720"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our data reinforces the recent observation that the histone H3-K4 demethylation haploinsufficiency is not a mechanism involved in intellectual disability and that KDM5B disorder associated with LOF variants is a recessive disorder.">
+		<entity id="s3.e1" charOffset="52-79"
+			type="GO" text="histone H3-K4 demethylation" ontology_id="GO_0034720"/>
+		<entity id="s3.e2" charOffset="130-153"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

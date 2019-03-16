@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29725255">
+	<sentence id="s1" text="<b>Methods</b>: Analysis of publicly available microarray data of oral negative regulation of peptidase activity revealed that bile acid metabolic process was significantly upregulated in tumor tissue compared with normal mucosa.">
+		<entity id="s1.e1" charOffset="71-112"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s1.e2" charOffset="89-116"
+			type="GO" text="bile acid metabolic process" ontology_id="GO_0008206"/>
+		<entity id="s1.e3" charOffset="150-155"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="<b>Results</b>: bile acid metabolic process overexpression was significantly associated with advanced tumor status (li>P</i>=0.001), advanced positive regulation of cysteine-type endopeptidase activity involved in apoptotic process status (li>P</i>=0.036), increased vascular invasion (li>P</i>=0.026) and increased perineural invasion (li>P</i>=0.004).">
+		<entity id="s2.e1" charOffset="16-43"
+			type="GO" text="bile acid metabolic process" ontology_id="GO_0008206"/>
+		<entity id="s2.e2" charOffset="102-107"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="142-231"
+			type="GO" text="positive regulation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0043280"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

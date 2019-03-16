@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23053991">
+	<sentence id="s1" text="Recently, it has been demonstrated that, mutations of sensory perception of sound are associated with profound nonsyndromic hearing impairment at the sensory perception of sound locus.">
+		<entity id="s1.e1" charOffset="54-81"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s1.e2" charOffset="102-110"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s1.e3" charOffset="124-142"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="150-177"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The objective of this study is to evaluate the carrier frequency of c.242GAAAAA mutation in sensory perception of sound gene and define the contribution of this gene in the etiology of deafness in Moroccan population.">
+		<entity id="s2.e1" charOffset="92-119"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s2.e2" charOffset="185-193"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results show that after the gap junction assembly gene mutation in sensory perception of sound gene is the second cause of congenital hearing impairment in Moroccan patients.">
+		<entity id="s3.e1" charOffset="32-53"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s3.e2" charOffset="54-81"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s3.e3" charOffset="121-139"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

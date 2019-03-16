@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30511782">
+	<sentence id="s1" text="Intraepithelial neoplasia in FGPs, referred to as FGP with dysplasia, is often seen in patients with familial adenomatous polyposis (FAP).">
+		<entity id="s1.e1" charOffset="16-25"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="133-136"
+			type="GENE" text="FAP" ontology_id="2191"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In sporadic FGPs, low-grade dysplasia (LGD) is rare, and high-grade dysplasia (HGD) or carcinoma arising from sporadic FGPs is extremely rare.">
+		<entity id="s2.e1" charOffset="3-11"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="79-82"
+			type="GENE" text="HGD" ontology_id="3081"/>
+		<entity id="s2.e3" charOffset="87-96"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the present case, a sporadic FGP with LGD did not develop into invasive carcinoma, but contained foci of HGD 14 years after diagnosis.">
+		<entity id="s3.e1" charOffset="23-31"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s3.e2" charOffset="75-84"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<entity id="s3.e3" charOffset="108-111"
+			type="GENE" text="HGD" ontology_id="3081"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The pathological diagnosis of the resected specimen was FGP with HGD mixed in LGD, with no invasive carcinoma.">
+		<entity id="s4.e1" charOffset="65-68"
+			type="GENE" text="HGD" ontology_id="3081"/>
+		<entity id="s4.e2" charOffset="100-109"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

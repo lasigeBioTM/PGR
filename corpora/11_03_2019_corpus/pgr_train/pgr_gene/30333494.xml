@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30333494">
+	<sentence id="s1" text="Chemotherapy and radiation not only trigger cancer cell apoptosis but also damage stromal cells in the tumour microenvironment (TME), inducing a senescence-associated secretory phenotype (SASP) characterized by chronic secretion of diverse soluble factors.">
+		<entity id="s1.e1" charOffset="44-50"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="75-81"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e3" charOffset="103-109"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="182-186"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="DNA damage causes SPINK1 expression by engaging NF-κB and C/EBP, while paracrine SPINK1 promotes cancer cell aggressiveness particularly chemoresistance.">
+		<entity id="s2.e1" charOffset="4-10"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s2.e2" charOffset="18-24"
+			type="GENE" text="SPINK1" ontology_id="6690"/>
+		<entity id="s2.e3" charOffset="48-50"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s2.e4" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Strikingly, SPINK1 reprograms the expression profile of cancer cells, causing prominent epithelial-endothelial transition (EET), a phenotypic switch mediated by EGFR signaling but hitherto rarely reported for a SASP factor.">
+		<entity id="s3.e1" charOffset="12-18"
+			type="GENE" text="SPINK1" ontology_id="6690"/>
+		<entity id="s3.e2" charOffset="56-62"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="161-165"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In vivo, SPINK1 is expressed in the stroma of solid tumours and is routinely detectable in peripheral blood of cancer patients after chemotherapy.">
+		<entity id="s4.e1" charOffset="9-15"
+			type="GENE" text="SPINK1" ontology_id="6690"/>
+		<entity id="s4.e2" charOffset="52-58"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

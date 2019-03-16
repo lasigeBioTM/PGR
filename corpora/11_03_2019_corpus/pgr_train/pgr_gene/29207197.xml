@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29207197">
+	<sentence id="s1" text="Prostate cancer (PCa) is a leading cause of cancer‑associated mortality in men; however, the factors that contribute to disease development have yet to be fully elucidated.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="17-20"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<entity id="s1.e3" charOffset="75-78"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

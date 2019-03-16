@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24430573">
+	<sentence id="s1" text="Biallelic mutations in the YARS2 gene encoding mitochondrial tyrosyl-tRNA synthetase cause myopathy, lactic acidosis, and sideroblastic anemia 2 (MLASA2), a type of mitochondrial disease.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="YARS2" ontology_id="51067"/>
+		<entity id="s1.e2" charOffset="101-116"
+			type="HP" text="lactic acidosis" ontology_id="HP_0003128"/>
+		<entity id="s1.e3" charOffset="157-161"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24843229">
+	<sentence id="s1" text="Limb-girdle muscular dystrophies (LGMD) are a highly heterogeneous group of muscle disorders, which first affect the voluntary muscles of the negative regulation of signal transduction and shoulder areas.">
+		<entity id="s1.e1" charOffset="12-32"
+			type="HP" text="muscular dystrophies" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="53-66"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="142-184"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009968"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The autosomal recessive forms (proteolysis) are: LGMD2A (calpain 3), LGMD2B (dysferlin), LGMD2C (γ sarcoglycan), LGMD2D (α sarcoglycan), LGMD2E (β sarcoglycan), LGMD2F (δ sarcoglycan), LGMD2G (cardiac muscle hypertrophy), LGMD2H (protein polyubiquitination), LGMD2I (protein O-linked mannosylation), LGMD2J (titin), LGMD2K (protein O-linked mannosylation), LGMD2L (anoctamin 5), LGMD2M (fukutin), LGMD2N (protein O-linked mannosylation), LGMD2O (POMTnG1), LGMD2P (dystroglycan), LGMD2Q (plectin), LGMD2R (desmin), LGMD2S (protein complex oligomerization), LGMD2T (GDP-mannose biosynthetic process), LGMD2U (protein O-linked mannosylation), LGMD2V (Glucosidase, alpha ), LGMD2W (PINCH2)">
+		<entity id="s2.e1" charOffset="4-23"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="31-42"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s2.e3" charOffset="193-219"
+			type="GO" text="cardiac muscle hypertrophy" ontology_id="GO_0003300"/>
+		<entity id="s2.e4" charOffset="230-256"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e5" charOffset="267-297"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s2.e6" charOffset="324-354"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s2.e7" charOffset="405-435"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s2.e8" charOffset="522-553"
+			type="GO" text="protein complex oligomerization" ontology_id="GO_0051259"/>
+		<entity id="s2.e9" charOffset="564-596"
+			type="GO" text="GDP-mannose biosynthetic process" ontology_id="GO_0009298"/>
+		<entity id="s2.e10" charOffset="607-637"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+	</sentence>
+</document>

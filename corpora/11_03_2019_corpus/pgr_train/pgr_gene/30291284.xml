@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30291284">
+	<sentence id="s1" text="Here, we demonstrate that transgenic targeting of OGG1 to mitochondria confers significant protection from diet-induced obesity, insulin resistance, and adipose tissue inflammation.">
+		<entity id="s1.e1" charOffset="50-54"
+			type="GENE" text="OGG1" ontology_id="4968"/>
+		<entity id="s1.e2" charOffset="120-127"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

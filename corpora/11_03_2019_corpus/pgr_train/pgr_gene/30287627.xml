@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30287627">
+	<sentence id="s1" text="Hereditary angioedema (HAE), due to C1-inhibitor deficiency, is a rare autosomal dominant and potentially life-threatening disease characterised by recurrent oedema attacks of skin, mucosa and viscera.">
+		<entity id="s1.e1" charOffset="11-21"
+			type="HP" text="angioedema" ontology_id="HP_0100665"/>
+		<entity id="s1.e2" charOffset="36-38"
+			type="GENE" text="C1" ontology_id="393"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Due to the rarity and the fact that symptoms of HAE imitate other forms of angioedema and other conditions, HAE may be misdiagnosed, especially in emergency settings.">
+		<entity id="s2.e1" charOffset="26-30"
+			type="GENE" text="fact" ontology_id="11198"/>
+		<entity id="s2.e2" charOffset="75-85"
+			type="HP" text="angioedema" ontology_id="HP_0100665"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

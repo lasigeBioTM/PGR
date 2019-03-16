@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29391579">
+	<sentence id="s1" text="Mutations have previously been reported in several members of the TRAPP complex of proteins, including TRAPPC2, TRAPPC9 and TRAPPC11, resulting in disorders involving skeletal abnormalities, intellectual disability, speech impairment and developmental delay.">
+		<entity id="s1.e1" charOffset="103-110"
+			type="GENE" text="TRAPPC2" ontology_id="6399"/>
+		<entity id="s1.e2" charOffset="112-119"
+			type="GENE" text="TRAPPC9" ontology_id="83696"/>
+		<entity id="s1.e3" charOffset="124-132"
+			type="GENE" text="TRAPPC11" ontology_id="60684"/>
+		<entity id="s1.e4" charOffset="167-189"
+			type="HP" text="skeletal abnormalities" ontology_id="HP_0000924"/>
+		<entity id="s1.e5" charOffset="191-214"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e6" charOffset="216-233"
+			type="HP" text="speech impairment" ontology_id="HP_0002167"/>
+		<entity id="s1.e7" charOffset="238-257"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e2"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e4"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e4"
+		    e2="s1.e20" pgr="true"/>
+	</sentence>
+</document>

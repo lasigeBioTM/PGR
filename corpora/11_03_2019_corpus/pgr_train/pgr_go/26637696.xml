@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26637696">
+	<sentence id="s1" text="The sideroblastic anemias are a heterogeneous group of inherited and acquiprotein phosphorylation disorders characterized by the presence of ring sideroblasts in the bone marrow.">
+		<entity id="s1.e1" charOffset="32-45"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="74-97"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Refractory anemia with ring sideroblasts (arginyl-tRNA aminoacylation) is a myelodysplastic syndrome characterized mainly by anemia attributable to ineffective erythropoiesis.">
+		<entity id="s2.e1" charOffset="42-69"
+			type="GO" text="arginyl-tRNA aminoacylation" ontology_id="GO_0006420"/>
+		<entity id="s2.e2" charOffset="148-174"
+			type="HP" text="ineffective erythropoiesis" ontology_id="HP_0010972"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Inhibitors of molecules of the transforming growth factor-β superfamily have been shown recently to target ineffective erythropoiesis and ameliorate anemia both in animal models of myelodysplastic syndrome and in arginyl-tRNA aminoacylation patients.">
+		<entity id="s3.e1" charOffset="107-133"
+			type="HP" text="ineffective erythropoiesis" ontology_id="HP_0010972"/>
+		<entity id="s3.e2" charOffset="213-240"
+			type="GO" text="arginyl-tRNA aminoacylation" ontology_id="GO_0006420"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24632816">
+	<sentence id="s1" text="Utilizing matrix-coated polydimethylsiloxane gels to manipulate substrate compliance, we show that cdGAP, an adhesion-localized Rac1 and Cdc42 specific GTPase activating protein, is necessary for U2OS osteosarcoma cells to coordinate cell shape changes and migration as a function of extracellular matrix stiffness.">
+		<entity id="s1.e1" charOffset="99-104"
+			type="GENE" text="cdGAP" ontology_id="57514"/>
+		<entity id="s1.e2" charOffset="128-132"
+			type="GENE" text="Rac1" ontology_id="5879"/>
+		<entity id="s1.e3" charOffset="137-142"
+			type="GENE" text="Cdc42" ontology_id="998"/>
+		<entity id="s1.e4" charOffset="201-213"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

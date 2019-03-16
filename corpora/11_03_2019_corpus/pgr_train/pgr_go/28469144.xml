@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28469144">
+	<sentence id="s1" text="In a consanguineous Saudi family segregating Usher syndrome cardiac muscle tissue development 1 (USH1), NGS of genes for Usher syndrome, deafness and retinal dystrophy and subsequent whole-exome sequencing each failed to identify a mutation.">
+		<entity id="s1.e1" charOffset="60-93"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="137-145"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="150-167"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

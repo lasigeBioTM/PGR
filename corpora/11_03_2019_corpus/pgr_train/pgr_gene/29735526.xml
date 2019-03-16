@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29735526">
+	<sentence id="s1" text="Targeted expression of a human NGLY1 transgene to tissues involved in ecdysteroidogenesis, li>e.g.</i>, prothoracic gland, also partially rescues global developmental delay in mutant homozygotes.">
+		<entity id="s1.e1" charOffset="31-36"
+			type="GENE" text="NGLY1" ontology_id="55768"/>
+		<entity id="s1.e2" charOffset="153-172"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Finally, the proteasome inhibitor bortezomib is a potent enhancer of global developmental delay in our fly model, evidence of a defective proteasome AAAAAAbounce-backAAAAAA response that is also observed in nematode and cellular models of NGLY1 Deficiency.">
+		<entity id="s2.e1" charOffset="76-95"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e2" charOffset="239-244"
+			type="GENE" text="NGLY1" ontology_id="55768"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

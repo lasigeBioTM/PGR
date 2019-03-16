@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30245141">
+	<sentence id="s1" text="We summarize genetic, clinical and neuropathological findings related to the 27 genes reported in the literature since 1997, associated either with autosomal dominant (AD): LRRK2, SNCA, VPS35, GCH1, ATXN2, DNAJC13, TMEM230, GIGYF2, HTRA2, RIC3, EIF4G1, UCHL1, CHCHD2, and GBA; or autosomal recessive (AR) inheritance: PRKN, PINK1, DJ1, ATP13A2, PLA2G6, FBXO7, DNAJC6, SYNJ1, SPG11, VPS13C, PODXL, and PTRHD1; or an X-linked transmission: RAB39B.">
+		<entity id="s1.e1" charOffset="173-178"
+			type="GENE" text="LRRK2" ontology_id="120892"/>
+		<entity id="s1.e2" charOffset="180-184"
+			type="GENE" text="SNCA" ontology_id="6622"/>
+		<entity id="s1.e3" charOffset="186-191"
+			type="GENE" text="VPS35" ontology_id="55737"/>
+		<entity id="s1.e4" charOffset="193-197"
+			type="GENE" text="GCH1" ontology_id="2643"/>
+		<entity id="s1.e5" charOffset="199-204"
+			type="GENE" text="ATXN2" ontology_id="6311"/>
+		<entity id="s1.e6" charOffset="206-213"
+			type="GENE" text="DNAJC13" ontology_id="23317"/>
+		<entity id="s1.e7" charOffset="215-222"
+			type="GENE" text="TMEM230" ontology_id="29058"/>
+		<entity id="s1.e8" charOffset="224-230"
+			type="GENE" text="GIGYF2" ontology_id="26058"/>
+		<entity id="s1.e9" charOffset="232-237"
+			type="GENE" text="HTRA2" ontology_id="27429"/>
+		<entity id="s1.e10" charOffset="239-243"
+			type="GENE" text="RIC3" ontology_id="79608"/>
+		<entity id="s1.e11" charOffset="245-251"
+			type="GENE" text="EIF4G1" ontology_id="1981"/>
+		<entity id="s1.e12" charOffset="253-258"
+			type="GENE" text="UCHL1" ontology_id="7345"/>
+		<entity id="s1.e13" charOffset="260-266"
+			type="GENE" text="CHCHD2" ontology_id="51142"/>
+		<entity id="s1.e14" charOffset="272-275"
+			type="GENE" text="GBA" ontology_id="2629"/>
+		<entity id="s1.e15" charOffset="280-299"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e16" charOffset="318-322"
+			type="GENE" text="PRKN" ontology_id="5071"/>
+		<entity id="s1.e17" charOffset="324-329"
+			type="GENE" text="PINK1" ontology_id="65018"/>
+		<entity id="s1.e18" charOffset="336-343"
+			type="GENE" text="ATP13A2" ontology_id="23400"/>
+		<entity id="s1.e19" charOffset="345-351"
+			type="GENE" text="PLA2G6" ontology_id="8398"/>
+		<entity id="s1.e20" charOffset="353-358"
+			type="GENE" text="FBXO7" ontology_id="25793"/>
+		<entity id="s1.e21" charOffset="360-366"
+			type="GENE" text="DNAJC6" ontology_id="9829"/>
+		<entity id="s1.e22" charOffset="368-373"
+			type="GENE" text="SYNJ1" ontology_id="8867"/>
+		<entity id="s1.e23" charOffset="375-380"
+			type="GENE" text="SPG11" ontology_id="80208"/>
+		<entity id="s1.e24" charOffset="382-388"
+			type="GENE" text="VPS13C" ontology_id="54832"/>
+		<entity id="s1.e25" charOffset="390-395"
+			type="GENE" text="PODXL" ontology_id="5420"/>
+		<entity id="s1.e26" charOffset="401-407"
+			type="GENE" text="PTRHD1" ontology_id="391356"/>
+		<pair id="s1.p1" e1="s1.e15"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e11"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e12"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e13"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e14"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e15"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e15"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e15"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e15"
+		    e2="s1.e19" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e15"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p20" e1="s1.e15"
+		    e2="s1.e21" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e15"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p22" e1="s1.e15"
+		    e2="s1.e23" pgr="true"/>
+		<pair id="s1.p23" e1="s1.e15"
+		    e2="s1.e24" pgr="true"/>
+		<pair id="s1.p24" e1="s1.e15"
+		    e2="s1.e25" pgr="false"/>
+		<pair id="s1.p25" e1="s1.e15"
+		    e2="s1.e26" pgr="false"/>
+	</sentence>
+</document>

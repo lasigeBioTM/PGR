@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28423489">
+	<sentence id="s1" text="In the gene expression and network-level information, we revealed significant alterations of molecules related to response to hypoxia and metabolic pathways in the hypoxic-conditioned lung cancer cells.">
+		<entity id="s1.e1" charOffset="114-133"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s1.e2" charOffset="189-195"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also observed that glycogen biosynthetic process and HK2 are downstream of response to hypoxia pathway important in hypoxia-conditioned lung cancer cell.">
+		<entity id="s2.e1" charOffset="22-51"
+			type="GO" text="glycogen biosynthetic process" ontology_id="GO_0005978"/>
+		<entity id="s2.e2" charOffset="53-72"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s2.e3" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, we used publicly available datasets to validate that the late-stage lung adenocarcinoma patients showed higher expression HK2 and glycogen biosynthetic process than early-stage ones.">
+		<entity id="s3.e1" charOffset="81-100"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s3.e2" charOffset="143-172"
+			type="GO" text="glycogen biosynthetic process" ontology_id="GO_0005978"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In terms of prognostic features, a survival analysis revealed that the high glycogen biosynthetic process and HK2 expression group exhibited poorer survival in lung adenocarcinoma patients.">
+		<entity id="s4.e1" charOffset="76-105"
+			type="GO" text="glycogen biosynthetic process" ontology_id="GO_0005978"/>
+		<entity id="s4.e2" charOffset="160-179"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28771251">
+	<sentence id="s1" text="The 18 new diagnoses made with WGS included structural and non-exonic sequence variants not detectable with whole-exome sequencing, and confirmed recent disease associations with the genes GPI anchor biosynthetic process, RNU4ATAC, negative regulation of fat cell differentiation, and UNC13A.ConclusionWGS as a primary clinical test provided a higher diagnostic yield than conventional genetic testing in a clinically heterogeneous cohort">
+		<entity id="s1.e1" charOffset="189-220"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s1.e2" charOffset="232-279"
+			type="GO" text="negative regulation of fat cell differentiation" ontology_id="GO_0045599"/>
+		<entity id="s1.e3" charOffset="375-388"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27449533">
+	<sentence id="s1" text="We report a girl with consanguineous parents presenting as collodion baby with contractures of the adenylate cyclase-activating G protein-coupled receptor signaling pathway joints and palmoplantar hyperlinearity.">
+		<entity id="s1.e1" charOffset="79-91"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s1.e2" charOffset="99-172"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

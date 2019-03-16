@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25333908">
+	<sentence id="s1" text="The trichorhinophalangeal syndrome is a rare genetic syndrome with characteristic craniofacial and skeletal abnormalities including hip pathology in variable manifestation.">
+		<entity id="s1.e1" charOffset="99-121"
+			type="HP" text="skeletal abnormalities" ontology_id="HP_0000924"/>
+		<entity id="s1.e2" charOffset="132-135"
+			type="GENE" text="hip" ontology_id="64399"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

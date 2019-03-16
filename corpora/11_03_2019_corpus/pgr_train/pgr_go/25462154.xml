@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25462154">
+	<sentence id="s1" text="Charcot-Marie-Tooth disease cardiac muscle tissue development 4B2 with early-onset glaucoma (myelination, Onegative regulation of epithelial cell proliferation 604563) is a genetically-heterogeneous childhood-onset neuromuscular disorder.">
+		<entity id="s1.e1" charOffset="28-61"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="83-91"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e3" charOffset="93-104"
+			type="GO" text="myelination" ontology_id="GO_0042552"/>
+		<entity id="s1.e4" charOffset="107-159"
+			type="GO" text="negative regulation of epithelial cell proliferation" ontology_id="GO_0050680"/>
+		<entity id="s1.e5" charOffset="131-144"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

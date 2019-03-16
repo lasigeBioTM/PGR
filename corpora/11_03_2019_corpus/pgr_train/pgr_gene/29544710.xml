@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29544710">
+	<sentence id="s1" text="The purpose of these recommendations is to answer the following question: in case of deeply infiltrating endometriosis associated infertility, what is the best therapeutic strategy? First-line surgery and then in vitro fertilization (IVF) in case of persistent infertility or first-line IVF, without surgery? After exhaustive literature analysis, we suggest the following recommendations: studies focusing on spontaneous fertility of infertile patients with deeply infiltrating endometriosis found spontaneous pregnancy rates about 10%.">
+		<entity id="s1.e1" charOffset="105-118"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s1.e2" charOffset="155-159"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s1.e3" charOffset="234-237"
+			type="GENE" text="IVF" ontology_id="6331"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Treatment should be considered in infertile women with deeply infiltrating endometriosis when they wish to conceive.">
+		<entity id="s2.e1" charOffset="75-88"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s2.e2" charOffset="99-103"
+			type="GENE" text="wish" ontology_id="51517"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="First-line IVF is a good option in case of no operated deeply infiltrating endometriosis associated infertility.">
+		<entity id="s3.e1" charOffset="11-14"
+			type="GENE" text="IVF" ontology_id="6331"/>
+		<entity id="s3.e2" charOffset="75-88"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The use of IVF in the indication AAAAAAdeep infiltrating endometriosisAAAAAA allows satisfactory pregnancy rates without significant risk, regarding disease progression or oocyte retrieval procedure morbidity">
+		<entity id="s4.e1" charOffset="11-14"
+			type="GENE" text="IVF" ontology_id="6331"/>
+		<entity id="s4.e2" charOffset="57-70"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

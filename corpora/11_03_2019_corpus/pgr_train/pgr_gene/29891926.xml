@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29891926">
+	<sentence id="s1" text="Fanconi anemia (FA) is a rare disease characterized by bone marrow failure, developmental abnormalities, and increased cancer risk that is caused by defective repair of DNA interstrand crosslinks (ICLs).">
+		<entity id="s1.e1" charOffset="16-18"
+			type="GENE" text="FA" ontology_id="2395"/>
+		<entity id="s1.e2" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

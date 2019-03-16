@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24518672">
+	<sentence id="s1" text="Primary ciliary dyskinesia (motile cilium assembly) is an inherited chronic respiratory obstructive disease with randomized body laterality and infertility, resulting from cilia and sperm dysmotility.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-50"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="motile cilium assembly is characterized by clinical variability and extensive genetic heterogeneity, associated with different cilia ultrastructural defects and mutations identified in AAAA20 genes.">
+		<entity id="s2.e1" charOffset="0-22"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s2.e2" charOffset="86-99"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

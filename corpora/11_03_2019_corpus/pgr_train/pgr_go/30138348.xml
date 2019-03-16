@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30138348">
+	<sentence id="s1" text="Based on our analysis of fold-change in gene expression as a function of disease stage (i.e., early vs. advanced), coupled with consideration of the known relevant functions of these genes, we focused on four candidate genes, lipid metabolic process, S-adenosylmethionine metabolic process, apoptotic process, and miR122, which are expressed stage-specifically in HCV mono- and HIV-1/HCV co-infective liver disease and are known to play a pivotal role in regulating HCV-mediated hepatocellular carcinoma (phosphatidylinositol phosphorylation).">
+		<entity id="s1.e1" charOffset="226-249"
+			type="GO" text="lipid metabolic process" ontology_id="GO_0006629"/>
+		<entity id="s1.e2" charOffset="251-289"
+			type="GO" text="S-adenosylmethionine metabolic process" ontology_id="GO_0046500"/>
+		<entity id="s1.e3" charOffset="291-308"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e4" charOffset="433-457"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e5" charOffset="505-541"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

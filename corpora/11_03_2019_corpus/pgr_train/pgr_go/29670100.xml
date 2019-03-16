@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29670100">
+	<sentence id="s1" text="A pathogenic R474Q mutation of axon guidance, which does not exceptionally affect either the secretion or the central nervous system development binding, is located in the LGI1-LGI1 interface and disrupts the higher-order assembly of the LGI1-ADAM22 complex in vitro and in a mouse model for familial epilepsy.">
+		<entity id="s1.e1" charOffset="31-44"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s1.e2" charOffset="110-144"
+			type="GO" text="central nervous system development" ontology_id="GO_0007417"/>
+		<entity id="s1.e3" charOffset="273-281"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

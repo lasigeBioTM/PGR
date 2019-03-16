@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25198130">
+	<sentence id="s1" text="Here we used an integrative strategy to examine the hypothesis that genetic variants at response to estradiol/2 binding elements may be associated with negative regulation of cell adhesionual dimorphism of hepatocellular carcinoma (phosphatidylinositol phosphorylation) risk.">
+		<entity id="s1.e1" charOffset="88-109"
+			type="GO" text="response to estradiol" ontology_id="GO_0032355"/>
+		<entity id="s1.e2" charOffset="152-188"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e3" charOffset="173-197"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e4" charOffset="232-268"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, results from our real-time quantitative polymerase chain reaction (qPCR) using 72 normal liver tissues adjacent to the tumors showed that negative regulation of endopeptidase activity expression was significantly different among different genotypes of this variant (GG versus CC: P = 0.032; Group test: P = 0.060).">
+		<entity id="s2.e1" charOffset="129-135"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="148-193"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

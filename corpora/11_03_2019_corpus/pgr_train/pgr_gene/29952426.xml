@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29952426">
+	<sentence id="s1" text="However, the ectopic expression of FSHR was recently discovered in intra-tumoral blood vessels endothelia and/or in tumoral cells of many extra-gonadal human tumors (particularly in endocrine tumours).">
+		<entity id="s1.e1" charOffset="35-39"
+			type="GENE" text="FSHR" ontology_id="2492"/>
+		<entity id="s1.e2" charOffset="73-78"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="158-164"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="192-199"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The paper reviews the data concerning the appearance of ectopic FSHR in particular human neoplasms.">
+		<entity id="s2.e1" charOffset="64-68"
+			type="GENE" text="FSHR" ontology_id="2492"/>
+		<entity id="s2.e2" charOffset="89-98"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The possible involvement of FSHR in tumor progression and the use of FSHR examination for diagnostic purposes is also reviewed.">
+		<entity id="s3.e1" charOffset="28-32"
+			type="GENE" text="FSHR" ontology_id="2492"/>
+		<entity id="s3.e2" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

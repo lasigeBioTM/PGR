@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24632816">
+	<sentence id="s1" text="Utilizing matrix-coated polydimethylsiloxane gels to manipulate substrate compliance, we show that small GTPase mediated signal transduction, an adhesion-localized positive regulation of lamellipodium assembly and actin cytoskeleton organization specific GTPase activating protein, is necessary for U2OS osteosarcoma cells to coordinate cell shape changes and migration as a function of extracellular matrix stiffness.">
+		<entity id="s1.e1" charOffset="99-140"
+			type="GO" text="small GTPase mediated signal transduction" ontology_id="GO_0007264"/>
+		<entity id="s1.e2" charOffset="164-209"
+			type="GO" text="positive regulation of lamellipodium assembly" ontology_id="GO_0010592"/>
+		<entity id="s1.e3" charOffset="214-245"
+			type="GO" text="actin cytoskeleton organization" ontology_id="GO_0030036"/>
+		<entity id="s1.e4" charOffset="237-249"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

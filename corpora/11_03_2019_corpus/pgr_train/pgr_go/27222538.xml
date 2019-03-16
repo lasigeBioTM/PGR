@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27222538">
+	<sentence id="s1" text="We and others have recently demonstrated that peptidyl-tyrosine phosphorylation is a key mediator of growth, invasion, and metastasis, and therefore represents a promising therapeutic target in thyroid cancer.">
+		<entity id="s1.e1" charOffset="46-79"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s1.e2" charOffset="202-208"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We have generated four thyroid cancer cell lines with a greater than 30-fold increase in acquired resistance to the peptidyl-tyrosine phosphorylation inhibitor dasatinib.">
+		<entity id="s2.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="116-149"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

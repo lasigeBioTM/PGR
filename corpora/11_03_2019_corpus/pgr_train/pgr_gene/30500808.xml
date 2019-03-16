@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30500808">
+	<sentence id="s1" text="Moreover, we demonstrated that ERG and FLI1 expression is downregulated in ECs within tumors by soluble factors enriched in the tumor microenvironment.">
+		<entity id="s1.e1" charOffset="31-34"
+			type="GENE" text="ERG" ontology_id="2078"/>
+		<entity id="s1.e2" charOffset="39-43"
+			type="GENE" text="FLI1" ontology_id="2313"/>
+		<entity id="s1.e3" charOffset="86-91"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

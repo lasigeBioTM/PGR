@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30521857">
+	<sentence id="s1" text="Biological activities of compounds 3-7 towards human cancer cells, generation of precursor metabolites and energy-2, leukocyte cell-cell adhesion, and interleukin-4-mediated signaling pathway were evaluated">
+		<entity id="s1.e1" charOffset="53-59"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="67-113"
+			type="GO" text="generation of precursor metabolites and energy" ontology_id="GO_0006091"/>
+		<entity id="s1.e3" charOffset="117-145"
+			type="GO" text="leukocyte cell-cell adhesion" ontology_id="GO_0007159"/>
+		<entity id="s1.e4" charOffset="151-191"
+			type="GO" text="interleukin-4-mediated signaling pathway" ontology_id="GO_0035771"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

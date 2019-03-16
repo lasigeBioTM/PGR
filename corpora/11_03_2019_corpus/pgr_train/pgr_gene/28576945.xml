@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28576945">
+	<sentence id="s1" text="Thus, research directed at expanding our current understanding of transcriptional corepressors could impact the future development of new cancer diagnostics, prognostics, and therapies.">
+		<entity id="s1.e1" charOffset="101-107"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Importantly, the role of CtBP1 overexpression in adult tissues in promoting the progression of multiple cancer types through their ability to modulate the transcription of developmental genes ectopically is explored.">
+		<entity id="s2.e1" charOffset="25-30"
+			type="GENE" text="CtBP1" ontology_id="1487"/>
+		<entity id="s2.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="CtBP1 overexpression is known to be protumorigenic and affects the regulation of gene networks associated with AAAAAAcancer hallmarksAAAAAA and malignant behavior, including increased cell survival, proliferation, migration, invasion, and the epithelial-mesenchymal transition.">
+		<entity id="s3.e1" charOffset="0-5"
+			type="GENE" text="CtBP1" ontology_id="1487"/>
+		<entity id="s3.e2" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="As a transcriptional regulator of broad developmental processes capable of promoting malignant growth in adult tissues, therapeutically targeting the CtBP1 corepressor has the potential to be an effective method for the treatment of diverse tumor types.">
+		<entity id="s4.e1" charOffset="150-155"
+			type="GENE" text="CtBP1" ontology_id="1487"/>
+		<entity id="s4.e2" charOffset="241-246"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

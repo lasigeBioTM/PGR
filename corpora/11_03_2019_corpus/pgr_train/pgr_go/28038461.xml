@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28038461">
+	<sentence id="s1" text="Homeobox A11 (skeletal system development) is one of the hypermethylated genes in breast cancer and its function in breast tumorigenesis remains elusive.">
+		<entity id="s1.e1" charOffset="14-41"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s1.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="123-128"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we analyzed the methylation status of skeletal system development in 264 paired breast cancer and normal tissue as well as in matched serum samples by MethyLight assay.">
+		<entity id="s2.e1" charOffset="53-80"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s2.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further, the function of skeletal system development in breast tumorigenesis was analyzed by cell proliferation and migration assays.">
+		<entity id="s3.e1" charOffset="25-52"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s3.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We found that skeletal system development was hypermethylated in cancer tissues (45.08%), especially in invasive ductal carcinomas (PAAAA0.001), patients with a family history of cancer (P=0.033), cases with metastatic lymph nodes (P=0.004) and P53 positive group (P=0.017).">
+		<entity id="s4.e1" charOffset="14-41"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s4.e2" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In conclusion, the hypermethylation of skeletal system development is an independent prognostic biomarker in breast cancer.">
+		<entity id="s5.e1" charOffset="39-66"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s5.e2" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Additionally, skeletal system development can be a potential tumor suppressor">
+		<entity id="s6.e1" charOffset="14-41"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s6.e2" charOffset="61-66"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

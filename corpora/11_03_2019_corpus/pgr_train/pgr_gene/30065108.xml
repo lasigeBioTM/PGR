@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30065108">
+	<sentence id="s1" text="Rac1, one of the best characterized Rho GTPases, is an established effector of receptors and an important node in signaling networks crucial for tumorigenesis and metastasis.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="Rac1" ontology_id="5879"/>
+		<entity id="s1.e2" charOffset="17-21"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s1.e3" charOffset="36-39"
+			type="GENE" text="Rho" ontology_id="6010"/>
+		<entity id="s1.e4" charOffset="145-150"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Rac1 hyperactivation is common in human cancer and could be the consequence of overexpression, abnormal upstream inputs, deregulated degradation, and/or anomalous intracellular localization.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="Rac1" ontology_id="5879"/>
+		<entity id="s2.e2" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="More recently, cancer-associated gain-of-function mutations in Rac1 have been identified which contribute to tumor phenotypes and confer resistance to targeted therapies.">
+		<entity id="s3.e1" charOffset="15-21"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="63-67"
+			type="GENE" text="Rac1" ontology_id="5879"/>
+		<entity id="s3.e3" charOffset="109-114"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Translating our extensive knowledge in Rac pathway biochemistry into a clinical setting still remains a major challenge; nonetheless, remarkable opportunities for cancer therapeutics arise from promising lead compounds targeting Rac and its effectors">
+		<entity id="s4.e1" charOffset="39-42"
+			type="GENE" text="Rac" ontology_id="207"/>
+		<entity id="s4.e2" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

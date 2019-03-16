@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29311258">
+	<sentence id="s1" text="cDNA-encoded FLAG-tagged human wildtype ATP6V0A2 (li>a</i>2) and ATP6V0A4 (li>a</i>4) subunits and their mutants, li>a</i>2<sup>P405L</sup> (causing cutis laxa), and li>a</i>4<sup>R449H</sup> and li>a</i>4<sup>G820R</sup> (causing renal tubular acidosis, dRTA), were transiently expressed in HEK 293 cells.">
+		<entity id="s1.e1" charOffset="40-48"
+			type="GENE" text="ATP6V0A2" ontology_id="23545"/>
+		<entity id="s1.e2" charOffset="65-73"
+			type="GENE" text="ATP6V0A4" ontology_id="50617"/>
+		<entity id="s1.e3" charOffset="231-253"
+			type="HP" text="renal tubular acidosis" ontology_id="HP_0001947"/>
+		<entity id="s1.e4" charOffset="292-295"
+			type="GENE" text="HEK" ontology_id="2042"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

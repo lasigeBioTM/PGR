@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21376300">
+	<sentence id="s1" text="We hypothesized that de novo mutations (endocytosiss) in synaptic genes explain an important fraction of sporadic NSID cases.">
+		<entity id="s1.e1" charOffset="40-51"
+			type="GO" text="endocytosis" ontology_id="GO_0006897"/>
+		<entity id="s1.e2" charOffset="105-113"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Sequencing these four genes in 50 additional sporadic cases of NSID identified a second endocytosis in neuron projection development (c.1679_1681dup/p.Ser560dup).">
+		<entity id="s2.e1" charOffset="45-53"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="88-99"
+			type="GO" text="endocytosis" ontology_id="GO_0006897"/>
+		<entity id="s2.e3" charOffset="103-132"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

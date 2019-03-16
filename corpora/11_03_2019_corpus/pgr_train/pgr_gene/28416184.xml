@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28416184">
+	<sentence id="s1" text="Together, our findings suggest that in CRC TIAM1 suppresses tumor progression by regulating YAP/TAZ activity">
+		<entity id="s1.e1" charOffset="43-48"
+			type="GENE" text="TIAM1" ontology_id="7074"/>
+		<entity id="s1.e2" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="92-95"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s1.e4" charOffset="96-99"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

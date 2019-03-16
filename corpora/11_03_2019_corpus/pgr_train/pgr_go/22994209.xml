@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22994209">
+	<sentence id="s1" text="Although fatty acid beta-oxidation is responsible for X-linked fatty acid beta-oxidation (X-fatty acid beta-oxidation), its phenotype differs from that of CADDS, which manifests with many features of Zellweger syndrome (ZS), including severe growth and developmental retardation, liver dysfunction, cholestasis and early infantile death.">
+		<entity id="s1.e1" charOffset="9-34"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e2" charOffset="63-88"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e3" charOffset="117-117"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e4" charOffset="253-270"
+			type="HP" text="liver dysfunction" ontology_id="HP_0001410"/>
+		<entity id="s1.e5" charOffset="272-283"
+			type="HP" text="cholestasis" ontology_id="HP_0001396"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

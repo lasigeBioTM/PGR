@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29202552">
+	<sentence id="s1" text="Mucopolysaccharidosis VI (MPS-VI) is an infrequent autosomal recessive disorder caused by mutations in ARSB gene and deficiency in lysosomal enzyyme ARSB activities subsequently.">
+		<entity id="s1.e1" charOffset="51-70"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="103-107"
+			type="GENE" text="ARSB" ontology_id="411"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we report a novel missense mutation in ARSB gene that is inherited as an autosomal recessive mode and probably explain the clinical status of the proband.">
+		<entity id="s2.e1" charOffset="44-48"
+			type="GENE" text="ARSB" ontology_id="411"/>
+		<entity id="s2.e2" charOffset="78-97"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

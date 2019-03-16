@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25927284">
+	<sentence id="s1" text="Functional loss of expression of breast cancer susceptibility gene 1(BRCA1) has been implicated in genomic instability and cancer progression.">
+		<entity id="s1.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="69-74"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="There is emerging evidence that BRCA1 gene product (BRCA1) also plays a role in cancer cell migration.">
+		<entity id="s2.e1" charOffset="32-37"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s2.e2" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We performed a quantitative proteomics study of EOC patient tumor tissues and identified changes in expression of several key regulators of actin cytoskeleton/cell adhesion and cell migration (CAPN1, 14-3-3, CAPG, PFN1, SPTBN1, CFN1) associated with loss of BRCA1 function.">
+		<entity id="s3.e1" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="193-198"
+			type="GENE" text="CAPN1" ontology_id="823"/>
+		<entity id="s3.e3" charOffset="208-212"
+			type="GENE" text="CAPG" ontology_id="822"/>
+		<entity id="s3.e4" charOffset="214-218"
+			type="GENE" text="PFN1" ontology_id="5216"/>
+		<entity id="s3.e5" charOffset="220-226"
+			type="GENE" text="SPTBN1" ontology_id="6711"/>
+		<entity id="s3.e6" charOffset="258-263"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="By immunohistochemistry of ovarian tumors with BRCA1(+/+) and BRCA1(null) status, we further verified our proteomic-based finding of elevated PFN1 expression associated with BRCA1 deficiency.">
+		<entity id="s4.e1" charOffset="35-40"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="47-52"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s4.e3" charOffset="142-146"
+			type="GENE" text="PFN1" ontology_id="5216"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Finally, we established a causal link between PFN1 and BRCA1-induced changes in cell migration thus uncovering a novel mechanistic basis for BRCA1-dependent regulation of ovarian cancer cell migration.">
+		<entity id="s5.e1" charOffset="46-50"
+			type="GENE" text="PFN1" ontology_id="5216"/>
+		<entity id="s5.e2" charOffset="55-60"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s5.e3" charOffset="179-185"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22201925">
+	<sentence id="s1" text="Until recently, four loci (DFN2, DFN3, DFN4, and DFN6) had been implicated in nonsyndromic X-linked hearing loss; however, a new classification (DFNX1-5) has been proposed to reduce confusion in the terminology.">
+		<entity id="s1.e1" charOffset="27-31"
+			type="GENE" text="DFN2" ontology_id="5631"/>
+		<entity id="s1.e2" charOffset="33-37"
+			type="GENE" text="DFN3" ontology_id="5456"/>
+		<entity id="s1.e3" charOffset="49-53"
+			type="GENE" text="DFN6" ontology_id="23676"/>
+		<entity id="s1.e4" charOffset="100-112"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e5" charOffset="145-150"
+			type="GENE" text="DFNX1" ontology_id="5631"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition to the POU3F4 gene, which was the first gene identified as causing nonsyndromic X-linked hearing loss, a second gene, PRPS1, has recently been identified to be the causative gene of DFNX1 (DFN2).">
+		<entity id="s2.e1" charOffset="19-25"
+			type="GENE" text="POU3F4" ontology_id="5456"/>
+		<entity id="s2.e2" charOffset="101-113"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e3" charOffset="130-135"
+			type="GENE" text="PRPS1" ontology_id="5631"/>
+		<entity id="s2.e4" charOffset="194-199"
+			type="GENE" text="DFNX1" ontology_id="5631"/>
+		<entity id="s2.e5" charOffset="201-205"
+			type="GENE" text="DFN2" ontology_id="5631"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

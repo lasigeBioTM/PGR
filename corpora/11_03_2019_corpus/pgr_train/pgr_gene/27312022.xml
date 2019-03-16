@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27312022">
+	<sentence id="s1" text="Mutations in CAV3 lead to various neuromuscular phenotypes with partial overlap, including limb girdle muscular dystrophy type 1C (LGMD1C), rippling muscle disease, distal myopathy and isolated hyperCKemia.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="CAV3" ontology_id="859"/>
+		<entity id="s1.e2" charOffset="53-57"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="91-121"
+			type="HP" text="limb girdle muscular dystrophy" ontology_id="HP_0006785"/>
+		<entity id="s1.e4" charOffset="131-137"
+			type="GENE" text="LGMD1C" ontology_id="859"/>
+		<entity id="s1.e5" charOffset="165-171"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s1.e6" charOffset="172-180"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e2"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e14" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we present a series of eight patients from seven families presenting with exercise intolerance and rhabdomyolysis caused by mutations in CAV3 diagnosed by next generation sequencing (NGS) (n = 6).">
+		<entity id="s2.e1" charOffset="104-118"
+			type="HP" text="rhabdomyolysis" ontology_id="HP_0003201"/>
+		<entity id="s2.e2" charOffset="142-146"
+			type="GENE" text="CAV3" ontology_id="859"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This case series demonstrates that exercise intolerance, myalgia and rhabdomyolysis may be caused by CAV3 mutations and broadens the phenotypic spectrum of caveolinopathies.">
+		<entity id="s3.e1" charOffset="69-83"
+			type="HP" text="rhabdomyolysis" ontology_id="HP_0003201"/>
+		<entity id="s3.e2" charOffset="101-105"
+			type="GENE" text="CAV3" ontology_id="859"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

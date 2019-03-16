@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28877067">
+	<sentence id="s1" text="We examined the diagnostic and prognostic value of altered reticulin framework and the immunoprofile of biomarkers including IGF-2, proteins involved in cell proliferation and mitotic spindle regulation (Ki67, p53, BUB1B, HURP, NEK2), DNA damage repair (PBK, γ-H2AX), telomere regulation (DAX, ATRX), wnt-signaling pathway (beta-catenin) and PI3K signaling pathway (PTEN, phospho-mTOR) in a tissue microarray of 50 adenomas and 43 carcinomas that were characterized for angioinvasion as defined by strict criteria, Weiss score, and mitotic rate-based tumor grade.">
+		<entity id="s1.e1" charOffset="215-220"
+			type="GENE" text="BUB1B" ontology_id="701"/>
+		<entity id="s1.e2" charOffset="222-226"
+			type="GENE" text="HURP" ontology_id="9787"/>
+		<entity id="s1.e3" charOffset="228-232"
+			type="GENE" text="NEK2" ontology_id="4751"/>
+		<entity id="s1.e4" charOffset="239-245"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e5" charOffset="254-257"
+			type="GENE" text="PBK" ontology_id="55872"/>
+		<entity id="s1.e6" charOffset="294-298"
+			type="GENE" text="ATRX" ontology_id="546"/>
+		<entity id="s1.e7" charOffset="324-336"
+			type="GENE" text="beta-catenin" ontology_id="1499"/>
+		<entity id="s1.e8" charOffset="366-370"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s1.e9" charOffset="380-384"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s1.e10" charOffset="431-441"
+			type="HP" text="carcinomas" ontology_id="HP_0030731"/>
+		<entity id="s1.e11" charOffset="551-556"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e4"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e6"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e8"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e10"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e13"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e15"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e17"
+		    e2="s1.e20" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="IGF-2 and proteins involved in cell proliferation and mitotic spindle regulation (Ki67, p53, BUB1B, HURP, NEK2), DNA damage proteins (PBK, γ-H2AX), regulators of telomeres (DAXX, ATRX), and beta-catenin revealed characteristic expression profiles enabling the distinction of carcinomas from adenomas.">
+		<entity id="s2.e1" charOffset="93-98"
+			type="GENE" text="BUB1B" ontology_id="701"/>
+		<entity id="s2.e2" charOffset="100-104"
+			type="GENE" text="HURP" ontology_id="9787"/>
+		<entity id="s2.e3" charOffset="106-110"
+			type="GENE" text="NEK2" ontology_id="4751"/>
+		<entity id="s2.e4" charOffset="117-123"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s2.e5" charOffset="134-137"
+			type="GENE" text="PBK" ontology_id="55872"/>
+		<entity id="s2.e6" charOffset="173-177"
+			type="GENE" text="DAXX" ontology_id="1616"/>
+		<entity id="s2.e7" charOffset="179-183"
+			type="GENE" text="ATRX" ontology_id="546"/>
+		<entity id="s2.e8" charOffset="190-202"
+			type="GENE" text="beta-catenin" ontology_id="1499"/>
+		<entity id="s2.e9" charOffset="275-285"
+			type="HP" text="carcinomas" ontology_id="HP_0030731"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e7"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e8"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e6"
+		    e2="s2.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Angioinvasion defined as tumor cells invading through a vessel wall and intravascular tumor cells admixed with thrombus proved to be the best prognostic parameter, predicting adverse outcome in the entire cohort as well as within low-grade ACCs.">
+		<entity id="s3.e1" charOffset="25-30"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="137-141"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s3.e3" charOffset="240-243"
+			type="GENE" text="ACC" ontology_id="31"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Low mitotic tumor grade, Weiss score, global loss of DAXX expression, and high phospho-mTOR expression correlated with disease-free survival, but Weiss score and biomarkers failed to predict adverse outcome in low-grade disease.">
+		<entity id="s4.e1" charOffset="12-17"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="53-57"
+			type="GENE" text="DAXX" ontology_id="1616"/>
+		<entity id="s4.e3" charOffset="87-91"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

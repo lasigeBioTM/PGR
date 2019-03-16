@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25310821">
+	<sentence id="s1" text="Hirschsprung disease (HSCR) is a congenital and heterogeneous disorder characterized by the absence of intramural nervous plexuses along variable lengths of the hindgut.">
+		<entity id="s1.e1" charOffset="22-26"
+			type="GENE" text="HSCR" ontology_id="1910"/>
+		<entity id="s1.e2" charOffset="48-61"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To discover additional risk loci, we performed a GWAS of 123 sporadic HSCR patients and 432 unaffected controls using a large-scale platform with coverage of over 1 million polymorphic markers.">
+		<entity id="s2.e1" charOffset="61-69"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="70-74"
+			type="GENE" text="HSCR" ontology_id="1910"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

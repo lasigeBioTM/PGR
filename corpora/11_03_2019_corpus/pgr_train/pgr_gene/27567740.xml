@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27567740">
+	<sentence id="s1" text="Recently, a missense mutation (R7S) in yet another member of this family, HSPB3, was found to cause an axonal motor neuropathy (distal hereditary motor neuropathy type 2C, dHMN2C).">
+		<entity id="s1.e1" charOffset="74-79"
+			type="GENE" text="HSPB3" ontology_id="8988"/>
+		<entity id="s1.e2" charOffset="116-126"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="163-167"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

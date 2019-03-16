@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29453416">
+	<sentence id="s1" text="The molecular basis of this condition started to be defined recently, and the genes related to the syndrome (ACTG2-heterozygous variant in sporadic cases; and MYH11 (myosin heavy chain 11), LMOD1 (leiomodin 1) and MYLK (myosin light chain (MLC) kinase)-autosomal recessive inheritance), encode proteins involved in the smooth muscle contraction, supporting a myopathic basis for the disease.">
+		<entity id="s1.e1" charOffset="139-147"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="159-164"
+			type="GENE" text="MYH11" ontology_id="4629"/>
+		<entity id="s1.e3" charOffset="190-195"
+			type="GENE" text="LMOD1" ontology_id="25802"/>
+		<entity id="s1.e4" charOffset="214-218"
+			type="GENE" text="MYLK" ontology_id="4638"/>
+		<entity id="s1.e5" charOffset="227-232"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s1.e6" charOffset="240-243"
+			type="GENE" text="MLC" ontology_id="23209"/>
+		<entity id="s1.e7" charOffset="253-272"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e8" charOffset="273-284"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e6"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e8"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e4"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e6"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e8"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e10"
+		    e2="s1.e22" pgr="false"/>
+	</sentence>
+</document>

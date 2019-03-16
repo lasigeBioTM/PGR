@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29638194">
+	<sentence id="s1" text="Fasting serum tumor necrosis factor (negative regulation of transcription by RNA polymerase II)-like antigen 1A (TL1A) and its receptor death receptor 3 (DR3), negative regulation of axon extension-B (reticulon 4B) and its receptor dolichyl diphosphate biosynthetic process, high-sensitivity C-reactive protein (hsCRP), A disintegrin and metalloproteinase with thrombospondin motifs (ADAMTS) 1, 4, 5 and interleukin (IL) 6 levels were determined.">
+		<entity id="s1.e1" charOffset="14-19"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="37-94"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="160-197"
+			type="GO" text="negative regulation of axon extension" ontology_id="GO_0030517"/>
+		<entity id="s1.e4" charOffset="232-273"
+			type="GO" text="dolichyl diphosphate biosynthetic process" ontology_id="GO_0006489"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

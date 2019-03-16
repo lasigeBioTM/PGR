@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29454993">
+	<sentence id="s1" text="Mutations in the human tRNA 3'-terminal camera-type eye development addition gene encoding tRNA nucleotidyltransferase (tRNA-NT), an essential enzyme responsible for addition of the camera-type eye development (cytidine-cytidine-adenosine) sequence to the 3'-termini of tRNAs, have been linked to disease phenotypes including congenital sideroblastic anemia with B-cell immunodeficiency, periodic fevers and developmental delay (SIFD) or retinitis pigmentosa with erythrocyte microcytosis.">
+		<entity id="s1.e1" charOffset="23-52"
+			type="GO" text="tRNA 3'-terminal CCA addition" ontology_id="GO_0001680"/>
+		<entity id="s1.e2" charOffset="40-67"
+			type="GO" text="camera-type eye development" ontology_id="GO_0043010"/>
+		<entity id="s1.e3" charOffset="360-379"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e4" charOffset="428-440"
+			type="HP" text="microcytosis" ontology_id="HP_0025066"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

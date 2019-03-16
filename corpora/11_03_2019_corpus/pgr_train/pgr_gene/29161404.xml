@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29161404">
+	<sentence id="s1" text="Mutations in a proline-rich-repeat region (PRR) of UBQLN2 cause amyotrophic lateral sclerosis (ALS)/frontotemporal dementia (FTD); however, neither the normal functions of the PRR nor impacts of ALS-associated mutations within it are well understood.">
+		<entity id="s1.e1" charOffset="43-46"
+			type="GENE" text="PRR" ontology_id="10159"/>
+		<entity id="s1.e2" charOffset="51-57"
+			type="GENE" text="UBQLN2" ontology_id="29978"/>
+		<entity id="s1.e3" charOffset="95-98"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e4" charOffset="100-123"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

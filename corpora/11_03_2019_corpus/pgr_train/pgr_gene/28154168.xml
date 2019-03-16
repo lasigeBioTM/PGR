@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28154168">
+	<sentence id="s1" text="Two common li>POLG</i> mutations usually found li>in cis</i> in patients primarily with progressive external ophthalmoplegia generate T251I and P587L amino acid substitutions.">
+		<entity id="s1.e1" charOffset="14-18"
+			type="GENE" text="POLG" ontology_id="5428"/>
+		<entity id="s1.e2" charOffset="88-99"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

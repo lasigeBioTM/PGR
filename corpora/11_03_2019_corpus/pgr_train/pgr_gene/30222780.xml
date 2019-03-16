@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30222780">
+	<sentence id="s1" text="ASXL1 (additional sex combs like 1) is a gene that is mutated in a number of hematological neoplasms.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="ASXL1" ontology_id="171023"/>
+		<entity id="s1.e2" charOffset="18-21"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s1.e3" charOffset="91-100"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, we investigated the impact of proofreading capabilities of different DNA polymerases on ASXL1 c.1934dupG somatic mutation using conventional Sanger sequencing, another common method for ASXL1 genotyping.">
+		<entity id="s2.e1" charOffset="33-39"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s2.e2" charOffset="101-106"
+			type="GENE" text="ASXL1" ontology_id="171023"/>
+		<entity id="s2.e3" charOffset="118-134"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A systematic study of serial samples from 30 patients show that ASXL1 c.1934dupG is a somatic mutation in haematological neoplasms including MDS, AML, MPN and MDS/MPN and often is associated with somatic mutations of TET2, EZH2, IDH2, RUNX1, NRAS and DNMT3A.">
+		<entity id="s3.e1" charOffset="64-69"
+			type="GENE" text="ASXL1" ontology_id="171023"/>
+		<entity id="s3.e2" charOffset="86-102"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s3.e3" charOffset="121-130"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="141-144"
+			type="GENE" text="MDS" ontology_id="5048"/>
+		<entity id="s3.e5" charOffset="151-154"
+			type="GENE" text="MPN" ontology_id="83886"/>
+		<entity id="s3.e6" charOffset="217-221"
+			type="GENE" text="TET2" ontology_id="54790"/>
+		<entity id="s3.e7" charOffset="223-227"
+			type="GENE" text="EZH2" ontology_id="2146"/>
+		<entity id="s3.e8" charOffset="229-233"
+			type="GENE" text="IDH2" ontology_id="3418"/>
+		<entity id="s3.e9" charOffset="235-240"
+			type="GENE" text="RUNX1" ontology_id="861"/>
+		<entity id="s3.e10" charOffset="242-246"
+			type="GENE" text="NRAS" ontology_id="4893"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e3"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e3"
+		    e2="s3.e8" pgr="true"/>
+		<pair id="s3.p7" e1="s3.e3"
+		    e2="s3.e9" pgr="true"/>
+		<pair id="s3.p8" e1="s3.e3"
+		    e2="s3.e10" pgr="true"/>
+		<pair id="s3.p9" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p10" e1="s3.e18"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p11" e1="s3.e18"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p12" e1="s3.e18"
+		    e2="s3.e9" pgr="true"/>
+		<pair id="s3.p13" e1="s3.e18"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p14" e1="s3.e18"
+		    e2="s3.e12" pgr="false"/>
+		<pair id="s3.p15" e1="s3.e18"
+		    e2="s3.e14" pgr="false"/>
+		<pair id="s3.p16" e1="s3.e18"
+		    e2="s3.e16" pgr="true"/>
+	</sentence>
+</document>

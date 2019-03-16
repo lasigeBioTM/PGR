@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29986413">
+	<sentence id="s1" text="High-density lipoprotein (HDL) particles have experienced a turbulent decade of falling from grace with widespread demotion from the most-sought-after therapeutic target to reverse cardiovascular disease (CVD), to mere biomarker status.">
+		<entity id="s1.e1" charOffset="153-156"
+			type="GENE" text="era" ontology_id="2099"/>
+		<entity id="s1.e2" charOffset="181-203"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

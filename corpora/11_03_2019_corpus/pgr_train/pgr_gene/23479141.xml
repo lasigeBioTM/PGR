@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23479141">
+	<sentence id="s1" text="Limb girdle muscular dystrophy type 2 G (LGMD2G) is caused by mutations in the telethonin gene.">
+		<entity id="s1.e1" charOffset="12-30"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="31-35"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="41-47"
+			type="GENE" text="LGMD2G" ontology_id="8557"/>
+		<entity id="s1.e4" charOffset="79-89"
+			type="GENE" text="telethonin" ontology_id="8557"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

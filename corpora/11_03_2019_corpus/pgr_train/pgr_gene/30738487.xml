@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30738487">
+	<sentence id="s1" text="As a potential target for cancer treatment, the C-Myc high expresses abnormally in a variety of solid tumors and hematological malignancies in humans.">
+		<entity id="s1.e1" charOffset="26-32"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="48-53"
+			type="GENE" text="C-Myc" ontology_id="4609"/>
+		<entity id="s1.e3" charOffset="102-108"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

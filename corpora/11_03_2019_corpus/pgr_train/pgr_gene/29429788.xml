@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29429788">
+	<sentence id="s1" text="We present a case of myoclonus-dystonia syndrome illustrated by three videos in which we found a novel SGCE mutation.">
+		<entity id="s1.e1" charOffset="21-30"
+			type="HP" text="myoclonus" ontology_id="HP_0001336"/>
+		<entity id="s1.e2" charOffset="103-107"
+			type="GENE" text="SGCE" ontology_id="8910"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

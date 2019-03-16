@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28432734">
+	<sentence id="s1" text="The presence of minor loss-of-function variants in WFS1 predicted isolated diabetes, isolated deafness, or isolated congenital cataracts without development of the full syndrome (sensitivity 100% [93%-100%]; specificity 78% [73%-82%]).">
+		<entity id="s1.e1" charOffset="16-21"
+			type="GENE" text="minor" ontology_id="8013"/>
+		<entity id="s1.e2" charOffset="51-55"
+			type="GENE" text="WFS1" ontology_id="7466"/>
+		<entity id="s1.e3" charOffset="94-102"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="127-136"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

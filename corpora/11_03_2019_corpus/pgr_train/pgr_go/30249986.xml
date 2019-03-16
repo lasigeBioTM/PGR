@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30249986">
+	<sentence id="s1" text="Oxidative stress, which is induced by reactive oxygen species (regulation of cell growth), causes cellular cellular protein catabolic process which contributes to the pathogenesis of neurodegenerative diseases.">
+		<entity id="s1.e1" charOffset="63-88"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e2" charOffset="107-141"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<entity id="s1.e3" charOffset="155-181"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="First, we tested whether the pretreatment of li>Momordica charantia</i> ethanol extract (L-methylmalonyl-CoA metabolic process) attenuates H₂O₂-induced cell death in human neuroblastoma negative regulation of transcription by RNA polymerase II-N-MC cells.">
+		<entity id="s2.e1" charOffset="89-126"
+			type="GO" text="L-methylmalonyl-CoA metabolic process" ontology_id="GO_0046491"/>
+		<entity id="s2.e2" charOffset="172-185"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s2.e3" charOffset="186-243"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

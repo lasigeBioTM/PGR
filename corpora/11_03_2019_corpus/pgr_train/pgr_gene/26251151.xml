@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26251151">
+	<sentence id="s1" text="In an effort to identify new mutations responsible for DBA, we performed whole-exome sequencing analysis of 48 patients with no documented mutations/deletions in our first screening and identified a de novo splicing error mutation in RPL27 and a frameshift deletion in RPS27 in sporadic patients with DBA.">
+		<entity id="s1.e1" charOffset="55-58"
+			type="GENE" text="DBA" ontology_id="6223"/>
+		<entity id="s1.e2" charOffset="234-239"
+			type="GENE" text="RPL27" ontology_id="6155"/>
+		<entity id="s1.e3" charOffset="278-286"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

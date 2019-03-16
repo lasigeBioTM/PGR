@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30300827">
+	<sentence id="s1" text="positive regulation of B cell proliferation and its ligand are members of the TNF/TNF receptor superfamily, which includes various molecules influencing cellular signaling and function of both tumor and immune cells.">
+		<entity id="s1.e1" charOffset="0-43"
+			type="GO" text="positive regulation of B cell proliferation" ontology_id="GO_0030890"/>
+		<entity id="s1.e2" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The ability of positive regulation of B cell proliferation to promote proliferation and differentiation of activated T cells fueled present attempts to modulate this immune checkpoint to reinforce antitumor immunity.">
+		<entity id="s2.e1" charOffset="15-58"
+			type="GO" text="positive regulation of B cell proliferation" ontology_id="GO_0030890"/>
+		<entity id="s2.e2" charOffset="201-206"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The data presented thus not only identify the yet unknown involvement of positive regulation of B cell proliferation/OX40L in protein phosphorylation pathophysiology and NK cell immunosurveillance but also point to the necessity to thoroughly consider the consequences of modulating the OX40/OX40L molecule system beyond its effects on T cells when developing OX40-targeting approaches for cancer immunotherapy">
+		<entity id="s3.e1" charOffset="73-116"
+			type="GO" text="positive regulation of B cell proliferation" ontology_id="GO_0030890"/>
+		<entity id="s3.e2" charOffset="87-110"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e3" charOffset="351-357"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

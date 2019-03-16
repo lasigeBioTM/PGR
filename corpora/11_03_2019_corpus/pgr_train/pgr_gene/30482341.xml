@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30482341">
+	<sentence id="s1" text="Identifying the central and peripheral vestibular mechanisms responsible for pathology can aid in management of SRC.">
+		<entity id="s1.e1" charOffset="28-38"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s1.e2" charOffset="91-94"
+			type="GENE" text="aid" ontology_id="57379"/>
+		<entity id="s1.e3" charOffset="112-115"
+			type="GENE" text="SRC" ontology_id="6714"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The most common vestibular disturbances after SRC include benign paroxysmal positional vertigo, vestibulo-ocular reflex impairment, visual motion sensitivity, and balance impairment.">
+		<entity id="s2.e1" charOffset="46-49"
+			type="GENE" text="SRC" ontology_id="6714"/>
+		<entity id="s2.e2" charOffset="87-94"
+			type="HP" text="vertigo" ontology_id="HP_0002321"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

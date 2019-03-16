@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29725255">
+	<sentence id="s1" text="<b>Methods</b>: Analysis of publicly available microarray data of oral SCC revealed that AMACR was significantly upregulated in tumor tissue compared with normal mucosa.">
+		<entity id="s1.e1" charOffset="71-74"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s1.e2" charOffset="89-94"
+			type="GENE" text="AMACR" ontology_id="23600"/>
+		<entity id="s1.e3" charOffset="128-133"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="<b>Results</b>: AMACR overexpression was significantly associated with advanced tumor status (li>P</i>=0.001), advanced nodal status (li>P</i>=0.036), increased vascular invasion (li>P</i>=0.026) and increased perineural invasion (li>P</i>=0.004).">
+		<entity id="s2.e1" charOffset="16-21"
+			type="GENE" text="AMACR" ontology_id="23600"/>
+		<entity id="s2.e2" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="120-125"
+			type="GENE" text="nodal" ontology_id="4838"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

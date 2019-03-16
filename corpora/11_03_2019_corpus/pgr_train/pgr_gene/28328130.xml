@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28328130">
+	<sentence id="s1" text="Auriculocondylar syndrome, mainly characterized by micrognathia, small mandibular condyle, and question mark ears, is a rare disease segregating in an autosomal dominant pattern in the majority of the families reported in the literature.">
+		<entity id="s1.e1" charOffset="51-63"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<entity id="s1.e2" charOffset="65-89"
+			type="HP" text="small mandibular condyle" ontology_id="HP_0007628"/>
+		<entity id="s1.e3" charOffset="104-108"
+			type="GENE" text="mark" ontology_id="4139"/>
+		<entity id="s1.e4" charOffset="109-113"
+			type="GENE" text="ears" ontology_id="2058"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In order to address these questions, we searched for alterations in PLCB4, GNAI3, and EDN1 in patients with typical Auriculocondylar syndrome (n = 3), Pierre Robin sequence-plus (n = 3), micrognathia with additional craniofacial malformations (n = 4), or non-specific auricular dysplasia (n = 1), which could represent subtypes of Auriculocondylar syndrome.">
+		<entity id="s2.e1" charOffset="68-73"
+			type="GENE" text="PLCB4" ontology_id="5332"/>
+		<entity id="s2.e2" charOffset="75-80"
+			type="GENE" text="GNAI3" ontology_id="2773"/>
+		<entity id="s2.e3" charOffset="86-90"
+			type="GENE" text="EDN1" ontology_id="1906"/>
+		<entity id="s2.e4" charOffset="187-199"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

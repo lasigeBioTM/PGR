@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29958946">
+	<sentence id="s1" text="The schizophrenia-associated gene GRIN2A (glutamate ionotropic receptor NMDA type subunit 2a) codes for a protein subunit of the NMDA (N-methyl-D-aspartate) receptor that underlies central aspects of human cognition.">
+		<entity id="s1.e1" charOffset="4-17"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="34-40"
+			type="GENE" text="GRIN2A" ontology_id="2903"/>
+		<entity id="s1.e3" charOffset="77-81"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results also suggest that some schizophrenia-related alleles may be subject to cognitive tradeoffs involving both positive and negative effects on psychological phenotypes, which may help to explain the maintenance of psychiatric-disorder risk alleles in human populations">
+		<entity id="s2.e1" charOffset="35-48"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="170-174"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

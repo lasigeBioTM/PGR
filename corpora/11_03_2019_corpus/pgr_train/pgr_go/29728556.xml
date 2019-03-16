@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29728556">
+	<sentence id="s1" text="The aim of this study was to investigate the expression of the long intergenic non-protein coding RNA 665 (LINC00665) gene and the cell cycle in hepatocellular carcinoma (phosphatidylinositol phosphorylation) using database analysis including The Cancer Genome Atlas (TCGA), the Gene Expression Omnibus (GEO), and quantitative real-time polymerase chain reaction (qPCR).">
+		<entity id="s1.e1" charOffset="145-169"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="171-207"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="RESULTS Overexpression of LINC00665 in patients with phosphatidylinositol phosphorylation was significantly associated with gender, tumor grade, stage, and tumor cell type.">
+		<entity id="s2.e1" charOffset="53-89"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s2.e2" charOffset="132-137"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

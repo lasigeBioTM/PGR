@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28911200">
+	<sentence id="s1" text="We report a pair of siblings carrying a homozygous missense mutation p.P333L in EEF1A2 who exhibited global developmental delay, failure to thrive, dilated cardiomyopathy and epilepsy, ultimately leading to death in early childhood.">
+		<entity id="s1.e1" charOffset="80-85"
+			type="GENE" text="EEF1A" ontology_id="1915"/>
+		<entity id="s1.e2" charOffset="108-127"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="129-146"
+			type="HP" text="failure to thrive" ontology_id="HP_0001508"/>
+		<entity id="s1.e4" charOffset="175-183"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="EEF1A2-deficient zebrafish had skeletal muscle weakness, cardiac failure and small heads.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="EEF1A" ontology_id="1915"/>
+		<entity id="s2.e2" charOffset="57-72"
+			type="HP" text="cardiac failure" ontology_id="HP_0001635"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

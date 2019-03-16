@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27389535">
+	<sentence id="s1" text="Using a proteomics screen, we now show that the mitochondrial unfoldase-peptidase complex ClpXP associates with the oncoprotein survivin and the respiratory chain Complex II subunit succinate dehydrogenase B (SDHB) in mitochondria of tumor cells.">
+		<entity id="s1.e1" charOffset="90-94"
+			type="GENE" text="ClpX" ontology_id="10845"/>
+		<entity id="s1.e2" charOffset="128-136"
+			type="GENE" text="survivin" ontology_id="332"/>
+		<entity id="s1.e3" charOffset="209-213"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<entity id="s1.e4" charOffset="234-239"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Deregulated mitochondrial respiration induced by ClpXP targeting causes oxidative stress, which in turn reduces tumor cell proliferation, suppresses cell motility, and abolishes metastatic dissemination in vivo.">
+		<entity id="s2.e1" charOffset="49-53"
+			type="GENE" text="ClpX" ontology_id="10845"/>
+		<entity id="s2.e2" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="ClpP is universally overexpressed in primary and metastatic human cancer, correlating with shortened patient survival.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="ClpP" ontology_id="8192"/>
+		<entity id="s3.e2" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Therefore, tumors exploit ClpXP-directed proteostasis to maintain mitochondrial bioenergetics, buffer oxidative stress, and enable metastatic competence.">
+		<entity id="s4.e1" charOffset="11-16"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="26-30"
+			type="GENE" text="ClpX" ontology_id="10845"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

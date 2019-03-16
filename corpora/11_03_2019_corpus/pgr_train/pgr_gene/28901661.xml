@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28901661">
+	<sentence id="s1" text="Mutations in the D40/KNL1/CASC5 gene, which was initially characterized as a gene involved in chromosomal translocation in leukemia and as a member of the cancer/testis gene family, was later found to encode a kinetochore protein essential for mitotic cell division and to cause MCPH4.">
+		<entity id="s1.e1" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="279-284"
+			type="GENE" text="MCPH4" ontology_id="22995"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

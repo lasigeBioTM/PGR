@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28098905">
+	<sentence id="s1" text="The Cripto-1 (CR-1) derived EGF-CFC family was overexpressed in tumor development enhancing proliferation, epithelial-mesenchymal transition (EMT) and migration of tumor cells.">
+		<entity id="s1.e1" charOffset="4-12"
+			type="GENE" text="Cripto-1" ontology_id="6997"/>
+		<entity id="s1.e2" charOffset="14-16"
+			type="GENE" text="CR" ontology_id="1604"/>
+		<entity id="s1.e3" charOffset="28-31"
+			type="GENE" text="EGF" ontology_id="1950"/>
+		<entity id="s1.e4" charOffset="32-35"
+			type="GENE" text="CFC" ontology_id="6903"/>
+		<entity id="s1.e5" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e6" charOffset="142-145"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, correlation between CR-1 and prostate cancer (PCa) remains still unclear.">
+		<entity id="s2.e1" charOffset="29-31"
+			type="GENE" text="CR" ontology_id="1604"/>
+		<entity id="s2.e2" charOffset="47-53"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="55-58"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Additionally, our results displayed that Licl had antitumor activity against PC-3 through the inhibition of Wnt/β-catenin pathway.">
+		<entity id="s3.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="77-79"
+			type="GENE" text="PC" ontology_id="5420"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

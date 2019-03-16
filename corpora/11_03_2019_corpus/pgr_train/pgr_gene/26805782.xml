@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26805782">
+	<sentence id="s1" text="By exome sequencing, we identified three different bi-allelic truncating mutations in TANGO2 in three unrelated individuals with infancy-onset episodic metabolic crises characterized by encephalopathy, hypoglycemia, rhabdomyolysis, arrhythmias, and laboratory findings suggestive of a defect in mitochondrial fatty acid oxidation.">
+		<entity id="s1.e1" charOffset="86-92"
+			type="GENE" text="TANGO2" ontology_id="128989"/>
+		<entity id="s1.e2" charOffset="186-200"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e3" charOffset="202-214"
+			type="HP" text="hypoglycemia" ontology_id="HP_0001943"/>
+		<entity id="s1.e4" charOffset="216-230"
+			type="HP" text="rhabdomyolysis" ontology_id="HP_0003201"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

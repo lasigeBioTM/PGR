@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30231971">
+	<sentence id="s1" text="Squamous cell carcinoma (negative regulation of peptidase activity) can progress to malignant metastatic cancer, including an aggressive subtype known as spindle cell carcinoma (spSCC). spSCC formation involves epithelial-to-mesenchymal transition (cytokine production), yet the molecular basis of this event remains unknown.">
+		<entity id="s1.e1" charOffset="25-66"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s1.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="249-268"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show that human spnegative regulation of peptidase activity tumours also feature strong nuclear localisation of regulation of cell cycle and overexpression of activated YAP (NLS-YAP-5SA) with Keratin-5 (K5-CreERt) is sufficient to induce rapid formation of both SCC and spSCC in apoptotic process.">
+		<entity id="s2.e1" charOffset="27-68"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s2.e2" charOffset="69-76"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="121-145"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s2.e4" charOffset="288-305"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="spnegative regulation of peptidase activity tumours arise at sites of epithelial scratch wounding, where tumour-initiating epithelial cells undergo cytokine production to generate spnegative regulation of peptidase activity.">
+		<entity id="s3.e1" charOffset="2-43"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s3.e2" charOffset="44-51"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="105-111"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="148-167"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

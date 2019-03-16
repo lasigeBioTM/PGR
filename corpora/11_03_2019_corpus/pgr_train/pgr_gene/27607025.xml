@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27607025">
+	<sentence id="s1" text="As a reason why the present case showed lethal phenotype despite the in-frame deletion mutation, rapid degradation of neo-synthesized α6 protein and/or impaired transport of integrin were suggested from previous reports, and the lack of localization of integrin α6β4 to the epidermal basement membrane resulted in skin fragility.">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="314-328"
+			type="HP" text="skin fragility" ontology_id="HP_0001030"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

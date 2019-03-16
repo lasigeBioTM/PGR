@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28436964">
+	<sentence id="s1" text="We find that SWELL1-mediated VRAC is augmented in hypertrophic murine and human adipocytes in the setting of obesity.">
+		<entity id="s1.e1" charOffset="3-7"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s1.e2" charOffset="13-19"
+			type="GENE" text="SWELL1" ontology_id="56262"/>
+		<entity id="s1.e3" charOffset="109-116"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21416382">
+	<sentence id="s1" text="Posterior microphthalmos (PM) is a relatively infrequent type of microphthalmos where posterior segment is predominantly affected with normal anterior segment measurements.">
+		<entity id="s1.e1" charOffset="10-24"
+			type="HP" text="microphthalmos" ontology_id="HP_0000568"/>
+		<entity id="s1.e2" charOffset="57-61"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

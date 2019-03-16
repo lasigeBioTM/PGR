@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26683626">
+	<sentence id="s1" text="The transcriptional coactivator peroxisome proliferator-activated receptor-histone H3 acetylation coactivator 1-alpha (positive regulation of antibacterial peptide production-1α) has been linked to multiple neurological and psychiatric disorders including schizophrenia, but its involvement in the pathophysiology of these disorders is unclear.">
+		<entity id="s1.e1" charOffset="75-97"
+			type="GO" text="histone H3 acetylation" ontology_id="GO_0043966"/>
+		<entity id="s1.e2" charOffset="119-174"
+			type="GO" text="positive regulation of antibacterial peptide production" ontology_id="GO_0002803"/>
+		<entity id="s1.e3" charOffset="204-217"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We measured the mRNA expression of positive regulation of antibacterial peptide production-1α and these transcripts in postmortem cortical tissue from control and schizophrenia patients and found a reduction in PGC-1α-dependent transcripts without a change in PGC-1α.">
+		<entity id="s2.e1" charOffset="35-90"
+			type="GO" text="positive regulation of antibacterial peptide production" ontology_id="GO_0002803"/>
+		<entity id="s2.e2" charOffset="163-176"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="While control subjects with high positive regulation of antibacterial peptide production-1α expression exhibited high PV and neurofilament bundle assembly expression, schizophrenia subjects with high PGC-1α expression did not, suggesting dissociation between PGC-1α expression and these targets in schizophrenia.">
+		<entity id="s3.e1" charOffset="33-88"
+			type="GO" text="positive regulation of antibacterial peptide production" ontology_id="GO_0002803"/>
+		<entity id="s3.e2" charOffset="125-154"
+			type="GO" text="neurofilament bundle assembly" ontology_id="GO_0033693"/>
+		<entity id="s3.e3" charOffset="142-155"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="negative regulation of transcription, DNA-templated-1 mRNA expression was reduced in schizophrenia, and its transcript levels predicted that of positive regulation of antibacterial peptide production-1α-dependent targets in schizophrenia.">
+		<entity id="s4.e1" charOffset="0-51"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s4.e2" charOffset="37-50"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s4.e3" charOffset="96-151"
+			type="GO" text="positive regulation of antibacterial peptide production" ontology_id="GO_0002803"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Interestingly, the positive correlation between positive regulation of antibacterial peptide production-1α and PV, positive regulation of dendrite extension, or synaptic vesicle exocytosis expression was lost in schizophrenia patients with low negative regulation of transcription, DNA-templated-1 expression, suggesting that NRF-1 is a critical predictor of these genes in disease.">
+		<entity id="s5.e1" charOffset="48-103"
+			type="GO" text="positive regulation of antibacterial peptide production" ontology_id="GO_0002803"/>
+		<entity id="s5.e2" charOffset="115-156"
+			type="GO" text="positive regulation of dendrite extension" ontology_id="GO_1903861"/>
+		<entity id="s5.e3" charOffset="153-166"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s5.e4" charOffset="161-188"
+			type="GO" text="synaptic vesicle exocytosis" ontology_id="GO_0016079"/>
+		<entity id="s5.e5" charOffset="244-295"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e4"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e3"
+		    e2="s5.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="These data suggest that schizophrenia involves a disruption in positive regulation of antibacterial peptide production-1α and/or negative regulation of transcription, DNA-templated-1-associated transcriptional programs in the cortex and that approaches to enhance the activity of PGC-1α or transcriptional regulators like NRF-1 should be considered with the goal of restoring normal gene programs and improving cortical function">
+		<entity id="s6.e1" charOffset="24-37"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s6.e2" charOffset="63-118"
+			type="GO" text="positive regulation of antibacterial peptide production" ontology_id="GO_0002803"/>
+		<entity id="s6.e3" charOffset="129-180"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

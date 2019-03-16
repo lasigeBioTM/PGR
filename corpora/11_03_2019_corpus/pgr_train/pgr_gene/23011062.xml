@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23011062">
+	<sentence id="s1" text="Physical deconditioning is associated with the development of chronic diseases, including type 2 diabetes and cardiovascular disease.">
+		<entity id="s1.e1" charOffset="90-94"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="110-132"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

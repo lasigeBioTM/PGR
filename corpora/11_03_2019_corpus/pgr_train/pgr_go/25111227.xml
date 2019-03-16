@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25111227">
+	<sentence id="s1" text="Mutations in the ubiquitously expressed pre-mRNA processing factors 3, 8, and 31 (spliceosomal tri-snRNP complex assembly, spliceosomal tri-snRNP complex assembly, and PRPF31) cause nonsyndromic dominant retinitis pigmentosa in humans, an inherited retinal degeneration.">
+		<entity id="s1.e1" charOffset="82-121"
+			type="GO" text="spliceosomal tri-snRNP complex assembly" ontology_id="GO_0000244"/>
+		<entity id="s1.e2" charOffset="123-162"
+			type="GO" text="spliceosomal tri-snRNP complex assembly" ontology_id="GO_0000244"/>
+		<entity id="s1.e3" charOffset="215-235"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

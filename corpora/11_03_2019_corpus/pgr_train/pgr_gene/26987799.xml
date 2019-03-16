@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26987799">
+	<sentence id="s1" text="The DNA damage checkpoints provide an anti-cancer barrier in diverse tumour types, however this concept has remained unexplored in prostate cancer (CaP).">
+		<entity id="s1.e1" charOffset="8-14"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e2" charOffset="43-49"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="69-75"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="148-151"
+			type="GENE" text="CaP" ontology_id="23476"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, targeting DNA repair defects by PARP1 inhibitors (PARPi) as a cancer treatment strategy is emerging yet requires suitable predictive biomarkers.">
+		<entity id="s2.e1" charOffset="45-50"
+			type="GENE" text="PARP1" ontology_id="142"/>
+		<entity id="s2.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="87-90"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To address these issues, we performed immunohistochemical analysis of multiple markers of DNA damage signalling, oxidative stress, DNA repair and cell cycle control pathways during progression of human prostate disease from benign hyperplasia, through intraepithelial neoplasia to CaP, complemented by genetic analyses of TMPRSS2-ERG rearrangement and NQO1, an anti-oxidant factor and p53 protector.">
+		<entity id="s3.e1" charOffset="94-100"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s3.e2" charOffset="268-277"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="281-284"
+			type="GENE" text="CaP" ontology_id="23476"/>
+		<entity id="s3.e4" charOffset="292-295"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s3.e5" charOffset="352-356"
+			type="GENE" text="NQO1" ontology_id="1728"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The DNA damage checkpoint barrier (γH2AX, pATM, p53) mechanism was activated during CaP tumorigenesis, albeit less and with delayed culmination compared to other cancers, possibly reflecting lower replication stress (slow proliferation despite cases of Rb loss and cyclin D1 overexpression) and progressive loss of ATM activator NKX3.1.">
+		<entity id="s4.e1" charOffset="8-14"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s4.e2" charOffset="43-46"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s4.e3" charOffset="84-87"
+			type="GENE" text="CaP" ontology_id="23476"/>
+		<entity id="s4.e4" charOffset="162-168"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="NQO1 genotypes of 390 men did not indicate predisposition to CaP, yet loss of NQO1 in CaP suggested potential progression-opposing tumour suppressor role.">
+		<entity id="s5.e1" charOffset="0-4"
+			type="GENE" text="NQO1" ontology_id="1728"/>
+		<entity id="s5.e2" charOffset="22-25"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s5.e3" charOffset="61-64"
+			type="GENE" text="CaP" ontology_id="23476"/>
+		<entity id="s5.e4" charOffset="131-137"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="TMPRSS2-ERG rearrangement and PTEN loss, events sensitizing to PARPi, occurred frequently along with heterogeneous loss of DNA repair factors 53BP1, JMJD1C and Rev7 (all studied here for the first time in CaP) whose defects may cause resistance to PARPi.">
+		<entity id="s6.e1" charOffset="21-24"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s6.e2" charOffset="30-34"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s6.e3" charOffset="101-114"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s6.e4" charOffset="149-155"
+			type="GENE" text="JMJD1C" ontology_id="221037"/>
+		<entity id="s6.e5" charOffset="160-164"
+			type="GENE" text="Rev7" ontology_id="10459"/>
+		<entity id="s6.e6" charOffset="205-208"
+			type="GENE" text="CaP" ontology_id="23476"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e6" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p4" e1="s6.e3"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p5" e1="s6.e3"
+		    e2="s6.e5" pgr="false"/>
+	</sentence>
+</document>

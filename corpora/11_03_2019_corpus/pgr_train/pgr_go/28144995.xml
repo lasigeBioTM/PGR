@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28144995">
+	<sentence id="s1" text="In this study, we describe the phenotypic spectrum of distal hereditary motor neuropathy caused by mutations in the small heat shock proteins regulation of protein phosphorylation and cellular response to unfolded protein and investigate the functional consequences of newly discovered variants.">
+		<entity id="s1.e1" charOffset="54-60"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s1.e2" charOffset="78-88"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="142-179"
+			type="GO" text="regulation of protein phosphorylation" ontology_id="GO_0001932"/>
+		<entity id="s1.e4" charOffset="184-221"
+			type="GO" text="cellular response to unfolded protein" ontology_id="GO_0034620"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Among 510 unrelated patients with distal motor neuropathy, we identified mutations in regulation of protein phosphorylation (28 index patients/510; 5.5%) and cellular response to unfolded protein (four index patients/510; 0.8%) genes.">
+		<entity id="s2.e1" charOffset="34-40"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s2.e2" charOffset="47-57"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s2.e3" charOffset="86-123"
+			type="GO" text="regulation of protein phosphorylation" ontology_id="GO_0001932"/>
+		<entity id="s2.e4" charOffset="158-195"
+			type="GO" text="cellular response to unfolded protein" ontology_id="GO_0034620"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We demonstrate that regulation of protein phosphorylation and cellular response to unfolded protein mutations are a major cause of inherited motor axonal neuropathy.">
+		<entity id="s3.e1" charOffset="20-57"
+			type="GO" text="regulation of protein phosphorylation" ontology_id="GO_0001932"/>
+		<entity id="s3.e2" charOffset="62-99"
+			type="GO" text="cellular response to unfolded protein" ontology_id="GO_0034620"/>
+		<entity id="s3.e3" charOffset="122-132"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

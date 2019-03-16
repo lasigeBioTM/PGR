@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29321360">
+	<sentence id="s1" text="Ellis-van Creveld syndrome is an autosomal recessive skeletal dysplasia primarily characterized by the features such as disproportionate dwarfism, short ribs, short limbs, dysplastic nails, cardiovascular malformations, post-axial polydactyly (PAP) (bilateral) of hands and feet.">
+		<entity id="s1.e1" charOffset="6-9"
+			type="GENE" text="van" ontology_id="10318"/>
+		<entity id="s1.e2" charOffset="33-52"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="53-71"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e4" charOffset="147-157"
+			type="HP" text="short ribs" ontology_id="HP_0000773"/>
+		<entity id="s1.e5" charOffset="159-170"
+			type="HP" text="short limbs" ontology_id="HP_0009826"/>
+		<entity id="s1.e6" charOffset="172-188"
+			type="HP" text="dysplastic nails" ontology_id="HP_0002164"/>
+		<entity id="s1.e7" charOffset="190-218"
+			type="HP" text="cardiovascular malformations" ontology_id="HP_0030680"/>
+		<entity id="s1.e8" charOffset="225-230"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<entity id="s1.e9" charOffset="231-242"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e10" charOffset="244-247"
+			type="GENE" text="PAP" ontology_id="50807"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e9"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e14"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e18"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e22"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e26"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e30"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This study reports first case of variants in the genes causing EvC syndrome and profound deafness in the same family">
+		<entity id="s2.e1" charOffset="63-66"
+			type="GENE" text="EvC" ontology_id="2121"/>
+		<entity id="s2.e2" charOffset="80-88"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s2.e3" charOffset="89-97"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

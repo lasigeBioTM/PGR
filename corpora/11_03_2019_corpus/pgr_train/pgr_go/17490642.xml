@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17490642">
+	<sentence id="s1" text="Mutations in both proteins cause lens cataract and careful consideration of the detail of these cataract phenotypes alerts us to several interesting features concerning the function of lens fiber cell development (lens fiber cell development) and CP49 (visual perception) in the lens.">
+		<entity id="s1.e1" charOffset="38-46"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e2" charOffset="185-212"
+			type="GO" text="lens fiber cell development" ontology_id="GO_0070307"/>
+		<entity id="s1.e3" charOffset="195-222"
+			type="GO" text="lens fiber cell development" ontology_id="GO_0070307"/>
+		<entity id="s1.e4" charOffset="234-251"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="With the first lens fiber cell development (lens fiber cell development) mutation now having been reported to cause a recessive cataract phenotype, there is the suggestion that the mutation could predispose heterozygote carriers to the early onset of age-related nuclear cataract.">
+		<entity id="s2.e1" charOffset="15-42"
+			type="GO" text="lens fiber cell development" ontology_id="GO_0070307"/>
+		<entity id="s2.e2" charOffset="25-52"
+			type="GO" text="lens fiber cell development" ontology_id="GO_0070307"/>
+		<entity id="s2.e3" charOffset="109-117"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

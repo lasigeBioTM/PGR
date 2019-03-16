@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28510328">
+	<sentence id="s1" text="Here, we investigated associations between genetic variants of Rho GTPases-related genes and cutaneous melanoma-specific survival (CMSS) by re-analyzing a published melanoma genome-wide association study (GWAS) and validating the results in another melanoma GWAS.">
+		<entity id="s1.e1" charOffset="63-66"
+			type="GENE" text="Rho" ontology_id="6010"/>
+		<entity id="s1.e2" charOffset="93-111"
+			type="HP" text="cutaneous melanoma" ontology_id="HP_0012056"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

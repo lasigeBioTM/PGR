@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28973536">
+	<sentence id="s1" text="However, the inherent susceptibility of these tissues to SCO1 mutations and the clinical heterogeneity observed across SCO1 pedigrees remain poorly understood phenomena.">
+		<entity id="s1.e1" charOffset="57-61"
+			type="GENE" text="SCO1" ontology_id="6341"/>
+		<entity id="s1.e2" charOffset="89-102"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Lethality was observed in both models due to a combined COX and copper deficiency that resulted in a dilated cardiomyopathy.">
+		<entity id="s2.e1" charOffset="56-59"
+			type="GENE" text="COX" ontology_id="1351"/>
+		<entity id="s2.e2" charOffset="109-123"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="CTR1 was similarly mislocalized to the cytosol in the heart of knockin mice carrying a homozygous G115S substitution in Sco1, which in humans causes a hypertrophic cardiomyopathy.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="CTR1" ontology_id="1317"/>
+		<entity id="s3.e2" charOffset="71-75"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e3" charOffset="120-124"
+			type="GENE" text="Sco1" ontology_id="6341"/>
+		<entity id="s3.e4" charOffset="164-178"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

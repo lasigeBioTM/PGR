@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28777935">
+	<sentence id="s1" text="We identified a highly significant enrichment of de novo variants in regulation of neuron differentiation, establishing their role in early-onnegative regulation of transcription, DNA-templated epilepsy, and we provide additional support for the prior assignment of L-glutamate transmembrane transport.">
+		<entity id="s1.e1" charOffset="69-105"
+			type="GO" text="regulation of neuron differentiation" ontology_id="GO_0045664"/>
+		<entity id="s1.e2" charOffset="111-162"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e3" charOffset="163-171"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="235-270"
+			type="GO" text="L-glutamate transmembrane transport" ontology_id="GO_0015813"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

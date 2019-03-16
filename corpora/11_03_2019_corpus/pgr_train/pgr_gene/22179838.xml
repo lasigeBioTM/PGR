@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22179838">
+	<sentence id="s1" text="By analyzing public data sets of gene expression in human breast cancers we observed that increased levels of transcripts encoding the planar cell polarity (PCP) proteins SCRIB and VANGL1 correlate with increased risk of patient relapse.">
+		<entity id="s1.e1" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="157-160"
+			type="GENE" text="PCP" ontology_id="54858"/>
+		<entity id="s1.e3" charOffset="171-176"
+			type="GENE" text="SCRIB" ontology_id="23513"/>
+		<entity id="s1.e4" charOffset="181-187"
+			type="GENE" text="VANGL1" ontology_id="81839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Experimentally, we found that reducing expression of SCRIB by short-hairpin RNAs (shRNAs) reduces the growth of human breast cancer cells in xenograft assays.">
+		<entity id="s2.e1" charOffset="53-58"
+			type="GENE" text="SCRIB" ontology_id="23513"/>
+		<entity id="s2.e2" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To investigate SCRIB-associated proteins that might participate in the responses of breast cancer cells to altered levels of SCRIB, we used mass spectrometry and confocal microscopy.">
+		<entity id="s3.e1" charOffset="15-20"
+			type="GENE" text="SCRIB" ontology_id="23513"/>
+		<entity id="s3.e2" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="140-144"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Focusing on NOS1AP, we observed that NOS1AP colocalizes with both SCRIB and VANGL1 along cellular protrusions in metastatic breast cancer cells, but does not colocalize with either SCRIB or VANGL1 at cell junctions in normal breast cells.">
+		<entity id="s4.e1" charOffset="12-18"
+			type="GENE" text="NOS1AP" ontology_id="9722"/>
+		<entity id="s4.e2" charOffset="66-71"
+			type="GENE" text="SCRIB" ontology_id="23513"/>
+		<entity id="s4.e3" charOffset="76-82"
+			type="GENE" text="VANGL1" ontology_id="81839"/>
+		<entity id="s4.e4" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We investigated the effects of shRNA-mediated knockdown of NOS1AP and SCRIB in vitro, and found that reducing NOS1AP and SCRIB slows breast cancer cell migration and prevents the establishment of leading-trailing polarity.">
+		<entity id="s5.e1" charOffset="59-65"
+			type="GENE" text="NOS1AP" ontology_id="9722"/>
+		<entity id="s5.e2" charOffset="70-75"
+			type="GENE" text="SCRIB" ontology_id="23513"/>
+		<entity id="s5.e3" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

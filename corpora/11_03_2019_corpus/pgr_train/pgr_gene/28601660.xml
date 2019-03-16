@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28601660">
+	<sentence id="s1" text="SMARCA4-deficient thoracic sarcoma is a recently proposed new entity of soft tissue sarcomas with an undifferentiated round cell morphology that is diagnostically challenging.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="SMARCA4" ontology_id="6597"/>
+		<entity id="s1.e2" charOffset="27-34"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Further analysis revealed a reduced SMARCA4 expression and a complete loss of SMARCA2 expression in tumor cells.">
+		<entity id="s2.e1" charOffset="36-43"
+			type="GENE" text="SMARCA4" ontology_id="6597"/>
+		<entity id="s2.e2" charOffset="78-85"
+			type="GENE" text="SMARCA2" ontology_id="6595"/>
+		<entity id="s2.e3" charOffset="100-105"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

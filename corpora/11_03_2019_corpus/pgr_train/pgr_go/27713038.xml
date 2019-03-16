@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27713038">
+	<sentence id="s1" text="High-throughput sequencing analysis has accelerated searches for genes associated with risk for colorectal cancer (CRC); germline mutations in base-excision repair, AP site formation, nuclear-transcribed mRNA catabolic process, nonsense-mediated decay, resolution of meiotic recombination intermediates, nucleotide-excision repair, DNA incision, TP53, regulation of sister chromatid cohesion, attachment of spindle microtubules to kinetochore, neural crest formation, and protein dephosphorylation have been recently proposed to increase CRC risk.">
+		<entity id="s1.e1" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="143-182"
+			type="GO" text="base-excision repair, AP site formation" ontology_id="GO_0006285"/>
+		<entity id="s1.e3" charOffset="184-251"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s1.e4" charOffset="253-302"
+			type="GO" text="resolution of meiotic recombination intermediates" ontology_id="GO_0000712"/>
+		<entity id="s1.e5" charOffset="304-344"
+			type="GO" text="nucleotide-excision repair, DNA incision" ontology_id="GO_0033683"/>
+		<entity id="s1.e6" charOffset="352-391"
+			type="GO" text="regulation of sister chromatid cohesion" ontology_id="GO_0007063"/>
+		<entity id="s1.e7" charOffset="393-442"
+			type="GO" text="attachment of spindle microtubules to kinetochore" ontology_id="GO_0008608"/>
+		<entity id="s1.e8" charOffset="444-466"
+			type="GO" text="neural crest formation" ontology_id="GO_0014029"/>
+		<entity id="s1.e9" charOffset="472-497"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found sufficient evidence for base-excision repair, AP site formation to be considered a CRC predisposition gene-members of 3 unrelated Dutch families were homozygous for inactivating p.Gln90Ter mutations; a Canadian woman with polyposis, CRC, and multiple tumors was reported to be heterozygous for the inactivating NTHL1 p.Gln90Ter/c.709+1GAAAAA mutations; and a man with polyposis was reported to carry p.Gln90Ter/p.Gln287Ter; whereas no inactivating homozygous or compound heterozygous mutations were detected in controls.">
+		<entity id="s2.e1" charOffset="33-72"
+			type="GO" text="base-excision repair, AP site formation" ontology_id="GO_0006285"/>
+		<entity id="s2.e2" charOffset="260-266"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

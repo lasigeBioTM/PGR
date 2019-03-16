@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27406698">
+	<sentence id="s1" text="Our exome analysis indicated the proband as a compound heterozygote for two missense variants in the TECPR2 gene according to a recessive mode of inheritance.">
+		<entity id="s1.e1" charOffset="101-107"
+			type="GENE" text="TECPR2" ontology_id="9895"/>
+		<entity id="s1.e2" charOffset="138-157"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The TECPR2 gene has been reported as a positive regulator of autophagy which is an essential mechanism for maintaining neuron homeostasis and survival and plays a key role in major adult and pediatric neurodegenerative diseases.">
+		<entity id="s2.e1" charOffset="4-10"
+			type="GENE" text="TECPR2" ontology_id="9895"/>
+		<entity id="s2.e2" charOffset="201-227"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

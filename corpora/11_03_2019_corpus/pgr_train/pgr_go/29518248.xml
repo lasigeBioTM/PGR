@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29518248">
+	<sentence id="s1" text="Recessively inherited, pathogenic defects in cellular response to oxidative stress have been previously reported to underlie cerebral, ocular, dental, auricular and skeletal anomalies (CODAS) syndrome, a complex multisystemic and developmental disorder.">
+		<entity id="s1.e1" charOffset="45-82"
+			type="GO" text="cellular response to oxidative stress" ontology_id="GO_0034599"/>
+		<entity id="s1.e2" charOffset="165-183"
+			type="HP" text="skeletal anomalies" ontology_id="HP_0000924"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We have applied whole exome sequencing to a patient with congenital lactic acidosis, muscle weakness, profound deficiencies in mitochondrial oxidative phosphorylation associated with loss of mtDNA copy number and MRI abnormalities consistent with Leigh syndrome, identifying biallelic variants in the cellular response to oxidative stress (NM_004793.3) gene; c.1693T AAAA C predicting p.(Tyr565His) and c.2197G AAAA A predicting p.(Glu733Lys); no evidence of the classical skeletal or dental defects observed in CODAS syndrome patients were noted in our patient.">
+		<entity id="s2.e1" charOffset="75-83"
+			type="HP" text="acidosis" ontology_id="HP_0001941"/>
+		<entity id="s2.e2" charOffset="301-338"
+			type="GO" text="cellular response to oxidative stress" ontology_id="GO_0034599"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25264125">
+	<sentence id="s1" text="The genes HLA complex P5 (HCP5), spermatogenesis associated 2 (SPATA2), tumour necrosis factor alpha-induced protein 3 (TNFAIP3), TNFAIP3-interacting protein 1 (TNIP1) and the component of oligomeric Golgi complex 6 (COG6) were reported to be associated with psoriasis in western populations by genome-wide association studies.">
+		<entity id="s1.e1" charOffset="63-69"
+			type="GENE" text="SPATA2" ontology_id="9825"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="120-127"
+			type="GENE" text="TNFAIP3" ontology_id="7128"/>
+		<entity id="s1.e4" charOffset="161-166"
+			type="GENE" text="TNIP1" ontology_id="10318"/>
+		<entity id="s1.e5" charOffset="217-221"
+			type="GENE" text="COG6" ontology_id="57511"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

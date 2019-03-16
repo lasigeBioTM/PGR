@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28505344">
+	<sentence id="s1" text="Recent studies have suggested possible therapeutic targets for some patients with early-onset glaucoma based on the molecular and cellular events caused by osteoblast differentiation, positive regulation of autophagy and protein phosphorylation mutations.">
+		<entity id="s1.e1" charOffset="94-102"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e2" charOffset="156-182"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e3" charOffset="184-216"
+			type="GO" text="positive regulation of autophagy" ontology_id="GO_0010508"/>
+		<entity id="s1.e4" charOffset="221-244"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recent GWAS completed for three types of common adult-onset glaucoma have identified novel loci for POAG (primary-open-angle glaucoma) (lysosome organization, regulation of signal transduction, GDP-mannose metabolic process, mannose metabolic process, epithelial to mesenchymal transition, biological_process, G protein-coupled receptor signaling pathway, actin filament polymerization, eye development, negative regulation of receptor internalization, cell redox homeostasis); PACG (primary angle-closure glaucoma (cell-matrix adhesion, neuromuscular synaptic transmission, negative regulation of transcription by RNA polymerase II, cell-matrix adhesion, GPI anchor biosynthetic process-FAM102); and exfoliation syndrome (XFS) glaucoma (positive regulation of cytosolic calcium ion concentration).">
+		<entity id="s2.e1" charOffset="60-68"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s2.e2" charOffset="136-157"
+			type="GO" text="lysosome organization" ontology_id="GO_0007040"/>
+		<entity id="s2.e3" charOffset="159-192"
+			type="GO" text="regulation of signal transduction" ontology_id="GO_0009966"/>
+		<entity id="s2.e4" charOffset="194-223"
+			type="GO" text="GDP-mannose metabolic process" ontology_id="GO_0019673"/>
+		<entity id="s2.e5" charOffset="225-250"
+			type="GO" text="mannose metabolic process" ontology_id="GO_0006013"/>
+		<entity id="s2.e6" charOffset="252-288"
+			type="GO" text="epithelial to mesenchymal transition" ontology_id="GO_0001837"/>
+		<entity id="s2.e7" charOffset="290-308"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e8" charOffset="310-354"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s2.e9" charOffset="356-385"
+			type="GO" text="actin filament polymerization" ontology_id="GO_0030041"/>
+		<entity id="s2.e10" charOffset="387-402"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s2.e11" charOffset="404-451"
+			type="GO" text="negative regulation of receptor internalization" ontology_id="GO_0002091"/>
+		<entity id="s2.e12" charOffset="453-475"
+			type="GO" text="cell redox homeostasis" ontology_id="GO_0045454"/>
+		<entity id="s2.e13" charOffset="516-536"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s2.e14" charOffset="538-573"
+			type="GO" text="neuromuscular synaptic transmission" ontology_id="GO_0007274"/>
+		<entity id="s2.e15" charOffset="575-632"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e16" charOffset="634-654"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s2.e17" charOffset="656-687"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s2.e18" charOffset="738-796"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e11" pgr="false"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e12" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p13" e1="s2.e1"
+		    e2="s2.e14" pgr="false"/>
+		<pair id="s2.p14" e1="s2.e1"
+		    e2="s2.e15" pgr="true"/>
+		<pair id="s2.p15" e1="s2.e1"
+		    e2="s2.e16" pgr="false"/>
+		<pair id="s2.p16" e1="s2.e1"
+		    e2="s2.e17" pgr="false"/>
+		<pair id="s2.p17" e1="s2.e1"
+		    e2="s2.e18" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In total sixteen genomic regions have been associated with POAG (including the normal tension glaucoma (transcription initiation from RNA polymerase II promoter) subgroup), 8 with PACG and 2 with XFS.">
+		<entity id="s3.e1" charOffset="94-102"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s3.e2" charOffset="104-160"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

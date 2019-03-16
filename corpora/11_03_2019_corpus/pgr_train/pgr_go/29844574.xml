@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29844574">
+	<sentence id="s1" text="We noted that Sirtuin 1 (negative regulation of transcription by RNA polymerase II) is overexpressed in HPV-infected cervical cancer cells and hypothesized that SIRT1 counteracts antiviral immunity.">
+		<entity id="s1.e1" charOffset="25-82"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we found that cervical cancer cells undergo massive death by negative regulation of transcription by RNA polymerase II knockdown, but this effect is reversed by SIRT1 restoration.">
+		<entity id="s2.e1" charOffset="29-35"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="67-124"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Interestingly, pyroptotic death signaling in negative regulation of transcription by RNA polymerase II-knocked-down cells was transmitted to naïve cervical cancer cells, which was mediated by extracellular vesicles carrying activation of innate immune response inflammasome proteins.">
+		<entity id="s3.e1" charOffset="45-102"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="156-162"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="224-260"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, the growth of cervical cancer xenografts was significantly inhibited by either negative regulation of transcription by RNA polymerase II-targeting siRNAs or SIRT1-knockdown-derived extracellular vesicles.">
+		<entity id="s4.e1" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="92-149"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Immunohistochemical analyses showed that negative regulation of transcription by RNA polymerase II expression correlated with poor clinical outcomes in cervical cancer.">
+		<entity id="s5.e1" charOffset="41-98"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s5.e2" charOffset="161-167"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In conclusion, negative regulation of transcription by RNA polymerase II enabled HPV-infected cervical cancer cells to continue growing by nullifying activation of innate immune response inflammasome-mediated immunity.">
+		<entity id="s6.e1" charOffset="15-72"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s6.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="150-186"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Without negative regulation of transcription by RNA polymerase II, cervical cancer cells could no longer survive because of the derepression of the activation of innate immune response inflammasome.">
+		<entity id="s7.e1" charOffset="8-65"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s7.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="148-184"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e2"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+</document>

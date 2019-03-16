@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29196101">
+	<sentence id="s1" text="This study aimed to elucidate the potential functional mechanism of miR-135b-5p in migration, invasion and epithelial-to-mesenchymal transition (EMT) of pancreatic cancer cells.">
+		<entity id="s1.e1" charOffset="68-71"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="145-148"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s1.e3" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="By real-time PCR and analysis of GEO database, we determined the up-regulated expression of miR-135b-5p in pancreatic cancer tissues and cell lines.">
+		<entity id="s2.e1" charOffset="92-95"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="118-124"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Functionally, Transwell assays indicated that miR-135b-5p was a promoter for migration and invasion of pancreatic cancer cells.">
+		<entity id="s3.e1" charOffset="46-49"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Additionally, immunohistochemistry staining and Western blot showed that highly expressed miR-135b-5p accelerated EMT process of pancreatic cancer cells.">
+		<entity id="s4.e1" charOffset="90-93"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s4.e2" charOffset="114-117"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s4.e3" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Furthermore, a series of experiments and rescue experiments revealed that Nuclear Receptor Subfamily 3 Group C Member 2 (NR3C2) was the target of miR-135b-5p in pancreatic cancer cells, mediating the promotion effects of miR-135b-5p on the tumor cells migration, invasion and EMT.">
+		<entity id="s5.e1" charOffset="146-149"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s5.e2" charOffset="172-178"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="240-245"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e4" charOffset="276-279"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e6"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="In conclusion, miR-135b-5p, maybe a novel therapeutic target for pancreatic cancer, promoted migration, invasion and EMT of pancreatic cancer cells by targeting NR3C2">
+		<entity id="s6.e1" charOffset="15-18"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s6.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="117-120"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="true"/>
+	</sentence>
+</document>

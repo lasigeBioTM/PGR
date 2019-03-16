@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30465166">
+	<sentence id="s1" text="CYP21A2 defects result in congenital adrenal hyperplasia (CAH), an autosomal recessive disorder characterized by impaired adrenal steroidogenesis.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="CYP21A2" ontology_id="1589"/>
+		<entity id="s1.e2" charOffset="37-56"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27807832">
+	<sentence id="s1" text="TNFAIP8 mRNA is induced by NF-kB, and overexpression of TNFAIP8 has been correlated with poor prognosis in many cancers.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="TNFAIP8" ontology_id="25816"/>
+		<entity id="s1.e2" charOffset="27-29"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s1.e3" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Downregulation of TNFAIP8 expression has been associated with decreased pulmonary colonization of human tumor cells, and enhanced sensitivities of tumor xenografts to radiation and docetaxel.">
+		<entity id="s2.e1" charOffset="18-25"
+			type="GENE" text="TNFAIP8" ontology_id="25816"/>
+		<entity id="s2.e2" charOffset="104-109"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here we have investigated the effects of depletion of TNFAIP8 on the mRNA, microRNA and protein expression profiles in prostate and breast cancers and melanoma.">
+		<entity id="s3.e1" charOffset="54-61"
+			type="GENE" text="TNFAIP8" ontology_id="25816"/>
+		<entity id="s3.e2" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="151-159"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Depending on the tumor cell type, knockdown of TNFAIP8 was found to be associated with increased mRNA expression of several antiproliferative and apoptotic genes (e.g., IL-24, FAT3, LPHN2, EPHA3) and fatty acid oxidation gene ACADL, and decreased mRNA levels of oncogenes (e.g., NFAT5, MALAT1, MET, FOXA1, KRAS, S100P, OSTF1) and glutamate transporter gene SLC1A1.">
+		<entity id="s4.e1" charOffset="17-22"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="28-32"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s4.e3" charOffset="47-54"
+			type="GENE" text="TNFAIP8" ontology_id="25816"/>
+		<entity id="s4.e4" charOffset="176-180"
+			type="GENE" text="FAT3" ontology_id="120114"/>
+		<entity id="s4.e5" charOffset="189-194"
+			type="GENE" text="EPHA3" ontology_id="2042"/>
+		<entity id="s4.e6" charOffset="226-231"
+			type="GENE" text="ACADL" ontology_id="33"/>
+		<entity id="s4.e7" charOffset="279-281"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s4.e8" charOffset="294-297"
+			type="GENE" text="MET" ontology_id="4233"/>
+		<entity id="s4.e9" charOffset="299-304"
+			type="GENE" text="FOXA1" ontology_id="3169"/>
+		<entity id="s4.e10" charOffset="306-310"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s4.e11" charOffset="319-324"
+			type="GENE" text="OSTF1" ontology_id="26578"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e7" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p5" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p6" e1="s4.e1"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p7" e1="s4.e1"
+		    e2="s4.e8" pgr="true"/>
+		<pair id="s4.p8" e1="s4.e1"
+		    e2="s4.e9" pgr="false"/>
+		<pair id="s4.p9" e1="s4.e1"
+		    e2="s4.e10" pgr="true"/>
+		<pair id="s4.p10" e1="s4.e1"
+		    e2="s4.e11" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="TNFAIP8-centric molecules were found to be predominately implicated in the hypoxia-inducible factor-1α (HIF-1α) signaling pathway, and cancer and development signaling networks.">
+		<entity id="s5.e1" charOffset="0-7"
+			type="GENE" text="TNFAIP8" ontology_id="25816"/>
+		<entity id="s5.e2" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Thus TNFAIP8 seems to regulate the cell survival and cancer progression processes in a multifaceted manner.">
+		<entity id="s6.e1" charOffset="5-12"
+			type="GENE" text="TNFAIP8" ontology_id="25816"/>
+		<entity id="s6.e2" charOffset="53-59"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26149656">
+	<sentence id="s1" text="Friedreich's ataxia (regulation of ferrochelatase activity), the autosomal neurodegenerative disorder is the only human disease known so far, where a large purine (glycogen catabolic process) repeat in the regulation of ferrochelatase activity gene is known to inhibit the expression of frataxin protein.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="21-58"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<entity id="s1.e3" charOffset="164-190"
+			type="GO" text="glycogen catabolic process" ontology_id="GO_0005980"/>
+		<entity id="s1.e4" charOffset="206-243"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

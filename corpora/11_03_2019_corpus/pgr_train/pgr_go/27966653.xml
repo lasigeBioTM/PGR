@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27966653">
+	<sentence id="s1" text="In A549 lung cancer cells, which endogenously express cell surface receptor signaling pathway, the depletion of biological_process and detection of light stimulus involved in visual perception significantly reduced growth and invasion by downregulating response to molecule of bacterial origin-stimulated angiogenesis phosphorylation, actin polymerization and the expression of genes related to metastasis.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="54-93"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s1.e3" charOffset="112-130"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e4" charOffset="135-192"
+			type="GO" text="detection of light stimulus involved in visual perception" ontology_id="GO_0050908"/>
+		<entity id="s1.e5" charOffset="253-293"
+			type="GO" text="response to molecule of bacterial origin" ontology_id="GO_0002237"/>
+		<entity id="s1.e6" charOffset="305-317"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23544012">
+	<sentence id="s1" text="Common genetic variants contribute to the observed variation in breast cancer risk for mitotic cytokinesis mutation carriers; those known to date have all been found through population-based genome-wide association studies (GWAS).">
+		<entity id="s1.e1" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="87-106"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To comprehensively identify breast cancer risk modifying loci for mitotic cytokinesis mutation carriers, we conducted a deep replication of an ongoing GWAS discovery study.">
+		<entity id="s2.e1" charOffset="35-41"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="66-85"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="DNA samples from 3,881 breast cancer affected and 4,330 unaffected mitotic cytokinesis mutation carriers from 47 studies belonging to the Consortium of Investigators of Modifiers of double-strand break repair via homologous recombination/2 were genotyped and available for analysis.">
+		<entity id="s3.e1" charOffset="30-36"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="67-86"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s3.e3" charOffset="182-237"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We replicated previously reported breast cancer susceptibility alleles in these mitotic cytokinesis mutation carriers and for several regions (including positive regulation of cell proliferation, cellular response to mechanical stimulus, CDKN2A/B, and skeletal system development) identified SNPs that have stronger evidence of association than those previously published.">
+		<entity id="s4.e1" charOffset="41-47"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="80-99"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s4.e3" charOffset="153-194"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s4.e4" charOffset="196-236"
+			type="GO" text="cellular response to mechanical stimulus" ontology_id="GO_0071260"/>
+		<entity id="s4.e5" charOffset="252-279"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="This SNP was not associated with breast cancer risk either in the general population or in double-strand break repair via homologous recombination mutation carriers.">
+		<entity id="s5.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="91-146"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="The locus lies within a region containing negative regulation of transcription by RNA polymerase II, which encodes a transcriptional activation protein that interacts with several tumor suppressor genes.">
+		<entity id="s6.e1" charOffset="42-99"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s6.e2" charOffset="180-185"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s7" text="This report identifies the first breast cancer risk locus specific to a mitotic cytokinesis mutation background.">
+		<entity id="s7.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e2" charOffset="72-91"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s8" text="This comprehensive update of novel and previously reported breast cancer susceptibility loci contributes to the establishment of a panel of SNPs that modify breast cancer risk in mitotic cytokinesis mutation carriers.">
+		<entity id="s8.e1" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s8.e2" charOffset="179-198"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="true"/>
+	</sentence>
+</document>

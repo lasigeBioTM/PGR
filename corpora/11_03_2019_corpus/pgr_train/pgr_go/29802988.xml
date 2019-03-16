@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29802988">
+	<sentence id="s1" text="Recent studies in RAS wild-type (WT) metastatic colorectal cancer (mCRC) suggest that the survival benefits of therapy using anti-epidermal growth factor receptor (anti-positive regulation of protein phosphorylation) and anti-vascular endothelial growth factor (anti-negative regulation of transcription by RNA polymerase II) antibodies combined with chemotherapy are maximized when the anti-EGFR antibody is given as first-line, followed by subsequent anti-VEGF antibody therapy.">
+		<entity id="s1.e1" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="169-215"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="267-324"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

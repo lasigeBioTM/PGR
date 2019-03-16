@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28328130">
+	<sentence id="s1" text="Auriculocondylar syndrome, mainly characterized by micrognathia, small mandibular condyle, and question protein phosphorylation prolyl-tRNA aminoacylation, is a rare disease segregating in an autosomal dominant pattern in the majority of the families reported in the literature.">
+		<entity id="s1.e1" charOffset="51-63"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<entity id="s1.e2" charOffset="65-89"
+			type="HP" text="small mandibular condyle" ontology_id="HP_0007628"/>
+		<entity id="s1.e3" charOffset="104-127"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="128-154"
+			type="GO" text="prolyl-tRNA aminoacylation" ontology_id="GO_0006433"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In order to address these questions, we searched for alterations in inositol trisphosphate biosynthetic process, adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway, and negative regulation of transcription by RNA polymerase II in patients with typical Auriculocondylar syndrome (n = 3), Pierre Robin sequence-plus (n = 3), micrognathia with additional craniofacial malformations (n = 4), or non-specific auricular dysplasia (n = 1), which could represent subtypes of Auriculocondylar syndrome.">
+		<entity id="s2.e1" charOffset="68-111"
+			type="GO" text="inositol trisphosphate biosynthetic process" ontology_id="GO_0032959"/>
+		<entity id="s2.e2" charOffset="113-186"
+			type="GO" text="adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway" ontology_id="GO_0007193"/>
+		<entity id="s2.e3" charOffset="192-249"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e4" charOffset="225-237"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

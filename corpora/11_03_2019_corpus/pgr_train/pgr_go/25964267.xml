@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25964267">
+	<sentence id="s1" text="Erythrokeratodermia variabilis et progressiva (EKVP) is a genodermatosis with clinical and genetic heterogeneity, most often transmitted in an autosomal dominant manner, caused by mutations in in utero embryonic development and cell communication genes encoding connexins (Cx)31 and 30.3, respectively.">
+		<entity id="s1.e1" charOffset="99-112"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="193-223"
+			type="GO" text="in utero embryonic development" ontology_id="GO_0001701"/>
+		<entity id="s1.e3" charOffset="228-246"
+			type="GO" text="cell communication" ontology_id="GO_0007154"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results expand the genetic heterogeneity of EKVP and the human disease phenotypes associated with signal transduction mutations.">
+		<entity id="s2.e1" charOffset="33-46"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="104-123"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

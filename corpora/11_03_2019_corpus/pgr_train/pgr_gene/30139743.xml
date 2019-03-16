@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30139743">
+	<sentence id="s1" text="Up to 15% of the population have mild to moderate chronic hypomagnesemia, which is associated with type 2 diabetes mellitus, hypertension, metabolic syndrome, and chronic kidney disease.">
+		<entity id="s1.e1" charOffset="58-72"
+			type="HP" text="hypomagnesemia" ontology_id="HP_0002917"/>
+		<entity id="s1.e2" charOffset="99-103"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="125-137"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

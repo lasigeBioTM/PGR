@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30463805">
+	<sentence id="s1" text="Several publications had illustrated the relationship of between CAV1 polymorphism and urinary cancer, but the results were not consistent.">
+		<entity id="s1.e1" charOffset="65-69"
+			type="GENE" text="CAV1" ontology_id="857"/>
+		<entity id="s1.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Odds ratios (ORs) and 95% confidence intervals (CIs) were conducted to evaluate the overall strength of the associations in five genetic models, as well as in subgroup analyses, stratified by ethnicity, cancer type or source of control.">
+		<entity id="s2.e1" charOffset="48-51"
+			type="GENE" text="CIs" ontology_id="1154"/>
+		<entity id="s2.e2" charOffset="203-209"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="210-214"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the stratified analyses by cancer types, the risk of PCa is downgrade by rs7804372 in all five genetic models.">
+		<entity id="s3.e1" charOffset="30-36"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="37-41"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e3" charOffset="56-59"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Conclusion rs1049334 polymorphismof CAV1 upgrade the risk of urinary cancer, while rs1049337 and rs7804372 polymorphisms may act as a protector of urinary cancer.">
+		<entity id="s4.e1" charOffset="36-40"
+			type="GENE" text="CAV1" ontology_id="857"/>
+		<entity id="s4.e2" charOffset="69-75"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="125-128"
+			type="GENE" text="act" ontology_id="11332"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

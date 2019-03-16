@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20409997">
+	<sentence id="s1" text="Hair-nail ectodermal dysplasia (HNED; OMIM 602032) constitutes a rare subgroup of ectodermal dysplasias characterised by onychodystrophy, hypotrichosis and brittle hair.">
+		<entity id="s1.e1" charOffset="5-9"
+			type="GENE" text="nail" ontology_id="51744"/>
+		<entity id="s1.e2" charOffset="10-30"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e3" charOffset="138-151"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our study confirms linkage of a variant clinical form of hair-nail ectodermal dysplasia to chromosome 12 without any mutation in the coding sequences of the KRTHB5 gene.">
+		<entity id="s2.e1" charOffset="62-66"
+			type="GENE" text="nail" ontology_id="51744"/>
+		<entity id="s2.e2" charOffset="67-87"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s2.e3" charOffset="157-163"
+			type="GENE" text="KRTHB5" ontology_id="3891"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

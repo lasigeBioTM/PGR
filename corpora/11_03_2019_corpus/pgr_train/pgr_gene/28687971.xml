@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28687971">
+	<sentence id="s1" text="We identified 16 of 53 participants (30%) with a pathogenic (P) or likely pathogenic (LP) variant that may be related to their hereditary pancreatic cancer predisposition; seven had mutations in genes associated with well-known cancer syndromes (13%) [ATM (2), BRCA2 (3), MSH2 (1), MSH6 (1)].">
+		<entity id="s1.e1" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="261-266"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s1.e3" charOffset="272-276"
+			type="GENE" text="MSH2" ontology_id="4436"/>
+		<entity id="s1.e4" charOffset="282-286"
+			type="GENE" text="MSH6" ontology_id="2956"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

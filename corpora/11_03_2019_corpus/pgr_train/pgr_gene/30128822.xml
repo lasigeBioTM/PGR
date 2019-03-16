@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30128822">
+	<sentence id="s1" text="Nuclear respiratory factor 1 (NRF1) transcription factor has recently been shown to control breast cancer progression.">
+		<entity id="s1.e1" charOffset="30-34"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s1.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, mechanistic aspects by which NRF1 may contribute to susceptibility to different breast tumor subtypes are still not fully understood.">
+		<entity id="s2.e1" charOffset="38-42"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s2.e2" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Since transcriptional control of NRF1 seems to be dependent on epidermal growth factor receptor signaling, herein, we investigated the role of NRF1 in estrogen receptor/progesterone receptor negative, but human epidermal growth factor receptor 2-positive (ER/PR -ve HER2 +ve) breast cancer.">
+		<entity id="s3.e1" charOffset="33-37"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s3.e2" charOffset="266-270"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s3.e3" charOffset="283-289"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We found that both mRNA and protein levels of NRF1 and its transcriptional activity were significantly higher in ER/PR -ve HER2 +ve breast cancer samples compared to normal breast tissues.">
+		<entity id="s4.e1" charOffset="46-50"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s4.e2" charOffset="123-127"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s4.e3" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="This was consistent with our observation of higher NRF1 protein expression in the experimental model of HER2+ breast cancer brain metastasis.">
+		<entity id="s5.e1" charOffset="51-55"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s5.e2" charOffset="104-108"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s5.e3" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="To identify network-based pathways involved in the susceptibility to the ER/PR -ve HER2 +ve breast cancer subtype, the NRF1 transcriptional regulatory genome-wide landscape was analyzed using the approach consisting of a systematic integration of ChIP DNA-seq, RNA-Microarray, NRF1 protein-DNA motif binding, signal pathway analysis, and Bayesian machine learning.">
+		<entity id="s6.e1" charOffset="83-87"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s6.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="119-123"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s6.e4" charOffset="247-251"
+			type="GENE" text="ChIP" ontology_id="10273"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Our findings show that a high percentage of known HER2+ breast cancer susceptibility genes, including EGFR, IGFR, and E2F1, are under transcriptional control of NRF1.">
+		<entity id="s7.e1" charOffset="50-54"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s7.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="102-106"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s7.e4" charOffset="108-112"
+			type="GENE" text="IGFR" ontology_id="3480"/>
+		<entity id="s7.e5" charOffset="118-122"
+			type="GENE" text="E2F1" ontology_id="1869"/>
+		<entity id="s7.e6" charOffset="161-165"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<pair id="s7.p1" e1="s7.e6"
+		    e2="s7.e6" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e2" pgr="true"/>
+		<pair id="s7.p3" e1="s7.e2"
+		    e2="s7.e3" pgr="true"/>
+		<pair id="s7.p4" e1="s7.e2"
+		    e2="s7.e4" pgr="false"/>
+		<pair id="s7.p5" e1="s7.e2"
+		    e2="s7.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Promoters of several genes from the KEGG HER2+ breast cancer pathway and 11 signaling pathways linked to 6 hallmarks of cancer contain the NRF1 motif.">
+		<entity id="s8.e1" charOffset="41-45"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s8.e2" charOffset="54-60"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s8.e3" charOffset="139-143"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<pair id="s8.p1" e1="s8.e3"
+		    e2="s8.e3" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e1"
+		    e2="s8.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s9" text="By pathway analysis, key breast cancer hallmark genes of epithelial-mesenchymal transition, stemness, cell apoptosis, cell cycle regulation, chromosomal integrity, and DNA damage/repair were highly enriched with NRF1 motifs.">
+		<entity id="s9.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s9.e2" charOffset="212-216"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s10" text="In addition, we found using Bayesian network-based machine learning that 30 NRF1 motif-enriched genes including growth factor receptors-FGFR1, IGF1R; E2Fs transcription factor family-E2F1, E2F3; MAPK pathway-SHC2, GRB2, MAPK1; PI3K-AKT-mTOR signaling pathway-PIK3CD, PIK3R1, PIK3R3, RPS6KB2; WNT signaling pathway-WNT7B, DLV1, DLV2, GSK3B, NRF1, and DDB2, known for its role in DNA repair and involvement in early events associated with metastatic progression of breast cancer cells, were associated with HER2-amplified breast cancer.">
+		<entity id="s10.e1" charOffset="76-80"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s10.e2" charOffset="136-141"
+			type="GENE" text="FGFR1" ontology_id="2260"/>
+		<entity id="s10.e3" charOffset="143-148"
+			type="GENE" text="IGF1R" ontology_id="3480"/>
+		<entity id="s10.e4" charOffset="183-187"
+			type="GENE" text="E2F1" ontology_id="1869"/>
+		<entity id="s10.e5" charOffset="208-212"
+			type="GENE" text="SHC2" ontology_id="25759"/>
+		<entity id="s10.e6" charOffset="214-218"
+			type="GENE" text="GRB2" ontology_id="2885"/>
+		<entity id="s10.e7" charOffset="220-225"
+			type="GENE" text="MAPK1" ontology_id="5594"/>
+		<entity id="s10.e8" charOffset="227-231"
+			type="GENE" text="PI3K" ontology_id="5290"/>
+		<entity id="s10.e9" charOffset="236-240"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s10.e10" charOffset="259-265"
+			type="GENE" text="PIK3CD" ontology_id="5293"/>
+		<entity id="s10.e11" charOffset="267-273"
+			type="GENE" text="PIK3R1" ontology_id="5295"/>
+		<entity id="s10.e12" charOffset="275-281"
+			type="GENE" text="PIK3R3" ontology_id="8503"/>
+		<entity id="s10.e13" charOffset="283-290"
+			type="GENE" text="RPS6KB2" ontology_id="6199"/>
+		<entity id="s10.e14" charOffset="314-319"
+			type="GENE" text="WNT7B" ontology_id="7477"/>
+		<entity id="s10.e15" charOffset="333-338"
+			type="GENE" text="GSK3B" ontology_id="2932"/>
+		<entity id="s10.e16" charOffset="350-354"
+			type="GENE" text="DDB2" ontology_id="1643"/>
+		<entity id="s10.e17" charOffset="470-476"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s10.e18" charOffset="505-509"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<pair id="s10.p1" e1="s10.e1"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p2" e1="s10.e17"
+		    e2="s10.e18" pgr="true"/>
+		<pair id="s10.p3" e1="s10.e2"
+		    e2="s10.e17" pgr="true"/>
+		<pair id="s10.p4" e1="s10.e4"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p5" e1="s10.e3"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p6" e1="s10.e5"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p7" e1="s10.e8"
+		    e2="s10.e17" pgr="true"/>
+		<pair id="s10.p8" e1="s10.e9"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p9" e1="s10.e10"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p10" e1="s10.e6"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p11" e1="s10.e7"
+		    e2="s10.e17" pgr="true"/>
+		<pair id="s10.p12" e1="s10.e14"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p13" e1="s10.e11"
+		    e2="s10.e17" pgr="true"/>
+		<pair id="s10.p14" e1="s10.e12"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p15" e1="s10.e13"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p16" e1="s10.e15"
+		    e2="s10.e17" pgr="false"/>
+		<pair id="s10.p17" e1="s10.e16"
+		    e2="s10.e17" pgr="true"/>
+	</sentence>
+	<sentence id="s11" text="Machine learning search further revealed that the likelihood of HER2-positive breast cancer is almost 100% in a patient with the high NRF1 expression combined with expression patterns of high E2F3, GSK3B, and MAPK1, low or no change in E2F1 and FGFR1, and high or no change in PIK3R3.">
+		<entity id="s11.e1" charOffset="64-68"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s11.e2" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s11.e3" charOffset="134-138"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s11.e4" charOffset="198-203"
+			type="GENE" text="GSK3B" ontology_id="2932"/>
+		<entity id="s11.e5" charOffset="209-214"
+			type="GENE" text="MAPK1" ontology_id="5594"/>
+		<entity id="s11.e6" charOffset="236-240"
+			type="GENE" text="E2F1" ontology_id="1869"/>
+		<entity id="s11.e7" charOffset="245-250"
+			type="GENE" text="FGFR1" ontology_id="2260"/>
+		<entity id="s11.e8" charOffset="277-283"
+			type="GENE" text="PIK3R3" ontology_id="8503"/>
+		<pair id="s11.p1" e1="s11.e3"
+		    e2="s11.e3" pgr="false"/>
+		<pair id="s11.p2" e1="s11.e1"
+		    e2="s11.e2" pgr="true"/>
+		<pair id="s11.p3" e1="s11.e2"
+		    e2="s11.e7" pgr="true"/>
+		<pair id="s11.p4" e1="s11.e2"
+		    e2="s11.e6" pgr="false"/>
+		<pair id="s11.p5" e1="s11.e2"
+		    e2="s11.e5" pgr="true"/>
+		<pair id="s11.p6" e1="s11.e2"
+		    e2="s11.e8" pgr="false"/>
+		<pair id="s11.p7" e1="s11.e2"
+		    e2="s11.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s12" text="In summary, our findings suggest novel roles of NRF1 and its regulatory networks in susceptibility to the ER/PR -ve HER2 +ve aggressive breast cancer subtype.">
+		<entity id="s12.e1" charOffset="48-52"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s12.e2" charOffset="116-120"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s12.e3" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s12.p1" e1="s12.e1"
+		    e2="s12.e3" pgr="false"/>
+		<pair id="s12.p2" e1="s12.e2"
+		    e2="s12.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s13" text="Clinical confirmation of our machine learned Bayesian networks will have significant impact on our understanding of the role of NRF1 as a valuable biomarker for breast cancer diagnosis and prognosis as well as provide strong rationale for future studies to develop NRF1 signaling-based therapeutics to target HER2+ breast cancer">
+		<entity id="s13.e1" charOffset="128-132"
+			type="GENE" text="NRF1" ontology_id="4779"/>
+		<entity id="s13.e2" charOffset="168-174"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s13.e3" charOffset="309-313"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<pair id="s13.p1" e1="s13.e1"
+		    e2="s13.e2" pgr="false"/>
+		<pair id="s13.p2" e1="s13.e2"
+		    e2="s13.e3" pgr="true"/>
+	</sentence>
+</document>

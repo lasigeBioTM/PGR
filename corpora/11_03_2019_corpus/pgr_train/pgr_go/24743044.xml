@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24743044">
+	<sentence id="s1" text="We recently demonstrated that negative regulation of transcription by RNA polymerase II is upregulated in melanoma and its inhibition by a small-molecule, tenovin-1, inhibits cell proliferation and clonogenic survival of melanoma cells, possibly via activating p53.">
+		<entity id="s1.e1" charOffset="30-87"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="106-114"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we employed a gel free quantitative proteomics approach to identify the downstream effectors and targets of negative regulation of transcription by RNA polymerase II in melanoma.">
+		<entity id="s2.e1" charOffset="114-171"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="175-183"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The qRT-PCR and immunoblot analyses showed that tenovin-1 inhibition of negative regulation of transcription by RNA polymerase II resulted in a downregulation of attachment of spindle microtubules to kinetochore, regulation of sister chromatid cohesion and mitotic spindle assembly checkpoint in multiple melanoma cell lines.">
+		<entity id="s3.e1" charOffset="72-129"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="162-211"
+			type="GO" text="attachment of spindle microtubules to kinetochore" ontology_id="GO_0008608"/>
+		<entity id="s3.e3" charOffset="195-203"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s3.e4" charOffset="213-252"
+			type="GO" text="regulation of sister chromatid cohesion" ontology_id="GO_0007063"/>
+		<entity id="s3.e5" charOffset="257-292"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e4"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30155490">
+	<sentence id="s1" text="protein polyubiquitination-122, the expression of which is regulated by several transcription factors, such as natural killer cell differentiation, was recently reported to be associated with cardiac muscle tissue development 2 diabetes (T2protein phosphorylation) and hepatocellular carcinoma.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="88-123"
+			type="GO" text="natural killer cell differentiation" ontology_id="GO_0001779"/>
+		<entity id="s1.e3" charOffset="169-202"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e4" charOffset="196-220"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e5" charOffset="240-263"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="natural killer cell differentiation variants can cause diabetes and might be involved in the development of primary liver neoplasm.">
+		<entity id="s2.e1" charOffset="0-35"
+			type="GO" text="natural killer cell differentiation" ontology_id="GO_0001779"/>
+		<entity id="s2.e2" charOffset="122-130"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Lower serum protein polyubiquitination-122 is a unique feature of natural killer cell differentiation-protein phosphorylation patients and might partially explain the increased risk for liver neoplasm and abnormal lipid metabolism in HNF1A-DM patients">
+		<entity id="s3.e1" charOffset="12-38"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="43-78"
+			type="GO" text="natural killer cell differentiation" ontology_id="GO_0001779"/>
+		<entity id="s3.e3" charOffset="102-125"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e4" charOffset="148-156"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

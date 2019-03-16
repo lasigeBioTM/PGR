@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27529670">
+	<sentence id="s1" text="The extracellular matrix (positive regulation of cell-substrate adhesion) is a known factor in tumor invasion, and differences in the positive regulation of cell-substrate adhesion of nontumor brain and glioblastoma has been proven.">
+		<entity id="s1.e1" charOffset="26-72"
+			type="GO" text="positive regulation of cell-substrate adhesion" ontology_id="GO_0010811"/>
+		<entity id="s1.e2" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="160-172"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

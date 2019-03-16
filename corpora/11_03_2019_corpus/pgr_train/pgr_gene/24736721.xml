@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24736721">
+	<sentence id="s1" text="Schizophrenia (SZ) and autism spectrum disorders (ASD) are highly heritable neuropsychiatric disorders, although environmental factors, such as maternal immune activation (MIA), play a role as well.">
+		<entity id="s1.e1" charOffset="23-29"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="127-131"
+			type="GENE" text="fact" ontology_id="11198"/>
+		<entity id="s1.e3" charOffset="172-175"
+			type="GENE" text="MIA" ontology_id="8190"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

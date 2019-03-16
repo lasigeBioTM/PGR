@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29844572">
+	<sentence id="s1" text="The positive regulation of DNA-binding transcription factor activity/RANKL axis emerges as a key regulator of breast cancer initiation, progression, and metastasis.">
+		<entity id="s1.e1" charOffset="4-68"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s1.e2" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we report that positive regulation of DNA-binding transcription factor activity-c transcript is expressed in 3.2% of cases in The Cancer Genome Atlas breast cancer cohort evenly between ER-positive and ER-negative cases.">
+		<entity id="s2.e1" charOffset="20-84"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s2.e2" charOffset="162-168"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Nevertheless, the ratio of positive regulation of DNA-binding transcription factor activity to RANK-c (RANK/RANK-c) is increased in ER-negative breast cancer cell lines compared to ER-positive breast cancer cell lines.">
+		<entity id="s3.e1" charOffset="27-91"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s3.e2" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In addition, forced expression of positive regulation of DNA-binding transcription factor activity-c in ER-negative breast cancer cell lines inhibited stimuli-induced peripheral nervous system development-κB activation and attenuated migration, invasion, colony formation, and adhesion of cancer cells.">
+		<entity id="s4.e1" charOffset="34-98"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s4.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="167-204"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The positive regulation of DNA-binding transcription factor activity-c-mediated inhibition of cancer cell aggressiveness and nuclear factor-κB (peripheral nervous system development-κB) activation in breast cancer cells seems to rely on a positive regulation of DNA-binding transcription factor activity-c/Tperipheral nervous system development receptor-associated factor-2 (cellular response to DNA damage stimulus) protein interaction.">
+		<entity id="s5.e1" charOffset="4-68"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s5.e2" charOffset="94-100"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="106-120"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<entity id="s5.e4" charOffset="144-181"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<entity id="s5.e5" charOffset="280-320"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e5" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p5" e1="s5.e8"
+		    e2="s5.e5" pgr="false"/>
+		<pair id="s5.p6" e1="s5.e8"
+		    e2="s5.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Additional protein interaction characterization revealed epidermal growth factor receptor (positive regulation of protein phosphorylation) as a novel interacting partner for positive regulation of DNA-binding transcription factor activity-c in breast cancer cells with a negative effect on angiogenesisR phosphorylation and EGF-dependent downstream signaling pathway activation.">
+		<entity id="s6.e1" charOffset="91-137"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s6.e2" charOffset="132-196"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s6.e3" charOffset="209-215"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e4" charOffset="290-302"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="true"/>
+		<pair id="s6.p3" e1="s6.e3"
+		    e2="s6.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Our findings further elucidate the complex molecular biology of the positive regulation of DNA-binding transcription factor activityL/RANK system in breast cancer and provide preliminary data for RANK-c as a possible marker for disease progression and aggressiveness">
+		<entity id="s7.e1" charOffset="68-132"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s7.e2" charOffset="156-162"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

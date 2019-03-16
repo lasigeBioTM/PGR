@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28481029">
+	<sentence id="s1" text="Deregulated monoubiquitination of histone H2B (H2Bub1), mainly catalyzed by E3 ubiquitin-protein ligase RNF20/RNF40 complex, may play an important role in cancer.">
+		<entity id="s1.e1" charOffset="104-109"
+			type="GENE" text="RNF20" ontology_id="56254"/>
+		<entity id="s1.e2" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Concurrently, global transcriptional profiling analysis reveals that multiple tumor-associated genes such as CCND3, E2F1/2, HOXA1, Bcl2 modifying factor (BMF), Met, and Myc; and signaling pathways of cellular dedifferentiation, proliferation, adhesion, survival including p53, cadherin, Myc, and anti-apoptotic pathways are differentially expressed or significantly altered in these lung epithelial cells upon downregulation of H2Bub1.">
+		<entity id="s2.e1" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="109-114"
+			type="GENE" text="CCND3" ontology_id="896"/>
+		<entity id="s2.e3" charOffset="124-129"
+			type="GENE" text="HOXA1" ontology_id="3198"/>
+		<entity id="s2.e4" charOffset="131-135"
+			type="GENE" text="Bcl2" ontology_id="596"/>
+		<entity id="s2.e5" charOffset="154-157"
+			type="GENE" text="BMF" ontology_id="90427"/>
+		<entity id="s2.e6" charOffset="160-163"
+			type="GENE" text="Met" ontology_id="4233"/>
+		<entity id="s2.e7" charOffset="169-172"
+			type="GENE" text="Myc" ontology_id="4609"/>
+		<entity id="s2.e8" charOffset="277-285"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, RNF20 knockdown dramatically suppresses terminal squamous differentiation of cultured bronchial epithelial cells, and significantly enhances proliferation, migration, invasion, and cisplatin resistance of lung cancer cells.">
+		<entity id="s3.e1" charOffset="10-15"
+			type="GENE" text="RNF20" ontology_id="56254"/>
+		<entity id="s3.e2" charOffset="220-226"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27967828">
+	<sentence id="s1" text="However, HoFH is clinically heterogeneous, reflecting residual low-density lipoprotein receptor (intestinal cholesterol absorption) activity.">
+		<entity id="s1.e1" charOffset="28-41"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="97-130"
+			type="GO" text="intestinal cholesterol absorption" ontology_id="GO_0030299"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

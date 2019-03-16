@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29136674">
+	<sentence id="s1" text="Six syndromes of familial hyperparathyroidism are compared: 1) Familial hypocalciuric hypercalcemia (FHH) expresses primary hyperparathyroidism (PHPT) beginning at birth with lifelong hypercalcemia.">
+		<entity id="s1.e1" charOffset="26-45"
+			type="HP" text="hyperparathyroidism" ontology_id="HP_0000843"/>
+		<entity id="s1.e2" charOffset="86-99"
+			type="HP" text="hypercalcemia" ontology_id="HP_0003072"/>
+		<entity id="s1.e3" charOffset="101-104"
+			type="GENE" text="FHH" ontology_id="846"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="It usually reflects biallelic inactivation of the li>CASR.</i> 3) Multiple endocrine neoplasia type 1 (MEN1) is most frequently expressed as PHPT with asymmetric enlargement of 3-4 parathyroids.">
+		<entity id="s2.e1" charOffset="85-94"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="95-99"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e3" charOffset="103-107"
+			type="GENE" text="MEN1" ontology_id="4221"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="4) Multiple endocrine neoplasia type 2A from li>RET</i> activating mutation rarely presents as familial hyperparathyroidism, because medullary thyroid cancer and pheochromocytoma are more prominent.">
+		<entity id="s3.e1" charOffset="22-31"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="32-36"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e3" charOffset="104-123"
+			type="HP" text="hyperparathyroidism" ontology_id="HP_0000843"/>
+		<entity id="s3.e4" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e5" charOffset="162-178"
+			type="HP" text="pheochromocytoma" ontology_id="HP_0002666"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Five of the PHPT syndromes reflect overgrowth of parathyroid tissue; in contrast, familial hypocalciuric hypercalcemia reflects dysregulation of PTH secretion with little or no parathyroid overgrowth.">
+		<entity id="s4.e1" charOffset="105-118"
+			type="HP" text="hypercalcemia" ontology_id="HP_0003072"/>
+		<entity id="s4.e2" charOffset="145-148"
+			type="GENE" text="PTH" ontology_id="5741"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

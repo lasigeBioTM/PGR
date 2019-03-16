@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30015830">
+	<sentence id="s1" text="Direct sequencing revealed a G to T transition (c.886GAAAAT) in exon 9 of the four‑point‑one, ezrin, radixin, moesin domain‑containing 7 (regulation of neuron projection development) gene, which resulted in a conservative substitution of glycine to cysteine at codon 296 (p.G296C), leading to idiopathic congenital nystagmus in the two affected brothers.">
+		<entity id="s1.e1" charOffset="138-181"
+			type="GO" text="regulation of neuron projection development" ontology_id="GO_0010975"/>
+		<entity id="s1.e2" charOffset="315-324"
+			type="HP" text="nystagmus" ontology_id="HP_0000639"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="c.886GAAAAT is a novel idiopathic congenital nystagmus‑inducing mutation in the regulation of neuron projection development gene.">
+		<entity id="s2.e1" charOffset="45-54"
+			type="HP" text="nystagmus" ontology_id="HP_0000639"/>
+		<entity id="s2.e2" charOffset="80-123"
+			type="GO" text="regulation of neuron projection development" ontology_id="GO_0010975"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

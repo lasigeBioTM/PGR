@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28938437">
+	<sentence id="s1" text="Recent studies indicate that such scarring has a high female propensity; females are also almost exclusively affected by endometriosis, a common sex steroid-dependent fibrotic disease.">
+		<entity id="s1.e1" charOffset="121-134"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s1.e2" charOffset="145-148"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In response to surgical induction of endometriosis, Klf11-/- female mice develop significant fibrosis in contrast to wild-type mice.">
+		<entity id="s2.e1" charOffset="37-50"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s2.e2" charOffset="52-57"
+			type="GENE" text="Klf11" ontology_id="8462"/>
+		<entity id="s2.e3" charOffset="68-72"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

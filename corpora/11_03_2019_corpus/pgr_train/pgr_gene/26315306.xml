@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26315306">
+	<sentence id="s1" text="Our results demonstrated that SelM may have an important role in protecting against oxidative damage in the brain of chicken, which might shed light on the role of SelM in human neurodegenerative disease.">
+		<entity id="s1.e1" charOffset="94-100"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e2" charOffset="143-148"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s1.e3" charOffset="178-203"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

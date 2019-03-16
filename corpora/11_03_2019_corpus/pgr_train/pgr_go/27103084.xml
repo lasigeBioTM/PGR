@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27103084">
+	<sentence id="s1" text="In a recent study combining autozygome and exome analysis, a homozygous loss of function mutation in camera-type eye morphogenesis (previously named regulation of transcription by RNA polymerase III) was reported in two siblings with isolated bilateral colobomatous microphthalmia from a consanguineous Saudi family.">
+		<entity id="s1.e1" charOffset="101-130"
+			type="GO" text="camera-type eye morphogenesis" ontology_id="GO_0048593"/>
+		<entity id="s1.e2" charOffset="149-198"
+			type="GO" text="regulation of transcription by RNA polymerase III" ontology_id="GO_0006359"/>
+		<entity id="s1.e3" charOffset="198-207"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e4" charOffset="221-235"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Herein, we report a third patient (not related to the previously reported family) with bilateral colobomatous microphthalmia and developmental delay in whom genetic studies identified a homozygous camera-type eye morphogenesis splicing mutation c.2968-2AAAAAT (p.Val990Cysfs*13).">
+		<entity id="s2.e1" charOffset="87-96"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s2.e2" charOffset="110-124"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s2.e3" charOffset="129-148"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e4" charOffset="197-226"
+			type="GO" text="camera-type eye morphogenesis" ontology_id="GO_0048593"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This report supports the association of camera-type eye morphogenesis mutations with colobomatous microphthalmia and expands the phenotypic spectrum associated with mutations in this gene.">
+		<entity id="s3.e1" charOffset="40-69"
+			type="GO" text="camera-type eye morphogenesis" ontology_id="GO_0048593"/>
+		<entity id="s3.e2" charOffset="98-112"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

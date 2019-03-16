@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29292077">
+	<sentence id="s1" text="Fragile X syndrome (FXS), the leading cause of inherited forms of mental retardation and autism, is caused by the transcriptional silencing of regulation of alternative mRNA splicing, via spliceosome encoding the fragile X mental retardation protein (regulation of alternative mRNA splicing, via spliceosome).">
+		<entity id="s1.e1" charOffset="89-95"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="143-199"
+			type="GO" text="regulation of alternative mRNA splicing, via spliceosome" ontology_id="GO_0000381"/>
+		<entity id="s1.e3" charOffset="251-307"
+			type="GO" text="regulation of alternative mRNA splicing, via spliceosome" ontology_id="GO_0000381"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

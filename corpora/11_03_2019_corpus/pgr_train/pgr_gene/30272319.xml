@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30272319">
+	<sentence id="s1" text="Estrogens and estrogen receptors (ERs), such as ERα and ERβ, prolactin (PRL) and prolactin receptor (PRLR) have been reported to be involved in the physiopathology of uterine cervical cancer (UCC).">
+		<entity id="s1.e1" charOffset="72-75"
+			type="GENE" text="PRL" ontology_id="5617"/>
+		<entity id="s1.e2" charOffset="184-190"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results revealed that ERα, ERβ, PRLR and Ki67 expression levels were increased during the progression of cancer.">
+		<entity id="s2.e1" charOffset="36-39"
+			type="GENE" text="PRL" ontology_id="5617"/>
+		<entity id="s2.e2" charOffset="109-115"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

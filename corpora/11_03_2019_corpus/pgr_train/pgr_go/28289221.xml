@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28289221">
+	<sentence id="s1" text="B1 induced readthrough at all three nonsense codons in cultured cancer cells with li>TP53</i> (tumor protein p53) mutations, in cells from patients with nonsense mutations in the li>TPP1</i> (tripeptidyl peptidase 1), li>DMD</i> (dystrophin), li>SMARCAL1</i> (SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily a-like 1), and li>COL7A1</i> (collagen cardiac muscle tissue development VII alpha 1 chain) genes, and in an in vivo tumor xenograft model.">
+		<entity id="s1.e1" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="385-418"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

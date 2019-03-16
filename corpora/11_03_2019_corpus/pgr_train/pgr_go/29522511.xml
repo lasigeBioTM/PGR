@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29522511">
+	<sentence id="s1" text="Exome sequencing of superior coloboma patients identified rare variants in a Bone Morphogenetic Protein (Bmp) receptor (protein phosphorylation) and T-box transcription factor (negative regulation of transcription by RNA polymerase II).">
+		<entity id="s1.e1" charOffset="29-37"
+			type="HP" text="coloboma" ontology_id="HP_0000589"/>
+		<entity id="s1.e2" charOffset="120-143"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="177-234"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Together, our cellular response to interleukin-4ings explain the existence of superior coloboma, a congenital ocular anomaly resulting from aberrant morphogenesis of a developmental structure">
+		<entity id="s2.e1" charOffset="14-48"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e2" charOffset="87-95"
+			type="HP" text="coloboma" ontology_id="HP_0000589"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

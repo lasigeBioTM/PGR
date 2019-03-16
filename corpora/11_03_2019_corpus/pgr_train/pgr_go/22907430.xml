@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22907430">
+	<sentence id="s1" text="Motif analysis of tumor-specific methylated regions identified enrichment of binding sites for several neural cell negative regulation of apoptotic process-specifying transcription factors including nitric oxide mediated signal transduction, negative regulation of transcription by RNA polymerase II, negative regulation of transcription, DNA-templated and REST.">
+		<entity id="s1.e1" charOffset="18-23"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="115-155"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<entity id="s1.e3" charOffset="199-240"
+			type="GO" text="nitric oxide mediated signal transduction" ontology_id="GO_0007263"/>
+		<entity id="s1.e4" charOffset="242-299"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="301-352"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We hypothesize that two potential mechanisms, loss of cell negative regulation of apoptotic process-determining transcription factors by methylation of their promoters and functional inactivation of their corresponding genomic-binding sites by DNA methylation, can promote a differentiation defect of neuroendocrine cells thus enhancing the ability of tumor progenitor cells to transition toward SCLC.">
+		<entity id="s2.e1" charOffset="59-99"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<entity id="s2.e2" charOffset="352-357"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

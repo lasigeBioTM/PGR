@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29499418">
+	<sentence id="s1" text="The percentage of autosomal recessive forms due to mutations in BMP1, FKBP10, LEPRE1, SERPINF1, and WNT1 was unusually high (48%).">
+		<entity id="s1.e1" charOffset="18-37"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="64-68"
+			type="GENE" text="BMP1" ontology_id="649"/>
+		<entity id="s1.e3" charOffset="70-76"
+			type="GENE" text="FKBP10" ontology_id="60681"/>
+		<entity id="s1.e4" charOffset="78-84"
+			type="GENE" text="LEPRE1" ontology_id="64175"/>
+		<entity id="s1.e5" charOffset="86-94"
+			type="GENE" text="SERPINF1" ontology_id="5176"/>
+		<entity id="s1.e6" charOffset="100-104"
+			type="GENE" text="WNT1" ontology_id="7471"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

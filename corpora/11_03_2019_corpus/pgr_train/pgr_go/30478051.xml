@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30478051">
+	<sentence id="s1" text="Here, we sought to cellular response to interleukin-4 lncRNAs differentially regulated in cancer cells resistant to either negative regulation of transcription by RNA polymerase II-related apoptosis-inducing ligand (positive regulation of apoptotic process) or the response to cytokine inhibitor UMI-77, agents that coenzyme A biosynthetic process through the extrinsic and intrinsic apoptotic pathways, respectively.">
+		<entity id="s1.e1" charOffset="19-53"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s1.e2" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="123-180"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="216-256"
+			type="GO" text="positive regulation of apoptotic process" ontology_id="GO_0043065"/>
+		<entity id="s1.e5" charOffset="265-285"
+			type="GO" text="response to cytokine" ontology_id="GO_0034097"/>
+		<entity id="s1.e6" charOffset="316-347"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Additionally, negative regulation of transcription by RNA polymerase II was demonstrated to drive OVAAL transcription, indicating a positive feedback loop between c-Myc and OVAAL in controlling tumor growth.">
+		<entity id="s2.e1" charOffset="14-71"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Taken together, these results reveal that OVAAL contributes to the survival of cancer cells through dual mechanisms controlling RAF/MEK/ERK signaling and proteasome regulatory particle assembly-mediated cell senescence">
+		<entity id="s3.e1" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="154-193"
+			type="GO" text="proteasome regulatory particle assembly" ontology_id="GO_0070682"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

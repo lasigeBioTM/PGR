@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28120165">
+	<sentence id="s1" text="fatty acid beta-oxidation apoptotic process accumulate excess abdominal adipose tissue, develop an early inflammatory liver process, exhibit fasting rhabdomyolysis, and have abnormal skeletal muscle mitochondria.">
+		<entity id="s1.e1" charOffset="0-25"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e2" charOffset="7-24"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="130-144"
+			type="HP" text="rhabdomyolysis" ontology_id="HP_0003201"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

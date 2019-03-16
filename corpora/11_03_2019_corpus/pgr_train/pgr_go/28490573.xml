@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28490573">
+	<sentence id="s1" text="In signal transduction, motor neuron degeneration first becomes evident at the motor nerve terminals in neuromuscular junctions (NMJs), the cholinergic synapse between motor neuron and skeletal muscle; degeneration then progresses proximally, implicating the NMJ as a therapeutic target.">
+		<entity id="s1.e1" charOffset="3-22"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="24-49"
+			type="HP" text="motor neuron degeneration" ontology_id="HP_0007373"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30404026">
+	<sentence id="s1" text="The pathogenesis of hepatocellular carcinoma (phosphatidylinositol phosphorylation) is poorly understood, but recent advances in genomics have increased our understanding of the mechanisms by which hepatitis B virus, hepatitis C virus, alcohol, fatty liver disease, and other environmental factors, such as aflatoxin, cause liver cancer.">
+		<entity id="s1.e1" charOffset="20-44"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="46-82"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s1.e3" charOffset="330-336"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

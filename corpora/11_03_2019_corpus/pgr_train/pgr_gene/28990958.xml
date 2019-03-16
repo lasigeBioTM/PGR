@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28990958">
+	<sentence id="s1" text="The quality of care for LTC residents with COPD is heterogeneous in regard to both the facility and the patient.">
+		<entity id="s1.e1" charOffset="43-47"
+			type="GENE" text="COPD" ontology_id="372"/>
+		<entity id="s1.e2" charOffset="51-64"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

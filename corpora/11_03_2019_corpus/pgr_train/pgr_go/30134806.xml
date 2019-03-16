@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30134806">
+	<sentence id="s1" text="Numerous studies have recently demonstrated that protein deacetylation expression and activity are increased in kidney disease, such as autosomal dominant polycystic kidney disease (ADPKD), renal fibrosis, and acute kidney injury (AKI), among others.">
+		<entity id="s1.e1" charOffset="49-70"
+			type="GO" text="protein deacetylation" ontology_id="GO_0006476"/>
+		<entity id="s1.e2" charOffset="112-126"
+			type="HP" text="kidney disease" ontology_id="HP_0000077"/>
+		<entity id="s1.e3" charOffset="190-204"
+			type="HP" text="renal fibrosis" ontology_id="HP_0030760"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In transcription elongation from RNA polymerase II promoter, protein deacetylation inhibitors effectively limit the progression of kidney diseases, suggesting that targeting HDAC6 may provide a novel treatment approach.">
+		<entity id="s2.e1" charOffset="3-59"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s2.e2" charOffset="9-30"
+			type="GO" text="protein deacetylation" ontology_id="GO_0006476"/>
+		<entity id="s2.e3" charOffset="79-93"
+			type="HP" text="kidney disease" ontology_id="HP_0000077"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we discuss the unique function of protein deacetylation and recapitulate the alluring potential of its inhibitors in kidney diseases">
+		<entity id="s3.e1" charOffset="40-61"
+			type="GO" text="protein deacetylation" ontology_id="GO_0006476"/>
+		<entity id="s3.e2" charOffset="123-137"
+			type="HP" text="kidney disease" ontology_id="HP_0000077"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

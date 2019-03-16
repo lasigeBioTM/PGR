@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29666464">
+	<sentence id="s1" text="Mutations in the mitochondrial alanyl-transfer (t)RNA synthetase 2 (mitochondrial respiratory chain complex assembly; OMIM 612035) have been linked to leukoencephalopathy recently.">
+		<entity id="s1.e1" charOffset="68-116"
+			type="GO" text="mitochondrial respiratory chain complex assembly" ontology_id="GO_0033108"/>
+		<entity id="s1.e2" charOffset="151-170"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We report a case with novel mitochondrial respiratory chain complex assembly gene mutations with developed striking cerebellar atrophy and leukoencephalopathy, which helps to further understand the clinical and genetic heterogeneity of mitochondrial respiratory chain complex assembly-L">
+		<entity id="s2.e1" charOffset="28-76"
+			type="GO" text="mitochondrial respiratory chain complex assembly" ontology_id="GO_0033108"/>
+		<entity id="s2.e2" charOffset="116-134"
+			type="HP" text="cerebellar atrophy" ontology_id="HP_0001272"/>
+		<entity id="s2.e3" charOffset="139-158"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s2.e4" charOffset="219-232"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

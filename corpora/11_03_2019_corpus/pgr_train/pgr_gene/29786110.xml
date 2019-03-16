@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29786110">
+	<sentence id="s1" text="Gain‑of‑function CTTNB1 mutations are detected in bladder cancer, colorectal cancer, gastric cancer, liver cancer, lung cancer, pancreatic cancer, prostate cancer and uterine cancer, whereas loss‑of‑function CTNNB1 mutations are also detected in human cancer.">
+		<entity id="s1.e1" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="208-214"
+			type="GENE" text="CTNNB1" ontology_id="1499"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Eradicating H. pylori and HCV is the optimal approach for the first‑line prevention of gastric cancer and hepatocellular carcinoma (HCC), respectively.">
+		<entity id="s2.e1" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="106-130"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s2.e3" charOffset="132-135"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, β‑catenin inhibitors may be applicable for the prevention of organ fibrosis, second‑line HCC prevention and treating β‑catenin‑driven cancer.">
+		<entity id="s3.e1" charOffset="98-101"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s3.e2" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

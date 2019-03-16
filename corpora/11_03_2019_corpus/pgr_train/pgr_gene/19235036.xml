@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19235036">
+	<sentence id="s1" text="We evaluated the association between dietary and supplemental zinc and prostate cancer within the VITamins And Lifestyle (VITAL) cohort, a study specifically designed to evaluate the impact of dietary supplements and cancer risk.">
+		<entity id="s1.e1" charOffset="55-58"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s1.e2" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="183-189"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Of 35,242 men who completed the baseline dietary and supplemental questionnaire, 832 men developed invasive prostate cancers between October 2000 and December 2004.">
+		<entity id="s2.e1" charOffset="10-13"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s2.e2" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Ten-year average intake of supplemental zinc was not associated with a reduced prostate cancer risk overall (adjusted hazard ratio (HR) = 0.82 (95% confidence interval (CI) 0.58-1.14) for AAAA15 mg/day vs. nonuse, P for trend = 0.44); however, risk of advanced prostate cancer (regionally invasive or distant metastatic, n = 123) decreased with greater intake of supplemental zinc (adjusted HR = 0.34, 95% CI = 0.13-1.09 for 10-yr average intake AAAA 15 mg/day vs. nonuse, P for trend = 0.04).">
+		<entity id="s3.e1" charOffset="33-36"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s3.e2" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28189050">
+	<sentence id="s1" text="Considering the pivotal role of negative regulation of transcription by RNA polymerase II signaling in the colon epithelium both physiologically and pathologically, the correlation between H19 and VDR signaling may have an important role in the development of colon cancer.">
+		<entity id="s1.e1" charOffset="32-89"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="266-272"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, the correlation between H19 and vitamin D receptor (negative regulation of transcription by RNA polymerase II) signaling and the underlying mechanisms in colon cancer were investigated both in vitro and in vivo.">
+		<entity id="s2.e1" charOffset="67-124"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="175-181"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

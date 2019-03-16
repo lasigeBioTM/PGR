@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29600549">
+	<sentence id="s1" text="Routine gene testing is not necessary to guide treatment for typical forms of paroxysmal kinesigenic dyskinesia (PKD), paroxysmal nonkinesigenic dyskinesia (PNKD), and episodic ataxia type 1 or 2.">
+		<entity id="s1.e1" charOffset="113-116"
+			type="GENE" text="PKD" ontology_id="5587"/>
+		<entity id="s1.e2" charOffset="157-161"
+			type="GENE" text="PNKD" ontology_id="25953"/>
+		<entity id="s1.e3" charOffset="168-176"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s1.e4" charOffset="177-183"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e5" charOffset="184-188"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Antiepileptic drugs remain the treatment of choice for PKD and episodic ataxia type 1, benzodiazepines are often useful for PNKD, and episodic ataxia type 2 benefits from acetazolamide regardless of the genetic etiology">
+		<entity id="s2.e1" charOffset="55-58"
+			type="GENE" text="PKD" ontology_id="5587"/>
+		<entity id="s2.e2" charOffset="63-71"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s2.e3" charOffset="72-78"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e4" charOffset="79-83"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e5" charOffset="124-128"
+			type="GENE" text="PNKD" ontology_id="25953"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e8"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

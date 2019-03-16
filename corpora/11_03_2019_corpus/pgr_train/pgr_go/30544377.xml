@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30544377">
+	<sentence id="s1" text="Our study aimed to investigate the relationship between single nucleotide polymorphisms (SNPs) of claudin 10 (regulation of ion transport) (rs1325774, rs7333503, rs3751334) and breast cancer and the clinical characteristics of patients.A total of 104 patients with breast cancer and 118 healthy controls were recruited in our study between 2013 and 2015.">
+		<entity id="s1.e1" charOffset="110-137"
+			type="GO" text="regulation of ion transport" ontology_id="GO_0043269"/>
+		<entity id="s1.e2" charOffset="184-190"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The Gene Expression Profiling Interactive Analyses application (GEPIA) was used to analysis the expression of regulation of ion transport in breast cancer tissues and normal samples.The polymorphism of rs1325774 was significantly associated with an increased risk of breast cancer (T/G vs T/T: OR = 2.073, 95% CI = 1.095-3.927, P = .025).">
+		<entity id="s2.e1" charOffset="110-137"
+			type="GO" text="regulation of ion transport" ontology_id="GO_0043269"/>
+		<entity id="s2.e2" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The expression level of regulation of ion transport was reduced in breast cancer tissues compared with normal breast tissues according to the analysis of The Cancer Genome Atlas (TCGA) data through GEPIA.Our results suggest that the polymorphism of rs1325774 associate with increase the breast cancer risk.">
+		<entity id="s3.e1" charOffset="24-51"
+			type="GO" text="regulation of ion transport" ontology_id="GO_0043269"/>
+		<entity id="s3.e2" charOffset="74-80"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

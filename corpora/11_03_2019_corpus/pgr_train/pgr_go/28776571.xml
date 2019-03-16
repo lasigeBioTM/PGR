@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28776571">
+	<sentence id="s1" text="Focal alterations affected G1/S transition of mitotic cell cycle, G1/S transition of mitotic cell cycle, protein phosphorylation, positive regulation of protein phosphorylation, peptidyl-tyrosine phosphorylation, angiogenesis, positive regulation of cell proliferation, transforming growth factor beta receptor signaling pathway, NF1, RB1, regulation of cell adhesion, TP53, and additional novel amplifications in CCNE1, activation of MAPK activity, EGFR, RET, protein phosphorylation, brain-derived neurotrophic factor receptor signaling pathway were seen in G3 compared with the G1 tumor areas.">
+		<entity id="s1.e1" charOffset="27-64"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e2" charOffset="66-103"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e3" charOffset="105-128"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="130-176"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e5" charOffset="178-211"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s1.e6" charOffset="213-225"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e7" charOffset="227-268"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e8" charOffset="244-249"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e9" charOffset="270-328"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s1.e10" charOffset="340-367"
+			type="GO" text="regulation of cell adhesion" ontology_id="GO_0030155"/>
+		<entity id="s1.e11" charOffset="421-448"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e12" charOffset="461-484"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e13" charOffset="486-546"
+			type="GO" text="brain-derived neurotrophic factor receptor signaling pathway" ontology_id="GO_0031547"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e12"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e13"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TRIO and regulation of protein kinase B signaling co-amplification was seen in 8 (44%) G3 and 1 (10%) G1 myxofibrosarcomas and RICTOR amplification alone in 4 (40%) G1 myxofibrosarcomas.">
+		<entity id="s2.e1" charOffset="9-49"
+			type="GO" text="regulation of protein kinase B signaling" ontology_id="GO_0051896"/>
+		<entity id="s2.e2" charOffset="114-122"
+			type="HP" text="sarcomas" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

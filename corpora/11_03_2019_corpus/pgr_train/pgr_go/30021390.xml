@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30021390">
+	<sentence id="s1" text="In this sense, evidence from both clinical and experimental studies indicates that defense response to bacterium may reverse diabetic neuropathy through an antioxidant action by decreasing pro-inflammatory cytokines, restoring Na+/K+-ATPase activity, and blocking the generation of pro-apoptotic proteins.">
+		<entity id="s1.e1" charOffset="83-112"
+			type="GO" text="defense response to bacterium" ontology_id="GO_0042742"/>
+		<entity id="s1.e2" charOffset="134-144"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

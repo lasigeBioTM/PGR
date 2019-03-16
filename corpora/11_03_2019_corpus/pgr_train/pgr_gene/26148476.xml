@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26148476">
+	<sentence id="s1" text="Aberrant expression of receptor interacting protein kinase 4 (RIPK4), a crucial regulatory protein of Wnt/β-catenin signaling, has recently been reported to be involved in several cancers.">
+		<entity id="s1.e1" charOffset="37-40"
+			type="GENE" text="act" ontology_id="11332"/>
+		<entity id="s1.e2" charOffset="62-67"
+			type="GENE" text="RIPK4" ontology_id="54101"/>
+		<entity id="s1.e3" charOffset="180-186"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report the potential clinical implication and biological functions of RIPK4 in cervical squamous cell carcinoma (CSCC).">
+		<entity id="s2.e1" charOffset="79-84"
+			type="GENE" text="RIPK4" ontology_id="54101"/>
+		<entity id="s2.e2" charOffset="97-120"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Knockdown of RIPK4 reduced cell migration and invasion via inhibition of Vimentin, MMP2 and Fibronectin expression in cervical cancer cells.">
+		<entity id="s3.e1" charOffset="13-18"
+			type="GENE" text="RIPK4" ontology_id="54101"/>
+		<entity id="s3.e2" charOffset="83-87"
+			type="GENE" text="MMP2" ontology_id="4313"/>
+		<entity id="s3.e3" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

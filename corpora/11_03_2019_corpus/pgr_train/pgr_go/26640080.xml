@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26640080">
+	<sentence id="s1" text="Using whole-exome sequencing, we identified a homozygous acceptor splice-site mutation in intron 6 of the negative regulation of microtubule depolymerization gene in a patient from a consanguineous Turkish family who presented with congenital microcephaly, lissencephaly, short stature, polysyndactyly, and dental abnormalities.">
+		<entity id="s1.e1" charOffset="106-157"
+			type="GO" text="negative regulation of microtubule depolymerization" ontology_id="GO_0007026"/>
+		<entity id="s1.e2" charOffset="243-255"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="257-270"
+			type="HP" text="lissencephaly" ontology_id="HP_0001339"/>
+		<entity id="s1.e4" charOffset="272-285"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e5" charOffset="307-327"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Homozygous and compound heterozygous mutations in negative regulation of microtubule depolymerization have very recently been described as a cause of microcephaly with brain malformations and seizures.">
+		<entity id="s2.e1" charOffset="50-101"
+			type="GO" text="negative regulation of microtubule depolymerization" ontology_id="GO_0007026"/>
+		<entity id="s2.e2" charOffset="150-162"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e3" charOffset="192-200"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We extend the negative regulation of microtubule depolymerization associated phenotype by describing a syndrome characterized by primordial dwarfism, lissencephaly, polysyndactyly, and dental anomalies, which is caused by a homozygous truncating negative regulation of microtubule depolymerization mutation">
+		<entity id="s3.e1" charOffset="14-65"
+			type="GO" text="negative regulation of microtubule depolymerization" ontology_id="GO_0007026"/>
+		<entity id="s3.e2" charOffset="140-148"
+			type="HP" text="dwarfism" ontology_id="HP_0003510"/>
+		<entity id="s3.e3" charOffset="150-163"
+			type="HP" text="lissencephaly" ontology_id="HP_0001339"/>
+		<entity id="s3.e4" charOffset="185-201"
+			type="HP" text="dental anomalies" ontology_id="HP_0000164"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

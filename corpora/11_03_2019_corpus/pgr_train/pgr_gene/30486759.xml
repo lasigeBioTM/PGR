@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30486759">
+	<sentence id="s1" text="This is the first study to investigate the effect of vitamin D receptor ( VDR) gene single-nucleotide polymorphisms on the clinicopathologic features of papillary thyroid cancer in Turkey.">
+		<entity id="s1.e1" charOffset="74-77"
+			type="GENE" text="VDR" ontology_id="7421"/>
+		<entity id="s1.e2" charOffset="171-177"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="VDR gene polymorphisms BsmI, ApaI, and TaqI did not differ between the papillary thyroid cancer group and control group (p AAAA 0.05, each).">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="VDR" ontology_id="7421"/>
+		<entity id="s2.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The VDR gene FokI CT/TT genotype was associated with an increased papillary thyroid cancer risk (CT vs CC: odds ratio = 1.71, 95% confidence interval = 1.15-2.76, p = 0.028; TT vs CC: odds ratio = 2.44, 95% confidence interval = 1.29-4.62, p = 0.005; CT/TT vs CC: odds ratio = 1.88, 95% confidence interval = 1.20-2.96, p = 0.006; CT/CC vs TT: odds ratio = 1.80, 95% confidence interval = 1.05-3.20, p = 0.041).">
+		<entity id="s3.e1" charOffset="4-7"
+			type="GENE" text="VDR" ontology_id="7421"/>
+		<entity id="s3.e2" charOffset="84-90"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="VDR gene FokI T allele and TT genotype correlated with aggressiveness of papillary thyroid cancer; thus, FokI could be useful as a poor prognostic factor to assess the high risk of papillary thyroid cancer">
+		<entity id="s4.e1" charOffset="0-3"
+			type="GENE" text="VDR" ontology_id="7421"/>
+		<entity id="s4.e2" charOffset="55-69"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<entity id="s4.e3" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

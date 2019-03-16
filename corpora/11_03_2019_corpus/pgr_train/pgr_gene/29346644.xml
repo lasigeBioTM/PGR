@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29346644">
+	<sentence id="s1" text="Furthermore, we detected association of rs58978565 near TNR (P = 2.3 × 10-8), rs28368872 near ATF7IP2 (P = 2.9 × 10-8) and rs142450006 near MMP9 (P = 0.0006) with progression to choroidal neovascularization but not geographic atrophy.">
+		<entity id="s1.e1" charOffset="56-59"
+			type="GENE" text="TNR" ontology_id="7143"/>
+		<entity id="s1.e2" charOffset="94-101"
+			type="GENE" text="ATF7IP2" ontology_id="80063"/>
+		<entity id="s1.e3" charOffset="140-144"
+			type="GENE" text="MMP9" ontology_id="4318"/>
+		<entity id="s1.e4" charOffset="178-206"
+			type="HP" text="choroidal neovascularization" ontology_id="HP_0011506"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28475458">
+	<sentence id="s1" text="In this study, we present a male child demonstrating recurrent febrile episodes, spasticity, and basal ganglia calcification suggestive of Aicardi-Goutières syndrome, who carries the same Arg822Gln mutation in IFIH1 previously associated with SMS.">
+		<entity id="s1.e1" charOffset="81-91"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<entity id="s1.e2" charOffset="97-124"
+			type="HP" text="basal ganglia calcification" ontology_id="HP_0002135"/>
+		<entity id="s1.e3" charOffset="210-215"
+			type="GENE" text="IFIH1" ontology_id="64135"/>
+		<entity id="s1.e4" charOffset="243-246"
+			type="GENE" text="SMS" ontology_id="10743"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e1" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30572178">
+	<sentence id="s1" text="We conducted further optimization of dual enzymatic inhibitions towards positive regulation of cell proliferation and peptidyl-tyrosine phosphorylation, two important kinases in lung squamous cell carcinoma.">
+		<entity id="s1.e1" charOffset="72-113"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e2" charOffset="82-115"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s1.e3" charOffset="147-170"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

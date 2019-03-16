@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26164209">
+	<sentence id="s1" text="To investigate this mechanism, we developed a novel uterine sarcoma tissue-derived orthotopic and metastatic model in KSN nude mice using a green fluorescent protein stably expressed uterine sarcoma cell line, MES-SA.">
+		<entity id="s1.e1" charOffset="60-67"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="122-126"
+			type="GENE" text="nude" ontology_id="54820"/>
+		<entity id="s1.e3" charOffset="127-131"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Microarray analysis between orthotopic tumors with high and low metastatic potentials revealed differential expression of genes related to cell proliferation and migration (TNNT1, COL1A2, and ZIC1).">
+		<entity id="s2.e1" charOffset="39-45"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="173-178"
+			type="GENE" text="TNNT1" ontology_id="7138"/>
+		<entity id="s2.e3" charOffset="180-186"
+			type="GENE" text="COL1A2" ontology_id="1278"/>
+		<entity id="s2.e4" charOffset="192-196"
+			type="GENE" text="ZIC1" ontology_id="7545"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

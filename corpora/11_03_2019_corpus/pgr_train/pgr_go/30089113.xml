@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30089113">
+	<sentence id="s1" text="The enriched genes included proteolysis, negative regulation of blood coagulation, response to bacterium, aging, and MAPK cascade in basal tumors, and negative regulation of transcription by RNA polymerase II, LY6E, antigen processing and presentation of exogenous peptide antigen via MHC class II, cellular response to DNA damage stimulus, and negative regulation of transcription by RNA polymerase II in luminal tumors.">
+		<entity id="s1.e1" charOffset="28-39"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e2" charOffset="41-81"
+			type="GO" text="negative regulation of blood coagulation" ontology_id="GO_0030195"/>
+		<entity id="s1.e3" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="83-104"
+			type="GO" text="response to bacterium" ontology_id="GO_0009617"/>
+		<entity id="s1.e5" charOffset="106-111"
+			type="GO" text="aging" ontology_id="GO_0007568"/>
+		<entity id="s1.e6" charOffset="117-129"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e7" charOffset="151-208"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e8" charOffset="216-297"
+			type="GO" text="antigen processing and presentation of exogenous peptide antigen via MHC class II" ontology_id="GO_0019886"/>
+		<entity id="s1.e9" charOffset="299-339"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e10" charOffset="345-402"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

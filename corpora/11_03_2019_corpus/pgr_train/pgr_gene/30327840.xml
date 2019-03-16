@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30327840">
+	<sentence id="s1" text="Low-density lipoprotein receptor-related protein 4 (LRP4) is a multi-functional protein implicated in bone, kidney and neurological diseases including Cenani-Lenz syndactyly (CLS), sclerosteosis, osteoporosis, congenital myasthenic syndrome and myasthenia gravis.">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="LRP4" ontology_id="4038"/>
+		<entity id="s1.e2" charOffset="163-173"
+			type="HP" text="syndactyly" ontology_id="HP_0001159"/>
+		<entity id="s1.e3" charOffset="175-178"
+			type="GENE" text="CLS" ontology_id="6197"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

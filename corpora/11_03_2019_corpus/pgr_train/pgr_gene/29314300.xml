@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29314300">
+	<sentence id="s1" text="At surgery, the mass was located within the epineurium, could be bluntly dissected from the nerve fascicles, and was suspected to be a schwannoma.">
+		<entity id="s1.e1" charOffset="16-20"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s1.e2" charOffset="135-145"
+			type="HP" text="schwannoma" ontology_id="HP_0100008"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The tumor cells expressed MUC4, GLUT-1, and vimentin and were negative for S-100 protein, epithelial membrane antigen, smooth muscle actin, desmin, claudin-1, neurofilament and SOX10.">
+		<entity id="s2.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="26-30"
+			type="GENE" text="MUC4" ontology_id="4585"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Fluorescence in situ hybridization, with a break-apart probe strategy, demonstrated FUS rearrangement, consistent in this morphological context with the low-grade fibromyxoid sarcoma-associated FUS-CREB3L2 or FUS-CREB3L1 fusions.">
+		<entity id="s3.e1" charOffset="84-87"
+			type="GENE" text="FUS" ontology_id="2521"/>
+		<entity id="s3.e2" charOffset="175-182"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

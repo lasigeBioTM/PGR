@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27007659">
+	<sentence id="s1" text="Two rare pathogenic variants were identified in the COL15A1 gene: one in a sporadic case and another was found to segregate in a family with six affected individuals with CD.">
+		<entity id="s1.e1" charOffset="52-59"
+			type="GENE" text="COL15A1" ontology_id="1306"/>
+		<entity id="s1.e2" charOffset="75-83"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

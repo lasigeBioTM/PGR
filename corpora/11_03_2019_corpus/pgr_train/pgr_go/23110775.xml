@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23110775">
+	<sentence id="s1" text="Bartter syndrome cardiac muscle tissue development IV is a rare subtype of the Bartter syndromes that leads to both severe renal salt wasting and sensorineural deafness.">
+		<entity id="s1.e1" charOffset="17-50"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="123-141"
+			type="HP" text="renal salt wasting" ontology_id="HP_0000127"/>
+		<entity id="s1.e3" charOffset="160-168"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This autosomal recessive disease is caused by mutations in the gene encoding barttin, ion transmembrane transport, an essential subunit of the positive regulation of cell proliferation-K chloride channels expressed in renal and inner ear epithelia.">
+		<entity id="s2.e1" charOffset="5-24"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="86-113"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s2.e3" charOffset="143-184"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In this study, we report the identification of the first insertion mutation, p.W102Vfs*7, in the ion transmembrane transport gene of a newborn girl with acute clinical symptoms including early-onset chronic renal failure.">
+		<entity id="s3.e1" charOffset="97-124"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s3.e2" charOffset="199-206"
+			type="HP" text="chronic" ontology_id="HP_0011010"/>
+		<entity id="s3.e3" charOffset="207-220"
+			type="HP" text="renal failure" ontology_id="HP_0000083"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

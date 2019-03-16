@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23257780">
+	<sentence id="s1" text="Here, we show that ethanol treatment (100 mM) promotes regulation of cell growth production and oxidative stress in cancer-associated fibroblasts, which is sufficient to induce myofibroblastic differentiation.">
+		<entity id="s1.e1" charOffset="55-80"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e2" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Remarkably, our results also show that antioxidants [such as N-acetyl cysteine (activation of cysteine-type endopeptidase activity involved in apoptotic process)] can effectively reverse or prevent ethanol-induced oxidative stress in cancer-associated fibroblasts, suggesting a novel strategy for cancer prevention.">
+		<entity id="s2.e1" charOffset="80-160"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s2.e2" charOffset="234-240"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

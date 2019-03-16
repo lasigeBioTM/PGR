@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27798098">
+	<sentence id="s1" text="Among these, heterozygous mutations in regulation of transcription by RNA polymerase II, a homeobox gene encoding a transcription factor expressed specifically by oocyte and granulosa cells within the ovary, have been reported in ∼6% of women with sporadic POI.">
+		<entity id="s1.e1" charOffset="39-87"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="248-256"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

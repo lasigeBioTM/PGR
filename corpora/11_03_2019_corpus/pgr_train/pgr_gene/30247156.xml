@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30247156">
+	<sentence id="s1" text="The underlying molecular mechanisms of age-related hearing loss (ARHL) in humans and many strains of mice have not been fully characterized.">
+		<entity id="s1.e1" charOffset="51-63"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="101-105"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Raptor-cKO mice developed hearing loss considerably more slowly than WT littermates.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="Raptor" ontology_id="57521"/>
+		<entity id="s2.e2" charOffset="11-15"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e3" charOffset="26-38"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Conversely, Tsc1 loss led to the early-onset death of cochlear hair cells and consequently accelerated hearing loss.">
+		<entity id="s3.e1" charOffset="12-16"
+			type="GENE" text="Tsc1" ontology_id="7248"/>
+		<entity id="s3.e2" charOffset="103-115"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

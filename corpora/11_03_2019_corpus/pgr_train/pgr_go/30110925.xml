@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30110925">
+	<sentence id="s1" text="Charcot-Marie-Tooth disease cardiac muscle tissue development 1A (CMT1A) is the most common inherited motor and sensory neuropathy, and is caused by duplication of li>PMP22</i>, alterations of which are a characteristic feature of demyelination.">
+		<entity id="s1.e1" charOffset="28-61"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="120-130"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The clinical phenocardiac muscle tissue development of CMT1A is determined by the degree of axonal loss, and patients suffer from progressive muscle weakness and impaired sensation.">
+		<entity id="s2.e1" charOffset="18-51"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e2" charOffset="92-103"
+			type="HP" text="axonal loss" ontology_id="HP_0003447"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

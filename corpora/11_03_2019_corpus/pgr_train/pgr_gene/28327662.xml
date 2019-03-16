@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28327662">
+	<sentence id="s1" text="Mice lacking Zbtb20 in the liver exhibit hypolipidemia and reduced levels of liver triglycerides, along with impaired hepatic lipogenesis.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="GENE" text="Zbtb20" ontology_id="26137"/>
+		<entity id="s1.e2" charOffset="41-54"
+			type="HP" text="hypolipidemia" ontology_id="HP_0045014"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

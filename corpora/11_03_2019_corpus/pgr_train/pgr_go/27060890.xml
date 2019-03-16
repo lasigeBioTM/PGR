@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27060890">
+	<sentence id="s1" text="This report identifies the implication of apoptotic process in human pathology and highlights the first description of a ciliary transport defect in OFDS, extending the genetic heterogeneity of this subgroup of ciliopathies">
+		<entity id="s1.e1" charOffset="42-59"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="177-190"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

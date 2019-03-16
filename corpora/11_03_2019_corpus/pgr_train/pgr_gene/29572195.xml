@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29572195">
+	<sentence id="s1" text="Biallelic UNC80 mutations cause infantile hypotonia with psychomotor retardation and characteristic facies 2 (IHPRF2), which is characterized by hypotonia, developmental delay (DD)/intellectual disability (ID), intrauterine growth retardation, postnatal growth retardation and characteristic facial features.">
+		<entity id="s1.e1" charOffset="10-15"
+			type="GENE" text="UNC80" ontology_id="285175"/>
+		<entity id="s1.e2" charOffset="156-175"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="181-204"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, we herein summarize the genotypes and phenotypes of patients with UNC80 mutations reported in the literature, revealing that IHPRF2 is a phenotypically heterogeneous disease.">
+		<entity id="s2.e1" charOffset="79-84"
+			type="GENE" text="UNC80" ontology_id="285175"/>
+		<entity id="s2.e2" charOffset="165-178"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Common facial dysmorphisms include a thin upper lip, a tented upper lip, a triangular face, strabismus and microcephaly.">
+		<entity id="s3.e1" charOffset="7-26"
+			type="HP" text="facial dysmorphisms" ontology_id="HP_0001999"/>
+		<entity id="s3.e2" charOffset="48-51"
+			type="GENE" text="lip" ontology_id="23049"/>
+		<entity id="s3.e3" charOffset="75-90"
+			type="HP" text="triangular face" ontology_id="HP_0000325"/>
+		<entity id="s3.e4" charOffset="92-102"
+			type="HP" text="strabismus" ontology_id="HP_0000486"/>
+		<entity id="s3.e5" charOffset="107-119"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+</document>

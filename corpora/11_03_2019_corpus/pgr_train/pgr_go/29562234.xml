@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29562234">
+	<sentence id="s1" text="Proteomic analysis of 12 tumours from an regulation of cell growth-driven hepatocellular carcinoma mouse model revealed that positive regulation of DNA binding and nucleoside diphosphate phosphorylation, the only known mammalian histidine kinases, were upregulated.">
+		<entity id="s1.e1" charOffset="25-32"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="41-66"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e3" charOffset="74-98"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e4" charOffset="125-159"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s1.e5" charOffset="164-202"
+			type="GO" text="nucleoside diphosphate phosphorylation" ontology_id="GO_0006165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Conversely, expression of the putative histidine phosphatase phosphate-containing compound metabolic process was downregulated specifically in the tumours.">
+		<entity id="s2.e1" charOffset="61-108"
+			type="GO" text="phosphate-containing compound metabolic process" ontology_id="GO_0006796"/>
+		<entity id="s2.e2" charOffset="147-154"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Sustained, hepatic expression of phosphate-containing compound metabolic process in the hepatocellular carcinoma mouse model reduced tumour burden and prevented the loss of liver function.">
+		<entity id="s3.e1" charOffset="33-80"
+			type="GO" text="phosphate-containing compound metabolic process" ontology_id="GO_0006796"/>
+		<entity id="s3.e2" charOffset="88-112"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s3.e3" charOffset="133-139"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Finally, in patients with hepatocellular carcinoma, low expression of phosphate-containing compound metabolic process correlated with increased tumour severity and reduced overall survival.">
+		<entity id="s4.e1" charOffset="26-50"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s4.e2" charOffset="70-117"
+			type="GO" text="phosphate-containing compound metabolic process" ontology_id="GO_0006796"/>
+		<entity id="s4.e3" charOffset="144-150"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Thus, phosphate-containing compound metabolic process is a protein histidine phosphatase and tumour suppressor, suggesting that deregulated histidine phosphorylation is oncogenic">
+		<entity id="s5.e1" charOffset="6-53"
+			type="GO" text="phosphate-containing compound metabolic process" ontology_id="GO_0006796"/>
+		<entity id="s5.e2" charOffset="93-99"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

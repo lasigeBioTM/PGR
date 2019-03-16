@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30115683">
+	<sentence id="s1" text="Both carbohydrate metabolic process65 isomerase of the visual cycle and the rhodopsin visual pigment have recently been identified as critical players in mediating T cell costimulation-induced retinal degeneration.">
+		<entity id="s1.e1" charOffset="5-35"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_0005975"/>
+		<entity id="s1.e2" charOffset="164-184"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<entity id="s1.e3" charOffset="178-198"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

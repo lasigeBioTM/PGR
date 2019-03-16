@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24743044">
+	<sentence id="s1" text="We recently demonstrated that SIRT1 is upregulated in melanoma and its inhibition by a small-molecule, tenovin-1, inhibits cell proliferation and clonogenic survival of melanoma cells, possibly via activating p53.">
+		<entity id="s1.e1" charOffset="30-35"
+			type="GENE" text="SIRT1" ontology_id="23411"/>
+		<entity id="s1.e2" charOffset="54-62"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we employed a gel free quantitative proteomics approach to identify the downstream effectors and targets of SIRT1 in melanoma.">
+		<entity id="s2.e1" charOffset="114-119"
+			type="GENE" text="SIRT1" ontology_id="23411"/>
+		<entity id="s2.e2" charOffset="123-131"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The qRT-PCR and immunoblot analyses showed that tenovin-1 inhibition of SIRT1 resulted in a downregulation of BUB3, BUB1 and BUBR1 in multiple melanoma cell lines.">
+		<entity id="s3.e1" charOffset="72-77"
+			type="GENE" text="SIRT1" ontology_id="23411"/>
+		<entity id="s3.e2" charOffset="110-114"
+			type="GENE" text="BUB3" ontology_id="9184"/>
+		<entity id="s3.e3" charOffset="116-120"
+			type="GENE" text="BUB1" ontology_id="699"/>
+		<entity id="s3.e4" charOffset="125-130"
+			type="GENE" text="BUBR1" ontology_id="701"/>
+		<entity id="s3.e5" charOffset="143-151"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+</document>

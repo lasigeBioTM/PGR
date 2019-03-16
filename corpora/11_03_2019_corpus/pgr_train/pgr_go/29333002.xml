@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29333002">
+	<sentence id="s1" text="In the present article, we review current evidence supporting the role of fatty acid metabolic process in thymic egress, inflammation, and cancer.">
+		<entity id="s1.e1" charOffset="74-102"
+			type="GO" text="fatty acid metabolic process" ontology_id="GO_0006631"/>
+		<entity id="s1.e2" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

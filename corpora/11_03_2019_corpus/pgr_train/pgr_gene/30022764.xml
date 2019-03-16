@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30022764">
+	<sentence id="s1" text="Pompe disease, also called type II glycogen storage disease, is a rare autosomal recessive inherited disease caused by the storage of glycogen in lysosome due to acid α-glucosidase (GAA) deficiency, with the most severe conditions in the skeletal muscle, the myocardium, and the smooth muscle.">
+		<entity id="s1.e1" charOffset="27-31"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="71-90"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="182-185"
+			type="GENE" text="GAA" ontology_id="2548"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

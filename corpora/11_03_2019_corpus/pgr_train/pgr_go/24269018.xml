@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24269018">
+	<sentence id="s1" text="We analyzed the nucleotide repeat lengths of 6 genes (biological_process, neuron projection development, mitotic cell cycle, rRNA processing, protein phosphorylation, and regulation of synaptic plasticity) that have previously been associated with neurologic or neuromuscular disorders, in several hundred sporadic patients with signal transduction and healthy control subjects.">
+		<entity id="s1.e1" charOffset="54-72"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="74-103"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<entity id="s1.e3" charOffset="105-123"
+			type="GO" text="mitotic cell cycle" ontology_id="GO_0000278"/>
+		<entity id="s1.e4" charOffset="125-140"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s1.e5" charOffset="142-165"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e6" charOffset="171-204"
+			type="GO" text="regulation of synaptic plasticity" ontology_id="GO_0048167"/>
+		<entity id="s1.e7" charOffset="201-209"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e8" charOffset="224-243"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

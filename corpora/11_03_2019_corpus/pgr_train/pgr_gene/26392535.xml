@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26392535">
+	<sentence id="s1" text="Although clustering of missense mutations is often regarded as a hallmark of oncoproteins, we observed that a number of tumor suppressors, including FBXW7, VHL, and STK11, also showed such clustering.">
+		<entity id="s1.e1" charOffset="120-125"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="149-154"
+			type="GENE" text="FBXW7" ontology_id="55294"/>
+		<entity id="s1.e3" charOffset="156-159"
+			type="GENE" text="VHL" ontology_id="7428"/>
+		<entity id="s1.e4" charOffset="165-170"
+			type="GENE" text="STK11" ontology_id="6794"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

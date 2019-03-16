@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29700598">
+	<sentence id="s1" text="A better understanding of the mechanisms coupling thermoregulation to energy homeostasis, including the involvement of thermosensitive TRPs, may uncover additional mechanisms underlying the pathogenesis of obesity and its metabolic consequences in humans, opening new strategies for the diagnosis, treatment, and prevention of this disease">
+		<entity id="s1.e1" charOffset="135-138"
+			type="GENE" text="TRP" ontology_id="7306"/>
+		<entity id="s1.e2" charOffset="206-213"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

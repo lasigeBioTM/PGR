@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28847716">
+	<sentence id="s1" text="Then the inflammatory corneal neovascularization (CorNV) model and fungal corneal infections were induced in Balb/c apoptotic process, and mRNA levels of biological_process as well as several matrix-remodeling related genes (proteolysis, collagen catabolic process, positive regulation of endothelial cell proliferation, positive regulation of cell proliferation) were monitored with RT-PCR.">
+		<entity id="s1.e1" charOffset="22-48"
+			type="HP" text="corneal neovascularization" ontology_id="HP_0011496"/>
+		<entity id="s1.e2" charOffset="116-133"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="141-159"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e4" charOffset="225-236"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e5" charOffset="238-264"
+			type="GO" text="collagen catabolic process" ontology_id="GO_0030574"/>
+		<entity id="s1.e6" charOffset="266-319"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s1.e7" charOffset="321-362"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

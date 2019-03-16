@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25645914">
+	<sentence id="s1" text="Mutations in negative regulation of cell proliferation, the gene encoding prolyl 3-hydroxylase-2 (P3H2), have recently been identified in individuals with recessively inherited nonsyndromic severe myopia.">
+		<entity id="s1.e1" charOffset="13-54"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e2" charOffset="197-203"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this study, differences in prolyl 3-hydroxylation were screened in eye tissues from P3h2-null (P3h2(n/n)) and wild-cardiac muscle tissue development apoptotic process to seek tissue-specific effects due the lack of P3H2 activity on post-translational collagen chemistry that could explain myopia.">
+		<entity id="s2.e1" charOffset="118-151"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e2" charOffset="123-140"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e3" charOffset="263-269"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

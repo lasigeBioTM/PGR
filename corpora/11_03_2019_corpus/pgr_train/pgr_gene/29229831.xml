@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29229831">
+	<sentence id="s1" text="Having used a similar strategy for the in silico evaluation of 150 mutations of li>CYP21A2</i>, the disease-causing gene in congenital adrenal hyperplasia, we now provide a full structural explanation for the clinical severity of AME resulting from each known li>HSD11B2</i> missense mutation.">
+		<entity id="s1.e1" charOffset="135-154"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<entity id="s1.e2" charOffset="263-270"
+			type="GENE" text="HSD11B2" ontology_id="3291"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

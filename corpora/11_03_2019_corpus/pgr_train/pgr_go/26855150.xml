@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26855150">
+	<sentence id="s1" text="Cytochrome P450 3A5 (lipid hydroxylation) metabolizes these compounds in tumors of the exocrine-like subtype, and pharmacological or short hairpin RNA (shRNA)-mediated lipid hydroxylation inhibition sensitizes tumor cells to these drugs.">
+		<entity id="s1.e1" charOffset="21-40"
+			type="GO" text="lipid hydroxylation" ontology_id="GO_0002933"/>
+		<entity id="s1.e2" charOffset="73-79"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="197-202"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings designate lipid hydroxylation as a predictor of therapy response and as a tumor cell-autonomous detoxification mechanism that must be overcome to prevent drug resistance">
+		<entity id="s2.e1" charOffset="25-44"
+			type="GO" text="lipid hydroxylation" ontology_id="GO_0002933"/>
+		<entity id="s2.e2" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26654129">
+	<sentence id="s1" text="The Nodal co-receptor Cripto is expressed transiently during normal germ cell development and is ectopically expressed in non-seminomas that arise from germ cell neoplasia in situ, suggesting that its aberrant expression may underlie germ cell dysregulation and hence germ cell cancer.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="GENE" text="Nodal" ontology_id="4838"/>
+		<entity id="s1.e2" charOffset="22-28"
+			type="GENE" text="Cripto" ontology_id="6997"/>
+		<entity id="s1.e3" charOffset="162-171"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="278-284"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we investigated methylation of the Cripto promoter in mouse germ cells and human germ cell cancer and correlated this with the level of CRIPTO protein expression.">
+		<entity id="s2.e1" charOffset="40-46"
+			type="GENE" text="Cripto" ontology_id="6997"/>
+		<entity id="s2.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="141-147"
+			type="GENE" text="CRIPTO" ontology_id="6997"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="CRIPTO protein was strongly expressed in germ cell neoplasia in situ along with embryonal carcinoma, yolk sac tumor and seminomas.">
+		<entity id="s3.e1" charOffset="0-6"
+			type="GENE" text="CRIPTO" ontology_id="6997"/>
+		<entity id="s3.e2" charOffset="51-60"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="106-109"
+			type="GENE" text="sac" ontology_id="55811"/>
+		<entity id="s3.e4" charOffset="110-115"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Further, cleaved CRIPTO was detected in media from seminoma and embryonal carcinoma cell lines, suggesting that cleaved CRIPTO may provide diagnostic indication of germ cell cancer.">
+		<entity id="s4.e1" charOffset="17-23"
+			type="GENE" text="CRIPTO" ontology_id="6997"/>
+		<entity id="s4.e2" charOffset="174-180"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Accordingly, CRIPTO was detectable in serum from 6/15 patients with embryonal carcinoma, 5/15 patients with seminoma, 4/5 patients with germ cell neoplasia in situ cells only and in 1/15 control patients.">
+		<entity id="s5.e1" charOffset="13-19"
+			type="GENE" text="CRIPTO" ontology_id="6997"/>
+		<entity id="s5.e2" charOffset="146-155"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="These findings suggest that CRIPTO expression may be a useful serological marker for diagnostic and/or prognostic purposes during germ cell cancer management.">
+		<entity id="s6.e1" charOffset="28-34"
+			type="GENE" text="CRIPTO" ontology_id="6997"/>
+		<entity id="s6.e2" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+</document>

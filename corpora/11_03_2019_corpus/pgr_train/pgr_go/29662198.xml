@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29662198">
+	<sentence id="s1" text="Tumor-initiating cells (regulation of ARF protein signal transduction) represent a subset of tumor cells with increased self-renewal capability.">
+		<entity id="s1.e1" charOffset="24-69"
+			type="GO" text="regulation of ARF protein signal transduction" ontology_id="GO_0032012"/>
+		<entity id="s1.e2" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="regulation of ARF protein signal transductions display resistance to frontline cancer treatment and retain the ability to repopulate a tumor after therapy, leading to cancer relapse.">
+		<entity id="s2.e1" charOffset="0-45"
+			type="GO" text="regulation of ARF protein signal transduction" ontology_id="GO_0032012"/>
+		<entity id="s2.e2" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="135-140"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="NOTCH signaling has been identified as an important driver of the regulation of ARF protein signal transduction population, yet mechanisms governing regulation of this pathway in cancer remain to be fully elucidated.">
+		<entity id="s3.e1" charOffset="66-111"
+			type="GO" text="regulation of ARF protein signal transduction" ontology_id="GO_0032012"/>
+		<entity id="s3.e2" charOffset="179-185"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Here we identify a novel mechanism of NOTCH regulation and regulation of ARF protein signal transduction induction in breast cancer via the protein polyubiquitination-106b-25 miRNA cluster.">
+		<entity id="s4.e1" charOffset="59-104"
+			type="GO" text="regulation of ARF protein signal transduction" ontology_id="GO_0032012"/>
+		<entity id="s4.e2" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="140-166"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We show that the protein polyubiquitination-106b-25 cluster upregulates cell cycle arrest in multiple breast cancer cell lines, representing both estrogen receptor (ER+) and triple negative breast cancer (TNBC) through direct repression of the E3 ubiquitin ligase, regulation of membrane depolarization.">
+		<entity id="s5.e1" charOffset="17-43"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s5.e2" charOffset="72-89"
+			type="GO" text="cell cycle arrest" ontology_id="GO_0007050"/>
+		<entity id="s5.e3" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e4" charOffset="265-302"
+			type="GO" text="regulation of membrane depolarization" ontology_id="GO_0003254"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e3"
+		    e2="s5.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="We further show that upregulation of cell cycle arrest is necessary for regulation of ARF protein signal transduction induction downstream of protein polyubiquitination-106b-25 in both ER + and TNBC breast cancer cells, and that re-expression of regulation of membrane depolarization is sufficient to reverse miR106b-25-mediated NOTCH1 upregulation and TIC induction.">
+		<entity id="s6.e1" charOffset="37-54"
+			type="GO" text="cell cycle arrest" ontology_id="GO_0007050"/>
+		<entity id="s6.e2" charOffset="61-106"
+			type="GO" text="regulation of ARF protein signal transduction" ontology_id="GO_0032012"/>
+		<entity id="s6.e3" charOffset="131-157"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s6.e4" charOffset="172-178"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e5" charOffset="246-283"
+			type="GO" text="regulation of membrane depolarization" ontology_id="GO_0003254"/>
+		<pair id="s6.p1" e1="s6.e4"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e3"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e1"
+		    e2="s6.e4" pgr="true"/>
+		<pair id="s6.p4" e1="s6.e4"
+		    e2="s6.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Importantly, we demonstrate a significant positive correlation between protein polyubiquitination-106b-25 and cell cycle arrest protein, yet a significant inverse correlation between miR-106b-25 and regulation of membrane depolarization mRNA in human breast cancer, suggesting a critical role for the miR106b-25/NEDD4L/NOTCH1 axis in the disease.">
+		<entity id="s7.e1" charOffset="71-97"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s7.e2" charOffset="110-127"
+			type="GO" text="cell cycle arrest" ontology_id="GO_0007050"/>
+		<entity id="s7.e3" charOffset="199-236"
+			type="GO" text="regulation of membrane depolarization" ontology_id="GO_0003254"/>
+		<entity id="s7.e4" charOffset="216-222"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e4" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e2"
+		    e2="s7.e4" pgr="true"/>
+		<pair id="s7.p3" e1="s7.e3"
+		    e2="s7.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Further, we show for the first time that regulation of membrane depolarization expression alone is significantly associated with a better relapse-free prognosis for breast cancer patients.">
+		<entity id="s8.e1" charOffset="41-78"
+			type="GO" text="regulation of membrane depolarization" ontology_id="GO_0003254"/>
+		<entity id="s8.e2" charOffset="172-178"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s9" text="These data expand our knowledge of the mechanisms underlying NOTCH activation and regulation of ARF protein signal transduction induction in breast cancer, and may provide new avenues for the development of therapies targeting this resistant subset of tumor cells">
+		<entity id="s9.e1" charOffset="82-127"
+			type="GO" text="regulation of ARF protein signal transduction" ontology_id="GO_0032012"/>
+		<entity id="s9.e2" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s9.e3" charOffset="252-257"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e3" pgr="false"/>
+		<pair id="s9.p2" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+	</sentence>
+</document>

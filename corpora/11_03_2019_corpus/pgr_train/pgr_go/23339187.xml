@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23339187">
+	<sentence id="s1" text="Blocking the expression of regulation of transcription by RNA polymerase II, female gamete generation, and regulation of cell shape significantly inhibits breast cancer cell migration induced by let-7b repression.">
+		<entity id="s1.e1" charOffset="27-75"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="77-101"
+			type="GO" text="female gamete generation" ontology_id="GO_0007292"/>
+		<entity id="s1.e3" charOffset="107-131"
+			type="GO" text="regulation of cell shape" ontology_id="GO_0008360"/>
+		<entity id="s1.e4" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

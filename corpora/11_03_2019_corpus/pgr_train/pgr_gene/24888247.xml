@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24888247">
+	<sentence id="s1" text="Polymorphisms in the genes encoding carbamoyl-phosphate synthase 1 (CPS1) and N-acetylglutamate synthase (NAGS) were recently reported to be risk factors for the development of hyperammonemia during valproic acid-based therapy.">
+		<entity id="s1.e1" charOffset="68-72"
+			type="GENE" text="CPS1" ontology_id="1589"/>
+		<entity id="s1.e2" charOffset="106-110"
+			type="GENE" text="NAGS" ontology_id="162417"/>
+		<entity id="s1.e3" charOffset="177-191"
+			type="HP" text="hyperammonemia" ontology_id="HP_0001987"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This study aimed to examine the influence of patient characteristics, including polymorphisms in CPS1 4217CAAAAA and NAGS -3064CAAAAA, on the development of hyperammonemia in Japanese pediatric epilepsy patients.">
+		<entity id="s2.e1" charOffset="97-101"
+			type="GENE" text="CPS1" ontology_id="1589"/>
+		<entity id="s2.e2" charOffset="117-121"
+			type="GENE" text="NAGS" ontology_id="162417"/>
+		<entity id="s2.e3" charOffset="157-171"
+			type="HP" text="hyperammonemia" ontology_id="HP_0001987"/>
+		<entity id="s2.e4" charOffset="194-202"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="With regard to the CPS1 4217CAAAAA polymorphism, we did not observe a significant association with the development of hyperammonemia.">
+		<entity id="s3.e1" charOffset="19-23"
+			type="GENE" text="CPS1" ontology_id="1589"/>
+		<entity id="s3.e2" charOffset="118-132"
+			type="HP" text="hyperammonemia" ontology_id="HP_0001987"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, CPS1 4217CAAAAA polymorphism may not be associated with the development of hyperammonemia in Japanese population">
+		<entity id="s4.e1" charOffset="15-19"
+			type="GENE" text="CPS1" ontology_id="1589"/>
+		<entity id="s4.e2" charOffset="90-104"
+			type="HP" text="hyperammonemia" ontology_id="HP_0001987"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29336840">
+	<sentence id="s1" text="Biallelic loss-of-function mutations in TYROBP and TREM2 cause a rare disease that resembles early-onset frontotemporal dementia with bone lesions called polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy (PLOSL).">
+		<entity id="s1.e1" charOffset="40-46"
+			type="GENE" text="TYROBP" ontology_id="7305"/>
+		<entity id="s1.e2" charOffset="51-56"
+			type="GENE" text="TREM2" ontology_id="54209"/>
+		<entity id="s1.e3" charOffset="105-128"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<entity id="s1.e4" charOffset="211-230"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e5" charOffset="232-237"
+			type="GENE" text="PLOSL" ontology_id="7305"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

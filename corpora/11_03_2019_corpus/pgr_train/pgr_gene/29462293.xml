@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29462293">
+	<sentence id="s1" text="Gap junction beta-1 (GJB1) gene mutations affecting the gap junction protein connexin32 (Cx32) cause the X-linked Charcot-Marie-Tooth disease (CMT1X), a common inherited neuropathy.">
+		<entity id="s1.e1" charOffset="21-25"
+			type="GENE" text="GJB1" ontology_id="2705"/>
+		<entity id="s1.e2" charOffset="56-59"
+			type="GENE" text="gap" ontology_id="5921"/>
+		<entity id="s1.e3" charOffset="170-180"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

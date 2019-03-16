@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29924831">
+	<sentence id="s1" text="In a cohort of Australians of European descent, consisting of 385 keratoconus cases and 396 controls, we screened 21 keratoconus candidate genes: regulation of signal transduction by p53 class mediator, transcription initiation from RNA polymerase I promoter, activation of cysteine-type endopeptidase activity involved in apoptotic process, glomerular basement membrane development, negative regulation of endodermal cell differentiation, cellular response to starvation, biological_process, neutrophil apoptotic process, IL1A, IL1B, ILRN, protein processing involved in protein targeting to mitochondrion, ubiquitin-dependent protein catabolic process, positive regulation of transcription by RNA polymerase II, regulation of GTPase activity, double-strand break repair via homologous recombination, negative regulation of transcription by RNA polymerase II, sodium ion transport, response to superoxide, TF and regulation of transcription, DNA-templated.">
+		<entity id="s1.e1" charOffset="66-77"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<entity id="s1.e2" charOffset="146-201"
+			type="GO" text="regulation of signal transduction by p53 class mediator" ontology_id="GO_1901796"/>
+		<entity id="s1.e3" charOffset="203-258"
+			type="GO" text="transcription initiation from RNA polymerase I promoter" ontology_id="GO_0006361"/>
+		<entity id="s1.e4" charOffset="260-340"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s1.e5" charOffset="272-294"
+			type="GO" text="response to superoxide" ontology_id="GO_0000303"/>
+		<entity id="s1.e6" charOffset="285-327"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e7" charOffset="342-382"
+			type="GO" text="glomerular basement membrane development" ontology_id="GO_0032836"/>
+		<entity id="s1.e8" charOffset="384-438"
+			type="GO" text="negative regulation of endodermal cell differentiation" ontology_id="GO_1903225"/>
+		<entity id="s1.e9" charOffset="440-471"
+			type="GO" text="cellular response to starvation" ontology_id="GO_0009267"/>
+		<entity id="s1.e10" charOffset="473-491"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e11" charOffset="493-521"
+			type="GO" text="neutrophil apoptotic process" ontology_id="GO_0001781"/>
+		<entity id="s1.e12" charOffset="541-606"
+			type="GO" text="protein processing involved in protein targeting to mitochondrion" ontology_id="GO_0006627"/>
+		<entity id="s1.e13" charOffset="608-653"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s1.e14" charOffset="655-712"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e15" charOffset="714-743"
+			type="GO" text="regulation of GTPase activity" ontology_id="GO_0043087"/>
+		<entity id="s1.e16" charOffset="745-800"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e17" charOffset="802-859"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e18" charOffset="861-881"
+			type="GO" text="sodium ion transport" ontology_id="GO_0006814"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e1"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e1"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e16" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e1"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e1"
+		    e2="s1.e18" pgr="false"/>
+	</sentence>
+</document>

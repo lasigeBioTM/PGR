@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28940506">
+	<sentence id="s1" text="Biallelic pathogenic variants in FBXL4 are associated with an encephalopathic mtDNA maintenance defect syndrome that is a multisystem disease characterized by lactic acidemia, developmental delay, and hypotonia.">
+		<entity id="s1.e1" charOffset="33-38"
+			type="GENE" text="FBXL4" ontology_id="26235"/>
+		<entity id="s1.e2" charOffset="159-174"
+			type="HP" text="lactic acidemia" ontology_id="HP_0003128"/>
+		<entity id="s1.e3" charOffset="176-195"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

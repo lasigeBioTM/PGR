@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27871432">
+	<sentence id="s1" text="Mutations in the PGAP2 gene cause hyperphosphatasia mental retardation syndrome-3.">
+		<entity id="s1.e1" charOffset="17-22"
+			type="GENE" text="PGAP2" ontology_id="27315"/>
+		<entity id="s1.e2" charOffset="34-51"
+			type="HP" text="hyperphosphatasia" ontology_id="HP_0003155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

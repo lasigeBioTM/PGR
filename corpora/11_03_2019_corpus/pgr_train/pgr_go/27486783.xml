@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27486783">
+	<sentence id="s1" text="Primary ciliary dyskinesia (motile cilium assembly) is an autosomal-recessive disease due to functional or ultra-structural defects of motile cilia.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-50"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27736906">
+	<sentence id="s1" text="HIV-1 transgenic apoptotic process on the FVB/NJ background (TgFVB) represent a validated model of HIV-associated nephropathy (HIVAN).">
+		<entity id="s1.e1" charOffset="17-34"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="114-125"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A major susceptibility locus, HIVAN1, was previously mapped to chromosome 3A1-A3 in a cross between TgFVB and transcription initiation from RNA polymerase I promoter/EiJ (CAST) strains, and introgression of a 51.9 Mb segment encompassing HIVAN1 from CAST into TgFVB resulted in accelerated development of nephropathy.">
+		<entity id="s2.e1" charOffset="110-165"
+			type="GO" text="transcription initiation from RNA polymerase I promoter" ontology_id="GO_0006361"/>
+		<entity id="s2.e2" charOffset="305-316"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Of these, craniofacial suture morphogenesis, cellular response to starvation, and cellular response to DNA damage stimulus have been implicated in the pathogenesis of nephropathy.">
+		<entity id="s3.e1" charOffset="10-43"
+			type="GO" text="craniofacial suture morphogenesis" ontology_id="GO_0097094"/>
+		<entity id="s3.e2" charOffset="45-76"
+			type="GO" text="cellular response to starvation" ontology_id="GO_0009267"/>
+		<entity id="s3.e3" charOffset="82-122"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s3.e4" charOffset="106-117"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

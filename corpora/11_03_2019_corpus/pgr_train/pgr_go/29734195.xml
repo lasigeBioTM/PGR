@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29734195">
+	<sentence id="s1" text="Mutations of the steroid biosynthetic process gene encoding adrenal 21-hydroxylase cause congenital adrenal hyperplasia (CAH).">
+		<entity id="s1.e1" charOffset="17-45"
+			type="GO" text="steroid biosynthetic process" ontology_id="GO_0006694"/>
+		<entity id="s1.e2" charOffset="100-119"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Mutations affecting both alleles of collagen metabolic process cause a severe, autosomal recessive form of Ehlers-Danlos syndrome (EDS).">
+		<entity id="s2.e1" charOffset="36-62"
+			type="GO" text="collagen metabolic process" ontology_id="GO_0032963"/>
+		<entity id="s2.e2" charOffset="79-98"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Rarely, patients with severe, salt-wasting CAH have deletions of steroid biosynthetic process that extend into collagen metabolic process, resulting in a AAAAAAcontiguous gene syndromeAAAAAA consisting of CAH and EDS.">
+		<entity id="s3.e1" charOffset="65-93"
+			type="GO" text="steroid biosynthetic process" ontology_id="GO_0006694"/>
+		<entity id="s3.e2" charOffset="111-137"
+			type="GO" text="collagen metabolic process" ontology_id="GO_0032963"/>
+		<entity id="s3.e3" charOffset="138-162"
+			type="HP" text="contiguous gene syndrome" ontology_id="HP_0001466"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28901390">
+	<sentence id="s1" text="In this study, we found that tumor suppressor candidate 3 (TUSC3) was downregulated in temozolomide-resistant U87MG cells (U87MG-res cells) and its restoration sensitized U87MG-res cells to temozolomide.">
+		<entity id="s1.e1" charOffset="29-34"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="59-64"
+			type="GENE" text="TUSC3" ontology_id="7991"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="miR‑132 was upregulated in the U87MG-res cells and its overexpression induced temozolomide resistance and the formation of cancer stem cell phenotypes in the U87MG cells.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Thus, our data indicate that miR-132 induces temozolomide resistance and promotes the formation of cancer stem cell phenotypes by targeting TUSC3 in glioblastoma">
+		<entity id="s3.e1" charOffset="29-32"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="140-145"
+			type="GENE" text="TUSC3" ontology_id="7991"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

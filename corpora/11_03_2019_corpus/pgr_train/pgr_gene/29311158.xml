@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29311158">
+	<sentence id="s1" text="LncRNA li>pancEts-1</i> promoted the growth, invasion, and metastasis of neuroblastoma cells li>in vitro</i> and li>in vivo</i> Mechanistically, li>pancEts-1</i> bound to hnRNPK to facilitate its physical interaction with β-catenin, whereas hnRNPK stabilized the β-catenin by inhibiting proteasome-mediated degradation, resulting in transcriptional alteration of target genes associated with neuroblastoma progression.">
+		<entity id="s1.e1" charOffset="73-86"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="171-177"
+			type="GENE" text="hnRNPK" ontology_id="3190"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Both li>pancEts-1</i> and li>hnRNPK</i> were upregulated in clinical neuroblastoma tissues, and were associated with unfavorable outcome of patients.">
+		<entity id="s2.e1" charOffset="29-35"
+			type="GENE" text="hnRNPK" ontology_id="3190"/>
+		<entity id="s2.e2" charOffset="69-82"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overall, our results define an oncogenic role of li>pancEts-1</i> in neuroblastoma progression through hnRNPK-mediated β-catenin stabilization, with potential implications for the clinical therapeutics of neuroblastoma.<b>Significance:</b> These findings reveal the oncogenic functions of a long noncoding RNA in neuroblastoma progression, offering a potential target for clinical therapeutics.">
+		<entity id="s3.e1" charOffset="69-82"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s3.e2" charOffset="103-109"
+			type="GENE" text="hnRNPK" ontology_id="3190"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

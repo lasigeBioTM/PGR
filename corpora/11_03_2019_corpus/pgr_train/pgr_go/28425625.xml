@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28425625">
+	<sentence id="s1" text="Squamous cell carcinoma (negative regulation of peptidase activity) is the most common cancer of the equine eye, frequently originating at the limbus, with the potential to invade the cornea, cause visual impairment, and result in loss of the eye.">
+		<entity id="s1.e1" charOffset="25-66"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s1.e2" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="198-215"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Pedigree analysis in the Haflinger breed supports a positive regulation of transcription by RNA polymerase II recessive mode of inheritance and a genome-wide association study (N = 23) identified a 1.5 Mb locus on ECA12 significantly associated with limbal negative regulation of peptidase activity (P<sub>corrected</sub> = 0.04).">
+		<entity id="s2.e1" charOffset="52-109"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="69-88"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<entity id="s2.e3" charOffset="206-247"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, in humans xeroderma pigmentosum complementation group E, a disease characterized by sun sensitivity and increased risk of cutaneous negative regulation of peptidase activity and melanomas, is explained by mutations in protein polyubiquitination.">
+		<entity id="s3.e1" charOffset="145-186"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s3.e2" charOffset="191-200"
+			type="HP" text="melanomas" ontology_id="HP_0002861"/>
+		<entity id="s3.e3" charOffset="231-257"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

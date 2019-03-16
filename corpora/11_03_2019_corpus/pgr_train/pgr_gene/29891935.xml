@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29891935">
+	<sentence id="s1" text="Functional studies support intraocular pressure-related influences of FMNL2 and LMX1B, with certain Lmx1b mutations causing high IOP and glaucoma resembling POAG in mice.">
+		<entity id="s1.e1" charOffset="70-75"
+			type="GENE" text="FMNL2" ontology_id="114793"/>
+		<entity id="s1.e2" charOffset="80-85"
+			type="GENE" text="LMX1B" ontology_id="4010"/>
+		<entity id="s1.e3" charOffset="100-105"
+			type="GENE" text="Lmx1b" ontology_id="4010"/>
+		<entity id="s1.e4" charOffset="137-145"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24269018">
+	<sentence id="s1" text="We analyzed the nucleotide repeat lengths of 6 genes (ATXN8, ATXN10, PPP2R2B, NOP56, DMPK, and JPH3) that have previously been associated with neurologic or neuromuscular disorders, in several hundred sporadic patients with ALS and healthy control subjects.">
+		<entity id="s1.e1" charOffset="54-59"
+			type="GENE" text="ATXN8" ontology_id="724066"/>
+		<entity id="s1.e2" charOffset="61-67"
+			type="GENE" text="ATXN10" ontology_id="25814"/>
+		<entity id="s1.e3" charOffset="69-76"
+			type="GENE" text="PPP2R2B" ontology_id="5521"/>
+		<entity id="s1.e4" charOffset="78-83"
+			type="GENE" text="NOP56" ontology_id="10528"/>
+		<entity id="s1.e5" charOffset="85-89"
+			type="GENE" text="DMPK" ontology_id="1760"/>
+		<entity id="s1.e6" charOffset="95-99"
+			type="GENE" text="JPH3" ontology_id="57338"/>
+		<entity id="s1.e7" charOffset="201-209"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e8" charOffset="224-227"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<pair id="s1.p1" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

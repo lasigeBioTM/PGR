@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29718273">
+	<sentence id="s1" text="Although humans with X-linked hypophosphatemia (proteolysis) and the proteolysis mouse, a murine homolog of proteolysis, are known to develop degenerative joint disease, the exact mechanism that drives the osteoarthritis (OA) phenotype remains unclear.">
+		<entity id="s1.e1" charOffset="30-46"
+			type="HP" text="hypophosphatemia" ontology_id="HP_0002148"/>
+		<entity id="s1.e2" charOffset="48-59"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e3" charOffset="69-80"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e4" charOffset="126-152"
+			type="HP" text="degenerative joint disease" ontology_id="HP_0002758"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

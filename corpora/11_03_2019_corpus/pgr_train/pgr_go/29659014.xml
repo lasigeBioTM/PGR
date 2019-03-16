@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29659014">
+	<sentence id="s1" text="To evaluate the role of constitutive epigenetic changes in normal body cells of double-strand break repair via homologous recombination/mitotic cytokinesis-mutation negative patients, we have developed a deep bisulfite sequencing assay targeting the promoter regions of 8 tumor suppressor (TS) genes (BRCA1, BRCA2, DNA repair, protein phosphorylation, negative regulation of protein phosphorylation, TP53, mismatch repair, RB1) and the estrogene receptor gene (transcription by RNA polymerase II), which plays a role in tumor progression.">
+		<entity id="s1.e1" charOffset="80-135"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e2" charOffset="86-105"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s1.e3" charOffset="222-227"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="315-325"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e5" charOffset="327-350"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e6" charOffset="352-398"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e7" charOffset="406-421"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s1.e8" charOffset="461-495"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

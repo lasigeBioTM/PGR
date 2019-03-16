@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="15915442">
+	<sentence id="s1" text="Similarly, positive regulation of protein ubiquitination has lymphoid and non-lymphoid forms; cilium assembly has lymphoid and central nervous system (CNS) forms; and cilium assembly and protein heterooligomerization are elevated in lymphoid tissues but both have forms that cluster away from the lymphoid forms.">
+		<entity id="s1.e1" charOffset="11-56"
+			type="GO" text="positive regulation of protein ubiquitination" ontology_id="GO_0031398"/>
+		<entity id="s1.e2" charOffset="54-69"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e3" charOffset="87-94"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e4" charOffset="167-182"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e5" charOffset="187-216"
+			type="GO" text="protein heterooligomerization" ontology_id="GO_0051291"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

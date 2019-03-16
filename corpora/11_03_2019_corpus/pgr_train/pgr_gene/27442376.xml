@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27442376">
+	<sentence id="s1" text="BEN is a primary, chronic tubulointerstitial nephritis characterized with chronic anemia, absence of edema, xantoderma, normal blood pressure and normal findings on the fundus oculi.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="BEN" ontology_id="9569"/>
+		<entity id="s1.e2" charOffset="26-54"
+			type="HP" text="tubulointerstitial nephritis" ontology_id="HP_0001970"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

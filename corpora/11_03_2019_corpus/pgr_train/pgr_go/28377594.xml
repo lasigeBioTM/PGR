@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28377594">
+	<sentence id="s1" text="This study investigated the angiogenesis gene mutation cardiac muscle tissue developments in outpatients clinically diagnosed with granular corneal dystrophy (GCD) prior to phototherapeutic keratectomy (positive regulation of endothelial cell migration), also calculated the mutation rate of subjects with normal corneas, but positive family history.">
+		<entity id="s1.e1" charOffset="28-40"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e2" charOffset="55-88"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0055738"/>
+		<entity id="s1.e3" charOffset="111-128"
+			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
+		<entity id="s1.e4" charOffset="174-223"
+			type="GO" text="positive regulation of endothelial cell migration" ontology_id="GO_0010595"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

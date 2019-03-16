@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23918659">
+	<sentence id="s1" text="Mutations in Vps33 isoforms cause pigment dilution in apoptotic process (vesicle-mediated transport, buff) and Drosophila (heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules) and the neurogenic arthrogryposis, renal dysfunction and cholestasis syndrome in humans (mRNA splice site selection1, vesicle-mediated transport).">
+		<entity id="s1.e1" charOffset="54-71"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="73-99"
+			type="GO" text="vesicle-mediated transport" ontology_id="GO_0016192"/>
+		<entity id="s1.e3" charOffset="123-198"
+			type="GO" text="heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules" ontology_id="GO_0007157"/>
+		<entity id="s1.e4" charOffset="127-141"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s1.e5" charOffset="289-315"
+			type="GO" text="mRNA splice site selection" ontology_id="GO_0006376"/>
+		<entity id="s1.e6" charOffset="295-321"
+			type="GO" text="vesicle-mediated transport" ontology_id="GO_0016192"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

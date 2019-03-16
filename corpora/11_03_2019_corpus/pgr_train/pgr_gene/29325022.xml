@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29325022">
+	<sentence id="s1" text="Mutations of the sigma subunit of the heterotetrameric adaptor-related protein complex 2 (AP2σ) impair signalling of the calcium-sensing receptor (CaSR), and cause familial hypocalciuric hypercalcaemia type 3 (FHH3).">
+		<entity id="s1.e1" charOffset="147-151"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s1.e2" charOffset="187-201"
+			type="HP" text="hypercalcaemia" ontology_id="HP_0003072"/>
+		<entity id="s1.e3" charOffset="202-206"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We hypothesized that additional rare AP2σ variants may also be associated with altered CaSR function and hypercalcaemia, and sought for these by analysing AAAA111 995 exomes (AAAA60 706 from ExAc and dbSNP, and 51 289 from the Geisinger Health System-Regeneron DiscovEHR dataset, which also contains clinical data).">
+		<entity id="s2.e1" charOffset="87-91"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s2.e2" charOffset="105-119"
+			type="HP" text="hypercalcaemia" ontology_id="HP_0003072"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This identified 11 individuals to have 9 non-synonymous AP2σ variants (Arg3His, Arg15His (x3), Ala44Thr, Phe52Tyr, Arg61His, Thr112Met, Met117Ile, Glu122Gly and Glu142Lys) with 3 of the 4 individuals who had Arg15His and Met117Ile AP2σ variants having mild hypercalcaemia, thereby indicating a prevalence of FHH3-associated AP2σ mutations of ∼7.8 per 100 000 individuals.">
+		<entity id="s3.e1" charOffset="257-271"
+			type="HP" text="hypercalcaemia" ontology_id="HP_0003072"/>
+		<entity id="s3.e2" charOffset="347-350"
+			type="GENE" text="per" ontology_id="93210"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

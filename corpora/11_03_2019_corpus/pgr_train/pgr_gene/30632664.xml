@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30632664">
+	<sentence id="s1" text="Birt-Hogg-Dubé (BHD) syndrome is a rare genetic disorder characterized by cutaneous fibrofolliculomas, pulmonary cysts and renal cell carcinomas.">
+		<entity id="s1.e1" charOffset="16-19"
+			type="GENE" text="BHD" ontology_id="201163"/>
+		<entity id="s1.e2" charOffset="123-144"
+			type="HP" text="renal cell carcinomas" ontology_id="HP_0005584"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

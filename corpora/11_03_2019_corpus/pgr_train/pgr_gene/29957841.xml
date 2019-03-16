@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29957841">
+	<sentence id="s1" text="Our previous studies reported gastric cancer cells are insensitive to TRAIL.">
+		<entity id="s1.e1" charOffset="38-44"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="70-75"
+			type="GENE" text="TRAIL" ontology_id="8743"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, whether β-elemene could enhance anti-cancer effects of TRAIL on gastric cancer cells is unknown.">
+		<entity id="s2.e1" charOffset="46-52"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="64-69"
+			type="GENE" text="TRAIL" ontology_id="8743"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In our present study, β-elemene prevented gastric cancer cell viability in dose-dependent manner, and when combined with TRAIL, obviously inhibited proliferation and promoted apoptosis in gastric cancer cells.">
+		<entity id="s3.e1" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="121-126"
+			type="GENE" text="TRAIL" ontology_id="8743"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our results suggest that β-elemene increases the sensitivity of gastric cancer cells to TRAIL partially by promoting the formation of DISC in lipid rafts">
+		<entity id="s4.e1" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="88-93"
+			type="GENE" text="TRAIL" ontology_id="8743"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

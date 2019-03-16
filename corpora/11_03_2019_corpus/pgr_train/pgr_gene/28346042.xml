@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28346042">
+	<sentence id="s1" text="However, the prognostic value of ALDH5A1 in ovarian cancer remains unclear.">
+		<entity id="s1.e1" charOffset="33-40"
+			type="GENE" text="ALDH5A1" ontology_id="7915"/>
+		<entity id="s1.e2" charOffset="52-58"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to explore the relationship between ALDH5A1 and the prognosis of patients with ovarian cancer (OC).">
+		<entity id="s2.e1" charOffset="62-69"
+			type="GENE" text="ALDH5A1" ontology_id="7915"/>
+		<entity id="s2.e2" charOffset="113-119"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In survival analyses, we found that ALDH5A1 was positively linked to prognosis in patients with OC, particularly in those with serous ovarian cancer (SOC).">
+		<entity id="s3.e1" charOffset="36-43"
+			type="GENE" text="ALDH5A1" ontology_id="7915"/>
+		<entity id="s3.e2" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="150-153"
+			type="GENE" text="SOC" ontology_id="91544"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

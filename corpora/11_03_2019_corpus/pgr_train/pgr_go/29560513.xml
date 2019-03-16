@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29560513">
+	<sentence id="s1" text="Grossly, the neoplasm was lobulated, with a fleshy positive regulation of dendrite morphogenesis surface and a diameter ranging between 0.8 and 8 cm (mean 3.4 cm).">
+		<entity id="s1.e1" charOffset="13-21"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="51-96"
+			type="GO" text="positive regulation of dendrite morphogenesis" ontology_id="GO_0050775"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

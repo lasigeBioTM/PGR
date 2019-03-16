@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30125602">
+	<sentence id="s1" text="However, unconditioned NRGS apoptotic process developed less clinically relevant disease, with CDXs forming solid tumors throughout the body, whereas unconditioned NRG mice were incapable of efficiently supporting PDX or human hematopoietic stem cell engraftment.">
+		<entity id="s1.e1" charOffset="28-45"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="114-120"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

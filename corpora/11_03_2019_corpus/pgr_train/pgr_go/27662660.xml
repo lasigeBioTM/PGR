@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27662660">
+	<sentence id="s1" text="We evaluated the molecular heterogeneity of sCRC tumors based on simultaneous assessment of the overall regulation of TOR signaling of both coding mRNA and non-coding RNA genes in primary sCRC tumor samples from 23 consecutive patients and their paired liver metastases.">
+		<entity id="s1.e1" charOffset="27-40"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="49-55"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="104-131"
+			type="GO" text="regulation of TOR signaling" ontology_id="GO_0032006"/>
+		<entity id="s1.e4" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="RHOA, transforming growth factor beta receptor signaling pathway, transforming growth factor beta receptor signaling pathway, embryonic pattern specification, negative regulation of SMAD protein complex assembly, protein phosphorylation, negative regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II-, which thereby emerge as candidate genes to play an important role in CRC tumor metastasis">
+		<entity id="s2.e1" charOffset="6-64"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s2.e2" charOffset="66-124"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_00012479"/>
+		<entity id="s2.e3" charOffset="105-162"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e4" charOffset="126-157"
+			type="GO" text="embryonic pattern specification" ontology_id="GO_0009880"/>
+		<entity id="s2.e5" charOffset="159-211"
+			type="GO" text="negative regulation of SMAD protein complex assembly" ontology_id="GO_0010991"/>
+		<entity id="s2.e6" charOffset="184-189"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e7" charOffset="213-236"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e8" charOffset="238-295"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e7"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

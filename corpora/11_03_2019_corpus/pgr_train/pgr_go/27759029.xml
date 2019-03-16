@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27759029">
+	<sentence id="s1" text="These results suggest (i) apparent allelic heterogeneity in complement activation and genetic heterogeneity in thiamine pyrophosphate transmembrane transport across different ethnic groups; (ii) shared ulcerative colitis genetic etiological factors among Asians; and finally (iii) re-exploration of GWAS findings together with high-density genotyping/sequencing and trans-ethnic fine mapping approaches may help identify shared and population-specific risk variants and enable to explain missing disease heritability">
+		<entity id="s1.e1" charOffset="43-56"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="60-81"
+			type="GO" text="complement activation" ontology_id="GO_0006956"/>
+		<entity id="s1.e3" charOffset="111-157"
+			type="GO" text="thiamine pyrophosphate transmembrane transport" ontology_id="GO_0030974"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

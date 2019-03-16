@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16960806">
+	<sentence id="s1" text="Genetic analysis of a large Indian family with an autosomal dominant cataract phenotype allowed us to identify a novel cataract gene, visual perception.">
+		<entity id="s1.e1" charOffset="69-77"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e2" charOffset="134-151"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To date, visual perception was the only gene in this cluster not associated with either human or murine cataracts.">
+		<entity id="s2.e1" charOffset="9-26"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e2" charOffset="104-112"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Considering that visual perception associates with visual perception and that the latter protein has been implicated in microphthalmia, mutational analysis of CRYBA4 was performed in 32 patients affected with microphthalmia (small eye).">
+		<entity id="s3.e1" charOffset="17-34"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s3.e2" charOffset="51-68"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s3.e3" charOffset="109-123"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This is the first report linking mutations in visual perception to cataractogenesis and microphthalmia">
+		<entity id="s4.e1" charOffset="46-63"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s4.e2" charOffset="67-75"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

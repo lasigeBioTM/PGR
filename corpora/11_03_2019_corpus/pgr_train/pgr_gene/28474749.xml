@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28474749">
+	<sentence id="s1" text="Germline SMARCE1 mutations have been described in hereditary forms of this disease and more recently in small syndromic and sporadic CCM series.">
+		<entity id="s1.e1" charOffset="9-16"
+			type="GENE" text="SMARCE1" ontology_id="6605"/>
+		<entity id="s1.e2" charOffset="124-132"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The diagnostic value of SMARCE1 in distinguishing between CCM and other meningioma variants has not been yet established.">
+		<entity id="s2.e1" charOffset="24-31"
+			type="GENE" text="SMARCE1" ontology_id="6605"/>
+		<entity id="s2.e2" charOffset="72-82"
+			type="HP" text="meningioma" ontology_id="HP_0002858"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We then validated the anti-SMARCE1 antibody specificity by analyzing additional 305 pediatric and adult meningiomas of various subtypes and 15 non-meningioma clear cell tumors by SMARCE1 immunohistochemistry.">
+		<entity id="s3.e1" charOffset="27-34"
+			type="GENE" text="SMARCE1" ontology_id="6605"/>
+		<entity id="s3.e2" charOffset="104-114"
+			type="HP" text="meningioma" ontology_id="HP_0002858"/>
+		<entity id="s3.e3" charOffset="169-175"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

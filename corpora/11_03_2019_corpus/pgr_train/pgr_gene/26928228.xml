@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26928228">
+	<sentence id="s1" text="We found evidence for at least five independent causal variants, each associated with different phenotype sets, including estrogen receptor (ER(+) or ER(-)) and human ERBB2 (HER2(+) or HER2(-)) tumor subtypes, mammographic density and tumor grade.">
+		<entity id="s1.e1" charOffset="167-172"
+			type="GENE" text="ERBB2" ontology_id="2064"/>
+		<entity id="s1.e2" charOffset="174-178"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s1.e3" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The best candidate causal variants for ER(-) tumors lie in four separate enhancer elements, and their risk alleles reduce expression of ESR1, RMND1 and CCDC170, whereas the risk alleles of the strongest candidates for the remaining independent causal variant disrupt a silencer element and putatively increase ESR1 and RMND1 expression.">
+		<entity id="s2.e1" charOffset="4-8"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s2.e2" charOffset="45-50"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="136-140"
+			type="GENE" text="ESR1" ontology_id="2099"/>
+		<entity id="s2.e4" charOffset="142-147"
+			type="GENE" text="RMND1" ontology_id="55005"/>
+		<entity id="s2.e5" charOffset="152-159"
+			type="GENE" text="CCDC170" ontology_id="80129"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

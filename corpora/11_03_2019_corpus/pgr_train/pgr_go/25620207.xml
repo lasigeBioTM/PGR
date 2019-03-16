@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25620207">
+	<sentence id="s1" text="Keppen-Lubinsky syndrome (KPLBS) is a rare disease mainly characterized by severe developmental delay and intellectual disability, microcephaly, large prominent eyes, a narrow nasal bridge, a tented upper nuclear-transcribed mRNA catabolic process, nonsense-mediated decay, a high palate, an open mouth, tightly adherent skin, an aged appearance, and severe generalized nuclear-transcribed mRNA catabolic process, nonsense-mediated decayodystrophy.">
+		<entity id="s1.e1" charOffset="82-101"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="106-129"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="131-143"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="151-165"
+			type="HP" text="prominent eyes" ontology_id="HP_0000520"/>
+		<entity id="s1.e5" charOffset="205-272"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s1.e6" charOffset="276-287"
+			type="HP" text="high palate" ontology_id="HP_0000218"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

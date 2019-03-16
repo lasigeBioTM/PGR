@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27062609">
+	<sentence id="s1" text="In addition to a negative regulation of transcription, DNA-templated mutation in a patient with all core features of the congenital variant of negative regulation of gene expression, we identified a missense (p.Ser240Thr) in regulation of postsynapse organization in a patient who appeared to be seizure free.">
+		<entity id="s1.e1" charOffset="17-68"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="97-135"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<entity id="s1.e3" charOffset="179-217"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<entity id="s1.e4" charOffset="217-224"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Finally, exome sequencing enabled us to characterize a heterozygous de novo missense (p.Val408Ala) in potassium ion transmembrane transport encoding the potassium channel Kv 1.2 in a girl with infantile-onset seizures variant of negative regulation of gene expression.">
+		<entity id="s2.e1" charOffset="102-139"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s2.e2" charOffset="177-184"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="197-235"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our study expands the genetic heterogeneity of negative regulation of gene expression and RTT-like phenotypes.">
+		<entity id="s3.e1" charOffset="30-43"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s3.e2" charOffset="47-85"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

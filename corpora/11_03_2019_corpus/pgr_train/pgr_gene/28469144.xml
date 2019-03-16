@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28469144">
+	<sentence id="s1" text="In a consanguineous Saudi family segregating Usher syndrome type 1 (USH1), NGS of genes for Usher syndrome, deafness and retinal dystrophy and subsequent whole-exome sequencing each failed to identify a mutation.">
+		<entity id="s1.e1" charOffset="60-64"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="108-116"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="121-138"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29061346">
+	<sentence id="s1" text="Over 140 disease-causing mutations have been described so far in GUCY2D, 88% of which cause autosomal recessive Leber congenital amaurosis (LCA) while heterozygous missense mutations cause autosomal dominant cone-rod degeneration (adCRD).">
+		<entity id="s1.e1" charOffset="65-71"
+			type="GENE" text="GUCY2D" ontology_id="3000"/>
+		<entity id="s1.e2" charOffset="92-111"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="140-143"
+			type="GENE" text="LCA" ontology_id="1211"/>
+		<entity id="s1.e4" charOffset="233-236"
+			type="GENE" text="CRD" ontology_id="1406"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

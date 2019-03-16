@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28434238">
+	<sentence id="s1" text="We included 7 consecutive patients with LP with typical intracranial calcifications out of 16 patients with positive regulation of endothelial cell proliferation mutations and investigated the semiologic features, ictal and interictal EEG findings, and long-term prognosis of epilepsy in this genodermatosis.">
+		<entity id="s1.e1" charOffset="108-161"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s1.e2" charOffset="276-284"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Four of them had seizures (57.1%), and focal seizures with motionless histone monoubiquitination were the most common seizure phenotype, originating from bilateral mesial temporal areas, but interictal spikes were scant.">
+		<entity id="s2.e1" charOffset="17-25"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="70-96"
+			type="GO" text="histone monoubiquitination" ontology_id="GO_0010390"/>
+		<entity id="s2.e3" charOffset="118-125"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="154-163"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

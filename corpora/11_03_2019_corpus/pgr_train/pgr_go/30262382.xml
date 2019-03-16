@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30262382">
+	<sentence id="s1" text="Of the included 24 CNS patients with hemangioblastoma (14 intracranial and 10 spinal hemangioblastomas), 5 patients (20.8%) were diagnosed with Von Hippel-Lindau disease (protein ubiquitination).">
+		<entity id="s1.e1" charOffset="37-53"
+			type="HP" text="hemangioblastoma" ontology_id="HP_0010797"/>
+		<entity id="s1.e2" charOffset="171-193"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

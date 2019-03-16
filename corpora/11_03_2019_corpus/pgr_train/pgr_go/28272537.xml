@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28272537">
+	<sentence id="s1" text="Mutations in the phosphatidylcholine biosynthetic process gene have been recently linked to two different phenotypes: one characterized by spondylometaphyseal dysplasia and cone-rod dystrophy (SMD-CRD) and the other by congenital lipodystrophy, severe fatty liver disease, and reduced HDL cholesterol without any retinal or skeletal involvement.">
+		<entity id="s1.e1" charOffset="17-57"
+			type="GO" text="phosphatidylcholine biosynthetic process" ontology_id="GO_0006656"/>
+		<entity id="s1.e2" charOffset="139-168"
+			type="HP" text="spondylometaphyseal dysplasia" ontology_id="HP_0002657"/>
+		<entity id="s1.e3" charOffset="230-243"
+			type="HP" text="lipodystrophy" ontology_id="HP_0009125"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we identified, by next generation sequencing, sequence variants affecting function in the phosphatidylcholine biosynthetic process gene in three young patients with isolated retinal dystrophy from two different Italian families.">
+		<entity id="s2.e1" charOffset="96-136"
+			type="GO" text="phosphatidylcholine biosynthetic process" ontology_id="GO_0006656"/>
+		<entity id="s2.e2" charOffset="180-197"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This is the first report showing that the phosphatidylcholine biosynthetic process gene can be responsible for isolated forms of retinal dystrophy, particularly without any skeletal involvement, thus further expanding the phenotypic spectrum induced by mutations in this gene">
+		<entity id="s3.e1" charOffset="42-82"
+			type="GO" text="phosphatidylcholine biosynthetic process" ontology_id="GO_0006656"/>
+		<entity id="s3.e2" charOffset="129-146"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

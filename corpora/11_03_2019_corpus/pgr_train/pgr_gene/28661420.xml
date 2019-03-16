@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28661420">
+	<sentence id="s1" text="Moreover, Adenomatous polyposis coli 2 (APC2), a tumor suppressor and a negative regulator of Wnt signaling, was found to be the direct target of miR-3648.">
+		<entity id="s1.e1" charOffset="40-44"
+			type="GENE" text="APC2" ontology_id="29882"/>
+		<entity id="s1.e2" charOffset="49-54"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="146-149"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

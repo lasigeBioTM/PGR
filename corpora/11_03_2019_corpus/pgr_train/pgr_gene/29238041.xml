@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29238041">
+	<sentence id="s1" text="In this work we investigated the role of forkhead box O1 (FoxO1) in the transcriptional regulation in macrophages, which affects the anti-tumor functions of tumor-associated macrophages (TAMs).">
+		<entity id="s1.e1" charOffset="58-63"
+			type="GENE" text="FoxO1" ontology_id="2308"/>
+		<entity id="s1.e2" charOffset="138-143"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="First, we showed that TAMs expressed reduced levels of FoxO1, which was associated with their protumoral M2 polarization state.">
+		<entity id="s2.e1" charOffset="55-60"
+			type="GENE" text="FoxO1" ontology_id="2308"/>
+		<entity id="s2.e2" charOffset="97-102"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The suppression of FoxO1 expression in TAM was induced by the hypoxic condition in the tumor microenviroment.">
+		<entity id="s3.e1" charOffset="19-24"
+			type="GENE" text="FoxO1" ontology_id="2308"/>
+		<entity id="s3.e2" charOffset="87-92"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, we used FoxO1 conditional knockout mice to show that FoxO1 deficiency in myeloid cells exacerbates tumor growth.">
+		<entity id="s4.e1" charOffset="21-26"
+			type="GENE" text="FoxO1" ontology_id="2308"/>
+		<entity id="s4.e2" charOffset="48-52"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s4.e3" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These results demonstrate that the protumoral property of TAMs is induced by the hypoxia-triggered FoxO1 deficiency, which could be a potential target of novel anti-tumor therapies">
+		<entity id="s5.e1" charOffset="38-43"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="99-104"
+			type="GENE" text="FoxO1" ontology_id="2308"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

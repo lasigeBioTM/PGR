@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28496128">
+	<sentence id="s1" text="To explore novel molecular mechanisms underlying obesity, we applied a systems genetics framework to integrate risk genetic loci from the largest body cell adhesion mediated by integrin index (BMI) genome-wide association studies (GWAS) meta-analysis with mRNA and microRNA profiling in adipose tissue from 200 subjects.">
+		<entity id="s1.e1" charOffset="49-56"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="151-185"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We identified eight mRNA splicing, via spliceosome genes which likely play important roles in obesity metabolism and identified microRNAs that significantly negatively correlated with hub genes.">
+		<entity id="s2.e1" charOffset="20-50"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s2.e2" charOffset="94-101"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The results indicated that increased regulation of heart rate in adipose tissue may have a significant therapeutic potential in reducing obesity and insulin resistance">
+		<entity id="s3.e1" charOffset="37-61"
+			type="GO" text="regulation of heart rate" ontology_id="GO_0002027"/>
+		<entity id="s3.e2" charOffset="137-144"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

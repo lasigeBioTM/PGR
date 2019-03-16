@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26747400">
+	<sentence id="s1" text="In summary, the regulatory role of lysophospholipid transport deepens our knowledge of the function of the BBB, potentially contributing to the effective drug delivery in the treatments for neurodegenerative diseases, brain tumors, and life-threatening infections in the CNS.">
+		<entity id="s1.e1" charOffset="35-61"
+			type="GO" text="lysophospholipid transport" ontology_id="GO_0051977"/>
+		<entity id="s1.e2" charOffset="190-216"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e3" charOffset="224-230"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

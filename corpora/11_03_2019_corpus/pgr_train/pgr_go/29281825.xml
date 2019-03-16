@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29281825">
+	<sentence id="s1" text="Focal cortical dysplasia (FCD) and hemimegalencephaly (proteolysis) are epileptogenic neurodevelopmental malformations caused by mutations in regulation of cell growth pathway genes.">
+		<entity id="s1.e1" charOffset="6-24"
+			type="HP" text="cortical dysplasia" ontology_id="HP_0002539"/>
+		<entity id="s1.e2" charOffset="35-53"
+			type="HP" text="hemimegalencephaly" ontology_id="HP_0007206"/>
+		<entity id="s1.e3" charOffset="55-66"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e4" charOffset="142-167"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

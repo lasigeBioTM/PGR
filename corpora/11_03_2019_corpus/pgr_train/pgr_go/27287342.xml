@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27287342">
+	<sentence id="s1" text="We tried to elucidate the role of three 3p21.3 TSGs: negative regulation of cell proliferation, cell adhesion and mismatch repair, in non-small cell lung cancer (NSCLC).">
+		<entity id="s1.e1" charOffset="53-94"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e2" charOffset="96-109"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s1.e3" charOffset="114-129"
+			type="GO" text="mismatch repair" ontology_id="GO_0006298"/>
+		<entity id="s1.e4" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In case of negative regulation of cell proliferation and cell adhesion, expression levels were decreased in 71-78 % of tumor samples and significantly different between tumor and normal tissues (P = 0.0001).">
+		<entity id="s2.e1" charOffset="11-52"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s2.e2" charOffset="57-70"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s2.e3" charOffset="111-116"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="cell adhesion could also be regarded as a diagnostic marker differentiating NSCLC subtypes, as its expression level was significantly lower in squamous cell carcinoma (P = 0.001).">
+		<entity id="s3.e1" charOffset="0-13"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s3.e2" charOffset="143-166"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

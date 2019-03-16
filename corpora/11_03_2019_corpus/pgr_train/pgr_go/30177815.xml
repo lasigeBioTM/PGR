@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30177815">
+	<sentence id="s1" text="As proof of concept, we applied CRAFT to epilepsy and predicted the tyrosine kinase receptor peptidyl-tyrosine phosphorylation as a potential therapeutic target.">
+		<entity id="s1.e1" charOffset="41-49"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="93-126"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The predicted effect of peptidyl-tyrosine phosphorylation blockade in attenuating epilepsy seizures was validated in three pre-clinical models of epilepsy.">
+		<entity id="s2.e1" charOffset="24-57"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s2.e2" charOffset="82-90"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="91-99"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These results highlight CRAFT as a systems-level framework for target discovery and suggest peptidyl-tyrosine phosphorylation blockade as a novel therapeutic strategy in epilepsy.">
+		<entity id="s3.e1" charOffset="92-125"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s3.e2" charOffset="170-178"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

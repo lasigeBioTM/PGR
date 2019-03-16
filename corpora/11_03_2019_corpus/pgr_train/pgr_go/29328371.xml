@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29328371">
+	<sentence id="s1" text="Despite extensive research on cancer stem cells in colorectal cancer, the negative regulation of transcription by RNA polymerase II of stem cell markers on patient survival remains unclear, particularly in those with distant metastasis.">
+		<entity id="s1.e1" charOffset="30-36"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="74-131"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we focused on colon cancer with peritoneal metastasis and investigated the association between the expression of CD133, aldehyde dehydrogenase-1 (oxidation-reduction process) and leucine-rich repeating G-protein coupled receptor-5 (positive regulation of canonical Wnt signaling pathway), and disease prognosis.">
+		<entity id="s2.e1" charOffset="35-41"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="161-188"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s2.e3" charOffset="247-301"
+			type="GO" text="positive regulation of canonical Wnt signaling pathway" ontology_id="GO_0090263"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The expression of CD133, oxidation-reduction process and positive regulation of canonical Wnt signaling pathway was found to be positive in 55.6, 47.2 and 78.9% of the primary tumour samples, respectively.">
+		<entity id="s3.e1" charOffset="25-52"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s3.e2" charOffset="57-111"
+			type="GO" text="positive regulation of canonical Wnt signaling pathway" ontology_id="GO_0090263"/>
+		<entity id="s3.e3" charOffset="126-132"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

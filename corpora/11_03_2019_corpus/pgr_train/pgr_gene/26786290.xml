@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26786290">
+	<sentence id="s1" text="The genes with the highest number of hypermethylated CpG sites in INRG M tumors are TERT, PCDHGA4, DLX5, and DLX6-AS1.">
+		<entity id="s1.e1" charOffset="73-78"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="84-88"
+			type="GENE" text="TERT" ontology_id="7015"/>
+		<entity id="s1.e3" charOffset="109-113"
+			type="GENE" text="DLX6" ontology_id="1750"/>
+		<entity id="s1.e4" charOffset="114-116"
+			type="GENE" text="AS" ontology_id="3106"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="For validation, we used a set of independent tumors previously analyzed with the Illumina 27K methylation arrays, which confirmed the differentially methylated sites.">
+		<entity id="s2.e1" charOffset="26-29"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e2" charOffset="45-50"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

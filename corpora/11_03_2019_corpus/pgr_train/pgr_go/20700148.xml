@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20700148">
+	<sentence id="s1" text="Independently, another group has recently observed polyprenol catabolic process mutations in several families with a cardiac muscle tissue development 1 congenital disorder of glycosylation (CDG type Ix, OMIM 212067), mental retardation, cerebellar ataxia and eye disorders.">
+		<entity id="s1.e1" charOffset="51-79"
+			type="GO" text="polyprenol catabolic process" ontology_id="GO_0016095"/>
+		<entity id="s1.e2" charOffset="95-128"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="216-233"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

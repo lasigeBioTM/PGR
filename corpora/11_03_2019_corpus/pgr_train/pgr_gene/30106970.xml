@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30106970">
+	<sentence id="s1" text="Succinate dehydrogenase subunit B and D (SDHB and SDHD) mutations represent the most frequent cause of hereditary pheochromocytoma and paraganglioma (PPGL).">
+		<entity id="s1.e1" charOffset="41-45"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<entity id="s1.e2" charOffset="50-54"
+			type="GENE" text="SDHD" ontology_id="6392"/>
+		<entity id="s1.e3" charOffset="135-148"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e4" charOffset="151-154"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In SDHB-related syndrome, PPGL maintenance seems to be reduced compared to SDHD (p = 0.04 vs 0.95) due to higher probability of tumor cell regression in SDHB vs SDHD (p = 0.87 vs 0.00).">
+		<entity id="s2.e1" charOffset="3-7"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<entity id="s2.e2" charOffset="27-30"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<entity id="s2.e3" charOffset="75-79"
+			type="GENE" text="SDHD" ontology_id="6392"/>
+		<entity id="s2.e4" charOffset="128-133"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="However, when SDHB-tumors give rise to metastases, metastatic cells are able to thrive with decreased probability of regression compared with SDHD counterparts (p = 0.17 vs 0.89).">
+		<entity id="s3.e1" charOffset="14-18"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<entity id="s3.e2" charOffset="19-24"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="142-146"
+			type="GENE" text="SDHD" ontology_id="6392"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="These findings align with data suggesting that SDHD-related PPGL require less genetic events for tumor initiation and maintenance compared to those related to SDHB, but fail to initiate biology that promotes metastatic spread and metastatic cell survival in host tissues.">
+		<entity id="s4.e1" charOffset="47-51"
+			type="GENE" text="SDHD" ontology_id="6392"/>
+		<entity id="s4.e2" charOffset="61-64"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<entity id="s4.e3" charOffset="97-102"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="159-163"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="By contrast, the higher number of genetic abnormalities required for tumor initiation and maintenance in SDHB PPGL result in a lower penetrance of PGL, but when cells give rise to metastases they are assumed to be better adapted to sustain survival.">
+		<entity id="s5.e1" charOffset="69-74"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="105-109"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<entity id="s5.e3" charOffset="111-114"
+			type="GENE" text="PGL" ontology_id="6392"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+</document>

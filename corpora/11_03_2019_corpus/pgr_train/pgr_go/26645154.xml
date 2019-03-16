@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26645154">
+	<sentence id="s1" text="On comparing cytoskeletal anchoring at nuclear membrane and double-strand break repair via homologous recombination localization in the ovarian cancer cell lines SKOV-3 and Caov-3, Nesprin-2 and BRCA1 were localized to the NE envelope and the nucleus in SKOV-3, respectively, and to the cytoplasm in Caov-3 cells.">
+		<entity id="s1.e1" charOffset="13-55"
+			type="GO" text="cytoskeletal anchoring at nuclear membrane" ontology_id="GO_0090286"/>
+		<entity id="s1.e2" charOffset="60-115"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e3" charOffset="94-100"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

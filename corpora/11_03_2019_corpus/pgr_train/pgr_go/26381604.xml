@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26381604">
+	<sentence id="s1" text="Patients with mitochondrial L-ornithine transmembrane transport and DNA replication initiation mutations appear to have the most severe short stature and microcephaly.">
+		<entity id="s1.e1" charOffset="14-63"
+			type="GO" text="mitochondrial L-ornithine transmembrane transport" ontology_id="GO_1990575"/>
+		<entity id="s1.e2" charOffset="68-94"
+			type="GO" text="DNA replication initiation" ontology_id="GO_0006270"/>
+		<entity id="s1.e3" charOffset="114-127"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e4" charOffset="132-144"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

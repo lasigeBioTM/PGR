@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30204612">
+	<sentence id="s1" text="Subsequent mutation analyses identified tumor-associated calcium signal transducer 2 (TACSTD2; former name, M1S1) as the gene responsible for GDLD.">
+		<entity id="s1.e1" charOffset="40-45"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="86-93"
+			type="GENE" text="TACSTD2" ontology_id="4070"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

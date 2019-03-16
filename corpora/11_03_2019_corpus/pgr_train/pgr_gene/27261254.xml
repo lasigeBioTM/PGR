@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27261254">
+	<sentence id="s1" text="Mutations in ST3GAL5, which codes for an enzyme early in brain ganglioside biosynthesis, result in an early-onset seizure disorder with profound motor and cognitive decay, whereas mutations in B4GALNT1, a gene encoding a later step, result in hereditary spastic paraplegia accompanied by intellectual deficits.">
+		<entity id="s1.e1" charOffset="13-20"
+			type="GENE" text="ST3GAL5" ontology_id="8869"/>
+		<entity id="s1.e2" charOffset="114-121"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="193-201"
+			type="GENE" text="B4GALNT1" ontology_id="2583"/>
+		<entity id="s1.e4" charOffset="227-231"
+			type="GENE" text="step" ontology_id="84867"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

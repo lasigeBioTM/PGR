@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28954601">
+	<sentence id="s1" text="Human placenta-derived mesenchymal stem cell (hPMSC) transplantation has a potential to restore ovarian dysfunction associated with premature ovarian failure (POF), while the exact function of the Treg cells in the transplantation still needs to be further investigated.">
+		<entity id="s1.e1" charOffset="132-157"
+			type="HP" text="premature ovarian failure" ontology_id="HP_0008209"/>
+		<entity id="s1.e2" charOffset="159-162"
+			type="GENE" text="POF" ontology_id="1730"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

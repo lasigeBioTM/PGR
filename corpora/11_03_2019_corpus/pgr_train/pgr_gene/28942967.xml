@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28942967">
+	<sentence id="s1" text="Despite significant progress, the high genetic heterogeneity of these disorders often requires large sample sizes to identify a critical mass of individuals with disease-causing mutations in a single gene.">
+		<entity id="s1.e1" charOffset="47-60"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="137-141"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="By pooling genetic findings across multiple studies, we have identified six individuals with severe developmental delay (6/6), refractory seizures (5/6), and similar dysmorphic features (3/6), each harboring a de novo mutation in PPP3CA.">
+		<entity id="s2.e1" charOffset="100-119"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e2" charOffset="138-146"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="230-236"
+			type="GENE" text="PPP3CA" ontology_id="5530"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Based on these findings, we securely implicate PPP3CA in early-onset refractory epilepsy and further support the emerging role for synaptic dysregulation in epilepsy">
+		<entity id="s3.e1" charOffset="47-53"
+			type="GENE" text="PPP3CA" ontology_id="5530"/>
+		<entity id="s3.e2" charOffset="80-88"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

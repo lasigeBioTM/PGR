@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27148972">
+	<sentence id="s1" text="LTBP4 was identified as a genetic modifier of muscular dystrophy in mice and humans.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="LTBP4" ontology_id="8425"/>
+		<entity id="s1.e2" charOffset="46-64"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e3" charOffset="68-72"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="An in-frame insertion polymorphism in the murine Ltbp4 gene associates with partial protection against muscular dystrophy.">
+		<entity id="s2.e1" charOffset="49-54"
+			type="GENE" text="Ltbp4" ontology_id="8425"/>
+		<entity id="s2.e2" charOffset="103-121"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In humans, nonsynonymous single nucleotide polymorphisms in LTBP4 associate with prolonged ambulation in Duchenne muscular dystrophy.">
+		<entity id="s3.e1" charOffset="60-65"
+			type="GENE" text="LTBP4" ontology_id="8425"/>
+		<entity id="s3.e2" charOffset="114-132"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="To better understand LTBP4 and its role in modifying muscular dystrophy, we created transgenic mice overexpressing the protective murine allele of LTBP4 specifically in mature myofibers using the human skeletal actin promoter.">
+		<entity id="s4.e1" charOffset="21-26"
+			type="GENE" text="LTBP4" ontology_id="8425"/>
+		<entity id="s4.e2" charOffset="53-71"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s4.e3" charOffset="95-99"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In order to assess the effects of LTBP4 in muscular dystrophy, LTBP4 overexpressing mice were bred to mdx mice, a model of Duchenne muscular dystrophy.">
+		<entity id="s5.e1" charOffset="34-39"
+			type="GENE" text="LTBP4" ontology_id="8425"/>
+		<entity id="s5.e2" charOffset="43-61"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s5.e3" charOffset="84-88"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

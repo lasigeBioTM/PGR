@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29860398">
+	<sentence id="s1" text="Amyotrophic lateral sclerosis (ALS) is a devastating adult-onset progressive neurodegenerative disease characterized by upper and lower motoneuron degeneration.">
+		<entity id="s1.e1" charOffset="31-34"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e2" charOffset="77-102"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The inhibition of CTGF/CCN2 with the monoclonal neutralizing antibody FG-3019 reduces fibrosis in several chronic disorders including the mdx mice, a murine model for Duchenne muscular dystrophy (DMD).">
+		<entity id="s2.e1" charOffset="142-146"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="176-194"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s2.e3" charOffset="196-199"
+			type="GENE" text="DMD" ontology_id="1756"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

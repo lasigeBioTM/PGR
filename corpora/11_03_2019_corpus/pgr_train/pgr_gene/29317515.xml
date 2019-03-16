@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29317515">
+	<sentence id="s1" text="Clear cell renal cell carcinoma (ccRCC) is an heterogeneous tumour at architectural, cellular and molecular level, a reason why the 2014 International Society of Urological Pathology consensus recommended wide sampling of RCC masses to include at least 1 block/cm of tumour together with perpendicular sections of the tumour/perinephric fat interface and the tumour/renal sinus interface.">
+		<entity id="s1.e1" charOffset="35-38"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<entity id="s1.e2" charOffset="46-59"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="60-66"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="337-340"
+			type="GENE" text="fat" ontology_id="948"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We observed the presence of the mutation at pH1047R of li>PIK3CA</i> gene in five samples of the tumour, while the remaining 15 samples did not show any mutation at li>PIK3CA</i> or any other investigated gene.">
+		<entity id="s2.e1" charOffset="58-64"
+			type="GENE" text="PIK3CA" ontology_id="5290"/>
+		<entity id="s2.e2" charOffset="97-103"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="There is a great need to develop novel RCC sampling strategies to overcome tumour heterogeneity prior to define precision oncology strategies">
+		<entity id="s3.e1" charOffset="11-16"
+			type="GENE" text="great" ontology_id="122042"/>
+		<entity id="s3.e2" charOffset="39-42"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<entity id="s3.e3" charOffset="75-81"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="82-95"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

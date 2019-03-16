@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26055424">
+	<sentence id="s1" text="We performed a clinical, neurophysiological (in vivo electroencephalography-auditory-evoked related potentials) and genetic (whole-exome sequencing) follow-up analysis of two families with known deleterious NLGN4X gene mutations (either truncating or overexpressing) present in individuals with ASD and/or with intellectual disability (ID).">
+		<entity id="s1.e1" charOffset="207-213"
+			type="GENE" text="NLGN4X" ontology_id="57502"/>
+		<entity id="s1.e2" charOffset="311-334"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

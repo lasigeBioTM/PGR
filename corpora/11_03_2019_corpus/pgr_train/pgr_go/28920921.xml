@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28920921">
+	<sentence id="s1" text="The short-limbed dwarfism metaphyseal chondrodysplasia cardiac muscle tissue development Schmid (MCDS) is linked to mutations in type X collagen, which increase ER stress by inducing misfolding of the mutant protein and subsequently disrupting hypertrophic chondrocyte differentiation.">
+		<entity id="s1.e1" charOffset="4-25"
+			type="HP" text="short-limbed dwarfism" ontology_id="HP_0008873"/>
+		<entity id="s1.e2" charOffset="55-88"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In MCDS apoptotic process expressing the Col10a1.pN617K mutation, CBZ reduced the MCDS-associated expansion of the growth plate hypertrophic zone, attenuated enhanced expression of ER stress markers such as cellular response to glucose starvation and response to endoplasmic reticulum stress, increased bone growth, and reduced skeletal dysplasia.">
+		<entity id="s2.e1" charOffset="8-25"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="207-246"
+			type="GO" text="cellular response to glucose starvation" ontology_id="GO_0042149"/>
+		<entity id="s2.e3" charOffset="251-291"
+			type="GO" text="response to endoplasmic reticulum stress" ontology_id="GO_0034976"/>
+		<entity id="s2.e4" charOffset="256-274"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

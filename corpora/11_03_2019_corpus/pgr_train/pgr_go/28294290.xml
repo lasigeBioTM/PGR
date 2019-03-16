@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28294290">
+	<sentence id="s1" text="We analyzed commonly reported European and Asian obesity-related gene variants in a Mexican-Mestizo population through each single nucleotide polymorphism (SNP) and a genetic risk score (negative regulation of apoptotic process) based on 23 selected SNPs.">
+		<entity id="s1.e1" charOffset="49-56"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="187-227"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="ME attenuated the influence of positive regulation of macrophage derived foam cell differentiation rs512535 and negative regulation of transcription by RNA polymerase II rs361525 on obesity risk in FMP.">
+		<entity id="s2.e1" charOffset="31-98"
+			type="GO" text="positive regulation of macrophage derived foam cell differentiation" ontology_id="GO_0010744"/>
+		<entity id="s2.e2" charOffset="112-169"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e3" charOffset="129-136"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We report associations for 6 out of 23 SNPs and for the negative regulation of apoptotic process, which confer obesity risk, a novel finding for Mexican-Mestizo physically active population.">
+		<entity id="s3.e1" charOffset="56-96"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<entity id="s3.e2" charOffset="111-118"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24689825">
+	<sentence id="s1" text="Few studies have examined the roles of CRELD1 and GATA4 in cardiac abnormalities or their association with pulmonary artery histopathology.">
+		<entity id="s1.e1" charOffset="39-45"
+			type="GENE" text="CRELD1" ontology_id="78987"/>
+		<entity id="s1.e2" charOffset="50-55"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s1.e3" charOffset="59-80"
+			type="HP" text="cardiac abnormalities" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Children with DS have an elevated risk of pulmonary arterial hypertension (PAH).">
+		<entity id="s2.e1" charOffset="42-73"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s2.e2" charOffset="75-78"
+			type="GENE" text="PAH" ontology_id="5053"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

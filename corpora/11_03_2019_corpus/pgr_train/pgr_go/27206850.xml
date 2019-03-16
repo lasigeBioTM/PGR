@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27206850">
+	<sentence id="s1" text="We identified a new susceptibility locus for bladder cancer at 5q12.3, located in the intron of protein peptidyl-prolyl isomerization (rs2042329), that was significantly associated with disease risk (OR = 1.40; P = 4.61 × 10(-11)).">
+		<entity id="s1.e1" charOffset="53-59"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="96-133"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The rs2042329 risk allele was also related to significantly increased expression levels of protein peptidyl-prolyl isomerization mRNA and protein in bladder cancer tissues from Chinese patients.">
+		<entity id="s2.e1" charOffset="91-128"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<entity id="s2.e2" charOffset="157-163"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Additional functional analyses suggested that protein peptidyl-prolyl isomerization played an oncogenic role in bladder cancer by inducing cell proliferation and suppressing apoptosis.">
+		<entity id="s3.e1" charOffset="46-83"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<entity id="s3.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

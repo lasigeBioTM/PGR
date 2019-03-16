@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25111228">
+	<sentence id="s1" text="Mutations in the gene encoding the single transmembrane receptor multiple epidermal growth factor-like domain 10 (MEGF10) cause an autosomal recessive congenital muscle disease in humans.">
+		<entity id="s1.e1" charOffset="114-120"
+			type="GENE" text="MEGF10" ontology_id="84466"/>
+		<entity id="s1.e2" charOffset="131-150"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although mammalian MEGF10 is expressed in the central nervous system as well as in skeletal muscle, patients carrying mutations in MEGF10 do not show symptoms of central nervous system dysfunction.">
+		<entity id="s2.e1" charOffset="19-25"
+			type="GENE" text="MEGF10" ontology_id="84466"/>
+		<entity id="s2.e2" charOffset="46-53"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The histological and behavioral abnormalities seen in the affected flies set the stage for further studies examining the signaling pathway modulated by MEGF10/Drpr in muscle, as well as assessing the effects of genetic and/or pharmacological manipulations on the observed muscle defects.">
+		<entity id="s3.e1" charOffset="21-45"
+			type="HP" text="behavioral abnormalities" ontology_id="HP_0000708"/>
+		<entity id="s3.e2" charOffset="73-76"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s3.e3" charOffset="152-158"
+			type="GENE" text="MEGF10" ontology_id="84466"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

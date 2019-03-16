@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28898690">
+	<sentence id="s1" text="positive regulation of transcription by RNA polymerase II is a high-risk neuroblastoma susceptibility gene, but how LMO1 cooperates with positive regulation of gene expression in neuroblastoma tumorigenesis is unclear.">
+		<entity id="s1.e1" charOffset="0-57"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="73-86"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="137-175"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="develop a novel zebrafish model that elucidates a mechanism by which positive regulation of transcription by RNA polymerase II and positive regulation of gene expression synergistically initiate neuroblastoma and contribute to metastatic disease progression">
+		<entity id="s2.e1" charOffset="69-126"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="131-169"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s2.e3" charOffset="161-174"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

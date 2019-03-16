@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27305985">
+	<sentence id="s1" text="In humans, narcolepsy is a sleep disorder that is characterized by sleepiness, cataplexy and rapid eye movement (REM) sleep abnormalities.">
+		<entity id="s1.e1" charOffset="11-21"
+			type="HP" text="narcolepsy" ontology_id="HP_0030050"/>
+		<entity id="s1.e2" charOffset="113-116"
+			type="GENE" text="REM" ontology_id="28954"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Essential hypersomnia (EHS) is another type of sleep disorder that is characterized by excessive daytime sleepiness without cataplexy.">
+		<entity id="s2.e1" charOffset="10-21"
+			type="HP" text="hypersomnia" ontology_id="HP_0100786"/>
+		<entity id="s2.e2" charOffset="39-43"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Reported susceptibility SNPs for narcolepsy in the Japanese population, CPT1B (carnitine palmitoyltransferase 1B), TRA@ (T-cell receptor alpha) and P2RY11 (purinergic receptor P2Y, G-protein coupled, 11), were found to explain 0.8% of narcolepsy onset (P<sub>whole genome without HLA-DQB1*06:02</sub>=9.74 × 10<sup>-2</sup>).">
+		<entity id="s3.e1" charOffset="33-43"
+			type="HP" text="narcolepsy" ontology_id="HP_0030050"/>
+		<entity id="s3.e2" charOffset="72-77"
+			type="GENE" text="CPT1B" ontology_id="1375"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

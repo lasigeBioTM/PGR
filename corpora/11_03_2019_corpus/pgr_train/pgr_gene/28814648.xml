@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28814648">
+	<sentence id="s1" text="ZC4H2 is a small nuclear protein associated with intellectual disability and neural development in humans.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="ZC4H2" ontology_id="55906"/>
+		<entity id="s1.e2" charOffset="49-72"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

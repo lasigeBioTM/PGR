@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30459815">
+	<sentence id="s1" text="Silencing expression of G1/S transition of mitotic cell cycle, transforming growth factor beta receptor signaling pathway and regulation of transcription, DNA-templated in the human oral cancer cell line OECM-1 confirmed that those genes play essential roles in oral cancer cell invasion.">
+		<entity id="s1.e1" charOffset="24-61"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e2" charOffset="63-121"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s1.e3" charOffset="94-100"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="126-168"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Analysis of clinical samples of oral cancer found a strong correlation of these genes with short survival, especially transforming growth factor beta receptor signaling pathway expression associated with metastasis.">
+		<entity id="s2.e1" charOffset="37-43"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="118-176"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study identified a unique gene signature - G1/S transition of mitotic cell cycle, transforming growth factor beta receptor signaling pathway and regulation of transcription, DNA-templated - which may be involved in oral cancer lymph node metastasis">
+		<entity id="s3.e1" charOffset="47-84"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s3.e2" charOffset="86-144"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s3.e3" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="149-191"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e4"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

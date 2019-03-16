@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28294290">
+	<sentence id="s1" text="We analyzed commonly reported European and Asian obesity-related gene variants in a Mexican-Mestizo population through each single nucleotide polymorphism (SNP) and a genetic risk score (GRS) based on 23 selected SNPs.">
+		<entity id="s1.e1" charOffset="49-56"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="187-190"
+			type="GENE" text="GRS" ontology_id="597"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="ME attenuated the influence of APOB rs512535 and TNFA rs361525 on obesity risk in FMP.">
+		<entity id="s2.e1" charOffset="31-35"
+			type="GENE" text="APOB" ontology_id="338"/>
+		<entity id="s2.e2" charOffset="49-53"
+			type="GENE" text="TNFA" ontology_id="7124"/>
+		<entity id="s2.e3" charOffset="66-73"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We report associations for 6 out of 23 SNPs and for the GRS, which confer obesity risk, a novel finding for Mexican-Mestizo physically active population.">
+		<entity id="s3.e1" charOffset="56-59"
+			type="GENE" text="GRS" ontology_id="597"/>
+		<entity id="s3.e2" charOffset="74-81"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21464332">
+	<sentence id="s1" text="Gabapentin (fatty acid beta-oxidation; Neurontin) and pregabalin (PGB; Lyrica, S-(+)-3-isobutylgaba) are used clinically to treat several disorders associated with excessive or inappropriate excitability, including epilepsy; pain from diabetic neuropathy, postherpetic neuralgia, and fibromyalgia; and generalized anxiety disorder.">
+		<entity id="s1.e1" charOffset="12-37"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e2" charOffset="215-223"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="244-254"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

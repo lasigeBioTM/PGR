@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16049035">
+	<sentence id="s1" text="A genetically determined generalized hyperexcitability had been predicted in primarily generalized seizures, but surprisingly the first epilepsy gene discovered, CHRNA4, was in a focal (frontal lobe)-onset syndrome.">
+		<entity id="s1.e1" charOffset="99-107"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="136-144"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="162-168"
+			type="GENE" text="CHRNA4" ontology_id="1137"/>
+		<entity id="s1.e4" charOffset="194-198"
+			type="GENE" text="lobe" ontology_id="84335"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The reason why CHRNA4 causes focal-onset seizures is unknown.">
+		<entity id="s2.e1" charOffset="15-21"
+			type="GENE" text="CHRNA4" ontology_id="1137"/>
+		<entity id="s2.e2" charOffset="41-49"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Recently, the second focal (temporal lobe)-onset epilepsy gene, LGI1 (unknown function), was discovered.">
+		<entity id="s3.e1" charOffset="37-41"
+			type="GENE" text="lobe" ontology_id="84335"/>
+		<entity id="s3.e2" charOffset="49-57"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s3.e3" charOffset="64-68"
+			type="GENE" text="LGI1" ontology_id="9211"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="CHRNA4 led the way to mutation identifications in 15 ion channel genes, most causing primarily generalized epilepsies.">
+		<entity id="s4.e1" charOffset="0-6"
+			type="GENE" text="CHRNA4" ontology_id="1137"/>
+		<entity id="s4.e2" charOffset="107-117"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Mutations in the EFHC1 gene (unknown function) occur in other rare JME families, and yet in other families, associations are present between JME (or other generalized epilepsies) and single nucleotide polymorphisms in the BRD2 gene (unknown function) and the malic enzyme 2 (ME2) gene.">
+		<entity id="s5.e1" charOffset="17-22"
+			type="GENE" text="EFHC1" ontology_id="114327"/>
+		<entity id="s5.e2" charOffset="167-177"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<entity id="s5.e3" charOffset="222-226"
+			type="GENE" text="BRD2" ontology_id="6046"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

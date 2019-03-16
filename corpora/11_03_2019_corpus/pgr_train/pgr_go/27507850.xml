@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27507850">
+	<sentence id="s1" text="In addition, inactivation of the tumor suppressor retinoblastoma 1 (RB1), reflected by G1/S transition of mitotic cell cycle/positive regulation of cell-matrix adhesion-inactivating phosphorylation of RB1 at T356, inversely correlated with expression of positive regulation of protein phosphorylation in patient HNSCC samples.">
+		<entity id="s1.e1" charOffset="33-38"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="50-64"
+			type="HP" text="retinoblastoma" ontology_id="HP_0009919"/>
+		<entity id="s1.e3" charOffset="87-124"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e4" charOffset="125-168"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e5" charOffset="183-229"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e7"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

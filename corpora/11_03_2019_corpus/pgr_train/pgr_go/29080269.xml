@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29080269">
+	<sentence id="s1" text="A total of 3128 people participated and were divided into 5 groups: healthy controls, natural clearance, chronic hepatitis B(CHB), liver cirrhosis and hepatocellular carcinoma (phosphatidylinositol phosphorylation).">
+		<entity id="s1.e1" charOffset="151-175"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="177-213"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

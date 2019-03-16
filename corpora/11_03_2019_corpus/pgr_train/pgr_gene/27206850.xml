@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27206850">
+	<sentence id="s1" text="We identified a new susceptibility locus for bladder cancer at 5q12.3, located in the intron of CWC27 (rs2042329), that was significantly associated with disease risk (OR = 1.40; P = 4.61 × 10(-11)).">
+		<entity id="s1.e1" charOffset="53-59"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="96-101"
+			type="GENE" text="CWC27" ontology_id="10283"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The rs2042329 risk allele was also related to significantly increased expression levels of CWC27 mRNA and protein in bladder cancer tissues from Chinese patients.">
+		<entity id="s2.e1" charOffset="91-96"
+			type="GENE" text="CWC27" ontology_id="10283"/>
+		<entity id="s2.e2" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Additional functional analyses suggested that CWC27 played an oncogenic role in bladder cancer by inducing cell proliferation and suppressing apoptosis.">
+		<entity id="s3.e1" charOffset="46-51"
+			type="GENE" text="CWC27" ontology_id="10283"/>
+		<entity id="s3.e2" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29513714">
+	<sentence id="s1" text="Molecular biomarkers in blood are needed to somatic diversification of immunoglobulins the early diagnosis and clinical assessment of glioblastoma (GBM).">
+		<entity id="s1.e1" charOffset="44-86"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<entity id="s1.e2" charOffset="134-146"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The plasma concentrations of neutrophil degranulation, positive regulation of gene expression, and C9 showed significant positive correlations with tumor size (R2 = 0.534, 0.495, and 0.452, respectively)">
+		<entity id="s2.e1" charOffset="29-53"
+			type="GO" text="neutrophil degranulation" ontology_id="GO_0043312"/>
+		<entity id="s2.e2" charOffset="55-93"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s2.e3" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

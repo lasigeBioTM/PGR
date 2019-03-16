@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27765924">
+	<sentence id="s1" text="However, analogous advanced treatments are not available for patients with lung squamous cell carcinoma (lung negative regulation of peptidase activity).">
+		<entity id="s1.e1" charOffset="80-103"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e2" charOffset="110-151"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="It is well known that protein polyubiquitination-145-5p (the guide strand) functions as a tumor suppressor in several types of cancer.">
+		<entity id="s2.e1" charOffset="22-48"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="90-95"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, the negative regulation of transcription by RNA polymerase II of protein polyubiquitination-145-3p (the passenger strand) on cancer cells is still ambiguous.">
+		<entity id="s3.e1" charOffset="13-70"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="23-49"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e3" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Expression levels of protein polyubiquitination-145-5p and protein polyubiquitination-145-3p were markedly reduced in cancer tissues, and ectopic expression of these protein polyubiquitinationNAs inhibited cancer cell aggressiveness, suggesting that both miR-145-3p as well as miR-145-5p acted as antitumor miRNAs.">
+		<entity id="s4.e1" charOffset="21-47"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="172-186"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<entity id="s4.e4" charOffset="255-260"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Taken together, both strands of protein polyubiquitination-145, miR-145-5p and miR-145-3p are functional and play pivotal roles as antitumor miRNAs in lung SCC">
+		<entity id="s5.e1" charOffset="32-58"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s5.e2" charOffset="135-140"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

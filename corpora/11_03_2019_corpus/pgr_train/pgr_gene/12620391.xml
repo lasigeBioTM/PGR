@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="12620391">
+	<sentence id="s1" text="Progressive rod-cone degeneration (prcd) is a canine retinal disease that maps to the centromeric end of CFA9 in a region of synteny with the distal part of HSA17q.">
+		<entity id="s1.e1" charOffset="35-39"
+			type="GENE" text="prcd" ontology_id="768206"/>
+		<entity id="s1.e2" charOffset="53-68"
+			type="HP" text="retinal disease" ontology_id="HP_0000479"/>
+		<entity id="s1.e3" charOffset="98-101"
+			type="GENE" text="end" ontology_id="2022"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

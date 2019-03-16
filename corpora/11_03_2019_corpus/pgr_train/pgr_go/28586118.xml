@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28586118">
+	<sentence id="s1" text="A panel of hypermethylated genes including cellular response to DNA damage stimulus, osteoblast differentiation, neuron development, histone dephosphorylation, endothelial cell activation, pyruvate metabolic process, cardiac cell fate determination, interleukin-4-mediated signaling pathway, regulation of transcription, DNA-templated, regulation of transcription, DNA-templated, and negative regulation of transcription, DNA-templated predicted cancer-specific survival and SOX1 (HR = 3.46), PITX2 (HR = 4.17), CSPG2 (HR = 5.35), and JAK3 hypermethylation (HR = 0.19) did so independently.">
+		<entity id="s1.e1" charOffset="43-83"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e2" charOffset="48-74"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e3" charOffset="62-87"
+			type="GO" text="histone dephosphorylation" ontology_id="GO_0016576"/>
+		<entity id="s1.e4" charOffset="87-127"
+			type="GO" text="interleukin-4-mediated signaling pathway" ontology_id="GO_0035771"/>
+		<entity id="s1.e5" charOffset="110-137"
+			type="GO" text="endothelial cell activation" ontology_id="GO_0042118"/>
+		<entity id="s1.e6" charOffset="113-131"
+			type="GO" text="neuron development" ontology_id="GO_0048666"/>
+		<entity id="s1.e7" charOffset="157-199"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e8" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e9" charOffset="189-215"
+			type="GO" text="pyruvate metabolic process" ontology_id="GO_0006090"/>
+		<entity id="s1.e10" charOffset="217-248"
+			type="GO" text="cardiac cell fate determination" ontology_id="GO_0060913"/>
+		<entity id="s1.e11" charOffset="248-299"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e12" charOffset="292-334"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e11"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e12"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

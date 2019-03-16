@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28485764">
+	<sentence id="s1" text="5-20% of melanoma families have germline mutations in the CDKN2A gene.">
+		<entity id="s1.e1" charOffset="9-17"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="58-64"
+			type="GENE" text="CDKN2A" ontology_id="1029"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Swedish CDKN2A mutation carriers have a young median age of onset of melanoma, increased risks of multiple primary melanoma and of tobacco-associated cancers in respiratory and upper digestive tissues, and also worse survival compared to non-carriers.">
+		<entity id="s2.e1" charOffset="8-14"
+			type="GENE" text="CDKN2A" ontology_id="1029"/>
+		<entity id="s2.e2" charOffset="69-77"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In a few (non-Swedish) melanoma families, mutations in other genes have been found, including CDK4, TERT, POT1, ACD and TERF2IP.">
+		<entity id="s3.e1" charOffset="23-31"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s3.e2" charOffset="94-98"
+			type="GENE" text="CDK4" ontology_id="1019"/>
+		<entity id="s3.e3" charOffset="100-104"
+			type="GENE" text="TERT" ontology_id="7015"/>
+		<entity id="s3.e4" charOffset="106-110"
+			type="GENE" text="POT1" ontology_id="25913"/>
+		<entity id="s3.e5" charOffset="112-115"
+			type="GENE" text="ACD" ontology_id="65057"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In some families with multiple cases of uveal and cutaneous melanoma (including a few Swedish families), mutations in the BAP1 gene have been found.">
+		<entity id="s4.e1" charOffset="60-68"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s4.e2" charOffset="122-126"
+			type="GENE" text="BAP1" ontology_id="154043"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In genes that regulate cellular pigmentation pathways, including MC1R, ASIP, IRF4, TYR, TYRP1 and OCA, there are different common variants that determine complexion traits, and those variants are also associated with different risks of melanoma.">
+		<entity id="s5.e1" charOffset="71-75"
+			type="GENE" text="ASIP" ontology_id="56288"/>
+		<entity id="s5.e2" charOffset="77-81"
+			type="GENE" text="IRF4" ontology_id="3662"/>
+		<entity id="s5.e3" charOffset="83-86"
+			type="GENE" text="TYR" ontology_id="7299"/>
+		<entity id="s5.e4" charOffset="165-171"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<entity id="s5.e5" charOffset="236-244"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e5" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e5" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e3"
+		    e2="s5.e5" pgr="true"/>
+		<pair id="s5.p4" e1="s5.e4"
+		    e2="s5.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Individuals with known mutations in tumor suppressor genes such as CDKN2A and BAP1 require, in addition, follow up for other cancers">
+		<entity id="s6.e1" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="67-73"
+			type="GENE" text="CDKN2A" ontology_id="1029"/>
+		<entity id="s6.e3" charOffset="78-82"
+			type="GENE" text="BAP1" ontology_id="154043"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

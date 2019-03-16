@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29593177">
+	<sentence id="s1" text="This review focuses on the molecular basis of the pathogenesis of cardiac abnormality due to PRKAG2 mutation and will provide current overviews of the mechanism of glycogen regulation by AMPK.">
+		<entity id="s1.e1" charOffset="66-85"
+			type="HP" text="cardiac abnormality" ontology_id="HP_0001627"/>
+		<entity id="s1.e2" charOffset="93-99"
+			type="GENE" text="PRKAG2" ontology_id="51422"/>
+		<entity id="s1.e3" charOffset="187-191"
+			type="GENE" text="AMPK" ontology_id="5563"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

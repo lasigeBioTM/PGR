@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29361520">
+	<sentence id="s1" text="However, the mechanism causing quaternary ammonium group transport as a result of exercise remains unknown, but exercise-induced ventricular arrhythmias are thought to be responsible for this fatal consequence.">
+		<entity id="s1.e1" charOffset="31-66"
+			type="GO" text="quaternary ammonium group transport" ontology_id="GO_0015697"/>
+		<entity id="s1.e2" charOffset="129-152"
+			type="HP" text="ventricular arrhythmias" ontology_id="HP_0004308"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

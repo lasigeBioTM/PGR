@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28651234">
+	<sentence id="s1" text="Hepatocellular carcinoma (HCC) is known as a highly prevalent cancer with a poor prognosis and short survival time, despite intensive research and clinical efforts.">
+		<entity id="s1.e1" charOffset="26-29"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s1.e2" charOffset="62-68"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report that the expression of microRNA-493 (miR-493) is decreased in HCC cell lines and in tumor tissues.">
+		<entity id="s2.e1" charOffset="53-56"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="78-81"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s2.e3" charOffset="100-105"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overexpression of miR-493 in HCC cells dramatically inhibited cell proliferation and colony-formation in vitro and inhibited tumor formation of HCC cell xenografts in vivo.">
+		<entity id="s3.e1" charOffset="18-21"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="29-32"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s3.e3" charOffset="125-130"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Novel targets ANTXR1 and RSPO2 were confirmed to be suppressed by miR-493 directly, and overexpression of ANTXR1 and RSPO2 could restore tumorigenesis in miR-493 treated HCC cell.">
+		<entity id="s4.e1" charOffset="14-20"
+			type="GENE" text="ANTXR1" ontology_id="84168"/>
+		<entity id="s4.e2" charOffset="25-30"
+			type="GENE" text="RSPO2" ontology_id="340419"/>
+		<entity id="s4.e3" charOffset="66-69"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s4.e4" charOffset="137-142"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e5" charOffset="170-173"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Moreover, Wnt/β-catenin signaling pathway, which was reported to be activated by ANTXR1 and RSPO2, was also inhibited by miR-493 overexpression and might be involved in anti-tumor function of miR-493.">
+		<entity id="s5.e1" charOffset="81-87"
+			type="GENE" text="ANTXR1" ontology_id="84168"/>
+		<entity id="s5.e2" charOffset="92-97"
+			type="GENE" text="RSPO2" ontology_id="340419"/>
+		<entity id="s5.e3" charOffset="121-124"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s5.e4" charOffset="174-179"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e4" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="These findings suggest that miR-493 acts as a negative regulator in hepatocellular carcinoma progression and may be a potential therapeutic target for HCC">
+		<entity id="s6.e1" charOffset="28-31"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s6.e2" charOffset="68-92"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28179442">
+	<sentence id="s1" text="Asthma is characterised by heterogeneous clinical phenotypes.">
+		<entity id="s1.e1" charOffset="27-40"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="55-59"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our objective was to determine molecular phenotypes of asthma by analysing sputum cell transcriptomics from 104 moderate-to-severe asthmatic subjects and 16 nonasthmatic subjects.After filtering on the differentially expressed genes between eosinophil- and noneosinophil-associated sputum inflammation, we used unbiased hierarchical clustering on 508 differentially expressed genes and gene set variation analysis of specific gene sets.We defined three transcriptome-associated clusters (TACs): TAC1 (characterised by immune receptors li>IL33R</i>, li>CCR3</i> and li>TSLPR</i>), TAC2 (characterised by interferon-, tumour necrosis factor-α- and inflammasome-associated genes) and TAC3 (characterised by genes of metabolic pathways, ubiquitination and mitochondrial function).">
+		<entity id="s2.e1" charOffset="46-50"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="391-394"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e3" charOffset="495-499"
+			type="GENE" text="TAC1" ontology_id="6863"/>
+		<entity id="s2.e4" charOffset="580-584"
+			type="GENE" text="TAC2" ontology_id="6863"/>
+		<entity id="s2.e5" charOffset="616-622"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e6" charOffset="681-685"
+			type="GENE" text="TAC3" ontology_id="6866"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="TAC1 showed the highest enrichment of gene signatures for interleukin-13/T-helper cell type 2 (Th2) and innate lymphoid cell type 2. TAC1 had the highest sputum eosinophilia and exhaled nitric oxide fraction, and was restricted to severe asthma with oral corticosteroid dependency, frequent exacerbations and severe airflow obstruction.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="TAC1" ontology_id="6863"/>
+		<entity id="s3.e2" charOffset="87-91"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e3" charOffset="161-173"
+			type="HP" text="eosinophilia" ontology_id="HP_0001880"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="TAC2 showed the highest sputum neutrophilia, serum C-reactive protein levels and prevalence of eczema.">
+		<entity id="s4.e1" charOffset="0-4"
+			type="GENE" text="TAC2" ontology_id="6863"/>
+		<entity id="s4.e2" charOffset="31-43"
+			type="HP" text="neutrophilia" ontology_id="HP_0011897"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

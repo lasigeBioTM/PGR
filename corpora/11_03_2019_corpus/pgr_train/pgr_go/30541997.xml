@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30541997">
+	<sentence id="s1" text="Primary hyperoxaluria cardiac muscle tissue development 1 (PH1), a rare autosomal recessive disorder, is characterized by renal stones, nephrocalcinosis, and chronic kidney disease.">
+		<entity id="s1.e1" charOffset="8-21"
+			type="HP" text="hyperoxaluria" ontology_id="HP_0003159"/>
+		<entity id="s1.e2" charOffset="22-55"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="122-134"
+			type="HP" text="renal stones" ontology_id="HP_0000787"/>
+		<entity id="s1.e4" charOffset="136-152"
+			type="HP" text="nephrocalcinosis" ontology_id="HP_0000121"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26211651">
+	<sentence id="s1" text="In addition, polymorphisms in apoptosis-related genes such as RNF7, TULP1, and MERTK are associated with fibrosis progression, and DEPDC5 and MICA variants are associated with HCV-related hepatocellular carcinoma.">
+		<entity id="s1.e1" charOffset="62-66"
+			type="GENE" text="RNF7" ontology_id="9616"/>
+		<entity id="s1.e2" charOffset="68-73"
+			type="GENE" text="TULP1" ontology_id="7287"/>
+		<entity id="s1.e3" charOffset="79-84"
+			type="GENE" text="MERTK" ontology_id="10461"/>
+		<entity id="s1.e4" charOffset="131-137"
+			type="GENE" text="DEPDC5" ontology_id="9681"/>
+		<entity id="s1.e5" charOffset="142-146"
+			type="GENE" text="MICA" ontology_id="100507436"/>
+		<entity id="s1.e6" charOffset="188-212"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

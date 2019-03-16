@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30653965">
+	<sentence id="s1" text="As it is currently unclear whether localized production of either H<sub>2</sub>S or GSH contributes to retinal homeostasis, we undertook a comparative analysis of L-serine metabolic process and CSE expression in canine, non-human primate (NHP) and human retinas to determine if these antioxidants could play a regulatory role in age-related or disease-associated retinal degeneration.">
+		<entity id="s1.e1" charOffset="163-189"
+			type="GO" text="L-serine metabolic process" ontology_id="GO_0006563"/>
+		<entity id="s1.e2" charOffset="363-383"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

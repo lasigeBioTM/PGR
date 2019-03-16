@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27203443">
+	<sentence id="s1" text="Surprisingly, either silencing miR-126-3p by LNA-antimiR or overexpressing miR-126-3p by miRNA mimic repressed laser-induced choroidal neovascularization.">
+		<entity id="s1.e1" charOffset="31-34"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="125-153"
+			type="HP" text="choroidal neovascularization" ontology_id="HP_0011506"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

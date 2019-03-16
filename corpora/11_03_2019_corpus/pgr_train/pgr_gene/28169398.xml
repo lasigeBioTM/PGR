@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28169398">
+	<sentence id="s1" text="The gonadoblastoma gene, testis-specific protein Y-encoded (TSPY), on the Y chromosome and its X-homologue, TSPX, are cell cycle regulators and function as a proto-oncogene and a tumor suppressor respectively in human oncogenesis.">
+		<entity id="s1.e1" charOffset="4-18"
+			type="HP" text="gonadoblastoma" ontology_id="HP_0000150"/>
+		<entity id="s1.e2" charOffset="60-64"
+			type="GENE" text="TSPY" ontology_id="7258"/>
+		<entity id="s1.e3" charOffset="108-112"
+			type="GENE" text="TSPX" ontology_id="64061"/>
+		<entity id="s1.e4" charOffset="179-184"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TSPY and TSPX co-localize with the endogenous AR, in the presence of ligand, on the promoters and differentially regulate the expression of the endogenous AR target genes in the androgen-responsive LNCaP prostate cancer cells.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="TSPY" ontology_id="7258"/>
+		<entity id="s2.e2" charOffset="9-13"
+			type="GENE" text="TSPX" ontology_id="64061"/>
+		<entity id="s2.e3" charOffset="46-48"
+			type="GENE" text="AR" ontology_id="231"/>
+		<entity id="s2.e4" charOffset="213-219"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Hence, TSPY and TSPX exert opposing effects on the transactivation functions of AR and AR-Vs important for various physiological and disease processes sensitive to male sex hormone actions, thereby not only affecting the pathogenesis of male-specific prostate cancer but also likely contributing to sex differences in the health and diseases of man">
+		<entity id="s3.e1" charOffset="7-11"
+			type="GENE" text="TSPY" ontology_id="7258"/>
+		<entity id="s3.e2" charOffset="16-20"
+			type="GENE" text="TSPX" ontology_id="64061"/>
+		<entity id="s3.e3" charOffset="80-82"
+			type="GENE" text="AR" ontology_id="231"/>
+		<entity id="s3.e4" charOffset="169-172"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s3.e5" charOffset="260-266"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+</document>

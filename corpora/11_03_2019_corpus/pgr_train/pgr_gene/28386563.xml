@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28386563">
+	<sentence id="s1" text="The purpose of this study was to investigate whether LED light at different wavelengths affects the expression profile of 143 cancer predisposition genes in both diabetic and normal human fibroblasts.">
+		<entity id="s1.e1" charOffset="57-62"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s1.e2" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="134-137"
+			type="GENE" text="red" ontology_id="8444"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

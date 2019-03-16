@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27378689">
+	<sentence id="s1" text="Hypohidrotic ectodermal dysplasia (HED) results from mutation of the EDA, EDAR or EDARADD genes and is characterized by reduced or absent eccrine sweat glands, hair follicles and teeth, and defective formation of salivary, mammary and craniofacial glands.">
+		<entity id="s1.e1" charOffset="13-33"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e2" charOffset="35-38"
+			type="GENE" text="HED" ontology_id="1896"/>
+		<entity id="s1.e3" charOffset="69-72"
+			type="GENE" text="EDA" ontology_id="1896"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

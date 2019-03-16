@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29068161">
+	<sentence id="s1" text="The deleted in colorectal cancer (DCC) gene encodes the netrin-1 (NTN1) receptor DCC, a transmembrane protein required for the guidance of commissural axons.">
+		<entity id="s1.e1" charOffset="26-32"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="34-37"
+			type="GENE" text="DCC" ontology_id="1630"/>
+		<entity id="s1.e3" charOffset="66-70"
+			type="GENE" text="NTN1" ontology_id="9423"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Germline DCC mutations disrupt the development of predominantly commissural tracts in the central nervous system (CNS) and cause a spectrum of neurological disorders.">
+		<entity id="s2.e1" charOffset="9-12"
+			type="GENE" text="DCC" ontology_id="1630"/>
+		<entity id="s2.e2" charOffset="90-97"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

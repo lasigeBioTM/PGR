@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26573920">
+	<sentence id="s1" text="Hereditary sensory and autonomic neuropathy 1 (HSAN1) is an autosomal dominant disorder that can be caused by variants in SPTLC1 or SPTLC2, encoding subunits of serine palmitoyl-CoA transferase.">
+		<entity id="s1.e1" charOffset="33-43"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="47-52"
+			type="GENE" text="HSAN1" ontology_id="10558"/>
+		<entity id="s1.e3" charOffset="122-128"
+			type="GENE" text="SPTLC1" ontology_id="10558"/>
+		<entity id="s1.e4" charOffset="132-138"
+			type="GENE" text="SPTLC2" ontology_id="9517"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Sequencing of SPTLC2 should be considered in all patients presenting with mild late-onset sensory-predominant small or large fiber neuropathy.">
+		<entity id="s2.e1" charOffset="14-20"
+			type="GENE" text="SPTLC2" ontology_id="9517"/>
+		<entity id="s2.e2" charOffset="131-141"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

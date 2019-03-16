@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25361962">
+	<sentence id="s1" text="Jeune asphyxiating thoracic dystrophy (JATD) is a skeletal dysplasia characterized by a small thoracic cage and a range of skeletal and extra-skeletal anomalies.">
+		<entity id="s1.e1" charOffset="50-68"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e2" charOffset="103-107"
+			type="GENE" text="cage" ontology_id="168400"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Inhibition of the CEP120 ortholog in zebrafish produced pleiotropic phenotypes characteristic of cilia defects including abnormal body curvature, hydrocephalus, otolith defects and abnormal renal, head and craniofacial development.">
+		<entity id="s2.e1" charOffset="18-24"
+			type="GENE" text="CEP120" ontology_id="153241"/>
+		<entity id="s2.e2" charOffset="146-159"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

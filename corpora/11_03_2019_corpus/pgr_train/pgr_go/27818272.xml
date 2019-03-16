@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27818272">
+	<sentence id="s1" text="After its downregulation in neuroblastoma cells and in brains of cell surface receptor signaling pathway-deficient apoptotic process, membrane protein ectodomain proteolysis and regulation of presynapse assembly levels appeared unaltered possibly due to a compensatory increase in the expression of Tspans 5 and 7, respectively.">
+		<entity id="s1.e1" charOffset="28-41"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="65-104"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s1.e3" charOffset="88-127"
+			type="GO" text="membrane protein ectodomain proteolysis" ontology_id="GO_0006509"/>
+		<entity id="s1.e4" charOffset="115-132"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e5" charOffset="165-165"
+			type="GO" text="regulation of presynapse assembly" ontology_id="GO_1905606"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

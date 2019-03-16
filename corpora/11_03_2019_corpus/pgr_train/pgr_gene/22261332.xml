@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22261332">
+	<sentence id="s1" text="Chmp1A functions as a tumor suppressor gene and has been reported in pancreatic tumor cells.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="Chmp1A" ontology_id="5119"/>
+		<entity id="s1.e2" charOffset="22-27"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we examined the expression level of Chmp1A in human RCC tissues and renal tumor cells by real-time quantitative RT-PCR and western blot.">
+		<entity id="s2.e1" charOffset="42-48"
+			type="GENE" text="Chmp1A" ontology_id="5119"/>
+		<entity id="s2.e2" charOffset="58-61"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<entity id="s2.e3" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We found that the expression level of Chmp1A is significantly lower in RCC tissues and renal tumor cells compared with adjacent non-tumorous tissues and normal renal cells.">
+		<entity id="s3.e1" charOffset="38-44"
+			type="GENE" text="Chmp1A" ontology_id="5119"/>
+		<entity id="s3.e2" charOffset="71-74"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<entity id="s3.e3" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Additionally, inhibition of Chmp1A expression by shRNA induced tumor formation in normal renal cells.">
+		<entity id="s4.e1" charOffset="28-34"
+			type="GENE" text="Chmp1A" ontology_id="5119"/>
+		<entity id="s4.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="However, inhibition of Chmp1A did not significantly affect tumor cell proliferation in vitro and tumor progression in vivo.">
+		<entity id="s5.e1" charOffset="23-29"
+			type="GENE" text="Chmp1A" ontology_id="5119"/>
+		<entity id="s5.e2" charOffset="59-64"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Interestingly, overexpression of Chmp1A using a eukaryotic plasmid inhibited the proliferation of renal tumor cells in vitro and the growth of renal tumor in vivo.">
+		<entity id="s6.e1" charOffset="33-39"
+			type="GENE" text="Chmp1A" ontology_id="5119"/>
+		<entity id="s6.e2" charOffset="104-109"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Thus, our results demonstrate that Chmp1A functions as a tumor suppressor gene in renal cells and may be a useful target for treatment of RCC">
+		<entity id="s7.e1" charOffset="35-41"
+			type="GENE" text="Chmp1A" ontology_id="5119"/>
+		<entity id="s7.e2" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

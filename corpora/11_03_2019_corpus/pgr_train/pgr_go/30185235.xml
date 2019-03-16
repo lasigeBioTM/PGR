@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30185235">
+	<sentence id="s1" text="Pediatric refractory epilepsy is a broad phenotypic spectrum with adenylate cyclase-activating G protein-coupled receptor signaling pathway genetic heterogeneity.">
+		<entity id="s1.e1" charOffset="21-29"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="66-139"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e3" charOffset="148-161"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Other novel mutations detected in unclassified epilepsy patients involve the peripheral nervous system development, positive regulation of cytosolic calcium ion concentration, cellular response to histamine, chloride transmembrane transport, modulation of chemical synaptic transmission, regulation of translation, protein autophosphorylation, cellular sodium ion homeostasis, cell adhesion, axon extension and muscle organ development genes.">
+		<entity id="s2.e1" charOffset="47-55"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="77-114"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<entity id="s2.e3" charOffset="116-174"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s2.e4" charOffset="176-206"
+			type="GO" text="cellular response to histamine" ontology_id="GO_0071420"/>
+		<entity id="s2.e5" charOffset="208-240"
+			type="GO" text="chloride transmembrane transport" ontology_id="GO_1902476"/>
+		<entity id="s2.e6" charOffset="242-286"
+			type="GO" text="modulation of chemical synaptic transmission" ontology_id="GO_0050804"/>
+		<entity id="s2.e7" charOffset="288-313"
+			type="GO" text="regulation of translation" ontology_id="GO_0006417"/>
+		<entity id="s2.e8" charOffset="315-342"
+			type="GO" text="protein autophosphorylation" ontology_id="GO_0046777"/>
+		<entity id="s2.e9" charOffset="344-375"
+			type="GO" text="cellular sodium ion homeostasis" ontology_id="GO_0006883"/>
+		<entity id="s2.e10" charOffset="377-390"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s2.e11" charOffset="392-406"
+			type="GO" text="axon extension" ontology_id="GO_0048675"/>
+		<entity id="s2.e12" charOffset="411-435"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e11" pgr="true"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e12" pgr="true"/>
+	</sentence>
+</document>

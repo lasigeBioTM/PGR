@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30220141">
+	<sentence id="s1" text="<b>Objective:</b> To study the association between Thymidine Phosphorylase (TYMP) genetic variation and clinical outcomes and safety of postoperative colorectal cancer (CRC) patients.">
+		<entity id="s1.e1" charOffset="76-80"
+			type="GENE" text="TYMP" ontology_id="1890"/>
+		<entity id="s1.e2" charOffset="161-167"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Additionally, of the 87 postoperative tissue specimens, the results showed that the expression of TYMP in cancer tissues of the patients with CT or TT genotypes were significantly higher than those of the wild type CC genotype patients (li>P</i>=0.019).">
+		<entity id="s2.e1" charOffset="98-102"
+			type="GENE" text="TYMP" ontology_id="1890"/>
+		<entity id="s2.e2" charOffset="106-112"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="155-159"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

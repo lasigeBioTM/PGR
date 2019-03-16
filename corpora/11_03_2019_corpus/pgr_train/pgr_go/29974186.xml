@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29974186">
+	<sentence id="s1" text="Some RA patients are likely to increase visceral positive regulation of cell-matrix adhesion without obesity [Body cell adhesion mediated by integrin Index (BMI) ≥ 25].">
+		<entity id="s1.e1" charOffset="49-92"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e2" charOffset="101-108"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e3" charOffset="115-149"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

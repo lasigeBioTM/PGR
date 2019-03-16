@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30123056">
+	<sentence id="s1" text="In 128 female patients of the recruited UCC cohort, patients who carried at least one deletion allele of li>DRD2</i> rs1799732 showed a higher incidence of having an invasive stage (AOR=2.585, 95% CI: 1.066~6.264, li>p</i>=0.032) and a large tumor (AOR=2.778, 95% CI: 1.146~6.735, li>p</i>=0.021).">
+		<entity id="s1.e1" charOffset="108-112"
+			type="GENE" text="DRD2" ontology_id="1813"/>
+		<entity id="s1.e2" charOffset="242-247"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Further analyses of The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) datasets revealed correlations of the expression of DRD2 with an invasive tumor, tumor metastasis, and the lower survival rate in patients with UCC.">
+		<entity id="s2.e1" charOffset="137-141"
+			type="GENE" text="DRD2" ontology_id="1813"/>
+		<entity id="s2.e2" charOffset="159-164"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

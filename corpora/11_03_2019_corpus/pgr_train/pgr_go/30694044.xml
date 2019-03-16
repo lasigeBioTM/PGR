@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30694044">
+	<sentence id="s1" text="To investigate the direct effects of this SNP in the heterogeneous cellular context of the brain, we generated humanized transgenic apoptotic process using a design that maximized the local transcriptional landscape of the human adenylate cyclase-inhibiting serotonin receptor signaling pathway gene while also controlling for effects of genomic insertion location.">
+		<entity id="s1.e1" charOffset="53-66"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="132-149"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="229-294"
+			type="GO" text="adenylate cyclase-inhibiting serotonin receptor signaling pathway" ontology_id="GO_0007198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

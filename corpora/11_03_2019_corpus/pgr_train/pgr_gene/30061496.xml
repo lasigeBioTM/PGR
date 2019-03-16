@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30061496">
+	<sentence id="s1" text="PMM2-CDG is an autosomal recessive disease with a large phenotypic spectrum, and is associated with mutations in the li>PMM2</i> gene.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="PMM2" ontology_id="5373"/>
+		<entity id="s1.e2" charOffset="15-34"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

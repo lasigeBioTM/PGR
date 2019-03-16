@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20507343">
+	<sentence id="s1" text="This study doubles the number of known mutations for this disorder, confirms that truncating mutations in C2orf37 are the only known cause of WSS, and suggests that mutations in this gene do not contribute significantly to cases presenting with isolated elements of WSS such as deafness and dystonia.">
+		<entity id="s1.e1" charOffset="106-113"
+			type="GENE" text="C2orf37" ontology_id="80067"/>
+		<entity id="s1.e2" charOffset="278-286"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="291-299"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

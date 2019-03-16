@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29453416">
+	<sentence id="s1" text="The molecular basis of this condition started to be defined recently, and the genes related to the syndrome (ACTG2-heterozygous variant in sporadic cases; and elastic fiber assembly (myosin heavy chain 11), positive regulation of actin filament polymerization (leiomodin 1) and positive regulation of cell migration (myosin T cell costimulation chain (positive regulation of intracellular transport) kinase)-autosomal recessive inheritance), encode proteins involved in the smooth muscle contraction, supporting a myopathic basis for the disease.">
+		<entity id="s1.e1" charOffset="139-147"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="159-181"
+			type="GO" text="elastic fiber assembly" ontology_id="GO_0048251"/>
+		<entity id="s1.e3" charOffset="207-259"
+			type="GO" text="positive regulation of actin filament polymerization" ontology_id="GO_0030838"/>
+		<entity id="s1.e4" charOffset="270-289"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e5" charOffset="278-315"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s1.e6" charOffset="290-301"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<entity id="s1.e7" charOffset="324-344"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<entity id="s1.e8" charOffset="352-398"
+			type="GO" text="positive regulation of intracellular transport" ontology_id="GO_0032388"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e5"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e5"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e8"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e6"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e10"
+		    e2="s1.e22" pgr="false"/>
+	</sentence>
+</document>

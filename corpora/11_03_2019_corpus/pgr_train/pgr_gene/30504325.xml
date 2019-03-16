@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30504325">
+	<sentence id="s1" text="Three subtypes, li>PTPN11- , NRAS-</i>, and li>KRAS</i>-mutated JMML, are characterized by heterozygous somatic gain-of-function mutations in non syndromic children, while two subtypes, JMML in neurofibromatosis type 1 and in JMML in children with CBL syndrome, are characterized by germ line RAS disease and acquired biallelic inactivation of the respective tumor suppressor genes in hematopoietic cells.">
+		<entity id="s1.e1" charOffset="9-13"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="29-33"
+			type="GENE" text="NRAS" ontology_id="4893"/>
+		<entity id="s1.e3" charOffset="47-51"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s1.e4" charOffset="194-211"
+			type="HP" text="neurofibromatosis" ontology_id="HP_0001067"/>
+		<entity id="s1.e5" charOffset="248-251"
+			type="GENE" text="CBL" ontology_id="867"/>
+		<entity id="s1.e6" charOffset="359-364"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e7"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30015619">
+	<sentence id="s1" text="Abnormalities in nucleic acid processing are associated with the development of amyotrophic lateral sclerosis (signal transduction) and frontotemporal dementia (FTD).">
+		<entity id="s1.e1" charOffset="111-130"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="136-159"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in li>Matrin 3</i> (li>activation of innate immune response</i>), a poorly understood DNA- and RNA-binding protein, cause familial signal transduction/FTD, and MATR3 pathology is a feature of sporadic disease, suggesting that MATR3 dysfunction is integrally linked to ALS pathogenesis.">
+		<entity id="s2.e1" charOffset="33-69"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s2.e2" charOffset="110-129"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s2.e3" charOffset="171-179"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings offer a foundation for understanding activation of innate immune response-related neurodegeneration and how nucleic acid binding functions, localization, and pathogenic mutations drive sporadic and familial disease">
+		<entity id="s3.e1" charOffset="50-86"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s3.e2" charOffset="198-206"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

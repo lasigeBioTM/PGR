@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29944864">
+	<sentence id="s1" text="Circulating soluble peptide hormone processing has been found to be associated with various cardiovascular diseases, such as hypertension, heart failure, myocardial infarction, preeclampsia, and stroke.">
+		<entity id="s1.e1" charOffset="20-46"
+			type="GO" text="peptide hormone processing" ontology_id="GO_0016486"/>
+		<entity id="s1.e2" charOffset="92-115"
+			type="HP" text="cardiovascular diseases" ontology_id="HP_0001626"/>
+		<entity id="s1.e3" charOffset="125-137"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e4" charOffset="139-152"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<entity id="s1.e5" charOffset="154-175"
+			type="HP" text="myocardial infarction" ontology_id="HP_0001658"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="All these findings indicate that circulating soluble peptide hormone processing has the potential to be a sensitive and specific biomarker for risk prediction and prognostic assessment of cardiovascular diseases.">
+		<entity id="s2.e1" charOffset="53-79"
+			type="GO" text="peptide hormone processing" ontology_id="GO_0016486"/>
+		<entity id="s2.e2" charOffset="188-211"
+			type="HP" text="cardiovascular diseases" ontology_id="HP_0001626"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To provide new ideas based on the use of peptide hormone processing for risk prediction, prognostic assessment, and clinical treatment of cardiovascular diseases and to promote the implementation of corin as a routine laboratory index, we summarize the latest studies of the association between corin and cardiovascular diseases in recent years and offer some prospective proposals for future research on corin in this review">
+		<entity id="s3.e1" charOffset="41-67"
+			type="GO" text="peptide hormone processing" ontology_id="GO_0016486"/>
+		<entity id="s3.e2" charOffset="138-161"
+			type="HP" text="cardiovascular diseases" ontology_id="HP_0001626"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

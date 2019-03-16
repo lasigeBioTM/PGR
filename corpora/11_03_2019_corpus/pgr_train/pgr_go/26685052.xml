@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26685052">
+	<sentence id="s1" text="We present a case of a patient with long-standing hyperpigmented macules and erythematous papules over his chest, abdomen, back and positive regulation of neuron projection development, suggestive of Dowling-Degos disease (DDD).">
+		<entity id="s1.e1" charOffset="50-72"
+			type="HP" text="hyperpigmented macules" ontology_id="HP_0001034"/>
+		<entity id="s1.e2" charOffset="77-97"
+			type="HP" text="erythematous papules" ontology_id="HP_0030350"/>
+		<entity id="s1.e3" charOffset="132-184"
+			type="GO" text="positive regulation of neuron projection development" ontology_id="GO_0010976"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In addition, there were hyperkeratotic papules, alternating protein phosphorylation and white natural killer cell activation involved in immune response-bed discolouration, and V-shaped nail notching consistent with Darier disease (DD).">
+		<entity id="s2.e1" charOffset="24-46"
+			type="HP" text="hyperkeratotic papules" ontology_id="HP_0045059"/>
+		<entity id="s2.e2" charOffset="60-83"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e3" charOffset="94-152"
+			type="GO" text="natural killer cell activation involved in immune response" ontology_id="GO_0002323"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

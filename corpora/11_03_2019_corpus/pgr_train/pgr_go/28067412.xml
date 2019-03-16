@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28067412">
+	<sentence id="s1" text="Although CHH and other skeletal dysplasias caused by mutations in RMRP or epithelial cell-cell adhesion are commonly cited as ribosomal biogenesis disorders, recent studies question this assumption.">
+		<entity id="s1.e1" charOffset="23-41"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e2" charOffset="74-103"
+			type="GO" text="epithelial cell-cell adhesion" ontology_id="GO_0090136"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

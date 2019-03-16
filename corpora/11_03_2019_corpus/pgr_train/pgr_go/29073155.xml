@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29073155">
+	<sentence id="s1" text="DNA was extracted from paraffin-embedded tumor specimens from the patients and peripheral blood lymphocytes from the controls and used for regulation of cysteine-type endopeptidase activity/fat cell differentiation genotyping.">
+		<entity id="s1.e1" charOffset="41-46"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="139-189"
+			type="GO" text="regulation of cysteine-type endopeptidase activity" ontology_id="GO_2000116"/>
+		<entity id="s1.e3" charOffset="190-214"
+			type="GO" text="fat cell differentiation" ontology_id="GO_0045444"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, regulation of cysteine-type endopeptidase activity R/C+C/C genotype was associated with increased tumor invasion depth (p = 0.041).">
+		<entity id="s2.e1" charOffset="10-60"
+			type="GO" text="regulation of cysteine-type endopeptidase activity" ontology_id="GO_2000116"/>
+		<entity id="s2.e2" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

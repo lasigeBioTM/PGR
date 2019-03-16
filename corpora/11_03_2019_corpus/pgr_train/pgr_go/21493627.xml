@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21493627">
+	<sentence id="s1" text="Meckel syndrome (cilium assembly) is an embryonic lethal, autosomal recessive disorder characterized by polycystic kidney disease, central nervous system defects, polydactyly and liver fibrosis.">
+		<entity id="s1.e1" charOffset="17-32"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e2" charOffset="163-174"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, mutation screening of these genes revealed two mutated alleles in only just over half of our cilium assembly cohort (46 families), suggesting an even greater level of genetic heterogeneity.">
+		<entity id="s2.e1" charOffset="102-117"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s2.e2" charOffset="184-197"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The fetus inherited an additional likely pathogenic novel missense change to a second cilium assembly gene, positive regulation of transcription, DNA-templated; p.R2210C, suggesting oligogenic inheritance in this disorder">
+		<entity id="s3.e1" charOffset="86-101"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s3.e2" charOffset="108-159"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s3.e3" charOffset="137-159"
+			type="HP" text="oligogenic inheritance" ontology_id="HP_0010983"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

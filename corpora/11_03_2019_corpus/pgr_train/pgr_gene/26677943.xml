@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26677943">
+	<sentence id="s1" text="Although mutations in the gene encoding tricellulin are known to cause deafness in humans (DFNB49) and mice, the influence of its systemic deletion in vivo remains unknown.">
+		<entity id="s1.e1" charOffset="71-79"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="91-97"
+			type="GENE" text="DFNB49" ontology_id="153562"/>
+		<entity id="s1.e3" charOffset="103-107"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="When we generated tricellulin-knockout mice (Tric(-/-)), we found an early-onset rapidly progressive hearing loss associated with the degeneration of hair cells (HCs); however, their body size and overall appearance were normal.">
+		<entity id="s2.e1" charOffset="39-43"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="45-49"
+			type="GENE" text="Tric" ontology_id="153562"/>
+		<entity id="s2.e3" charOffset="89-100"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<entity id="s2.e4" charOffset="101-113"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e5" charOffset="162-165"
+			type="GENE" text="HCs" ontology_id="54205"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

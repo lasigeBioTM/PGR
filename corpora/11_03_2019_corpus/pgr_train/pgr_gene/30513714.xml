@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30513714">
+	<sentence id="s1" text="Participants were assessed for cognitive performance (Cogstate battery), dietary selenium intake (two 24-h food recalls), plasma selenium concentration, inflammatory markers (interleukin (IL)-6, -8, -10, tumor necrosis factor-alpha and adiponectin) and neurotrophic factors (brain-derived neurotrophic factor, vascular endothelial growth factor and insulin-like growth factor 1).">
+		<entity id="s1.e1" charOffset="204-209"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="236-247"
+			type="GENE" text="adiponectin" ontology_id="9370"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Multiple linear regression analysis revealed that plasma selenium was not associated with cognitive performance, inflammatory markers nor neurotrophic factors, independent of age, sex, body mass index (BMI), habitual physical activity, li>APOE</i> status, education, and history of cardiovascular disease.">
+		<entity id="s2.e1" charOffset="180-183"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s2.e2" charOffset="190-194"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s2.e3" charOffset="282-304"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30700638">
+	<sentence id="s1" text="Imatinib is a tyrosine kinase inhibitor specific for platelet-derived growth factor receptor and is expected as a treatment option for pulmonary arterial hypertension (tyrosine biosynthetic process).">
+		<entity id="s1.e1" charOffset="135-166"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s1.e2" charOffset="168-197"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We suspected PVOD from CT characteristics and pulmonary edema after tyrosine biosynthetic process-targeted vasodilator therapy, and then started oral imatinib treatment.">
+		<entity id="s2.e1" charOffset="46-61"
+			type="HP" text="pulmonary edema" ontology_id="HP_0100598"/>
+		<entity id="s2.e2" charOffset="68-97"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

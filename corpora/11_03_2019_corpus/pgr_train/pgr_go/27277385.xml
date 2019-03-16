@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27277385">
+	<sentence id="s1" text="The condition was initially termed actin filament bundle assembly syndrome (macrocephaly, alopecia, cutis laxa, and scoliosis), based on the clinical features of the first identified family; however, with the expansion of the clinical phenotype in additional families, it was subsequently coined small GTPase mediated signal transduction syndrome.">
+		<entity id="s1.e1" charOffset="35-65"
+			type="GO" text="actin filament bundle assembly" ontology_id="GO_0051017"/>
+		<entity id="s1.e2" charOffset="90-99"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<entity id="s1.e3" charOffset="270-311"
+			type="GO" text="small GTPase mediated signal transduction" ontology_id="GO_0007264"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Patients with small GTPase mediated signal transduction syndrome present phenotypic overlap with other conditions, including EDS (especially the dermatosparaxis and kyphoscoliosis subtypes).">
+		<entity id="s2.e1" charOffset="14-55"
+			type="GO" text="small GTPase mediated signal transduction" ontology_id="GO_0007264"/>
+		<entity id="s2.e2" charOffset="170-179"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Besides the hallmark features, this patient also presents problems not previously associated with small GTPase mediated signal transduction syndrome, including cervical vertebral fusion, mild hearing loss, and colonic fibrosis.">
+		<entity id="s3.e1" charOffset="98-139"
+			type="GO" text="small GTPase mediated signal transduction" ontology_id="GO_0007264"/>
+		<entity id="s3.e2" charOffset="160-185"
+			type="HP" text="cervical vertebral fusion" ontology_id="HP_0002949"/>
+		<entity id="s3.e3" charOffset="192-204"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

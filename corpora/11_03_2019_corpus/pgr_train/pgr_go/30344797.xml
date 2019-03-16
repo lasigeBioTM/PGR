@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30344797">
+	<sentence id="s1" text="In this study, we aimed to assess the independent prognostic value of protein polyubiquitination-361-3p in terms of overall survival (OS) and recurrence-free survival (RFS) in cervical cancer, as well as its possible regulative network.">
+		<entity id="s1.e1" charOffset="70-96"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="185-191"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

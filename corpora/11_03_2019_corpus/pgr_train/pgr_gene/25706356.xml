@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25706356">
+	<sentence id="s1" text="Mabry syndrome, hyperphosphatasia mental retardation syndrome (HPMRS), is an autosomal recessive disease characterized by increased serum levels of alkaline phosphatase (ALP), severe developmental delay, intellectual disability, and seizures.">
+		<entity id="s1.e1" charOffset="16-33"
+			type="HP" text="hyperphosphatasia" ontology_id="HP_0003155"/>
+		<entity id="s1.e2" charOffset="77-96"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="170-173"
+			type="GENE" text="ALP" ontology_id="80150"/>
+		<entity id="s1.e4" charOffset="183-202"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e5" charOffset="204-227"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e6" charOffset="233-241"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We performed whole-exome sequencing of a patient with severe intellectual disability, distinctive facial appearance, fragile nails, and persistent increased serum levels of ALP.">
+		<entity id="s2.e1" charOffset="61-84"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e2" charOffset="117-130"
+			type="HP" text="fragile nails" ontology_id="HP_0001808"/>
+		<entity id="s2.e3" charOffset="173-176"
+			type="GENE" text="ALP" ontology_id="80150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Nonsynonymous changes or frameshift mutations in PIGL have been identified in patients with CHIME syndrome, a rare autosomal recessive disorder characterized by colobomas, congenital heart defects, early onset migratory ichthyosiform dermatosis, intellectual disability, and ear abnormalities.">
+		<entity id="s3.e1" charOffset="49-53"
+			type="GENE" text="PIGL" ontology_id="9487"/>
+		<entity id="s3.e2" charOffset="115-134"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s3.e3" charOffset="161-170"
+			type="HP" text="colobomas" ontology_id="HP_0000589"/>
+		<entity id="s3.e4" charOffset="172-196"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<entity id="s3.e5" charOffset="210-219"
+			type="HP" text="migratory" ontology_id="HP_0025279"/>
+		<entity id="s3.e6" charOffset="246-269"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+</document>

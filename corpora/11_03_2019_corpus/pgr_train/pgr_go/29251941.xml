@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29251941">
+	<sentence id="s1" text="Mucopolysaccharidosis cardiac muscle tissue development IIIA (MPSIIIA), also known as Sanfilippo A syndrome, is an inherited neurodegenerative disease caused by mutations in the lysosomal enzyme, N-sulfoglucosamine sulfohydrolase (glycosaminoglycan catabolic process), also known as sulfamidase.">
+		<entity id="s1.e1" charOffset="22-55"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="125-150"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e3" charOffset="231-266"
+			type="GO" text="glycosaminoglycan catabolic process" ontology_id="GO_0006027"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

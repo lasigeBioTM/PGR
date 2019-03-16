@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26033187">
+	<sentence id="s1" text="uPA may enhance the migratory and invasive capabilities of endometrial tumor cells by the phosphorylation of ERK1/2, Akt and p38 molecules.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="uPA" ontology_id="5328"/>
+		<entity id="s1.e2" charOffset="71-76"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="117-120"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="uPA is a dysregulated gene involved in the tumorigenesis, bio-pathological features and outcomes of EEC. uPA may be a potential molecule and target for the detection and treatment of EEC.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="uPA" ontology_id="5328"/>
+		<entity id="s2.e2" charOffset="43-48"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27164068">
+	<sentence id="s1" text="According to the Ottawa Heart Genomics Study genome-wide association study, a recent research identified that Q688 spastic paraplegia 7 (SPG7) variant is associated with CAD as it bypasses the regulation of tyrosine phosphorylation of AFG3L2 and enhances the processing and maturation of SPG7 protein.">
+		<entity id="s1.e1" charOffset="115-133"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e2" charOffset="137-141"
+			type="GENE" text="SPG7" ontology_id="6687"/>
+		<entity id="s1.e3" charOffset="170-173"
+			type="GENE" text="CAD" ontology_id="1677"/>
+		<entity id="s1.e4" charOffset="235-241"
+			type="GENE" text="AFG3L2" ontology_id="10939"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

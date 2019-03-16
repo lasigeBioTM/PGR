@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30097493">
+	<sentence id="s1" text="Partial loss-of-function variants in the positive regulation of antigen processing and presentation of peptide antigen via MHC class II immune receptor are associated with increased risk for Alzheimer's disease (AD) and other forms of neurodegenerative disease, but the molecular bases for these connections are unknown.">
+		<entity id="s1.e1" charOffset="41-135"
+			type="GO" text="positive regulation of antigen processing and presentation of peptide antigen via MHC class II" ontology_id="GO_0002588"/>
+		<entity id="s1.e2" charOffset="235-260"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

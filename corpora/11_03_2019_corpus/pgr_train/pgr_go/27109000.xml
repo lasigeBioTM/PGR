@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27109000">
+	<sentence id="s1" text="Misregulation of vascular endothelial growth factor A (negative regulation of transcription by RNA polymerase II‑A) has been implicated in numerous types of ovarian disease, such as polycystic ovarian syndrome, ovarian hyperstimulation syndrome, endometriosis and ovarian cancer.">
+		<entity id="s1.e1" charOffset="55-112"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="157-172"
+			type="HP" text="ovarian disease" ontology_id="HP_0000137"/>
+		<entity id="s1.e3" charOffset="246-259"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s1.e4" charOffset="272-278"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30582655">
+	<sentence id="s1" text="To decipher a mechanism for this, we previously generated a mathematical model of how estrogen-mediated upregulation of the transcription factor, E2F6, upregulates the ovarian cancer stem/initiating cell marker, c-Kit, by epigenetic silencing the tumor suppressor miR-193a, and a competing endogenous (ceRNA) mechanism.">
+		<entity id="s1.e1" charOffset="176-182"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="212-217"
+			type="GENE" text="c-Kit" ontology_id="3815"/>
+		<entity id="s1.e3" charOffset="247-252"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Interestingly, ChIP-PCR and bisulphite pyrosequencing showed that E2F6 also epigenetically suppresses miR-193a, through recruitment of EZH2, and by a complex ceRNA mechanism in ovarian cancer cell lines.">
+		<entity id="s2.e1" charOffset="135-139"
+			type="GENE" text="EZH2" ontology_id="2146"/>
+		<entity id="s2.e2" charOffset="185-191"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Importantly, cell line and animal experiments both confirmed that E2F6 promotes ovarian cancer stemness, whereas E2F6 or EZH2 depletion derepressed miR-193a, which opposes cancer stemness, by alleviating DNA methylation and repressive chromatin.">
+		<entity id="s3.e1" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="121-125"
+			type="GENE" text="EZH2" ontology_id="2146"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

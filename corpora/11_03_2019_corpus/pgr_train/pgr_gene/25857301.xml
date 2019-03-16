@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25857301">
+	<sentence id="s1" text="Among the proteins enriched in LO, cytokeratin 18 (CK18) was one of the most abundant (within the top 5th percentile) and was used to develop an assay to detect LO in the circulation and tissues of mice and patients with prostate cancer.">
+		<entity id="s1.e1" charOffset="198-202"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="230-236"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These observations indicate that LO represent a discrete EV type that may play a distinct role in tumor progression and that may be a source of cancer-specific markers">
+		<entity id="s2.e1" charOffset="60-64"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="98-103"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="144-150"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

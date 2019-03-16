@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="18180767">
+	<sentence id="s1" text="Association between autism and single-nucleotide polymorphisms in SLC25A12 has been reported in various studies.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="66-74"
+			type="GENE" text="SLC25A12" ontology_id="8604"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These fetal structures generate regions with abnormal activity in autism, including the dorsolateral prefrontal cortex (BA46), the pars opercularis of the inferior frontal cortex and the fusiform gyrus.">
+		<entity id="s2.e1" charOffset="66-72"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s2.e2" charOffset="131-135"
+			type="GENE" text="pars" ontology_id="2058"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings suggest that SLC25A12 overexpression may be involved in the pathophysiology of autism, modifying neuronal networks in specific subregions, such as the dorsolateral prefrontal cortex and fusiform gyrus, at both pre- and postnatal stages">
+		<entity id="s3.e1" charOffset="26-34"
+			type="GENE" text="SLC25A12" ontology_id="8604"/>
+		<entity id="s3.e2" charOffset="92-98"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

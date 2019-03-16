@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="18306244">
+	<sentence id="s1" text="Mutation analysis of the NDUFA11 is warranted in isolated complex I deficiency presenting with infantile lactic acidemia or encephalocardiomyopathy">
+		<entity id="s1.e1" charOffset="25-32"
+			type="GENE" text="NDUFA11" ontology_id="126328"/>
+		<entity id="s1.e2" charOffset="105-120"
+			type="HP" text="lactic acidemia" ontology_id="HP_0003128"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

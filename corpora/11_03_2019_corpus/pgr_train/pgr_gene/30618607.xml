@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30618607">
+	<sentence id="s1" text="Deficits in miRNA biogenesis have been linked to neurological deficits in humans, and widespread changes in miRNA levels occur in epilepsy, traumatic brain injury, and in response to less dramatic brain insults in rodent models.">
+		<entity id="s1.e1" charOffset="12-15"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="130-138"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recently, microdeletions encompassing li>MIR137HG</i>, the host gene which encodes the miRNA miR-137, have been linked to autism and intellectual disability, and genome wide association studies have linked this locus to schizophrenia.">
+		<entity id="s2.e1" charOffset="87-90"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="122-128"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s2.e3" charOffset="133-156"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

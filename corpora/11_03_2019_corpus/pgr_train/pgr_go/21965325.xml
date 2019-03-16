@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21965325">
+	<sentence id="s1" text="Consistent with our description of this pathway and the phenotype of patients with actin cytoskeleton organization mutations, apoptotic process with a targeted deletion of protein phosphorylation displayed multiple skeletal defects, including dental abnormalities, deficient calvarial mineralization, and reduced bone mass.">
+		<entity id="s1.e1" charOffset="83-114"
+			type="GO" text="actin cytoskeleton organization" ontology_id="GO_0030036"/>
+		<entity id="s1.e2" charOffset="126-143"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="172-195"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="211-231"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

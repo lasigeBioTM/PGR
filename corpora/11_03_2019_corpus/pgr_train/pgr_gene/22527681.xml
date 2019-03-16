@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22527681">
+	<sentence id="s1" text="At least 36 different forms of ADCA are known, 20 autosomal-recessive, two X-linked, and several forms of ataxia associated with mitochondrial defects are known to date.">
+		<entity id="s1.e1" charOffset="31-35"
+			type="GENE" text="ADCA" ontology_id="5173"/>
+		<entity id="s1.e2" charOffset="106-112"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Exome and targeted sequencing has recently identified four new genes causing ataxia: TGM6, ANO10, SYT14, and rundataxin.">
+		<entity id="s2.e1" charOffset="77-83"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e2" charOffset="85-89"
+			type="GENE" text="TGM6" ontology_id="343641"/>
+		<entity id="s2.e3" charOffset="91-96"
+			type="GENE" text="ANO10" ontology_id="55129"/>
+		<entity id="s2.e4" charOffset="98-103"
+			type="GENE" text="SYT14" ontology_id="255928"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

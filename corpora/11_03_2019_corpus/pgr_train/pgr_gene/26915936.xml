@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26915936">
+	<sentence id="s1" text="Dominantly inherited digitotalar dysmorphism (DTD), which is characterised by flexion contractures of digits and 'rocker-bottom' feet due to a vertical talus, was first described in a South African family of European stock in 1972.">
+		<entity id="s1.e1" charOffset="46-49"
+			type="GENE" text="DTD" ontology_id="1728"/>
+		<entity id="s1.e2" charOffset="86-98"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s1.e3" charOffset="143-157"
+			type="HP" text="vertical talus" ontology_id="HP_0001838"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Since the distal arthrogryposes (DAs) are genetically heterogeneous, an unbiased approach to mutation identification was undertaken through whole-exome next-generation sequencing of DNA from a single DTD-affected female.">
+		<entity id="s2.e1" charOffset="54-67"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="200-203"
+			type="GENE" text="DTD" ontology_id="1728"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

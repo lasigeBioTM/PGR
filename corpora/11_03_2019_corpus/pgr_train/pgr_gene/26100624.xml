@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26100624">
+	<sentence id="s1" text="Study of RetGC1 regulation in vitro and its association with fluorescently tagged GCAP in transfected cells showed that R822P substitution in the cyclase dimerization domain causing congenital early onset blindness disrupted RetGC1 ability to bind GCAP but did not eliminate its affinity for another photoreceptor-specific protein, retinal degeneration 3 (RD3).">
+		<entity id="s1.e1" charOffset="82-86"
+			type="GENE" text="GCAP" ontology_id="2978"/>
+		<entity id="s1.e2" charOffset="205-214"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<entity id="s1.e3" charOffset="332-352"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

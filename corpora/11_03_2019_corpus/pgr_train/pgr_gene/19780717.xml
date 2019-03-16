@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19780717">
+	<sentence id="s1" text="In addition, conditions such as Gitelman's syndrome, distal renal tubular acidosis and pseudohypoaldosteronism type II, as well as a mitochondrial defect associated with hypomagnesaemia, all change the renal handling of divalent cations.">
+		<entity id="s1.e1" charOffset="53-82"
+			type="HP" text="distal renal tubular acidosis" ontology_id="HP_0008341"/>
+		<entity id="s1.e2" charOffset="87-110"
+			type="HP" text="pseudohypoaldosteronism" ontology_id="HP_0008242"/>
+		<entity id="s1.e3" charOffset="111-115"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26220971">
+	<sentence id="s1" text="Homozygous recessive mutations in either EFEMP2 (encoding fibulin-4) or FBLN5 (encoding fibulin-5), critical genes for elastogenesis, lead to autosomal recessive cutis laxa types 1B and 1A, respectively.">
+		<entity id="s1.e1" charOffset="41-47"
+			type="GENE" text="EFEMP2" ontology_id="30008"/>
+		<entity id="s1.e2" charOffset="72-77"
+			type="GENE" text="FBLN5" ontology_id="10516"/>
+		<entity id="s1.e3" charOffset="142-161"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30322610">
+	<sentence id="s1" text="The melanogenic activity of 6-benzylaminopurine, the compound identified as the most potent, was further verified by measuring green fluorescent protein concentration in positive regulation of melanin biosynthetic process a: eGFP (tyrosinase-related protein 1) zebrafish and mitfa: eGFP (microphthalmia associated transcription factor) zebrafish and antioxidative activity.">
+		<entity id="s1.e1" charOffset="170-221"
+			type="GO" text="positive regulation of melanin biosynthetic process" ontology_id="GO_0048023"/>
+		<entity id="s1.e2" charOffset="288-302"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

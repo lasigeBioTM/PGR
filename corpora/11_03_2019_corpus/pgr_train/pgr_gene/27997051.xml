@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27997051">
+	<sentence id="s1" text="Although AEBP1 immunoreactivity was almost absent in neurons containing neurofibrillary tangles, AEBP1 was highly expressed in neurons with pretangles and in the tau-immunopositive, dystrophic neurites of senile plaques.">
+		<entity id="s1.e1" charOffset="9-14"
+			type="GENE" text="AEBP1" ontology_id="165"/>
+		<entity id="s1.e2" charOffset="72-95"
+			type="HP" text="neurofibrillary tangles" ontology_id="HP_0002185"/>
+		<entity id="s1.e3" charOffset="162-165"
+			type="GENE" text="tau" ontology_id="4137"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

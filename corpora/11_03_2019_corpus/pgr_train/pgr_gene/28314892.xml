@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28314892">
+	<sentence id="s1" text="Increased catabolite concentrations in serum are associated with several cardiovascular diseases (CVD), including heart disease, atherosclerosis, and endothelial dysfunction, as well as their risk factors, including hypertension, diabetes, obesity, and aging.">
+		<entity id="s1.e1" charOffset="198-201"
+			type="GENE" text="act" ontology_id="11332"/>
+		<entity id="s1.e2" charOffset="216-228"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e3" charOffset="240-247"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24325915">
+	<sentence id="s1" text="Triple-negative (TN) breast cancer is an aggressive subtype of breast cancer associated with a unique negative regulation of transcription, DNA-templated of epidemiologic and genetic risk factors.">
+		<entity id="s1.e1" charOffset="28-34"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="102-153"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Associations with TN breast cancer were confirmed for 10 loci (positive regulation of Wnt signaling pathway, negative regulation of transcription by RNA polymerase II, proteolysis, 2q35, 2p24.1, TERT-rs10069690, transcription by RNA polymerase II, regulation of apoptotic process, 19p13.1, cholesterol homeostasis), and we identified associations with TN breast cancer for 15 additional breast cancer loci (P AAAA 0.05: protein import into peroxisome matrix, translocation, 2q24.1, 2q31.1, spermatogenesis, positive regulation of transcription by RNA polymerase II, negative regulation of transcription by RNA polymerase II, 11q13.1, 11q24.3, 12p13.1, skeletal system development, regulation of transcription, DNA-templated, 12q24, mitotic cytokinesis, RAD51L1-rs2588809, MKL1).">
+		<entity id="s2.e1" charOffset="28-34"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="63-107"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<entity id="s2.e3" charOffset="109-166"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e4" charOffset="168-179"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s2.e5" charOffset="212-246"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s2.e6" charOffset="248-279"
+			type="GO" text="regulation of apoptotic process" ontology_id="GO_0042981"/>
+		<entity id="s2.e7" charOffset="290-313"
+			type="GO" text="cholesterol homeostasis" ontology_id="GO_0042632"/>
+		<entity id="s2.e8" charOffset="317-344"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s2.e9" charOffset="420-472"
+			type="GO" text="protein import into peroxisome matrix, translocation" ontology_id="GO_0016561"/>
+		<entity id="s2.e10" charOffset="490-505"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007505"/>
+		<entity id="s2.e11" charOffset="507-564"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e12" charOffset="566-623"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e13" charOffset="681-723"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e14" charOffset="732-751"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e11" pgr="false"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e12" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p13" e1="s2.e1"
+		    e2="s2.e14" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Further, two SNPs independent of previously reported signals in transcription by RNA polymerase II [rs12525163 odds ratio (OR) = 1.15, P = 4.9 × 10(-) (4)] and 19p13.1 (rs1864112 OR = 0.84, P = 1.8 × 10(-) (9)) were associated with TN breast cancer.">
+		<entity id="s3.e1" charOffset="64-98"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s3.e2" charOffset="242-248"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

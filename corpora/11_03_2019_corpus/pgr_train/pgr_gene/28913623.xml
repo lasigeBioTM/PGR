@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28913623">
+	<sentence id="s1" text="The known pathogenic molecules involved in ichthyosis syndromes with prominent hair abnormalities include SPINK5, ERCC2, ERCC3, GTF2H5, MPLKIP, ST14, CLDN1 and MBTPS2.">
+		<entity id="s1.e1" charOffset="79-97"
+			type="HP" text="hair abnormalities" ontology_id="HP_0001595"/>
+		<entity id="s1.e2" charOffset="106-112"
+			type="GENE" text="SPINK5" ontology_id="11005"/>
+		<entity id="s1.e3" charOffset="114-119"
+			type="GENE" text="ERCC2" ontology_id="2068"/>
+		<entity id="s1.e4" charOffset="121-126"
+			type="GENE" text="ERCC3" ontology_id="2071"/>
+		<entity id="s1.e5" charOffset="128-134"
+			type="GENE" text="GTF2H5" ontology_id="404672"/>
+		<entity id="s1.e6" charOffset="136-142"
+			type="GENE" text="MPLKIP" ontology_id="136647"/>
+		<entity id="s1.e7" charOffset="150-155"
+			type="GENE" text="CLDN1" ontology_id="9076"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+</document>

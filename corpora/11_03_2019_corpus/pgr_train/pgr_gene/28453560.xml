@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28453560">
+	<sentence id="s1" text="The aim of our study was to determine the impact of genetic polymorphisms in the caspase (CASP) genes on prognosis of hepatocellular carcinoma (HCC).">
+		<entity id="s1.e1" charOffset="42-48"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="90-94"
+			type="GENE" text="CASP" ontology_id="10491"/>
+		<entity id="s1.e3" charOffset="118-142"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e4" charOffset="144-147"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We genotyped 7 potentially functional polymorphisms in CASP3, CASP7, CASP8, CASP9, CASP10 genes in 362 HCC patients of receiving surgical resection of HCC tumor.">
+		<entity id="s2.e1" charOffset="55-59"
+			type="GENE" text="CASP" ontology_id="10491"/>
+		<entity id="s2.e2" charOffset="103-106"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s2.e3" charOffset="155-160"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

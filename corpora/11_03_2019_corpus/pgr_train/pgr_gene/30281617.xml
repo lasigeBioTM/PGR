@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30281617">
+	<sentence id="s1" text="Recently, defects of ZBTB20, a BTB and zinc finger domain containing transcriptional repressor, have been implicated in a wide range of neurodevelopmental disorders, including intellectual disability and autism.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="GENE" text="ZBTB20" ontology_id="26137"/>
+		<entity id="s1.e2" charOffset="176-199"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="204-210"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Two ZBTB20 single nucleotide variants, located at the N-terminal and central regions of the protein and potentially conferring autism risk, altered dendritic spine morphology.">
+		<entity id="s2.e1" charOffset="4-10"
+			type="GENE" text="ZBTB20" ontology_id="26137"/>
+		<entity id="s2.e2" charOffset="127-133"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In contrast, a single nucleotide variant identified in patients with intellectual disability and located at the C-terminus of ZBTB20 affected dendritic arborization and dendritic length but had no effect on dendritic spine morphology.">
+		<entity id="s3.e1" charOffset="69-92"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s3.e2" charOffset="126-132"
+			type="GENE" text="ZBTB20" ontology_id="26137"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

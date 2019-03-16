@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30513729">
+	<sentence id="s1" text="These effects are thought to have a significant negative regulation of transcription by RNA polymerase II upon both vascular and cerebrovascular health, ultimately with the potential to prevent cardiovascular and potentially neurodegenerative disease with a vascular component, for example vascular dementia.">
+		<entity id="s1.e1" charOffset="48-105"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="225-250"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, there is adenylate cyclase-activating G protein-coupled receptor signaling pathway variation in the literature due to the heterogeneous nature of the randomised controlled trials conducted.">
+		<entity id="s2.e1" charOffset="18-91"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s2.e2" charOffset="131-144"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

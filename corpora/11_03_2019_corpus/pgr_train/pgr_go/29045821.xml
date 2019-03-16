@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29045821">
+	<sentence id="s1" text="MiR-93-5p has been previously found to be associated with gastric cancer (vitamin D metabolic process) tumorigenesis; however, the current understanding of its function in this context remains largely incomplete.">
+		<entity id="s1.e1" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="74-101"
+			type="GO" text="vitamin D metabolic process" ontology_id="GO_0042359"/>
+		<entity id="s1.e3" charOffset="103-108"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MiR-93-5p upregulation was also shown to inhibit the expression of two well-characterized Hippo pathway regulators, protocadherin positive regulation of cell-matrix adhesion 4 (heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules), and large tumor suppressors 2 (G1/S transition of mitotic cell cycle), at both the mRNA and protein level.">
+		<entity id="s2.e1" charOffset="130-173"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s2.e2" charOffset="177-252"
+			type="GO" text="heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules" ontology_id="GO_0007157"/>
+		<entity id="s2.e3" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="286-323"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

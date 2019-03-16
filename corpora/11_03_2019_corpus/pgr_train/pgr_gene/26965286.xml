@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26965286">
+	<sentence id="s1" text="80.5 % of luminal-type tumours developed bone metastasis as opposed to 41.7 % of basal and 55.6 % of HER2-like tumours.">
+		<entity id="s1.e1" charOffset="23-30"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="101-105"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="A novel 15-gene signature identified 82.4 % of the tumours with bone metastasis, 85.2 % of the tumours which had bone metastasis as first site of metastasis and 100 % of the ones with bone metastasis only (p 9.99e-09), in the training set.">
+		<entity id="s2.e1" charOffset="51-58"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="235-238"
+			type="GENE" text="set" ontology_id="6418"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the independent dataset, 81.2 % of the positive tested tumours had known metastatic disease to the bone (p 4.28e-10).">
+		<entity id="s3.e1" charOffset="23-26"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s3.e2" charOffset="58-65"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The expression levels of the up-regulated genes (NAT1, BBS1 and PH-4) were also found to be correlated to epithelial to mesenchymal transition status of the tumour.">
+		<entity id="s4.e1" charOffset="49-53"
+			type="GENE" text="NAT1" ontology_id="1982"/>
+		<entity id="s4.e2" charOffset="55-59"
+			type="GENE" text="BBS1" ontology_id="582"/>
+		<entity id="s4.e3" charOffset="157-163"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30365130">
+	<sentence id="s1" text="Multivariable logistic regression analysis with adjustment for age and sex revealed that all 25, 28 and 65 of these SNPs were significantly associated with hypertriglyceridemia, hypo‑HDL‑cholesterolemia and hyper‑LDL‑cholesterolemia, respectively.">
+		<entity id="s1.e1" charOffset="71-74"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s1.e2" charOffset="156-176"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Following examination of the association of the identified SNPs to serum concentrations of triglycerides, HDL‑cholesterol, or LDL‑cholesterol, linkage disequilibrium of the SNPs, and results of previous genome‑wide association studies, we newly identified chromosomal region 19p12 as a susceptibility locus for hypertriglyceridemia, eight loci (MOB3C‑TMOD4, LPGAT1, EHD3, COL6A3, ZNF860‑CACNA1D, COL6A5, DCLRE1C, ZNF77) for hypo‑HDL‑cholesterolemia, and three loci (KIAA0319‑FAM65B, UBD, LOC105375015) for hyper‑LDL‑cholesterolemia.">
+		<entity id="s2.e1" charOffset="311-331"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<entity id="s2.e2" charOffset="358-364"
+			type="GENE" text="LPGAT1" ontology_id="9926"/>
+		<entity id="s2.e3" charOffset="366-370"
+			type="GENE" text="EHD3" ontology_id="30845"/>
+		<entity id="s2.e4" charOffset="372-378"
+			type="GENE" text="COL6A3" ontology_id="1293"/>
+		<entity id="s2.e5" charOffset="396-402"
+			type="GENE" text="COL6A5" ontology_id="256076"/>
+		<entity id="s2.e6" charOffset="404-411"
+			type="GENE" text="DCLRE1C" ontology_id="64421"/>
+		<entity id="s2.e7" charOffset="413-418"
+			type="GENE" text="ZNF77" ontology_id="58492"/>
+		<entity id="s2.e8" charOffset="483-486"
+			type="GENE" text="UBD" ontology_id="10537"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+</document>

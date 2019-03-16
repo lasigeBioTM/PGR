@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28883096">
+	<sentence id="s1" text="Mutations affecting human COG1, COG2 and COG4-COG8 cause monogenic forms of inherited, autosomal recessive CDGs.">
+		<entity id="s1.e1" charOffset="26-30"
+			type="GENE" text="COG1" ontology_id="9382"/>
+		<entity id="s1.e2" charOffset="32-36"
+			type="GENE" text="COG2" ontology_id="22796"/>
+		<entity id="s1.e3" charOffset="41-45"
+			type="GENE" text="COG4" ontology_id="25839"/>
+		<entity id="s1.e4" charOffset="46-50"
+			type="GENE" text="COG8" ontology_id="84342"/>
+		<entity id="s1.e5" charOffset="87-106"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e6" charOffset="107-111"
+			type="GENE" text="CDGs" ontology_id="5373"/>
+		<pair id="s1.p1" e1="s1.e5"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29452408">
+	<sentence id="s1" text="The candidate genes located within the new loci were related to ocular development (regulation of transcription, DNA-templated, negative regulation of transcription by RNA polymerase II and cellular response to mechanical stimulus) and glaucoma-related phenocardiac muscle tissue developments (biological_process, LMX1B and peptidyl-lysine oxidation).">
+		<entity id="s1.e1" charOffset="84-126"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="101-141"
+			type="GO" text="cellular response to mechanical stimulus" ontology_id="GO_0071260"/>
+		<entity id="s1.e3" charOffset="128-185"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="147-155"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e5" charOffset="258-291"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e6" charOffset="265-283"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e7" charOffset="283-308"
+			type="GO" text="peptidyl-lysine oxidation" ontology_id="GO_0018057"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Genetic correlation analysis revealed the relationships between POAG and systemic diseases, including cardiac muscle tissue development 2 diabetes and cardiovascular diseases.">
+		<entity id="s2.e1" charOffset="102-135"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e2" charOffset="151-174"
+			type="HP" text="cardiovascular diseases" ontology_id="HP_0001626"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

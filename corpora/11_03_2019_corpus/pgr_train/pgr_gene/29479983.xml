@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29479983">
+	<sentence id="s1" text="a small fraction of the breast cancer burden, mutations in the BRCA1 and BRCA2 genes are known to confer a high">
+		<entity id="s1.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="63-68"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s1.e3" charOffset="73-78"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="studies have shown that mutations in the CHEK2 gene are involved in breast cancer susceptibility due to its impact">
+		<entity id="s2.e1" charOffset="41-46"
+			type="GENE" text="CHEK2" ontology_id="11200"/>
+		<entity id="s2.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="germline mutations in CHEK2 gene (c.1100delC, R145W and I157T) in breast cancers in Rwanda.">
+		<entity id="s3.e1" charOffset="22-27"
+			type="GENE" text="CHEK2" ontology_id="11200"/>
+		<entity id="s3.e2" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

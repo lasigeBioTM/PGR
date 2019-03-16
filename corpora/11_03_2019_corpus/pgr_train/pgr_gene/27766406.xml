@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27766406">
+	<sentence id="s1" text="To further characterize CD164 as a potential biomarker for malignant CD4<sup>+</sup> T cells, CD164<sup>+</sup> and CD164<sup>-</sup>CD4<sup>+</sup> T cells isolated from patients with high-circulating tumor burden, B2 stage, and medium/low tumor burden, B1-B0 stage, were assessed for the expression of genes reported to differentiate SS from normal controls, and associated with malignancy and poor prognosis.">
+		<entity id="s1.e1" charOffset="202-207"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="255-257"
+			type="GENE" text="B1" ontology_id="27241"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CD164 was co-expressed with KIR3DL2 on circulating CD4<sup>+</sup> T cells from high tumor burden SS patients, further providing strong support for CD164 as a disease relevant surface biomarker">
+		<entity id="s2.e1" charOffset="28-35"
+			type="GENE" text="KIR3DL2" ontology_id="3812"/>
+		<entity id="s2.e2" charOffset="85-90"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

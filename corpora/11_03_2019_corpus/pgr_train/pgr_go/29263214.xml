@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29263214">
+	<sentence id="s1" text="TNF-related apoptosis-inducing ligand (positive regulation of apoptotic process) was initially described to induce apoptosis of tumor cells and/or virally infected cells, although sparing normal cells, and has been implicated in the pathogenesis of HIV disease.">
+		<entity id="s1.e1" charOffset="39-79"
+			type="GO" text="positive regulation of apoptotic process" ontology_id="GO_0043065"/>
+		<entity id="s1.e2" charOffset="128-133"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

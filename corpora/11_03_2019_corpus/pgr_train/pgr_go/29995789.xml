@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29995789">
+	<sentence id="s1" text="This case-control study was aimed to evaluate the influence of cytochrome P450 family 17 subfamily A member 1 (steroid metabolic process) gene rs743572 polymorphism for the susceptibility to endometriosis.Polymerase chain recoenzyme A biosynthetic procession-restriction fragment length polymorphism (PCR-RFLP) was used to genotype rs743572 polymorphism in 143 endometriosis patients and 148 healthy controls.">
+		<entity id="s1.e1" charOffset="111-136"
+			type="GO" text="steroid metabolic process" ontology_id="GO_0008202"/>
+		<entity id="s1.e2" charOffset="191-204"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s1.e3" charOffset="224-255"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="But we failed to cellular response to interleukin-4 any obvious association of rs743572 genotypes with endometriosis stages and charcoenzyme A biosynthetic processeristics.T allele of rs743572 polymorphism might act as a risk factor for endometriosis, although it had no effects on the disease stages and basic features">
+		<entity id="s2.e1" charOffset="17-51"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e2" charOffset="103-116"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s2.e3" charOffset="132-163"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

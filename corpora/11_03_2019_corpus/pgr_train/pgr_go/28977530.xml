@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28977530">
+	<sentence id="s1" text="Although poly(A)+ mRNA export from nucleus plays a critical role in the regulation of RNA processing, mutation of the gene encoding this ubiquitously expressed RNA binding protein causes a specific form of muscular dystrophy termed oculopharyngeal muscular dystrophy (poly(A)+ mRNA export from nucleus).">
+		<entity id="s1.e1" charOffset="9-42"
+			type="GO" text="poly(A)+ mRNA export from nucleus" ontology_id="GO_0016973"/>
+		<entity id="s1.e2" charOffset="206-224"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e3" charOffset="268-301"
+			type="GO" text="poly(A)+ mRNA export from nucleus" ontology_id="GO_0016973"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The activation of innate immune response gene is mutated in a form of distal myopathy and amyotrophic lateral sclerosis (signal transduction).">
+		<entity id="s2.e1" charOffset="4-40"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s2.e2" charOffset="70-76"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s2.e3" charOffset="77-85"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s2.e4" charOffset="121-140"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e6"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

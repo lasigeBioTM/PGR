@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26546829">
+	<sentence id="s1" text="Familial hypercholesterolemia is usually due to loss-of-function mutations in LDLR, the gene coding for low density lipoprotein receptor and genes encoding for proteins that interact with the receptor: APOB, PCSK9 and LDLRAP1.">
+		<entity id="s1.e1" charOffset="9-29"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s1.e2" charOffset="78-82"
+			type="GENE" text="LDLR" ontology_id="3949"/>
+		<entity id="s1.e3" charOffset="202-206"
+			type="GENE" text="APOB" ontology_id="338"/>
+		<entity id="s1.e4" charOffset="208-213"
+			type="GENE" text="PCSK9" ontology_id="255738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Monogenic hypertriglyceridemia is the result of mutations in genes that regulate the metabolism of triglyceride rich lipoproteins (eg LPL, APOC2, APOA5, LMF1, GPIHBP1).">
+		<entity id="s2.e1" charOffset="10-30"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<entity id="s2.e2" charOffset="134-137"
+			type="GENE" text="LPL" ontology_id="4023"/>
+		<entity id="s2.e3" charOffset="139-144"
+			type="GENE" text="APOC2" ontology_id="344"/>
+		<entity id="s2.e4" charOffset="146-151"
+			type="GENE" text="APOA5" ontology_id="116519"/>
+		<entity id="s2.e5" charOffset="153-157"
+			type="GENE" text="LMF1" ontology_id="64788"/>
+		<entity id="s2.e6" charOffset="159-166"
+			type="GENE" text="GPIHBP1" ontology_id="338328"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Conversely familial hypobetalipoproteinemia is caused by inactivation of the PCSK9 gene which increases the number of LDL receptors and decreases plasma cholesterol.">
+		<entity id="s3.e1" charOffset="20-43"
+			type="HP" text="hypobetalipoproteinemia" ontology_id="HP_0003563"/>
+		<entity id="s3.e2" charOffset="77-82"
+			type="GENE" text="PCSK9" ontology_id="255738"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

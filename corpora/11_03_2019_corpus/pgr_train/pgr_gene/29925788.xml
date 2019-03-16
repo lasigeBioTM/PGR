@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29925788">
+	<sentence id="s1" text="To personalize nutrition, the purpose of this study was to examine five key genes in the folate metabolism pathway, and dietary parameters and related interactive parameters as predictors of colorectal cancer (CRC) by measuring the healthy eating index (HEI) in multiethnic families.">
+		<entity id="s1.e1" charOffset="154-157"
+			type="GENE" text="era" ontology_id="2099"/>
+		<entity id="s1.e2" charOffset="202-208"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We then constructed predictive generalized regression (GR) modeling with a supervised machine learning validation procedure with the target variable (cancer status) being specified to validate the results to allow enhanced prediction and reproducibility.">
+		<entity id="s2.e1" charOffset="34-37"
+			type="GENE" text="era" ontology_id="2099"/>
+		<entity id="s2.e2" charOffset="150-156"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Additional predictors included age, as well as gender and the interaction of li>MTHFR</i> 677 with overweight status (measured by body mass index) in predicting CRC, with the cancer group having more men and overweight cases.">
+		<entity id="s3.e1" charOffset="65-68"
+			type="GENE" text="era" ontology_id="2099"/>
+		<entity id="s3.e2" charOffset="135-139"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s3.e3" charOffset="175-181"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="200-203"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

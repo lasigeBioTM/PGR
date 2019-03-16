@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28262687">
+	<sentence id="s1" text="IGSF1 (Immunoglobulin Superfamily 1) gene defects cause central hypothyroidism and macroorchidism.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="IGSF1" ontology_id="3547"/>
+		<entity id="s1.e2" charOffset="56-63"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e3" charOffset="64-78"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s1.e4" charOffset="83-97"
+			type="HP" text="macroorchidism" ontology_id="HP_0000053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Based on a patient with a full deletion of IGSF1 clinically followed from neonate to adulthood, we investigated a common pituitary origin for hypothyroidism and macroorchidism, and the role of IGSF1 as regulator of pituitary hormone secretion.">
+		<entity id="s2.e1" charOffset="43-48"
+			type="GENE" text="IGSF1" ontology_id="3547"/>
+		<entity id="s2.e2" charOffset="142-156"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s2.e3" charOffset="161-175"
+			type="HP" text="macroorchidism" ontology_id="HP_0000053"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, two relevant molecular mechanisms linked to central hypothyroidism and macroorchidism in IGSF1 deficiency are identified, revealing IGSF1 as an important regulator of TGFβ/Activin pathways in the pituitary">
+		<entity id="s3.e1" charOffset="59-66"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s3.e2" charOffset="67-81"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s3.e3" charOffset="86-100"
+			type="HP" text="macroorchidism" ontology_id="HP_0000053"/>
+		<entity id="s3.e4" charOffset="104-109"
+			type="GENE" text="IGSF1" ontology_id="3547"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

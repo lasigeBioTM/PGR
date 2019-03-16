@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30297428">
+	<sentence id="s1" text="We conducted a large-scale genome-wide association study of erectile dysfunction in 36,649 men in the multiethnic Kaiser Permanente Northern California Genetic Epidemiology Research in Adult Health and Aging cohort.">
+		<entity id="s1.e1" charOffset="60-80"
+			type="HP" text="erectile dysfunction" ontology_id="HP_0000802"/>
+		<entity id="s1.e2" charOffset="91-94"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The association replicated in the UK Biobank sample (odds ratio = 1.25, li>P</i> = 6.8 × 10<sup>-14</sup>), and the effect is independent of known erectile dysfunction risk factors, including body mass index (BMI).">
+		<entity id="s2.e1" charOffset="147-167"
+			type="HP" text="erectile dysfunction" ontology_id="HP_0000802"/>
+		<entity id="s2.e2" charOffset="197-201"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

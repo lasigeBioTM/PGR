@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28772236">
+	<sentence id="s1" text="These studies suggest that compound 4d behaves well in lowering body weight and maintaining energy expenditure without a chance of hyperglycaemia, 4d has strong clinical potential as an efficient GLP-1/GCGR agonist in the prevention and treatment of obesity and dyslipidemia">
+		<entity id="s1.e1" charOffset="196-199"
+			type="GENE" text="GLP" ontology_id="342096"/>
+		<entity id="s1.e2" charOffset="202-206"
+			type="GENE" text="GCGR" ontology_id="2642"/>
+		<entity id="s1.e3" charOffset="250-257"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

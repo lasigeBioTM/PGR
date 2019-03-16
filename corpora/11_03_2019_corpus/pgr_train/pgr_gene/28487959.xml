@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28487959">
+	<sentence id="s1" text="In this study, we performed exome-wide association studies (EWASs) to identify genetic variants that confer susceptibility to ischemic stroke, intracerebral hemorrhage (ICH), or subarachnoid hemorrhage (SAH).">
+		<entity id="s1.e1" charOffset="143-167"
+			type="HP" text="intracerebral hemorrhage" ontology_id="HP_0001342"/>
+		<entity id="s1.e2" charOffset="203-206"
+			type="GENE" text="SAH" ontology_id="6296"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Multivariable logistic regression analysis with adjustment for age, sex and the prevalence of hypertension and diabetes mellitus revealed that 4 of these SNPs [rs3212335 of GABRB3 (P=0.0036; odds ratio, 1.29), rs147783135 of TMPRSS7 (P=0.0024; odds ratio, 0.37), rs2292661 of PDIA5 (P=0.0054; odds ratio, 0.35) and rs191885206 of CYP4F12 (P=0.0082; odds ratio, 2.60)] were related (PAAAA0.01) to ischemic stroke.">
+		<entity id="s2.e1" charOffset="68-71"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s2.e2" charOffset="94-106"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s2.e3" charOffset="225-232"
+			type="GENE" text="TMPRSS7" ontology_id="344805"/>
+		<entity id="s2.e4" charOffset="276-281"
+			type="GENE" text="PDIA5" ontology_id="10954"/>
+		<entity id="s2.e5" charOffset="330-337"
+			type="GENE" text="CYP4F12" ontology_id="66002"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Multivariable logistic regression analysis with adjustment for age, sex and the prevalence of hypertension revealed that rs138533962 of STYK1 (PAAAA1.0x10-23; odds ratio, 111.3) was significantly (PAAAA2.60x10-4) associated with ICH and that rs117564807 of COL17A1 (P=0.0009; odds ratio, 2.23x10-8) was significantly (PAAAA0.0010) associated with SAH.">
+		<entity id="s3.e1" charOffset="68-71"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s3.e2" charOffset="94-106"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s3.e3" charOffset="136-141"
+			type="GENE" text="STYK1" ontology_id="55359"/>
+		<entity id="s3.e4" charOffset="257-264"
+			type="GENE" text="COL17A1" ontology_id="1308"/>
+		<entity id="s3.e5" charOffset="347-350"
+			type="GENE" text="SAH" ontology_id="6296"/>
+		<pair id="s3.p1" e1="s3.e5"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

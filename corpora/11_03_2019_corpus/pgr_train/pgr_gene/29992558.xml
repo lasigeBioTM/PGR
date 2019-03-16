@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29992558">
+	<sentence id="s1" text="Only a few genes, including SMARCA4, SMO, ZNF44 and CHD2, were recurrently and specifically mutated in the SS group, confirming the low recurrence of common mutations in this tumor.">
+		<entity id="s1.e1" charOffset="28-35"
+			type="GENE" text="SMARCA4" ontology_id="6597"/>
+		<entity id="s1.e2" charOffset="37-40"
+			type="GENE" text="SMO" ontology_id="54498"/>
+		<entity id="s1.e3" charOffset="42-47"
+			type="GENE" text="ZNF44" ontology_id="51710"/>
+		<entity id="s1.e4" charOffset="52-56"
+			type="GENE" text="CHD2" ontology_id="1106"/>
+		<entity id="s1.e5" charOffset="175-180"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

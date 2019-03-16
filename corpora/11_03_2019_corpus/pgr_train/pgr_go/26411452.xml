@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26411452">
+	<sentence id="s1" text="Genome-wide association studies have identified genomic loci, whose single-nucleotide polymorphisms (SNPs) predispose to prostate cancer (mitochondrial transport).">
+		<entity id="s1.e1" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="138-161"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The expression of melanosome transport in primary prostate tumors was significantly lower in those with the G compared with the T allele and correlated significantly with AR protein.">
+		<entity id="s2.e1" charOffset="18-38"
+			type="GO" text="melanosome transport" ontology_id="GO_0032402"/>
+		<entity id="s2.e2" charOffset="59-65"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Higher melanophilin level in prostate tissue of patients with a favorable mitochondrial transport risk profile points out a tumor-suppressive effect.">
+		<entity id="s3.e1" charOffset="74-97"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s3.e2" charOffset="124-129"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

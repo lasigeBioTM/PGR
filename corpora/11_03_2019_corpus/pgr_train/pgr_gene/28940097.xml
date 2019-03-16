@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28940097">
+	<sentence id="s1" text="We also highlight NCKAP1 as another compelling candidate in a large family with autosomal dominant mild intellectual disability that fully segregates with a heterozygous truncating variant.">
+		<entity id="s1.e1" charOffset="18-24"
+			type="GENE" text="NCKAP1" ontology_id="10787"/>
+		<entity id="s1.e2" charOffset="104-127"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

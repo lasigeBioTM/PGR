@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29307790">
+	<sentence id="s1" text="The aCGH analysis revealed a pathogenic CNV in the 14q11.2 region, while targeted exome sequencing revealed pathogenic variants in genes associated with intellectual disability (protein polyubiquitination, neuron projection development), including a gene coding for mandibulofacial dysostosis with microcephaly (mRNA splicing, via spliceosome).">
+		<entity id="s1.e1" charOffset="153-176"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="178-204"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e3" charOffset="206-235"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<entity id="s1.e4" charOffset="242-268"
+			type="HP" text="mandibulofacial dysostosis" ontology_id="HP_0005321"/>
+		<entity id="s1.e5" charOffset="274-286"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e6" charOffset="312-342"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e6"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e14"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Based on our findings we conclude that for new patients with Kabuki-like phenotypes it is possible to choose a specific molecular testing approach that has the highest detection rate for a given histone H3-K4 methylation-Kabuki score, thus fostering more precise patient diagnosis and improved management in these genetically- and phenotypically heterogeneous clinical entities">
+		<entity id="s2.e1" charOffset="195-220"
+			type="GO" text="histone H3-K4 methylation" ontology_id="GO_0051568"/>
+		<entity id="s2.e2" charOffset="346-359"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28720665">
+	<sentence id="s1" text="Methylation profiling, metabolite assessment and additional analyses were also performed in selected cases.<b>Results:</b> One of the 11 tumors was found to carry a known cancer-predisposing somatic mutation in li>IDH1</i> A variant in li>GOT2</i>, c.357AAAAAT, found in a patient with multiple tumors, was associated with higher tumor mRNA and protein expression levels, increased GOT2 enzymatic activity in lymphoblastic cells, and altered metabolite ratios both in tumors and in GOT2 knockdown HeLa cells transfected with the variant.">
+		<entity id="s1.e1" charOffset="137-143"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="171-177"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="191-207"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s1.e4" charOffset="239-243"
+			type="GENE" text="GOT2" ontology_id="2806"/>
+		<entity id="s1.e5" charOffset="330-335"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Array methylation-based analysis uncovered a somatic epigenetic mutation in li>SDHC</i> in a patient with multiple pheochromocytomas and a gastrointestinal stromal tumor.">
+		<entity id="s2.e1" charOffset="79-82"
+			type="GENE" text="SDH" ontology_id="1757"/>
+		<entity id="s2.e2" charOffset="115-132"
+			type="HP" text="pheochromocytomas" ontology_id="HP_0002666"/>
+		<entity id="s2.e3" charOffset="164-169"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

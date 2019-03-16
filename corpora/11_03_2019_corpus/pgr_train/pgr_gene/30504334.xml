@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30504334">
+	<sentence id="s1" text="Paroxysmal nocturnal hemoglobinuria (PNH) is a clonal hematopoietic disease caused by expansion of a stem cell that harbors a somatic mutation in li>PIGA</i> PIGA mutant blood cells are deficient in the complement regulator proteins CD55 and CD59, making them susceptible to intravascular hemolysis due to a failure to regulate the APC on erythrocytes.">
+		<entity id="s1.e1" charOffset="126-142"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s1.e2" charOffset="149-153"
+			type="GENE" text="PIGA" ontology_id="5277"/>
+		<entity id="s1.e3" charOffset="332-335"
+			type="GENE" text="APC" ontology_id="324"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

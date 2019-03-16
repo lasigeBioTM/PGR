@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25791755">
+	<sentence id="s1" text="Next-generation sequencing (NGS) of the genetic information of cancer cells has revolutionized the field of cancer biology, including prostate cancer (mitochondrial transport).">
+		<entity id="s1.e1" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="151-174"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="With its highly heterogeneous nature, mitochondrial transport continues to pose a tremendous challenge in terms of diagnosis and prognosis.">
+		<entity id="s2.e1" charOffset="16-29"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="38-61"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

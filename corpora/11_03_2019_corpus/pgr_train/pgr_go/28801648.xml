@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28801648">
+	<sentence id="s1" text="Primary ciliary dyskinesia (motile cilium assembly) is clinically characterized by neonatal respiratory distress, chronic sinusitis, bronchiectasis and infertility, and situs inversus in 50% of the patients.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-50"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s1.e3" charOffset="92-112"
+			type="HP" text="respiratory distress" ontology_id="HP_0002098"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="motile cilium assembly is a result of mutations in genes encoding proteins involved in ciliary function, and is primarily inherited in an autosomal recessive fashion.">
+		<entity id="s2.e1" charOffset="0-22"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s2.e2" charOffset="138-157"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Diagnosis of motile cilium assembly is often a challenging ion transmembrane transport due to its high clinical and genetic heterogeneities.">
+		<entity id="s3.e1" charOffset="13-35"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s3.e2" charOffset="59-86"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s3.e3" charOffset="101-116"
+			type="HP" text="heterogeneities" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

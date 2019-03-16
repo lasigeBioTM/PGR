@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27666370">
+	<sentence id="s1" text="We report that biallelic mutations in TBCD, encoding one of the five co-chaperones required for assembly and disassembly of the αβ-tubulin heterodimer, the structural unit of microtubules, cause a disease with neurodevelopmental and neurodegenerative features characterized by early-onset cortical atrophy, secondary hypomyelination, microcephaly, thin corpus callosum, developmental delay, intellectual disability, seizures, optic atrophy, and spastic quadriplegia.">
+		<entity id="s1.e1" charOffset="38-42"
+			type="GENE" text="TBCD" ontology_id="6904"/>
+		<entity id="s1.e2" charOffset="289-305"
+			type="HP" text="cortical atrophy" ontology_id="HP_0002120"/>
+		<entity id="s1.e3" charOffset="334-346"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="370-389"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e5" charOffset="391-414"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e6" charOffset="416-424"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e7" charOffset="426-439"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s1.e8" charOffset="445-465"
+			type="HP" text="spastic quadriplegia" ontology_id="HP_0002510"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our findings establish that defective TBCD function underlies a recognizable encephalopathy and drives accelerated microtubule polymerization and enhanced microtubule stability, underscoring an additional cause of altered microtubule dynamics with impact on neuronal function and survival in the developing brain">
+		<entity id="s2.e1" charOffset="38-42"
+			type="GENE" text="TBCD" ontology_id="6904"/>
+		<entity id="s2.e2" charOffset="77-91"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s2.e3" charOffset="248-254"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

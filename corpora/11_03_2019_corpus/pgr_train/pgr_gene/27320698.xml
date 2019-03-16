@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27320698">
+	<sentence id="s1" text="The eye features were a notable part of this child's presentation and mutations in the linkeropathy genes (XYLT1, XYLT2, B4GALT7, B3GALT6, and B3GAT3) can be associated with ocular findings, including blue sclerae, refractive errors, corneal clouding, strabismus, nystagmus, cataracts, glaucoma, and retinal abnormalities, including retinal detachment.">
+		<entity id="s1.e1" charOffset="107-112"
+			type="GENE" text="XYLT1" ontology_id="64131"/>
+		<entity id="s1.e2" charOffset="114-119"
+			type="GENE" text="XYLT2" ontology_id="64132"/>
+		<entity id="s1.e3" charOffset="121-128"
+			type="GENE" text="B4GALT7" ontology_id="11285"/>
+		<entity id="s1.e4" charOffset="130-137"
+			type="GENE" text="B3GALT6" ontology_id="126792"/>
+		<entity id="s1.e5" charOffset="143-149"
+			type="GENE" text="B3GAT3" ontology_id="26229"/>
+		<entity id="s1.e6" charOffset="234-250"
+			type="HP" text="corneal clouding" ontology_id="HP_0007957"/>
+		<entity id="s1.e7" charOffset="252-262"
+			type="HP" text="strabismus" ontology_id="HP_0000486"/>
+		<entity id="s1.e8" charOffset="264-273"
+			type="HP" text="nystagmus" ontology_id="HP_0000639"/>
+		<entity id="s1.e9" charOffset="275-284"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e10" charOffset="286-294"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e11" charOffset="333-351"
+			type="HP" text="retinal detachment" ontology_id="HP_0000541"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e4"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e8"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e1"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e4"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e9"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e8"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e1"
+		    e2="s1.e32" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e4"
+		    e2="s1.e32" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e9"
+		    e2="s1.e32" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e8"
+		    e2="s1.e32" pgr="false"/>
+		<pair id="s1.p21" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p22" e1="s1.e1"
+		    e2="s1.e42" pgr="true"/>
+		<pair id="s1.p23" e1="s1.e4"
+		    e2="s1.e42" pgr="false"/>
+		<pair id="s1.p24" e1="s1.e9"
+		    e2="s1.e42" pgr="false"/>
+		<pair id="s1.p25" e1="s1.e8"
+		    e2="s1.e42" pgr="true"/>
+		<pair id="s1.p26" e1="s1.e3"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p27" e1="s1.e1"
+		    e2="s1.e52" pgr="false"/>
+		<pair id="s1.p28" e1="s1.e4"
+		    e2="s1.e52" pgr="true"/>
+		<pair id="s1.p29" e1="s1.e9"
+		    e2="s1.e52" pgr="false"/>
+		<pair id="s1.p30" e1="s1.e8"
+		    e2="s1.e52" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The corneal clouding and cataracts in this patient may thus have been caused by her B4GALT7 mutation, but the colobomas are a novel phenotypic finding.">
+		<entity id="s2.e1" charOffset="4-20"
+			type="HP" text="corneal clouding" ontology_id="HP_0007957"/>
+		<entity id="s2.e2" charOffset="25-34"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s2.e3" charOffset="84-91"
+			type="GENE" text="B4GALT7" ontology_id="11285"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

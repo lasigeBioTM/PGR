@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25357075">
+	<sentence id="s1" text="Mutations in the membrane frizzled-related protein (embryo development ending in birth or egg hatching/embryo development ending in birth or egg hatching) gene, specifically expressed in the retinal pigment epithelium (carbohydrate metabolic process) and ciliary body, cause nanophthalmia or posterior microphthalmia with retinitis pigmentosa in humans, and photoreceptor degeneration in apoptotic process.">
+		<entity id="s1.e1" charOffset="52-102"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<entity id="s1.e2" charOffset="103-153"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<entity id="s1.e3" charOffset="219-249"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_0005975"/>
+		<entity id="s1.e4" charOffset="229-243"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e5" charOffset="388-405"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In embryo development ending in birth or egg hatchingrd6 eyes, a significant 1.5- to 2.0-fold decrease was observed among transcripts of genes linked to retinal degeneration, including those involved in visual cycle (zeaxanthin biosynthetic process, retinol metabolic process, G protein-coupled receptor signaling pathway), phototransduction (G protein-coupled receptor signaling pathway, receptor guanylyl cyclase signaling pathway, negative regulation of signal transduction), and photoreceptor disc morphogenesis (visual perception and actin cytoskeleton organization).">
+		<entity id="s2.e1" charOffset="3-53"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<entity id="s2.e2" charOffset="153-173"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e3" charOffset="217-248"
+			type="GO" text="zeaxanthin biosynthetic process" ontology_id="GO_1901827"/>
+		<entity id="s2.e4" charOffset="250-275"
+			type="GO" text="retinol metabolic process" ontology_id="GO_0042572"/>
+		<entity id="s2.e5" charOffset="277-321"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s2.e6" charOffset="343-387"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s2.e7" charOffset="389-432"
+			type="GO" text="receptor guanylyl cyclase signaling pathway" ontology_id="GO_0007168"/>
+		<entity id="s2.e8" charOffset="434-476"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009968"/>
+		<entity id="s2.e9" charOffset="517-534"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e10" charOffset="539-570"
+			type="GO" text="actin cytoskeleton organization" ontology_id="GO_0030036"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e2"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e2"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Transcripts of camera-type eye development, a gene associated with angle-closure glaucoma, posterior microphthalmia and myopia, were increased in embryo development ending in birth or egg hatchingrd6 eyes by 17-fold.">
+		<entity id="s3.e1" charOffset="15-42"
+			type="GO" text="camera-type eye development" ontology_id="GO_0043010"/>
+		<entity id="s3.e2" charOffset="60-68"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s3.e3" charOffset="80-94"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s3.e4" charOffset="99-105"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s3.e5" charOffset="125-175"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e9" pgr="false"/>
+	</sentence>
+</document>

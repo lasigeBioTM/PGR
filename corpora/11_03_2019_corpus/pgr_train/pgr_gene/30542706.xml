@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30542706">
+	<sentence id="s1" text="Gastrointestinal stromal tumors (GISTs) are the most common type of mesenchymal tumor of the digestive tract.">
+		<entity id="s1.e1" charOffset="25-31"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="60-64"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Dysregulated miRNAs are involved in various types of human disease, including cancer.">
+		<entity id="s2.e1" charOffset="13-16"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="44-48"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e3" charOffset="78-84"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

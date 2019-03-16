@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27449089">
+	<sentence id="s1" text="Previous work has demonstrated the effectiveness of inhibiting DNA damage checkpoint with small-molecule inhibitors, but the role of CHK1 mediated DDR in medulloblastoma is unknown.">
+		<entity id="s1.e1" charOffset="63-84"
+			type="GO" text="DNA damage checkpoint" ontology_id="GO_0000077"/>
+		<entity id="s1.e2" charOffset="154-169"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="DNA damage checkpoint, both at the mRNA and protein level, is highly expressed in medulloblastoma and elevated CHK1 expression in Group3 medulloblastoma is an adverse prognostic marker.">
+		<entity id="s2.e1" charOffset="0-21"
+			type="GO" text="DNA damage checkpoint" ontology_id="GO_0000077"/>
+		<entity id="s2.e2" charOffset="82-97"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overall, our results demonstrate that small-molecule inhibition of DNA damage checkpoint in combination with, cisplatin, is more advantageous than either treatment alone, especially for Group 3 medulloblastoma, and therefore this combined therapeutic approach serves as an avenue for further investigation">
+		<entity id="s3.e1" charOffset="67-88"
+			type="GO" text="DNA damage checkpoint" ontology_id="GO_0000077"/>
+		<entity id="s3.e2" charOffset="194-209"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

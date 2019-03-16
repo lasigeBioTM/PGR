@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28524599">
+	<sentence id="s1" text="As ∆E<sub>3</sub> is modulated by cellular signalling and linked to various types of cancer, we anticipate that ∆E<sub>3</sub> contributes to environmentally tuned REST function and may have a broad range of clinical implications">
+		<entity id="s1.e1" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="164-168"
+			type="GENE" text="REST" ontology_id="5978"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

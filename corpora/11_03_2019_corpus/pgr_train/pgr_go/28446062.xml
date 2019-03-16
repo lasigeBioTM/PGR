@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28446062">
+	<sentence id="s1" text="Insufficient signaling through one or more of these metabolite-sensing GPCRs likely contributes to human diseases such as asthma, food allergies, cardiac muscle tissue development 1 and cardiac muscle tissue development 2 diabetes, hepatic steatosis, cardiovascular disease, and inflammatory bowel diseases">
+		<entity id="s1.e1" charOffset="146-179"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="211-220"
+			type="HP" text="steatosis" ontology_id="HP_0001397"/>
+		<entity id="s1.e3" charOffset="222-244"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

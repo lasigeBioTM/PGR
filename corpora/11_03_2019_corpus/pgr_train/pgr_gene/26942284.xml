@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26942284">
+	<sentence id="s1" text="Homozygozity mapping and exome sequencing in 62 isolated individuals with early-onset parkinsonism and confirmed consanguinity followed by data mining in the exomes of 1,348 PD-affected individuals identified, in three isolated subjects, homozygous or compound heterozygous truncating mutations in vacuolar protein sorting 13C (VPS13C).">
+		<entity id="s1.e1" charOffset="86-98"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<entity id="s1.e2" charOffset="328-334"
+			type="GENE" text="VPS13C" ontology_id="54832"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="VPS13C mutations are associated with a distinct form of early-onset parkinsonism characterized by rapid and severe disease progression and early cognitive decline; the pathological features were striking and reminiscent of diffuse Lewy body disease.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="VPS13C" ontology_id="54832"/>
+		<entity id="s2.e2" charOffset="68-80"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This work suggests that loss of function of VPS13C is a cause of autosomal-recessive early-onset parkinsonism with a distinctive phenotype of rapid and severe progression">
+		<entity id="s3.e1" charOffset="44-50"
+			type="GENE" text="VPS13C" ontology_id="54832"/>
+		<entity id="s3.e2" charOffset="97-109"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

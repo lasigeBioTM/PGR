@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25732731">
+	<sentence id="s1" text="In this study, we show that the presentation of a MHC class II-restricted model Ag (male, DBY) released by dying tumor cells may last more than 4 wk.">
+		<entity id="s1.e1" charOffset="90-93"
+			type="GENE" text="DBY" ontology_id="8653"/>
+		<entity id="s1.e2" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To avoid this artifactual early priming of the host precluding the study of the interactions between the immune system and tumors at the steady state, we generated a cell line expressing the DBY Ag in an inducible manner.">
+		<entity id="s2.e1" charOffset="123-128"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="191-194"
+			type="GENE" text="DBY" ontology_id="8653"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

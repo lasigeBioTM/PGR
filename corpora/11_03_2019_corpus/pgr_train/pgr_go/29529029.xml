@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29529029">
+	<sentence id="s1" text="Uncorrected refrcoenzyme A biosynthetic processive errors constitute the most common cause of vision loss and second leading cause of blindness worldwide.">
+		<entity id="s1.e1" charOffset="16-47"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s1.e2" charOffset="134-143"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We have previously identified a role for the secreted serine protease camera-type eye development in ocular size determination and camera-type eye development variants have been implicated in the etiology of both hyperopia and myopia, highlighting its importance in refrcoenzyme A biosynthetic processive development.">
+		<entity id="s2.e1" charOffset="70-97"
+			type="GO" text="camera-type eye development" ontology_id="GO_0043010"/>
+		<entity id="s2.e2" charOffset="192-201"
+			type="HP" text="hyperopia" ontology_id="HP_0000540"/>
+		<entity id="s2.e3" charOffset="206-212"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s2.e4" charOffset="249-280"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e6"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we use a combination of genetic mouse models to demonstrate that camera-type eye development mutations leading to reduced ocular size and hyperopia coenzyme A biosynthetic process via a loss of function mechanism.">
+		<entity id="s3.e1" charOffset="71-98"
+			type="GO" text="camera-type eye development" ontology_id="GO_0043010"/>
+		<entity id="s3.e2" charOffset="144-153"
+			type="HP" text="hyperopia" ontology_id="HP_0000540"/>
+		<entity id="s3.e3" charOffset="154-185"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Finally, we demonstrate that genetic incoenzyme A biosynthetic processivation of camera-type eye development rescues axial elongation in a mouse model of myopia caused by a null mutation in Egr1.">
+		<entity id="s4.e1" charOffset="39-70"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s4.e2" charOffset="53-80"
+			type="GO" text="camera-type eye development" ontology_id="GO_0043010"/>
+		<entity id="s4.e3" charOffset="126-132"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Overall, our findings identify camera-type eye development as a potential therapeutic target for modulating ocular growth aimed at preventing or slowing down myopia, which is reaching epidemic proportions">
+		<entity id="s5.e1" charOffset="31-58"
+			type="GO" text="camera-type eye development" ontology_id="GO_0043010"/>
+		<entity id="s5.e2" charOffset="158-164"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

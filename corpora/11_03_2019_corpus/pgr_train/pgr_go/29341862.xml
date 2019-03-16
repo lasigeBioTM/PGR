@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29341862">
+	<sentence id="s1" text="To address this negative regulation of cell-matrix adhesion, we performed a longitudinal exome-wide association study to identify susceptibility loci for obesity and MetS in a Japanese population.">
+		<entity id="s1.e1" charOffset="16-59"
+			type="GO" text="negative regulation of cell-matrix adhesion" ontology_id="GO_0001953"/>
+		<entity id="s1.e2" charOffset="154-161"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The association of single nucleotide polymorphisms (SNPs) with body cell adhesion mediated by integrin index (BMI) or the prevalence of obesity and MetS was examined in a generalized estimating equation model.">
+		<entity id="s2.e1" charOffset="68-102"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s2.e2" charOffset="136-143"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

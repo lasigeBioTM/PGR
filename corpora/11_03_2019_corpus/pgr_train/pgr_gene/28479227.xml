@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28479227">
+	<sentence id="s1" text="Limb girdle muscular dystrophy type 2I (LGMD2I) is a progressive disorder caused by mutations in the FuKutin-Related Protein gene (FKRP).">
+		<entity id="s1.e1" charOffset="12-30"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="31-35"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="40-46"
+			type="GENE" text="LGMD2I" ontology_id="79147"/>
+		<entity id="s1.e4" charOffset="131-135"
+			type="GENE" text="FKRP" ontology_id="79147"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="LGMD2I displays clinical heterogeneity with onset of severe symptoms in early childhood to mild calf and thigh hypertrophy in the second or third decade.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="LGMD2I" ontology_id="79147"/>
+		<entity id="s2.e2" charOffset="25-38"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

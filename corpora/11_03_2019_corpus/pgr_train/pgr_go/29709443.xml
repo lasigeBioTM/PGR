@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29709443">
+	<sentence id="s1" text="We aimed to investigate the effect of the AS to negative regulation of transcription by RNA polymerase II gene on non-small cell lung cancer (NSCLC) development.">
+		<entity id="s1.e1" charOffset="48-105"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="134-140"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The expression level of lncRNA FEZF-AS1 and negative regulation of transcription by RNA polymerase II was determined by the quantitative Real-time PCR in 160 cases of NSCLC tissues and their adjacent non-tumour tissues.">
+		<entity id="s2.e1" charOffset="44-101"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="204-210"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="By GEPIA database analysis, we also found that the expression of lncRNA FEZF-AS1 and negative regulation of transcription by RNA polymerase II were significantly higher in tumour tissues than those of the adjacent non-cancerous tissues in 969 NSCLC patients (P AAAA 0.05), and lncRNA FEZF-AS1 was positively correlated with negative regulation of transcription by RNA polymerase II (r = 0.90, P AAAA 0.001).">
+		<entity id="s3.e1" charOffset="85-142"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="172-178"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="218-224"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28657129">
+	<sentence id="s1" text="However, acetyl-CoA biosynthetic process from pyruvate<sup>f/Y;</sup> Cnp<sup>Cre/+</sup> apoptotic process showed reduced fiber density and signs of axonal degeneration in both sciatic and optic nerves from 6 months of age.">
+		<entity id="s1.e1" charOffset="9-54"
+			type="GO" text="acetyl-CoA biosynthetic process from pyruvate" ontology_id="GO_0006086"/>
+		<entity id="s1.e2" charOffset="90-107"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="137-156"
+			type="HP" text="axonal degeneration" ontology_id="HP_0040078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

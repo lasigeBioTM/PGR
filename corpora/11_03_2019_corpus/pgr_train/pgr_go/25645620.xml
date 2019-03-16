@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25645620">
+	<sentence id="s1" text="AL apoptotic process showed a diabetes prevalence of 43%, whereas mice under CR and IF were completely protected against hyperglycemia.">
+		<entity id="s1.e1" charOffset="3-20"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="121-134"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

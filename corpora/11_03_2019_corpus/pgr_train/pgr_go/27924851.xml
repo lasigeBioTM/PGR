@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27924851">
+	<sentence id="s1" text="regulation of transcription by RNA polymerase II mutations have been found to be responsible for Tricho-Dento-Osseous (tryptophan catabolic process to kynurenine) syndrome, charcoenzyme A biosynthetic processerized by kinky hair, thin-pitted enamel and increased bone density.">
+		<entity id="s1.e1" charOffset="0-48"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="119-161"
+			type="GO" text="tryptophan catabolic process to kynurenine" ontology_id="GO_0019441"/>
+		<entity id="s1.e3" charOffset="177-208"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s1.e4" charOffset="186-208"
+			type="HP" text="increased bone density" ontology_id="HP_0011001"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we show that the regulation of transcription by RNA polymerase II mutation (c.533 AAAAAG; Q178R) attenuates osteogenic potential and senescence of bone mesenchymal stem cells (BMSCs) isolated from a tryptophan catabolic process to kynurenine patient, providing a molecular explanation for abnormal increased bone density.">
+		<entity id="s2.e1" charOffset="22-70"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e2" charOffset="204-246"
+			type="GO" text="tryptophan catabolic process to kynurenine" ontology_id="GO_0019441"/>
+		<entity id="s2.e3" charOffset="264-286"
+			type="HP" text="increased bone density" ontology_id="HP_0011001"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

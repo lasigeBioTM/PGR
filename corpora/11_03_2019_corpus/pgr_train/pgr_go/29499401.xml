@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29499401">
+	<sentence id="s1" text="Hepatocyte growth factor (neutrophil apoptotic process)/c-regulation of transcription by RNA polymerase II signaling plays an important role in cell proliferation, survival, migration and motility of cancer cells.">
+		<entity id="s1.e1" charOffset="26-54"
+			type="GO" text="neutrophil apoptotic process" ontology_id="GO_0001781"/>
+		<entity id="s1.e2" charOffset="58-106"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e3" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The scope of the present review is to recapitulate and review the evidence of negative regulation of cell-cell adhesion participation in cancer development and progression, exploring the clinical, biological and functional descriptions of the involvement of this protein in diverse neoplasias.">
+		<entity id="s2.e1" charOffset="78-119"
+			type="GO" text="negative regulation of cell-cell adhesion" ontology_id="GO_0022408"/>
+		<entity id="s2.e2" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="282-292"
+			type="HP" text="neoplasias" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Most studies are in agreement as to the belief that, in a large range of human cancers, the negative regulation of cell-cell adhesion gene promoter is frequently methylated, resulting in the epigenetic silence of this gene.">
+		<entity id="s3.e1" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="92-133"
+			type="GO" text="negative regulation of cell-cell adhesion" ontology_id="GO_0022408"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Functional assays indicate that negative regulation of cell-cell adhesion reactivation ameliorates the malignant phenocardiac muscle tissue development, specifically reducing cell viability, migration and invasion in diverse cancer cell lines.">
+		<entity id="s4.e1" charOffset="32-73"
+			type="GO" text="negative regulation of cell-cell adhesion" ontology_id="GO_0022408"/>
+		<entity id="s4.e2" charOffset="83-116"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s4.e3" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In sum, the negative regulation of cell-cell adhesion gene is epigenetically silenced or downregulated in human cancers, altering the balance of neutrophil apoptotic process activation/inhibition ratio, which contributes to cancer development and progression">
+		<entity id="s5.e1" charOffset="12-53"
+			type="GO" text="negative regulation of cell-cell adhesion" ontology_id="GO_0022408"/>
+		<entity id="s5.e2" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="110-138"
+			type="GO" text="neutrophil apoptotic process" ontology_id="GO_0001781"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

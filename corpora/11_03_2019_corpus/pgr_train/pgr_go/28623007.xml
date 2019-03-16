@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28623007">
+	<sentence id="s1" text="Three neurodegenerative diseases [Amyotrophic Lateral Sclerosis (signal transduction), Parkinson's disease (PD) and Alzheimer's disease (AD)] have many characteristics like pathological mechanisms and genes.">
+		<entity id="s1.e1" charOffset="6-32"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="65-84"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We will systematically examine seven genes (motor neuron axon guidance, tricarboxylic acid cycle, positive regulation of neuron differentiation, biological_process, urea transmembrane transport, exocytosis and positive regulation of insulin secretion involved in cellular response to glucose stimulus) that are altered in the three neurodegenerative diseases.">
+		<entity id="s2.e1" charOffset="44-70"
+			type="GO" text="motor neuron axon guidance" ontology_id="GO_0008045"/>
+		<entity id="s2.e2" charOffset="72-96"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s2.e3" charOffset="98-143"
+			type="GO" text="positive regulation of neuron differentiation" ontology_id="GO_0049866"/>
+		<entity id="s2.e4" charOffset="145-163"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e5" charOffset="147-173"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s2.e6" charOffset="165-193"
+			type="GO" text="urea transmembrane transport" ontology_id="GO_0071918"/>
+		<entity id="s2.e7" charOffset="195-205"
+			type="GO" text="exocytosis" ontology_id="GO_00068205"/>
+		<entity id="s2.e8" charOffset="210-300"
+			type="GO" text="positive regulation of insulin secretion involved in cellular response to glucose stimulus" ontology_id="GO_0035774"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e6"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e7"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e8"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

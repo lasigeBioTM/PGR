@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28663568">
+	<sentence id="s1" text="We identified 52 variants contributing to obesity in 2% of cases including multiple novel variants in adenylate cyclase-activating G protein-coupled receptor signaling pathway, which were sometimes found with accelerated growth rather than short stature as described previously.">
+		<entity id="s1.e1" charOffset="42-49"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="102-175"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e3" charOffset="240-253"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Further validation in cohorts with severe obesity and engineering the variants in model organisms will be needed to explore whether human variants in angiogenesis and other genes that lead to obesity when deleted in apoptotic process, do contribute to obesity.">
+		<entity id="s2.e1" charOffset="42-49"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="150-162"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s2.e3" charOffset="216-233"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

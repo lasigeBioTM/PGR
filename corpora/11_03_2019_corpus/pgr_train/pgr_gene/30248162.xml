@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30248162">
+	<sentence id="s1" text="This review goes over recent scientific progress in understanding the molecular mechanisms governing pruritus, the cross-talk between the immune and nervous systems that regulate itch, and central nervous pathways and projections affected by itch.">
+		<entity id="s1.e1" charOffset="179-183"
+			type="GENE" text="itch" ontology_id="83737"/>
+		<entity id="s1.e2" charOffset="189-196"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

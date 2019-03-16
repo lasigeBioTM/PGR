@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30413001">
+	<sentence id="s1" text="Danon disease, an X-linked dominant cardioskeletal myopathy, is caused by primary deficiency of lysosome-associated membrane protein-2 (regulation of autophagy-2).">
+		<entity id="s1.e1" charOffset="51-59"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e2" charOffset="136-159"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

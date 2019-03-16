@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29886046">
+	<sentence id="s1" text="Clinical presentation of generation of precursor metabolites and energy deficiency is heterogeneous ranging from mild to severe neuromuscular diseases.">
+		<entity id="s1.e1" charOffset="25-71"
+			type="GO" text="generation of precursor metabolites and energy" ontology_id="GO_0006091"/>
+		<entity id="s1.e2" charOffset="86-99"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

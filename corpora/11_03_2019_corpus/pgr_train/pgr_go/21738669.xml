@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21738669">
+	<sentence id="s1" text="Progressive retinal atrophy (signal transduction) in dogs, the canine equivalent of retinitis pigmentosa (RP) in humans, is characterised by vision loss due to degeneration of the photoreceptor cells in the retina, eventually leading to complete blindness.">
+		<entity id="s1.e1" charOffset="12-27"
+			type="HP" text="retinal atrophy" ontology_id="HP_0001105"/>
+		<entity id="s1.e2" charOffset="29-48"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e3" charOffset="246-255"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This variant was present in 56% of signal transduction cases and 87% of obligate carriers, and displayed a recessive mode of inheritance with full penetrance within those lineages in which it segregated.">
+		<entity id="s2.e1" charOffset="35-54"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s2.e2" charOffset="117-136"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A large proportion of cases (approximately 44%) remain unexplained, indicating that signal transduction in this breed is genetically heterogeneous and caused by at least three mutations.">
+		<entity id="s3.e1" charOffset="84-103"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s3.e2" charOffset="133-146"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="bicarbonate transport is important for retinal function and has not previously been associated with spontaneously occurring retinal degenerations in any other species, including humans">
+		<entity id="s4.e1" charOffset="0-21"
+			type="GO" text="bicarbonate transport" ontology_id="GO_0015701"/>
+		<entity id="s4.e2" charOffset="124-145"
+			type="HP" text="retinal degenerations" ontology_id="HP_0000546"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

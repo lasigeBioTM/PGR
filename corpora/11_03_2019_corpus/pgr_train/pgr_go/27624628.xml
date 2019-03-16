@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27624628">
+	<sentence id="s1" text="We report the association of many previously unreported variants with retinal disease, as well as new disease phenotypes associated with known genes, including the first association of the cellular calcium ion homeostasis gene with retinitis pigmentosa.">
+		<entity id="s1.e1" charOffset="70-85"
+			type="HP" text="retinal disease" ontology_id="HP_0000479"/>
+		<entity id="s1.e2" charOffset="189-221"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

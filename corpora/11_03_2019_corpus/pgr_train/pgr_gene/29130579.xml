@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29130579">
+	<sentence id="s1" text="We used exome sequencing to study the molecular basis of disease in an 11-year-old female patient who suffered from growth retardation, global developmental delay with absent speech acquisition, agenesis of corpus callosum and paucity of white matter, sensorineural deafness, retinitis pigmentosa, vertebral anomalies, patent ductus arteriosus, and facial dysmorphism reminiscent of STAR syndrome, a suspected ciliopathy.">
+		<entity id="s1.e1" charOffset="143-162"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="266-274"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="276-296"
+			type="HP" text="retinitis pigmentosa" ontology_id="HP_0000510"/>
+		<entity id="s1.e4" charOffset="298-317"
+			type="HP" text="vertebral anomalies" ontology_id="HP_0003468"/>
+		<entity id="s1.e5" charOffset="349-367"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<entity id="s1.e6" charOffset="383-387"
+			type="GENE" text="STAR" ontology_id="2984"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

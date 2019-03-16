@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29024210">
+	<sentence id="s1" text="We report a case of phosphorylation-positive renal cell carcinoma coincident with Hodgkin lymphoma.">
+		<entity id="s1.e1" charOffset="20-35"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e2" charOffset="45-65"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The variety of growth patterns and cell features led us to speculate a possibility of phosphorylation-positive renal cell carcinoma (ALK + RCC).">
+		<entity id="s2.e1" charOffset="86-101"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s2.e2" charOffset="111-131"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

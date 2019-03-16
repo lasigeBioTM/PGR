@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29058484">
+	<sentence id="s1" text="Nogo-A and Nogo-C are potent Nogos that are predominantly expressed in the central nervous system.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="Nogo" ontology_id="57142"/>
+		<entity id="s1.e2" charOffset="75-82"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In recent years, it has been demonstrated that NgBR plays an important role in human pathophysiological processes, including lipid metabolism, angiogenesis, N-glycosylation, cell apoptosis, chemoresistance in human hepatocellular carcinoma, and epithelial-mesenchymal transition.">
+		<entity id="s2.e1" charOffset="47-51"
+			type="GENE" text="NgBR" ontology_id="116150"/>
+		<entity id="s2.e2" charOffset="215-239"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

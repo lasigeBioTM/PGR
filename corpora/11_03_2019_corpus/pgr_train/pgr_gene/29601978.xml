@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29601978">
+	<sentence id="s1" text="A better understanding of Preb gene expression, during the pathogenesis of hepatic insulin resistance, could ultimately provide new avenues for therapies for metabolic syndrome, obesity, and type-2 diabetes mellitus, disorders whose worldwide incidences are increasing drastically">
+		<entity id="s1.e1" charOffset="26-30"
+			type="GENE" text="Preb" ontology_id="10113"/>
+		<entity id="s1.e2" charOffset="178-185"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

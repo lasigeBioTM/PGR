@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29083325">
+	<sentence id="s1" text="Deficiency in Krüppel-like zinc finger transcription factor GLI-similar 3 (GLIS3) in humans is associated with the development of congenital hypothyroidism.">
+		<entity id="s1.e1" charOffset="75-80"
+			type="GENE" text="GLIS3" ontology_id="169792"/>
+		<entity id="s1.e2" charOffset="141-155"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the functions of GLIS3 in the thyroid gland and the mechanism by which GLIS3 dysfunction causes hypothyroidism are unknown.">
+		<entity id="s2.e1" charOffset="26-31"
+			type="GENE" text="GLIS3" ontology_id="169792"/>
+		<entity id="s2.e2" charOffset="105-119"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our study identifies GLIS3 as a key regulator of TSH/TSHR-mediated thyroid hormone biosynthesis and proliferation of thyroid follicular cells and uncovers a mechanism by which GLIS3 deficiency causes neonatal hypothyroidism and prevents goiter development">
+		<entity id="s3.e1" charOffset="21-26"
+			type="GENE" text="GLIS3" ontology_id="169792"/>
+		<entity id="s3.e2" charOffset="53-57"
+			type="GENE" text="TSHR" ontology_id="7253"/>
+		<entity id="s3.e3" charOffset="209-223"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

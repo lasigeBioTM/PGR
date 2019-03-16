@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29351440">
+	<sentence id="s1" text="Previously, we demonstrated that several common pathological gene regulatory programs such as innate inflammatory and profibrotic transcriptional networks were shared by ER to Golgi vesicle-mediated transport and heart failure.">
+		<entity id="s1.e1" charOffset="170-208"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="213-226"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

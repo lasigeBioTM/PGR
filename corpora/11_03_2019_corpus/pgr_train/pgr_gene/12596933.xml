@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="12596933">
+	<sentence id="s1" text="the quantitative aspects of the Ca2+-feedback to Ret-GCs in regulating the light sensitivity and adaptation in intact rods; 2. functional differences between GCAP1 and GCAP2 in intact rod photoreceptors; and 3. whether GCAP mutants with impaired Ca2+ binding lead to retinal disease in vivo by constitutive activation of Ret-GCs and elevation of intracellular cGMP, as predicted from in vitro studies">
+		<entity id="s1.e1" charOffset="75-80"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s1.e2" charOffset="118-121"
+			type="GENE" text="rod" ontology_id="9735"/>
+		<entity id="s1.e3" charOffset="158-163"
+			type="GENE" text="GCAP1" ontology_id="2978"/>
+		<entity id="s1.e4" charOffset="168-173"
+			type="GENE" text="GCAP2" ontology_id="2979"/>
+		<entity id="s1.e5" charOffset="219-223"
+			type="GENE" text="GCAP" ontology_id="2978"/>
+		<entity id="s1.e6" charOffset="267-282"
+			type="HP" text="retinal disease" ontology_id="HP_0000479"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

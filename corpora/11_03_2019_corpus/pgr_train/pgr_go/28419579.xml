@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28419579">
+	<sentence id="s1" text="Alpha-1-antitrypsin deficiency (negative regulation of endopeptidase activityD) is an inherited disease characterized by emphysema and liver disease.">
+		<entity id="s1.e1" charOffset="32-77"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<entity id="s1.e2" charOffset="121-130"
+			type="HP" text="emphysema" ontology_id="HP_0002097"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

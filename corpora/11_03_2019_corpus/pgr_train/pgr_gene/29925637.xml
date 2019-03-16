@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29925637">
+	<sentence id="s1" text="We demonstrated that li>linc-ADAL</i> interacts with heterogeneous nuclear ribonucleoprotein U (hnRNPU) and insulin-like growth factor 2 mRNA binding protein 2 (IGF2BP2) at distinct subcellular locations to regulate adipocyte differentiation and lipogenesis">
+		<entity id="s1.e1" charOffset="53-66"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="GENE" text="hnRNPU" ontology_id="3192"/>
+		<entity id="s1.e3" charOffset="161-168"
+			type="GENE" text="IGF2BP2" ontology_id="10644"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

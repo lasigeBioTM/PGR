@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23408445">
+	<sentence id="s1" text="The most significant association with childhood brain tumor risk was for IVS1-401GAAAAC in the AICDA gene [odds ratio (OR) = 2.8; 95% confidence interval (95%CI) = 1.25-6.46]; the polymorphism *9276AAAAAC of CASP14 was associated with decreased brain tumor risk (OR = 0.4; 95%CI = 0.19-0.95).">
+		<entity id="s1.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="95-100"
+			type="GENE" text="AICDA" ontology_id="57379"/>
+		<entity id="s1.e3" charOffset="208-214"
+			type="GENE" text="CASP14" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We concluded that genetic polymorphisms in AICDA and CASP14 are associated with risk for brain tumor in Korean children.">
+		<entity id="s2.e1" charOffset="43-48"
+			type="GENE" text="AICDA" ontology_id="57379"/>
+		<entity id="s2.e2" charOffset="53-59"
+			type="GENE" text="CASP14" ontology_id="23581"/>
+		<entity id="s2.e3" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

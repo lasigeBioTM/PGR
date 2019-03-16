@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26715604">
+	<sentence id="s1" text="Here we discuss 'congenital disorders of autophagy' as an emerging subclass of inborn errors of metabolism by using the examples of six recently identified monogenic diseases: autophagy-related Vici syndrome, beta-propeller protein-associated neurodegeneration due to mutations in WDR45, autophagosome maturation-associated autosomal-recessive cerebellar ataxia and intellectual disability syndrome, and three forms of hereditary spastic paraplegia, chemical synaptic transmission, double-strand break repair via homologous recombination and organic acid metabolic process caused by chemical synaptic transmission, double-strand break repair via homologous recombination and autophagy mutations, respectively.">
+		<entity id="s1.e1" charOffset="176-185"
+			type="GO" text="autophagy" ontology_id="GO_0006914"/>
+		<entity id="s1.e2" charOffset="288-312"
+			type="GO" text="autophagosome maturation" ontology_id="GO_0097352"/>
+		<entity id="s1.e3" charOffset="325-342"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e4" charOffset="347-370"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e5" charOffset="411-429"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e6" charOffset="450-480"
+			type="GO" text="chemical synaptic transmission" ontology_id="GO_0007268"/>
+		<entity id="s1.e7" charOffset="482-537"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e8" charOffset="542-572"
+			type="GO" text="organic acid metabolic process" ontology_id="GO_0006082"/>
+		<entity id="s1.e9" charOffset="590-645"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e10" charOffset="650-659"
+			type="GO" text="autophagy" ontology_id="GO_0006914"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e16"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e16"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e16"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e16"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e16"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e2"
+		    e2="s1.e30" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e30"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e30"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e30"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p20" e1="s1.e30"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e30"
+		    e2="s1.e14" pgr="true"/>
+	</sentence>
+</document>

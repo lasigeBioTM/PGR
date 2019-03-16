@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19334086">
+	<sentence id="s1" text="Treacher Collins syndrome (TCS, OMIM 154500) is a well-defined mandibulofacial dysostosis characterized by symmetric facial anomalies consisting of malar hypoplasia, coloboma of the lower eyelid, dysplastic ears, micrognathia, cleft palate and deafness.">
+		<entity id="s1.e1" charOffset="27-30"
+			type="GENE" text="TCS" ontology_id="6949"/>
+		<entity id="s1.e2" charOffset="63-89"
+			type="HP" text="mandibulofacial dysostosis" ontology_id="HP_0005321"/>
+		<entity id="s1.e3" charOffset="117-133"
+			type="HP" text="facial anomalies" ontology_id="HP_0000271"/>
+		<entity id="s1.e4" charOffset="148-164"
+			type="HP" text="malar hypoplasia" ontology_id="HP_0000272"/>
+		<entity id="s1.e5" charOffset="196-211"
+			type="HP" text="dysplastic ears" ontology_id="HP_0000377"/>
+		<entity id="s1.e6" charOffset="213-225"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<entity id="s1.e7" charOffset="227-239"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<entity id="s1.e8" charOffset="244-252"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we describe three unrelated patients showing clinical features overlapping with TCS, but who in addition have developmental delay, microcephaly and a distinct facial gestalt.">
+		<entity id="s2.e1" charOffset="85-88"
+			type="GENE" text="TCS" ontology_id="6949"/>
+		<entity id="s2.e2" charOffset="115-134"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="136-148"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Because of the distinct ear anomalies and the hearing loss a HOXA2 mutation was taken into account.">
+		<entity id="s3.e1" charOffset="24-37"
+			type="HP" text="ear anomalies" ontology_id="HP_0000598"/>
+		<entity id="s3.e2" charOffset="46-58"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s3.e3" charOffset="61-66"
+			type="GENE" text="HOXA2" ontology_id="3199"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30535804">
+	<sentence id="s1" text="Several mouse models have been described for this gene; mice heterozygous for loss-of-function defects display a rapidly progressive high-frequency hearing impairment.">
+		<entity id="s1.e1" charOffset="56-60"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="148-166"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Up to now ATP2B2 has only been reported as a modifier, or in a digenic mechanism with CDH23 for hearing impairment in humans.">
+		<entity id="s2.e1" charOffset="10-16"
+			type="GENE" text="ATP2B2" ontology_id="493"/>
+		<entity id="s2.e2" charOffset="86-91"
+			type="GENE" text="CDH23" ontology_id="64072"/>
+		<entity id="s2.e3" charOffset="96-114"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Although a digenic inheritance pattern of hearing impairment has been reported for heterozygous missense variants of ATP2B2 and CDH23, our findings indicate a monogenic cause of hearing impairment in cases with loss-of-function variants of ATP2B2">
+		<entity id="s3.e1" charOffset="11-30"
+			type="HP" text="digenic inheritance" ontology_id="HP_0010984"/>
+		<entity id="s3.e2" charOffset="42-60"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s3.e3" charOffset="117-123"
+			type="GENE" text="ATP2B2" ontology_id="493"/>
+		<entity id="s3.e4" charOffset="128-133"
+			type="GENE" text="CDH23" ontology_id="64072"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e1" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28768959">
+	<sentence id="s1" text="Although mutations in ACAN, FGFR3, NPR2, and SHOX typically lead to skeletal dysplasia, and mutations in GHRHR, GH1, GHR, STAT5B, IGF1, IGFALS, and IGF1R usually underlie hormonal defects of the growth hormone (GH)-insulin-like growth factor 1 (IGF1) axis, such mutations have also been identified in patients with idiopathic short stature (ISS).">
+		<entity id="s1.e1" charOffset="22-26"
+			type="GENE" text="ACAN" ontology_id="176"/>
+		<entity id="s1.e2" charOffset="28-33"
+			type="GENE" text="FGFR3" ontology_id="2261"/>
+		<entity id="s1.e3" charOffset="35-39"
+			type="GENE" text="NPR2" ontology_id="10641"/>
+		<entity id="s1.e4" charOffset="45-49"
+			type="GENE" text="SHOX" ontology_id="6473"/>
+		<entity id="s1.e5" charOffset="68-86"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e6" charOffset="105-110"
+			type="GENE" text="GHRHR" ontology_id="2692"/>
+		<entity id="s1.e7" charOffset="112-114"
+			type="GENE" text="GH" ontology_id="2688"/>
+		<entity id="s1.e8" charOffset="117-120"
+			type="GENE" text="GHR" ontology_id="2690"/>
+		<entity id="s1.e9" charOffset="122-128"
+			type="GENE" text="STAT5B" ontology_id="6777"/>
+		<entity id="s1.e10" charOffset="130-134"
+			type="GENE" text="IGF1" ontology_id="3479"/>
+		<entity id="s1.e11" charOffset="136-142"
+			type="GENE" text="IGFALS" ontology_id="3483"/>
+		<entity id="s1.e12" charOffset="326-339"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e5"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e5"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e5"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e2"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e4"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e8"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e11"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e12"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e14"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e16"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e18"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e20"
+		    e2="s1.e22" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Unlike previously reported patients with ACAN mutations, our four patients with ACAN variants manifested non-specific short stature with age-appropriate or mildly delayed bone ages, and had parents of normal stature.">
+		<entity id="s2.e1" charOffset="41-45"
+			type="GENE" text="ACAN" ontology_id="176"/>
+		<entity id="s2.e2" charOffset="118-131"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

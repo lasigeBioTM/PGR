@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24443915">
+	<sentence id="s1" text="Recently, autosomal recessive loss-of-function mutations in keratinocyte development (encoding exophilin-5, also known as keratinocyte development, a protein involved in intracellular vesicle transport) were identified in a new mechanobullous disease resembling a form of epidermolysis bullosa simplex (EBS).">
+		<entity id="s1.e1" charOffset="10-29"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="60-84"
+			type="GO" text="keratinocyte development" ontology_id="GO_0003334"/>
+		<entity id="s1.e3" charOffset="122-146"
+			type="GO" text="keratinocyte development" ontology_id="GO_0003334"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we searched for mutations in keratinocyte development in a 4-year-old white boy with EBS in whom initial Sanger sequencing of known genes implicated in intraepidermal skin fragility failed to identify pathogenic mutations.">
+		<entity id="s2.e1" charOffset="35-59"
+			type="GO" text="keratinocyte development" ontology_id="GO_0003334"/>
+		<entity id="s2.e2" charOffset="173-187"
+			type="HP" text="skin fragility" ontology_id="HP_0001030"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This case represents the third pedigree with keratinocyte development mutations resulting in inherited skin fragility.">
+		<entity id="s3.e1" charOffset="45-69"
+			type="GO" text="keratinocyte development" ontology_id="GO_0003334"/>
+		<entity id="s3.e2" charOffset="103-117"
+			type="HP" text="skin fragility" ontology_id="HP_0001030"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

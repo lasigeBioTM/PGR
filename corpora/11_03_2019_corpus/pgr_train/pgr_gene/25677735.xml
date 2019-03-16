@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25677735">
+	<sentence id="s1" text="Proliferative vasculopathy and hydranencephaly-hydrocephaly syndrome (PVHH, OMIM 225790), also known as Fowler syndrome, is a rare autosomal recessive disorder, caused by mutations in FLVCR2.">
+		<entity id="s1.e1" charOffset="31-46"
+			type="HP" text="hydranencephaly" ontology_id="HP_0002324"/>
+		<entity id="s1.e2" charOffset="47-59"
+			type="HP" text="hydrocephaly" ontology_id="HP_0000238"/>
+		<entity id="s1.e3" charOffset="184-190"
+			type="GENE" text="FLVCR2" ontology_id="55640"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

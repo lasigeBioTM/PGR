@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28315782">
+	<sentence id="s1" text="We investigated the effects of heightened levels of catecholamine catabolic process on dopamine-regulated motor behaviors and molecular alterations in a mouse model of dyskinesia.">
+		<entity id="s1.e1" charOffset="52-83"
+			type="GO" text="catecholamine catabolic process" ontology_id="GO_0042424"/>
+		<entity id="s1.e2" charOffset="168-178"
+			type="HP" text="dyskinesia" ontology_id="HP_0100660"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="l-DOPA-induced dyskinesia was exacerbated in TG apoptotic process without altering l-DOPA motor efficacy as determined by contralateral rotations or motor coordination.">
+		<entity id="s2.e1" charOffset="15-25"
+			type="HP" text="dyskinesia" ontology_id="HP_0100660"/>
+		<entity id="s2.e2" charOffset="48-65"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Inductions of negative regulation of transcription by RNA polymerase II and phospho-acetylated histone 3 (molecular correlates of dyskinesia) were potentiated in the lesioned striatum of TG apoptotic process compared with their WT littermates.">
+		<entity id="s3.e1" charOffset="14-71"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="77-87"
+			type="HP" text="dyskinesia" ontology_id="HP_0100660"/>
+		<entity id="s3.e3" charOffset="137-154"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our results demonstrate that human catecholamine catabolic process overexpression confers a heightened susceptibility to l-DOPA-induced dyskinesia and alters molecular and neurochemical responses in the lesioned striatum of mice">
+		<entity id="s4.e1" charOffset="35-66"
+			type="GO" text="catecholamine catabolic process" ontology_id="GO_0042424"/>
+		<entity id="s4.e2" charOffset="136-146"
+			type="HP" text="dyskinesia" ontology_id="HP_0100660"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

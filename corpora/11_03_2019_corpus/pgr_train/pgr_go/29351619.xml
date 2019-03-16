@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29351619">
+	<sentence id="s1" text="Limb-girdle muscular dystrophy cardiac muscle tissue development 2D (muscle contraction) is a rare autosomal-recessive disease, affecting striated muscle, due to mutation of muscle contraction, the gene coding for α-sarcoglycan.">
+		<entity id="s1.e1" charOffset="12-30"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="31-64"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="69-87"
+			type="GO" text="muscle contraction" ontology_id="GO_0006936"/>
+		<entity id="s1.e4" charOffset="174-192"
+			type="GO" text="muscle contraction" ontology_id="GO_0006936"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

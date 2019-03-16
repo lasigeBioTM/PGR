@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27392078">
+	<sentence id="s1" text="Crisponi syndrome (CS)/cold-induced sweating syndrome cardiac muscle tissue development 1 (positive regulation of cell proliferation) is a very rare autosomal-recessive disorder characterized by a complex phenocardiac muscle tissue development with high neonatal lethality, associated with the following main clinical features: hyperthermia and feeding difficulties in the neonatal period, scoliosis, and paradoxical sweating induced by cold since early childhood.">
+		<entity id="s1.e1" charOffset="54-87"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="91-132"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e3" charOffset="263-275"
+			type="HP" text="hyperthermia" ontology_id="HP_0001945"/>
+		<entity id="s1.e4" charOffset="280-300"
+			type="HP" text="feeding difficulties" ontology_id="HP_0011968"/>
+		<entity id="s1.e5" charOffset="325-334"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e10" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although these data further support the pathogenic role of protein ubiquitination mutations in a CS/positive regulation of cell proliferation-like phenocardiac muscle tissue development, they do not explain all their clinical manifestations and highlight the high phenotypic heterogeneity associated with mutations in KLHL7.">
+		<entity id="s2.e1" charOffset="59-81"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s2.e2" charOffset="83-124"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e3" charOffset="99-132"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e4" charOffset="222-235"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

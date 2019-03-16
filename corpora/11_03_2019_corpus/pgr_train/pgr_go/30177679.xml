@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30177679">
+	<sentence id="s1" text="In keeping with a tumor suppressive role of protein ubiquitination in human gastric cancer, we cellular response to interleukin-4 an inverse correlation between protein ubiquitination and nucleosome disassembly expression in human gastric cancer clinical samples.">
+		<entity id="s1.e1" charOffset="18-23"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="44-66"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s1.e3" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="95-129"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s1.e5" charOffset="122-144"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mechanistically, we cellular response to interleukin-4 that stabilization of nucleosome disassembly in gastric cancer cells suppresses E-integrin-mediated signaling pathway expression, subsequently promoting gastric cancer metastasis.">
+		<entity id="s2.e1" charOffset="20-54"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e2" charOffset="47-69"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s2.e3" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="137-172"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Hence, this previously unknown protein ubiquitination/nucleosome disassembly signaling axis provides the molecular basis and the rationale to target Brg1 in FBW7-compromised human gastric cancers">
+		<entity id="s3.e1" charOffset="31-53"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s3.e2" charOffset="36-58"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s3.e3" charOffset="170-176"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

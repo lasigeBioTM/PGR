@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29953855">
+	<sentence id="s1" text="We previously identified a negative regulation of transcription, DNA-templated of the most frequently mutated cytoskeleton- and extracellular matrix-related proteins (CECMPs) in numerous cancer datasets.">
+		<entity id="s1.e1" charOffset="27-78"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this report, we used a bioinformatics approach to assess the negative regulation of transcription by RNA polymerase II of amino acid (AA) substitutions on the sensitivity of CECMPs to the ST14 protease (matriptase I), a transmembrane serine protease previously implicated in cancer development.">
+		<entity id="s2.e1" charOffset="64-121"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="278-284"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

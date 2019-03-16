@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30006060">
+	<sentence id="s1" text="Alazami syndrome (AS) (negative regulation of epithelial cell proliferation# 615071) is an autosomal recessive microcephalic primordial dwarfism (PD) with recognizable facial features and severe intellectual disability due to depletion or loss of function variants in RNA processing.">
+		<entity id="s1.e1" charOffset="23-75"
+			type="GO" text="negative regulation of epithelial cell proliferation" ontology_id="GO_0050680"/>
+		<entity id="s1.e2" charOffset="91-110"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="195-218"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e4" charOffset="268-282"
+			type="GO" text="RNA processing" ontology_id="GO_0006396"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="By comparing these two additional cases with those previously reported, we strengthen the key features of AS: severe growth restriction, severe intellectual disability and some distinguishing facial features such as broad nose, malar hypoplasia, wide mouth, full lips and abnormally negative regulation of transcription, DNA-templated teeth.">
+		<entity id="s2.e1" charOffset="144-167"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e2" charOffset="228-244"
+			type="HP" text="malar hypoplasia" ontology_id="HP_0000272"/>
+		<entity id="s2.e3" charOffset="246-256"
+			type="HP" text="wide mouth" ontology_id="HP_0000154"/>
+		<entity id="s2.e4" charOffset="283-334"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

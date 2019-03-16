@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29544897">
+	<sentence id="s1" text="In T cell costimulation of more and more evidence point to the importance of Kindlin family members in normal development and human diseases especially in cancers, we aim to portrait the profile of Kindlins in the regulation of embryonic development and cancer progression.">
+		<entity id="s1.e1" charOffset="3-23"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<entity id="s1.e2" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

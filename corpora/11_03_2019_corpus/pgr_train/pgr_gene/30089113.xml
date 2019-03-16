@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30089113">
+	<sentence id="s1" text="The enriched genes included MMP9, SERPINE2, CAV1, KRT14, and RASA3 in basal tumors, and PPARG, LY6E, CTSE, CDK3, and TBX2 in luminal tumors.">
+		<entity id="s1.e1" charOffset="28-32"
+			type="GENE" text="MMP9" ontology_id="4318"/>
+		<entity id="s1.e2" charOffset="34-42"
+			type="GENE" text="SERPINE2" ontology_id="5270"/>
+		<entity id="s1.e3" charOffset="44-48"
+			type="GENE" text="CAV1" ontology_id="857"/>
+		<entity id="s1.e4" charOffset="50-55"
+			type="GENE" text="KRT14" ontology_id="3861"/>
+		<entity id="s1.e5" charOffset="61-66"
+			type="GENE" text="RASA3" ontology_id="22821"/>
+		<entity id="s1.e6" charOffset="76-81"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e7" charOffset="88-93"
+			type="GENE" text="PPARG" ontology_id="5468"/>
+		<entity id="s1.e8" charOffset="101-105"
+			type="GENE" text="CTSE" ontology_id="1510"/>
+		<entity id="s1.e9" charOffset="107-111"
+			type="GENE" text="CDK3" ontology_id="1018"/>
+		<entity id="s1.e10" charOffset="117-121"
+			type="GENE" text="TBX2" ontology_id="6909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e6"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

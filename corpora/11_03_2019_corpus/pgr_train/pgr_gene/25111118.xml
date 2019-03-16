@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25111118">
+	<sentence id="s1" text="The created databases include ACAD8 (isobutyryl-CoA dehydrogenase deficiency (IBD)), ACADSB (short-chain acyl-CoA dehydrogenase (SCAD) deficiency), AUH (3-methylglutaconic aciduria (3-MGCA)), DHCR7 (Smith-Lemli-Opitz syndrome), HMGCS2 (3-hydroxy-3-methylglutaryl-CoA synthase 2 deficiency), HSD17B10 (17-beta-hydroxysteroid dehydrogenase X deficiency), FKBP14 (Ehlers-Danlos syndrome with progressive kyphoscoliosis, myopathy, and hearing loss; EDSKMH) and ROGDI (Kohlschütter-Tönz syndrome).">
+		<entity id="s1.e1" charOffset="30-35"
+			type="GENE" text="ACAD8" ontology_id="27034"/>
+		<entity id="s1.e2" charOffset="85-91"
+			type="GENE" text="ACADSB" ontology_id="36"/>
+		<entity id="s1.e3" charOffset="129-133"
+			type="GENE" text="SCAD" ontology_id="35"/>
+		<entity id="s1.e4" charOffset="148-151"
+			type="GENE" text="AUH" ontology_id="549"/>
+		<entity id="s1.e5" charOffset="192-197"
+			type="GENE" text="DHCR7" ontology_id="1717"/>
+		<entity id="s1.e6" charOffset="228-234"
+			type="GENE" text="HMGCS2" ontology_id="3158"/>
+		<entity id="s1.e7" charOffset="291-299"
+			type="GENE" text="HSD17B10" ontology_id="3028"/>
+		<entity id="s1.e8" charOffset="353-359"
+			type="GENE" text="FKBP14" ontology_id="55033"/>
+		<entity id="s1.e9" charOffset="401-415"
+			type="HP" text="kyphoscoliosis" ontology_id="HP_0002751"/>
+		<entity id="s1.e10" charOffset="417-425"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e11" charOffset="431-443"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e12" charOffset="457-462"
+			type="GENE" text="ROGDI" ontology_id="79641"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e4"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e6"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e8"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e10"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e13"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e15"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e20"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p19" e1="s1.e1"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e2"
+		    e2="s1.e38" pgr="false"/>
+		<pair id="s1.p21" e1="s1.e4"
+		    e2="s1.e38" pgr="false"/>
+		<pair id="s1.p22" e1="s1.e6"
+		    e2="s1.e38" pgr="false"/>
+		<pair id="s1.p23" e1="s1.e8"
+		    e2="s1.e38" pgr="true"/>
+		<pair id="s1.p24" e1="s1.e10"
+		    e2="s1.e38" pgr="false"/>
+		<pair id="s1.p25" e1="s1.e13"
+		    e2="s1.e38" pgr="true"/>
+		<pair id="s1.p26" e1="s1.e15"
+		    e2="s1.e38" pgr="true"/>
+		<pair id="s1.p27" e1="s1.e38"
+		    e2="s1.e18" pgr="false"/>
+	</sentence>
+</document>

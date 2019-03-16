@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28941661">
+	<sentence id="s1" text="A plethora of human diseases are associated with mutations in the genes encoding human SLC26 transporters, including chondrodysplasias with varying severity in sulfate transmembrane transport (~50 mutations, 27 point mutations), congenital chloride-losing diarrhea in sperm capacitation (~70 mutations, 31 point mutations) and Pendred Syndrome or deafness autosomal recessive cardiac muscle tissue development 4 in regulation of pH (~500 mutations, 203 point mutations).">
+		<entity id="s1.e1" charOffset="160-191"
+			type="GO" text="sulfate transmembrane transport" ontology_id="GO_1902358"/>
+		<entity id="s1.e2" charOffset="268-286"
+			type="GO" text="sperm capacitation" ontology_id="GO_0048240"/>
+		<entity id="s1.e3" charOffset="336-344"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="345-364"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e5" charOffset="376-409"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e6" charOffset="415-431"
+			type="GO" text="regulation of pH" ontology_id="GO_0006885"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+</document>

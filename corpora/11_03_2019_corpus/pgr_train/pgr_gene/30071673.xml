@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30071673">
+	<sentence id="s1" text="<i>VEGFC</i>, which is a gene encoding the ligand for the vascular endothelial growth factor receptor 3 (VEGFR3/FLT4) and important for lymph vessel development during lymphangiogenesis, has been associated with a specific subtype of primary lymphedema.">
+		<entity id="s1.e1" charOffset="3-8"
+			type="GENE" text="VEGFC" ontology_id="7424"/>
+		<entity id="s1.e2" charOffset="105-109"
+			type="GENE" text="VEGF" ontology_id="7422"/>
+		<entity id="s1.e3" charOffset="247-252"
+			type="HP" text="edema" ontology_id="HP_0000969"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Through Sanger sequencing of a proband with bilateral congenital pedal edema resembling Milroy disease, we identified a novel mutation (NM_005429.2; c.361+5GAAAAA) in li>VEGFC</i>.">
+		<entity id="s2.e1" charOffset="44-53"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s2.e2" charOffset="71-76"
+			type="HP" text="edema" ontology_id="HP_0000969"/>
+		<entity id="s2.e3" charOffset="170-175"
+			type="GENE" text="VEGFC" ontology_id="7424"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

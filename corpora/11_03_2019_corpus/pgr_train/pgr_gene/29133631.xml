@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29133631">
+	<sentence id="s1" text="Leber's hereditary optic neuropathy (LHON) is a common inherited mitochondrial disorder that is characterized by the degeneration of the optic nerves, leading to vision loss.">
+		<entity id="s1.e1" charOffset="25-35"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="37-41"
+			type="GENE" text="LHON" ontology_id="100873240"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

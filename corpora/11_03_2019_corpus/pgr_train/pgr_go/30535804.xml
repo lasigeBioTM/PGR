@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30535804">
+	<sentence id="s1" text="Several mouse models have been described for this gene; apoptotic process heterozygous for loss-of-function defects display a rapidly progressive high-frequency hearing impairment.">
+		<entity id="s1.e1" charOffset="56-73"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="161-179"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Up to now cellular calcium ion homeostasis has only been reported as a modifier, or in a digenic mechanism with calcium ion transport for hearing impairment in humans.">
+		<entity id="s2.e1" charOffset="10-42"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s2.e2" charOffset="112-133"
+			type="GO" text="calcium ion transport" ontology_id="GO_0006816"/>
+		<entity id="s2.e3" charOffset="122-140"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Although a digenic inheritance pattern of hearing impairment has been reported for heterozygous missense variants of cellular calcium ion homeostasis and calcium ion transport, our findings indicate a monogenic cause of hearing impairment in cases with loss-of-function variants of cellular calcium ion homeostasis">
+		<entity id="s3.e1" charOffset="11-30"
+			type="HP" text="digenic inheritance" ontology_id="HP_0010984"/>
+		<entity id="s3.e2" charOffset="42-60"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s3.e3" charOffset="117-149"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s3.e4" charOffset="154-175"
+			type="GO" text="calcium ion transport" ontology_id="GO_0006816"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e1" pgr="false"/>
+	</sentence>
+</document>

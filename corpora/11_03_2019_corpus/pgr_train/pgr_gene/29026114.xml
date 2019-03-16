@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29026114">
+	<sentence id="s1" text="Intriguingly, one of the most frequently altered genes, mutated exclusively by inactivating mutation, was LYST (10%), which may represent a novel cancer gene in chordoma.Chordoma is a rare often incurable malignant bone tumour.">
+		<entity id="s1.e1" charOffset="106-110"
+			type="GENE" text="LYST" ontology_id="1130"/>
+		<entity id="s1.e2" charOffset="146-152"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="161-169"
+			type="HP" text="chordoma" ontology_id="HP_0010762"/>
+		<entity id="s1.e4" charOffset="220-226"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, the authors investigate driver mutations of sporadic chordoma in 104 cases, revealing duplications in notochordal transcription factor brachyury (T), PI3K signalling mutations, and mutations in LYST, a potential novel cancer gene in chordoma">
+		<entity id="s2.e1" charOffset="50-58"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="59-67"
+			type="HP" text="chordoma" ontology_id="HP_0010762"/>
+		<entity id="s2.e3" charOffset="200-204"
+			type="GENE" text="LYST" ontology_id="1130"/>
+		<entity id="s2.e4" charOffset="224-230"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

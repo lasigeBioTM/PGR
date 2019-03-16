@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26376864">
+	<sentence id="s1" text="Our results indicate that gene-based meta-analysis of GWAS provides a useful strategy to find loci of interest that were not identified in standard single-marker analyses due to high allelic heterogeneity.">
+		<entity id="s1.e1" charOffset="89-93"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s1.e2" charOffset="191-204"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

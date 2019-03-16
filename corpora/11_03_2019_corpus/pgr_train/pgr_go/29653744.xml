@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29653744">
+	<sentence id="s1" text="B cell-associated protein 31 (positive regulation of retrograde protein transport, ER to cytosol) was shown to participate in the apoptosis, and to be an immunotherapy target and a, prognostic factor for cancer, but its role in CRC has not been elucidated.">
+		<entity id="s1.e1" charOffset="30-96"
+			type="GO" text="positive regulation of retrograde protein transport, ER to cytosol" ontology_id="GO_1904154"/>
+		<entity id="s1.e2" charOffset="204-210"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

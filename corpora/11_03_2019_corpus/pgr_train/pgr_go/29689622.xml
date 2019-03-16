@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29689622">
+	<sentence id="s1" text="To investigate the presence of specific chromosomal and gene alterations, positive regulation of sodium ion transport protein expression, and their relationship with distant progression free survival (DPFS), we analyzed tumor samples from 63 UM patients (40 negative regulation of phosphatase activity and 23 wonegative regulation of phosphatase activity, with a median age of 64 years), who underwent eye enucleation by a single cancer ophthalmologist from December 2005 to June 2016.">
+		<entity id="s1.e1" charOffset="74-117"
+			type="GO" text="positive regulation of sodium ion transport" ontology_id="GO_0010765"/>
+		<entity id="s1.e2" charOffset="220-225"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="258-301"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s1.e4" charOffset="350-356"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

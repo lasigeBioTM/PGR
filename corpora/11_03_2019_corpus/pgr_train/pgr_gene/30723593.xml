@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30723593">
+	<sentence id="s1" text="Indeed, we have previously reported that a vaccine comprises allogeneic murine embryonic stem cells (ESCs) and murine fibroblasts expressing GM-CSF (to amplify immune responses) successfully blocks the outgrowth of an implantable cancer (Lewis lung carcinoma; LLC) and lung tumors generated in mice using a combination of a mutagen followed by chronic pulmonary inflammation.">
+		<entity id="s1.e1" charOffset="141-147"
+			type="GENE" text="GM-CSF" ontology_id="1437"/>
+		<entity id="s1.e2" charOffset="230-236"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="274-280"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="294-298"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Examination of tumor-infiltrating immune cells from mice vaccinated with the GM-CSF-expressing exosomes showed robust tumor-reactive CD8<sup>+</sup> T effector responses, Th1 cytokine responses, and higher CD8<sup>+</sup> T effector/CD4<sup>+</sup>CD25<sup>+</sup>Foxp3<sup>+</sup> T regulatory cell ratio in the tumors.">
+		<entity id="s2.e1" charOffset="15-20"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="52-56"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e3" charOffset="77-83"
+			type="GENE" text="GM-CSF" ontology_id="1437"/>
+		<entity id="s2.e4" charOffset="313-319"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

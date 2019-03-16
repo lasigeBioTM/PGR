@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27270838">
+	<sentence id="s1" text="Our study demonstrated that AURKA rs1047972 TT and (CC + CT) genotypes were significantly associated with an increased risk of gastric cancer.">
+		<entity id="s1.e1" charOffset="28-33"
+			type="GENE" text="AURKA" ontology_id="6790"/>
+		<entity id="s1.e2" charOffset="65-69"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

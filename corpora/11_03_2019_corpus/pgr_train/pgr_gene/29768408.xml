@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29768408">
+	<sentence id="s1" text="Here, we identified three families with mutations in ADD3, encoding for adducin-γ, with intellectual disability, microcephaly, cataracts and skeletal defects.">
+		<entity id="s1.e1" charOffset="53-57"
+			type="GENE" text="ADD3" ontology_id="120"/>
+		<entity id="s1.e2" charOffset="88-111"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="113-125"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="127-136"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In one of the families with additional cardiomyopathy and steroid-resistant nephrotic syndrome (SRNS), we found a homozygous variant in KAT2B, encoding the lysine acetyltransferase 2B, with impact on KAT2B protein levels in patient fibroblasts, suggesting that this second mutation might contribute to the increased disease spectrum.">
+		<entity id="s2.e1" charOffset="39-53"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e2" charOffset="136-141"
+			type="GENE" text="KAT2B" ontology_id="8850"/>
+		<entity id="s2.e3" charOffset="190-196"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

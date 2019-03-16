@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27048600">
+	<sentence id="s1" text="We have performed WES for 4102 (1847 female; 2255 male) intellectual disability/developmental delay cases and we report five patients with a neurodevelopmental disorder associated with developmental delay, intellectual disability, behavioral problems, hypotonia, speech problems, microcephaly, pachygyria and dysmorphic features in whom we have identified de novo missense and canonical splice site mutations in CSNK2A1, the gene encoding CK2α, the catalytic subunit of protein kinase CK2, a ubiquitous serine/threonine kinase composed of two regulatory (β) and two catalytic (α and/or α') subunits.">
+		<entity id="s1.e1" charOffset="56-79"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="80-99"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="231-250"
+			type="HP" text="behavioral problems" ontology_id="HP_0000708"/>
+		<entity id="s1.e4" charOffset="280-292"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e5" charOffset="294-304"
+			type="HP" text="pachygyria" ontology_id="HP_0001302"/>
+		<entity id="s1.e6" charOffset="412-419"
+			type="GENE" text="CSNK2A1" ontology_id="1459"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

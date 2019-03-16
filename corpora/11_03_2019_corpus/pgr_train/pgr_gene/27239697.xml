@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27239697">
+	<sentence id="s1" text="To examine the pathomechanisms of early craniofacial and dental abnormalities, we analyzed mice with an MLII patient mutation that mimic the clinical and biochemical symptoms of MLII patients.">
+		<entity id="s1.e1" charOffset="57-77"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<entity id="s1.e2" charOffset="91-95"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

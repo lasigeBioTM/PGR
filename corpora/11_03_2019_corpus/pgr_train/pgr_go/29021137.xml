@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29021137">
+	<sentence id="s1" text="Mice genetically deficient in protein polyubiquitination exhibited increased susceptibility to colon tumor development in a manner associated with higher abundance of the Wnt receptor-expressing cells and greater activation of the downstream Wnt pathway.">
+		<entity id="s1.e1" charOffset="30-56"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="101-106"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our results identify protein polyubiquitination as both a partner and regulator of Wnt signaling, with an important role in suppressing colon cancer development.">
+		<entity id="s2.e1" charOffset="21-47"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

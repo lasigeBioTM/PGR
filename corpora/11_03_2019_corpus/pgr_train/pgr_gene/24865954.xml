@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24865954">
+	<sentence id="s1" text="The importance of mitochondria for white matter is best exemplified in a group of defects of the mitochondria oxidative metabolism called mitochondria leukoencephalopathies or encephalomyopathies.">
+		<entity id="s1.e1" charOffset="51-55"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s1.e2" charOffset="151-172"
+			type="HP" text="leukoencephalopathies" ontology_id="HP_0002352"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

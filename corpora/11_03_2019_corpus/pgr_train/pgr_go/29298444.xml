@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29298444">
+	<sentence id="s1" text="She manifested macrocephaly, preaxial polysyndactyly, psychomotor developmental delay, cerebral cavernous malformations, and glucose intolerance due to a 6.2-Mb deletion of 7p14.1p12.3 which included osteoblast differentiation3, protein phosphorylation, and CCM2.">
+		<entity id="s1.e1" charOffset="15-27"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s1.e2" charOffset="66-85"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="200-226"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e4" charOffset="252-252"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We summarize the phenotypic extent of osteoblast differentiation2/3 syndromes in the literature and determine that these 2 syndromes manifest opposite features to a certain extent, such as midface hypoplasia or macrocephaly, and anterior or posterior side of polydactyly.">
+		<entity id="s2.e1" charOffset="38-64"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s2.e2" charOffset="211-223"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s2.e3" charOffset="259-270"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

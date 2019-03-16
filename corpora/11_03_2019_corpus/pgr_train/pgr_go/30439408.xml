@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30439408">
+	<sentence id="s1" text="The purpose of this study is to investigate whether G protein-coupled receptor signaling pathway can modulate the osteoclastogenesis induced by monocyte chemotaxis or cancer cells.">
+		<entity id="s1.e1" charOffset="52-96"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s1.e2" charOffset="103-122"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<entity id="s1.e3" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that G protein-coupled receptor signaling pathway inhibits monocyte chemotaxis- or cancer cell-mediated osteoclastogenesis via blockade of protein polyubiquitination and peripheral nervous system development-κB activation.">
+		<entity id="s2.e1" charOffset="14-58"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s2.e2" charOffset="27-46"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<entity id="s2.e3" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="107-133"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e5" charOffset="138-175"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

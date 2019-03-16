@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28515229">
+	<sentence id="s1" text="Mutations in human crumbs 1 (li>CRB1</i>) are a major cause of retinal diseases that lead to blindness.">
+		<entity id="s1.e1" charOffset="32-36"
+			type="GENE" text="CRB1" ontology_id="23418"/>
+		<entity id="s1.e2" charOffset="93-102"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

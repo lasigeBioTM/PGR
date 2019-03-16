@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17616665">
+	<sentence id="s1" text="The signaling of DNA damage and replication stress involves a multitude of proteins, including the kinases ataxia-telangiectasia mutated (ATM) and ATM and Rad3-related (ATR), and proteins with BRCA1 COOH-terminal (BRCT) domains.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e2" charOffset="107-113"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="138-141"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s1.e4" charOffset="169-172"
+			type="GENE" text="ATR" ontology_id="84168"/>
+		<entity id="s1.e5" charOffset="193-198"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show that breast-ovarian cancer susceptibility 1 (BRCA1) interacts directly with ATR-interacting protein (ATRIP), an obligate partner of ATR.">
+		<entity id="s2.e1" charOffset="34-40"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="59-64"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s2.e3" charOffset="90-93"
+			type="GENE" text="ATR" ontology_id="84168"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

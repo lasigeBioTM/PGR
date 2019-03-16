@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28368009">
+	<sentence id="s1" text="Basic immunological assessments have confirmed that this strain of human CD3 EDG-replaced mice are entirely immune competent, and we have also demonstrated that a bispecific antibody that simultaneously binds to human CD3 and a tumor-associated antigen (e.g. ERBB2 or GPC3) can be evaluated in human CD3 EDG-replaced mice engrafted with tumors.">
+		<entity id="s1.e1" charOffset="90-94"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="228-233"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="259-264"
+			type="GENE" text="ERBB2" ontology_id="2064"/>
+		<entity id="s1.e4" charOffset="268-272"
+			type="GENE" text="GPC3" ontology_id="2719"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

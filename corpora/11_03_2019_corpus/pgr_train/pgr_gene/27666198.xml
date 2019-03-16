@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27666198">
+	<sentence id="s1" text="Nagashima-type palmoplantar keratosis (NPPK) is an autosomal recessive form of palmoplantar keratoderma (PPK), which is caused by mutations in the SERPINB7 gene.">
+		<entity id="s1.e1" charOffset="15-37"
+			type="HP" text="palmoplantar keratosis" ontology_id="HP_0000972"/>
+		<entity id="s1.e2" charOffset="51-70"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="79-103"
+			type="HP" text="palmoplantar keratoderma" ontology_id="HP_0000982"/>
+		<entity id="s1.e4" charOffset="147-155"
+			type="GENE" text="SERPINB7" ontology_id="8710"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

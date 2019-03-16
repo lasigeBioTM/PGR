@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28941044">
+	<sentence id="s1" text="Sturge-Weber Syndrome (SWS) is a neurocutaneous disease with clinical manifestations including ocular (glaucoma), cutaneous (port-wine birthmark), neurologic (seizures), and vascular problems.">
+		<entity id="s1.e1" charOffset="23-26"
+			type="GENE" text="SWS" ontology_id="10908"/>
+		<entity id="s1.e2" charOffset="159-167"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Molecular mechanisms of SWS pathogenesis are initiated by the somatic mutation in GNAQ.">
+		<entity id="s2.e1" charOffset="24-27"
+			type="GENE" text="SWS" ontology_id="10908"/>
+		<entity id="s2.e2" charOffset="62-78"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

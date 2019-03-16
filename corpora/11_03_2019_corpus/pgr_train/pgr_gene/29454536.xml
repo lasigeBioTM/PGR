@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29454536">
+	<sentence id="s1" text="This review highlights recent advances in understanding how the OVOL1-OVOL2 axis modulates cell differentiation and proliferation in human keratinocytes, hair follicles, and benign or malignant skin tumors including squamous cell carcinoma and malignant melanoma.">
+		<entity id="s1.e1" charOffset="64-69"
+			type="GENE" text="OVOL1" ontology_id="5017"/>
+		<entity id="s1.e2" charOffset="70-75"
+			type="GENE" text="OVOL2" ontology_id="58495"/>
+		<entity id="s1.e3" charOffset="199-205"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="216-239"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e5" charOffset="244-262"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30265712">
+	<sentence id="s1" text="The KSHV viral homolog of interleukin-6 gene (vIL-6) may play a significant role in tumor development and may serve as a new anti-cancer target, but its role in tumor formation is only partially understood.">
+		<entity id="s1.e1" charOffset="46-49"
+			type="GENE" text="vIL" ontology_id="7429"/>
+		<entity id="s1.e2" charOffset="84-89"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, a novel animal model was used to study how vIL-6 affects tumor development.">
+		<entity id="s2.e1" charOffset="49-52"
+			type="GENE" text="vIL" ontology_id="7429"/>
+		<entity id="s2.e2" charOffset="63-68"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Solid tumors developed and total tumor mass and the number of tumors were characterized.">
+		<entity id="s3.e1" charOffset="6-11"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="39-43"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The vIL-6 gene had no significant impact on tumor mass, but significantly more tumors were detected when vIL-6 was present.">
+		<entity id="s4.e1" charOffset="4-7"
+			type="GENE" text="vIL" ontology_id="7429"/>
+		<entity id="s4.e2" charOffset="34-40"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s4.e3" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="50-54"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Significant differences in expression of B cell markers in cells from extracted tumors were detected based upon the presence of vIL-6.">
+		<entity id="s5.e1" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="128-131"
+			type="GENE" text="vIL" ontology_id="7429"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="B cell markers in tumor cells were also compared to the same cell type in culture, prior to xenotransplantation; B cell markers were mostly downregulated during tumor formation and these changes did not differ based upon the presence of vIL-6.">
+		<entity id="s6.e1" charOffset="18-23"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="66-70"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s6.e3" charOffset="237-240"
+			type="GENE" text="vIL" ontology_id="7429"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="These data indicate that vIL-6 plays a role in KSHV tumor formation in B cells in vivo.">
+		<entity id="s7.e1" charOffset="25-28"
+			type="GENE" text="vIL" ontology_id="7429"/>
+		<entity id="s7.e2" charOffset="52-57"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

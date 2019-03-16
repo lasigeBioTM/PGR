@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30194396">
+	<sentence id="s1" text="Five variants were previously reported to confer risk of various malignant or benign tumors (rs78378222 in TP53, rs10069690 in transcription, RNA-templated, rs1800057 and rs1801516 in protein phosphorylation, and rs7907606 at OBFC1) and four signals are located at established risk loci for hormone-related negative regulation of transcription by RNA polymerase II (endometriosis and breast cancer) at 1q36.12 (CDC42/WNT4), 2p25.1 (biological_process), 20p12.3 (cellular response to DNA damage stimulus), and 6q26.2 (SYNE1/ESR1).">
+		<entity id="s1.e1" charOffset="85-91"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="127-155"
+			type="GO" text="transcription, RNA-templated" ontology_id="GO_0001172"/>
+		<entity id="s1.e3" charOffset="184-207"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="307-364"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="320-326"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e6" charOffset="432-450"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e7" charOffset="462-502"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e7"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e12"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e12"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

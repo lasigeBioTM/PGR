@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29475025">
+	<sentence id="s1" text="In the second example, Mdx mice, a model for Duchenne muscular dystrophy, were intravenously injected with AAV8-BGN.">
+		<entity id="s1.e1" charOffset="27-31"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="54-72"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e3" charOffset="112-115"
+			type="GENE" text="BGN" ontology_id="633"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

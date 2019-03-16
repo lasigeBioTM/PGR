@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27837419">
+	<sentence id="s1" text="The clinical history for migraine and hypertension was collected; genomic DNA was characterized for a panel of 33 SNPs encoding proteins involved in ionic transport.">
+		<entity id="s1.e1" charOffset="38-50"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e2" charOffset="86-89"
+			type="GENE" text="act" ontology_id="11332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

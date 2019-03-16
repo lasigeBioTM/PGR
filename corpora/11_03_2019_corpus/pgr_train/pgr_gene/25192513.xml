@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25192513">
+	<sentence id="s1" text="Cerebellar involvement is an important feature of PMM2-CDG, the congenital muscular dystrophies due to dystroglycanopathy, and SRD5A3-CDG.">
+		<entity id="s1.e1" charOffset="50-54"
+			type="GENE" text="PMM2" ontology_id="5373"/>
+		<entity id="s1.e2" charOffset="75-95"
+			type="HP" text="muscular dystrophies" ontology_id="HP_0003560"/>
+		<entity id="s1.e3" charOffset="127-133"
+			type="GENE" text="SRD5A3" ontology_id="79644"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

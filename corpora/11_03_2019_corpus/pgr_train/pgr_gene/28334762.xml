@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334762">
+	<sentence id="s1" text="Congenital erythropoietic porphyria (CEP) is an inborn error of heme biosynthesis characterized by uroporphyrinogen III synthase (UROS) deficiency resulting in deleterious porphyrin accumulation in blood cells responsible for hemolytic anemia and cutaneous photosensitivity.">
+		<entity id="s1.e1" charOffset="130-134"
+			type="GENE" text="UROS" ontology_id="7390"/>
+		<entity id="s1.e2" charOffset="247-273"
+			type="HP" text="cutaneous photosensitivity" ontology_id="HP_0000992"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Finally, we show evidence that abnormal protein homeostasis is a prevalent mechanism responsible for UROS deficiency and that modulators of UROS proteolysis such as proteasome inhibitors or chemical chaperones may represent an attractive therapeutic option to reduce porphyrin accumulation and prevent skin photosensitivity in CEP patients when the genotype includes a missense variant">
+		<entity id="s2.e1" charOffset="101-105"
+			type="GENE" text="UROS" ontology_id="7390"/>
+		<entity id="s2.e2" charOffset="302-323"
+			type="HP" text="skin photosensitivity" ontology_id="HP_0000992"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

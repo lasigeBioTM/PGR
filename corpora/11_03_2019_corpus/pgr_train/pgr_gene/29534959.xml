@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29534959">
+	<sentence id="s1" text="Single large-scale mitochondrial DNA deletions disorders are classified into three main phenotypes with frequent clinical overlap: Pearson marrow-pancreas syndrome (PMS), Kearns-Sayre syndrome (KSS) and chronic progressive external ophtalmoplegia (PEO).">
+		<entity id="s1.e1" charOffset="165-168"
+			type="GENE" text="PMS" ontology_id="5933"/>
+		<entity id="s1.e2" charOffset="203-210"
+			type="HP" text="chronic" ontology_id="HP_0011010"/>
+		<entity id="s1.e3" charOffset="211-222"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

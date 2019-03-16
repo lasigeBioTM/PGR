@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23561899">
+	<sentence id="s1" text="Crizotinib is a small orally-administered phosphorylation inhibitor for patients with non-small cell lung cancer with microtubule cytoskeleton organization-ALK rearrangement (echinoderm microtubule-associated protein-like 4 and anaplastic lymphoma kinase).">
+		<entity id="s1.e1" charOffset="42-57"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e2" charOffset="106-112"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="118-155"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

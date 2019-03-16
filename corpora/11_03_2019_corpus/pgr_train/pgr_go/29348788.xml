@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29348788">
+	<sentence id="s1" text="We investigated the possible association between chemoresistance and cellular redox state regulation in patients undergoing neoadjuvant chemotherapy (citrate transport) for breast cancer.">
+		<entity id="s1.e1" charOffset="150-167"
+			type="GO" text="citrate transport" ontology_id="GO_0015746"/>
+		<entity id="s1.e2" charOffset="180-186"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In total, 53 women with primarily inoperable or inflammatory breast cancer who were treated with citrate transport were included in the study.">
+		<entity id="s2.e1" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="97-114"
+			type="GO" text="citrate transport" ontology_id="GO_0015746"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Pre-citrate transport core needle biopsies and postoperative tumor samples were immunohistochemically stained for nuclear factor erythroid 2-related factor 2 (positive regulation of transcription by RNA polymerase II), Kelch-like ECH-associated protein 1 (proteasomal ubiquitin-independent protein catabolic process), thioredoxin (response to radiation), and peroxiredoxin I (response to oxidative stress I).">
+		<entity id="s3.e1" charOffset="4-21"
+			type="GO" text="citrate transport" ontology_id="GO_0015746"/>
+		<entity id="s3.e2" charOffset="61-66"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="159-216"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e4" charOffset="256-315"
+			type="GO" text="proteasomal ubiquitin-independent protein catabolic process" ontology_id="GO_0010499"/>
+		<entity id="s3.e5" charOffset="331-352"
+			type="GO" text="response to radiation" ontology_id="GO_0009314"/>
+		<entity id="s3.e6" charOffset="376-404"
+			type="GO" text="response to oxidative stress" ontology_id="GO_0006979"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Higher pre-citrate transport nuclear response to oxidative stress I expression predicted smaller size of a resected tumor (li>p</i> = 0.00052; li>r</i> = -0.550), and higher pre-NACT cytoplasmic Prx I expression predicted a lower amount of evacuated positive regulation of cysteine-type endopeptidase activity involved in apoptotic process metastasis (li>p</i> = 0.0024; li>r</i> = -0.472).">
+		<entity id="s4.e1" charOffset="11-28"
+			type="GO" text="citrate transport" ontology_id="GO_0015746"/>
+		<entity id="s4.e2" charOffset="37-65"
+			type="GO" text="response to oxidative stress" ontology_id="GO_0006979"/>
+		<entity id="s4.e3" charOffset="91-96"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="250-339"
+			type="GO" text="positive regulation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0043280"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="true"/>
+	</sentence>
+</document>

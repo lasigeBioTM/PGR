@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30552303">
+	<sentence id="s1" text="In contrast, among the factors supporting the resistance in men can be an elevated concentration of MP-TF which, together with the coexistence of hypertriglyceridemia, may constitute an important mechanism of resistance to clopidogrel">
+		<entity id="s1.e1" charOffset="60-63"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s1.e2" charOffset="103-105"
+			type="GENE" text="TF" ontology_id="7018"/>
+		<entity id="s1.e3" charOffset="146-166"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

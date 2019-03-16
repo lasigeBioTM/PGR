@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29486327">
+	<sentence id="s1" text="The positive regulation of cell-matrix adhesion cell adhesion mediated by integrin and obesity-associated (DNA dealkylation involved in DNA repair) gene is tightly related to body weight and fat mass, and plays a pivotal role in regulating lipid accumulation in hepatocytes.">
+		<entity id="s1.e1" charOffset="4-47"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e2" charOffset="48-82"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s1.e3" charOffset="57-64"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e4" charOffset="107-146"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

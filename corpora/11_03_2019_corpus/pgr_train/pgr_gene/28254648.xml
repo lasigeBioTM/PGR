@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28254648">
+	<sentence id="s1" text="Recently mutations in the CASPR/CNTN1 complex have been associated with similar severe phenotypes and CNTNAP1 gene mutations, causing loss of the CASPR protein, were shown to cause severe, prenatal onset arthrogryposis multiplex congenita in four unrelated families.">
+		<entity id="s1.e1" charOffset="26-31"
+			type="GENE" text="CASPR" ontology_id="8506"/>
+		<entity id="s1.e2" charOffset="102-109"
+			type="GENE" text="CNTNAP1" ontology_id="8506"/>
+		<entity id="s1.e3" charOffset="189-203"
+			type="HP" text="prenatal onset" ontology_id="HP_0003577"/>
+		<entity id="s1.e4" charOffset="204-218"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we report a consanguineous Arab family from Qatar with three children having an early lethal form of arthrogryposis multiplex congenita and a novel frameshift mutation in CNTNAP1.">
+		<entity id="s2.e1" charOffset="106-120"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s2.e2" charOffset="176-183"
+			type="GENE" text="CNTNAP1" ontology_id="8506"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We further expand the existing CNTNAP1-associated phenotype to include profound cerebral and cerebellar atrophy">
+		<entity id="s3.e1" charOffset="31-38"
+			type="GENE" text="CNTNAP1" ontology_id="8506"/>
+		<entity id="s3.e2" charOffset="71-79"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

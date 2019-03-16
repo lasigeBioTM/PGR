@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24056535">
+	<sentence id="s1" text="Mutations in filamin A (negative regulation of transcription by RNA polymerase I) or post-translational protein modification-ribosylation factor guanine nucleotide-exchange factor 2 (receptor recycling) cause periventricular nodular heterotopia, but most patients with this malformation do not have a known aetiology.">
+		<entity id="s1.e1" charOffset="24-80"
+			type="GO" text="negative regulation of transcription by RNA polymerase I" ontology_id="GO_0016479"/>
+		<entity id="s1.e2" charOffset="85-124"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s1.e3" charOffset="183-201"
+			type="GO" text="receptor recycling" ontology_id="GO_0001881"/>
+		<entity id="s1.e4" charOffset="186-197"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Using whole exome sequencing in 14 patients with isolated periventricular nodular heterotopia but no copy number variants, we identified one patient with periventricular nodular heterotopia, developmental delay and epilepsy and a de novo missense mutation in the chromosome 6 open reading frame 70 (biological_process) gene, mapping in the minimal critical deleted region.">
+		<entity id="s2.e1" charOffset="82-93"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<entity id="s2.e2" charOffset="191-210"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="215-223"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="299-317"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Silencing of biological_process in the developing rat neocortex produced periventricular nodular heterotopia that was rescued by concomitant expression of wild-type human C6orf70 protein.">
+		<entity id="s3.e1" charOffset="13-31"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e2" charOffset="97-108"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Silencing of the contiguous negative regulation of transcription, DNA-templated or Notch signaling pathway genes only produced slightly delayed migration but not periventricular nodular heterotopia.">
+		<entity id="s4.e1" charOffset="28-79"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s4.e2" charOffset="83-106"
+			type="GO" text="Notch signaling pathway" ontology_id="GO_0007219"/>
+		<entity id="s4.e3" charOffset="167-178"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our data suggest that, of the genes within this minimal critical region, biological_process plays a major role in the control of neuronal migration and its haploinsufficiency or mutation causes periventricular nodular heterotopia.">
+		<entity id="s5.e1" charOffset="73-91"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s5.e2" charOffset="218-229"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

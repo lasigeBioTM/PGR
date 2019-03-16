@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30150420">
+	<sentence id="s1" text="There are several genetic mutations that lead to signal transduction development, such as chromosome 9 hexanucleotide repeat 72 (negative regulation of protein phosphorylation), transactive response DNA-binding protein (RNA splicing), superoxide dismutase 1 (response to superoxide) and fused in sarcoma (regulation of transcription, DNA-templated).">
+		<entity id="s1.e1" charOffset="49-68"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="129-175"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e3" charOffset="220-232"
+			type="GO" text="RNA splicing" ontology_id="GO_0008380"/>
+		<entity id="s1.e4" charOffset="233-240"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e5" charOffset="259-281"
+			type="GO" text="response to superoxide" ontology_id="GO_0000303"/>
+		<entity id="s1.e6" charOffset="305-347"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

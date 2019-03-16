@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29519717">
+	<sentence id="s1" text="Mutations in CHCHD2 and CHCHD10 were recently reported in a broad spectrum of neurodegenerative diseases, for example, Parkinson's disease, amyotrophic lateral sclerosis, frontotemporal dementia, or mitochondrial myopathy (MM).">
+		<entity id="s1.e1" charOffset="13-19"
+			type="GENE" text="CHCHD2" ontology_id="51142"/>
+		<entity id="s1.e2" charOffset="24-31"
+			type="GENE" text="CHCHD10" ontology_id="400916"/>
+		<entity id="s1.e3" charOffset="78-104"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e4" charOffset="171-194"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="None of the patients showed CHCHD2 mutations, whereas 1 sporadic MM patient carried a homozygous Pro96Thr substitution in CHCHD10.">
+		<entity id="s2.e1" charOffset="28-34"
+			type="GENE" text="CHCHD2" ontology_id="51142"/>
+		<entity id="s2.e2" charOffset="56-64"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="122-129"
+			type="GENE" text="CHCHD10" ontology_id="400916"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

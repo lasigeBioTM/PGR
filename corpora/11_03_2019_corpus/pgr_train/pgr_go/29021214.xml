@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29021214">
+	<sentence id="s1" text="Recently, we identified disease-linked mutations in the li>CCNF</i> gene, which encodes the cyclin F protein, in cohorts of patients with familial and sporadic signal transduction and frontotemporal dementia (FTD) (Williams KL li>et al</i> 2016 li>Nat.">
+		<entity id="s1.e1" charOffset="151-159"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="160-179"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e3" charOffset="184-207"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

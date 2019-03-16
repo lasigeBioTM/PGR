@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29572195">
+	<sentence id="s1" text="Biallelic ion transmembrane transport mutations cause infantile hypotonia with psychomotor retardation and characteristic facies 2 (IHPRF2), which is characterized by hypotonia, developmental delay (DD)/intellectual disability (ID), intrauterine growth retardation, postnatal growth retardation and characteristic facial features.">
+		<entity id="s1.e1" charOffset="10-37"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s1.e2" charOffset="178-197"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="203-226"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, we herein summarize the genotypes and phenotypes of patients with ion transmembrane transport mutations reported in the literature, revealing that IHPRF2 is a phenotypically heterogeneous disease.">
+		<entity id="s2.e1" charOffset="79-106"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s2.e2" charOffset="187-200"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Common facial dysmorphisms include a thin upper nuclear-transcribed mRNA catabolic process, nonsense-mediated decay, a tented upper nuclear-transcribed mRNA catabolic process, nonsense-mediated decay, a triangular face, strabismus and microcephaly.">
+		<entity id="s3.e1" charOffset="7-26"
+			type="HP" text="facial dysmorphisms" ontology_id="HP_0001999"/>
+		<entity id="s3.e2" charOffset="48-115"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s3.e3" charOffset="139-154"
+			type="HP" text="triangular face" ontology_id="HP_0000325"/>
+		<entity id="s3.e4" charOffset="156-166"
+			type="HP" text="strabismus" ontology_id="HP_0000486"/>
+		<entity id="s3.e5" charOffset="171-183"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28522832">
+	<sentence id="s1" text="High mobility group A2 (HMGA2) plays a crucial role in the development of cancer.">
+		<entity id="s1.e1" charOffset="24-29"
+			type="GENE" text="HMGA2" ontology_id="8091"/>
+		<entity id="s1.e2" charOffset="74-80"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the mechanism by which HMGA2 promotes the growth of hepatocellular carcinoma (HCC) remains unclear.">
+		<entity id="s2.e1" charOffset="32-37"
+			type="GENE" text="HMGA2" ontology_id="8091"/>
+		<entity id="s2.e2" charOffset="61-85"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s2.e3" charOffset="87-90"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27983999">
+	<sentence id="s1" text="Our study indicates the novel nucleus organization p.W371G missense mutation causes infantile onset intellectual disability and cerebellar hypoplasia in recessive mode of inheritance.">
+		<entity id="s1.e1" charOffset="30-50"
+			type="GO" text="nucleus organization" ontology_id="GO_0006997"/>
+		<entity id="s1.e2" charOffset="100-123"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="128-149"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<entity id="s1.e4" charOffset="163-182"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our findings imply that microcephaly is a variable phenocardiac muscle tissue development in nucleus organization-related disease, suggest nucleus organization to be a candidate gene of severe intellectual disability and cerebellar hypoplasia, and expand the molecular spectrum of nucleus organization-related disease">
+		<entity id="s2.e1" charOffset="24-36"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e2" charOffset="56-89"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e3" charOffset="64-84"
+			type="GO" text="nucleus organization" ontology_id="GO_0006997"/>
+		<entity id="s2.e4" charOffset="149-172"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e5" charOffset="177-198"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e4"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+</document>

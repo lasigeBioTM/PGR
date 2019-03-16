@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26073781">
+	<sentence id="s1" text="Genome-wide association studies have identified SNPs near negative regulation of neuron projection development at 10q21.2 that are associated with both breast cancer risk and mammographic density.">
+		<entity id="s1.e1" charOffset="58-110"
+			type="GO" text="negative regulation of neuron projection development" ontology_id="GO_0010977"/>
+		<entity id="s1.e2" charOffset="159-165"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="There was weaker evidence for iCHAV4, located 5' of sulfur amino acid catabolic process, associated only with ER-positive breast cancer (OR = 0.93 [0.90-0.96]).">
+		<entity id="s2.e1" charOffset="52-87"
+			type="GO" text="sulfur amino acid catabolic process" ontology_id="GO_0000098"/>
+		<entity id="s2.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Chromosome conformation capture analysis showed that iCHAV2 interacts with the negative regulation of neuron projection development and autophagy (more than 600 kb away) promoters in normal and cancerous breast epithelial cells.">
+		<entity id="s3.e1" charOffset="79-131"
+			type="GO" text="negative regulation of neuron projection development" ontology_id="GO_0010977"/>
+		<entity id="s3.e2" charOffset="136-145"
+			type="GO" text="autophagy" ontology_id="GO_0006914"/>
+		<entity id="s3.e3" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Luciferase assays did not identify SNPs that affect transactivation of negative regulation of neuron projection development, but identified a protective haplotype in iCHAV2, associated with silencing of the autophagy promoter, implicating this gene in the etiology of breast cancer.">
+		<entity id="s4.e1" charOffset="71-123"
+			type="GO" text="negative regulation of neuron projection development" ontology_id="GO_0010977"/>
+		<entity id="s4.e2" charOffset="207-216"
+			type="GO" text="autophagy" ontology_id="GO_0006914"/>
+		<entity id="s4.e3" charOffset="271-277"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30054562">
+	<sentence id="s1" text="In this study, we reported the identification of Calcium Binding Protein 39-Like (CAB39L) as a novel regulator of tumor metabolism in GC.">
+		<entity id="s1.e1" charOffset="82-88"
+			type="GENE" text="CAB39L" ontology_id="81617"/>
+		<entity id="s1.e2" charOffset="114-119"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Functional studies suggested that CAB39L functions as a tumor suppressor, as overexpression of CAB39L elicited suppression of multiple cancer phenotypes both in GC cells and an orthotopic mouse model; whilst its knockdown promoted tumorigenesis.">
+		<entity id="s2.e1" charOffset="34-40"
+			type="GENE" text="CAB39L" ontology_id="81617"/>
+		<entity id="s2.e2" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="LKB1-AMPK activation in GC cell lines was tumor suppressive, as metformin (an AMPK activator) inhibited GC cell growth in the CAB39L-silenced cells.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="LKB1" ontology_id="6794"/>
+		<entity id="s3.e2" charOffset="5-9"
+			type="GENE" text="AMPK" ontology_id="5563"/>
+		<entity id="s3.e3" charOffset="42-47"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="126-132"
+			type="GENE" text="CAB39L" ontology_id="81617"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Moreover, knockdown of LKB1 reversed growth inhibitory effect of CAB39L, indicating that tumor suppression by CAB39L depended on LKB1-AMPK.">
+		<entity id="s4.e1" charOffset="23-27"
+			type="GENE" text="LKB1" ontology_id="6794"/>
+		<entity id="s4.e2" charOffset="65-71"
+			type="GENE" text="CAB39L" ontology_id="81617"/>
+		<entity id="s4.e3" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="134-138"
+			type="GENE" text="AMPK" ontology_id="5563"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our data demonstrate that CAB39L is a novel tumor suppressor which suppresses tumorigenesis by promoting LKB1-AMPK-PGC1α axis, thereby preventing a metabolic shift that drives carcinogenesis.">
+		<entity id="s5.e1" charOffset="26-32"
+			type="GENE" text="CAB39L" ontology_id="81617"/>
+		<entity id="s5.e2" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="105-109"
+			type="GENE" text="LKB1" ontology_id="6794"/>
+		<entity id="s5.e4" charOffset="110-114"
+			type="GENE" text="AMPK" ontology_id="5563"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+	</sentence>
+</document>

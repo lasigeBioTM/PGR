@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24291895">
+	<sentence id="s1" text="Congenital muscular dystrophy with mitochondrial structural abnormalities (MIM #602541), or also called megaconial congenital muscular dystrophy, is characterized clinically by early-onset muscle wasting and severe mental retardation, and pathologically by peculiar enlarged mitochondria that are prevalent toward the periphery of the fibers but are sparse in the center on muscle biopsy.">
+		<entity id="s1.e1" charOffset="75-78"
+			type="GENE" text="MIM" ontology_id="9788"/>
+		<entity id="s1.e2" charOffset="208-214"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

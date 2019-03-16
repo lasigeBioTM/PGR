@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27380241">
+	<sentence id="s1" text="These disorders include cancer, bipolar disorder, schizophrenia, autism, Cri-du-chat syndrome, myopia, cortical cataract-linked Alzheimer's disease, and infectious diseases.">
+		<entity id="s1.e1" charOffset="24-30"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="32-48"
+			type="HP" text="bipolar disorder" ontology_id="HP_0007302"/>
+		<entity id="s1.e3" charOffset="50-63"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e4" charOffset="65-71"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e5" charOffset="80-84"
+			type="GENE" text="chat" ontology_id="1103"/>
+		<entity id="s1.e6" charOffset="95-101"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s1.e7" charOffset="112-120"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

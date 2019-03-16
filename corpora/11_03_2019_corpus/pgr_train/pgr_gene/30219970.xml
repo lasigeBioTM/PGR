@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30219970">
+	<sentence id="s1" text="Small intestine neuroendocrine tumors (SI-NETs) represent the most common histotype among small intestine neoplasms, and metastatic disease is usually present at diagnosis.">
+		<entity id="s1.e1" charOffset="31-37"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="39-41"
+			type="GENE" text="SI" ontology_id="6490"/>
+		<entity id="s1.e3" charOffset="42-46"
+			type="GENE" text="NETs" ontology_id="11005"/>
+		<entity id="s1.e4" charOffset="79-83"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e5" charOffset="106-115"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A retrospective series of 52 sporadic primary surgically resected SI-NETs, which were metastatic at diagnosis, was analyzed by high-coverage target sequencing (HCTS) for the mutational status of 57 genes and copy number status of 40 genes selected from recently published genome sequencing data.">
+		<entity id="s2.e1" charOffset="29-37"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="66-68"
+			type="GENE" text="SI" ontology_id="6490"/>
+		<entity id="s2.e3" charOffset="69-73"
+			type="GENE" text="NETs" ontology_id="11005"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Recurrent copy number variations are important events in SI-NET and SRC may represent a novel prognostic biomarker for this tumor type">
+		<entity id="s3.e1" charOffset="57-59"
+			type="GENE" text="SI" ontology_id="6490"/>
+		<entity id="s3.e2" charOffset="60-63"
+			type="GENE" text="NET" ontology_id="2004"/>
+		<entity id="s3.e3" charOffset="68-71"
+			type="GENE" text="SRC" ontology_id="6714"/>
+		<entity id="s3.e4" charOffset="124-129"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

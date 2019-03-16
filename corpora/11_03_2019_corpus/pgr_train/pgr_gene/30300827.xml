@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30300827">
+	<sentence id="s1" text="OX40 and its ligand are members of the TNF/TNF receptor superfamily, which includes various molecules influencing cellular signaling and function of both tumor and immune cells.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="OX40" ontology_id="7293"/>
+		<entity id="s1.e2" charOffset="154-159"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The ability of OX40 to promote proliferation and differentiation of activated T cells fueled present attempts to modulate this immune checkpoint to reinforce antitumor immunity.">
+		<entity id="s2.e1" charOffset="15-19"
+			type="GENE" text="OX40" ontology_id="7293"/>
+		<entity id="s2.e2" charOffset="162-167"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The data presented thus not only identify the yet unknown involvement of OX40/OX40L in ALL pathophysiology and NK cell immunosurveillance but also point to the necessity to thoroughly consider the consequences of modulating the OX40/OX40L molecule system beyond its effects on T cells when developing OX40-targeting approaches for cancer immunotherapy">
+		<entity id="s3.e1" charOffset="73-77"
+			type="GENE" text="OX40" ontology_id="7293"/>
+		<entity id="s3.e2" charOffset="87-90"
+			type="GENE" text="ALL" ontology_id="613"/>
+		<entity id="s3.e3" charOffset="331-337"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

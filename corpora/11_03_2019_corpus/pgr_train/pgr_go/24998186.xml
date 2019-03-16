@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24998186">
+	<sentence id="s1" text="We evaluated whether methylation of tumor-suppressor genes (negative regulation of cytokine productions) would classify non-muscle-invasive (inflammatory response) bladder cancer subgroups and predict outcome.">
+		<entity id="s1.e1" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="60-102"
+			type="GO" text="negative regulation of cytokine production" ontology_id="GO_0001818"/>
+		<entity id="s1.e3" charOffset="102-123"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s1.e4" charOffset="133-139"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A retrospective design included the following paraffin-embedded primary inflammatory response tumor types (n = 251): negative regulation of thymocyte apoptotic process low grade (LG) (n = 79), pT1LG (n = 81), and pT1 high grade (HG) (n = 91).">
+		<entity id="s2.e1" charOffset="72-93"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s2.e2" charOffset="94-99"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="117-167"
+			type="GO" text="negative regulation of thymocyte apoptotic process" ontology_id="GO_0070244"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Methylation of embryonic digestive tract development, CD44, PAX5A, negative regulation of protein kinase activity, T cell mediated cytotoxicity (T cell mediated cytotoxicity), activation of innate immune response, sprouting angiogenesis, TP53, and positive regulation of transcription by RNA polymerase II classified negative regulation of thymocyte apoptotic process versus pT1 tumors whereas RARB, CD44, GSTP1, IGSF4, protein polyubiquitination, PYCARD, TP53, protein phosphorylation, and GATA5 distinguished LG versus HG tumors.">
+		<entity id="s3.e1" charOffset="15-52"
+			type="GO" text="embryonic digestive tract development" ontology_id="GO_0048566"/>
+		<entity id="s3.e2" charOffset="67-113"
+			type="GO" text="negative regulation of protein kinase activity" ontology_id="GO_0006469"/>
+		<entity id="s3.e3" charOffset="98-148"
+			type="GO" text="negative regulation of thymocyte apoptotic process" ontology_id="GO_0070244"/>
+		<entity id="s3.e4" charOffset="114-171"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e5" charOffset="115-143"
+			type="GO" text="T cell mediated cytotoxicity" ontology_id="GO_0001913"/>
+		<entity id="s3.e6" charOffset="145-173"
+			type="GO" text="T cell mediated cytotoxicity" ontology_id="GO_0001913"/>
+		<entity id="s3.e7" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e8" charOffset="176-212"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s3.e9" charOffset="214-236"
+			type="GO" text="sprouting angiogenesis" ontology_id="GO_0002040"/>
+		<entity id="s3.e10" charOffset="221-244"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e11" charOffset="420-446"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e7"
+		    e2="s3.e10" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e2"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e5"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e6"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e8"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p9" e1="s3.e9"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p10" e1="s3.e7"
+		    e2="s3.e11" pgr="false"/>
+	</sentence>
+</document>

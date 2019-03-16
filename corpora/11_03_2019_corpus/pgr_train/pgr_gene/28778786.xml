@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28778786">
+	<sentence id="s1" text="CDK5RAP2 gene encodes a centrosomal protein, highly expressed in fetal brain and essentially indispensable for its normal development, as biallelic mutations in it lead to primary microcephaly (MCPH).">
+		<entity id="s1.e1" charOffset="0-8"
+			type="GENE" text="CDK5RAP2" ontology_id="55755"/>
+		<entity id="s1.e2" charOffset="180-192"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

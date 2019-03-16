@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28775359">
+	<sentence id="s1" text="The zinc transporter SLC39A4 influences epithelial cell morphology and migration in various cancers; however, its role in regulating cell invasion and chemotherapeutic resistance in human lung cancer is not yet clear.">
+		<entity id="s1.e1" charOffset="21-28"
+			type="GENE" text="SLC39A4" ontology_id="55630"/>
+		<entity id="s1.e2" charOffset="92-98"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, integrated analysis of gene expression in non-small cell lung cancer revealed that SLC39A4 expression is significantly correlated with increased tumour size and regional lymph node spread, as well as shorter overall survival (OS) and disease-free survival (DFS).">
+		<entity id="s2.e1" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="89-96"
+			type="GENE" text="SLC39A4" ontology_id="55630"/>
+		<entity id="s2.e3" charOffset="151-157"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="SLC39A4 silencing by lentivirus-mediated shRNA blocked human lung cancer cell epithelial-mesenchymal transition and metastasis in vitro and in vivo, respectively.">
+		<entity id="s3.e1" charOffset="0-7"
+			type="GENE" text="SLC39A4" ontology_id="55630"/>
+		<entity id="s3.e2" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Moreover, SLC39A4 knockdown enhanced cancer cell sensitivity to cisplatin-induced death by inhibiting stemness in lung cancer cells.">
+		<entity id="s4.e1" charOffset="10-17"
+			type="GENE" text="SLC39A4" ontology_id="55630"/>
+		<entity id="s4.e2" charOffset="37-43"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Collectively, these data suggest that SLC39A4 may be a novel therapeutic target and predictive marker of tumour metastasis in non-small cell lung cancer">
+		<entity id="s5.e1" charOffset="38-45"
+			type="GENE" text="SLC39A4" ontology_id="55630"/>
+		<entity id="s5.e2" charOffset="105-111"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

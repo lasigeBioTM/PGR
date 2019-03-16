@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28332470">
+	<sentence id="s1" text="Rare forms of autosomal-dominant Charcot-Marie-Tooth disease (AD-CMT) may be associated with mutations in Fibulin-5 (FBLN5) as AD-CMT is genetically heterogeneous.">
+		<entity id="s1.e1" charOffset="117-122"
+			type="GENE" text="FBLN5" ontology_id="10516"/>
+		<entity id="s1.e2" charOffset="149-162"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28837158">
+	<sentence id="s1" text="The purpose of this study was to evaluate the frequency of mosaicism detected by next-generation sequencing in genes associated with epilepsy-related neurodevelopmental disorders.MethodsWe conducted a retrospective analysis of 893 probands with epilepsy who had a multigene epilepsy panel or whole-exome sequencing performed in a clinical diagnostic laboratory and were positive for a pathogenic or likely pathogenic variant in one of nine genes (CDKL5, GABRA1, GABRG2, GRIN2B, KCNQ2, MECP2, PCDH19, SCN1A, or SCN2A).">
+		<entity id="s1.e1" charOffset="133-141"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="447-452"
+			type="GENE" text="CDKL5" ontology_id="6792"/>
+		<entity id="s1.e3" charOffset="454-460"
+			type="GENE" text="GABRA1" ontology_id="2554"/>
+		<entity id="s1.e4" charOffset="462-468"
+			type="GENE" text="GABRG2" ontology_id="2566"/>
+		<entity id="s1.e5" charOffset="470-476"
+			type="GENE" text="GRIN2B" ontology_id="2904"/>
+		<entity id="s1.e6" charOffset="478-483"
+			type="GENE" text="KCNQ2" ontology_id="3785"/>
+		<entity id="s1.e7" charOffset="485-490"
+			type="GENE" text="MECP2" ontology_id="4204"/>
+		<entity id="s1.e8" charOffset="492-498"
+			type="GENE" text="PCDH19" ontology_id="57526"/>
+		<entity id="s1.e9" charOffset="500-505"
+			type="GENE" text="SCN1A" ontology_id="6323"/>
+		<entity id="s1.e10" charOffset="510-515"
+			type="GENE" text="SCN2A" ontology_id="6326"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+	</sentence>
+</document>

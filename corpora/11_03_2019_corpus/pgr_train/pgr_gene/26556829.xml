@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26556829">
+	<sentence id="s1" text="Besides, we screened for all the known genes related to axonal autosomal recessive Charcot-Marie-Tooth disease (CMT2A2/HMSN2A2/MFN2, CMT2B1/LMNA, CMT2B2/MED25, CMT2B5/NEFL, ARCMT2F/dHMN2B/HSPB1, CMT2K/GDAP1, CMT2P/LRSAM1, CMT2R/TRIM2, CMT2S/IGHMBP2, CMT2T/HSJ1, CMTRID/COX6A1, ARAN-NM/HINT and GAN/GAN), for the genes related to autosomal recessive hereditary spastic paraplegia with thin corpus callosum and axonal peripheral neuropathy (SPG7/PGN, SPG15/ZFYVE26, SPG21/ACP33, SPG35/FA2H, SPG46/GBA2, SPG55/C12orf65 and SPG56/CYP2U1), as well as for the causative gene of peripheral neuropathy with or without agenesis of the corpus callosum (SLC12A6).">
+		<entity id="s1.e1" charOffset="63-82"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="427-437"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="643-650"
+			type="GENE" text="SLC12A6" ontology_id="9990"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="An additional locus for autosomal recessive Charcot-Marie-Tooth disease type 2H on chromosome 8q13-21.1 was excluded by linkage analysis.">
+		<entity id="s2.e1" charOffset="24-43"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="72-76"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

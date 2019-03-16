@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30700765">
+	<sentence id="s1" text="In humans, recessive and dominant response to vitamin D mutations cause hypophosphatasia (HPP), a metabolic bone disease with highly heterogeneous clinical manifestations, ranging from lethal perinatal hypomineralization to a relatively mild dental disease.">
+		<entity id="s1.e1" charOffset="34-55"
+			type="GO" text="response to vitamin D" ontology_id="GO_0033280"/>
+		<entity id="s1.e2" charOffset="133-146"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

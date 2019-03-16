@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27323939">
+	<sentence id="s1" text="Focal epilepsies, where seizures initiate in spatially limited networks, are the most frequent epilepsy type, accounting for two-thirds of patients.">
+		<entity id="s1.e1" charOffset="6-16"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="24-32"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="95-103"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="104-108"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Brain somatic mutations in the gene encoding mTOR (MTOR) have recently been linked to focal cortical dysplasia and other associated brain pathologies including hemimegalencephaly.">
+		<entity id="s2.e1" charOffset="45-49"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s2.e2" charOffset="51-55"
+			type="GENE" text="MTOR" ontology_id="2475"/>
+		<entity id="s2.e3" charOffset="92-110"
+			type="HP" text="cortical dysplasia" ontology_id="HP_0002539"/>
+		<entity id="s2.e4" charOffset="160-178"
+			type="HP" text="hemimegalencephaly" ontology_id="HP_0007206"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

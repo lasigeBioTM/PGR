@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28963677">
+	<sentence id="s1" text="The current study aims to investigate the biological roles and clinical significance of ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway in human gastric cancer.">
+		<entity id="s1.e1" charOffset="88-177"
+			type="GO" text="ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway" ontology_id="GO_0043162"/>
+		<entity id="s1.e2" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The expression pattern of ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway in gastric cancer tissue and adjacent non-cancerous tissue was detected by immunohistochemistry.">
+		<entity id="s2.e1" charOffset="26-115"
+			type="GO" text="ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway" ontology_id="GO_0043162"/>
+		<entity id="s2.e2" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway downregulation was found in 57 of 137 human gastric cancer samples and correlated with advanced regulation of transcription by RNA polymerase III stage, positive positive regulation of cysteine-type endopeptidase activity involved in apoptotic process status, and relapse.">
+		<entity id="s3.e1" charOffset="0-89"
+			type="GO" text="ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway" ontology_id="GO_0043162"/>
+		<entity id="s3.e2" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="186-235"
+			type="GO" text="regulation of transcription by RNA polymerase III" ontology_id="GO_0006359"/>
+		<entity id="s3.e4" charOffset="252-341"
+			type="GO" text="positive regulation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0043280"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, our results suggest that ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway downregulation might serve as an indicator for poor prognosis in gastric cancer patients.">
+		<entity id="s4.e1" charOffset="40-129"
+			type="GO" text="ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway" ontology_id="GO_0043162"/>
+		<entity id="s4.e2" charOffset="203-209"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27900359">
+	<sentence id="s1" text="Although homozygous inactivation of li>CHEK2</i> in mice led to cancers in multiple organs, accumulation of additional human cases is needed to establish its pathogenic role in humans">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

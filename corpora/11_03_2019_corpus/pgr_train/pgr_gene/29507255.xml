@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29507255">
+	<sentence id="s1" text="The CSIRO National NBN Telehealth Trial investigated the effects of introducing at home telemonitoring of vital signs for the management of a heterogeneous group of chronically ill patients.">
+		<entity id="s1.e1" charOffset="19-22"
+			type="GENE" text="NBN" ontology_id="9048"/>
+		<entity id="s1.e2" charOffset="142-155"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

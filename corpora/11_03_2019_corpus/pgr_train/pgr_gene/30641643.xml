@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30641643">
+	<sentence id="s1" text="Immunohistochemically, tumor cells of all cases were positive for vimentin (100.0%, 60/60), STAT6 (98.3%, 59/60), CD34 (61.7%, 37/60), and the tumor cells were typically positive for CD99, bcl-2, EMA and SSTR2 as well.Negative for S-100 protein, SOX10, E-cadherin, GFAP.">
+		<entity id="s1.e1" charOffset="23-28"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="92-97"
+			type="GENE" text="STAT6" ontology_id="6778"/>
+		<entity id="s1.e3" charOffset="189-194"
+			type="GENE" text="bcl-2" ontology_id="596"/>
+		<entity id="s1.e4" charOffset="196-199"
+			type="GENE" text="EMA" ontology_id="2108"/>
+		<entity id="s1.e5" charOffset="204-209"
+			type="GENE" text="SSTR2" ontology_id="6752"/>
+		<entity id="s1.e6" charOffset="255-263"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

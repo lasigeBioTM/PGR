@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29401583">
+	<sentence id="s1" text="The oncogenic potential of ASS1 in terms of prognosis and cancer metastasis in arginine prototrophic gastric cancer (GC) remains unclear at present.">
+		<entity id="s1.e1" charOffset="27-31"
+			type="GENE" text="ASS1" ontology_id="445"/>
+		<entity id="s1.e2" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We identify differentially expressed proteins in microdissected GC tumor cells relative to adjacent nontumor epithelia by isobaric mass tag for relative and absolute quantitation proteomics analysis.">
+		<entity id="s2.e1" charOffset="67-72"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="131-135"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="ASS1 was highly expressed in GC and positively correlated with GC aggressiveness and poor outcome.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="ASS1" ontology_id="445"/>
+		<entity id="s3.e2" charOffset="66-80"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Depletion of ASS1 led to inhibition of tumor growth and decreased cell invasion via induction of autophagy-lysosome machinery, resulting in degradation of active β-catenin, Snail, and Twist.">
+		<entity id="s4.e1" charOffset="13-17"
+			type="GENE" text="ASS1" ontology_id="445"/>
+		<entity id="s4.e2" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="173-178"
+			type="GENE" text="Snail" ontology_id="6615"/>
+		<entity id="s4.e4" charOffset="184-189"
+			type="GENE" text="Twist" ontology_id="7291"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Ectopic expression of ASS1 in GC cells reversed these effects and protected cancer cells from chemotherapy drug-induced apoptosis via activation of the AKT-mammalian target of rapamycin signaling pathway.">
+		<entity id="s5.e1" charOffset="22-26"
+			type="GENE" text="ASS1" ontology_id="445"/>
+		<entity id="s5.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="152-155"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+</document>

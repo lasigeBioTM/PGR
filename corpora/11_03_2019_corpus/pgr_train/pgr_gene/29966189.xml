@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29966189">
+	<sentence id="s1" text="It is a genetic disorder caused by a mutation in the dysferlin gene (DYSF) with an autosomal recessive mode of inheritance.">
+		<entity id="s1.e1" charOffset="69-73"
+			type="GENE" text="DYSF" ontology_id="8291"/>
+		<entity id="s1.e2" charOffset="83-102"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="103-122"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this article, we report a case of Limb-girdle muscular dystrophy type 2B with a rare homozygous duplication c.164dupA, p.(Ile57Hisfs*8) (rs863225020) in DYSF in a Saudi patient.">
+		<entity id="s2.e1" charOffset="49-67"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s2.e2" charOffset="68-72"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e3" charOffset="156-160"
+			type="GENE" text="DYSF" ontology_id="8291"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

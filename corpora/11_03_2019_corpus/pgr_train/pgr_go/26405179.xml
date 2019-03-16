@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26405179">
+	<sentence id="s1" text="Mutations in human positive regulation of apoptotic process, encoding an ADAMTS-like protein which has been implicated in fibrillin microfibril biogenesis, cause ectopia lentis (EL) and EL et pupillae.">
+		<entity id="s1.e1" charOffset="19-59"
+			type="GO" text="positive regulation of apoptotic process" ontology_id="GO_0043065"/>
+		<entity id="s1.e2" charOffset="162-176"
+			type="HP" text="ectopia lentis" ontology_id="HP_0001083"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

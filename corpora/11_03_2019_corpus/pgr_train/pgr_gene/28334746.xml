@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334746">
+	<sentence id="s1" text="In the present article, we describe an infant who smelt of ketones during examination and who was diagnosed with transient NDM caused by a ZFP57 mutation, accompanied by ketoacidosis.">
+		<entity id="s1.e1" charOffset="139-144"
+			type="GENE" text="ZFP57" ontology_id="346171"/>
+		<entity id="s1.e2" charOffset="170-182"
+			type="HP" text="ketoacidosis" ontology_id="HP_0001993"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

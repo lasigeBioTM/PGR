@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30242258">
+	<sentence id="s1" text="We show that tumour cells specifically induce Notch2 activity in mesenchymal stromal cells (MSCs) required for the transcription of the complement factor C1q.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="46-52"
+			type="GENE" text="Notch2" ontology_id="4853"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Notch2 activation in the microenvironment is a pre-requisite for the activation of canonical Wnt signalling in tumour cells">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="Notch2" ontology_id="4853"/>
+		<entity id="s2.e2" charOffset="111-117"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26840709">
+	<sentence id="s1" text="Our findings suggest that DEGs encoding subunits of NADH, PRIM1, MCM3, MAPK1, STAT3, RAF1, and JAK1 might be associated with the development of lung adenocarcinoma.">
+		<entity id="s1.e1" charOffset="58-63"
+			type="GENE" text="PRIM1" ontology_id="5557"/>
+		<entity id="s1.e2" charOffset="65-69"
+			type="GENE" text="MCM3" ontology_id="4172"/>
+		<entity id="s1.e3" charOffset="71-76"
+			type="GENE" text="MAPK1" ontology_id="5594"/>
+		<entity id="s1.e4" charOffset="78-83"
+			type="GENE" text="STAT3" ontology_id="6774"/>
+		<entity id="s1.e5" charOffset="85-89"
+			type="GENE" text="RAF1" ontology_id="5894"/>
+		<entity id="s1.e6" charOffset="95-99"
+			type="GENE" text="JAK1" ontology_id="3716"/>
+		<entity id="s1.e7" charOffset="144-163"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

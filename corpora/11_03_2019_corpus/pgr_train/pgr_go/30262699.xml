@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30262699">
+	<sentence id="s1" text="Review of exome sequencing data of the proband and her unaffected mRNA processing for 40 known genes causing congenital nonsyndromic cataracts revealed two variants, namely c.139GAAAAA (p.Asp47Asn; D47N) in the li>visual perception</i> gene and c.2036CAAAAT in the li>FYCO1</i> gene to be potentially pathogenic.">
+		<entity id="s1.e1" charOffset="66-81"
+			type="GO" text="mRNA processing" ontology_id="GO_0006397"/>
+		<entity id="s1.e2" charOffset="133-141"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e3" charOffset="214-231"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The mutation c.139GAAAAA in the li>visual perception</i> gene detected in the present study was also previously reported in Caucasian and Chinese families but with different phenotypes, i.e. nuclear and nuclear pulverulent cataracts.">
+		<entity id="s2.e1" charOffset="35-52"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e2" charOffset="223-231"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

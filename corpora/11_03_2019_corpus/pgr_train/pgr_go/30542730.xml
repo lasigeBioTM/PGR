@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30542730">
+	<sentence id="s1" text="Kruppel-like factor 9 (cellular response to cortisol stimulus), a transcription factor, is critical for the inhibition of growth and development of tumors, whereas its effects in pancreatic cancer remains unclear.">
+		<entity id="s1.e1" charOffset="23-61"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<entity id="s1.e2" charOffset="148-154"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The purpose of the present study was to investigate the expression and functional significance of cellular response to cortisol stimulus in vitro, by assessing the expression of KLF9 in pancreatic cancer tissue samples and its association with the total survival of patients and clinicopathological data.">
+		<entity id="s2.e1" charOffset="98-136"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<entity id="s2.e2" charOffset="197-203"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The levels of cellular response to cortisol stimulus expression in adjacent tissues and pancreatic cancer tissues were detected using immunohistochemistry.">
+		<entity id="s3.e1" charOffset="14-52"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<entity id="s3.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Using western blot analyses, we assessed cellular response to cortisol stimulus expression in human pancreatic cancer cell lines.">
+		<entity id="s4.e1" charOffset="41-79"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<entity id="s4.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Using flow cytometric analysis and neuron migration-8, we evaluated the effects of cellular response to cortisol stimulus expression on cell apoptosis, the cell cycle and proliferation of pancreatic cancer cells.">
+		<entity id="s5.e1" charOffset="35-51"
+			type="GO" text="neuron migration" ontology_id="GO_0001764"/>
+		<entity id="s5.e2" charOffset="70-108"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<entity id="s5.e3" charOffset="186-192"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Our results revealed that in both tissue samples and cell lines (particularly in BxPC-3 and PANC-1 cells) of pancreatic cancer, cellular response to cortisol stimulus exhibited relatively lower expression.">
+		<entity id="s6.e1" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="128-166"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="In PANC-1 and BxPC-3 cells, cellular response to cortisol stimulus overexpression decreased the proliferation of pancreatic cancer cells, induced apoptosis, blocked the cell cycle at the S phase, and inhibited the migration and invasion of tumor cells.">
+		<entity id="s7.e1" charOffset="28-66"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<entity id="s7.e2" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="240-245"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="On the whole, our findings indicated that cellular response to cortisol stimulus exhibited low expression in pancreatic cancer, and upregulation of KLF9 may inhibit the progression of pancreatic cancer.">
+		<entity id="s8.e1" charOffset="42-80"
+			type="GO" text="cellular response to cortisol stimulus" ontology_id="GO_0071387"/>
+		<entity id="s8.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

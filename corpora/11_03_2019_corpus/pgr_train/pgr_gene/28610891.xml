@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28610891">
+	<sentence id="s1" text="Mucolipidosis type IV (MLIV) is a lysosomal storage disease exhibiting progressive intellectual disability, motor impairment, and premature death.">
+		<entity id="s1.e1" charOffset="14-18"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="23-27"
+			type="GENE" text="MLIV" ontology_id="57192"/>
+		<entity id="s1.e3" charOffset="83-106"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Several studies have demonstrated that N-butyldeoxynojirimycin (NB-DNJ, also known as miglustat), an inhibitor of the enzyme glucosylceramide synthase (GCS), successfully delays the onset of motor deficits, improves longevity, and rescues some of the cerebellar abnormalities (e.g., Purkinje cell death) seen in another lysosomal disease known as Niemann-Pick type C (NPC).">
+		<entity id="s2.e1" charOffset="152-155"
+			type="GENE" text="GCS" ontology_id="2729"/>
+		<entity id="s2.e2" charOffset="251-275"
+			type="HP" text="cerebellar abnormalities" ontology_id="HP_0001317"/>
+		<entity id="s2.e3" charOffset="360-364"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

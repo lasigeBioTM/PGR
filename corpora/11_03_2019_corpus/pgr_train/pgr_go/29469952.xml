@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29469952">
+	<sentence id="s1" text="VLCFA-containing lipids accumulate in X-fatty acid beta-oxidation patients, although the effect of fatty acid beta-oxidation-deficiency on each lipid species in the central nervous system has not been fully characterized.">
+		<entity id="s1.e1" charOffset="40-65"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e2" charOffset="99-124"
+			type="GO" text="fatty acid beta-oxidation" ontology_id="GO_0006635"/>
+		<entity id="s1.e3" charOffset="145-152"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

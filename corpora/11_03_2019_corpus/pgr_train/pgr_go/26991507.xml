@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26991507">
+	<sentence id="s1" text="This includes the first two genes linked to recessively inherited isolated dystonia, that is, positive regulation of cytosolic calcium ion concentration (hippocalcin) and growth plate cartilage chondrocyte morphogenesis (collagen VI alpha 3).">
+		<entity id="s1.e1" charOffset="75-83"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s1.e2" charOffset="94-152"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s1.e3" charOffset="171-219"
+			type="GO" text="growth plate cartilage chondrocyte morphogenesis" ontology_id="GO_0003429"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The novel myoclonus-dystonia genes endoplasmic reticulum calcium ion homeostasis and modulation of chemical synaptic transmission also implicate abnormal calcium signaling in dystonia.">
+		<entity id="s2.e1" charOffset="20-28"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s2.e2" charOffset="35-80"
+			type="GO" text="endoplasmic reticulum calcium ion homeostasis" ontology_id="GO_0032469"/>
+		<entity id="s2.e3" charOffset="85-129"
+			type="GO" text="modulation of chemical synaptic transmission" ontology_id="GO_0050804"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The newly reported myoclonus-dystonia gene, cell morphogenesis involved in differentiation, plays also a role in the formation of brain structures.">
+		<entity id="s3.e1" charOffset="29-37"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s3.e2" charOffset="44-90"
+			type="GO" text="cell morphogenesis involved in differentiation" ontology_id="GO_0000904"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Defects in neurodevelopment likewise seem to be a recurrent scheme underpinning mainly complex dystonias, for example those attributable to biallelic mutations in tetrahydrobiopterin biosynthetic process, TH, positive regulation of cytosolic calcium ion concentration, or to heterozygous negative regulation of microtubule polymerization mutations.">
+		<entity id="s4.e1" charOffset="95-103"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s4.e2" charOffset="163-203"
+			type="GO" text="tetrahydrobiopterin biosynthetic process" ontology_id="GO_0006729"/>
+		<entity id="s4.e3" charOffset="209-267"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s4.e4" charOffset="288-337"
+			type="GO" text="negative regulation of microtubule polymerization" ontology_id="GO_0031115"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="true"/>
+	</sentence>
+</document>

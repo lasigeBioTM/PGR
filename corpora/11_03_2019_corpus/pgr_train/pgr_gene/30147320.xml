@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30147320">
+	<sentence id="s1" text="Abnormal prion proteins are responsible for several fatal neurodegenerative diseases in humans and in animals, including Creutzfeldt-Jakob disease (CJD), Gerstmann-Sträussler-Scheinker disease, and fatal familial insomnia.">
+		<entity id="s1.e1" charOffset="58-84"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="148-151"
+			type="GENE" text="CJD" ontology_id="5621"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In addition, different prion mutations were suggested to play a possible role in additional phenotypes, such as Alzheimer's type pathology, spongiform encephalopathy, or frontotemporal dementia.">
+		<entity id="s2.e1" charOffset="97-101"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="151-165"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s2.e3" charOffset="170-193"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Since prion diseases have quite heterogeneous phenotypes, a complex analysis, a combination of genetic screening, cerebrospinal fluid biomarker analysis and imaging technologies could improve the early disease diagnosis">
+		<entity id="s3.e1" charOffset="32-45"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s3.e2" charOffset="51-55"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

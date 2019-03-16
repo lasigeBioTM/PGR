@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22580995">
+	<sentence id="s1" text="KLLN is a p53 target gene with DNA binding function and represents a highly plausible candidate breast cancer predisposition gene.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="KLLN" ontology_id="100144748"/>
+		<entity id="s1.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="A germline c.339_340delAG variant predicted to cause premature termination of the protein after 57 alternative amino acid residues was identified in 3/860 families who tested negative for BRCA1 and BRCA2 mutations and in 1/84 sporadic breast cancer cases.">
+		<entity id="s2.e1" charOffset="188-193"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s2.e2" charOffset="198-203"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s2.e3" charOffset="226-234"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e4" charOffset="242-248"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, the variant was also detected in 2/182 families with known BRCA1 or BRCA2 mutations and in 2/464 non-cancer controls.">
+		<entity id="s3.e1" charOffset="68-73"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s3.e2" charOffset="77-82"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s3.e3" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Our data suggest that pathogenic mutations in KLLN are rare in breast cancer families and the c.339_340delAG variant does not represent a high-penetrance breast cancer risk allele">
+		<entity id="s4.e1" charOffset="46-50"
+			type="GENE" text="KLLN" ontology_id="100144748"/>
+		<entity id="s4.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28386063">
+	<sentence id="s1" text="Several known breast cancer susceptibility genes encode proteins involved in DNA cellular protein catabolic process response (DDR) and are characterized by rare loss-of-function mutations.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="81-115"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="c.7253dupT in DNA repair, encoding a DDR factor important in meiosis, associated with hereditary breast cancer (p = 0.018) and likely represents a Northern Finnish founder mutation.">
+		<entity id="s2.e1" charOffset="14-24"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s2.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A deletion (c.640_644del5) in double-strand break repair, causative for recessive RIDDLE syndrome, had high prevalence in majority of the analyzed cohorts, but did not associate with breast cancer.">
+		<entity id="s3.e1" charOffset="30-56"
+			type="GO" text="double-strand break repair" ontology_id="GO_0006302"/>
+		<entity id="s3.e2" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, truncating variants in DNA repair and response to gamma radiation are potential breast cancer risk factors, warranting further investigations in other populations.">
+		<entity id="s4.e1" charOffset="38-48"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s4.e2" charOffset="53-80"
+			type="GO" text="response to gamma radiation" ontology_id="GO_0010332"/>
+		<entity id="s4.e3" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

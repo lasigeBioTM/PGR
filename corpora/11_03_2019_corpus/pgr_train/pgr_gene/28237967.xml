@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28237967">
+	<sentence id="s1" text="A key aspect of several adult lung diseases, such as idiopathic pulmonary fibrosis (IPF) and chronic obstructive pulmonary disease (COPD), including emphysema, is aberrant tissue repair, which leads to an accumulation of damage and impaired respiratory function.">
+		<entity id="s1.e1" charOffset="132-136"
+			type="GENE" text="COPD" ontology_id="372"/>
+		<entity id="s1.e2" charOffset="149-158"
+			type="HP" text="emphysema" ontology_id="HP_0002097"/>
+		<entity id="s1.e3" charOffset="221-227"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In addition, we show that li>Vangl2<sup>Lp/+</sup></i> lungs exhibit many of the hallmarks of tissue damage, including an altered macrophage population, abnormal elastin deposition and elevated levels of the elastin-modifying enzyme, li>Mmp12</i>, all of which are observed in emphysema.">
+		<entity id="s2.e1" charOffset="101-107"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s2.e2" charOffset="277-286"
+			type="HP" text="emphysema" ontology_id="HP_0002097"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Finally, we show that PCP genes li>VANGL2</i> and li>SCRIB</i> are significantly downregulated in lung tissue from patients with emphysema.">
+		<entity id="s3.e1" charOffset="22-25"
+			type="GENE" text="PCP" ontology_id="54858"/>
+		<entity id="s3.e2" charOffset="129-138"
+			type="HP" text="emphysema" ontology_id="HP_0002097"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

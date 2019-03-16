@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28079576">
+	<sentence id="s1" text="The tumors were characterized by immunohistochemistry for pituitary hormones, cytokeratins, Pit-1, and the neuronal markers NeuN, neurofilaments (NFP), and MAP2.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="92-97"
+			type="GENE" text="Pit-1" ontology_id="6574"/>
+		<entity id="s1.e3" charOffset="124-128"
+			type="GENE" text="NeuN" ontology_id="146713"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Double-labeling immunohistochemistry for Pit-1/GH, Pit-1/NFP, Pit-1/MAP2, and NeuN/GH was performed in 9/10 tumors.">
+		<entity id="s2.e1" charOffset="41-46"
+			type="GENE" text="Pit-1" ontology_id="6574"/>
+		<entity id="s2.e2" charOffset="78-82"
+			type="GENE" text="NeuN" ontology_id="146713"/>
+		<entity id="s2.e3" charOffset="108-114"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

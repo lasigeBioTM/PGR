@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30282866">
+	<sentence id="s1" text="Levels of serum CysC might become elevated regardless of renal function, and CysC-eGFR might become unpredictable during the active phase of tumors.">
+		<entity id="s1.e1" charOffset="82-86"
+			type="GENE" text="eGFR" ontology_id="1956"/>
+		<entity id="s1.e2" charOffset="141-146"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

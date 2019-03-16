@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21965325">
+	<sentence id="s1" text="Consistent with our description of this pathway and the phenotype of patients with FGD1 mutations, mice with a targeted deletion of Mlk3 displayed multiple skeletal defects, including dental abnormalities, deficient calvarial mineralization, and reduced bone mass.">
+		<entity id="s1.e1" charOffset="83-87"
+			type="GENE" text="FGD1" ontology_id="2245"/>
+		<entity id="s1.e2" charOffset="99-103"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="132-136"
+			type="GENE" text="Mlk3" ontology_id="4296"/>
+		<entity id="s1.e4" charOffset="184-204"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

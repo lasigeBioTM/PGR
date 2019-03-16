@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27861128">
+	<sentence id="s1" text="Mutations in the homeobox gene SHOX cause SHOX deficiency, a condition with clinical manifestations ranging from short stature without dysmorphic signs to severe mesomelic skeletal dysplasia.">
+		<entity id="s1.e1" charOffset="31-35"
+			type="GENE" text="SHOX" ontology_id="6473"/>
+		<entity id="s1.e2" charOffset="113-126"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e3" charOffset="172-190"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

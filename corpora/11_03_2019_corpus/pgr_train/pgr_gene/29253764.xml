@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29253764">
+	<sentence id="s1" text="Minichromosome maintenance protein 5 (MCM5) has been suggested overexpressed in cervical cancer, but the clinical value and biological function of MCM5 in cervical cancer is still unknown.">
+		<entity id="s1.e1" charOffset="38-42"
+			type="GENE" text="MCM5" ontology_id="4174"/>
+		<entity id="s1.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In our study, MCM5 mRNA and protein were significantly overexpressed in cervical cancer tissues and cell lines compared with normal cervical tissues and cell lines, and were obviously increased in cervical adenocarcinoma tissues and cell lines in comparison to cervical squamous cell carcinoma tissues and cell lines.">
+		<entity id="s2.e1" charOffset="14-18"
+			type="GENE" text="MCM5" ontology_id="4174"/>
+		<entity id="s2.e2" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="270-293"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

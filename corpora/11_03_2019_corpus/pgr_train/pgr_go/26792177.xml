@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26792177">
+	<sentence id="s1" text="The mutation (p.Trp211Arg), which segregates with a disease phenotype characterized by either isolated IIP/IPF, or IPF associated with lung adenocarcinoma, is located in the carbohydrate recognition domain (positive regulation of transcription by RNA polymerase II) of SP-A1 and involves a residue invariant throughout evolution, not only in SP-A1, but also in its close paralog SP-A2 and other CRD-containing proteins.">
+		<entity id="s1.e1" charOffset="135-154"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s1.e2" charOffset="207-264"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Overall, this first report of a germline molecular defect in opsonization unveils the key role of SP-A1 in the occurrence of several chronic respiratory diseases, ranging from severe respiratory insufficiency occurring early in life to the association of lung fibrosis and cancer in adult patients.">
+		<entity id="s2.e1" charOffset="61-73"
+			type="GO" text="opsonization" ontology_id="GO_0008228"/>
+		<entity id="s2.e2" charOffset="273-279"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

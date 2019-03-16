@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28082341">
+	<sentence id="s1" text="It is caused by recessive mutations in li>platelet formation</i>, resulting in macrothrombocytopenia and myelofibrosis.">
+		<entity id="s1.e1" charOffset="42-60"
+			type="GO" text="platelet formation" ontology_id="GO_0030220"/>
+		<entity id="s1.e2" charOffset="79-100"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Though using the term gray platelets for negative regulation of transcription by RNA polymerase II deficiency has been debated, a reduced number of α-granules has been described for macrothrombocytopenia due to li>GATA1</i> mutations.">
+		<entity id="s2.e1" charOffset="41-98"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="182-203"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27693232">
+	<sentence id="s1" text="Germline de novo truncating variants in ASXL1 and ASXL3 have been respectively implicated in causing Bohring-Opitz and Bainbridge-Ropers syndromes, which result in overlapping features of severe intellectual disability and dysmorphic features.">
+		<entity id="s1.e1" charOffset="40-45"
+			type="GENE" text="ASXL1" ontology_id="171023"/>
+		<entity id="s1.e2" charOffset="50-55"
+			type="GENE" text="ASXL3" ontology_id="80816"/>
+		<entity id="s1.e3" charOffset="195-218"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although overlapping features with Bohring-Opitz and Bainbridge-Ropers syndromes exist, features that distinguish the ASXL2-associated condition from ASXL1- and ASXL3-related disorders are macrocephaly, absence of growth retardation, and more variability in the degree of intellectual disabilities.">
+		<entity id="s2.e1" charOffset="118-123"
+			type="GENE" text="ASXL2" ontology_id="55252"/>
+		<entity id="s2.e2" charOffset="150-155"
+			type="GENE" text="ASXL1" ontology_id="171023"/>
+		<entity id="s2.e3" charOffset="161-166"
+			type="GENE" text="ASXL3" ontology_id="80816"/>
+		<entity id="s2.e4" charOffset="189-201"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s2.e5" charOffset="272-297"
+			type="HP" text="intellectual disabilities" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e5"
+		    e2="s2.e8" pgr="true"/>
+	</sentence>
+</document>

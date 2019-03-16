@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28536440">
+	<sentence id="s1" text="However, the relationship between MEGF10 and autism remains poorly understood.">
+		<entity id="s1.e1" charOffset="34-40"
+			type="GENE" text="MEGF10" ontology_id="84466"/>
+		<entity id="s1.e2" charOffset="45-51"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To investigate the role of MEGF10 variants with putative transcription regulatory function in the etiology of autism, we performed a family-based association study in 410 Chinese Han trios.">
+		<entity id="s2.e1" charOffset="27-33"
+			type="GENE" text="MEGF10" ontology_id="84466"/>
+		<entity id="s2.e2" charOffset="110-116"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

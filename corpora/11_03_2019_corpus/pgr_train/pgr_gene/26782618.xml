@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26782618">
+	<sentence id="s1" text="Occult macular dystrophy (OMD) is an inherited macular disease characterized by progressive visual decline with the absence of visible retinal abnormalities.">
+		<entity id="s1.e1" charOffset="7-24"
+			type="HP" text="macular dystrophy" ontology_id="HP_0007754"/>
+		<entity id="s1.e2" charOffset="26-29"
+			type="GENE" text="OMD" ontology_id="4958"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

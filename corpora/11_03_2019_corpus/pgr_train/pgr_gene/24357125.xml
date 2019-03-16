@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24357125">
+	<sentence id="s1" text="Likely haploinsufficiency of one or several of the 19 genes in the common deleted interval (ACTN1, DCAF5, EXD2, GALNTL1, ERH, SLC39A9, PLEKHD1, CCDC177, KIAA0247, LOC100289511, SRSF5, SLC10A1, SMOC1, SLC8A3, ADAM21P1, COX16, SYNJ2BP, SYNJ2BP-COX16, ADAM21) was responsible for these manifestations, but apart from SMOC1, mutations in which cause autosomal recessive Waardenburg anophthalmia syndrome, and ACTN1, mutations in which are associated with congenital macrothrombocytopenia, no disease associations have so far been reported for the other genes.">
+		<entity id="s1.e1" charOffset="92-97"
+			type="GENE" text="ACTN1" ontology_id="87"/>
+		<entity id="s1.e2" charOffset="99-104"
+			type="GENE" text="DCAF5" ontology_id="8816"/>
+		<entity id="s1.e3" charOffset="106-110"
+			type="GENE" text="EXD2" ontology_id="55218"/>
+		<entity id="s1.e4" charOffset="112-119"
+			type="GENE" text="GALNTL1" ontology_id="57452"/>
+		<entity id="s1.e5" charOffset="121-124"
+			type="GENE" text="ERH" ontology_id="2079"/>
+		<entity id="s1.e6" charOffset="126-133"
+			type="GENE" text="SLC39A9" ontology_id="55334"/>
+		<entity id="s1.e7" charOffset="135-142"
+			type="GENE" text="PLEKHD1" ontology_id="400224"/>
+		<entity id="s1.e8" charOffset="144-151"
+			type="GENE" text="CCDC177" ontology_id="56936"/>
+		<entity id="s1.e9" charOffset="153-161"
+			type="GENE" text="KIAA0247" ontology_id="9766"/>
+		<entity id="s1.e10" charOffset="177-182"
+			type="GENE" text="SRSF5" ontology_id="6430"/>
+		<entity id="s1.e11" charOffset="184-191"
+			type="GENE" text="SLC10A1" ontology_id="6554"/>
+		<entity id="s1.e12" charOffset="193-198"
+			type="GENE" text="SMOC1" ontology_id="64093"/>
+		<entity id="s1.e13" charOffset="200-206"
+			type="GENE" text="SLC8A3" ontology_id="6547"/>
+		<entity id="s1.e14" charOffset="208-214"
+			type="GENE" text="ADAM21" ontology_id="8747"/>
+		<entity id="s1.e15" charOffset="218-223"
+			type="GENE" text="COX16" ontology_id="51241"/>
+		<entity id="s1.e16" charOffset="225-232"
+			type="GENE" text="SYNJ2BP" ontology_id="55333"/>
+		<entity id="s1.e17" charOffset="346-365"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e18" charOffset="462-483"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e11"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e12"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e13"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e16"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e15"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e14"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e1"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e2"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p19" e1="s1.e4"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e6"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p21" e1="s1.e8"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p22" e1="s1.e10"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p23" e1="s1.e12"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p24" e1="s1.e16"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p25" e1="s1.e14"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p26" e1="s1.e19"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p27" e1="s1.e21"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p28" e1="s1.e23"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p29" e1="s1.e25"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p30" e1="s1.e27"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p31" e1="s1.e29"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p32" e1="s1.e31"
+		    e2="s1.e34" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25617527">
+	<sentence id="s1" text="LETM1 protein was detected in 107 TNBC, 42 ductal carcinoma in situ (DCIS) and 65 adjacent non-tumor breast tissues using immunohistochemical (IHC) staining.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="LETM1" ontology_id="3954"/>
+		<entity id="s1.e2" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The strongly positive rate of LETM1 in TNBC was 69.2% (74/107), which was significantly higher than in both DCIS 35.7% (15/42) and adjacent non-tumor tissues 12.3% (8/65).">
+		<entity id="s2.e1" charOffset="30-35"
+			type="GENE" text="LETM1" ontology_id="3954"/>
+		<entity id="s2.e2" charOffset="144-149"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

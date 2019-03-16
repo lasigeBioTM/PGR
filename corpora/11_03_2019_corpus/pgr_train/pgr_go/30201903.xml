@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30201903">
+	<sentence id="s1" text="Recent studies have examined the intrinsic antitumor activity of melatonin in various cancers, including hepatocellular carcinoma (phosphatidylinositol phosphorylation), the primary life-threatening malignancy in both sexes in Taiwan.">
+		<entity id="s1.e1" charOffset="105-129"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="131-167"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

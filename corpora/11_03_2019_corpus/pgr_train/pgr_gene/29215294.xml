@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29215294">
+	<sentence id="s1" text="Herein, we designed a retro-inverso isomer of lsup>L</sup>c(LyP-1), termed lsup>D</sup>c(LyP-1), expecting to inspire brain metastatic tumor targeted drug delivery.">
+		<entity id="s1.e1" charOffset="60-63"
+			type="GENE" text="LyP" ontology_id="4068"/>
+		<entity id="s1.e2" charOffset="135-140"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Further, lsup>L</sup>c(LyP-1) modified PEG-PLA micelles displayed much higher in vivo distribution in brain metastatic tumor than lsup>D</sup>c(LyP-1).">
+		<entity id="s2.e1" charOffset="23-26"
+			type="GENE" text="LyP" ontology_id="4068"/>
+		<entity id="s2.e2" charOffset="119-124"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="All results suggested that lsup>L</sup>c(LyP-1) had a better performance than lsup>D</sup>c(LyP-1) in brain metastatic tumor-targeted drug delivery">
+		<entity id="s3.e1" charOffset="41-44"
+			type="GENE" text="LyP" ontology_id="4068"/>
+		<entity id="s3.e2" charOffset="119-124"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

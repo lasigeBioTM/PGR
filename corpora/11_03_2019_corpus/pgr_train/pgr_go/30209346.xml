@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30209346">
+	<sentence id="s1" text="With alignment to T2DM susceptibility genes and deafness genes published, response to ATP was found to be the only overlapped gene.">
+		<entity id="s1.e1" charOffset="48-56"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="74-89"
+			type="GO" text="response to ATP" ontology_id="GO_0033198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

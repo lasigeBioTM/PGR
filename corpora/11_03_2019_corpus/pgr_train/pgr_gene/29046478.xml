@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29046478">
+	<sentence id="s1" text="Loss-of-function mutations of GNA11, which encodes G-protein subunit α11 (Gα11), a signaling partner for the calcium-sensing receptor (CaSR), result in familial hypocalciuric hypercalcemia type 2 (FHH2).">
+		<entity id="s1.e1" charOffset="30-35"
+			type="GENE" text="GNA11" ontology_id="2767"/>
+		<entity id="s1.e2" charOffset="135-139"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s1.e3" charOffset="175-188"
+			type="HP" text="hypercalcemia" ontology_id="HP_0003072"/>
+		<entity id="s1.e4" charOffset="189-193"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e5" charOffset="197-201"
+			type="GENE" text="FHH2" ontology_id="2767"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="FHH2 is characterized by hypercalcemia, inappropriately normal or raised parathyroid hormone (PTH) concentrations, and normal or low urinary calcium excretion.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="FHH2" ontology_id="2767"/>
+		<entity id="s2.e2" charOffset="25-38"
+			type="HP" text="hypercalcemia" ontology_id="HP_0003072"/>
+		<entity id="s2.e3" charOffset="94-97"
+			type="GENE" text="PTH" ontology_id="5741"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

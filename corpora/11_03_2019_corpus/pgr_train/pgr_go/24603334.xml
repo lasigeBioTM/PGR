@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24603334">
+	<sentence id="s1" text="Thus, our results suggest that aberrantly expressed Aurora-C in somatic cancer cells may impair cAMP biosynthetic process by displacing the centromeric localization of CPCs.">
+		<entity id="s1.e1" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="96-121"
+			type="GO" text="cAMP biosynthetic process" ontology_id="GO_0006171"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

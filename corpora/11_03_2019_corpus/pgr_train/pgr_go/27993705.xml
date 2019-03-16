@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27993705">
+	<sentence id="s1" text="Patients with mutations in positive regulation of transcription, DNA-templated all present with mild to moderate ID and poor speech accompanied by additional features in some patients, including autistic features and mild facial dysmorphisms, suggesting that positive regulation of transcription, DNA-templated mutations cause non-syndromic ID">
+		<entity id="s1.e1" charOffset="27-78"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e2" charOffset="96-100"
+			type="HP" text="mild" ontology_id="HP_0012825"/>
+		<entity id="s1.e3" charOffset="222-241"
+			type="HP" text="facial dysmorphisms" ontology_id="HP_0001999"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

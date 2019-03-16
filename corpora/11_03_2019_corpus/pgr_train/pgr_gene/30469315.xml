@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30469315">
+	<sentence id="s1" text="However, there is limited knowledge on the selenoprotein expression in colorectal adenoma (CRA) and colorectal cancer (CRC) patients, or the interaction with Se status levels.">
+		<entity id="s1.e1" charOffset="91-94"
+			type="GENE" text="CRA" ontology_id="51747"/>
+		<entity id="s1.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="<i>GPX2</i> and li>TXNRD3</i> showed a higher expression and li>GPX3</i>, li>SELENOP</i>, li>SELENOS</i>, and li>SEPHS2</i> exhibited a lower expression in the disease tissue from adenomas and both cancer groups (li>p</i>-values from 0.023 to AAAA0.001).">
+		<entity id="s2.e1" charOffset="77-84"
+			type="GENE" text="SELENOP" ontology_id="6414"/>
+		<entity id="s2.e2" charOffset="198-204"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="While there were no significant correlations with both Se status markers, li>SELENOF</i>, li>SELENOK</i>, and li>TXNRD1</i> tumor tissue expression positively correlated with Se, while li>TXNRD2</i> and li>TXNRD3</i> negatively correlated with li>SELENOP</i>.">
+		<entity id="s3.e1" charOffset="124-129"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="247-254"
+			type="GENE" text="SELENOP" ontology_id="6414"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

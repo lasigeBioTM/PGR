@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27659325">
+	<sentence id="s1" text="The aim of the study was to understand the role of SLIT2-ROBO1/2-CDC42 signalling pathways in development of breast cancer (BC).">
+		<entity id="s1.e1" charOffset="51-56"
+			type="GENE" text="SLIT2" ontology_id="6586"/>
+		<entity id="s1.e2" charOffset="57-62"
+			type="GENE" text="ROBO1" ontology_id="6091"/>
+		<entity id="s1.e3" charOffset="65-70"
+			type="GENE" text="CDC42" ontology_id="998"/>
+		<entity id="s1.e4" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Significantly, higher alteration of SLIT2 locus was observed in triple negative breast cancer (TNBC) over HER2 subtype (P = 0.0014).">
+		<entity id="s2.e1" charOffset="36-41"
+			type="GENE" text="SLIT2" ontology_id="6586"/>
+		<entity id="s2.e2" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="106-110"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Results indicate the importance of SLIT2-ROBO1-CDC42 signalling pathway in predicting tumour progression.">
+		<entity id="s3.e1" charOffset="35-40"
+			type="GENE" text="SLIT2" ontology_id="6586"/>
+		<entity id="s3.e2" charOffset="41-46"
+			type="GENE" text="ROBO1" ontology_id="6091"/>
+		<entity id="s3.e3" charOffset="47-52"
+			type="GENE" text="CDC42" ontology_id="998"/>
+		<entity id="s3.e4" charOffset="86-92"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30561139">
+	<sentence id="s1" text="A 9-month-old intact crossbred female cat was presented with jaundice, intermittent anorexia and lethargy, increased hepatic enzyme activities, and hyperammonemia.">
+		<entity id="s1.e1" charOffset="38-41"
+			type="GENE" text="cat" ontology_id="847"/>
+		<entity id="s1.e2" charOffset="148-162"
+			type="HP" text="hyperammonemia" ontology_id="HP_0001987"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

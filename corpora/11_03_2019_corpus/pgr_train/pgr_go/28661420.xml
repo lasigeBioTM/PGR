@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28661420">
+	<sentence id="s1" text="Moreover, Adenomatous polyposis coli 2 (protein K11-linked ubiquitination), a tumor suppressor and a negative regulator of Wnt signaling, was found to be the direct target of protein polyubiquitination-3648.">
+		<entity id="s1.e1" charOffset="40-73"
+			type="GO" text="protein K11-linked ubiquitination" ontology_id="GO_0070979"/>
+		<entity id="s1.e2" charOffset="49-54"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="146-172"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

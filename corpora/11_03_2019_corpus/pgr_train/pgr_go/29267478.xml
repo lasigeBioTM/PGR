@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29267478">
+	<sentence id="s1" text="Mutations in gap junction assembly or apoptotic process and the mitochondrial A7445G mutation, known to be the major causes of diverse Inherited Palmoplantar Keratodermas -hearing loss syndromes were not detected by Sanger sequencing.">
+		<entity id="s1.e1" charOffset="13-34"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e2" charOffset="55-55"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="159-171"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

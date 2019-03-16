@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27601211">
+	<sentence id="s1" text="We established a genetic diagnosis in six families with autosomal recessive HSP (SPG11 in three families and TFG/SPG57, SACS and ALS2 in one family each).">
+		<entity id="s1.e1" charOffset="56-75"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="81-86"
+			type="GENE" text="SPG11" ontology_id="80208"/>
+		<entity id="s1.e3" charOffset="109-112"
+			type="GENE" text="TFG" ontology_id="10342"/>
+		<entity id="s1.e4" charOffset="113-118"
+			type="GENE" text="SPG57" ontology_id="10342"/>
+		<entity id="s1.e5" charOffset="120-124"
+			type="GENE" text="SACS" ontology_id="26278"/>
+		<entity id="s1.e6" charOffset="129-133"
+			type="GENE" text="ALS2" ontology_id="57679"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Patients did not present with visual impairment as observed in a previously reported SPG57 family (c.316CAAAAT (p.(Arg106Cys)) in coiled-coil domain), suggesting unique contributions of the PB1 and coiled-coil domains in TFG complex formation/function and a possible phenotype correlation to variant location.">
+		<entity id="s2.e1" charOffset="30-47"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<entity id="s2.e2" charOffset="85-90"
+			type="GENE" text="SPG57" ontology_id="10342"/>
+		<entity id="s2.e3" charOffset="221-224"
+			type="GENE" text="TFG" ontology_id="10342"/>
+		<entity id="s2.e4" charOffset="272-276"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

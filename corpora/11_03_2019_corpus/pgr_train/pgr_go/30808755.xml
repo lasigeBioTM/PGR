@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30808755">
+	<sentence id="s1" text="The brains of li>protein polyubiquitination</i><sup>-/-</sup> apoptotic process had hypoplasia of the corpus callosum, enlarged ventricles, and decreased thickness of the somatosensory cortex.">
+		<entity id="s1.e1" charOffset="17-43"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="62-79"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="71-104"
+			type="HP" text="hypoplasia of the corpus callosum" ontology_id="HP_0002079"/>
+		<entity id="s1.e4" charOffset="106-125"
+			type="HP" text="enlarged ventricles" ontology_id="HP_0002119"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26010722">
+	<sentence id="s1" text="Biological relationships among these mutated genes were mined using Ingenuity Pathway Analysis, and the results demonstrated that top two networks with highest scores were highly associated with cancer and hematological diseases, indicating that the mutated genes identified by our method were highly relevant to microtubule-based process.">
+		<entity id="s1.e1" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="313-338"
+			type="GO" text="microtubule-based process" ontology_id="GO_0007017"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results indicated two mutated driver pathways are important for the pathogenesis of microtubule-based process: pathway in cancer and in regulation of actin cytoskeleton.">
+		<entity id="s2.e1" charOffset="88-113"
+			type="GO" text="microtubule-based process" ontology_id="GO_0007017"/>
+		<entity id="s2.e2" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

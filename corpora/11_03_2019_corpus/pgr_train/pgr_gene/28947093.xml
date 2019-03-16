@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28947093">
+	<sentence id="s1" text="An underdeveloped or impaired immune response in young children is associated with increased susceptibility to Streptococcus pneumonia (Spn) infections.">
+		<entity id="s1.e1" charOffset="125-134"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<entity id="s1.e2" charOffset="136-139"
+			type="GENE" text="Spn" ontology_id="10522"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

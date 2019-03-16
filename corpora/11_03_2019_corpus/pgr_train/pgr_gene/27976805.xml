@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27976805">
+	<sentence id="s1" text="Mutations in CRLF1 have been associated with autosomal recessive Crisponi or cold-induced sweating syndrome type 1 (CS/CISS1), which among other symptoms also manifests with early onset feeding difficulties.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="CRLF1" ontology_id="9244"/>
+		<entity id="s1.e2" charOffset="45-64"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="108-112"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e4" charOffset="186-206"
+			type="HP" text="feeding difficulties" ontology_id="HP_0011968"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

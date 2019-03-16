@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30041579">
+	<sentence id="s1" text="In patients compared to controls, there was an increase of IgG reactivity against zinc finger protein 688 (ZNF688), early B cell factor 2 (EBF2), crystallin, alpha B (CRYAB) and tumor necrosis factor receptor superfamily member 13C (TNFRSF13C).">
+		<entity id="s1.e1" charOffset="107-113"
+			type="GENE" text="ZNF688" ontology_id="146542"/>
+		<entity id="s1.e2" charOffset="139-143"
+			type="GENE" text="EBF2" ontology_id="64641"/>
+		<entity id="s1.e3" charOffset="167-172"
+			type="GENE" text="CRYAB" ontology_id="1410"/>
+		<entity id="s1.e4" charOffset="178-183"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="233-242"
+			type="GENE" text="TNFRSF13C" ontology_id="115650"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

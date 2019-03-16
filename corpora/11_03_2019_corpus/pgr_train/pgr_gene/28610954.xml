@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28610954">
+	<sentence id="s1" text="A MMP9 inhibitor significantly inhibited cell invasion and migration in ALDOA-HIF-1α axis-induced lung cancer.">
+		<entity id="s1.e1" charOffset="2-6"
+			type="GENE" text="MMP9" ontology_id="4318"/>
+		<entity id="s1.e2" charOffset="72-77"
+			type="GENE" text="ALDOA" ontology_id="226"/>
+		<entity id="s1.e3" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In summary, our results reveal the molecular mechanism of Aldolase A in promoting lung cancer metastasis via PHD-mediated stabilization of HIF-1α and the subsequent activation of MMP9.">
+		<entity id="s2.e1" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="179-183"
+			type="GENE" text="MMP9" ontology_id="4318"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The ALDOA-HIF-1α axis may provide a new therapeutic target for metastatic lung cancer treatment">
+		<entity id="s3.e1" charOffset="4-9"
+			type="GENE" text="ALDOA" ontology_id="226"/>
+		<entity id="s3.e2" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30424007">
+	<sentence id="s1" text="Here, we hypothesize that repression of transcriptional activity of forkhead box O1 (FoxO1) via histone deacetylase inhibitors (HDACi) ameliorates hyperglycemia in T2DM rats">
+		<entity id="s1.e1" charOffset="85-90"
+			type="GENE" text="FoxO1" ontology_id="2308"/>
+		<entity id="s1.e2" charOffset="147-160"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

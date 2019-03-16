@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20979188">
+	<sentence id="s1" text="The severe generalized lipodystrophy in this patient with progeroid features has not previously been described in other patients with MFS and FBN1 mutations.">
+		<entity id="s1.e1" charOffset="11-36"
+			type="HP" text="generalized lipodystrophy" ontology_id="HP_0009064"/>
+		<entity id="s1.e2" charOffset="142-146"
+			type="GENE" text="FBN1" ontology_id="2200"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28344074">
+	<sentence id="s1" text="In the present study, we investigated the spatiotemporal distributions of negative regulation of protein export from nucleus and 4 representative nucleoporins (GP210, nuclear pore complex assembly, mRNA export from nucleus and protein import into nucleus) of NPCs in human Cu/Zn superoxide dismutase-1 mutation transgenic (response to superoxide-thyroid gland development) apoptotic process and sporadic signal transduction patients.">
+		<entity id="s1.e1" charOffset="74-124"
+			type="GO" text="negative regulation of protein export from nucleus" ontology_id="GO_0046826"/>
+		<entity id="s1.e2" charOffset="167-196"
+			type="GO" text="nuclear pore complex assembly" ontology_id="GO_0051292"/>
+		<entity id="s1.e3" charOffset="198-222"
+			type="GO" text="mRNA export from nucleus" ontology_id="GO_0006406"/>
+		<entity id="s1.e4" charOffset="227-254"
+			type="GO" text="protein import into nucleus" ontology_id="GO_0006606"/>
+		<entity id="s1.e5" charOffset="235-243"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e6" charOffset="244-263"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e7" charOffset="323-345"
+			type="GO" text="response to superoxide" ontology_id="GO_0000303"/>
+		<entity id="s1.e8" charOffset="332-349"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e9" charOffset="346-371"
+			type="GO" text="thyroid gland development" ontology_id="GO_0030878"/>
+		<pair id="s1.p1" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study indicated that the mislocalization of these proteins of NPCs may underlie the pathogenesis of signal transduction both in response to superoxide-thyroid gland development apoptotic process and human sporadic ALS patients, and these dysfunctions may be a fundamental pathway for ALS that is not specific only in cell killing-ALS but also in SOD1-ALS, which may be amenable to pharmacotherapeutic intervention">
+		<entity id="s2.e1" charOffset="112-131"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s2.e2" charOffset="140-162"
+			type="GO" text="response to superoxide" ontology_id="GO_0000303"/>
+		<entity id="s2.e3" charOffset="148-165"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e4" charOffset="163-171"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e5" charOffset="163-188"
+			type="GO" text="thyroid gland development" ontology_id="GO_0030878"/>
+		<entity id="s2.e6" charOffset="329-341"
+			type="GO" text="cell killing" ontology_id="GO_0001906"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

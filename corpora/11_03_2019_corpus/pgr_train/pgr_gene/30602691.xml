@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30602691">
+	<sentence id="s1" text="The lifestyle gradually transformed from Bedouin life to urban sedentary life, along with a sharp increase in obesity and other comorbidities.">
+		<entity id="s1.e1" charOffset="92-97"
+			type="GENE" text="sharp" ontology_id="23013"/>
+		<entity id="s1.e2" charOffset="110-117"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

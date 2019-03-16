@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28081727">
+	<sentence id="s1" text="MicroRNA-200a (miR-200a) is frequently downregulated in most cancer types and plays an important role in carcinogenesis and cancer progression.">
+		<entity id="s1.e1" charOffset="15-18"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="61-67"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we determined that miR-200a was downregulated in hepatocellular carcinoma (HCC) tissues and cell lines, consistent with the results of our previous study.">
+		<entity id="s2.e1" charOffset="34-37"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="64-88"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s2.e3" charOffset="90-93"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Taken together, these data provide novel information for comprehending the tumor-suppressive role of miR-200a in HCC pathogenesis through inhibition of GAB1 translation">
+		<entity id="s3.e1" charOffset="75-80"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="101-104"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e3" charOffset="113-116"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s3.e4" charOffset="152-156"
+			type="GENE" text="GAB1" ontology_id="128869"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

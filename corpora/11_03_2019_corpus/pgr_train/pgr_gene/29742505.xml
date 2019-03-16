@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742505">
+	<sentence id="s1" text="Mutations in the COL4A5 gene result in X-linked Alport syndrome, homozygous or compound heterozygous mutations in COL4A3 or COL4A4 are responsible for autosomal recessive Alport syndrome, and heterozygous mutations in COL4A3 or COL4A4 cause autosomal dominant Alport syndrome or benign familial hematuria.">
+		<entity id="s1.e1" charOffset="17-23"
+			type="GENE" text="COL4A5" ontology_id="1287"/>
+		<entity id="s1.e2" charOffset="114-120"
+			type="GENE" text="COL4A3" ontology_id="1285"/>
+		<entity id="s1.e3" charOffset="124-130"
+			type="GENE" text="COL4A4" ontology_id="1286"/>
+		<entity id="s1.e4" charOffset="151-170"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This result suggests that COL4A3 and COL4A4 digenic mutations in cis mimicking an autosomal dominant inheritance should be considered as a novel inheritance pattern of benign familial hematuria, although the disease-causing mechanism remains unknown">
+		<entity id="s2.e1" charOffset="26-32"
+			type="GENE" text="COL4A3" ontology_id="1285"/>
+		<entity id="s2.e2" charOffset="37-43"
+			type="GENE" text="COL4A4" ontology_id="1286"/>
+		<entity id="s2.e3" charOffset="65-68"
+			type="GENE" text="cis" ontology_id="1154"/>
+		<entity id="s2.e4" charOffset="101-112"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

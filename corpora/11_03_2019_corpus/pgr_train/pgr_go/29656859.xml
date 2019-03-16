@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29656859">
+	<sentence id="s1" text="The spontaneous mutant mouse staggerer, with an ataxic gait caused by neurodegeneration of cerebellar Purkinje cells, was discovered two decades protein ubiquitination to result from homozygous intragenic regulation of transcription, DNA-templated deletions.">
+		<entity id="s1.e1" charOffset="48-59"
+			type="HP" text="ataxic gait" ontology_id="HP_0002066"/>
+		<entity id="s1.e2" charOffset="145-167"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s1.e3" charOffset="205-247"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Through a multi-centric collaboration, we identified three copy-number variant deletions (two de novo and one dominantly inherited in three generations), one de novo disrupting duplication, and nine de novo point mutations (three truncating, one canonical splice site, and five missense mutations) involving regulation of transcription, DNA-templated in 16 individuals from 13 families with variable neurodevelopmental delay and intellectual disability (ID)-associated autistic features, cerebellar ataxia, and epilepsy.">
+		<entity id="s2.e1" charOffset="308-350"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e2" charOffset="400-424"
+			type="HP" text="neurodevelopmental delay" ontology_id="HP_0012758"/>
+		<entity id="s2.e3" charOffset="429-452"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e4" charOffset="488-505"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e5" charOffset="511-519"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+</document>

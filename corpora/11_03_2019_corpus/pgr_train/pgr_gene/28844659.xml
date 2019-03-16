@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28844659">
+	<sentence id="s1" text="Transplantation of rod photoreceptors, derived either from neonatal retinae or pluripotent stem cells (PSCs), can restore rod-mediated visual function in murine models of inherited blindness.">
+		<entity id="s1.e1" charOffset="19-22"
+			type="GENE" text="rod" ontology_id="9735"/>
+		<entity id="s1.e2" charOffset="181-190"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30099957">
+	<sentence id="s1" text="The mean pulmonary arterial pressure (mPAP), right ventricular hypertrophy index (RVHI), pulmonary vascular remodeling, serum tumor necrosis factor α (TNFα), and interleukin-6 (IL-6) were higher either in SI or in TI 28 and 35 days after the first MCT injection.">
+		<entity id="s1.e1" charOffset="51-74"
+			type="HP" text="ventricular hypertrophy" ontology_id="HP_0001714"/>
+		<entity id="s1.e2" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="248-251"
+			type="GENE" text="MCT" ontology_id="27349"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

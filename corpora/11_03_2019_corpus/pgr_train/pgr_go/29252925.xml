@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29252925">
+	<sentence id="s1" text="Prospective outcome data on risk-reducing salpingectomy and delayed-oophorectomy for preventing ovarian cancer is lacking, and hence, this is chloride transport offered for primary prevention within the context and safe environment of a clinical trial.">
+		<entity id="s1.e1" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="142-160"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This includes unaffected women who have completed their family and have DNA repair, strand invasion, or ribosome biogenesis gene mutations; first-degree relatives of women with invasive epithelial ovarian cancer; BRCA mutation-negative women from high-risk breast-and-ovarian cancer or ovarian-cancer-only families.">
+		<entity id="s2.e1" charOffset="72-82"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s2.e2" charOffset="84-99"
+			type="GO" text="strand invasion" ontology_id="GO_0042148"/>
+		<entity id="s2.e3" charOffset="104-123"
+			type="GO" text="ribosome biogenesis" ontology_id="GO_0042254"/>
+		<entity id="s2.e4" charOffset="182-188"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In those with double-strand break repair via homologous recombination, DNA repair/strand invasion/MMR mutations and the occasional families with a history of ovarian cancer in their 40s, surgery needs to be considered at younger than 45.">
+		<entity id="s3.e1" charOffset="14-69"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s3.e2" charOffset="71-81"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s3.e3" charOffset="82-97"
+			type="GO" text="strand invasion" ontology_id="GO_0042148"/>
+		<entity id="s3.e4" charOffset="153-159"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26188004">
+	<sentence id="s1" text="For individual RP patients, our study may help to predict time-courses for Pde6a-related retinal degeneration and thereby facilitate the definition of a window-of-opportunity for clinical interventions.">
+		<entity id="s1.e1" charOffset="75-80"
+			type="GENE" text="P.e1a" ontology_id="5145"/>
+		<entity id="s1.e2" charOffset="89-109"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

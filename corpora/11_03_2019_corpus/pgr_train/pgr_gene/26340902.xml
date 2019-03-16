@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26340902">
+	<sentence id="s1" text="We use the BMI- and obesity-associated FTO locus as a subject as it poses an illustrative example on the value of these resources.">
+		<entity id="s1.e1" charOffset="20-27"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="39-42"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

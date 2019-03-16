@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29170024">
+	<sentence id="s1" text="Within the last decade, the Bromodomain and Extra-Terminal domain family (BET) of proteins have emerged as promising drug targets in diverse clinical indications including oncology, auto-immune disease, heart failure, and male contraception.">
+		<entity id="s1.e1" charOffset="74-77"
+			type="GENE" text="BET" ontology_id="92737"/>
+		<entity id="s1.e2" charOffset="203-216"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Finally, we report that 9 retained cytotoxicity against several pediatric cancer cell lines with EC<sub>50</sub> values comparable to BET inhibitor (BETi) clinical candidates">
+		<entity id="s2.e1" charOffset="74-80"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="134-137"
+			type="GENE" text="BET" ontology_id="92737"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28128203">
+	<sentence id="s1" text="Gain-of-function mutations in iRHOM2 underlie Tylosis with oesophageal cancer (TOC), characterized by palmoplantar thickening, upregulate K16 with robust downregulation of its type II keratin binding partner, K6.">
+		<entity id="s1.e1" charOffset="30-36"
+			type="GENE" text="iRHOM2" ontology_id="79651"/>
+		<entity id="s1.e2" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="79-82"
+			type="GENE" text="TOC" ontology_id="79651"/>
+		<entity id="s1.e4" charOffset="176-180"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

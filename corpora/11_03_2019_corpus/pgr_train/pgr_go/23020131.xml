@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23020131">
+	<sentence id="s1" text="Based on screening results, five unique genes (ether lipid biosynthetic process, protein sumoylation, negative regulation of cell-cell adhesion, positive regulation of transcription, DNA-templated, and regulation of transcription, DNA-templated) significantly potentiated the growth inhibitory effects of CDDO-Me and induced apoptosis in A375, a protein phosphorylation mutated melanoma line (P AAAA 0.001).">
+		<entity id="s1.e1" charOffset="47-79"
+			type="GO" text="ether lipid biosynthetic process" ontology_id="GO_0008611"/>
+		<entity id="s1.e2" charOffset="81-100"
+			type="GO" text="protein sumoylation" ontology_id="GO_0016925"/>
+		<entity id="s1.e3" charOffset="143-143"
+			type="GO" text="negative regulation of cell-cell adhesion" ontology_id="GO_0022408"/>
+		<entity id="s1.e4" charOffset="145-196"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e5" charOffset="202-244"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e6" charOffset="225-233"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e7" charOffset="346-369"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our findings indicate that ether lipid biosynthetic process, protein sumoylation, negative regulation of cell-cell adhesion, positive regulation of transcription, DNA-templated, and regulation of transcription, DNA-templated play critical roles in synergy with inflammation pathways in modulating melanoma cell survival and could serve as sensitizing targets to enhance CDDO-Me efficacy in melanoma growth control">
+		<entity id="s2.e1" charOffset="27-59"
+			type="GO" text="ether lipid biosynthetic process" ontology_id="GO_0008611"/>
+		<entity id="s2.e2" charOffset="61-80"
+			type="GO" text="protein sumoylation" ontology_id="GO_0016925"/>
+		<entity id="s2.e3" charOffset="123-123"
+			type="GO" text="negative regulation of cell-cell adhesion" ontology_id="GO_0022408"/>
+		<entity id="s2.e4" charOffset="125-176"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s2.e5" charOffset="163-171"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s2.e6" charOffset="182-224"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e6"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

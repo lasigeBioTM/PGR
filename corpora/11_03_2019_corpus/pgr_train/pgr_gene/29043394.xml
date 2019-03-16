@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29043394">
+	<sentence id="s1" text="Through biological and in silico analyses, our study suggests an association between SIX1/EYA1 mutations and cardiovascular malformations, SIX1/EYA1 mutations might be partially responsible for CTDs">
+		<entity id="s1.e1" charOffset="85-89"
+			type="GENE" text="SIX1" ontology_id="6495"/>
+		<entity id="s1.e2" charOffset="90-94"
+			type="GENE" text="EYA1" ontology_id="2138"/>
+		<entity id="s1.e3" charOffset="109-137"
+			type="HP" text="cardiovascular malformations" ontology_id="HP_0030680"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17467691">
+	<sentence id="s1" text="Duplication in interleukin-12-mediated signaling pathway encoding lamin B1 causes autosomal dominant leukodystrophy and mutations in biological_process encoding lamin B2 are associated with acquired partial lipodystrophy.">
+		<entity id="s1.e1" charOffset="15-56"
+			type="GO" text="interleukin-12-mediated signaling pathway" ontology_id="GO_0035722"/>
+		<entity id="s1.e2" charOffset="101-115"
+			type="HP" text="leukodystrophy" ontology_id="HP_0002415"/>
+		<entity id="s1.e3" charOffset="133-151"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28081242">
+	<sentence id="s1" text="Leber hereditary optic neuropathy (biological_process) and dominant optic atrophy (DOA), the most common forms of hereditary optic neuropathy, are easily confused, and it is difficult to distinguish one from the other in the clinic, especially in young children.">
+		<entity id="s1.e1" charOffset="23-33"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="35-53"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e3" charOffset="68-81"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study was designed to survey the mutation spectrum of common pathogenic genes (transcription initiation from RNA polymerase II promoter, visual perception and mtDNA genes) and to analyze the genotype-phenotype characteristics of Chinese patients with suspected childhood-onset hereditary optic neuropathy.">
+		<entity id="s2.e1" charOffset="91-147"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s2.e2" charOffset="149-166"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e3" charOffset="293-303"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This study expanded the transcription initiation from RNA polymerase II promoter mutation spectrum, and our results showed that OPA1 mutation is another common cause of childhood-onset hereditary optic neuropathy in Chinese pediatric patients, especially those with disease onset during preschool age">
+		<entity id="s3.e1" charOffset="24-80"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s3.e2" charOffset="202-212"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

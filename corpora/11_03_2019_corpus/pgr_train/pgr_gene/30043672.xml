@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30043672">
+	<sentence id="s1" text="The therapeutic strategy to recover immune function through the restoration of impaired Tregs function with the mounting evidences regarding KRAS in autoimmune mediated disorder (MS, SLE, RA, T1D) suggest as working hypothesis the direct targeting KRAS activation using cancer-derived small molecules may be clinically relevant">
+		<entity id="s1.e1" charOffset="141-145"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s1.e2" charOffset="270-276"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

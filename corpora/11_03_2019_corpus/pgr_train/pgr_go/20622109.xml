@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20622109">
+	<sentence id="s1" text="In this study, we examine the role of proton-sensing ovarian cancer G protein-coupled receptor 1 (inflammatory response) in extracellular acidification-induced regulation of cyclooxygenase (generation of precursor metabolites and energy)-2 induction, PGI(2) production, MAPK phosphatase (MKP)-1 expression, and plasminogen activator inhibitor (regulation of signaling receptor activity)-1 expression and proliferation in human aortic smooth muscle cells (AoSMCs).">
+		<entity id="s1.e1" charOffset="61-67"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="98-119"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s1.e3" charOffset="190-236"
+			type="GO" text="generation of precursor metabolites and energy" ontology_id="GO_0006091"/>
+		<entity id="s1.e4" charOffset="344-385"
+			type="GO" text="regulation of signaling receptor activity" ontology_id="GO_0010469"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

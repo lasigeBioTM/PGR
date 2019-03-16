@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26929985">
+	<sentence id="s1" text="These analyses revealed significantly higher methylation frequencies in high-grade tumors relative to low-intermediate-grade tumors for the ATP5G2, IRX1 and VAX2 genes (PAAAA0.05), and similarly significant increases in mean levels of methylation in high-grade tumors for the ATP5G2, VAX2, INSRR, PRDM14, VSX1, TFAP2b, PRRX1, and HIST1H4F genes (PAAAA0.05).">
+		<entity id="s1.e1" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="148-152"
+			type="GENE" text="IRX1" ontology_id="79192"/>
+		<entity id="s1.e3" charOffset="157-161"
+			type="GENE" text="VAX2" ontology_id="25806"/>
+		<entity id="s1.e4" charOffset="290-295"
+			type="GENE" text="INSRR" ontology_id="3645"/>
+		<entity id="s1.e5" charOffset="297-303"
+			type="GENE" text="PRDM14" ontology_id="63978"/>
+		<entity id="s1.e6" charOffset="305-309"
+			type="GENE" text="VSX1" ontology_id="30813"/>
+		<entity id="s1.e7" charOffset="311-317"
+			type="GENE" text="TFAP2b" ontology_id="7021"/>
+		<entity id="s1.e8" charOffset="319-324"
+			type="GENE" text="PRRX1" ontology_id="5396"/>
+		<entity id="s1.e9" charOffset="330-338"
+			type="GENE" text="HIST1H4F" ontology_id="8361"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25048004">
+	<sentence id="s1" text="The postsynaptic density (PSD) contains a complex set of proteins of known relevance to neuropsychiatric disorders, and schizophrenia specifically.">
+		<entity id="s1.e1" charOffset="26-29"
+			type="GENE" text="PSD" ontology_id="5662"/>
+		<entity id="s1.e2" charOffset="50-53"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e3" charOffset="120-133"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Both single-gene and gene-set enrichment analyses in genome-wide association data from the largest schizophrenia sample to date of 13,689 cases and 18,226 controls show significant association of HIST1H1E and MAPK3, and enrichment of our PSD proteome.">
+		<entity id="s2.e1" charOffset="26-29"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e2" charOffset="99-112"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e3" charOffset="196-204"
+			type="GENE" text="HIST1H1E" ontology_id="3008"/>
+		<entity id="s2.e4" charOffset="209-214"
+			type="GENE" text="MAPK3" ontology_id="5595"/>
+		<entity id="s2.e5" charOffset="238-241"
+			type="GENE" text="PSD" ontology_id="5662"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Taken together, our data provide robust evidence implicating PSD-associated proteins and genes in schizophrenia, and suggest that within the PSD, NMDA-interacting and endocytosis-related proteins contribute to disease pathophysiology">
+		<entity id="s3.e1" charOffset="61-64"
+			type="GENE" text="PSD" ontology_id="5662"/>
+		<entity id="s3.e2" charOffset="98-111"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

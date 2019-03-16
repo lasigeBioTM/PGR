@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24386311">
+	<sentence id="s1" text="In breast cancer, cytokine production facilitates invasion of surrounding tissues and correlates closely with cancer metastasis and relapse.">
+		<entity id="s1.e1" charOffset="10-16"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="18-37"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We found previously that the candidate tumor suppressor ion transmembrane transport is expressed in differentiated, growth-arrested mammary epithelial cells but is downregulated during tumor progression and cytokine production.">
+		<entity id="s2.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="56-83"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s2.e3" charOffset="185-204"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We show here that another member of the CLCA gene family, ion transmembrane transport, is expressed in mammary epithelial cells and is similarly downregulated in breast tumors and in breast cancer cell lines.">
+		<entity id="s3.e1" charOffset="58-85"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s3.e2" charOffset="169-174"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Clinically, low expression of ion transmembrane transport signaled lower relapse-free survival in basal and luminal B breast cancers.">
+		<entity id="s4.e1" charOffset="30-57"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s4.e2" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

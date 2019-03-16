@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28953230">
+	<sentence id="s1" text="Agonistic antibodies, which bind specifically to death receptor 5 (response to endoplasmic reticulum stress), can trigger apoptosis in tumor cells through the extrinsic pathway.">
+		<entity id="s1.e1" charOffset="67-107"
+			type="GO" text="response to endoplasmic reticulum stress" ontology_id="GO_0034976"/>
+		<entity id="s1.e2" charOffset="135-140"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="After screening for agonism in a cell-viability assay in vitro, a novel response to endoplasmic reticulum stress-specific scFv antibody transcription initiation from RNA polymerase II promoter-3 was isolated, which inhibited COLO205 and MDA-MB-231 tumor cell growth without any cross-linking agents.">
+		<entity id="s2.e1" charOffset="72-112"
+			type="GO" text="response to endoplasmic reticulum stress" ontology_id="GO_0034976"/>
+		<entity id="s2.e2" charOffset="136-192"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s2.e3" charOffset="195-200"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The activity of transcription initiation from RNA polymerase II promoter-3 in inducing apoptosis in cancer cells was evaluated by using an Annexin V-PE apoptosis detection activation of MAPK activity in combination with flow cytometry and the Hoechst 33342 and propidium iodide double staining analysis.">
+		<entity id="s3.e1" charOffset="16-72"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s3.e2" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="172-199"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, transcription initiation from RNA polymerase II promoter-3 suppressed the tumor growth significantly in the xenograft model.">
+		<entity id="s4.e1" charOffset="13-69"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s4.e2" charOffset="87-92"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Taken together, these data suggest that transcription initiation from RNA polymerase II promoter-3 exhibited potent antitumor activity both in vitro and in vivo.">
+		<entity id="s5.e1" charOffset="40-96"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s5.e2" charOffset="120-125"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

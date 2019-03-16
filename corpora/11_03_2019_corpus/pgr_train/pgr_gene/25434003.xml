@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25434003">
+	<sentence id="s1" text="Mutations in components of the major spliceosome have been described in disorders with craniofacial anomalies, e.g., Nager syndrome and mandibulofacial dysostosis type Guion-Almeida.">
+		<entity id="s1.e1" charOffset="136-162"
+			type="HP" text="mandibulofacial dysostosis" ontology_id="HP_0005321"/>
+		<entity id="s1.e2" charOffset="163-167"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This rare condition is characterized by bilateral choanal atresia, hearing loss, cleft lip and/or palate, and other craniofacial dysmorphisms.">
+		<entity id="s2.e1" charOffset="40-49"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s2.e2" charOffset="50-65"
+			type="HP" text="choanal atresia" ontology_id="HP_0000453"/>
+		<entity id="s2.e3" charOffset="67-79"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e4" charOffset="87-90"
+			type="GENE" text="lip" ontology_id="23049"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

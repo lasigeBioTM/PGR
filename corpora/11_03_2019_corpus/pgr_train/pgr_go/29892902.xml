@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29892902">
+	<sentence id="s1" text="Mutations in the vesicle-mediated transport showed a wide phenotypic spectrum from hereditary spastic paraplegia (HSP) to axonal Charcot-Marie-Tooth peripheral neuropathy cardiac muscle tissue development 2 (microtubule-based movement).">
+		<entity id="s1.e1" charOffset="17-43"
+			type="GO" text="vesicle-mediated transport" ontology_id="GO_0016192"/>
+		<entity id="s1.e2" charOffset="94-112"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e3" charOffset="149-159"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s1.e4" charOffset="160-170"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e5" charOffset="171-204"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e6" charOffset="208-234"
+			type="GO" text="microtubule-based movement" ontology_id="GO_0007018"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e14"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e14"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The p.Arg204Trp mutation was identified from a microtubule-based movement patient with additional complex phenocardiac muscle tissue developments of HSP, ataxia, fatigability and pyramidal sign, but the p.Arg280His and p.Leu588Pro mutations were identified in each axonal CMT2 patient.">
+		<entity id="s2.e1" charOffset="47-73"
+			type="GO" text="microtubule-based movement" ontology_id="GO_0007018"/>
+		<entity id="s2.e2" charOffset="89-122"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e3" charOffset="132-138"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="As the first report in Korea, this study identified three vesicle-mediated transport mutations as the underlying cause of axonal peripheral neuropathy with or without the HSP phenocardiac muscle tissue development.">
+		<entity id="s3.e1" charOffset="58-84"
+			type="GO" text="vesicle-mediated transport" ontology_id="GO_0016192"/>
+		<entity id="s3.e2" charOffset="129-139"
+			type="HP" text="peripheral" ontology_id="HP_0030646"/>
+		<entity id="s3.e3" charOffset="140-150"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e4" charOffset="180-213"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

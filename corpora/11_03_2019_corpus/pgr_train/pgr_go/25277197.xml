@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25277197">
+	<sentence id="s1" text="Finally, we demonstrate that negative regulation of transcription by RNA polymerase II expression is elevated in luminal breast cancer cells and luminal breast cancer tissues as compared with other breast cancer subtypes.">
+		<entity id="s1.e1" charOffset="29-86"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Overall, our study proposes that negative regulation of transcription by RNA polymerase II acts as a central mRNA splicing, via spliceosome in the control of cell cycle and proliferation during cancer development.">
+		<entity id="s2.e1" charOffset="33-90"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="109-139"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s2.e3" charOffset="167-173"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

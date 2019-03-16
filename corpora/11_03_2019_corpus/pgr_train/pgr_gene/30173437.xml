@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30173437">
+	<sentence id="s1" text="Idiopathic hypogonadotropic hypogonadism (IHH) is often caused by hyposecretion of gonadotropin and consequently affects male fertility.">
+		<entity id="s1.e1" charOffset="28-40"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<entity id="s1.e2" charOffset="42-45"
+			type="GENE" text="IHH" ontology_id="3549"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30086807">
+	<sentence id="s1" text="Eighteen MCPH loci (MCPH1-MCPH18) have been mapped to date from various populations around the world and contain the following genes: Microcephalin, WDR62, CDK5RAP2, CASC5, ASPM, CENPJ, STIL, CEP135, CEP152, ZNF335, PHC1, CDK6, CENPE, SASS6, MFSD2A, ANKLE2, CIT and WDFY3, clarifying our understanding about the molecular basis of microcephaly genetic disorder.">
+		<entity id="s1.e1" charOffset="149-154"
+			type="GENE" text="WDR62" ontology_id="284403"/>
+		<entity id="s1.e2" charOffset="156-164"
+			type="GENE" text="CDK5RAP2" ontology_id="55755"/>
+		<entity id="s1.e3" charOffset="173-177"
+			type="GENE" text="ASPM" ontology_id="259266"/>
+		<entity id="s1.e4" charOffset="179-184"
+			type="GENE" text="CENPJ" ontology_id="55835"/>
+		<entity id="s1.e5" charOffset="186-190"
+			type="GENE" text="STIL" ontology_id="6491"/>
+		<entity id="s1.e6" charOffset="192-198"
+			type="GENE" text="CEP135" ontology_id="9662"/>
+		<entity id="s1.e7" charOffset="200-206"
+			type="GENE" text="CEP152" ontology_id="22995"/>
+		<entity id="s1.e8" charOffset="208-214"
+			type="GENE" text="ZNF335" ontology_id="63925"/>
+		<entity id="s1.e9" charOffset="216-220"
+			type="GENE" text="PHC1" ontology_id="1911"/>
+		<entity id="s1.e10" charOffset="222-226"
+			type="GENE" text="CDK6" ontology_id="1021"/>
+		<entity id="s1.e11" charOffset="228-233"
+			type="GENE" text="CENPE" ontology_id="1062"/>
+		<entity id="s1.e12" charOffset="235-240"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<entity id="s1.e13" charOffset="242-248"
+			type="GENE" text="MFSD2A" ontology_id="84879"/>
+		<entity id="s1.e14" charOffset="250-256"
+			type="GENE" text="ANKLE2" ontology_id="23141"/>
+		<entity id="s1.e15" charOffset="258-261"
+			type="GENE" text="CIT" ontology_id="11113"/>
+		<entity id="s1.e16" charOffset="266-271"
+			type="GENE" text="WDFY3" ontology_id="23001"/>
+		<entity id="s1.e17" charOffset="331-343"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e11"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e12"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e13"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e14"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e15"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e16"
+		    e2="s1.e17" pgr="false"/>
+	</sentence>
+</document>

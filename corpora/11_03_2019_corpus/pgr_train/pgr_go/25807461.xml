@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25807461">
+	<sentence id="s1" text="Down-regulation of negative regulation of transcription by RNA polymerase II has been found in various tumor cell lines.">
+		<entity id="s1.e1" charOffset="19-76"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="103-108"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="There has been virtually no tissue study on the expression of negative regulation of transcription by RNA polymerase II in prostate cancer (mitochondrial transport).">
+		<entity id="s2.e1" charOffset="62-119"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="140-163"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="mitochondrial transport is a heterogeneous disease, most of which are indolent and non-lethal.">
+		<entity id="s3.e1" charOffset="0-23"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s3.e2" charOffset="29-42"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This study aimed to investigate the expression of negative regulation of transcription by RNA polymerase II by immunohistochemistry in different grade as well as metastatic mitochondrial transport and to correlate the alteration of PLZF expression with PCa aggressiveness.">
+		<entity id="s4.e1" charOffset="50-107"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e2" charOffset="173-196"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s4.e3" charOffset="237-251"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These data demonstrated that down-regulation of negative regulation of transcription by RNA polymerase II is an important molecular process for tumor progression and loss of negative regulation of transcription by RNA polymerase II expression detected by routine immunohistochemistry is a promising and valuable biomarker for mitochondrial transport aggressiveness and metastasis in the personalized care of mitochondrial transport.">
+		<entity id="s5.e1" charOffset="48-105"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s5.e2" charOffset="144-149"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="273-296"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s5.e4" charOffset="277-291"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e4"
+		    e2="s5.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29104277">
+	<sentence id="s1" text="RT-PCR analysis showed that the overall transcriptional activity of the main HS biosynthesis-involved genes (li>EXT1</i>, li>EXT2</i>, li>NDST1</i>, li>NDST2</i>, li>GLCE</i>, li>HS2ST1</i>, li>HS3ST1</i>, li>HS3ST2</i>, li>HS6ST1</i>, li>HS6ST2</i>, li>SULF1</i>, li>SULF2</i>, li>cell-matrix adhesion</i>) was decreased by 1.5-2-fold in Grade II-III glioma (li>p</i> AAAA 0.01) and by 3-fold in Grade IV glioma (glioblastoma multiforme, GBM) (li>p</i> AAAA 0.05), as compared with the para-tumourous tissue.">
+		<entity id="s1.e1" charOffset="282-302"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e2" charOffset="352-358"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e3" charOffset="492-498"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Heparanase (li>cell-matrix adhesion</i>) expression was identified in 50% of GBM tumours by immunostaining, and was characterised by a high intratumoural heterogeneity of the presence of the cell-matrix adhesion protein.">
+		<entity id="s2.e1" charOffset="15-35"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s2.e2" charOffset="81-88"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="145-151"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="154-167"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

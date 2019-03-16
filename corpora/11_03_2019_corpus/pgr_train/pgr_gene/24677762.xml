@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24677762">
+	<sentence id="s1" text="Biallelic mutations in FKBP14 cause a recessive form of Ehlers-Danlos syndrome (EDS) characterized by progressive kyphoscoliosis, myopathy, and hearing loss.">
+		<entity id="s1.e1" charOffset="23-29"
+			type="GENE" text="FKBP14" ontology_id="55033"/>
+		<entity id="s1.e2" charOffset="102-113"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<entity id="s1.e3" charOffset="114-128"
+			type="HP" text="kyphoscoliosis" ontology_id="HP_0002751"/>
+		<entity id="s1.e4" charOffset="130-138"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e5" charOffset="144-156"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We recently identified a 42-year-old man with severe kyphoscoliosis, restrictive/obstructive lung disease, short stature, mild hearing loss, decreased muscle mass, and a dissection of the celiac artery at age 41.">
+		<entity id="s2.e1" charOffset="53-67"
+			type="HP" text="kyphoscoliosis" ontology_id="HP_0002751"/>
+		<entity id="s2.e2" charOffset="107-120"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s2.e3" charOffset="127-139"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e4" charOffset="158-162"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

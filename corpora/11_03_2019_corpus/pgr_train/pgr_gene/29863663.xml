@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29863663">
+	<sentence id="s1" text="We also provide an example of using the platform to screen compounds for their ability to lower Apolipoprotein B (APOB) produced from iPSC-derived hepatocytes generated from a familial hypercholesterolemia patient.">
+		<entity id="s1.e1" charOffset="114-118"
+			type="GENE" text="APOB" ontology_id="338"/>
+		<entity id="s1.e2" charOffset="185-205"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29680514">
+	<sentence id="s1" text="The increased levels of protein transport and Glycogen synthase kinase 3 subunit α (GSK3α) genes in contrast with reduced levels of B-cell translocation gene 1 (negative regulation of cell proliferation), human leukocyte antigen nervous system development (HLA-DRB1), heterogeneous nuclear ribonucleoprotein A3 (mRNA splicing, via spliceosome), and serine/arginine-rich splicing factor 1 (alternative mRNA splicing, via spliceosome) genes have also been reported.">
+		<entity id="s1.e1" charOffset="24-41"
+			type="GO" text="protein transport" ontology_id="GO_0015031"/>
+		<entity id="s1.e2" charOffset="161-202"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e3" charOffset="209-222"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e4" charOffset="229-255"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s1.e5" charOffset="312-342"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s1.e6" charOffset="389-431"
+			type="GO" text="alternative mRNA splicing, via spliceosome" ontology_id="GO_0000380"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

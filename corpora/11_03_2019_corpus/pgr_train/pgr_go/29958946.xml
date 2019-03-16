@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29958946">
+	<sentence id="s1" text="The schizophrenia-associated gene response to ethanol (glutamate ionotropic receptor NMDA cardiac muscle tissue development subunit 2a) codes for a protein subunit of the NMDA (N-methyl-D-aspartate) receptor that underlies central aspects of human cognition.">
+		<entity id="s1.e1" charOffset="4-17"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="34-53"
+			type="GO" text="response to ethanol" ontology_id="GO_0045471"/>
+		<entity id="s1.e3" charOffset="90-123"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results also suggest that some schizophrenia-related alleles may be subject to cognitive tradeoffs involving both positive and negative effects on psychological phenocardiac muscle tissue developments, which may help to explain the maintenance of psychiatric-disorder risk alleles in human populations">
+		<entity id="s2.e1" charOffset="35-48"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="170-203"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

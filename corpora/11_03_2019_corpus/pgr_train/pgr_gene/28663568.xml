@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28663568">
+	<sentence id="s1" text="We identified 52 variants contributing to obesity in 2% of cases including multiple novel variants in GNAS, which were sometimes found with accelerated growth rather than short stature as described previously.">
+		<entity id="s1.e1" charOffset="42-49"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="102-106"
+			type="GENE" text="GNAS" ontology_id="2778"/>
+		<entity id="s1.e3" charOffset="171-184"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Further validation in cohorts with severe obesity and engineering the variants in model organisms will be needed to explore whether human variants in ANGPTL6 and other genes that lead to obesity when deleted in mice, do contribute to obesity.">
+		<entity id="s2.e1" charOffset="42-49"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="150-157"
+			type="GENE" text="ANGPTL6" ontology_id="83854"/>
+		<entity id="s2.e3" charOffset="211-215"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

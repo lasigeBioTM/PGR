@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28784772">
+	<sentence id="s1" text="The common Ser96Ala human genetic variant of HRC strongly correlates with life-threatening ventricular arrhythmias in patients with idiopathic dilated cardiomyopathy.">
+		<entity id="s1.e1" charOffset="45-48"
+			type="GENE" text="HRC" ontology_id="3270"/>
+		<entity id="s1.e2" charOffset="91-114"
+			type="HP" text="ventricular arrhythmias" ontology_id="HP_0004308"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

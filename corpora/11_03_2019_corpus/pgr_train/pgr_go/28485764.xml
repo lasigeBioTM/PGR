@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28485764">
+	<sentence id="s1" text="5-20% of melanoma families have germline mutations in the G1/S transition of mitotic cell cycle gene.">
+		<entity id="s1.e1" charOffset="9-17"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="58-95"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Swedish G1/S transition of mitotic cell cycle mutation carriers have a young median age of onset of melanoma, increased risks of multiple primary melanoma and of tobacco-associated cancers in respiratory and upper digestive tissues, and also worse survival compared to non-carriers.">
+		<entity id="s2.e1" charOffset="8-45"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s2.e2" charOffset="100-108"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In a few (non-Swedish) melanoma families, mutations in other genes have been found, including protein phosphorylation, transcription, RNA-templated, telomere maintenance via telomerase, telomere maintenance and TERF2IP.">
+		<entity id="s3.e1" charOffset="23-31"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s3.e2" charOffset="94-117"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e3" charOffset="119-147"
+			type="GO" text="transcription, RNA-templated" ontology_id="GO_0001172"/>
+		<entity id="s3.e4" charOffset="149-184"
+			type="GO" text="telomere maintenance via telomerase" ontology_id="GO_0007004"/>
+		<entity id="s3.e5" charOffset="186-206"
+			type="GO" text="telomere maintenance" ontology_id="GO_0000723"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In some families with multiple cases of uveal and cutaneous melanoma (including a few Swedish families), mutations in the positive regulation of sodium ion transport gene have been found.">
+		<entity id="s4.e1" charOffset="60-68"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s4.e2" charOffset="122-165"
+			type="GO" text="positive regulation of sodium ion transport" ontology_id="GO_0010765"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In genes that regulate cellular pigmentation pathways, including MC1R, protein targeting to membrane, positive regulation of interleukin-10 biosynthetic process, melanin biosynthetic process, TYRP1 and OCA, there are different common variants that determine complexion negative regulation of transcription by RNA polymerase II, and those variants are also associated with different risks of melanoma.">
+		<entity id="s5.e1" charOffset="71-100"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s5.e2" charOffset="102-160"
+			type="GO" text="positive regulation of interleukin-10 biosynthetic process" ontology_id="GO_0045082"/>
+		<entity id="s5.e3" charOffset="162-190"
+			type="GO" text="melanin biosynthetic process" ontology_id="GO_0042438"/>
+		<entity id="s5.e4" charOffset="261-269"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s5.e5" charOffset="269-326"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e3"
+		    e2="s5.e4" pgr="true"/>
+		<pair id="s5.p4" e1="s5.e5"
+		    e2="s5.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Individuals with known mutations in tumor suppressor genes such as G1/S transition of mitotic cell cycle and positive regulation of sodium ion transport require, in addition, follow up for other cancers">
+		<entity id="s6.e1" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="67-104"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s6.e3" charOffset="109-152"
+			type="GO" text="positive regulation of sodium ion transport" ontology_id="GO_0010765"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

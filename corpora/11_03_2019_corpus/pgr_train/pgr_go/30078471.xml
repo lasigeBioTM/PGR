@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30078471">
+	<sentence id="s1" text="Differently from other digestive malignancies, gastric cancer (vitamin D metabolic process) carcinogenesis seems more heterogeneous and unclear.">
+		<entity id="s1.e1" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="63-90"
+			type="GO" text="vitamin D metabolic process" ontology_id="GO_0042359"/>
+		<entity id="s1.e3" charOffset="118-131"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This entails failing in identification of reliable serum tumor markers for screening early vitamin D metabolic process (EGC) as well as persisting ominous prognosis of this disease.">
+		<entity id="s2.e1" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="91-118"
+			type="GO" text="vitamin D metabolic process" ontology_id="GO_0042359"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the case of vitamin D metabolic process, in transcription elongation from RNA polymerase II promoter, several cytological and molecular works have already demonstrated GJ to be an interesting biological material for improving clinicopathologic and prognostic knowledge of this cancer.">
+		<entity id="s3.e1" charOffset="15-42"
+			type="GO" text="vitamin D metabolic process" ontology_id="GO_0042359"/>
+		<entity id="s3.e2" charOffset="47-103"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s3.e3" charOffset="228-234"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

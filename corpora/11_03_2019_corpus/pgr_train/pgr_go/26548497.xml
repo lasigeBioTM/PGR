@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26548497">
+	<sentence id="s1" text="FGD is a heterogeneous disorder for which causal mutations have been identified in MC2R, protein localization to plasma membrane, G1/S transition of mitotic cell cycle and TXNRD2.">
+		<entity id="s1.e1" charOffset="9-22"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="89-128"
+			type="GO" text="protein localization to plasma membrane" ontology_id="GO_0072659"/>
+		<entity id="s1.e3" charOffset="130-167"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

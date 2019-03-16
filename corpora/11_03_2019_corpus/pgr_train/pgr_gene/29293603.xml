@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29293603">
+	<sentence id="s1" text="Mutations in the elongation of very long chain fatty acid 4 (ELOVL4) gene cause Stargardt macular dystrophy 3 (STGD3), a rare, juvenile-onset, autosomal dominant form of macular degeneration.">
+		<entity id="s1.e1" charOffset="61-67"
+			type="GENE" text="ELOVL4" ontology_id="6785"/>
+		<entity id="s1.e2" charOffset="90-107"
+			type="HP" text="macular dystrophy" ontology_id="HP_0007754"/>
+		<entity id="s1.e3" charOffset="111-116"
+			type="GENE" text="STGD3" ontology_id="6785"/>
+		<entity id="s1.e4" charOffset="170-190"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, this reduction in PC-VLC-PUFA content in the all-cone retina had no impact on morphology or function and did not accelerate retinal degeneration in the R91W;Nrl-/-;Elovl4 mice.">
+		<entity id="s2.e1" charOffset="27-29"
+			type="GENE" text="PC" ontology_id="5420"/>
+		<entity id="s2.e2" charOffset="77-83"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s2.e3" charOffset="133-153"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e4" charOffset="173-179"
+			type="GENE" text="Elovl4" ontology_id="6785"/>
+		<entity id="s2.e5" charOffset="180-184"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29100091">
+	<sentence id="s1" text="However, the pathophysiological mechanisms leading to bilateral kidney agenesis (rRNA processing) remain largely elusive.">
+		<entity id="s1.e1" charOffset="54-63"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e2" charOffset="81-96"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Whole-exome or targeted exome sequencing of 183 unrelated familial and/or severe CAKUT-affected case subjects, including 54 fetuses with rRNA processing, led to the identification of 16 heterozygous variants in kidney development (growth regulation by estrogen in breast cancer 1-like), a gene reported as a target of retinoic acid signaling.">
+		<entity id="s2.e1" charOffset="137-152"
+			type="GO" text="rRNA processing" ontology_id="GO_0006364"/>
+		<entity id="s2.e2" charOffset="211-229"
+			type="GO" text="kidney development" ontology_id="GO_0001822"/>
+		<entity id="s2.e3" charOffset="259-265"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

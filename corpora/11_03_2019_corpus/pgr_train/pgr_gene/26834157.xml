@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26834157">
+	<sentence id="s1" text="JAK2V617F(+) myeloproliferative neoplasms (MPNs) frequently progress into leukemias, but the factors driving this process are not understood.">
+		<entity id="s1.e1" charOffset="32-41"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="43-46"
+			type="GENE" text="MPN" ontology_id="83886"/>
+		<entity id="s1.e3" charOffset="94-97"
+			type="GENE" text="act" ontology_id="11332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

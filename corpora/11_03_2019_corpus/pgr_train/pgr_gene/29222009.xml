@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29222009">
+	<sentence id="s1" text="Herein, we report 3 patients with heterozygous constitutional CDK13 mutations, who were ascertained through exome analysis of children with intellectual disability and minor anomalies, who lacked cardiac anomalies.">
+		<entity id="s1.e1" charOffset="62-67"
+			type="GENE" text="CDK13" ontology_id="8621"/>
+		<entity id="s1.e2" charOffset="140-163"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="168-173"
+			type="GENE" text="minor" ontology_id="8013"/>
+		<entity id="s1.e4" charOffset="196-213"
+			type="HP" text="cardiac anomalies" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

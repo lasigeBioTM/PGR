@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25473808">
+	<sentence id="s1" text="Cilia play essential roles in normal human development and health; cilia dysfunction results in diseases such as primary ciliary dyskinesia (PCD).">
+		<entity id="s1.e1" charOffset="121-139"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="141-144"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We present the native 3D structures of normal and PCD-causing RSPH1-mutant human respiratory cilia in unprecedented detail; this allows comparisons of cilia structure across evolutionarily distant species and reveals the previously unknown primary defect and the heterogeneous secondary defects in RSPH1-mutant cilia.">
+		<entity id="s2.e1" charOffset="50-53"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s2.e2" charOffset="62-67"
+			type="GENE" text="RSPH1" ontology_id="89765"/>
+		<entity id="s2.e3" charOffset="263-276"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our data provide evidence for structural and functional heterogeneity in radial spokes, suggest a mechanism for the milder RSPH1 PCD phenotype and demonstrate that cryo-electron tomography can be applied to human disease by directly imaging patient samples.">
+		<entity id="s3.e1" charOffset="56-69"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s3.e2" charOffset="123-128"
+			type="GENE" text="RSPH1" ontology_id="89765"/>
+		<entity id="s3.e3" charOffset="129-132"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

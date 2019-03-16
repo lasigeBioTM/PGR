@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28373572">
+	<sentence id="s1" text="The K<sup>+</sup> channel KCNQ1 has been proposed as a tumor suppressor in colorectal cancer (CRC).">
+		<entity id="s1.e1" charOffset="26-31"
+			type="GENE" text="KCNQ1" ontology_id="3784"/>
+		<entity id="s1.e2" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Analysis of human primary CRC tumor patient databases showed a positive correlation between KCNQ1:KCNE3 channel complex expression and disease-free survival.">
+		<entity id="s2.e1" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="92-97"
+			type="GENE" text="KCNQ1" ontology_id="3784"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We conclude that the KCNQ1 ion channel is a target gene and regulator of the Wnt/β-catenin pathway, and its repression leads to CRC cell proliferation, EMT, and tumorigenesis">
+		<entity id="s3.e1" charOffset="21-26"
+			type="GENE" text="KCNQ1" ontology_id="3784"/>
+		<entity id="s3.e2" charOffset="152-155"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s3.e3" charOffset="161-166"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30361777">
+	<sentence id="s1" text="Malfunctioning of nucleoporins is well known in human malignancies, such as gene fusions of NUP214 and NUP98 in hematological neoplasms and overexpression of NUP88 in a variety of human cancers.">
+		<entity id="s1.e1" charOffset="92-98"
+			type="GENE" text="NUP214" ontology_id="8021"/>
+		<entity id="s1.e2" charOffset="103-108"
+			type="GENE" text="NUP98" ontology_id="4928"/>
+		<entity id="s1.e3" charOffset="126-135"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="158-163"
+			type="GENE" text="NUP88" ontology_id="4927"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

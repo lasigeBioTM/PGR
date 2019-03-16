@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29525180">
+	<sentence id="s1" text="In this study, we conducted targeted sequencing in 246 clinically heterogeneous patients, mainly with early-onset and/or familial neurodegenerative dementia, using a custom-designed next-generation sequencing panel covering 27 genes known to harbor mutations that can cause different types of dementia, in addition to the detection of C9orf72 repeat expansions.">
+		<entity id="s1.e1" charOffset="66-79"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="284-288"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="335-342"
+			type="GENE" text="C9orf72" ontology_id="203228"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

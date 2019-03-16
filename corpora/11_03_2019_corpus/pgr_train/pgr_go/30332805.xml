@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30332805">
+	<sentence id="s1" text="A principal feature of AD is the presence of neurofibrillary tangles (NFT) induced by the aberrant phosphorylation of the microtubule-associated protein microtubule cytoskeleton organization in the brains of affected individuals.">
+		<entity id="s1.e1" charOffset="45-68"
+			type="HP" text="neurofibrillary tangles" ontology_id="HP_0002185"/>
+		<entity id="s1.e2" charOffset="153-190"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

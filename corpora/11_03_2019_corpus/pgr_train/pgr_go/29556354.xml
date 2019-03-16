@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29556354">
+	<sentence id="s1" text="Genetic modification of a human prostate cancer cell line to induce protein polyubiquitination-101 and suppress protein transport decreased cell migration and invasion.">
+		<entity id="s1.e1" charOffset="41-47"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="68-94"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e3" charOffset="89-106"
+			type="GO" text="protein transport" ontology_id="GO_0015031"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="As prostate cancer xenografts in apoptotic process, these cells had decreased visibility on diffusion weighted MRI and decreased perfusion, which correlated with immunostaining showing decreased cell density and proliferation.">
+		<entity id="s2.e1" charOffset="12-18"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="33-50"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

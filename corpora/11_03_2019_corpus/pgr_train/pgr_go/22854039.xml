@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22854039">
+	<sentence id="s1" text="Disabling mutations in the actin cytoskeleton organization gene cause faciogenital dysplasia (also known as Aarskog-Scott syndrome), a human X-linked developmental disorder that results in disproportionately short stature, facial, skeletal and urogenital anomalies, and in a number of cases, mild mental retardation.">
+		<entity id="s1.e1" charOffset="27-58"
+			type="GO" text="actin cytoskeleton organization" ontology_id="GO_0030036"/>
+		<entity id="s1.e2" charOffset="208-221"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e3" charOffset="244-264"
+			type="HP" text="urogenital anomalies" ontology_id="HP_0000119"/>
+		<entity id="s1.e4" charOffset="292-296"
+			type="HP" text="mild" ontology_id="HP_0012825"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Two recent studies unveiled new potential functions of actin cytoskeleton organization, in particular, its involvement in the regulation of the formation and function of invadopodia and podosomes, which are cellular structures devoted to degradation of the extracellular matrix in tumour and endothelial cells.">
+		<entity id="s2.e1" charOffset="55-86"
+			type="GO" text="actin cytoskeleton organization" ontology_id="GO_0030036"/>
+		<entity id="s2.e2" charOffset="281-287"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

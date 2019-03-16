@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30365130">
+	<sentence id="s1" text="Multivariable logistic regression analysis with adjustment for age and negative regulation of cell adhesion revealed that all 25, 28 and 65 of these SNPs were significantly associated with hypertriglyceridemia, hypo‑HDL‑cholesterolemia and hyper‑LDL‑cholesterolemia, respectively.">
+		<entity id="s1.e1" charOffset="71-107"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e2" charOffset="189-209"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Following examination of the association of the identified SNPs to serum concentrations of triglycerides, HDL‑cholesterol, or LDL‑cholesterol, linkage disequilibrium of the SNPs, and results of previous genome‑wide association studies, we newly identified chromosomal region 19p12 as a susceptibility locus for hypertriglyceridemia, eight loci (MOB3C‑TMOD4, positive regulation of fatty acid biosynthetic process, endocytic recycling, growth plate cartilage chondrocyte morphogenesis, ZNF860‑CACNA1D, cell adhesion, double-strand break repair via nonhomologous end joining, biological_process) for hypo‑HDL‑cholesterolemia, and three loci (KIAA0319‑FAM65B, ubiquitin-dependent protein catabolic process, LOC105375015) for hyper‑LDL‑cholesterolemia.">
+		<entity id="s2.e1" charOffset="311-331"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<entity id="s2.e2" charOffset="358-412"
+			type="GO" text="positive regulation of fatty acid biosynthetic process" ontology_id="GO_0045723"/>
+		<entity id="s2.e3" charOffset="414-433"
+			type="GO" text="endocytic recycling" ontology_id="GO_0032456"/>
+		<entity id="s2.e4" charOffset="435-483"
+			type="GO" text="growth plate cartilage chondrocyte morphogenesis" ontology_id="GO_0003429"/>
+		<entity id="s2.e5" charOffset="501-514"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s2.e6" charOffset="516-572"
+			type="GO" text="double-strand break repair via nonhomologous end joining" ontology_id="GO_0006303"/>
+		<entity id="s2.e7" charOffset="574-592"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e8" charOffset="657-702"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+</document>

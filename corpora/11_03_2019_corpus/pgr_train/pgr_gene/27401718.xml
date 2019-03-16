@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27401718">
+	<sentence id="s1" text="These 294 differentially expressed genes and non-coding RNA transcripts provide here a set to specifically define skull base chordomas and to identify novel and potentially important targets for diagnosis, prognosis, and therapy of this cancer.">
+		<entity id="s1.e1" charOffset="87-90"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="125-134"
+			type="HP" text="chordomas" ontology_id="HP_0010762"/>
+		<entity id="s1.e3" charOffset="237-243"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

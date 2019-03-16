@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28792508">
+	<sentence id="s1" text="Here, we tested the DCTN1 protein-coding exons in 510 sporadic ALS patients in whom SOD1, TARDBP, FUS, and C9orf72 genes were screened before.">
+		<entity id="s1.e1" charOffset="20-25"
+			type="GENE" text="DCTN1" ontology_id="1639"/>
+		<entity id="s1.e2" charOffset="54-62"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e3" charOffset="63-66"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e4" charOffset="84-88"
+			type="GENE" text="SOD1" ontology_id="6647"/>
+		<entity id="s1.e5" charOffset="90-96"
+			type="GENE" text="TARDBP" ontology_id="23435"/>
+		<entity id="s1.e6" charOffset="98-101"
+			type="GENE" text="FUS" ontology_id="2521"/>
+		<entity id="s1.e7" charOffset="107-114"
+			type="GENE" text="C9orf72" ontology_id="203228"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our results suggested that variants in DCTN1 are not common risk factors for Chinese sporadic ALS and that the frequency of variants of unknown significance in the cohort study was 0.39%">
+		<entity id="s2.e1" charOffset="39-44"
+			type="GENE" text="DCTN1" ontology_id="1639"/>
+		<entity id="s2.e2" charOffset="85-93"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="94-97"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

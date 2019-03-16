@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30337515">
+	<sentence id="s1" text="BRCT-repeat inhibitor of hTERT expression (BRIT1) is involved in the invasion of tumors.">
+		<entity id="s1.e1" charOffset="43-48"
+			type="GENE" text="BRIT1" ontology_id="79648"/>
+		<entity id="s1.e2" charOffset="81-87"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

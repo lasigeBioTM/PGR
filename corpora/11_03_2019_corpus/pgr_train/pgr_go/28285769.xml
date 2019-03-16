@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28285769">
+	<sentence id="s1" text="By whole-exome sequencing, recessive protein-truncating mutations in protein peptidyl-prolyl isomerization were found in seven unrelated families that show a range of clinical phenotypes, including retinal degeneration, brachydactyly, craniofacial abnormalities, short stature, and neurological defects.">
+		<entity id="s1.e1" charOffset="69-106"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<entity id="s1.e2" charOffset="198-218"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="220-233"
+			type="HP" text="brachydactyly" ontology_id="HP_0001156"/>
+		<entity id="s1.e4" charOffset="263-276"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Remarkably, variable expressivity of the human phenotype can be recapitulated in protein peptidyl-prolyl isomerization mutant mouse models, with significant embryonic lethality and severe phenotypes in the complete knockout apoptotic process while apoptotic process with a partial loss-of-function allele mimic the isolated retinal degeneration phenotype.">
+		<entity id="s2.e1" charOffset="12-33"
+			type="HP" text="variable expressivity" ontology_id="HP_0003828"/>
+		<entity id="s2.e2" charOffset="81-118"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<entity id="s2.e3" charOffset="224-241"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e4" charOffset="298-318"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29290614">
+	<sentence id="s1" text="The importance of this process is highlighted in a patient with mitochondrial disease caused by biallelic pathogenic variants in DNA topological change, characterized by muscle-restricted mtDNA deletions and chronic progressive external ophthalmoplegia (CPEO) plus syndrome.">
+		<entity id="s1.e1" charOffset="129-151"
+			type="GO" text="DNA topological change" ontology_id="GO_0006265"/>
+		<entity id="s1.e2" charOffset="208-215"
+			type="HP" text="chronic" ontology_id="HP_0011010"/>
+		<entity id="s1.e3" charOffset="216-227"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<entity id="s1.e4" charOffset="237-252"
+			type="HP" text="ophthalmoplegia" ontology_id="HP_0000602"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

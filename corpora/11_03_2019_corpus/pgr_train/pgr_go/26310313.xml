@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26310313">
+	<sentence id="s1" text="Genome-wide association studies have identified loci at 15q25 (tricarboxylic acid cycle) and 4q22 (regulation of small GTPase mediated signal transduction), associated with lung cancer (LC) and chronic obstructive pulmonary disease (ER to Golgi vesicle-mediated transport).">
+		<entity id="s1.e1" charOffset="63-87"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s1.e2" charOffset="99-154"
+			type="GO" text="regulation of small GTPase mediated signal transduction" ontology_id="GO_0051056"/>
+		<entity id="s1.e3" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="233-271"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

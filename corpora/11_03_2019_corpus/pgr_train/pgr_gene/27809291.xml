@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27809291">
+	<sentence id="s1" text="Metastatic bone disease has a major impact on morbidity of breast cancer (BC) patients.">
+		<entity id="s1.e1" charOffset="36-42"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Alterations in mTOR signaling are involved both in cancer progression and in osteoclast differentiation.">
+		<entity id="s2.e1" charOffset="15-19"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s2.e2" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

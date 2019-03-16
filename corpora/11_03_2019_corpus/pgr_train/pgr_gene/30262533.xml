@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30262533">
+	<sentence id="s1" text="We report the case of a patient with li>PIGT</i> mutations who experienced recurrent aseptic meningitis 121 times over 16 years before developing paroxysmal nocturnal haemoglobinuria (PNH).">
+		<entity id="s1.e1" charOffset="40-44"
+			type="GENE" text="PIGT" ontology_id="51604"/>
+		<entity id="s1.e2" charOffset="146-182"
+			type="HP" text="paroxysmal nocturnal haemoglobinuria" ontology_id="HP_0004818"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

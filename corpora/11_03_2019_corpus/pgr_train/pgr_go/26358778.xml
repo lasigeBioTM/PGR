@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26358778">
+	<sentence id="s1" text="Moreover, overexpression of mutant but not normal biological_process in neuroblastoma cells caused rapid apoptosis.">
+		<entity id="s1.e1" charOffset="50-68"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="72-85"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

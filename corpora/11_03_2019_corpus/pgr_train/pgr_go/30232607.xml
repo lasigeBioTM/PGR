@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30232607">
+	<sentence id="s1" text="All tumors were positive for anion transport-bicarbonate transport, CK18, PAX 8, antimitochondrial antigen, and sarcosine catabolic processB.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="29-44"
+			type="GO" text="anion transport" ontology_id="GO_0006820"/>
+		<entity id="s1.e3" charOffset="45-66"
+			type="GO" text="bicarbonate transport" ontology_id="GO_0015701"/>
+		<entity id="s1.e4" charOffset="112-139"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="HOT should be considered as an emerging renal entity because it does not meet the diagnostic criteria for other recognized eosinophilic renal tumors, such as oncocytoma, chromophobe renal cell carcinoma (response to hydroperoxide), positive regulation of cell adhesion and positive regulation of transcription by RNA polymerase II response to hydroperoxide, sarcosine catabolic process-deficient RCC, and eosinophilic solid and cystic RCC">
+		<entity id="s2.e1" charOffset="142-148"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="182-202"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s2.e3" charOffset="204-229"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<entity id="s2.e4" charOffset="210-246"
+			type="GO" text="positive regulation of cell adhesion" ontology_id="GO_0045785"/>
+		<entity id="s2.e5" charOffset="251-308"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e6" charOffset="314-341"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e9"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e9"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e9"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27643693">
+	<sentence id="s1" text="The Aicardi-Goutières syndrome (negative regulation of cell-matrix adhesion) was first described in 1984, and over the following years was defined by the clinical and radiological features of an early onset, severe, neurologic disorder with intracranial calcification, leukoencephalopathy, and cerebral atrophy, usually associated with a cerebrospinal fluid (CSF) pleocytosis and elevated CSF interferon α activity.">
+		<entity id="s1.e1" charOffset="32-75"
+			type="GO" text="negative regulation of cell-matrix adhesion" ontology_id="GO_0001953"/>
+		<entity id="s1.e2" charOffset="241-267"
+			type="HP" text="intracranial calcification" ontology_id="HP_0002514"/>
+		<entity id="s1.e3" charOffset="269-288"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e4" charOffset="294-310"
+			type="HP" text="cerebral atrophy" ontology_id="HP_0002059"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

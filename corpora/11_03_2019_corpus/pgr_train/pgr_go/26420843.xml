@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26420843">
+	<sentence id="s1" text="Vestibular sensory-evoked potentials demonstrate severe to profound vestibular deficits in Dfnb31(neo/neo) and Dfnb31(wi/wi) apoptotic process.">
+		<entity id="s1.e1" charOffset="59-67"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s1.e2" charOffset="125-142"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Because Dfnb31(wi/wi) and Dfnb31(neo/neo) apoptotic process faithfully recapitulate hearing and vision symptoms in patients, our cellular response to interleukin-4ings of vestibular dysfunction in these Dfnb31 mutants raise the question of whether DFNB31-deficient patients may acquire vestibular as well as hearing and vision loss.">
+		<entity id="s2.e1" charOffset="42-59"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="116-150"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e3" charOffset="158-180"
+			type="HP" text="vestibular dysfunction" ontology_id="HP_0001751"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

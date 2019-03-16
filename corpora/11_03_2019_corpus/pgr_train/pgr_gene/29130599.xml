@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29130599">
+	<sentence id="s1" text="Shared facial features are a broad and wide forehead, similar shape of the eyes with long palpebral fissures, a bulbous tip of the nose and thick lips.">
+		<entity id="s1.e1" charOffset="39-52"
+			type="HP" text="wide forehead" ontology_id="HP_0000337"/>
+		<entity id="s1.e2" charOffset="120-123"
+			type="GENE" text="tip" ontology_id="81533"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Of these five genes, the brain expressed CDK5R1 gene constitutes a good candidate for the developmental delay, while the RHOT1 gene, involved in mitochondrial trafficking, might underlie the hypotonia and the excessive fatigue">
+		<entity id="s2.e1" charOffset="41-47"
+			type="GENE" text="CDK5R1" ontology_id="8851"/>
+		<entity id="s2.e2" charOffset="90-109"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="121-126"
+			type="GENE" text="RHOT1" ontology_id="55288"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30015898">
+	<sentence id="s1" text="While mutations in Golgi calcium ion transport are known to cause human 'congenital disorders of glycosylation', a recessive autosomal metabolic disease, the potential association of this protein with human cancer development has not been explored to date.">
+		<entity id="s1.e1" charOffset="19-46"
+			type="GO" text="Golgi calcium ion transport" ontology_id="GO_0032472"/>
+		<entity id="s1.e2" charOffset="207-213"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we revealed that Golgi calcium ion transport is overexpressed in phosphatidylinositol phosphorylation and its depletion weakens the invasive activity of cancer cells through suppression of matrix metalloproteinase‑2 (MMP‑2) expression.">
+		<entity id="s2.e1" charOffset="39-66"
+			type="GO" text="Golgi calcium ion transport" ontology_id="GO_0032472"/>
+		<entity id="s2.e2" charOffset="87-123"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s2.e3" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

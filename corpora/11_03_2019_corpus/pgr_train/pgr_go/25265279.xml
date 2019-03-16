@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25265279">
+	<sentence id="s1" text="Downregulation of osteoblast differentiation, smoothened signaling pathway, negative regulation of transcription by RNA polymerase II and negative regulation of smoothened signaling pathway was demonstrated in clinical samples of choriocarcinoma and hydatidiform moles as well as choriocarcinoma cell lines when compared with normal placentas.">
+		<entity id="s1.e1" charOffset="18-44"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e2" charOffset="39-90"
+			type="GO" text="negative regulation of smoothened signaling pathway" ontology_id="GO_0045879"/>
+		<entity id="s1.e3" charOffset="46-74"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007246"/>
+		<entity id="s1.e4" charOffset="76-133"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="131-146"
+			type="HP" text="choriocarcinoma" ontology_id="HP_0100768"/>
+		<pair id="s1.p1" e1="s1.e5"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Ectopic expression of negative regulation of smoothened signaling pathway in two choriocarcinoma cell lines JAR and JEG-3 led to a decrease in cell growth and increase in apoptosis demonstrated by MTT and TUNEL assays, respectively.">
+		<entity id="s2.e1" charOffset="22-73"
+			type="GO" text="negative regulation of smoothened signaling pathway" ontology_id="GO_0045879"/>
+		<entity id="s2.e2" charOffset="81-96"
+			type="HP" text="choriocarcinoma" ontology_id="HP_0100768"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

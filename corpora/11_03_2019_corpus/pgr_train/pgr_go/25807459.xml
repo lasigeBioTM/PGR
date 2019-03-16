@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25807459">
+	<sentence id="s1" text="Missense mutations in the human glucosamine catabolic process biosynthesis enzyme GPI anchor biosynthetic process are associated with a multiple congenital malformation syndrome with a high frequency of Hirschsprung disease and renal anomalies.">
+		<entity id="s1.e1" charOffset="32-61"
+			type="GO" text="glucosamine catabolic process" ontology_id="GO_0006043"/>
+		<entity id="s1.e2" charOffset="82-113"
+			type="GO" text="GPI anchor biosynthetic process" ontology_id="GO_0006506"/>
+		<entity id="s1.e3" charOffset="201-216"
+			type="HP" text="renal anomalies" ontology_id="HP_0000077"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

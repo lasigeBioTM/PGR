@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28052027">
+	<sentence id="s1" text="On these bases, we investigated whether the ligation of ERβ by a selective agonist, the 2,3-bis(4-hydroxyphenyl)-propionitrile (DPN), could impact HL tumor growth.">
+		<entity id="s1.e1" charOffset="140-146"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="150-155"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In nonobese diabetic/severe combined immunodeficient (NOD/SCID) mice engrafted with HL cells, ERβ activation by DPN was able to reduce lymphoma growth up to 60% and this associated with the induction of tumor cell autophagy.">
+		<entity id="s2.e1" charOffset="64-68"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="203-208"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="After ERβ activation, both DRAM2 and protein 1 light chain 3 (LC3), a key actor in the autophagosome formation, strictly interacted each other and localized at mitochondrial level.Altogether these results suggest that targeting ERβ with selective agonists might affect HL cell proliferation and tumor growth via a mechanism that brings into play DRAM2-dependent autophagic cascade">
+		<entity id="s3.e1" charOffset="27-32"
+			type="GENE" text="DRAM2" ontology_id="128338"/>
+		<entity id="s3.e2" charOffset="47-52"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s3.e3" charOffset="295-300"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

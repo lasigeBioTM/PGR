@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29547829">
+	<sentence id="s1" text="Pyridoxine dependent epilepsy (PDE) is a rare autosomal recessive neurometabolic disorder.">
+		<entity id="s1.e1" charOffset="21-29"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="31-34"
+			type="GENE" text="PDE" ontology_id="501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

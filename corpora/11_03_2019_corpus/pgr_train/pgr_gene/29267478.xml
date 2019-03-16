@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29267478">
+	<sentence id="s1" text="Mutations in GJB2 or GJB6 and the mitochondrial A7445G mutation, known to be the major causes of diverse Inherited Palmoplantar Keratodermas -hearing loss syndromes were not detected by Sanger sequencing.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e2" charOffset="21-25"
+			type="GENE" text="GJB6" ontology_id="10804"/>
+		<entity id="s1.e3" charOffset="142-154"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

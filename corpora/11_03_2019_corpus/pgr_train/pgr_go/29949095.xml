@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29949095">
+	<sentence id="s1" text="In this study, we expand the genotype-phenotype repertoire of protein tetramerization by describing the novel protein tetramerization deletion p.Pro583_Pro585del highlighting the allelic heterogeneity observed in SCA13 patients.">
+		<entity id="s1.e1" charOffset="62-85"
+			type="GO" text="protein tetramerization" ontology_id="GO_0051262"/>
+		<entity id="s1.e2" charOffset="92-115"
+			type="GO" text="protein tetramerization" ontology_id="GO_0051262"/>
+		<entity id="s1.e3" charOffset="169-182"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We characterize adult-onset, progressive clinical symptoms of two afflicted kindred and introduce the symptom of profound spasticity not previously associated with the protein tetramerization phenotype.">
+		<entity id="s2.e1" charOffset="113-121"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s2.e2" charOffset="122-132"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<entity id="s2.e3" charOffset="168-191"
+			type="GO" text="protein tetramerization" ontology_id="GO_0051262"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27665865">
+	<sentence id="s1" text="In this study, we enrolled 16 individuals affected by tooth agenesis, prevalently hypodontia, and we carried out direct Sanger sequencing of paired box 9 (negative regulation of transcription, DNA-templated) and negative regulation of transcription by RNA polymerase II homeobox 1 (cell morphogenesis) genes in 9 subjects.">
+		<entity id="s1.e1" charOffset="82-92"
+			type="HP" text="hypodontia" ontology_id="HP_0000668"/>
+		<entity id="s1.e2" charOffset="155-206"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e3" charOffset="212-269"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="282-300"
+			type="GO" text="cell morphogenesis" ontology_id="GO_0000902"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Overall, our study confirmed the major role played by canonical Wnt signaling pathway in tooth agenesis and the genetic heterogeneity of this disease.">
+		<entity id="s2.e1" charOffset="54-85"
+			type="GO" text="canonical Wnt signaling pathway" ontology_id="GO_0060070"/>
+		<entity id="s2.e2" charOffset="120-133"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

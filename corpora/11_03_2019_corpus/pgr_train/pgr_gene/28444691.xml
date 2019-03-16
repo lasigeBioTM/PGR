@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28444691">
+	<sentence id="s1" text="COG5-CDG (COG5 subunit deficiency) is a multisystem disease with dysmorphic features, intellectual disability of variable degree, seizures, acquired microcephaly, sensory defects and autistic behavior.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="COG5" ontology_id="10466"/>
+		<entity id="s1.e2" charOffset="86-109"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="130-138"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="149-161"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

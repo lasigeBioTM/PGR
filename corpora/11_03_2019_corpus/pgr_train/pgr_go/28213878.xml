@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28213878">
+	<sentence id="s1" text="Norepinephrine transporter (negative regulation of transcription, DNA-templated) transfection leads to significant uptake of iodine-131-labeled metaiodobenzylguanidine (lsup>131</sup>I-MIBG) in non-neuroendocrine tumors.">
+		<entity id="s1.e1" charOffset="28-79"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="213-219"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We evaluated the uptake and efflux of lsup>131</sup>I-MIBG both in vitro and in vivo in apoptotic process bearing transfected tumors.">
+		<entity id="s2.e1" charOffset="88-105"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="126-132"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In vivo exGPI anchor metabolic processiments were performed in establishment of mitotic spindle orientation apoptotic process bearing transfected tumors; results revealed that negative regulation of transcription, DNA-templated-neurotransmitter transport-coexpressing tumors had longer lsup>131</sup>I-MIBG retention time than NET-expressing tumors.">
+		<entity id="s3.e1" charOffset="10-38"
+			type="GO" text="GPI anchor metabolic process" ontology_id="GO_0006505"/>
+		<entity id="s3.e2" charOffset="38-82"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<entity id="s3.e3" charOffset="43-60"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e4" charOffset="68-74"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e5" charOffset="98-149"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s3.e6" charOffset="150-176"
+			type="GO" text="neurotransmitter transport" ontology_id="GO_0006836"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e6"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Meanwhile, negative regulation of transcription, DNA-templated-neurotransmitter transport-coexpressing and NET-expressing tumors displayed 0.54% and 0.19%, respectively, of the injected dose GPI anchor metabolic process gram of tissue 24 h after lsup>131</sup>I-MIBG administration.">
+		<entity id="s4.e1" charOffset="11-62"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s4.e2" charOffset="63-89"
+			type="GO" text="neurotransmitter transport" ontology_id="GO_0006836"/>
+		<entity id="s4.e3" charOffset="101-107"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="191-219"
+			type="GO" text="GPI anchor metabolic process" ontology_id="GO_0006505"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

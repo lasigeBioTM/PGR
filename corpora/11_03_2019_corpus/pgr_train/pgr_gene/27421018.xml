@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27421018">
+	<sentence id="s1" text="Obesity causes several chronic diseases, including cardiovascular and respiratory diseases, osteoarthritis, hypertension, stroke, type II diabetes, obstructive sleep apnea, and several types of cancer.">
+		<entity id="s1.e1" charOffset="130-134"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="148-171"
+			type="HP" text="obstructive sleep apnea" ontology_id="HP_0002870"/>
+		<entity id="s1.e3" charOffset="194-200"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Previous genome-wide association studies have identified several genes associated with obesity, including LEP, LEPR, POMC, PCSK1, FTO, MC3R, MC4R, GNPDA2, TMEM18, QPCTL/GIPR, BDNF, ETV5, MAP2K5/SKOR1, SEC16B, SIM1, and TNKS/MSRA.">
+		<entity id="s2.e1" charOffset="87-94"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="106-109"
+			type="GENE" text="LEP" ontology_id="3952"/>
+		<entity id="s2.e3" charOffset="117-121"
+			type="GENE" text="POMC" ontology_id="5443"/>
+		<entity id="s2.e4" charOffset="123-128"
+			type="GENE" text="PCSK1" ontology_id="5122"/>
+		<entity id="s2.e5" charOffset="130-133"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<entity id="s2.e6" charOffset="147-153"
+			type="GENE" text="GNPDA2" ontology_id="132789"/>
+		<entity id="s2.e7" charOffset="155-161"
+			type="GENE" text="TMEM18" ontology_id="129787"/>
+		<entity id="s2.e8" charOffset="175-179"
+			type="GENE" text="BDNF" ontology_id="627"/>
+		<entity id="s2.e9" charOffset="181-185"
+			type="GENE" text="ETV5" ontology_id="2119"/>
+		<entity id="s2.e10" charOffset="201-207"
+			type="GENE" text="SEC16B" ontology_id="89866"/>
+		<entity id="s2.e11" charOffset="209-213"
+			type="GENE" text="SIM1" ontology_id="6492"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e11" pgr="true"/>
+	</sentence>
+</document>

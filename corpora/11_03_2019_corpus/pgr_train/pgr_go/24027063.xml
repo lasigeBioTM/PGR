@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24027063">
+	<sentence id="s1" text="PHARC (polyneuropathy, hearing loss, ataxia, retinitis pigmentosa, and cataracts) is a recently described autosomal-recessive neurodegenerative disease caused by mutations in the α-β-hydrolase domain-containing 12 gene (acylglycerol catabolic process).">
+		<entity id="s1.e1" charOffset="23-35"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="37-43"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="71-80"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e4" charOffset="126-151"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e5" charOffset="220-250"
+			type="GO" text="acylglycerol catabolic process" ontology_id="GO_0046464"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The possible involvement of haploinsufficiency for DNA strand elongation involved in mitotic DNA replication, a DNA replication complex protein, in the short stature of the patient and her mother requires further studies.">
+		<entity id="s2.e1" charOffset="51-108"
+			type="GO" text="DNA strand elongation involved in mitotic DNA replication" ontology_id="GO_1902983"/>
+		<entity id="s2.e2" charOffset="152-165"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

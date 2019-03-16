@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27899487">
+	<sentence id="s1" text="We compared the early transcriptome profile between DKD-resistant C57BL/6J and DKD-susceptible DBA/2J (D2) glomeruli and demonstrated a significant downregulation of essential mitochondrial genes in glomeruli from diabetic D2 apoptotic process, but not in C57BL/6J, with comparable hyperglycemia.">
+		<entity id="s1.e1" charOffset="226-243"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="282-295"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Selective artery smooth muscle contraction blockade or mitochondrial-targeted reactive oxygen species scavenging prevented mitochondrial oxidative stress of endothelial cells and ameliorated diabetes-induced endothelial injury, podocyte loss, albuminuria, and glomerulosclerosis.">
+		<entity id="s2.e1" charOffset="10-42"
+			type="GO" text="artery smooth muscle contraction" ontology_id="GO_0014824"/>
+		<entity id="s2.e2" charOffset="243-254"
+			type="HP" text="albuminuria" ontology_id="HP_0012592"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our studies show that DKD susceptibility was linked to mitochondrial dysfunction, mediated largely by negative regulation of transcription by RNA polymerase II-artery smooth muscle contraction in glomerular endothelial cells representing an early event in DKD progression, and suggest that cross talk between glomerular endothelial injury and podocytes leads to defects and depletion, albuminuria, and glomerulosclerosis">
+		<entity id="s3.e1" charOffset="102-159"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="107-139"
+			type="GO" text="artery smooth muscle contraction" ontology_id="GO_0014824"/>
+		<entity id="s3.e3" charOffset="332-343"
+			type="HP" text="albuminuria" ontology_id="HP_0012592"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21818352">
+	<sentence id="s1" text="We examined the effects of a mutation in the Sh3pxd2b gene (Sh3pxd2b(nee)) on the progression of otitis media and hearing impairment at various developmental stages.">
+		<entity id="s1.e1" charOffset="45-53"
+			type="GENE" text="Sh3pxd2b" ontology_id="285590"/>
+		<entity id="s1.e2" charOffset="114-132"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

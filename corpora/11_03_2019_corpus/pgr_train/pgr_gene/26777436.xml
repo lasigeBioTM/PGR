@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26777436">
+	<sentence id="s1" text="To dissect the genetic architecture of sporadic ALS, we undertook a large sequencing study in 755 apparently sporadic ALS cases and 959 controls, analyzing 10 ALS genes: SOD1, C9orf72, TARDBP, FUS, ANG, CHMP2B, ATXN2, NIPA1, SMN1, and UNC13A.">
+		<entity id="s1.e1" charOffset="39-47"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="48-51"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e3" charOffset="170-174"
+			type="GENE" text="SOD1" ontology_id="6647"/>
+		<entity id="s1.e4" charOffset="176-183"
+			type="GENE" text="C9orf72" ontology_id="203228"/>
+		<entity id="s1.e5" charOffset="185-191"
+			type="GENE" text="TARDBP" ontology_id="23435"/>
+		<entity id="s1.e6" charOffset="193-196"
+			type="GENE" text="FUS" ontology_id="2521"/>
+		<entity id="s1.e7" charOffset="198-201"
+			type="GENE" text="ANG" ontology_id="283"/>
+		<entity id="s1.e8" charOffset="203-209"
+			type="GENE" text="CHMP2B" ontology_id="25978"/>
+		<entity id="s1.e9" charOffset="211-216"
+			type="GENE" text="ATXN2" ontology_id="6311"/>
+		<entity id="s1.e10" charOffset="218-223"
+			type="GENE" text="NIPA1" ontology_id="123606"/>
+		<entity id="s1.e11" charOffset="225-229"
+			type="GENE" text="SMN1" ontology_id="6606"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="false"/>
+	</sentence>
+</document>

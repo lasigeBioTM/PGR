@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28810294">
+	<sentence id="s1" text="<b>Methods:</b> The fallopian microtubule cytoskeleton organizations in 58 cases of pelvic HGSC (54 cases of ovarian primary, 3 cases of tubal primary, 1 case of peritoneum) and 25 cases of pelvic non-HGSC (5 cases of ovarian low-grade serous cancer, 9 cases of endometrioid cancer, and 11 cases of clear cell ovary carcinoma) were collected from June 2015 to December 2016, and serially examined under T cell costimulation microscope (SEE-FIM protocol).">
+		<entity id="s1.e1" charOffset="30-67"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<entity id="s1.e2" charOffset="210-216"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="370-390"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The continuum of epithelial changes in the process of serous neoplasia including p53 signature, centrosome duplication, STIC and invasive carcinoma was identified in 8 cases of pelvic HGSC.">
+		<entity id="s2.e1" charOffset="61-70"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="96-118"
+			type="GO" text="centrosome duplication" ontology_id="GO_0051298"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Correct classification of HGSC may have potential impcoenzyme A biosynthetic processs for cancer prevention and improve our understanding of ovarian serous carcinogenesis">
+		<entity id="s3.e1" charOffset="53-84"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s3.e2" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

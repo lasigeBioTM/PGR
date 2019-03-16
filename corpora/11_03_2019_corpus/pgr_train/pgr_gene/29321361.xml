@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29321361">
+	<sentence id="s1" text="The contiguous deletion of NDP and its neighbouring genes, MAOA/B and EFHC2, reportedly leads to syndromic clinical features such as microcephaly, intellectual disability, and epilepsy.">
+		<entity id="s1.e1" charOffset="27-30"
+			type="GENE" text="NDP" ontology_id="4693"/>
+		<entity id="s1.e2" charOffset="70-75"
+			type="GENE" text="EFHC2" ontology_id="80258"/>
+		<entity id="s1.e3" charOffset="133-145"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="147-170"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e5" charOffset="176-184"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This familial study demonstrates that a deficiency in one of two MAO genes may not lead to psychomotor delay, and deletion of EFHC2 may not cause epilepsy.">
+		<entity id="s2.e1" charOffset="126-131"
+			type="GENE" text="EFHC2" ontology_id="80258"/>
+		<entity id="s2.e2" charOffset="146-154"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

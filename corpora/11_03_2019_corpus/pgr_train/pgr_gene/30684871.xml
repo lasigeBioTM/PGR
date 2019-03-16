@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30684871">
+	<sentence id="s1" text="Moreover, we demonstrate that TD-428, which comprises TD-106 linked to a BET inhibitor, JQ1 efficiently induce BET protein degradation in the prostate cancer cell line 22Rv1.">
+		<entity id="s1.e1" charOffset="73-76"
+			type="GENE" text="BET" ontology_id="92737"/>
+		<entity id="s1.e2" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

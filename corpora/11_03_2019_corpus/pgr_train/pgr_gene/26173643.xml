@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26173643">
+	<sentence id="s1" text="Noonan syndrome (NS), the commonest RASopathy, is genetically heterogeneous and caused by functional dysregulation of signal transducers and regulatory proteins with roles in the RAS/extracellular signal-regulated kinase (ERK) signal transduction pathway.">
+		<entity id="s1.e1" charOffset="62-75"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="222-225"
+			type="GENE" text="ERK" ontology_id="2048"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27573165">
+	<sentence id="s1" text="Recently a homozygous mutation, Gly372Ser, in the TIMM50 gene, was reported in an abstract form, in three sibs who suffered from intractable epilepsy and developmental delay accompanied by 3-methylglutaconic aciduria.">
+		<entity id="s1.e1" charOffset="50-56"
+			type="GENE" text="TIMM50" ontology_id="92609"/>
+		<entity id="s1.e2" charOffset="141-149"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="154-173"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Given the phenotypic similarity, we conclude that missense mutations in TIMM50 are likely manifesting by severe intellectual disability and epilepsy accompanied by 3-methylglutaconic aciduria and variable mitochondrial complex V deficiency.">
+		<entity id="s2.e1" charOffset="72-78"
+			type="GENE" text="TIMM50" ontology_id="92609"/>
+		<entity id="s2.e2" charOffset="112-135"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="140-148"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

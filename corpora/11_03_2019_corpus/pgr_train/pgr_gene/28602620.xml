@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28602620">
+	<sentence id="s1" text="We identified integrin α7 (ITGA7) as a major laminin receptor in GSCs and in primary high-grade glioma specimens.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="ITGA7" ontology_id="3679"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Analyses of mRNA profiles in comprehensive datasets revealed that high ITGA7 expression negatively correlated with survival of patients with both low- and high-grade glioma.">
+		<entity id="s2.e1" charOffset="71-76"
+			type="GENE" text="ITGA7" ontology_id="3679"/>
+		<entity id="s2.e2" charOffset="166-172"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We also found that targeting of ITGA7 by RNAi or blocking mAbs impaired laminin-induced signaling, and it led to a significant delay in tumor engraftment plus a strong reduction in tumor size and invasion.">
+		<entity id="s3.e1" charOffset="32-37"
+			type="GENE" text="ITGA7" ontology_id="3679"/>
+		<entity id="s3.e2" charOffset="136-141"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our data, therefore, highlight ITGA7 as a glioblastoma biomarker and candidate therapeutic target">
+		<entity id="s4.e1" charOffset="31-36"
+			type="GENE" text="ITGA7" ontology_id="3679"/>
+		<entity id="s4.e2" charOffset="42-54"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

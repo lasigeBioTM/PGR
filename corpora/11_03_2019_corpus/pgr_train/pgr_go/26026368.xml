@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26026368">
+	<sentence id="s1" text="Overexpression of cellular amino acid metabolic process in CK5-positive cell lineages, and differential protein isoform expression, was additionally found in other tissues and cancer types, suggesting that overexpression of Phgdh is generally associated with CK5 cells, and that oncogenic function may be determined by isoform expression.">
+		<entity id="s1.e1" charOffset="18-55"
+			type="GO" text="cellular amino acid metabolic process" ontology_id="GO_0006520"/>
+		<entity id="s1.e2" charOffset="176-182"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

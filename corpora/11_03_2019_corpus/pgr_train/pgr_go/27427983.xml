@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27427983">
+	<sentence id="s1" text="This work associates missense mutations in NGolgi organizationE3 with an autosomal recessive chromosome breakage syndrome that leads to defective T and B cell function and acute respiratory distress syndrome in early childhood">
+		<entity id="s1.e1" charOffset="44-62"
+			type="GO" text="Golgi organization" ontology_id="GO_0007030"/>
+		<entity id="s1.e2" charOffset="73-92"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

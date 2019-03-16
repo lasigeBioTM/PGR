@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26356719">
+	<sentence id="s1" text="Therefore, we performed this preliminary clinical study to investigate the possible association between 2 adipokines, C1q/tumor necrosis factor-related protein-3 and -5 (CTRP-3 and CTRP-5), with lung function and other markers of inflammation in COPD.">
+		<entity id="s1.e1" charOffset="122-127"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="246-250"
+			type="GENE" text="COPD" ontology_id="372"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

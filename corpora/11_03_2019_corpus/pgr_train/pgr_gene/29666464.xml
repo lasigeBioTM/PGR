@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29666464">
+	<sentence id="s1" text="Mutations in the mitochondrial alanyl-transfer (t)RNA synthetase 2 (AARS2; OMIM 612035) have been linked to leukoencephalopathy recently.">
+		<entity id="s1.e1" charOffset="68-73"
+			type="GENE" text="AARS2" ontology_id="57505"/>
+		<entity id="s1.e2" charOffset="108-127"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We report a case with novel AARS2 gene mutations with developed striking cerebellar atrophy and leukoencephalopathy, which helps to further understand the clinical and genetic heterogeneity of AARS2-L">
+		<entity id="s2.e1" charOffset="28-33"
+			type="GENE" text="AARS2" ontology_id="57505"/>
+		<entity id="s2.e2" charOffset="73-91"
+			type="HP" text="cerebellar atrophy" ontology_id="HP_0001272"/>
+		<entity id="s2.e3" charOffset="96-115"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s2.e4" charOffset="176-189"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

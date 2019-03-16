@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28791728">
+	<sentence id="s1" text="Our analyses identified 15 CpG sites within the cellular response to DNA damage stimulus 1A promoter that were significantly hypermethylated and 14 CpG loci within the calcineurin-NFAT signaling cascade gene body that were significantly hypomethylated (pLIS AAAA 1 × 10<sup>-5</sup> ) in the tumours of active smokers.">
+		<entity id="s1.e1" charOffset="48-88"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e2" charOffset="168-202"
+			type="GO" text="calcineurin-NFAT signaling cascade" ontology_id="GO_0033173"/>
+		<entity id="s1.e3" charOffset="264-270"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The cellular response to DNA damage stimulus 1A promoter was hypermethylated in 7 of 36 tumours from never-smokers (19%), 12 of 47 tumours from former smokers (26%), and 8 of 13 tumours from active smokers (62%).">
+		<entity id="s2.e1" charOffset="4-44"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s2.e2" charOffset="88-94"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Promoter hypermethylation was positively associated with duration of smoking (Spearman positive regulation of DNA-binding transcription factor activity correlation, ρ = 0.26, p = 0.03) and was confined to tumours, with hypermethylation never being observed in adjacent mucosa.">
+		<entity id="s3.e1" charOffset="87-151"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s3.e2" charOffset="205-211"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our findings provide exploratory evidence for hypermethylation of the key tumour suppressor gene cellular response to DNA damage stimulus being implicated in smoking-associated colorectal carcinogenesis.">
+		<entity id="s4.e1" charOffset="74-80"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="97-137"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

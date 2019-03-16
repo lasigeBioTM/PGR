@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29700912">
+	<sentence id="s1" text="The tumor-node-metastasis (regulation of transcription by RNA polymerase III) classification, the presence of a mucinous component, and signet ring cells are well-known criteria for identifying patients at a high risk for recurrence and determining the therapeutic approach for early-stage colon cancer (eCC).">
+		<entity id="s1.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="27-76"
+			type="GO" text="regulation of transcription by RNA polymerase III" ontology_id="GO_0006359"/>
+		<entity id="s1.e3" charOffset="296-302"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aims of the present study were to evaluate the relation of dysregulated positive regulation of transcription by RNA polymerase II, c-regulation of transcription by RNA polymerase II, and positive regulation of DNA binding-negative regulation of cell migration expression with the histopathological features of tumors in recurrence formation in eCC cases.">
+		<entity id="s2.e1" charOffset="76-133"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="137-185"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e3" charOffset="191-225"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s2.e4" charOffset="204-209"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e5" charOffset="226-263"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The relationship between the altered expression of positive regulation of transcription by RNA polymerase II, c-regulation of transcription by RNA polymerase II, and positive regulation of DNA binding-negative regulation of cell migration and pathological microenvironmental features, including the presence of tumor budding and desmoplasia, were assessed.">
+		<entity id="s3.e1" charOffset="51-108"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e2" charOffset="112-160"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s3.e3" charOffset="166-200"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s3.e4" charOffset="201-206"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e5" charOffset="201-238"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In addition, the coexistence of high positive regulation of transcription by RNA polymerase II and low positive regulation of DNA binding-negative regulation of cell migration expression and tumor budding was associated with short OS (p AAAA 0.001).">
+		<entity id="s4.e1" charOffset="37-94"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s4.e2" charOffset="103-137"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s4.e3" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="138-175"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e4"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We suggest that the combination of reduced positive regulation of DNA binding-negative regulation of cell migration, induced positive regulation of transcription by RNA polymerase II, and the presence of tumor budding are promising biomarkers for the prediction of recurrence and may somatic diversification of immunoglobulins the stratification of patients with stage II colon cancer for adjuvant chemotherapy">
+		<entity id="s5.e1" charOffset="43-77"
+			type="GO" text="positive regulation of DNA binding" ontology_id="GO_0043388"/>
+		<entity id="s5.e2" charOffset="60-117"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s5.e3" charOffset="78-115"
+			type="GO" text="negative regulation of cell migration" ontology_id="GO_0030336"/>
+		<entity id="s5.e4" charOffset="139-144"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e5" charOffset="274-280"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e6" charOffset="284-326"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<pair id="s5.p1" e1="s5.e4"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e4" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e3"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e4"
+		    e2="s5.e6" pgr="false"/>
+		<pair id="s5.p5" e1="s5.e2"
+		    e2="s5.e5" pgr="false"/>
+		<pair id="s5.p6" e1="s5.e1"
+		    e2="s5.e10" pgr="true"/>
+		<pair id="s5.p7" e1="s5.e6"
+		    e2="s5.e10" pgr="false"/>
+		<pair id="s5.p8" e1="s5.e8"
+		    e2="s5.e10" pgr="false"/>
+	</sentence>
+</document>

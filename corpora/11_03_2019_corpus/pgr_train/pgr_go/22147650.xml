@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22147650">
+	<sentence id="s1" text="Prion proteins (positive regulation of peptidyl-tyrosine phosphorylation and acrosome reaction), known mostly for its involvement in neurodegenerative spongiform encephalopathies, have been recently demonstrated to be involved in resistance to apoptosis, tumorigenesis, proliferation, and metastasis.">
+		<entity id="s1.e1" charOffset="16-72"
+			type="GO" text="positive regulation of peptidyl-tyrosine phosphorylation" ontology_id="GO_0050731"/>
+		<entity id="s1.e2" charOffset="77-94"
+			type="GO" text="acrosome reaction" ontology_id="GO_0007340"/>
+		<entity id="s1.e3" charOffset="149-165"
+			type="HP" text="encephalopathies" ontology_id="HP_0001298"/>
+		<entity id="s1.e4" charOffset="242-247"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="positive regulation of peptidyl-tyrosine phosphorylation and acrosome reaction are significantly over-expressed in osteosarcoma.">
+		<entity id="s2.e1" charOffset="0-56"
+			type="GO" text="positive regulation of peptidyl-tyrosine phosphorylation" ontology_id="GO_0050731"/>
+		<entity id="s2.e2" charOffset="61-78"
+			type="GO" text="acrosome reaction" ontology_id="GO_0007340"/>
+		<entity id="s2.e3" charOffset="102-114"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="positive regulation of peptidyl-tyrosine phosphorylation and acrosome reaction appear involved with some important genes related to tumorigenesis and apoptosis.">
+		<entity id="s3.e1" charOffset="0-56"
+			type="GO" text="positive regulation of peptidyl-tyrosine phosphorylation" ontology_id="GO_0050731"/>
+		<entity id="s3.e2" charOffset="61-78"
+			type="GO" text="acrosome reaction" ontology_id="GO_0007340"/>
+		<entity id="s3.e3" charOffset="119-124"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

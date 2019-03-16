@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28389991">
+	<sentence id="s1" text="Glutaric acidemia I (GAI) is an autosomal recessive metabolic disease caused by a deficiency of glutaryl-CoA dehydrogenase enzyme (GCDH).">
+		<entity id="s1.e1" charOffset="32-51"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="131-135"
+			type="GENE" text="GCDH" ontology_id="2639"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30231359">
+	<sentence id="s1" text="The incidence rate of hepatocellular carcinoma (HCC) is rising.">
+		<entity id="s1.e1" charOffset="7-10"
+			type="GENE" text="ide" ontology_id="3416"/>
+		<entity id="s1.e2" charOffset="22-46"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e3" charOffset="48-51"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

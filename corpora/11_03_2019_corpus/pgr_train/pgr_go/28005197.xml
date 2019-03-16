@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28005197">
+	<sentence id="s1" text="Biallelic mutations in the protein dephosphorylation gene have been identified in one family with demyelinating Charcot-Marie-Tooth disease (CMT4B3) and two families with axonal neuropathy and additional neurological and skeletal features.">
+		<entity id="s1.e1" charOffset="27-52"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s1.e2" charOffset="178-188"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we describe novel sequence variants in protein dephosphorylation (c.1168CAAAAG and c.2209_2210del) as the potential causative mutations in two siblings with severe axonal neuropathy, hearing loss, facial weakness and bulbar features.">
+		<entity id="s2.e1" charOffset="44-69"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s2.e2" charOffset="176-186"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s2.e3" charOffset="188-200"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e4" charOffset="202-217"
+			type="HP" text="facial weakness" ontology_id="HP_0010628"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings suggest that protein dephosphorylation mutations may cause a syndromic form of autosomal recessive axonal neuropathy (AR-CMT2) in addition to CMT4B3">
+		<entity id="s3.e1" charOffset="26-51"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s3.e2" charOffset="92-111"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s3.e3" charOffset="119-129"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

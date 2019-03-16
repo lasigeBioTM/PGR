@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29924831">
+	<sentence id="s1" text="In a cohort of Australians of European descent, consisting of 385 keratoconus cases and 396 controls, we screened 21 keratoconus candidate genes: BANP, CAST, COL4A3, COL4A4, COL5A1, FOXO1, FNDC3B, HGF, IL1A, IL1B, ILRN, IMMP2L, MPDZ, NFIB, RAB3GAP1, RAD51, RXRA, SLC4A11, SOD1, TF and VSX1.">
+		<entity id="s1.e1" charOffset="66-77"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<entity id="s1.e2" charOffset="146-150"
+			type="GENE" text="BANP" ontology_id="54971"/>
+		<entity id="s1.e3" charOffset="152-156"
+			type="GENE" text="CAST" ontology_id="10849"/>
+		<entity id="s1.e4" charOffset="158-164"
+			type="GENE" text="COL4A3" ontology_id="1285"/>
+		<entity id="s1.e5" charOffset="166-172"
+			type="GENE" text="COL4A4" ontology_id="1286"/>
+		<entity id="s1.e6" charOffset="174-180"
+			type="GENE" text="COL5A1" ontology_id="1289"/>
+		<entity id="s1.e7" charOffset="182-187"
+			type="GENE" text="FOXO1" ontology_id="2308"/>
+		<entity id="s1.e8" charOffset="189-195"
+			type="GENE" text="FNDC3B" ontology_id="64778"/>
+		<entity id="s1.e9" charOffset="197-200"
+			type="GENE" text="HGF" ontology_id="3569"/>
+		<entity id="s1.e10" charOffset="220-226"
+			type="GENE" text="IMMP2L" ontology_id="83943"/>
+		<entity id="s1.e11" charOffset="228-232"
+			type="GENE" text="MPDZ" ontology_id="84708"/>
+		<entity id="s1.e12" charOffset="234-238"
+			type="GENE" text="NFIB" ontology_id="4781"/>
+		<entity id="s1.e13" charOffset="240-248"
+			type="GENE" text="RAB3GAP1" ontology_id="22930"/>
+		<entity id="s1.e14" charOffset="250-255"
+			type="GENE" text="RAD51" ontology_id="5888"/>
+		<entity id="s1.e15" charOffset="257-261"
+			type="GENE" text="RXRA" ontology_id="6256"/>
+		<entity id="s1.e16" charOffset="263-270"
+			type="GENE" text="SLC4A11" ontology_id="83959"/>
+		<entity id="s1.e17" charOffset="272-276"
+			type="GENE" text="SOD1" ontology_id="6647"/>
+		<entity id="s1.e18" charOffset="285-289"
+			type="GENE" text="VSX1" ontology_id="30813"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e1"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e1"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e1"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e1"
+		    e2="s1.e16" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28766361">
+	<sentence id="s1" text="Introduction Despite some new treatment possibilities, the improvement in survival rate for hepatocellular carcinoma (HCC) patients is still poor due to late diagnosis.">
+		<entity id="s1.e1" charOffset="92-116"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="118-121"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to investigate the diagnostic sensitivity and specificity of protein induced by vitamin K absence or antagonist-II (PIVKAII), Glypican-3 (GP3), Cystatin B (CSTB), squamous cell carcinoma antigen 1 (SCCA1) and hepatocyte growth factor (HGF) as potential tumour markers for HCC in patients with alcoholic liver cirrhosis (ALC) using imaging techniques (MSCT and MRI) as reference standards.">
+		<entity id="s2.e1" charOffset="152-160"
+			type="GENE" text="Glypican" ontology_id="2817"/>
+		<entity id="s2.e2" charOffset="182-186"
+			type="GENE" text="CSTB" ontology_id="1476"/>
+		<entity id="s2.e3" charOffset="189-212"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s2.e4" charOffset="224-229"
+			type="GENE" text="SCCA1" ontology_id="6317"/>
+		<entity id="s2.e5" charOffset="261-264"
+			type="GENE" text="HGF" ontology_id="3569"/>
+		<entity id="s2.e6" charOffset="279-285"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e7" charOffset="298-301"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s2.e8" charOffset="346-349"
+			type="GENE" text="ALC" ontology_id="55821"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e3"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e6"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e4"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e6"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p11" e1="s2.e10"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e13"
+		    e2="s2.e12" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The 'best' combination of tumour markers in our study includes all tested markers with AUC of 0.967.">
+		<entity id="s3.e1" charOffset="5-9"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s3.e2" charOffset="26-32"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Conclusion While novel diagnostic tumour markers are urgently needed, the examined potential tumour markers, with the exception of PIVKAII seem to be inadequate for diagnosing HCC in ALC.">
+		<entity id="s4.e1" charOffset="34-40"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="176-179"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s4.e3" charOffset="183-186"
+			type="GENE" text="ALC" ontology_id="55821"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Furthermore, probably the future is in finding the best optimal combination of tumour markers for diagnosing HCC based on cost-effectiveness">
+		<entity id="s5.e1" charOffset="51-55"
+			type="GENE" text="best" ontology_id="7439"/>
+		<entity id="s5.e2" charOffset="79-85"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="109-112"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

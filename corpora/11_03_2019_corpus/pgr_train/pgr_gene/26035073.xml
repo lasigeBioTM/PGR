@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26035073">
+	<sentence id="s1" text="To date, the genetic alteration of SASS6 has not been reported in human cancers.">
+		<entity id="s1.e1" charOffset="35-40"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<entity id="s1.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we examined whether SASS6 expression is abnormally regulated in colorectal cancers (CRCs).">
+		<entity id="s2.e1" charOffset="42-47"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<entity id="s2.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Next, using DLD-1 colon cancer cells inducibly expressing SASS6, SASS6 overexpression was shown to induce centrosome amplification, mitotic abnormalities such as chromosomal misalignment and lagging chromosome, and chromosomal numerical changes.">
+		<entity id="s3.e1" charOffset="12-15"
+			type="GENE" text="DLD" ontology_id="1738"/>
+		<entity id="s3.e2" charOffset="24-30"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="58-63"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="SASS6 upregulation in colon cancer was also revealed in the Cancer Genome Atlas (TCGA) data and was shown to be an independent predictor of poor survival (multivariate analysis: hazard ratio, 2.805; 95% confidence interval, 1.244‑7.512; P=0.0112).">
+		<entity id="s4.e1" charOffset="0-5"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<entity id="s4.e2" charOffset="28-34"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Finally, further analysis of the TCGA data demonstrated SASS6 upregulation in a modest manner in 8 of 11 cancer types other than colon cancer, and SASS6 upregulation was found to be associated with a poor survival outcome in patients with kidney renal cell carcinoma and lung adenocarcinoma.">
+		<entity id="s5.e1" charOffset="56-61"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<entity id="s5.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="112-116"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s5.e4" charOffset="271-290"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e4"
+		    e2="s5.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Our present findings revealed that the upregulation of SASS6 expression is involved in the pathogenesis of CRC and is associated with a poor prognosis among patients with colon cancer.">
+		<entity id="s6.e1" charOffset="55-60"
+			type="GENE" text="SASS6" ontology_id="163786"/>
+		<entity id="s6.e2" charOffset="177-183"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

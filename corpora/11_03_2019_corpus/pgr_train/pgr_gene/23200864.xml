@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23200864">
+	<sentence id="s1" text="By using exome and capillary sequencing, we here identify biallelic UBE3B mutations in four patients from three unrelated families presenting an autosomal-recessive blepharophimosis-ptosis-intellectual-disability syndrome characterized by developmental delay, growth retardation with a small head circumference, facial dysmorphisms, and low cholesterol levels.">
+		<entity id="s1.e1" charOffset="68-73"
+			type="GENE" text="UBE3B" ontology_id="89910"/>
+		<entity id="s1.e2" charOffset="165-181"
+			type="HP" text="blepharophimosis" ontology_id="HP_0000581"/>
+		<entity id="s1.e3" charOffset="239-258"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e4" charOffset="286-310"
+			type="HP" text="small head circumference" ontology_id="HP_0000252"/>
+		<entity id="s1.e5" charOffset="312-331"
+			type="HP" text="facial dysmorphisms" ontology_id="HP_0001999"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28291684">
+	<sentence id="s1" text="To gain an insight into the likely molecular basis of their observed cytotoxic effects, Autodock Vina binding free energies of each of the isolated compounds with seven molecular targets implicated in cancer development (MAPK8, MAPK10, MAP3K12, MAPK3, MAPK1, MAPK7 and VEGF), were calculated.">
+		<entity id="s1.e1" charOffset="201-207"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="221-226"
+			type="GENE" text="MAPK8" ontology_id="5599"/>
+		<entity id="s1.e3" charOffset="228-234"
+			type="GENE" text="MAPK10" ontology_id="5602"/>
+		<entity id="s1.e4" charOffset="236-243"
+			type="GENE" text="MAP3K12" ontology_id="7786"/>
+		<entity id="s1.e5" charOffset="245-250"
+			type="GENE" text="MAPK3" ontology_id="5595"/>
+		<entity id="s1.e6" charOffset="252-257"
+			type="GENE" text="MAPK1" ontology_id="5594"/>
+		<entity id="s1.e7" charOffset="259-264"
+			type="GENE" text="MAPK7" ontology_id="5598"/>
+		<entity id="s1.e8" charOffset="269-273"
+			type="GENE" text="VEGF" ontology_id="7422"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

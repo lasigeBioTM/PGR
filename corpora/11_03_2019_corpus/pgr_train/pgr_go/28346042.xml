@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28346042">
+	<sentence id="s1" text="However, the prognostic value of gamma-aminobutyric acid catabolic process in ovarian cancer remains unclear.">
+		<entity id="s1.e1" charOffset="33-74"
+			type="GO" text="gamma-aminobutyric acid catabolic process" ontology_id="GO_0009450"/>
+		<entity id="s1.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to explore the relationship between gamma-aminobutyric acid catabolic process and the prognosis of patients with ovarian cancer (OC).">
+		<entity id="s2.e1" charOffset="62-103"
+			type="GO" text="gamma-aminobutyric acid catabolic process" ontology_id="GO_0009450"/>
+		<entity id="s2.e2" charOffset="147-153"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In survival analyses, we found that gamma-aminobutyric acid catabolic process was positively linked to prognosis in patients with OC, particularly in those with serous ovarian cancer (proteasome-mediated ubiquitin-dependent protein catabolic process).">
+		<entity id="s3.e1" charOffset="36-77"
+			type="GO" text="gamma-aminobutyric acid catabolic process" ontology_id="GO_0009450"/>
+		<entity id="s3.e2" charOffset="176-182"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="184-249"
+			type="GO" text="proteasome-mediated ubiquitin-dependent protein catabolic process" ontology_id="GO_0043161"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28776571">
+	<sentence id="s1" text="Focal alterations affected CDKN2A, CCND1, CCNE1, EGFR, EPHA3, EPHB1, FGFR1, JUN, NF1, RB1, RET, TP53, and additional novel amplifications in CCNE1, KIT, EGFR, RET, BRAF, NTRK2 were seen in G3 compared with the G1 tumor areas.">
+		<entity id="s1.e1" charOffset="27-33"
+			type="GENE" text="CDKN2A" ontology_id="1029"/>
+		<entity id="s1.e2" charOffset="35-40"
+			type="GENE" text="CCND1" ontology_id="595"/>
+		<entity id="s1.e3" charOffset="42-47"
+			type="GENE" text="CCNE1" ontology_id="898"/>
+		<entity id="s1.e4" charOffset="49-53"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s1.e5" charOffset="55-60"
+			type="GENE" text="EPHA3" ontology_id="2042"/>
+		<entity id="s1.e6" charOffset="62-67"
+			type="GENE" text="EPHB1" ontology_id="2047"/>
+		<entity id="s1.e7" charOffset="69-74"
+			type="GENE" text="FGFR1" ontology_id="2260"/>
+		<entity id="s1.e8" charOffset="76-79"
+			type="GENE" text="JUN" ontology_id="3725"/>
+		<entity id="s1.e9" charOffset="91-94"
+			type="GENE" text="RET" ontology_id="5979"/>
+		<entity id="s1.e10" charOffset="148-151"
+			type="GENE" text="KIT" ontology_id="3815"/>
+		<entity id="s1.e11" charOffset="164-168"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s1.e12" charOffset="170-175"
+			type="GENE" text="NTRK2" ontology_id="4915"/>
+		<entity id="s1.e13" charOffset="213-218"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e9"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e10"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e11"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e12"
+		    e2="s1.e13" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TRIO and RICTOR co-amplification was seen in 8 (44%) G3 and 1 (10%) G1 myxofibrosarcomas and RICTOR amplification alone in 4 (40%) G1 myxofibrosarcomas.">
+		<entity id="s2.e1" charOffset="9-15"
+			type="GENE" text="RICTOR" ontology_id="253260"/>
+		<entity id="s2.e2" charOffset="80-88"
+			type="HP" text="sarcomas" ontology_id="HP_0100242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

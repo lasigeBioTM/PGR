@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30226971">
+	<sentence id="s1" text="GRACILE Syndrome, is an autosomal recessive disease presenting with growth retardation, severe lactic acidosis, Fanconi type tubulopathy, cholestasis, iron overload and early death without any dysmorphological or neurological features.">
+		<entity id="s1.e1" charOffset="24-43"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="95-110"
+			type="HP" text="lactic acidosis" ontology_id="HP_0003128"/>
+		<entity id="s1.e3" charOffset="120-124"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

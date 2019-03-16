@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29070483">
+	<sentence id="s1" text="Mutations in MYH2 are associated with skeletal myopathies, characterized by ophthalmoplegia.">
+		<entity id="s1.e1" charOffset="13-16"
+			type="GENE" text="MYH" ontology_id="4595"/>
+		<entity id="s1.e2" charOffset="38-57"
+			type="HP" text="skeletal myopathies" ontology_id="HP_0003756"/>
+		<entity id="s1.e3" charOffset="76-91"
+			type="HP" text="ophthalmoplegia" ontology_id="HP_0000602"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in MYH3 and MYH8 are associated with distal arthrogryposis syndromes.">
+		<entity id="s2.e1" charOffset="13-16"
+			type="GENE" text="MYH" ontology_id="4595"/>
+		<entity id="s2.e2" charOffset="47-53"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s2.e3" charOffset="54-68"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Mutations in MYH7 are associated with not only skeletal muscle diseases, such as Laing distal myopathy and myosin storage myopathy, but also hypertrophic cardiomyopathy.">
+		<entity id="s3.e1" charOffset="13-16"
+			type="GENE" text="MYH" ontology_id="4595"/>
+		<entity id="s3.e2" charOffset="87-93"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s3.e3" charOffset="94-102"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

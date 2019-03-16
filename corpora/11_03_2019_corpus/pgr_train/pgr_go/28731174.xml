@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28731174">
+	<sentence id="s1" text="Non-small cell lung cancer (NSCLC) is the most common cardiac muscle tissue development of lung cancer.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="54-87"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, positive regulation of transcription by RNA polymerase II is associated with unfavorable overall survival (n=866, p=0.004) and represents an independent prognostic factor (HR=2.36, p=0.000) in lung adenocarcinoma (negative regulation of protein catabolic process) patients, but is not associated with overall survival of squamous cell carcinoma (negative regulation of peptidase activity) patients (n=524, p=0.27).">
+		<entity id="s2.e1" charOffset="13-70"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="206-225"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s2.e3" charOffset="227-275"
+			type="GO" text="negative regulation of protein catabolic process" ontology_id="GO_0042177"/>
+		<entity id="s2.e4" charOffset="289-312"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s2.e5" charOffset="359-400"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further functional studies show that forced expression of positive regulation of transcription by RNA polymerase II in lung cancer cells obviously promotes cell proliferation and invasion, whereas inhibits cell apoptosis.">
+		<entity id="s3.e1" charOffset="58-115"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e2" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

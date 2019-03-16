@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28318499">
+	<sentence id="s1" text="Through genetic mapping of disease loci and whole-exome sequencing in four unrelated multiplex families presenting with severe AMC, we identified biallelic loss-of-function mutations in LGI4 (leucine-rich glioma-inactivated 4).">
+		<entity id="s1.e1" charOffset="186-190"
+			type="GENE" text="LGI4" ontology_id="163175"/>
+		<entity id="s1.e2" charOffset="205-211"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This is consistent with previous studies reporting arthrogryposis in Lgi4-deficient mice due to peripheral hypomyelination.">
+		<entity id="s2.e1" charOffset="51-65"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s2.e2" charOffset="69-73"
+			type="GENE" text="Lgi4" ontology_id="163175"/>
+		<entity id="s2.e3" charOffset="84-88"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

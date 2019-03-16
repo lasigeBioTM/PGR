@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22029171">
+	<sentence id="s1" text="Our case presented the specific characteristics: macrocephaly, midline cleft-nuclear-transcribed mRNA catabolic process, nonsense-mediated decay, cleft palate, polydactyly of both hands and feet but without occipitoschisis, considered as the pathognomonic sign of the syndrome.">
+		<entity id="s1.e1" charOffset="49-61"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s1.e2" charOffset="77-144"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s1.e3" charOffset="146-158"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24849935">
+	<sentence id="s1" text="Bardet-Biedl syndrome (BBS) is a rare ciliopathy disorder that is clinically and genetically heterogeneous with 18 known genes.">
+		<entity id="s1.e1" charOffset="23-26"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<entity id="s1.e2" charOffset="93-106"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This result represents another indication for the genetic heterogeneity of BBS and extends the mutational spectrum of the disease by introducing nine novel mutations in five BBS genes.">
+		<entity id="s2.e1" charOffset="58-71"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="75-78"
+			type="GENE" text="BBS" ontology_id="583"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

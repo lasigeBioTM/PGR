@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29161432">
+	<sentence id="s1" text="Homozygous, loss of function variants in PROKR2 was initially implicated in autosomal recessive IGD; however, most IGD-associated PROKR2 variants are heterozygous.">
+		<entity id="s1.e1" charOffset="41-47"
+			type="GENE" text="PROKR2" ontology_id="128674"/>
+		<entity id="s1.e2" charOffset="76-95"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

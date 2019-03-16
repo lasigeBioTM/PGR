@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620212">
+	<sentence id="s1" text="The incidence of thyroid cancer has increased the past few decades, the most frequent cardiac muscle tissue development has been identified to be the papillary thyroid carcinoma (biological_process).">
+		<entity id="s1.e1" charOffset="25-31"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="86-119"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="150-177"
+			type="HP" text="papillary thyroid carcinoma" ontology_id="HP_0002895"/>
+		<entity id="s1.e4" charOffset="179-197"
+			type="GO" text="biological_process" ontology_id="GO_0008179"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Overexpression of translational initiation7 inhibited the proliferation and increased the radioiodine uptake ability of biological_process cells in vitro and inhibited the tumor growth in vivo.">
+		<entity id="s2.e1" charOffset="18-42"
+			type="GO" text="translational initiation" ontology_id="GO_0006413"/>
+		<entity id="s2.e2" charOffset="100-118"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e3" charOffset="152-157"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, translational initiation7 may coenzyme A biosynthetic process as a tumor suppressor in biological_process by inhibiting the positive regulation of cell proliferation signaling pathway and may be a promising therapeutic target in patients with PTC">
+		<entity id="s3.e1" charOffset="15-39"
+			type="GO" text="translational initiation" ontology_id="GO_0006413"/>
+		<entity id="s3.e2" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="45-76"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s3.e4" charOffset="54-72"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e5" charOffset="111-152"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

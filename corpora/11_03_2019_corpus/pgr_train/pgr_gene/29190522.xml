@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29190522">
+	<sentence id="s1" text="The diagnosis of acquired chronic dysimmune neuropathies (CDN) like chronic inflammatory demyelinating polyneuropathy (CIDP), Lewis-Sumner Syndrome (LSS) or multifocal motor neuropathy (MMN) can be challenging.">
+		<entity id="s1.e1" charOffset="58-61"
+			type="GENE" text="CDN" ontology_id="30833"/>
+		<entity id="s1.e2" charOffset="107-117"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="149-152"
+			type="GENE" text="LSS" ontology_id="4047"/>
+		<entity id="s1.e4" charOffset="157-167"
+			type="HP" text="multifocal" ontology_id="HP_0030651"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

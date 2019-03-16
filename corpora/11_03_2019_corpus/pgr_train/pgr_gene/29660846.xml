@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29660846">
+	<sentence id="s1" text="The classical mammalian isoforms of PLD are PLD1 and PLD2, and the levels of both mRNA were higher at the primary tumor sites than in normal kidney tissues.">
+		<entity id="s1.e1" charOffset="44-48"
+			type="GENE" text="PLD1" ontology_id="5589"/>
+		<entity id="s1.e2" charOffset="53-57"
+			type="GENE" text="PLD2" ontology_id="5338"/>
+		<entity id="s1.e3" charOffset="114-119"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Notably, shRNA-mediated knockdown of PLD2 suppressed the growth and invasion of tumors in nude mouse xenograft models.">
+		<entity id="s2.e1" charOffset="37-41"
+			type="GENE" text="PLD2" ontology_id="5338"/>
+		<entity id="s2.e2" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="90-94"
+			type="GENE" text="nude" ontology_id="54820"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="As for genes relating to the tumor invasion of PLD2, we found that angiogenin (ANG) was positively regulated by PLD2.">
+		<entity id="s3.e1" charOffset="29-34"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="47-51"
+			type="GENE" text="PLD2" ontology_id="5338"/>
+		<entity id="s3.e3" charOffset="79-82"
+			type="GENE" text="ANG" ontology_id="283"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In fact, the expression levels of ANG were elevated in tumor tissues as compared with normal kidney and the inhibition of ANG activity with a neutralizing antibody significantly suppressed tumor invasion.">
+		<entity id="s4.e1" charOffset="3-7"
+			type="GENE" text="fact" ontology_id="11198"/>
+		<entity id="s4.e2" charOffset="34-37"
+			type="GENE" text="ANG" ontology_id="283"/>
+		<entity id="s4.e3" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

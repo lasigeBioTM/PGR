@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30127791">
+	<sentence id="s1" text="Studies in humans with autosomal recessive CARD9 deficiency have indicated a highly specific role for this molecule in the activation of antifungal immune responses in the central nervous system, the oral mucosa, and the skin.">
+		<entity id="s1.e1" charOffset="23-42"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="43-48"
+			type="GENE" text="CARD9" ontology_id="64170"/>
+		<entity id="s1.e3" charOffset="172-179"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, CARD9-dependent functions have recently been indicated to modulate the development of autoimmunity, inflammatory bowel diseases, and cancer.">
+		<entity id="s2.e1" charOffset="10-15"
+			type="GENE" text="CARD9" ontology_id="64170"/>
+		<entity id="s2.e2" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

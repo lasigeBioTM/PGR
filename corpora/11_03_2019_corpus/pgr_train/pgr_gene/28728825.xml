@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28728825">
+	<sentence id="s1" text="Loss-of-function mutations in the human PIEZO1 gene cause autosomal recessive congenital lymphatic dysplasia.">
+		<entity id="s1.e1" charOffset="40-46"
+			type="GENE" text="PIEZO1" ontology_id="9780"/>
+		<entity id="s1.e2" charOffset="58-77"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Gain-of-function mutations in the human PIEZO1 gene cause the autosomal dominant hemolytic anemia, hereditary xerocytosis (also known as dehydrated stomatocytosis).">
+		<entity id="s2.e1" charOffset="40-46"
+			type="GENE" text="PIEZO1" ontology_id="9780"/>
+		<entity id="s2.e2" charOffset="81-97"
+			type="HP" text="hemolytic anemia" ontology_id="HP_0001878"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Loss-of-function mutations in the human PIEZO2 gene cause an autosomal recessive syndrome of muscular atrophy with perinatal respiratory distress, arthrogryposis, and scoliosis.">
+		<entity id="s3.e1" charOffset="40-46"
+			type="GENE" text="PIEZO2" ontology_id="63895"/>
+		<entity id="s3.e2" charOffset="61-80"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s3.e3" charOffset="147-161"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s3.e4" charOffset="167-176"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Gain-of-function mutations in the human PIEZO2 gene cause three clinical types of autosomal dominant distal arthrogryposis.">
+		<entity id="s4.e1" charOffset="40-46"
+			type="GENE" text="PIEZO2" ontology_id="63895"/>
+		<entity id="s4.e2" charOffset="101-107"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s4.e3" charOffset="108-122"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26531332">
+	<sentence id="s1" text="In the case-control analysis, the rs9607195 AAAAAG on intergenic area 250 kb away from the ISX gene and the rs12738007 AAAAAG on the intron of the MECR gene were the most strongly associated SNPs with the risk of schizophrenia (P = 6.2 × 10(-8) , OR = 0.50 and P = 3.7 × 10(-7) , OR = 2.39, respectively).">
+		<entity id="s1.e1" charOffset="91-94"
+			type="GENE" text="ISX" ontology_id="91464"/>
+		<entity id="s1.e2" charOffset="147-151"
+			type="GENE" text="MECR" ontology_id="51102"/>
+		<entity id="s1.e3" charOffset="213-226"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In subsequent fine-mapping analysis, 6 SNPs of MECR were genotyped with 310 schizophrenia patients and 604 control subjects.">
+		<entity id="s2.e1" charOffset="47-51"
+			type="GENE" text="MECR" ontology_id="51102"/>
+		<entity id="s2.e2" charOffset="76-89"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

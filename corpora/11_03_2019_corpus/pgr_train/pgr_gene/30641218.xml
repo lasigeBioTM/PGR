@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30641218">
+	<sentence id="s1" text="Recently, a few Rho GTPase activating proteins (RhoGAPs) have been identified as tumor suppressors in some human cancers.">
+		<entity id="s1.e1" charOffset="16-19"
+			type="GENE" text="Rho" ontology_id="6010"/>
+		<entity id="s1.e2" charOffset="81-86"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="113-119"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study aimed to explore ARHGAP17 expression in cervical cancer and the possible function in tumor progression.">
+		<entity id="s2.e1" charOffset="35-43"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s2.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="103-108"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="ARHGAP17 expression in cervical cancer cell lines was assessed by RT-PCR and Western blotting.">
+		<entity id="s3.e1" charOffset="0-8"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s3.e2" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="ARHGAP17 expression in cervical cancer tissues and normal tissues was assessed by immunohistochemistry.">
+		<entity id="s4.e1" charOffset="0-8"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s4.e2" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Here, we showed lower expression of ARHGAP17 in cell lines and human cervical cancer samples.">
+		<entity id="s5.e1" charOffset="36-44"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s5.e2" charOffset="78-84"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Manipulation of ARHGAP17 affected cell proliferation in vitro and tumor growth in vivo.">
+		<entity id="s6.e1" charOffset="16-24"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s6.e2" charOffset="66-71"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Furthermore, the phosphorylation of AKT was enhanced in ARHGAP17 silencing cervical cancer cells.">
+		<entity id="s7.e1" charOffset="36-39"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<entity id="s7.e2" charOffset="56-64"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s7.e3" charOffset="84-90"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s8" text="Stepwise investigations demonstrated that ARHGAP17 suppressed malignant phenotype of cervical cancer cells via inhibiting PI3K/AKT signaling pathway.">
+		<entity id="s8.e1" charOffset="42-50"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s8.e2" charOffset="94-100"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s8.e3" charOffset="127-130"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e2"
+		    e2="s8.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s9" text="These results reveal that ARHGAP17 functions as a tumor suppressor in cervical cancer that suppresses tumor growth, at least partly, through inhibition of PI3K/AKT signaling and up-regulation of P21 and P27 expression">
+		<entity id="s9.e1" charOffset="26-34"
+			type="GENE" text="ARHGAP17" ontology_id="55114"/>
+		<entity id="s9.e2" charOffset="50-55"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s9.e3" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s9.e4" charOffset="160-163"
+			type="GENE" text="AKT" ontology_id="207"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+		<pair id="s9.p2" e1="s9.e2"
+		    e2="s9.e4" pgr="true"/>
+		<pair id="s9.p3" e1="s9.e1"
+		    e2="s9.e3" pgr="false"/>
+		<pair id="s9.p4" e1="s9.e6"
+		    e2="s9.e3" pgr="true"/>
+	</sentence>
+</document>

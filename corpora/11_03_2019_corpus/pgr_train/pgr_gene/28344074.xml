@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28344074">
+	<sentence id="s1" text="In the present study, we investigated the spatiotemporal distributions of RanGAP1 and 4 representative nucleoporins (GP210, NUP205, NUP107 and NUP50) of NPCs in human Cu/Zn superoxide dismutase-1 mutation transgenic (SOD1-Tg) mice and sporadic ALS patients.">
+		<entity id="s1.e1" charOffset="74-81"
+			type="GENE" text="RanGAP1" ontology_id="5905"/>
+		<entity id="s1.e2" charOffset="124-130"
+			type="GENE" text="NUP205" ontology_id="23165"/>
+		<entity id="s1.e3" charOffset="132-138"
+			type="GENE" text="NUP107" ontology_id="57122"/>
+		<entity id="s1.e4" charOffset="143-148"
+			type="GENE" text="NUP50" ontology_id="10762"/>
+		<entity id="s1.e5" charOffset="217-221"
+			type="GENE" text="SOD1" ontology_id="6647"/>
+		<entity id="s1.e6" charOffset="222-224"
+			type="GENE" text="Tg" ontology_id="7038"/>
+		<entity id="s1.e7" charOffset="226-230"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e8" charOffset="235-243"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e9" charOffset="244-247"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<pair id="s1.p1" e1="s1.e8"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study indicated that the mislocalization of these proteins of NPCs may underlie the pathogenesis of ALS both in SOD1-Tg mice and human sporadic ALS patients, and these dysfunctions may be a fundamental pathway for ALS that is not specific only in C9-ALS but also in SOD1-ALS, which may be amenable to pharmacotherapeutic intervention">
+		<entity id="s2.e1" charOffset="112-115"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s2.e2" charOffset="124-128"
+			type="GENE" text="SOD1" ontology_id="6647"/>
+		<entity id="s2.e3" charOffset="129-131"
+			type="GENE" text="Tg" ontology_id="7038"/>
+		<entity id="s2.e4" charOffset="132-136"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e5" charOffset="147-155"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e6" charOffset="259-261"
+			type="GENE" text="C9" ontology_id="735"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e5"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23261302">
+	<sentence id="s1" text="Primary ciliary dyskinesia (PCD) is a genetically heterogeneous, autosomal-recessive disorder, characterized by oto-sino-pulmonary disease and situs abnormalities.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s1.e3" charOffset="50-63"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results revealed that mutations in CCDC114 are a cause of ciliary dysmotility and PCD and further demonstrate the utility of exome sequencing to identify genetic causes in heterogeneous recessive disorders">
+		<entity id="s2.e1" charOffset="41-48"
+			type="GENE" text="CCDC114" ontology_id="93233"/>
+		<entity id="s2.e2" charOffset="88-91"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s2.e3" charOffset="178-191"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

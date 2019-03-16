@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29768408">
+	<sentence id="s1" text="Here, we identified three families with mutations in barbed-end actin filament capping, encoding for adducin-γ, with intellectual disability, microcephaly, cataracts and skeletal defects.">
+		<entity id="s1.e1" charOffset="53-86"
+			type="GO" text="barbed-end actin filament capping" ontology_id="GO_0051016"/>
+		<entity id="s1.e2" charOffset="117-140"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="142-154"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="156-165"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In one of the families with additional cardiomyopathy and steroid-resistant nephrotic syndrome (SRNS), we found a homozygous variant in chromatin remodeling, encoding the lysine acetyltransferase 2B, with negative regulation of transcription by RNA polymerase II on KAT2B protein levels in patient fibroblasts, suggesting that this second mutation might contribute to the increased disease spectrum.">
+		<entity id="s2.e1" charOffset="39-53"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e2" charOffset="136-156"
+			type="GO" text="chromatin remodeling" ontology_id="GO_0006338"/>
+		<entity id="s2.e3" charOffset="205-262"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

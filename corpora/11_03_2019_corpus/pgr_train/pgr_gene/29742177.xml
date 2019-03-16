@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742177">
+	<sentence id="s1" text="Downregulation of α-actinin-1 in E-cadherin expressing basal-like breast cancer cells demonstrate that α-actinin-1-assembled actin fibers destabilize E-cadherin-based adhesions.">
+		<entity id="s1.e1" charOffset="35-43"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<entity id="s1.e2" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, these results indicate that increased α-actinin-1 expression destabilizes E-cadherin-based adhesions, which is likely to promote the migratory potential of breast cancer cells.">
+		<entity id="s2.e1" charOffset="92-100"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<entity id="s2.e2" charOffset="179-185"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

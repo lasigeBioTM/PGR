@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30107296">
+	<sentence id="s1" text="Here, using a microarray screen, we found that knocking down DJ-1 in human neuroblastoma cells results in down-regulation of microRNA-221 (miR-221).">
+		<entity id="s1.e1" charOffset="61-65"
+			type="GENE" text="DJ-1" ontology_id="11315"/>
+		<entity id="s1.e2" charOffset="75-88"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="139-142"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

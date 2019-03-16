@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29426275">
+	<sentence id="s1" text="Low-grade fibromyxoid sarcoma (LGFMS) and sclerosing epithelioid fibrosarcoma (SEF) are rare tumors with distinct sets of morphological features, both characterized by MUC4 immunoreactivity.">
+		<entity id="s1.e1" charOffset="22-29"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="79-82"
+			type="GENE" text="SEF" ontology_id="54756"/>
+		<entity id="s1.e3" charOffset="93-99"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="168-172"
+			type="GENE" text="MUC4" ontology_id="4585"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the largest study of hybrid LGFMS-SEF tumors to date, all cases exhibited FUS rearrangements, a similar genetic profile to LGFMS.">
+		<entity id="s2.e1" charOffset="37-40"
+			type="GENE" text="SEF" ontology_id="54756"/>
+		<entity id="s2.e2" charOffset="41-47"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="77-80"
+			type="GENE" text="FUS" ontology_id="2521"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Fusion gene detection using a next-generation sequencing-based anchored multiplex PCR technique (Archer FusionPlex Sarcoma Panel) was performed on both the primary renal tumor that showed the morphology of a LGFMS, and a cervical metastasis that showed the morphology of SEF.">
+		<entity id="s3.e1" charOffset="170-175"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="271-274"
+			type="GENE" text="SEF" ontology_id="54756"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

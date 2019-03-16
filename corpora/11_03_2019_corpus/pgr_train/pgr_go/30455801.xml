@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30455801">
+	<sentence id="s1" text="Although isolated cases of adult protein phosphorylation have been reported in Nigerians; to the chloride transport of our knowledge, this case is the first to be reported in the paediatric age group in Nigeria.">
+		<entity id="s1.e1" charOffset="9-23"
+			type="HP" text="isolated cases" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="33-56"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="97-115"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

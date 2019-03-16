@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30177679">
+	<sentence id="s1" text="In keeping with a tumor suppressive role of FBW7 in human gastric cancer, we find an inverse correlation between FBW7 and Brg1 expression in human gastric cancer clinical samples.">
+		<entity id="s1.e1" charOffset="18-23"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="44-48"
+			type="GENE" text="FBW7" ontology_id="55294"/>
+		<entity id="s1.e3" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="77-81"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s1.e5" charOffset="122-126"
+			type="GENE" text="Brg1" ontology_id="6597"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mechanistically, we find that stabilization of Brg1 in gastric cancer cells suppresses E-cadherin expression, subsequently promoting gastric cancer metastasis.">
+		<entity id="s2.e1" charOffset="20-24"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s2.e2" charOffset="47-51"
+			type="GENE" text="Brg1" ontology_id="6597"/>
+		<entity id="s2.e3" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="89-97"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Hence, this previously unknown FBW7/Brg1 signaling axis provides the molecular basis and the rationale to target Brg1 in FBW7-compromised human gastric cancers">
+		<entity id="s3.e1" charOffset="31-35"
+			type="GENE" text="FBW7" ontology_id="55294"/>
+		<entity id="s3.e2" charOffset="36-40"
+			type="GENE" text="Brg1" ontology_id="6597"/>
+		<entity id="s3.e3" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28612833">
+	<sentence id="s1" text="The majority of causative genetic variants identified thus far are inherited in an autosomal recessive manner and negative regulation of transcription by RNA polymerase II key cellular pathways such as mitosis, DNA cellular protein catabolic process response and repair, apoptosis and splicing.">
+		<entity id="s1.e1" charOffset="83-102"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="114-171"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="215-249"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report a novel donor splice site variant in the G-patch domain and KOW motifs (mRNA splicing, via spliceosome) gene (NG_021310.2:g.6126GAAAAA, NM_015698.4:c.331+5GAAAAA) that segregates with affected and carrier status in a multigenerational family with an X-linked perinatal lethal condition characterized by severe microcephaly and intrauterine growth restriction (IUGR).">
+		<entity id="s2.e1" charOffset="88-118"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s2.e2" charOffset="319-325"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<entity id="s2.e3" charOffset="326-338"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e4" charOffset="343-374"
+			type="HP" text="intrauterine growth restriction" ontology_id="HP_0001511"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Based on our and published data we propose that the mRNA splicing, via spliceosome gene is essential for fetal development and when disrupted, leads to a severe, male-lethal phenocardiac muscle tissue development characterised by microcephaly and IUGR">
+		<entity id="s3.e1" charOffset="52-82"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s3.e2" charOffset="154-160"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<entity id="s3.e3" charOffset="179-212"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s3.e4" charOffset="201-213"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

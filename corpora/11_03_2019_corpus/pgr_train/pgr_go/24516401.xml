@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24516401">
+	<sentence id="s1" text="E168d2 apoptotic process carry a frameshift mutation in the positive regulation of transcription by RNA polymerase II activation domain, Glu168del2, which is associated with severe dominant CoRD or clathrin coat assembly in humans.">
+		<entity id="s1.e1" charOffset="7-24"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="47-104"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e3" charOffset="161-167"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<entity id="s1.e4" charOffset="185-207"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="As seen in human patients, heterozygous E168d2 (AAAAAAE168d2/+AAAAAA) but not R90W (AAAAAAR90W/+AAAAAA) apoptotic process show severely impaired retinal function, while mice homozygous for either mutation are blind and undergo rapid photoreceptor degeneration.">
+		<entity id="s2.e1" charOffset="104-121"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="127-133"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

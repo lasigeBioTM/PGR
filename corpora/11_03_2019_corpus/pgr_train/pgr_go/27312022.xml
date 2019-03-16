@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27312022">
+	<sentence id="s1" text="Mutations in regulation of membrane potential lead to various neuromuscular phenocardiac muscle tissue developments with partial overlap, including limb girdle muscular dystrophy cardiac muscle tissue development 1C (regulation of membrane potential), rippling muscle disease, distal myopathy and isolated hyperCKemia.">
+		<entity id="s1.e1" charOffset="13-45"
+			type="GO" text="regulation of membrane potential" ontology_id="GO_0042391"/>
+		<entity id="s1.e2" charOffset="81-114"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="119-149"
+			type="HP" text="limb girdle muscular dystrophy" ontology_id="HP_0006785"/>
+		<entity id="s1.e4" charOffset="188-220"
+			type="GO" text="regulation of membrane potential" ontology_id="GO_0042391"/>
+		<entity id="s1.e5" charOffset="193-199"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s1.e6" charOffset="200-208"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e2"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e14" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we present a series of eight patients from seven families presenting with exercise intolerance and rhabdomyolysis caused by mutations in regulation of membrane potential diagnosed by next generation sequencing (NGS) (n = 6).">
+		<entity id="s2.e1" charOffset="104-118"
+			type="HP" text="rhabdomyolysis" ontology_id="HP_0003201"/>
+		<entity id="s2.e2" charOffset="142-174"
+			type="GO" text="regulation of membrane potential" ontology_id="GO_0042391"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This case series demonstrates that exercise intolerance, myalgia and rhabdomyolysis may be caused by regulation of membrane potential mutations and broadens the phenotypic spectrum of caveolinopathies.">
+		<entity id="s3.e1" charOffset="69-83"
+			type="HP" text="rhabdomyolysis" ontology_id="HP_0003201"/>
+		<entity id="s3.e2" charOffset="101-133"
+			type="GO" text="regulation of membrane potential" ontology_id="GO_0042391"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

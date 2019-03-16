@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29659833">
+	<sentence id="s1" text="Mutations in cilium assembly lead to diseases ranging from isolated retinal degeneration to severe syndromic ciliopathies.">
+		<entity id="s1.e1" charOffset="13-28"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e2" charOffset="68-88"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we created a mouse model of cilium assembly-associated retinal degeneration to investigate the ocular disease mechanism.">
+		<entity id="s2.e1" charOffset="43-58"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s2.e2" charOffset="70-90"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We investigated molecular mechanisms of degeneration and show that cilium assembly protein reduction leads to mislocalization of specific photoreceptor outersegment (OS) proteins (G protein-coupled receptor signaling pathway, RP1, regulation of transcription by RNA polymerase II), aberrant light-driven translocation of alpha transducin and altered localization of glioma-associated oncogene family member 1 (osteoblast differentiation).">
+		<entity id="s3.e1" charOffset="67-82"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s3.e2" charOffset="180-224"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<entity id="s3.e3" charOffset="231-279"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s3.e4" charOffset="283-289"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e5" charOffset="410-436"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This mouse model exhibits key features of the retinal phenotype observed in patients with cilium assembly-associated blindness and can be used for in vivo testing of ciliopathy therapies">
+		<entity id="s4.e1" charOffset="90-105"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s4.e2" charOffset="117-126"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

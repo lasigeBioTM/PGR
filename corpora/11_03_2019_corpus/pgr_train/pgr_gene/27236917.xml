@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27236917">
+	<sentence id="s1" text="We describe a neurological disorder with epilepsy and prominent choreoathetosis caused by biallelic pathogenic variants in FRRS1L, which encodes an AMPA receptor outer-core protein.">
+		<entity id="s1.e1" charOffset="41-49"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="123-129"
+			type="GENE" text="FRRS1L" ontology_id="23732"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

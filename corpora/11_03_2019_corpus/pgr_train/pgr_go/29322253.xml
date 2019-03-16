@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29322253">
+	<sentence id="s1" text="Our data, for the first time, functionally link Jalili syndrome gene metal ion homeostasis to clathrin coat assembly gene photoreceptor cell maintenance, providing important insights into the molecular pathogenic mechanism of retinal dystrophy in Jalili syndrome">
+		<entity id="s1.e1" charOffset="69-90"
+			type="GO" text="metal ion homeostasis" ontology_id="GO_0055065"/>
+		<entity id="s1.e2" charOffset="94-116"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<entity id="s1.e3" charOffset="103-133"
+			type="GO" text="photoreceptor cell maintenance" ontology_id="GO_0045494"/>
+		<entity id="s1.e4" charOffset="182-199"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

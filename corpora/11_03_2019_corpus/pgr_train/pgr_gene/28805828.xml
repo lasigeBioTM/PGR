@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28805828">
+	<sentence id="s1" text="CRISPR-Cas9 knockout in zebrafish and mice recapitulated the human phenotype of primary microcephaly and resulted in early lethality.">
+		<entity id="s1.e1" charOffset="38-42"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="88-100"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

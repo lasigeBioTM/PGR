@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23086420">
+	<sentence id="s1" text="Several myotubularins have been genetically linked to human diseases: MTM1 is mutated in the congenital myopathy X-linked centronuclear or myotubular myopathy (XLCNM) and MTMR14 (JUMPY) has been linked to an autosomal form of such disease, while MTMR2 and MTMR13 are mutated in Charcot-Marie-Tooth (CMT) neuropathies.">
+		<entity id="s1.e1" charOffset="70-74"
+			type="GENE" text="MTM1" ontology_id="4534"/>
+		<entity id="s1.e2" charOffset="104-112"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e3" charOffset="171-177"
+			type="GENE" text="MTMR14" ontology_id="64419"/>
+		<entity id="s1.e4" charOffset="246-251"
+			type="GENE" text="MTMR2" ontology_id="8898"/>
+		<entity id="s1.e5" charOffset="256-262"
+			type="GENE" text="MTMR13" ontology_id="81846"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

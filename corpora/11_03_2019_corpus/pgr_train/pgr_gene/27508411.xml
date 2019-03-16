@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27508411">
+	<sentence id="s1" text="WWS is a multigenic disorder characterised by muscular dystrophy as well as brain and eye anomalies.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="WWS" ontology_id="55906"/>
+		<entity id="s1.e2" charOffset="46-64"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

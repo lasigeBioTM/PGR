@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26742492">
+	<sentence id="s1" text="The novel potential autism susceptibility genes PTDSS1 and AREG were uncovered and warrant further genetic and functional analyses.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="48-54"
+			type="GENE" text="PTDSS1" ontology_id="9791"/>
+		<entity id="s1.e3" charOffset="59-63"
+			type="GENE" text="AREG" ontology_id="374"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

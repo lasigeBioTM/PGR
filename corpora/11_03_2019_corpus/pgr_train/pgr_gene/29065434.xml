@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29065434">
+	<sentence id="s1" text="The major question to be solved is the genetic basis of bilateral adrenal hyperplasia (BAH).">
+		<entity id="s1.e1" charOffset="56-65"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e2" charOffset="66-85"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<entity id="s1.e3" charOffset="87-90"
+			type="GENE" text="BAH" ontology_id="444"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Is BAH due to the bilateral occurrence of APCCs, to germline variants, or perhaps due to unknown serum factors? Lastly, the etiology of unsolved cases of apparently familial hyperaldosteronism remains to be discovered.">
+		<entity id="s2.e1" charOffset="3-6"
+			type="GENE" text="BAH" ontology_id="444"/>
+		<entity id="s2.e2" charOffset="18-27"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s2.e3" charOffset="174-192"
+			type="HP" text="hyperaldosteronism" ontology_id="HP_0000859"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

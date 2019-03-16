@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29880681">
+	<sentence id="s1" text="Similar to the human phenotype, li>negative regulation of actin filament depolymerization</i>-deficient apoptotic process displayed reduced cholesterol absorption and were resistant to diet-induced hypercholesterolemia.">
+		<entity id="s1.e1" charOffset="35-89"
+			type="GO" text="negative regulation of actin filament depolymerization" ontology_id="GO_0030835"/>
+		<entity id="s1.e2" charOffset="104-121"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="185-205"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

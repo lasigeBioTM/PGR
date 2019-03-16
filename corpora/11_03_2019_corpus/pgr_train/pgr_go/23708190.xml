@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23708190">
+	<sentence id="s1" text="Although some causative genes have been identified, little progress has been made in identifying genes in which low-penetrance susceptibility variants occur in the majority of sporadic protein geranylgeranylation cases.">
+		<entity id="s1.e1" charOffset="176-184"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="185-212"
+			type="GO" text="protein geranylgeranylation" ontology_id="GO_0018344"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To identify common genetic variants associated with sporadic non-syndromic protein geranylgeranylation in Han Chinese populations, we performed a multistage genome-wide association study (GWAS) in a total of 4,225 CHM cases and 5,112 non-CHM controls.">
+		<entity id="s2.e1" charOffset="52-60"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="75-102"
+			type="GO" text="protein geranylgeranylation" ontology_id="GO_0018344"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

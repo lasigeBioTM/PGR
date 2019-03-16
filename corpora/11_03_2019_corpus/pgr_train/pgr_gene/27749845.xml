@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27749845">
+	<sentence id="s1" text="Oral and pharyngeal cancers combined were associated with loci at 6p21.32 (rs3828805, HLA-DQB1), 10q26.13 (rs201982221, LHPP) and 11p15.4 (rs1453414, OR52N2-TRIM5).">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="86-94"
+			type="GENE" text="HLA-DQB1" ontology_id="3119"/>
+		<entity id="s1.e3" charOffset="120-124"
+			type="GENE" text="LHPP" ontology_id="64077"/>
+		<entity id="s1.e4" charOffset="150-156"
+			type="GENE" text="OR52N2" ontology_id="390077"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Oral cancer was associated with two new regions, 2p23.3 (rs6547741, GPN1) and 9q34.12 (rs928674, LAMC3), and with known cancer-related loci-9p21.3 (rs8181047, CDKN2B-AS1) and 5p15.33 (rs10462706, CLPTM1L).">
+		<entity id="s2.e1" charOffset="5-11"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="68-72"
+			type="GENE" text="GPN1" ontology_id="11321"/>
+		<entity id="s2.e3" charOffset="97-102"
+			type="GENE" text="LAMC3" ontology_id="10319"/>
+		<entity id="s2.e4" charOffset="159-165"
+			type="GENE" text="CDKN2B" ontology_id="1030"/>
+		<entity id="s2.e5" charOffset="196-203"
+			type="GENE" text="CLPTM1L" ontology_id="81037"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Oropharyngeal cancer associations were limited to the human leukocyte antigen (HLA) region, and classical HLA allele imputation showed a protective association with the class II haplotype HLA-DRB1*1301-HLA-DQA1*0103-HLA-DQB1*0603 (odds ratio (OR) = 0.59, P = 2.7 × 10<sup>-9</sup>).">
+		<entity id="s3.e1" charOffset="14-20"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="216-224"
+			type="GENE" text="HLA-DQB1" ontology_id="3119"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

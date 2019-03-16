@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22744456">
+	<sentence id="s1" text="MESP2, HES7 and DUSP6 genes have been proved to be involved in the etiopathogenesis of congenital scoliosis (CS) in animal embryo studies, however, whether this association was detected in human CS patients also remains unknown.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="MESP2" ontology_id="145873"/>
+		<entity id="s1.e2" charOffset="7-11"
+			type="GENE" text="HES7" ontology_id="84667"/>
+		<entity id="s1.e3" charOffset="16-21"
+			type="GENE" text="DUSP6" ontology_id="1848"/>
+		<entity id="s1.e4" charOffset="98-107"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="MESP2, HES7 and DUSP6 genes may not be involved in the etiopathogenesis of sporadic and non-syndromic CS in Chinese Han population">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="MESP2" ontology_id="145873"/>
+		<entity id="s2.e2" charOffset="7-11"
+			type="GENE" text="HES7" ontology_id="84667"/>
+		<entity id="s2.e3" charOffset="16-21"
+			type="GENE" text="DUSP6" ontology_id="1848"/>
+		<entity id="s2.e4" charOffset="75-83"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

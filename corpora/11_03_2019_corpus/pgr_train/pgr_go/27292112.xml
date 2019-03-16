@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27292112">
+	<sentence id="s1" text="Mutations of phosphatidylinositol biosynthetic process result in the inherited disorders Charcot-Marie-Tooth disease cardiac muscle tissue development 4J, Yunis-Varón syndrome, and polymicrogyria with seizures.">
+		<entity id="s1.e1" charOffset="13-54"
+			type="GO" text="phosphatidylinositol biosynthetic process" ontology_id="GO_0006661"/>
+		<entity id="s1.e2" charOffset="117-150"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="172-180"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

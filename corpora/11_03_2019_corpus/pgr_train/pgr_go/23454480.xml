@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23454480">
+	<sentence id="s1" text="Here we present a novel cilium assembly(tm1a(EUCOMM)Wtsi) knockout mouse which accurately recapitulates the human condition, consistently developing pre-axial polydactyly, complex posterior fossa defects (including the Dandy-Walker malformation), and renal cystic dysplasia.">
+		<entity id="s1.e1" charOffset="24-39"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e2" charOffset="153-158"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<entity id="s1.e3" charOffset="159-170"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27906773">
+	<sentence id="s1" text="Aminoacyl-tRNA synthetase complex (ARS)-interacting multifunctional protein 1 (AIMP1) is a cytokine that is known to amplify the actions of tumor necrosis factor-α and to be involved in microglial activation and neuronal death.">
+		<entity id="s1.e1" charOffset="35-38"
+			type="GENE" text="ARS" ontology_id="57152"/>
+		<entity id="s1.e2" charOffset="79-84"
+			type="GENE" text="AIMP1" ontology_id="9255"/>
+		<entity id="s1.e3" charOffset="140-145"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

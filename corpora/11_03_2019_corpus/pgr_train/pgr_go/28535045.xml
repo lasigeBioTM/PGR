@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28535045">
+	<sentence id="s1" text="Chemical inhibition of epigenetic regulatory proteins regulation of transcription, DNA-templated and positive regulation of transcription elongation from RNA polymerase II promoter is emerging as a promising therapeutic strategy in contraception, cancer, and heart disease.">
+		<entity id="s1.e1" charOffset="54-96"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="101-180"
+			type="GO" text="positive regulation of transcription elongation from RNA polymerase II promoter" ontology_id="GO_0032968"/>
+		<entity id="s1.e3" charOffset="172-178"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

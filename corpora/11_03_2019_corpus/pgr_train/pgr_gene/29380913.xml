@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29380913">
+	<sentence id="s1" text="In recent years, genetically determined forms of microangiopathy (e.g. CADASIL, CARASIL, Trex1-related microangiopathies, CARASAL, familial forms of cerebral amyloid angiopathy or CAA) have provided interesting cellular and molecular clues to the pathogenesis of sporadic microvascular disease such as arteriolosclerosis and AD-related CAA">
+		<entity id="s1.e1" charOffset="71-78"
+			type="GENE" text="CADASIL" ontology_id="4854"/>
+		<entity id="s1.e2" charOffset="263-271"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

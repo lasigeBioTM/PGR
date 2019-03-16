@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30232607">
+	<sentence id="s1" text="All tumors were positive for AE1-AE3, CK18, PAX 8, antimitochondrial antigen, and SDHB.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="29-32"
+			type="GENE" text="AE1" ontology_id="6521"/>
+		<entity id="s1.e3" charOffset="33-36"
+			type="GENE" text="AE3" ontology_id="6508"/>
+		<entity id="s1.e4" charOffset="82-85"
+			type="GENE" text="SDH" ontology_id="1757"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="HOT should be considered as an emerging renal entity because it does not meet the diagnostic criteria for other recognized eosinophilic renal tumors, such as oncocytoma, chromophobe renal cell carcinoma (RCC), TFE3 and TFEB RCC, SDH-deficient RCC, and eosinophilic solid and cystic RCC">
+		<entity id="s2.e1" charOffset="142-148"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="182-202"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s2.e3" charOffset="204-207"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<entity id="s2.e4" charOffset="210-214"
+			type="GENE" text="TFE3" ontology_id="7030"/>
+		<entity id="s2.e5" charOffset="219-223"
+			type="GENE" text="TFEB" ontology_id="7942"/>
+		<entity id="s2.e6" charOffset="229-232"
+			type="GENE" text="SDH" ontology_id="1757"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e9"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e9"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e9"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+</document>

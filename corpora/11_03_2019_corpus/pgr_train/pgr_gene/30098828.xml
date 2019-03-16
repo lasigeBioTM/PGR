@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30098828">
+	<sentence id="s1" text="High TROP2 expression plays an important role in promoting tumor development and aggressiveness, which is correlated with reduced patient survival.">
+		<entity id="s1.e1" charOffset="5-10"
+			type="GENE" text="TROP2" ontology_id="4070"/>
+		<entity id="s1.e2" charOffset="59-64"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="81-95"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

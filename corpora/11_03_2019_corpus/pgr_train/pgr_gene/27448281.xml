@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27448281">
+	<sentence id="s1" text="Consistent with this pattern of activity, polr1c and polr1d homozygous mutant zebrafish exhibit cartilage hypoplasia and cranioskeletal anomalies characteristic of humans with Treacher Collins syndrome.">
+		<entity id="s1.e1" charOffset="42-48"
+			type="GENE" text="polr1c" ontology_id="9533"/>
+		<entity id="s1.e2" charOffset="53-59"
+			type="GENE" text="polr1d" ontology_id="51082"/>
+		<entity id="s1.e3" charOffset="127-145"
+			type="HP" text="skeletal anomalies" ontology_id="HP_0000924"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="More importantly, we show that genetic inhibition of tp53 can suppress neuroepithelial cell death and ameliorate the skeletal anomalies in polr1c and polr1d mutants, providing a potential avenue to prevent the pathogenesis of Treacher Collins syndrome.">
+		<entity id="s2.e1" charOffset="117-135"
+			type="HP" text="skeletal anomalies" ontology_id="HP_0000924"/>
+		<entity id="s2.e2" charOffset="139-145"
+			type="GENE" text="polr1c" ontology_id="9533"/>
+		<entity id="s2.e3" charOffset="150-156"
+			type="GENE" text="polr1d" ontology_id="51082"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

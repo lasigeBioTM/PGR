@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28598419">
+	<sentence id="s1" text="We show that maternal COL24A1 variants have a significant genome-wide interaction with maternal pre-pregnancy overweight/obesity on PTB risk, with rs11161721 (P<sub>G × E</sub>=1.8 × 10<sup>-8</sup>; empirical P<sub>G × E</sub>=1.2 × 10<sup>-8</sup>) as the top hit.">
+		<entity id="s1.e1" charOffset="22-29"
+			type="GENE" text="COL24A1" ontology_id="255631"/>
+		<entity id="s1.e2" charOffset="121-128"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e3" charOffset="132-135"
+			type="GENE" text="PTB" ontology_id="5725"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19236704">
+	<sentence id="s1" text="Corneal dystrophies may have a positive regulation of transcription by RNA polymerase II autosomal dominant, autosomal recessive or X-linked recessive Mendelian mode of inheritance.">
+		<entity id="s1.e1" charOffset="31-88"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="109-128"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="161-180"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Different corneal dystrophies are caused by mutations in the N-acetylglucosamine metabolic process, intermediate filament cytoskeleton organization, visual perception, receptor-mediated endocytosis, sodium ion transport, negative regulation of epithelial cell migration, angiogenesis, and vitamin K biosynthetic process genes.">
+		<entity id="s2.e1" charOffset="10-29"
+			type="HP" text="corneal dystrophies" ontology_id="HP_0001131"/>
+		<entity id="s2.e2" charOffset="61-98"
+			type="GO" text="N-acetylglucosamine metabolic process" ontology_id="GO_0006044"/>
+		<entity id="s2.e3" charOffset="100-147"
+			type="GO" text="intermediate filament cytoskeleton organization" ontology_id="GO_0045104"/>
+		<entity id="s2.e4" charOffset="149-166"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e5" charOffset="168-197"
+			type="GO" text="receptor-mediated endocytosis" ontology_id="GO_0006898"/>
+		<entity id="s2.e6" charOffset="199-219"
+			type="GO" text="sodium ion transport" ontology_id="GO_0006814"/>
+		<entity id="s2.e7" charOffset="221-269"
+			type="GO" text="negative regulation of epithelial cell migration" ontology_id="GO_0010633"/>
+		<entity id="s2.e8" charOffset="271-283"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s2.e9" charOffset="289-319"
+			type="GO" text="vitamin K biosynthetic process" ontology_id="GO_0042371"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+	</sentence>
+</document>

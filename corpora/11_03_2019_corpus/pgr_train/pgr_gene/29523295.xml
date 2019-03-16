@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29523295">
+	<sentence id="s1" text="SNORD115 abnormalities with varying downstream multigene involvement would account for catatonia across the life span within some subtypes of autism spectrum disorders, schizophrenia, bipolar and major depressive disorder, psychosis, genetic disorders, and in immune disorders such as anti-N-methyl-d-aspartate receptor (NMDAR) antibody encephalitis as well as the susceptibility to the neuroleptic malignant syndrome (NMS) if environmentally triggered.">
+		<entity id="s1.e1" charOffset="142-148"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="169-182"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e3" charOffset="223-232"
+			type="HP" text="psychosis" ontology_id="HP_0000709"/>
+		<entity id="s1.e4" charOffset="337-349"
+			type="HP" text="encephalitis" ontology_id="HP_0002383"/>
+		<entity id="s1.e5" charOffset="419-422"
+			type="GENE" text="NMS" ontology_id="129521"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Dysfunction of SNORD115-PBRM1 connecting with SMARCA2 as well as other proven schizophrenia-associated genes might explain why traditionally catatonia has been classified with schizophrenia.">
+		<entity id="s2.e1" charOffset="24-29"
+			type="GENE" text="PBRM1" ontology_id="55193"/>
+		<entity id="s2.e2" charOffset="46-53"
+			type="GENE" text="SMARCA2" ontology_id="6595"/>
+		<entity id="s2.e3" charOffset="78-91"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="SNORD115-TAF1 and SNORD-DPM2 dysfunction introduce possible clues to the parkinsonism and increased creatinine phosphokinase in NMS, while abnormalities of SNORD115-RALGPS1 suggest links to both anti-NMDAR encephalitis and the proven predisposing catatonic SHANK3 gene.">
+		<entity id="s3.e1" charOffset="9-13"
+			type="GENE" text="TAF1" ontology_id="6872"/>
+		<entity id="s3.e2" charOffset="24-28"
+			type="GENE" text="DPM2" ontology_id="8818"/>
+		<entity id="s3.e3" charOffset="128-131"
+			type="GENE" text="NMS" ontology_id="129521"/>
+		<entity id="s3.e4" charOffset="165-172"
+			type="GENE" text="RALGPS1" ontology_id="9649"/>
+		<entity id="s3.e5" charOffset="206-218"
+			type="HP" text="encephalitis" ontology_id="HP_0002383"/>
+		<entity id="s3.e6" charOffset="257-263"
+			type="GENE" text="SHANK3" ontology_id="85358"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e5"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

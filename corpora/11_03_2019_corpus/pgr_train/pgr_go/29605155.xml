@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29605155">
+	<sentence id="s1" text="Amyotrophic lateral sclerosis (signal transduction) is a complex neurodegenerative disease, characterized genetically by a disproportionately large contribution of rare genetic variation.">
+		<entity id="s1.e1" charOffset="31-50"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="65-90"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

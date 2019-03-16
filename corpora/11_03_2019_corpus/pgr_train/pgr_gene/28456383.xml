@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28456383">
+	<sentence id="s1" text="Spinal muscular atrophy (SMA) refers to a group of disorders affecting lower motor neurons.">
+		<entity id="s1.e1" charOffset="7-23"
+			type="HP" text="muscular atrophy" ontology_id="HP_0003202"/>
+		<entity id="s1.e2" charOffset="25-28"
+			type="GENE" text="SMA" ontology_id="6606"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

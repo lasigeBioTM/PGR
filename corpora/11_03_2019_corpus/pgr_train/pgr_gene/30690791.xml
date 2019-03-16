@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30690791">
+	<sentence id="s1" text="Human genetic evidence demonstrates that WNT1 mutations cause osteogenesis imperfecta (OI) and early-onset osteoporosis, implicating WNT1 as a major regulator of bone metabolism.">
+		<entity id="s1.e1" charOffset="41-45"
+			type="GENE" text="WNT1" ontology_id="7471"/>
+		<entity id="s1.e2" charOffset="107-119"
+			type="HP" text="osteoporosis" ontology_id="HP_0000939"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Targeted deletion of Wnt1 in mesenchymal progenitors led to spontaneous fractures due to impaired osteoblast function and increased bone resorption, mimicking the severe OI phenotype in humans with homozygous WNT1 mutations.">
+		<entity id="s2.e1" charOffset="21-25"
+			type="GENE" text="Wnt1" ontology_id="7471"/>
+		<entity id="s2.e2" charOffset="122-147"
+			type="HP" text="increased bone resorption" ontology_id="HP_0002797"/>
+		<entity id="s2.e3" charOffset="209-213"
+			type="GENE" text="WNT1" ontology_id="7471"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

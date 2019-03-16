@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28436964">
+	<sentence id="s1" text="We cellular response to interleukin-4 that anion transport-mediated VRAC is augmented in hypertrophic murine and human adipocytes in the setting of obesity.">
+		<entity id="s1.e1" charOffset="3-37"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s1.e2" charOffset="13-28"
+			type="GO" text="anion transport" ontology_id="GO_0006820"/>
+		<entity id="s1.e3" charOffset="118-125"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

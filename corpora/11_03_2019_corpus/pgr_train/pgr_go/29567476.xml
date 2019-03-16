@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29567476">
+	<sentence id="s1" text="Here, we report that mitotic spindle assembly checkpoint is highly overexpressed in multiple lung adenocarcinoma cell lines and tumor tissues.">
+		<entity id="s1.e1" charOffset="21-56"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s1.e2" charOffset="93-112"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s1.e3" charOffset="128-133"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Clinically, mitotic spindle assembly checkpoint expression is positively associated with tumor size, T-stage, and N-stage, and Kaplan-Meier analysis revealed that heightened TRIP13 expression is associated with lower overall survival.">
+		<entity id="s2.e1" charOffset="12-47"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s2.e2" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="mitotic spindle assembly checkpoint promotes lung adenocarcinoma cell proliferation, clonogenicity, and migration while inhibiting apoptosis and G2/M phase shift in vitro.">
+		<entity id="s3.e1" charOffset="0-35"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s3.e2" charOffset="45-64"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Accordingly, mitotic spindle assembly checkpoint-silenced xenograft tumors displayed significant growth inhibition in vivo.">
+		<entity id="s4.e1" charOffset="13-48"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s4.e2" charOffset="68-73"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In conclusion, heightened mitotic spindle assembly checkpoint expression appears to promote lung adenocarcinoma tumor progression and displays potential as a therapeutic target or biomarker for lung adenocarcinoma">
+		<entity id="s5.e1" charOffset="26-61"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s5.e2" charOffset="92-111"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s5.e3" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+</document>

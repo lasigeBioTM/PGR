@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28081242">
+	<sentence id="s1" text="Leber hereditary optic neuropathy (LHON) and dominant optic atrophy (DOA), the most common forms of hereditary optic neuropathy, are easily confused, and it is difficult to distinguish one from the other in the clinic, especially in young children.">
+		<entity id="s1.e1" charOffset="23-33"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="35-39"
+			type="GENE" text="LHON" ontology_id="100873240"/>
+		<entity id="s1.e3" charOffset="54-67"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study was designed to survey the mutation spectrum of common pathogenic genes (OPA1, OPA3 and mtDNA genes) and to analyze the genotype-phenotype characteristics of Chinese patients with suspected childhood-onset hereditary optic neuropathy.">
+		<entity id="s2.e1" charOffset="91-95"
+			type="GENE" text="OPA1" ontology_id="9968"/>
+		<entity id="s2.e2" charOffset="97-101"
+			type="GENE" text="OPA3" ontology_id="80207"/>
+		<entity id="s2.e3" charOffset="241-251"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This study expanded the OPA1 mutation spectrum, and our results showed that OPA1 mutation is another common cause of childhood-onset hereditary optic neuropathy in Chinese pediatric patients, especially those with disease onset during preschool age">
+		<entity id="s3.e1" charOffset="24-28"
+			type="GENE" text="OPA1" ontology_id="9968"/>
+		<entity id="s3.e2" charOffset="150-160"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

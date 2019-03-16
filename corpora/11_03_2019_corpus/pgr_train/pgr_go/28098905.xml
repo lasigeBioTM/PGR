@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28098905">
+	<sentence id="s1" text="The activation of MAPK activity (positive regulation of cytosolic calcium ion concentration-1) derived angiogenesis-post-chaperonin tubulin folding pathway family was overexpressed in tumor development enhancing proliferation, epithelial-mesenchymal transition (cytokine production) and migration of tumor cells.">
+		<entity id="s1.e1" charOffset="4-31"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e2" charOffset="33-91"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0009104"/>
+		<entity id="s1.e3" charOffset="47-59"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e4" charOffset="60-99"
+			type="GO" text="post-chaperonin tubulin folding pathway" ontology_id="GO_0007023"/>
+		<entity id="s1.e5" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e6" charOffset="206-225"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, correlation between positive regulation of cytosolic calcium ion concentration-1 and prostate cancer (mitochondrial transport) remains still unclear.">
+		<entity id="s2.e1" charOffset="29-87"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s2.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="111-134"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Additionally, our results displayed that Licl had antitumor activity against positive regulation of cell migration-3 through the inhibition of Wnt/β-catenin pathway.">
+		<entity id="s3.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="77-114"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

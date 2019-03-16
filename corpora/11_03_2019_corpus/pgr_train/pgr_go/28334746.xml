@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334746">
+	<sentence id="s1" text="In the present article, we describe an infant who smelt of ketones during examination and who was diagnosed with transient NDM caused by a regulation of gene expression by genetic imprinting mutation, accompanied by ketoacidosis.">
+		<entity id="s1.e1" charOffset="139-190"
+			type="GO" text="regulation of gene expression by genetic imprinting" ontology_id="GO_0006349"/>
+		<entity id="s1.e2" charOffset="216-228"
+			type="HP" text="ketoacidosis" ontology_id="HP_0001993"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

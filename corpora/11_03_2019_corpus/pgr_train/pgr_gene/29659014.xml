@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29659014">
+	<sentence id="s1" text="To evaluate the role of constitutive epigenetic changes in normal body cells of BRCA1/BRCA2-mutation negative patients, we have developed a deep bisulfite sequencing assay targeting the promoter regions of 8 tumor suppressor (TS) genes (BRCA1, BRCA2, RAD51C, ATM, PTEN, TP53, MLH1, RB1) and the estrogene receptor gene (ESR1), which plays a role in tumor progression.">
+		<entity id="s1.e1" charOffset="80-85"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s1.e2" charOffset="86-91"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s1.e3" charOffset="208-213"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="251-257"
+			type="GENE" text="RAD51C" ontology_id="5889"/>
+		<entity id="s1.e5" charOffset="259-262"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s1.e6" charOffset="264-268"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s1.e7" charOffset="276-280"
+			type="GENE" text="MLH1" ontology_id="4292"/>
+		<entity id="s1.e8" charOffset="320-324"
+			type="GENE" text="ESR1" ontology_id="2099"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

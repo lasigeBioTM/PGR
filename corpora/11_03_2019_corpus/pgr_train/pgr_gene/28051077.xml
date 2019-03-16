@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28051077">
+	<sentence id="s1" text="We aimed to identify the genetic cause of the devastating neurodegenerative disease amyotrophic lateral sclerosis (ALS) in a German family with two affected individuals, and to assess the prevalence of variants in the identified risk gene, FIG4, in a central European ALS cohort.">
+		<entity id="s1.e1" charOffset="58-83"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="115-118"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e3" charOffset="240-244"
+			type="GENE" text="FIG4" ontology_id="9896"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Additionally, novel or rare heterozygous FIG4 missense variants predicted to be deleterious were detected in five sporadic ALS patients revealing an overall FIG4 variant frequency of 3% in our cohort.">
+		<entity id="s2.e1" charOffset="41-45"
+			type="GENE" text="FIG4" ontology_id="9896"/>
+		<entity id="s2.e2" charOffset="114-122"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="123-126"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Four of six variants identified were previously associated with ALS or the motor and sensory neuropathy Charcot-Marie-Tooth disease type 4J (CMT4J), whereas two variants were novel.">
+		<entity id="s3.e1" charOffset="64-67"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s3.e2" charOffset="93-103"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e3" charOffset="132-136"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e4" charOffset="141-146"
+			type="GENE" text="CMT4J" ontology_id="9896"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

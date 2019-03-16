@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29525180">
+	<sentence id="s1" text="In this study, we conducted targeted sequencing in 246 clinically heterogeneous patients, mainly with early-onset and/or familial neurodegenerative dementia, using a custom-designed next-generation sequencing panel covering 27 genes known to harbor mutations that can cause different cardiac muscle tissue developments of dementia, in addition to the detection of negative regulation of protein phosphorylation repeat expansions.">
+		<entity id="s1.e1" charOffset="66-79"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="284-317"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="335-381"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

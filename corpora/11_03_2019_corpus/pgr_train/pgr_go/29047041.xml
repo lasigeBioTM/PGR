@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29047041">
+	<sentence id="s1" text="The mutations in the purine nucleobase metabolic process gene leads to X-linked Charcot-Marie-Tooth neuropathy cardiac muscle tissue development 5 (purine nucleobase metabolic process), PRS super activity, positive regulation of protein ubiquitination syndrome, X-linked deafness-1, breast cancer, and colorectal cancer.">
+		<entity id="s1.e1" charOffset="21-56"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s1.e2" charOffset="100-110"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="111-144"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e4" charOffset="148-183"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s1.e5" charOffset="171-179"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e6" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e7" charOffset="206-251"
+			type="GO" text="positive regulation of protein ubiquitination" ontology_id="GO_0031398"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e5"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e4"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e5"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e8"
+		    e2="s1.e18" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30041579">
+	<sentence id="s1" text="In patients compared to controls, there was an increase of IgG reactivity against zinc finger protein 688 (biological_process), early B cell factor 2 (positive regulation of cold-induced thermogenesis), crystallin, alpha B (negative regulation of intracellular transport) and tumor necrosis factor receptor superfamily member 13C (tumor necrosis factor-mediated signaling pathway).">
+		<entity id="s1.e1" charOffset="107-125"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="151-200"
+			type="GO" text="positive regulation of cold-induced thermogenesis" ontology_id="GO_0120162"/>
+		<entity id="s1.e3" charOffset="190-195"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="224-270"
+			type="GO" text="negative regulation of intracellular transport" ontology_id="GO_0032387"/>
+		<entity id="s1.e5" charOffset="331-379"
+			type="GO" text="tumor necrosis factor-mediated signaling pathway" ontology_id="GO_0033209"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

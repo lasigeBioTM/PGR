@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30442903">
+	<sentence id="s1" text="However, no study has investigated the relationship between androgen catabolic process in living brains and personality negative regulation of transcription by RNA polymerase II including aggression.">
+		<entity id="s1.e1" charOffset="60-86"
+			type="GO" text="androgen catabolic process" ontology_id="GO_0006710"/>
+		<entity id="s1.e2" charOffset="103-160"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="171-181"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Before performing PET scans, subjects answered the Buss-Perry Aggression Questionnaire and Temperament and Character Inventory to measure their aggression and personality negative regulation of transcription by RNA polymerase II, respectively.">
+		<entity id="s2.e1" charOffset="144-154"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<entity id="s2.e2" charOffset="171-228"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Females showed associations between androgen catabolic process levels in subcortical regions, such as the amygdala and supraoptic nucleus of the hypothalamus, and personality negative regulation of transcription by RNA polymerase II such as aggression, novelty seeking, and self-transcendence.">
+		<entity id="s3.e1" charOffset="36-62"
+			type="GO" text="androgen catabolic process" ontology_id="GO_0006710"/>
+		<entity id="s3.e2" charOffset="158-215"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e3" charOffset="224-234"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

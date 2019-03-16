@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26357016">
+	<sentence id="s1" text="A cation transport complex mutation analogous to a lysosomal transport allele causing progressive cerebello-cerebral atrophy cardiac muscle tissue development 2 (PCCA2) in humans exhibits similar, albeit weaker, phenotypes in yeast, providing mechanistic insights into disease pathogenesis.">
+		<entity id="s1.e1" charOffset="2-18"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s1.e2" charOffset="51-70"
+			type="GO" text="lysosomal transport" ontology_id="GO_0007041"/>
+		<entity id="s1.e3" charOffset="94-110"
+			type="HP" text="cerebral atrophy" ontology_id="HP_0002059"/>
+		<entity id="s1.e4" charOffset="125-158"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

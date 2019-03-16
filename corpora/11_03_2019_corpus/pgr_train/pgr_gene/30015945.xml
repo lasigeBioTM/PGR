@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30015945">
+	<sentence id="s1" text="However, the function and mechanism underlying the action of UCA1 in papillary thyroid cancer (PTC) remains unclear.">
+		<entity id="s1.e1" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="95-98"
+			type="GENE" text="PTC" ontology_id="8030"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="UCA1 knockdown significantly inhibited PTC cell viability, colony formation and the bromodomain containing 4 (BRD4) expression level in vitro, and retarded PTC tumor growth in vivo.">
+		<entity id="s2.e1" charOffset="39-42"
+			type="GENE" text="PTC" ontology_id="8030"/>
+		<entity id="s2.e2" charOffset="110-114"
+			type="GENE" text="BRD4" ontology_id="23476"/>
+		<entity id="s2.e3" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the previous study, microRNA (miR)‑204 inhibited thyroid cancer progression and was regulated by UCA1 in other types of cancer.">
+		<entity id="s3.e1" charOffset="33-36"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="60-66"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

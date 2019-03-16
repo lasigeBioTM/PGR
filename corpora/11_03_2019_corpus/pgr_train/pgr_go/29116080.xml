@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29116080">
+	<sentence id="s1" text="Spinocerebellar ataxia cardiac muscle tissue development 5 (vesicle-mediated transport) is a neurodegenerative disease caused by mutations in the cytoskeletal protein β-III-spectrin.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="23-56"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="60-86"
+			type="GO" text="vesicle-mediated transport" ontology_id="GO_0016192"/>
+		<entity id="s1.e4" charOffset="71-96"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

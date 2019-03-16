@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26708751">
+	<sentence id="s1" text="We report four individuals from three unrelated families who have homozygous missense or compound heterozygous truncating mutations in UNC80 and persistent hypotonia, encephalopathy, growth failure, and severe intellectual disability.">
+		<entity id="s1.e1" charOffset="135-140"
+			type="GENE" text="UNC80" ontology_id="285175"/>
+		<entity id="s1.e2" charOffset="167-181"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e3" charOffset="210-233"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

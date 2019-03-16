@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21150032">
+	<sentence id="s1" text="myocilin (osteoblast differentiation), optineurin (positive regulation of autophagy), rRNA processing and neurotrophin-4 (ganglion mother cell fate determination) in primary open angle glaucoma (POAG) and xenobiotic metabolic process and supramolecular fiber organization in congenital and developmental glaucomas.">
+		<entity id="s1.e1" charOffset="10-36"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e2" charOffset="51-83"
+			type="GO" text="positive regulation of autophagy" ontology_id="GO_0010508"/>
+		<entity id="s1.e3" charOffset="86-101"
+			type="GO" text="rRNA processing" ontology_id="GO_0006864"/>
+		<entity id="s1.e4" charOffset="112-120"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e5" charOffset="122-161"
+			type="GO" text="ganglion mother cell fate determination" ontology_id="GO_0007402"/>
+		<entity id="s1.e6" charOffset="205-233"
+			type="GO" text="xenobiotic metabolic process" ontology_id="GO_0006805"/>
+		<entity id="s1.e7" charOffset="238-271"
+			type="GO" text="supramolecular fiber organization" ontology_id="GO_0097435"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+</document>

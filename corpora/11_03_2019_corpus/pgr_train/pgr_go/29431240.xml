@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29431240">
+	<sentence id="s1" text="It has been reported that positive regulation of gene expression downstream regulated gene 1 (DNA damage response, signal transduction by p53 class mediator) is related to the prognosis of non-small cell lung cancer (NSCLC), and associated with negative regulation of transcription by RNA polymerase II degradation in NSCLC cell lines.">
+		<entity id="s1.e1" charOffset="26-64"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e2" charOffset="94-156"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator" ontology_id="GO_0030330"/>
+		<entity id="s1.e3" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="245-302"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the relationship of DNA damage response, signal transduction by p53 class mediator to prognosis or negative regulation of transcription by RNA polymerase II expression in lung adenocarcinoma has not been well clarified.">
+		<entity id="s2.e1" charOffset="29-91"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator" ontology_id="GO_0030330"/>
+		<entity id="s2.e2" charOffset="128-147"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s2.e3" charOffset="165-165"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The present study was designed to investigate the prognostic significance of DNA damage response, signal transduction by p53 class mediator and/or negative regulation of transcription by RNA polymerase II expression in lung adenocarcinoma using immunohistochemistry with a tissue microarray.">
+		<entity id="s3.e1" charOffset="77-139"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator" ontology_id="GO_0030330"/>
+		<entity id="s3.e2" charOffset="167-186"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s3.e3" charOffset="204-204"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We examined 184 lung adenocarcinomas and observed low expression of DNA damage response, signal transduction by p53 class mediator in adenocarcinoma in situ (oxidation-reduction process) and minimally invasive adenocarcinoma (cell proliferation), whereas high expression of NDRG1 was seen in invasive adenocarcinoma.">
+		<entity id="s4.e1" charOffset="16-35"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s4.e2" charOffset="68-130"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator" ontology_id="GO_0030330"/>
+		<entity id="s4.e3" charOffset="158-185"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s4.e4" charOffset="226-244"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

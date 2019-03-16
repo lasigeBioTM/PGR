@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28545977">
+	<sentence id="s1" text="Glutaric aciduria type I (GA-I) is a rare organic aciduria caused by the autosomal recessive inherited deficiency of glutaryl-CoA dehydrogenase (GCDH).">
+		<entity id="s1.e1" charOffset="18-22"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="26-28"
+			type="GENE" text="GA" ontology_id="27165"/>
+		<entity id="s1.e3" charOffset="42-58"
+			type="HP" text="organic aciduria" ontology_id="HP_0001992"/>
+		<entity id="s1.e4" charOffset="73-92"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e5" charOffset="145-149"
+			type="GENE" text="GCDH" ontology_id="2639"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

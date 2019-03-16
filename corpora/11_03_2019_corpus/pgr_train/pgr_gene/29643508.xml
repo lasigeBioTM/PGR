@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29643508">
+	<sentence id="s1" text="Although genes that are essential for cortical developmental expansion have been identified from the genetics of human primary microcephaly (a disorder associated with reduced brain size and intellectual disability) lsup>1</sup> , studies of these genes in mice, which have a smooth cortex that is one thousand times smaller than the cortex of humans, have provided limited insight.">
+		<entity id="s1.e1" charOffset="127-139"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="191-214"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="257-261"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in abnormal spindle-like microcephaly-associated (ASPM), the most common recessive microcephaly gene, reduce cortical volume by at least 50% in humans<sup>2-4</sup>, but have little effect on the brains of mice<sup>5-9</sup>; this probably reflects evolutionarily divergent functions of ASPM<sup>10,11</sup>.">
+		<entity id="s2.e1" charOffset="35-47"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e2" charOffset="60-64"
+			type="GENE" text="ASPM" ontology_id="259266"/>
+		<entity id="s2.e3" charOffset="216-220"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Aspm knockout ferrets exhibit severe microcephaly (25-40% decreases in brain weight), reflecting reduced cortical surface area without significant change in cortical thickness, as has been found in human patients<sup>3,4</sup>, suggesting that loss of 'cortical units' has occurred.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="Aspm" ontology_id="259266"/>
+		<entity id="s3.e2" charOffset="37-49"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

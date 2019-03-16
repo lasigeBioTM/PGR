@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29209896">
+	<sentence id="s1" text="BRAF mutations occur in about 40-45% of all papillary thyroid carcinomas (biological_processs) and of which 99.7% is the BRAFV600E mutation.">
+		<entity id="s1.e1" charOffset="44-72"
+			type="HP" text="papillary thyroid carcinomas" ontology_id="HP_0002895"/>
+		<entity id="s1.e2" charOffset="74-92"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A simultaneous increase in serum thyroid-stimulating hormone (TSH) in response to hypothyroidism (common in autoimmune diseases such as Hashimoto's thyroiditis) would cause senescent tumor cells to overcome OIS and proceed towards malignancy, hence showing the importance of TSH/cell surface receptor signaling pathway signaling in the development of biological_processs.">
+		<entity id="s2.e1" charOffset="82-96"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s2.e2" charOffset="183-188"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="279-318"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s2.e4" charOffset="351-369"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

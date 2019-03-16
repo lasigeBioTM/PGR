@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29937467">
+	<sentence id="s1" text="However, the negative association between 25(OH)D and GRS was modified by obesity and sun exposure.">
+		<entity id="s1.e1" charOffset="54-57"
+			type="GENE" text="GRS" ontology_id="597"/>
+		<entity id="s1.e2" charOffset="74-81"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

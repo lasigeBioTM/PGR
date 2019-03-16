@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30170832">
+	<sentence id="s1" text="Mutations in SPRTN cause premature ageing and liver cancer in humans and mice; thus, defective DPC repair has great clinical ramifications.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="GENE" text="SPRTN" ontology_id="83932"/>
+		<entity id="s1.e2" charOffset="52-58"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="73-77"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e4" charOffset="110-115"
+			type="GENE" text="great" ontology_id="122042"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Finally, we will discuss the impact of faulty DPC repair on disease and cancer therapy">
+		<entity id="s2.e1" charOffset="29-35"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s2.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

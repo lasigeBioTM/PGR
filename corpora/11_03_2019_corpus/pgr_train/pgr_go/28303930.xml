@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28303930">
+	<sentence id="s1" text="Glioblastoma (GBM) is the most prevalent and lethal cardiac muscle tissue development of primary malignant brain tumour.">
+		<entity id="s1.e1" charOffset="52-85"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="113-119"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that protein polyubiquitination-UL112-3p expression was significantly elevated in GBM, and its expression levels were highly associated with glioma size, differentiation, WHO stage and the overall and disease-free survival of patients.">
+		<entity id="s2.e1" charOffset="14-40"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="150-156"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26758872">
+	<sentence id="s1" text="Meesmann epithelial corneal dystrophy (MECD) is a rare autosomal dominant disorder caused by dominant-negative mutations within the intermediate filament cytoskeleton organization or visual perception genes, which encode the cytoskeletal protein keratins K3 and visual perception, respectively.">
+		<entity id="s1.e1" charOffset="20-37"
+			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
+		<entity id="s1.e2" charOffset="132-179"
+			type="GO" text="intermediate filament cytoskeleton organization" ontology_id="GO_0045104"/>
+		<entity id="s1.e3" charOffset="183-200"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e4" charOffset="262-279"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although no overt changes in corneal opacity were detected by slit-regulation of autophagy examination, the corneas of homozygous mutant apoptotic process exhibited histological and ultrastructural epithelial cell fragility phenotypes.">
+		<entity id="s2.e1" charOffset="29-44"
+			type="HP" text="corneal opacity" ontology_id="HP_0007957"/>
+		<entity id="s2.e2" charOffset="67-90"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s2.e3" charOffset="137-154"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Although the most severe phenotype is observed in the homozygous apoptotic process, this model will still provide a test-bed for therapies not only for corneal dystrophies but also for other keratinopathies caused by similar mutations.">
+		<entity id="s3.e1" charOffset="65-82"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e2" charOffset="152-171"
+			type="HP" text="corneal dystrophies" ontology_id="HP_0001131"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

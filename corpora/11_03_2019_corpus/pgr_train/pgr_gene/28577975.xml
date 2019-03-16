@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28577975">
+	<sentence id="s1" text="Zic2 has been shown to be crucial to the progression of human cancers.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="Zic2" ontology_id="7546"/>
+		<entity id="s1.e2" charOffset="62-68"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, its role in hepatocellular carcinoma (HCC) remains unclear.">
+		<entity id="s2.e1" charOffset="21-45"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s2.e2" charOffset="47-50"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our data showed that Zic2 expression gradually increased from normal to cancer to metastatic tissues.">
+		<entity id="s3.e1" charOffset="21-25"
+			type="GENE" text="Zic2" ontology_id="7546"/>
+		<entity id="s3.e2" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Zic2 overexpression promoted, whereas Zic2 knockdown inhibited, cell proliferation and migration in vitro as well as tumor growth and metastasis in vivo.">
+		<entity id="s4.e1" charOffset="0-4"
+			type="GENE" text="Zic2" ontology_id="7546"/>
+		<entity id="s4.e2" charOffset="117-122"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

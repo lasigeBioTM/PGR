@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27000805">
+	<sentence id="s1" text="We presented the significant clinical heterogeneity among three Chinese late-onset MADD patients with similar ETFDH genotype by collecting clinical information, muscle histology, and genetic analysis.">
+		<entity id="s1.e1" charOffset="38-51"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="83-87"
+			type="GENE" text="MADD" ontology_id="2108"/>
+		<entity id="s1.e3" charOffset="110-115"
+			type="GENE" text="ETFDH" ontology_id="2110"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

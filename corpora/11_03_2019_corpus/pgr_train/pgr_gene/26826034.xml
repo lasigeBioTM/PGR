@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26826034">
+	<sentence id="s1" text="This is especially relevant in the context of the aerobic glycolysis, also known as the Warburg effect, which is a hallmark in many types of cancer, and MPC loss of function promotes cancer growth.">
+		<entity id="s1.e1" charOffset="132-136"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="141-147"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this review we discuss recent advances in our knowledge of the MPC, and we argue that it may offer a promising target in diseases like cancer and type 2 diabetes.">
+		<entity id="s2.e1" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="149-153"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

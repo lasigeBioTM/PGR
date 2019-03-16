@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23020131">
+	<sentence id="s1" text="Based on screening results, five unique genes (GNPAT, SUMO1, SPINT2, FLI1, and SSX1) significantly potentiated the growth inhibitory effects of CDDO-Me and induced apoptosis in A375, a BRAF mutated melanoma line (P AAAA 0.001).">
+		<entity id="s1.e1" charOffset="47-52"
+			type="GENE" text="GNPAT" ontology_id="8443"/>
+		<entity id="s1.e2" charOffset="54-59"
+			type="GENE" text="SUMO1" ontology_id="7341"/>
+		<entity id="s1.e3" charOffset="61-67"
+			type="GENE" text="SPINT2" ontology_id="10653"/>
+		<entity id="s1.e4" charOffset="69-73"
+			type="GENE" text="FLI1" ontology_id="2313"/>
+		<entity id="s1.e5" charOffset="79-83"
+			type="GENE" text="SSX1" ontology_id="6756"/>
+		<entity id="s1.e6" charOffset="185-189"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s1.e7" charOffset="198-206"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our findings indicate that GNPAT, SUMO1, SPINT2, FLI1, and SSX1 play critical roles in synergy with inflammation pathways in modulating melanoma cell survival and could serve as sensitizing targets to enhance CDDO-Me efficacy in melanoma growth control">
+		<entity id="s2.e1" charOffset="27-32"
+			type="GENE" text="GNPAT" ontology_id="8443"/>
+		<entity id="s2.e2" charOffset="34-39"
+			type="GENE" text="SUMO1" ontology_id="7341"/>
+		<entity id="s2.e3" charOffset="41-47"
+			type="GENE" text="SPINT2" ontology_id="10653"/>
+		<entity id="s2.e4" charOffset="49-53"
+			type="GENE" text="FLI1" ontology_id="2313"/>
+		<entity id="s2.e5" charOffset="59-63"
+			type="GENE" text="SSX1" ontology_id="6756"/>
+		<entity id="s2.e6" charOffset="136-144"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

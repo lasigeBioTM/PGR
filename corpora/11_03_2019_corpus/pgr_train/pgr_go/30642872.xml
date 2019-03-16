@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30642872">
+	<sentence id="s1" text="By 3 months, zonular fibers invariably ruptured and apoptotic process developed ectopia lentis, a hallmark of Marfan syndrome.">
+		<entity id="s1.e1" charOffset="52-69"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="80-94"
+			type="HP" text="ectopia lentis" ontology_id="HP_0001083"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

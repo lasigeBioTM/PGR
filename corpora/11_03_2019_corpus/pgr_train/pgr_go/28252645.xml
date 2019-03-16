@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28252645">
+	<sentence id="s1" text="We show here that histone deacetylation depletion in MYCN-driven neuroblastoma cell lines strongly induces cell death, mostly mediated by apoptotic programs.">
+		<entity id="s1.e1" charOffset="18-39"
+			type="GO" text="histone deacetylation" ontology_id="GO_0016575"/>
+		<entity id="s1.e2" charOffset="65-78"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our study identified a group of cell cycle-promoting genes regulated by histone deacetylation, being both predictors of unfavorable patient outcome and essential for tumor cell viability.">
+		<entity id="s2.e1" charOffset="72-93"
+			type="GO" text="histone deacetylation" ontology_id="GO_0016575"/>
+		<entity id="s2.e2" charOffset="166-171"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The data indicate a significant role of histone deacetylation for mitotic cell cycle progression and survival of MYCN-amplified neuroblastoma cells, and suggests that HDAC11 could be a valuable drug target">
+		<entity id="s3.e1" charOffset="40-61"
+			type="GO" text="histone deacetylation" ontology_id="GO_0016575"/>
+		<entity id="s3.e2" charOffset="128-141"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26626801">
+	<sentence id="s1" text="The 21 genes comprised 8 tumor suppressor candidates (ATM, MSH2, PIK3R1, PTCH1, PTEN, TET2, TP53, and TSC1) and 13 oncogene candidates (ALK, BCL9, CTNNB1, ERBB2, FGFR2, FLT3, HNF1A, KIT, MTOR, PDGFRA, PPP2R1A, PTPN11, and SF3B1).">
+		<entity id="s1.e1" charOffset="25-30"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="54-57"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s1.e3" charOffset="59-63"
+			type="GENE" text="MSH2" ontology_id="4436"/>
+		<entity id="s1.e4" charOffset="65-71"
+			type="GENE" text="PIK3R1" ontology_id="5295"/>
+		<entity id="s1.e5" charOffset="73-78"
+			type="GENE" text="PTCH1" ontology_id="5727"/>
+		<entity id="s1.e6" charOffset="80-84"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s1.e7" charOffset="86-90"
+			type="GENE" text="TET2" ontology_id="54790"/>
+		<entity id="s1.e8" charOffset="102-106"
+			type="GENE" text="TSC1" ontology_id="7248"/>
+		<entity id="s1.e9" charOffset="136-139"
+			type="GENE" text="ALK" ontology_id="238"/>
+		<entity id="s1.e10" charOffset="141-145"
+			type="GENE" text="BCL9" ontology_id="607"/>
+		<entity id="s1.e11" charOffset="147-153"
+			type="GENE" text="CTNNB1" ontology_id="1499"/>
+		<entity id="s1.e12" charOffset="155-160"
+			type="GENE" text="ERBB2" ontology_id="2064"/>
+		<entity id="s1.e13" charOffset="162-167"
+			type="GENE" text="FGFR2" ontology_id="2263"/>
+		<entity id="s1.e14" charOffset="169-173"
+			type="GENE" text="FLT3" ontology_id="2322"/>
+		<entity id="s1.e15" charOffset="175-180"
+			type="GENE" text="HNF1A" ontology_id="6927"/>
+		<entity id="s1.e16" charOffset="182-185"
+			type="GENE" text="KIT" ontology_id="3815"/>
+		<entity id="s1.e17" charOffset="187-191"
+			type="GENE" text="MTOR" ontology_id="2475"/>
+		<entity id="s1.e18" charOffset="193-199"
+			type="GENE" text="PDGFRA" ontology_id="5156"/>
+		<entity id="s1.e19" charOffset="201-208"
+			type="GENE" text="PPP2R1A" ontology_id="5518"/>
+		<entity id="s1.e20" charOffset="210-216"
+			type="GENE" text="PTPN11" ontology_id="5781"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e1"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e1"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e1"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e1"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e1"
+		    e2="s1.e19" pgr="false"/>
+		<pair id="s1.p19" e1="s1.e1"
+		    e2="s1.e20" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We identified a high frequency of mutations in PTEN (50%) and genes involved in the endometrial cancer-related molecular pathway, which involves the IL-7 signaling pathway (PIK3R1, n=1; AKT2, n=1; FOXO1, n=1).">
+		<entity id="s2.e1" charOffset="47-51"
+			type="GENE" text="PTEN" ontology_id="5728"/>
+		<entity id="s2.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="173-179"
+			type="GENE" text="PIK3R1" ontology_id="5295"/>
+		<entity id="s2.e4" charOffset="186-190"
+			type="GENE" text="AKT2" ontology_id="208"/>
+		<entity id="s2.e5" charOffset="197-202"
+			type="GENE" text="FOXO1" ontology_id="2308"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We believe that this study will shed new light on fundamental aspects for understanding the molecular pathogenesis of endometrial cancer and may aid in the development of new targeted therapies.">
+		<entity id="s3.e1" charOffset="41-46"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s3.e2" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="145-148"
+			type="GENE" text="aid" ontology_id="57379"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29240685">
+	<sentence id="s1" text="Instead, biallelic mutations have been associated with afibrinogenemia/severe hypofibrinogenemia, i.e., the severest forms of fibrinogen deficiency, affecting approximately 1-2 cases per million people.">
+		<entity id="s1.e1" charOffset="78-96"
+			type="HP" text="hypofibrinogenemia" ontology_id="HP_0011900"/>
+		<entity id="s1.e2" charOffset="183-186"
+			type="GENE" text="per" ontology_id="93210"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

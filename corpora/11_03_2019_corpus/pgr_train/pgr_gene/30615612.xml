@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30615612">
+	<sentence id="s1" text="Phase 2 occurs postnatally through adult stages with bone marrow production of granulocyte precursors and positive selection of mutants due to chronic G-CSF therapy to reverse the severe neutropenia.">
+		<entity id="s1.e1" charOffset="151-156"
+			type="GENE" text="G-CSF" ontology_id="1440"/>
+		<entity id="s1.e2" charOffset="187-198"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

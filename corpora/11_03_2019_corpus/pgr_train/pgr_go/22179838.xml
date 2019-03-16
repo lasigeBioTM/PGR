@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22179838">
+	<sentence id="s1" text="By analyzing public data sets of gene expression in human breast cancers we observed that increased levels of transcripts encoding the planar cell polarity (proteolysis) proteins cell proliferation and Wnt signaling pathway, planar cell polarity pathway correlate with increased risk of patient relapse.">
+		<entity id="s1.e1" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="157-168"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e3" charOffset="179-197"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s1.e4" charOffset="202-253"
+			type="GO" text="Wnt signaling pathway, planar cell polarity pathway" ontology_id="GO_0060071"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Experimentally, we found that reducing expression of cell proliferation by short-hairpin RNAs (shRNAs) reduces the growth of human breast cancer cells in xenograft assays.">
+		<entity id="s2.e1" charOffset="53-71"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s2.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="To investigate cell proliferation-associated proteins that might participate in the responses of breast cancer cells to altered levels of SCRIB, we used cell adhesion mediated by integrin spectrometry and confocal microscopy.">
+		<entity id="s3.e1" charOffset="15-33"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s3.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="153-187"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Focusing on postsynaptic actin cytoskeleton organization, we observed that NOS1AP colocalizes with both cell proliferation and Wnt signaling pathway, planar cell polarity pathway along cellular protrusions in metastatic breast cancer cells, but does not colocalize with either SCRIB or VANGL1 at cell junctions in normal breast cells.">
+		<entity id="s4.e1" charOffset="12-56"
+			type="GO" text="postsynaptic actin cytoskeleton organization" ontology_id="GO_0098974"/>
+		<entity id="s4.e2" charOffset="66-84"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s4.e3" charOffset="89-140"
+			type="GO" text="Wnt signaling pathway, planar cell polarity pathway" ontology_id="GO_0060071"/>
+		<entity id="s4.e4" charOffset="144-150"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="We investigated the effects of shRNA-mediated knockdown of postsynaptic actin cytoskeleton organization and cell proliferation in vitro, and found that reducing NOS1AP and SCRIB slows breast cancer cell migration and prevents the establishment of leading-trailing polarity.">
+		<entity id="s5.e1" charOffset="59-103"
+			type="GO" text="postsynaptic actin cytoskeleton organization" ontology_id="GO_0098974"/>
+		<entity id="s5.e2" charOffset="70-88"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s5.e3" charOffset="153-159"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

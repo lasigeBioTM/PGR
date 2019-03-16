@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24022475">
+	<sentence id="s1" text="We describe a previously unreported syndrome characterized by secondary (post-natal) microcephaly with fronto-temporal lobe hypoplasia, multiple pituitary hormone deficiency, seizures, severe visual impairment and abnormalities of the kidneys and urinary tract in a highly consanguineous family with six affected children.">
+		<entity id="s1.e1" charOffset="85-97"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="119-123"
+			type="GENE" text="lobe" ontology_id="84335"/>
+		<entity id="s1.e3" charOffset="175-183"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="192-209"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also show expression of ARNT2 within the central nervous system, including the hypothalamus, as well as the renal tract during human embryonic development.">
+		<entity id="s2.e1" charOffset="27-32"
+			type="GENE" text="ARNT2" ontology_id="9915"/>
+		<entity id="s2.e2" charOffset="44-51"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The progressive neurological abnormalities, congenital hypopituitarism and post-retinal visual pathway dysfunction in affected individuals demonstrates for the first time the essential role of ARNT2 in the development of the hypothalamo-pituitary axis, post-natal brain growth, and visual and renal function in humans.">
+		<entity id="s3.e1" charOffset="16-42"
+			type="HP" text="neurological abnormalities" ontology_id="HP_0000707"/>
+		<entity id="s3.e2" charOffset="55-70"
+			type="HP" text="hypopituitarism" ontology_id="HP_0040075"/>
+		<entity id="s3.e3" charOffset="193-198"
+			type="GENE" text="ARNT2" ontology_id="9915"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

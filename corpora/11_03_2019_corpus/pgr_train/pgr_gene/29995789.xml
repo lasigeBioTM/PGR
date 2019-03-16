@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29995789">
+	<sentence id="s1" text="This case-control study was aimed to evaluate the influence of cytochrome P450 family 17 subfamily A member 1 (CYP17A1) gene rs743572 polymorphism for the susceptibility to endometriosis.Polymerase chain reaction-restriction fragment length polymorphism (PCR-RFLP) was used to genotype rs743572 polymorphism in 143 endometriosis patients and 148 healthy controls.">
+		<entity id="s1.e1" charOffset="111-118"
+			type="GENE" text="CYP17A1" ontology_id="1586"/>
+		<entity id="s1.e2" charOffset="173-186"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s1.e3" charOffset="206-209"
+			type="GENE" text="act" ontology_id="11332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="But we failed to find any obvious association of rs743572 genotypes with endometriosis stages and characteristics.T allele of rs743572 polymorphism might act as a risk factor for endometriosis, although it had no effects on the disease stages and basic features">
+		<entity id="s2.e1" charOffset="17-21"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s2.e2" charOffset="73-86"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s2.e3" charOffset="102-105"
+			type="GENE" text="act" ontology_id="11332"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

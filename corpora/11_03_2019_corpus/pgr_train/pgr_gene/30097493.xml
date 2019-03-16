@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30097493">
+	<sentence id="s1" text="Partial loss-of-function variants in the TREM2 immune receptor are associated with increased risk for Alzheimer's disease (AD) and other forms of neurodegenerative disease, but the molecular bases for these connections are unknown.">
+		<entity id="s1.e1" charOffset="41-46"
+			type="GENE" text="TREM2" ontology_id="54209"/>
+		<entity id="s1.e2" charOffset="146-171"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

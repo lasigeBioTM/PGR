@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28777491">
+	<sentence id="s1" text="Horstick et al. (2013) previously reported a homozygous p.Trp284Ser variant in STAC3 as the cause of Native American myopathy (NAM) in 5 Lumbee Native American families with congenital hypotonia and weakness, cleft palate, short stature, ptosis, kyphoscoliosis, talipes deformities, and susceptibility to malignant hyperthermia (MH).">
+		<entity id="s1.e1" charOffset="79-84"
+			type="GENE" text="STAC3" ontology_id="246329"/>
+		<entity id="s1.e2" charOffset="209-221"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<entity id="s1.e3" charOffset="223-236"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e4" charOffset="238-244"
+			type="HP" text="ptosis" ontology_id="HP_0000508"/>
+		<entity id="s1.e5" charOffset="246-260"
+			type="HP" text="kyphoscoliosis" ontology_id="HP_0002751"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

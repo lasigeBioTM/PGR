@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28754672">
+	<sentence id="s1" text="Here we cellular response to interleukin-4 that a lymphocyte lineage-restricted transcription factor, positive regulation of transcription by RNA polymerase II, is frequently expressed in human lung cancer tissues.">
+		<entity id="s1.e1" charOffset="8-42"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s1.e2" charOffset="102-159"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e3" charOffset="147-153"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The positive regulation of transcription by RNA polymerase II-expressing cancer cells coexpressed vimentin but repressed E-integrin-mediated signaling pathway and exhibited invasive behavior.">
+		<entity id="s2.e1" charOffset="4-61"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e2" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="123-158"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Increased positive regulation of transcription by RNA polymerase II expression was associated with tumor grade, lymphatic metastasis, and short overall survival.">
+		<entity id="s3.e1" charOffset="10-67"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e2" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="These data suggest that positive regulation of transcription by RNA polymerase II participates in mesenchymal invasion, linking epithelial cancer metastasis with a lymphatic transcriptional program.">
+		<entity id="s4.e1" charOffset="24-81"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s4.e2" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

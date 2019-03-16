@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30086807">
+	<sentence id="s1" text="Eighteen MCPH loci (MCPH1-MCPH18) have been mapped to date from various populations around the world and contain the following genes: Microcephalin, mitotic spindle organization, microtubule cytoskeleton organization, CASC5, spindle organization, centriole elongation, centrosome duplication, centriole replication, centrosome duplication, brain development, histone ubiquitination, positive regulation of cell-matrix adhesion, mitotic chromosome movement towards spindle pole, centriole replication, lysophospholipid transport, central nervous system development, mitotic cytokinesis and aggrephagy, clarifying our understanding about the molecular basis of microcephaly genetic disorder.">
+		<entity id="s1.e1" charOffset="149-177"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<entity id="s1.e2" charOffset="179-216"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<entity id="s1.e3" charOffset="225-245"
+			type="GO" text="spindle organization" ontology_id="GO_0007051"/>
+		<entity id="s1.e4" charOffset="247-267"
+			type="GO" text="centriole elongation" ontology_id="GO_0061511"/>
+		<entity id="s1.e5" charOffset="269-291"
+			type="GO" text="centrosome duplication" ontology_id="GO_0051298"/>
+		<entity id="s1.e6" charOffset="293-314"
+			type="GO" text="centriole replication" ontology_id="GO_0007099"/>
+		<entity id="s1.e7" charOffset="316-338"
+			type="GO" text="centrosome duplication" ontology_id="GO_0051298"/>
+		<entity id="s1.e8" charOffset="340-357"
+			type="GO" text="brain development" ontology_id="GO_0007420"/>
+		<entity id="s1.e9" charOffset="354-366"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e10" charOffset="359-381"
+			type="GO" text="histone ubiquitination" ontology_id="GO_0016574"/>
+		<entity id="s1.e11" charOffset="383-426"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e12" charOffset="428-476"
+			type="GO" text="mitotic chromosome movement towards spindle pole" ontology_id="GO_0007079"/>
+		<entity id="s1.e13" charOffset="478-499"
+			type="GO" text="centriole replication" ontology_id="GO_0007099"/>
+		<entity id="s1.e14" charOffset="501-527"
+			type="GO" text="lysophospholipid transport" ontology_id="GO_0051977"/>
+		<entity id="s1.e15" charOffset="529-563"
+			type="GO" text="central nervous system development" ontology_id="GO_0007417"/>
+		<entity id="s1.e16" charOffset="565-584"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s1.e17" charOffset="589-599"
+			type="GO" text="aggrephagy" ontology_id="GO_0035973"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e12"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e13"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e14"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e15"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e16"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e17"
+		    e2="s1.e9" pgr="false"/>
+	</sentence>
+</document>

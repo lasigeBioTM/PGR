@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29196101">
+	<sentence id="s1" text="This study aimed to elucidate the potential functional mechanism of protein polyubiquitination-135b-5p in migration, invasion and epithelial-to-mesenchymal transition (cytokine production) of pancreatic cancer cells.">
+		<entity id="s1.e1" charOffset="68-94"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="168-187"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<entity id="s1.e3" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="By real-time PCR and analysis of GEO database, we determined the up-regulated expression of protein polyubiquitination-135b-5p in pancreatic cancer tissues and cell lines.">
+		<entity id="s2.e1" charOffset="92-118"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="141-147"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Functionally, Transwell assays indicated that protein polyubiquitination-135b-5p was a promoter for migration and invasion of pancreatic cancer cells.">
+		<entity id="s3.e1" charOffset="46-72"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Additionally, immunohistochemistry staining and Western blot showed that highly expressed protein polyubiquitination-135b-5p accelerated cytokine production process of pancreatic cancer cells.">
+		<entity id="s4.e1" charOffset="90-116"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e2" charOffset="137-156"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<entity id="s4.e3" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Furthermore, a series of experiments and rescue experiments revealed that Nuclear Receptor Subfamily 3 Group C Member 2 (NR3C2) was the target of protein polyubiquitination-135b-5p in pancreatic cancer cells, mediating the promotion effects of protein polyubiquitination-135b-5p on the tumor cells migration, invasion and cytokine production.">
+		<entity id="s5.e1" charOffset="146-172"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s5.e2" charOffset="195-201"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="263-268"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e4" charOffset="299-318"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e6"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="In conclusion, protein polyubiquitination-135b-5p, maybe a novel therapeutic target for pancreatic cancer, promoted migration, invasion and cytokine production of pancreatic cancer cells by targeting NR3C2">
+		<entity id="s6.e1" charOffset="15-41"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s6.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="140-159"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="true"/>
+	</sentence>
+</document>

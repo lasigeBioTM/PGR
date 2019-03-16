@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21224892">
+	<sentence id="s1" text="Myotonic dystrophy cardiac muscle tissue development 2 (DM2) is a progressive multisystem disease with muscle weakness and myotonia as main characteristics.">
+		<entity id="s1.e1" charOffset="19-52"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="123-131"
+			type="HP" text="myotonia" ontology_id="HP_0002486"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

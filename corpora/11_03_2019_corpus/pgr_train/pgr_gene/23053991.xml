@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23053991">
+	<sentence id="s1" text="Recently, it has been demonstrated that, mutations of LRTOMT are associated with profound nonsyndromic hearing impairment at the DFNB63 locus.">
+		<entity id="s1.e1" charOffset="54-60"
+			type="GENE" text="LRTOMT" ontology_id="220074"/>
+		<entity id="s1.e2" charOffset="81-89"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s1.e3" charOffset="103-121"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="129-135"
+			type="GENE" text="DFNB63" ontology_id="220074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The objective of this study is to evaluate the carrier frequency of c.242GAAAAA mutation in LRTOMT gene and define the contribution of this gene in the etiology of deafness in Moroccan population.">
+		<entity id="s2.e1" charOffset="92-98"
+			type="GENE" text="LRTOMT" ontology_id="220074"/>
+		<entity id="s2.e2" charOffset="164-172"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results show that after the GJB2 gene mutation in LRTOMT gene is the second cause of congenital hearing impairment in Moroccan patients.">
+		<entity id="s3.e1" charOffset="32-36"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s3.e2" charOffset="54-60"
+			type="GENE" text="LRTOMT" ontology_id="220074"/>
+		<entity id="s3.e3" charOffset="100-118"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29961928">
+	<sentence id="s1" text="Humans who carry HNF1B mutations develop heterogeneous renal abnormalities, including multicystic dysplastic kidneys, glomerulocystic kidney disease, renal agenesis, renal hypoplasia, and renal interstitial fibrosis.">
+		<entity id="s1.e1" charOffset="17-22"
+			type="GENE" text="HNF1B" ontology_id="6928"/>
+		<entity id="s1.e2" charOffset="41-54"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="150-164"
+			type="HP" text="renal agenesis" ontology_id="HP_0000104"/>
+		<entity id="s1.e4" charOffset="166-182"
+			type="HP" text="renal hypoplasia" ontology_id="HP_0000089"/>
+		<entity id="s1.e5" charOffset="188-215"
+			type="HP" text="renal interstitial fibrosis" ontology_id="HP_0005576"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

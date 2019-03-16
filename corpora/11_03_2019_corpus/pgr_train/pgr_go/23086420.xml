@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23086420">
+	<sentence id="s1" text="Several myotubularins have been genetically linked to human diseases: protein dephosphorylation is mutated in the congenital myopathy X-linked centronuclear or myotubular myopathy (XLCNM) and phosphatidylinositol biosynthetic process (JUMPY) has been linked to an autosomal form of such disease, while phosphatidylinositol dephosphorylation and myelination are mutated in Charcot-Marie-Tooth (CMT) neuropathies.">
+		<entity id="s1.e1" charOffset="70-95"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s1.e2" charOffset="125-133"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e3" charOffset="192-233"
+			type="GO" text="phosphatidylinositol biosynthetic process" ontology_id="GO_0006661"/>
+		<entity id="s1.e4" charOffset="302-340"
+			type="GO" text="phosphatidylinositol dephosphorylation" ontology_id="GO_0046856"/>
+		<entity id="s1.e5" charOffset="345-356"
+			type="GO" text="myelination" ontology_id="GO_0042552"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28544463">
+	<sentence id="s1" text="This study also identified a de novo c.3015_3027dup frameshift mutation predicting p.Lys1010Glnfs*57 in NEFH from a CMT2 family with an atypical clinical symptom of prominent proximal weakness.">
+		<entity id="s1.e1" charOffset="104-108"
+			type="GENE" text="NEFH" ontology_id="4744"/>
+		<entity id="s1.e2" charOffset="116-120"
+			type="GENE" text="CMT2" ontology_id="23095"/>
+		<entity id="s1.e3" charOffset="175-183"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, this study suggests that the stop loss and translational elongations by the 3' UTR of the NEFH mutations may be a relatively frequent genetic cause of axonal peripheral neuropathy with the specific characteristics of proximal dominant weakness">
+		<entity id="s2.e1" charOffset="40-44"
+			type="GENE" text="stop" ontology_id="4135"/>
+		<entity id="s2.e2" charOffset="101-105"
+			type="GENE" text="NEFH" ontology_id="4744"/>
+		<entity id="s2.e3" charOffset="228-236"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

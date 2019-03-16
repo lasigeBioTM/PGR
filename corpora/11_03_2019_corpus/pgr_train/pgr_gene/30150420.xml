@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30150420">
+	<sentence id="s1" text="There are several genetic mutations that lead to ALS development, such as chromosome 9 hexanucleotide repeat 72 (C9ORF72), transactive response DNA-binding protein (TARDBP), superoxide dismutase 1 (SOD1) and fused in sarcoma (FUS).">
+		<entity id="s1.e1" charOffset="49-52"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e2" charOffset="113-120"
+			type="GENE" text="C9ORF72" ontology_id="203228"/>
+		<entity id="s1.e3" charOffset="165-171"
+			type="GENE" text="TARDBP" ontology_id="23435"/>
+		<entity id="s1.e4" charOffset="198-202"
+			type="GENE" text="SOD1" ontology_id="6647"/>
+		<entity id="s1.e5" charOffset="217-224"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e6" charOffset="226-229"
+			type="GENE" text="FUS" ontology_id="2521"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

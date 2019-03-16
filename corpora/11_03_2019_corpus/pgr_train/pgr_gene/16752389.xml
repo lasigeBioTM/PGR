@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16752389">
+	<sentence id="s1" text="In two large Turkish consanguineous families, a locus for autosomal recessive nonsyndromic hearing loss (ARNSHL) was mapped to chromosome 6p21.3 by genome-wide linkage analysis in an interval overlapping with the loci DFNB53 (COL11A2), DFNB66, and DFNB67.">
+		<entity id="s1.e1" charOffset="58-77"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="91-103"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="218-224"
+			type="GENE" text="DFNB53" ontology_id="1302"/>
+		<entity id="s1.e4" charOffset="226-233"
+			type="GENE" text="COL11A2" ontology_id="1302"/>
+		<entity id="s1.e5" charOffset="248-254"
+			type="GENE" text="DFNB67" ontology_id="222662"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e7"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Fine mapping excluded DFNB53 and subsequently homozygous mutations were identified in the lipoma HMGIC fusion partner-like 5 (LHFPL5) gene, also named tetraspan membrane protein of hair cell stereocilia (TMHS) gene, which was recently shown to be mutated in the AAAAAAhurry scurryAAAAAA mouse and in two DFNB67-linked families from Pakistan.">
+		<entity id="s2.e1" charOffset="22-28"
+			type="GENE" text="DFNB53" ontology_id="1302"/>
+		<entity id="s2.e2" charOffset="90-96"
+			type="HP" text="lipoma" ontology_id="HP_0012032"/>
+		<entity id="s2.e3" charOffset="97-102"
+			type="GENE" text="HMGIC" ontology_id="8091"/>
+		<entity id="s2.e4" charOffset="126-132"
+			type="GENE" text="LHFPL5" ontology_id="222662"/>
+		<entity id="s2.e5" charOffset="151-160"
+			type="GENE" text="tetraspan" ontology_id="7106"/>
+		<entity id="s2.e6" charOffset="204-208"
+			type="GENE" text="TMHS" ontology_id="222662"/>
+		<entity id="s2.e7" charOffset="304-310"
+			type="GENE" text="DFNB67" ontology_id="222662"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e7" pgr="false"/>
+	</sentence>
+</document>

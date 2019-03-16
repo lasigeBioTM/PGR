@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29512714">
+	<sentence id="s1" text="The tumor suppressor characteristics of cyclin‑dependent kinase 10 (CDK10) in nasopharyngeal carcinoma and breast cancer have been previously demonstrated.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="68-73"
+			type="GENE" text="CDK10" ontology_id="8558"/>
+		<entity id="s1.e3" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study the expression status of CDK10 and its prognostic significance in gastric cancer was determined, as well as its role in cell proliferation and invasion.">
+		<entity id="s2.e1" charOffset="46-51"
+			type="GENE" text="CDK10" ontology_id="8558"/>
+		<entity id="s2.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Immunoblot analysis revealed that CDK10 protein expression was notably decreased in gastric cancer compared with normal tissues.">
+		<entity id="s3.e1" charOffset="34-39"
+			type="GENE" text="CDK10" ontology_id="8558"/>
+		<entity id="s3.e2" charOffset="92-98"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Immunohistochemistry demonstrated that the loss of CDK10 expression, which was observed in 50.8% of primary gastric cancer tissues (n=128), significantly correlated with advanced tumor stage (PAAAA0.001), frequent lymph node metastasis (PAAAA0.001), distant metastasis (P=0.013), tumor differentiation (P=0.004) and unfavorable overall survival (PAAAA0.001).">
+		<entity id="s4.e1" charOffset="51-56"
+			type="GENE" text="CDK10" ontology_id="8558"/>
+		<entity id="s4.e2" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="179-184"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Multivariate analysis suggested that CDK10 expression may serve as an independent prognostic predictor (P=0.001) for the progression of gastric cancer.">
+		<entity id="s5.e1" charOffset="37-42"
+			type="GENE" text="CDK10" ontology_id="8558"/>
+		<entity id="s5.e2" charOffset="144-150"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In addition, ectopic CDK10 expression inhibited gastric cancer cell proliferation, migration and invasion, while knockdown of CDK10 promoted these phenotypes.">
+		<entity id="s6.e1" charOffset="21-26"
+			type="GENE" text="CDK10" ontology_id="8558"/>
+		<entity id="s6.e2" charOffset="56-62"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

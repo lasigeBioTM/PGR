@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20005768">
+	<sentence id="s1" text="The aim of this study was to examine the Kif2a expression and its role in tumor progression, invasion and metastasis in squamous cell carcinoma of the oral tongue (SCCOT).">
+		<entity id="s1.e1" charOffset="41-46"
+			type="GENE" text="Kif2a" ontology_id="3796"/>
+		<entity id="s1.e2" charOffset="74-79"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Immunohistochemistry was used to observe the Kif2a expression and its correlation with clinicopathologic factors in oral tongue cancer.">
+		<entity id="s2.e1" charOffset="45-50"
+			type="GENE" text="Kif2a" ontology_id="3796"/>
+		<entity id="s2.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The immunohistochemistry showed that Kif2a expression was stronger in oral tongue cancer tissues than in paired adjacent tissues (PAAAA0.01), and the higher expression of Kif2a was also significantly associated with lymph node metastasis (PAAAA0.01), tumor clinical stage (PAAAA0.01).">
+		<entity id="s3.e1" charOffset="37-42"
+			type="GENE" text="Kif2a" ontology_id="3796"/>
+		<entity id="s3.e2" charOffset="82-88"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="251-256"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

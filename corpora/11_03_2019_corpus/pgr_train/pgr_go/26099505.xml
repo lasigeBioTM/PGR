@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26099505">
+	<sentence id="s1" text="Also as pro-angiogenic inducer, the role of activation of innate immune response in different redox states has never been defined in tumour angiogenesis.">
+		<entity id="s1.e1" charOffset="44-80"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s1.e2" charOffset="133-139"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Functional inhibition of activation of innate immune response and its receptors abrogated HMGB1-induced angiogenic properties of ECs co-cultured with tumour cells.">
+		<entity id="s2.e1" charOffset="25-61"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s2.e2" charOffset="150-156"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="activation of innate immune response orchestrates the key events of tumour angiogenesis, migration of ECs and their induction to secrete negative regulation of transcription by RNA polymerase II, by adopting distinct redox states.">
+		<entity id="s3.e1" charOffset="0-36"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<entity id="s3.e2" charOffset="68-74"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="137-194"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

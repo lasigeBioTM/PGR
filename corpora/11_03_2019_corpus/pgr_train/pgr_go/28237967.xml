@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28237967">
+	<sentence id="s1" text="A key aspect of several adult lung diseases, such as idiopathic pulmonary fibrosis (IPF) and chronic obstructive pulmonary disease (ER to Golgi vesicle-mediated transport), including emphysema, is aberrant tissue repair, which leads to an accumulation of cellular protein catabolic process and impaired respiratory function.">
+		<entity id="s1.e1" charOffset="132-170"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="183-192"
+			type="HP" text="emphysema" ontology_id="HP_0002097"/>
+		<entity id="s1.e3" charOffset="289-289"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In addition, we show that li>Vangl2<sup>Lp/+</sup></i> lungs exhibit many of the hallmarks of tissue cellular protein catabolic process, including an altered macrophage population, abnormal elastin deposition and elevated levels of the elastin-modifying enzyme, li>Mmp12</i>, all of which are observed in emphysema.">
+		<entity id="s2.e1" charOffset="101-135"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<entity id="s2.e2" charOffset="305-314"
+			type="HP" text="emphysema" ontology_id="HP_0002097"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Finally, we show that proteolysis genes li>VANGL2</i> and li>SCRIB</i> are significantly downregulated in lung tissue from patients with emphysema.">
+		<entity id="s3.e1" charOffset="22-33"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s3.e2" charOffset="137-146"
+			type="HP" text="emphysema" ontology_id="HP_0002097"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

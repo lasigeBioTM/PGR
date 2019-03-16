@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27799525">
+	<sentence id="s1" text="The tumor cells resembled pro-B cells, and were CD19<sup>+</sup>IgM<sup>-</sup>IgD<sup>-</sup>CD93<sup>+</sup>CD43<sup>+</sup>CD21<sup>-</sup>CD23<sup>-</sup>VpreB<sup>+</sup>CXCR4<sup>+</sup> Consistent with the pro-B-cell stage of B-cell development, microarray analysis revealed enrichment of transcripts, including V(D)J recombination, pre-B cell allelic exclusion, CD93, immunoglobulin production, immunoglobulin production, and phagocytosis, recognition We confirmed V(D)J recombination expression in Tg26 tumors, and hypothesized that HIV-1 matrix protein p17 may directly induce RAG1 in B cells.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="319-338"
+			type="GO" text="V(D)J recombination" ontology_id="GO_0033151"/>
+		<entity id="s1.e3" charOffset="340-368"
+			type="GO" text="pre-B cell allelic exclusion" ontology_id="GO_0002331"/>
+		<entity id="s1.e4" charOffset="376-401"
+			type="GO" text="immunoglobulin production" ontology_id="GO_0002377"/>
+		<entity id="s1.e5" charOffset="403-428"
+			type="GO" text="immunoglobulin production" ontology_id="GO_0002377"/>
+		<entity id="s1.e6" charOffset="434-459"
+			type="GO" text="phagocytosis, recognition" ontology_id="GO_0006910"/>
+		<entity id="s1.e7" charOffset="473-492"
+			type="GO" text="V(D)J recombination" ontology_id="GO_0033151"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+</document>

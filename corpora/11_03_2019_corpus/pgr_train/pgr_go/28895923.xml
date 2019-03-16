@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28895923">
+	<sentence id="s1" text="Beyond secretion, cGMP biosynthetic process is a tumor suppressor universally silenced by loss of expression of its paracrine hormone during carcinogenesis.">
+		<entity id="s1.e1" charOffset="18-43"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<entity id="s1.e2" charOffset="49-54"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus, the geographic imbalance in colorectal cancer, in part, may reflect chronic exposure to ST-producing organisms that restore cGMP biosynthetic process signaling silenced by hormone loss during transformation.">
+		<entity id="s2.e1" charOffset="45-51"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="130-155"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, apoptotic process colonized with ST-producing li>E. coli</i> exhibited a 50% reduction in carcinogen-induced colorectal tumor burden.">
+		<entity id="s3.e1" charOffset="10-27"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e2" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Thus, chronic colonization with li>ETEC</i> producing ST could contribute to endemic cancer resistance in developing countries, reinforcing a novel paradigm of colorectal cancer chemoprevention with oral cGMP biosynthetic process-targeted agents">
+		<entity id="s4.e1" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="204-229"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

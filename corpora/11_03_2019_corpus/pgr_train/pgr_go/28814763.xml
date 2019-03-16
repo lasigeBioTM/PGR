@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28814763">
+	<sentence id="s1" text="We demonstrate multicellular organism development genomic heterogeneity in more than 75% of patients, including inactivation of regulation of cyclin-dependent protein serine/threonine kinase activity and TP53, and mutations affecting mitogen-activated protein kinase genes.">
+		<entity id="s1.e1" charOffset="15-49"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s1.e2" charOffset="58-71"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="128-199"
+			type="GO" text="regulation of cyclin-dependent protein serine/threonine kinase activity" ontology_id="GO_0000079"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that the extent of multicellular organism development heterogeneity is positively associated with the size of biopsied focal lesions consistent with regional outgrowth of advanced clones.">
+		<entity id="s2.e1" charOffset="27-61"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s2.e2" charOffset="62-75"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, the authors use multi-region sequencing in patient samples to analyse multicellular organism development clonal architecture and heterogeneity, providing novel insight into multiple myeloma progression and evolution">
+		<entity id="s3.e1" charOffset="76-110"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s3.e2" charOffset="135-148"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

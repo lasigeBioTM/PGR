@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29217762">
+	<sentence id="s1" text="Here we report that UBE3A ubiquitylates and triggers degradation of the tumor-suppressive sirtuin SIRT6 in hepatocellular carcinoma.">
+		<entity id="s1.e1" charOffset="20-25"
+			type="GENE" text="UBE3A" ontology_id="7337"/>
+		<entity id="s1.e2" charOffset="72-77"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="98-103"
+			type="GENE" text="SIRT6" ontology_id="51548"/>
+		<entity id="s1.e4" charOffset="107-131"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In mouse models of hepatocellular carcinoma, SIRT6 downregulation and consequent induction of ANXA2 were critical for UBE3A-mediated tumorigenesis.">
+		<entity id="s2.e1" charOffset="19-43"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s2.e2" charOffset="45-50"
+			type="GENE" text="SIRT6" ontology_id="51548"/>
+		<entity id="s2.e3" charOffset="94-99"
+			type="GENE" text="ANXA2" ontology_id="302"/>
+		<entity id="s2.e4" charOffset="118-123"
+			type="GENE" text="UBE3A" ontology_id="7337"/>
+		<entity id="s2.e5" charOffset="133-138"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e7"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e7"
+		    e2="s2.e1" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, in clinical specimens, increased UBE3A levels correlated with reduced SIRT6 levels and elevated ANXA2 levels in increasing tumor grades.">
+		<entity id="s3.e1" charOffset="46-51"
+			type="GENE" text="UBE3A" ontology_id="7337"/>
+		<entity id="s3.e2" charOffset="83-88"
+			type="GENE" text="SIRT6" ontology_id="51548"/>
+		<entity id="s3.e3" charOffset="109-114"
+			type="GENE" text="ANXA2" ontology_id="302"/>
+		<entity id="s3.e4" charOffset="136-141"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Overall, our findings show how the tumor suppressor SIRT6 is regulated in hepatocellular carcinoma and establish the mechanism underlying UBE3A-mediated tumorigenesis in this disease.<b>Significance:</b> These findings provide mechanistic insights into regulation of the tumor suppressive sirtuin SIRT6 and its implications for the development of hepatocellular carcinoma.">
+		<entity id="s4.e1" charOffset="35-40"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="52-57"
+			type="GENE" text="SIRT6" ontology_id="51548"/>
+		<entity id="s4.e3" charOffset="74-98"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s4.e4" charOffset="138-143"
+			type="GENE" text="UBE3A" ontology_id="7337"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e3"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+</document>

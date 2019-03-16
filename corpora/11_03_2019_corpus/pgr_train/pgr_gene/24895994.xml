@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24895994">
+	<sentence id="s1" text="Defects in Membrane Frizzled-related Protein (MFRP) cause autosomal recessive retinitis pigmentosa (RP).">
+		<entity id="s1.e1" charOffset="46-50"
+			type="GENE" text="MFRP" ontology_id="83552"/>
+		<entity id="s1.e2" charOffset="58-77"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="100-102"
+			type="GENE" text="RP" ontology_id="100287745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

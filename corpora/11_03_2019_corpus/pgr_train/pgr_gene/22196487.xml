@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22196487">
+	<sentence id="s1" text="We summarize recent updates on the genes and related clinical syndromes involved in the pathogenesis of early-onset epileptic encephalopathies: Aristaless-related homeobox (ARX), cyclin-dependent kinase-like 5 (CDKL5), syntaxin-binding protein 1 (STXBP1), solute carrier family 25 member 22 (SLC25A22), nonerythrocytic α-spectrin-1 (SPTAN1), phospholipase Cβ1 (PLCβ1), membrane-associated guanylate kinase inverted-2 (MAGI2), polynucleotide kinase 3'-phosphatase (PNKP), sodium channel neuronal type 1α subunit (SCN1A), protocadherin 19 (PCDH19), and pyridoxamine 5-prime-phosphate oxidase (PNPO)">
+		<entity id="s1.e1" charOffset="116-142"
+			type="HP" text="epileptic encephalopathies" ontology_id="HP_0200134"/>
+		<entity id="s1.e2" charOffset="173-176"
+			type="GENE" text="ARX" ontology_id="10054"/>
+		<entity id="s1.e3" charOffset="211-216"
+			type="GENE" text="CDKL5" ontology_id="6792"/>
+		<entity id="s1.e4" charOffset="247-253"
+			type="GENE" text="STXBP1" ontology_id="6812"/>
+		<entity id="s1.e5" charOffset="292-300"
+			type="GENE" text="SLC25A22" ontology_id="79751"/>
+		<entity id="s1.e6" charOffset="333-339"
+			type="GENE" text="SPTAN1" ontology_id="6709"/>
+		<entity id="s1.e7" charOffset="418-423"
+			type="GENE" text="MAGI2" ontology_id="9863"/>
+		<entity id="s1.e8" charOffset="464-468"
+			type="GENE" text="PNKP" ontology_id="11284"/>
+		<entity id="s1.e9" charOffset="495-499"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e10" charOffset="512-517"
+			type="GENE" text="SCN1A" ontology_id="6323"/>
+		<entity id="s1.e11" charOffset="538-544"
+			type="GENE" text="PCDH19" ontology_id="57526"/>
+		<entity id="s1.e12" charOffset="591-595"
+			type="GENE" text="PNPO" ontology_id="55163"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+	</sentence>
+</document>

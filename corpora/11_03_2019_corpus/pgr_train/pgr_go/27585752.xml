@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27585752">
+	<sentence id="s1" text="Besides, previous evidence suggested that morphogenesis of a polarized epithelium expression was changed in schizophrenia patients.">
+		<entity id="s1.e1" charOffset="42-81"
+			type="GO" text="morphogenesis of a polarized epithelium" ontology_id="GO_0001738"/>
+		<entity id="s1.e2" charOffset="108-121"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, association signal between morphogenesis of a polarized epithelium variants and schizophrenia has been reported in several European samples.">
+		<entity id="s2.e1" charOffset="40-79"
+			type="GO" text="morphogenesis of a polarized epithelium" ontology_id="GO_0001738"/>
+		<entity id="s2.e2" charOffset="93-106"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the present study, we first analyzed two expression quantitative trait loci (eQTL) datasets in healthy individuals and investigated the associations of eQTL of morphogenesis of a polarized epithelium with schizophrenia in independent European samples.">
+		<entity id="s3.e1" charOffset="163-202"
+			type="GO" text="morphogenesis of a polarized epithelium" ontology_id="GO_0001738"/>
+		<entity id="s3.e2" charOffset="208-221"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="These results suggested that morphogenesis of a polarized epithelium is likely a risk gene for schizophrenia, at least in European populations.">
+		<entity id="s4.e1" charOffset="29-68"
+			type="GO" text="morphogenesis of a polarized epithelium" ontology_id="GO_0001738"/>
+		<entity id="s4.e2" charOffset="95-108"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

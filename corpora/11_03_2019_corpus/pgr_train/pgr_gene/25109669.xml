@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25109669">
+	<sentence id="s1" text="Episodic ataxia type 2 (EA2) is an autosomal dominant disorder associated with attacks of ataxia that are typically precipitated by stress, ethanol, caffeine or exercise.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="16-20"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="24-27"
+			type="GENE" text="EA2" ontology_id="773"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Thus, it is possible that subtle dysfunction arising from multiple cell types is necessary for the expression of certain ataxia syndromes.">
+		<entity id="s2.e1" charOffset="72-76"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="121-127"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

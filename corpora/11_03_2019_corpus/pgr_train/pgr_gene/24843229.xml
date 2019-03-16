@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24843229">
+	<sentence id="s1" text="Limb-girdle muscular dystrophies (LGMD) are a highly heterogeneous group of muscle disorders, which first affect the voluntary muscles of the hip and shoulder areas.">
+		<entity id="s1.e1" charOffset="12-32"
+			type="HP" text="muscular dystrophies" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="53-66"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="142-145"
+			type="GENE" text="hip" ontology_id="64399"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The autosomal recessive forms (LGMD2) are: LGMD2A (calpain 3), LGMD2B (dysferlin), LGMD2C (γ sarcoglycan), LGMD2D (α sarcoglycan), LGMD2E (β sarcoglycan), LGMD2F (δ sarcoglycan), LGMD2G (telethonin), LGMD2H (TRIM32), LGMD2I (FKRP), LGMD2J (titin), LGMD2K (POMT1), LGMD2L (anoctamin 5), LGMD2M (fukutin), LGMD2N (POMT2), LGMD2O (POMTnG1), LGMD2P (dystroglycan), LGMD2Q (plectin), LGMD2R (desmin), LGMD2S (TRAPPC11), LGMD2T (GMPPB), LGMD2U (ISPD), LGMD2V (Glucosidase, alpha ), LGMD2W (PINCH2)">
+		<entity id="s2.e1" charOffset="4-23"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="31-36"
+			type="GENE" text="LGMD2" ontology_id="825"/>
+		<entity id="s2.e3" charOffset="187-197"
+			type="GENE" text="telethonin" ontology_id="8557"/>
+		<entity id="s2.e4" charOffset="208-214"
+			type="GENE" text="TRIM32" ontology_id="22954"/>
+		<entity id="s2.e5" charOffset="225-229"
+			type="GENE" text="FKRP" ontology_id="79147"/>
+		<entity id="s2.e6" charOffset="256-261"
+			type="GENE" text="POMT1" ontology_id="10585"/>
+		<entity id="s2.e7" charOffset="312-317"
+			type="GENE" text="POMT2" ontology_id="29954"/>
+		<entity id="s2.e8" charOffset="404-412"
+			type="GENE" text="TRAPPC11" ontology_id="60684"/>
+		<entity id="s2.e9" charOffset="423-428"
+			type="GENE" text="GMPPB" ontology_id="29925"/>
+		<entity id="s2.e10" charOffset="439-443"
+			type="GENE" text="ISPD" ontology_id="729920"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+	</sentence>
+</document>

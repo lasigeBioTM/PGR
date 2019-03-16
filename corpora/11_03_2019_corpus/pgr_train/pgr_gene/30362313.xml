@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30362313">
+	<sentence id="s1" text="PAX6 expression and molecular mechanisms by which PAX6 modifies the migration capacity of breast cancer cells">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="PAX6" ontology_id="5080"/>
+		<entity id="s1.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

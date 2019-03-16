@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23387289">
+	<sentence id="s1" text="VSX1 remains as the chloride transport characterised keratoconus gene but only accounts for rare cases.">
+		<entity id="s1.e1" charOffset="20-38"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s1.e2" charOffset="53-64"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Family-based studies have recently led to the identification of the MIR184 gene for keratoconus with cataract and to the positive regulation of GTPase activity gene in a family with isolated keratoconus.">
+		<entity id="s2.e1" charOffset="84-95"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<entity id="s2.e2" charOffset="101-109"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s2.e3" charOffset="121-159"
+			type="GO" text="positive regulation of GTPase activity" ontology_id="GO_0043547"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Numerous other linkages have been reported and new sequencing technologies are negative regulation of transcription, DNA-templated to rapidly expand the number of identified keratoconus genes in these regions.">
+		<entity id="s3.e1" charOffset="79-130"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s3.e2" charOffset="174-185"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Similarly, recent genome-wide association studies in case-controlled cohorts have identified common variations in and around neutrophil apoptotic process, regulation of GTPase activity and blood vessel morphogenesis as candidate risk factors for keratoconus.">
+		<entity id="s4.e1" charOffset="125-153"
+			type="GO" text="neutrophil apoptotic process" ontology_id="GO_0001781"/>
+		<entity id="s4.e2" charOffset="155-184"
+			type="GO" text="regulation of GTPase activity" ontology_id="GO_0043087"/>
+		<entity id="s4.e3" charOffset="189-215"
+			type="GO" text="blood vessel morphogenesis" ontology_id="GO_0048514"/>
+		<entity id="s4.e4" charOffset="202-213"
+			type="HP" text="keratoconus" ontology_id="HP_0000563"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

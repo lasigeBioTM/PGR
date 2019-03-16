@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24689825">
+	<sentence id="s1" text="Few studies have examined the roles of endocardial cushion development and positive regulation of transcription, DNA-templated in cardiac abnormalities or their association with pulmonary artery histopathology.">
+		<entity id="s1.e1" charOffset="39-70"
+			type="GO" text="endocardial cushion development" ontology_id="GO_0003197"/>
+		<entity id="s1.e2" charOffset="75-126"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e3" charOffset="84-105"
+			type="HP" text="cardiac abnormalities" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Children with DS have an elevated risk of pulmonary arterial hypertension (tyrosine biosynthetic process).">
+		<entity id="s2.e1" charOffset="42-73"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s2.e2" charOffset="75-104"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

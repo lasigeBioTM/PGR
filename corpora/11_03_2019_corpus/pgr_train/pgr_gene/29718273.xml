@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29718273">
+	<sentence id="s1" text="Although humans with X-linked hypophosphatemia (XLH) and the Hyp mouse, a murine homolog of XLH, are known to develop degenerative joint disease, the exact mechanism that drives the osteoarthritis (OA) phenotype remains unclear.">
+		<entity id="s1.e1" charOffset="30-46"
+			type="HP" text="hypophosphatemia" ontology_id="HP_0002148"/>
+		<entity id="s1.e2" charOffset="48-51"
+			type="GENE" text="XLH" ontology_id="5251"/>
+		<entity id="s1.e3" charOffset="61-64"
+			type="GENE" text="Hyp" ontology_id="5251"/>
+		<entity id="s1.e4" charOffset="118-144"
+			type="HP" text="degenerative joint disease" ontology_id="HP_0002758"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

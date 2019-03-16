@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27761175">
+	<sentence id="s1" text="We report a case of a 33 month-old male referred for developmental delay that was found to have an Xp21.2 duplication containing regulation of postsynapse organization and multiple midline brain malformations">
+		<entity id="s1.e1" charOffset="53-72"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="129-167"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

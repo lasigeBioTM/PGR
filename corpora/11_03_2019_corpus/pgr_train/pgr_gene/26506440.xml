@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26506440">
+	<sentence id="s1" text="De novo loss of function (LOF) mutations in the ASXL3 gene cause Bainbridge-Ropers syndrome, a severe form of intellectual disability (ID) and developmental delay, but there is evidence that they also occur in healthy individuals.">
+		<entity id="s1.e1" charOffset="48-53"
+			type="GENE" text="ASXL3" ontology_id="80816"/>
+		<entity id="s1.e2" charOffset="110-133"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="143-162"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

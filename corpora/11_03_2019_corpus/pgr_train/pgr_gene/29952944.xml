@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29952944">
+	<sentence id="s1" text="No differences were found in age, sex, mean arterial pressure, heart rate, HDL, cirrhosis etiology, degree of alcohol consumption, encephalopathy, variceal bleeding history, or hepatocellular carcinoma between patients with or without adrenal insufficiency.">
+		<entity id="s1.e1" charOffset="34-37"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s1.e2" charOffset="131-145"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e3" charOffset="177-201"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

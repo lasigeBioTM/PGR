@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26942284">
+	<sentence id="s1" text="Homozygozity mapping and exome sequencing in 62 isolated individuals with early-onset parkinsonism and confirmed consanguinity followed by data mining in the exomes of 1,348 PD-affected individuals identified, in three isolated subjects, homozygous or compound heterozygous truncating mutations in vacuolar protein sorting 13C (mitochondrion organization).">
+		<entity id="s1.e1" charOffset="86-98"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<entity id="s1.e2" charOffset="328-354"
+			type="GO" text="mitochondrion organization" ontology_id="GO_0007005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="mitochondrion organization mutations are associated with a distinct form of early-onset parkinsonism characterized by rapid and severe disease progression and early cognitive decline; the pathological features were striking and reminiscent of diffuse Lewy body disease.">
+		<entity id="s2.e1" charOffset="0-26"
+			type="GO" text="mitochondrion organization" ontology_id="GO_0007005"/>
+		<entity id="s2.e2" charOffset="88-100"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This work suggests that loss of function of mitochondrion organization is a cause of autosomal-recessive early-onset parkinsonism with a distinctive phenotype of rapid and severe progression">
+		<entity id="s3.e1" charOffset="44-70"
+			type="GO" text="mitochondrion organization" ontology_id="GO_0007005"/>
+		<entity id="s3.e2" charOffset="117-129"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

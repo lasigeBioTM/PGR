@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30365080">
+	<sentence id="s1" text="Prostate cancer (mitochondrial transport) is one of the most common types of cancer in the urinary system in men.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="17-40"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

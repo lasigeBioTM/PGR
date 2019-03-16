@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28870817">
+	<sentence id="s1" text="Mutations within this gene are responsible for kinesigenic paroxysmal dyskinesias (PKD) as well as for benign familial infantile epilepsy (BFIE), a disease associating infantile convulsions and choreoathetosis (ICCA), a form of familial hemiplegic migraine (FHM type 4), paroxysmal benign torticollis of childhood, and episodic ataxia.">
+		<entity id="s1.e1" charOffset="59-81"
+			type="HP" text="paroxysmal dyskinesias" ontology_id="HP_0007166"/>
+		<entity id="s1.e2" charOffset="83-86"
+			type="GENE" text="PKD" ontology_id="5587"/>
+		<entity id="s1.e3" charOffset="129-137"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="211-215"
+			type="GENE" text="ICCA" ontology_id="112476"/>
+		<entity id="s1.e5" charOffset="258-261"
+			type="GENE" text="FHM" ontology_id="773"/>
+		<entity id="s1.e6" charOffset="262-266"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e7" charOffset="319-327"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s1.e8" charOffset="328-334"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e5"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e8"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e5"
+		    e2="s1.e26" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e3"
+		    e2="s1.e26" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e8"
+		    e2="s1.e26" pgr="false"/>
+	</sentence>
+</document>

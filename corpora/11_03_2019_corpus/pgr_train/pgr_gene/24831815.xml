@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24831815">
+	<sentence id="s1" text="In an unrelated sporadic case of CGHT, we identified a 1.3 Mb cryptic deletion of chr17q24.2-q24.3 encompassing ABCA5 and found that ABCA5 levels are dramatically reduced throughout patient hair follicles.">
+		<entity id="s1.e1" charOffset="16-24"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="62-69"
+			type="GENE" text="cryptic" ontology_id="55997"/>
+		<entity id="s1.e3" charOffset="112-117"
+			type="GENE" text="ABCA5" ontology_id="23461"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

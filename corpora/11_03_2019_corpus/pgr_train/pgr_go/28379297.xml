@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28379297">
+	<sentence id="s1" text="Here, we hypothesize that proline biosynthetic process might be a novel prognostic biomarker and therapeutic target for breast cancer.">
+		<entity id="s1.e1" charOffset="26-54"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s1.e2" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, breast cancer tissue samples were obtained from Zhejiang University (ZJU negative regulation of transcription, DNA-templated).">
+		<entity id="s2.e1" charOffset="22-28"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="88-139"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The prognostic significance and performance of proline biosynthetic process mRNA were validated on 13 worldwide independent microarray data negative regulation of transcription, DNA-templateds, composed of 2500 assessable breast cancer cases.">
+		<entity id="s3.e1" charOffset="47-75"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s3.e2" charOffset="140-191"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s3.e3" charOffset="181-187"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our findings revealed that both proline biosynthetic process mRNA and protein expression were significantly associated with tumor size, grade and invasive molecular subtypes of breast cancers.">
+		<entity id="s4.e1" charOffset="32-60"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s4.e2" charOffset="124-129"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="184-190"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Independent and pooled analyses verified that higher proline biosynthetic process mRNA levels were significantly associated with poor survival of breast cancer patients, regardless of estrogen receptor (ER) status.">
+		<entity id="s5.e1" charOffset="53-81"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s5.e2" charOffset="153-159"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="For in vitro studies, inhibition of proline biosynthetic process by small-hairpin RNA significantly reduced the growth and invasion capabilities of the cells, while enhancing the cytotoxicity of doxorubicin in breast cancer cell lines MCF-7 (ER positive) and MDA-MB-231 (ER negative).">
+		<entity id="s6.e1" charOffset="36-64"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s6.e2" charOffset="217-223"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Further population study also validated that chemotherapy significantly improved survival in early-stage breast cancer patients with low proline biosynthetic process expression levels.">
+		<entity id="s7.e1" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e2" charOffset="137-165"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Therefore, proline biosynthetic process might serve as a prognostic biomaker for either ER-positive or ER-negative breast cancer subtypes and can also be a potential target for breast cancer therapy">
+		<entity id="s8.e1" charOffset="11-39"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s8.e2" charOffset="122-128"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

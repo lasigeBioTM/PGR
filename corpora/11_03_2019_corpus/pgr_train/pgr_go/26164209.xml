@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26164209">
+	<sentence id="s1" text="To investigate this mechanism, we developed a novel uterine sarcoma tissue-derived orthotopic and metastatic model in KSN establishment of mitotic spindle orientation apoptotic process using a green fluorescent protein stably expressed uterine sarcoma cell line, MES-SA.">
+		<entity id="s1.e1" charOffset="60-67"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e2" charOffset="122-166"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<entity id="s1.e3" charOffset="167-184"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Microarray analysis between orthotopic tumors with high and low metastatic potentials revealed differential expression of genes related to cell proliferation and migration (negative regulation of muscle contraction, transforming growth factor beta receptor signaling pathway, and brain development).">
+		<entity id="s2.e1" charOffset="39-45"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="173-214"
+			type="GO" text="negative regulation of muscle contraction" ontology_id="GO_0045932"/>
+		<entity id="s2.e3" charOffset="216-274"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s2.e4" charOffset="280-297"
+			type="GO" text="brain development" ontology_id="GO_0007420"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

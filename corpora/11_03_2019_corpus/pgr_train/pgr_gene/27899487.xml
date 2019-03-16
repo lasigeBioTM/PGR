@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27899487">
+	<sentence id="s1" text="We compared the early transcriptome profile between DKD-resistant C57BL/6J and DKD-susceptible DBA/2J (D2) glomeruli and demonstrated a significant downregulation of essential mitochondrial genes in glomeruli from diabetic D2 mice, but not in C57BL/6J, with comparable hyperglycemia.">
+		<entity id="s1.e1" charOffset="226-230"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="269-282"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Selective Ednra blockade or mitochondrial-targeted reactive oxygen species scavenging prevented mitochondrial oxidative stress of endothelial cells and ameliorated diabetes-induced endothelial injury, podocyte loss, albuminuria, and glomerulosclerosis.">
+		<entity id="s2.e1" charOffset="10-15"
+			type="GENE" text="Ednra" ontology_id="1909"/>
+		<entity id="s2.e2" charOffset="216-227"
+			type="HP" text="albuminuria" ontology_id="HP_0012592"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our studies show that DKD susceptibility was linked to mitochondrial dysfunction, mediated largely by Edn1-Ednra in glomerular endothelial cells representing an early event in DKD progression, and suggest that cross talk between glomerular endothelial injury and podocytes leads to defects and depletion, albuminuria, and glomerulosclerosis">
+		<entity id="s3.e1" charOffset="102-106"
+			type="GENE" text="Edn1" ontology_id="1906"/>
+		<entity id="s3.e2" charOffset="107-112"
+			type="GENE" text="Ednra" ontology_id="1909"/>
+		<entity id="s3.e3" charOffset="305-316"
+			type="HP" text="albuminuria" ontology_id="HP_0012592"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

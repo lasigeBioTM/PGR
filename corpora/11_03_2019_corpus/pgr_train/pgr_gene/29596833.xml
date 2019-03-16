@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29596833">
+	<sentence id="s1" text="Congenital heart defects represent a characteristic part of several genetic syndromes associated with chromosomal abnormalities such as 22q11.2 deletion syndrome; many genes located in this locus, mainly TBX1, are candidate genes for congenital heart defects.">
+		<entity id="s1.e1" charOffset="204-208"
+			type="GENE" text="TBX1" ontology_id="6899"/>
+		<entity id="s1.e2" charOffset="234-258"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In our cohort of 27 subjects with congenital heart defect, both karyotype analysis and Fluorescence in situ hybridization (FISH) were performed.">
+		<entity id="s2.e1" charOffset="34-57"
+			type="HP" text="congenital heart defect" ontology_id="HP_0001627"/>
+		<entity id="s2.e2" charOffset="123-127"
+			type="GENE" text="FISH" ontology_id="9644"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

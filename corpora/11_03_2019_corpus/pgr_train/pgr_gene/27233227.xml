@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27233227">
+	<sentence id="s1" text="To our knowledge, this is one of the first reports on isolated mild ventricular hypertrophy due to ACAD9 mutation in a family with moderate symptoms during adolescence.">
+		<entity id="s1.e1" charOffset="68-91"
+			type="HP" text="ventricular hypertrophy" ontology_id="HP_0001714"/>
+		<entity id="s1.e2" charOffset="99-104"
+			type="GENE" text="ACAD9" ontology_id="28976"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

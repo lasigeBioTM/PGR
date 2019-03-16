@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28386563">
+	<sentence id="s1" text="The purpose of this study was to investigate whether LED T cell costimulation at different wavelengths affects the expression profile of 143 cancer pprotein phosphorylationisposition genes in both diabetic and normal human fibroblasts.">
+		<entity id="s1.e1" charOffset="57-77"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<entity id="s1.e2" charOffset="141-147"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="149-172"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

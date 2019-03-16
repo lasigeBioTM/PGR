@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30513730">
+	<sentence id="s1" text="The fatty acid (FA) composition of red blood cell (RBC) membrane phospholipids of cancer patients can reflect tumor status, dietary intakes, and cancer type or therapy.">
+		<entity id="s1.e1" charOffset="4-7"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s1.e2" charOffset="35-38"
+			type="GENE" text="red" ontology_id="8444"/>
+		<entity id="s1.e3" charOffset="82-88"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="110-115"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="152-156"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e1" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The adjusted Analysis of Covariance Test (ANCOVA) model revealed cancer patients to have a lower relative percentage of saturated fatty acids (SFA) (C16:0 (5.7%); C18:0 (15.9%)), and higher monounsaturated fatty acids (MUFA) (9c-C18:1 (12.9%) and 11c-C18:1 (54.5%)), compared to controls.">
+		<entity id="s2.e1" charOffset="65-71"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="130-133"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s2.e3" charOffset="272-275"
+			type="GENE" text="red" ontology_id="8444"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

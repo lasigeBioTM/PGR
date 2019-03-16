@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29471565">
+	<sentence id="s1" text="Historically classified as a subtype of hepatocellular carcinoma (phosphatidylinositol phosphorylation), FLC has a unique clinical, histological, and molecular presentation.">
+		<entity id="s1.e1" charOffset="40-64"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="66-102"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

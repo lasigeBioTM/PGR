@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27193597">
+	<sentence id="s1" text="Mining GWAS databases revealed association of cis-eSNPs for more than 50 genes with T2D (e.g. endocytosis, RNA processing, biological_process), gluco-metabolic phenocardiac muscle tissue developments (e.g. INPP5E, endocytic recycling, proteolysis, post-translational protein modification), and obesity (e.g. negative regulation of tumor necrosis factor production, response to ischemia).">
+		<entity id="s1.e1" charOffset="94-105"
+			type="GO" text="endocytosis" ontology_id="GO_0006897"/>
+		<entity id="s1.e2" charOffset="107-121"
+			type="GO" text="RNA processing" ontology_id="GO_0006396"/>
+		<entity id="s1.e3" charOffset="123-141"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e4" charOffset="139-172"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e5" charOffset="195-206"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e6" charOffset="214-233"
+			type="GO" text="endocytic recycling" ontology_id="GO_0032456"/>
+		<entity id="s1.e7" charOffset="215-222"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e8" charOffset="248-287"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s1.e9" charOffset="308-363"
+			type="GO" text="negative regulation of tumor necrosis factor production" ontology_id="GO_0032720"/>
+		<entity id="s1.e10" charOffset="365-385"
+			type="GO" text="response to ischemia" ontology_id="GO_0002931"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e7"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e7"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

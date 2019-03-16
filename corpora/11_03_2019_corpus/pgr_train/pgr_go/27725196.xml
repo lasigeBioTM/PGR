@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27725196">
+	<sentence id="s1" text="We chose to study protein transport-branching involved in blood vessel morphogenesis rather than wild cardiac muscle tissue development branching involved in blood vessel morphogenesis because unlike full length sema3E, the major p61-Sema3E peptide that is produced by cleavage of sema3E with signal peptide processing like pro-protein convertases activates signal transduction mediated by the signal transduction receptor and can promote tumor metastasis in addition to its anti-angiogenic activity.">
+		<entity id="s1.e1" charOffset="18-35"
+			type="GO" text="protein transport" ontology_id="GO_0015031"/>
+		<entity id="s1.e2" charOffset="36-84"
+			type="GO" text="branching involved in blood vessel morphogenesis" ontology_id="GO_0001569"/>
+		<entity id="s1.e3" charOffset="102-135"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e4" charOffset="136-184"
+			type="GO" text="branching involved in blood vessel morphogenesis" ontology_id="GO_0001569"/>
+		<entity id="s1.e5" charOffset="167-192"
+			type="GO" text="signal peptide processing" ontology_id="GO_0006465"/>
+		<entity id="s1.e6" charOffset="299-304"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e7" charOffset="394-413"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29141310">
+	<sentence id="s1" text="A case with GABRB3 (C.905AAAAAG) had seizure controlled for 3 mouths.">
+		<entity id="s1.e1" charOffset="12-18"
+			type="GENE" text="GABRB3" ontology_id="2562"/>
+		<entity id="s1.e2" charOffset="37-44"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="A case with ARX (C.700GAAAAA) had seizure controlled for 6 mouths.">
+		<entity id="s2.e1" charOffset="12-15"
+			type="GENE" text="ARX" ontology_id="10054"/>
+		<entity id="s2.e2" charOffset="34-41"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

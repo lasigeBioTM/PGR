@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28233610">
+	<sentence id="s1" text="Here, we applied next-generation sequencing in 89 patients with a clinical diagnosis of distal renal tubular acidosis, analyzing the prevalence of genetic defects in SLC4A1, ATP6V0A4, and ATP6V1B1 genes and the clinical phenotype.">
+		<entity id="s1.e1" charOffset="88-117"
+			type="HP" text="distal renal tubular acidosis" ontology_id="HP_0008341"/>
+		<entity id="s1.e2" charOffset="166-172"
+			type="GENE" text="SLC4A1" ontology_id="6521"/>
+		<entity id="s1.e3" charOffset="174-182"
+			type="GENE" text="ATP6V0A4" ontology_id="50617"/>
+		<entity id="s1.e4" charOffset="188-196"
+			type="GENE" text="ATP6V1B1" ontology_id="525"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

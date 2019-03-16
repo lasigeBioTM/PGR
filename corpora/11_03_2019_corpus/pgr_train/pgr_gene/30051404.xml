@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30051404">
+	<sentence id="s1" text="Pulmonary arterial hypertension (PAH) is a progressive disease characterised by increased pulmonary vascular resistance and pulmonary artery remodelling as result of increased vascular tone and vascular cell proliferation, respectively.">
+		<entity id="s1.e1" charOffset="33-36"
+			type="GENE" text="PAH" ontology_id="5053"/>
+		<entity id="s1.e2" charOffset="80-119"
+			type="HP" text="increased pulmonary vascular resistance" ontology_id="HP_0005317"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

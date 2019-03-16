@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29401583">
+	<sentence id="s1" text="The oncogenic potential of circadian rhythm in terms of prognosis and cancer metastasis in arginine prototrophic gastric cancer (GC) remains unclear at present.">
+		<entity id="s1.e1" charOffset="27-43"
+			type="GO" text="circadian rhythm" ontology_id="GO_0007623"/>
+		<entity id="s1.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We identify differentially expressed proteins in microdissected GC tumor cells relative to adjacent nontumor epithelia by isobaric cell adhesion mediated by integrin tag for relative and absolute quantitation proteomics analysis.">
+		<entity id="s2.e1" charOffset="67-72"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="131-165"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="circadian rhythm was highly expressed in GC and positively correlated with GC aggressiveness and poor outcome.">
+		<entity id="s3.e1" charOffset="0-16"
+			type="GO" text="circadian rhythm" ontology_id="GO_0007623"/>
+		<entity id="s3.e2" charOffset="78-92"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Depletion of circadian rhythm led to inhibition of tumor growth and decreased cell invasion via induction of autophagy-lysosome machinery, resulting in degradation of active β-catenin, negative regulation of transcription by RNA polymerase II, and negative regulation of transcription, DNA-templated.">
+		<entity id="s4.e1" charOffset="13-29"
+			type="GO" text="circadian rhythm" ontology_id="GO_0007623"/>
+		<entity id="s4.e2" charOffset="51-56"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="185-242"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e4" charOffset="248-299"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Ectopic expression of circadian rhythm in GC cells reversed these effects and protected cancer cells from chemotherapy drug-induced apoptosis via activation of the positive regulation of protein phosphorylation-mammalian target of rapamycin signaling pathway.">
+		<entity id="s5.e1" charOffset="22-38"
+			type="GO" text="circadian rhythm" ontology_id="GO_0007623"/>
+		<entity id="s5.e2" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="164-210"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+</document>

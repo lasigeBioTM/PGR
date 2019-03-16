@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29259009">
+	<sentence id="s1" text="Overall, our findings establish small GTPase mediated signal transduction as a tumor-suppressive mRNA splicing, via spliceosome in MM and provide a mechanistic rationale for combining trametinib with negative regulation of transcription by RNA polymerase II inhibitors or bortezomib to treat patients with tumors exhibiting low RASSF4 expression.<b>Significance:</b> These findings provide a mechanistic rationale for combining trametinib with HDAC inhibitors or bortezomib in patients with multiple myeloma whose tumors exhibit low RASSF4 expression.">
+		<entity id="s1.e1" charOffset="32-73"
+			type="GO" text="small GTPase mediated signal transduction" ontology_id="GO_0007264"/>
+		<entity id="s1.e2" charOffset="79-84"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="97-127"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s1.e4" charOffset="200-257"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

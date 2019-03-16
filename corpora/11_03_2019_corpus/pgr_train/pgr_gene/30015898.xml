@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30015898">
+	<sentence id="s1" text="While mutations in TMEM165 are known to cause human 'congenital disorders of glycosylation', a recessive autosomal metabolic disease, the potential association of this protein with human cancer development has not been explored to date.">
+		<entity id="s1.e1" charOffset="19-26"
+			type="GENE" text="TMEM165" ontology_id="55858"/>
+		<entity id="s1.e2" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we revealed that TMEM165 is overexpressed in HCC and its depletion weakens the invasive activity of cancer cells through suppression of matrix metalloproteinase‑2 (MMP‑2) expression.">
+		<entity id="s2.e1" charOffset="39-46"
+			type="GENE" text="TMEM165" ontology_id="55858"/>
+		<entity id="s2.e2" charOffset="67-70"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s2.e3" charOffset="122-128"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

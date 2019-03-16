@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30079398">
+	<sentence id="s1" text="Alterations of its normal function may contribute to two different phenotypes: juvenile amyotrophic lateral sclerosis (ALS 16) and distal hereditary motor neuropathies (dHMN).">
+		<entity id="s1.e1" charOffset="119-122"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e2" charOffset="131-137"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

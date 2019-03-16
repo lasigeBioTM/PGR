@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30024674">
+	<sentence id="s1" text="Most often, hypogonadotropic hypogonadism is caused by disorder in secretion of gonadoliberin, the product of gene GNRH1.">
+		<entity id="s1.e1" charOffset="29-41"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<entity id="s1.e2" charOffset="115-120"
+			type="GENE" text="GNRH1" ontology_id="2796"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Thus, increased expression of gene GNRH1 in blood cells appears to be associated with the isolated form of hypogonadotropic hypogonadism and, in prospect, may be used as one of the disease markers">
+		<entity id="s2.e1" charOffset="35-40"
+			type="GENE" text="GNRH1" ontology_id="2796"/>
+		<entity id="s2.e2" charOffset="124-136"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28898690">
+	<sentence id="s1" text="LMO1 is a high-risk neuroblastoma susceptibility gene, but how LMO1 cooperates with MYCN in neuroblastoma tumorigenesis is unclear.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="LMO1" ontology_id="4004"/>
+		<entity id="s1.e2" charOffset="20-33"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="84-88"
+			type="GENE" text="MYCN" ontology_id="4613"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="develop a novel zebrafish model that elucidates a mechanism by which LMO1 and MYCN synergistically initiate neuroblastoma and contribute to metastatic disease progression">
+		<entity id="s2.e1" charOffset="69-73"
+			type="GENE" text="LMO1" ontology_id="4004"/>
+		<entity id="s2.e2" charOffset="78-82"
+			type="GENE" text="MYCN" ontology_id="4613"/>
+		<entity id="s2.e3" charOffset="108-121"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

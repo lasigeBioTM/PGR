@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23110055">
+	<sentence id="s1" text="Fuchs endothelial corneal dystrophy (extracellular matrix organization) is the most common late-onset, vision-threatening corneal dystrophy in the United States, affecting about 4% of the population.">
+		<entity id="s1.e1" charOffset="18-35"
+			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
+		<entity id="s1.e2" charOffset="37-70"
+			type="GO" text="extracellular matrix organization" ontology_id="GO_0030198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Advanced extracellular matrix organization involves a thickening of the cornea from stromal edema and changes in Descemet membrane.">
+		<entity id="s2.e1" charOffset="9-42"
+			type="GO" text="extracellular matrix organization" ontology_id="GO_0030198"/>
+		<entity id="s2.e2" charOffset="92-97"
+			type="HP" text="edema" ontology_id="HP_0000969"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

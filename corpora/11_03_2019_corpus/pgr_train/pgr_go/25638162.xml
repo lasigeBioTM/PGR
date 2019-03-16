@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25638162">
+	<sentence id="s1" text="We found that the expression of chromosome segregation mRNA was relatively low in normal tissues, but was upregulated in 82% of hepatocellular carcinoma (phosphatidylinositol phosphorylation), and correlated with elevated alpha-fetoprotein and early disease onset of HCC.">
+		<entity id="s1.e1" charOffset="32-54"
+			type="GO" text="chromosome segregation" ontology_id="GO_0007059"/>
+		<entity id="s1.e2" charOffset="128-152"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e3" charOffset="154-190"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

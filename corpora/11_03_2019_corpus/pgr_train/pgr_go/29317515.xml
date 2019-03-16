@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29317515">
+	<sentence id="s1" text="Clear cell renal cell carcinoma (ccresponse to hydroperoxide) is an heterogeneous tumour at architectural, cellular and molecular level, a reason why the 2014 International Society of Urological Pathology consensus recommended wide sampling of response to hydroperoxide masses to include at least 1 block/cm of tumour together with perpendicular sections of the tumour/perinephric positive regulation of cell-matrix adhesion interface and the tumour/renal sinus interface.">
+		<entity id="s1.e1" charOffset="35-60"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<entity id="s1.e2" charOffset="68-81"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="82-88"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="359-402"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We observed the presence of the mutation at pH1047R of li>phosphorylation</i> gene in five samples of the tumour, while the remaining 15 samples did not show any mutation at li>PIK3CA</i> or any other investigated gene.">
+		<entity id="s2.e1" charOffset="58-73"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s2.e2" charOffset="106-112"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="There is a adenylate cyclase-activating G protein-coupled receptor signaling pathway need to develop novel response to hydroperoxide sampling strategies to overcome tumour heterogeneity prior to define precision oncology strategies">
+		<entity id="s3.e1" charOffset="11-84"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s3.e2" charOffset="39-64"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<entity id="s3.e3" charOffset="97-103"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="104-117"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

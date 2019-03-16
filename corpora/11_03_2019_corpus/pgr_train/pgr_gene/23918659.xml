@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23918659">
+	<sentence id="s1" text="Mutations in Vps33 isoforms cause pigment dilution in mice (Vps33a, buff) and Drosophila (car) and the neurogenic arthrogryposis, renal dysfunction and cholestasis syndrome in humans (ARC1, VPS33B).">
+		<entity id="s1.e1" charOffset="54-58"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="60-66"
+			type="GENE" text="Vps33a" ontology_id="65082"/>
+		<entity id="s1.e3" charOffset="90-93"
+			type="GENE" text="car" ontology_id="1525"/>
+		<entity id="s1.e4" charOffset="114-128"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s1.e5" charOffset="184-187"
+			type="GENE" text="ARC" ontology_id="8996"/>
+		<entity id="s1.e6" charOffset="190-196"
+			type="GENE" text="VPS33B" ontology_id="26276"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

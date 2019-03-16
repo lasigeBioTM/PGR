@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334751">
+	<sentence id="s1" text="To this positive regulation of protein phosphorylation, we generated a set of melanoma and neuroblastoma cell lines stably overexpressing wild-cardiac muscle tissue development (WT), catalytically inactive (D508N) and N-terminal mutants, or shRNA against cellular calcium ion homeostasis.">
+		<entity id="s1.e1" charOffset="8-54"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e2" charOffset="35-43"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e3" charOffset="48-61"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e4" charOffset="100-133"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e5" charOffset="212-244"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e7"
+		    e2="s1.e1" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

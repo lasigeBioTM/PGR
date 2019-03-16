@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30093687">
+	<sentence id="s1" text="Cushing's disease results from corticotroph adenomas of the pituitary that hypersecrete adrenocorticotropin (ACTH), leading to excess glucocorticoid and hypercortisolism.">
+		<entity id="s1.e1" charOffset="109-113"
+			type="GENE" text="ACTH" ontology_id="5443"/>
+		<entity id="s1.e2" charOffset="153-169"
+			type="HP" text="hypercortisolism" ontology_id="HP_0003118"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the major driver mutations in USP8 wild-type tumors remain elusive.">
+		<entity id="s2.e1" charOffset="39-43"
+			type="GENE" text="USP8" ontology_id="9101"/>
+		<entity id="s2.e2" charOffset="54-60"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, primary corticotroph tumor cells harboring BRAF V600E are sensitive to the BRAF inhibitor vemurafenib.">
+		<entity id="s3.e1" charOffset="31-36"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="53-57"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

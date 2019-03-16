@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28678825">
+	<sentence id="s1" text="High mobility group box 3 (HMGB3), a member of the high-mobility group box (HMGB) family, was reported to be over-expressed in gastric carcinoma and bladder cancer.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="HMGB3" ontology_id="3149"/>
+		<entity id="s1.e2" charOffset="157-163"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="qRT-PCR results showed that high expression of HMGB3 had positive correlation with serosal invasion, lymph metastasis, and tumor-node-metastasis (TNM) stage in CRC patient.">
+		<entity id="s2.e1" charOffset="47-52"
+			type="GENE" text="HMGB3" ontology_id="3149"/>
+		<entity id="s2.e2" charOffset="123-128"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="146-149"
+			type="GENE" text="TNM" ontology_id="10178"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

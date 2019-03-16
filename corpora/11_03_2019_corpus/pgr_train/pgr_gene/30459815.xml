@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30459815">
+	<sentence id="s1" text="Silencing expression of CCND1, JUN and SPP1 in the human oral cancer cell line OECM-1 confirmed that those genes play essential roles in oral cancer cell invasion.">
+		<entity id="s1.e1" charOffset="24-29"
+			type="GENE" text="CCND1" ontology_id="595"/>
+		<entity id="s1.e2" charOffset="31-34"
+			type="GENE" text="JUN" ontology_id="3725"/>
+		<entity id="s1.e3" charOffset="39-43"
+			type="GENE" text="SPP1" ontology_id="30827"/>
+		<entity id="s1.e4" charOffset="62-68"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Analysis of clinical samples of oral cancer found a strong correlation of these genes with short survival, especially JUN expression associated with metastasis.">
+		<entity id="s2.e1" charOffset="37-43"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="118-121"
+			type="GENE" text="JUN" ontology_id="3725"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study identified a unique gene signature - CCND1, JUN and SPP1 - which may be involved in oral cancer lymph node metastasis">
+		<entity id="s3.e1" charOffset="47-52"
+			type="GENE" text="CCND1" ontology_id="595"/>
+		<entity id="s3.e2" charOffset="54-57"
+			type="GENE" text="JUN" ontology_id="3725"/>
+		<entity id="s3.e3" charOffset="62-66"
+			type="GENE" text="SPP1" ontology_id="30827"/>
+		<entity id="s3.e4" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

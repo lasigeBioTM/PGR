@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27129268">
+	<sentence id="s1" text="Recent studies have linked mutations in the SLC24A4 (NCKX4) and SLC24A5 (NCKX5) genes to amylogenesis imperfecta (AI) and non-syndromic oculocutaneous albinism (OCA6), respectively.">
+		<entity id="s1.e1" charOffset="44-51"
+			type="GENE" text="SLC24A4" ontology_id="123041"/>
+		<entity id="s1.e2" charOffset="53-58"
+			type="GENE" text="NCKX4" ontology_id="123041"/>
+		<entity id="s1.e3" charOffset="64-71"
+			type="GENE" text="SLC24A5" ontology_id="283652"/>
+		<entity id="s1.e4" charOffset="73-77"
+			type="GENE" text="NCKX" ontology_id="9187"/>
+		<entity id="s1.e5" charOffset="151-159"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<entity id="s1.e6" charOffset="161-165"
+			type="GENE" text="OCA6" ontology_id="283652"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also analyzed two mutations in a Drosophila NCKX gene that have been reported to result in an increased susceptibility for seizures, and found that both resulted in mutant proteins with significantly reduced but observable NCKX activity.">
+		<entity id="s2.e1" charOffset="47-51"
+			type="GENE" text="NCKX" ontology_id="9187"/>
+		<entity id="s2.e2" charOffset="126-134"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

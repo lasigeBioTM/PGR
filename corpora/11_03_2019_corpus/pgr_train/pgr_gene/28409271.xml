@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28409271">
+	<sentence id="s1" text="Metabolic cutis laxa results from Menkes syndrome, caused by a defect in the ATPase copper transporting alpha (ATP7A) gene; congenital disorders of glycosylation due to mutations in subunit 7 of the component of oligomeric Golgi (COG7)-congenital disorders of glycosylation (CDG) complex; combined disorder of N- and O-linked glycosylation, due to mutations in ATPase H+ transporting V0 subunit a2 (ATP6VOA2) gene; pyrroline-5-carboxylate reductase 1 deficiency; pyrroline-5-carboxylate synthase deficiency; macrocephaly, alopecia, cutis laxa, and scoliosis (MACS) syndrome, due to Ras and Rab interactor 2 (RIN2) mutations; transaldolase deficiency caused by mutations in the transaldolase 1 (TALDO1) gene; Gerodermia osteodysplastica due to mutations in the golgin, RAB6-interacting (GORAB or SCYL1BP1) gene; and mitogen-activated pathway (MAP) kinase defects, caused by mutations in several genes [protein tyrosine phosphatase, non-receptor-type 11 (PTPN11), RAF, NF, HRas proto-oncogene, GTPase (HRAS), B-Raf proto-oncogene, serine/threonine kinase (BRAF), MEK1/2, KRAS proto-oncogene, GTPase (KRAS), SOS Ras/Rho guanine nucleotide exchange factor 2 (SOS2), leucine rich repeat scaffold protein (SHOC2), NRAS proto-oncogene, GTPase (NRAS), and Raf-1 proto-oncogene, serine/threonine kinase (RAF1)], which regulate the Ras-MAPK cascade.">
+		<entity id="s1.e1" charOffset="111-116"
+			type="GENE" text="ATP7A" ontology_id="538"/>
+		<entity id="s1.e2" charOffset="230-234"
+			type="GENE" text="COG7" ontology_id="91949"/>
+		<entity id="s1.e3" charOffset="508-520"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s1.e4" charOffset="548-557"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<entity id="s1.e5" charOffset="559-563"
+			type="GENE" text="MACS" ontology_id="4082"/>
+		<entity id="s1.e6" charOffset="590-593"
+			type="GENE" text="Rab" ontology_id="3267"/>
+		<entity id="s1.e7" charOffset="608-612"
+			type="GENE" text="RIN2" ontology_id="54453"/>
+		<entity id="s1.e8" charOffset="694-700"
+			type="GENE" text="TALDO1" ontology_id="6888"/>
+		<entity id="s1.e9" charOffset="768-772"
+			type="GENE" text="RAB6" ontology_id="5870"/>
+		<entity id="s1.e10" charOffset="786-791"
+			type="GENE" text="GORAB" ontology_id="92344"/>
+		<entity id="s1.e11" charOffset="795-803"
+			type="GENE" text="SCYL1BP1" ontology_id="92344"/>
+		<entity id="s1.e12" charOffset="953-959"
+			type="GENE" text="PTPN11" ontology_id="5781"/>
+		<entity id="s1.e13" charOffset="971-975"
+			type="GENE" text="HRas" ontology_id="3265"/>
+		<entity id="s1.e14" charOffset="1000-1004"
+			type="GENE" text="HRAS" ontology_id="3265"/>
+		<entity id="s1.e15" charOffset="1054-1058"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s1.e16" charOffset="1069-1073"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s1.e17" charOffset="1155-1159"
+			type="GENE" text="SOS2" ontology_id="6655"/>
+		<entity id="s1.e18" charOffset="1200-1205"
+			type="GENE" text="SHOC2" ontology_id="8036"/>
+		<entity id="s1.e19" charOffset="1208-1212"
+			type="GENE" text="NRAS" ontology_id="4893"/>
+		<entity id="s1.e20" charOffset="1248-1253"
+			type="GENE" text="Raf-1" ontology_id="5894"/>
+		<entity id="s1.e21" charOffset="1295-1299"
+			type="GENE" text="RAF1" ontology_id="5894"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e3"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e3"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e3"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e3"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e3"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e3"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e3"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e3"
+		    e2="s1.e19" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e3"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e3"
+		    e2="s1.e21" pgr="true"/>
+		<pair id="s1.p20" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e2"
+		    e2="s1.e40" pgr="false"/>
+		<pair id="s1.p22" e1="s1.e40"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p23" e1="s1.e40"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p24" e1="s1.e40"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p25" e1="s1.e40"
+		    e2="s1.e13" pgr="false"/>
+		<pair id="s1.p26" e1="s1.e40"
+		    e2="s1.e15" pgr="false"/>
+		<pair id="s1.p27" e1="s1.e40"
+		    e2="s1.e17" pgr="true"/>
+		<pair id="s1.p28" e1="s1.e40"
+		    e2="s1.e19" pgr="true"/>
+		<pair id="s1.p29" e1="s1.e40"
+		    e2="s1.e21" pgr="true"/>
+		<pair id="s1.p30" e1="s1.e40"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p31" e1="s1.e40"
+		    e2="s1.e24" pgr="true"/>
+		<pair id="s1.p32" e1="s1.e40"
+		    e2="s1.e26" pgr="true"/>
+		<pair id="s1.p33" e1="s1.e40"
+		    e2="s1.e28" pgr="true"/>
+		<pair id="s1.p34" e1="s1.e40"
+		    e2="s1.e30" pgr="true"/>
+		<pair id="s1.p35" e1="s1.e40"
+		    e2="s1.e32" pgr="false"/>
+		<pair id="s1.p36" e1="s1.e40"
+		    e2="s1.e34" pgr="true"/>
+		<pair id="s1.p37" e1="s1.e40"
+		    e2="s1.e36" pgr="true"/>
+		<pair id="s1.p38" e1="s1.e40"
+		    e2="s1.e38" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29372689">
+	<sentence id="s1" text="Our case-control study investigates the possible association between seven DPYD gene polymophisms (rs1801267, rs72547602, rs1801160, rs3918290, rs1801159, rs1801158, rs1801265) and risk of colorectal cancer (CRC).">
+		<entity id="s1.e1" charOffset="75-79"
+			type="GENE" text="DPYD" ontology_id="1806"/>
+		<entity id="s1.e2" charOffset="200-206"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study suggests that the SNP rs1801160 and the AAAAAAIIStAAAAAA haplotype in the DPYD gene may also have a role in colorectal cancer risk">
+		<entity id="s2.e1" charOffset="92-96"
+			type="GENE" text="DPYD" ontology_id="1806"/>
+		<entity id="s2.e2" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

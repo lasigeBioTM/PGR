@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17668385">
+	<sentence id="s1" text="cytoskeleton organization is therefore a new gene implicated in the etiology of XLMR associated with macrocephaly and may cause disease by altering intracellular signaling pathways affecting cellular proliferation">
+		<entity id="s1.e1" charOffset="0-25"
+			type="GO" text="cytoskeleton organization" ontology_id="GO_0007010"/>
+		<entity id="s1.e2" charOffset="101-113"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

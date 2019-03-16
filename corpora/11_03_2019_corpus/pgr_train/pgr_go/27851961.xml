@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27851961">
+	<sentence id="s1" text="Here, we show that high levels of the actin cytoskeleton-associated protein actin cortical patch assembly (WASP-interacting protein) correlates with tumor growth, both of which are linked to the tumor-initiating cell phenotype.">
+		<entity id="s1.e1" charOffset="76-105"
+			type="GO" text="actin cortical patch assembly" ontology_id="GO_0000147"/>
+		<entity id="s1.e2" charOffset="149-154"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We cellular response to interleukin-4 that actin cortical patch assembly controls tumor growth by boosting signals that stabilize the YAP/TAZ complex via a mechanism mediated by the endocytic/endosomal system.">
+		<entity id="s2.e1" charOffset="3-37"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e2" charOffset="13-42"
+			type="GO" text="actin cortical patch assembly" ontology_id="GO_0000147"/>
+		<entity id="s2.e3" charOffset="52-57"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This close biochemical relationship indicates an oncogenic role for actin cortical patch assembly in the physiology of cancer pathology by increasing YAP/TAZ stability">
+		<entity id="s3.e1" charOffset="68-97"
+			type="GO" text="actin cortical patch assembly" ontology_id="GO_0000147"/>
+		<entity id="s3.e2" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

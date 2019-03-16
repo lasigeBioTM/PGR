@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23599270">
+	<sentence id="s1" text="Using homozygosity mapping followed by exome sequencing, we identified a Thr224Asn mutation in the VPS45 gene in infants from consanguineous families who suffered from life-threatening neutropenia, which was refractory to granulocyte CSF, from defective platelet aggregation and myelofibrosis.">
+		<entity id="s1.e1" charOffset="99-104"
+			type="GENE" text="VPS45" ontology_id="11311"/>
+		<entity id="s1.e2" charOffset="185-196"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<entity id="s1.e3" charOffset="244-274"
+			type="HP" text="defective platelet aggregation" ontology_id="HP_0003540"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This is the first report of a Vps45-related disease in humans, manifesting by neutropenia, thrombasthenia, myelofibrosis, and progressive bone marrow failure">
+		<entity id="s2.e1" charOffset="30-35"
+			type="GENE" text="Vps45" ontology_id="11311"/>
+		<entity id="s2.e2" charOffset="78-89"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

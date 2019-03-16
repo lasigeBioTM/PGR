@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29335468">
+	<sentence id="s1" text="This phenotype is associated with increased cytosine methylation heterogeneity, but not with increased somatic diversification of immunoglobulins-mediated somatic mutation burden.">
+		<entity id="s1.e1" charOffset="65-78"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="103-145"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<entity id="s1.e3" charOffset="155-171"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Reciprocally, the cytosine methylation heterogeneity characteristic of normal GC B cells is lost upon somatic diversification of immunoglobulins depletion.">
+		<entity id="s2.e1" charOffset="39-52"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="102-144"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These observations are relevant to human patients, since DLBCLs with high somatic diversification of immunoglobulins expression manifest increased methylation heterogeneity vs. AICDA-low DLBCLs.">
+		<entity id="s3.e1" charOffset="74-116"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<entity id="s3.e2" charOffset="159-172"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our results identify somatic diversification of immunoglobulins as a driver of epigenetic heterogeneity in B-cell lymphomas with potential significance for other tumors with aberrant expression of cytidine deaminases">
+		<entity id="s4.e1" charOffset="21-63"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<entity id="s4.e2" charOffset="90-103"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s4.e3" charOffset="162-168"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

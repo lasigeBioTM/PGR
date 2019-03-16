@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29411334">
+	<sentence id="s1" text="Across the years the CCNs have been increasingly implicated in the development of obesity, diabetes and its complications.">
+		<entity id="s1.e1" charOffset="21-25"
+			type="GENE" text="CCNs" ontology_id="81669"/>
+		<entity id="s1.e2" charOffset="82-89"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Key steps where CCNs may play a pathogenic metabolic role include: (i) obesity and insulin resistance, where CCN2 inhibits fat cell differentiation in vitro and CCN3 may induce obesity and insulin resistance; (ii) elevated blood glucose levels to diabetes mellitus onset, where CCN2 may contribute to pancreatic beta cell and islet function; and (iii) in diabetes complications, such as nephropathy, retinopathy, liver disease (NAFLD/NASH), CVD and diabetes with heart failure.">
+		<entity id="s2.e1" charOffset="16-20"
+			type="GENE" text="CCNs" ontology_id="81669"/>
+		<entity id="s2.e2" charOffset="71-78"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e3" charOffset="109-113"
+			type="GENE" text="CCN2" ontology_id="1490"/>
+		<entity id="s2.e4" charOffset="123-126"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s2.e5" charOffset="161-165"
+			type="GENE" text="CCN3" ontology_id="5361"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28981088">
+	<sentence id="s1" text="Mutations in heat shock transcription factor 4 (cellular response to heat) have been associated with cataract; however, the mechanisms regarding how mutations in HSF4 cause cataract are still obscure.">
+		<entity id="s1.e1" charOffset="48-73"
+			type="GO" text="cellular response to heat" ontology_id="GO_0034605"/>
+		<entity id="s1.e2" charOffset="101-109"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The mutant zebrasuperoxide metabolic process developed an early-onset cataract with multiple developmental defects in lens.">
+		<entity id="s2.e1" charOffset="16-44"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s2.e2" charOffset="70-78"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

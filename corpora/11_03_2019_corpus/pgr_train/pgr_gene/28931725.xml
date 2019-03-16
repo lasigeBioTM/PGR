@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28931725">
+	<sentence id="s1" text="Hence, we focus on the relationship between YAP/TAZ and serine metabolism to control methylation of DNA or histone in breast cancer with LKB1 deficiency.">
+		<entity id="s1.e1" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="137-141"
+			type="GENE" text="LKB1" ontology_id="6794"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We hope that our study will stimulate further studies and a new targeted therapy and early medical intervention for YAP/TAZ could be a useful option for breast cancer cases complicated with LKB1 deficiency">
+		<entity id="s2.e1" charOffset="160-166"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="190-194"
+			type="GENE" text="LKB1" ontology_id="6794"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

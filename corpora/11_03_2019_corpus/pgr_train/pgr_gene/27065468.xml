@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27065468">
+	<sentence id="s1" text="The resulting loss of cellular respiration ultimately induces mitochondrial genetic diseases, including mtDNA depletion syndromes (MDS) such as Alpers or early infantile hepatocerebral syndromes, and mtDNA deletion disorders such as progressive external ophthalmoplegia, ataxia-neuropathy, or mitochondrial neurogastrointestinal encephalomyopathy.">
+		<entity id="s1.e1" charOffset="62-75"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s1.e2" charOffset="131-134"
+			type="GENE" text="MDS" ontology_id="5048"/>
+		<entity id="s1.e3" charOffset="233-244"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<entity id="s1.e4" charOffset="254-269"
+			type="HP" text="ophthalmoplegia" ontology_id="HP_0000602"/>
+		<entity id="s1.e5" charOffset="271-277"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e6" charOffset="278-288"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

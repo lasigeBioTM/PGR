@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25608039">
+	<sentence id="s1" text="In the present study, we characterize negative regulation of transcription by RNA polymerase II inhibition activity of the brain-permeable compound AK7 and examine the efficacy of this small molecule in models of Parkinson's disease, amyotrophic lateral sclerosis and cerebral ischemia.">
+		<entity id="s1.e1" charOffset="38-95"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="268-285"
+			type="HP" text="cerebral ischemia" ontology_id="HP_0002637"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings underscore the specificity of protective effects observed here in models of Parkinson's disease, and previously in Huntington's disease, and support the development of negative regulation of transcription by RNA polymerase II inhibitors as potential therapeutics for the two neurodegenerative diseases.">
+		<entity id="s2.e1" charOffset="183-240"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="290-316"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

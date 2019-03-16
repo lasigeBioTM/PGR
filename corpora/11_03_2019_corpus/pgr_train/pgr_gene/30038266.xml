@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30038266">
+	<sentence id="s1" text="Importantly, KLF4 inhibitor Kenpaullone sensitizes breast cancer cells and xenograft tumors to Paclitaxel and improves therapeutic effects.">
+		<entity id="s1.e1" charOffset="13-17"
+			type="GENE" text="KLF4" ontology_id="9314"/>
+		<entity id="s1.e2" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="85-91"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

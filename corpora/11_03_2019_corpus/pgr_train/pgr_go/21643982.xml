@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21643982">
+	<sentence id="s1" text="To understand the importance of chr11q22.3-23.2 region in the development of cervical cancer, we have studied the genetic and epigenetic alterations of the candidate genes protein phosphorylation, apoptotic process involved in morphogenesis, tricarboxylic acid cycle and T cell mediated cytotoxicity in cervical intraepithelial neoplasia (CIN) and cervical carcinoma (CACX) samples.">
+		<entity id="s1.e1" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="172-195"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="197-240"
+			type="GO" text="apoptotic process involved in morphogenesis" ontology_id="GO_0060561"/>
+		<entity id="s1.e4" charOffset="242-266"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s1.e5" charOffset="249-258"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<entity id="s1.e6" charOffset="271-299"
+			type="GO" text="T cell mediated cytotoxicity" ontology_id="GO_0001913"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e5"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The alterations of protein phosphorylation and T cell mediated cytotoxicity are associated with the progression of tumor from CIN to Stage I/II, thus implying their role in early invasiveness.">
+		<entity id="s2.e1" charOffset="19-42"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e2" charOffset="47-75"
+			type="GO" text="T cell mediated cytotoxicity" ontology_id="GO_0001913"/>
+		<entity id="s2.e3" charOffset="92-97"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

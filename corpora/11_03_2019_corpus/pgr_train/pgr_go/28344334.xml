@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28344334">
+	<sentence id="s1" text="Disease associated anterograde neuronal dense core vesicle transport mutations have been associated with motor and sensory dysfunctions as well as non-syndromic intellectual disability in humans.">
+		<entity id="s1.e1" charOffset="19-68"
+			type="GO" text="anterograde neuronal dense core vesicle transport" ontology_id="GO_1990048"/>
+		<entity id="s1.e2" charOffset="161-184"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

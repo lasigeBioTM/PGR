@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27618312">
+	<sentence id="s1" text="Further, apoptotic process heterozygous for either nuclear-transcribed mRNA catabolic process, nonsense-mediated decay or mRNA splicing, via spliceosome exhibit aberrant neurogenesis and microcephaly.">
+		<entity id="s1.e1" charOffset="9-26"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="38-105"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s1.e3" charOffset="109-139"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s1.e4" charOffset="149-161"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Using a new conditional allele, we first show that mRNA splicing, via spliceosome haploinsufficiency phenocopies aberrant neurogenesis and microcephaly of nuclear-transcribed mRNA catabolic process, nonsense-mediated decay and mRNA splicing, via spliceosome mutant apoptotic process.">
+		<entity id="s2.e1" charOffset="51-81"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s2.e2" charOffset="115-127"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e3" charOffset="131-198"
+			type="GO" text="nuclear-transcribed mRNA catabolic process, nonsense-mediated decay" ontology_id="GO_0000184"/>
+		<entity id="s2.e4" charOffset="203-233"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s2.e5" charOffset="265-282"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

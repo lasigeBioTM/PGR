@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29259115">
+	<sentence id="s1" text="While there has been growing interest in the homodimeric gene products of regulation of cellular respiration (regulation of cellular respiration) and regulation of autophagy (regulation of autophagy), the importance of the inner mitochondrial protein maturation by [2Fe-2S] cluster transfer protein has only recently been recognized in cancer.">
+		<entity id="s1.e1" charOffset="74-108"
+			type="GO" text="regulation of cellular respiration" ontology_id="GO_0043457"/>
+		<entity id="s1.e2" charOffset="110-144"
+			type="GO" text="regulation of cellular respiration" ontology_id="GO_0043457"/>
+		<entity id="s1.e3" charOffset="150-173"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s1.e4" charOffset="175-198"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s1.e5" charOffset="232-238"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e6" charOffset="243-290"
+			type="GO" text="protein maturation by [2Fe-2S] cluster transfer" ontology_id="GO_0106034"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

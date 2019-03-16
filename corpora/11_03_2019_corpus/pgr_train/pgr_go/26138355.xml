@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26138355">
+	<sentence id="s1" text="Missense mutations in sodium ion transmembrane transport (p.Leu1342Pro) and potassium ion transmembrane transport (p.Ala306Thr) were found in two patients with no history of epilepsy before the onset of ISs.">
+		<entity id="s1.e1" charOffset="22-56"
+			type="GO" text="sodium ion transmembrane transport" ontology_id="GO_0035725"/>
+		<entity id="s1.e2" charOffset="76-113"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s1.e3" charOffset="142-150"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

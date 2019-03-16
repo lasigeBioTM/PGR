@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28687526">
+	<sentence id="s1" text="Heterozygous missense mutations in ANK3 have been associated with autism spectrum disorder.">
+		<entity id="s1.e1" charOffset="35-39"
+			type="GENE" text="ANK3" ontology_id="288"/>
+		<entity id="s1.e2" charOffset="66-72"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

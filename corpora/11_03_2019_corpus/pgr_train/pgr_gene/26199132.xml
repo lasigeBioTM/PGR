@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26199132">
+	<sentence id="s1" text="We investigated the impact of the biomarkers of S-G2-M phases of cell cycle, Aurora kinase B (AURKB) and geminin (GMNN), on disease progression in neuroblastomas.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="94-99"
+			type="GENE" text="AURKB" ontology_id="9212"/>
+		<entity id="s1.e3" charOffset="114-118"
+			type="GENE" text="GMNN" ontology_id="51053"/>
+		<entity id="s1.e4" charOffset="147-161"
+			type="HP" text="neuroblastomas" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The expression of AURKB and GMNN was studied by immunostaining 84 neuroblastomas.">
+		<entity id="s2.e1" charOffset="18-23"
+			type="GENE" text="AURKB" ontology_id="9212"/>
+		<entity id="s2.e2" charOffset="28-32"
+			type="GENE" text="GMNN" ontology_id="51053"/>
+		<entity id="s2.e3" charOffset="66-80"
+			type="HP" text="neuroblastomas" ontology_id="HP_0003006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The PI for both markers was significantly higher in neuroblastomas from patients with unfavorable clinical (high-risk group, advanced stage, age ≥18 months at presentation, primary abdominal compared to extra-abdominal sites), biological (MYCN amplification, 1p deletion, 17q gain), and pathological (undifferentiated or poorly differentiated status, high mitosis-karyorrhexis index, [MKI], unfavorable histology) factors.">
+		<entity id="s3.e1" charOffset="52-66"
+			type="HP" text="neuroblastomas" ontology_id="HP_0003006"/>
+		<entity id="s3.e2" charOffset="239-243"
+			type="GENE" text="MYCN" ontology_id="4613"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our study shows that in neuroblastomas, AURKB- or GMNN-based PI provides valuable prognostic information and high PI indicates aggressive disease">
+		<entity id="s4.e1" charOffset="24-38"
+			type="HP" text="neuroblastomas" ontology_id="HP_0003006"/>
+		<entity id="s4.e2" charOffset="40-45"
+			type="GENE" text="AURKB" ontology_id="9212"/>
+		<entity id="s4.e3" charOffset="50-54"
+			type="GENE" text="GMNN" ontology_id="51053"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

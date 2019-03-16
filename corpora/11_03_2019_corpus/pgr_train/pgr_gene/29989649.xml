@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29989649">
+	<sentence id="s1" text="Analysis using Gene Set Enrichment Analysis (GSEA) software revealed significant enrichment for 197 proteins from the CM of lung cancer samples in maternal‑placental interface expression profiles for a mid‑term placenta with strong invasiveness relative to RNA expression profiles for a human full‑term placenta after delivery.">
+		<entity id="s1.e1" charOffset="20-23"
+			type="GENE" text="Set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

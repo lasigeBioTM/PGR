@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26771056">
+	<sentence id="s1" text="A previous study recently described two consanguineous families in which homozygous mutations of double-strand break repair via homologous recombination were responsible for POI and short stature.">
+		<entity id="s1.e1" charOffset="97-152"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e2" charOffset="182-195"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

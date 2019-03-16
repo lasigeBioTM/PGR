@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24463884">
+	<sentence id="s1" text="Mutations in the photoreceptor tetraspanin gene peripherin-2/retinal degeneration slow (PRPH2/RDS) cause both rod- and cone-dominant diseases.">
+		<entity id="s1.e1" charOffset="61-81"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e2" charOffset="94-97"
+			type="GENE" text="RDS" ontology_id="5961"/>
+		<entity id="s1.e3" charOffset="110-113"
+			type="GENE" text="rod" ontology_id="9735"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we took advantage of a transgenic mouse line expressing an RDS mutant (R172W) known to cause macular degeneration (MD) in humans.">
+		<entity id="s2.e1" charOffset="64-67"
+			type="GENE" text="RDS" ontology_id="5961"/>
+		<entity id="s2.e2" charOffset="98-118"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Fundus imaging demonstrated that R172W mice developed severe clinical signs of disease nearly identical to those seen in human MD patients, including retinal degeneration, retinal pigment epithlium (RPE) defects and loss of the choriocapillaris.">
+		<entity id="s3.e1" charOffset="39-43"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e2" charOffset="150-170"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s3.e3" charOffset="199-202"
+			type="GENE" text="RPE" ontology_id="6120"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

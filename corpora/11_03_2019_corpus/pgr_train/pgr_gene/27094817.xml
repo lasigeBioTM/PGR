@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27094817">
+	<sentence id="s1" text="Inherited mutations in NAA10, encoding the catalytic subunit of the major N-terminal acetylation complex NatA have been associated with diverse, syndromic X-linked recessive disorders, whereas de novo missense mutations have been reported in one male and one female individual with severe intellectual disability but otherwise unspecific phenotypes.">
+		<entity id="s1.e1" charOffset="23-28"
+			type="GENE" text="NAA10" ontology_id="8260"/>
+		<entity id="s1.e2" charOffset="289-312"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The core phenotype of X-linked NAA10-related N-terminal-acetyltransferase deficiency in both males and females includes developmental delay, severe intellectual disability, postnatal growth failure with severe microcephaly, and skeletal or cardiac anomalies.">
+		<entity id="s2.e1" charOffset="31-36"
+			type="GENE" text="NAA10" ontology_id="8260"/>
+		<entity id="s2.e2" charOffset="120-139"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="148-171"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e4" charOffset="173-197"
+			type="HP" text="postnatal growth failure" ontology_id="HP_0008897"/>
+		<entity id="s2.e5" charOffset="210-222"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e6" charOffset="240-257"
+			type="HP" text="cardiac anomalies" ontology_id="HP_0001627"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29074724">
+	<sentence id="s1" text="Knock-in of nonphosphorylatable purine nucleobase metabolic process/2 mutants, which have uninhibited activity, in brain tumor cells under energy stress exhausts cellular ATP and NADPH and increases reactive oxygen species levels, thereby promoting cell apoptosis.">
+		<entity id="s1.e1" charOffset="32-67"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s1.e2" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our findings highlight the significance of recalibrating tumor cell metabolism by fine-tuning nucleotide and NAD synthesis in tumor growth.<b>Significance:</b> Our findings elucidate an instrumental function of lipid biosynthetic process in direct regulation of nucleic acid and NAD synthesis in tumor cells in response to energy stress.">
+		<entity id="s2.e1" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="211-237"
+			type="GO" text="lipid biosynthetic process" ontology_id="GO_0008610"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="lipid biosynthetic process phosphorylates purine nucleobase metabolic process/2, converts PRPS1/2 hexamers to monomers, and inhibits PRPS1/2 activity and subsequent nucleotide and NAD synthesis to maintain tumor cell growth and survival.">
+		<entity id="s3.e1" charOffset="0-26"
+			type="GO" text="lipid biosynthetic process" ontology_id="GO_0008610"/>
+		<entity id="s3.e2" charOffset="42-77"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s3.e3" charOffset="176-181"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

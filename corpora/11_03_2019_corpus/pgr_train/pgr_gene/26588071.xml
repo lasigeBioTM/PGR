@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26588071">
+	<sentence id="s1" text="Canine mast cell tumours (CMCT) are one of the most common skin tumours in dogs with a major impact on canine health.">
+		<entity id="s1.e1" charOffset="7-11"
+			type="GENE" text="mast" ontology_id="51324"/>
+		<entity id="s1.e2" charOffset="17-24"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="93-99"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Certain breeds have a higher risk of developing mast cell tumours, suggesting that underlying predisposing germ-line genetic factors play a role in the development of this disease.">
+		<entity id="s2.e1" charOffset="48-52"
+			type="GENE" text="mast" ontology_id="51324"/>
+		<entity id="s2.e2" charOffset="58-65"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

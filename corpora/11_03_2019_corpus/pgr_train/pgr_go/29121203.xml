@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29121203">
+	<sentence id="s1" text="Targeted exome sequencing identified biallelic mutations in intraciliary retrograde transport, encoding an IFT-A subunit previously associated with MZSDS-related chondrodysplasia, Jeune asphyxiating thoracic dysplasia and cranioectodermal dysplasia, linked to primary cilia dysfunction, and in flagellated sperm motility which encodes tektin-1 an uncharacterized member of the tektin family, mutations of which may cause ciliary dyskinesia.">
+		<entity id="s1.e1" charOffset="60-93"
+			type="GO" text="intraciliary retrograde transport" ontology_id="GO_0035721"/>
+		<entity id="s1.e2" charOffset="199-217"
+			type="HP" text="thoracic dysplasia" ontology_id="HP_0006644"/>
+		<entity id="s1.e3" charOffset="294-320"
+			type="GO" text="flagellated sperm motility" ontology_id="GO_0030317"/>
+		<entity id="s1.e4" charOffset="400-418"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

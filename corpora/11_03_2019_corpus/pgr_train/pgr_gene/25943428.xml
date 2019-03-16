@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25943428">
+	<sentence id="s1" text="DNA samples from eight families with autosomal recessive retinal dystrophies were subjected to genome wide homozygosity mapping (seven by SNP arrays and one by STR markers) and genes comprised within the detected homozygous regions were analyzed by Sanger sequencing.">
+		<entity id="s1.e1" charOffset="37-56"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="57-76"
+			type="HP" text="retinal dystrophies" ontology_id="HP_0000556"/>
+		<entity id="s1.e3" charOffset="160-163"
+			type="GENE" text="STR" ontology_id="6779"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

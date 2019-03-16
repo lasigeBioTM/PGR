@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29656927">
+	<sentence id="s1" text="The PCH1sub-types with early death (between ages 1 day and 17 months), seen in patients with p.G31A/EXOSC3 or SLC25A46 mutations have a SMA type 1-like clinical presentation but with global developmental delay, visual and hearing impairment, with or without microcephaly, nystagmus and optic atrophy.">
+		<entity id="s1.e1" charOffset="12-16"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="100-106"
+			type="GENE" text="EXOSC3" ontology_id="51010"/>
+		<entity id="s1.e3" charOffset="110-118"
+			type="GENE" text="SLC25A46" ontology_id="91137"/>
+		<entity id="s1.e4" charOffset="136-139"
+			type="GENE" text="SMA" ontology_id="6606"/>
+		<entity id="s1.e5" charOffset="190-209"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e6" charOffset="222-240"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s1.e7" charOffset="258-270"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e8" charOffset="286-299"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e5"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e7"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e4"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e7"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e4"
+		    e2="s1.e26" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e3"
+		    e2="s1.e26" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e7"
+		    e2="s1.e26" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Mutations with milder presentation (homozygous p.D132A/EXOSC3 or VRK1) may display additionally signs of upper motor neuron impairment, dystonia or ataxia and die at age between 5 and 18 years.">
+		<entity id="s2.e1" charOffset="55-61"
+			type="GENE" text="EXOSC3" ontology_id="51010"/>
+		<entity id="s2.e2" charOffset="65-69"
+			type="GENE" text="VRK1" ontology_id="7443"/>
+		<entity id="s2.e3" charOffset="148-154"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Other EXOSC3 mutations and EXOSC8 cases are intermediate - SMA type 1-like presentation, spasticity (mostly in EXOSC8) and death between 3 months and 5 years.">
+		<entity id="s3.e1" charOffset="6-12"
+			type="GENE" text="EXOSC3" ontology_id="51010"/>
+		<entity id="s3.e2" charOffset="27-33"
+			type="GENE" text="EXOSC8" ontology_id="11340"/>
+		<entity id="s3.e3" charOffset="59-62"
+			type="GENE" text="SMA" ontology_id="6606"/>
+		<entity id="s3.e4" charOffset="63-67"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e5" charOffset="89-99"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="true"/>
+	</sentence>
+</document>

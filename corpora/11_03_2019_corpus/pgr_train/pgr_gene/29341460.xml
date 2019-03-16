@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29341460">
+	<sentence id="s1" text="In 2009, four families with a distal duplication of Xq28 not including MECP2 and mediated by low-copy repeats (LCRs) designated AAAAAAKAAAAAA and AAAAAALAAAAAA were reported with intellectual disability and epilepsy.">
+		<entity id="s1.e1" charOffset="71-76"
+			type="GENE" text="MECP2" ontology_id="4204"/>
+		<entity id="s1.e2" charOffset="179-202"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="207-215"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

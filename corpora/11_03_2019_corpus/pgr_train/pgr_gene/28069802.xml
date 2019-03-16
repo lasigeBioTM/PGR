@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28069802">
+	<sentence id="s1" text="We identified novel ALK fusions in a neuroblastoma (BEND5-ALK) and an astrocytoma (PPP1CB-ALK), novel BRAF fusions in an astrocytoma (BCAS1-BRAF) and a ganglioglioma (TMEM106B-BRAF), and a novel PAX3-GLI2 fusion in a rhabdomyosarcoma.">
+		<entity id="s1.e1" charOffset="20-23"
+			type="GENE" text="ALK" ontology_id="238"/>
+		<entity id="s1.e2" charOffset="37-50"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="70-81"
+			type="HP" text="astrocytoma" ontology_id="HP_0009592"/>
+		<entity id="s1.e4" charOffset="102-106"
+			type="GENE" text="BRAF" ontology_id="673"/>
+		<entity id="s1.e5" charOffset="195-199"
+			type="GENE" text="PAX3" ontology_id="5077"/>
+		<entity id="s1.e6" charOffset="200-204"
+			type="GENE" text="GLI2" ontology_id="2736"/>
+		<entity id="s1.e7" charOffset="217-233"
+			type="HP" text="rhabdomyosarcoma" ontology_id="HP_0002859"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e5"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e8"
+		    e2="s1.e18" pgr="false"/>
+	</sentence>
+</document>

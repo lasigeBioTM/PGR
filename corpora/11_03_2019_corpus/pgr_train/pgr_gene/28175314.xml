@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28175314">
+	<sentence id="s1" text="This progressive muscle pathology resembles the muscular dystrophy phenotype in humans and mice lacking the α7 integrin.">
+		<entity id="s1.e1" charOffset="48-66"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="91-95"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, Ptrh2 expression is altered in skeletal muscle of classical congenital muscular dystrophy mouse models.">
+		<entity id="s2.e1" charOffset="13-18"
+			type="GENE" text="Ptrh2" ontology_id="51651"/>
+		<entity id="s2.e2" charOffset="84-102"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Ptrh2 levels were up-regulated in dystrophin deficient mdx muscle, which correlates with the elevated levels of the α7β1 integrin observed in mdx muscle and Duchenne muscular dystrophy patients.">
+		<entity id="s3.e1" charOffset="0-5"
+			type="GENE" text="Ptrh2" ontology_id="51651"/>
+		<entity id="s3.e2" charOffset="166-184"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

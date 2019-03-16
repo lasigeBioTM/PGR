@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30128822">
+	<sentence id="s1" text="Nuclear respiratory factor 1 (positive regulation of transcription, DNA-templated) transcription factor has recently been shown to control breast cancer progression.">
+		<entity id="s1.e1" charOffset="30-81"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e2" charOffset="146-152"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, mechanistic aspects by which positive regulation of transcription, DNA-templated may contribute to susceptibility to different breast tumor subtypes are still not fully understood.">
+		<entity id="s2.e1" charOffset="38-89"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s2.e2" charOffset="143-148"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Since transcriptional control of positive regulation of transcription, DNA-templated seems to be dependent on epidermal growth factor receptor signaling, herein, we investigated the role of NRF1 in estrogen receptor/progesterone receptor negative, but human epidermal growth factor receptor 2-positive (ER/PR -ve signal transduction +ve) breast cancer.">
+		<entity id="s3.e1" charOffset="33-84"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s3.e2" charOffset="313-332"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s3.e3" charOffset="330-336"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We found that both mRNA and protein levels of positive regulation of transcription, DNA-templated and its transcriptional activity were significantly higher in ER/PR -ve signal transduction +ve breast cancer samples compared to normal breast tissues.">
+		<entity id="s4.e1" charOffset="46-97"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s4.e2" charOffset="170-189"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s4.e3" charOffset="186-192"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="This was consistent with our observation of higher positive regulation of transcription, DNA-templated protein expression in the experimental model of signal transduction+ breast cancer brain metastasis.">
+		<entity id="s5.e1" charOffset="51-102"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s5.e2" charOffset="151-170"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s5.e3" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="To identify network-based pathways involved in the susceptibility to the ER/PR -ve signal transduction +ve breast cancer subtype, the positive regulation of transcription, DNA-templated transcriptional regulatory genome-wide landscape was analyzed using the approach consisting of a systematic integration of protein polyubiquitination DNA-seq, RNA-Microarray, NRF1 protein-DNA motif binding, signal pathway analysis, and Bayesian machine learning.">
+		<entity id="s6.e1" charOffset="83-102"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s6.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="119-170"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s6.e4" charOffset="309-335"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Our findings show that a high percentage of known signal transduction+ breast cancer susceptibility genes, including positive regulation of protein phosphorylation, negative regulation of apoptotic process, and regulation of transcription, DNA-templated, are under transcriptional control of positive regulation of transcription, DNA-templated.">
+		<entity id="s7.e1" charOffset="50-69"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s7.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="117-163"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s7.e4" charOffset="161-212"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s7.e5" charOffset="165-205"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<entity id="s7.e6" charOffset="211-253"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s7.p1" e1="s7.e4"
+		    e2="s7.e4" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e2" pgr="true"/>
+		<pair id="s7.p3" e1="s7.e2"
+		    e2="s7.e3" pgr="true"/>
+		<pair id="s7.p4" e1="s7.e2"
+		    e2="s7.e5" pgr="false"/>
+		<pair id="s7.p5" e1="s7.e2"
+		    e2="s7.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Promoters of several genes from the KEGG signal transduction+ breast cancer pathway and 11 signaling pathways linked to 6 hallmarks of cancer contain the positive regulation of transcription, DNA-templated motif.">
+		<entity id="s8.e1" charOffset="41-60"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s8.e2" charOffset="54-60"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s8.e3" charOffset="139-190"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s8.p1" e1="s8.e3"
+		    e2="s8.e3" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e1"
+		    e2="s8.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s9" text="By pathway analysis, key breast cancer hallmark genes of epithelial-mesenchymal transition, stemness, cell apoptosis, cell cycle regulation, chromosomal integrity, and DNA damage/repair were highly enriched with positive regulation of transcription, DNA-templated motifs.">
+		<entity id="s9.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s9.e2" charOffset="212-263"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s10" text="In addition, we found using Bayesian network-based machine learning that 30 positive regulation of transcription, DNA-templated motif-enriched genes including growth factor receptors-positive regulation of cell proliferation, negative regulation of apoptotic process; E2Fs transcription factor family-regulation of transcription, DNA-templated, E2F3; MAPK pathway-MAPK cascade, insulin receptor signaling pathway, protein phosphorylation; phosphorylation-AKT-regulation of cell growth signaling pathway-phosphorylation, phosphatidylinositol 3-kinase signaling, positive regulation of protein phosphorylation, positive regulation of translational initiation; WNT signaling pathway-canonical Wnt signaling pathway, DLV1, DLV2, regulation of synaptic vesicle exocytosis, NRF1, and protein polyubiquitination, known for its role in DNA repair and involvement in early events associated with metastatic progression of breast cancer cells, were associated with signal transduction-amplified breast cancer.">
+		<entity id="s10.e1" charOffset="76-127"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s10.e2" charOffset="183-224"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s10.e3" charOffset="226-266"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<entity id="s10.e4" charOffset="266-308"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s10.e5" charOffset="364-376"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s10.e6" charOffset="378-412"
+			type="GO" text="insulin receptor signaling pathway" ontology_id="GO_0008286"/>
+		<entity id="s10.e7" charOffset="391-406"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s10.e8" charOffset="411-436"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s10.e9" charOffset="414-437"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s10.e10" charOffset="455-470"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s10.e11" charOffset="517-523"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s10.e12" charOffset="520-559"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0014065"/>
+		<entity id="s10.e13" charOffset="552-571"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s10.e14" charOffset="561-607"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s10.e15" charOffset="567-598"
+			type="GO" text="canonical Wnt signaling pathway" ontology_id="GO_0060070"/>
+		<entity id="s10.e16" charOffset="609-656"
+			type="GO" text="positive regulation of translational initiation" ontology_id="GO_0045948"/>
+		<entity id="s10.e17" charOffset="725-766"
+			type="GO" text="regulation of synaptic vesicle exocytosis" ontology_id="GO_2000300"/>
+		<entity id="s10.e18" charOffset="778-804"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s10.p1" e1="s10.e1"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p2" e1="s10.e11"
+		    e2="s10.e13" pgr="true"/>
+		<pair id="s10.p3" e1="s10.e2"
+		    e2="s10.e11" pgr="true"/>
+		<pair id="s10.p4" e1="s10.e4"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p5" e1="s10.e3"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p6" e1="s10.e5"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p7" e1="s10.e7"
+		    e2="s10.e11" pgr="true"/>
+		<pair id="s10.p8" e1="s10.e8"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p9" e1="s10.e10"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p10" e1="s10.e6"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p11" e1="s10.e9"
+		    e2="s10.e11" pgr="true"/>
+		<pair id="s10.p12" e1="s10.e15"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p13" e1="s10.e12"
+		    e2="s10.e11" pgr="true"/>
+		<pair id="s10.p14" e1="s10.e14"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p15" e1="s10.e16"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p16" e1="s10.e17"
+		    e2="s10.e11" pgr="false"/>
+		<pair id="s10.p17" e1="s10.e18"
+		    e2="s10.e11" pgr="true"/>
+	</sentence>
+	<sentence id="s11" text="Machine learning search further revealed that the likelihood of signal transduction-positive breast cancer is almost 100% in a patient with the high positive regulation of transcription, DNA-templated expression combined with expression patterns of high E2F3, regulation of synaptic vesicle exocytosis, and protein phosphorylation, low or no change in regulation of transcription, DNA-templated and positive regulation of cell proliferation, and high or no change in positive regulation of protein phosphorylation.">
+		<entity id="s11.e1" charOffset="64-83"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s11.e2" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s11.e3" charOffset="134-185"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s11.e4" charOffset="260-301"
+			type="GO" text="regulation of synaptic vesicle exocytosis" ontology_id="GO_2000300"/>
+		<entity id="s11.e5" charOffset="271-294"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s11.e6" charOffset="298-340"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s11.e7" charOffset="307-348"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s11.e8" charOffset="431-477"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s11.p1" e1="s11.e3"
+		    e2="s11.e3" pgr="false"/>
+		<pair id="s11.p2" e1="s11.e1"
+		    e2="s11.e2" pgr="true"/>
+		<pair id="s11.p3" e1="s11.e2"
+		    e2="s11.e7" pgr="true"/>
+		<pair id="s11.p4" e1="s11.e2"
+		    e2="s11.e6" pgr="false"/>
+		<pair id="s11.p5" e1="s11.e2"
+		    e2="s11.e5" pgr="true"/>
+		<pair id="s11.p6" e1="s11.e2"
+		    e2="s11.e8" pgr="false"/>
+		<pair id="s11.p7" e1="s11.e2"
+		    e2="s11.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s12" text="In summary, our findings suggest novel roles of positive regulation of transcription, DNA-templated and its regulatory networks in susceptibility to the ER/PR -ve signal transduction +ve aggressive breast cancer subtype.">
+		<entity id="s12.e1" charOffset="48-99"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s12.e2" charOffset="163-182"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s12.e3" charOffset="190-196"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s12.p1" e1="s12.e1"
+		    e2="s12.e3" pgr="false"/>
+		<pair id="s12.p2" e1="s12.e2"
+		    e2="s12.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s13" text="Clinical confirmation of our machine learned Bayesian networks will have significant impact on our understanding of the role of positive regulation of transcription, DNA-templated as a valuable biomarker for breast cancer diagnosis and prognosis as well as provide strong rationale for future studies to develop NRF1 signaling-based therapeutics to target signal transduction+ breast cancer">
+		<entity id="s13.e1" charOffset="128-179"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s13.e2" charOffset="215-221"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s13.e3" charOffset="356-375"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s13.p1" e1="s13.e1"
+		    e2="s13.e2" pgr="false"/>
+		<pair id="s13.p2" e1="s13.e2"
+		    e2="s13.e3" pgr="true"/>
+	</sentence>
+</document>

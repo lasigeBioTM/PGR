@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29259115">
+	<sentence id="s1" text="While there has been growing interest in the homodimeric gene products of CISD1 (mitoNEET) and CISD2 (NAF-1), the importance of the inner mitochondrial CISD3 protein has only recently been recognized in cancer.">
+		<entity id="s1.e1" charOffset="74-79"
+			type="GENE" text="CISD1" ontology_id="55847"/>
+		<entity id="s1.e2" charOffset="81-89"
+			type="GENE" text="mitoNEET" ontology_id="55847"/>
+		<entity id="s1.e3" charOffset="95-100"
+			type="GENE" text="CISD2" ontology_id="493856"/>
+		<entity id="s1.e4" charOffset="102-107"
+			type="GENE" text="NAF-1" ontology_id="493856"/>
+		<entity id="s1.e5" charOffset="152-157"
+			type="GENE" text="CISD3" ontology_id="284106"/>
+		<entity id="s1.e6" charOffset="203-209"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

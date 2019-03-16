@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23340767">
+	<sentence id="s1" text="The DFNB79 locus harbors TPRN mutations in which have been reported in a few families with deafness.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="GENE" text="DFNB79" ontology_id="286262"/>
+		<entity id="s1.e2" charOffset="25-29"
+			type="GENE" text="TPRN" ontology_id="286262"/>
+		<entity id="s1.e3" charOffset="91-99"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Four frameshift mutations in TPRN have been described to cause severe or severe-to-profound hearing loss in Moroccan and Pakistani families, and a single frameshift mutation was associated with progressive hearing loss in deaf individuals in a Dutch family.">
+		<entity id="s2.e1" charOffset="29-33"
+			type="GENE" text="TPRN" ontology_id="286262"/>
+		<entity id="s2.e2" charOffset="83-91"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s2.e3" charOffset="92-104"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e4" charOffset="194-205"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28749476">
+	<sentence id="s1" text="WES also unraveled pathogenic mutations in genes not commonly linked to FTD, including mutations in Alzheimer (PSEN1, PSEN2), lysosomal (CTSF, 7-exon macro-deletion) and cholesterol homeostasis pathways (CYP27A1).ConclusionOur unbiased approach reveals a wide genetic spectrum underlying clinical FTD, including 11% of seemingly sporadic FTD.">
+		<entity id="s1.e1" charOffset="111-116"
+			type="GENE" text="PSEN1" ontology_id="5663"/>
+		<entity id="s1.e2" charOffset="118-123"
+			type="GENE" text="PSEN2" ontology_id="5664"/>
+		<entity id="s1.e3" charOffset="137-141"
+			type="GENE" text="CTSF" ontology_id="8722"/>
+		<entity id="s1.e4" charOffset="204-211"
+			type="GENE" text="CYP27A1" ontology_id="1593"/>
+		<entity id="s1.e5" charOffset="329-337"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

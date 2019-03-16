@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28768959">
+	<sentence id="s1" text="Although mutations in skeletal system development, fibroblast growth factor receptor signaling pathway, negative regulation of kinase activity, and positive regulation of transcription by RNA polymerase II typically lead to skeletal dysplasia, and mutations in adenylate cyclase-activating G protein-coupled receptor signaling pathway, positive regulation of receptor internalization1, cellular response to hormone stimulus, response to estradiol, cell activation, signal transduction, and cell activationR usually underlie hormonal defects of the growth hormone (positive regulation of receptor internalization)-insulin-like growth factor 1 (IGF1) axis, such mutations have also been identified in patients with idiopathic short stature (ISS).">
+		<entity id="s1.e1" charOffset="22-49"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s1.e2" charOffset="51-102"
+			type="GO" text="fibroblast growth factor receptor signaling pathway" ontology_id="GO_0008543"/>
+		<entity id="s1.e3" charOffset="91-109"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e4" charOffset="104-142"
+			type="GO" text="negative regulation of kinase activity" ontology_id="GO_00336142"/>
+		<entity id="s1.e5" charOffset="148-205"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_00148944"/>
+		<entity id="s1.e6" charOffset="261-334"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e7" charOffset="336-383"
+			type="GO" text="positive regulation of receptor internalization" ontology_id="GO_0002092"/>
+		<entity id="s1.e8" charOffset="341-378"
+			type="GO" text="cellular response to hormone stimulus" ontology_id="GO_0032870"/>
+		<entity id="s1.e9" charOffset="349-362"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e10" charOffset="380-401"
+			type="GO" text="response to estradiol" ontology_id="GO_0032355"/>
+		<entity id="s1.e11" charOffset="403-418"
+			type="GO" text="cell activation" ontology_id="GO_0001775"/>
+		<entity id="s1.e12" charOffset="420-439"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e3"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e2"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e5"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e8"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e12"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e9"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e14"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e16"
+		    e2="s1.e22" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e18"
+		    e2="s1.e22" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e20"
+		    e2="s1.e22" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Unlike previously reported patients with skeletal system development mutations, our four patients with ACAN variants manifested non-specific short stature with age-appropriate or mildly delayed bone ages, and had parents of normal stature.">
+		<entity id="s2.e1" charOffset="41-68"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s2.e2" charOffset="141-154"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

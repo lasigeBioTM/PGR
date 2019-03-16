@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30315939">
+	<sentence id="s1" text="Mutations in COL4A1 have been reported in schizencephaly and porencephaly combined with microbleeds or calcifications, often associated with ocular and renal abnormalities, myopathy, elevated creatine kinase levels and haemolytic anaemia.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="GENE" text="COL4A1" ontology_id="1282"/>
+		<entity id="s1.e2" charOffset="42-56"
+			type="HP" text="schizencephaly" ontology_id="HP_0010636"/>
+		<entity id="s1.e3" charOffset="173-181"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we aimed to clarify the phenotypic spectrum of COL4A1/A2 mutations in the context of cortical malformations that include schizencephaly, polymicrogyria and/or heterotopia">
+		<entity id="s2.e1" charOffset="62-68"
+			type="GENE" text="COL4A1" ontology_id="1282"/>
+		<entity id="s2.e2" charOffset="136-150"
+			type="HP" text="schizencephaly" ontology_id="HP_0010636"/>
+		<entity id="s2.e3" charOffset="152-166"
+			type="HP" text="polymicrogyria" ontology_id="HP_0002126"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29801399">
+	<sentence id="s1" text="of axon guidance gene (one of the netrin-1 receptors) in colorectal cancer patients of Kashmiri population (North India).">
+		<entity id="s1.e1" charOffset="3-16"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s1.e2" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Results: axon guidance promoter hypermethylation was significantly found to be associated with colorectal cancer cases">
+		<entity id="s2.e1" charOffset="9-22"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s2.e2" charOffset="106-112"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

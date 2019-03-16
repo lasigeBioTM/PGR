@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29567476">
+	<sentence id="s1" text="Here, we report that TRIP13 is highly overexpressed in multiple lung adenocarcinoma cell lines and tumor tissues.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="GENE" text="TRIP13" ontology_id="9319"/>
+		<entity id="s1.e2" charOffset="64-83"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s1.e3" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Clinically, TRIP13 expression is positively associated with tumor size, T-stage, and N-stage, and Kaplan-Meier analysis revealed that heightened TRIP13 expression is associated with lower overall survival.">
+		<entity id="s2.e1" charOffset="12-18"
+			type="GENE" text="TRIP13" ontology_id="9319"/>
+		<entity id="s2.e2" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="TRIP13 promotes lung adenocarcinoma cell proliferation, clonogenicity, and migration while inhibiting apoptosis and G2/M phase shift in vitro.">
+		<entity id="s3.e1" charOffset="0-6"
+			type="GENE" text="TRIP13" ontology_id="9319"/>
+		<entity id="s3.e2" charOffset="16-35"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Accordingly, TRIP13-silenced xenograft tumors displayed significant growth inhibition in vivo.">
+		<entity id="s4.e1" charOffset="13-19"
+			type="GENE" text="TRIP13" ontology_id="9319"/>
+		<entity id="s4.e2" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In conclusion, heightened TRIP13 expression appears to promote lung adenocarcinoma tumor progression and displays potential as a therapeutic target or biomarker for lung adenocarcinoma">
+		<entity id="s5.e1" charOffset="26-32"
+			type="GENE" text="TRIP13" ontology_id="9319"/>
+		<entity id="s5.e2" charOffset="63-82"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s5.e3" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27488440">
+	<sentence id="s1" text="Overexpression of negative regulation of transcription by RNA polymerase II and negative regulation of endopeptidase activity was observed in clinical specimens of lung cancer and fibrotic lesions.">
+		<entity id="s1.e1" charOffset="18-75"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="80-125"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<entity id="s1.e3" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Downregulation of miR-29a caused overexpression of negative regulation of transcription by RNA polymerase II and negative regulation of endopeptidase activity in lung cancer and IPF, suggesting that these genes are involved in the pathogenesis of these two diseases">
+		<entity id="s2.e1" charOffset="51-108"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="113-158"
+			type="GO" text="negative regulation of endopeptidase activity" ontology_id="GO_0010951"/>
+		<entity id="s2.e3" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

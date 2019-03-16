@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28795510">
+	<sentence id="s1" text="cation transport encoding the beta subunit of the cyclic nucleotide-gated ion channel in cone photoreceptors is the major achromatopsia gene.">
+		<entity id="s1.e1" charOffset="0-16"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s1.e2" charOffset="122-135"
+			type="HP" text="achromatopsia" ontology_id="HP_0011516"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we present a comprehensive spectrum of cation transport mutations and their prevalence in a cohort of 1074 independent families clinically diagnosed with achromatopsia.">
+		<entity id="s2.e1" charOffset="45-61"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s2.e2" charOffset="160-173"
+			type="HP" text="achromatopsia" ontology_id="HP_0011516"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

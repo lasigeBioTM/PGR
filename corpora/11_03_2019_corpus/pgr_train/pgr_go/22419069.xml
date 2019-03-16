@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22419069">
+	<sentence id="s1" text="Genes involved in tissue development, differentiation, and oncogenesis such as protein refolding, cartilage development, negative regulation of transcription by RNA polymerase II, diet induced thermogenesis, positive regulation of transcription, DNA-templated, negative regulation of transcription by RNA polymerase II, regulation of transcription by RNA polymerase II, and peptidyl-proline hydroxylation to 4-hydroxy-L-proline were hypermethylated in both RMS cell lines and primary samples, implicating aberrant DNA methylation in the pathogenesis of rhabdomyosarcoma.">
+		<entity id="s1.e1" charOffset="79-96"
+			type="GO" text="protein refolding" ontology_id="GO_0042026"/>
+		<entity id="s1.e2" charOffset="98-119"
+			type="GO" text="cartilage development" ontology_id="GO_0051216"/>
+		<entity id="s1.e3" charOffset="121-178"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="180-206"
+			type="GO" text="diet induced thermogenesis" ontology_id="GO_0002024"/>
+		<entity id="s1.e5" charOffset="208-259"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e6" charOffset="261-318"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e7" charOffset="272-288"
+			type="HP" text="rhabdomyosarcoma" ontology_id="HP_0002859"/>
+		<entity id="s1.e8" charOffset="320-368"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e9" charOffset="374-427"
+			type="GO" text="peptidyl-proline hydroxylation to 4-hydroxy-L-proline" ontology_id="GO_0018401"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results suggest that DNA methylation signatures may somatic diversification of immunoglobulins in the diagnosis and risk stratification of pediatric rhabdomyosarcoma and help identify new targets for therapy">
+		<entity id="s2.e1" charOffset="58-100"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<entity id="s2.e2" charOffset="155-171"
+			type="HP" text="rhabdomyosarcoma" ontology_id="HP_0002859"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30807555">
+	<sentence id="s1" text="We investigated glioma-associated oncogene protein-1 (Gli-1) expression in human esophageal carcinoma tissue and the inhibition of cyclopamine on EC9706 esophageal carcinoma cell growth.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e2" charOffset="54-57"
+			type="GENE" text="Gli" ontology_id="2735"/>
+		<entity id="s1.e3" charOffset="81-101"
+			type="HP" text="esophageal carcinoma" ontology_id="HP_0011459"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MATERIAL AND METHODS Gli-1 in tumor tissue was measured by immunohistochemistry (IHC).">
+		<entity id="s2.e1" charOffset="21-24"
+			type="GENE" text="Gli" ontology_id="2735"/>
+		<entity id="s2.e2" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="RESULTS Gli-1 was associated with patient age, gender, lymphatic metastasis, tumor recurrence, and stage, with significantly (PAAAA0.05) positive correlations with age, lymphatic metastasis, tumor recurrence, and stage.">
+		<entity id="s3.e1" charOffset="8-11"
+			type="GENE" text="Gli" ontology_id="2735"/>
+		<entity id="s3.e2" charOffset="77-82"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="CONCLUSIONS Gli-1 is highly expressed in human esophageal carcinoma, and could be a marker for use in assessing tumor stage and the deciding on treatment target">
+		<entity id="s4.e1" charOffset="12-15"
+			type="GENE" text="Gli" ontology_id="2735"/>
+		<entity id="s4.e2" charOffset="47-67"
+			type="HP" text="esophageal carcinoma" ontology_id="HP_0011459"/>
+		<entity id="s4.e3" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

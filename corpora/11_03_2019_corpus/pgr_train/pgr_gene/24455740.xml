@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24455740">
+	<sentence id="s1" text="This study is to investigate multiple chemotherapeutic agent- and radiation-related genetic biomarkers in locally advanced rectal cancer (LARC) patients following fluoropyrimidine-based concurrent chemoradiotherapy (CCRT) for response prediction.">
+		<entity id="s1.e1" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="138-142"
+			type="GENE" text="LARC" ontology_id="6364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We initially selected 6 fluoropyrimidine metabolism-related genes (DPYD, ORPT, TYMS, TYMP, TK1, and TK2) and 3 radiotherapy response-related genes (GLUT1, HIF-1α, and HIF-2α) as targets for gene expression identification in 60 LARC cancer specimens.">
+		<entity id="s2.e1" charOffset="67-71"
+			type="GENE" text="DPYD" ontology_id="1806"/>
+		<entity id="s2.e2" charOffset="79-83"
+			type="GENE" text="TYMS" ontology_id="7298"/>
+		<entity id="s2.e3" charOffset="85-89"
+			type="GENE" text="TYMP" ontology_id="1890"/>
+		<entity id="s2.e4" charOffset="148-153"
+			type="GENE" text="GLUT1" ontology_id="6513"/>
+		<entity id="s2.e5" charOffset="227-231"
+			type="GENE" text="LARC" ontology_id="6364"/>
+		<entity id="s2.e6" charOffset="232-238"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="After CCRT, 39 of 60 (65%) LARC patients were classified as responders (pathological tumor regression grade 2 ~ 4).">
+		<entity id="s3.e1" charOffset="27-31"
+			type="GENE" text="LARC" ontology_id="6364"/>
+		<entity id="s3.e2" charOffset="85-90"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27143436">
+	<sentence id="s1" text="Despite significant progress in our understanding of hereditary neurodegenerative diseases, the list of genes associated with early-onset dementia is not yet complete.">
+		<entity id="s1.e1" charOffset="64-90"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="134-137"
+			type="GENE" text="set" ontology_id="6418"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

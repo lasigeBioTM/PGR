@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29367767">
+	<sentence id="s1" text="BBN tumors showed overexpression of markers of basal cancer subtype, and had a high mutation burden with frequent Trp53 (80%), Kmt2d (70%), and Kmt2c (90%) mutations by exome sequencing, similar to human MIBC.">
+		<entity id="s1.e1" charOffset="4-10"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="53-59"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="127-132"
+			type="GENE" text="Kmt2d" ontology_id="8085"/>
+		<entity id="s1.e4" charOffset="144-149"
+			type="GENE" text="Kmt2c" ontology_id="58508"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e1" pgr="false"/>
+	</sentence>
+</document>

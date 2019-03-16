@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27270415">
+	<sentence id="s1" text="Mice with a neuronal deletion of Arv1 recapitulated the human phenotype, exhibiting seizures and a severe survival defect in adulthood.">
+		<entity id="s1.e1" charOffset="33-37"
+			type="GENE" text="Arv1" ontology_id="64801"/>
+		<entity id="s1.e2" charOffset="67-71"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="84-91"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our data support ARV1 deficiency as a cause of autosomal recessive epileptic encephalopathy">
+		<entity id="s2.e1" charOffset="17-21"
+			type="GENE" text="ARV1" ontology_id="64801"/>
+		<entity id="s2.e2" charOffset="47-66"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

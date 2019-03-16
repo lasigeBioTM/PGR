@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30747231">
+	<sentence id="s1" text="Clinical trials have revealed that inhibition of sonic Hedgehog (SHH) signaling or histone deacetylase (HDAC) holds promise as a treatment for liver cancer.">
+		<entity id="s1.e1" charOffset="65-68"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s1.e2" charOffset="104-108"
+			type="GENE" text="HDAC" ontology_id="9734"/>
+		<entity id="s1.e3" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results revealed that the dual use of the SHH inhibitor and the HDAC inhibitor effectively synergized to inhibit proliferation, and promote apoptosis in liver cancer cells.">
+		<entity id="s2.e1" charOffset="46-49"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s2.e2" charOffset="68-72"
+			type="GENE" text="HDAC" ontology_id="9734"/>
+		<entity id="s2.e3" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

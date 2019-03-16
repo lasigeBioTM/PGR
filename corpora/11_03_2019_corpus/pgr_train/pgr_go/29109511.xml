@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29109511">
+	<sentence id="s1" text="Global-genome nucleotide excision repair (GG-positive regulation of cholesterol transport) prevents ultraviolet (UV) light-induced skin cancer by removing mutagenic cyclobutane pyrimidine dimers (sensory perception of sounds).">
+		<entity id="s1.e1" charOffset="45-89"
+			type="GO" text="positive regulation of cholesterol transport" ontology_id="GO_0032376"/>
+		<entity id="s1.e2" charOffset="136-142"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="196-223"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

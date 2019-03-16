@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30068520">
+	<sentence id="s1" text="During drug discovery efforts targeting inhibition of cytochrome P450 11B2 (CYP11B2)-mediated production of aldosterone as a therapeutic approach for the treatment of chronic kidney disease and hypertension, (li>S</i>)-6-(5-fluoro-4-(1-hydroxyethyl)pyridin-3-yl)-3,4-dihydro-1,8-naphthyridine-1(li>2H</i>)-carboxamide (1) was identified as a potent and selective inhibitor of CYP11B2.">
+		<entity id="s1.e1" charOffset="76-83"
+			type="GENE" text="CYP11B2" ontology_id="1585"/>
+		<entity id="s1.e2" charOffset="194-206"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

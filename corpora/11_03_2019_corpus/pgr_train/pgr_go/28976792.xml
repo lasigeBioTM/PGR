@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28976792">
+	<sentence id="s1" text="Results We demonstrated an association between six previously published single nucleotide polymorphisms (rs15869 [ BRCA2], rs1805389 [ LIG4], rs8079544 [ TP53], rs25489 [ XRCC1], rs1673041 [ POLD1], and rs11615 [ nucleotide-excision repair]) and subsequent CNS tumors in survivors of childhood cancer.">
+		<entity id="s1.e1" charOffset="213-239"
+			type="GO" text="nucleotide-excision repair" ontology_id="GO_0006289"/>
+		<entity id="s1.e2" charOffset="261-267"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="294-300"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Including genetic variants in a Final Model containing age at primary cancer, negative regulation of cell adhesion, and cranial radiation therapy dose yielded an area under the curve of 0.81 (95% CI, 0.76 to 0.86), which was superior ( P = .002) to the Clinical Model (area under the curve, 0.73; 95% CI, 0.66 to 0.80).">
+		<entity id="s2.e1" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="78-114"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

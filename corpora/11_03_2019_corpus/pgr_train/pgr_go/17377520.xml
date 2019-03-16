@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17377520">
+	<sentence id="s1" text="ER to Golgi vesicle-mediated transport, known as a human homologue of the Drosophila retinal degeneration B (phospholipid transport), lacks the N-terminal PIT domain needed for transport of phospholipids, renewal of photoreceptors membrane and providing the electroretinogram (positive regulation of transcription by RNA polymerase II) response to light.">
+		<entity id="s1.e1" charOffset="0-38"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="85-105"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="109-131"
+			type="GO" text="phospholipid transport" ontology_id="GO_0015914"/>
+		<entity id="s1.e4" charOffset="277-334"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

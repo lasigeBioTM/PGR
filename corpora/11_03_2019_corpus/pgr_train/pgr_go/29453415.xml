@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29453415">
+	<sentence id="s1" text="We also demonstrate that ATP-binding cassette subfamily C member 2 (transmembrane transport) gene, responsible for hyperbilirubinemia, is linked to ERLIN1">
+		<entity id="s1.e1" charOffset="68-91"
+			type="GO" text="transmembrane transport" ontology_id="GO_0055085"/>
+		<entity id="s1.e2" charOffset="115-133"
+			type="HP" text="hyperbilirubinemia" ontology_id="HP_0002904"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

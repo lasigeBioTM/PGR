@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30396386">
+	<sentence id="s1" text="<i>Background:</i> regulation of cell cycle/positive regulation of cell proliferation have been reported to be highly expressed in malignant tumors.">
+		<entity id="s1.e1" charOffset="19-43"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s1.e2" charOffset="44-85"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e3" charOffset="103-109"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This research was aimed to study the expression of positive regulation of cell proliferation/regulation of cell cycle protein in malignant melanoma and to investigate its relationship to the clinicopathology and prognosis of patients with malignant melanoma.">
+		<entity id="s2.e1" charOffset="51-92"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e2" charOffset="55-79"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s2.e3" charOffset="91-109"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Relationship between positive regulation of cell proliferation/regulation of cell cycle and clinical data of malignant melanoma were analyzed.">
+		<entity id="s3.e1" charOffset="21-62"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s3.e2" charOffset="25-49"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s3.e3" charOffset="71-89"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="<i>Results:</i> The number of positive cells of positive regulation of cell proliferation and regulation of cell cycle in malignant melanoma tumor tissues was significantly higher than that in melanocytic nevi tissues, and the expression of both proteins was positively correlated with malignant melanoma (r = 0.687, P AAAA0.01); positive regulation of cell proliferation and regulation of cell cycle protein expression in malignant melanoma tissue was significantly correlated with tumor thickness, invasive depth grade, lymph node metastasis and regulation of transcription by RNA polymerase III stages (P AAAA0.05), and increased with regulation of transcription by RNA polymerase III staging.">
+		<entity id="s4.e1" charOffset="48-89"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s4.e2" charOffset="56-80"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s4.e3" charOffset="84-102"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<entity id="s4.e4" charOffset="103-108"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e5" charOffset="489-538"
+			type="GO" text="regulation of transcription by RNA polymerase III" ontology_id="GO_0006359"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p5" e1="s4.e1"
+		    e2="s4.e8" pgr="false"/>
+		<pair id="s4.p6" e1="s4.e8"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="High expression of positive regulation of cell proliferation/regulation of cell cycle significantly reduced the postoperative survival rate in patients with malignant melanoma.">
+		<entity id="s5.e1" charOffset="19-60"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s5.e2" charOffset="23-47"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s5.e3" charOffset="119-137"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="<i>Conclusion:</i> positive regulation of cell proliferation/regulation of cell cycle is highly expressed in malignant melanoma tumor tissues.">
+		<entity id="s6.e1" charOffset="19-60"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s6.e2" charOffset="23-47"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s6.e3" charOffset="71-89"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<entity id="s6.e4" charOffset="90-95"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p4" e1="s6.e1"
+		    e2="s6.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="The high expression of positive regulation of cell proliferation/regulation of cell cycle promotes the progression of malignant melanoma and affects the postoperative survival of patients">
+		<entity id="s7.e1" charOffset="23-64"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s7.e2" charOffset="27-51"
+			type="GO" text="regulation of cell cycle" ontology_id="GO_0051726"/>
+		<entity id="s7.e3" charOffset="80-98"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+</document>

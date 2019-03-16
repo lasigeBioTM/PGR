@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21565611">
+	<sentence id="s1" text="Nephronophthisis (NPHP), Joubert (JBTS), and Meckel-Gruber (cilium assembly) syndromes are autosomal-recessive ciliopathies presenting with cystic kidneys, retinal degeneration, and cerebellar/neural microtubule cytoskeleton organization malformation.">
+		<entity id="s1.e1" charOffset="60-75"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e2" charOffset="156-176"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="200-237"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

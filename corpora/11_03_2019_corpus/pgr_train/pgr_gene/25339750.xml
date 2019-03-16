@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25339750">
+	<sentence id="s1" text="To identify other possible transcriptional targets of PGC-1α in neural tissue, we conducted a microarray on neuroblastoma cells overexpressing PGC-1α, mined results for genes with physiological relevance to interneurons, and measured cortical gene and protein expression of these genes in mice with underexpression and overexpression of PGC-1α.">
+		<entity id="s1.e1" charOffset="54-57"
+			type="GENE" text="PGC" ontology_id="5225"/>
+		<entity id="s1.e2" charOffset="108-121"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="289-293"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

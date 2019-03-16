@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28695418">
+	<sentence id="s1" text="We identified 568 proteins in the CSF of infants with spina bifida, which is the most common cardiac muscle tissue development of NTD.">
+		<entity id="s1.e1" charOffset="54-66"
+			type="HP" text="spina bifida" ontology_id="HP_0002414"/>
+		<entity id="s1.e2" charOffset="93-126"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

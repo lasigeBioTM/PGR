@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28678825">
+	<sentence id="s1" text="High mobility group box 3 (DNA recombination), a member of the high-mobility group box (HMGB) family, was reported to be over-expressed in gastric carcinoma and bladder cancer.">
+		<entity id="s1.e1" charOffset="27-44"
+			type="GO" text="DNA recombination" ontology_id="GO_0006310"/>
+		<entity id="s1.e2" charOffset="169-175"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="qRT-PCR results showed that high expression of DNA recombination had positive correlation with serosal invasion, lymph metastasis, and tumor-node-metastasis (regulation of transcription by RNA polymerase III) stage in CRC patient.">
+		<entity id="s2.e1" charOffset="47-64"
+			type="GO" text="DNA recombination" ontology_id="GO_0006310"/>
+		<entity id="s2.e2" charOffset="135-140"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="158-207"
+			type="GO" text="regulation of transcription by RNA polymerase III" ontology_id="GO_0006359"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

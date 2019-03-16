@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28769069">
+	<sentence id="s1" text="The remaining cases, clinically similar to XLA, are autosomal recessive agammaglobulinemia (ARA).">
+		<entity id="s1.e1" charOffset="43-46"
+			type="GENE" text="XLA" ontology_id="695"/>
+		<entity id="s1.e2" charOffset="52-71"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="92-95"
+			type="GENE" text="ARA" ontology_id="368"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

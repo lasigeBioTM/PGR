@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30483049">
+	<sentence id="s1" text="Today, more than a dozen human negative regulation of endothelial cell proliferation missense mutations have been described, all found in patients with severe cardiac arrhythmias.">
+		<entity id="s1.e1" charOffset="31-84"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s1.e2" charOffset="159-178"
+			type="HP" text="cardiac arrhythmias" ontology_id="HP_0011675"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, sequencing of large human cohorts reveals a cumulative frequency of additional rare negative regulation of endothelial cell proliferation mutations that raise the possibility of CaM variants not exclusively causing severe cardiac arrhythmias.">
+		<entity id="s2.e1" charOffset="93-146"
+			type="GO" text="negative regulation of endothelial cell proliferation" ontology_id="GO_0001937"/>
+		<entity id="s2.e2" charOffset="231-250"
+			type="HP" text="cardiac arrhythmias" ontology_id="HP_0011675"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22196487">
+	<sentence id="s1" text="We summarize recent updates on the genes and related clinical syndromes involved in the pathogenesis of early-onset epileptic encephalopathies: Aristaless-related homeobox (protein sumoylation), cyclin-dependent kinase-like 5 (regulation of postsynapse organization), syntaxin-binding protein 1 (protein localization to plasma membrane), solute carrier family 25 member 22 (L-glutamate transmembrane transport), nonerythrocytic α-spectrin-1 (MAPK cascade), phospholipase Cβ1 (PLCβ1), membrane-associated guanylate kinase inverted-2 (positive regulation of receptor internalization), polynucleotide kinase 3'-phosphatase (response to oxidative stress), sodium channel neuronal cardiac muscle tissue development 1α subunit (cardiac muscle cell action potential involved in contraction), protocadherin 19 (cell adhesion), and pyridoxamine 5-prime-phosphate oxidase (pyridoxal phosphate biosynthetic process)">
+		<entity id="s1.e1" charOffset="116-142"
+			type="HP" text="epileptic encephalopathies" ontology_id="HP_0200134"/>
+		<entity id="s1.e2" charOffset="173-192"
+			type="GO" text="protein sumoylation" ontology_id="GO_0016925"/>
+		<entity id="s1.e3" charOffset="227-265"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<entity id="s1.e4" charOffset="296-335"
+			type="GO" text="protein localization to plasma membrane" ontology_id="GO_0072659"/>
+		<entity id="s1.e5" charOffset="374-409"
+			type="GO" text="L-glutamate transmembrane transport" ontology_id="GO_0015813"/>
+		<entity id="s1.e6" charOffset="442-454"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e7" charOffset="533-580"
+			type="GO" text="positive regulation of receptor internalization" ontology_id="GO_0002092"/>
+		<entity id="s1.e8" charOffset="621-649"
+			type="GO" text="response to oxidative stress" ontology_id="GO_0006979"/>
+		<entity id="s1.e9" charOffset="676-709"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e10" charOffset="722-782"
+			type="GO" text="cardiac muscle cell action potential involved in contraction" ontology_id="GO_0086002"/>
+		<entity id="s1.e11" charOffset="803-816"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s1.e12" charOffset="863-903"
+			type="GO" text="pyridoxal phosphate biosynthetic process" ontology_id="GO_0042823"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+	</sentence>
+</document>

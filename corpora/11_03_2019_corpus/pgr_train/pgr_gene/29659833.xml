@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29659833">
+	<sentence id="s1" text="Mutations in IFT172 lead to diseases ranging from isolated retinal degeneration to severe syndromic ciliopathies.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="GENE" text="IFT172" ontology_id="26160"/>
+		<entity id="s1.e2" charOffset="59-79"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we created a mouse model of IFT172-associated retinal degeneration to investigate the ocular disease mechanism.">
+		<entity id="s2.e1" charOffset="43-49"
+			type="GENE" text="IFT172" ontology_id="26160"/>
+		<entity id="s2.e2" charOffset="61-81"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We investigated molecular mechanisms of degeneration and show that IFT172 protein reduction leads to mislocalization of specific photoreceptor outersegment (OS) proteins (RHO, RP1, IFT139), aberrant light-driven translocation of alpha transducin and altered localization of glioma-associated oncogene family member 1 (GLI1).">
+		<entity id="s3.e1" charOffset="67-73"
+			type="GENE" text="IFT172" ontology_id="26160"/>
+		<entity id="s3.e2" charOffset="171-174"
+			type="GENE" text="RHO" ontology_id="6010"/>
+		<entity id="s3.e3" charOffset="181-187"
+			type="GENE" text="IFT139" ontology_id="79809"/>
+		<entity id="s3.e4" charOffset="274-280"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e5" charOffset="318-322"
+			type="GENE" text="GLI1" ontology_id="2735"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This mouse model exhibits key features of the retinal phenotype observed in patients with IFT172-associated blindness and can be used for in vivo testing of ciliopathy therapies">
+		<entity id="s4.e1" charOffset="90-96"
+			type="GENE" text="IFT172" ontology_id="26160"/>
+		<entity id="s4.e2" charOffset="108-117"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

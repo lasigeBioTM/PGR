@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24827421">
+	<sentence id="s1" text="By way of whole-exome sequencing, we identified a homozygous missense mutation in valyl-tRNA aminoacylation in one subject with microcephaly and epilepsy associated with isolated deficiency of the mitochondrial respiratory chain (negative regulation of NF-kappaB transcription factor activity) complex I and compound heterozygous mutations in threonyl-tRNA aminoacylation in two siblings presenting with axial hypotonia and severe psychomotor delay associated with multiple negative regulation of NF-kappaB transcription factor activity defects.">
+		<entity id="s1.e1" charOffset="82-107"
+			type="GO" text="valyl-tRNA aminoacylation" ontology_id="GO_0006438"/>
+		<entity id="s1.e2" charOffset="128-140"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="145-153"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="197-210"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s1.e5" charOffset="230-292"
+			type="GO" text="negative regulation of NF-kappaB transcription factor activity" ontology_id="GO_0032088"/>
+		<entity id="s1.e6" charOffset="322-327"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<entity id="s1.e7" charOffset="343-371"
+			type="GO" text="threonyl-tRNA aminoacylation" ontology_id="GO_0006435"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e7"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e20"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e20"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Expression of the corresponding wild-type transcripts in immortalized mutant fibroblasts rescued the biochemical impairment of mitochondrial respiration and yeast modeling of the valyl-tRNA aminoacylation mutation confirmed its pathogenic role.">
+		<entity id="s2.e1" charOffset="127-140"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s2.e2" charOffset="179-204"
+			type="GO" text="valyl-tRNA aminoacylation" ontology_id="GO_0006438"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study reports the first mutations in the valyl-tRNA aminoacylation and threonyl-tRNA aminoacylation genes, which encode two mitochondrial aminoacyl-tRNA synthetases, as causes of clinically distinct, early-onset mitochondrial encephalopathies.">
+		<entity id="s3.e1" charOffset="45-70"
+			type="GO" text="valyl-tRNA aminoacylation" ontology_id="GO_0006438"/>
+		<entity id="s3.e2" charOffset="75-103"
+			type="GO" text="threonyl-tRNA aminoacylation" ontology_id="GO_0006435"/>
+		<entity id="s3.e3" charOffset="105-118"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s3.e4" charOffset="207-223"
+			type="HP" text="encephalopathies" ontology_id="HP_0001298"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

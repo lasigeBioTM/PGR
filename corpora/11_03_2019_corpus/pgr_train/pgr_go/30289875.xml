@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30289875">
+	<sentence id="s1" text="The KEGG enrichment analysis of DEGs showed significantly enriched pathways in cancer, extracellular matrix (positive regulation of cell-substrate adhesion)-receptor interaction pathway, and cyclic adenosine monophosphate (sister chromatid biorientation) signaling pathway.">
+		<entity id="s1.e1" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="109-155"
+			type="GO" text="positive regulation of cell-substrate adhesion" ontology_id="GO_0010811"/>
+		<entity id="s1.e3" charOffset="223-253"
+			type="GO" text="sister chromatid biorientation" ontology_id="GO_0031134"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

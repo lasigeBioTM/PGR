@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29845554">
+	<sentence id="s1" text="Since diffuse hepatic hemangiomatosis (proteolysis) is an extremely rare disease especially in adults, the etiology and natural course of adult-onset DHH has not been well understood.">
+		<entity id="s1.e1" charOffset="22-37"
+			type="HP" text="hemangiomatosis" ontology_id="HP_0007461"/>
+		<entity id="s1.e2" charOffset="39-50"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="She presented with mild abdominal distension and laboratory findings revealed thrombocytopenia and abnormal coagulation, indicating disseminated intravascular coagulation (sulfate transport).">
+		<entity id="s2.e1" charOffset="24-44"
+			type="HP" text="abdominal distension" ontology_id="HP_0003270"/>
+		<entity id="s2.e2" charOffset="172-189"
+			type="GO" text="sulfate transport" ontology_id="GO_0008272"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

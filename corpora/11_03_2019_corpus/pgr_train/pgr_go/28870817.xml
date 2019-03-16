@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28870817">
+	<sentence id="s1" text="Mutations within this gene are responsible for kinesigenic paroxysmal dyskinesias (protein phosphorylation) as well as for benign familial infantile epilepsy (BFIE), a disease associating infantile convulsions and choreoathetosis (neuromuscular process controlling posture), a form of familial hemiplegic migraine (positive regulation of cytosolic calcium ion concentration cardiac muscle tissue development 4), paroxysmal benign torticollis of childhood, and episodic ataxia.">
+		<entity id="s1.e1" charOffset="59-81"
+			type="HP" text="paroxysmal dyskinesias" ontology_id="HP_0007166"/>
+		<entity id="s1.e2" charOffset="83-106"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="149-157"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="231-272"
+			type="GO" text="neuromuscular process controlling posture" ontology_id="GO_0050884"/>
+		<entity id="s1.e5" charOffset="315-373"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s1.e6" charOffset="339-347"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s1.e7" charOffset="348-354"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e8" charOffset="374-407"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e5"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e7"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e5"
+		    e2="s1.e26" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e3"
+		    e2="s1.e26" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e7"
+		    e2="s1.e26" pgr="false"/>
+	</sentence>
+</document>

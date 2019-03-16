@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30624777">
+	<sentence id="s1" text="However, the exact compounds of areca biological_process causing oral cancer remain unproven.">
+		<entity id="s1.e1" charOffset="38-56"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that cell cycle arrest regulates TP53 expression from NOTCH1 knockdown oral cancer cells.">
+		<entity id="s2.e1" charOffset="14-31"
+			type="GO" text="cell cycle arrest" ontology_id="GO_0007050"/>
+		<entity id="s2.e2" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

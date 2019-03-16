@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26357016">
+	<sentence id="s1" text="A GARP complex mutation analogous to a VPS53 allele causing progressive cerebello-cerebral atrophy type 2 (PCCA2) in humans exhibits similar, albeit weaker, phenotypes in yeast, providing mechanistic insights into disease pathogenesis.">
+		<entity id="s1.e1" charOffset="2-6"
+			type="GENE" text="GARP" ontology_id="1258"/>
+		<entity id="s1.e2" charOffset="39-44"
+			type="GENE" text="VPS53" ontology_id="55275"/>
+		<entity id="s1.e3" charOffset="82-98"
+			type="HP" text="cerebral atrophy" ontology_id="HP_0002059"/>
+		<entity id="s1.e4" charOffset="99-103"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

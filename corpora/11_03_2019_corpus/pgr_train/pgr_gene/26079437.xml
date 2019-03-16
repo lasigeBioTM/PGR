@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26079437">
+	<sentence id="s1" text="These expanded roles underscore the significance of vertebrate PCP proteins as factors contributing to a number of diseases, including neural tube defects, tumor metastases, and various genetic syndromes characterized by abnormal migratory cell behaviors">
+		<entity id="s1.e1" charOffset="63-66"
+			type="GENE" text="PCP" ontology_id="54858"/>
+		<entity id="s1.e2" charOffset="135-154"
+			type="HP" text="neural tube defects" ontology_id="HP_0045005"/>
+		<entity id="s1.e3" charOffset="156-161"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

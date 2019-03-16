@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29901133">
+	<sentence id="s1" text="No pathogenic mutations were detected in PAX6, FOXC1 or PITX2 in the only patient with a sporadic form of aniridia‑like phenotype, confirming the genetic heterogeneity associated with this disease.">
+		<entity id="s1.e1" charOffset="41-45"
+			type="GENE" text="PAX6" ontology_id="5080"/>
+		<entity id="s1.e2" charOffset="47-52"
+			type="GENE" text="FOXC1" ontology_id="2296"/>
+		<entity id="s1.e3" charOffset="56-61"
+			type="GENE" text="PITX2" ontology_id="5308"/>
+		<entity id="s1.e4" charOffset="89-97"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e5" charOffset="154-167"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+</document>

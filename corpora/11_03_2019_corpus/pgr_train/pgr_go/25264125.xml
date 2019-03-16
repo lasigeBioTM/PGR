@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25264125">
+	<sentence id="s1" text="The genes HLA complex P5 (HCP5), spermatogenesis associated 2 (regulation of tumor necrosis factor-mediated signaling pathway), tumour necrosis factor alpha-induced protein 3 (response to molecule of bacterial origin), TNFAIP3-interacting protein 1 (glycoprotein biosynthetic process) and the component of oligomeric Golgi complex 6 (glycosylation) were reported to be associated with psoriasis in western populations by genome-wide association studies.">
+		<entity id="s1.e1" charOffset="63-125"
+			type="GO" text="regulation of tumor necrosis factor-mediated signaling pathway" ontology_id="GO_0010803"/>
+		<entity id="s1.e2" charOffset="128-134"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="176-216"
+			type="GO" text="response to molecule of bacterial origin" ontology_id="GO_0002237"/>
+		<entity id="s1.e4" charOffset="250-283"
+			type="GO" text="glycoprotein biosynthetic process" ontology_id="GO_0009101"/>
+		<entity id="s1.e5" charOffset="334-347"
+			type="GO" text="glycosylation" ontology_id="GO_0070085"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

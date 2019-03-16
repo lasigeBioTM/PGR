@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20549361">
+	<sentence id="s1" text="Malonyl coenzyme A (CoA) decarboxylase (EC 4.1.1.9, MCD) deficiency, or malonic aciduria, is a rare inborn error of metabolism characterised by a variable phenotype of developmental delay, seizures, cardiomyopathy and acidosis.">
+		<entity id="s1.e1" charOffset="52-55"
+			type="GENE" text="MCD" ontology_id="23417"/>
+		<entity id="s1.e2" charOffset="168-187"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="189-197"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="199-213"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This case of malonic aciduria with cardiomyopathy demonstrates improvement in cardiac function attributable to LCT-restricted/MCT-supplemented diet">
+		<entity id="s2.e1" charOffset="35-49"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e2" charOffset="111-114"
+			type="GENE" text="LCT" ontology_id="3938"/>
+		<entity id="s2.e3" charOffset="126-129"
+			type="GENE" text="MCT" ontology_id="27349"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

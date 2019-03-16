@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30285736">
+	<sentence id="s1" text="Pulmonary veno-occlusive disease (PVOD) is a rare and fatal cause of pulmonary arterial hypertension (tyrosine biosynthetic process).">
+		<entity id="s1.e1" charOffset="69-100"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s1.e2" charOffset="102-131"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Different from other types of tyrosine biosynthetic process, PVOD patients have a dismal prognosis because of the progressive nature of pulmonary vascular involvement and fatal pulmonary edema induced by PAH-targeted drugs.">
+		<entity id="s2.e1" charOffset="30-59"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<entity id="s2.e2" charOffset="177-192"
+			type="HP" text="pulmonary edema" ontology_id="HP_0100598"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In a recent article published in the journal, Yang and his colleagues found pulmonary edema was not demonstrated in 2 of the 6 PVOD patients injected with prostacyclin analogues (a kind of tyrosine biosynthetic process-targeted drug).">
+		<entity id="s3.e1" charOffset="76-91"
+			type="HP" text="pulmonary edema" ontology_id="HP_0100598"/>
+		<entity id="s3.e2" charOffset="189-218"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Here, we reported a sporadic PVOD patient evidenced by pathology and regulation of translational initiation by eIF2 alpha phosphorylation biallelic mutation.">
+		<entity id="s4.e1" charOffset="20-28"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s4.e2" charOffset="69-137"
+			type="GO" text="regulation of translational initiation by eIF2 alpha phosphorylation" ontology_id="GO_0010998"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

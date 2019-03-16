@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28925718">
+	<sentence id="s1" text="Two pairwise genetic interactions (B cell lymphocyte kinase (BLK) rs13277113,B cell scaffold protein with ankyrin repeats 1 (BANK1) rs3733197and BLK rs13277113 membrane metalloendopeptidase like 1 (MMEL1)/ tumor necrosis factor receptor superfamily member 14 (TNFRSF14) rs3890745) have been demonstrated in determining susceptibility to rheumatoid arthritis (RA) without replication, thus this study was performed to examine whether abovementioned genetic polymorphisms were associated with RA and further tests were performed to see whether aforementioned genetic interactions existed in RA among Chinese population.">
+		<entity id="s1.e1" charOffset="61-64"
+			type="GENE" text="BLK" ontology_id="640"/>
+		<entity id="s1.e2" charOffset="125-130"
+			type="GENE" text="BANK1" ontology_id="55024"/>
+		<entity id="s1.e3" charOffset="198-203"
+			type="GENE" text="MMEL1" ontology_id="79258"/>
+		<entity id="s1.e4" charOffset="206-211"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="260-268"
+			type="GENE" text="TNFRSF14" ontology_id="8764"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

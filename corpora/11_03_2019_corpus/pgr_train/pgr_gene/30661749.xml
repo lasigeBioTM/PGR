@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30661749">
+	<sentence id="s1" text="T cell-related encephalopathy (CRES) syndrome may occur concomitantly.">
+		<entity id="s1.e1" charOffset="15-29"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e2" charOffset="31-35"
+			type="GENE" text="CRES" ontology_id="10047"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

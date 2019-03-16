@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25640947">
+	<sentence id="s1" text="Deleted in lung and esophageal cancer 1 (DLEC1) is a tumor suppressor gene with reduced transcriptional activity and promoter hypermethylation in various cancers, including colorectal cancer.">
+		<entity id="s1.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="41-46"
+			type="GENE" text="DLEC1" ontology_id="9940"/>
+		<entity id="s1.e3" charOffset="53-58"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28391250">
+	<sentence id="s1" text="Vitamin-B<sub>6</sub>-dependent epilepsies are a heterogenous group of treatable disorders due to mutations in several genes (li>ALDH7A1, pyridoxal phosphate biosynthetic process, ALPL</i> or li>ALDH4A1</i>).">
+		<entity id="s1.e1" charOffset="32-42"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="138-178"
+			type="GO" text="pyridoxal phosphate biosynthetic process" ontology_id="GO_0042823"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In neonatal seizures, defects in li>ALDH7A1 and pyridoxal phosphate biosynthetic process</i> explain a major fraction of cases.">
+		<entity id="s2.e1" charOffset="12-20"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="48-88"
+			type="GO" text="pyridoxal phosphate biosynthetic process" ontology_id="GO_0042823"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

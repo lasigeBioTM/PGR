@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24702957">
+	<sentence id="s1" text="Here we describe two unrelated individuals with infantile-onset epilepsy and abnormalities of brain morphology, harboring de novo variants that affect adjacent amino acids in a beta-tubulin gene TUBB2A.">
+		<entity id="s1.e1" charOffset="64-72"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="195-201"
+			type="GENE" text="TUBB2A" ontology_id="7280"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

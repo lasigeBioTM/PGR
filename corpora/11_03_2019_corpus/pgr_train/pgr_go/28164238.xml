@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28164238">
+	<sentence id="s1" text="Whereas regulation of transcription by RNA polymerase II heterozygote apoptotic process have no detectable cardiac defects, loss of a Klf13 allele in cell-cell signaling heterozygote mice significantly increases the penetrance of cell-cell signaling-dependent cardiac abnormalities including atrial, atrial-ventricular and ventricular septal defects.">
+		<entity id="s1.e1" charOffset="8-56"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="70-87"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="150-169"
+			type="GO" text="cell-cell signaling" ontology_id="GO_0007267"/>
+		<entity id="s1.e4" charOffset="159-178"
+			type="GO" text="cell-cell signaling" ontology_id="GO_0007267"/>
+		<entity id="s1.e5" charOffset="189-210"
+			type="HP" text="cardiac abnormalities" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

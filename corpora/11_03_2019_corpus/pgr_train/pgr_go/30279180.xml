@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30279180">
+	<sentence id="s1" text="Mutation of aspartic acid 378 of interleukin-12-mediated signaling pathway to either asparagine or histidine has been associated with limb girdle muscular dystrophy.">
+		<entity id="s1.e1" charOffset="33-74"
+			type="GO" text="interleukin-12-mediated signaling pathway" ontology_id="GO_0035722"/>
+		<entity id="s1.e2" charOffset="134-164"
+			type="HP" text="limb girdle muscular dystrophy" ontology_id="HP_0006785"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

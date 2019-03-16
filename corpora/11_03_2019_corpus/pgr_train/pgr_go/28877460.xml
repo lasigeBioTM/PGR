@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28877460">
+	<sentence id="s1" text="Interestingly, heterogeneous nuclear RNA (hnRNA) for insulin and negative regulation of acute inflammatory response-positive regulation of cell proliferation, both originating from the INS promoter, were essentially undetectable in T1D pancreata, arguing for a silent INS promoter.">
+		<entity id="s1.e1" charOffset="15-28"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="65-115"
+			type="GO" text="negative regulation of acute inflammatory response" ontology_id="GO_0002674"/>
+		<entity id="s1.e3" charOffset="116-157"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

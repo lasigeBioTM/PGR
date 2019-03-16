@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29626191">
+	<sentence id="s1" text="Neurofibromatosis cardiac muscle tissue development 2 (NF2) is a tumor-forming disease of the nervous system caused by deletion or by loss-of-function mutations in NF2, encoding the tumor suppressing protein neurofibromin 2 (also known as schwannomin or negative regulation of cell proliferation).">
+		<entity id="s1.e1" charOffset="18-51"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="65-70"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="254-295"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The correlation of the tumor-suppressive function and conformation (open or closed) of neurofibromin 2 has been subject to much speculation, often based on extrapolation from other cellular response to oxidative stress proteins, and controversy.">
+		<entity id="s2.e1" charOffset="23-28"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="181-218"
+			type="GO" text="cellular response to oxidative stress" ontology_id="GO_0034599"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

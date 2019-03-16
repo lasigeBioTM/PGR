@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29101630">
+	<sentence id="s1" text="Biotin Thiamine responsive Basal Ganglia Disease (BTBGD) is a rare treatable autosomal recessive metabolic disorder caused by mutations in thiamine transmembrane transport gene.">
+		<entity id="s1.e1" charOffset="77-96"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="139-171"
+			type="GO" text="thiamine transmembrane transport" ontology_id="GO_0071934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

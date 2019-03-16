@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27421018">
+	<sentence id="s1" text="Obesity causes several chronic diseases, including cardiovascular and respiratory diseases, osteoarthritis, hypertension, stroke, cardiac muscle tissue development II diabetes, obstructive sleep apnea, and several cardiac muscle tissue developments of cancer.">
+		<entity id="s1.e1" charOffset="130-163"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="177-200"
+			type="HP" text="obstructive sleep apnea" ontology_id="HP_0002870"/>
+		<entity id="s1.e3" charOffset="223-229"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Previous genome-wide association studies have identified several genes associated with obesity, including angiogenesis, LEPR, negative regulation of tumor necrosis factor production, peptide biosynthetic process, DNA dealkylation involved in DNA repair, MC3R, MC4R, glucosamine catabolic process, cell migration, QPCTL/GIPR, synapse assembly, cellular response to oxidative stress, MAP2K5/SKOR1, endoplasmic reticulum organization, regulation of transcription by RNA polymerase II, and TNKS/MSRA.">
+		<entity id="s2.e1" charOffset="87-94"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="106-118"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s2.e3" charOffset="126-181"
+			type="GO" text="negative regulation of tumor necrosis factor production" ontology_id="GO_0032720"/>
+		<entity id="s2.e4" charOffset="183-211"
+			type="GO" text="peptide biosynthetic process" ontology_id="GO_0043043"/>
+		<entity id="s2.e5" charOffset="213-252"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<entity id="s2.e6" charOffset="266-295"
+			type="GO" text="glucosamine catabolic process" ontology_id="GO_0006043"/>
+		<entity id="s2.e7" charOffset="297-311"
+			type="GO" text="cell migration" ontology_id="GO_0016477"/>
+		<entity id="s2.e8" charOffset="325-341"
+			type="GO" text="synapse assembly" ontology_id="GO_0007416"/>
+		<entity id="s2.e9" charOffset="343-380"
+			type="GO" text="cellular response to oxidative stress" ontology_id="GO_0034599"/>
+		<entity id="s2.e10" charOffset="396-430"
+			type="GO" text="endoplasmic reticulum organization" ontology_id="GO_0007029"/>
+		<entity id="s2.e11" charOffset="432-480"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e11" pgr="true"/>
+	</sentence>
+</document>

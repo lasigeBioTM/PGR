@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26685157">
+	<sentence id="s1" text="In a patient with Leigh-like syndrome presenting with leukodystrophy and severe epilepsy, we identified a homozygous splice site mutation in COX8A, which codes for the ubiquitously expressed isoform of subunit VIII, the smallest nuclear-encoded subunit of complex IV.">
+		<entity id="s1.e1" charOffset="80-88"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="141-146"
+			type="GENE" text="COX8A" ontology_id="1351"/>
+		<entity id="s1.e3" charOffset="210-214"
+			type="GENE" text="VIII" ontology_id="1351"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

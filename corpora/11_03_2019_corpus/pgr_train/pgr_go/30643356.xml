@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30643356">
+	<sentence id="s1" text="In respect to achalasia, GPI anchor metabolic process-oral endoscopic myotomy (ureteric bud development) which was developed in Japan, has become an alternative to the traditional Heller's myotomy.">
+		<entity id="s1.e1" charOffset="14-23"
+			type="HP" text="achalasia" ontology_id="HP_0002571"/>
+		<entity id="s1.e2" charOffset="25-53"
+			type="GO" text="GPI anchor metabolic process" ontology_id="GO_0032922"/>
+		<entity id="s1.e3" charOffset="79-103"
+			type="GO" text="ureteric bud development" ontology_id="GO_0001657"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In regard to BE, endoscopic submucosal dissection (glutathione derivative biosynthetic process) which is well established in Asia, is now becoming more mainstream in the West for the treatment of BE with high grade dysplasia, as well as early esophageal cancer.">
+		<entity id="s2.e1" charOffset="51-94"
+			type="GO" text="glutathione derivative biosynthetic process" ontology_id="GO_1901687"/>
+		<entity id="s2.e2" charOffset="254-260"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Importantly, in regard to early gastric cancer and submucosal tumors (SMTs) of the stomach, glutathione derivative biosynthetic process and full thickness resection (FTR) can excise these lesions li>en-bloc</i> and endoscopic suturing is now used to close large defects and GPI anchor metabolic processforations.">
+		<entity id="s3.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="62-68"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="92-135"
+			type="GO" text="glutathione derivative biosynthetic process" ontology_id="GO_1901687"/>
+		<entity id="s3.e4" charOffset="234-262"
+			type="GO" text="GPI anchor metabolic process" ontology_id="GO_0032922"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e5"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334780">
+	<sentence id="s1" text="Biallelic loss-of-function mutations in the RNA-binding protein mRNA splicing, via spliceosome cause Richieri-Costa-Pereira syndrome (RCPS), an autosomal recessive condition mainly characterized by craniofacial and limb malformations.">
+		<entity id="s1.e1" charOffset="64-94"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s1.e2" charOffset="144-163"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="mRNA splicing, via spliceosome haploinsufficient embryos presented altered mandibular process fusion and micrognathia, thus recapitulating the most penetrant phenotypes of the syndrome.">
+		<entity id="s2.e1" charOffset="0-30"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s2.e2" charOffset="105-117"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

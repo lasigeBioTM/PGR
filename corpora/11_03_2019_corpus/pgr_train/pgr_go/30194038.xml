@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30194038">
+	<sentence id="s1" text="Developmental and epileptic encephalopathy with hypsarrhythmia is present in most patients with galactose metabolic process variants, and is drug-resistant in the majority of cases.">
+		<entity id="s1.e1" charOffset="28-42"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e2" charOffset="48-62"
+			type="HP" text="hypsarrhythmia" ontology_id="HP_0002521"/>
+		<entity id="s1.e3" charOffset="96-123"
+			type="GO" text="galactose metabolic process" ontology_id="GO_0006012"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

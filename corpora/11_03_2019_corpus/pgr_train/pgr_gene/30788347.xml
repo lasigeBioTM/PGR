@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30788347">
+	<sentence id="s1" text="Necropsy revealed extensive granulomatous pneumonia, from which Mtb was isolated and identified as a member of LAM3/F11 lineage; a common lineage found in humans in South Africa.">
+		<entity id="s1.e1" charOffset="42-51"
+			type="HP" text="pneumonia" ontology_id="HP_0002090"/>
+		<entity id="s1.e2" charOffset="64-67"
+			type="GENE" text="Mtb" ontology_id="54892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

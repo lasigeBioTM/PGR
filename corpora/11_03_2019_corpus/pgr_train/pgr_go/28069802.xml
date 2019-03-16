@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28069802">
+	<sentence id="s1" text="We identified novel phosphorylation fusions in a neuroblastoma (BEND5-phosphorylation) and an astrocytoma (PPP1CB-phosphorylation), novel protein phosphorylation fusions in an astrocytoma (BCAS1-protein phosphorylation) and a ganglioglioma (TMEM106B-protein phosphorylation), and a novel positive regulation of transcription, DNA-templated-smoothened signaling pathway fusion in a rhabdomyosarcoma.">
+		<entity id="s1.e1" charOffset="20-35"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e2" charOffset="49-62"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="82-93"
+			type="HP" text="astrocytoma" ontology_id="HP_0009592"/>
+		<entity id="s1.e4" charOffset="114-137"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e5" charOffset="226-277"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e6" charOffset="229-245"
+			type="HP" text="rhabdomyosarcoma" ontology_id="HP_0002859"/>
+		<entity id="s1.e7" charOffset="278-306"
+			type="GO" text="smoothened signaling pathway" ontology_id="GO_0007224"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e5"
+		    e2="s1.e18" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e3"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e8"
+		    e2="s1.e18" pgr="false"/>
+	</sentence>
+</document>

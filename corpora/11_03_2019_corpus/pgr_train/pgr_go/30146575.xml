@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30146575">
+	<sentence id="s1" text="We herein report the case of a 59-year-old man with anti-leucine-rich glioma-inactivated 1 (axon guidance) antibody encephalitis who presented with slowly progressive cognitive impairment mimicking dementia for over 3 years and then developed seizures.">
+		<entity id="s1.e1" charOffset="70-76"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e2" charOffset="92-105"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s1.e3" charOffset="116-128"
+			type="HP" text="encephalitis" ontology_id="HP_0002383"/>
+		<entity id="s1.e4" charOffset="243-251"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, these findings indicate that anti-axon guidance encephalitis may present as slowly progressive cognitive impairment mimicking dementia and that fluctuating MRI striatal lesions may be a characteristic radiological finding of this disorder">
+		<entity id="s2.e1" charOffset="50-63"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<entity id="s2.e2" charOffset="64-76"
+			type="HP" text="encephalitis" ontology_id="HP_0002383"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

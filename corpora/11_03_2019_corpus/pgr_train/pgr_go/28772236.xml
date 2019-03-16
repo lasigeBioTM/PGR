@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28772236">
+	<sentence id="s1" text="These studies suggest that compound 4d behaves well in lowering body weight and maintaining energy expenditure without a chance of hyperglycaemia, 4d has strong clinical potential as an efficient Golgi organization-1/adenylate cyclase-activating G protein-coupled receptor signaling pathway agonist in the prevention and treatment of obesity and dyslipidemia">
+		<entity id="s1.e1" charOffset="196-214"
+			type="GO" text="Golgi organization" ontology_id="GO_0007030"/>
+		<entity id="s1.e2" charOffset="202-275"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e3" charOffset="319-326"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

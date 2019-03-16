@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29305977">
+	<sentence id="s1" text="Typical HHT clinical features are mucocutaneous telangiectases, arteriovenous malformations, spontaneous and recurrent epistaxis, as well as gastrointestinal bleedings.">
+		<entity id="s1.e1" charOffset="8-11"
+			type="GENE" text="HHT" ontology_id="94"/>
+		<entity id="s1.e2" charOffset="64-91"
+			type="HP" text="arteriovenous malformations" ontology_id="HP_0100026"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

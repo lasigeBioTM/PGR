@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29660846">
+	<sentence id="s1" text="The classical mammalian isoforms of PLD are N-glycan processing and cell motility, and the levels of both mRNA were higher at the primary tumor sites than in normal kidney tissues.">
+		<entity id="s1.e1" charOffset="44-63"
+			type="GO" text="N-glycan processing" ontology_id="GO_0006491"/>
+		<entity id="s1.e2" charOffset="68-81"
+			type="GO" text="cell motility" ontology_id="GO_0048870"/>
+		<entity id="s1.e3" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Notably, shRNA-mediated knockdown of cell motility suppressed the growth and invasion of tumors in establishment of mitotic spindle orientation mouse xenograft models.">
+		<entity id="s2.e1" charOffset="37-50"
+			type="GO" text="cell motility" ontology_id="GO_0048870"/>
+		<entity id="s2.e2" charOffset="89-94"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="99-143"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="As for genes relating to the tumor invasion of cell motility, we found that angiogenin (angiogenesis) was positively regulated by PLD2.">
+		<entity id="s3.e1" charOffset="29-34"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="47-60"
+			type="GO" text="cell motility" ontology_id="GO_0048870"/>
+		<entity id="s3.e3" charOffset="88-100"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In transcription elongation from RNA polymerase II promoter, the expression levels of angiogenesis were elevated in tumor tissues as compared with normal kidney and the inhibition of ANG activity with a neutralizing antibody significantly suppressed tumor invasion.">
+		<entity id="s4.e1" charOffset="3-59"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s4.e2" charOffset="34-46"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s4.e3" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

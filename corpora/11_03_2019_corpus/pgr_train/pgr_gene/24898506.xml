@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24898506">
+	<sentence id="s1" text="These include other keratin genes for monilethrix, the HR gene for atrichia congenita, the genes CDSN, APCDD1 and SNRPE for the autosomal dominant form of hypotrichosis simplex, and the genes DSG4, LIPH and LPAR6 for the autosomal recessive forms of hypotrichosis as well as U2HR for hypotrichosis type Marie Unna.">
+		<entity id="s1.e1" charOffset="97-101"
+			type="GENE" text="CDSN" ontology_id="1041"/>
+		<entity id="s1.e2" charOffset="103-109"
+			type="GENE" text="APCDD1" ontology_id="147495"/>
+		<entity id="s1.e3" charOffset="114-119"
+			type="GENE" text="SNRPE" ontology_id="6635"/>
+		<entity id="s1.e4" charOffset="155-168"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<entity id="s1.e5" charOffset="192-196"
+			type="GENE" text="DSG4" ontology_id="147409"/>
+		<entity id="s1.e6" charOffset="198-202"
+			type="GENE" text="LIPH" ontology_id="200879"/>
+		<entity id="s1.e7" charOffset="207-212"
+			type="GENE" text="LPAR6" ontology_id="10161"/>
+		<entity id="s1.e8" charOffset="221-240"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e9" charOffset="298-302"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e5"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e16"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e16"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e16"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e16"
+		    e2="s1.e14" pgr="false"/>
+	</sentence>
+</document>

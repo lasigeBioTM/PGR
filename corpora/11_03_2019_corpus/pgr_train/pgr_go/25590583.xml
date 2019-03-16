@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25590583">
+	<sentence id="s1" text="In this work, we functionally characterize two breast cancer associated genes, the proteasome 26S subunit ATPase 3 interacting protein (reciprocal meiotic recombination) and the epithelial-stromal interaction 1 (biological_process), to explore their potential apoptotic role in breast cancer.">
+		<entity id="s1.e1" charOffset="54-60"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="136-168"
+			type="GO" text="reciprocal meiotic recombination" ontology_id="GO_0007131"/>
+		<entity id="s1.e3" charOffset="212-230"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Based on the generated interaction network, we examine several apoptotic markers to determine the effect of reciprocal meiotic recombination and biological_process gene expression modulation in two different human breast cancer cell lines to suggest potential molecular mechanisms to unveil their role in the disease.">
+		<entity id="s2.e1" charOffset="108-140"
+			type="GO" text="reciprocal meiotic recombination" ontology_id="GO_0007131"/>
+		<entity id="s2.e2" charOffset="145-163"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e3" charOffset="209-215"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our results show that reciprocal meiotic recombination and biological_process are able to modulate the extrinsic apoptotic pathway in estrogen receptor positive and triple negative breast cancer cell lines, highlighting them as potential therapeutic targets.">
+		<entity id="s3.e1" charOffset="22-54"
+			type="GO" text="reciprocal meiotic recombination" ontology_id="GO_0007131"/>
+		<entity id="s3.e2" charOffset="59-77"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s3.e3" charOffset="176-182"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

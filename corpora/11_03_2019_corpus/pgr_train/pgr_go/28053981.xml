@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28053981">
+	<sentence id="s1" text="Muscarinic acetylcholine receptor M3 (G protein-coupled acetylcholine receptor signaling pathway) was reported as a key receptor in different cancer types.">
+		<entity id="s1.e1" charOffset="38-96"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<entity id="s1.e2" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="<i>G protein-coupled acetylcholine receptor signaling pathway</i> is located at 1q42-43 which was reported to associate with bladder cancer.">
+		<entity id="s2.e1" charOffset="3-61"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<entity id="s2.e2" charOffset="133-139"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study attempted to delineate whether genetic variants of li>G protein-coupled acetylcholine receptor signaling pathway</i> contribute to bladder cancer in Chinese Han population in south Taiwan.">
+		<entity id="s3.e1" charOffset="64-122"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<entity id="s3.e2" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Five haplotypes (GTTAT, ATTGT, GCTAC, ACTAC, and ACCAC) were found significantly associated with low li>G protein-coupled acetylcholine receptor signaling pathway</i> mRNA level and contributed to increased susceptibility of bladder cancer in Kaohsiung city after rigid 10000 consecutive permutation tests.">
+		<entity id="s4.e1" charOffset="104-162"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<entity id="s4.e2" charOffset="233-239"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="To our knowledge, this is the first genetic association study that reveals the genetic contribution of li>G protein-coupled acetylcholine receptor signaling pathway</i> gene in bladder cancer etiology">
+		<entity id="s5.e1" charOffset="106-164"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<entity id="s5.e2" charOffset="185-191"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

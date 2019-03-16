@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22470196">
+	<sentence id="s1" text="Somatic defects at five loci, WT1, CTNNB1, WTX, TP53 and the imprinted 11p15 region, are implicated in Wilms tumor, the commonest childhood kidney cancer.">
+		<entity id="s1.e1" charOffset="35-41"
+			type="GENE" text="CTNNB1" ontology_id="1499"/>
+		<entity id="s1.e2" charOffset="43-46"
+			type="GENE" text="WTX" ontology_id="139285"/>
+		<entity id="s1.e3" charOffset="109-114"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="147-153"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We identified mutations of WTX in 32%, CTNNB1 in 15%, WT1 in 12% and TP53 in 5% of tumors.">
+		<entity id="s2.e1" charOffset="27-30"
+			type="GENE" text="WTX" ontology_id="139285"/>
+		<entity id="s2.e2" charOffset="39-45"
+			type="GENE" text="CTNNB1" ontology_id="1499"/>
+		<entity id="s2.e3" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Group 1 tumors (63%) were defined as 11p15-mutant and WT1-normal; a third also had WTX mutations.">
+		<entity id="s3.e1" charOffset="8-13"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="83-86"
+			type="GENE" text="WTX" ontology_id="139285"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29408916">
+	<sentence id="s1" text="Constitutive activation of interferon signaling pathways has been reported in colorectal cancer (CRC), leading to a strong CD8+ T cell response through stimulation of negative regulation of NF-kappaB transcription factor activity expression.">
+		<entity id="s1.e1" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="167-229"
+			type="GO" text="negative regulation of NF-kappaB transcription factor activity" ontology_id="GO_0032088"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Logistic regression analysis adjusted for age and gender reported a moderate association between rectal cancer risk and two negative regulation of NF-kappaB transcription factor activity SNPs, rs1684575 TAAAAG (OR: 1.60, 95% CI: 1.13-2.27, recessive model) and rs3751710 (OR: 0.70, 95% CI: 0.51-0.96, dominant model).">
+		<entity id="s2.e1" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="124-186"
+			type="GO" text="negative regulation of NF-kappaB transcription factor activity" ontology_id="GO_0032088"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

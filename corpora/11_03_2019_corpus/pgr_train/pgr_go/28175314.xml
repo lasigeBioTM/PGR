@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28175314">
+	<sentence id="s1" text="This progressive muscle pathology resembles the muscular dystrophy phenotype in humans and apoptotic process lacking the α7 integrin.">
+		<entity id="s1.e1" charOffset="48-66"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="91-108"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, negative regulation of gene expression expression is altered in skeletal muscle of classical congenital muscular dystrophy mouse models.">
+		<entity id="s2.e1" charOffset="13-51"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<entity id="s2.e2" charOffset="117-135"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="negative regulation of gene expression levels were up-regulated in dystrophin deficient mdx muscle, which correlates with the elevated levels of the α7β1 integrin observed in mdx muscle and Duchenne muscular dystrophy patients.">
+		<entity id="s3.e1" charOffset="0-38"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<entity id="s3.e2" charOffset="199-217"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

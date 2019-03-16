@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26892341">
+	<sentence id="s1" text="glycolipid translocation-congenital disorder of glycosylation (CDG) syndrome, a recessive N-glycosylation disorder caused by mutation in the glycolipid translocation gene, is a very rare subtype of CDG syndrome associated with deafness, developmental delay, and non-specific epilepsy.">
+		<entity id="s1.e1" charOffset="0-24"
+			type="GO" text="glycolipid translocation" ontology_id="GO_0034203"/>
+		<entity id="s1.e2" charOffset="207-215"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="217-236"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e4" charOffset="255-263"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

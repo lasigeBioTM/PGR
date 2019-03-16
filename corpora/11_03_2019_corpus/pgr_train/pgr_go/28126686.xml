@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28126686">
+	<sentence id="s1" text="Glycogen storage disease cardiac muscle tissue development Ib (GSD-Ib) is characterized by impaired glucose homeostasis, neutropenia and neutrophil dysfunction.">
+		<entity id="s1.e1" charOffset="25-58"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="121-132"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

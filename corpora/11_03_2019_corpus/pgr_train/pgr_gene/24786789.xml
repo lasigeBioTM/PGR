@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24786789">
+	<sentence id="s1" text="Substitution of endogenous PGAM2 with an acetylation mimetic mutant K100Q reduces cellular NADPH production and inhibits cell proliferation and tumor growth.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="PGAM2" ontology_id="5224"/>
+		<entity id="s1.e2" charOffset="144-149"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results reveal a mechanism of PGAM2 regulation and NADPH homeostasis in response to oxidative stress that impacts cell proliferation and tumor growth">
+		<entity id="s2.e1" charOffset="36-41"
+			type="GENE" text="PGAM2" ontology_id="5224"/>
+		<entity id="s2.e2" charOffset="143-148"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

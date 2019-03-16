@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29521944">
+	<sentence id="s1" text="The major categories of pancreatic neuroendocrine tumor (PanNET) are well-differentiated NET and poorly differentiated neuroendocrine carcinoma.">
+		<entity id="s1.e1" charOffset="50-55"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="60-63"
+			type="GENE" text="NET" ontology_id="2004"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Sequencing of these tumors has identified multiple important genes in the pathogenesis of PanNETs, such as DAXX/ATRX, MEN1, TP53, RB, and mTOR pathway genes.">
+		<entity id="s2.e1" charOffset="20-25"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="93-96"
+			type="GENE" text="NET" ontology_id="2004"/>
+		<entity id="s2.e3" charOffset="107-111"
+			type="GENE" text="DAXX" ontology_id="1616"/>
+		<entity id="s2.e4" charOffset="118-122"
+			type="GENE" text="MEN1" ontology_id="4221"/>
+		<entity id="s2.e5" charOffset="138-142"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our data support that high-grade progression in PanNETs may be the result of the progressive accumulation of genetic changes (CNVs and point mutational changes) within the body of the tumor.">
+		<entity id="s3.e1" charOffset="51-54"
+			type="GENE" text="NET" ontology_id="2004"/>
+		<entity id="s3.e2" charOffset="184-189"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27763569">
+	<sentence id="s1" text="The purpose of this study was to evaluate the association of the hepatic lipase (LIPC) rs493258 polymorphism and susceptibility to age-related macular degeneration (AMD).">
+		<entity id="s1.e1" charOffset="81-85"
+			type="GENE" text="LIPC" ontology_id="3990"/>
+		<entity id="s1.e2" charOffset="143-163"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

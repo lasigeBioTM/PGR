@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29421602">
+	<sentence id="s1" text="Jalili syndrome (JS) is an autosomal recessive disease characterized by a combination of cone-rode retinal dytrophy (positive regulation of transcription by RNA polymerase II) and amelogenesis imperfect (AI).">
+		<entity id="s1.e1" charOffset="27-46"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="117-174"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

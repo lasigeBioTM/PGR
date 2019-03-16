@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24056535">
+	<sentence id="s1" text="Mutations in filamin A (FLNA) or ADP-ribosylation factor guanine nucleotide-exchange factor 2 (ARFGEF2) cause periventricular nodular heterotopia, but most patients with this malformation do not have a known aetiology.">
+		<entity id="s1.e1" charOffset="24-28"
+			type="GENE" text="FLNA" ontology_id="2316"/>
+		<entity id="s1.e2" charOffset="33-36"
+			type="GENE" text="ADP" ontology_id="23038"/>
+		<entity id="s1.e3" charOffset="95-102"
+			type="GENE" text="ARFGEF2" ontology_id="10564"/>
+		<entity id="s1.e4" charOffset="134-145"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Using whole exome sequencing in 14 patients with isolated periventricular nodular heterotopia but no copy number variants, we identified one patient with periventricular nodular heterotopia, developmental delay and epilepsy and a de novo missense mutation in the chromosome 6 open reading frame 70 (C6orf70) gene, mapping in the minimal critical deleted region.">
+		<entity id="s2.e1" charOffset="82-93"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<entity id="s2.e2" charOffset="191-210"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="215-223"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="299-306"
+			type="GENE" text="C6orf70" ontology_id="55780"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Silencing of C6orf70 in the developing rat neocortex produced periventricular nodular heterotopia that was rescued by concomitant expression of wild-type human C6orf70 protein.">
+		<entity id="s3.e1" charOffset="13-20"
+			type="GENE" text="C6orf70" ontology_id="55780"/>
+		<entity id="s3.e2" charOffset="86-97"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Silencing of the contiguous Phf10 or Dll1 genes only produced slightly delayed migration but not periventricular nodular heterotopia.">
+		<entity id="s4.e1" charOffset="28-33"
+			type="GENE" text="Phf10" ontology_id="55274"/>
+		<entity id="s4.e2" charOffset="37-41"
+			type="GENE" text="Dll1" ontology_id="28514"/>
+		<entity id="s4.e3" charOffset="121-132"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our data suggest that, of the genes within this minimal critical region, C6orf70 plays a major role in the control of neuronal migration and its haploinsufficiency or mutation causes periventricular nodular heterotopia.">
+		<entity id="s5.e1" charOffset="73-80"
+			type="GENE" text="C6orf70" ontology_id="55780"/>
+		<entity id="s5.e2" charOffset="207-218"
+			type="HP" text="heterotopia" ontology_id="HP_0002282"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26960553">
+	<sentence id="s1" text="Serine biosynthesis defects result from deficiencies in PGDH, PSAT, or PSP and have a broad phenotypic spectrum ranging from Neu-Laxova syndrome, a lethal multiple congenital anomaly disease at the severe end to a childhood disease with intellectual disability at the mild end, with infantile growth deficiency, and severe neurological manifestations as an intermediate phenotype.">
+		<entity id="s1.e1" charOffset="56-60"
+			type="GENE" text="PGDH" ontology_id="26227"/>
+		<entity id="s1.e2" charOffset="71-74"
+			type="GENE" text="PSP" ontology_id="140683"/>
+		<entity id="s1.e3" charOffset="205-208"
+			type="GENE" text="end" ontology_id="2022"/>
+		<entity id="s1.e4" charOffset="237-260"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The second was a neonate with growth deficiency, microcephaly, ichthyotic skin lesions, seizures, contractures, hypertonia, distinctive facial features, and a homozygous mutation in PSAT1.">
+		<entity id="s2.e1" charOffset="49-61"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e2" charOffset="88-96"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="98-110"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s2.e4" charOffset="112-122"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<entity id="s2.e5" charOffset="182-187"
+			type="GENE" text="PSAT1" ontology_id="29968"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The third subject was an infant with growth deficiency, microcephaly, ichthyotic skin lesions, anemia, hypertonia, distinctive facial features, low serine and glycine in plasma and CSF, and a novel homozygous mutation in PHGDH gene.">
+		<entity id="s3.e1" charOffset="56-68"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s3.e2" charOffset="95-101"
+			type="HP" text="anemia" ontology_id="HP_0001903"/>
+		<entity id="s3.e3" charOffset="103-113"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<entity id="s3.e4" charOffset="221-226"
+			type="GENE" text="PHGDH" ontology_id="26227"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

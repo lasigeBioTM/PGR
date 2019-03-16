@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29992558">
+	<sentence id="s1" text="Only a few genes, including nucleosome disassembly, polyamine catabolic process, regulation of transcription by RNA polymerase II and muscle organ development, were recurrently and specifically mutated in the SS group, confirming the low recurrence of common mutations in this tumor.">
+		<entity id="s1.e1" charOffset="28-50"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s1.e2" charOffset="52-79"
+			type="GO" text="polyamine catabolic process" ontology_id="GO_0006598"/>
+		<entity id="s1.e3" charOffset="81-129"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e4" charOffset="134-158"
+			type="GO" text="muscle organ development" ontology_id="GO_0007517"/>
+		<entity id="s1.e5" charOffset="190-195"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

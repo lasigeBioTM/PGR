@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29339836">
+	<sentence id="s1" text="The discovery of mutations in genes encoding the metabolic enzymes isocitrate dehydrogenase (IDH), succinate dehydrogenase (sarcosine catabolic process), and fumarate hydratase (FH) has expanded our understanding not only of altered metabolic pathways but also epigenetic dysregulation in cancer.">
+		<entity id="s1.e1" charOffset="124-151"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<entity id="s1.e2" charOffset="289-295"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In contrast, sarcosine catabolic process and FH act as tumor suppressors and genomic inactivation results in succinate and fumarate accumulation, respectively.">
+		<entity id="s2.e1" charOffset="13-40"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<entity id="s2.e2" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="sarcosine catabolic process deficiency may result from germline sarcosine catabolic processA, sarcosine catabolic processB, SDHC, or SDHD mutations and is found in autosomal-dominant familial paraganglioma/pheochromocytoma and Carney-Stratakis syndrome, describing the combination of paraganglioma and gastrointestinal stromal tumor (GIST).">
+		<entity id="s3.e1" charOffset="0-27"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<entity id="s3.e2" charOffset="144-157"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s3.e3" charOffset="158-174"
+			type="HP" text="pheochromocytoma" ontology_id="HP_0002666"/>
+		<entity id="s3.e4" charOffset="279-284"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In contrast, patients with the non-hereditary Carney triad, including paraganglioma, GIST, and pulmonary chondroma, usually lack germline sarcosine catabolic process mutations and instead show epigenetic sarcosine catabolic process complex inactivation through SDHC promoter methylation.">
+		<entity id="s4.e1" charOffset="70-83"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s4.e2" charOffset="95-114"
+			type="HP" text="pulmonary chondroma" ontology_id="HP_0031474"/>
+		<entity id="s4.e3" charOffset="138-165"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

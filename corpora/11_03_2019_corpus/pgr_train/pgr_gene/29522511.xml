@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29522511">
+	<sentence id="s1" text="Exome sequencing of superior coloboma patients identified rare variants in a Bone Morphogenetic Protein (Bmp) receptor (BMPR1A) and T-box transcription factor (TBX2).">
+		<entity id="s1.e1" charOffset="29-37"
+			type="HP" text="coloboma" ontology_id="HP_0000589"/>
+		<entity id="s1.e2" charOffset="120-126"
+			type="GENE" text="BMPR1A" ontology_id="657"/>
+		<entity id="s1.e3" charOffset="160-164"
+			type="GENE" text="TBX2" ontology_id="6909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Together, our findings explain the existence of superior coloboma, a congenital ocular anomaly resulting from aberrant morphogenesis of a developmental structure">
+		<entity id="s2.e1" charOffset="14-18"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s2.e2" charOffset="57-65"
+			type="HP" text="coloboma" ontology_id="HP_0000589"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

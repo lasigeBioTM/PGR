@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25608039">
+	<sentence id="s1" text="In the present study, we characterize SIRT2 inhibition activity of the brain-permeable compound AK7 and examine the efficacy of this small molecule in models of Parkinson's disease, amyotrophic lateral sclerosis and cerebral ischemia.">
+		<entity id="s1.e1" charOffset="38-43"
+			type="GENE" text="SIRT2" ontology_id="22933"/>
+		<entity id="s1.e2" charOffset="216-233"
+			type="HP" text="cerebral ischemia" ontology_id="HP_0002637"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings underscore the specificity of protective effects observed here in models of Parkinson's disease, and previously in Huntington's disease, and support the development of SIRT2 inhibitors as potential therapeutics for the two neurodegenerative diseases.">
+		<entity id="s2.e1" charOffset="183-188"
+			type="GENE" text="SIRT2" ontology_id="22933"/>
+		<entity id="s2.e2" charOffset="238-264"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

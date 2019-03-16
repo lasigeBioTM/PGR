@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28930697">
+	<sentence id="s1" text="We investigate the association of DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest with castration-resistant prostate cancer (CRPC), bone metastasis, and PC recurrence.">
+		<entity id="s1.e1" charOffset="34-127"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest" ontology_id="GO_0006977"/>
+		<entity id="s1.e2" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

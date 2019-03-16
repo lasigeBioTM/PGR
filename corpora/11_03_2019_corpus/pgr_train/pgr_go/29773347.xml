@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29773347">
+	<sentence id="s1" text="Friedreich's ataxia (regulation of ferrochelatase activity) is an autosomal recessive neurodegenerative disorder resulting from reduced expression of the protein frataxin (regulation of ferrochelatase activity).">
+		<entity id="s1.e1" charOffset="13-19"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="21-58"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<entity id="s1.e3" charOffset="172-209"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

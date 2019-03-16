@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28953230">
+	<sentence id="s1" text="Agonistic antibodies, which bind specifically to death receptor 5 (DR5), can trigger apoptosis in tumor cells through the extrinsic pathway.">
+		<entity id="s1.e1" charOffset="67-70"
+			type="GENE" text="DR5" ontology_id="8795"/>
+		<entity id="s1.e2" charOffset="98-103"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="After screening for agonism in a cell-viability assay in vitro, a novel DR5-specific scFv antibody TR2-3 was isolated, which inhibited COLO205 and MDA-MB-231 tumor cell growth without any cross-linking agents.">
+		<entity id="s2.e1" charOffset="72-75"
+			type="GENE" text="DR5" ontology_id="8795"/>
+		<entity id="s2.e2" charOffset="99-102"
+			type="GENE" text="TR2" ontology_id="7181"/>
+		<entity id="s2.e3" charOffset="158-163"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The activity of TR2-3 in inducing apoptosis in cancer cells was evaluated by using an Annexin V-PE apoptosis detection kit in combination with flow cytometry and the Hoechst 33342 and propidium iodide double staining analysis.">
+		<entity id="s3.e1" charOffset="16-19"
+			type="GENE" text="TR2" ontology_id="7181"/>
+		<entity id="s3.e2" charOffset="47-53"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="119-122"
+			type="GENE" text="kit" ontology_id="3815"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, TR2-3 suppressed the tumor growth significantly in the xenograft model.">
+		<entity id="s4.e1" charOffset="13-16"
+			type="GENE" text="TR2" ontology_id="7181"/>
+		<entity id="s4.e2" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Taken together, these data suggest that TR2-3 exhibited potent antitumor activity both in vitro and in vivo.">
+		<entity id="s5.e1" charOffset="40-43"
+			type="GENE" text="TR2" ontology_id="7181"/>
+		<entity id="s5.e2" charOffset="67-72"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

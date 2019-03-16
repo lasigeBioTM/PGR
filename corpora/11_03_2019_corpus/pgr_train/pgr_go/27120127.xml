@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27120127">
+	<sentence id="s1" text="Primary ciliary dyskinesia (motile cilium assembly) is an autosomal recessive disease characterized by chronic respiratory infections of the upper and lower airways, hypofertility, and, in approximately half of the cases, situs inversus.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-50"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s1.e3" charOffset="58-77"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

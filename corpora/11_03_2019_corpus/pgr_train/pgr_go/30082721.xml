@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30082721">
+	<sentence id="s1" text="Our results reveal that current SZ diagnoses aggregate over at least two disease subtypes: one part resembles high intelligence and bipolar disorder (cellular response to glucose starvation), while the other part is a cognitive disorder that is independent of BIP">
+		<entity id="s1.e1" charOffset="132-148"
+			type="HP" text="bipolar disorder" ontology_id="HP_0007302"/>
+		<entity id="s1.e2" charOffset="150-189"
+			type="GO" text="cellular response to glucose starvation" ontology_id="GO_0042149"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

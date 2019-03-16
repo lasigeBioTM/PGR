@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30170380">
+	<sentence id="s1" text="Human bladder cancer (BCa) is one of the most commonly diagnosed malignancies worldwide.">
+		<entity id="s1.e1" charOffset="14-20"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="22-25"
+			type="GENE" text="BCa" ontology_id="29760"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="An increasing number of studies suggest that long-noncoding RNAs (lncRNAs) play important roles in various biological processes and disease pathologies, including cancer.We analyzed the expression profiles of lncRNA, miRNA, and mRNA, along with the clinical information of BCa patients collected from the Cancer Genome Atlas database to identify lncRNA biomarkers for prognosis.">
+		<entity id="s2.e1" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="273-276"
+			type="GENE" text="BCa" ontology_id="29760"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26975038">
+	<sentence id="s1" text="Moreover, CpG island methylation status of HACE1, a candidate tumor-suppressor gene, was determined in ANKL samples.">
+		<entity id="s1.e1" charOffset="43-48"
+			type="GENE" text="HACE1" ontology_id="57531"/>
+		<entity id="s1.e2" charOffset="62-67"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

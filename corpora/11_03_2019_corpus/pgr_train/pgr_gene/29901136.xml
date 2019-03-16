@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29901136">
+	<sentence id="s1" text="The present study aimed to identify novel intervertebral disc degeneration (IDD)‑associated long noncoding (lnc)RNAs and genes.">
+		<entity id="s1.e1" charOffset="42-74"
+			type="HP" text="intervertebral disc degeneration" ontology_id="HP_0008419"/>
+		<entity id="s1.e2" charOffset="76-79"
+			type="GENE" text="IDD" ontology_id="1299"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

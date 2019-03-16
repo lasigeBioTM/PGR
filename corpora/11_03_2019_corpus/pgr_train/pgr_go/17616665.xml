@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17616665">
+	<sentence id="s1" text="The signaling of DNA cellular protein catabolic process and replication stress involves a multitude of proteins, including the kinases ataxia-telangiectasia mutated (protein phosphorylation) and ATM and Rad3-related (actin cytoskeleton reorganization), and proteins with double-strand break repair via homologous recombination COOH-terminal (BRCT) domains.">
+		<entity id="s1.e1" charOffset="21-55"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<entity id="s1.e2" charOffset="135-141"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="166-189"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="217-250"
+			type="GO" text="actin cytoskeleton reorganization" ontology_id="GO_0031532"/>
+		<entity id="s1.e5" charOffset="271-326"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show that breast-ovarian cancer susceptibility 1 (double-strand break repair via homologous recombination) interacts directly with actin cytoskeleton reorganization-interacting protein (ATRIP), an obligate partner of ATR.">
+		<entity id="s2.e1" charOffset="34-40"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="59-114"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e3" charOffset="90-123"
+			type="GO" text="actin cytoskeleton reorganization" ontology_id="GO_0031532"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21150032">
+	<sentence id="s1" text="myocilin (MYOC), optineurin (OPTN), WDR36 and neurotrophin-4 (NTF4) in primary open angle glaucoma (POAG) and CYP1B1 and LTBP2 in congenital and developmental glaucomas.">
+		<entity id="s1.e1" charOffset="10-14"
+			type="GENE" text="MYOC" ontology_id="4653"/>
+		<entity id="s1.e2" charOffset="29-33"
+			type="GENE" text="OPTN" ontology_id="10133"/>
+		<entity id="s1.e3" charOffset="36-41"
+			type="GENE" text="WDR36" ontology_id="134430"/>
+		<entity id="s1.e4" charOffset="62-66"
+			type="GENE" text="NTF4" ontology_id="4909"/>
+		<entity id="s1.e5" charOffset="90-98"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e6" charOffset="110-116"
+			type="GENE" text="CYP1B1" ontology_id="1545"/>
+		<entity id="s1.e7" charOffset="121-126"
+			type="GENE" text="LTBP2" ontology_id="4053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+</document>

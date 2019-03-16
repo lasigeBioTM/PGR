@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26518168">
+	<sentence id="s1" text="Trichothiodystrophy (nucleotide-excision repair), also known as sulfur-deficient brittle hair syndrome, is a rare autosomal recessive multisystem disorder, which manifests with brittle hair, mental retardation, ichthyosis and decreased fertility.">
+		<entity id="s1.e1" charOffset="21-47"
+			type="GO" text="nucleotide-excision repair" ontology_id="GO_0006289"/>
+		<entity id="s1.e2" charOffset="81-93"
+			type="HP" text="brittle hair" ontology_id="HP_0002299"/>
+		<entity id="s1.e3" charOffset="114-133"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28753749">
+	<sentence id="s1" text="The original tumor harbors mutations in negative regulation of cell proliferation, while the second harbors mutations in KDM5C.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="40-81"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

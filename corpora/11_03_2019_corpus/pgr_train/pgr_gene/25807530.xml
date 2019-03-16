@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25807530">
+	<sentence id="s1" text="Here we demonstrate association of variants in the mitochondrial asparaginyl-tRNA synthetase NARS2 with human hearing loss and Leigh syndrome.">
+		<entity id="s1.e1" charOffset="93-98"
+			type="GENE" text="NARS2" ontology_id="79731"/>
+		<entity id="s1.e2" charOffset="110-122"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="p.Asn381Ser also disrupts dimerization of NARS2, while the hearing loss p.Val213Phe variant has no effect on NARS2 oligomerization.">
+		<entity id="s2.e1" charOffset="42-47"
+			type="GENE" text="NARS2" ontology_id="79731"/>
+		<entity id="s2.e2" charOffset="59-71"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings establish lesions in NARS2 as a new cause for nonsyndromic hearing loss and Leigh syndrome.">
+		<entity id="s3.e1" charOffset="34-39"
+			type="GENE" text="NARS2" ontology_id="79731"/>
+		<entity id="s3.e2" charOffset="72-84"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

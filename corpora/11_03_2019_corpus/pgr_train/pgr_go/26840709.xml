@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26840709">
+	<sentence id="s1" text="Our findings suggest that DEGs encoding subunits of NADH, DNA replication, synthesis of RNA primer, G1/S transition of mitotic cell cycle, protein phosphorylation, regulation of transcription, DNA-templated, activation of MAPKK activity, and interleukin-2-mediated signaling pathway might be associated with the development of lung adenocarcinoma.">
+		<entity id="s1.e1" charOffset="58-98"
+			type="GO" text="DNA replication, synthesis of RNA primer" ontology_id="GO_0006269"/>
+		<entity id="s1.e2" charOffset="100-137"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e3" charOffset="139-162"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="164-206"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e5" charOffset="179-198"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s1.e6" charOffset="208-236"
+			type="GO" text="activation of MAPKK activity" ontology_id="GO_0000186"/>
+		<entity id="s1.e7" charOffset="242-282"
+			type="GO" text="interleukin-2-mediated signaling pathway" ontology_id="GO_0038110"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23871722">
+	<sentence id="s1" text="Because of the unbalanced negative regulation of cell adhesion ratio (1.3-1.4 to 1) observed in intellectual disability (ID) and the identification of large ID-affected families showing X-linked segregation, much attention has been focused on the genetics of X-linked ID (XLID).">
+		<entity id="s1.e1" charOffset="26-62"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e2" charOffset="96-119"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

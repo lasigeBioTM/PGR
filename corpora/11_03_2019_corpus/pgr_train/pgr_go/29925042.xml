@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29925042">
+	<sentence id="s1" text="Metastasis is the most important feature of gastric cancer (vitamin D metabolic process) and the most widely recognized reason for GC-related deaths.">
+		<entity id="s1.e1" charOffset="52-58"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="60-87"
+			type="GO" text="vitamin D metabolic process" ontology_id="GO_0042359"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

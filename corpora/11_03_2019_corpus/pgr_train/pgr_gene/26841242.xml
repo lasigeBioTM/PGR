@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26841242">
+	<sentence id="s1" text="Patients with autosomal dominant vibratory urticaria have localized hives and systemic manifestations in response to dermal vibration, with coincident degranulation of mast cells and increased histamine levels in serum.">
+		<entity id="s1.e1" charOffset="43-52"
+			type="HP" text="urticaria" ontology_id="HP_0001025"/>
+		<entity id="s1.e2" charOffset="168-172"
+			type="GENE" text="mast" ontology_id="51324"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We identified a previously unknown missense substitution in ADGRE2 (also known as EMR2), which was predicted to result in the replacement of cysteine with tyrosine at amino acid position 492 (p.C492Y), as the only nonsynonymous variant cosegregating with vibratory urticaria in two large kindreds.">
+		<entity id="s2.e1" charOffset="60-66"
+			type="GENE" text="ADGRE2" ontology_id="30817"/>
+		<entity id="s2.e2" charOffset="265-274"
+			type="HP" text="urticaria" ontology_id="HP_0001025"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

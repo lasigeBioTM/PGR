@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30115896">
+	<sentence id="s1" text="This study investigates the soluble factors released by tumor-associated dendritic cells (TADCs) responsible for increasing cancer stem cell (CSC) properties, cell mobility, and epithelial-to-mesenchymal transition (cytokine production).">
+		<entity id="s1.e1" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="216-235"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Dendritic cells (DCs) of colon cancer patients were collected for phenotype and inflammatory response expression by flow cytometry and Luminex assays.">
+		<entity id="s2.e1" charOffset="31-37"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="80-101"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The transcriptome of inflammatory response-treated cancer cells was established by next generation sequencing.">
+		<entity id="s3.e1" charOffset="21-42"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s3.e2" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Inflammatory chemokine inflammatory response, present in large amounts in DCs isolated from colon cancer patients, and SW620-conditioned TADCs, enhance CSC characteristics in cancer, supported by enhanced anchorage-independent growth, CD133 expression and aldehyde dehydrogenase activity.">
+		<entity id="s4.e1" charOffset="23-44"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s4.e2" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Additionally, inflammatory response increases the metastatic ability of a cancer by enhancing cell migration, matrix metalloproteinase-7 expression and cytokine production.">
+		<entity id="s5.e1" charOffset="14-35"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s5.e2" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="136-155"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="The enhanced inflammatory response expression in DCs is also noted in apoptotic process transplanted with colon cancer cells.">
+		<entity id="s6.e1" charOffset="13-34"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s6.e2" charOffset="70-87"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s6.e3" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Transcriptome analysis of inflammatory response-treated SW620 cells indicates that CXCL1 increases potential oncogene expression in colon cancer, including li>PTHLH</i>, li>TYRP1</i>, li>FOXO1</i>, li>TCF4</i> and li>ZNF880</i>.">
+		<entity id="s7.e1" charOffset="26-47"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s7.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="Concurrently, inflammatory response displays a specific microRNA (protein polyubiquitination) upregulated by the prototypical colon cancer onco-miR miR-105.">
+		<entity id="s8.e1" charOffset="14-35"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s8.e2" charOffset="66-92"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s8.e3" charOffset="109-115"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e3" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e2"
+		    e2="s8.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s9" text="Analysis of publicly available data reveals inflammatory response-driven oncogenes and protein polyubiquitination-105 have a negative prognostic negative regulation of transcription by RNA polymerase II on the outcome of colon cancer.">
+		<entity id="s9.e1" charOffset="44-65"
+			type="GO" text="inflammatory response" ontology_id="GO_0006954"/>
+		<entity id="s9.e2" charOffset="87-113"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s9.e3" charOffset="145-202"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s9.e4" charOffset="153-159"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e4" pgr="false"/>
+		<pair id="s9.p2" e1="s9.e2"
+		    e2="s9.e4" pgr="false"/>
+		<pair id="s9.p3" e1="s9.e3"
+		    e2="s9.e4" pgr="false"/>
+	</sentence>
+</document>

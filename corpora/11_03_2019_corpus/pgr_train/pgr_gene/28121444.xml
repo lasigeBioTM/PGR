@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28121444">
+	<sentence id="s1" text="A set of ten plasma and serum samples from subjects with multiple sclerosis, narcolepsy, and without any disease diagnosis were profiled on a peptide array representing the whole proteome, hosting 2.2 million 12-mer peptides with a six amino acid lateral shift.">
+		<entity id="s1.e1" charOffset="2-5"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="77-87"
+			type="HP" text="narcolepsy" ontology_id="HP_0030050"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The presented workflow employed three different peptide microarray formats to discover and resolve the epitopes of human autoantibodies and revealed two potentially new autoantigens: MAP3K7 in multiple sclerosis and NRXN1 in narcolepsy.">
+		<entity id="s2.e1" charOffset="183-189"
+			type="GENE" text="MAP3K7" ontology_id="6885"/>
+		<entity id="s2.e2" charOffset="216-221"
+			type="GENE" text="NRXN1" ontology_id="9378"/>
+		<entity id="s2.e3" charOffset="225-235"
+			type="HP" text="narcolepsy" ontology_id="HP_0030050"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

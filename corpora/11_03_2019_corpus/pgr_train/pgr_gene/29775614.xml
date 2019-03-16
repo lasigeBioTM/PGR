@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29775614">
+	<sentence id="s1" text="Herein, we newly identified that truncated form of CHL1 is produced and released from lung tumor tissue in a mouse model expressing human EML4-ALK fusion gene.">
+		<entity id="s1.e1" charOffset="51-55"
+			type="GENE" text="CHL1" ontology_id="1663"/>
+		<entity id="s1.e2" charOffset="91-96"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The correlation between the tumor size and the amount of CHL1 secretion could be examined in this study, and showed a significant positive correlation in a tumor size-dependent manner.">
+		<entity id="s2.e1" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="57-61"
+			type="GENE" text="CHL1" ontology_id="1663"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Considering these results, the measurement of circulating CHL1 level may contribute to assess a tumor progression in human lung tumor patients">
+		<entity id="s3.e1" charOffset="58-62"
+			type="GENE" text="CHL1" ontology_id="1663"/>
+		<entity id="s3.e2" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

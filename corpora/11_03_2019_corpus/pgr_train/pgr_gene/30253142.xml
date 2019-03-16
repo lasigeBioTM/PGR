@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30253142">
+	<sentence id="s1" text="Isobutyryl-CoA dehydrogenase deficiency (IBDHD) is a rare autosomal recessive metabolic disorder related to valine catabolism and results from variants in ACAD8.">
+		<entity id="s1.e1" charOffset="58-77"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="155-160"
+			type="GENE" text="ACAD8" ontology_id="27034"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

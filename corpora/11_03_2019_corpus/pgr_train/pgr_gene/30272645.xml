@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30272645">
+	<sentence id="s1" text="Familial hypercholesterolemia (FH) is mostly caused by low-density lipoprotein receptor (LDLR) mutations and results in an increased risk of early-onset cardiovascular disease due to marked elevation of LDL cholesterol (LDL-C) in blood.">
+		<entity id="s1.e1" charOffset="9-29"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s1.e2" charOffset="89-93"
+			type="GENE" text="LDLR" ontology_id="3949"/>
+		<entity id="s1.e3" charOffset="153-175"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Statins are the first line of lipid-lowering drugs for treating FH and other types of hypercholesterolemia, but new approaches are emerging, in particular PCSK9 antibodies, which are now being tested in clinical trials.">
+		<entity id="s2.e1" charOffset="86-106"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s2.e2" charOffset="155-160"
+			type="GENE" text="PCSK9" ontology_id="255738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

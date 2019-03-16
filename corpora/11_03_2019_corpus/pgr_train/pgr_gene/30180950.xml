@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30180950">
+	<sentence id="s1" text="Upregulated LINC00963 led to elevated expression of NACC1 through inhibiting miR-608, which consequently promoted melanoma malignant progression.">
+		<entity id="s1.e1" charOffset="52-57"
+			type="GENE" text="NACC1" ontology_id="112939"/>
+		<entity id="s1.e2" charOffset="77-80"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e3" charOffset="114-122"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, our results illustrated that LINC00963-miR-608-NACC1 pathway might be a potential target for melanoma therapy">
+		<entity id="s2.e1" charOffset="55-58"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="63-68"
+			type="GENE" text="NACC1" ontology_id="112939"/>
+		<entity id="s2.e3" charOffset="109-117"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

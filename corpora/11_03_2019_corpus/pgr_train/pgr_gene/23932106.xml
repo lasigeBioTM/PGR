@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23932106">
+	<sentence id="s1" text="Using whole-exome sequencing, we identified biallelic mutations in seizure threshold 2 (SZT2) in both affected children.">
+		<entity id="s1.e1" charOffset="67-74"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="88-92"
+			type="GENE" text="SZT2" ontology_id="23334"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although the molecular role of the peroxisomal protein SZT2 in neuronal excitability and brain development remains to be defined, Szt2 has been shown to influence seizure threshold and epileptogenesis in mice, consistent with our findings in humans.">
+		<entity id="s2.e1" charOffset="55-59"
+			type="GENE" text="SZT2" ontology_id="23334"/>
+		<entity id="s2.e2" charOffset="130-134"
+			type="GENE" text="Szt2" ontology_id="23334"/>
+		<entity id="s2.e3" charOffset="163-170"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="204-208"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We conclude that mutations in SZT2 cause a severe type of autosomal-recessive infantile encephalopathy with intractable seizures and distinct neuroradiological anomalies.">
+		<entity id="s3.e1" charOffset="30-34"
+			type="GENE" text="SZT2" ontology_id="23334"/>
+		<entity id="s3.e2" charOffset="50-54"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e3" charOffset="88-102"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s3.e4" charOffset="120-127"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

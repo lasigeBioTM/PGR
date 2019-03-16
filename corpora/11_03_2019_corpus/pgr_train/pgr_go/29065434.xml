@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29065434">
+	<sentence id="s1" text="The major question to be solved is the genetic basis of bilateral adrenal hyperplasia (positive regulation of proteolysis).">
+		<entity id="s1.e1" charOffset="56-65"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e2" charOffset="66-85"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<entity id="s1.e3" charOffset="87-121"
+			type="GO" text="positive regulation of proteolysis" ontology_id="GO_0045862"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Is positive regulation of proteolysis due to the bilateral occurrence of APCCs, to germline variants, or perhaps due to unknown serum factors? Lastly, the etiology of unsolved cases of apparently familial hyperaldosteronism remains to be discovered.">
+		<entity id="s2.e1" charOffset="3-37"
+			type="GO" text="positive regulation of proteolysis" ontology_id="GO_0045862"/>
+		<entity id="s2.e2" charOffset="49-58"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s2.e3" charOffset="205-223"
+			type="HP" text="hyperaldosteronism" ontology_id="HP_0000859"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

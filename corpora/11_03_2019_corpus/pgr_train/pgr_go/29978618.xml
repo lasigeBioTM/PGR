@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29978618">
+	<sentence id="s1" text="This disease is an autosomal recessive disorder, and the gene negative regulation of peptidase activity, which encodes cystatin B, a cysteine protease inhibitor, is the only gene known to be associated with ULD.">
+		<entity id="s1.e1" charOffset="19-38"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="62-103"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28515229">
+	<sentence id="s1" text="Mutations in human crumbs 1 (li>heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules</i>) are a major cause of retinal diseases that lead to blindness.">
+		<entity id="s1.e1" charOffset="32-107"
+			type="GO" text="heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules" ontology_id="GO_0007157"/>
+		<entity id="s1.e2" charOffset="164-173"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

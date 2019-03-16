@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22935918">
+	<sentence id="s1" text="To test whether this gene can confer a wide variety of psychiatric disorders, we carried out a case-control association analysis of three tagging single-nucleotide polymorphisms (rs2074896, rs2074897, and rs2074898) in the NDUFS7 gene by sequencing 330 Han Chinese patients with schizophrenia and 330 well-matched healthy controls.">
+		<entity id="s1.e1" charOffset="223-229"
+			type="GENE" text="NDUFS7" ontology_id="374291"/>
+		<entity id="s1.e2" charOffset="279-292"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

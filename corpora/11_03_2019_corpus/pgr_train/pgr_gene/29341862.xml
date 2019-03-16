@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29341862">
+	<sentence id="s1" text="To address this gap, we performed a longitudinal exome-wide association study to identify susceptibility loci for obesity and MetS in a Japanese population.">
+		<entity id="s1.e1" charOffset="16-19"
+			type="GENE" text="gap" ontology_id="5921"/>
+		<entity id="s1.e2" charOffset="114-121"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The association of single nucleotide polymorphisms (SNPs) with body mass index (BMI) or the prevalence of obesity and MetS was examined in a generalized estimating equation model.">
+		<entity id="s2.e1" charOffset="68-72"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s2.e2" charOffset="106-113"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19236704">
+	<sentence id="s1" text="Corneal dystrophies may have a simple autosomal dominant, autosomal recessive or X-linked recessive Mendelian mode of inheritance.">
+		<entity id="s1.e1" charOffset="31-37"
+			type="GENE" text="simple" ontology_id="9516"/>
+		<entity id="s1.e2" charOffset="58-77"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="110-129"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Different corneal dystrophies are caused by mutations in the CHST6, KRT3, KRT12, PIP5K3, SLC4A11, TACSTD2, TGFBI, and UBIAD1 genes.">
+		<entity id="s2.e1" charOffset="10-29"
+			type="HP" text="corneal dystrophies" ontology_id="HP_0001131"/>
+		<entity id="s2.e2" charOffset="61-66"
+			type="GENE" text="CHST6" ontology_id="4166"/>
+		<entity id="s2.e3" charOffset="68-72"
+			type="GENE" text="KRT3" ontology_id="3850"/>
+		<entity id="s2.e4" charOffset="74-79"
+			type="GENE" text="KRT12" ontology_id="3859"/>
+		<entity id="s2.e5" charOffset="81-87"
+			type="GENE" text="PIP5K3" ontology_id="200576"/>
+		<entity id="s2.e6" charOffset="89-96"
+			type="GENE" text="SLC4A11" ontology_id="83959"/>
+		<entity id="s2.e7" charOffset="98-105"
+			type="GENE" text="TACSTD2" ontology_id="4070"/>
+		<entity id="s2.e8" charOffset="107-112"
+			type="GENE" text="TGFBI" ontology_id="7045"/>
+		<entity id="s2.e9" charOffset="118-124"
+			type="GENE" text="UBIAD1" ontology_id="29914"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+	</sentence>
+</document>

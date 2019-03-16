@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30584899">
+	<sentence id="s1" text="After targeting to endothelial differentiation gene (Edg) family blood circulation receptors (LPA1, LPA2, LPA3) and non-Edg family LPA receptors (LPA4, LPA5, LPA6), LPA mediates physiological and pathological processes such as embryonic development, angiogenesis, tumor progression, fibrogenesis, wound healing, ischemia/reperfusion injury, and inflammatory reactions.">
+		<entity id="s1.e1" charOffset="65-82"
+			type="GO" text="blood circulation" ontology_id="GO_0008015"/>
+		<entity id="s1.e2" charOffset="264-269"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

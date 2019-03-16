@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30209139">
+	<sentence id="s1" text="Primary ciliary dyskinesia (motile cilium assembly) can manifest in the neonatal period with severe respiratory distress.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-50"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We describe a child with motile cilium assembly who presented at term with severe neonatal respiratory distress, persistent right upper negative regulation of protein kinase activity collapse and failure to thrive who underwent lobectomy prior to the diagnosis of PCD at the age of 3 years.">
+		<entity id="s2.e1" charOffset="25-47"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s2.e2" charOffset="136-182"
+			type="GO" text="negative regulation of protein kinase activity" ontology_id="GO_0006469"/>
+		<entity id="s2.e3" charOffset="154-171"
+			type="HP" text="failure to thrive" ontology_id="HP_0001508"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

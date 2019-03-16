@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29054762">
+	<sentence id="s1" text="protein polyubiquitinationNAs are a kind of endogenous non-coding small RNAs, which involved in occurrence and development of multi cancer, including miR-34a.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the relationship between protein polyubiquitination-34a and luteolin's susceptibility to cancer cells still remains unclear.">
+		<entity id="s2.e1" charOffset="34-60"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Retrospectively study revealed that protein polyubiquitination-34a expression was downregulated in human primary GC tissues compared with non-tumor tissues and low miR-34a expression was associated with a significantly shorter overall survival and disease-free survival.">
+		<entity id="s3.e1" charOffset="36-62"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="142-147"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="On the other hand, protein polyubiquitination-34a inhibitor could partly counter the anticancer effect of luteolin.">
+		<entity id="s4.e1" charOffset="19-45"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Therefore, our findings firstly suggested that protein polyubiquitination-34a could modulate the susceptibility of gastric cancer cell to luteolin via targeting HK1, potentially benefiting GC patients' treatment in the future">
+		<entity id="s5.e1" charOffset="47-73"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s5.e2" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

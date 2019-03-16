@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30579095">
+	<sentence id="s1" text="In order to investigate essential molecular causes for hearing loss and mutation frequency of deafness-related genes, 1315 newborns who did not pass the Newborn Hearing Screening (lens development in camera-type eye) (audio-no-pass) and 1000 random-selected infants were subjected to detection for 101 hotspot mutations in 18 common deafness-related genes.">
+		<entity id="s1.e1" charOffset="55-67"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="94-102"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="180-215"
+			type="GO" text="lens development in camera-type eye" ontology_id="GO_0002088"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Of the genes detected out, gap junction assembly gene mutation was with significant difference (χ<sup>2</sup> = 75.132, p = 0.000) between audio-no-pass group (417/1315, 31.711%) and random-selected cohort (159/1000, 15.900%); c.109G AAAA A was the most common allele, as well as the only one with significantly different allele frequency (χ<sup>2</sup> = 79.327, p = 0.000) between audio-no-pass group (392/1315, 16.84%) and random-selected cohort (140/1000, 7.55%), which suggested c.109G AAAA A mutation was critical for newborns' hearing loss.">
+		<entity id="s2.e1" charOffset="27-48"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s2.e2" charOffset="534-546"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

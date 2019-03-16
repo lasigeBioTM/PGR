@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30136158">
+	<sentence id="s1" text="Whole exome sequencing in triple negative breast cancer cases (n = 8) and targeted sequencing in healthy controls (n = 48) revealed BRIP1 rs552752779 (MAF: 75% vs. 6.25%, OR 45.00, 95% CI 9.43-243.32), ERBB2 rs527779103 (MAF: 62.5% vs. 7.29%, OR 21.19, 95% CI 5.11-94.32), ERCC2 rs121913016 (MAF: 56.25% vs. 7.29%, OR 16.34, 95% CI 4.02-70.41), MSH6 rs2020912 (MAF: 56.25% vs. 1.04%, OR 122.13, 95% CI 12.29-2985.48) as risk factors for triple negative breast cancer.">
+		<entity id="s1.e1" charOffset="49-55"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="132-137"
+			type="GENE" text="BRIP1" ontology_id="64979"/>
+		<entity id="s1.e3" charOffset="151-154"
+			type="GENE" text="MAF" ontology_id="4094"/>
+		<entity id="s1.e4" charOffset="202-207"
+			type="GENE" text="ERBB2" ontology_id="2064"/>
+		<entity id="s1.e5" charOffset="273-278"
+			type="GENE" text="ERCC2" ontology_id="2068"/>
+		<entity id="s1.e6" charOffset="345-349"
+			type="GENE" text="MSH6" ontology_id="2956"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

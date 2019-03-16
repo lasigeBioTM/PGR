@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29397238">
+	<sentence id="s1" text="Atypical teratoid/rhabdoid tumors (AT/RT) and renal/extrarenal malignant rhabdoid tumors of childhood, epithelioid sarcoma and small cell carcinoma of the ovary, hypercalcemic cardiac muscle tissue development (SCCOHT) represent the most commonly recognized SWI/SNF-driven neoplasms.">
+		<entity id="s1.e1" charOffset="27-33"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="115-122"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s1.e3" charOffset="176-209"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e4" charOffset="273-282"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Approximately one-third of pediatric malignant rhabdoid tumors are linked to germline SWI/SNF alterations (nucleosome disassembly/INI1, rarely nucleosome disassembly) resulting in occasional familial clustering of these highly aggressive malignancies (so-called rhabdoid tumor predisposition syndrome, RTPS, cardiac muscle tissue developments 1 and 2, respectively).">
+		<entity id="s2.e1" charOffset="56-62"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="107-129"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s2.e3" charOffset="143-165"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s2.e4" charOffset="241-246"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e5" charOffset="278-311"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e6"
+		    e2="s2.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, more recently, inherited SWI/SNF-deficiency has been linked to several benign syndromic tumors including a subset of familial schwannomatosis (linked to nucleosome disassembly) and multiple meningiomas (linked to nucleosome disassembly) as well as others.">
+		<entity id="s3.e1" charOffset="97-103"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="162-184"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s3.e3" charOffset="199-210"
+			type="HP" text="meningiomas" ontology_id="HP_0002858"/>
+		<entity id="s3.e4" charOffset="222-244"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

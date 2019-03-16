@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27640307">
+	<sentence id="s1" text="We identified a recurrent de novo regulation of cell growth c.1582CAAAAT (p.Arg528Trp) variant by whole-exome sequencing (WES) in five unrelated individuals with a core phenotype of global developmental delay, hypotonia, optic atrophy, axonal neuropathy, and hypertrophic cardiomyopathy.">
+		<entity id="s1.e1" charOffset="34-59"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e2" charOffset="189-208"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="221-234"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s1.e4" charOffset="243-253"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e5" charOffset="272-286"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

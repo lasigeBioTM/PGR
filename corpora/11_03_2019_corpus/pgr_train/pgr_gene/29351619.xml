@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29351619">
+	<sentence id="s1" text="Limb-girdle muscular dystrophy type 2D (LGMD2D) is a rare autosomal-recessive disease, affecting striated muscle, due to mutation of SGCA, the gene coding for α-sarcoglycan.">
+		<entity id="s1.e1" charOffset="12-30"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="31-35"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="40-46"
+			type="GENE" text="LGMD2D" ontology_id="6442"/>
+		<entity id="s1.e4" charOffset="133-137"
+			type="GENE" text="SGCA" ontology_id="6442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

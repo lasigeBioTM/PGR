@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25277197">
+	<sentence id="s1" text="Finally, we demonstrate that TRPS1 expression is elevated in luminal breast cancer cells and luminal breast cancer tissues as compared with other breast cancer subtypes.">
+		<entity id="s1.e1" charOffset="29-34"
+			type="GENE" text="TRPS1" ontology_id="7227"/>
+		<entity id="s1.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Overall, our study proposes that TRPS1 acts as a central hub in the control of cell cycle and proliferation during cancer development.">
+		<entity id="s2.e1" charOffset="33-38"
+			type="GENE" text="TRPS1" ontology_id="7227"/>
+		<entity id="s2.e2" charOffset="57-60"
+			type="GENE" text="hub" ontology_id="1993"/>
+		<entity id="s2.e3" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

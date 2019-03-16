@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29100085">
+	<sentence id="s1" text="Here we identified six different de novo missense mutations in mitochondrial large ribosomal subunit assembly in twelve unrelated individuals affected by global developmental delay (GDD), intellectual disability (ID), severe speech impairment and gait abnormalities.">
+		<entity id="s1.e1" charOffset="63-109"
+			type="GO" text="mitochondrial large ribosomal subunit assembly" ontology_id="GO_1902775"/>
+		<entity id="s1.e2" charOffset="161-180"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="188-211"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e4" charOffset="225-242"
+			type="HP" text="speech impairment" ontology_id="HP_0002167"/>
+		<entity id="s1.e5" charOffset="247-265"
+			type="HP" text="gait abnormalities" ontology_id="HP_0001288"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

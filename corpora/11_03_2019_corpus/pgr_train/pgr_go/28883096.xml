@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28883096">
+	<sentence id="s1" text="Mutations affecting human ER to Golgi vesicle-mediated transport, intra-Golgi vesicle-mediated transport and retrograde vesicle-mediated transport, Golgi to ER-intra-Golgi vesicle-mediated transport cause monogenic forms of inherited, autosomal recessive mannose metabolic process.">
+		<entity id="s1.e1" charOffset="26-64"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="66-104"
+			type="GO" text="intra-Golgi vesicle-mediated transport" ontology_id="GO_0006891"/>
+		<entity id="s1.e3" charOffset="87-106"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="107-132"
+			type="GO" text="mannose metabolic process" ontology_id="GO_0006013"/>
+		<entity id="s1.e5" charOffset="109-159"
+			type="GO" text="retrograde vesicle-mediated transport, Golgi to ER" ontology_id="GO_0006890"/>
+		<entity id="s1.e6" charOffset="160-198"
+			type="GO" text="intra-Golgi vesicle-mediated transport" ontology_id="GO_0006891"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

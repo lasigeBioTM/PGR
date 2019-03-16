@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30217758">
+	<sentence id="s1" text="Interestingly, de novo loss-of-function and missense variants in KDM5B were identified in patients with intellectual disability (ID) and autism spectrum disorder (ASD) but also in unaffected individuals.">
+		<entity id="s1.e1" charOffset="65-70"
+			type="GENE" text="KDM5B" ontology_id="10765"/>
+		<entity id="s1.e2" charOffset="104-127"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="137-143"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The c.808 + 1G AAAA A variant was identified in a boy with mild ID and autism traits and is associated with a significant reduced KDM5B mRNA expression without alteration of its H3K4me3 pattern.">
+		<entity id="s2.e1" charOffset="71-77"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s2.e2" charOffset="78-84"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<entity id="s2.e3" charOffset="130-135"
+			type="GENE" text="KDM5B" ontology_id="10765"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our data reinforces the recent observation that the KDM5B haploinsufficiency is not a mechanism involved in intellectual disability and that KDM5B disorder associated with LOF variants is a recessive disorder.">
+		<entity id="s3.e1" charOffset="52-57"
+			type="GENE" text="KDM5B" ontology_id="10765"/>
+		<entity id="s3.e2" charOffset="108-131"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

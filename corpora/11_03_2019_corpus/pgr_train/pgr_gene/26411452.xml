@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26411452">
+	<sentence id="s1" text="Genome-wide association studies have identified genomic loci, whose single-nucleotide polymorphisms (SNPs) predispose to prostate cancer (PCa).">
+		<entity id="s1.e1" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="138-141"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The expression of MLPH in primary prostate tumors was significantly lower in those with the G compared with the T allele and correlated significantly with AR protein.">
+		<entity id="s2.e1" charOffset="18-22"
+			type="GENE" text="MLPH" ontology_id="79083"/>
+		<entity id="s2.e2" charOffset="43-49"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Higher melanophilin level in prostate tissue of patients with a favorable PCa risk profile points out a tumor-suppressive effect.">
+		<entity id="s3.e1" charOffset="74-77"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<entity id="s3.e2" charOffset="104-109"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

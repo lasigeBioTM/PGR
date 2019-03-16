@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22527681">
+	<sentence id="s1" text="At least 36 different forms of neuropeptide signaling pathway are known, 20 autosomal-recessive, two X-linked, and several forms of ataxia associated with mitochondrial defects are known to date.">
+		<entity id="s1.e1" charOffset="31-61"
+			type="GO" text="neuropeptide signaling pathway" ontology_id="GO_0007218"/>
+		<entity id="s1.e2" charOffset="132-138"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Exome and targeted sequencing has recently identified four new genes causing ataxia: peptide cross-linking, cation transport, biological_process, and rundataxin.">
+		<entity id="s2.e1" charOffset="77-83"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e2" charOffset="85-106"
+			type="GO" text="peptide cross-linking" ontology_id="GO_0018149"/>
+		<entity id="s2.e3" charOffset="108-124"
+			type="GO" text="cation transport" ontology_id="GO_0006812"/>
+		<entity id="s2.e4" charOffset="126-144"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

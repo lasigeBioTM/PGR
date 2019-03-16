@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26310313">
+	<sentence id="s1" text="Genome-wide association studies have identified loci at 15q25 (IREB2) and 4q22 (FAM13A), associated with lung cancer (LC) and chronic obstructive pulmonary disease (COPD).">
+		<entity id="s1.e1" charOffset="63-68"
+			type="GENE" text="IREB2" ontology_id="3658"/>
+		<entity id="s1.e2" charOffset="80-86"
+			type="GENE" text="FAM13A" ontology_id="10144"/>
+		<entity id="s1.e3" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="165-169"
+			type="GENE" text="COPD" ontology_id="372"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21607584">
+	<sentence id="s1" text="In gene-level analyses, G2/M transition of mitotic cell cycle, SCC1/RAD21, regulation of chromatin assembly or disassembly, and cellular response to DNA damage stimulus were associated (P AAAA 0.05) with overall breast cancer risk, positive regulation of chromosome segregation, protein K11-linked ubiquitination, protein sumoylation, Ras protein signal transduction, mitotic spindle organization, and sensory perception of sound were associated with high grade breast cancer risk, and gene silencing by miRNA and response to radiation were associated with both.">
+		<entity id="s1.e1" charOffset="24-61"
+			type="GO" text="G2/M transition of mitotic cell cycle" ontology_id="GO_0000086"/>
+		<entity id="s1.e2" charOffset="75-122"
+			type="GO" text="regulation of chromatin assembly or disassembly" ontology_id="GO_0001672"/>
+		<entity id="s1.e3" charOffset="128-168"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e4" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="232-277"
+			type="GO" text="positive regulation of chromosome segregation" ontology_id="GO_0051984"/>
+		<entity id="s1.e6" charOffset="279-312"
+			type="GO" text="protein K11-linked ubiquitination" ontology_id="GO_0070979"/>
+		<entity id="s1.e7" charOffset="314-333"
+			type="GO" text="protein sumoylation" ontology_id="GO_0016925"/>
+		<entity id="s1.e8" charOffset="335-366"
+			type="GO" text="Ras protein signal transduction" ontology_id="GO_0007265"/>
+		<entity id="s1.e9" charOffset="368-396"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<entity id="s1.e10" charOffset="402-429"
+			type="GO" text="sensory perception of sound" ontology_id="GO_0007605"/>
+		<entity id="s1.e11" charOffset="486-509"
+			type="GO" text="gene silencing by miRNA" ontology_id="GO_0035195"/>
+		<entity id="s1.e12" charOffset="514-535"
+			type="GO" text="response to radiation" ontology_id="GO_0009314"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e4"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e4"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e4"
+		    e2="s1.e11" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e4"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+</document>

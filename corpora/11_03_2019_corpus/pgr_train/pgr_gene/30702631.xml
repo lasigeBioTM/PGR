@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30702631">
+	<sentence id="s1" text="A risk score of 4, 4, 6, 6, 7, or 6 was assigned to diabetes, baseline estimated GFR AAAA 45 mL/min/1.73 m, hypertension, repeated contrast exposure, congestive heart failure, and persistent renal injury (defined as an elevation of serum creatinine ≥25% at 3 months), respectively.">
+		<entity id="s1.e1" charOffset="81-84"
+			type="GENE" text="GFR" ontology_id="9771"/>
+		<entity id="s1.e2" charOffset="108-120"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e3" charOffset="150-174"
+			type="HP" text="congestive heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

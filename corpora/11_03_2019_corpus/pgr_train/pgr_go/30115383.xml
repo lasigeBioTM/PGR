@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30115383">
+	<sentence id="s1" text="A growing number of studies has suggested that long non-coding RNAs (lncRNAs) exert essential roles in the development and progression of hepatocellular carcinoma (phosphatidylinositol phosphorylation).">
+		<entity id="s1.e1" charOffset="138-162"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="164-200"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="myelination-AS1 knockdown could inhibit the proliferation of phosphatidylinositol phosphorylation cells and attenuate the development of HCC tumor in vivo.">
+		<entity id="s2.e1" charOffset="0-11"
+			type="GO" text="myelination" ontology_id="GO_0042552"/>
+		<entity id="s2.e2" charOffset="54-90"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s2.e3" charOffset="134-139"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

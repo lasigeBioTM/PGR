@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25920810">
+	<sentence id="s1" text="The human KAT6A and KAT6B genes are recurrently mutated in leukemia, non-hematologic malignancies, and multiple developmental disorders displaying intellectual disability and various other abnormalities.">
+		<entity id="s1.e1" charOffset="10-15"
+			type="GENE" text="KAT6A" ontology_id="7994"/>
+		<entity id="s1.e2" charOffset="20-25"
+			type="GENE" text="KAT6B" ontology_id="23522"/>
+		<entity id="s1.e3" charOffset="147-170"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, the BRPF1 gene is mutated in childhood leukemia and adult medulloblastoma.">
+		<entity id="s2.e1" charOffset="17-22"
+			type="GENE" text="BRPF1" ontology_id="7862"/>
+		<entity id="s2.e2" charOffset="71-86"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

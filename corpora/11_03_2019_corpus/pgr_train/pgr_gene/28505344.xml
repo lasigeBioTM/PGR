@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28505344">
+	<sentence id="s1" text="Recent studies have suggested possible therapeutic targets for some patients with early-onset glaucoma based on the molecular and cellular events caused by MYOC, OPTN and TBK1 mutations.">
+		<entity id="s1.e1" charOffset="94-102"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e2" charOffset="156-160"
+			type="GENE" text="MYOC" ontology_id="4653"/>
+		<entity id="s1.e3" charOffset="162-166"
+			type="GENE" text="OPTN" ontology_id="10133"/>
+		<entity id="s1.e4" charOffset="171-175"
+			type="GENE" text="TBK1" ontology_id="29110"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recent GWAS completed for three types of common adult-onset glaucoma have identified novel loci for POAG (primary-open-angle glaucoma) (ABCA1, AFAP1, GMDS, PMM2, TGFBR3, FNDC3B, ARHGEF12, GAS7, FOXC1, ATXN2, TXNRD2); PACG (primary angle-closure glaucoma (EPDR1, CHAT, GLIS3, FERMT2, DPM2-FAM102); and exfoliation syndrome (XFS) glaucoma (CACNA1A).">
+		<entity id="s2.e1" charOffset="60-68"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s2.e2" charOffset="136-141"
+			type="GENE" text="ABCA1" ontology_id="19"/>
+		<entity id="s2.e3" charOffset="143-148"
+			type="GENE" text="AFAP1" ontology_id="60312"/>
+		<entity id="s2.e4" charOffset="150-154"
+			type="GENE" text="GMDS" ontology_id="2762"/>
+		<entity id="s2.e5" charOffset="156-160"
+			type="GENE" text="PMM2" ontology_id="5373"/>
+		<entity id="s2.e6" charOffset="162-168"
+			type="GENE" text="TGFBR3" ontology_id="7049"/>
+		<entity id="s2.e7" charOffset="170-176"
+			type="GENE" text="FNDC3B" ontology_id="64778"/>
+		<entity id="s2.e8" charOffset="178-186"
+			type="GENE" text="ARHGEF12" ontology_id="23365"/>
+		<entity id="s2.e9" charOffset="188-192"
+			type="GENE" text="GAS7" ontology_id="8522"/>
+		<entity id="s2.e10" charOffset="194-199"
+			type="GENE" text="FOXC1" ontology_id="2296"/>
+		<entity id="s2.e11" charOffset="201-206"
+			type="GENE" text="ATXN2" ontology_id="6311"/>
+		<entity id="s2.e12" charOffset="208-214"
+			type="GENE" text="TXNRD2" ontology_id="10587"/>
+		<entity id="s2.e13" charOffset="255-260"
+			type="GENE" text="EPDR1" ontology_id="54749"/>
+		<entity id="s2.e14" charOffset="262-266"
+			type="GENE" text="CHAT" ontology_id="1103"/>
+		<entity id="s2.e15" charOffset="268-273"
+			type="GENE" text="GLIS3" ontology_id="169792"/>
+		<entity id="s2.e16" charOffset="275-281"
+			type="GENE" text="FERMT2" ontology_id="10979"/>
+		<entity id="s2.e17" charOffset="283-287"
+			type="GENE" text="DPM2" ontology_id="8818"/>
+		<entity id="s2.e18" charOffset="338-345"
+			type="GENE" text="CACNA1A" ontology_id="773"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e11" pgr="false"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e12" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p13" e1="s2.e1"
+		    e2="s2.e14" pgr="false"/>
+		<pair id="s2.p14" e1="s2.e1"
+		    e2="s2.e15" pgr="true"/>
+		<pair id="s2.p15" e1="s2.e1"
+		    e2="s2.e16" pgr="false"/>
+		<pair id="s2.p16" e1="s2.e1"
+		    e2="s2.e17" pgr="false"/>
+		<pair id="s2.p17" e1="s2.e1"
+		    e2="s2.e18" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In total sixteen genomic regions have been associated with POAG (including the normal tension glaucoma (NTG) subgroup), 8 with PACG and 2 with XFS.">
+		<entity id="s3.e1" charOffset="94-102"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s3.e2" charOffset="104-107"
+			type="GENE" text="NTG" ontology_id="9968"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

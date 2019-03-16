@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27751317">
+	<sentence id="s1" text="Genetic workup confirmed the clinical diagnosis of camptodactyly-arthropathy-coxa vara-pericarditis (CACP) syndrome CACP syndrome and also revealed a rare mutation in the causative gene">
+		<entity id="s1.e1" charOffset="51-64"
+			type="HP" text="camptodactyly" ontology_id="HP_0012385"/>
+		<entity id="s1.e2" charOffset="101-105"
+			type="GENE" text="CACP" ontology_id="10216"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

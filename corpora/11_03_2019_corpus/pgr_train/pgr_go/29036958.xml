@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29036958">
+	<sentence id="s1" text="Bartter syndrome (BS) is a hereditary condition transmitted as an autosomal recessive (Bartter cardiac muscle tissue development 1 to 4) or dominant trait (Bartter type 5).">
+		<entity id="s1.e1" charOffset="66-85"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="95-128"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we presented a case (BS cardiac muscle tissue development Ⅱ) of a 17 years old female presented with polyhydramnios, polyuria, nephrocalcinosis and hypokalemia, which was alleviated after treatment with celecoxib and vitamin D(3).">
+		<entity id="s2.e1" charOffset="29-62"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e2" charOffset="106-120"
+			type="HP" text="polyhydramnios" ontology_id="HP_0001561"/>
+		<entity id="s2.e3" charOffset="122-130"
+			type="HP" text="polyuria" ontology_id="HP_0000103"/>
+		<entity id="s2.e4" charOffset="132-148"
+			type="HP" text="nephrocalcinosis" ontology_id="HP_0000121"/>
+		<entity id="s2.e5" charOffset="153-164"
+			type="HP" text="hypokalemia" ontology_id="HP_0002900"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

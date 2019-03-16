@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29054568">
+	<sentence id="s1" text="A combination of familial and population based sequencing studies, and genome wide association studies (GWAS) have identified a range of genetic susceptibility alleles for EOC comprising rare but highly penetrant genes (e.g. BRCA1, BRCA2) that are responsible for familial clustering of ovarian cancer cases; more moderate penetrance susceptibility genes (e.g. BRIP1, RAD51C/D, MSH6); and multiple common but low penetrance susceptibility alleles identified by GWAS.">
+		<entity id="s1.e1" charOffset="225-230"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s1.e2" charOffset="232-237"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s1.e3" charOffset="295-301"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="361-366"
+			type="GENE" text="BRIP1" ontology_id="64979"/>
+		<entity id="s1.e5" charOffset="378-382"
+			type="GENE" text="MSH6" ontology_id="2956"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Identifying genetic risk alleles for ovarian cancer has had a significant impact on disease prevention strategies; for example it is now routine clinical practice for individuals with germline BRCA1 and BRCA2 mutations to undergo risk reducing salpingo-oophorectomy.">
+		<entity id="s2.e1" charOffset="45-51"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="74-80"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s2.e3" charOffset="193-198"
+			type="GENE" text="BRCA1" ontology_id="672"/>
+		<entity id="s2.e4" charOffset="203-208"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29141310">
+	<sentence id="s1" text="A case with cellular response to histamine (C.905AAAAAG) had seizure controlled for 3 mouths.">
+		<entity id="s1.e1" charOffset="12-42"
+			type="GO" text="cellular response to histamine" ontology_id="GO_0071420"/>
+		<entity id="s1.e2" charOffset="61-68"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="A case with protein sumoylation (C.700GAAAAA) had seizure controlled for 6 mouths.">
+		<entity id="s2.e1" charOffset="12-31"
+			type="GO" text="protein sumoylation" ontology_id="GO_0016925"/>
+		<entity id="s2.e2" charOffset="50-57"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

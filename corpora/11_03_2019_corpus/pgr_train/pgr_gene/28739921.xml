@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28739921">
+	<sentence id="s1" text="Malfunction of mutant AIPL1 proteins triggers a severe form of Leber congenital amaurosis and leads to blindness.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="AIPL1" ontology_id="23746"/>
+		<entity id="s1.e2" charOffset="103-112"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29849040">
+	<sentence id="s1" text="In addition, p-BS/GS can occur as a result of other inherited diseases such as cystic fibrosis, autosomal dominant hypocalcemia, Dent disease, or congenital chloride diarrhea (CCD).">
+		<entity id="s1.e1" charOffset="115-127"
+			type="HP" text="hypocalcemia" ontology_id="HP_0002901"/>
+		<entity id="s1.e2" charOffset="176-179"
+			type="GENE" text="CCD" ontology_id="860"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30454692">
+	<sentence id="s1" text="Brain MRI showed diffuse leukoencephalopathy, suggesting transcription initiation from RNA polymerase II promoter.">
+		<entity id="s1.e1" charOffset="25-44"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e2" charOffset="57-113"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

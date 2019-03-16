@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28658141">
+	<sentence id="s1" text="In our study, we aim to investigate whether variants of KCNA1, KCNA2, and KCNV2 genes influence susceptibility to genetic generalized epilepsies (GGEs) and the efficacy of AEDs.">
+		<entity id="s1.e1" charOffset="56-61"
+			type="GENE" text="KCNA1" ontology_id="3736"/>
+		<entity id="s1.e2" charOffset="63-68"
+			type="GENE" text="KCNA2" ontology_id="3737"/>
+		<entity id="s1.e3" charOffset="74-79"
+			type="GENE" text="KCNV2" ontology_id="169522"/>
+		<entity id="s1.e4" charOffset="134-144"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

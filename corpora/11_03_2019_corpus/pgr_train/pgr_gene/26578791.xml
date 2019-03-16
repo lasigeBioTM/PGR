@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26578791">
+	<sentence id="s1" text="Whereas the majority of mammalian cells carry no more than two centrosomes per cell, exceptions to this rule apply in certain specialized tissues and in select disease states, including cancer.">
+		<entity id="s1.e1" charOffset="75-78"
+			type="GENE" text="per" ontology_id="93210"/>
+		<entity id="s1.e2" charOffset="186-192"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24273071">
+	<sentence id="s1" text="Up to this time, only heterozygous mutations of COL9A3 gene have been reported in human and related to: (1) multiple epiphyseal dysplasia type 3, (2) susceptibility to an intervertebral disc disease, and (3) hearing loss.">
+		<entity id="s1.e1" charOffset="48-54"
+			type="GENE" text="COL9A3" ontology_id="1299"/>
+		<entity id="s1.e2" charOffset="117-137"
+			type="HP" text="epiphyseal dysplasia" ontology_id="HP_0002656"/>
+		<entity id="s1.e3" charOffset="138-142"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e4" charOffset="208-220"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we describe the first autosomal recessive Stickler family due to loss of function mutations (c.1176_1198del, p.Gln393Cysfs*25) of COL9A3 gene.">
+		<entity id="s2.e1" charOffset="28-47"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="136-142"
+			type="GENE" text="COL9A3" ontology_id="1299"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

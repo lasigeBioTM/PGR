@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27601211">
+	<sentence id="s1" text="We established a genetic diagnosis in six families with autosomal recessive HSP (chemical synaptic transmission in three families and ER to Golgi vesicle-mediated transport/ER to Golgi vesicle-mediated transport, negative regulation of inclusion body assembly and positive regulation of GTPase activity in one family each).">
+		<entity id="s1.e1" charOffset="56-75"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="81-111"
+			type="GO" text="chemical synaptic transmission" ontology_id="GO_0007268"/>
+		<entity id="s1.e3" charOffset="134-172"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e4" charOffset="173-211"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e5" charOffset="213-259"
+			type="GO" text="negative regulation of inclusion body assembly" ontology_id="GO_0090084"/>
+		<entity id="s1.e6" charOffset="264-302"
+			type="GO" text="positive regulation of GTPase activity" ontology_id="GO_0043547"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Patients did not present with visual impairment as observed in a previously reported ER to Golgi vesicle-mediated transport family (c.316CAAAAT (p.(Arg106Cys)) in coiled-coil domain), suggesting unique contributions of the PB1 and coiled-coil domains in ER to Golgi vesicle-mediated transport complex formation/function and a possible phenocardiac muscle tissue development correlation to variant location.">
+		<entity id="s2.e1" charOffset="30-47"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<entity id="s2.e2" charOffset="85-123"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s2.e3" charOffset="221-259"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s2.e4" charOffset="272-305"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

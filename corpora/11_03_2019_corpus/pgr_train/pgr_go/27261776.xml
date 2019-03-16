@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27261776">
+	<sentence id="s1" text="Activation of inflammatory pathways is known to accompany development of obesity-induced non-alcoholic positive regulation of cell-matrix adhesionty liver disease (NAFLD), insulin resistance and cardiac muscle tissue development 2 diabetes.">
+		<entity id="s1.e1" charOffset="73-80"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="103-146"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e3" charOffset="155-188"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29370225">
+	<sentence id="s1" text="We genotyped a negative regulation of transcription, DNA-templated of mitochondrial SNPs using Illumina HumanExome arrays and tested for association in the Swedish schizophrenia sample (NAAAA 10,000).">
+		<entity id="s1.e1" charOffset="15-66"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="164-177"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We conducted the largest association study of mitochondrial DNA variants and schizophrenia but did not cellular response to interleukin-4 an association that survived multiple testing correction.">
+		<entity id="s2.e1" charOffset="77-90"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="103-137"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

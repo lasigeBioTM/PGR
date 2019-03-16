@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30701745">
+	<sentence id="s1" text="Family hyperaldosteronism cardiac muscle tissue development I (glucocorticoids-remediable hyperaldosteronism) is a rare form of symptomatic arterial hypertension (AH), which often leads to the development of cerebrovascular complications.">
+		<entity id="s1.e1" charOffset="7-25"
+			type="HP" text="hyperaldosteronism" ontology_id="HP_0000859"/>
+		<entity id="s1.e2" charOffset="26-59"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28877067">
+	<sentence id="s1" text="We examined the diagnostic and prognostic value of altered reticulin framework and the immunoprofile of biomarkers including IGF-2, proteins involved in cell proliferation and mitotic spindle regulation (Ki67, p53, mitotic spindle assembly checkpoint, positive regulation of transcription of Notch receptor target, protein phosphorylation), DNA cellular protein catabolic process repair (mitotic cell cycle, γ-H2AX), telomere regulation (DAX, nucleosome assembly), wnt-signaling pathway (protein polyubiquitination) and PI3K signaling pathway (negative regulation of protein phosphorylation, phospho-regulation of cell growth) in a tissue microarray of 50 adenomas and 43 carcinomas that were characterized for angioinvasion as defined by strict criteria, Weiss score, and mitotic rate-based tumor grade.">
+		<entity id="s1.e1" charOffset="215-250"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s1.e2" charOffset="252-313"
+			type="GO" text="positive regulation of transcription of Notch receptor target" ontology_id="GO_0007221"/>
+		<entity id="s1.e3" charOffset="315-338"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="345-379"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<entity id="s1.e5" charOffset="388-406"
+			type="GO" text="mitotic cell cycle" ontology_id="GO_0000278"/>
+		<entity id="s1.e6" charOffset="443-462"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<entity id="s1.e7" charOffset="461-471"
+			type="HP" text="carcinomas" ontology_id="HP_0030731"/>
+		<entity id="s1.e8" charOffset="488-514"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e9" charOffset="544-590"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e10" charOffset="581-586"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e11" charOffset="600-625"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e9"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e11"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e2"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e4"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p13" e1="s1.e6"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e9"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e7"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e13"
+		    e2="s1.e20" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e15"
+		    e2="s1.e20" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e17"
+		    e2="s1.e20" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="IGF-2 and proteins involved in cell proliferation and mitotic spindle regulation (Ki67, p53, mitotic spindle assembly checkpoint, positive regulation of transcription of Notch receptor target, protein phosphorylation), DNA cellular protein catabolic process proteins (mitotic cell cycle, γ-H2AX), regulators of telomeres (nucleosome assembly, nucleosome assembly), and protein polyubiquitination revealed characteristic expression profiles enabling the distinction of carcinomas from adenomas.">
+		<entity id="s2.e1" charOffset="93-128"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s2.e2" charOffset="130-191"
+			type="GO" text="positive regulation of transcription of Notch receptor target" ontology_id="GO_0007221"/>
+		<entity id="s2.e3" charOffset="193-216"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e4" charOffset="223-257"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<entity id="s2.e5" charOffset="268-286"
+			type="GO" text="mitotic cell cycle" ontology_id="GO_0000278"/>
+		<entity id="s2.e6" charOffset="305-315"
+			type="HP" text="carcinomas" ontology_id="HP_0030731"/>
+		<entity id="s2.e7" charOffset="322-341"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<entity id="s2.e8" charOffset="328-347"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<entity id="s2.e9" charOffset="354-380"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e9"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e7"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Angioinvasion defined as tumor cells invading through a vessel wall and intravascular tumor cells admixed with thrombus proved to be the chloride transport prognostic parameter, predicting adverse outcome in the entire cohort as well as within low-grade acetyl-CoA metabolic processs.">
+		<entity id="s3.e1" charOffset="25-30"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="137-155"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s3.e3" charOffset="240-268"
+			type="GO" text="acetyl-CoA metabolic process" ontology_id="GO_0006084"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Low mitotic tumor grade, Weiss score, global loss of nucleosome assembly expression, and high phospho-regulation of cell growth expression correlated with disease-free survival, but Weiss score and biomarkers failed to predict adverse outcome in low-grade disease.">
+		<entity id="s4.e1" charOffset="12-17"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="53-72"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<entity id="s4.e3" charOffset="102-127"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

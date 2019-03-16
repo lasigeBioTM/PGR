@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30212649">
+	<sentence id="s1" text="Inhibitory immune receptors, such as negative regulation of signal transduction, dampen inflammation and are important for resolving inflammation, but their role in obesity is unknown.">
+		<entity id="s1.e1" charOffset="37-79"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009968"/>
+		<entity id="s1.e2" charOffset="165-172"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that obesity in humans correlates with reduced expression of adipose tissue negative regulation of signal transduction.">
+		<entity id="s2.e1" charOffset="13-20"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="84-126"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009968"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Co-housing with wild-type animals, antibiotic treatment, or germ-free condition was sufficient to restrain inflammation, obesity, and insulin tolerance in negative regulation of signal transduction<sup>-/-</sup> apoptotic process, implicating the microbiota.">
+		<entity id="s3.e1" charOffset="121-128"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s3.e2" charOffset="155-197"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009968"/>
+		<entity id="s3.e3" charOffset="212-229"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="HFD-fed negative regulation of signal transduction<sup>-/-</sup> apoptotic process display dysbiosis marked by increased obesity-associated Erysipelotrichaceae, but reduced Lachnospiraceae family and the associated enzymes required for short-chain fatty acid (SCFA) synthesis.">
+		<entity id="s4.e1" charOffset="8-50"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009968"/>
+		<entity id="s4.e2" charOffset="65-82"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s4.e3" charOffset="108-115"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These findings reveal that negative regulation of signal transduction reduces HFD-induced obesity by maintaining beneficial microbiota">
+		<entity id="s5.e1" charOffset="27-69"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009968"/>
+		<entity id="s5.e2" charOffset="90-97"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

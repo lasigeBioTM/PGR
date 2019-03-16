@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22363784">
+	<sentence id="s1" text="Biallelic biological_process mutations have recently been reported to cause autosomal recessive nonsyndromic sensorineural hearing loss.">
+		<entity id="s1.e1" charOffset="10-28"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="123-135"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Thus we conclude that the hearing loss in the family described in this report is caused by a novel missense mutation in biological_process.">
+		<entity id="s2.e1" charOffset="26-38"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="120-138"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

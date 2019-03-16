@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26138355">
+	<sentence id="s1" text="Missense mutations in SCN2A (p.Leu1342Pro) and KCNQ2 (p.Ala306Thr) were found in two patients with no history of epilepsy before the onset of ISs.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="SCN2A" ontology_id="6326"/>
+		<entity id="s1.e2" charOffset="47-52"
+			type="GENE" text="KCNQ2" ontology_id="3785"/>
+		<entity id="s1.e3" charOffset="113-121"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

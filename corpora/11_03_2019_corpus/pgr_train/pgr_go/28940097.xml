@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28940097">
+	<sentence id="s1" text="We also highlight Rac protein signal transduction as another compelling candidate in a large family with autosomal dominant mild intellectual disability that fully segregates with a heterozygous truncating variant.">
+		<entity id="s1.e1" charOffset="18-49"
+			type="GO" text="Rac protein signal transduction" ontology_id="GO_0016601"/>
+		<entity id="s1.e2" charOffset="129-152"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

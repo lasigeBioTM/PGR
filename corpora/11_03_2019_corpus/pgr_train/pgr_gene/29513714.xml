@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29513714">
+	<sentence id="s1" text="Molecular biomarkers in blood are needed to aid the early diagnosis and clinical assessment of glioblastoma (GBM).">
+		<entity id="s1.e1" charOffset="44-47"
+			type="GENE" text="aid" ontology_id="57379"/>
+		<entity id="s1.e2" charOffset="95-107"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The plasma concentrations of LRG1, CRP, and C9 showed significant positive correlations with tumor size (R2 = 0.534, 0.495, and 0.452, respectively)">
+		<entity id="s2.e1" charOffset="29-33"
+			type="GENE" text="LRG1" ontology_id="116844"/>
+		<entity id="s2.e2" charOffset="35-38"
+			type="GENE" text="CRP" ontology_id="1401"/>
+		<entity id="s2.e3" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

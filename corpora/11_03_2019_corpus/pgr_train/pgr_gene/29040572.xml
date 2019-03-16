@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29040572">
+	<sentence id="s1" text="Here, we conducted whole-exome sequencing of patients with optic atrophy and other neurological signs of mitochondriopathy and identified 17 individuals from 13 unrelated families with recessive mutations in FDXR, encoding the mitochondrial membrane-associated flavoprotein ferrodoxin reductase required for electron transport from NADPH to cytochrome P450.">
+		<entity id="s1.e1" charOffset="59-72"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s1.e2" charOffset="208-212"
+			type="GENE" text="FDXR" ontology_id="2232"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, we found that mice carrying a spontaneous mutation allelic to the most common mutation found in patients displayed progressive gait abnormalities and vision loss, in addition to biochemical defects consistent with the major clinical features of the disease.">
+		<entity id="s2.e1" charOffset="24-28"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="160-171"
+			type="HP" text="vision loss" ontology_id="HP_0000572"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Taken together, these data provide the first demonstration that germline, hypomorphic mutations in FDXR cause a novel mitochondriopathy and optic atrophy in humans">
+		<entity id="s3.e1" charOffset="99-103"
+			type="GENE" text="FDXR" ontology_id="2232"/>
+		<entity id="s3.e2" charOffset="140-153"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

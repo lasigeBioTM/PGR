@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30560086">
+	<sentence id="s1" text="Ectopically injected human cancer cell lines develop into tumors in SCID attachment of GPI anchor to protein, thus providing a human-sized li>in vivo</i> model for evaluating imaging methods to improve cancer detection and therapeutic research and development.">
+		<entity id="s1.e1" charOffset="27-33"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="58-64"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="73-108"
+			type="GO" text="attachment of GPI anchor to protein" ontology_id="GO_0016255"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Humanization of SCID attachment of GPI anchor to protein would thus provide a valuable model system for researchers to study interactions between human tumor and human immune cells.">
+		<entity id="s2.e1" charOffset="21-56"
+			type="GO" text="attachment of GPI anchor to protein" ontology_id="GO_0016255"/>
+		<entity id="s2.e2" charOffset="152-157"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742560">
+	<sentence id="s1" text="Keratitis-ichthyosis-deafness (KID) syndrome is a rare genodermatosis that typically results from mutations of the GJB2 gene or, less commonly, the GJB6 gene.">
+		<entity id="s1.e1" charOffset="21-29"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="31-34"
+			type="GENE" text="KID" ontology_id="3835"/>
+		<entity id="s1.e3" charOffset="115-119"
+			type="GENE" text="GJB2" ontology_id="2706"/>
+		<entity id="s1.e4" charOffset="148-152"
+			type="GENE" text="GJB6" ontology_id="10804"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Given that patients with KID syndrome are at high risk of developing squamous cell carcinoma, biopsies were performed.">
+		<entity id="s2.e1" charOffset="25-28"
+			type="GENE" text="KID" ontology_id="3835"/>
+		<entity id="s2.e2" charOffset="69-92"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

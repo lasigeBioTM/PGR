@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26405179">
+	<sentence id="s1" text="Mutations in human ADAMTSL4, encoding an ADAMTS-like protein which has been implicated in fibrillin microfibril biogenesis, cause ectopia lentis (EL) and EL et pupillae.">
+		<entity id="s1.e1" charOffset="19-27"
+			type="GENE" text="ADAMTSL4" ontology_id="54507"/>
+		<entity id="s1.e2" charOffset="130-144"
+			type="HP" text="ectopia lentis" ontology_id="HP_0001083"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

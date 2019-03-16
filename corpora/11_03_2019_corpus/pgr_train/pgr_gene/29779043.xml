@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29779043">
+	<sentence id="s1" text="Loss of GLIS3 function in humans and mice leads to the development of several pathologies, including neonatal diabetes and congenital hypothyroidism, polycystic kidney disease, and infertility.">
+		<entity id="s1.e1" charOffset="8-13"
+			type="GENE" text="GLIS3" ontology_id="169792"/>
+		<entity id="s1.e2" charOffset="37-41"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="134-148"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Single nucleotide polymorphisms in GLIS3 genes have been associated with increased risk of several diseases, including type 1 and type 2 diabetes, glaucoma, and neurological disorders.">
+		<entity id="s2.e1" charOffset="35-40"
+			type="GENE" text="GLIS3" ontology_id="169792"/>
+		<entity id="s2.e2" charOffset="119-123"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e3" charOffset="147-155"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

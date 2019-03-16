@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29559740">
+	<sentence id="s1" text="After exclusive analysis of 10 common variations of three hearing loss-related genes, gap junction assembly, mtDNA12srRNA and regulation of pH, a novel truncated variant of striated muscle contraction, c.87dupA (p.Gly30Argfs*12) (NCBI ClinVar Submission ID: SUB3136126), was identified by whole-exome sequencing.">
+		<entity id="s1.e1" charOffset="58-70"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="86-107"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e3" charOffset="126-142"
+			type="GO" text="regulation of pH" ontology_id="GO_0006885"/>
+		<entity id="s1.e4" charOffset="173-200"
+			type="GO" text="striated muscle contraction" ontology_id="GO_0006941"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

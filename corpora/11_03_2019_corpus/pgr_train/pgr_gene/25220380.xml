@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25220380">
+	<sentence id="s1" text="Ano1 is a Ca(2+) activated Cl(-) channel that is related to head and neck cancer, often caused by human papilloma virus (HPV) infection.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="Ano1" ontology_id="55107"/>
+		<entity id="s1.e2" charOffset="74-80"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="104-113"
+			type="HP" text="papilloma" ontology_id="HP_0012740"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Because TMC8 is required to lower cytosolic Zn(2+) concentrations by the Zn(2+) transporter ZnT-1, we hypothesize that HPV infections and cancer caused by mutations in TMC8 are related to upregulated Zn(2+)/Ca(2+) signaling and activation of Ano1.">
+		<entity id="s2.e1" charOffset="8-11"
+			type="GENE" text="TMC" ontology_id="3703"/>
+		<entity id="s2.e2" charOffset="138-144"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="242-246"
+			type="GENE" text="Ano1" ontology_id="55107"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

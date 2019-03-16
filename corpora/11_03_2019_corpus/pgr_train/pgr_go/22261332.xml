@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22261332">
+	<sentence id="s1" text="mitotic chromosome condensation functions as a tumor suppressor gene and has been reported in pancreatic tumor cells.">
+		<entity id="s1.e1" charOffset="0-31"
+			type="GO" text="mitotic chromosome condensation" ontology_id="GO_0007076"/>
+		<entity id="s1.e2" charOffset="47-52"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we examined the expression level of mitotic chromosome condensation in human response to hydroperoxide tissues and renal tumor cells by real-time quantitative RT-PCR and western blot.">
+		<entity id="s2.e1" charOffset="42-73"
+			type="GO" text="mitotic chromosome condensation" ontology_id="GO_0007076"/>
+		<entity id="s2.e2" charOffset="58-83"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<entity id="s2.e3" charOffset="102-107"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We found that the expression level of mitotic chromosome condensation is significantly lower in response to hydroperoxide tissues and renal tumor cells compared with adjacent non-tumorous tissues and normal renal cells.">
+		<entity id="s3.e1" charOffset="38-69"
+			type="GO" text="mitotic chromosome condensation" ontology_id="GO_0007076"/>
+		<entity id="s3.e2" charOffset="71-96"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<entity id="s3.e3" charOffset="115-120"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Additionally, inhibition of mitotic chromosome condensation expression by shRNA induced tumor formation in normal renal cells.">
+		<entity id="s4.e1" charOffset="28-59"
+			type="GO" text="mitotic chromosome condensation" ontology_id="GO_0007076"/>
+		<entity id="s4.e2" charOffset="88-93"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="However, inhibition of mitotic chromosome condensation did not significantly affect tumor cell proliferation in vitro and tumor progression in vivo.">
+		<entity id="s5.e1" charOffset="23-54"
+			type="GO" text="mitotic chromosome condensation" ontology_id="GO_0007076"/>
+		<entity id="s5.e2" charOffset="84-89"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Interestingly, overexpression of mitotic chromosome condensation using a eukaryotic plasmid inhibited the proliferation of renal tumor cells in vitro and the growth of renal tumor in vivo.">
+		<entity id="s6.e1" charOffset="33-64"
+			type="GO" text="mitotic chromosome condensation" ontology_id="GO_0007076"/>
+		<entity id="s6.e2" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Thus, our results demonstrate that mitotic chromosome condensation functions as a tumor suppressor gene in renal cells and may be a useful target for treatment of RCC">
+		<entity id="s7.e1" charOffset="35-66"
+			type="GO" text="mitotic chromosome condensation" ontology_id="GO_0007076"/>
+		<entity id="s7.e2" charOffset="82-87"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

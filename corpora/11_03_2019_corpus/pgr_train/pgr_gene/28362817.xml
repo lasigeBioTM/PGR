@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28362817">
+	<sentence id="s1" text="In trans-ethnic meta-analyses of U4C and UK Biobank data, we found significant associations between breast cancer risk and the expression of RCCD1 (joint p-value: 3.6x10-06) and DHODH (p-value: 7.1x10-06) in breast tissue, as well as a suggestive association for ANKLE1 (p-value: 9.3x10-05).">
+		<entity id="s1.e1" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="141-146"
+			type="GENE" text="RCCD1" ontology_id="91433"/>
+		<entity id="s1.e3" charOffset="178-183"
+			type="GENE" text="DHODH" ontology_id="1723"/>
+		<entity id="s1.e4" charOffset="263-269"
+			type="GENE" text="ANKLE1" ontology_id="126549"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="While genome-wide association studies (GWAS) have implicated RCCD1 and ANKLE1 in breast cancer risk, they have not identified the remaining three genes.">
+		<entity id="s2.e1" charOffset="61-66"
+			type="GENE" text="RCCD1" ontology_id="91433"/>
+		<entity id="s2.e2" charOffset="71-77"
+			type="GENE" text="ANKLE1" ontology_id="126549"/>
+		<entity id="s2.e3" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

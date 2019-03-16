@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28669978">
+	<sentence id="s1" text="BACKGROUND Latent transforming growth factor b binding protein 2 (supramolecular fiber organization) is proven to be associated with positive regulation of cell-substrate adhesion and involved in the advancement of several kinds of cancer.">
+		<entity id="s1.e1" charOffset="66-99"
+			type="GO" text="supramolecular fiber organization" ontology_id="GO_0097435"/>
+		<entity id="s1.e2" charOffset="133-179"
+			type="GO" text="positive regulation of cell-substrate adhesion" ontology_id="GO_0010811"/>
+		<entity id="s1.e3" charOffset="189-195"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

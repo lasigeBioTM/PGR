@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29423809">
+	<sentence id="s1" text="While the varied landscapes of mutations driving common cancer cardiac muscle tissue developments such as lung, breast, and colorectal cancer have been comprehensively charted, the genetic underpinnings of many rare cancers remain poorly defined.">
+		<entity id="s1.e1" charOffset="56-62"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="63-96"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we describe the approaches and methods used to identify nucleosome disassembly mutations, which drive development of the rare ovarian cancer, small cell carcinoma of the ovary, hypercalcemic cardiac muscle tissue development (SCCOHT), and point to the broader relevance of this paradigm for future research in rare cancers">
+		<entity id="s2.e1" charOffset="61-83"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s2.e2" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="196-229"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

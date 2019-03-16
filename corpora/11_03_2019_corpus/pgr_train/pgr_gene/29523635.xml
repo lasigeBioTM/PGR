@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29523635">
+	<sentence id="s1" text="Currently the only established high penetrance familial melanoma genes are CDKN2A and CDK4.">
+		<entity id="s1.e1" charOffset="56-64"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="75-81"
+			type="GENE" text="CDKN2A" ontology_id="1029"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recent studies reported germline variants in POT1 in melanoma families.">
+		<entity id="s2.e1" charOffset="45-49"
+			type="GENE" text="POT1" ontology_id="25913"/>
+		<entity id="s2.e2" charOffset="53-61"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="So, in conclusion, melanoma associated POT1 germline variants seem to be rare.">
+		<entity id="s3.e1" charOffset="19-27"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s3.e2" charOffset="39-43"
+			type="GENE" text="POT1" ontology_id="25913"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

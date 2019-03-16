@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27725196">
+	<sentence id="s1" text="We chose to study UNCL-Sema3E rather than wild type sema3E because unlike full length sema3E, the major p61-Sema3E peptide that is produced by cleavage of sema3E with furin like pro-protein convertases activates signal transduction mediated by the ErbB2 receptor and can promote tumor metastasis in addition to its anti-angiogenic activity.">
+		<entity id="s1.e1" charOffset="18-22"
+			type="GENE" text="UNCL" ontology_id="25972"/>
+		<entity id="s1.e2" charOffset="23-29"
+			type="GENE" text="Sema3E" ontology_id="9723"/>
+		<entity id="s1.e3" charOffset="47-51"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e4" charOffset="52-58"
+			type="GENE" text="sema3E" ontology_id="9723"/>
+		<entity id="s1.e5" charOffset="167-172"
+			type="GENE" text="furin" ontology_id="5045"/>
+		<entity id="s1.e6" charOffset="248-253"
+			type="GENE" text="ErbB2" ontology_id="2064"/>
+		<entity id="s1.e7" charOffset="279-284"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+</document>

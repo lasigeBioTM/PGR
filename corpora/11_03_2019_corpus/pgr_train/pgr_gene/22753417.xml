@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22753417">
+	<sentence id="s1" text="Hyperekplexia or startle disease is characterized by an exaggerated startle response, evoked by tactile or auditory stimuli, producing hypertonia and apnea episodes.">
+		<entity id="s1.e1" charOffset="96-103"
+			type="GENE" text="tactile" ontology_id="10225"/>
+		<entity id="s1.e2" charOffset="135-145"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

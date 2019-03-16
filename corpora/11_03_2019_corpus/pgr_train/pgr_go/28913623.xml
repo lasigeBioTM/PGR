@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28913623">
+	<sentence id="s1" text="The known pathogenic molecules involved in ichthyosis syndromes with prominent hair abnormalities include epidermal cell differentiation, transcription-coupled nucleotide-excision repair, transcription-coupled nucleotide-excision repair, nucleotide-excision repair, cell cycle, ST14, cell-cell junction organization and MBTPS2.">
+		<entity id="s1.e1" charOffset="79-97"
+			type="HP" text="hair abnormalities" ontology_id="HP_0001595"/>
+		<entity id="s1.e2" charOffset="106-136"
+			type="GO" text="epidermal cell differentiation" ontology_id="GO_0009913"/>
+		<entity id="s1.e3" charOffset="138-186"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s1.e4" charOffset="188-236"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s1.e5" charOffset="238-264"
+			type="GO" text="nucleotide-excision repair" ontology_id="GO_0006289"/>
+		<entity id="s1.e6" charOffset="266-276"
+			type="GO" text="cell cycle" ontology_id="GO_0007049"/>
+		<entity id="s1.e7" charOffset="284-315"
+			type="GO" text="cell-cell junction organization" ontology_id="GO_0045216"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+</document>

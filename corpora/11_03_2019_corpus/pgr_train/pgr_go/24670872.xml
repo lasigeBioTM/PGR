@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24670872">
+	<sentence id="s1" text="In zebrafish, downregulation of negative regulation of phosphatase activity expression leads to an abnormal eye phenotype and defective light-induced locomotor response.">
+		<entity id="s1.e1" charOffset="32-75"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s1.e2" charOffset="99-111"
+			type="HP" text="abnormal eye" ontology_id="HP_0000478"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, targeted knockout of negative regulation of phosphatase activity in apoptotic process results in retinal degeneration with abnormal positive regulation of transcription by RNA polymerase II response.">
+		<entity id="s2.e1" charOffset="34-77"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s2.e2" charOffset="81-98"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e3" charOffset="97-117"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e4" charOffset="145-202"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

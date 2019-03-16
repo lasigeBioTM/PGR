@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25990537">
+	<sentence id="s1" text="The purpose of this study was to recognize the expanded purine repeats (EPRs) in human genome and find their correlation with cancer pathogenesis.">
+		<entity id="s1.e1" charOffset="72-76"
+			type="GENE" text="EPRs" ontology_id="2058"/>
+		<entity id="s1.e2" charOffset="98-102"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s1.e3" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29844572">
+	<sentence id="s1" text="The RANK/RANKL axis emerges as a key regulator of breast cancer initiation, progression, and metastasis.">
+		<entity id="s1.e1" charOffset="4-8"
+			type="GENE" text="RANK" ontology_id="8792"/>
+		<entity id="s1.e2" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we report that RANK-c transcript is expressed in 3.2% of cases in The Cancer Genome Atlas breast cancer cohort evenly between ER-positive and ER-negative cases.">
+		<entity id="s2.e1" charOffset="20-24"
+			type="GENE" text="RANK" ontology_id="8792"/>
+		<entity id="s2.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Nevertheless, the ratio of RANK to RANK-c (RANK/RANK-c) is increased in ER-negative breast cancer cell lines compared to ER-positive breast cancer cell lines.">
+		<entity id="s3.e1" charOffset="27-31"
+			type="GENE" text="RANK" ontology_id="8792"/>
+		<entity id="s3.e2" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In addition, forced expression of RANK-c in ER-negative breast cancer cell lines inhibited stimuli-induced NF-κB activation and attenuated migration, invasion, colony formation, and adhesion of cancer cells.">
+		<entity id="s4.e1" charOffset="34-38"
+			type="GENE" text="RANK" ontology_id="8792"/>
+		<entity id="s4.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="107-109"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The RANK-c-mediated inhibition of cancer cell aggressiveness and nuclear factor-κB (NF-κB) activation in breast cancer cells seems to rely on a RANK-c/TNF receptor-associated factor-2 (TRAF2) protein interaction.">
+		<entity id="s5.e1" charOffset="4-8"
+			type="GENE" text="RANK" ontology_id="8792"/>
+		<entity id="s5.e2" charOffset="34-40"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="46-60"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<entity id="s5.e4" charOffset="84-86"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s5.e5" charOffset="185-190"
+			type="GENE" text="TRAF2" ontology_id="10010"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e5" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p5" e1="s5.e8"
+		    e2="s5.e5" pgr="false"/>
+		<pair id="s5.p6" e1="s5.e8"
+		    e2="s5.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Additional protein interaction characterization revealed epidermal growth factor receptor (EGFR) as a novel interacting partner for RANK-c in breast cancer cells with a negative effect on EGFR phosphorylation and EGF-dependent downstream signaling pathway activation.">
+		<entity id="s6.e1" charOffset="91-95"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s6.e2" charOffset="132-136"
+			type="GENE" text="RANK" ontology_id="8792"/>
+		<entity id="s6.e3" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e4" charOffset="213-216"
+			type="GENE" text="EGF" ontology_id="1950"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="true"/>
+		<pair id="s6.p3" e1="s6.e3"
+		    e2="s6.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Our findings further elucidate the complex molecular biology of the RANKL/RANK system in breast cancer and provide preliminary data for RANK-c as a possible marker for disease progression and aggressiveness">
+		<entity id="s7.e1" charOffset="68-72"
+			type="GENE" text="RANK" ontology_id="8792"/>
+		<entity id="s7.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

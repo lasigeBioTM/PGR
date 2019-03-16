@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29391521">
+	<sentence id="s1" text="To date, over 150 disease-associated variants in CRB1 have been described, resulting in a range of retinal disease phenotypes including Leber congenital amaurosis and retinitis pigmentosa.">
+		<entity id="s1.e1" charOffset="49-53"
+			type="GENE" text="CRB1" ontology_id="23418"/>
+		<entity id="s1.e2" charOffset="99-114"
+			type="HP" text="retinal disease" ontology_id="HP_0000479"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We performed a retrospective review of electronic patient records to identify patients with macular dystrophy due to bi-allelic variants in CRB1.">
+		<entity id="s2.e1" charOffset="92-109"
+			type="HP" text="macular dystrophy" ontology_id="HP_0007754"/>
+		<entity id="s2.e2" charOffset="140-144"
+			type="GENE" text="CRB1" ontology_id="23418"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

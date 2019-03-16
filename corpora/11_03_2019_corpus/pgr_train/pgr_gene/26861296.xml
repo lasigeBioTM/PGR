@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26861296">
+	<sentence id="s1" text="In addition, splicing variants of CIZ1 mRNA is associated with a variety of cancers and Alzheimer's disease, and mutations of the CIZ1 gene lead to cervical dystonia.">
+		<entity id="s1.e1" charOffset="34-38"
+			type="GENE" text="CIZ1" ontology_id="25792"/>
+		<entity id="s1.e2" charOffset="148-165"
+			type="HP" text="cervical dystonia" ontology_id="HP_0000473"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

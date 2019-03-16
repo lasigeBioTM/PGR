@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21824574">
+	<sentence id="s1" text="The pattern of inheritance is autosomal recessive, and a causative mutation is evident in the CTDP1 gene.">
+		<entity id="s1.e1" charOffset="30-49"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="94-99"
+			type="GENE" text="CTDP1" ontology_id="9150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

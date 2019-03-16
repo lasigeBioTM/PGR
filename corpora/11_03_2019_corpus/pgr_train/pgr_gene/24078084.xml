@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24078084">
+	<sentence id="s1" text="Patients with HCP show AAAA50% of normal activity and those with the rare autosomal recessive harderoporphyria accumulate harderoporphyrinogen, an intermediate porphyrin of the CPOX reaction.">
+		<entity id="s1.e1" charOffset="14-17"
+			type="GENE" text="HCP" ontology_id="259"/>
+		<entity id="s1.e2" charOffset="74-93"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="177-181"
+			type="GENE" text="CPOX" ontology_id="1371"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

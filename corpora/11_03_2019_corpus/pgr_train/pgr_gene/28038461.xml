@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28038461">
+	<sentence id="s1" text="Homeobox A11 (HOXA11) is one of the hypermethylated genes in breast cancer and its function in breast tumorigenesis remains elusive.">
+		<entity id="s1.e1" charOffset="14-20"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s1.e2" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="102-107"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we analyzed the methylation status of HOXA11 in 264 paired breast cancer and normal tissue as well as in matched serum samples by MethyLight assay.">
+		<entity id="s2.e1" charOffset="53-59"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s2.e2" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further, the function of HOXA11 in breast tumorigenesis was analyzed by cell proliferation and migration assays.">
+		<entity id="s3.e1" charOffset="25-31"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s3.e2" charOffset="42-47"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We found that HOXA11 was hypermethylated in cancer tissues (45.08%), especially in invasive ductal carcinomas (PAAAA0.001), patients with a family history of cancer (P=0.033), cases with metastatic lymph nodes (P=0.004) and P53 positive group (P=0.017).">
+		<entity id="s4.e1" charOffset="14-20"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s4.e2" charOffset="44-50"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In conclusion, the hypermethylation of HOXA11 is an independent prognostic biomarker in breast cancer.">
+		<entity id="s5.e1" charOffset="39-45"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s5.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Additionally, HOXA11 can be a potential tumor suppressor">
+		<entity id="s6.e1" charOffset="14-20"
+			type="GENE" text="HOXA11" ontology_id="3207"/>
+		<entity id="s6.e2" charOffset="40-45"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

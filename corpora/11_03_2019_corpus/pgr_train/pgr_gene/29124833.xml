@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29124833">
+	<sentence id="s1" text="Our findings support the recently proposed concept of 3'UTR-encoded AAAAAAcryptic amyloidogenic elements.AAAAA; Together with a previous report on an aggregation-prone REEP1 deletion variant in distal hereditary motor neuropathy, they also suggest that toxic gain of REEP1 function, rather than loss-of-function as relevant for HSP, specifically affects lower motor neurons.">
+		<entity id="s1.e1" charOffset="168-173"
+			type="GENE" text="REEP1" ontology_id="65055"/>
+		<entity id="s1.e2" charOffset="218-228"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

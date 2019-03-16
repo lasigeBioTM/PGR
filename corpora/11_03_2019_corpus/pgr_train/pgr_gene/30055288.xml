@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30055288">
+	<sentence id="s1" text="Aberrant expression of different family members of the Eph/ephrin system, which comprises the Eph receptors (Ephs) and their ligands (ephrins), has been implicated in various malignancies including breast cancer.">
+		<entity id="s1.e1" charOffset="55-58"
+			type="GENE" text="Eph" ontology_id="2041"/>
+		<entity id="s1.e2" charOffset="205-211"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This review reflects the existing Eph/ephrin literature while focusing on breast cancer heterogeneity.">
+		<entity id="s2.e1" charOffset="34-37"
+			type="GENE" text="Eph" ontology_id="2041"/>
+		<entity id="s2.e2" charOffset="48-51"
+			type="GENE" text="era" ontology_id="2099"/>
+		<entity id="s2.e3" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="88-101"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Hormone positive, HER2 positive and triple negative breast cancer (TNBC) cell lines, xenografts/mutant animal models and patient samples are examined separately as, in humans, they represent entities with differences in prognosis and treatment.">
+		<entity id="s3.e1" charOffset="18-22"
+			type="GENE" text="HER2" ontology_id="2064"/>
+		<entity id="s3.e2" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="EphA2, EphB4 and EphB6 are the members most extensively studied in breast cancer.">
+		<entity id="s4.e1" charOffset="0-3"
+			type="GENE" text="Eph" ontology_id="2041"/>
+		<entity id="s4.e2" charOffset="74-80"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Existing research points to the potential use of various Eph/ephrin members as biomarkers for assessing prognosis and selecting the most suitable therapeutic strategies in variable clinical scenarios, also for overcoming drug resistance, in the era of breast cancer heterogeneity">
+		<entity id="s5.e1" charOffset="57-60"
+			type="GENE" text="Eph" ontology_id="2041"/>
+		<entity id="s5.e2" charOffset="148-151"
+			type="GENE" text="era" ontology_id="2099"/>
+		<entity id="s5.e3" charOffset="259-265"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

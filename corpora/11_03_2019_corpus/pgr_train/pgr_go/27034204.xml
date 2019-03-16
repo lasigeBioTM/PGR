@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27034204">
+	<sentence id="s1" text="Fourteen single-nucleotide polymorphisms (SNPs) in three genes were genotyped by the TaqMan method using the real-time PCR system.ResultsThree SNPs G protein-coupled glutamate receptor signaling pathway-rs11746675, GRM6-rs2067011, and GRM6-rs2645339 were associated with high myopia (odds ratio (OR)=0.74, P=0.003; OR=0.78, P=0.018; and OR=0.78, P=0.023; respectively).">
+		<entity id="s1.e1" charOffset="148-202"
+			type="GO" text="G protein-coupled glutamate receptor signaling pathway" ontology_id="GO_0007216"/>
+		<entity id="s1.e2" charOffset="276-282"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The genetic model analysis found that G protein-coupled glutamate receptor signaling pathway-rs11746675 and GRM6-rs2067011 were suggestively associated with high myopia in the recessive model (OR=0.54, P=0.004; OR=0.52, P=0.003; respectively).">
+		<entity id="s2.e1" charOffset="38-92"
+			type="GO" text="G protein-coupled glutamate receptor signaling pathway" ontology_id="GO_0007216"/>
+		<entity id="s2.e2" charOffset="162-168"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Haplotype glycine metabolic process for G protein-coupled glutamate receptor signaling pathway markers rs2067011-rs2645339-rs762724 showed significance (P=0.0239), but such association did not remain significant after multiple testing corrections.ConclusionsOur data suggested that genetic variants in GRM6 are associated with high myopia.">
+		<entity id="s3.e1" charOffset="10-35"
+			type="GO" text="glycine metabolic process" ontology_id="GO_0006544"/>
+		<entity id="s3.e2" charOffset="18-72"
+			type="GO" text="G protein-coupled glutamate receptor signaling pathway" ontology_id="GO_0007216"/>
+		<entity id="s3.e3" charOffset="310-316"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The mechanism of G protein-coupled glutamate receptor signaling pathway in the development of high myopia need to be further investigated.">
+		<entity id="s4.e1" charOffset="17-71"
+			type="GO" text="G protein-coupled glutamate receptor signaling pathway" ontology_id="GO_0007216"/>
+		<entity id="s4.e2" charOffset="99-105"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

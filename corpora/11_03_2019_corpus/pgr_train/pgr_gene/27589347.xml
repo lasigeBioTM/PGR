@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27589347">
+	<sentence id="s1" text="Similarly, homozygous loss-of-function mutations in CYP26B1, one of the major RA-metabolizing enzymes, cause advanced bone age, premature epiphyseal fusion, and craniosynostosis.">
+		<entity id="s1.e1" charOffset="52-59"
+			type="GENE" text="CYP26B1" ontology_id="56603"/>
+		<entity id="s1.e2" charOffset="161-177"
+			type="HP" text="craniosynostosis" ontology_id="HP_0001363"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

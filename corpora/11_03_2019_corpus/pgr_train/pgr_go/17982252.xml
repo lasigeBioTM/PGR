@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17982252">
+	<sentence id="s1" text="The dopamine hypothesis of schizophrenia is based on the transcription elongation from RNA polymerase II promoter that all common treatments involve antidopaminergic mechanisms and genes such as adenylate cyclase-inhibiting dopamine receptor signaling pathway, G protein-coupled receptor internalization, negative regulation of phosphoprotein phosphatase activity, synapse assembly or catecholamine catabolic process are closely related to dopaminergic system functioning.">
+		<entity id="s1.e1" charOffset="27-40"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="57-113"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s1.e3" charOffset="195-259"
+			type="GO" text="adenylate cyclase-inhibiting dopamine receptor signaling pathway" ontology_id="GO_0007195"/>
+		<entity id="s1.e4" charOffset="261-303"
+			type="GO" text="G protein-coupled receptor internalization" ontology_id="GO_0002031"/>
+		<entity id="s1.e5" charOffset="305-363"
+			type="GO" text="negative regulation of phosphoprotein phosphatase activity" ontology_id="GO_0032515"/>
+		<entity id="s1.e6" charOffset="365-381"
+			type="GO" text="synapse assembly" ontology_id="GO_0007416"/>
+		<entity id="s1.e7" charOffset="385-416"
+			type="GO" text="catecholamine catabolic process" ontology_id="GO_0042424"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The glutamatergic hypothesis of schizophrenia lead recently to a first successful mGlu2/3 receptor agonistic drug and is underpinned by significant findings in genes regulating the glutamatergic system (neurotransmitter uptake, L-glutamate transmembrane transport neuron projection development, response to ethanol, ER to Golgi vesicle-mediated transport, ventricular trabecula myocardium morphogenesis, signal transduction, neuron projection development, DAAO, G72/30, G protein-coupled glutamate receptor signaling pathway).">
+		<entity id="s2.e1" charOffset="32-45"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="203-226"
+			type="GO" text="neurotransmitter uptake" ontology_id="GO_0001504"/>
+		<entity id="s2.e3" charOffset="228-263"
+			type="GO" text="L-glutamate transmembrane transport" ontology_id="GO_0015813"/>
+		<entity id="s2.e4" charOffset="264-293"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<entity id="s2.e5" charOffset="295-314"
+			type="GO" text="response to ethanol" ontology_id="GO_0045471"/>
+		<entity id="s2.e6" charOffset="316-354"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s2.e7" charOffset="356-402"
+			type="GO" text="ventricular trabecula myocardium morphogenesis" ontology_id="GO_0003222"/>
+		<entity id="s2.e8" charOffset="404-423"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s2.e9" charOffset="425-454"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<entity id="s2.e10" charOffset="470-524"
+			type="GO" text="G protein-coupled glutamate receptor signaling pathway" ontology_id="GO_0007216"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+</document>

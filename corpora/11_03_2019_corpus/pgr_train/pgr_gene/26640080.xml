@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26640080">
+	<sentence id="s1" text="Using whole-exome sequencing, we identified a homozygous acceptor splice-site mutation in intron 6 of the KATNB1 gene in a patient from a consanguineous Turkish family who presented with congenital microcephaly, lissencephaly, short stature, polysyndactyly, and dental abnormalities.">
+		<entity id="s1.e1" charOffset="106-112"
+			type="GENE" text="KATNB1" ontology_id="10300"/>
+		<entity id="s1.e2" charOffset="198-210"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="212-225"
+			type="HP" text="lissencephaly" ontology_id="HP_0001339"/>
+		<entity id="s1.e4" charOffset="227-240"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e5" charOffset="262-282"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Homozygous and compound heterozygous mutations in KATNB1 have very recently been described as a cause of microcephaly with brain malformations and seizures.">
+		<entity id="s2.e1" charOffset="50-56"
+			type="GENE" text="KATNB1" ontology_id="10300"/>
+		<entity id="s2.e2" charOffset="105-117"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e3" charOffset="147-155"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We extend the KATNB1 associated phenotype by describing a syndrome characterized by primordial dwarfism, lissencephaly, polysyndactyly, and dental anomalies, which is caused by a homozygous truncating KATNB1 mutation">
+		<entity id="s3.e1" charOffset="14-20"
+			type="GENE" text="KATNB1" ontology_id="10300"/>
+		<entity id="s3.e2" charOffset="95-103"
+			type="HP" text="dwarfism" ontology_id="HP_0003510"/>
+		<entity id="s3.e3" charOffset="105-118"
+			type="HP" text="lissencephaly" ontology_id="HP_0001339"/>
+		<entity id="s3.e4" charOffset="140-156"
+			type="HP" text="dental anomalies" ontology_id="HP_0000164"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

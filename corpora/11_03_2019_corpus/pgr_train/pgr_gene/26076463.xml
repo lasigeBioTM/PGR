@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26076463">
+	<sentence id="s1" text="In humans and mice ALX4 mutations or loss of function result in a number of skeletal and organ malformations, including polydactyly, tibial hemimelia, omphalocele, biparietal foramina, impaired mammary epithelial morphogenesis, alopecia, coronal craniosynostosis, hypertelorism, depressed nasal bridge and ridge, bifid nasal tip, hypogonadism, and body agenesis.">
+		<entity id="s1.e1" charOffset="14-18"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="19-23"
+			type="GENE" text="ALX4" ontology_id="60529"/>
+		<entity id="s1.e3" charOffset="120-131"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e4" charOffset="228-236"
+			type="HP" text="alopecia" ontology_id="HP_0001596"/>
+		<entity id="s1.e5" charOffset="246-262"
+			type="HP" text="craniosynostosis" ontology_id="HP_0001363"/>
+		<entity id="s1.e6" charOffset="264-277"
+			type="HP" text="hypertelorism" ontology_id="HP_0000316"/>
+		<entity id="s1.e7" charOffset="330-342"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e18" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30428605">
+	<sentence id="s1" text="We therefore examined whether maternal or fetal folate status, together with indices of placental folate transport, were modulated by either maternal pre-pregnancy body mass index (BMI i.e., overweight: 25 ≤ BMI AAAA 30 or obesity: BMI ≥ 30 kg/m²) and/or gestational diabetes mellitus (GD).">
+		<entity id="s1.e1" charOffset="169-173"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s1.e2" charOffset="223-230"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Placental mRNA abundance for the folate receptor alpha (li>FOLR1</i>) was reduced with obesity, whilst li>DNMT1</i> was increased with raised BMI, responses that were unaffected by GD.">
+		<entity id="s2.e1" charOffset="87-94"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="106-110"
+			type="GENE" text="DNMT" ontology_id="1786"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

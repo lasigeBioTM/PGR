@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30361777">
+	<sentence id="s1" text="Malfunctioning of nucleoporins is well known in human malignancies, such as gene fusions of mRNA export from nucleus and DNA replication in hematological neoplasms and overexpression of ribosomal large subunit export from nucleus in a variety of human cancers.">
+		<entity id="s1.e1" charOffset="92-116"
+			type="GO" text="mRNA export from nucleus" ontology_id="GO_0006406"/>
+		<entity id="s1.e2" charOffset="121-136"
+			type="GO" text="DNA replication" ontology_id="GO_0006260"/>
+		<entity id="s1.e3" charOffset="144-153"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="186-229"
+			type="GO" text="ribosomal large subunit export from nucleus" ontology_id="GO_0000055"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

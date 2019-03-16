@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30094507">
+	<sentence id="s1" text="Somewhat arbitrarily, three disorders were successively put forward as the underlying cause of HIES: autosomal dominant (AD) STAT3 deficiency, the only disorder corresponding to the original definition of HIES, and autosomal recessive (AR) DOCK8 and PGM3 deficiencies, in which atopy and high serum IgE levels occur in a context of manifestations not seen in patients with typical HIES.">
+		<entity id="s1.e1" charOffset="125-130"
+			type="GENE" text="STAT3" ontology_id="6774"/>
+		<entity id="s1.e2" charOffset="215-234"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="240-245"
+			type="GENE" text="DOCK8" ontology_id="81704"/>
+		<entity id="s1.e4" charOffset="250-254"
+			type="GENE" text="PGM3" ontology_id="5238"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

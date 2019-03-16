@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29730826">
+	<sentence id="s1" text="A frequently reported finding is that effects from common genetic variation are associated with a schizophrenia-related structural endophenotype.">
+		<entity id="s1.e1" charOffset="22-26"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s1.e2" charOffset="98-111"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30472720">
+	<sentence id="s1" text="However, the underlying mechanisms involved in hepatocellular carcinoma (phosphatidylinositol phosphorylation) progression remain poorly understood.">
+		<entity id="s1.e1" charOffset="47-71"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="73-109"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29909407">
+	<sentence id="s1" text="Weight gain and growth failure, the hallmarks of hypercortisolism in pediatrics, may be inconsistent, especially in ACTH-independent forms of CS.">
+		<entity id="s1.e1" charOffset="49-65"
+			type="HP" text="hypercortisolism" ontology_id="HP_0003118"/>
+		<entity id="s1.e2" charOffset="116-120"
+			type="GENE" text="ACTH" ontology_id="5443"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Primary pigmented nodular adrenocortical disease (PPNAD) is the rarest form of ACTH-independent CS, and can be associated with endocrine and nonendocrine tumors, forming the Carney complex (CNC).">
+		<entity id="s2.e1" charOffset="79-83"
+			type="GENE" text="ACTH" ontology_id="5443"/>
+		<entity id="s2.e2" charOffset="154-160"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

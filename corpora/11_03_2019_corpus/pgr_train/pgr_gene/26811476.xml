@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26811476">
+	<sentence id="s1" text="Via its bipartite zona pellucida module (ZP-N/ZP-C), UMOD forms extracellular filaments that regulate kidney electrolyte balance and innate immunity, as well as protect against renal stones.">
+		<entity id="s1.e1" charOffset="53-57"
+			type="GENE" text="UMOD" ontology_id="7369"/>
+		<entity id="s1.e2" charOffset="177-189"
+			type="HP" text="renal stones" ontology_id="HP_0000787"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This arrangement is required for filament formation and is directed by an ordered ZP-N/ZP-C linker that is not observed in ZP2 but is conserved in the sequence of deafness/Crohn's disease-associated homopolymeric glycoproteins α-tectorin (TECTA) and glycoprotein 2 (GP2).">
+		<entity id="s2.e1" charOffset="163-171"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="239-244"
+			type="GENE" text="TECTA" ontology_id="7007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

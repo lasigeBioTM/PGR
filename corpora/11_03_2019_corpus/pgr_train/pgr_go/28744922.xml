@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28744922">
+	<sentence id="s1" text="Forty unique adaptive immune responseGR1 mutations have been reported and they exert either an autosomal dominant or an autosomal recessive effect.">
+		<entity id="s1.e1" charOffset="13-37"
+			type="GO" text="adaptive immune response" ontology_id="GO_0002250"/>
+		<entity id="s1.e2" charOffset="120-139"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

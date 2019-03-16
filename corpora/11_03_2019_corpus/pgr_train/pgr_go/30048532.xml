@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30048532">
+	<sentence id="s1" text="The main objective of this study is to provide a brief version of the Spanish translation of the detection of chemical stimulus involved in sensory perception of bitter taste, across a sample consisting of 465 main familial caregivers (85.2% female, n = 396) between 27 and 67 years old ([Formula: see text] = 44.13; SD = 5.35) of paediatric patients between 9 and 18 years old ([Formula: see text] = 12.10, SD = 2.20; 56.8% negative regulation of phosphatase activity, n = 264) diagnosed with diabetes mellitus cardiac muscle tissue development I (20.9% of the sample; n = 97), short stature (32.5% of the sample; n = 151), or a chronic respiratory disease (asthma, cystic fibrosis, bronchiolitis obliterans and bronchiectasis) (46.6% of the sample; n = 217).">
+		<entity id="s1.e1" charOffset="97-174"
+			type="GO" text="detection of chemical stimulus involved in sensory perception of bitter taste" ontology_id="GO_0001580"/>
+		<entity id="s1.e2" charOffset="425-468"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s1.e3" charOffset="510-523"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e4" charOffset="512-545"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

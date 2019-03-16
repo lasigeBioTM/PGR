@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29915213">
+	<sentence id="s1" text="Our study provides further evidence for validating the role of prolyl-tRNA aminoacylation in the pathology of related infantile-onset encephalopathy, contributing to the phenotypic features of this condition, and providing clinical and molecular insight for the diagnosis of this disease entity">
+		<entity id="s1.e1" charOffset="63-89"
+			type="GO" text="prolyl-tRNA aminoacylation" ontology_id="GO_0006433"/>
+		<entity id="s1.e2" charOffset="134-148"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

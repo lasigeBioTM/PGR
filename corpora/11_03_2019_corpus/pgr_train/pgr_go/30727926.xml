@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30727926">
+	<sentence id="s1" text="Furthermore, cardiovascular risk factors such hyperthyroidism, hypertension and redox homeostasis have been identified to modulate regulation of transcription, DNA-templated driven gene regulatory networks.">
+		<entity id="s1.e1" charOffset="46-61"
+			type="HP" text="hyperthyroidism" ontology_id="HP_0000836"/>
+		<entity id="s1.e2" charOffset="63-75"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e3" charOffset="131-173"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We provide herein a state-of-the-neuropeptide signaling pathway review of the genetic bases of atrial fibrillation, our current understanding of the genetic regulatory networks involved in AF and its plausible usage for searching novel therapeutic targets">
+		<entity id="s2.e1" charOffset="33-63"
+			type="GO" text="neuropeptide signaling pathway" ontology_id="GO_0007218"/>
+		<entity id="s2.e2" charOffset="95-114"
+			type="HP" text="atrial fibrillation" ontology_id="HP_0005110"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29319775">
+	<sentence id="s1" text="Primary hyperoxaluria (PH) is a very rare genetic disorder; it is characterized by total or partial deficiency of the enzymes related to the metabolism of glyoxylate, with an overproduction of calcium oxalate that is deposited in different organs, mainly the kidney, leading to recurrent lithiasis, nephrocalcinosis and positive regulation of protein phosphorylation stage renal disease (ESRD).">
+		<entity id="s1.e1" charOffset="8-21"
+			type="HP" text="hyperoxaluria" ontology_id="HP_0003159"/>
+		<entity id="s1.e2" charOffset="299-315"
+			type="HP" text="nephrocalcinosis" ontology_id="HP_0000121"/>
+		<entity id="s1.e3" charOffset="320-366"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We present two cases of patients with a history of renal lithiasis who were diagnosed with primary hyperoxaluria in the post-transplant period, manifested by early graft failure, with evidence of calcium oxalate crystals in renal biopsy, hyperoxaluria, hyperoxalemia, and genetic test compatible; they were managed with proper diet, abundant oral liquids, pyridoxine, hydrochlorothiazide and potassium citrate; however, they had slow but progressive deterioration of their grafts function until they reached positive regulation of protein phosphorylation-stage chronic renal disease">
+		<entity id="s2.e1" charOffset="99-112"
+			type="HP" text="hyperoxaluria" ontology_id="HP_0003159"/>
+		<entity id="s2.e2" charOffset="508-554"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

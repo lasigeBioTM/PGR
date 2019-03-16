@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28765946">
+	<sentence id="s1" text="Plant homeo domain finger protein 8 (PHF8), as an oncogene, has been highlighted in cancer development and progression.">
+		<entity id="s1.e1" charOffset="37-41"
+			type="GENE" text="PHF8" ontology_id="23133"/>
+		<entity id="s1.e2" charOffset="84-90"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results demonstrated that the expression of PHF8 was significantly increased in tumor tissues from patients with CRC and was correlated with tumor‑node‑metastasis stage.">
+		<entity id="s2.e1" charOffset="48-52"
+			type="GENE" text="PHF8" ontology_id="23133"/>
+		<entity id="s2.e2" charOffset="84-89"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In vitro and in vivo experiments revealed that PHF8 accelerated cancer cell growth and migration, confirming the oncogenic role of PHF8 in human CRC.">
+		<entity id="s3.e1" charOffset="47-51"
+			type="GENE" text="PHF8" ontology_id="23133"/>
+		<entity id="s3.e2" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

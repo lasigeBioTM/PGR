@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24413982">
+	<sentence id="s1" text="Spinocerebellar ataxia type 17 (SCA17) is caused by CAG repeat expansion in the TATA-box binding protein gene.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="23-27"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="32-37"
+			type="GENE" text="SCA17" ontology_id="6908"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

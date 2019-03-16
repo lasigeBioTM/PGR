@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27908734">
+	<sentence id="s1" text="However, the biological function and mechanism of TPI1 in cancer remain largely unknown.">
+		<entity id="s1.e1" charOffset="50-54"
+			type="GENE" text="TPI1" ontology_id="7167"/>
+		<entity id="s1.e2" charOffset="58-64"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we have found that TPI1 expression was greatly decreased in clinical HCC samples, positively correlated with overall survival, and negatively associated with histological differentiation, tumor size and organ metastasis.">
+		<entity id="s2.e1" charOffset="34-38"
+			type="GENE" text="TPI1" ontology_id="7167"/>
+		<entity id="s2.e2" charOffset="84-87"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s2.e3" charOffset="203-208"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, overexpression of TPI1 led to slowed tumor growth and decreased tumor weight in vivo.">
+		<entity id="s3.e1" charOffset="28-32"
+			type="GENE" text="TPI1" ontology_id="7167"/>
+		<entity id="s3.e2" charOffset="47-52"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Therefore, our data suggested that TPI1 functioned as a tumor suppressor in HCC and might serve as a potential therapeutic target for the treatment of HCC">
+		<entity id="s4.e1" charOffset="35-39"
+			type="GENE" text="TPI1" ontology_id="7167"/>
+		<entity id="s4.e2" charOffset="56-61"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="76-79"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

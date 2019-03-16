@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26626801">
+	<sentence id="s1" text="The 21 genes comprised 8 tumor suppressor candidates (protein phosphorylation, DNA repair, phosphatidylinositol 3-kinase signaling, positive regulation of cholesterol efflux, negative regulation of protein phosphorylation, 5-methylcytosine catabolic process, TP53, and regulation of translation) and 13 oncogene candidates (phosphorylation, regulation of transforming growth factor beta receptor signaling pathway, protein polyubiquitination, signal transduction, positive regulation of cell proliferation, hemopoiesis, natural killer cell differentiation, activation of MAPK activity, regulation of cell growth, positive regulation of cell proliferation, chromosome segregation, peptidyl-tyrosine dephosphorylation, and SF3B1).">
+		<entity id="s1.e1" charOffset="25-30"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="54-77"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="79-89"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e4" charOffset="91-130"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0014091"/>
+		<entity id="s1.e5" charOffset="132-173"
+			type="GO" text="positive regulation of cholesterol efflux" ontology_id="GO_0010875"/>
+		<entity id="s1.e6" charOffset="175-221"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s1.e7" charOffset="223-257"
+			type="GO" text="5-methylcytosine catabolic process" ontology_id="GO_0006211"/>
+		<entity id="s1.e8" charOffset="269-294"
+			type="GO" text="regulation of translation" ontology_id="GO_0006417"/>
+		<entity id="s1.e9" charOffset="324-339"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e10" charOffset="341-413"
+			type="GO" text="regulation of transforming growth factor beta receptor signaling pathway" ontology_id="GO_0017015"/>
+		<entity id="s1.e11" charOffset="415-441"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e12" charOffset="443-462"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e13" charOffset="464-505"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e14" charOffset="507-518"
+			type="GO" text="hemopoiesis" ontology_id="GO_0030097"/>
+		<entity id="s1.e15" charOffset="520-555"
+			type="GO" text="natural killer cell differentiation" ontology_id="GO_0001779"/>
+		<entity id="s1.e16" charOffset="557-584"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s1.e17" charOffset="586-611"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e18" charOffset="613-654"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e19" charOffset="656-678"
+			type="GO" text="chromosome segregation" ontology_id="GO_0007059"/>
+		<entity id="s1.e20" charOffset="680-715"
+			type="GO" text="peptidyl-tyrosine dephosphorylation" ontology_id="GO_0035335"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e1"
+		    e2="s1.e13" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e1"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e1"
+		    e2="s1.e15" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e1"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e1"
+		    e2="s1.e17" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e1"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e1"
+		    e2="s1.e19" pgr="false"/>
+		<pair id="s1.p19" e1="s1.e1"
+		    e2="s1.e20" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We identified a high frequency of mutations in negative regulation of protein phosphorylation (50%) and genes involved in the endometrial cancer-related molecular pathway, which involves the IL-7 signaling pathway (phosphatidylinositol 3-kinase signaling, n=1; positive regulation of cell migration, n=1; cellular response to starvation, n=1).">
+		<entity id="s2.e1" charOffset="47-93"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s2.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="173-212"
+			type="GO" text="phosphatidylinositol 3-kinase signaling" ontology_id="GO_0014065"/>
+		<entity id="s2.e4" charOffset="261-298"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s2.e5" charOffset="305-336"
+			type="GO" text="cellular response to starvation" ontology_id="GO_0009267"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We believe that this study will shed new T cell costimulation on fundamental aspects for understanding the molecular pathogenesis of endometrial cancer and may somatic diversification of immunoglobulins in the development of new targeted therapies.">
+		<entity id="s3.e1" charOffset="41-61"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<entity id="s3.e2" charOffset="145-151"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="160-202"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

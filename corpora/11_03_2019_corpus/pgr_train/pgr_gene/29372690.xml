@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29372690">
+	<sentence id="s1" text="This study aims to determine the association between FGF10 (rs4415084 CAAAAT), FGFR2 (rs2981582 CAAAAT) and MAP3K1 (rs889312 AAAAAC) gene polymorphisms and breast cancer, to analyse the discriminative ability of each SNP and to test the accuracy of the predictive breast cancer risk model which includes all SNPs.">
+		<entity id="s1.e1" charOffset="53-58"
+			type="GENE" text="FGF10" ontology_id="2255"/>
+		<entity id="s1.e2" charOffset="79-84"
+			type="GENE" text="FGFR2" ontology_id="2263"/>
+		<entity id="s1.e3" charOffset="108-114"
+			type="GENE" text="MAP3K1" ontology_id="4214"/>
+		<entity id="s1.e4" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We have revealed significant association of FGFR2 and MAP3K1 polymorphisms with breast cancer.">
+		<entity id="s2.e1" charOffset="44-49"
+			type="GENE" text="FGFR2" ontology_id="2263"/>
+		<entity id="s2.e2" charOffset="54-60"
+			type="GENE" text="MAP3K1" ontology_id="4214"/>
+		<entity id="s2.e3" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The Random Forest algorithm selected FGFR2, MAP3K1 and age as important breast cancer predictors.">
+		<entity id="s3.e1" charOffset="37-42"
+			type="GENE" text="FGFR2" ontology_id="2263"/>
+		<entity id="s3.e2" charOffset="44-50"
+			type="GENE" text="MAP3K1" ontology_id="4214"/>
+		<entity id="s3.e3" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28713988">
+	<sentence id="s1" text="The present study demonstrated that coronin 3 is significantly upregulated in clinical primary hepatocellular carcinoma (phosphatidylinositol phosphorylation) samples by reverse transcription‑quantitative polymerase chain reaction (RT‑qPCR) and immunohistochemical staining.">
+		<entity id="s1.e1" charOffset="95-119"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="121-157"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In conclusion, these results indicated that coronin3 is significantly dysregulated in phosphatidylinositol phosphorylation tumor tissues, and may exert its function via regulating G6PC3 expression.">
+		<entity id="s2.e1" charOffset="86-122"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s2.e2" charOffset="123-128"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

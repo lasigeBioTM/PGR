@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28973549">
+	<sentence id="s1" text="JBTS is genetically heterogeneous, however mutations in positive regulation of transcription, DNA-templated are a common underlying cause.">
+		<entity id="s1.e1" charOffset="20-33"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="56-107"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

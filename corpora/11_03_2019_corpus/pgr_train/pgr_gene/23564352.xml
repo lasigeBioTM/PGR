@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23564352">
+	<sentence id="s1" text="We originally discovered TERE1 as a potential tumor suppressor protein based upon reduced expression in bladder and prostate cancer specimens and growth inhibition of tumor cell lines/xenografts upon ectopic expression.">
+		<entity id="s1.e1" charOffset="25-30"
+			type="GENE" text="TERE1" ontology_id="29914"/>
+		<entity id="s1.e2" charOffset="46-51"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Vitamin K-2 is involved in mitochondrial electron transport, SXR nuclear hormone receptor signaling and redox cycling: together these functions may form the basis for tumor suppressor function.">
+		<entity id="s2.e1" charOffset="61-64"
+			type="GENE" text="SXR" ontology_id="8856"/>
+		<entity id="s2.e2" charOffset="167-172"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A TERE1-TBL2 complex likely functions in oxidative/nitrosative stress, lipid metabolism, and SXR signaling pathways in its role as a tumor suppressor">
+		<entity id="s3.e1" charOffset="2-7"
+			type="GENE" text="TERE1" ontology_id="29914"/>
+		<entity id="s3.e2" charOffset="8-12"
+			type="GENE" text="TBL2" ontology_id="26608"/>
+		<entity id="s3.e3" charOffset="93-96"
+			type="GENE" text="SXR" ontology_id="8856"/>
+		<entity id="s3.e4" charOffset="133-138"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

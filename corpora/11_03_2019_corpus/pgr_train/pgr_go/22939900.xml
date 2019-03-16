@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22939900">
+	<sentence id="s1" text="One clue to this relationship has come from the elucidation of the hereditary kidney cancer gene, negative regulation of cell proliferation, which functions partly to degrade key regulators of endogenous cholesterol and lipid biosynthesis.">
+		<entity id="s1.e1" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="98-139"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

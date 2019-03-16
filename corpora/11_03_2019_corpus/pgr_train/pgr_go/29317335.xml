@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29317335">
+	<sentence id="s1" text="Four established melanoma susceptibility genes achieved nominal statistical significance, MC1R (p = .0014), positive regulation of gene expression (p = .0165) mitotic cytokinesis (p = .0206), and nicotinamide riboside catabolic process (p = .0393).">
+		<entity id="s1.e1" charOffset="17-25"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="108-146"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e3" charOffset="159-178"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s1.e4" charOffset="196-235"
+			type="GO" text="nicotinamide riboside catabolic process" ontology_id="GO_0006738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also observed a suggestive association for DNA repair (p = .002), a gene previously implicated in melanoma survival.">
+		<entity id="s2.e1" charOffset="46-56"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s2.e2" charOffset="101-109"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Although MC1R carriers were represented proportionally among the four molecular tumor subcardiac muscle tissue developments, these individuals accounted for 69% of ultraviolet (UV) radiation mutational signatures among triple-wild type tumors (p = .040), highlighting the increased sensitivity to UV exposure among individuals with loss-of-function variants in MC1R">
+		<entity id="s3.e1" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="89-122"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30531691">
+	<sentence id="s1" text="BACKGROUND miRNA catabolic process is a gene involved in many biological processes, including development, glucose metabolism, and tumorigenesis.">
+		<entity id="s1.e1" charOffset="11-34"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s1.e2" charOffset="131-136"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The role of negative regulation of transcription by RNA polymerase II (a target gene of let-7) and the miRNA catabolic process-let-7-c-Myc pathway in the growth and malignancy of thyroid cancer is unclear.">
+		<entity id="s2.e1" charOffset="12-69"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="51-74"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s2.e3" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The purpose of the present study was to evaluate the expression of miRNA catabolic processA, let-7a, and negative regulation of transcription by RNA polymerase II in human papillary thyroid carcinoma (biological_process) and to investigate their potential mechanisms in the progression of PTC.">
+		<entity id="s3.e1" charOffset="67-90"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s3.e2" charOffset="105-162"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e3" charOffset="120-147"
+			type="HP" text="papillary thyroid carcinoma" ontology_id="HP_0002895"/>
+		<entity id="s3.e4" charOffset="201-219"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Clinically, miRNA catabolic processA was linked to a higher tumor/node/metastasis stage and the presence of lymph node metastases.">
+		<entity id="s4.e1" charOffset="12-35"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s4.e2" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="CONCLUSIONS The miRNA catabolic processA/let-7a/negative regulation of transcription by RNA polymerase II pathway is involved in cancer growth and malignant behavior in biological_process and is a potential target for therapeutic intervention in this disease">
+		<entity id="s5.e1" charOffset="16-39"
+			type="GO" text="miRNA catabolic process" ontology_id="GO_0010587"/>
+		<entity id="s5.e2" charOffset="48-105"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s5.e3" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e4" charOffset="169-187"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e3"
+		    e2="s5.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28738459">
+	<sentence id="s1" text="<b>Methods:</b> A total of 3 502 school-aged children who were included in Beijing Child and Adolescent Metabolic Syndrome (BCAMS) Study were selected, and based on the age and negative regulation of cell adhesion specific waist circumference (WC) standards in the BCAMS study, 1 196 central obese cases and 2 306 controls were identified.">
+		<entity id="s1.e1" charOffset="177-213"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e2" charOffset="284-291"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

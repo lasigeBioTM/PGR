@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27746184">
+	<sentence id="s1" text="Therefore, we evaluated the roles of CSNK2A1, SIRT6, and phosphorylated SIRT6 and their relationships in breast carcinoma.">
+		<entity id="s1.e1" charOffset="37-44"
+			type="GENE" text="CSNK2A1" ontology_id="1459"/>
+		<entity id="s1.e2" charOffset="46-51"
+			type="GENE" text="SIRT6" ontology_id="51548"/>
+		<entity id="s1.e3" charOffset="105-121"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Inhibition of CSNK2A1 decreased the proliferative and invasive activity of cancer cells.">
+		<entity id="s2.e1" charOffset="14-21"
+			type="GENE" text="CSNK2A1" ontology_id="1459"/>
+		<entity id="s2.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Knockdown of SIRT6 decreased the proliferation and invasiveness of cancer cells.">
+		<entity id="s3.e1" charOffset="13-18"
+			type="GENE" text="SIRT6" ontology_id="51548"/>
+		<entity id="s3.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This study demonstrates that CSNK2A1 and SIRT6 are indicators of poor prognosis for breast carcinomas and that CSNK2A1-mediated phosphorylation of SIRT6 might be involved in the progression of breast carcinoma">
+		<entity id="s4.e1" charOffset="29-36"
+			type="GENE" text="CSNK2A1" ontology_id="1459"/>
+		<entity id="s4.e2" charOffset="41-46"
+			type="GENE" text="SIRT6" ontology_id="51548"/>
+		<entity id="s4.e3" charOffset="84-100"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

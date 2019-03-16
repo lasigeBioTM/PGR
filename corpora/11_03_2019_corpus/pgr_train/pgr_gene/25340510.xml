@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25340510">
+	<sentence id="s1" text="We recently reported that centrosomal protein 164 (CEP164) regulates both cilia and the DNA damage response in the autosomal recessive polycystic kidney disease nephronophthisis.">
+		<entity id="s1.e1" charOffset="51-57"
+			type="GENE" text="CEP164" ontology_id="22897"/>
+		<entity id="s1.e2" charOffset="92-98"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e3" charOffset="115-134"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30728889">
+	<sentence id="s1" text="To date, researchers have discovered that positive regulation of transcription by RNA polymerase II deletion results in high susceptibility and severity of insults in various models of respiratory diseases, including bronchopulmonary dysplasia (BPD), respiratory infections, acute respiratory distress syndrome (ARDS), chronic obstructive pulmonary disease (ER to Golgi vesicle-mediated transport), asthma, idiopathic pulmonary fibrosis (IPF), and lung cancer.">
+		<entity id="s1.e1" charOffset="42-99"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="358-396"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e3" charOffset="419-425"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

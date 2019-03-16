@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27767079">
+	<sentence id="s1" text="Moreover, we show that over-expression of PNPLA8 dramatically decreases hepatic steatosis through increased autophagy in hepatocytes of HFD-fed mice.">
+		<entity id="s1.e1" charOffset="42-48"
+			type="GENE" text="PNPLA8" ontology_id="50640"/>
+		<entity id="s1.e2" charOffset="80-89"
+			type="HP" text="steatosis" ontology_id="HP_0001397"/>
+		<entity id="s1.e3" charOffset="144-148"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

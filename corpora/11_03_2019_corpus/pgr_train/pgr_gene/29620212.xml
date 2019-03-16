@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620212">
+	<sentence id="s1" text="The incidence of thyroid cancer has increased the past few decades, the most frequent type has been identified to be the papillary thyroid carcinoma (PTC).">
+		<entity id="s1.e1" charOffset="25-31"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="86-90"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="121-148"
+			type="HP" text="papillary thyroid carcinoma" ontology_id="HP_0002895"/>
+		<entity id="s1.e4" charOffset="150-153"
+			type="GENE" text="PTC" ontology_id="8030"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Overexpression of LARP7 inhibited the proliferation and increased the radioiodine uptake ability of PTC cells in vitro and inhibited the tumor growth in vivo.">
+		<entity id="s2.e1" charOffset="18-22"
+			type="GENE" text="LARP" ontology_id="23367"/>
+		<entity id="s2.e2" charOffset="100-103"
+			type="GENE" text="PTC" ontology_id="8030"/>
+		<entity id="s2.e3" charOffset="137-142"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, LARP7 may act as a tumor suppressor in PTC by inhibiting the SHH signaling pathway and may be a promising therapeutic target in patients with PTC">
+		<entity id="s3.e1" charOffset="15-19"
+			type="GENE" text="LARP" ontology_id="23367"/>
+		<entity id="s3.e2" charOffset="25-28"
+			type="GENE" text="act" ontology_id="11332"/>
+		<entity id="s3.e3" charOffset="34-39"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="54-57"
+			type="GENE" text="PTC" ontology_id="8030"/>
+		<entity id="s3.e5" charOffset="76-79"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

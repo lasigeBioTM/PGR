@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23932106">
+	<sentence id="s1" text="Using whole-exome sequencing, we identified biallelic mutations in seizure threshold 2 (corpus callosum morphogenesis) in both affected children.">
+		<entity id="s1.e1" charOffset="67-74"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="88-117"
+			type="GO" text="corpus callosum morphogenesis" ontology_id="GO_0021540"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although the molecular role of the peroxisomal protein corpus callosum morphogenesis in neuronal excitability and brain development remains to be defined, corpus callosum morphogenesis has been shown to influence seizure threshold and epileptogenesis in apoptotic process, consistent with our findings in humans.">
+		<entity id="s2.e1" charOffset="55-84"
+			type="GO" text="corpus callosum morphogenesis" ontology_id="GO_0021540"/>
+		<entity id="s2.e2" charOffset="155-184"
+			type="GO" text="corpus callosum morphogenesis" ontology_id="GO_0021540"/>
+		<entity id="s2.e3" charOffset="188-195"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="254-271"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We conclude that mutations in corpus callosum morphogenesis cause a severe cardiac muscle tissue development of autosomal-recessive infantile encephalopathy with intractable seizures and distinct neuroradiological anomalies.">
+		<entity id="s3.e1" charOffset="30-59"
+			type="GO" text="corpus callosum morphogenesis" ontology_id="GO_0021540"/>
+		<entity id="s3.e2" charOffset="75-108"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s3.e3" charOffset="113-127"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s3.e4" charOffset="145-152"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

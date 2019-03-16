@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30303148">
+	<sentence id="s1" text="We report a case of 2-year old child who presented with small bone osteomyelitis involving bilateral feet and was later diagnosed to have autosomal recessive superoxide metabolic process due to mutation in protein targeting to membrane gene">
+		<entity id="s1.e1" charOffset="138-157"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="158-186"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s1.e3" charOffset="206-235"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

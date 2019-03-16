@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24078084">
+	<sentence id="s1" text="Patients with receptor-mediated endocytosis show AAAA50% of normal activity and those with the rare autosomal recessive harderoporphyria accumulate harderoporphyrinogen, an intermediate porphyrin of the protoporphyrinogen IX biosynthetic process from glutamate reaction.">
+		<entity id="s1.e1" charOffset="14-43"
+			type="GO" text="receptor-mediated endocytosis" ontology_id="GO_0006898"/>
+		<entity id="s1.e2" charOffset="100-119"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="203-260"
+			type="GO" text="protoporphyrinogen IX biosynthetic process from glutamate" ontology_id="GO_0019353"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

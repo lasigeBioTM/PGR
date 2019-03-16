@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28179590">
+	<sentence id="s1" text="We identified 22 genes including APC, KRAS, TP53, GNAS, NRAS, SMAD4, ARID2, and PIK3CA with non-silent mutations in the cancer Census Genes.">
+		<entity id="s1.e1" charOffset="33-36"
+			type="GENE" text="APC" ontology_id="324"/>
+		<entity id="s1.e2" charOffset="38-42"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s1.e3" charOffset="50-54"
+			type="GENE" text="GNAS" ontology_id="2778"/>
+		<entity id="s1.e4" charOffset="56-60"
+			type="GENE" text="NRAS" ontology_id="4893"/>
+		<entity id="s1.e5" charOffset="62-67"
+			type="GENE" text="SMAD4" ontology_id="4089"/>
+		<entity id="s1.e6" charOffset="69-74"
+			type="GENE" text="ARID2" ontology_id="196528"/>
+		<entity id="s1.e7" charOffset="80-86"
+			type="GENE" text="PIK3CA" ontology_id="5290"/>
+		<entity id="s1.e8" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Five HGCAs harbored either mono-allelic (four HGCAs) or bi-allelic (one HGCA) SMAD4 mutation or 18q loss that had been known as early carcinoma-specific changes.">
+		<entity id="s2.e1" charOffset="78-83"
+			type="GENE" text="SMAD4" ontology_id="4089"/>
+		<entity id="s2.e2" charOffset="134-143"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our WES data is largely matched with the earlier 'adenoma-carcinoma model' (APC, KRAS, NRAS and GNAS mutations), but there are newly identified SMAD4, MTOR, ACVR1B, GNAQ, ATM, CNOT1, EP300, ARID2, RET and MAP2K4 mutations in this study.">
+		<entity id="s3.e1" charOffset="58-67"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<entity id="s3.e2" charOffset="76-79"
+			type="GENE" text="APC" ontology_id="324"/>
+		<entity id="s3.e3" charOffset="81-85"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s3.e4" charOffset="87-91"
+			type="GENE" text="NRAS" ontology_id="4893"/>
+		<entity id="s3.e5" charOffset="96-100"
+			type="GENE" text="GNAS" ontology_id="2778"/>
+		<entity id="s3.e6" charOffset="144-149"
+			type="GENE" text="SMAD4" ontology_id="4089"/>
+		<entity id="s3.e7" charOffset="151-155"
+			type="GENE" text="MTOR" ontology_id="2475"/>
+		<entity id="s3.e8" charOffset="157-163"
+			type="GENE" text="ACVR1B" ontology_id="91"/>
+		<entity id="s3.e9" charOffset="165-169"
+			type="GENE" text="GNAQ" ontology_id="2776"/>
+		<entity id="s3.e10" charOffset="171-174"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s3.e11" charOffset="176-181"
+			type="GENE" text="CNOT1" ontology_id="23019"/>
+		<entity id="s3.e12" charOffset="190-195"
+			type="GENE" text="ARID2" ontology_id="196528"/>
+		<entity id="s3.e13" charOffset="197-200"
+			type="GENE" text="RET" ontology_id="5979"/>
+		<entity id="s3.e14" charOffset="205-211"
+			type="GENE" text="MAP2K4" ontology_id="6416"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e12" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e1"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e1"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p9" e1="s3.e1"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p10" e1="s3.e1"
+		    e2="s3.e10" pgr="false"/>
+		<pair id="s3.p11" e1="s3.e1"
+		    e2="s3.e11" pgr="false"/>
+		<pair id="s3.p12" e1="s3.e1"
+		    e2="s3.e13" pgr="false"/>
+		<pair id="s3.p13" e1="s3.e1"
+		    e2="s3.e14" pgr="false"/>
+	</sentence>
+</document>

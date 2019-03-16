@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29344583">
+	<sentence id="s1" text="However, the role of li>RTEL1</i> mutations in other bone marrow failure (negative regulation of autophagy) syndromes and myeloid neoplasms, and the contribution of monoallelic li>RTEL1</i> mutations to disease development are not well defined.">
+		<entity id="s1.e1" charOffset="74-106"
+			type="GO" text="negative regulation of autophagy" ontology_id="GO_0010507"/>
+		<entity id="s1.e2" charOffset="130-139"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We screened 516 patients for germline mutations in telomere-associated genes by next-generation sequencing in 2 independent cohorts; one constituting unselected patients with idiopathic negative regulation of autophagy, unexplained cytopenia, or myeloid neoplasms (n = 457) and a second cohort comprising selected patients on the basis of the suspicion of constitutional/familial BMF (n = 59).">
+		<entity id="s2.e1" charOffset="186-218"
+			type="GO" text="negative regulation of autophagy" ontology_id="GO_0010507"/>
+		<entity id="s2.e2" charOffset="254-263"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

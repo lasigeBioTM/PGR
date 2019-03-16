@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28793245">
+	<sentence id="s1" text="It has been reported that functionally distinct cancer stem cells (CSCs) exist in human bladder cancer (BCa).">
+		<entity id="s1.e1" charOffset="48-54"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="104-107"
+			type="GENE" text="BCa" ontology_id="29760"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Sox2 expression is absent in normal urothelial cells, but it begins to be expressed in pre-neoplastic bladder tumors and continues to be expressed in invasive mouse BCa.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="Sox2" ontology_id="6657"/>
+		<entity id="s2.e2" charOffset="110-116"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="165-168"
+			type="GENE" text="BCa" ontology_id="29760"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Using s as a reporter of Sox2 transcriptional expression, we demonstrated that Sox2-expressing cells mark a subpopulation of tumor cells that fuel the growth of established BCa.">
+		<entity id="s3.e1" charOffset="25-29"
+			type="GENE" text="Sox2" ontology_id="6657"/>
+		<entity id="s3.e2" charOffset="101-105"
+			type="GENE" text="mark" ontology_id="4139"/>
+		<entity id="s3.e3" charOffset="125-130"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="173-176"
+			type="GENE" text="BCa" ontology_id="29760"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Ablation of Sox2-expressing cells within primary invasive BCa led to enhanced tumor regression, supporting the essential role of SOX2-positive cells in regulating BCa maintenance and progression.">
+		<entity id="s4.e1" charOffset="12-16"
+			type="GENE" text="Sox2" ontology_id="6657"/>
+		<entity id="s4.e2" charOffset="58-61"
+			type="GENE" text="BCa" ontology_id="29760"/>
+		<entity id="s4.e3" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

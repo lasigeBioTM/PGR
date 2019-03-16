@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27493007">
+	<sentence id="s1" text="The genetic study by panels of known genes associated with tubulointerstitial disease allowed us to discover autosomal dominant distal renal tubular acidosis associated with a de novo mutation in exon 14 of the SLC4A1 gene, which would have been impossible to diagnose clinically due to the advanced nature of the kidney disease when it was discovered">
+		<entity id="s1.e1" charOffset="128-134"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s1.e2" charOffset="135-157"
+			type="HP" text="renal tubular acidosis" ontology_id="HP_0001947"/>
+		<entity id="s1.e3" charOffset="211-217"
+			type="GENE" text="SLC4A1" ontology_id="6521"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

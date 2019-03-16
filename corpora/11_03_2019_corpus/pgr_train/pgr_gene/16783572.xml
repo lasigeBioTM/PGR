@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16783572">
+	<sentence id="s1" text="We confirmed the association between DGCR2 and schizophrenia through individual genotyping of 1,400 subjects.">
+		<entity id="s1.e1" charOffset="37-42"
+			type="GENE" text="DGCR2" ontology_id="9993"/>
+		<entity id="s1.e2" charOffset="47-60"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In a gene expression analysis the risk allele of a coding SNP associated with schizophrenia was found to be associated with a reduced expression of DGCR2.">
+		<entity id="s2.e1" charOffset="78-91"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="148-153"
+			type="GENE" text="DGCR2" ontology_id="9993"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The genetic and functional evidences here reported suggest a possible role of the DGCR2 gene in the pathology of schizophrenia and also in the therapeutic effects of antipsychotic drugs">
+		<entity id="s3.e1" charOffset="82-87"
+			type="GENE" text="DGCR2" ontology_id="9993"/>
+		<entity id="s3.e2" charOffset="113-126"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

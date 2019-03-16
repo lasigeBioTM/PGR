@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28252641">
+	<sentence id="s1" text="Mechanical compression induced protein polyubiquitination-9 downregulation by DNA methylation-dependent promoter methylation in the MDA-MB-231 and regulation of immune response-474 breast cancer cell lines and in cancer-associated fibroblasts.">
+		<entity id="s1.e1" charOffset="31-57"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="78-93"
+			type="GO" text="DNA methylation" ontology_id="GO_0006306"/>
+		<entity id="s1.e3" charOffset="147-176"
+			type="GO" text="regulation of immune response" ontology_id="GO_0050776"/>
+		<entity id="s1.e4" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30076115">
+	<sentence id="s1" text="Sickle cell disease (SCD) is one of the most common autosomal recessive diseases in humans, occurring at a frequency of 1 in 365 African-American and 1 in 50 sub-Saharan African births.">
+		<entity id="s1.e1" charOffset="21-24"
+			type="GENE" text="SCD" ontology_id="6584"/>
+		<entity id="s1.e2" charOffset="52-71"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

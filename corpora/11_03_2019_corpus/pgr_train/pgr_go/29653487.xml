@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29653487">
+	<sentence id="s1" text="Solute carrier family 34 member 2 (phosphate ion transport) is a well-known sodium-dependent phosphate transporter that has recently been linked to cancer development.">
+		<entity id="s1.e1" charOffset="35-58"
+			type="GO" text="phosphate ion transport" ontology_id="GO_0006817"/>
+		<entity id="s1.e2" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

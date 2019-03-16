@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28487959">
+	<sentence id="s1" text="In this study, we performed exome-wide association studies (EWASs) to identify genetic variants that confer susceptibility to ischemic stroke, intracerebral hemorrhage (ICH), or subarachnoid hemorrhage (fatty acid biosynthetic process).">
+		<entity id="s1.e1" charOffset="143-167"
+			type="HP" text="intracerebral hemorrhage" ontology_id="HP_0001342"/>
+		<entity id="s1.e2" charOffset="203-234"
+			type="GO" text="fatty acid biosynthetic process" ontology_id="GO_0006633"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Multivariable logistic regression analysis with adjustment for age, negative regulation of cell adhesion and the prevalence of hypertension and diabetes mellitus revealed that 4 of these SNPs [rs3212335 of GABRB3 (P=0.0036; odds ratio, 1.29), rs147783135 of proteolysis (P=0.0024; odds ratio, 0.37), rs2292661 of protein folding (P=0.0054; odds ratio, 0.35) and rs191885206 of very long-chain fatty acid metabolic process (P=0.0082; odds ratio, 2.60)] were related (PAAAA0.01) to ischemic stroke.">
+		<entity id="s2.e1" charOffset="68-104"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s2.e2" charOffset="127-139"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s2.e3" charOffset="258-269"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s2.e4" charOffset="313-328"
+			type="GO" text="protein folding" ontology_id="GO_0006457"/>
+		<entity id="s2.e5" charOffset="377-421"
+			type="GO" text="very long-chain fatty acid metabolic process" ontology_id="GO_0000038"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Multivariable logistic regression analysis with adjustment for age, negative regulation of cell adhesion and the prevalence of hypertension revealed that rs138533962 of regulation of cell proliferation (PAAAA1.0x10-23; odds ratio, 111.3) was significantly (PAAAA2.60x10-4) associated with ICH and that rs117564807 of hemidesmosome assembly (P=0.0009; odds ratio, 2.23x10-8) was significantly (PAAAA0.0010) associated with fatty acid biosynthetic process.">
+		<entity id="s3.e1" charOffset="68-104"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s3.e2" charOffset="94-106"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s3.e3" charOffset="169-201"
+			type="GO" text="regulation of cell proliferation" ontology_id="GO_0042127"/>
+		<entity id="s3.e4" charOffset="317-339"
+			type="GO" text="hemidesmosome assembly" ontology_id="GO_0031581"/>
+		<entity id="s3.e5" charOffset="347-378"
+			type="GO" text="fatty acid biosynthetic process" ontology_id="GO_0006633"/>
+		<pair id="s3.p1" e1="s3.e5"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

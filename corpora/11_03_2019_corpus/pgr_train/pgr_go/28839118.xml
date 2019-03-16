@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28839118">
+	<sentence id="s1" text="We detected 11 novel mutations in li>GJA3</i>, li>GJA8</i>, li>CRYAA</i>, li>CRYBB2</i>, li>CRYGS</i>, li>CRYGA</i>, li>GCNT2</i>, li>CRYGA</i>, and li>MIP</i>; and three previously reported cataract-causing mutations in li>GJA8</i>, li>CRYAA</i>, and li>CRYBB2</i> The most commonly mutated genes were those coding for negative regulation of cell-matrix adhesion junctions and crystallin proteins.">
+		<entity id="s1.e1" charOffset="191-199"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e2" charOffset="320-363"
+			type="GO" text="negative regulation of cell-matrix adhesion" ontology_id="GO_0001953"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

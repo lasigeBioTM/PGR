@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29222009">
+	<sentence id="s1" text="Herein, we report 3 patients with heterozygous constitutional phosphorylation of RNA polymerase II C-terminal domain mutations, who were ascertained through exome analysis of children with intellectual disability and positive regulation of glucose transmembrane transport anomalies, who lacked cardiac anomalies.">
+		<entity id="s1.e1" charOffset="62-116"
+			type="GO" text="phosphorylation of RNA polymerase II C-terminal domain" ontology_id="GO_0070816"/>
+		<entity id="s1.e2" charOffset="189-212"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="217-271"
+			type="GO" text="positive regulation of glucose transmembrane transport" ontology_id="GO_0010828"/>
+		<entity id="s1.e4" charOffset="245-262"
+			type="HP" text="cardiac anomalies" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29636449">
+	<sentence id="s1" text="Feingold syndrome is a skeletal dysplasia caused by loss-of-function mutations of either positive regulation of gene expression (cardiac muscle tissue development 1) or MIR17HG that encodes protein polyubiquitination-17-92 microRNAs (type 2).">
+		<entity id="s1.e1" charOffset="23-41"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s1.e2" charOffset="89-127"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e3" charOffset="129-162"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e4" charOffset="190-216"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

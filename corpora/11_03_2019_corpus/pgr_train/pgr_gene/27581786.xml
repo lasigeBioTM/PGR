@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27581786">
+	<sentence id="s1" text="High expression of Chemokine receptor 4 (CXCR4) is important in tumor invasion, metastasis, drug-resistance and maintenance of stemness in non-small cell lung cancer (NSCLC).">
+		<entity id="s1.e1" charOffset="41-46"
+			type="GENE" text="CXCR4" ontology_id="7852"/>
+		<entity id="s1.e2" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="159-165"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We therefore studied the molecular characteristics of drug-resistant CXCR4-positive cells on epithelial-mesenchymal transition (EMT) for the future identification of the tumor cells with the properties of both EMT and stemness.">
+		<entity id="s2.e1" charOffset="69-74"
+			type="GENE" text="CXCR4" ontology_id="7852"/>
+		<entity id="s2.e2" charOffset="128-131"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s2.e3" charOffset="170-175"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

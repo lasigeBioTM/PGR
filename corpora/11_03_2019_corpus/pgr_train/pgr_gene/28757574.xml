@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28757574">
+	<sentence id="s1" text="Animal models of viral-associated blood-brain barrier (BBB) disruption and experimental cerebral malaria (ECM) have identified perforin as critical for inducing pathologic central nervous system CNS vascular permeability.">
+		<entity id="s1.e1" charOffset="106-109"
+			type="GENE" text="ECM" ontology_id="22915"/>
+		<entity id="s1.e2" charOffset="172-179"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30223116">
+	<sentence id="s1" text="Dual-specificity tyrosine phosphorylation-regulated kinase 1A (peptidyl-tyrosine phosphorylation) is a potential target in Alzheimer's disease (AD) because of the established correlation between its over-expression and generation of neurofibrillary tangles (NFT) as well as the accumulation of amyloid plaques.">
+		<entity id="s1.e1" charOffset="63-96"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<entity id="s1.e2" charOffset="233-256"
+			type="HP" text="neurofibrillary tangles" ontology_id="HP_0002185"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

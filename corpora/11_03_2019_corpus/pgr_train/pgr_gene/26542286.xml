@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26542286">
+	<sentence id="s1" text="Primary creatine disorders are inherited as autosomal recessive (mutations affecting GATM [for glycine-amidinotransferase, mitochondrial]) and GAMT genes) or X-linked (SLC6A8 gene) traits.">
+		<entity id="s1.e1" charOffset="44-63"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="85-89"
+			type="GENE" text="GATM" ontology_id="2628"/>
+		<entity id="s1.e3" charOffset="143-147"
+			type="GENE" text="GAMT" ontology_id="2593"/>
+		<entity id="s1.e4" charOffset="168-174"
+			type="GENE" text="SLC6A8" ontology_id="6535"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

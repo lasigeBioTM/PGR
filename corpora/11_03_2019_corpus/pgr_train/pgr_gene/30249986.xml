@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30249986">
+	<sentence id="s1" text="Oxidative stress, which is induced by reactive oxygen species (ROS), causes cellular damage which contributes to the pathogenesis of neurodegenerative diseases.">
+		<entity id="s1.e1" charOffset="63-66"
+			type="GENE" text="ROS" ontology_id="6098"/>
+		<entity id="s1.e2" charOffset="85-91"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e3" charOffset="133-159"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="First, we tested whether the pretreatment of li>Momordica charantia</i> ethanol extract (MCEE) attenuates H₂O₂-induced cell death in human neuroblastoma SK-N-MC cells.">
+		<entity id="s2.e1" charOffset="89-93"
+			type="GENE" text="MCEE" ontology_id="84693"/>
+		<entity id="s2.e2" charOffset="139-152"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s2.e3" charOffset="153-155"
+			type="GENE" text="SK" ontology_id="22943"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

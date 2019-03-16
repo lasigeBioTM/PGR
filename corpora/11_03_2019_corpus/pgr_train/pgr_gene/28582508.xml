@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28582508">
+	<sentence id="s1" text="Functional studies have elucidated the role of the mammalian target of rapamycin (mTOR) pathway in breast carcinogenesis, but to date, there is a paucity of data on its contribution to breast cancer risk in women of African ancestry.">
+		<entity id="s1.e1" charOffset="82-86"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s1.e2" charOffset="192-198"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We examined 47628 SNPs in 61 mTOR pathway genes in the genome wide association study of breast cancer in the African Diaspora study (The Root consortium), which included 3686 participants (1657 cases).">
+		<entity id="s2.e1" charOffset="29-33"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s2.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The mTOR pathway was significantly associated with overall and estrogen receptor-negative (ER-) breast cancer risk (P = 0.003 and 0.03, respectively).">
+		<entity id="s3.e1" charOffset="4-8"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s3.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="PRKAG3 (Padj = 0.0018) and RPS6KA3 (Padj = 0.061) were the leading genes for the associations with overall breast cancer risk and ER- breast cancer risk, respectively.">
+		<entity id="s4.e1" charOffset="0-6"
+			type="GENE" text="PRKAG3" ontology_id="53632"/>
+		<entity id="s4.e2" charOffset="27-34"
+			type="GENE" text="RPS6KA3" ontology_id="6197"/>
+		<entity id="s4.e3" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These results provide new insights on the biological relevance of the mTOR pathway in breast cancer progression and underscore the need for more genetic epidemiology studies of breast cancer in the African Diaspora">
+		<entity id="s5.e1" charOffset="70-74"
+			type="GENE" text="mTOR" ontology_id="2475"/>
+		<entity id="s5.e2" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27508411">
+	<sentence id="s1" text="nervous system development is a multigenic disorder characterised by muscular dystrophy as well as brain and eye anomalies.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s1.e2" charOffset="69-87"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

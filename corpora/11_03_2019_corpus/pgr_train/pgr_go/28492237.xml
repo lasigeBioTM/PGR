@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28492237">
+	<sentence id="s1" text="We discover that proline catabolism via proline dehydrogenase (positive regulation of cell death) supports growth of breast cancer cells in 3D culture.">
+		<entity id="s1.e1" charOffset="63-96"
+			type="GO" text="positive regulation of cell death" ontology_id="GO_0010942"/>
+		<entity id="s1.e2" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In particular, we cellular response to interleukin-4 that positive regulation of cell death expression and proline catabolism is increased in metastases compared to primary breast cancers of patients and mice.">
+		<entity id="s2.e1" charOffset="18-52"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e2" charOffset="58-91"
+			type="GO" text="positive regulation of cell death" ontology_id="GO_0010942"/>
+		<entity id="s2.e3" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

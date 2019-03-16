@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29694336">
+	<sentence id="s1" text="Additionally, despite mitochondrial fission affecting mitochondrial functionality, and hence being of adenylate cyclase-activating G protein-coupled receptor signaling pathway importance to cellular function, the GDAP1‑associated Charcot-Marie-Tooth disease is mainly characterized by axonal degeneration.">
+		<entity id="s1.e1" charOffset="22-43"
+			type="GO" text="mitochondrial fission" ontology_id="GO_0000266"/>
+		<entity id="s1.e2" charOffset="102-175"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e3" charOffset="217-236"
+			type="HP" text="axonal degeneration" ontology_id="HP_0040078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

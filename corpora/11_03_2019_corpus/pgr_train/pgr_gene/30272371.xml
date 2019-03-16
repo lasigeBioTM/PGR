@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30272371">
+	<sentence id="s1" text="Sonic hedgehog (SHH) signaling is an important promotor of desmoplasia, a critical feature in pancreatic cancer stromal reactions involving the activation of pancreatic stellate cells (PSCs).">
+		<entity id="s1.e1" charOffset="16-19"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s1.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The present study investigated the association between Gremlin 1 and SHH, and the effect of Gremlin 1 in pancreatic cancer.">
+		<entity id="s2.e1" charOffset="69-72"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s2.e2" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Primary human PSCs and pancreatic cancer cell lines were exposed to SHH, cyclopamine, GLI family zinc finger-1 (Gli-1) small interfering RNA (siRNA), and Gremlin 1 siRNA to examine their associations and effects using an MTT assay, reverse transcription-quantitative polymerase chain reaction analysis, western blot analysis, and migration or invasion assays.">
+		<entity id="s3.e1" charOffset="34-40"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="68-71"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<entity id="s3.e3" charOffset="86-89"
+			type="GENE" text="GLI" ontology_id="2735"/>
+		<entity id="s3.e4" charOffset="112-115"
+			type="GENE" text="Gli" ontology_id="2735"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In a screen of pancreatic cancer cell lines, AsPC-1 and BxPC-3 cells expressed high levels of Gremlin 1, but only AsPC-1 cells exhibited a high expression level of SHH.">
+		<entity id="s4.e1" charOffset="26-32"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="164-167"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Based on the data from the present study, it was concluded that an abnormal expression level of Gremlin 1 in pancreatic cancer was induced by SHH signaling, and that the overexpression of Gremlin 1 enabled pancreatic cancer progression">
+		<entity id="s5.e1" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="142-145"
+			type="GENE" text="SHH" ontology_id="6469"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

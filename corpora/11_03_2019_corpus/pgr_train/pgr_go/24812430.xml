@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24812430">
+	<sentence id="s1" text="Several candidate genes for obesity and T2D (e.g., insulin receptor signaling pathway and negative regulation of transcription by RNA polymerase II) were differentially expressed in discordant twins.">
+		<entity id="s1.e1" charOffset="28-35"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="51-85"
+			type="GO" text="insulin receptor signaling pathway" ontology_id="GO_0008286"/>
+		<entity id="s1.e3" charOffset="90-147"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

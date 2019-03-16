@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28425625">
+	<sentence id="s1" text="Squamous cell carcinoma (SCC) is the most common cancer of the equine eye, frequently originating at the limbus, with the potential to invade the cornea, cause visual impairment, and result in loss of the eye.">
+		<entity id="s1.e1" charOffset="25-28"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s1.e2" charOffset="49-55"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="160-177"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Pedigree analysis in the Haflinger breed supports a simple recessive mode of inheritance and a genome-wide association study (N = 23) identified a 1.5 Mb locus on ECA12 significantly associated with limbal SCC (P<sub>corrected</sub> = 0.04).">
+		<entity id="s2.e1" charOffset="52-58"
+			type="GENE" text="simple" ontology_id="9516"/>
+		<entity id="s2.e2" charOffset="69-88"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<entity id="s2.e3" charOffset="206-209"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, in humans xeroderma pigmentosum complementation group E, a disease characterized by sun sensitivity and increased risk of cutaneous SCC and melanomas, is explained by mutations in DDB2.">
+		<entity id="s3.e1" charOffset="145-148"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s3.e2" charOffset="153-162"
+			type="HP" text="melanomas" ontology_id="HP_0002861"/>
+		<entity id="s3.e3" charOffset="193-197"
+			type="GENE" text="DDB2" ontology_id="1643"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

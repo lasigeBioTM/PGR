@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26944031">
+	<sentence id="s1" text="Mosaicism was identified for autosomal dominant (JAG1, cell-matrix adhesion), autosomal recessive (glycogen catabolic process), and X-linked (carbohydrate metabolic process, acetyl-CoA biosynthetic process from pyruvate, urea cycle, and creatine transmembrane transport) disorders.">
+		<entity id="s1.e1" charOffset="55-75"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<entity id="s1.e2" charOffset="78-97"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="99-125"
+			type="GO" text="glycogen catabolic process" ontology_id="GO_0005980"/>
+		<entity id="s1.e4" charOffset="142-172"
+			type="GO" text="carbohydrate metabolic process" ontology_id="GO_0005975"/>
+		<entity id="s1.e5" charOffset="174-219"
+			type="GO" text="acetyl-CoA biosynthetic process from pyruvate" ontology_id="GO_0006086"/>
+		<entity id="s1.e6" charOffset="221-231"
+			type="GO" text="urea cycle" ontology_id="GO_0000050"/>
+		<entity id="s1.e7" charOffset="237-269"
+			type="GO" text="creatine transmembrane transport" ontology_id="GO_0015881"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

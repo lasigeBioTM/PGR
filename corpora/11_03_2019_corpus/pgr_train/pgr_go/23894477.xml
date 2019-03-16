@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23894477">
+	<sentence id="s1" text="Since microtubule severing is an important cellular mechanism of which malfunctions result in serious diseases such as spastic paraplegia, Alzheimer's disease and cell cycle related disorders, identification of negative regulation of microtubule depolymerization transcriptional regulation is crucial in understanding the coordination of microtubule severing activity by different proteins in the cells.">
+		<entity id="s1.e1" charOffset="127-137"
+			type="HP" text="paraplegia" ontology_id="HP_0010550"/>
+		<entity id="s1.e2" charOffset="211-262"
+			type="GO" text="negative regulation of microtubule depolymerization" ontology_id="GO_0007026"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28486105">
+	<sentence id="s1" text="An oncogenic role for CHD4, a NuRD component, is defined for initiating and supporting tumor suppressor gene (TSG) silencing in human colorectal cancer.">
+		<entity id="s1.e1" charOffset="22-26"
+			type="GENE" text="CHD4" ontology_id="1108"/>
+		<entity id="s1.e2" charOffset="87-92"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="110-113"
+			type="GENE" text="TSG" ontology_id="57045"/>
+		<entity id="s1.e4" charOffset="145-151"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CHD4 knockdown activates silenced TSGs, revealing their role for blunting colorectal cancer cell proliferation, invasion, and metastases.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="CHD4" ontology_id="1108"/>
+		<entity id="s2.e2" charOffset="34-37"
+			type="GENE" text="TSG" ontology_id="57045"/>
+		<entity id="s2.e3" charOffset="85-91"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

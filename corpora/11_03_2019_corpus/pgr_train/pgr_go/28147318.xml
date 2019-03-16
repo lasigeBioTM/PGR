@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28147318">
+	<sentence id="s1" text="epidermis development and keratinization (KRT6A, KRT6B AAAAA KRT6C) gene expression was assessed in publically available serous ovarian cancer data sets, ovarian cancer cell lines and primary serous ovarian cancer cells.">
+		<entity id="s1.e1" charOffset="0-21"
+			type="GO" text="epidermis development" ontology_id="GO_0008544"/>
+		<entity id="s1.e2" charOffset="9-23"
+			type="GO" text="keratinization" ontology_id="GO_0031424"/>
+		<entity id="s1.e3" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Survival analyses showed that high epidermis development mRNA in stage III/IV serous ovarian cancers was significantly associated with reduced progression-free (HR 1.38, P AAAA 0.0001) and overall survival (HR 1.28, P = 0.013) whilst high keratinization mRNA was only associated with reduced progression-free survival (HR 1.2, P = 0.031).">
+		<entity id="s2.e1" charOffset="35-56"
+			type="GO" text="epidermis development" ontology_id="GO_0008544"/>
+		<entity id="s2.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="222-236"
+			type="GO" text="keratinization" ontology_id="GO_0031424"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="epidermis development but not keratinizationC mRNA expression was increased in chemotherapy resistant primary serous ovarian cancer cells compared to chemotherapy sensitive cells.">
+		<entity id="s3.e1" charOffset="0-21"
+			type="GO" text="epidermis development" ontology_id="GO_0008544"/>
+		<entity id="s3.e2" charOffset="13-27"
+			type="GO" text="keratinization" ontology_id="GO_0031424"/>
+		<entity id="s3.e3" charOffset="108-114"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

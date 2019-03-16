@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26979803">
+	<sentence id="s1" text="To test whether these risk SNPs regulate their target genes through long-range chromatin interactions, we applied capture-based 3C sequencing technology to investigate possible cis-interactions at ten prostate cancer risk loci in six cell lines.">
+		<entity id="s1.e1" charOffset="177-180"
+			type="GENE" text="cis" ontology_id="1154"/>
+		<entity id="s1.e2" charOffset="210-216"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This study identifies a set of candidate genes and their potential regulatory variants, and provides additional evidence showing the role of long-range chromatin interactions in prostate cancer etiology">
+		<entity id="s2.e1" charOffset="24-27"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e2" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

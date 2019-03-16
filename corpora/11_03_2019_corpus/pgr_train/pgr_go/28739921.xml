@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28739921">
+	<sentence id="s1" text="Malfunction of mutant protein farnesylation proteins triggers a severe form of Leber congenital amaurosis and leads to blindness.">
+		<entity id="s1.e1" charOffset="22-43"
+			type="GO" text="protein farnesylation" ontology_id="GO_0018343"/>
+		<entity id="s1.e2" charOffset="119-128"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29352327">
+	<sentence id="s1" text="LIMKs and SSH promote cancer cell invasion and metastasis and represent novel anti-cancer targets.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="LIM" ontology_id="10611"/>
+		<entity id="s1.e2" charOffset="22-28"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, little is known regarding LIMK/cofilin and SSH in human colorectal cancer (CRC).">
+		<entity id="s2.e1" charOffset="35-38"
+			type="GENE" text="LIM" ontology_id="10611"/>
+		<entity id="s2.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We show that active cofilin, LIMK1, LIMK2, and SSH1 are overexpressed in human CRC and are associated with tumor progression parameters.">
+		<entity id="s3.e1" charOffset="29-32"
+			type="GENE" text="LIM" ontology_id="10611"/>
+		<entity id="s3.e2" charOffset="47-51"
+			type="GENE" text="SSH1" ontology_id="54434"/>
+		<entity id="s3.e3" charOffset="107-112"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In addition, immunofluorescence analysis showed increased expression of active cofilin, LIMK1, LIMK2, and SSH1 in HT29 colon cancer cells resistant to 5-fluorouracil compared to parental HT29 cells.">
+		<entity id="s4.e1" charOffset="88-91"
+			type="GENE" text="LIM" ontology_id="10611"/>
+		<entity id="s4.e2" charOffset="106-110"
+			type="GENE" text="SSH1" ontology_id="54434"/>
+		<entity id="s4.e3" charOffset="125-131"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our results suggest that F-actin regulators LIMK/cofilin pathway and SSH1 are associated with CRC progression and chemoresistance representing promising tumor biomarkers and therapeutic targets in CRC">
+		<entity id="s5.e1" charOffset="44-47"
+			type="GENE" text="LIM" ontology_id="10611"/>
+		<entity id="s5.e2" charOffset="69-73"
+			type="GENE" text="SSH1" ontology_id="54434"/>
+		<entity id="s5.e3" charOffset="153-158"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

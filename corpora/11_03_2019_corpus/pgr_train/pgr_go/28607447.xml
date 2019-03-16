@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28607447">
+	<sentence id="s1" text="Recently, the roles of positive regulation of cell migration in tumorigenesis have been interested and increased expression of positive regulation of cell migration and negative regulation of transcription by RNA polymerase II in hepatocellular carcinoma (phosphatidylinositol phosphorylation) have been reported.">
+		<entity id="s1.e1" charOffset="23-60"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s1.e2" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="138-195"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="145-169"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e5" charOffset="225-261"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The expression of positive regulation of cell migration is elevated in liver cancer cells, and nuclear expression of FAM83H predicted shorter survival of phosphatidylinositol phosphorylation patients.">
+		<entity id="s2.e1" charOffset="18-55"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s2.e2" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="154-190"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In hepatic tumor cells derived from Tet-O-negative regulation of transcription by RNA polymerase II apoptotic process, the expression of mRNA and protein of positive regulation of cell migration were dependent on MYC expression.">
+		<entity id="s3.e1" charOffset="11-16"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="42-99"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e3" charOffset="90-127"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s3.e4" charOffset="100-117"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, we present an oncogenic role of positive regulation of cell migration in liver cancer, which is closely associated with the oncogene negative regulation of transcription by RNA polymerase II.">
+		<entity id="s4.e1" charOffset="47-84"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s4.e2" charOffset="94-100"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="148-205"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

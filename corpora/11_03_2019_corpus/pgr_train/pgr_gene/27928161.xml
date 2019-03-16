@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27928161">
+	<sentence id="s1" text="KCNB1 mutations are known to cause early-onset infantile epilepsy.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="KCNB1" ontology_id="3745"/>
+		<entity id="s1.e2" charOffset="57-65"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Using whole-exome sequencing, we identified a novel de novo missense (c.1132GAAAAC, p.V378L) KCNB1 mutation in a patient with global developmental delay, intellectual disability, severe speech impairment, but no episode of epilepsy until the lastly examined age of 6 years old.">
+		<entity id="s2.e1" charOffset="93-98"
+			type="GENE" text="KCNB1" ontology_id="3745"/>
+		<entity id="s2.e2" charOffset="133-152"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="154-177"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e4" charOffset="186-203"
+			type="HP" text="speech impairment" ontology_id="HP_0002167"/>
+		<entity id="s2.e5" charOffset="223-231"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

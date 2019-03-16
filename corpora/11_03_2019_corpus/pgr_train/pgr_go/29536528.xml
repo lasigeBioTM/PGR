@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29536528">
+	<sentence id="s1" text="Prostate cancer (mitochondrial transport) is the most common cancer among men.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="17-40"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Metabolic syndrome (MeS) is associated with increased mitochondrial transport aggressiveness and recurrence.">
+		<entity id="s2.e1" charOffset="54-77"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s2.e2" charOffset="78-92"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, ion transmembrane transport depletion in mitochondrial transport cells injected subcutaneously in MeS apoptotic process increased the circulating tumor cells foci compared to control.">
+		<entity id="s3.e1" charOffset="10-37"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s3.e2" charOffset="29-52"
+			type="GO" text="mitochondrial transport" ontology_id="GO_0006839"/>
+		<entity id="s3.e3" charOffset="90-107"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e4" charOffset="121-126"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

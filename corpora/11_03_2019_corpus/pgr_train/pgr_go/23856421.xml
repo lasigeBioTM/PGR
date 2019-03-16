@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23856421">
+	<sentence id="s1" text="We describe an infant with the phenocardiac muscle tissue development of a congenital muscular dystrophy, with borderline microcephaly, hypotonia, camptodactyly, severe motor delay, and elevated creatine kinase.">
+		<entity id="s1.e1" charOffset="36-69"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="86-104"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e3" charOffset="122-134"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="147-160"
+			type="HP" text="camptodactyly" ontology_id="HP_0012385"/>
+		<entity id="s1.e5" charOffset="169-180"
+			type="HP" text="motor delay" ontology_id="HP_0001270"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

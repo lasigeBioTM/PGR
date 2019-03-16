@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28343629">
+	<sentence id="s1" text="OTUD6B encodes a member of the ovarian tumor domain (OTU)-containing subfamily of deubiquitinating enzymes.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="OTUD6B" ontology_id="51633"/>
+		<entity id="s1.e2" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Herein, we report biallelic pathogenic variants in OTUD6B in 12 individuals from 6 independent families with an intellectual disability syndrome associated with seizures and dysmorphic features.">
+		<entity id="s2.e1" charOffset="51-57"
+			type="GENE" text="OTUD6B" ontology_id="51633"/>
+		<entity id="s2.e2" charOffset="112-135"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="161-169"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Homozygous Otud6b knockout mice were subviable, smaller in size, and had congenital heart defects, consistent with the severity of loss-of-function variants in humans.">
+		<entity id="s3.e1" charOffset="11-17"
+			type="GENE" text="Otud6b" ontology_id="51633"/>
+		<entity id="s3.e2" charOffset="27-31"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e3" charOffset="73-97"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

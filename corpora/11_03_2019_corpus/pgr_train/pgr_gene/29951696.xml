@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29951696">
+	<sentence id="s1" text="Polymorphisms in the MED13L gene have been linked to congenital heart anomalies and intellectual disabilities.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="GENE" text="MED13L" ontology_id="23389"/>
+		<entity id="s1.e2" charOffset="84-109"
+			type="HP" text="intellectual disabilities" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

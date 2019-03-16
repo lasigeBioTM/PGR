@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30694044">
+	<sentence id="s1" text="To investigate the direct effects of this SNP in the heterogeneous cellular context of the brain, we generated humanized transgenic mice using a design that maximized the local transcriptional landscape of the human HTR1A gene while also controlling for effects of genomic insertion location.">
+		<entity id="s1.e1" charOffset="53-66"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="132-136"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="216-221"
+			type="GENE" text="HTR1A" ontology_id="3350"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

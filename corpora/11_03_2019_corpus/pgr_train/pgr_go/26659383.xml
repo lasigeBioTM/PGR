@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26659383">
+	<sentence id="s1" text="Ectodysplasin-A2 (positive regulation of NF-kappaB transcription factor activity) is a recently isolated member of the tumor necrosis factor superfamily that binds to X-linked ectodermal dysplasia receptor (positive regulation of JNK cascade).">
+		<entity id="s1.e1" charOffset="18-80"
+			type="GO" text="positive regulation of NF-kappaB transcription factor activity" ontology_id="GO_0051092"/>
+		<entity id="s1.e2" charOffset="119-124"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="176-196"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e4" charOffset="207-241"
+			type="GO" text="positive regulation of JNK cascade" ontology_id="GO_0046330"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

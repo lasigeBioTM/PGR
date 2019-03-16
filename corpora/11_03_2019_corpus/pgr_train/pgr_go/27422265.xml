@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27422265">
+	<sentence id="s1" text="Peripheral neuropathy (neuropeptide signaling pathway) remains one of the most frequent side-effects experienced by patients who receive these novel agents.">
+		<entity id="s1.e1" charOffset="11-21"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="23-53"
+			type="GO" text="neuropeptide signaling pathway" ontology_id="GO_0007218"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

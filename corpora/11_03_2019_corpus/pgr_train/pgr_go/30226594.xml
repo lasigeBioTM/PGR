@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30226594">
+	<sentence id="s1" text="As a mitotic kinesin, kinesin family member 14 (positive regulation of cell proliferation) has been reported to serve oncogenic roles in a variety of malignancies; however, its functional role and regulatory mechanisms in colorectal cancer (CRC) remain unclear.">
+		<entity id="s1.e1" charOffset="48-89"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e2" charOffset="233-239"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, positive regulation of cell proliferation was observed to be markedly overexpressed in CRC, and this upregulation was associated with tumor size and marker of proliferation regulation of proteasomal protein catabolic process-67 immunostaining scores.">
+		<entity id="s2.e1" charOffset="22-63"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s2.e2" charOffset="156-161"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="195-246"
+			type="GO" text="regulation of proteasomal protein catabolic process" ontology_id="GO_0061136"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Collectively, the findings of the present study demonstrated the oncogenic role of positive regulation of cell proliferation in colorectal tumorigenesis, and also revealed a complexity of regulatory mechanisms mediating KIF14 overexpression, which may provide insight for developing novel treatments for patients with CRC">
+		<entity id="s3.e1" charOffset="83-124"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s3.e2" charOffset="139-144"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29108267">
+	<sentence id="s1" text="Down regulation of Protein Kinase D1 (protein phosphorylation), a novel serine threonine kinase, in prostate, gastric, breast and colon cancers in humans leads to disease progression.">
+		<entity id="s1.e1" charOffset="38-61"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="136-142"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="While the down regulation of protein phosphorylation by DNA methylation in gastric cancer and by nuclear protein polyubiquitination in colon cancer has been shown, the regulatory mechanisms in other cancers are unknown.">
+		<entity id="s2.e1" charOffset="29-52"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="105-131"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Because we had demonstrated that protein phosphorylation is the only known kinase to phosphorylate threonine 120 (T120) of protein polyubiquitination in prostate cancer resulting in increased nuclear beta-catenin, we explored the role of beta-catenin in gene regulation of li>PrKD1</i>.">
+		<entity id="s3.e1" charOffset="33-56"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e2" charOffset="123-149"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e3" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="<i>In silico</i> human gene expression analysis confirmed the down regulation of protein phosphorylation in metastatic prostate cancer correlated inversely with the expression of negative regulation of transcription by RNA polymerase II, but not negative regulation of transcription by RNA polymerase II, and positively with negative regulation of transcription by RNA polymerase II, a competing heterodimer of MAX, suggesting that the dimerization of MAX with either MYC or MXD1 regulates li>PrKD1</i> gene expression.">
+		<entity id="s4.e1" charOffset="81-104"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s4.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="179-236"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e4" charOffset="192-249"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e5" charOffset="325-382"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+</document>

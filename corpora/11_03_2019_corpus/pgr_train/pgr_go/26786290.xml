@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26786290">
+	<sentence id="s1" text="The genes with the highest number of hypermethylated CpG sites in INRG M tumors are transcription, RNA-templated, PCDHGA4, DLX5, and regulation of transcription by RNA polymerase II-positive regulation of T cell mediated cytotoxicity1.">
+		<entity id="s1.e1" charOffset="73-78"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="84-112"
+			type="GO" text="transcription, RNA-templated" ontology_id="GO_0001172"/>
+		<entity id="s1.e3" charOffset="133-181"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e4" charOffset="182-233"
+			type="GO" text="positive regulation of T cell mediated cytotoxicity" ontology_id="GO_0001916"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="For validation, we used a negative regulation of transcription, DNA-templated of independent tumors previously analyzed with the Illumina 27K methylation arrays, which confirmed the differentially methylated sites.">
+		<entity id="s2.e1" charOffset="26-77"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e2" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

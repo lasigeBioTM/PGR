@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26060908">
+	<sentence id="s1" text="Gentranscription by RNA polymerase IIlized epilepsies, particularly the idiopathic or genetic generalized epilepsies (GGEs), represent some of the most common epilepsies.">
+		<entity id="s1.e1" charOffset="3-37"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s1.e2" charOffset="43-53"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The first decade of the 21st century was marked by progress in understanding the basic biology of gentranscription by RNA polymtranscription by RNA polymerase IIse IIlized epilepsies including generalized/genetic epilepsies with febrile seizures plus (GEFS+) and GGE through studies of large families, discovering causative mutations in cardiac muscle cell action potential involved in contraction, positive regulation of sodium ion transport, inhibitory synapse assembly, and GABRA1.">
+		<entity id="s2.e1" charOffset="101-135"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s2.e2" charOffset="110-120"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="175-183"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="275-335"
+			type="GO" text="cardiac muscle cell action potential involved in contraction" ontology_id="GO_0086002"/>
+		<entity id="s2.e5" charOffset="337-380"
+			type="GO" text="positive regulation of sodium ion transport" ontology_id="GO_0010765"/>
+		<entity id="s2.e6" charOffset="382-409"
+			type="GO" text="inhibitory synapse assembly" ontology_id="GO_1904862"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e9"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e9"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e7"
+		    e2="s2.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Genes for epileptic encephalopathies such as protein-containing complex assembly were rediscovered in GGE, highlighting the biological continuum between different epilepsies.">
+		<entity id="s3.e1" charOffset="20-36"
+			type="HP" text="encephalopathies" ontology_id="HP_0001298"/>
+		<entity id="s3.e2" charOffset="45-80"
+			type="GO" text="protein-containing complex assembly" ontology_id="GO_0065003"/>
+		<entity id="s3.e3" charOffset="163-173"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Genome-wide studies examining common genetic risk factors identified common variants in cardiac muscle cell action potential involved in contraction, indicating a convergence of shared pathophysiological pathways in various types of epilepsies.">
+		<entity id="s4.e1" charOffset="88-148"
+			type="GO" text="cardiac muscle cell action potential involved in contraction" ontology_id="GO_0086002"/>
+		<entity id="s4.e2" charOffset="233-243"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

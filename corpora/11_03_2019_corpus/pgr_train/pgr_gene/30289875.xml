@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30289875">
+	<sentence id="s1" text="The KEGG enrichment analysis of DEGs showed significantly enriched pathways in cancer, extracellular matrix (ECM)-receptor interaction pathway, and cyclic adenosine monophosphate (cAMP) signaling pathway.">
+		<entity id="s1.e1" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="109-112"
+			type="GENE" text="ECM" ontology_id="22915"/>
+		<entity id="s1.e3" charOffset="180-184"
+			type="GENE" text="cAMP" ontology_id="283489"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

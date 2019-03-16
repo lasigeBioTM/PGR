@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29303507">
+	<sentence id="s1" text="Recurrence and metastasis are major challenges in the management of hepatocellular carcinoma (HCC) patients after resection.">
+		<entity id="s1.e1" charOffset="68-92"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="94-97"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TCIRG1 knockdown suppressed tumor cell growth and proliferation in HCC cell lines; caused a significant increase in the proportion of cells in the G1/S phase of cell cycle; induced cell death; suppressed the metastatic potential of HCC cells by selectively regulating the epithelial-mesenchymal transition (EMT) regulatory proteins E-cadherin, N-cadherin, Fibronectin, Snail and Slug; and significantly attenuated the metastatic potential of ras-transformed NIH-3T3 cells in vitro and in vivo.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="TCIRG1" ontology_id="10312"/>
+		<entity id="s2.e2" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="67-70"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s2.e4" charOffset="307-310"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s2.e5" charOffset="334-342"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<entity id="s2.e6" charOffset="369-374"
+			type="GENE" text="Snail" ontology_id="6615"/>
+		<entity id="s2.e7" charOffset="379-383"
+			type="GENE" text="Slug" ontology_id="6591"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e7" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25464848">
+	<sentence id="s1" text="Disruption of outflow tract septum morphogenesis induced apoptosis of GSCs, but not NPCs or NSTCs, and suppressed tumor growth in orthotopic models of glioblastoma.">
+		<entity id="s1.e1" charOffset="14-48"
+			type="GO" text="outflow tract septum morphogenesis" ontology_id="GO_0003148"/>
+		<entity id="s1.e2" charOffset="114-119"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="151-163"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our study supports the targeting of outflow tract septum morphogenesis to break this GSC-specific autocrine/paracrine loop in order to improve glioblastoma treatment, potentially with a high therapeutic index.">
+		<entity id="s2.e1" charOffset="36-70"
+			type="GO" text="outflow tract septum morphogenesis" ontology_id="GO_0003148"/>
+		<entity id="s2.e2" charOffset="143-155"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

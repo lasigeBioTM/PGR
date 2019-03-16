@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30036796">
+	<sentence id="s1" text="To further explore this, we investigated the associations of peripheral GR-1<sub>F</sub> methylation (52 CpGs) with the cortisol stress response (Trier Social Stress Test) and with childhood trauma in three independent studies (total N = 241) including healthy controls, patients with schizophrenia and bipolar disorder and unaffected siblings of patients with one of these disorders.">
+		<entity id="s1.e1" charOffset="72-74"
+			type="GENE" text="GR" ontology_id="2908"/>
+		<entity id="s1.e2" charOffset="285-298"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

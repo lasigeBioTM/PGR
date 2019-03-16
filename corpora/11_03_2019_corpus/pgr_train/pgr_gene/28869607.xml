@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28869607">
+	<sentence id="s1" text="Depletion of the exon 3-containing long isoform of MRPL33 (MRPL33-L) led to impaired proliferation and increased apoptosis in cancer cell lines and in a xenograft model.">
+		<entity id="s1.e1" charOffset="51-57"
+			type="GENE" text="MRPL33" ontology_id="9553"/>
+		<entity id="s1.e2" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="More importantly, overexpression of MRPL33-L could increase tumorigenic potential of hnRNPK-depleted cancer cells, likely indicating that hnRNPK mediates tumorigenesis through splicing regulation of MRPL33 pre-mRNA.">
+		<entity id="s2.e1" charOffset="36-42"
+			type="GENE" text="MRPL33" ontology_id="9553"/>
+		<entity id="s2.e2" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="85-91"
+			type="GENE" text="hnRNPK" ontology_id="3190"/>
+		<entity id="s2.e4" charOffset="101-107"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e6"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Finally, we found that inclusion of MRPL33 exon 3 was promoted in human colorectal cancer tissues and this was correlated with hnRNPK levels.">
+		<entity id="s3.e1" charOffset="36-42"
+			type="GENE" text="MRPL33" ontology_id="9553"/>
+		<entity id="s3.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="127-133"
+			type="GENE" text="hnRNPK" ontology_id="3190"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In summary, our findings underscore the biological significance of MRPL33-L and hnRNPK in the tumor formation and identifies hnRNPK as a critical splicing regulator of MRPL33 pre-mRNA in cancer cells">
+		<entity id="s4.e1" charOffset="67-73"
+			type="GENE" text="MRPL33" ontology_id="9553"/>
+		<entity id="s4.e2" charOffset="80-86"
+			type="GENE" text="hnRNPK" ontology_id="3190"/>
+		<entity id="s4.e3" charOffset="94-99"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+</document>

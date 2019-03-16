@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29705860">
+	<sentence id="s1" text="In 20/23 cases, MDRnegative regulation of gene expression BSI occurred during neutropenia.">
+		<entity id="s1.e1" charOffset="19-57"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<entity id="s1.e2" charOffset="78-89"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MDR rectal colonization occurs in 6.5% of haematological inpatients and predicts a 16% probability of MDRnegative regulation of gene expression BSI, particularly during neutropenia, as well as a higher probability of unfavourable outcomes in positive regulation of cytosolic calcium ion concentration-rel BSIs.">
+		<entity id="s2.e1" charOffset="105-143"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<entity id="s2.e2" charOffset="169-180"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<entity id="s2.e3" charOffset="242-300"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

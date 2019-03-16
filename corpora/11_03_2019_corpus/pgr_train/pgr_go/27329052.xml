@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27329052">
+	<sentence id="s1" text="D-transposition of the adenylate cyclase-activating G protein-coupled receptor signaling pathway arteries (TGA) is one of the most common conotruncal heart defects at birth and is characterized by a discordant ventriculoarterial connection with a concordant atrioventricular connection.">
+		<entity id="s1.e1" charOffset="23-96"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e2" charOffset="138-163"
+			type="HP" text="conotruncal heart defects" ontology_id="HP_0001710"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The downstream pathways of positive regulation of cysteine-type endopeptidase activity involved in apoptotic process-negative regulation of intracellular estrogen receptor signaling pathway play a critical role not only in L-R determination in the lateral plate mesoderm but also in myocardial specification and differentiation in the AHF, suggesting that TGA is a phenotype in heterotaxia as well as the primary developmental defect of the AHF.">
+		<entity id="s2.e1" charOffset="27-116"
+			type="GO" text="positive regulation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0043280"/>
+		<entity id="s2.e2" charOffset="117-189"
+			type="GO" text="negative regulation of intracellular estrogen receptor signaling pathway" ontology_id="GO_00117147"/>
+		<entity id="s2.e3" charOffset="311-322"
+			type="HP" text="heterotaxia" ontology_id="HP_0030853"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

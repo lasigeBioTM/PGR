@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30252186">
+	<sentence id="s1" text="Mutations in the KARS gene, which encodes both the cytosolic and mitochondrial isoform of lysyl-tRNA synthetase, cause predominantly neurological diseases that often involve deafness, but have also been linked to cardiomyopathy, developmental delay, and lactic acidosis.">
+		<entity id="s1.e1" charOffset="17-21"
+			type="GENE" text="KARS" ontology_id="3735"/>
+		<entity id="s1.e2" charOffset="174-182"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="213-227"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s1.e4" charOffset="229-248"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e5" charOffset="254-269"
+			type="HP" text="lactic acidosis" ontology_id="HP_0003128"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25157627">
+	<sentence id="s1" text="Though epidermis development has been identified to be the causal gene of DDD, the heterogeneity of this disease was displayed: for example, protein O-linked glycosylation and protein O-linked glycosylation were recently identified and confirmed to be additional pathogenic genes of DDD.">
+		<entity id="s1.e1" charOffset="7-28"
+			type="GO" text="epidermis development" ontology_id="GO_0008544"/>
+		<entity id="s1.e2" charOffset="83-96"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="141-171"
+			type="GO" text="protein O-linked glycosylation" ontology_id="GO_0006493"/>
+		<entity id="s1.e4" charOffset="176-206"
+			type="GO" text="protein O-linked glycosylation" ontology_id="GO_0006493"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="No other novel mutation or this deletion was detected in protein O-linked glycosylation in a second DDD family and a sporadic DDD case by Sanger Sequencing.">
+		<entity id="s2.e1" charOffset="57-87"
+			type="GO" text="protein O-linked glycosylation" ontology_id="GO_0006493"/>
+		<entity id="s2.e2" charOffset="117-125"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

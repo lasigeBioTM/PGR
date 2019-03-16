@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26604137">
+	<sentence id="s1" text="Prostate cancer is the most common non-skin cancer in males, with a ∼1.5-2-fold higher incidence in African American men when compared with whites.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="117-120"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this first whole-exome sequencing study of prostate cancer, our findings do not provide strong support for the hypothesis that NS coding variants down to 0.5-1.0% frequency have large effects on prostate cancer risk in men of African ancestry.">
+		<entity id="s2.e1" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="222-225"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

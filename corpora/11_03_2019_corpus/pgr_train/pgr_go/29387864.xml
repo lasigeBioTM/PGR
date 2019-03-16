@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29387864">
+	<sentence id="s1" text="RNA sequencing transcriptome analysis revealed that inflammatory mediators such as tumor necrosis factor (negative regulation of transcription by RNA polymerase II)-α suppressed expression of R-spondin-1 (positive regulation of protein phosphorylation, a critical growth factor for intestinal epithelial cells) in regulation of double-strand break repair via homologous recombination-silenced YAMC cells li>in vitro</i>.">
+		<entity id="s1.e1" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="106-163"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="205-251"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e4" charOffset="219-288"
+			type="GO" text="regulation of double-strand break repair via homologous recombination" ontology_id="GO_0010569"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

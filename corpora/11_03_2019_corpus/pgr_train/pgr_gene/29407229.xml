@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29407229">
+	<sentence id="s1" text="Their expression changes were further validated in U2OS osteosarcoma cell lines and hOB normal cell lines through quantitative PCR (qPCR) and consistent result with microarray analysis was obtained.">
+		<entity id="s1.e1" charOffset="53-55"
+			type="GENE" text="OS" ontology_id="4281"/>
+		<entity id="s1.e2" charOffset="56-68"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28343629">
+	<sentence id="s1" text="cell proliferation encodes a member of the ovarian tumor domain (OTU)-containing subfamily of deubiquitinating enzymes.">
+		<entity id="s1.e1" charOffset="0-18"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s1.e2" charOffset="51-56"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Herein, we report biallelic pathogenic variants in cell proliferation in 12 individuals from 6 independent families with an intellectual disability syndrome associated with seizures and dysmorphic features.">
+		<entity id="s2.e1" charOffset="51-69"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s2.e2" charOffset="124-147"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="173-181"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Homozygous cell proliferation knockout apoptotic process were subviable, smaller in size, and had congenital heart defects, consistent with the severity of loss-of-function variants in humans.">
+		<entity id="s3.e1" charOffset="11-29"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<entity id="s3.e2" charOffset="39-56"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e3" charOffset="85-109"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

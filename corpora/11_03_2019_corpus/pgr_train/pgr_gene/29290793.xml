@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29290793">
+	<sentence id="s1" text="<b>Rationale:</b> Oncogenic STAT3 signaling activation and 3p22-21.3 locus alteration are common in multiple tumors, especially carcinomas of the nasopharynx, esophagus and lung.">
+		<entity id="s1.e1" charOffset="28-33"
+			type="GENE" text="STAT3" ontology_id="6774"/>
+		<entity id="s1.e2" charOffset="109-115"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="<i>DLEC1</i> was frequently downregulated in ESCC, lung and NPC cell lines and primary tumors, but was readily expressed in normal tissues and immortalized normal epithelial cells, with mutations rarely detected.">
+		<entity id="s2.e1" charOffset="3-8"
+			type="GENE" text="DLEC1" ontology_id="9940"/>
+		<entity id="s2.e2" charOffset="87-93"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="<i>DLEC1</i> methylation was frequently detected in ESCC tumors and correlated with lymph node metastasis, tumor recurrence and progression, with li>DLEC1</i> as the most frequently methylated among the established 3p22.2 tumor suppressors (li>RASSF1A, PLCD1</i> and li>ZMYND10/BLU</i>).">
+		<entity id="s3.e1" charOffset="3-8"
+			type="GENE" text="DLEC1" ontology_id="9940"/>
+		<entity id="s3.e2" charOffset="57-63"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="107-112"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

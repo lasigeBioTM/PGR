@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29958137">
+	<sentence id="s1" text="Salivary gland tumor (SGT) is a rare tumor type, which exhibits broad-spectrum phenotypic, biological, and clinical heterogeneity.">
+		<entity id="s1.e1" charOffset="15-20"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="22-25"
+			type="GENE" text="SGT" ontology_id="6449"/>
+		<entity id="s1.e3" charOffset="43-47"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e4" charOffset="116-129"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We have deleted two major tumor suppressors, Pten, a negative regulator of the PI3K pathway, and Smad4, the central signaling mediator of TGFβ pathway, in the murine salivary gland.">
+		<entity id="s2.e1" charOffset="26-31"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="45-49"
+			type="GENE" text="Pten" ontology_id="5728"/>
+		<entity id="s2.e3" charOffset="97-102"
+			type="GENE" text="Smad4" ontology_id="4089"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results have shown that deletion of either Pten or Smad4 in murine salivary gland resulted in pleomorphic adenomas, the most common tumor in human SGT patients.">
+		<entity id="s3.e1" charOffset="47-51"
+			type="GENE" text="Pten" ontology_id="5728"/>
+		<entity id="s3.e2" charOffset="55-60"
+			type="GENE" text="Smad4" ontology_id="4089"/>
+		<entity id="s3.e3" charOffset="136-141"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="151-154"
+			type="GENE" text="SGT" ontology_id="6449"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

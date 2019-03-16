@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22158612">
+	<sentence id="s1" text="Moreover, Reg-1α colocalizes with exostosin tumor-like 3 (heparan sulfate proteoglycan biosynthetic process), its putative receptor, at the membrane of these cells.">
+		<entity id="s1.e1" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="58-107"
+			type="GO" text="heparan sulfate proteoglycan biosynthetic process" ontology_id="GO_0015012"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

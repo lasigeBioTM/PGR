@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29547997">
+	<sentence id="s1" text="Here, we causally link a previously unreported missense mutation in microtubule cytoskeleton organization (c.1249GAAAAA, p.D417N), encoding one of the neuron-specific β-tubulin isotype II, to a disorder characterized by progressive spastic paraplegia, peripheral sensory-motor polyneuropathy and ataxia.">
+		<entity id="s1.e1" charOffset="68-105"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<entity id="s1.e2" charOffset="232-250"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e3" charOffset="296-302"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

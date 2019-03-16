@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28621321">
+	<sentence id="s1" text="Morphologic features of MAPK cascade-NUTM2 high-grade endometrial stromal sarcoma may overlap with other uterine sarcoma types.">
+		<entity id="s1.e1" charOffset="24-36"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e2" charOffset="74-81"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="histone H2A monoubiquitination immunoexpression was studied in these tumors and their morphologic mimics to assess its diagnostic utility.">
+		<entity id="s2.e1" charOffset="0-30"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s2.e2" charOffset="69-75"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="histone H2A monoubiquitination immunohistochemical staining was performed on archival tissue from 28 high-grade endometrial stromal sarcomas with classic morphology (20 MAPK cascade-NUTM2, 5 posttranscriptional regulation of gene expression-BCOR, 3 BCOR-ZC3H7B), 3 high-grade endometrial stromal sarcomas with unusual morphology and unknown gene rearrangement status, 66 low-grade endometrial stromal sarcomas, 21 endometrial stromal nodules, 38 uterine leiomyosarcomas, and 19 uterine leiomyomas.">
+		<entity id="s3.e1" charOffset="0-30"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s3.e2" charOffset="106-113"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s3.e3" charOffset="143-155"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s3.e4" charOffset="165-214"
+			type="GO" text="posttranscriptional regulation of gene expression" ontology_id="GO_0010608"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Strong diffuse nuclear histone H2A monoubiquitination staining (defined as AAAA95% of tumor cells) was seen in the round cell component of all 20 (100%) classic MAPK cascade-NUTM2 high-grade endometrial stromal sarcomas and the 3 unusual high-grade endometrial stromal sarcomas which prompted superoxide metabolic process studies confirming MAPK cascade rearrangement in 2 tumors.">
+		<entity id="s4.e1" charOffset="23-53"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s4.e2" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="135-147"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s4.e4" charOffset="185-192"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s4.e5" charOffset="293-321"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s4.e6" charOffset="316-322"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e4"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e3"
+		    e2="s4.e6" pgr="false"/>
+		<pair id="s4.p5" e1="s4.e1"
+		    e2="s4.e8" pgr="false"/>
+		<pair id="s4.p6" e1="s4.e2"
+		    e2="s4.e8" pgr="false"/>
+		<pair id="s4.p7" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p8" e1="s4.e1"
+		    e2="s4.e13" pgr="false"/>
+		<pair id="s4.p9" e1="s4.e13"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Diffuse histone H2A monoubiquitination staining was strong in three and weak in one histone H2A monoubiquitination-rearranged high-grade endometrial stromal sarcoma while absent in the remaining four BCOR-rearranged tumors.">
+		<entity id="s5.e1" charOffset="8-38"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s5.e2" charOffset="131-138"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<entity id="s5.e3" charOffset="190-196"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="histone H2A monoubiquitination staining was weakly positive in AAAA5% of tumor cells in 4 of 66 (6%) low-grade endometrial stromal sarcomas and 1 of 18 (6%) endometrial stromal nodules and weakly to moderately positive in AAAA5-40% of tumor cells in 6 of 31 (19%) leiomyosarcomas.">
+		<entity id="s6.e1" charOffset="0-30"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s6.e2" charOffset="73-78"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="131-138"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="No histone H2A monoubiquitination staining was seen in the remaining low-grade endometrial stromal sarcomas, endometrial stromal nodules, leiomyosarcomas, or any of the leiomyomas.">
+		<entity id="s7.e1" charOffset="3-33"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s7.e2" charOffset="99-106"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="histone H2A monoubiquitination immunohistochemical staining is a highly sensitive marker for MAPK cascade-NUTM2 high-grade endometrial stromal sarcoma with both classic and unusual morphology and identifies a subset of high-grade endometrial stromal sarcoma with BCOR alterations, including BCOR rearrangement and internal tandem duplication">
+		<entity id="s8.e1" charOffset="0-30"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s8.e2" charOffset="67-79"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s8.e3" charOffset="117-124"
+			type="HP" text="sarcoma" ontology_id="HP_0100242"/>
+		<pair id="s8.p1" e1="s8.e3"
+		    e2="s8.e3" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e1"
+		    e2="s8.e3" pgr="false"/>
+	</sentence>
+</document>

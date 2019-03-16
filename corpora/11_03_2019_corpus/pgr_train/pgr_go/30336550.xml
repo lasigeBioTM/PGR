@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30336550">
+	<sentence id="s1" text="Heritable pulmonary arterial hypertension (HPAH) is a rare but severe complication of protein phosphorylation.">
+		<entity id="s1.e1" charOffset="10-41"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s1.e2" charOffset="86-109"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27151206">
+	<sentence id="s1" text="Patients with KCNK9 imprinting syndrome demonstrate congenital hypotonia, variable cleft palate, normal MRIs and EEGs, delayed development, and feeding problems.">
+		<entity id="s1.e1" charOffset="14-19"
+			type="GENE" text="KCNK9" ontology_id="51305"/>
+		<entity id="s1.e2" charOffset="83-95"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Associated facial dysmorphic features include dolichocephaly with bitemporal narrowing, short philtrum, tented upper lip, palatal abnormalities, and small mandible.">
+		<entity id="s2.e1" charOffset="66-86"
+			type="HP" text="bitemporal narrowing" ontology_id="HP_0000341"/>
+		<entity id="s2.e2" charOffset="88-102"
+			type="HP" text="short philtrum" ontology_id="HP_0000322"/>
+		<entity id="s2.e3" charOffset="117-120"
+			type="GENE" text="lip" ontology_id="23049"/>
+		<entity id="s2.e4" charOffset="149-163"
+			type="HP" text="small mandible" ontology_id="HP_0000347"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Older members of a previously reported Arab-Israeli family have intellectual disability of variable severity, persistent feeding difficulties in infancy with dysphagia of liquids and dysphonia with a muffled voice in early adulthood, generalized hypotonia, weakness of proximal muscles, elongated face with narrow bitemporal diameter, and reduced facial movements.">
+		<entity id="s3.e1" charOffset="64-87"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s3.e2" charOffset="269-277"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<entity id="s3.e3" charOffset="297-301"
+			type="GENE" text="face" ontology_id="2178"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

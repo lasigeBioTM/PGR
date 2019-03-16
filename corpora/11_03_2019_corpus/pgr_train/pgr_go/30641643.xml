@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30641643">
+	<sentence id="s1" text="Immunohistochemically, tumor cells of all cases were positive for vimentin (100.0%, 60/60), positive regulation of transcription by RNA polymerase II (98.3%, 59/60), CD34 (61.7%, 37/60), and the tumor cells were typically positive for CD99, protein polyubiquitination, fatty acid beta-oxidation using acyl-CoA dehydrogenase and neuropeptide signaling pathway as well.Negative for S-100 protein, SOX10, E-integrin-mediated signaling pathway, GFAP.">
+		<entity id="s1.e1" charOffset="23-28"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="92-149"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e3" charOffset="241-267"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e4" charOffset="269-323"
+			type="GO" text="fatty acid beta-oxidation using acyl-CoA dehydrogenase" ontology_id="GO_0033539"/>
+		<entity id="s1.e5" charOffset="328-358"
+			type="GO" text="neuropeptide signaling pathway" ontology_id="GO_0007218"/>
+		<entity id="s1.e6" charOffset="404-439"
+			type="GO" text="integrin-mediated signaling pathway" ontology_id="GO_0007229"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

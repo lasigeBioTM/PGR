@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29309307">
+	<sentence id="s1" text="ACTB-GLI1 fusions have been reported as the pathognomonic genetic abnormality defining an unusual subset of actin-positive, perivascular myoid tumors, known as AAAAAApericytoma with the t(7;12) translocation.AAAAA; In addition, GLI1 oncogenic activation through a related MALAT1-GLI1 gene fusion has been recently reported in 2 unrelated gastric tumors, namely plexiform fibromyxoma and gastroblastoma.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="ACTB" ontology_id="60"/>
+		<entity id="s1.e2" charOffset="5-9"
+			type="GENE" text="GLI1" ontology_id="2735"/>
+		<entity id="s1.e3" charOffset="143-149"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our findings open new opportunities for targeted therapy, as tumors with GLI1 oncogenic activation, and subsequent PTCH1 overexpression, might be sensitive to sonic hedgehog pathway inhibitors">
+		<entity id="s2.e1" charOffset="61-67"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="73-77"
+			type="GENE" text="GLI1" ontology_id="2735"/>
+		<entity id="s2.e3" charOffset="115-120"
+			type="GENE" text="PTCH1" ontology_id="5727"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

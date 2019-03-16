@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30115683">
+	<sentence id="s1" text="Both RPE65 isomerase of the visual cycle and the rhodopsin visual pigment have recently been identified as critical players in mediating light-induced retinal degeneration.">
+		<entity id="s1.e1" charOffset="5-8"
+			type="GENE" text="RPE" ontology_id="6120"/>
+		<entity id="s1.e2" charOffset="137-142"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s1.e3" charOffset="151-171"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

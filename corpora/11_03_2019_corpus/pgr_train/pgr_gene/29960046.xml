@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29960046">
+	<sentence id="s1" text="We present a 22-year old male with hypotonia, developmental delay, seizure disorder, and dysmorphic facial features who enrolled in our rare disease research center at 18 years of age, where exome sequencing revealed a novel, likely pathogenic variant in the OPHN1 gene.">
+		<entity id="s1.e1" charOffset="46-65"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e2" charOffset="67-74"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="259-264"
+			type="GENE" text="OPHN1" ontology_id="4983"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="These comparisons found previously unreported commonalities between the newly identified patients, such as the presence of otitis media and the lack of genitourinary abnormalities (i.e. hypoplastic scrotum, microphallus, cryptorchidism), which had been noted to be classic features of patients with OPHN1 variants.">
+		<entity id="s2.e1" charOffset="152-179"
+			type="HP" text="genitourinary abnormalities" ontology_id="HP_0000119"/>
+		<entity id="s2.e2" charOffset="186-205"
+			type="HP" text="hypoplastic scrotum" ontology_id="HP_0000046"/>
+		<entity id="s2.e3" charOffset="207-219"
+			type="HP" text="microphallus" ontology_id="HP_0030260"/>
+		<entity id="s2.e4" charOffset="299-304"
+			type="GENE" text="OPHN1" ontology_id="4983"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

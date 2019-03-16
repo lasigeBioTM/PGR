@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27129268">
+	<sentence id="s1" text="Recent studies have linked mutations in the sensory perception of smell (sensory perception of smell) and ion transmembrane transport (cellular calcium ion homeostasis5) genes to amylogenesis imperfecta (AI) and non-syndromic oculocutaneous albinism (ion transmembrane transport), respectively.">
+		<entity id="s1.e1" charOffset="44-71"
+			type="GO" text="sensory perception of smell" ontology_id="GO_0007608"/>
+		<entity id="s1.e2" charOffset="73-100"
+			type="GO" text="sensory perception of smell" ontology_id="GO_0007608"/>
+		<entity id="s1.e3" charOffset="106-133"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<entity id="s1.e4" charOffset="135-167"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s1.e5" charOffset="171-179"
+			type="HP" text="albinism" ontology_id="HP_0001022"/>
+		<entity id="s1.e6" charOffset="223-250"
+			type="GO" text="ion transmembrane transport" ontology_id="GO_0034220"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also analyzed two mutations in a Drosophila cellular calcium ion homeostasis gene that have been reported to result in an increased susceptibility for seizures, and found that both resulted in mutant proteins with significantly reduced but observable NCKX activity.">
+		<entity id="s2.e1" charOffset="47-79"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s2.e2" charOffset="154-162"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

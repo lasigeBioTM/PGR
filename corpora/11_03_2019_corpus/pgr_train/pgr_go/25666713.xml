@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25666713">
+	<sentence id="s1" text="Here, we utilized the CRISPR-Cas9 system to gentranscription by RNA polymerase IIte potassium ion import across plasma membrane mutant apoptotic process by zygote injection to verify the pathogenic role of human potassium ion import across plasma membrane, mutations of which are thought to cause Leber congenital amaurosis (clathrin coat assembly), an early-onset form of blindness.">
+		<entity id="s1.e1" charOffset="47-81"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s1.e2" charOffset="84-127"
+			type="GO" text="potassium ion import across plasma membrane" ontology_id="GO_1990573"/>
+		<entity id="s1.e3" charOffset="135-152"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e4" charOffset="212-255"
+			type="GO" text="potassium ion import across plasma membrane" ontology_id="GO_1990573"/>
+		<entity id="s1.e5" charOffset="267-276"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<entity id="s1.e6" charOffset="325-347"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

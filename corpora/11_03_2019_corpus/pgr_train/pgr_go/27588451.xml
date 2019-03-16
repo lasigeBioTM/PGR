@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27588451">
+	<sentence id="s1" text="Cone-mitotic cell cycle checkpoint degeneration (positive regulation of transcription by RNA polymerase II) belongs to the disease spectrum of retinal degenerations, a group of hereditary disorders characterized by an extreme clinical and genetic heterogeneity.">
+		<entity id="s1.e1" charOffset="5-34"
+			type="GO" text="mitotic cell cycle checkpoint" ontology_id="GO_0007093"/>
+		<entity id="s1.e2" charOffset="23-80"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e3" charOffset="117-138"
+			type="HP" text="retinal degenerations" ontology_id="HP_0000546"/>
+		<entity id="s1.e4" charOffset="221-234"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="It mainly differentiates from other retinal dystrophies, and in particular from the more frequent disease retinitis pigmentosa, because cone photoreceptors degenerate at a higher rate than mitotic cell cycle checkpoint photoreceptors, causing severe deficiency of central vision.">
+		<entity id="s2.e1" charOffset="36-55"
+			type="HP" text="retinal dystrophies" ontology_id="HP_0000556"/>
+		<entity id="s2.e2" charOffset="189-218"
+			type="GO" text="mitotic cell cycle checkpoint" ontology_id="GO_0007093"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In addition to positive regulation of transcription by RNA polymerase II, these three individuals had hearing loss or hearing deficit.">
+		<entity id="s3.e1" charOffset="15-72"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s3.e2" charOffset="102-114"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Interaction studies also showed that cilium organization binds to positive regulation of protein acetylation, another ciliary protein associated with retinal degeneration.">
+		<entity id="s4.e1" charOffset="37-56"
+			type="GO" text="cilium organization" ontology_id="GO_0044782"/>
+		<entity id="s4.e2" charOffset="66-108"
+			type="GO" text="positive regulation of protein acetylation" ontology_id="GO_1901985"/>
+		<entity id="s4.e3" charOffset="115-135"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Altogether, our data strongly suggest that mutations in cilium organization cause a previously undescribed clinical entity of a ciliary nature characterized by blindness and deafness but clearly distinct from Usher syndrome, a condition for which visual impairment is due to retinitis pigmentosa.">
+		<entity id="s5.e1" charOffset="56-75"
+			type="GO" text="cilium organization" ontology_id="GO_0044782"/>
+		<entity id="s5.e2" charOffset="160-169"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<entity id="s5.e3" charOffset="174-182"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s5.e4" charOffset="247-264"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e4" pgr="true"/>
+	</sentence>
+</document>

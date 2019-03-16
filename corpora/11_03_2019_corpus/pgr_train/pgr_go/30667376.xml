@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30667376">
+	<sentence id="s1" text="Genetic sequencing confirmed a homozygous R565Q missense mutation in the catalytic domain of visual perception, a cone-specific phototransduction enzyme associated with achromatopsia in humans.">
+		<entity id="s1.e1" charOffset="93-110"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="169-182"
+			type="HP" text="achromatopsia" ontology_id="HP_0011516"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30158849">
+	<sentence id="s1" text="Homozygous null mutation of tumor suppressor li>WWOX/Wwox</i> gene leads to severe neural diseases, metabolic disorders and early death in the newborns of humans, mice and rats.">
+		<entity id="s1.e1" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="48-52"
+			type="GENE" text="WWOX" ontology_id="51741"/>
+		<entity id="s1.e3" charOffset="53-57"
+			type="GENE" text="Wwox" ontology_id="51741"/>
+		<entity id="s1.e4" charOffset="163-167"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="<i>In vitro</i> analysis revealed that knockdown of WWOX protein in neuroblastoma cells results in aggregation of TRAPPC6AΔ, TIAF1, amyloid β, and Tau in a sequential manner.">
+		<entity id="s2.e1" charOffset="52-56"
+			type="GENE" text="WWOX" ontology_id="51741"/>
+		<entity id="s2.e2" charOffset="68-81"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s2.e3" charOffset="116-119"
+			type="GENE" text="APP" ontology_id="351"/>
+		<entity id="s2.e4" charOffset="125-130"
+			type="GENE" text="TIAF1" ontology_id="9220"/>
+		<entity id="s2.e5" charOffset="147-150"
+			type="GENE" text="Tau" ontology_id="4137"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

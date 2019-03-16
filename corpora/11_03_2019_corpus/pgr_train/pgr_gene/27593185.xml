@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27593185">
+	<sentence id="s1" text="The purpose of this study was to explore the use of iterative decomposition of water and fat with echo asymmetry and least-squares estimation Carr-Purcell-Meiboom-Gill (IDEAL-CPMG) to simultaneously measure skeletal muscle apparent fat fraction and water T<sub>2</sub> (T<sub>2,w</sub>) in patients with Duchenne muscular dystrophy (DMD).">
+		<entity id="s1.e1" charOffset="89-92"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s1.e2" charOffset="313-331"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e3" charOffset="333-336"
+			type="GENE" text="DMD" ontology_id="1756"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

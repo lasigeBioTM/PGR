@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30618169">
+	<sentence id="s1" text="Lactate dehydrogenase A (LDHA), a key enzyme in glycolysis, is highly expressed in a variety of tumors and catalyzes pyruvate to lactate.">
+		<entity id="s1.e1" charOffset="25-29"
+			type="GENE" text="LDHA" ontology_id="3939"/>
+		<entity id="s1.e2" charOffset="96-101"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we first analyzed the association and clinical significance of p53 and LDHA in breast cancer expressing wild-type p53 (wt-p53) and found that LDHA mRNA levels are negatively correlated with wt-p53 but not with mutation p53 mRNA levels, and low p53 and high LDHA expression are significantly associated with poor overall survival rates.">
+		<entity id="s2.e1" charOffset="93-97"
+			type="GENE" text="LDHA" ontology_id="3939"/>
+		<entity id="s2.e2" charOffset="108-114"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, a series of LDHA gain-of-function and rescore experiments were carried out in breast cancer MCF7 cells expressing endogenous wt-p53, showing that ectopic expression of p53 decreases aerobic glycolysis, cell proliferation, migration, invasion and tumor formation of breast cancer cells and that restoration of the expression of LDHA in p53-overexpressing cells could abolish the suppressive effect of p53 on aerobic glycolysis and other malignant phenotypes.">
+		<entity id="s3.e1" charOffset="22-26"
+			type="GENE" text="LDHA" ontology_id="3939"/>
+		<entity id="s3.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="256-261"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, our findings showed that repression of LDHA induced by wt-p53 blocks tumor growth and invasion through downregulation of aerobic glycolysis in breast cancer, providing new insights into the mechanism by which p53 contributes to the development and progression of breast cancer">
+		<entity id="s4.e1" charOffset="54-58"
+			type="GENE" text="LDHA" ontology_id="3939"/>
+		<entity id="s4.e2" charOffset="84-89"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="165-171"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

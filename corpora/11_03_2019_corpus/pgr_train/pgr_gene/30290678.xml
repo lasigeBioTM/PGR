@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30290678">
+	<sentence id="s1" text="The study was carried out to explore the risk stratification of the poor prognosis for patients underwent surgical treatment.60 patients diagnosed with neuroblastoma were primarily enrolled in the study from April 2008 to April 2016.">
+		<entity id="s1.e1" charOffset="152-165"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="208-213"
+			type="GENE" text="April" ontology_id="10541"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Clinical variables, including age, International Neuroblastoma Staging System (INSS) stage, tumor size and site, histology, and MYCN status were retrospectively analyzed, and EFS was chosen as the endpoint.The median age of patients was 8.2 months and average follow-up period was 40.2 ± 8.6 months.">
+		<entity id="s2.e1" charOffset="92-97"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="128-132"
+			type="GENE" text="MYCN" ontology_id="4613"/>
+		<entity id="s2.e3" charOffset="175-178"
+			type="GENE" text="EFS" ontology_id="10278"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Cox multifactor regression analysis revealed that age, histology and MYCN status had significant prognostic effect on event-free survival (EFS) rate for neuroblastoma patients underwent surgical treatment.In our study, we identified a series of prognostic factors including age, histology, and MYCN status predicting the prognosis of neuroblastoma patients after surgical treatment">
+		<entity id="s3.e1" charOffset="69-73"
+			type="GENE" text="MYCN" ontology_id="4613"/>
+		<entity id="s3.e2" charOffset="139-142"
+			type="GENE" text="EFS" ontology_id="10278"/>
+		<entity id="s3.e3" charOffset="153-166"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

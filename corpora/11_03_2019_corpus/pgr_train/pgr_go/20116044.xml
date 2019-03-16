@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20116044">
+	<sentence id="s1" text="Diamond-Blackfan anemia (monocyte chemotaxis), an inherited bone marrow failure syndrome characterized by anemia that usually presents before the first birthday or in early childhood, is associated with birth defects and an increased risk of cancer.">
+		<entity id="s1.e1" charOffset="25-44"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<entity id="s1.e2" charOffset="242-248"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

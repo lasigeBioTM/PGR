@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29174093">
+	<sentence id="s1" text="De novo monoallelic mutations in the GNB1 gene, encoding a β subunit of heterotrimeric G proteins, cause a newly recognized disorder with the typical clinical picture of severe developmental delay/intellectual disability, hypotonia and extrapyramidal symptoms.">
+		<entity id="s1.e1" charOffset="37-41"
+			type="GENE" text="GNB1" ontology_id="2782"/>
+		<entity id="s1.e2" charOffset="177-196"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="197-220"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We describe another case of the condition with manifestations of cutaneous mastocytosis associated with a novel do novo mutation GNB1NM_001282539.1: c.230G AAAA T; p.(Gly77Val).">
+		<entity id="s2.e1" charOffset="65-87"
+			type="HP" text="cutaneous mastocytosis" ontology_id="HP_0200151"/>
+		<entity id="s2.e2" charOffset="129-133"
+			type="GENE" text="GNB1" ontology_id="2782"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

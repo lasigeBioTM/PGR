@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27818272">
+	<sentence id="s1" text="After its downregulation in neuroblastoma cells and in brains of Tspan3-deficient mice, ADAM10 and APP levels appeared unaltered possibly due to a compensatory increase in the expression of Tspans 5 and 7, respectively.">
+		<entity id="s1.e1" charOffset="28-41"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="65-71"
+			type="GENE" text="Tspan3" ontology_id="10099"/>
+		<entity id="s1.e3" charOffset="82-86"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e4" charOffset="88-94"
+			type="GENE" text="ADAM10" ontology_id="102"/>
+		<entity id="s1.e5" charOffset="99-102"
+			type="GENE" text="APP" ontology_id="351"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

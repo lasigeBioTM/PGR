@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25954032">
+	<sentence id="s1" text="Adolescent idiopathic scoliosis (oxidation-reduction process) and pectus excavatum (PE) are common pediatric musculoskeletal disorders.">
+		<entity id="s1.e1" charOffset="22-31"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<entity id="s1.e2" charOffset="33-60"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s1.e3" charOffset="66-82"
+			type="HP" text="pectus excavatum" ontology_id="HP_0000767"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Microtomographic and x-ray studies revealed several hallmarks of oxidation-reduction process, including postnatal onset of scoliosis without malformations of vertebral units.">
+		<entity id="s2.e1" charOffset="65-92"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s2.e2" charOffset="123-132"
+			type="HP" text="scoliosis" ontology_id="HP_0002650"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

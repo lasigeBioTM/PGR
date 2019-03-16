@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803936">
+	<sentence id="s1" text="Addition of exogenous SLURP1 (6XHis-tagged, E. coli expressed and partially purified using Ni-ion columns) significantly suppressed the tumor necrosis factor-α (TNF-α)-stimulated human umbilical cord vascular endothelial cell (HUVEC) tube formation.">
+		<entity id="s1.e1" charOffset="22-28"
+			type="GENE" text="SLURP1" ontology_id="57152"/>
+		<entity id="s1.e2" charOffset="136-141"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="161-164"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<entity id="s1.e4" charOffset="234-238"
+			type="GENE" text="tube" ontology_id="51175"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30439408">
+	<sentence id="s1" text="The purpose of this study is to investigate whether NTS can modulate the osteoclastogenesis induced by RANKL or cancer cells.">
+		<entity id="s1.e1" charOffset="52-55"
+			type="GENE" text="NTS" ontology_id="4922"/>
+		<entity id="s1.e2" charOffset="103-108"
+			type="GENE" text="RANKL" ontology_id="8600"/>
+		<entity id="s1.e3" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that NTS inhibits RANKL- or cancer cell-mediated osteoclastogenesis via blockade of TRAF6 and NF-κB activation.">
+		<entity id="s2.e1" charOffset="14-17"
+			type="GENE" text="NTS" ontology_id="4922"/>
+		<entity id="s2.e2" charOffset="27-32"
+			type="GENE" text="RANKL" ontology_id="8600"/>
+		<entity id="s2.e3" charOffset="37-43"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="93-98"
+			type="GENE" text="TRAF6" ontology_id="7189"/>
+		<entity id="s2.e5" charOffset="103-105"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

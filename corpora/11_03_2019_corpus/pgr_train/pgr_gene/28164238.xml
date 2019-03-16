@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28164238">
+	<sentence id="s1" text="Whereas Klf13 heterozygote mice have no detectable cardiac defects, loss of a Klf13 allele in Tbx5 heterozygote mice significantly increases the penetrance of TBX5-dependent cardiac abnormalities including atrial, atrial-ventricular and ventricular septal defects.">
+		<entity id="s1.e1" charOffset="8-13"
+			type="GENE" text="Klf13" ontology_id="51621"/>
+		<entity id="s1.e2" charOffset="27-31"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="94-98"
+			type="GENE" text="Tbx5" ontology_id="6910"/>
+		<entity id="s1.e4" charOffset="159-163"
+			type="GENE" text="TBX5" ontology_id="6910"/>
+		<entity id="s1.e5" charOffset="174-195"
+			type="HP" text="cardiac abnormalities" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

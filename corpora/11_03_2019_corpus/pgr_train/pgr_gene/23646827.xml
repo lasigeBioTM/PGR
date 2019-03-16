@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23646827">
+	<sentence id="s1" text="Subsequently, we identified another homozygous variant in 2 of the 10 probands with microphthalmia we specifically screened for mutations in ALDH1A3.">
+		<entity id="s1.e1" charOffset="84-98"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e2" charOffset="141-148"
+			type="GENE" text="ALDH1A3" ontology_id="220"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Interestingly, the other branch of the original family was found to segregate anophthalmia/syndactyly with a novel homozygous SMOC1 variant.">
+		<entity id="s2.e1" charOffset="78-90"
+			type="HP" text="anophthalmia" ontology_id="HP_0000528"/>
+		<entity id="s2.e2" charOffset="91-101"
+			type="HP" text="syndactyly" ontology_id="HP_0001159"/>
+		<entity id="s2.e3" charOffset="126-131"
+			type="GENE" text="SMOC1" ontology_id="64093"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our data support the very recent and independent identification of ALDH1A3 as a disease gene in microphthalmia.">
+		<entity id="s3.e1" charOffset="67-74"
+			type="GENE" text="ALDH1A3" ontology_id="220"/>
+		<entity id="s3.e2" charOffset="96-110"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

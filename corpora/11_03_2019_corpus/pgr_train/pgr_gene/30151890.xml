@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30151890">
+	<sentence id="s1" text="CDCA7, a new member of the cell division cycle associated family of genes, is involved in embryonic development and dysregulated in various types of human cancer.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="CDCA7" ontology_id="83879"/>
+		<entity id="s1.e2" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Importantly, depletion of CDCA7 strongly reduced the tumorigenicity and distant colonization capacities of TNBC cells in vivo.">
+		<entity id="s2.e1" charOffset="26-31"
+			type="GENE" text="CDCA7" ontology_id="83879"/>
+		<entity id="s2.e2" charOffset="53-58"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, CDCA7 increased the expression of EZH2, a marker of aggressive breast cancer that is involved in tumor progression, by enhancing the transcriptional activity of its promoter.">
+		<entity id="s3.e1" charOffset="13-18"
+			type="GENE" text="CDCA7" ontology_id="83879"/>
+		<entity id="s3.e2" charOffset="47-51"
+			type="GENE" text="EZH2" ontology_id="2146"/>
+		<entity id="s3.e3" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="110-115"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

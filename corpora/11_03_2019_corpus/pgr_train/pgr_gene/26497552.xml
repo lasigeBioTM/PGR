@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26497552">
+	<sentence id="s1" text="In order to determine the role of Flii during carcinogenesis, squamous cell carcinomas (SCCs) were induced in Flii heterozygous (Flii+/-), wild-type and Flii overexpressing (FliiTg/Tg) mice by intradermal injection of 3-methylcholanthrene (MCA).">
+		<entity id="s1.e1" charOffset="34-38"
+			type="GENE" text="Flii" ontology_id="2314"/>
+		<entity id="s1.e2" charOffset="62-86"
+			type="HP" text="squamous cell carcinomas" ontology_id="HP_0002860"/>
+		<entity id="s1.e3" charOffset="88-91"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s1.e4" charOffset="185-189"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Flii was highly expressed in human SCC biopsies particularly by the invading cells at the tumor edge.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="Flii" ontology_id="2314"/>
+		<entity id="s2.e2" charOffset="35-38"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s2.e3" charOffset="90-95"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In contrast Flii+/- mice had significantly smaller tumors that were less invasive.">
+		<entity id="s3.e1" charOffset="12-16"
+			type="GENE" text="Flii" ontology_id="2314"/>
+		<entity id="s3.e2" charOffset="20-24"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e3" charOffset="51-56"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Intradermal injection of Flii neutralizing antibodies during SCC initiation and progression significantly reduced the size of the tumors and, in vitro, decreased cellular sphere formation and invasion.">
+		<entity id="s4.e1" charOffset="25-29"
+			type="GENE" text="Flii" ontology_id="2314"/>
+		<entity id="s4.e2" charOffset="61-64"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s4.e3" charOffset="130-135"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Analysis of the tumors from the Flii overexpressing mice showed reduced caspase I and annexin V expression suggesting Flii may negatively regulate apoptosis within these tumors.">
+		<entity id="s5.e1" charOffset="16-21"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="32-36"
+			type="GENE" text="Flii" ontology_id="2314"/>
+		<entity id="s5.e3" charOffset="52-56"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="These studies therefore suggest that Flii enhances SCC tumor progression by decreasing apoptosis and enhancing tumor cell invasion.">
+		<entity id="s6.e1" charOffset="37-41"
+			type="GENE" text="Flii" ontology_id="2314"/>
+		<entity id="s6.e2" charOffset="51-54"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s6.e3" charOffset="55-60"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24386311">
+	<sentence id="s1" text="In breast cancer, EMT facilitates invasion of surrounding tissues and correlates closely with cancer metastasis and relapse.">
+		<entity id="s1.e1" charOffset="10-16"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="18-21"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We found previously that the candidate tumor suppressor CLCA2 is expressed in differentiated, growth-arrested mammary epithelial cells but is downregulated during tumor progression and EMT.">
+		<entity id="s2.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="56-61"
+			type="GENE" text="CLCA2" ontology_id="9635"/>
+		<entity id="s2.e3" charOffset="185-188"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We show here that another member of the CLCA gene family, CLCA4, is expressed in mammary epithelial cells and is similarly downregulated in breast tumors and in breast cancer cell lines.">
+		<entity id="s3.e1" charOffset="58-63"
+			type="GENE" text="CLCA4" ontology_id="22802"/>
+		<entity id="s3.e2" charOffset="147-152"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="168-174"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Clinically, low expression of CLCA4 signaled lower relapse-free survival in basal and luminal B breast cancers.">
+		<entity id="s4.e1" charOffset="30-35"
+			type="GENE" text="CLCA4" ontology_id="22802"/>
+		<entity id="s4.e2" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29762087">
+	<sentence id="s1" text="Among the available genomic studies, the key findings in Africa were variants in GATA4 (P193H), MTHFR 677TT, and MTHFR 1298CC that were associated with atrial septal defect, ventricular septal defect (VSD), Tetralogy of Fallot (TOF), and patent ductus arteriosus phenotypes and 22q.11 deletion, which is associated with TOF.">
+		<entity id="s1.e1" charOffset="81-86"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s1.e2" charOffset="96-101"
+			type="GENE" text="MTHFR" ontology_id="4524"/>
+		<entity id="s1.e3" charOffset="152-172"
+			type="HP" text="atrial septal defect" ontology_id="HP_0001631"/>
+		<entity id="s1.e4" charOffset="174-199"
+			type="HP" text="ventricular septal defect" ontology_id="HP_0001629"/>
+		<entity id="s1.e5" charOffset="228-231"
+			type="GENE" text="TOF" ontology_id="55079"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

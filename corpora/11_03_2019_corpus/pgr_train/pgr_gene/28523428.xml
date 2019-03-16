@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28523428">
+	<sentence id="s1" text="The Glis3 mutant mice have been characterized for their propensity to develop congenital hypothyroidism, polycystic kidney disease, and some types of cancer.">
+		<entity id="s1.e1" charOffset="4-9"
+			type="GENE" text="Glis3" ontology_id="169792"/>
+		<entity id="s1.e2" charOffset="17-21"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="89-103"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s1.e4" charOffset="150-156"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

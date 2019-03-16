@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28582508">
+	<sentence id="s1" text="Functional studies have elucidated the role of the mammalian target of rapamycin (regulation of cell growth) pathway in breast carcinogenesis, but to date, there is a paucity of data on its contribution to breast cancer risk in women of African ancestry.">
+		<entity id="s1.e1" charOffset="82-107"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e2" charOffset="213-219"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We examined 47628 SNPs in 61 regulation of cell growth pathway genes in the genome wide association study of breast cancer in the African Diaspora study (The Root consortium), which included 3686 participants (1657 cases).">
+		<entity id="s2.e1" charOffset="29-54"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s2.e2" charOffset="116-122"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The regulation of cell growth pathway was significantly associated with overall and estrogen receptor-negative (ER-) breast cancer risk (P = 0.003 and 0.03, respectively).">
+		<entity id="s3.e1" charOffset="4-29"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s3.e2" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="cell cycle arrest (Padj = 0.0018) and negative regulation of cysteine-type endopeptidase activity involved in apoptotic process (Padj = 0.061) were the leading genes for the associations with overall breast cancer risk and ER- breast cancer risk, respectively.">
+		<entity id="s4.e1" charOffset="0-17"
+			type="GO" text="cell cycle arrest" ontology_id="GO_0007050"/>
+		<entity id="s4.e2" charOffset="27-116"
+			type="GO" text="negative regulation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0043154"/>
+		<entity id="s4.e3" charOffset="196-202"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These results provide new insights on the biological relevance of the regulation of cell growth pathway in breast cancer progression and underscore the need for more genetic epidemiology studies of breast cancer in the African Diaspora">
+		<entity id="s5.e1" charOffset="70-95"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s5.e2" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

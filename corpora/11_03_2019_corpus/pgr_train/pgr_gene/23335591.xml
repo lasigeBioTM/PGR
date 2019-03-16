@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23335591">
+	<sentence id="s1" text="Over the past decade, the genetic basis of several forms of autosomal recessive SCD cases has been solved with the identification of four causative genes (DLL3, MESP2, LFNG and HES7).">
+		<entity id="s1.e1" charOffset="60-79"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="80-83"
+			type="GENE" text="SCD" ontology_id="6584"/>
+		<entity id="s1.e3" charOffset="155-159"
+			type="GENE" text="DLL3" ontology_id="10683"/>
+		<entity id="s1.e4" charOffset="161-166"
+			type="GENE" text="MESP2" ontology_id="145873"/>
+		<entity id="s1.e5" charOffset="168-172"
+			type="GENE" text="LFNG" ontology_id="3955"/>
+		<entity id="s1.e6" charOffset="177-181"
+			type="GENE" text="HES7" ontology_id="84667"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

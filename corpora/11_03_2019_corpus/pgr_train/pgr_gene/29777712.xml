@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29777712">
+	<sentence id="s1" text="In the present study, our results indicated that SPOP expression was significantly downregulated in HCC and was associated with tumor size, differentiation and metastasis.">
+		<entity id="s1.e1" charOffset="49-53"
+			type="GENE" text="SPOP" ontology_id="8405"/>
+		<entity id="s1.e2" charOffset="100-103"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s1.e3" charOffset="128-133"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27094817">
+	<sentence id="s1" text="Inherited mutations in protein acetylation, encoding the catalytic subunit of the major N-terminal acetylation complex NatA have been associated with diverse, syndromic X-linked recessive disorders, whereas de novo missense mutations have been reported in one male and one female individual with severe intellectual disability but otherwise unspecific phenotypes.">
+		<entity id="s1.e1" charOffset="23-42"
+			type="GO" text="protein acetylation" ontology_id="GO_0006473"/>
+		<entity id="s1.e2" charOffset="303-326"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The core phenotype of X-linked protein acetylation-related N-terminal-acetyltransferase deficiency in both males and females includes developmental delay, severe intellectual disability, postnatal growth failure with severe microcephaly, and skeletal or cardiac anomalies.">
+		<entity id="s2.e1" charOffset="31-50"
+			type="GO" text="protein acetylation" ontology_id="GO_0006473"/>
+		<entity id="s2.e2" charOffset="134-153"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e3" charOffset="162-185"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e4" charOffset="187-211"
+			type="HP" text="postnatal growth failure" ontology_id="HP_0008897"/>
+		<entity id="s2.e5" charOffset="224-236"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e6" charOffset="254-271"
+			type="HP" text="cardiac anomalies" ontology_id="HP_0001627"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

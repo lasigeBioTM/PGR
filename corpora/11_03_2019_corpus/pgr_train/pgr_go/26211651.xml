@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26211651">
+	<sentence id="s1" text="In addition, polymorphisms in apoptosis-related genes such as protein neddylation, positive regulation of phagocytosis, and positive regulation of phagocytosis are associated with fibrosis progression, and negative regulation of TOR signaling and T cell mediated cytotoxicity variants are associated with HCV-related hepatocellular carcinoma.">
+		<entity id="s1.e1" charOffset="62-81"
+			type="GO" text="protein neddylation" ontology_id="GO_0045116"/>
+		<entity id="s1.e2" charOffset="83-118"
+			type="GO" text="positive regulation of phagocytosis" ontology_id="GO_0050766"/>
+		<entity id="s1.e3" charOffset="124-159"
+			type="GO" text="positive regulation of phagocytosis" ontology_id="GO_0050766"/>
+		<entity id="s1.e4" charOffset="203-227"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e5" charOffset="206-242"
+			type="GO" text="negative regulation of TOR signaling" ontology_id="GO_0032007"/>
+		<entity id="s1.e6" charOffset="247-275"
+			type="GO" text="T cell mediated cytotoxicity" ontology_id="GO_0001913"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

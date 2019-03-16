@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30388826">
+	<sentence id="s1" text="Fungal immunomodulatory protein from li>Nectria haematococca</i> (FIP-nha) has potential as a lung cancer therapeutic; as such, illuminating its anti-tumor mechanism is expected to facilitate novel treatment options.">
+		<entity id="s1.e1" charOffset="66-69"
+			type="GENE" text="FIP" ontology_id="7392"/>
+		<entity id="s1.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="150-155"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus, we comprehensively revealed the anti-tumor mechanism of FIP-nha, which inhibits tumor growth by modulating PI3K/Akt-regulated cell cycle arrest, autophagy, and apoptosis, and provided the basis for further application of fungal immunomodulatory proteins, especially FIP-nha">
+		<entity id="s2.e1" charOffset="43-48"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="62-65"
+			type="GENE" text="FIP" ontology_id="7392"/>
+		<entity id="s2.e3" charOffset="118-121"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28687526">
+	<sentence id="s1" text="Heterozygous missense mutations in mitotic cytokinesis have been associated with autism spectrum disorder.">
+		<entity id="s1.e1" charOffset="35-54"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s1.e2" charOffset="81-87"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

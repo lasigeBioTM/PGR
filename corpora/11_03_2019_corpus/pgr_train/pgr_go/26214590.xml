@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26214590">
+	<sentence id="s1" text="Inactivating NF1 mutations were present in 46% of melanomas expressing wild-type protein phosphorylation and RAS, occurred in older patients and showed a distinct pattern of co-mutation with other RASopathy genes, particularly RASA2.">
+		<entity id="s1.e1" charOffset="50-59"
+			type="HP" text="melanomas" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="81-104"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

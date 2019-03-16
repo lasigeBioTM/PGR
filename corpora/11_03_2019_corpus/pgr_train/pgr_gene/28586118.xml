@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28586118">
+	<sentence id="s1" text="A panel of hypermethylated genes including APC, CSPG2, EPHA5, EYA4, HOXA9, IPF1, ISL1, JAK3, PITX2, SOX1, and TWIST1 predicted cancer-specific survival and SOX1 (HR = 3.46), PITX2 (HR = 4.17), CSPG2 (HR = 5.35), and JAK3 hypermethylation (HR = 0.19) did so independently.">
+		<entity id="s1.e1" charOffset="43-46"
+			type="GENE" text="APC" ontology_id="324"/>
+		<entity id="s1.e2" charOffset="48-53"
+			type="GENE" text="CSPG2" ontology_id="1462"/>
+		<entity id="s1.e3" charOffset="55-60"
+			type="GENE" text="EPHA5" ontology_id="2044"/>
+		<entity id="s1.e4" charOffset="62-66"
+			type="GENE" text="EYA4" ontology_id="2070"/>
+		<entity id="s1.e5" charOffset="68-73"
+			type="GENE" text="HOXA9" ontology_id="3205"/>
+		<entity id="s1.e6" charOffset="75-79"
+			type="GENE" text="IPF1" ontology_id="8050"/>
+		<entity id="s1.e7" charOffset="81-85"
+			type="GENE" text="ISL1" ontology_id="3670"/>
+		<entity id="s1.e8" charOffset="87-91"
+			type="GENE" text="JAK3" ontology_id="3718"/>
+		<entity id="s1.e9" charOffset="93-98"
+			type="GENE" text="PITX2" ontology_id="5308"/>
+		<entity id="s1.e10" charOffset="100-104"
+			type="GENE" text="SOX1" ontology_id="6656"/>
+		<entity id="s1.e11" charOffset="110-116"
+			type="GENE" text="TWIST1" ontology_id="7291"/>
+		<entity id="s1.e12" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e8"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e12"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e10"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e11"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e6"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e7"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e9"
+		    e2="s1.e12" pgr="false"/>
+	</sentence>
+</document>

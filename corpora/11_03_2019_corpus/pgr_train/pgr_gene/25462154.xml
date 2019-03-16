@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25462154">
+	<sentence id="s1" text="Charcot-Marie-Tooth disease type 4B2 with early-onset glaucoma (CMT4B2, OMIM 604563) is a genetically-heterogeneous childhood-onset neuromuscular disorder.">
+		<entity id="s1.e1" charOffset="28-32"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="54-62"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e3" charOffset="64-70"
+			type="GENE" text="CMT4B2" ontology_id="81846"/>
+		<entity id="s1.e4" charOffset="73-76"
+			type="GENE" text="MIM" ontology_id="9788"/>
+		<entity id="s1.e5" charOffset="102-115"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

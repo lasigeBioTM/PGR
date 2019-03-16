@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24120487">
+	<sentence id="s1" text="Walker-Warburg syndrome (nervous system development) is a severe muscular dystrophy with eye and brain malformations.">
+		<entity id="s1.e1" charOffset="25-51"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s1.e2" charOffset="65-83"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The disease family of muscular dystrophy-dystroglycanopathy (MDDG) contains a spectrum of severe to mild disorders, designated as MDDG cardiac muscle tissue development A to C.">
+		<entity id="s2.e1" charOffset="22-40"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s2.e2" charOffset="135-168"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Mutations in protein O-linked mannosylation, protein O-linked mannosylation, protein O-linked glycosylation, protein O-linked glycosylation, protein O-linked mannosylation, LARGE, GDP-mannose biosynthetic process, TMEM5 and branching involved in blood vessel morphogenesis and protein O-linked mannosylation lead to a wide spectrum of phenocardiac muscle tissue developments of congenital muscular dystrophies with or without eye and brain abnormalities.">
+		<entity id="s3.e1" charOffset="13-43"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s3.e2" charOffset="45-75"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s3.e3" charOffset="77-107"
+			type="GO" text="protein O-linked glycosylation" ontology_id="GO_0006493"/>
+		<entity id="s3.e4" charOffset="109-139"
+			type="GO" text="protein O-linked glycosylation" ontology_id="GO_0006493"/>
+		<entity id="s3.e5" charOffset="120-153"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s3.e6" charOffset="141-171"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s3.e7" charOffset="169-189"
+			type="HP" text="muscular dystrophies" ontology_id="HP_0003560"/>
+		<entity id="s3.e8" charOffset="180-212"
+			type="GO" text="GDP-mannose biosynthetic process" ontology_id="GO_0009298"/>
+		<entity id="s3.e9" charOffset="224-272"
+			type="GO" text="branching involved in blood vessel morphogenesis" ontology_id="GO_0001569"/>
+		<entity id="s3.e10" charOffset="277-307"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<pair id="s3.p1" e1="s3.e5"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e4"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p6" e1="s3.e6"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p7" e1="s3.e8"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p8" e1="s3.e9"
+		    e2="s3.e7" pgr="true"/>
+		<pair id="s3.p9" e1="s3.e10"
+		    e2="s3.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Patients with nervous system development frequently demonstrate a complete lack of psychomotor development, severe eye malformations, cobblestone lissencephaly and a hypoplastic cerebellum and brainstem, seizures, hydrocephalus and poor prognosis.">
+		<entity id="s4.e1" charOffset="14-40"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s4.e2" charOffset="166-188"
+			type="HP" text="hypoplastic cerebellum" ontology_id="HP_0001321"/>
+		<entity id="s4.e3" charOffset="204-212"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s4.e4" charOffset="214-227"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

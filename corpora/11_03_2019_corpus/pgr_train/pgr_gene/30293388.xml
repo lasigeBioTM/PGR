@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30293388">
+	<sentence id="s1" text="<b>Objective:</b> To investigate the expression of granulocyte-colony stimulating factor receptor (G-CSFR) in a mouse model of colitis-associated cancer (CAC), and the roles of G-CSFR positive immune cells in the development of CAC.">
+		<entity id="s1.e1" charOffset="101-105"
+			type="GENE" text="CSFR" ontology_id="1436"/>
+		<entity id="s1.e2" charOffset="146-152"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="154-157"
+			type="GENE" text="CAC" ontology_id="788"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

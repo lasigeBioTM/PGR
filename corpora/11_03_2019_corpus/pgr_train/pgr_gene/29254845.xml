@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29254845">
+	<sentence id="s1" text="Conversely, Th17 cells and their effector molecules interleukin 17A (IL-17A), IL-17F, interferon (IFN)γ, tumor necrosis factor (TNF)α, and granulocyte-macrophage colony-stimulating factor (GM-CSF) are implicated in the pathology of rheumatoid arthritis (RA).">
+		<entity id="s1.e1" charOffset="98-101"
+			type="GENE" text="IFN" ontology_id="3439"/>
+		<entity id="s1.e2" charOffset="105-110"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="128-131"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<entity id="s1.e4" charOffset="189-195"
+			type="GENE" text="GM-CSF" ontology_id="1437"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

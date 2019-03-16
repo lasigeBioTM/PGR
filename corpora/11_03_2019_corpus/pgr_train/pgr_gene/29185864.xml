@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29185864">
+	<sentence id="s1" text="Molecular diagnosis is consistent with the genetic heterogeneity of the HPRT1 gene responsible for HGprt deficiency.">
+		<entity id="s1.e1" charOffset="51-64"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="72-77"
+			type="GENE" text="HPRT1" ontology_id="3251"/>
+		<entity id="s1.e3" charOffset="99-104"
+			type="GENE" text="HGprt" ontology_id="3251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30305727">
+	<sentence id="s1" text="telomere maintenance via telomerase is upregulated in numerous solid tumors, which is thought to induce the angiogenesis and promote cancer metastasis.">
+		<entity id="s1.e1" charOffset="0-35"
+			type="GO" text="telomere maintenance via telomerase" ontology_id="GO_0007004"/>
+		<entity id="s1.e2" charOffset="69-75"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="133-139"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

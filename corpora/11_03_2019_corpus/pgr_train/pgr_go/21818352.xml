@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21818352">
+	<sentence id="s1" text="We examined the effects of a mutation in the superoxide metabolic process gene (Sh3pxd2b(nee)) on the progression of otitis media and hearing impairment at various developmental stages.">
+		<entity id="s1.e1" charOffset="45-73"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s1.e2" charOffset="134-152"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

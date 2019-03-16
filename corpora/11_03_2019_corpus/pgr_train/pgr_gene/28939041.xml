@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28939041">
+	<sentence id="s1" text="The overexpression of PARIS selectively leads to the loss of dopaminergic neurons (DN) and mitochondrial abnormalities in the substantia nigra (SN) of Parkinson's disease (PD) models.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="PARIS" ontology_id="155061"/>
+		<entity id="s1.e2" charOffset="91-104"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s1.e3" charOffset="144-146"
+			type="GENE" text="SN" ontology_id="7857"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

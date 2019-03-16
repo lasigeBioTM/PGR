@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29463994">
+	<sentence id="s1" text="The homeodomain transcription factor eye development was recently reported to be a negative regulator of the Wnt pathway and has an emerging role in cancer.">
+		<entity id="s1.e1" charOffset="37-52"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e2" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

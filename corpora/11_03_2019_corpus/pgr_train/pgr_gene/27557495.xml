@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27557495">
+	<sentence id="s1" text="Polo-Like Kinase 1 (PLK1), a serine-threonine kinase that is often overexpressed across multiple tumor types, is one of the key regulators of CIN and is considered as a potential therapeutic target.">
+		<entity id="s1.e1" charOffset="20-24"
+			type="GENE" text="PLK1" ontology_id="5347"/>
+		<entity id="s1.e2" charOffset="97-102"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Rather than directly inhibiting PLK1, we found that inhibition of PP2A causes selective lethality to PLK1-overexpressing breast, pancreatic, ovarian, glioblastoma, and prostate cancer cells.">
+		<entity id="s2.e1" charOffset="32-36"
+			type="GENE" text="PLK1" ontology_id="5347"/>
+		<entity id="s2.e2" charOffset="150-162"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<entity id="s2.e3" charOffset="177-183"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

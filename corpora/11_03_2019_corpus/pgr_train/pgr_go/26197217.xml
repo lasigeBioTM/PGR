@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26197217">
+	<sentence id="s1" text="Two additional mutations linked to different forms of retinal dystrophies were identified in two families: a known frameshift deletion in visual perception, a gene responsible for X-linked retinitis pigmentosa and p.Ser163Arg in embryo development ending in birth or egg hatching associated with Late-Onset Retinal Degeneration.">
+		<entity id="s1.e1" charOffset="54-73"
+			type="HP" text="retinal dystrophies" ontology_id="HP_0000556"/>
+		<entity id="s1.e2" charOffset="138-155"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e3" charOffset="229-279"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This study allowed the identification of the genetic cause of the retinal dystrophy and the establishment of a correct diagnosis in four families, including a large heterozygous deletion in spliceosomal tri-snRNP complex assembly, typically considered one of the pitfalls of this method.">
+		<entity id="s2.e1" charOffset="66-83"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<entity id="s2.e2" charOffset="190-229"
+			type="GO" text="spliceosomal tri-snRNP complex assembly" ontology_id="GO_0000244"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

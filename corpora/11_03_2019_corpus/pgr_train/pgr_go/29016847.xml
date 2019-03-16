@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29016847">
+	<sentence id="s1" text="The most likely causal variant identified was a novel missense variant in the X-linked glutamate receptor signaling pathway gene, which has been implicated in intellectual disability.">
+		<entity id="s1.e1" charOffset="87-123"
+			type="GO" text="glutamate receptor signaling pathway" ontology_id="GO_0007215"/>
+		<entity id="s1.e2" charOffset="159-182"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

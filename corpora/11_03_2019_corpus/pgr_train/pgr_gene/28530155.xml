@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28530155">
+	<sentence id="s1" text="To examine if CRC patients have altered decorin levels, expression of decorin and its target genes, Met and vascular endothelial growth factor A (VEGFA), were analyzed in their tumors.">
+		<entity id="s1.e1" charOffset="100-103"
+			type="GENE" text="Met" ontology_id="4233"/>
+		<entity id="s1.e2" charOffset="146-151"
+			type="GENE" text="VEGFA" ontology_id="7422"/>
+		<entity id="s1.e3" charOffset="177-183"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Compared to normal tissues, decorin expression was reduced in CRC patients' tumors, while there were increased Met and VEGFA levels.">
+		<entity id="s2.e1" charOffset="76-82"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="111-114"
+			type="GENE" text="Met" ontology_id="4233"/>
+		<entity id="s2.e3" charOffset="119-124"
+			type="GENE" text="VEGFA" ontology_id="7422"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Several therapeutic strategies expressing GM-CSF have been employed in clinical trials for treating metastatic colorectal cancer.">
+		<entity id="s3.e1" charOffset="42-48"
+			type="GENE" text="GM-CSF" ontology_id="1437"/>
+		<entity id="s3.e2" charOffset="122-128"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

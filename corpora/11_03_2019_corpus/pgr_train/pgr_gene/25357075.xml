@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25357075">
+	<sentence id="s1" text="Mutations in the membrane frizzled-related protein (MFRP/Mfrp) gene, specifically expressed in the retinal pigment epithelium (RPE) and ciliary body, cause nanophthalmia or posterior microphthalmia with retinitis pigmentosa in humans, and photoreceptor degeneration in mice.">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="MFRP" ontology_id="83552"/>
+		<entity id="s1.e2" charOffset="57-61"
+			type="GENE" text="Mfrp" ontology_id="83552"/>
+		<entity id="s1.e3" charOffset="127-130"
+			type="GENE" text="RPE" ontology_id="6120"/>
+		<entity id="s1.e4" charOffset="183-197"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e5" charOffset="269-273"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In Mfrprd6 eyes, a significant 1.5- to 2.0-fold decrease was observed among transcripts of genes linked to retinal degeneration, including those involved in visual cycle (Rpe65, Lrat, Rgr), phototransduction (Pde6a, Guca1b, Rgs9), and photoreceptor disc morphogenesis (Rpgrip1 and Fscn2).">
+		<entity id="s2.e1" charOffset="3-7"
+			type="GENE" text="Mfrp" ontology_id="83552"/>
+		<entity id="s2.e2" charOffset="107-127"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e3" charOffset="171-176"
+			type="GENE" text="R.e3" ontology_id="6121"/>
+		<entity id="s2.e4" charOffset="178-182"
+			type="GENE" text="Lrat" ontology_id="9227"/>
+		<entity id="s2.e5" charOffset="184-187"
+			type="GENE" text="Rgr" ontology_id="5995"/>
+		<entity id="s2.e6" charOffset="209-214"
+			type="GENE" text="P.e6a" ontology_id="5145"/>
+		<entity id="s2.e7" charOffset="216-222"
+			type="GENE" text="Guca1b" ontology_id="2979"/>
+		<entity id="s2.e8" charOffset="224-228"
+			type="GENE" text="Rgs9" ontology_id="388531"/>
+		<entity id="s2.e9" charOffset="269-276"
+			type="GENE" text="Rpgrip1" ontology_id="57096"/>
+		<entity id="s2.e10" charOffset="281-286"
+			type="GENE" text="Fscn2" ontology_id="25794"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e2"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e2"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e2"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Transcripts of Prss56, a gene associated with angle-closure glaucoma, posterior microphthalmia and myopia, were increased in Mfrprd6 eyes by 17-fold.">
+		<entity id="s3.e1" charOffset="15-21"
+			type="GENE" text="Prss56" ontology_id="646960"/>
+		<entity id="s3.e2" charOffset="60-68"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s3.e3" charOffset="80-94"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s3.e4" charOffset="99-105"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s3.e5" charOffset="125-129"
+			type="GENE" text="Mfrp" ontology_id="83552"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e9" pgr="false"/>
+	</sentence>
+</document>

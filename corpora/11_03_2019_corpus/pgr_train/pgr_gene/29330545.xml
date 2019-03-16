@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29330545">
+	<sentence id="s1" text="We identified the first de novo variant in KCNMA1 (c.2984 A AAAA G (p.(N995S)))-encoding the BK channel-that causes epilepsy, but not paroxysmal dyskinesia, in two independent families.">
+		<entity id="s1.e1" charOffset="43-49"
+			type="GENE" text="KCNMA1" ontology_id="3778"/>
+		<entity id="s1.e2" charOffset="116-124"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="134-155"
+			type="HP" text="paroxysmal dyskinesia" ontology_id="HP_0007166"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

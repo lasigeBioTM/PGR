@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28678915">
+	<sentence id="s1" text="The expression of the ID2, PRELP and SMOC2 genes was compared between the endometrium of women without endometriosis in the proliferative phase of their menstrual cycle and the eutopic and ectopic endometrium of women with endometriosis in the proliferative phase.">
+		<entity id="s1.e1" charOffset="27-32"
+			type="GENE" text="PRELP" ontology_id="5549"/>
+		<entity id="s1.e2" charOffset="37-42"
+			type="GENE" text="SMOC2" ontology_id="64094"/>
+		<entity id="s1.e3" charOffset="103-116"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The ID2 gene expression was increased in the most advanced stage of endometriosis and in ovarian endometriomas, the PRELP was more expressed in peritoneal lesions, and the SMOC2 was highly expressed in both peritoneal and endometrioma lesions.">
+		<entity id="s2.e1" charOffset="68-81"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s2.e2" charOffset="116-121"
+			type="GENE" text="PRELP" ontology_id="5549"/>
+		<entity id="s2.e3" charOffset="172-177"
+			type="GENE" text="SMOC2" ontology_id="64094"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

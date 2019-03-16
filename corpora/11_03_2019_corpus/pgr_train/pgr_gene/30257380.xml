@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30257380">
+	<sentence id="s1" text="Our present study confirmed radiation can promote the in vitro migration and invasion of triple negative breast cancer (TNBC) cells and increase the expression of epithelial-mesenchymal transition (EMT) related transcription factor ZEB1, while had no effect on Snail, Slug or Twist.">
+		<entity id="s1.e1" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="198-201"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s1.e3" charOffset="232-236"
+			type="GENE" text="ZEB1" ontology_id="6935"/>
+		<entity id="s1.e4" charOffset="261-266"
+			type="GENE" text="Snail" ontology_id="6615"/>
+		<entity id="s1.e5" charOffset="268-272"
+			type="GENE" text="Slug" ontology_id="6591"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

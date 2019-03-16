@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30271078">
+	<sentence id="s1" text="Although the expression pattern and functions of the CaSR in the colonic microenvironment are far from being completely understood, evidence has been accumulating that the CaSR might play a protective role against both colonic inflammation and colorectal cancer.">
+		<entity id="s1.e1" charOffset="53-57"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s1.e2" charOffset="255-261"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="For example, CaSR agonists such as dipeptides have been suggested to reduce colonic inflammation, while dietary calcium was shown to reduce the risk of colorectal cancer.">
+		<entity id="s2.e1" charOffset="13-17"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s2.e2" charOffset="163-169"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="CaSR expression is lost in colonic malignancies, indicating that the CaSR is a biomarker for colonic cancer progression.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s3.e2" charOffset="101-107"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This dual anti-inflammatory and anti-tumourigenic role of the CaSR makes it especially interesting in colitis-associated colorectal cancer.">
+		<entity id="s4.e1" charOffset="62-66"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s4.e2" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In this review, we describe the clinical and experimental evidence for the role of the CaSR in colonic inflammation and colorectal cancer, the intracellular signalling pathways which are putatively involved in these actions, and the possibilities to exploit these actions of the CaSR for future therapies of colonic inflammation and cancer">
+		<entity id="s5.e1" charOffset="87-91"
+			type="GENE" text="CaSR" ontology_id="846"/>
+		<entity id="s5.e2" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

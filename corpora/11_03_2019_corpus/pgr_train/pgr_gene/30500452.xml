@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30500452">
+	<sentence id="s1" text="Vascular endothelial cell damage is related to many vascular diseases, including cardiovascular disease (CVD).">
+		<entity id="s1.e1" charOffset="26-32"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e2" charOffset="81-103"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Reactive oxygen species (ROS) play a vital role in the pathogenesis of many cardiovascular diseases.">
+		<entity id="s2.e1" charOffset="25-28"
+			type="GENE" text="ROS" ontology_id="6098"/>
+		<entity id="s2.e2" charOffset="76-98"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

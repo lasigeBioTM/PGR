@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26875496">
+	<sentence id="s1" text="Shh signalling from the prechordal plate and ventral midline of the diencephalon is required for appropriate division of the eyefield and forebrain, with mutation in a number of pathway components associated with Holoprosencephaly, a clinically heterogeneous developmental defect characterized by a failure of the early forebrain vesicle to divide into distinct halves.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="Shh" ontology_id="6469"/>
+		<entity id="s1.e2" charOffset="245-258"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26542286">
+	<sentence id="s1" text="Primary creatine disorders are inherited as autosomal recessive (mutations affecting creatine biosynthetic process [for glycine-amidinotransferase, mitochondrial]) and creatine biosynthetic process genes) or X-linked (creatine transmembrane transport gene) traits.">
+		<entity id="s1.e1" charOffset="44-63"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="85-114"
+			type="GO" text="creatine biosynthetic process" ontology_id="GO_0006601"/>
+		<entity id="s1.e3" charOffset="143-172"
+			type="GO" text="creatine biosynthetic process" ontology_id="GO_0006601"/>
+		<entity id="s1.e4" charOffset="193-225"
+			type="GO" text="creatine transmembrane transport" ontology_id="GO_0015881"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

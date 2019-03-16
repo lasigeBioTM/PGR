@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27103084">
+	<sentence id="s1" text="In a recent study combining autozygome and exome analysis, a homozygous loss of function mutation in TENM3 (previously named ODZ3) was reported in two siblings with isolated bilateral colobomatous microphthalmia from a consanguineous Saudi family.">
+		<entity id="s1.e1" charOffset="101-106"
+			type="GENE" text="TENM3" ontology_id="55714"/>
+		<entity id="s1.e2" charOffset="125-129"
+			type="GENE" text="ODZ3" ontology_id="10178"/>
+		<entity id="s1.e3" charOffset="174-183"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e4" charOffset="197-211"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Herein, we report a third patient (not related to the previously reported family) with bilateral colobomatous microphthalmia and developmental delay in whom genetic studies identified a homozygous TENM3 splicing mutation c.2968-2AAAAAT (p.Val990Cysfs*13).">
+		<entity id="s2.e1" charOffset="87-96"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s2.e2" charOffset="110-124"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s2.e3" charOffset="129-148"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e4" charOffset="197-202"
+			type="GENE" text="TENM3" ontology_id="55714"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This report supports the association of TENM3 mutations with colobomatous microphthalmia and expands the phenotypic spectrum associated with mutations in this gene.">
+		<entity id="s3.e1" charOffset="40-45"
+			type="GENE" text="TENM3" ontology_id="55714"/>
+		<entity id="s3.e2" charOffset="74-88"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

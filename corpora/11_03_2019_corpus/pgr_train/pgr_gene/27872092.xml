@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27872092">
+	<sentence id="s1" text="The polo family serine threonine kinase Plk4 has been proposed as a therapeutic target in advanced cancers based on increased expression in primary human cancers, facilitation of tumor growth in murine xenograft models, and centrosomal amplification induced by its overexpression.">
+		<entity id="s1.e1" charOffset="40-44"
+			type="GENE" text="Plk4" ontology_id="10733"/>
+		<entity id="s1.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="179-184"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we characterize Plk4-dependent cancer cell migration and invasion as well as local invasion and metastasis of cancer xenografts.">
+		<entity id="s2.e1" charOffset="21-25"
+			type="GENE" text="Plk4" ontology_id="10733"/>
+		<entity id="s2.e2" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Plk4 depletion suppressed cancer invasion and induced an epithelial phenotype in poorly differentiated breast cancer cells.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="Plk4" ontology_id="10733"/>
+		<entity id="s3.e2" charOffset="26-32"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In an unbiased BioID screen for Plk4 interactors, we identified members of the Arp2/3 complex and confirmed a physical and functional interaction between Plk4 and Arp2 in mediating Plk4-driven cancer cell movement.">
+		<entity id="s4.e1" charOffset="32-36"
+			type="GENE" text="Plk4" ontology_id="10733"/>
+		<entity id="s4.e2" charOffset="79-83"
+			type="GENE" text="Arp2" ontology_id="10097"/>
+		<entity id="s4.e3" charOffset="193-199"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Our results validate Plk4 as a therapeutic target in cancer patients and reveal a new role for Plk4 in regulating Arp2/3-mediated actin cytoskeletal rearrangement.">
+		<entity id="s5.e1" charOffset="21-25"
+			type="GENE" text="Plk4" ontology_id="10733"/>
+		<entity id="s5.e2" charOffset="53-59"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="114-118"
+			type="GENE" text="Arp2" ontology_id="10097"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

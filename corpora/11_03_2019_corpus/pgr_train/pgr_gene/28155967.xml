@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28155967">
+	<sentence id="s1" text="Diabetes is a metabolic disorder characterized by hyperglycemia and associated with microvascular and macrovascular syndromes mediated by mast cells.">
+		<entity id="s1.e1" charOffset="50-63"
+			type="HP" text="hyperglycemia" ontology_id="HP_0003074"/>
+		<entity id="s1.e2" charOffset="138-142"
+			type="GENE" text="mast" ontology_id="51324"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

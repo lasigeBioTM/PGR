@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29265763">
+	<sentence id="s1" text="Brain malformations described in association with 22q11.2 deletion syndrome include polymicrogyria, cerebellar hypoplasia, megacisterna magna, and agenesis of the corpus callosum (acetyl-CoA metabolic process), although these are rare.">
+		<entity id="s1.e1" charOffset="84-98"
+			type="HP" text="polymicrogyria" ontology_id="HP_0002126"/>
+		<entity id="s1.e2" charOffset="100-121"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<entity id="s1.e3" charOffset="147-178"
+			type="HP" text="agenesis of the corpus callosum" ontology_id="HP_0001274"/>
+		<entity id="s1.e4" charOffset="180-208"
+			type="GO" text="acetyl-CoA metabolic process" ontology_id="GO_0006084"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Although the patient showed cardiac anomalies, which is one of the typical symptoms of 22q11.2 deletion syndrome, her rather severe phenotype and atypical interstrand cross-link repair prompted us to search for additional pathogenic mutations.">
+		<entity id="s2.e1" charOffset="28-45"
+			type="HP" text="cardiac anomalies" ontology_id="HP_0001627"/>
+		<entity id="s2.e2" charOffset="155-184"
+			type="GO" text="interstrand cross-link repair" ontology_id="GO_0036297"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

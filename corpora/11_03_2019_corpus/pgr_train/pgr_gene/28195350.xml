@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28195350">
+	<sentence id="s1" text="Various genes (eg, SPG7, SYNE1, PNPLA6) traditionally rooted in either the ataxia or hereditary spastic paraplegia classification system have now been shown to cause ataxia on the one end of the disease continuum and hereditary spastic paraplegia on the other.">
+		<entity id="s1.e1" charOffset="19-23"
+			type="GENE" text="SPG7" ontology_id="6687"/>
+		<entity id="s1.e2" charOffset="25-30"
+			type="GENE" text="SYNE1" ontology_id="23345"/>
+		<entity id="s1.e3" charOffset="32-38"
+			type="GENE" text="PNPLA6" ontology_id="10908"/>
+		<entity id="s1.e4" charOffset="75-81"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e5" charOffset="184-187"
+			type="GENE" text="end" ontology_id="2022"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Other genes such as GBA2 and KIF1C were almost simultaneously published as both a hereditary spastic paraplegia and an ataxia gene.">
+		<entity id="s2.e1" charOffset="20-24"
+			type="GENE" text="GBA2" ontology_id="57704"/>
+		<entity id="s2.e2" charOffset="29-34"
+			type="GENE" text="KIF1C" ontology_id="10749"/>
+		<entity id="s2.e3" charOffset="119-125"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

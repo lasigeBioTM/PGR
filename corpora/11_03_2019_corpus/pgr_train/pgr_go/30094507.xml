@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30094507">
+	<sentence id="s1" text="Somewhat arbitrarily, three disorders were successively put forward as the underlying cause of HIES: autosomal dominant (AD) regulation of transcription, DNA-templated deficiency, the only disorder corresponding to the original definition of HIES, and autosomal recessive (AR) positive regulation of GTPase activity and UDP-N-acetylglucosamine biosynthetic process deficiencies, in which atopy and high serum IgE levels occur in a context of manifestations not seen in patients with typical HIES.">
+		<entity id="s1.e1" charOffset="125-167"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="252-271"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="277-315"
+			type="GO" text="positive regulation of GTPase activity" ontology_id="GO_0043547"/>
+		<entity id="s1.e4" charOffset="320-364"
+			type="GO" text="UDP-N-acetylglucosamine biosynthetic process" ontology_id="GO_0006048"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

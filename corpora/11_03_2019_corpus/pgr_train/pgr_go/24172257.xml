@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24172257">
+	<sentence id="s1" text="The results show that negative regulation of cell proliferation plays an important role in eye development and homozygous loss-of-function mutation of this gene can cause severely high myopia and early-onset cataract.">
+		<entity id="s1.e1" charOffset="22-63"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e2" charOffset="185-191"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s1.e3" charOffset="208-216"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

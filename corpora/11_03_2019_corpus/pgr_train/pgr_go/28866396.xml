@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28866396">
+	<sentence id="s1" text="Among all premature deaths, contributions of cerebrovascular disease (stroke), ischemic heart disease (IHD), chronic obstructive pulmonary disease (ER to Golgi vesicle-mediated transport), lung cancer (LC) and acute lower respiratory infections (ALRIs) were 51.70, 26.26, 11.77, 9.45 and 0.82%, respectively.">
+		<entity id="s1.e1" charOffset="148-186"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e2" charOffset="194-200"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29670100">
+	<sentence id="s1" text="A pathogenic R474Q mutation of LGI1, which does not exceptionally affect either the secretion or the ADAM22 binding, is located in the LGI1-LGI1 interface and disrupts the higher-order assembly of the LGI1-ADAM22 complex in vitro and in a mouse model for familial epilepsy.">
+		<entity id="s1.e1" charOffset="31-35"
+			type="GENE" text="LGI1" ontology_id="9211"/>
+		<entity id="s1.e2" charOffset="101-107"
+			type="GENE" text="ADAM22" ontology_id="53616"/>
+		<entity id="s1.e3" charOffset="264-272"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26811476">
+	<sentence id="s1" text="Via its bipartite zona pellucida module (ZP-N/ZP-C), heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules forms extracellular filaments that regulate kidney electrolyte balance and innate immunity, as well as protect against renal stones.">
+		<entity id="s1.e1" charOffset="53-128"
+			type="GO" text="heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules" ontology_id="GO_0007157"/>
+		<entity id="s1.e2" charOffset="248-260"
+			type="HP" text="renal stones" ontology_id="HP_0000787"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This arrangement is required for filament formation and is directed by an ordered ZP-N/ZP-C linker that is not observed in ZP2 but is conserved in the sequence of deafness/Crohn's disease-associated homopolymeric glycoproteins α-tectorin (cell-matrix adhesion) and glycoprotein 2 (GP2).">
+		<entity id="s2.e1" charOffset="163-171"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="239-259"
+			type="GO" text="cell-matrix adhesion" ontology_id="GO_0007160"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

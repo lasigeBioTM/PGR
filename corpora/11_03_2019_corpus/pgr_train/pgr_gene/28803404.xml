@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803404">
+	<sentence id="s1" text="Single-gene variant analysis showed significant associations of the TT genotype of CYP1A1 and the rare GG genotype of ERCC2 with bladder cancer susceptibility (OR = 1.34, 95% CI 1.22-1.40, P AAAA 0.0001).">
+		<entity id="s1.e1" charOffset="83-89"
+			type="GENE" text="CYP1A1" ontology_id="1543"/>
+		<entity id="s1.e2" charOffset="118-123"
+			type="GENE" text="ERCC2" ontology_id="2068"/>
+		<entity id="s1.e3" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

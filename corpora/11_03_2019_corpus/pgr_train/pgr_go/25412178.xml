@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25412178">
+	<sentence id="s1" text="Mutations in positive regulation of protein phosphorylation, a mitochondrially targeted serine/threonine kinase, cause autosomal recessive Parkinson's disease (PD).">
+		<entity id="s1.e1" charOffset="13-59"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e2" charOffset="119-138"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

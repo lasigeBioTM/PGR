@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25343988">
+	<sentence id="s1" text="In humans, mutations in several genes involved in the Notch pathway are associated with SDV, with both autosomal recessive (MESP2, DLL3, LFNG, HES7) and autosomal dominant (TBX6) inheritance.">
+		<entity id="s1.e1" charOffset="103-122"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="124-129"
+			type="GENE" text="MESP2" ontology_id="145873"/>
+		<entity id="s1.e3" charOffset="131-135"
+			type="GENE" text="DLL3" ontology_id="10683"/>
+		<entity id="s1.e4" charOffset="137-141"
+			type="GENE" text="LFNG" ontology_id="3955"/>
+		<entity id="s1.e5" charOffset="143-147"
+			type="GENE" text="HES7" ontology_id="84667"/>
+		<entity id="s1.e6" charOffset="173-177"
+			type="GENE" text="TBX6" ontology_id="6911"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

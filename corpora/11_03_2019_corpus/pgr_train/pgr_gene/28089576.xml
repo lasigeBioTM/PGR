@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28089576">
+	<sentence id="s1" text="Mutations in the Pejvakin (Pjvk) gene cause autosomal recessive hearing loss DFNB59 with audiological features of auditory neuropathy spectrum disorder (ANSD) or cochlear dysfunction.">
+		<entity id="s1.e1" charOffset="27-31"
+			type="GENE" text="Pjvk" ontology_id="494513"/>
+		<entity id="s1.e2" charOffset="44-63"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="64-76"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="123-133"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we demonstrate that mice with conditional ablation of the Pjvk gene in all sensory hair cells or only in outer hair cells (OHCs) show similar auditory phenotypes with early-onset profound hearing loss.">
+		<entity id="s2.e1" charOffset="26-30"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="64-68"
+			type="GENE" text="Pjvk" ontology_id="494513"/>
+		<entity id="s2.e3" charOffset="185-193"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s2.e4" charOffset="194-206"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="By contrast, loss of Pjvk in adult OHCs causes a slowly progressive hearing loss associated with OHC degeneration and delayed loss of inner hair cells (IHCs), indicating a primary role for pejvakin in regulating OHC function and survival.">
+		<entity id="s3.e1" charOffset="21-25"
+			type="GENE" text="Pjvk" ontology_id="494513"/>
+		<entity id="s3.e2" charOffset="68-80"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

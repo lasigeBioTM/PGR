@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26489614">
+	<sentence id="s1" text="Previous studies have reported the association of prodynorphin (PDYN) promoter polymorphism with temporal lobe epilepsy (TLE) susceptibility, but the results remain inconclusive.">
+		<entity id="s1.e1" charOffset="64-68"
+			type="GENE" text="PDYN" ontology_id="5173"/>
+		<entity id="s1.e2" charOffset="111-119"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

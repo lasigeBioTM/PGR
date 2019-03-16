@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29061647">
+	<sentence id="s1" text="Pyridoxine-dependent epilepsy (PDE) is a rare disease characterized by mutations in the lysine degradation gene li>ALDH7A1</i> leading to recurrent neonatal seizures, which are uniquely alleviated by high doses of pyridoxine or pyridoxal 5'-phosphate (vitamin B6 vitamers).">
+		<entity id="s1.e1" charOffset="21-29"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="31-34"
+			type="GENE" text="PDE" ontology_id="501"/>
+		<entity id="s1.e3" charOffset="157-165"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Over 60 years after the initial description of PDE, we report the first animal model for this disease: an aldh7a1-null zebrafish (li>Danio rerio</i>) displaying deficient lysine metabolism and spontaneous and recurrent seizures in the larval stage (10 days postfertilization).">
+		<entity id="s2.e1" charOffset="47-50"
+			type="GENE" text="PDE" ontology_id="501"/>
+		<entity id="s2.e2" charOffset="106-113"
+			type="GENE" text="aldh7a1" ontology_id="501"/>
+		<entity id="s2.e3" charOffset="219-227"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Remarkably, as is the case in human PDE, the seizures show an almost immediate sensitivity to pyridoxine and pyridoxal 5'-phosphate, with a resulting extension of the life span.">
+		<entity id="s3.e1" charOffset="36-39"
+			type="GENE" text="PDE" ontology_id="501"/>
+		<entity id="s3.e2" charOffset="45-53"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Impaired lysine degradation with accumulation of PDE biomarkers, B6 deficiency, and low γ-aminobutyric acid levels were observed in the li>aldh7a1</i><sup>-/-</sup> larvae, which may play a significant role in the seizure phenotype and PDE pathogenesis.">
+		<entity id="s4.e1" charOffset="49-52"
+			type="GENE" text="PDE" ontology_id="501"/>
+		<entity id="s4.e2" charOffset="139-146"
+			type="GENE" text="aldh7a1" ontology_id="501"/>
+		<entity id="s4.e3" charOffset="214-221"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="This novel model provides valuable insights into PDE pathophysiology; further research may offer new opportunities for drug discovery to control seizure activity and improve neurodevelopmental outcomes for PDE">
+		<entity id="s5.e1" charOffset="49-52"
+			type="GENE" text="PDE" ontology_id="501"/>
+		<entity id="s5.e2" charOffset="145-152"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

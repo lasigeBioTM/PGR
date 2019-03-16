@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20335458">
+	<sentence id="s1" text="These experiments identify a role for mitofusins in directly regulating mitochondrial transport and offer important insight into the cell cardiac muscle tissue development specificity and molecular mechanisms of axonal degeneration in microtubule-based movement and dominant optic atrophy">
+		<entity id="s1.e1" charOffset="138-171"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="212-231"
+			type="HP" text="axonal degeneration" ontology_id="HP_0040078"/>
+		<entity id="s1.e3" charOffset="235-261"
+			type="GO" text="microtubule-based movement" ontology_id="GO_0007018"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

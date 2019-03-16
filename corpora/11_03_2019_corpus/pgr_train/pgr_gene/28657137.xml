@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28657137">
+	<sentence id="s1" text="A single family with an autosomal recessive form of OFCS and a homozygous missense mutation in PAX1 gene has been described.">
+		<entity id="s1.e1" charOffset="24-43"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="95-99"
+			type="GENE" text="PAX1" ontology_id="5075"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This report provides evidence that bi-allelic null PAX1 mutations may lead to a multi-system autosomal recessive disorders, where SCID might represent the main feature">
+		<entity id="s2.e1" charOffset="51-55"
+			type="GENE" text="PAX1" ontology_id="5075"/>
+		<entity id="s2.e2" charOffset="93-112"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

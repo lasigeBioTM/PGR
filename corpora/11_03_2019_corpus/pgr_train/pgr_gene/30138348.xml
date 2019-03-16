@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30138348">
+	<sentence id="s1" text="Based on our analysis of fold-change in gene expression as a function of disease stage (i.e., early vs. advanced), coupled with consideration of the known relevant functions of these genes, we focused on four candidate genes, ACSL4, GNMT, IFI27, and miR122, which are expressed stage-specifically in HCV mono- and HIV-1/HCV co-infective liver disease and are known to play a pivotal role in regulating HCV-mediated hepatocellular carcinoma (HCC).">
+		<entity id="s1.e1" charOffset="226-231"
+			type="GENE" text="ACSL4" ontology_id="2182"/>
+		<entity id="s1.e2" charOffset="233-237"
+			type="GENE" text="GNMT" ontology_id="27232"/>
+		<entity id="s1.e3" charOffset="239-244"
+			type="GENE" text="IFI27" ontology_id="3429"/>
+		<entity id="s1.e4" charOffset="415-439"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e5" charOffset="441-444"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

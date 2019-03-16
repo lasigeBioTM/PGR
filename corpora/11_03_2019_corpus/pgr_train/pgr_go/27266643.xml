@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27266643">
+	<sentence id="s1" text="Chylomicron retention disease (positive regulation of transcription by RNA polymerase II) is a rare autosomal recessive hereditary hypocholesterolemic disorder.">
+		<entity id="s1.e1" charOffset="31-88"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="100-119"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

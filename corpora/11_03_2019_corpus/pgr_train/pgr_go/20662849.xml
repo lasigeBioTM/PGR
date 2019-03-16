@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20662849">
+	<sentence id="s1" text="We report an ~1.3 Mb tandem duplication at Xp11.23p11.3 in an 11-year-old boy with pleasant personality, hyperactivity, learning and visual-multicellular organism development difficulties, relative microcephaly, long interstrand cross-link repair, stellate iris pattern, and periorbital fullness.">
+		<entity id="s1.e1" charOffset="105-118"
+			type="HP" text="hyperactivity" ontology_id="HP_0000752"/>
+		<entity id="s1.e2" charOffset="140-174"
+			type="GO" text="multicellular organism development" ontology_id="GO_0007275"/>
+		<entity id="s1.e3" charOffset="198-210"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="217-246"
+			type="GO" text="interstrand cross-link repair" ontology_id="GO_0036297"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

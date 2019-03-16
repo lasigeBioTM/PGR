@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22561202">
+	<sentence id="s1" text="6q14 deletions have been associated with intellectual disability and a distinct pattern of minor anomalies, including upslanted palpebral fissures with epicanthal folds, a short nose with broad nasal tip, anteverted nares, long philtrum, and thin upper lip.">
+		<entity id="s1.e1" charOffset="41-64"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="91-96"
+			type="GENE" text="minor" ontology_id="8013"/>
+		<entity id="s1.e3" charOffset="118-146"
+			type="HP" text="upslanted palpebral fissures" ontology_id="HP_0000582"/>
+		<entity id="s1.e4" charOffset="152-168"
+			type="HP" text="epicanthal folds" ontology_id="HP_0000286"/>
+		<entity id="s1.e5" charOffset="172-182"
+			type="HP" text="short nose" ontology_id="HP_0003196"/>
+		<entity id="s1.e6" charOffset="200-203"
+			type="GENE" text="tip" ontology_id="81533"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e14"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Possible candidate genes in 6q14 for intellectual disability might be FILIP1, MYO6, HTR1B, and SNX14">
+		<entity id="s2.e1" charOffset="37-60"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e2" charOffset="70-76"
+			type="GENE" text="FILIP1" ontology_id="27145"/>
+		<entity id="s2.e3" charOffset="78-82"
+			type="GENE" text="MYO6" ontology_id="4646"/>
+		<entity id="s2.e4" charOffset="84-89"
+			type="GENE" text="HTR1B" ontology_id="3351"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

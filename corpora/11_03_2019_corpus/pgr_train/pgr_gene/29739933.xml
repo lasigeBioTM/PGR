@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29739933">
+	<sentence id="s1" text="Our results demonstrate that adenomyoepitheliomas are genetically heterogeneous, and qualify mutations in HRAS, a gene whose mutations are vanishingly rare in common-type breast cancers, as likely drivers of ER-negative adenomyoepitheliomas">
+		<entity id="s1.e1" charOffset="66-79"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="106-110"
+			type="GENE" text="HRAS" ontology_id="3265"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

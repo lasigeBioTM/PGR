@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29973584">
+	<sentence id="s1" text="Large-scale tumor sequencing has revolutionized the identification of somatic driver alterations but has had limited impact on the identification of cancer predisposition genes (CPGs).">
+		<entity id="s1.e1" charOffset="12-17"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="117-123"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e3" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Applied to ~10,000 tumor exomes the approach identifies known and putative CPGs - including the chromatin modifier NSD1 - that contribute to cancer through a combination of rare germline variants and somatic loss-of-heterozygosity (LOH).">
+		<entity id="s2.e1" charOffset="19-24"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="115-119"
+			type="GENE" text="NSD1" ontology_id="64324"/>
+		<entity id="s2.e3" charOffset="141-147"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

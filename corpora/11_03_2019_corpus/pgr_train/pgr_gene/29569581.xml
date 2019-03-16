@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29569581">
+	<sentence id="s1" text="All three and two patients with NKX2.1 variants had hypothyroidism and developmental delay, respectively.">
+		<entity id="s1.e1" charOffset="32-38"
+			type="GENE" text="NKX2.1" ontology_id="7080"/>
+		<entity id="s1.e2" charOffset="52-66"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s1.e3" charOffset="71-90"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

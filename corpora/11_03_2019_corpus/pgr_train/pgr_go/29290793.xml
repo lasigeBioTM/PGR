@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29290793">
+	<sentence id="s1" text="<b>Rationale:</b> Oncogenic regulation of transcription, DNA-templated signaling activation and 3p22-21.3 locus alteration are common in multiple tumors, especially carcinomas of the nasopharynx, esophagus and lung.">
+		<entity id="s1.e1" charOffset="28-70"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="146-152"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="<i>negative regulation of cell proliferation</i> was frequently downregulated in ESCC, lung and NPC cell lines and primary tumors, but was readily expressed in normal tissues and immortalized normal epithelial cells, with mutations rarely detected.">
+		<entity id="s2.e1" charOffset="3-44"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s2.e2" charOffset="123-129"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="<i>negative regulation of cell proliferation</i> methylation was frequently detected in ESCC tumors and correlated with lymph node metastasis, tumor recurrence and progression, with li>negative regulation of cell proliferation</i> as the most frequently methylated among the established 3p22.2 tumor suppressors (li>RASSF1A, PLCD1</i> and li>ZMYND10/BLU</i>).">
+		<entity id="s3.e1" charOffset="3-44"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s3.e2" charOffset="93-99"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="143-148"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

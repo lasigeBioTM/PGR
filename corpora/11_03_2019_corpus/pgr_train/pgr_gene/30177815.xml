@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30177815">
+	<sentence id="s1" text="As proof of concept, we applied CRAFT to epilepsy and predicted the tyrosine kinase receptor Csf1R as a potential therapeutic target.">
+		<entity id="s1.e1" charOffset="41-49"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="93-98"
+			type="GENE" text="Csf1R" ontology_id="1436"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The predicted effect of Csf1R blockade in attenuating epilepsy seizures was validated in three pre-clinical models of epilepsy.">
+		<entity id="s2.e1" charOffset="24-29"
+			type="GENE" text="Csf1R" ontology_id="1436"/>
+		<entity id="s2.e2" charOffset="54-62"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="63-71"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These results highlight CRAFT as a systems-level framework for target discovery and suggest Csf1R blockade as a novel therapeutic strategy in epilepsy.">
+		<entity id="s3.e1" charOffset="92-97"
+			type="GENE" text="Csf1R" ontology_id="1436"/>
+		<entity id="s3.e2" charOffset="142-150"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

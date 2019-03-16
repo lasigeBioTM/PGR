@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26952864">
+	<sentence id="s1" text="We observed odds ratios (ORs) of 1.7-2.3 for lung cancer (LC; P=4.0 × 10(-4)), chronic obstructive pulmonary disease (ER to Golgi vesicle-mediated transport; P=9.3 × 10(-4)), peripheral artery disease (mRNA splicing, via spliceosome; P=0.090) and abdominal aortic aneurysms (nucleocytoplasmic transport; P=0.12), and the variant associates strongly with the early-onset forms of LC (OR=4.49, P=2.2 × 10(-4)), ER to Golgi vesicle-mediated transport (OR=3.22, P=2.9 × 10(-4)), mRNA splicing, via spliceosome (OR=3.47, P=9.2 × 10(-3)) and AAA (OR=6.44, P=6.3 × 10(-3)).">
+		<entity id="s1.e1" charOffset="50-56"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="118-156"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s1.e3" charOffset="202-232"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<entity id="s1.e4" charOffset="230-246"
+			type="HP" text="aortic aneurysms" ontology_id="HP_0004942"/>
+		<entity id="s1.e5" charOffset="248-275"
+			type="GO" text="nucleocytoplasmic transport" ontology_id="GO_0006913"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

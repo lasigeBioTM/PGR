@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24942156">
+	<sentence id="s1" text="Patients with physical findings suggestive of Treacher Collins syndrome (TCS) or mandibulofacial dysostosis (MFD) and macrocytic anemia diagnostic of Diamond-Blackfan anemia (DBA) have been reported.">
+		<entity id="s1.e1" charOffset="73-76"
+			type="GENE" text="TCS" ontology_id="6949"/>
+		<entity id="s1.e2" charOffset="81-107"
+			type="HP" text="mandibulofacial dysostosis" ontology_id="HP_0005321"/>
+		<entity id="s1.e3" charOffset="175-178"
+			type="GENE" text="DBA" ontology_id="6223"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We conclude that the phenotype combining features of TCS with DBA is genetically heterogeneous.">
+		<entity id="s2.e1" charOffset="53-56"
+			type="GENE" text="TCS" ontology_id="6949"/>
+		<entity id="s2.e2" charOffset="62-65"
+			type="GENE" text="DBA" ontology_id="6223"/>
+		<entity id="s2.e3" charOffset="81-94"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

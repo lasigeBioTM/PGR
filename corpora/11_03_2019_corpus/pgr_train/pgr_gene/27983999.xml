@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27983999">
+	<sentence id="s1" text="Our study indicates the novel WDR73 p.W371G missense mutation causes infantile onset intellectual disability and cerebellar hypoplasia in recessive mode of inheritance.">
+		<entity id="s1.e1" charOffset="30-35"
+			type="GENE" text="WDR73" ontology_id="84942"/>
+		<entity id="s1.e2" charOffset="85-108"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="113-134"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<entity id="s1.e4" charOffset="148-167"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our findings imply that microcephaly is a variable phenotype in WDR73-related disease, suggest WDR73 to be a candidate gene of severe intellectual disability and cerebellar hypoplasia, and expand the molecular spectrum of WDR73-related disease">
+		<entity id="s2.e1" charOffset="24-36"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e2" charOffset="56-60"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e3" charOffset="64-69"
+			type="GENE" text="WDR73" ontology_id="84942"/>
+		<entity id="s2.e4" charOffset="134-157"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e5" charOffset="162-183"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e4"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+</document>

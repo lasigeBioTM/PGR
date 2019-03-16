@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30506560">
+	<sentence id="s1" text="superoxide metabolic process is a genetically heterogeneous disease with an X-linked recessive (XR-superoxide metabolic process) form caused by mutations in the superoxide metabolic process (OMIM #300481) gene encoding the gp91(phox) protein, and an autosomal recessive (AR-CGD) form caused by mutations in the cytochrome complex assembly (OMIM #608508), protein targeting to membrane (OMIM #608512), antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent (OMIM #608515) and superoxide metabolic process (OMIM #601488) genes encoding p22(phox), p47(phox), p67(phox) and p40(phox), respectively.">
+		<entity id="s1.e1" charOffset="0-28"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s1.e2" charOffset="46-59"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="136-164"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s1.e4" charOffset="201-220"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e5" charOffset="286-313"
+			type="GO" text="cytochrome complex assembly" ontology_id="GO_0017004"/>
+		<entity id="s1.e6" charOffset="330-359"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s1.e7" charOffset="376-471"
+			type="GO" text="antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent" ontology_id="GO_0002479"/>
+		<entity id="s1.e8" charOffset="491-519"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e5"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e14"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e14"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e14"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e14"
+		    e2="s1.e12" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we evaluated the clinical, laboratory and genetic findings and the prognostic effects of molecular inheritance of our 24 superoxide metabolic process cases (14 XR, 10 autosomal recessive-AR).">
+		<entity id="s2.e1" charOffset="136-164"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<entity id="s2.e2" charOffset="182-201"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28179590">
+	<sentence id="s1" text="We identified 22 genes including cellular response to DNA damage stimulus, positive regulation of protein phosphorylation, TP53, adenylate cyclase-activating G protein-coupled receptor signaling pathway, positive regulation of endothelial cell proliferation, transforming growth factor beta receptor signaling pathway, nucleosome disassembly, and phosphorylation with non-silent mutations in the cancer Census Genes.">
+		<entity id="s1.e1" charOffset="33-73"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e2" charOffset="75-121"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="129-202"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s1.e4" charOffset="157-163"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="204-257"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s1.e6" charOffset="259-317"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s1.e7" charOffset="319-341"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s1.e8" charOffset="347-362"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e6"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e8"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Five HGCAs harbored either mono-allelic (four HGCAs) or bi-allelic (one HGCA) transforming growth factor beta receptor signaling pathway mutation or 18q loss that had been known as early carcinoma-specific changes.">
+		<entity id="s2.e1" charOffset="78-136"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s2.e2" charOffset="187-196"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our WES data is largely matched with the earlier 'adenoma-carcinoma model' (cellular response to DNA damage stimulus, positive regulation of protein phosphorylation, positive regulation of endothelial cell proliferation and adenylate cyclase-activating G protein-coupled receptor signaling pathway mutations), but there are newly identified transforming growth factor beta receptor signaling pathway, regulation of cell growth, G1/S transition of mitotic cell cycle, negative regulation of protein kinase activity, protein phosphorylation, negative regulation of transcription by RNA polymerase II, EP300, nucleosome disassembly, regulation of cell adhesion and cellular response to mechanical stimulus mutations in this study.">
+		<entity id="s3.e1" charOffset="58-67"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<entity id="s3.e2" charOffset="76-116"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s3.e3" charOffset="118-164"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s3.e4" charOffset="166-219"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s3.e5" charOffset="175-248"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s3.e6" charOffset="341-399"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s3.e7" charOffset="401-426"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s3.e8" charOffset="428-465"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s3.e9" charOffset="440-462"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<entity id="s3.e10" charOffset="467-513"
+			type="GO" text="negative regulation of protein kinase activity" ontology_id="GO_0006469"/>
+		<entity id="s3.e11" charOffset="515-538"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e12" charOffset="540-597"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e13" charOffset="630-657"
+			type="GO" text="regulation of cell adhesion" ontology_id="GO_0030155"/>
+		<entity id="s3.e14" charOffset="662-702"
+			type="GO" text="cellular response to mechanical stimulus" ontology_id="GO_0071260"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e1"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e1"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p9" e1="s3.e1"
+		    e2="s3.e10" pgr="false"/>
+		<pair id="s3.p10" e1="s3.e1"
+		    e2="s3.e11" pgr="false"/>
+		<pair id="s3.p11" e1="s3.e1"
+		    e2="s3.e12" pgr="false"/>
+		<pair id="s3.p12" e1="s3.e1"
+		    e2="s3.e13" pgr="false"/>
+		<pair id="s3.p13" e1="s3.e1"
+		    e2="s3.e14" pgr="false"/>
+	</sentence>
+</document>

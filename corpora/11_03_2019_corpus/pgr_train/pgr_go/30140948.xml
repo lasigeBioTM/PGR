@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30140948">
+	<sentence id="s1" text="Uterine carcinosarcoma (UCS) has been proposed as a model for epithelial-mesenchymal transition (cytokine production), a process characterized by a functional change facilitating migration and metastasis in many types of cancer.">
+		<entity id="s1.e1" charOffset="97-116"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<entity id="s1.e2" charOffset="221-227"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

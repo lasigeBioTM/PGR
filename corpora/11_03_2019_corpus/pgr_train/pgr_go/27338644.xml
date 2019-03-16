@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27338644">
+	<sentence id="s1" text="Main subtypes of the disease are pseudohypoparathyroidism 1b (sex determination1b) and pseudohypoparathyroidism 1a (PHP1a).">
+		<entity id="s1.e1" charOffset="33-57"
+			type="HP" text="pseudohypoparathyroidism" ontology_id="HP_0000852"/>
+		<entity id="s1.e2" charOffset="62-79"
+			type="GO" text="sex determination" ontology_id="GO_0007530"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Since this is an atypical but previously described rare presentation of sex determination1b, we reemphasize retrograde transport, endosome to Golgi deletions and sex determination1b as a rare cause for early onset obesity and macrosomia.">
+		<entity id="s2.e1" charOffset="72-89"
+			type="GO" text="sex determination" ontology_id="GO_0007530"/>
+		<entity id="s2.e2" charOffset="108-147"
+			type="GO" text="retrograde transport, endosome to Golgi" ontology_id="GO_0042147"/>
+		<entity id="s2.e3" charOffset="166-173"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e4" charOffset="178-188"
+			type="HP" text="macrosomia" ontology_id="HP_0001520"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+</document>

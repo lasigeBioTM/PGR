@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30264546">
+	<sentence id="s1" text="However, in hepatocellular carcinoma (phosphatidylinositol phosphorylation), the characteristics and mechanism of regulation of activated T cell proliferation expression have not been well defined.">
+		<entity id="s1.e1" charOffset="12-36"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="38-74"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s1.e3" charOffset="81-125"
+			type="GO" text="regulation of activated T cell proliferation" ontology_id="GO_0046006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, regulation of activated T cell proliferation expression in tumor cells (T-IDO1) was frequently detected (109/112) by immunohistochemistry in formalin-fixed paraffin-embedded specimens from phosphatidylinositol phosphorylation patients, and the expression patterns were mostly focal (102/109).">
+		<entity id="s2.e1" charOffset="15-59"
+			type="GO" text="regulation of activated T cell proliferation" ontology_id="GO_0046006"/>
+		<entity id="s2.e2" charOffset="74-79"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="204-240"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These findings indicated that T-regulation of activated T cell proliferation expression in phosphatidylinositol phosphorylation is common and is dominantly driven by the host antitumor immune response, which is a favorable prognostic factor in HCC">
+		<entity id="s3.e1" charOffset="32-76"
+			type="GO" text="regulation of activated T cell proliferation" ontology_id="GO_0046006"/>
+		<entity id="s3.e2" charOffset="91-127"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s3.e3" charOffset="146-151"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

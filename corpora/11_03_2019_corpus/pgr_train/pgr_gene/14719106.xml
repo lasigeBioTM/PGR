@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="14719106">
+	<sentence id="s1" text="Subsequent quantitative PCR experiments confirmed that PRDX4, CKS2, MAGED2, and an EST (GenBank accession number BF696304) were expressed at significantly higher levels in tumors with metastasis.">
+		<entity id="s1.e1" charOffset="55-60"
+			type="GENE" text="PRDX4" ontology_id="10549"/>
+		<entity id="s1.e2" charOffset="62-66"
+			type="GENE" text="CKS2" ontology_id="1164"/>
+		<entity id="s1.e3" charOffset="68-74"
+			type="GENE" text="MAGED2" ontology_id="10916"/>
+		<entity id="s1.e4" charOffset="83-86"
+			type="GENE" text="EST" ontology_id="1326"/>
+		<entity id="s1.e5" charOffset="172-178"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

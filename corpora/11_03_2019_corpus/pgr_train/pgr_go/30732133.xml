@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30732133">
+	<sentence id="s1" text="In the present study, we evaluated the association of SENPs polymorphism with susceptibility as well as clinicopathologic features and patients' response of breast cancer (BC) in a Chinese population.We genotyped activation of cysteine-type endopeptidase activity involved in apoptotic process (rs61918808), protein desumoylation (rs6762208), protein desumoylation (rs61697963) by sequencing in a case-control study including 210 BC patients and 225 healthy volunteers.">
+		<entity id="s1.e1" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="213-293"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s1.e3" charOffset="308-329"
+			type="GO" text="protein desumoylation" ontology_id="GO_0016926"/>
+		<entity id="s1.e4" charOffset="343-364"
+			type="GO" text="protein desumoylation" ontology_id="GO_0016926"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

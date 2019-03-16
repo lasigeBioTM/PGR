@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28935222">
+	<sentence id="s1" text="We evaluated the genetic impact of the amyotrophic lateral sclerosis (ALS) risk gene never in mitosis gene a-related kinase 1 (NEK1) in a Belgian cohort of 278 patients with ALS (n = 245) or ALS with frontotemporal dementia (ALS-FTD, n = 33) and 609 control individuals.">
+		<entity id="s1.e1" charOffset="25-31"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s1.e2" charOffset="70-73"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s1.e3" charOffset="127-131"
+			type="GENE" text="NEK1" ontology_id="4750"/>
+		<entity id="s1.e4" charOffset="200-223"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

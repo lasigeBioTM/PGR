@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28479227">
+	<sentence id="s1" text="Limb girdle muscular dystrophy cardiac muscle tissue development 2I (protein O-linked mannosylation) is a progressive disorder caused by mutations in the FuKutin-Related Protein gene (protein O-linked mannosylation).">
+		<entity id="s1.e1" charOffset="12-30"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="31-64"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="69-99"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s1.e4" charOffset="184-214"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="protein O-linked mannosylation displays clinical heterogeneity with onset of severe symptoms in early childhood to mild calf and thigh hypertrophy in the second or third decade.">
+		<entity id="s2.e1" charOffset="0-30"
+			type="GO" text="protein O-linked mannosylation" ontology_id="GO_0035269"/>
+		<entity id="s2.e2" charOffset="49-62"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

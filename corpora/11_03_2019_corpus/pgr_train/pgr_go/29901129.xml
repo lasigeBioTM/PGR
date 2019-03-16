@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29901129">
+	<sentence id="s1" text="Schwartz-Jampel syndrome cardiac muscle tissue development 1 (receptor-mediated endocytosis) is a rare autosomal recessive disease caused by mutations in the gene heparan sulfate proteoglycan 2 (receptor-mediated endocytosis; also known as basement membrane‑specific heparin sulfate).">
+		<entity id="s1.e1" charOffset="25-58"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="78-97"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="91-91"
+			type="GO" text="receptor-mediated endocytosis" ontology_id="GO_0006898"/>
+		<entity id="s1.e4" charOffset="195-224"
+			type="GO" text="receptor-mediated endocytosis" ontology_id="GO_0006898"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The key clinical features of the patient with receptor-mediated endocytosis included short stature, joint contractures, pigeon breast, and myotonia that led to progressive stiffness of the interstrand cross-link repair and limbs; barely discernible kyphosis was also noted.">
+		<entity id="s2.e1" charOffset="46-75"
+			type="GO" text="receptor-mediated endocytosis" ontology_id="GO_0006898"/>
+		<entity id="s2.e2" charOffset="85-98"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s2.e3" charOffset="106-118"
+			type="HP" text="contractures" ontology_id="HP_0001371"/>
+		<entity id="s2.e4" charOffset="139-147"
+			type="HP" text="myotonia" ontology_id="HP_0002486"/>
+		<entity id="s2.e5" charOffset="189-218"
+			type="GO" text="interstrand cross-link repair" ontology_id="GO_0036297"/>
+		<entity id="s2.e6" charOffset="224-232"
+			type="HP" text="kyphosis" ontology_id="HP_0002808"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e6"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e10"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e3"
+		    e2="s2.e14" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The family members harboring 1 heterozygous mutation in receptor-mediated endocytosis did not exhibit any skeletal abnormalities.">
+		<entity id="s3.e1" charOffset="56-85"
+			type="GO" text="receptor-mediated endocytosis" ontology_id="GO_0006898"/>
+		<entity id="s3.e2" charOffset="106-128"
+			type="HP" text="skeletal abnormalities" ontology_id="HP_0000924"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

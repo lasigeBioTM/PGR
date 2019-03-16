@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30504766">
+	<sentence id="s1" text="Palatable foods (positive regulation of cell-matrix adhesion and sweet) induce hyperphagia, and facilitate the development of obesity.">
+		<entity id="s1.e1" charOffset="17-60"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e2" charOffset="79-90"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<entity id="s1.e3" charOffset="126-133"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we show that adipocyte regulation of glycolytic process is essential for high positive regulation of cell-matrix adhesion diet-induced hyperphagia, but is dispensable for baseline food intake.">
+		<entity id="s2.e1" charOffset="28-60"
+			type="GO" text="regulation of glycolytic process" ontology_id="GO_0006110"/>
+		<entity id="s2.e2" charOffset="54-97"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s2.e3" charOffset="111-122"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Adipocyte regulation of glycolytic process stimulates hyperphagia by transcriptional activation of de novo lipid desaturation and accumulation of N-arachidonyl ethanolamine (AEA), an endogenous appetite-inducing cannabinoid (CB).">
+		<entity id="s3.e1" charOffset="10-42"
+			type="GO" text="regulation of glycolytic process" ontology_id="GO_0006110"/>
+		<entity id="s3.e2" charOffset="54-65"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Pharmacological manipulation of peripheral CB1 signaling regulates hyperphagia in an adipocyte regulation of glycolytic process-dependent manner.">
+		<entity id="s4.e1" charOffset="67-78"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<entity id="s4.e2" charOffset="95-127"
+			type="GO" text="regulation of glycolytic process" ontology_id="GO_0006110"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These findings define adipocyte regulation of glycolytic process as a positive regulation of cell-matrix adhesion sensor that regulates peripheral lipid signals, and uncover an unexpected adipose-to-brain axis to induce hyperphagia and obesity">
+		<entity id="s5.e1" charOffset="32-64"
+			type="GO" text="regulation of glycolytic process" ontology_id="GO_0006110"/>
+		<entity id="s5.e2" charOffset="41-84"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s5.e3" charOffset="191-202"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

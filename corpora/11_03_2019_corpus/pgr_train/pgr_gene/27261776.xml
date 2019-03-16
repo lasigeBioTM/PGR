@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27261776">
+	<sentence id="s1" text="Activation of inflammatory pathways is known to accompany development of obesity-induced non-alcoholic fatty liver disease (NAFLD), insulin resistance and type 2 diabetes.">
+		<entity id="s1.e1" charOffset="73-80"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="103-106"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s1.e3" charOffset="155-159"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

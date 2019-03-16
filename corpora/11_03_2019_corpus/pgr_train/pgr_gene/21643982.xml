@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21643982">
+	<sentence id="s1" text="To understand the importance of chr11q22.3-23.2 region in the development of cervical cancer, we have studied the genetic and epigenetic alterations of the candidate genes ATM, PPP2R1B, SDHD and CADM1 in cervical intraepithelial neoplasia (CIN) and cervical carcinoma (CACX) samples.">
+		<entity id="s1.e1" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="172-175"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s1.e3" charOffset="177-184"
+			type="GENE" text="PPP2R1B" ontology_id="5519"/>
+		<entity id="s1.e4" charOffset="186-190"
+			type="GENE" text="SDHD" ontology_id="6392"/>
+		<entity id="s1.e5" charOffset="195-200"
+			type="GENE" text="CADM1" ontology_id="23705"/>
+		<entity id="s1.e6" charOffset="229-238"
+			type="HP" text="neoplasia" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The alterations of ATM and CADM1 are associated with the progression of tumor from CIN to Stage I/II, thus implying their role in early invasiveness.">
+		<entity id="s2.e1" charOffset="19-22"
+			type="GENE" text="ATM" ontology_id="472"/>
+		<entity id="s2.e2" charOffset="27-32"
+			type="GENE" text="CADM1" ontology_id="23705"/>
+		<entity id="s2.e3" charOffset="72-77"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

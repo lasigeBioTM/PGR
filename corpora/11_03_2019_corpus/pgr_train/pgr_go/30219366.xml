@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30219366">
+	<sentence id="s1" text="Collectively, negative regulation of regulatory T cell differentiationL supports the induction of durable, antigen-specific Th17/Th1-mediated immunity in vivo, establishing a vaccination platform to enhance CD4<sup>+</sup> T cell-mediated antitumor immunity and providing a crucial component of an effective cancer vaccine">
+		<entity id="s1.e1" charOffset="14-70"
+			type="GO" text="negative regulation of regulatory T cell differentiation" ontology_id="GO_0045590"/>
+		<entity id="s1.e2" charOffset="243-248"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="308-314"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

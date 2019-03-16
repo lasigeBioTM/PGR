@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30628714">
+	<sentence id="s1" text="The tumorigenesis and metastasis of tumors are associated with human collagen triple helix repeats containing 1 (CTHRC1).">
+		<entity id="s1.e1" charOffset="36-42"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="113-119"
+			type="GENE" text="CTHRC1" ontology_id="115908"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

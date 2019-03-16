@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25142862">
+	<sentence id="s1" text="Our current study found that phosphoserine aminotransferase 1 (PSAT1), an enzyme catalyzing serine biosynthesis, was significantly up-regulated in non-small cell lung cancer (NSCLC) and was involved in the regulation of E2F activity.">
+		<entity id="s1.e1" charOffset="63-68"
+			type="GENE" text="PSAT1" ontology_id="29968"/>
+		<entity id="s1.e2" charOffset="167-173"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Loss- and gain-of-function experiments demonstrated that PSAT1 promoted cell cycle progression, cell proliferation and tumorigenesis.">
+		<entity id="s2.e1" charOffset="57-62"
+			type="GENE" text="PSAT1" ontology_id="29968"/>
+		<entity id="s2.e2" charOffset="119-124"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Correlation analysis showed that PSAT1 expression positively correlated with the levels of phosphorylated GSK-3β, cyclin D1 and phosphorylated Rb in NSCLC primary tumors.">
+		<entity id="s3.e1" charOffset="33-38"
+			type="GENE" text="PSAT1" ontology_id="29968"/>
+		<entity id="s3.e2" charOffset="163-168"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

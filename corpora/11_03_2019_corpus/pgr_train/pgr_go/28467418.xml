@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28467418">
+	<sentence id="s1" text="Our results therefore confirm the protein tetramerizationR423H allele as causative for protein tetramerization, through a dominant negative effect on KCNC3WT and links with positive regulation of protein phosphorylation that account for dominant inheritance, congenital onset, and disease pathology">
+		<entity id="s1.e1" charOffset="34-57"
+			type="GO" text="protein tetramerization" ontology_id="GO_0051262"/>
+		<entity id="s1.e2" charOffset="69-92"
+			type="GO" text="protein tetramerization" ontology_id="GO_0051262"/>
+		<entity id="s1.e3" charOffset="173-219"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e4" charOffset="186-197"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

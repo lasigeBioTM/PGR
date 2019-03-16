@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29505555">
+	<sentence id="s1" text="Three loci with high mutation frequencies, the 138665410 FOXL2 gene variant, the 23862952 MYH6 gene variant, and the 71098693 HYDIN gene variant were found to be significantly associated with sporadic ASD (PAAAA0.05); variants in FOXL2 and MYH6 were found in patients with isolated, sporadic ASD (PAAAA5×10^-4).">
+		<entity id="s1.e1" charOffset="57-62"
+			type="GENE" text="FOXL2" ontology_id="668"/>
+		<entity id="s1.e2" charOffset="90-94"
+			type="GENE" text="MYH6" ontology_id="4624"/>
+		<entity id="s1.e3" charOffset="126-131"
+			type="GENE" text="HYDIN" ontology_id="54768"/>
+		<entity id="s1.e4" charOffset="192-200"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CONCLUSIONS This was the first study that demonstrated variants in FOXL2 and HYDIN associated with sporadic ASD, and supported the use of WES and bioinformatics analysis to identify disease-associated mutations">
+		<entity id="s2.e1" charOffset="67-72"
+			type="GENE" text="FOXL2" ontology_id="668"/>
+		<entity id="s2.e2" charOffset="77-82"
+			type="GENE" text="HYDIN" ontology_id="54768"/>
+		<entity id="s2.e3" charOffset="99-107"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

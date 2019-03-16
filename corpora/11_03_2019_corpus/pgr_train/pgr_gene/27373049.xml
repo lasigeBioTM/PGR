@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27373049">
+	<sentence id="s1" text="TCS has a variable phenotype with typical clinical characteristics including downward-slant of palpebral fissure, malar hypoplasia, mandibular hypoplasia and microtia.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="TCS" ontology_id="6949"/>
+		<entity id="s1.e2" charOffset="114-130"
+			type="HP" text="malar hypoplasia" ontology_id="HP_0000272"/>
+		<entity id="s1.e3" charOffset="132-153"
+			type="HP" text="mandibular hypoplasia" ontology_id="HP_0000347"/>
+		<entity id="s1.e4" charOffset="158-166"
+			type="HP" text="microtia" ontology_id="HP_0008551"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

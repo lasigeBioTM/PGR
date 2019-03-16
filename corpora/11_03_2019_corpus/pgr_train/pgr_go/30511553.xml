@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30511553">
+	<sentence id="s1" text="Mucopolysaccharidosis (MPS) cardiac muscle tissue development I is a rare autosomal recessive disease caused by a deficiency of the lysosomal enzyme α-L-iduronidase.">
+		<entity id="s1.e1" charOffset="28-61"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="74-93"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

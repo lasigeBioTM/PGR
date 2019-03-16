@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28654546">
+	<sentence id="s1" text="In this study, we evaluated the possible interaction between miR-146a and one of its putative targets ribonuclease L (RNASEL) in the risk of sporadic melanoma.">
+		<entity id="s1.e1" charOffset="61-64"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="118-124"
+			type="GENE" text="RNASEL" ontology_id="6041"/>
+		<entity id="s1.e3" charOffset="141-149"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e4" charOffset="150-158"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Polymorphisms rs2910164 in miR-146a and rs486907 in the RNASEL gene have both independently been associated with the risk of different cancers, and an interaction between them has been observed in nonmelanoma skin cancer.">
+		<entity id="s2.e1" charOffset="27-30"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="56-62"
+			type="GENE" text="RNASEL" ontology_id="6041"/>
+		<entity id="s2.e3" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="200-208"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="The results reported in the present study suggest a sex-specific interaction between miR-146a and RNASEL genes in melanoma skin cancer susceptibility, and could account for possible discordant results in association studies when stratification according to sex is not performed">
+		<entity id="s3.e1" charOffset="52-55"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s3.e2" charOffset="85-88"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e3" charOffset="98-104"
+			type="GENE" text="RNASEL" ontology_id="6041"/>
+		<entity id="s3.e4" charOffset="114-122"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s3.e5" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e3"
+		    e2="s3.e8" pgr="true"/>
+		<pair id="s3.p6" e1="s3.e5"
+		    e2="s3.e8" pgr="false"/>
+	</sentence>
+</document>

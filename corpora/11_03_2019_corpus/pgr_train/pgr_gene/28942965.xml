@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28942965">
+	<sentence id="s1" text="C1QBP deficiency represents an important mitochondrial disorder associated with a clinical spectrum ranging from infantile lactic acidosis to childhood (cardio)myopathy and late-onset progressive external ophthalmoplegia">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="C1QBP" ontology_id="708"/>
+		<entity id="s1.e2" charOffset="160-168"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e3" charOffset="184-195"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

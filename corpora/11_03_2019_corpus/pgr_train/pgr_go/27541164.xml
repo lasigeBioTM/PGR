@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27541164">
+	<sentence id="s1" text="neuron projection development-related disorders include a wide phenotypic ranging from mild to lethal seizure disorders, non-syndromic deafness, and composite syndromes such as DOORS (deafness, onychodystrophy, osteodystrophy, mental retardation, and seizures).">
+		<entity id="s1.e1" charOffset="0-29"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<entity id="s1.e2" charOffset="102-109"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="135-143"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we present a familial case of a lethal early-onset epileptic encephalopathy, associated with two novel compound heterozygous missense variants on the neuron projection development gene, which were detected by exome sequencing.">
+		<entity id="s2.e1" charOffset="67-81"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s2.e2" charOffset="156-185"
+			type="GO" text="neuron projection development" ontology_id="GO_0031175"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

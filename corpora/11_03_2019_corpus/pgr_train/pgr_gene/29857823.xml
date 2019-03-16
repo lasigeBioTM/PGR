@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29857823">
+	<sentence id="s1" text="This study aimed to investigate PAX2 expression in tamoxifen resistant (TAM-R) and tamoxifen sensitive (TAM-S) breast carcinoma patients and analyze its correlation with clinicopathological characteristics and survival.">
+		<entity id="s1.e1" charOffset="32-36"
+			type="GENE" text="PAX2" ontology_id="5076"/>
+		<entity id="s1.e2" charOffset="111-127"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Immunohistochemical analysis was performed to evaluate PAX2 protein expression in 36 TAM-R and 36 TAM-S formalin-fixed paraffin-embedded (FFPE) breast tumor tissues.">
+		<entity id="s2.e1" charOffset="55-59"
+			type="GENE" text="PAX2" ontology_id="5076"/>
+		<entity id="s2.e2" charOffset="151-156"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our data suggested that high expression of PAX2 could be associated with better survival in estrogen receptor positive tamoxifen-treated breast carcinoma patients">
+		<entity id="s3.e1" charOffset="43-47"
+			type="GENE" text="PAX2" ontology_id="5076"/>
+		<entity id="s3.e2" charOffset="137-153"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

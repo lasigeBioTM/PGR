@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30707697">
+	<sentence id="s1" text="We recently reported a novel human phenotype resulting from a mutation in the critical coding region of the HBS1L gene characterized by facial dysmorphism, severe growth restriction, axial hypotonia, global developmental delay and retinal pigmentary deposits.">
+		<entity id="s1.e1" charOffset="108-113"
+			type="GENE" text="HBS1L" ontology_id="10767"/>
+		<entity id="s1.e2" charOffset="136-154"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<entity id="s1.e3" charOffset="183-188"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<entity id="s1.e4" charOffset="207-226"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also describe a mouse model harboring a knockdown mutation in the murine Hbs1l gene that shared several of the phenotypic elements observed in the Hbs1L-deficient human including facial dysmorphism, growth restriction and retinal deposits.">
+		<entity id="s2.e1" charOffset="76-81"
+			type="GENE" text="Hbs1l" ontology_id="10767"/>
+		<entity id="s2.e2" charOffset="150-155"
+			type="GENE" text="Hbs1L" ontology_id="10767"/>
+		<entity id="s2.e3" charOffset="182-200"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21605995">
+	<sentence id="s1" text="Carnitine-acylcarnitine translocase (CACT) deficiency is a rare autosomal recessive disease of fatty acid oxidation, mainly affecting long chain fatty acid utilization.">
+		<entity id="s1.e1" charOffset="37-41"
+			type="GENE" text="CACT" ontology_id="788"/>
+		<entity id="s1.e2" charOffset="64-83"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

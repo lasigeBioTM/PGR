@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26578234">
+	<sentence id="s1" text="In a bone metastasis model, mice treated with ZOL+US had osteolytic lesions that were 58% smaller than those of ZOL-treated animals as well as a reduced skeletal tumor burden.">
+		<entity id="s1.e1" charOffset="28-32"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="162-167"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Additionally, US forced the penetration of ZOL within tumors, as demonstrated by the intratumoral accumulation of unprenylated Rap1A, a surrogate marker of ZOL antitumor activity.">
+		<entity id="s2.e1" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="127-132"
+			type="GENE" text="Rap1A" ontology_id="5906"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

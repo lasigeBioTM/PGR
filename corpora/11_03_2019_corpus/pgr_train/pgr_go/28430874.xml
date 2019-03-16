@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28430874">
+	<sentence id="s1" text="Consistently, eye development deficiency associates with neural tube defects and coloboma, a congenital eye disease.">
+		<entity id="s1.e1" charOffset="14-29"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e2" charOffset="57-76"
+			type="HP" text="neural tube defects" ontology_id="HP_0045005"/>
+		<entity id="s1.e3" charOffset="81-89"
+			type="HP" text="coloboma" ontology_id="HP_0000589"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Relevant to cancer, clinical studies indicate that eye development is deregulated in various cancers and is a specific biomarker for Synovial Sarcoma.">
+		<entity id="s2.e1" charOffset="12-18"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="51-66"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We specifically discuss the role of eye development in the regulation of cell proliferation and survival within the context of the identified target genes, its interaction with viral oncogenes, and its association with the TP53 tumor suppressor and negative regulation of transcription by RNA polymerase II oncogene.">
+		<entity id="s3.e1" charOffset="36-51"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s3.e2" charOffset="228-233"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="249-306"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Special attention is given to p53-independent eye development regulation of pro-apoptotic genes B cell apoptotic process and proteasomal protein catabolic process, and the implication of these findings on the apoptotic response of cancer cells to therapy.">
+		<entity id="s4.e1" charOffset="46-61"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s4.e2" charOffset="96-120"
+			type="GO" text="B cell apoptotic process" ontology_id="GO_0001783"/>
+		<entity id="s4.e3" charOffset="125-162"
+			type="GO" text="proteasomal protein catabolic process" ontology_id="GO_0010498"/>
+		<entity id="s4.e4" charOffset="179-185"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

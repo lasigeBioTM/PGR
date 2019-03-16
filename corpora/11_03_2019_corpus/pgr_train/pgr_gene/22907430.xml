@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22907430">
+	<sentence id="s1" text="Motif analysis of tumor-specific methylated regions identified enrichment of binding sites for several neural cell fate-specifying transcription factors including NEUROD1, HAND1, ZNF423 and REST.">
+		<entity id="s1.e1" charOffset="18-23"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="115-119"
+			type="GENE" text="fate" ontology_id="89885"/>
+		<entity id="s1.e3" charOffset="163-170"
+			type="GENE" text="NEUROD1" ontology_id="4760"/>
+		<entity id="s1.e4" charOffset="172-177"
+			type="GENE" text="HAND1" ontology_id="9421"/>
+		<entity id="s1.e5" charOffset="179-185"
+			type="GENE" text="ZNF423" ontology_id="23090"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We hypothesize that two potential mechanisms, loss of cell fate-determining transcription factors by methylation of their promoters and functional inactivation of their corresponding genomic-binding sites by DNA methylation, can promote a differentiation defect of neuroendocrine cells thus enhancing the ability of tumor progenitor cells to transition toward SCLC.">
+		<entity id="s2.e1" charOffset="59-63"
+			type="GENE" text="fate" ontology_id="89885"/>
+		<entity id="s2.e2" charOffset="316-321"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26805782">
+	<sentence id="s1" text="By exome sequencing, we identified three different bi-allelic truncating mutations in Golgi organization in three unrelated individuals with infancy-onset episodic metabolic crises characterized by encephalopathy, hypoglycemia, rhabdomyolysis, arrhythmias, and laboratory findings suggestive of a defect in mitochondrial fatty acid oxidation.">
+		<entity id="s1.e1" charOffset="86-104"
+			type="GO" text="Golgi organization" ontology_id="GO_0007030"/>
+		<entity id="s1.e2" charOffset="198-212"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e3" charOffset="214-226"
+			type="HP" text="hypoglycemia" ontology_id="HP_0001943"/>
+		<entity id="s1.e4" charOffset="228-242"
+			type="HP" text="rhabdomyolysis" ontology_id="HP_0003201"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

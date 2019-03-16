@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27062609">
+	<sentence id="s1" text="In addition to a FOXG1 mutation in a patient with all core features of the congenital variant of RTT, we identified a missense (p.Ser240Thr) in CDKL5 in a patient who appeared to be seizure free.">
+		<entity id="s1.e1" charOffset="17-22"
+			type="GENE" text="FOXG1" ontology_id="2290"/>
+		<entity id="s1.e2" charOffset="97-100"
+			type="GENE" text="RTT" ontology_id="4204"/>
+		<entity id="s1.e3" charOffset="144-149"
+			type="GENE" text="CDKL5" ontology_id="6792"/>
+		<entity id="s1.e4" charOffset="182-189"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Finally, exome sequencing enabled us to characterize a heterozygous de novo missense (p.Val408Ala) in KCNA2 encoding the potassium channel Kv 1.2 in a girl with infantile-onset seizures variant of RTT.">
+		<entity id="s2.e1" charOffset="102-107"
+			type="GENE" text="KCNA2" ontology_id="3737"/>
+		<entity id="s2.e2" charOffset="177-184"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="197-200"
+			type="GENE" text="RTT" ontology_id="4204"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our study expands the genetic heterogeneity of RTT and RTT-like phenotypes.">
+		<entity id="s3.e1" charOffset="30-43"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s3.e2" charOffset="47-50"
+			type="GENE" text="RTT" ontology_id="4204"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

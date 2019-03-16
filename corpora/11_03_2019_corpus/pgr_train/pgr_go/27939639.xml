@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27939639">
+	<sentence id="s1" text="We performed exome sequencing in a large family affected by an autosomal-dominant form of mild syndromic ID with ptosis, growth retardation, and hypotonia, and we identified an inherited 2 bp deletion causing a frameshift in histone H3 acetylation (c.1052_1053del) in five affected family members.">
+		<entity id="s1.e1" charOffset="113-119"
+			type="HP" text="ptosis" ontology_id="HP_0000508"/>
+		<entity id="s1.e2" charOffset="225-247"
+			type="GO" text="histone H3 acetylation" ontology_id="GO_0043966"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We conclude that both genes contribute to the phenotypic severity of 3p25 deletion syndrome but that some specific features, such as ptosis and blepharophimosis, are mostly driven by histone H3 acetylation haploinsufficiency">
+		<entity id="s2.e1" charOffset="133-139"
+			type="HP" text="ptosis" ontology_id="HP_0000508"/>
+		<entity id="s2.e2" charOffset="144-160"
+			type="HP" text="blepharophimosis" ontology_id="HP_0000581"/>
+		<entity id="s2.e3" charOffset="183-205"
+			type="GO" text="histone H3 acetylation" ontology_id="GO_0043966"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

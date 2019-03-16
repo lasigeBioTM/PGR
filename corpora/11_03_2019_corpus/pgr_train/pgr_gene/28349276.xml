@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28349276">
+	<sentence id="s1" text="Their seizures started within the first day and could not be controlled by pyridoxine or pyridoxal-5'-phosphate (PLP) completely.">
+		<entity id="s1.e1" charOffset="6-14"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="113-116"
+			type="GENE" text="PLP" ontology_id="5354"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

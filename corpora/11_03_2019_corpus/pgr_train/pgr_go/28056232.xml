@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28056232">
+	<sentence id="s1" text="<b>Objective:</b> To investigate the genotype-phenotype correlation in Chinese familial hypertrophic cardiomyopathy (HCM )focusing on the cardiac troponin C gene negative regulation of ATPase activity c.">
+		<entity id="s1.e1" charOffset="101-115"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s1.e2" charOffset="162-200"
+			type="GO" text="negative regulation of ATPase activity" ontology_id="GO_0032780"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The proband carried the two kinds of mutations and expressed various clinical manifestations of heart failure and had history of ventricular tachycardia, paraxial atrial fibrillation, pacemaker implantation, electrocardiogram showed right bundle branch block and echocardiography examination evidenced thickened interventricular septum (23.3 mm) and telomere maintenance and reduced wall motion of these segments.">
+		<entity id="s2.e1" charOffset="129-152"
+			type="HP" text="ventricular tachycardia" ontology_id="HP_0004756"/>
+		<entity id="s2.e2" charOffset="350-370"
+			type="GO" text="telomere maintenance" ontology_id="GO_0000723"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

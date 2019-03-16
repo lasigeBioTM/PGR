@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30180205">
+	<sentence id="s1" text="Transcriptomic analysis revealed significant alterations in a number of genes associated with autism, such as AMP biosynthetic process, nervous system development, learning, and tsc1b.">
+		<entity id="s1.e1" charOffset="94-100"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="110-134"
+			type="GO" text="AMP biosynthetic process" ontology_id="GO_0006167"/>
+		<entity id="s1.e3" charOffset="136-162"
+			type="GO" text="nervous system development" ontology_id="GO_0007399"/>
+		<entity id="s1.e4" charOffset="164-172"
+			type="GO" text="learning" ontology_id="GO_0007612"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25875328">
+	<sentence id="s1" text="Mutations in the coumarin metabolic process gene have been identified in patients with temporal lobe epilepsy and febrile seizures.">
+		<entity id="s1.e1" charOffset="17-43"
+			type="GO" text="coumarin metabolic process" ontology_id="GO_0009804"/>
+		<entity id="s1.e2" charOffset="101-109"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="122-130"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we screened for coumarin metabolic process mutations in patients with juvenile myoclonic epilepsy and identified two novel missense mutations: Arg36His and Asn271Ser.">
+		<entity id="s2.e1" charOffset="38-64"
+			type="GO" text="coumarin metabolic process" ontology_id="GO_0009804"/>
+		<entity id="s2.e2" charOffset="111-119"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our experiments demonstrate that these mutations in coumarin metabolic process are deleterious and provide further evidence for the involvement of CPA6 mutations in the predisposition for several types of epilepsy.">
+		<entity id="s3.e1" charOffset="52-78"
+			type="GO" text="coumarin metabolic process" ontology_id="GO_0009804"/>
+		<entity id="s3.e2" charOffset="205-213"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

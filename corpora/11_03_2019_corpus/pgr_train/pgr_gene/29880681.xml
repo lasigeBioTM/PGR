@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29880681">
+	<sentence id="s1" text="Similar to the human phenotype, li>Lima1</i>-deficient mice displayed reduced cholesterol absorption and were resistant to diet-induced hypercholesterolemia.">
+		<entity id="s1.e1" charOffset="35-40"
+			type="GENE" text="Lima1" ontology_id="51474"/>
+		<entity id="s1.e2" charOffset="55-59"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="136-156"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26835907">
+	<sentence id="s1" text="CSD refers to an intractable diarrhea of intrauterine onset with high fecal sodium loss.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="CSD" ontology_id="51380"/>
+		<entity id="s1.e2" charOffset="41-59"
+			type="HP" text="intrauterine onset" ontology_id="HP_0003577"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CSD is clinically and genetically heterogeneous.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="CSD" ontology_id="51380"/>
+		<entity id="s2.e2" charOffset="34-47"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A syndromic form of CSD features choanal and intestinal atresias as well as recurrent corneal erosions.">
+		<entity id="s3.e1" charOffset="20-23"
+			type="GENE" text="CSD" ontology_id="51380"/>
+		<entity id="s3.e2" charOffset="45-64"
+			type="HP" text="intestinal atresias" ontology_id="HP_0011100"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="It is autosomal recessively inherited, and caused by SPINT2 mutations.">
+		<entity id="s4.e1" charOffset="6-25"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s4.e2" charOffset="53-59"
+			type="GENE" text="SPINT2" ontology_id="10653"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="The nonsyndromic form of CSD can be caused by dominant activating mutations in GUCY2C, encoding intestinal receptor guanylate cyclase C (GC-C), and by autosomal recessive SLC9A3 loss-of-function mutations.">
+		<entity id="s5.e1" charOffset="25-28"
+			type="GENE" text="CSD" ontology_id="51380"/>
+		<entity id="s5.e2" charOffset="79-85"
+			type="GENE" text="GUCY2C" ontology_id="2984"/>
+		<entity id="s5.e3" charOffset="151-170"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s5.e4" charOffset="171-177"
+			type="GENE" text="SLC9A3" ontology_id="6550"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p3" e1="s5.e3"
+		    e2="s5.e4" pgr="true"/>
+	</sentence>
+</document>

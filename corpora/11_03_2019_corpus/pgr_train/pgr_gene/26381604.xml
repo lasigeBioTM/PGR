@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26381604">
+	<sentence id="s1" text="Patients with ORC1 and ORC4 mutations appear to have the most severe short stature and microcephaly.">
+		<entity id="s1.e1" charOffset="14-18"
+			type="GENE" text="ORC1" ontology_id="10166"/>
+		<entity id="s1.e2" charOffset="23-27"
+			type="GENE" text="ORC4" ontology_id="5000"/>
+		<entity id="s1.e3" charOffset="69-82"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e4" charOffset="87-99"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

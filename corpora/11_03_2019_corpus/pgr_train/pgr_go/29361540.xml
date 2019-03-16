@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29361540">
+	<sentence id="s1" text="Mutations of li>lysosome organization</i>/<i>lysosome organization</i> have been implicated in inherited deafness in both humans and mice.">
+		<entity id="s1.e1" charOffset="16-37"
+			type="GO" text="lysosome organization" ontology_id="GO_0007040"/>
+		<entity id="s1.e2" charOffset="29-50"
+			type="GO" text="lysosome organization" ontology_id="GO_0007040"/>
+		<entity id="s1.e3" charOffset="89-97"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

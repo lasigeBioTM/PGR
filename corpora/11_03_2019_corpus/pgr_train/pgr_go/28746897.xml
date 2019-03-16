@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28746897">
+	<sentence id="s1" text="Here, we show that selective overexpression of the stress protein, heme oxygenase-1 (HO-1) in astrocytes of GFAP.HMOX1 transgenic apoptotic process between 8.5 and 19 months of age results in nigrostriatal hypodopaminergia associated with locomotor incoordination and stereotypy; downregulation of tyrosine hydroxylase, monoamine transport, regulation of transcription, DNA-templated, transcription, DNA-templated, lens development in camera-type eye and DJ-1 mRNA and/or protein; overproduction of α-synuclein and ubiquitin; oxidative stress; basal ganglia siderosis; mitochondrial damage/mitophagy; and augmented GABAergic systems (increased GABA, GAD67 and reelin).">
+		<entity id="s1.e1" charOffset="130-147"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="249-263"
+			type="HP" text="incoordination" ontology_id="HP_0002311"/>
+		<entity id="s1.e3" charOffset="268-278"
+			type="HP" text="stereotypy" ontology_id="HP_0000733"/>
+		<entity id="s1.e4" charOffset="320-339"
+			type="GO" text="monoamine transport" ontology_id="GO_0015844"/>
+		<entity id="s1.e5" charOffset="341-383"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e6" charOffset="385-413"
+			type="GO" text="transcription, DNA-templated" ontology_id="GO_0006351"/>
+		<entity id="s1.e7" charOffset="415-450"
+			type="GO" text="lens development in camera-type eye" ontology_id="GO_0002088"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e12"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e12"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e12"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e12"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The neurophenotype of these GFAP.HMOX1<sup>8.5-19m</sup> apoptotic process is highly consistent with parkinsonism and differs dramatically from the schizophrenia-like features previously documented in younger GFAP.HMOX1<sup>0-12m</sup> mice.">
+		<entity id="s2.e1" charOffset="57-74"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="101-113"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

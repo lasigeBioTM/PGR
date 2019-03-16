@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29581481">
+	<sentence id="s1" text="BMPR1B is known to be responsible for autosomal dominant brachydactyly and autosomal recessive acromesomelic chondrodysplasia.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="BMPR1B" ontology_id="658"/>
+		<entity id="s1.e2" charOffset="57-70"
+			type="HP" text="brachydactyly" ontology_id="HP_0001156"/>
+		<entity id="s1.e3" charOffset="75-94"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

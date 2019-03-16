@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24736721">
+	<sentence id="s1" text="Schizophrenia (SZ) and autism spectrum disorders (ASD) are highly heritable neuropsychiatric disorders, although environmental transcription elongation from RNA polymerase II promoterors, such as maternal immune activation (cell proliferation), play a role as well.">
+		<entity id="s1.e1" charOffset="23-29"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="127-183"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s1.e3" charOffset="172-190"
+			type="GO" text="cell proliferation" ontology_id="GO_0008283"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

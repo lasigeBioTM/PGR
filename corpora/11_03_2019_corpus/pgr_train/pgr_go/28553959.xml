@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28553959">
+	<sentence id="s1" text="Individuals with biallelic mitotic spindle assembly checkpoint or mitotic spindle assembly checkpoint mutations have a high risk of embryonal tumors, and here we show that their cells display severe cAMP biosynthetic process impairment.">
+		<entity id="s1.e1" charOffset="27-62"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s1.e2" charOffset="66-101"
+			type="GO" text="mitotic spindle assembly checkpoint" ontology_id="GO_0007094"/>
+		<entity id="s1.e3" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="169-194"
+			type="GO" text="cAMP biosynthetic process" ontology_id="GO_0006171"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="MVA due to biallelic fibroblast growth factor receptor signaling pathway mutations, or of unknown cause, is not associated with embryonal tumors and cells from these individuals show minimal cAMP biosynthetic process deficiency.">
+		<entity id="s2.e1" charOffset="21-72"
+			type="GO" text="fibroblast growth factor receptor signaling pathway" ontology_id="GO_0008543"/>
+		<entity id="s2.e2" charOffset="92-97"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="145-170"
+			type="GO" text="cAMP biosynthetic process" ontology_id="GO_0006171"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

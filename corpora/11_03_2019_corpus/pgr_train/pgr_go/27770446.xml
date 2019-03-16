@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27770446">
+	<sentence id="s1" text="Group 1 pulmonary hypertension or pulmonary arterial hypertension (tyrosine biosynthetic process) is a rare disease characterized by proliferation and occlusion of small pulmonary arterioles, leading to progressive elevation of pulmonary artery pressure and pulmonary vascular resistance, and right ventricular failure.">
+		<entity id="s1.e1" charOffset="34-65"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s1.e2" charOffset="67-96"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<entity id="s1.e3" charOffset="293-318"
+			type="HP" text="right ventricular failure" ontology_id="HP_0001708"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aetiology of tyrosine biosynthetic process is heterogeneous, and genetics play an important role in some cases.">
+		<entity id="s2.e1" charOffset="17-46"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<entity id="s2.e2" charOffset="50-63"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="tyrosine biosynthetic process in children is much more heterogeneous than in adults, and can be associated with several genetic syndromes, congenital heart disease, pulmonary disease, and vascular disease.">
+		<entity id="s3.e1" charOffset="0-29"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<entity id="s3.e2" charOffset="55-68"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

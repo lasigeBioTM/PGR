@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24172257">
+	<sentence id="s1" text="The results show that LEPREL1 plays an important role in eye development and homozygous loss-of-function mutation of this gene can cause severely high myopia and early-onset cataract.">
+		<entity id="s1.e1" charOffset="22-29"
+			type="GENE" text="LEPREL1" ontology_id="55214"/>
+		<entity id="s1.e2" charOffset="151-157"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s1.e3" charOffset="174-182"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26251042">
+	<sentence id="s1" text="Ectopic expression of Cx31 in mouse skin results in skin abnormalities resembling human EKV.">
+		<entity id="s1.e1" charOffset="52-70"
+			type="HP" text="skin abnormalities" ontology_id="HP_0000951"/>
+		<entity id="s1.e2" charOffset="88-91"
+			type="GENE" text="EKV" ontology_id="2707"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

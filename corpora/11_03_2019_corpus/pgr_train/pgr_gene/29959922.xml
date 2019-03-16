@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29959922">
+	<sentence id="s1" text="However, the role of circRNAs in age-related cataract (ARC), the leading cause of visual impairment worldwide, is still unknown.">
+		<entity id="s1.e1" charOffset="45-53"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e2" charOffset="55-58"
+			type="GENE" text="ARC" ontology_id="8996"/>
+		<entity id="s1.e3" charOffset="82-99"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

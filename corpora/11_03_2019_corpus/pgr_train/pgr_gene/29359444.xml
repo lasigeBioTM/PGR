@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29359444">
+	<sentence id="s1" text="MAGEL2 mutations, first reported to be the cause of the Prader-Willi like syndrome with autism by Schaaf et al. (2013) Nature Genetics, 45: 1405-1408 show the wide range of phenotypic spectrum from lethal arthrogryposis multiplex congenital to autism spectrum disorder (ASD) and mild intellectual disability (ID).">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="MAGEL2" ontology_id="54551"/>
+		<entity id="s1.e2" charOffset="88-94"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e3" charOffset="205-219"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s1.e4" charOffset="284-307"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our results indicate that MAGEL2 mutations cause multiple congenital anomalies and intellectual disability accompanied by arthrogryposis multiplex congenita and various endocrinologic abnormalities, supporting that the view that clinical phenotypes of MAGEL2 mutations are variable">
+		<entity id="s2.e1" charOffset="26-32"
+			type="GENE" text="MAGEL2" ontology_id="54551"/>
+		<entity id="s2.e2" charOffset="83-106"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="122-136"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

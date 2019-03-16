@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21800012">
+	<sentence id="s1" text="This report describes for the first time a patient with SEPT5 deficiency presenting with cortical dysplasia (polymicrogyria), developmental delay, and platelet secretion defect">
+		<entity id="s1.e1" charOffset="56-61"
+			type="GENE" text="SEPT5" ontology_id="5413"/>
+		<entity id="s1.e2" charOffset="89-107"
+			type="HP" text="cortical dysplasia" ontology_id="HP_0002539"/>
+		<entity id="s1.e3" charOffset="126-145"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

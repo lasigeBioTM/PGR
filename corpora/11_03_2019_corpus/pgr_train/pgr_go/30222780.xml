@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30222780">
+	<sentence id="s1" text="monoubiquitinated histone H2A deubiquitination (additional negative regulation of cell adhesion combs like 1) is a gene that is mutated in a number of hematological neoplasms.">
+		<entity id="s1.e1" charOffset="0-46"
+			type="GO" text="monoubiquitinated histone H2A deubiquitination" ontology_id="GO_0035522"/>
+		<entity id="s1.e2" charOffset="18-54"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e3" charOffset="124-133"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, we investigated the negative regulation of transcription by RNA polymerase II of proofreading capabilities of different DNA polymerases on monoubiquitinated histone H2A deubiquitination c.1934dupG somatic mutation using conventional Sanger sequencing, another common method for ASXL1 genotyping.">
+		<entity id="s2.e1" charOffset="33-90"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="101-147"
+			type="GO" text="monoubiquitinated histone H2A deubiquitination" ontology_id="GO_0035522"/>
+		<entity id="s2.e3" charOffset="159-175"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A systematic study of serial samples from 30 patients show that monoubiquitinated histone H2A deubiquitination c.1934dupG is a somatic mutation in haematological neoplasms including microtubule-based process, AML, proteolysis and microtubule-based process/proteolysis and often is associated with somatic mutations of 5-methylcytosine catabolic process, negative regulation of transcription by RNA polymerase II, isocitrate metabolic process, hemopoiesis, positive regulation of endothelial cell proliferation and DNMT3A.">
+		<entity id="s3.e1" charOffset="64-110"
+			type="GO" text="monoubiquitinated histone H2A deubiquitination" ontology_id="GO_0035522"/>
+		<entity id="s3.e2" charOffset="127-143"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s3.e3" charOffset="162-171"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="182-207"
+			type="GO" text="microtubule-based process" ontology_id="GO_0007017"/>
+		<entity id="s3.e5" charOffset="214-225"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s3.e6" charOffset="288-322"
+			type="GO" text="5-methylcytosine catabolic process" ontology_id="GO_0006211"/>
+		<entity id="s3.e7" charOffset="324-381"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e8" charOffset="383-411"
+			type="GO" text="isocitrate metabolic process" ontology_id="GO_0006102"/>
+		<entity id="s3.e9" charOffset="413-424"
+			type="GO" text="hemopoiesis" ontology_id="GO_0030097"/>
+		<entity id="s3.e10" charOffset="426-479"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e3"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e3"
+		    e2="s3.e8" pgr="true"/>
+		<pair id="s3.p7" e1="s3.e3"
+		    e2="s3.e9" pgr="true"/>
+		<pair id="s3.p8" e1="s3.e3"
+		    e2="s3.e10" pgr="true"/>
+		<pair id="s3.p9" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p10" e1="s3.e18"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p11" e1="s3.e18"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p12" e1="s3.e18"
+		    e2="s3.e9" pgr="true"/>
+		<pair id="s3.p13" e1="s3.e18"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p14" e1="s3.e18"
+		    e2="s3.e12" pgr="false"/>
+		<pair id="s3.p15" e1="s3.e18"
+		    e2="s3.e14" pgr="false"/>
+		<pair id="s3.p16" e1="s3.e18"
+		    e2="s3.e16" pgr="true"/>
+	</sentence>
+</document>

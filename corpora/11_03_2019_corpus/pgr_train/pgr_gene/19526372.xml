@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19526372">
+	<sentence id="s1" text="The membrane-type frizzled-related protein (MFRP) is the only gene so far reported implicated in autosomal recessive, non-syndromic and syndromic forms of PM.">
+		<entity id="s1.e1" charOffset="44-48"
+			type="GENE" text="MFRP" ontology_id="83552"/>
+		<entity id="s1.e2" charOffset="97-116"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To identify the disease-causing defect in these families, we first analysed MFRP gene, then some candidate genes (CHX10, OPA1, MITF, SOX2, CRYBB1-3 and CRYBA4) and loci (MCOP1, NNO1 and NNO2) previously implicated in different forms of microphthalmia.">
+		<entity id="s2.e1" charOffset="76-80"
+			type="GENE" text="MFRP" ontology_id="83552"/>
+		<entity id="s2.e2" charOffset="114-119"
+			type="GENE" text="CHX10" ontology_id="338917"/>
+		<entity id="s2.e3" charOffset="121-125"
+			type="GENE" text="OPA1" ontology_id="9968"/>
+		<entity id="s2.e4" charOffset="127-131"
+			type="GENE" text="MITF" ontology_id="4286"/>
+		<entity id="s2.e5" charOffset="139-145"
+			type="GENE" text="CRYBB1" ontology_id="1414"/>
+		<entity id="s2.e6" charOffset="152-158"
+			type="GENE" text="CRYBA4" ontology_id="1413"/>
+		<entity id="s2.e7" charOffset="186-190"
+			type="GENE" text="NNO2" ontology_id="83552"/>
+		<entity id="s2.e8" charOffset="236-250"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e8" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e6"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e7"
+		    e2="s2.e8" pgr="true"/>
+	</sentence>
+</document>

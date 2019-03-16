@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30117805">
+	<sentence id="s1" text="Previously (Pappas et al., 2015;4:e08352), we reported that Dlx5/6-Cre mediated forebrain deletion of the DYT1 dystonia protein torsinA (Dlx-CKO) causes abnormal twisting and selective degeneration of dorsal striatal cholinergic interneurons (ChI) (Pappas et al., 2015).">
+		<entity id="s1.e1" charOffset="106-110"
+			type="GENE" text="DYT1" ontology_id="1861"/>
+		<entity id="s1.e2" charOffset="111-119"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25778620">
+	<sentence id="s1" text="Knockout of genes encoding metabotropic glutamate receptor 5 (mGluR5) or its endogenous regulators, such as Norbin, induce a schizophrenia-like phenotype in rodents, suggesting dysregulation of mGluR5 in schizophrenia.">
+		<entity id="s1.e1" charOffset="62-68"
+			type="GENE" text="mGluR5" ontology_id="2915"/>
+		<entity id="s1.e2" charOffset="125-138"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Human genetic and pharmacological animal studies support this hypothesis, but no studies have explored mGluR5 dysfunction at the molecular level in the postmortem schizophrenia brain.">
+		<entity id="s2.e1" charOffset="103-109"
+			type="GENE" text="mGluR5" ontology_id="2915"/>
+		<entity id="s2.e2" charOffset="163-176"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We assessed mGluR5 mRNA and protein levels in the dorsolateral prefrontal cortex (DLPFC) using a large cohort of schizophrenia and control subjects (n = 37/group), and additionally measured protein levels of recently discovered mGluR5 endogenous regulators, Norbin (neurochondrin), Tamalin (GRASP-1), and Preso1 (FRMPD4), which regulate mGluR5 localization, internalization and signaling.">
+		<entity id="s3.e1" charOffset="12-18"
+			type="GENE" text="mGluR5" ontology_id="2915"/>
+		<entity id="s3.e2" charOffset="113-126"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s3.e3" charOffset="291-298"
+			type="GENE" text="GRASP-1" ontology_id="56850"/>
+		<entity id="s3.e4" charOffset="313-319"
+			type="GENE" text="FRMPD4" ontology_id="9758"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="While mGluR5 mRNA expression was unchanged, mGluR5 protein levels were significantly higher in schizophrenia subjects compared to controls (total: +22%; dimer: +54%; p AAAA 0.001).">
+		<entity id="s4.e1" charOffset="6-12"
+			type="GENE" text="mGluR5" ontology_id="2915"/>
+		<entity id="s4.e2" charOffset="95-108"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Conversely, mGluR5 regulatory proteins were expressed at lower levels in schizophrenia subjects compared to controls (Norbin -37%, p AAAA 0.001; Tamalin -30%, p = 0.084; Preso1 -29%, p = 0.001).">
+		<entity id="s5.e1" charOffset="12-18"
+			type="GENE" text="mGluR5" ontology_id="2915"/>
+		<entity id="s5.e2" charOffset="73-86"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="mGluR5 protein was significantly associated with mGluR5 mRNA and mGluR5 endogenous regulators in control subjects, but these associations were lost in schizophrenia subjects.">
+		<entity id="s6.e1" charOffset="0-6"
+			type="GENE" text="mGluR5" ontology_id="2915"/>
+		<entity id="s6.e2" charOffset="151-164"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="The results from our study provide compelling evidence that mGluR5 regulation is altered in schizophrenia, likely contributing to the altered glutamatergic signaling that is associated with the disorder">
+		<entity id="s7.e1" charOffset="60-66"
+			type="GENE" text="mGluR5" ontology_id="2915"/>
+		<entity id="s7.e2" charOffset="92-105"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

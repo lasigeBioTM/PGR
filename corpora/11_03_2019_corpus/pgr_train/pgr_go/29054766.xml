@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29054766">
+	<sentence id="s1" text="However, little information is currently available on the skeletal abnormalities of PRS and the potential contribution of negative regulation of apoptotic process mutations.">
+		<entity id="s1.e1" charOffset="58-80"
+			type="HP" text="skeletal abnormalities" ontology_id="HP_0000924"/>
+		<entity id="s1.e2" charOffset="122-162"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This case unravels a previously unrecognized phenotype of camptodactyly due to a significant skeletal deformity of PRS with a heterogeneous negative regulation of apoptotic process mutation of hexanucleotide duplication.">
+		<entity id="s2.e1" charOffset="58-71"
+			type="HP" text="camptodactyly" ontology_id="HP_0012385"/>
+		<entity id="s2.e2" charOffset="126-139"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s2.e3" charOffset="140-180"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

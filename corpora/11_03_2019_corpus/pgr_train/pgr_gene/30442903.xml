@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30442903">
+	<sentence id="s1" text="However, no study has investigated the relationship between aromatase in living brains and personality traits including aggression.">
+		<entity id="s1.e1" charOffset="60-69"
+			type="GENE" text="aromatase" ontology_id="1588"/>
+		<entity id="s1.e2" charOffset="103-109"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<entity id="s1.e3" charOffset="120-130"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Before performing PET scans, subjects answered the Buss-Perry Aggression Questionnaire and Temperament and Character Inventory to measure their aggression and personality traits, respectively.">
+		<entity id="s2.e1" charOffset="144-154"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<entity id="s2.e2" charOffset="171-177"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Females showed associations between aromatase levels in subcortical regions, such as the amygdala and supraoptic nucleus of the hypothalamus, and personality traits such as aggression, novelty seeking, and self-transcendence.">
+		<entity id="s3.e1" charOffset="36-45"
+			type="GENE" text="aromatase" ontology_id="1588"/>
+		<entity id="s3.e2" charOffset="158-164"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<entity id="s3.e3" charOffset="173-183"
+			type="HP" text="aggression" ontology_id="HP_0000718"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

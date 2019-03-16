@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28291684">
+	<sentence id="s1" text="To gain an insight into the likely molecular basis of their observed cytotoxic effects, Autodock Vina binding free energies of each of the isolated compounds with seven molecular targets implicated in cancer development (protein phosphorylation, protein phosphorylation, protein phosphorylation, protein phosphorylation, protein phosphorylation, cellular response to transforming growth factor beta stimulus and negative regulation of transcription by RNA polymerase II), were calculated.">
+		<entity id="s1.e1" charOffset="201-207"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="221-244"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="246-269"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e4" charOffset="271-294"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e5" charOffset="296-319"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e6" charOffset="321-344"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e7" charOffset="346-407"
+			type="GO" text="cellular response to transforming growth factor beta stimulus" ontology_id="GO_0071560"/>
+		<entity id="s1.e8" charOffset="412-469"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+</document>

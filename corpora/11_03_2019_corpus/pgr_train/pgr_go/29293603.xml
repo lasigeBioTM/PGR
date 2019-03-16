@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29293603">
+	<sentence id="s1" text="Mutations in the elongation of very long chain fatty acid 4 (fatty acid elongation, saturated fatty acid) gene cause Stargardt macular dystrophy 3 (fatty acid elongation, saturated fatty acid), a rare, juvenile-onset, autosomal dominant form of macular degeneration.">
+		<entity id="s1.e1" charOffset="61-104"
+			type="GO" text="fatty acid elongation, saturated fatty acid" ontology_id="GO_0019367"/>
+		<entity id="s1.e2" charOffset="127-144"
+			type="HP" text="macular dystrophy" ontology_id="HP_0007754"/>
+		<entity id="s1.e3" charOffset="148-191"
+			type="GO" text="fatty acid elongation, saturated fatty acid" ontology_id="GO_0019367"/>
+		<entity id="s1.e4" charOffset="207-227"
+			type="HP" text="macular degeneration" ontology_id="HP_0000608"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, this reduction in positive regulation of cell migration-VLC-PUFA content in the all-cone retina had no negative regulation of transcription by RNA polymerase II on morphology or function and did not accelerate retinal degeneration in the R91W;Nrl-/-;fatty acid elongation, saturated fatty acid apoptotic process.">
+		<entity id="s2.e1" charOffset="27-64"
+			type="GO" text="positive regulation of cell migration" ontology_id="GO_0030335"/>
+		<entity id="s2.e2" charOffset="112-169"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e3" charOffset="133-153"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s2.e4" charOffset="173-216"
+			type="GO" text="fatty acid elongation, saturated fatty acid" ontology_id="GO_0019367"/>
+		<entity id="s2.e5" charOffset="180-197"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

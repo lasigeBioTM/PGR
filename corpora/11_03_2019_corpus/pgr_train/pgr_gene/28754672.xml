@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28754672">
+	<sentence id="s1" text="Here we find that a lymphocyte lineage-restricted transcription factor, Spi-B, is frequently expressed in human lung cancer tissues.">
+		<entity id="s1.e1" charOffset="8-12"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s1.e2" charOffset="72-77"
+			type="GENE" text="Spi-B" ontology_id="6689"/>
+		<entity id="s1.e3" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The Spi-B-expressing cancer cells coexpressed vimentin but repressed E-cadherin and exhibited invasive behavior.">
+		<entity id="s2.e1" charOffset="4-9"
+			type="GENE" text="Spi-B" ontology_id="6689"/>
+		<entity id="s2.e2" charOffset="21-27"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="71-79"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Increased Spi-B expression was associated with tumor grade, lymphatic metastasis, and short overall survival.">
+		<entity id="s3.e1" charOffset="10-15"
+			type="GENE" text="Spi-B" ontology_id="6689"/>
+		<entity id="s3.e2" charOffset="47-52"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="These data suggest that Spi-B participates in mesenchymal invasion, linking epithelial cancer metastasis with a lymphatic transcriptional program.">
+		<entity id="s4.e1" charOffset="24-29"
+			type="GENE" text="Spi-B" ontology_id="6689"/>
+		<entity id="s4.e2" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

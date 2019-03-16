@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23339187">
+	<sentence id="s1" text="Blocking the expression of PAK1, DIAPH2, and RDX significantly inhibits breast cancer cell migration induced by let-7b repression.">
+		<entity id="s1.e1" charOffset="27-31"
+			type="GENE" text="PAK1" ontology_id="5585"/>
+		<entity id="s1.e2" charOffset="33-39"
+			type="GENE" text="DIAPH2" ontology_id="1730"/>
+		<entity id="s1.e3" charOffset="45-48"
+			type="GENE" text="RDX" ontology_id="5962"/>
+		<entity id="s1.e4" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

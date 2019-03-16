@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17804352">
+	<sentence id="s1" text="In 2005, negative regulation of hyaluronan biosynthetic process clients were significantly more likely to have chronic conditions, including hypertension, chronic obstructive pulmonary disease, Alzheimer's disease, arthritis, diabetes, and renal failure (all p AAAA 0.05).">
+		<entity id="s1.e1" charOffset="9-63"
+			type="GO" text="negative regulation of hyaluronan biosynthetic process" ontology_id="GO_1900126"/>
+		<entity id="s1.e2" charOffset="141-153"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e3" charOffset="240-253"
+			type="HP" text="renal failure" ontology_id="HP_0000083"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

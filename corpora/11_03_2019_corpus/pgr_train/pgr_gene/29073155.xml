@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29073155">
+	<sentence id="s1" text="DNA was extracted from paraffin-embedded tumor specimens from the patients and peripheral blood lymphocytes from the controls and used for LMP2/LMP7 genotyping.">
+		<entity id="s1.e1" charOffset="41-46"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="139-143"
+			type="GENE" text="LMP2" ontology_id="5698"/>
+		<entity id="s1.e3" charOffset="144-148"
+			type="GENE" text="LMP7" ontology_id="5696"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, LMP2 R/C+C/C genotype was associated with increased tumor invasion depth (p = 0.041).">
+		<entity id="s2.e1" charOffset="10-14"
+			type="GENE" text="LMP2" ontology_id="5698"/>
+		<entity id="s2.e2" charOffset="62-67"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

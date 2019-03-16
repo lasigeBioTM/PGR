@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29758292">
+	<sentence id="s1" text="Truncating mutations in the last and penultimate exons of the PPM1D gene were recently described as a cause for mild to severe intellectual disability in fourteen patients.">
+		<entity id="s1.e1" charOffset="62-67"
+			type="GENE" text="PPM1D" ontology_id="8493"/>
+		<entity id="s1.e2" charOffset="127-150"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Feeding difficulties, periods of fever and vomiting as well as a high pain threshold were described as additional characteristic features and the disorder was subsequently termed AAAAAAintellectual developmental disorder with gastrointestinal difficulties and high pain threshold (IDDGIP)AAAAAA in the OMIM database (MIM # 617450).">
+		<entity id="s2.e1" charOffset="43-51"
+			type="HP" text="vomiting" ontology_id="HP_0002013"/>
+		<entity id="s2.e2" charOffset="303-306"
+			type="GENE" text="MIM" ontology_id="9788"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="While the patient showed features overlapping with the reported phenotype, such as a short stature and small hands and feet, he also presented with additional features like cleft lip and palate and an aberrant right subclavian artery.">
+		<entity id="s3.e1" charOffset="85-98"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s3.e2" charOffset="179-182"
+			type="GENE" text="lip" ontology_id="23049"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

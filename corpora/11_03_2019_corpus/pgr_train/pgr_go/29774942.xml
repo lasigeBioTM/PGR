@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29774942">
+	<sentence id="s1" text="Gastric stump cancer (neural crest cell fate specification) is a carcinoma arising from the remnant stomach following gastric surgery for benign or malignant disease, and is more common in men.">
+		<entity id="s1.e1" charOffset="14-20"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="22-58"
+			type="GO" text="neural crest cell fate specification" ontology_id="GO_0014036"/>
+		<entity id="s1.e3" charOffset="65-74"
+			type="HP" text="carcinoma" ontology_id="HP_0030731"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Treatments in neural crest cell fate specification and primary gastric cancer are the same and include resection of the lesion and radical lymph node dissection.">
+		<entity id="s2.e1" charOffset="14-50"
+			type="GO" text="neural crest cell fate specification" ontology_id="GO_0014036"/>
+		<entity id="s2.e2" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

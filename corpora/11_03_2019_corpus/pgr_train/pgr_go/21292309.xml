@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21292309">
+	<sentence id="s1" text="We have previously identified a novel zinc finger protein, glial cell line-derived neurotrophic factor-inducible zinc finger protein 1 (negative regulation of transcription by RNA polymerase II), whose expression was induced in the human neuroblastoma cell line TGW expressing regulation of cell adhesion by neural crest cell migration stimulation and was also detected in mouse metanephric kidney.">
+		<entity id="s1.e1" charOffset="136-193"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="185-198"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="224-251"
+			type="GO" text="regulation of cell adhesion" ontology_id="GO_0030155"/>
+		<entity id="s1.e4" charOffset="231-258"
+			type="GO" text="neural crest cell migration" ontology_id="GO_0001755"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also evaluated negative regulation of transcription by RNA polymerase II expression in various kidney diseases including membranous nephropathy, minimal change nephrotic syndrome with or without acute kidney injury, immunoglobulin A nephropathy, diabetic nephropathy, acute tubular necrosis, and antineutrophil cytoplasmic antibody-related glomerulonephritis.">
+		<entity id="s2.e1" charOffset="18-75"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="124-146"
+			type="HP" text="membranous nephropathy" ontology_id="HP_0012578"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In addition, negative regulation of transcription by RNA polymerase II expression was undetectable or very low in most cases of renal cell carcinomas and Wilms tumors.">
+		<entity id="s3.e1" charOffset="13-70"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="128-149"
+			type="HP" text="renal cell carcinomas" ontology_id="HP_0005584"/>
+		<entity id="s3.e3" charOffset="160-166"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

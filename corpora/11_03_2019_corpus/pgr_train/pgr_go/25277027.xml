@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25277027">
+	<sentence id="s1" text="Melanogenesis genes tyrosinase, tyrosinase-related protein 1, Hermansky-Pudlak Syndrome 3, premelanosome protein and dopachrome tautomerase were upregulated, as was the melanogenesis-controlling transcription factor, microphthalmia-associated transcription factor (positive regulation of gene expression).">
+		<entity id="s1.e1" charOffset="217-231"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e2" charOffset="265-303"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30472720">
+	<sentence id="s1" text="However, the underlying mechanisms involved in hepatocellular carcinoma (HCC) progression remain poorly understood.">
+		<entity id="s1.e1" charOffset="47-71"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="73-76"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

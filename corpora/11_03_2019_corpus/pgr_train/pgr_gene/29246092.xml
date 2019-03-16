@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29246092">
+	<sentence id="s1" text="PAK3-related intellectual disability is caused by mutations in the gene encoding the p21-activated kinase (PAK) protein.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="PAK3" ontology_id="8874"/>
+		<entity id="s1.e2" charOffset="13-36"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="85-88"
+			type="GENE" text="p21" ontology_id="9338"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The authors report a patient with a novel PAK3 mutation, who presented with intellectual disability, severe automutilation, and epilepsy.">
+		<entity id="s2.e1" charOffset="42-46"
+			type="GENE" text="PAK3" ontology_id="8874"/>
+		<entity id="s2.e2" charOffset="76-99"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="128-136"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This is the first case of PAK3-related intellectual disability presenting with severe self-injury with improvement following treatment.">
+		<entity id="s3.e1" charOffset="26-30"
+			type="GENE" text="PAK3" ontology_id="8874"/>
+		<entity id="s3.e2" charOffset="39-62"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

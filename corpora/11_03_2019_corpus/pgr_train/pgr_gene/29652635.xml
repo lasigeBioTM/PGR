@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29652635">
+	<sentence id="s1" text="Furthermore, we show that increased FAR2 expression in human patients is associated with diabetic nephropathy, lupus nephritis, and IgA nephropathy.">
+		<entity id="s1.e1" charOffset="36-40"
+			type="GENE" text="FAR2" ontology_id="55711"/>
+		<entity id="s1.e2" charOffset="98-109"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<entity id="s1.e3" charOffset="132-135"
+			type="GENE" text="IgA" ontology_id="973"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

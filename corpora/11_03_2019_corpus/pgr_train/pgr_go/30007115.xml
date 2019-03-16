@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30007115">
+	<sentence id="s1" text="In vitro and in vivo (a subcutaneous BALB/c establishment of mitotic spindle orientation mouse model) studies showed that exosomal cellular zinc ion homeostasis can significantly promote pancreatic cancer growth.">
+		<entity id="s1.e1" charOffset="44-88"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<entity id="s1.e2" charOffset="91-120"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s1.e3" charOffset="158-164"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Using clinical blood samples, we compared the diagnostic values of serum exosomal cellular zinc ion homeostasis levels between malignant pancreatic cancer patients (n = 24) and benign pancreatic disease patients (n = 32, AUC = .89), and between biliary disease patients (n = 32, AUC = .8112) and healthy controls (n = 46, AUC = .8931).">
+		<entity id="s2.e1" charOffset="82-111"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s2.e2" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, exosomal cellular zinc ion homeostasis promotes cancer growth and is a novel diagnostic biomarker for pancreatic cancer">
+		<entity id="s3.e1" charOffset="24-53"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s3.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

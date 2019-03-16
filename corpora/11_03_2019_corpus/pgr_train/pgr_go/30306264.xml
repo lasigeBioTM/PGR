@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30306264">
+	<sentence id="s1" text="Although anti-myelin-associated glycoprotein (transcription-coupled nucleotide-excision repair) antibody neuropathy is reported as a slowly progressive disease, it can lead to significant disability and impairment of health-related quality of life (histone H3-K9 demethylation-QoL) and social participation.">
+		<entity id="s1.e1" charOffset="46-94"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s1.e2" charOffset="105-115"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="249-276"
+			type="GO" text="histone H3-K9 demethylation" ontology_id="GO_0033169"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this cross-sectional study was to evaluate the functioning and histone H3-K9 demethylation-QoL determinants in 67 patients with anti-transcription-coupled nucleotide-excision repair neuropathy in terms of the International Classification of Functioning, Disability, and Health (ICF).">
+		<entity id="s2.e1" charOffset="74-101"
+			type="GO" text="histone H3-K9 demethylation" ontology_id="GO_0033169"/>
+		<entity id="s2.e2" charOffset="119-167"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s2.e3" charOffset="168-178"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, neurorehabilitation interventions aimed at improving balance and walking performance, fatigue management, and specific pain relief therapy should be considered to ameliorate participation in social life and histone H3-K9 demethylation-QoL in anti-transcription-coupled nucleotide-excision repair neuropathy patients">
+		<entity id="s3.e1" charOffset="220-247"
+			type="GO" text="histone H3-K9 demethylation" ontology_id="GO_0033169"/>
+		<entity id="s3.e2" charOffset="235-283"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s3.e3" charOffset="284-294"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

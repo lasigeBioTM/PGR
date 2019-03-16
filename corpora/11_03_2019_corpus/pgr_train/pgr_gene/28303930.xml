@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28303930">
+	<sentence id="s1" text="Glioblastoma (GBM) is the most prevalent and lethal type of primary malignant brain tumour.">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="84-90"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that miR-UL112-3p expression was significantly elevated in GBM, and its expression levels were highly associated with glioma size, differentiation, WHO stage and the overall and disease-free survival of patients.">
+		<entity id="s2.e1" charOffset="14-17"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s2.e2" charOffset="127-133"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29727687">
+	<sentence id="s1" text="The clinical presentation was severe, early-onset, progressive SMA-like motor neuronopathy, cerebellar atrophy, and in one affected individual, congenital fractures of the long bones.">
+		<entity id="s1.e1" charOffset="63-66"
+			type="GENE" text="SMA" ontology_id="6606"/>
+		<entity id="s1.e2" charOffset="92-110"
+			type="HP" text="cerebellar atrophy" ontology_id="HP_0001272"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In summary, we show that variants in EXOSC9 result in a neurological syndrome combining cerebellar atrophy and spinal motoneuronopathy, thus expanding the list of human exosomopathies">
+		<entity id="s2.e1" charOffset="37-43"
+			type="GENE" text="EXOSC9" ontology_id="5393"/>
+		<entity id="s2.e2" charOffset="88-106"
+			type="HP" text="cerebellar atrophy" ontology_id="HP_0001272"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

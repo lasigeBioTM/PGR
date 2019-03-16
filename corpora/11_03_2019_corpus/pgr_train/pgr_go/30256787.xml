@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30256787">
+	<sentence id="s1" text="The mechanistic target of rapamycin (regulation of cell growth) is an established therapeutic target in renal cell carcinoma (response to hydroperoxide).">
+		<entity id="s1.e1" charOffset="37-62"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s1.e2" charOffset="104-124"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s1.e3" charOffset="126-151"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We identified six patients with metastatic response to hydroperoxide who initially responded to regulation of cell growth inhibitor therapy and then progressed, and had pre-treatment and post-treatment tumor samples available for analysis.">
+		<entity id="s2.e1" charOffset="43-68"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<entity id="s2.e2" charOffset="74-99"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s2.e3" charOffset="180-185"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28680084">
+	<sentence id="s1" text="Screening the PANK2 gene in the patients as well as their unaffected family members revealed a functional single nucleotide variation, perfectly segregating in the patient's family in an autosomal recessive mode of inheritance.">
+		<entity id="s1.e1" charOffset="14-19"
+			type="GENE" text="PANK2" ontology_id="80025"/>
+		<entity id="s1.e2" charOffset="187-206"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="207-226"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

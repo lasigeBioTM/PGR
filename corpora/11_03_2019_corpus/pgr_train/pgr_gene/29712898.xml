@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29712898">
+	<sentence id="s1" text="Here we show that a series of transcription factors, including C/EBPβ, GCM1, and GATA1, could act as potential modulators of histone methylation in tumor cells.">
+		<entity id="s1.e1" charOffset="45-48"
+			type="GENE" text="act" ontology_id="11332"/>
+		<entity id="s1.e2" charOffset="71-75"
+			type="GENE" text="GCM1" ontology_id="8521"/>
+		<entity id="s1.e3" charOffset="81-86"
+			type="GENE" text="GATA1" ontology_id="2623"/>
+		<entity id="s1.e4" charOffset="148-153"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Of note, C/EBPβ, an independent prognostic factor for patients with ovarian cancer, mediates an important mechanism through which epigenetic enzyme modifies groups of functionally related genes in a context-dependent manner.">
+		<entity id="s2.e1" charOffset="44-47"
+			type="GENE" text="act" ontology_id="11332"/>
+		<entity id="s2.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="By recruiting the methyltransferase DOT1L, C/EBPβ can maintain an open chromatin state by H3K79 methylation of multiple drug-resistance genes, thereby augmenting the chemoresistance of tumor cells.">
+		<entity id="s3.e1" charOffset="36-41"
+			type="GENE" text="DOT1L" ontology_id="84444"/>
+		<entity id="s3.e2" charOffset="185-190"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

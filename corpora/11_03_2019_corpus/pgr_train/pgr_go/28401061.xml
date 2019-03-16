@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28401061">
+	<sentence id="s1" text="Transcription transcription elongation from RNA polymerase II promoterors (TFs) are major cell negative regulation of apoptotic process regulators frequently involved in cancer, particularly in leukemia.">
+		<entity id="s1.e1" charOffset="14-70"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s1.e2" charOffset="43-83"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<entity id="s1.e3" charOffset="118-124"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In humans, li>negative regulation of transcription by RNA polymerase II</i> mutations are associated with severe congenital neutropenia.">
+		<entity id="s2.e1" charOffset="14-71"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="124-135"
+			type="HP" text="neutropenia" ontology_id="HP_0001875"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In keeping with this key role in cell negative regulation of apoptotic process, li>negative regulation of transcription by RNA polymerase II</i> is emerging as a gene involved in cancer, which also includes solid tumors.">
+		<entity id="s3.e1" charOffset="38-78"
+			type="GO" text="negative regulation of apoptotic process" ontology_id="GO_0043066"/>
+		<entity id="s3.e2" charOffset="83-140"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e3" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="161-167"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In transcription elongation from RNA polymerase II promoter, abnormal activation of li>negative regulation of transcription by RNA polymerase II</i> and li>negative regulation of transcription by RNA polymerase II</i> has been related to human medulloblastoma and is also likely to be relevant in blood malignancies.">
+		<entity id="s4.e1" charOffset="3-59"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s4.e2" charOffset="35-92"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e3" charOffset="104-161"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e4" charOffset="139-154"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s4.p1" e1="s4.e4"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e3"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

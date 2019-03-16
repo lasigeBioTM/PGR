@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28218467">
+	<sentence id="s1" text="PhIP-induced skin tumors were subjected to mutation screening, which identified genetic changes in Hras (7/40, 17.5%) and Tp53 (2/40, 5%), but not in Ctnnb1, a commonly mutated gene in PhIP-induced colon tumors.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="PhIP" ontology_id="55023"/>
+		<entity id="s1.e2" charOffset="18-24"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="99-103"
+			type="GENE" text="Hras" ontology_id="3265"/>
+		<entity id="s1.e4" charOffset="150-156"
+			type="GENE" text="Ctnnb1" ontology_id="1499"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Despite the absence of Ctnnb1 mutations, β-catenin was overexpressed in nuclear and plasma membrane fractions from PhIP-induced skin tumors, coinciding with loss of p120-catenin from the plasma membrane, and the appearance of multiple p120-catenin-associated bands in the nuclear extracts.">
+		<entity id="s2.e1" charOffset="23-29"
+			type="GENE" text="Ctnnb1" ontology_id="1499"/>
+		<entity id="s2.e2" charOffset="115-119"
+			type="GENE" text="PhIP" ontology_id="55023"/>
+		<entity id="s2.e3" charOffset="133-139"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Real-time RT-PCR revealed that p120-catenin isoforms 1 and 4 were upregulated in PhIP-induced skin tumors, whereas p120-catenin isoform 3 was expressed uniformly, compared with adjacent normal-looking tissue.">
+		<entity id="s3.e1" charOffset="81-85"
+			type="GENE" text="PhIP" ontology_id="55023"/>
+		<entity id="s3.e2" charOffset="99-105"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Co-immunoprecipitation experiments identified associations of β-catenin with p120-catenin isoforms in PhIP-induced skin tumors and human cancer cell lines.">
+		<entity id="s4.e1" charOffset="102-106"
+			type="GENE" text="PhIP" ontology_id="55023"/>
+		<entity id="s4.e2" charOffset="120-126"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

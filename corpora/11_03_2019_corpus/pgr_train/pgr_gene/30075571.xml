@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30075571">
+	<sentence id="s1" text="Altered ERCC1 expression or function is closely associated with cancer development and progression.">
+		<entity id="s1.e1" charOffset="8-13"
+			type="GENE" text="ERCC1" ontology_id="2067"/>
+		<entity id="s1.e2" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This study determined the association of ERCC1 expression with survivin expression, clinicopathological characteristics, and survival of esophageal squamous cell carcinoma (ESCC) patients after postoperative concurrent chemoradiotherapy.Tissue specimens from 102 resected ESCC patients were acquired for immunohistochemical analysis of ERCC1 and survivin protein expression.ERCC1 expression was detected in 62.7% of ESCC tissues and in 9.8% of normal squamous epithelium tissues (P AAAA .01), while survivin expression was detected in 60.8% of ESCC tissues and in 19.6% of normal squamous epithelia (P AAAA .01).">
+		<entity id="s2.e1" charOffset="41-46"
+			type="GENE" text="ERCC1" ontology_id="2067"/>
+		<entity id="s2.e2" charOffset="63-71"
+			type="GENE" text="survivin" ontology_id="332"/>
+		<entity id="s2.e3" charOffset="148-171"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="ERCC1 overexpression associated with advanced tumor clinical stage and lymph node metastasis (P AAAA .05), but not with tumor size, depth of invasion, or differentiation (P AAAA .05).">
+		<entity id="s3.e1" charOffset="0-5"
+			type="GENE" text="ERCC1" ontology_id="2067"/>
+		<entity id="s3.e2" charOffset="46-51"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Multivariate analysis data revealed that ERCC1 and survivin protein expression were independent predictors of overall survival of ESCC patients after chemotherapy and/or radiotherapy (P AAAA .05).ERCC1 overexpression is an important phenotype that is associated with ESCC lymph node metastasis and advanced tumor clinical stages.">
+		<entity id="s4.e1" charOffset="41-46"
+			type="GENE" text="ERCC1" ontology_id="2067"/>
+		<entity id="s4.e2" charOffset="51-59"
+			type="GENE" text="survivin" ontology_id="332"/>
+		<entity id="s4.e3" charOffset="307-312"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

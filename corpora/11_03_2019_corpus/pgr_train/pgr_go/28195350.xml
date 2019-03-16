@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28195350">
+	<sentence id="s1" text="Various genes (eg, regulation of mitochondrial membrane permeability, Golgi organization, glycerophospholipid catabolic process) traditionally rooted in either the ataxia or hereditary spastic paraplegia classification system have now been shown to cause ataxia on the one positive regulation of protein phosphorylation of the disease continuum and hereditary spastic paraplegia on the other.">
+		<entity id="s1.e1" charOffset="19-68"
+			type="GO" text="regulation of mitochondrial membrane permeability" ontology_id="GO_0046902"/>
+		<entity id="s1.e2" charOffset="70-88"
+			type="GO" text="Golgi organization" ontology_id="GO_0007030"/>
+		<entity id="s1.e3" charOffset="90-127"
+			type="GO" text="glycerophospholipid catabolic process" ontology_id="GO_0046475"/>
+		<entity id="s1.e4" charOffset="120-126"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e5" charOffset="273-319"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Other genes such as glucosylceramide catabolic process and anterograde neuronal dense core vesicle transport were almost simultaneously published as both a hereditary spastic paraplegia and an ataxia gene.">
+		<entity id="s2.e1" charOffset="20-54"
+			type="GO" text="glucosylceramide catabolic process" ontology_id="GO_0006680"/>
+		<entity id="s2.e2" charOffset="59-108"
+			type="GO" text="anterograde neuronal dense core vesicle transport" ontology_id="GO_1990048"/>
+		<entity id="s2.e3" charOffset="149-155"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

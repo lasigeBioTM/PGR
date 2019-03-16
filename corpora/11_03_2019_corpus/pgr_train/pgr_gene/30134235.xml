@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30134235">
+	<sentence id="s1" text="This review discusses recurrent aberrations in NKTCL detected by NGS, which can be categorized into three main groups, specifically, tumor suppressors (TP53, DDX3X, and MGA), the JAK/STAT cascade, and epigenetic modifiers (KMT2D, BCOR, ARID1A, and EP300).">
+		<entity id="s1.e1" charOffset="133-138"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="158-163"
+			type="GENE" text="DDX3X" ontology_id="1654"/>
+		<entity id="s1.e3" charOffset="169-172"
+			type="GENE" text="MGA" ontology_id="8972"/>
+		<entity id="s1.e4" charOffset="223-228"
+			type="GENE" text="KMT2D" ontology_id="8085"/>
+		<entity id="s1.e5" charOffset="230-234"
+			type="GENE" text="BCOR" ontology_id="54880"/>
+		<entity id="s1.e6" charOffset="236-242"
+			type="GENE" text="ARID1A" ontology_id="8289"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

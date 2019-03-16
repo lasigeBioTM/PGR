@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27866705">
+	<sentence id="s1" text="Here, we have identified an epileptic encephalopathy additionally featuring cerebral calcifications and coarse facial features caused by recessive loss-of-function mutations in DENND5A.">
+		<entity id="s1.e1" charOffset="38-52"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e2" charOffset="76-99"
+			type="HP" text="cerebral calcifications" ontology_id="HP_0002514"/>
+		<entity id="s1.e3" charOffset="177-184"
+			type="GENE" text="DENND5A" ontology_id="23258"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

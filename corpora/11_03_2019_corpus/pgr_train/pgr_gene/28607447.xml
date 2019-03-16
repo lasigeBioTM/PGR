@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28607447">
+	<sentence id="s1" text="Recently, the roles of FAM83H in tumorigenesis have been interested and increased expression of FAM83H and MYC in hepatocellular carcinoma (HCC) have been reported.">
+		<entity id="s1.e1" charOffset="23-29"
+			type="GENE" text="FAM83H" ontology_id="286077"/>
+		<entity id="s1.e2" charOffset="33-38"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="107-110"
+			type="GENE" text="MYC" ontology_id="4609"/>
+		<entity id="s1.e4" charOffset="114-138"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e5" charOffset="140-143"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The expression of FAM83H is elevated in liver cancer cells, and nuclear expression of FAM83H predicted shorter survival of HCC patients.">
+		<entity id="s2.e1" charOffset="18-24"
+			type="GENE" text="FAM83H" ontology_id="286077"/>
+		<entity id="s2.e2" charOffset="46-52"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="123-126"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In hepatic tumor cells derived from Tet-O-MYC mice, the expression of mRNA and protein of FAM83H were dependent on MYC expression.">
+		<entity id="s3.e1" charOffset="11-16"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="42-45"
+			type="GENE" text="MYC" ontology_id="4609"/>
+		<entity id="s3.e3" charOffset="46-50"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e4" charOffset="90-96"
+			type="GENE" text="FAM83H" ontology_id="286077"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, we present an oncogenic role of FAM83H in liver cancer, which is closely associated with the oncogene MYC.">
+		<entity id="s4.e1" charOffset="47-53"
+			type="GENE" text="FAM83H" ontology_id="286077"/>
+		<entity id="s4.e2" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="117-120"
+			type="GENE" text="MYC" ontology_id="4609"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29376577">
+	<sentence id="s1" text="Citrin deficiency is an autosomal recessive metabolic disorder, which is caused by pathogenic mutations in the SLC25A13 gene on chromosome 7q21.3, as the causative gene that encodes the liver type aspartate/glutamate carrier isoform 2 (AGC2).">
+		<entity id="s1.e1" charOffset="24-43"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="111-119"
+			type="GENE" text="SLC25A13" ontology_id="10165"/>
+		<entity id="s1.e3" charOffset="192-196"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

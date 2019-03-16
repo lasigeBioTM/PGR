@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23064016">
+	<sentence id="s1" text="Deficiency of the extracellular matrix molecule FRAS1, normally expressed by the ureteric bud, leads to bilateral renal agenesis in humans with Fraser syndrome and blebbed (Fras1(bl/bl)) mice.">
+		<entity id="s1.e1" charOffset="48-53"
+			type="GENE" text="FRAS1" ontology_id="80144"/>
+		<entity id="s1.e2" charOffset="104-113"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e3" charOffset="114-128"
+			type="HP" text="renal agenesis" ontology_id="HP_0000104"/>
+		<entity id="s1.e4" charOffset="173-178"
+			type="GENE" text="Fras1" ontology_id="80144"/>
+		<entity id="s1.e5" charOffset="187-191"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This prevented renal agenesis in Fras1(bl/bl) mice, permitting kidney development and postnatal survival.">
+		<entity id="s2.e1" charOffset="15-29"
+			type="HP" text="renal agenesis" ontology_id="HP_0000104"/>
+		<entity id="s2.e2" charOffset="33-38"
+			type="GENE" text="Fras1" ontology_id="80144"/>
+		<entity id="s2.e3" charOffset="46-50"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30700765">
+	<sentence id="s1" text="In humans, recessive and dominant ALPL mutations cause hypophosphatasia (HPP), a metabolic bone disease with highly heterogeneous clinical manifestations, ranging from lethal perinatal hypomineralization to a relatively mild dental disease.">
+		<entity id="s1.e1" charOffset="34-38"
+			type="GENE" text="ALPL" ontology_id="249"/>
+		<entity id="s1.e2" charOffset="116-129"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26725848">
+	<sentence id="s1" text="While a distinct set of processes drive metastasis when compared to tumorigenesis, it is yet unclear if genetic alterations in metabolic pathways are associated with metastatic progression of human cancers.">
+		<entity id="s1.e1" charOffset="17-20"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="68-73"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="198-204"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we analyzed the mutation, copy number variation and gene expression patterns of a literature-derived model of metabolic genes associated with glycolysis (Warburg effect), fatty acid metabolism (lipogenesis, oxidation, lipolysis, esterification) and fatty acid uptake in AAAA9000 primary or metastatic tumor samples from the multi-cancer TCGA datasets.">
+		<entity id="s2.e1" charOffset="307-312"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="336-342"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="352-355"
+			type="GENE" text="set" ontology_id="6418"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our association analysis revealed a uniform pattern of Warburg effect mutations influencing prognosis across all tumor types, while copy number alterations in the electron transport chain gene SCO2, fatty acid uptake (CAV1, CD36) and lipogenesis (PPARA, PPARD, MLXIPL) genes were enriched in metastatic tumors.">
+		<entity id="s3.e1" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="193-197"
+			type="GENE" text="SCO2" ontology_id="9997"/>
+		<entity id="s3.e3" charOffset="218-222"
+			type="GENE" text="CAV1" ontology_id="857"/>
+		<entity id="s3.e4" charOffset="247-252"
+			type="GENE" text="PPARA" ontology_id="5465"/>
+		<entity id="s3.e5" charOffset="254-259"
+			type="GENE" text="PPARD" ontology_id="5467"/>
+		<entity id="s3.e6" charOffset="261-267"
+			type="GENE" text="MLXIPL" ontology_id="51085"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Using gene expression profiles, we established a gene-signature (CAV1, CD36, MLXIPL, CPT1C, CYP2E1) that strongly associated with epithelial-mesenchymal program across multiple cancers.">
+		<entity id="s4.e1" charOffset="65-69"
+			type="GENE" text="CAV1" ontology_id="857"/>
+		<entity id="s4.e2" charOffset="77-83"
+			type="GENE" text="MLXIPL" ontology_id="51085"/>
+		<entity id="s4.e3" charOffset="85-90"
+			type="GENE" text="CPT1C" ontology_id="126129"/>
+		<entity id="s4.e4" charOffset="92-98"
+			type="GENE" text="CYP2E1" ontology_id="1571"/>
+		<entity id="s4.e5" charOffset="177-183"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e4"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+</document>

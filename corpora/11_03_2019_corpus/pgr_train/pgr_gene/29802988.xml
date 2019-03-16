@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29802988">
+	<sentence id="s1" text="Recent studies in RAS wild-type (WT) metastatic colorectal cancer (mCRC) suggest that the survival benefits of therapy using anti-epidermal growth factor receptor (anti-EGFR) and anti-vascular endothelial growth factor (anti-VEGF) antibodies combined with chemotherapy are maximized when the anti-EGFR antibody is given as first-line, followed by subsequent anti-VEGF antibody therapy.">
+		<entity id="s1.e1" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="169-173"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s1.e3" charOffset="225-229"
+			type="GENE" text="VEGF" ontology_id="7422"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29421438">
+	<sentence id="s1" text="However, the role of FUZ in tumor biology remains poorly studied.">
+		<entity id="s1.e1" charOffset="21-24"
+			type="GENE" text="FUZ" ontology_id="80199"/>
+		<entity id="s1.e2" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our purpose of this study is to discover the physiological effects and mechanism of FUZ in non-small-cell lung cancer (NSCLC) in vitro.">
+		<entity id="s2.e1" charOffset="84-87"
+			type="GENE" text="FUZ" ontology_id="80199"/>
+		<entity id="s2.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

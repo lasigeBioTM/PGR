@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26099505">
+	<sentence id="s1" text="Also as pro-angiogenic inducer, the role of HMGB1 in different redox states has never been defined in tumour angiogenesis.">
+		<entity id="s1.e1" charOffset="44-49"
+			type="GENE" text="HMGB1" ontology_id="3146"/>
+		<entity id="s1.e2" charOffset="102-108"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Functional inhibition of HMGB1 and its receptors abrogated HMGB1-induced angiogenic properties of ECs co-cultured with tumour cells.">
+		<entity id="s2.e1" charOffset="25-30"
+			type="GENE" text="HMGB1" ontology_id="3146"/>
+		<entity id="s2.e2" charOffset="119-125"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="HMGB1 orchestrates the key events of tumour angiogenesis, migration of ECs and their induction to secrete VEGF-A, by adopting distinct redox states.">
+		<entity id="s3.e1" charOffset="0-5"
+			type="GENE" text="HMGB1" ontology_id="3146"/>
+		<entity id="s3.e2" charOffset="37-43"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="106-112"
+			type="GENE" text="VEGF-A" ontology_id="7422"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

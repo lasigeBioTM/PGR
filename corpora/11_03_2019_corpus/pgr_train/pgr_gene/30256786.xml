@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30256786">
+	<sentence id="s1" text="Mutations in the glucosylceramidase beta (GBA) gene are strongly associated with neurodegenerative diseases marked by protein aggregation.">
+		<entity id="s1.e1" charOffset="42-45"
+			type="GENE" text="GBA" ontology_id="2629"/>
+		<entity id="s1.e2" charOffset="81-106"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

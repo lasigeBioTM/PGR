@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27903752">
+	<sentence id="s1" text="Global gene expression profiling studies were carried out using cancer cells and surrogate tissues, such as whole blood and skin, to identify genes that are modulated by BET family proteins.">
+		<entity id="s1.e1" charOffset="64-70"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="170-173"
+			type="GENE" text="BET" ontology_id="92737"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Candidate markers were further characterized for concentration- and time-dependent responses to the BET inhibitor ABBV-075 in vitro and in vivo HEXIM1 was found to be the only gene that exhibited robust and consistent modulation by BET inhibitors across multiple cancer indications and surrogate tissues.">
+		<entity id="s2.e1" charOffset="100-103"
+			type="GENE" text="BET" ontology_id="92737"/>
+		<entity id="s2.e2" charOffset="144-150"
+			type="GENE" text="HEXIM1" ontology_id="10614"/>
+		<entity id="s2.e3" charOffset="263-269"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Markers such as SERPINI1, ZCCHC24, and ZMYND8 were modulated by ABBV-075 and other BET inhibitors across cancer cell lines and xenograft tumors but not in blood and skin.">
+		<entity id="s3.e1" charOffset="16-24"
+			type="GENE" text="SERPINI1" ontology_id="5274"/>
+		<entity id="s3.e2" charOffset="26-33"
+			type="GENE" text="ZCCHC24" ontology_id="219654"/>
+		<entity id="s3.e3" charOffset="39-45"
+			type="GENE" text="ZMYND8" ontology_id="23613"/>
+		<entity id="s3.e4" charOffset="83-86"
+			type="GENE" text="BET" ontology_id="92737"/>
+		<entity id="s3.e5" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e6" charOffset="137-143"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e4"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e10" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e3"
+		    e2="s3.e10" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e7"
+		    e2="s3.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Significant downregulation of c-Myc, a well-publicized target of BET inhibitors, was largely restricted to hematologic cancer cell lines.">
+		<entity id="s4.e1" charOffset="30-35"
+			type="GENE" text="c-Myc" ontology_id="4609"/>
+		<entity id="s4.e2" charOffset="65-68"
+			type="GENE" text="BET" ontology_id="92737"/>
+		<entity id="s4.e3" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

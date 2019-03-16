@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28029652">
+	<sentence id="s1" text="A putative tumor suppressor BLU mapped on the chromosomal 3p21 region, is frequently lost in human tumors including nasopharyngeal carcinoma (NPC).">
+		<entity id="s1.e1" charOffset="11-16"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="BLU" ontology_id="51364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To explore the underlying mechanism of tumor suppression by BLU, its potential to promote apoptosis induced by TRAIL, an effector molecule elaborated by natural killer-T (NKT) cells was investigated.">
+		<entity id="s2.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="60-63"
+			type="GENE" text="BLU" ontology_id="51364"/>
+		<entity id="s2.e3" charOffset="111-116"
+			type="GENE" text="TRAIL" ontology_id="8743"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, BLU suppressed tumor formation by strengthening the antitumor immunity">
+		<entity id="s3.e1" charOffset="15-18"
+			type="GENE" text="BLU" ontology_id="51364"/>
+		<entity id="s3.e2" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

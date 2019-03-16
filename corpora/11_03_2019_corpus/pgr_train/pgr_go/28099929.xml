@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28099929">
+	<sentence id="s1" text="Spinal muscular atrophy (spliceosomal snRNP assembly) is a lethal autosomal recessive neurological disease characterized by selective degeneration of motor neurons in the spinal cord.">
+		<entity id="s1.e1" charOffset="25-52"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<entity id="s1.e2" charOffset="66-85"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

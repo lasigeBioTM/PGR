@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29109381">
+	<sentence id="s1" text="This manuscript describes the case of a nine-year-old girl with microcephaly, mild facial dysmorphisms, epileptic seizures, and severe developmental delay, with a de novo heterozygous c.320AAAAAG [p.(His 107 peptidyl-tyrosine phosphorylation)] mutation in li>TUBA1A</i> gene, and the clinical aspects and neuroimaging features of AAAAAAlissencephaly syndromeAAAAAA are summarized.">
+		<entity id="s1.e1" charOffset="64-76"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="83-102"
+			type="HP" text="facial dysmorphisms" ontology_id="HP_0001999"/>
+		<entity id="s1.e3" charOffset="114-122"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="135-154"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e5" charOffset="208-241"
+			type="GO" text="peptidyl-tyrosine phosphorylation" ontology_id="GO_0018108"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29511670">
+	<sentence id="s1" text="Primary ciliary dyskinesia (PCD) is a clinical rare peculiar disorder, mainly featured by respiratory infection, tympanitis, nasosinusitis, and male infertility.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

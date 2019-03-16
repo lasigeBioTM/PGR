@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22419069">
+	<sentence id="s1" text="Genes involved in tissue development, differentiation, and oncogenesis such as DNAJA4, HES5, IRX1, BMP8A, GATA4, GATA6, ALX3, and P4HTM were hypermethylated in both RMS cell lines and primary samples, implicating aberrant DNA methylation in the pathogenesis of rhabdomyosarcoma.">
+		<entity id="s1.e1" charOffset="79-85"
+			type="GENE" text="DNAJA4" ontology_id="55466"/>
+		<entity id="s1.e2" charOffset="87-91"
+			type="GENE" text="HES5" ontology_id="388585"/>
+		<entity id="s1.e3" charOffset="93-97"
+			type="GENE" text="IRX1" ontology_id="79192"/>
+		<entity id="s1.e4" charOffset="99-104"
+			type="GENE" text="BMP8A" ontology_id="353500"/>
+		<entity id="s1.e5" charOffset="106-111"
+			type="GENE" text="GATA4" ontology_id="2626"/>
+		<entity id="s1.e6" charOffset="113-118"
+			type="GENE" text="GATA6" ontology_id="2627"/>
+		<entity id="s1.e7" charOffset="120-124"
+			type="GENE" text="ALX3" ontology_id="257"/>
+		<entity id="s1.e8" charOffset="130-135"
+			type="GENE" text="P4HTM" ontology_id="54681"/>
+		<entity id="s1.e9" charOffset="261-277"
+			type="HP" text="rhabdomyosarcoma" ontology_id="HP_0002859"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results suggest that DNA methylation signatures may aid in the diagnosis and risk stratification of pediatric rhabdomyosarcoma and help identify new targets for therapy">
+		<entity id="s2.e1" charOffset="58-61"
+			type="GENE" text="aid" ontology_id="57379"/>
+		<entity id="s2.e2" charOffset="116-132"
+			type="HP" text="rhabdomyosarcoma" ontology_id="HP_0002859"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

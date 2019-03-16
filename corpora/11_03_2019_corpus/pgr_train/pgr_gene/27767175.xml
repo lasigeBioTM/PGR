@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27767175">
+	<sentence id="s1" text="When stratified by tumor histology, three SNPs (ENO1 rs2274971A AAAA G, PFKM rs11168417C AAAA T, and PDK2 rs3785921G AAAA A) were significantly associated with OS and/or DFS only in squamous cell carcinoma, whereas PFKP rs1132173C AAAA T exhibited a significant association with survival outcomes only in adenocarcinoma.">
+		<entity id="s1.e1" charOffset="19-24"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="48-52"
+			type="GENE" text="ENO1" ontology_id="2023"/>
+		<entity id="s1.e3" charOffset="72-76"
+			type="GENE" text="PFKM" ontology_id="5213"/>
+		<entity id="s1.e4" charOffset="101-105"
+			type="GENE" text="PDK2" ontology_id="5164"/>
+		<entity id="s1.e5" charOffset="182-205"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e6" charOffset="215-219"
+			type="GENE" text="PFKP" ontology_id="5214"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29061346">
+	<sentence id="s1" text="Over 140 disease-causing mutations have been described so far in cGMP biosynthetic process, 88% of which cause autosomal recessive Leber congenital amaurosis (clathrin coat assembly) while heterozygous missense mutations cause autosomal dominant cone-rod degeneration (adpositive regulation of transcription by RNA polymerase II).">
+		<entity id="s1.e1" charOffset="65-90"
+			type="GO" text="cGMP biosynthetic process" ontology_id="GO_0006182"/>
+		<entity id="s1.e2" charOffset="111-130"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="159-181"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<entity id="s1.e4" charOffset="271-328"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="15915442">
+	<sentence id="s1" text="Similarly, SEPT4 has lymphoid and non-lymphoid forms; SEPT2 has lymphoid and central nervous system (CNS) forms; and SEPT6 and SEPT9 are elevated in lymphoid tissues but both have forms that cluster away from the lymphoid forms.">
+		<entity id="s1.e1" charOffset="11-16"
+			type="GENE" text="SEPT4" ontology_id="5414"/>
+		<entity id="s1.e2" charOffset="54-59"
+			type="GENE" text="SEPT2" ontology_id="23157"/>
+		<entity id="s1.e3" charOffset="77-84"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e4" charOffset="117-122"
+			type="GENE" text="SEPT6" ontology_id="23157"/>
+		<entity id="s1.e5" charOffset="127-132"
+			type="GENE" text="SEPT9" ontology_id="10801"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

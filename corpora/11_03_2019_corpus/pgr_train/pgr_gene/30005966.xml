@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30005966">
+	<sentence id="s1" text="We used bivariate and multivariate analyses to examine the variations in the rates of TMA complications according to sex, age, race, and comorbid conditions, including nonpalpable pedal pulses, end-stage renal disease, coronary artery disease, hypertension, smoking status, and preoperative albumin AAAA3.5 mg/dL.">
+		<entity id="s1.e1" charOffset="117-120"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s1.e2" charOffset="127-131"
+			type="GENE" text="race" ontology_id="23600"/>
+		<entity id="s1.e3" charOffset="244-256"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

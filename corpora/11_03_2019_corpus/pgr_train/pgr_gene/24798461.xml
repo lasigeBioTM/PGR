@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24798461">
+	<sentence id="s1" text="Homozygous and compound heterozygous mutations in C12orf57 have recently been described to cause an autosomal recessive syndromic form of intellectual disability, including agenesis/hypoplasia of the corpus callosum, optic coloboma, and intractable seizures.">
+		<entity id="s1.e1" charOffset="50-58"
+			type="GENE" text="C12orf57" ontology_id="113246"/>
+		<entity id="s1.e2" charOffset="100-119"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="138-161"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e4" charOffset="249-257"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29874194">
+	<sentence id="s1" text="Results Our cohort consisted mostly of children and displayed a wide phenotypic variability in the presenting symptoms ranging from hypoglycemic seizures at the severe positive regulation of protein phosphorylation of the spectrum to insidious hyperpigmentation and delayed development.">
+		<entity id="s1.e1" charOffset="145-153"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="168-214"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

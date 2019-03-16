@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28577571">
+	<sentence id="s1" text="Mutations in four genes (intestinal cholesterol absorption, positive regulation of macrophage derived foam cell differentiation, negative regulation of receptor recycling and LDLRAP1) account for the majority of cases with familial hypercholesterolemia.">
+		<entity id="s1.e1" charOffset="25-58"
+			type="GO" text="intestinal cholesterol absorption" ontology_id="GO_0030299"/>
+		<entity id="s1.e2" charOffset="60-127"
+			type="GO" text="positive regulation of macrophage derived foam cell differentiation" ontology_id="GO_0010744"/>
+		<entity id="s1.e3" charOffset="129-170"
+			type="GO" text="negative regulation of receptor recycling" ontology_id="GO_0001920"/>
+		<entity id="s1.e4" charOffset="133-153"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here in, we review the recent evidence of association of the genetic variants with hypercholesterolemia and the three lipid negative regulation of transcription by RNA polymerase II; total cholesterol (TC), HDL-cholesterol (HDL-C) and LDL-cholesterol (LDL-C), their biological pathways and the associated pathogenetic mechanisms.">
+		<entity id="s2.e1" charOffset="83-103"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s2.e2" charOffset="124-181"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Nearly 80 genes involved in lipid metabolism (encoding structural components of lipoproteins, lipoprotein receptors and related proteins, enzymes, lipid transporters, lipid transfer proteins, and activators or inhibitors of protein function and gene transcription) with single nucleotide variants (SNVs) that are recognized to be associated with hypercholesterolemia and serum lipid negative regulation of transcription by RNA polymerase II in genome-wide association studies and candidate gene studies were identified.">
+		<entity id="s3.e1" charOffset="346-366"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s3.e2" charOffset="383-440"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

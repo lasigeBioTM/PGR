@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17982252">
+	<sentence id="s1" text="The dopamine hypothesis of schizophrenia is based on the fact that all common treatments involve antidopaminergic mechanisms and genes such as DRD2, DRD3, DARPP-32, BDNF or COMT are closely related to dopaminergic system functioning.">
+		<entity id="s1.e1" charOffset="27-40"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="57-61"
+			type="GENE" text="fact" ontology_id="11198"/>
+		<entity id="s1.e3" charOffset="143-147"
+			type="GENE" text="DRD2" ontology_id="1813"/>
+		<entity id="s1.e4" charOffset="149-153"
+			type="GENE" text="DRD3" ontology_id="1814"/>
+		<entity id="s1.e5" charOffset="155-163"
+			type="GENE" text="DARPP-32" ontology_id="84152"/>
+		<entity id="s1.e6" charOffset="165-169"
+			type="GENE" text="BDNF" ontology_id="627"/>
+		<entity id="s1.e7" charOffset="173-177"
+			type="GENE" text="COMT" ontology_id="1312"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The glutamatergic hypothesis of schizophrenia lead recently to a first successful mGlu2/3 receptor agonistic drug and is underpinned by significant findings in genes regulating the glutamatergic system (SLC1A6, SLC1A2 GRIN1, GRIN2A, GRIA1, NRG1, ErbB4, DTNBP1, DAAO, G72/30, GRM3).">
+		<entity id="s2.e1" charOffset="32-45"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="203-209"
+			type="GENE" text="SLC1A6" ontology_id="6511"/>
+		<entity id="s2.e3" charOffset="211-217"
+			type="GENE" text="SLC1A2" ontology_id="6506"/>
+		<entity id="s2.e4" charOffset="218-223"
+			type="GENE" text="GRIN1" ontology_id="114787"/>
+		<entity id="s2.e5" charOffset="225-231"
+			type="GENE" text="GRIN2A" ontology_id="2903"/>
+		<entity id="s2.e6" charOffset="233-238"
+			type="GENE" text="GRIA1" ontology_id="2890"/>
+		<entity id="s2.e7" charOffset="240-244"
+			type="GENE" text="NRG1" ontology_id="3084"/>
+		<entity id="s2.e8" charOffset="246-251"
+			type="GENE" text="ErbB4" ontology_id="2066"/>
+		<entity id="s2.e9" charOffset="253-259"
+			type="GENE" text="DTNBP1" ontology_id="84062"/>
+		<entity id="s2.e10" charOffset="275-279"
+			type="GENE" text="GRM3" ontology_id="2913"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+</document>

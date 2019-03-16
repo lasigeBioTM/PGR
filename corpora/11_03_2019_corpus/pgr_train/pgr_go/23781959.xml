@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23781959">
+	<sentence id="s1" text="Autosomal recessive CMT cases are generally characterized by earlier onset, usually before the age of 2 or 3 years, and rapid clinical progression that results in severe polyneuropathy and more marked distal limb deformities such as maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) equino-varus, claw-like hands, and often major spinal deformities.">
+		<entity id="s1.e1" charOffset="174-184"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="233-321"
+			type="GO" text="maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)" ontology_id="GO_0000463"/>
+		<entity id="s1.e3" charOffset="369-387"
+			type="HP" text="spinal deformities" ontology_id="HP_0008443"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recent clinical, morphological and molecular investigations of CMT families with autosomal recessive inheritance allowed the identification of many genes such as mitochondrial fission, phosphatidylinositol dephosphorylation, myelination, DNA damage response, signal transduction by p53 class mediator, positive regulation of transcription by RNA polymerase II, SH3TC2, response to oxidative stress, cytoskeleton organization, and phosphatidylinositol biosynthetic process, implicated in demyelinating forms (ARCMT1 or mitochondrial fission), and positive regulation of cell aging, regulation of transcription by RNA polymerase II, purine ribonucleotide catabolic process, mitochondrial fission, protein polyubiquitination, neurofilament bundle assembly, regulation of protein phosphorylation and protein targeting to mitochondrion in axonal forms (ARCMT2).">
+		<entity id="s2.e1" charOffset="81-100"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="101-112"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<entity id="s2.e3" charOffset="162-183"
+			type="GO" text="mitochondrial fission" ontology_id="GO_0000266"/>
+		<entity id="s2.e4" charOffset="185-223"
+			type="GO" text="phosphatidylinositol dephosphorylation" ontology_id="GO_0046856"/>
+		<entity id="s2.e5" charOffset="225-236"
+			type="GO" text="myelination" ontology_id="GO_0042552"/>
+		<entity id="s2.e6" charOffset="238-300"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator" ontology_id="GO_0030330"/>
+		<entity id="s2.e7" charOffset="302-359"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s2.e8" charOffset="369-397"
+			type="GO" text="response to oxidative stress" ontology_id="GO_0006979"/>
+		<entity id="s2.e9" charOffset="399-424"
+			type="GO" text="cytoskeleton organization" ontology_id="GO_0007010"/>
+		<entity id="s2.e10" charOffset="430-471"
+			type="GO" text="phosphatidylinositol biosynthetic process" ontology_id="GO_0006661"/>
+		<entity id="s2.e11" charOffset="518-539"
+			type="GO" text="mitochondrial fission" ontology_id="GO_0000266"/>
+		<entity id="s2.e12" charOffset="546-579"
+			type="GO" text="positive regulation of cell aging" ontology_id="GO_0090343"/>
+		<entity id="s2.e13" charOffset="581-629"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e14" charOffset="631-670"
+			type="GO" text="purine ribonucleotide catabolic process" ontology_id="GO_0009154"/>
+		<entity id="s2.e15" charOffset="679-705"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e16" charOffset="707-736"
+			type="GO" text="neurofilament bundle assembly" ontology_id="GO_0033693"/>
+		<entity id="s2.e17" charOffset="738-775"
+			type="GO" text="regulation of protein phosphorylation" ontology_id="GO_0001932"/>
+		<entity id="s2.e18" charOffset="780-814"
+			type="GO" text="protein targeting to mitochondrion" ontology_id="GO_0006626"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e11" pgr="true"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e12" pgr="true"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e1"
+		    e2="s2.e14" pgr="true"/>
+		<pair id="s2.p13" e1="s2.e1"
+		    e2="s2.e15" pgr="true"/>
+		<pair id="s2.p14" e1="s2.e1"
+		    e2="s2.e16" pgr="true"/>
+		<pair id="s2.p15" e1="s2.e1"
+		    e2="s2.e17" pgr="false"/>
+		<pair id="s2.p16" e1="s2.e1"
+		    e2="s2.e18" pgr="true"/>
+		<pair id="s2.p17" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p18" e1="s2.e33"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p19" e1="s2.e33"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p20" e1="s2.e33"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p21" e1="s2.e33"
+		    e2="s2.e11" pgr="false"/>
+		<pair id="s2.p22" e1="s2.e33"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p23" e1="s2.e33"
+		    e2="s2.e15" pgr="false"/>
+		<pair id="s2.p24" e1="s2.e33"
+		    e2="s2.e17" pgr="false"/>
+		<pair id="s2.p25" e1="s2.e33"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p26" e1="s2.e33"
+		    e2="s2.e20" pgr="false"/>
+		<pair id="s2.p27" e1="s2.e33"
+		    e2="s2.e22" pgr="false"/>
+		<pair id="s2.p28" e1="s2.e33"
+		    e2="s2.e24" pgr="false"/>
+		<pair id="s2.p29" e1="s2.e33"
+		    e2="s2.e26" pgr="false"/>
+		<pair id="s2.p30" e1="s2.e33"
+		    e2="s2.e28" pgr="false"/>
+		<pair id="s2.p31" e1="s2.e33"
+		    e2="s2.e30" pgr="false"/>
+		<pair id="s2.p32" e1="s2.e33"
+		    e2="s2.e32" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25920810">
+	<sentence id="s1" text="The human protein acetylation and histone acetylation genes are recurrently mutated in leukemia, non-hematologic malignancies, and multiple developmental disorders displaying intellectual disability and various other abnormalities.">
+		<entity id="s1.e1" charOffset="10-29"
+			type="GO" text="protein acetylation" ontology_id="GO_0006473"/>
+		<entity id="s1.e2" charOffset="34-53"
+			type="GO" text="histone acetylation" ontology_id="GO_0016573"/>
+		<entity id="s1.e3" charOffset="161-184"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition, the histone H3 acetylation gene is mutated in childhood leukemia and adult medulloblastoma.">
+		<entity id="s2.e1" charOffset="17-39"
+			type="GO" text="histone H3 acetylation" ontology_id="GO_0043966"/>
+		<entity id="s2.e2" charOffset="88-103"
+			type="HP" text="medulloblastoma" ontology_id="HP_0002885"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

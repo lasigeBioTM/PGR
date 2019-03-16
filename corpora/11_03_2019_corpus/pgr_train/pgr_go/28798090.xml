@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28798090">
+	<sentence id="s1" text="Epidermal growth factor receptor tyrosine kinase inhibitors (positive regulation of protein phosphorylation-TKIs) are approved for second-line treatment of li>EGFR</i> wild-type (li>EGFR</i>-wt) nonsmall cell lung cancer (NSCLC).">
+		<entity id="s1.e1" charOffset="61-107"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e2" charOffset="214-220"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25875328">
+	<sentence id="s1" text="Mutations in the CPA6 gene have been identified in patients with temporal lobe epilepsy and febrile seizures.">
+		<entity id="s1.e1" charOffset="17-21"
+			type="GENE" text="CPA6" ontology_id="1548"/>
+		<entity id="s1.e2" charOffset="79-87"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="100-108"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we screened for CPA6 mutations in patients with juvenile myoclonic epilepsy and identified two novel missense mutations: Arg36His and Asn271Ser.">
+		<entity id="s2.e1" charOffset="38-42"
+			type="GENE" text="CPA6" ontology_id="1548"/>
+		<entity id="s2.e2" charOffset="89-97"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our experiments demonstrate that these mutations in CPA6 are deleterious and provide further evidence for the involvement of CPA6 mutations in the predisposition for several types of epilepsy.">
+		<entity id="s3.e1" charOffset="52-56"
+			type="GENE" text="CPA6" ontology_id="1548"/>
+		<entity id="s3.e2" charOffset="183-191"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

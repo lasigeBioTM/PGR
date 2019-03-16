@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28591699">
+	<sentence id="s1" text="Leiomyoma of deep soft tissue is a rare type of benign smooth muscle tumor that mostly occurs in the retroperitoneum or abdominal cavity of women, and about which very little genetic information exists.">
+		<entity id="s1.e1" charOffset="40-44"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="69-74"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="G-banding showed that three tumors carried rearrangements of the long arm of chromosome 12, three others had 8q rearrangements, the 7th tumor had deletion of the long arm of chromosome 7, del(7)(q22), and the 8th had aberrations of chromosome bands 3q21~23 and 11q21~22.">
+		<entity id="s2.e1" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="70-73"
+			type="GENE" text="arm" ontology_id="80210"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the leiomyomas with 12q rearrangements, both HMGA2 and PLAG1 were expressed whereas in the tumors with 8q aberrations, only PLAG1 was expressed.">
+		<entity id="s3.e1" charOffset="48-53"
+			type="GENE" text="HMGA2" ontology_id="8091"/>
+		<entity id="s3.e2" charOffset="58-63"
+			type="GENE" text="PLAG1" ontology_id="5324"/>
+		<entity id="s3.e3" charOffset="94-99"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In two tumors with 12q rearrangements, RPSAP52 on 12q14.3 was fused with non-coding RNA (accession number XR_944195) from 14q32.2 or ZFP36L1 from14q24.1.">
+		<entity id="s4.e1" charOffset="7-12"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="133-140"
+			type="GENE" text="ZFP36L1" ontology_id="677"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In a tumor with inv(12), exon 3 of HMGA2 was fused to a sequence in intron 1 of the CRADD gene from 12q22.">
+		<entity id="s5.e1" charOffset="5-10"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="35-40"
+			type="GENE" text="HMGA2" ontology_id="8091"/>
+		<entity id="s5.e3" charOffset="84-89"
+			type="GENE" text="CRADD" ontology_id="8738"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

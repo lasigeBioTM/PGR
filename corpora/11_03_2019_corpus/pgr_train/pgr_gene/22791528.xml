@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22791528">
+	<sentence id="s1" text="In the last 10 years, the primary cilia machinery has been implicated in more than a dozen disorders united as ciliopathies, including skeletal dysplasias, such as Jeune syndrome and short rib-polydactyly type III.">
+		<entity id="s1.e1" charOffset="135-154"
+			type="HP" text="skeletal dysplasias" ontology_id="HP_0002652"/>
+		<entity id="s1.e2" charOffset="193-204"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e3" charOffset="205-209"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this review, we focus on skeletal conditions belonging to the ciliopathy group: the short rib-polydactyly group (SRPs) that includes Verma-Naumoff syndrome (SRP type III), Majewski syndrome (SRP type II), Jeune syndrome (ATD), as well as Ellis-van Creveld syndrome (EVC), the Sensenbrenner syndrome, and, finally, Weyers acrofacial dysostosis.">
+		<entity id="s2.e1" charOffset="97-108"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s2.e2" charOffset="116-119"
+			type="GENE" text="SRP" ontology_id="10911"/>
+		<entity id="s2.e3" charOffset="164-168"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e4" charOffset="224-227"
+			type="GENE" text="ATD" ontology_id="472"/>
+		<entity id="s2.e5" charOffset="269-272"
+			type="GENE" text="EVC" ontology_id="2121"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28553959">
+	<sentence id="s1" text="Individuals with biallelic TRIP13 or BUB1B mutations have a high risk of embryonal tumors, and here we show that their cells display severe SAC impairment.">
+		<entity id="s1.e1" charOffset="27-33"
+			type="GENE" text="TRIP13" ontology_id="9319"/>
+		<entity id="s1.e2" charOffset="37-42"
+			type="GENE" text="BUB1B" ontology_id="701"/>
+		<entity id="s1.e3" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="140-143"
+			type="GENE" text="SAC" ontology_id="55811"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="MVA due to biallelic CEP57 mutations, or of unknown cause, is not associated with embryonal tumors and cells from these individuals show minimal SAC deficiency.">
+		<entity id="s2.e1" charOffset="21-26"
+			type="GENE" text="CEP57" ontology_id="9702"/>
+		<entity id="s2.e2" charOffset="92-97"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="145-148"
+			type="GENE" text="SAC" ontology_id="55811"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

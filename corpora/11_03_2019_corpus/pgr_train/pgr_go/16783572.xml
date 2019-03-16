@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16783572">
+	<sentence id="s1" text="We confirmed the association between cognition and schizophrenia through individual genotyping of 1,400 subjects.">
+		<entity id="s1.e1" charOffset="37-46"
+			type="GO" text="cognition" ontology_id="GO_0050890"/>
+		<entity id="s1.e2" charOffset="51-64"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In a gene expression analysis the risk allele of a coding SNP associated with schizophrenia was found to be associated with a reduced expression of cognition.">
+		<entity id="s2.e1" charOffset="78-91"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="148-157"
+			type="GO" text="cognition" ontology_id="GO_0050890"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The genetic and functional evidences here reported suggest a possible role of the cognition gene in the pathology of schizophrenia and also in the therapeutic effects of antipsychotic drugs">
+		<entity id="s3.e1" charOffset="82-91"
+			type="GO" text="cognition" ontology_id="GO_0050890"/>
+		<entity id="s3.e2" charOffset="117-130"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

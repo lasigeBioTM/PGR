@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25638162">
+	<sentence id="s1" text="We found that the expression of Sgo1 mRNA was relatively low in normal tissues, but was upregulated in 82% of hepatocellular carcinoma (HCC), and correlated with elevated alpha-fetoprotein and early disease onset of HCC.">
+		<entity id="s1.e1" charOffset="32-36"
+			type="GENE" text="Sgo1" ontology_id="151648"/>
+		<entity id="s1.e2" charOffset="110-134"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e3" charOffset="136-139"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

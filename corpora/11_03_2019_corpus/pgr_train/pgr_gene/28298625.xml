@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28298625">
+	<sentence id="s1" text="Enamel-renal-gingival syndrome (ERGS; OMIM #204690), a rare autosomal recessive disorder caused by mutations in FAM20A, is characterized by nephrocalcinosis, nephrolithiasis, amelogenesis imperfecta, hypoplastic type, gingival fibromatosis and other dental abnormalities, including hypodontia and unerupted teeth with large dental follicles.">
+		<entity id="s1.e1" charOffset="112-118"
+			type="GENE" text="FAM20A" ontology_id="54757"/>
+		<entity id="s1.e2" charOffset="140-156"
+			type="HP" text="nephrocalcinosis" ontology_id="HP_0000121"/>
+		<entity id="s1.e3" charOffset="158-173"
+			type="HP" text="nephrolithiasis" ontology_id="HP_0000787"/>
+		<entity id="s1.e4" charOffset="212-216"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e5" charOffset="218-239"
+			type="HP" text="gingival fibromatosis" ontology_id="HP_0000169"/>
+		<entity id="s1.e6" charOffset="250-270"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<entity id="s1.e7" charOffset="282-292"
+			type="HP" text="hypodontia" ontology_id="HP_0000668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e3"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e3"
+		    e2="s1.e18" pgr="false"/>
+	</sentence>
+</document>

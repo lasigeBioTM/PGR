@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25091424">
+	<sentence id="s1" text="Mutations in eight of them (PDSS1, PDSS2, COQ2, COQ4, COQ6, ADCK3, ADCK4, and COQ9) cause primary CoQ(10) deficiency, a heterogeneous group of disorders with variable age of onset (from birth to the seventh decade) and associated clinical phenotypes, ranging from a fatal multisystem disease to isolated steroid resistant nephrotic syndrome (SRNS) or isolated central nervous system disease.">
+		<entity id="s1.e1" charOffset="28-33"
+			type="GENE" text="PDSS1" ontology_id="23590"/>
+		<entity id="s1.e2" charOffset="35-40"
+			type="GENE" text="PDSS2" ontology_id="57107"/>
+		<entity id="s1.e3" charOffset="42-46"
+			type="GENE" text="COQ2" ontology_id="27235"/>
+		<entity id="s1.e4" charOffset="48-52"
+			type="GENE" text="COQ4" ontology_id="51117"/>
+		<entity id="s1.e5" charOffset="54-58"
+			type="GENE" text="COQ6" ontology_id="51004"/>
+		<entity id="s1.e6" charOffset="78-82"
+			type="GENE" text="COQ9" ontology_id="57017"/>
+		<entity id="s1.e7" charOffset="120-133"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In primary forms treatment can stop the progression of both SRNS and encephalopathy, hence the critical importance of a prompt diagnosis.">
+		<entity id="s2.e1" charOffset="31-35"
+			type="GENE" text="stop" ontology_id="4135"/>
+		<entity id="s2.e2" charOffset="69-83"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

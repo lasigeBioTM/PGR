@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28981088">
+	<sentence id="s1" text="Mutations in heat shock transcription factor 4 (HSF4) have been associated with cataract; however, the mechanisms regarding how mutations in HSF4 cause cataract are still obscure.">
+		<entity id="s1.e1" charOffset="48-52"
+			type="GENE" text="HSF4" ontology_id="3299"/>
+		<entity id="s1.e2" charOffset="80-88"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The mutant zebrafish developed an early-onset cataract with multiple developmental defects in lens.">
+		<entity id="s2.e1" charOffset="16-20"
+			type="GENE" text="fish" ontology_id="9644"/>
+		<entity id="s2.e2" charOffset="46-54"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

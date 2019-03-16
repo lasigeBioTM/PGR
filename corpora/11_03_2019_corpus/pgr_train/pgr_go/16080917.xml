@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16080917">
+	<sentence id="s1" text="Corneal changes in aniridia-related keratopathy (positive regulation of cytokine-mediated signaling pathway) include peripheral pannus and epithelial abnormalities, which eventually result in corneal opacity and contribute to visual loss.">
+		<entity id="s1.e1" charOffset="49-107"
+			type="GO" text="positive regulation of cytokine-mediated signaling pathway" ontology_id="GO_0001961"/>
+		<entity id="s1.e2" charOffset="192-207"
+			type="HP" text="corneal opacity" ontology_id="HP_0007957"/>
+		<entity id="s1.e3" charOffset="226-237"
+			type="HP" text="visual loss" ontology_id="HP_0000572"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The corneal abnormalities of positive regulation of transcription, DNA-templated+/- apoptotic process provide an excellent model for the corneal changes seen in positive regulation of transcription, DNA-templated+/- humans.">
+		<entity id="s2.e1" charOffset="4-25"
+			type="HP" text="corneal abnormalities" ontology_id="HP_0000481"/>
+		<entity id="s2.e2" charOffset="29-80"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s2.e3" charOffset="84-101"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e4" charOffset="101-152"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

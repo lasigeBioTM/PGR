@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25865492">
+	<sentence id="s1" text="Here, we report mutations in proline biosynthetic process, which encodes an enzyme in the proline biosynthesis pathway, as the cause of a unique syndrome characterized by postnatal microcephaly, hypomyelination, and reduced cerebral white-matter volume.">
+		<entity id="s1.e1" charOffset="29-57"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s1.e2" charOffset="181-193"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="195-210"
+			type="HP" text="hypomyelination" ontology_id="HP_0003429"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Morpholino-based knockdown of a zebrafish proline biosynthetic process ortholog, pycr1b, recapitulated the human microcephaly phenotype, which was rescued by wild-type human PYCR2 mRNA, but not by mutant mRNAs, further supporting the pathogenicity of the identified variants.">
+		<entity id="s2.e1" charOffset="42-70"
+			type="GO" text="proline biosynthetic process" ontology_id="GO_0006561"/>
+		<entity id="s2.e2" charOffset="113-125"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

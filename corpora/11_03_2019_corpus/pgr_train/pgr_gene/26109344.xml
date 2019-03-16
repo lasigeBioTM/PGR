@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26109344">
+	<sentence id="s1" text="To identify potential biological differences by race among Luminal A breast cancers, gene expression data from 108 CAU and 57 AA breast tumors were analyzed.">
+		<entity id="s1.e1" charOffset="48-52"
+			type="GENE" text="race" ontology_id="23600"/>
+		<entity id="s1.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="136-142"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Six genes (ACOX2, MUC1, CRYBB2, PSPH, SQLE, TYMS) were differentially expressed by race among Luminal A breast cancers and were associated with survival (HR AAAA0.8, HR AAAA1.25).">
+		<entity id="s2.e1" charOffset="11-16"
+			type="GENE" text="ACOX2" ontology_id="8309"/>
+		<entity id="s2.e2" charOffset="18-22"
+			type="GENE" text="MUC1" ontology_id="4582"/>
+		<entity id="s2.e3" charOffset="24-30"
+			type="GENE" text="CRYBB2" ontology_id="1415"/>
+		<entity id="s2.e4" charOffset="32-36"
+			type="GENE" text="PSPH" ontology_id="5723"/>
+		<entity id="s2.e5" charOffset="38-42"
+			type="GENE" text="SQLE" ontology_id="6713"/>
+		<entity id="s2.e6" charOffset="44-48"
+			type="GENE" text="TYMS" ontology_id="7298"/>
+		<entity id="s2.e7" charOffset="83-87"
+			type="GENE" text="race" ontology_id="23600"/>
+		<entity id="s2.e8" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e7"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e4"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e6"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="For all six genes, tumors in AA had higher expression of poor prognosis genes (CRYBB2, PSPH, SQLE, TYMS) and lower expression of good prognosis genes (ACOX2, MUC1).">
+		<entity id="s3.e1" charOffset="19-25"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="79-85"
+			type="GENE" text="CRYBB2" ontology_id="1415"/>
+		<entity id="s3.e3" charOffset="87-91"
+			type="GENE" text="PSPH" ontology_id="5723"/>
+		<entity id="s3.e4" charOffset="93-97"
+			type="GENE" text="SQLE" ontology_id="6713"/>
+		<entity id="s3.e5" charOffset="99-103"
+			type="GENE" text="TYMS" ontology_id="7298"/>
+		<entity id="s3.e6" charOffset="151-156"
+			type="GENE" text="ACOX2" ontology_id="8309"/>
+		<entity id="s3.e7" charOffset="158-162"
+			type="GENE" text="MUC1" ontology_id="4582"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Some of these differences (CRYBB2 and PSPH) may exist from the earliest stages of tumor development, or may even precede malignancy">
+		<entity id="s4.e1" charOffset="27-33"
+			type="GENE" text="CRYBB2" ontology_id="1415"/>
+		<entity id="s4.e2" charOffset="38-42"
+			type="GENE" text="PSPH" ontology_id="5723"/>
+		<entity id="s4.e3" charOffset="82-87"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

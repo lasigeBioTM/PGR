@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30257380">
+	<sentence id="s1" text="Our present study confirmed radiation can promote the in vitro migration and invasion of triple negative breast cancer (TNBC) cells and increase the expression of epithelial-mesenchymal transition (cytokine production) related transcription factor negative regulation of transcription by RNA polymerase II, while had no effect on negative regulation of transcription by RNA polymerase II, negative regulation of transcription by RNA polymerase II or Twist.">
+		<entity id="s1.e1" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="198-217"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<entity id="s1.e3" charOffset="248-305"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="330-387"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="389-446"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

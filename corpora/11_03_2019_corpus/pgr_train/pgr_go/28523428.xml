@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28523428">
+	<sentence id="s1" text="The negative regulation of transcription by RNA polymerase II mutant apoptotic process have been characterized for their propensity to develop congenital hypothyroidism, polycystic kidney disease, and some types of cancer.">
+		<entity id="s1.e1" charOffset="4-61"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="69-86"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="141-155"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s1.e4" charOffset="202-208"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

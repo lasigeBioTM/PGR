@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30136158">
+	<sentence id="s1" text="Whole exome sequencing in triple negative breast cancer cases (n = 8) and targeted sequencing in healthy controls (n = 48) revealed ribosome biogenesis rs552752779 (lens fiber cell differentiation: 75% vs. 6.25%, OR 45.00, 95% CI 9.43-243.32), signal transduction rs527779103 (MAF: 62.5% vs. 7.29%, OR 21.19, 95% CI 5.11-94.32), transcription-coupled nucleotide-excision repair rs121913016 (MAF: 56.25% vs. 7.29%, OR 16.34, 95% CI 4.02-70.41), DNA repair rs2020912 (MAF: 56.25% vs. 1.04%, OR 122.13, 95% CI 12.29-2985.48) as risk factors for triple negative breast cancer.">
+		<entity id="s1.e1" charOffset="49-55"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="132-151"
+			type="GO" text="ribosome biogenesis" ontology_id="GO_0042254"/>
+		<entity id="s1.e3" charOffset="165-196"
+			type="GO" text="lens fiber cell differentiation" ontology_id="GO_0070306"/>
+		<entity id="s1.e4" charOffset="244-263"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e5" charOffset="329-377"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s1.e6" charOffset="444-454"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

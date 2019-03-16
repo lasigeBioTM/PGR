@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29277318">
+	<sentence id="s1" text="Genetic rearrangements involving androgen-regulated transmembrane protease serine 2 (TMPRSS2) and genes from the ETS transcription factor family, most commonly ERG and ETV1, result in alteration that responsible for oncogenic activity in prostate cancer (PC).">
+		<entity id="s1.e1" charOffset="85-92"
+			type="GENE" text="TMPRSS2" ontology_id="7113"/>
+		<entity id="s1.e2" charOffset="160-163"
+			type="GENE" text="ERG" ontology_id="2078"/>
+		<entity id="s1.e3" charOffset="168-172"
+			type="GENE" text="ETV1" ontology_id="2115"/>
+		<entity id="s1.e4" charOffset="247-253"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30125135">
+	<sentence id="s1" text="Pure hair and natural killer cell activation involved in immune response ectodermal dysplasia 9 (ECTD-9) is an autosomal recessive genetic disease caused by mutation of anatomical structure morphogenesis and is characterized by hypotrichosis and natural killer cell activation involved in immune response dystrophy in humans.">
+		<entity id="s1.e1" charOffset="14-72"
+			type="GO" text="natural killer cell activation involved in immune response" ontology_id="GO_0002323"/>
+		<entity id="s1.e2" charOffset="19-39"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e3" charOffset="57-76"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="115-149"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<entity id="s1.e5" charOffset="174-187"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Unlike patients with ECTD-9, anatomical structure morphogenesis-mutated apoptotic process and attachment of GPI anchor to protein do not faithfully recapitulate the phenotype of hypotrichosis, so there is a limited understanding of the molecular mechanism of Hoxc13-mediated hypotrichosis in animal models and clinically.">
+		<entity id="s2.e1" charOffset="29-63"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<entity id="s2.e2" charOffset="72-89"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e3" charOffset="94-129"
+			type="GO" text="attachment of GPI anchor to protein" ontology_id="GO_0016255"/>
+		<entity id="s2.e4" charOffset="134-147"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, the homozygous anatomical structure morphogenesis<sup>-/-</sup> rabbits showed complete loss of hair on the head and dorsum, whereas hypotrichosis in the limbs and tail were determined in the Hoxc13<sup>-/-</sup> rabbits.">
+		<entity id="s3.e1" charOffset="21-55"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<entity id="s3.e2" charOffset="139-152"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="In addition, reduced hair follicles (HFs) while the enlarged and increased number of sebaceous glands (cell adhesion mediated by integrin) were also found in the anatomical structure morphogenesis<sup>-/-</sup> rabbits, showing that the disrupted balance between HFs and SGs may respond to hypotrichosis of ECTD-9 in an animal model and clinically.">
+		<entity id="s4.e1" charOffset="103-137"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s4.e2" charOffset="131-165"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<entity id="s4.e3" charOffset="259-272"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Therefore, our findings demonstrate that anatomical structure morphogenesis<sup>-/-</sup> rabbits can be used as a model for human ECTD-9, especially to understand the pathologic mechanism of hypotrichosis.">
+		<entity id="s5.e1" charOffset="41-75"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<entity id="s5.e2" charOffset="192-205"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="Moreover, the disrupted balance between HFs and cell adhesion mediated by integrin, especially in the anatomical structure morphogenesis<sup>-/-</sup> rabbits, can be used as an ideal animal model for dermatology ailments, such as acne and hypotrichosis, in preclinical studies.-Deng, J., Chen, M., Liu, Z., Song, Y., Sui, T., Lai, L., Li, Z.">
+		<entity id="s6.e1" charOffset="48-82"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s6.e2" charOffset="71-105"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<entity id="s6.e3" charOffset="209-222"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="true"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

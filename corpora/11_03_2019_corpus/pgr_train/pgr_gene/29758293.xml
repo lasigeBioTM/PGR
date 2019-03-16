@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29758293">
+	<sentence id="s1" text="We studied a consanguineous Pakistani family with postnatal microcephaly, orofacial dyskinesia, spastic quadriplegia and, on MRI, cortical atrophy with myelination delay, suggestive of a FOXG1-like presentation.">
+		<entity id="s1.e1" charOffset="60-72"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e2" charOffset="74-94"
+			type="HP" text="orofacial dyskinesia" ontology_id="HP_0002310"/>
+		<entity id="s1.e3" charOffset="96-116"
+			type="HP" text="spastic quadriplegia" ontology_id="HP_0002510"/>
+		<entity id="s1.e4" charOffset="130-146"
+			type="HP" text="cortical atrophy" ontology_id="HP_0002120"/>
+		<entity id="s1.e5" charOffset="187-192"
+			type="GENE" text="FOXG1" ontology_id="2290"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The regulation of the post-mitotic neural survival activity of TLE1 depends critically on an interaction with FOXG1, a gene shown to be involved in a postnatal microcephaly syndrome.">
+		<entity id="s2.e1" charOffset="63-67"
+			type="GENE" text="TLE1" ontology_id="7088"/>
+		<entity id="s2.e2" charOffset="110-115"
+			type="GENE" text="FOXG1" ontology_id="2290"/>
+		<entity id="s2.e3" charOffset="160-172"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

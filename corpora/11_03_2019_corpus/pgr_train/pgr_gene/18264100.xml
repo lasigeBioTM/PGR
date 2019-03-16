@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="18264100">
+	<sentence id="s1" text="Studying consanguineous families with Ghosal hematodiaphyseal dysplasia syndrome (GHDD), a disorder of increased bone density, we identified mutations in TBXAS1, which encodes thromboxane synthase (TXAS).">
+		<entity id="s1.e1" charOffset="103-125"
+			type="HP" text="increased bone density" ontology_id="HP_0011001"/>
+		<entity id="s1.e2" charOffset="154-160"
+			type="GENE" text="TBXAS1" ontology_id="6916"/>
+		<entity id="s1.e3" charOffset="198-202"
+			type="GENE" text="TXAS" ontology_id="6916"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

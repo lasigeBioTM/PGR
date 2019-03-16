@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29414779">
+	<sentence id="s1" text="Neurturin (NRTN) provides trophic support to neurons and is considered a therapeutic agent for neurodegenerative diseases, such as Parkinson's disease.">
+		<entity id="s1.e1" charOffset="11-15"
+			type="GENE" text="NRTN" ontology_id="4902"/>
+		<entity id="s1.e2" charOffset="95-121"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

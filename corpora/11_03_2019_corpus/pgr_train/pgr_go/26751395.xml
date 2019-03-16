@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26751395">
+	<sentence id="s1" text="A rare syndromic form of intellectual disability with impaired speech was recently found associated with mutations in sister chromatid biorientation (chromosome alignment-maintaining phosphoprotein 1), the protein product of which is directly involved in microtubule-kinetochore attachment.">
+		<entity id="s1.e1" charOffset="25-48"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="118-148"
+			type="GO" text="sister chromatid biorientation" ontology_id="GO_0031134"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Through whole-exome sequencing in six unrelated nonconsanguineous families having a sporadic case of intellectual disability, we identified six novel de novo truncating mutations in sister chromatid biorientation: c.1880CAAAAG p.(Ser627*), c.1489CAAAAT; p.(Arg497*), c.1876_1877delAG; p.(Ser626Leufs*4), c.1043GAAAAA; p.(Trp348*), c.1002GAAAAA; p.(Trp334*), and c.958_959delCC; p.(Pro320*).">
+		<entity id="s2.e1" charOffset="84-92"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e2" charOffset="101-124"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="182-212"
+			type="GO" text="sister chromatid biorientation" ontology_id="GO_0031134"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These data suggest a pathogenic mechanism of the sister chromatid biorientation-associated intellectual disability syndrome mediated by direct interacting partners of CHAMP1, several of which are involved in chromo/kinetochore-related disorders.">
+		<entity id="s3.e1" charOffset="49-79"
+			type="GO" text="sister chromatid biorientation" ontology_id="GO_0031134"/>
+		<entity id="s3.e2" charOffset="91-114"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

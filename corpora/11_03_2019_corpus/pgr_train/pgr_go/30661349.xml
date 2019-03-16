@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30661349">
+	<sentence id="s1" text="The results showed that the concentration of inflammatory cytokines [interleukin 1β (IL1β) and tumor necrosis factor α (Tperipheral nervous system development-α)], myeloperoxidase (low-density lipoprotein particle remodeling) activity in the lung tissue and blood, protein abundance of toll-like receptor 4 (I-kappaB phosphorylation), nuclear factor κB (NF-κB, p65), phosphorylated p65 (p-p65), inhibitor κBα (IκBα), and phosphorylated IκBα (p-IκBα), and relative mRNA expression of genes associated with inflammation, such as TLR4, NF-κB, IL1β, interleukin 6 (IL6), and TNF-α, were significantly upregulated in the cell cycle arrest group compared to the PBS group.">
+		<entity id="s1.e1" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="121-158"
+			type="GO" text="peripheral nervous system development" ontology_id="GO_0007422"/>
+		<entity id="s1.e3" charOffset="146-189"
+			type="GO" text="low-density lipoprotein particle remodeling" ontology_id="GO_0034374"/>
+		<entity id="s1.e4" charOffset="273-297"
+			type="GO" text="I-kappaB phosphorylation" ontology_id="GO_0007252"/>
+		<entity id="s1.e5" charOffset="521-538"
+			type="GO" text="cell cycle arrest" ontology_id="GO_0007050"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

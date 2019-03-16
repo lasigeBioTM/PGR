@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28054444">
+	<sentence id="s1" text="A heterozygous nonsense variant was identified in negative regulation of transcription by RNA polymerase II, antagonist of protein polyubiquitination, 1 (negative regulation of transcription by RNA polymerase II) via whole-exome sequencing in family members with imperforate anus, structural renal abnormalities, genitourinary anomalies, and/or ear anomalies.">
+		<entity id="s1.e1" charOffset="50-107"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="123-149"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e3" charOffset="154-211"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="197-213"
+			type="HP" text="imperforate anus" ontology_id="HP_0002023"/>
+		<entity id="s1.e5" charOffset="279-292"
+			type="HP" text="ear anomalies" ontology_id="HP_0000598"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The negative regulation of transcription by RNA polymerase II c.1256GAAAAA;p.Trp419<sup>*</sup> variant segregated appropriately in the family consistent with an autosomal dominant mode of inheritance.">
+		<entity id="s2.e1" charOffset="4-61"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="181-200"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="negative regulation of transcription by RNA polymerase II is a member of the Wnt-signaling pathway, and apoptotic process homozygous for null alleles display multiple congenital anomalies including absent anus with blind-ending colon and genitourinary malformations.">
+		<entity id="s3.e1" charOffset="0-57"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="104-121"
+			type="GO" text="apoptotic process" ontology_id="GO_00012115"/>
+		<entity id="s3.e3" charOffset="185-196"
+			type="HP" text="absent anus" ontology_id="HP_0002023"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

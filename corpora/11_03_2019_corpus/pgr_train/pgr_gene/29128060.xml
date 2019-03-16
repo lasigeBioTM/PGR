@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29128060">
+	<sentence id="s1" text="This trend is, in part, secondary, to the growing incidence of obesity, type 2 diabetes, and metabolic syndrome.">
+		<entity id="s1.e1" charOffset="63-70"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="72-76"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

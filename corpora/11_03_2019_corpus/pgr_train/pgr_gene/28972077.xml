@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28972077">
+	<sentence id="s1" text="Ancestor tumor clones evolved into three subclonal clades: clade1 fostered metastatic subclones that carried metastatic features of li>PIK3CA</i> and li>ARHGAP26</i> point mutations as well as chr13 arm-level deletion, clade2 owned branch-specific li>JAK1</i> mutations and li>PTEN</i> deletion, and clade3 was found in two vertical distribution samples below the primary tumor area, highlighting the fact that it is possible for PMME to disseminate by the submucosal longitudinal lymphatic route at an early stage of metastasis.">
+		<entity id="s1.e1" charOffset="9-14"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="199-202"
+			type="GENE" text="arm" ontology_id="80210"/>
+		<entity id="s1.e3" charOffset="401-405"
+			type="GENE" text="fact" ontology_id="11198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These findings facilitate interpretation of the genetic essence of this rare melanoma subtype as well as the pattern of cancer evolution, thus reinforcing the therapeutic challenges associated with PMME.<b>Significance:</b> This study highlights the use of multiregion exome sequencing and whole genome SNP array genotyping to comprehensively characterize the genetic landscape of a rare type of esophogeal melanoma.">
+		<entity id="s2.e1" charOffset="89-93"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

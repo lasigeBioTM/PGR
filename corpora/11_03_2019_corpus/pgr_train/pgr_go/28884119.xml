@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28884119">
+	<sentence id="s1" text="This study investigated the role of potassium channel gene li>(potassium ion transmembrane transport)</i> polymorphisms in high myopia.">
+		<entity id="s1.e1" charOffset="63-100"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s1.e2" charOffset="128-134"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Five tag single-nucleotide polymorphisms (SNPs) of li>potassium ion transmembrane transport</i> were genotyped, and association testing with high myopia was conducted using logistic regression analysis adjusted for negative regulation of cell adhesion and age to give li>P</i><sub>asym</sub> values, and multiple comparisons were corrected by permutation test to give li>P</i><sub>emp</sub> values.">
+		<entity id="s2.e1" charOffset="54-91"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s2.e2" charOffset="146-152"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s2.e3" charOffset="215-251"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The SNP rs7744813, previously shown to be associated with refractive error and myopia in two GWAS, showed an odds ratio of 0.75 (95% CI 0.63-0.90; li>P</i><sub>emp</sub> = 0.0058) for the positive regulation of glucose transmembrane transport allele.">
+		<entity id="s3.e1" charOffset="79-85"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s3.e2" charOffset="188-242"
+			type="GO" text="positive regulation of glucose transmembrane transport" ontology_id="GO_0010828"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our data support the involvement of li>potassium ion transmembrane transport</i> gene polymorphisms in the genetic susceptibility to high myopia and further exploration of li>KCNQ5</i> as a risk factor for high myopia">
+		<entity id="s4.e1" charOffset="39-76"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s4.e2" charOffset="138-144"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

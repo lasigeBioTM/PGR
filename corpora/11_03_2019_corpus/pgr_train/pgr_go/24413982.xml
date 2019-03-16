@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24413982">
+	<sentence id="s1" text="Spinocerebellar ataxia cardiac muscle tissue development 17 (transcription by RNA polymerase II) is caused by CAG repeat expansion in the TATA-box binding protein gene.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="23-56"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="61-95"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006395"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

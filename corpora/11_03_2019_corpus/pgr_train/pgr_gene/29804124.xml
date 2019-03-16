@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29804124">
+	<sentence id="s1" text="MATERIAL AND METHODS We analyzed BC microarray studies GSE37751, GSE7390, and GSE21653 to investigate the expression of FGF5 gene between BC patients and their normal counterparts and the relationship between FGF5 expression and age, tumor size, histopathological grading, estrogen receptors, clinical risk group according to St Gallen criteria, clinical risk group according to NPI criteria, clinical risk group according to Veridex signature, distant metastasis-free survival (DMFS), time to distant metastasis (TDM), disease-free survival (DFS), and overall survival (OS) of BC patients.">
+		<entity id="s1.e1" charOffset="120-124"
+			type="GENE" text="FGF5" ontology_id="2250"/>
+		<entity id="s1.e2" charOffset="234-239"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="379-382"
+			type="GENE" text="NPI" ontology_id="9509"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="BC patients in the FGF5 low-expression group were correlated with better clinical characteristics, including tumor size, histopathological grading, estrogen receptors, clinical risk group according to St Gallen criteria, NPI criteria and Veridex signature, DMFS, TDM, and DFS compared with those in the FGF5 high-expression cohort.">
+		<entity id="s2.e1" charOffset="19-23"
+			type="GENE" text="FGF5" ontology_id="2250"/>
+		<entity id="s2.e2" charOffset="109-114"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="221-224"
+			type="GENE" text="NPI" ontology_id="9509"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27567740">
+	<sentence id="s1" text="Recently, a missense mutation (R7S) in yet another member of this family, response to unfolded protein, was found to cause an axonal motor neuropathy (distal hereditary motor neuropathy cardiac muscle tissue development 2C, dHMN2C).">
+		<entity id="s1.e1" charOffset="74-102"
+			type="GO" text="response to unfolded protein" ontology_id="GO_0006986"/>
+		<entity id="s1.e2" charOffset="139-149"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="186-219"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

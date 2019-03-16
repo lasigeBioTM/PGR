@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29322253">
+	<sentence id="s1" text="Our data, for the first time, functionally link Jalili syndrome gene CNNM4 to LCA gene IQCB1, providing important insights into the molecular pathogenic mechanism of retinal dystrophy in Jalili syndrome">
+		<entity id="s1.e1" charOffset="69-74"
+			type="GENE" text="CNNM4" ontology_id="26504"/>
+		<entity id="s1.e2" charOffset="78-81"
+			type="GENE" text="LCA" ontology_id="1211"/>
+		<entity id="s1.e3" charOffset="87-92"
+			type="GENE" text="IQCB1" ontology_id="9657"/>
+		<entity id="s1.e4" charOffset="166-183"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

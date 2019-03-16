@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23620518">
+	<sentence id="s1" text="Perturbation of MAM function has previously been suggested in Alzheimer's disease (AD) as shown in fibroblasts from AD patients and a neuroblastoma cell line containing familial presenilin-2 AD mutation.">
+		<entity id="s1.e1" charOffset="16-19"
+			type="GENE" text="MAM" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="134-147"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

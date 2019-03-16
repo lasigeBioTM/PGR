@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25973542">
+	<sentence id="s1" text="Here we identify a negative regulation of transcription, DNA-templated of genes that is highly expressed in breast cancer bone metastasis and activated by negative regulation of transcription by RNA polymerase II.">
+		<entity id="s1.e1" charOffset="19-70"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="107-164"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We here demonstrate that the expression of negative regulation of transcription by RNA polymerase II and BMP-inhibitors is correlated with bone metastasis, but not with brain or lung metastasis of breast cancer patients.">
+		<entity id="s2.e1" charOffset="43-100"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="204-210"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These findings suggest that negative regulation of transcription by RNA polymerase II is not only driving cytokine production, but also contributes to the formation of osteolytic bone metastases in breast cancer.">
+		<entity id="s3.e1" charOffset="28-85"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="53-72"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<entity id="s3.e3" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

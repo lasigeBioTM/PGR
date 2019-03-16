@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27890673">
+	<sentence id="s1" text="acylglycerol catabolic process mutations have been linked to neurodegenerative PHARC (polyneuropathy, hearing loss, ataxia, retinitis pigmentosa, and early-onset cataract), a rare, progressive, autosomal, recessive disease.">
+		<entity id="s1.e1" charOffset="0-30"
+			type="GO" text="acylglycerol catabolic process" ontology_id="GO_0046464"/>
+		<entity id="s1.e2" charOffset="102-114"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="116-122"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e4" charOffset="162-170"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s1.e5" charOffset="181-192"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

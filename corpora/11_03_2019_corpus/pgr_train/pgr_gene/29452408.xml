@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29452408">
+	<sentence id="s1" text="The candidate genes located within the new loci were related to ocular development (LMX1B, HMGA2 and MAP3K1) and glaucoma-related phenotypes (FNDC3B, LMX1B and LOXL1).">
+		<entity id="s1.e1" charOffset="84-89"
+			type="GENE" text="LMX1B" ontology_id="4010"/>
+		<entity id="s1.e2" charOffset="91-96"
+			type="GENE" text="HMGA2" ontology_id="8091"/>
+		<entity id="s1.e3" charOffset="101-107"
+			type="GENE" text="MAP3K1" ontology_id="4214"/>
+		<entity id="s1.e4" charOffset="113-121"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e5" charOffset="135-139"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e6" charOffset="142-148"
+			type="GENE" text="FNDC3B" ontology_id="64778"/>
+		<entity id="s1.e7" charOffset="160-165"
+			type="GENE" text="LOXL1" ontology_id="4016"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Genetic correlation analysis revealed the relationships between POAG and systemic diseases, including type 2 diabetes and cardiovascular diseases.">
+		<entity id="s2.e1" charOffset="102-106"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="122-145"
+			type="HP" text="cardiovascular diseases" ontology_id="HP_0001626"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30572178">
+	<sentence id="s1" text="We conducted further optimization of dual enzymatic inhibitions towards FGFR1 and DDR2, two important kinases in lung squamous cell carcinoma.">
+		<entity id="s1.e1" charOffset="72-77"
+			type="GENE" text="FGFR1" ontology_id="2260"/>
+		<entity id="s1.e2" charOffset="82-86"
+			type="GENE" text="DDR2" ontology_id="4921"/>
+		<entity id="s1.e3" charOffset="118-141"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

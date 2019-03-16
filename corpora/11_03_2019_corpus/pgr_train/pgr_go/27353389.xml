@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27353389">
+	<sentence id="s1" text="A mutation of cilium movement has been identified in human patients with primary ciliary dyskinesia (motile cilium assembly).">
+		<entity id="s1.e1" charOffset="14-29"
+			type="GO" text="cilium movement" ontology_id="GO_0003341"/>
+		<entity id="s1.e2" charOffset="81-99"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e3" charOffset="101-123"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Mutant apoptotic process lacking cilium movement show typical motile cilium assembly defects such as hydrocephalus and laterality defects.">
+		<entity id="s2.e1" charOffset="7-24"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="33-48"
+			type="GO" text="cilium movement" ontology_id="GO_0003341"/>
+		<entity id="s2.e3" charOffset="62-84"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s2.e4" charOffset="72-85"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

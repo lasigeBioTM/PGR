@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30442880">
+	<sentence id="s1" text="BACKGROUND The distribution of positive regulation of cell-matrix adhesion cell adhesion mediated by integrin and obesity-associated gene (DNA dealkylation involved in DNA repair) genes rs9939609 and rs1421085 in obese and normal ethnic Mongolians was analyzed to investigate the association of FTO gene polymorphisms with obesity and metabolic syndrome in ethnic Mongolians.">
+		<entity id="s1.e1" charOffset="31-74"
+			type="GO" text="positive regulation of cell-matrix adhesion" ontology_id="GO_0001954"/>
+		<entity id="s1.e2" charOffset="75-109"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s1.e3" charOffset="84-91"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e4" charOffset="139-178"
+			type="GO" text="DNA dealkylation involved in DNA repair" ontology_id="GO_0006307"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="RESULTS Body cell adhesion mediated by integrin, body mass index (BMI), waist circumference (WC), negative regulation of signal transduction circumference (HC), waist-hip ratio (WHR), SBP, vitamin D metabolic process, FPG, triglyceride (TG), total cholesterol (TC), and low-density lipoprotein cholesterol (LDL-C) were higher, while HDL-C was lower in the obesity group compared with controls.">
+		<entity id="s2.e1" charOffset="13-47"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s2.e2" charOffset="98-140"
+			type="GO" text="negative regulation of signal transduction" ontology_id="GO_0009998"/>
+		<entity id="s2.e3" charOffset="189-216"
+			type="GO" text="vitamin D metabolic process" ontology_id="GO_0042359"/>
+		<entity id="s2.e4" charOffset="293-300"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

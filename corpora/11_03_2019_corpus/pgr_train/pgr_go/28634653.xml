@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28634653">
+	<sentence id="s1" text="Exposure to BMAA has been implicated in the development of neurodegenerative diseases including amyotrophic lateral sclerosis (signal transduction), Alzheimer's disease (AD) and Parkinson's disease (PD).">
+		<entity id="s1.e1" charOffset="59-85"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="127-146"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

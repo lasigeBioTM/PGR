@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30098109">
+	<sentence id="s1" text="Aberrant expression of negative regulation of receptor recycling-containing protein 44 (TRIM44) acts as a promoter in multiple cancers.">
+		<entity id="s1.e1" charOffset="23-64"
+			type="GO" text="negative regulation of receptor recycling" ontology_id="GO_0001920"/>
+		<entity id="s1.e2" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we investigated the biological functions and clinical significance of negative regulation of receptor recycling44 in human esophageal cancer (establishment of mitotic spindle orientation).">
+		<entity id="s2.e1" charOffset="76-117"
+			type="GO" text="negative regulation of receptor recycling" ontology_id="GO_0001920"/>
+		<entity id="s2.e2" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="148-192"
+			type="GO" text="establishment of mitotic spindle orientation" ontology_id="GO_0000132"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30041243">
+	<sentence id="s1" text="The revision was based on data accumulated since the 2008 WHO classification of MDS, much of which relates to new molecular genetic information about these neoplasms.">
+		<entity id="s1.e1" charOffset="80-83"
+			type="GENE" text="MDS" ontology_id="5048"/>
+		<entity id="s1.e2" charOffset="156-165"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

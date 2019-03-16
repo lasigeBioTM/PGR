@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25681241">
+	<sentence id="s1" text="FOXRED1 encodes a complex I-specific assembly factor and mutations in this gene result in complex I deficiency, infantile onset encephalomyopathy and Leigh syndrome.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="FOXRED1" ontology_id="55572"/>
+		<entity id="s1.e2" charOffset="112-127"
+			type="HP" text="infantile onset" ontology_id="HP_0003593"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29734195">
+	<sentence id="s1" text="Mutations of the CYP21A2 gene encoding adrenal 21-hydroxylase cause congenital adrenal hyperplasia (CAH).">
+		<entity id="s1.e1" charOffset="17-24"
+			type="GENE" text="CYP21A2" ontology_id="1589"/>
+		<entity id="s1.e2" charOffset="79-98"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Mutations affecting both alleles of TNXB cause a severe, autosomal recessive form of Ehlers-Danlos syndrome (EDS).">
+		<entity id="s2.e1" charOffset="36-40"
+			type="GENE" text="TNXB" ontology_id="7148"/>
+		<entity id="s2.e2" charOffset="57-76"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Rarely, patients with severe, salt-wasting CAH have deletions of CYP21A2 that extend into TNXB, resulting in a AAAAAAcontiguous gene syndromeAAAAAA consisting of CAH and EDS.">
+		<entity id="s3.e1" charOffset="65-72"
+			type="GENE" text="CYP21A2" ontology_id="1589"/>
+		<entity id="s3.e2" charOffset="90-94"
+			type="GENE" text="TNXB" ontology_id="7148"/>
+		<entity id="s3.e3" charOffset="117-141"
+			type="HP" text="contiguous gene syndrome" ontology_id="HP_0001466"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

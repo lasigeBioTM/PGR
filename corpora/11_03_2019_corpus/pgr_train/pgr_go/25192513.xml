@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25192513">
+	<sentence id="s1" text="Cerebellar involvement is an important feature of mannose metabolic process-CDG, the congenital muscular dystrophies due to dystroglycanopathy, and polyprenol catabolic process-CDG.">
+		<entity id="s1.e1" charOffset="50-75"
+			type="GO" text="mannose metabolic process" ontology_id="GO_0006013"/>
+		<entity id="s1.e2" charOffset="96-116"
+			type="HP" text="muscular dystrophies" ontology_id="HP_0003560"/>
+		<entity id="s1.e3" charOffset="148-176"
+			type="GO" text="polyprenol catabolic process" ontology_id="GO_0016095"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22951595">
+	<sentence id="s1" text="We further replicated pleiotropic associations of GYS2 in a childhood obesity study (n=482) and in a gestational diabetes study (n=1710), respectively.">
+		<entity id="s1.e1" charOffset="50-54"
+			type="GENE" text="GYS2" ontology_id="2998"/>
+		<entity id="s1.e2" charOffset="70-77"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

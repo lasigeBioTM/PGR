@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28890319">
+	<sentence id="s1" text="Using human neuroblastoma SH-SY5Y cells, we found that the neuroprotective function of CHRNA7 is blocked by CHRNA7 knockdown using RNA interference.">
+		<entity id="s1.e1" charOffset="12-25"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="87-93"
+			type="GENE" text="CHRNA7" ontology_id="1139"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

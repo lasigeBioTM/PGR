@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29407229">
+	<sentence id="s1" text="Their expression changes were further validated in U2positive regulation of stress-activated MAPK cascade osteosarcoma cell lines and hOB normal cell lines through quantitative PCR (qPCR) and consistent result with microarray analysis was obtained.">
+		<entity id="s1.e1" charOffset="53-105"
+			type="GO" text="positive regulation of stress-activated MAPK cascade" ontology_id="GO_0032874"/>
+		<entity id="s1.e2" charOffset="106-118"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

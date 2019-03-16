@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30306202">
+	<sentence id="s1" text="Dendritic cell (DC)-based immunotherapies have been created for a broad expanse of cancers, and DC vaccines prepared with Wilms' tumor protein 1 (WT1) peptides have shown great therapeutic efficacy in these diseases.">
+		<entity id="s1.e1" charOffset="16-18"
+			type="GENE" text="DC" ontology_id="1641"/>
+		<entity id="s1.e2" charOffset="83-89"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="146-149"
+			type="GENE" text="WT1" ontology_id="7490"/>
+		<entity id="s1.e5" charOffset="171-176"
+			type="GENE" text="great" ontology_id="122042"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this paper, we report the results of a phase I/II study of a DC-based vaccination for advanced breast, ovarian, and gastric cancers, and we offer evidence that patients can be effectively vaccinated with autologous DCs pulsed with WT1 peptide.">
+		<entity id="s2.e1" charOffset="64-66"
+			type="GENE" text="DC" ontology_id="1641"/>
+		<entity id="s2.e2" charOffset="119-134"
+			type="HP" text="gastric cancers" ontology_id="HP_0012126"/>
+		<entity id="s2.e3" charOffset="234-237"
+			type="GENE" text="WT1" ontology_id="7490"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

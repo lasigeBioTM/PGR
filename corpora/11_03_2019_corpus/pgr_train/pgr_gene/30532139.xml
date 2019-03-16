@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30532139">
+	<sentence id="s1" text="Spinocerebellar ataxia type 11 (SCA11) is a rare, dominantly inherited human ataxia characterized by atrophy of Purkinje neurons in the cerebellum.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="23-27"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="32-37"
+			type="GENE" text="SCA11" ontology_id="146057"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

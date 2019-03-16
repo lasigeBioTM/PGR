@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30569945">
+	<sentence id="s1" text="BACKGROUND Epigenetic modifications in host cells, like p16 G1/S transition of mitotic cell cycle methylation, have been considered as putative complementary mechanisms for cancer development.">
+		<entity id="s1.e1" charOffset="60-97"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s1.e2" charOffset="173-179"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="OBJECTIVES We hypothesised that p16 G1/S transition of mitotic cell cycle methylation might have a role in cancer development driven by HPV16, mainly in the presence of intact E1/E2 genes.">
+		<entity id="s2.e1" charOffset="36-73"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s2.e2" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Methylation status of the p16 G1/S transition of mitotic cell cycle promoter was assessed by methylation-specific PCR in 87 cervical specimens comprising 29 low-grade (LSIL), 41 high-grade (HSIL) lesions, and 17 cervical cancers (CC).">
+		<entity id="s3.e1" charOffset="30-67"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s3.e2" charOffset="221-227"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="FINDINGS We observed a significantly increased trend (nptrend = 0.0320) in the proportion of methylated p16 G1/S transition of mitotic cell cycle in cervical samples during cancer development.">
+		<entity id="s4.e1" charOffset="108-145"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s4.e2" charOffset="173-179"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="MAIN CONCLUSIONS There was an increase in methylation of the p16 G1/S transition of mitotic cell cycle promoter from pre-neoplastic lesions to cancer.">
+		<entity id="s5.e1" charOffset="65-102"
+			type="GO" text="G1/S transition of mitotic cell cycle" ontology_id="GO_0000082"/>
+		<entity id="s5.e2" charOffset="143-149"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

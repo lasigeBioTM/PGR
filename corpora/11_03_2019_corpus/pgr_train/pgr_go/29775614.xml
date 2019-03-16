@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29775614">
+	<sentence id="s1" text="Herein, we newly identified that truncated form of sister chromatid cohesion is produced and released from lung tumor tissue in a mouse model expressing human EML4-ALK fusion gene.">
+		<entity id="s1.e1" charOffset="51-76"
+			type="GO" text="sister chromatid cohesion" ontology_id="GO_0007062"/>
+		<entity id="s1.e2" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The correlation between the tumor size and the amount of sister chromatid cohesion secretion could be examined in this study, and showed a significant positive correlation in a tumor size-dependent manner.">
+		<entity id="s2.e1" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="57-82"
+			type="GO" text="sister chromatid cohesion" ontology_id="GO_0007062"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Considering these results, the measurement of circulating sister chromatid cohesion level may contribute to assess a tumor progression in human lung tumor patients">
+		<entity id="s3.e1" charOffset="58-83"
+			type="GO" text="sister chromatid cohesion" ontology_id="GO_0007062"/>
+		<entity id="s3.e2" charOffset="117-122"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

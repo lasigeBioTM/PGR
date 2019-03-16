@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30320381">
+	<sentence id="s1" text="In the present study, western blotting was used to verified the expression of T lymphocyte detection of calcium ion and pathway proteins, including phosphorylated extracellular signal‑regulated kinase (P‑ERK)1/2 and phosphorylated c‑Jun N‑terminal kinase (P‑JNK), and used cytometric bead array to detect the secretion of interleukin (IL)‑4, IL‑6, IL‑10 and tumor necrosis factor (negative regulation of transcription by RNA polymerase II)‑α in AMI onset, the results demonstrated that they were all increased.">
+		<entity id="s1.e1" charOffset="91-115"
+			type="GO" text="detection of calcium ion" ontology_id="GO_0005513"/>
+		<entity id="s1.e2" charOffset="358-363"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="381-438"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

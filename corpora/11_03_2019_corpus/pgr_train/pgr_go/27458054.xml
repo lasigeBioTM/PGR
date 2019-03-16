@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27458054">
+	<sentence id="s1" text="As ubiquitination is a versatile post-translational modification that can affect target turnover, sub-cellular localisation or activity, it is likely that diverse substrates may be differentially affected by protein polyubiquitination-mediated ubiquitination, reflecting its multi-faceted roles in muscle physiology, cancer and immunity.">
+		<entity id="s1.e1" charOffset="208-234"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="317-323"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="With particular relevance for muscle physiology, mutations in protein polyubiquitination are associated with autosomal recessive Limb-Girdle Muscular Dystrophy 2H, a muscle-wasting disease with variable clinical spectrum ranging from almost asymptomatic to wheelchair-bound patients.">
+		<entity id="s2.e1" charOffset="62-88"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="109-128"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="In this review, we will focus on the ability of protein polyubiquitination to protein phosphorylation specific substrates for proteasomal degradation discussing how the TRIM32-proteasome axis may (i) be important for muscle homeostasis and for the pathogenesis of muscular dystrophy; and (ii) define either an oncogenic or tumour suppressive role for TRIM32 in the context of different types of cancer">
+		<entity id="s3.e1" charOffset="48-74"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="78-101"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e3" charOffset="304-310"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

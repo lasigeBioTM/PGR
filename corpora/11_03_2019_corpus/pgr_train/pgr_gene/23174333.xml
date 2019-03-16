@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23174333">
+	<sentence id="s1" text="An array of tumor syndromes caused by complex II-associated gene mutations, in both succinate dehydrogenase and associated accessory factor genes (SDHA, SDHB, SDHC, SDHD, SDHAF1, SDHAF2), have been identified over the last 12 years and include hereditary paraganglioma-pheochromocytomas, a diverse group of renal cell carcinomas, and a specific subtype of gastrointestinal stromal tumors (GIST).">
+		<entity id="s1.e1" charOffset="12-17"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="147-151"
+			type="GENE" text="SDHA" ontology_id="6389"/>
+		<entity id="s1.e3" charOffset="153-157"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<entity id="s1.e4" charOffset="159-163"
+			type="GENE" text="SDHC" ontology_id="6391"/>
+		<entity id="s1.e5" charOffset="165-169"
+			type="GENE" text="SDHD" ontology_id="6392"/>
+		<entity id="s1.e6" charOffset="255-268"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e7" charOffset="269-286"
+			type="HP" text="pheochromocytomas" ontology_id="HP_0002666"/>
+		<entity id="s1.e8" charOffset="307-328"
+			type="HP" text="renal cell carcinomas" ontology_id="HP_0005584"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e4"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e6"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e8"
+		    e2="s1.e18" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e2"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e4"
+		    e2="s1.e26" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e6"
+		    e2="s1.e26" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e8"
+		    e2="s1.e26" pgr="true"/>
+	</sentence>
+</document>

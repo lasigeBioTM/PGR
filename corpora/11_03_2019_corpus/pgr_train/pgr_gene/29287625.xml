@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29287625">
+	<sentence id="s1" text="These results imply that PPI might be modulated by four genotypes - COMT rs4680 (primarily in males), GRIK3 rs1027599, TCF4 rs9960767, and PRODH rs385440 - indicating a role of these gene variations in the development of early information processing deficits in schizophrenia.">
+		<entity id="s1.e1" charOffset="68-72"
+			type="GENE" text="COMT" ontology_id="1312"/>
+		<entity id="s1.e2" charOffset="102-107"
+			type="GENE" text="GRIK3" ontology_id="2899"/>
+		<entity id="s1.e3" charOffset="119-123"
+			type="GENE" text="TCF4" ontology_id="6934"/>
+		<entity id="s1.e4" charOffset="139-144"
+			type="GENE" text="PRODH" ontology_id="5625"/>
+		<entity id="s1.e5" charOffset="262-275"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

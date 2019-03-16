@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29174093">
+	<sentence id="s1" text="De novo monoallelic mutations in the adenylate cyclase-activating dopamine receptor signaling pathway gene, encoding a β subunit of heterotrimeric G proteins, cause a newly recognized disorder with the typical clinical picture of severe developmental delay/intellectual disability, hypotonia and extrapyramidal symptoms.">
+		<entity id="s1.e1" charOffset="37-101"
+			type="GO" text="adenylate cyclase-activating dopamine receptor signaling pathway" ontology_id="GO_0007191"/>
+		<entity id="s1.e2" charOffset="237-256"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="257-280"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We describe another case of the condition with manifestations of cutaneous mastocytosis associated with a novel do novo mutation adenylate cyclase-activating dopamine receptor signaling pathwayNM_001282539.1: c.230G AAAA T; p.(Gly77Val).">
+		<entity id="s2.e1" charOffset="65-87"
+			type="HP" text="cutaneous mastocytosis" ontology_id="HP_0200151"/>
+		<entity id="s2.e2" charOffset="129-193"
+			type="GO" text="adenylate cyclase-activating dopamine receptor signaling pathway" ontology_id="GO_0007191"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

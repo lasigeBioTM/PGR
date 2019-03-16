@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27840944">
+	<sentence id="s1" text="Differentiated embryo chondrocyte expressed gene 1 (Dec1), a crucial cell differentiation mediator and apoptosis inhibitor, is abundantly expressed in various types of human cancer and is associated with malignant tumor progression.">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="Dec1" ontology_id="8553"/>
+		<entity id="s1.e2" charOffset="174-180"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="214-219"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="As poor differentiation and low apoptosis are closely associated with poor survival rates and a poor response to radio/chemotherapy in patients with cancer, the prognostic value of Dec1 expression was examined in the present study and its correlation with response to temozolomide (TMZ) chemotherapy was analyzed in patients with glioma.">
+		<entity id="s2.e1" charOffset="149-155"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="181-185"
+			type="GENE" text="Dec1" ontology_id="8553"/>
+		<entity id="s2.e3" charOffset="330-336"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Dec1 expression was analyzed by immunohistochemistry in 157 samples of newly diagnosed glioma and 63 recurrent glioblastoma cases that relapsed during TMZ chemotherapy.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="Dec1" ontology_id="8553"/>
+		<entity id="s3.e2" charOffset="87-93"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e3" charOffset="111-123"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Dec1 expression was also compared with the apoptosis index determined by TdT‑mediated dUTP nick ending‑labeling assay in recurrent glioblastomas.">
+		<entity id="s4.e1" charOffset="0-4"
+			type="GENE" text="Dec1" ontology_id="8553"/>
+		<entity id="s4.e2" charOffset="131-143"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The antiglioma effect of TMZ in nude mice xenografts with Dec1 expression was examined in vivo.">
+		<entity id="s5.e1" charOffset="8-14"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s5.e2" charOffset="32-36"
+			type="GENE" text="nude" ontology_id="54820"/>
+		<entity id="s5.e3" charOffset="37-41"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s5.e4" charOffset="58-62"
+			type="GENE" text="Dec1" ontology_id="8553"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="High expression of Dec1, which was significantly associated with high pathological tumor grade and poor response to TMZ chemotherapy, was demonstrated to be an unfavorable independent prognostic factor and predicted poor survival in patients with newly diagnosed glioma.">
+		<entity id="s6.e1" charOffset="19-23"
+			type="GENE" text="Dec1" ontology_id="8553"/>
+		<entity id="s6.e2" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="263-269"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="In patients with recurrent glioblastoma, there was a negative correlation between Dec1 expression and the apoptotic index.">
+		<entity id="s7.e1" charOffset="27-39"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<entity id="s7.e2" charOffset="82-86"
+			type="GENE" text="Dec1" ontology_id="8553"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

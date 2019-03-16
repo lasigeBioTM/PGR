@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28814763">
+	<sentence id="s1" text="We demonstrate spatial genomic heterogeneity in more than 75% of patients, including inactivation of CDKN2C and TP53, and mutations affecting mitogen-activated protein kinase genes.">
+		<entity id="s1.e1" charOffset="15-22"
+			type="GENE" text="spatial" ontology_id="219793"/>
+		<entity id="s1.e2" charOffset="31-44"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="101-107"
+			type="GENE" text="CDKN2C" ontology_id="1031"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that the extent of spatial heterogeneity is positively associated with the size of biopsied focal lesions consistent with regional outgrowth of advanced clones.">
+		<entity id="s2.e1" charOffset="27-34"
+			type="GENE" text="spatial" ontology_id="219793"/>
+		<entity id="s2.e2" charOffset="35-48"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, the authors use multi-region sequencing in patient samples to analyse spatial clonal architecture and heterogeneity, providing novel insight into multiple myeloma progression and evolution">
+		<entity id="s3.e1" charOffset="76-83"
+			type="GENE" text="spatial" ontology_id="219793"/>
+		<entity id="s3.e2" charOffset="108-121"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

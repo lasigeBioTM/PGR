@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25861810">
+	<sentence id="s1" text="Pathway analyses demonstrated that methylation levels associated with age and BMI are overrepresented among genes involved in cancer, type 2 diabetes and cardiovascular disease.">
+		<entity id="s1.e1" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="134-138"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="154-176"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our results highlight the impact of age, BMI and HbA1c on epigenetic variation of candidate genes for obesity, type 2 diabetes and cancer in human adipose tissue.">
+		<entity id="s2.e1" charOffset="26-32"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<entity id="s2.e2" charOffset="102-109"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e3" charOffset="111-115"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e4" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e6"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

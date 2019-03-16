@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22366784">
+	<sentence id="s1" text="To identify additional prostate cancer susceptibility loci, we genotyped nine SNPs that were nominally associated with prostate cancer (P AAAA 1 × 10(-4)) in our previous GWAS in three independent studies of prostate cancer in Japanese men (2,557 individuals with prostate cancer (cases) and 3,003 controls).">
+		<entity id="s1.e1" charOffset="32-38"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="236-239"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In a meta-analysis of our previous GWAS and the replication studies, which included a total of 7,141 prostate cancer cases and 11,804 controls from a single ancestry group, three new loci reached genome-wide significance on chromosomes 11q12 (rs1938781; P = 1.10 × 10(-10); FAM111A-FAM111B), 10q26 (rs2252004; P = 1.98 × 10(-8)) and 3p11.2 (rs2055109; P = 3.94 × 10(-8)).">
+		<entity id="s2.e1" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="274-281"
+			type="GENE" text="FAM111A" ontology_id="63901"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29785007">
+	<sentence id="s1" text="Germline regulation of transcription, DNA-templated mutations confer increased cancer risk, for breast and other types, which is variable depending on the specific mutation.">
+		<entity id="s1.e1" charOffset="9-51"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The present study aimed to molecularly define and determine the contribution of two rare, apparently novel regulation of transcription, DNA-templated LGRs, among Greek breast cancer patients.">
+		<entity id="s2.e1" charOffset="107-149"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e2" charOffset="175-181"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

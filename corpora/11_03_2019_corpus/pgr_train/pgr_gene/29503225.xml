@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29503225">
+	<sentence id="s1" text="Here, we assessed the effect of paired tumor-associated and normal lung tissue mesenchymal stem cells (MSCs) on the growth and dissemination of primary human lung carcinoma cells isolated from the same patients.">
+		<entity id="s1.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="103-106"
+			type="GENE" text="MSC" ontology_id="9242"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that the tumor microenvironment modulates MSC gene expression and identify a four-gene MSC signature that is functionally implicated in promoting metastasis.">
+		<entity id="s2.e1" charOffset="17-22"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="50-53"
+			type="GENE" text="MSC" ontology_id="9242"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We also demonstrate that tumor-associated MSCs induce the expression of genes associated with an aggressive phenotype in primary lung cancer cells and selectively promote their dissemination rather than local growth.">
+		<entity id="s3.e1" charOffset="25-30"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="42-45"
+			type="GENE" text="MSC" ontology_id="9242"/>
+		<entity id="s3.e3" charOffset="134-140"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26841241">
+	<sentence id="s1" text="In a family with post-lingual progressive non-syndromic deafness, whole-exome sequencing of genomic DNA from five hearing-impaired relatives revealed a single variant, p.Gly488Glu (rs145970949:GAAAAA) in MYO3A, co-segregating with HL as an autosomal dominant trait.">
+		<entity id="s1.e1" charOffset="56-64"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="204-209"
+			type="GENE" text="MYO3A" ontology_id="53904"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

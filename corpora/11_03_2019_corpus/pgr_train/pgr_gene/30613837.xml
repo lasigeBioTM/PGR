@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30613837">
+	<sentence id="s1" text="The 2016 revised World Health Organization (WHO) classification of lymphoid neoplasms included the category of high-grade B cell lymphomas (HGBLs) with combined MYC and BCL2 and/or BCL6 rearrangements (double-hit, DH).">
+		<entity id="s1.e1" charOffset="76-85"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="161-164"
+			type="GENE" text="MYC" ontology_id="4609"/>
+		<entity id="s1.e3" charOffset="169-173"
+			type="GENE" text="BCL2" ontology_id="596"/>
+		<entity id="s1.e4" charOffset="181-185"
+			type="GENE" text="BCL6" ontology_id="604"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

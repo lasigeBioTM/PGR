@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25265279">
+	<sentence id="s1" text="Downregulation of Gli1, Gli2, Gli3 and Kif7 was demonstrated in clinical samples of choriocarcinoma and hydatidiform moles as well as choriocarcinoma cell lines when compared with normal placentas.">
+		<entity id="s1.e1" charOffset="18-22"
+			type="GENE" text="Gli1" ontology_id="2735"/>
+		<entity id="s1.e2" charOffset="24-28"
+			type="GENE" text="Gli2" ontology_id="2736"/>
+		<entity id="s1.e3" charOffset="30-34"
+			type="GENE" text="Gli3" ontology_id="2737"/>
+		<entity id="s1.e4" charOffset="39-43"
+			type="GENE" text="Kif7" ontology_id="374654"/>
+		<entity id="s1.e5" charOffset="84-99"
+			type="HP" text="choriocarcinoma" ontology_id="HP_0100768"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Ectopic expression of Kif7 in two choriocarcinoma cell lines JAR and JEG-3 led to a decrease in cell growth and increase in apoptosis demonstrated by MTT and TUNEL assays, respectively.">
+		<entity id="s2.e1" charOffset="22-26"
+			type="GENE" text="Kif7" ontology_id="374654"/>
+		<entity id="s2.e2" charOffset="34-49"
+			type="HP" text="choriocarcinoma" ontology_id="HP_0100768"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

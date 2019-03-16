@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25482028">
+	<sentence id="s1" text="Smad4 has recently been identified as a tumor suppressor gene in a variety of cancers, yet the role of Smad4 in renal cell carcinoma (RCC) remained to be elusive.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="Smad4" ontology_id="4089"/>
+		<entity id="s1.e2" charOffset="40-45"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="112-132"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s1.e4" charOffset="134-137"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results indicate that Smad4 acts as a tumor suppressor by activating FOXH1, and then suppressing the expression of estrogen receptor, in addition to tumor migration and invasion.">
+		<entity id="s2.e1" charOffset="28-33"
+			type="GENE" text="Smad4" ontology_id="4089"/>
+		<entity id="s2.e2" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="75-80"
+			type="GENE" text="FOXH1" ontology_id="8928"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

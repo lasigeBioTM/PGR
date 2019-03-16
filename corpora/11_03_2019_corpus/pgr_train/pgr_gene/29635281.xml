@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29635281">
+	<sentence id="s1" text="Genome-wide association studies (GWAS) have identified 13 susceptibility loci for renal cell carcinoma (RCC).">
+		<entity id="s1.e1" charOffset="82-102"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s1.e2" charOffset="104-107"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we focused on 127 significantly mutated genes from The Cancer Genome Atlas (TCGA) Pan-Cancer Analysis across 12 major cancer sites to identify potential genetic variants predictive of RCC risk and clinical outcomes.">
+		<entity id="s2.e1" charOffset="133-139"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="199-202"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Cis-eQTL was observed for several SNPs in blood/transformed fibroblasts but not in RCC tumor tissues.">
+		<entity id="s3.e1" charOffset="83-86"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<entity id="s3.e2" charOffset="87-92"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

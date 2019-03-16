@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28980090">
+	<sentence id="s1" text="Cases were reviewed for consanguinity, negative regulation of cell adhesion, age at onset, death, clinical findings (including spasticity, seizures, psychomotor retardation, feeding difficulties, ectopia lentis, microcephaly), laboratory findings [urinary sulfite, S-sulfocysteine (in plasma and urine), plasma cystine, total homocysteine, uric acid, and oxypurines in urine] and radiological findings (including cerebral/cerebellar atrophy, cystic white matter changes, ventriculomegaly).">
+		<entity id="s1.e1" charOffset="39-75"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e2" charOffset="127-137"
+			type="HP" text="spasticity" ontology_id="HP_0001257"/>
+		<entity id="s1.e3" charOffset="139-147"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="174-194"
+			type="HP" text="feeding difficulties" ontology_id="HP_0011968"/>
+		<entity id="s1.e5" charOffset="196-210"
+			type="HP" text="ectopia lentis" ontology_id="HP_0001083"/>
+		<entity id="s1.e6" charOffset="212-224"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e7" charOffset="422-440"
+			type="HP" text="cerebellar atrophy" ontology_id="HP_0001272"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

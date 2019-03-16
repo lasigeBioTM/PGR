@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30209687">
+	<sentence id="s1" text="Perhaps unusually for autosomal recessive diseases, heterozygotes for mutations in NPC1 manifest many biological variations.">
+		<entity id="s1.e1" charOffset="22-41"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="83-87"
+			type="GENE" text="NPC1" ontology_id="4864"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

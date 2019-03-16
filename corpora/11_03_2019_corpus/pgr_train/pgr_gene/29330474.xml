@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29330474">
+	<sentence id="s1" text="De novo FOXP1 mutations have been associated with intellectual disability (ID), motor delay, autistic features and a wide spectrum of speech difficulties.">
+		<entity id="s1.e1" charOffset="8-13"
+			type="GENE" text="FOXP1" ontology_id="27086"/>
+		<entity id="s1.e2" charOffset="50-73"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="80-91"
+			type="HP" text="motor delay" ontology_id="HP_0001270"/>
+		<entity id="s1.e4" charOffset="134-153"
+			type="HP" text="speech difficulties" ontology_id="HP_0000750"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="By whole exome sequencing we identified a de novo splicing mutation in FOXP1 in a patient, initially diagnosed as C syndrome, who suffers from syndromic intellectual disability with trigonocephaly.">
+		<entity id="s2.e1" charOffset="71-76"
+			type="GENE" text="FOXP1" ontology_id="27086"/>
+		<entity id="s2.e2" charOffset="153-176"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="182-196"
+			type="HP" text="trigonocephaly" ontology_id="HP_0000243"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The patient reported here shares speech difficulties, intellectual disability and autistic features with other FOXP1 syndrome patients, and thus the diagnosis for this patient should be changed.">
+		<entity id="s3.e1" charOffset="33-52"
+			type="HP" text="speech difficulties" ontology_id="HP_0000750"/>
+		<entity id="s3.e2" charOffset="54-77"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s3.e3" charOffset="111-116"
+			type="GENE" text="FOXP1" ontology_id="27086"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Finally, since trigonocephaly has not been previously reported in FOXP1 syndrome, it remains to be proved whether it may be associated with the FOXP1 mutation">
+		<entity id="s4.e1" charOffset="15-29"
+			type="HP" text="trigonocephaly" ontology_id="HP_0000243"/>
+		<entity id="s4.e2" charOffset="66-71"
+			type="GENE" text="FOXP1" ontology_id="27086"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

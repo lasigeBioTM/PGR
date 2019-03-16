@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28566226">
+	<sentence id="s1" text="X-linked retinitis pigmentosa (XLRP) caused by mutations in the visual perception gene is an early onset and severe cause of blindness.">
+		<entity id="s1.e1" charOffset="64-81"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="125-134"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

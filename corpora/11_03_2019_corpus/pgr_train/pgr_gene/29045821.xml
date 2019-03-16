@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29045821">
+	<sentence id="s1" text="MiR-93-5p has been previously found to be associated with gastric cancer (GC) tumorigenesis; however, the current understanding of its function in this context remains largely incomplete.">
+		<entity id="s1.e1" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="74-76"
+			type="GENE" text="GC" ontology_id="2638"/>
+		<entity id="s1.e3" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MiR-93-5p upregulation was also shown to inhibit the expression of two well-characterized Hippo pathway regulators, protocadherin Fat 4 (FAT4), and large tumor suppressors 2 (LATS2), at both the mRNA and protein level.">
+		<entity id="s2.e1" charOffset="130-133"
+			type="GENE" text="Fat" ontology_id="948"/>
+		<entity id="s2.e2" charOffset="137-141"
+			type="GENE" text="FAT4" ontology_id="79633"/>
+		<entity id="s2.e3" charOffset="154-159"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="175-180"
+			type="GENE" text="LATS2" ontology_id="26524"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

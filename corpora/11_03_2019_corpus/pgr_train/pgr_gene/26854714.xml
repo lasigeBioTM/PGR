@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26854714">
+	<sentence id="s1" text="Further in vitro and in vivo results demonstrated that ALDOA was associated with proliferation and metastasis of pancreatic cancer cells.">
+		<entity id="s1.e1" charOffset="55-60"
+			type="GENE" text="ALDOA" ontology_id="226"/>
+		<entity id="s1.e2" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, ALDOA predicted poor prognosis of pancreatic cancer, partially due to its role in E-cadherin expression regulation, and the results were further validated by analysis of the correlation between ALDOA and E-cadherin expression in pancreatic cancer tissue samples.">
+		<entity id="s2.e1" charOffset="10-15"
+			type="GENE" text="ALDOA" ontology_id="226"/>
+		<entity id="s2.e2" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Mechanistically, the role of ALDOA in pancreatic cancer might attribute to its regulation of c-Myc, HIF1α and NRF2 (Nuclear Factor, Erythroid 2-Like 2), which were key regulators of glycolysis and antioxidant response control.">
+		<entity id="s3.e1" charOffset="29-34"
+			type="GENE" text="ALDOA" ontology_id="226"/>
+		<entity id="s3.e2" charOffset="49-55"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="93-98"
+			type="GENE" text="c-Myc" ontology_id="4609"/>
+		<entity id="s3.e4" charOffset="110-114"
+			type="GENE" text="NRF2" ontology_id="2551"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

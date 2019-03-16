@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28272472">
+	<sentence id="s1" text="Recessive mutations in WD repeat domain 62 (mitotic spindle organization) cause microcephaly and a wide spectrum of severe brain malformations.">
+		<entity id="s1.e1" charOffset="44-72"
+			type="GO" text="mitotic spindle organization" ontology_id="GO_0007052"/>
+		<entity id="s1.e2" charOffset="80-92"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

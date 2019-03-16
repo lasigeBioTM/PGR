@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28698647">
+	<sentence id="s1" text="Prostate cancer is the most common cancer among western negative regulation of phosphatase activity, with a significant mortality and morbidity reported for advanced metastatic disease.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="56-99"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="By analysing prostate cancer bone metastases using high density microarrays, we found a common genomic copy number loss at 6q16.1-16.2, containing the ubiquitin-dependent protein catabolic process gene, which was confirmed in larger series of bone metastases by fluorescence in situ hybridisation (superoxide metabolic process).">
+		<entity id="s2.e1" charOffset="22-28"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="151-196"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s2.e3" charOffset="298-326"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Loss of ubiquitin-dependent protein catabolic process was also detected in primary tumours and it was highly associated with prognostic factors including high Gleason score, clinical stage, prostate-specific antigen (plasminogen activation) and extent of disease, as well as poor patient survival, suggesting that ubiquitin-dependent protein catabolic process loss contributes to prostate cancer progression.">
+		<entity id="s3.e1" charOffset="8-53"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s3.e2" charOffset="83-90"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="217-239"
+			type="GO" text="plasminogen activation" ontology_id="GO_0031639"/>
+		<entity id="s3.e4" charOffset="330-336"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We also demonstrated that ubiquitin-dependent protein catabolic process deletion is detectable in circulating tumour cells (CTCs), making it a potential prognostic biomarker by 'liquid biopsy'.">
+		<entity id="s4.e1" charOffset="26-71"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s4.e2" charOffset="110-116"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In vitro analysis showed that ubiquitin-dependent protein catabolic process plays a role in regulating the migration and invasion of prostate cancer cells.">
+		<entity id="s5.e1" charOffset="30-75"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s5.e2" charOffset="142-148"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="ubiquitin-dependent protein catabolic process potentially controls cancer metastasis through regulation of negative regulation of retrograde protein transport, ER to cytosol levels.">
+		<entity id="s6.e1" charOffset="0-45"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s6.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="107-173"
+			type="GO" text="negative regulation of retrograde protein transport, ER to cytosol" ontology_id="GO_1904153"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Therefore, ubiquitin-dependent protein catabolic process could be a potential novel prostate cancer suppressor gene, which may prevent cancer progression and metastasis through controlling cell invasion">
+		<entity id="s7.e1" charOffset="11-56"
+			type="GO" text="ubiquitin-dependent protein catabolic process" ontology_id="GO_0006511"/>
+		<entity id="s7.e2" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+	</sentence>
+</document>

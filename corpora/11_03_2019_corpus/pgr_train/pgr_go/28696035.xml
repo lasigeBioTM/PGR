@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28696035">
+	<sentence id="s1" text="The clinical presentation of both patients was initially thought to be suggestive of Lin-Gettig syndrome (glycosaminoglycan biosynthetic process), a multiple malformation syndrome associated with craniosynostosis that was initially reported in two brothers in 1990, with a third patient reported in 2003.">
+		<entity id="s1.e1" charOffset="106-144"
+			type="GO" text="glycosaminoglycan biosynthetic process" ontology_id="GO_0006024"/>
+		<entity id="s1.e2" charOffset="196-212"
+			type="HP" text="craniosynostosis" ontology_id="HP_0001363"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that craniosynostosis, which has not been previously reported in association with histone acetylation mutations, may be part of the genitopatellar/Say Barber Biesecker Young Simpson spectrum.">
+		<entity id="s2.e1" charOffset="13-29"
+			type="HP" text="craniosynostosis" ontology_id="HP_0001363"/>
+		<entity id="s2.e2" charOffset="90-109"
+			type="GO" text="histone acetylation" ontology_id="GO_0016573"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

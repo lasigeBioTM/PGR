@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24516401">
+	<sentence id="s1" text="E168d2 mice carry a frameshift mutation in the CRX activation domain, Glu168del2, which is associated with severe dominant CoRD or LCA in humans.">
+		<entity id="s1.e1" charOffset="7-11"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="47-50"
+			type="GENE" text="CRX" ontology_id="1406"/>
+		<entity id="s1.e3" charOffset="107-113"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<entity id="s1.e4" charOffset="131-134"
+			type="GENE" text="LCA" ontology_id="1211"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="As seen in human patients, heterozygous E168d2 (AAAAAAE168d2/+AAAAAA) but not R90W (AAAAAAR90W/+AAAAAA) mice show severely impaired retinal function, while mice homozygous for either mutation are blind and undergo rapid photoreceptor degeneration.">
+		<entity id="s2.e1" charOffset="104-108"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="114-120"
+			type="HP" text="severe" ontology_id="HP_0012828"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

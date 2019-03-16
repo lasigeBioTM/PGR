@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29346644">
+	<sentence id="s1" text="Furthermore, we detected association of rs58978565 near extracellular matrix organization (P = 2.3 × 10-8), rs28368872 near biological_process (P = 2.9 × 10-8) and rs142450006 near proteolysis (P = 0.0006) with progression to choroidal neovascularization but not geographic atrophy.">
+		<entity id="s1.e1" charOffset="56-89"
+			type="GO" text="extracellular matrix organization" ontology_id="GO_0030198"/>
+		<entity id="s1.e2" charOffset="124-142"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e3" charOffset="181-192"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e4" charOffset="208-236"
+			type="HP" text="choroidal neovascularization" ontology_id="HP_0011506"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

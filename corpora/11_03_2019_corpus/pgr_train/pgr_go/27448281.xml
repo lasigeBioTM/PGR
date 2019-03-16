@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27448281">
+	<sentence id="s1" text="Consistent with this pattern of activity, transcription by RNA polymerase I and transcription, DNA-templated homozygous mutant zebrafish exhibit cartilage hypoplasia and cranioskeletal anomalies characteristic of humans with Treacher Collins syndrome.">
+		<entity id="s1.e1" charOffset="42-75"
+			type="GO" text="transcription by RNA polymerase I" ontology_id="GO_0006360"/>
+		<entity id="s1.e2" charOffset="80-108"
+			type="GO" text="transcription, DNA-templated" ontology_id="GO_0006351"/>
+		<entity id="s1.e3" charOffset="154-172"
+			type="HP" text="skeletal anomalies" ontology_id="HP_0000924"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="More importantly, we show that genetic inhibition of tp53 can suppress neuroepithelial cell death and ameliorate the skeletal anomalies in transcription by RNA polymerase I and transcription, DNA-templated mutants, providing a potential avenue to prevent the pathogenesis of Treacher Collins syndrome.">
+		<entity id="s2.e1" charOffset="117-135"
+			type="HP" text="skeletal anomalies" ontology_id="HP_0000924"/>
+		<entity id="s2.e2" charOffset="139-172"
+			type="GO" text="transcription by RNA polymerase I" ontology_id="GO_0006360"/>
+		<entity id="s2.e3" charOffset="177-205"
+			type="GO" text="transcription, DNA-templated" ontology_id="GO_0006351"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

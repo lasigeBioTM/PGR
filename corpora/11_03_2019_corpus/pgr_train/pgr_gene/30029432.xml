@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30029432">
+	<sentence id="s1" text="Taking advantage of the homogeneous and heterogeneous electrochemical biosensors, a simple, sensitive, and selective electrochemical biosensor is constructed by combining entropy-driven amplification (EDA) with DNA walker.">
+		<entity id="s1.e1" charOffset="40-53"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="84-90"
+			type="GENE" text="simple" ontology_id="9516"/>
+		<entity id="s1.e3" charOffset="201-204"
+			type="GENE" text="EDA" ontology_id="1896"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

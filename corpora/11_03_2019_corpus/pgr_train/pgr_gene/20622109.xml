@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20622109">
+	<sentence id="s1" text="In this study, we examine the role of proton-sensing ovarian cancer G protein-coupled receptor 1 (OGR1) in extracellular acidification-induced regulation of cyclooxygenase (COX)-2 induction, PGI(2) production, MAPK phosphatase (MKP)-1 expression, and plasminogen activator inhibitor (PAI)-1 expression and proliferation in human aortic smooth muscle cells (AoSMCs).">
+		<entity id="s1.e1" charOffset="61-67"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="98-102"
+			type="GENE" text="OGR1" ontology_id="8111"/>
+		<entity id="s1.e3" charOffset="173-176"
+			type="GENE" text="COX" ontology_id="1351"/>
+		<entity id="s1.e4" charOffset="284-287"
+			type="GENE" text="PAI" ontology_id="5054"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

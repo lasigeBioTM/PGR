@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28267080">
+	<sentence id="s1" text="Blood and tissue samples from 48 osteosarcoma patients were obtained, and the following polymorphisms were analyzed; SLC19A1 80GAAAAA, DHFR 829CAAAAT, MTHFR 677CAAAAT, MTHFR 1298AAAAAC, and ATIC 347CAAAAG.">
+		<entity id="s1.e1" charOffset="33-45"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<entity id="s1.e2" charOffset="117-124"
+			type="GENE" text="SLC19A1" ontology_id="6573"/>
+		<entity id="s1.e3" charOffset="135-139"
+			type="GENE" text="DHFR" ontology_id="1719"/>
+		<entity id="s1.e4" charOffset="151-156"
+			type="GENE" text="MTHFR" ontology_id="4524"/>
+		<entity id="s1.e5" charOffset="190-194"
+			type="GENE" text="ATIC" ontology_id="471"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Even though the role of single nucleotide polymorphisms of ATIC in chemotherapy-induced tumor necrosis has not been investigated yet, the ATIC 347CAAAAG polymorphism may influence the levels of adenosine after MTX treatment, which may affect the histologic response of osteosarcoma.">
+		<entity id="s2.e1" charOffset="59-63"
+			type="GENE" text="ATIC" ontology_id="471"/>
+		<entity id="s2.e2" charOffset="88-93"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="210-213"
+			type="GENE" text="MTX" ontology_id="4580"/>
+		<entity id="s2.e4" charOffset="269-281"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

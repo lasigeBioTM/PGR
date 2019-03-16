@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29626191">
+	<sentence id="s1" text="Neurofibromatosis type 2 (NF2) is a tumor-forming disease of the nervous system caused by deletion or by loss-of-function mutations in NF2, encoding the tumor suppressing protein neurofibromin 2 (also known as schwannomin or merlin).">
+		<entity id="s1.e1" charOffset="18-22"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="225-231"
+			type="GENE" text="merlin" ontology_id="4771"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The correlation of the tumor-suppressive function and conformation (open or closed) of neurofibromin 2 has been subject to much speculation, often based on extrapolation from other ERM proteins, and controversy.">
+		<entity id="s2.e1" charOffset="23-28"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="181-184"
+			type="GENE" text="ERM" ontology_id="2119"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

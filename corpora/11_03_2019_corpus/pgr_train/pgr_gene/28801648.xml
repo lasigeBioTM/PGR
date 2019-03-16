@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28801648">
+	<sentence id="s1" text="Primary ciliary dyskinesia (PCD) is clinically characterized by neonatal respiratory distress, chronic sinusitis, bronchiectasis and infertility, and situs inversus in 50% of the patients.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s1.e3" charOffset="73-93"
+			type="HP" text="respiratory distress" ontology_id="HP_0002098"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="PCD is a result of mutations in genes encoding proteins involved in ciliary function, and is primarily inherited in an autosomal recessive fashion.">
+		<entity id="s2.e1" charOffset="0-3"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s2.e2" charOffset="119-138"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Diagnosis of PCD is often a challenging task due to its high clinical and genetic heterogeneities.">
+		<entity id="s3.e1" charOffset="13-16"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s3.e2" charOffset="40-44"
+			type="GENE" text="task" ontology_id="3777"/>
+		<entity id="s3.e3" charOffset="82-97"
+			type="HP" text="heterogeneities" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

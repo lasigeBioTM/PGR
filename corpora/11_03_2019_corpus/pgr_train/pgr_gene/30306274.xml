@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30306274">
+	<sentence id="s1" text="Single marker-based association tests for corneal astigmatism identified four genome-wide significant loci (P AAAA 5 × 10<sup>-8</sup>) near the genes ZC3H11B (1q41), LINC00340 (6p22.3), HERC2/OCA2 (15q13.1) and NPLOC4/TSPAN10 (17q25.3).">
+		<entity id="s1.e1" charOffset="50-61"
+			type="HP" text="astigmatism" ontology_id="HP_0000483"/>
+		<entity id="s1.e2" charOffset="187-192"
+			type="GENE" text="HERC2" ontology_id="8924"/>
+		<entity id="s1.e3" charOffset="212-218"
+			type="GENE" text="NPLOC4" ontology_id="55666"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Three of these loci also demonstrated genome-wide significant association with refractive astigmatism: LINC00340, HERC2/OCA2 and NPLOC4/TSPAN10.">
+		<entity id="s2.e1" charOffset="90-101"
+			type="HP" text="astigmatism" ontology_id="HP_0000483"/>
+		<entity id="s2.e2" charOffset="114-119"
+			type="GENE" text="HERC2" ontology_id="8924"/>
+		<entity id="s2.e3" charOffset="129-135"
+			type="GENE" text="NPLOC4" ontology_id="55666"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These loci have previously demonstrated association with axial length (ZC3H11B), myopia (NPLOC4), spherical equivalent refractive error (LINC00340) and eye colour (HERC2).">
+		<entity id="s3.e1" charOffset="81-87"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<entity id="s3.e2" charOffset="89-95"
+			type="GENE" text="NPLOC4" ontology_id="55666"/>
+		<entity id="s3.e3" charOffset="164-169"
+			type="GENE" text="HERC2" ontology_id="8924"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

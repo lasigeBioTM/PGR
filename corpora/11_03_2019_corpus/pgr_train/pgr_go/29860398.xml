@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29860398">
+	<sentence id="s1" text="Amyotrophic lateral sclerosis (signal transduction) is a devastating adult-onset progressive neurodegenerative disease characterized by upper and lower motoneuron degeneration.">
+		<entity id="s1.e1" charOffset="31-50"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="93-118"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The inhibition of CTGF/CCN2 with the monoclonal neutralizing antibody FG-3019 reduces fibrosis in several chronic disorders including the mdx apoptotic process, a murine model for Duchenne muscular dystrophy (peptide biosynthetic process).">
+		<entity id="s2.e1" charOffset="142-159"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="189-207"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s2.e3" charOffset="209-237"
+			type="GO" text="peptide biosynthetic process" ontology_id="GO_0043043"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

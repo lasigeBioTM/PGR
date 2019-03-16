@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26325687">
+	<sentence id="s1" text="Bardet-Biedl syndrome (visual perception) is an autosomal recessive disorder characterized by central obesity, mental impairment, rod-cone dystrophy, polydactyly, hypogonadism in males, and renal abnormalities.">
+		<entity id="s1.e1" charOffset="23-40"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="48-67"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="94-101"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e4" charOffset="102-109"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e5" charOffset="111-128"
+			type="HP" text="mental impairment" ontology_id="HP_0100543"/>
+		<entity id="s1.e6" charOffset="150-161"
+			type="HP" text="polydactyly" ontology_id="HP_0010442"/>
+		<entity id="s1.e7" charOffset="163-175"
+			type="HP" text="hypogonadism" ontology_id="HP_0000135"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our results indicate that visual perception in Japan is genetically heterogeneous and at least partly shares genetic features with BBS in other countries.">
+		<entity id="s2.e1" charOffset="26-43"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e2" charOffset="68-81"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

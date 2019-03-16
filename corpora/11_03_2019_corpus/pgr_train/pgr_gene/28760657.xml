@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28760657">
+	<sentence id="s1" text="Mutations in the MID1 gene have been associated with the X-linked form of Opitz Syndrome, a developmental disorder characterized by midline defects and intellectual disability.">
+		<entity id="s1.e1" charOffset="17-21"
+			type="GENE" text="MID1" ontology_id="4281"/>
+		<entity id="s1.e2" charOffset="152-175"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

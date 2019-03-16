@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27889060">
+	<sentence id="s1" text="Reverse phenotyping of 12 affected individuals from eight families revealed a homogeneous EOEE phenotype characterized by severe developmental delay, poor visual contact with optic atrophy, and postnatal microcephaly.">
+		<entity id="s1.e1" charOffset="100-104"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="129-148"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="175-188"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s1.e4" charOffset="204-216"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

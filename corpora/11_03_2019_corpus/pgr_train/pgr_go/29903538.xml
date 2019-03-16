@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29903538">
+	<sentence id="s1" text="cellular calcium ion homeostasis mutations are rare cause of autosomal recessive juvenile-onset Parkinson disease.">
+		<entity id="s1.e1" charOffset="0-32"
+			type="GO" text="cellular calcium ion homeostasis" ontology_id="GO_0006874"/>
+		<entity id="s1.e2" charOffset="61-80"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

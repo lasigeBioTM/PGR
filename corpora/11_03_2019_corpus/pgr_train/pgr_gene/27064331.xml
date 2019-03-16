@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27064331">
+	<sentence id="s1" text="Chudley-McCullough syndrome (CMS) is a rare autosomal recessive disorder characterized by sensorineural deafness, agenesis of the corpus callosum, frontal polymicrogyria, interhemispheric cyst, and ventricular enlargement.">
+		<entity id="s1.e1" charOffset="29-32"
+			type="GENE" text="CMS" ontology_id="23607"/>
+		<entity id="s1.e2" charOffset="104-112"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="114-145"
+			type="HP" text="agenesis of the corpus callosum" ontology_id="HP_0001274"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The combination of sensorineural hearing loss and partial agenesis of the corpus callosum is a highly recognizable clinico-radiological entity that should prompt mutational analysis of the GPSM2 gene.">
+		<entity id="s2.e1" charOffset="33-45"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="58-89"
+			type="HP" text="agenesis of the corpus callosum" ontology_id="HP_0001274"/>
+		<entity id="s2.e3" charOffset="189-194"
+			type="GENE" text="GPSM2" ontology_id="29899"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

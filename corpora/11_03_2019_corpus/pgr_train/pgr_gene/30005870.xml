@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30005870">
+	<sentence id="s1" text="RAB3A interacting protein (Rab3IP) has been determined to be involved in cancer progression; however, its expression pattern and function in gastric cancer remain unknown.">
+		<entity id="s1.e1" charOffset="27-33"
+			type="GENE" text="Rab3IP" ontology_id="117177"/>
+		<entity id="s1.e2" charOffset="73-79"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to determine the association between Rab3IP and gastric cancer, in addition to its functional role in this disease.">
+		<entity id="s2.e1" charOffset="63-69"
+			type="GENE" text="Rab3IP" ontology_id="117177"/>
+		<entity id="s2.e2" charOffset="82-88"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overexpression of Rab3IP in gastric cancer was verified at both transcriptional and translational levels.">
+		<entity id="s3.e1" charOffset="18-24"
+			type="GENE" text="Rab3IP" ontology_id="117177"/>
+		<entity id="s3.e2" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Cellular studies showed that Rab3IP could induce an aggressive phenotype in gastric cancer cells and that its expression was correlated with markers of the epithelial-mesenchymal transition (EMT).">
+		<entity id="s4.e1" charOffset="29-35"
+			type="GENE" text="Rab3IP" ontology_id="117177"/>
+		<entity id="s4.e2" charOffset="84-90"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="191-194"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In addition, we verified the co-expression of and interplay between Rab3IP and SSX2 during gastric cancer progression.">
+		<entity id="s5.e1" charOffset="68-74"
+			type="GENE" text="Rab3IP" ontology_id="117177"/>
+		<entity id="s5.e2" charOffset="79-83"
+			type="GENE" text="SSX2" ontology_id="6757"/>
+		<entity id="s5.e3" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="Thus, these findings elucidated the central role of Rab3IP in inducing an invasive phenotype in gastric cancer cells, in addition to its involvement in EMT.">
+		<entity id="s6.e1" charOffset="52-58"
+			type="GENE" text="Rab3IP" ontology_id="117177"/>
+		<entity id="s6.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="152-155"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="true"/>
+	</sentence>
+</document>

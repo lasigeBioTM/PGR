@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="12620391">
+	<sentence id="s1" text="Progressive rod-cone degeneration (visual perception) is a canine retinal disease that maps to the centromeric positive regulation of protein phosphorylation of CFA9 in a region of synteny with the distal part of HSA17q.">
+		<entity id="s1.e1" charOffset="35-52"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="66-81"
+			type="HP" text="retinal disease" ontology_id="HP_0000479"/>
+		<entity id="s1.e3" charOffset="111-157"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

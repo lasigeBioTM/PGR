@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29710722">
+	<sentence id="s1" text="Growing evidence suggests that mitochondrial dysfunction is an early event in sporadic Alzheimer's disease (AD), but the impact of mitochondrial dysfunction on the transition from healthy aging to AD remains elusive.">
+		<entity id="s1.e1" charOffset="78-86"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="121-127"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

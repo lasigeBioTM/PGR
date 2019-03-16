@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20700148">
+	<sentence id="s1" text="Independently, another group has recently observed SRD5A3 mutations in several families with a type 1 congenital disorder of glycosylation (CDG type Ix, OMIM 212067), mental retardation, cerebellar ataxia and eye disorders.">
+		<entity id="s1.e1" charOffset="51-57"
+			type="GENE" text="SRD5A3" ontology_id="79644"/>
+		<entity id="s1.e2" charOffset="95-99"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="187-204"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

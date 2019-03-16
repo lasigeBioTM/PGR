@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28924745">
+	<sentence id="s1" text="Genetic studies have identified a homozygous truncation mutation in Trak1 that causes hypertonia in mice.">
+		<entity id="s1.e1" charOffset="68-73"
+			type="GENE" text="Trak1" ontology_id="22906"/>
+		<entity id="s1.e2" charOffset="86-96"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, elevated Trak1 protein expression is associated with several types of cancers and variants in Trak1 are linked to childhood absence epilepsy in humans.">
+		<entity id="s2.e1" charOffset="19-24"
+			type="GENE" text="Trak1" ontology_id="22906"/>
+		<entity id="s2.e2" charOffset="142-150"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We found that hypertonia-associated mutation impairs Trak1 mitochondrial localization and its ability to facilitate mitochondrial tethering and fusion.">
+		<entity id="s3.e1" charOffset="14-24"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<entity id="s3.e2" charOffset="53-58"
+			type="GENE" text="Trak1" ontology_id="22906"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Our findings uncover a novel function of Trak1 as a regulator of mitochondrial fusion and provide evidence linking dysregulated mitochondrial dynamics to hypertonia pathogenesis">
+		<entity id="s4.e1" charOffset="41-46"
+			type="GENE" text="Trak1" ontology_id="22906"/>
+		<entity id="s4.e2" charOffset="154-164"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

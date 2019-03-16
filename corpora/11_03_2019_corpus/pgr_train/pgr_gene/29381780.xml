@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29381780">
+	<sentence id="s1" text="FGF23 excess induces hypophosphatemia via impaired phosphate reabsorption in the renal proximal tubules and decreased phosphate absorption in the intestines.">
+		<entity id="s1.e1" charOffset="0-5"
+			type="GENE" text="FGF23" ontology_id="8074"/>
+		<entity id="s1.e2" charOffset="21-37"
+			type="HP" text="hypophosphatemia" ontology_id="HP_0002148"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Among these diseases, X-linked hypophosphatemia (XLH), which is caused by inactivating mutations in the phosphate-regulating endopeptidase homolog, X-linked (PHEX) gene, is the most prevalent form of genetic FGF23-related hypophosphatemic rickets.">
+		<entity id="s2.e1" charOffset="31-47"
+			type="HP" text="hypophosphatemia" ontology_id="HP_0002148"/>
+		<entity id="s2.e2" charOffset="49-52"
+			type="GENE" text="XLH" ontology_id="5251"/>
+		<entity id="s2.e3" charOffset="158-162"
+			type="GENE" text="PHEX" ontology_id="5251"/>
+		<entity id="s2.e4" charOffset="208-213"
+			type="GENE" text="FGF23" ontology_id="8074"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Another clinically relevant form of FGF23-related hypophosphatemic disease is tumor-induced osteomalacia (TIO), a paraneoplastic syndrome associated with FGF23-producing tumors.">
+		<entity id="s3.e1" charOffset="36-41"
+			type="GENE" text="FGF23" ontology_id="8074"/>
+		<entity id="s3.e2" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="92-104"
+			type="HP" text="osteomalacia" ontology_id="HP_0002749"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

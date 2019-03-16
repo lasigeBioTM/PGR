@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23479141">
+	<sentence id="s1" text="Limb girdle muscular dystrophy cardiac muscle tissue development 2 G (cardiac muscle hypertrophy) is caused by mutations in the cardiac muscle hypertrophy gene.">
+		<entity id="s1.e1" charOffset="12-30"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s1.e2" charOffset="31-64"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="70-96"
+			type="GO" text="cardiac muscle hypertrophy" ontology_id="GO_0003300"/>
+		<entity id="s1.e4" charOffset="128-154"
+			type="GO" text="cardiac muscle hypertrophy" ontology_id="GO_0003300"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

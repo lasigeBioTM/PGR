@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29103025">
+	<sentence id="s1" text="Cervical cancer is the fourth most common malignancy among women worldwide, and continued research to discover biomarkers or therapeutic targets will somatic diversification of immunoglobulins early diagnosis and treatment of this cancer.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="150-192"
+			type="GO" text="somatic diversification of immunoglobulins" ontology_id="GO_0016445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We have identified nine genes of interest that appear to be involved in cervical cancer development: post-translational protein modification, synaptonemal complex assembly, mitotic cytokinesis, regulation of cytokinesis, DNA topological change, regulation of autophagy, microtubule bundle formation, cellular response to DNA damage stimulus, and APOBEC3B.">
+		<entity id="s2.e1" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="101-140"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s2.e3" charOffset="142-171"
+			type="GO" text="synaptonemal complex assembly" ontology_id="GO_0007130"/>
+		<entity id="s2.e4" charOffset="173-192"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s2.e5" charOffset="194-219"
+			type="GO" text="regulation of cytokinesis" ontology_id="GO_0032465"/>
+		<entity id="s2.e6" charOffset="221-243"
+			type="GO" text="DNA topological change" ontology_id="GO_0006265"/>
+		<entity id="s2.e7" charOffset="245-268"
+			type="GO" text="regulation of autophagy" ontology_id="GO_0010506"/>
+		<entity id="s2.e8" charOffset="270-298"
+			type="GO" text="microtubule bundle formation" ontology_id="GO_0001578"/>
+		<entity id="s2.e9" charOffset="300-340"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, gene ontology (GO) and co-expression analysis of these differentially expressed genes indicated that post-translational protein modification may play a core role in cervical cancer development.">
+		<entity id="s3.e1" charOffset="114-153"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s3.e2" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Further, we analyzed the expression of these nine genes during the progression of cervical cancer, and found that post-translational protein modification is also related to precancerous lesions and migration processes during cervical cancer pathogenesis.">
+		<entity id="s4.e1" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="114-153"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Finally, we validated these observations by investigating post-translational protein modification expression in cervical cancer tissue and serum samples.">
+		<entity id="s5.e1" charOffset="58-97"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s5.e2" charOffset="121-127"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="The diagnostic specificity of serum post-translational protein modification in cervical cancer occurrence was also compared with other high incidence diseases.">
+		<entity id="s6.e1" charOffset="36-75"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s6.e2" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="All of these data indicate that post-translational protein modification may be a novel cancer predictive marker and a potential therapeutic target for tumor development and progression in cervical cancer">
+		<entity id="s7.e1" charOffset="32-71"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s7.e2" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="151-156"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+</document>

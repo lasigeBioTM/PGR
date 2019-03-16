@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27102954">
+	<sentence id="s1" text="Previously, a homozygous missense mutation in THOC6 in the Hutterite population was reported in association with syndromic intellectual disability.">
+		<entity id="s1.e1" charOffset="46-51"
+			type="GENE" text="THOC6" ontology_id="79228"/>
+		<entity id="s1.e2" charOffset="123-146"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Using exome sequencing, we identified three unrelated patients with bi-allelic mutations in THOC6 associated with intellectual disability and additional clinical features.">
+		<entity id="s2.e1" charOffset="92-97"
+			type="GENE" text="THOC6" ontology_id="79228"/>
+		<entity id="s2.e2" charOffset="114-137"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results expand the mutational and clinical spectrum of this rare disease, confirm that THOC6 is an intellectual disability causing gene, while providing insight into the importance of the THO complex in neurodevelopment">
+		<entity id="s3.e1" charOffset="91-96"
+			type="GENE" text="THOC6" ontology_id="79228"/>
+		<entity id="s3.e2" charOffset="103-126"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29891935">
+	<sentence id="s1" text="Functional studies support intraocular pressure-related influences of cytoskeleton organization and regulation of transcription, DNA-templated, with certain regulation of transcription, DNA-templated mutations causing high IOP and glaucoma resembling POAG in mice.">
+		<entity id="s1.e1" charOffset="70-95"
+			type="GO" text="cytoskeleton organization" ontology_id="GO_0007010"/>
+		<entity id="s1.e2" charOffset="100-142"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e3" charOffset="157-165"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e4" charOffset="157-199"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

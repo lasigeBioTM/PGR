@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30506560">
+	<sentence id="s1" text="CGD is a genetically heterogeneous disease with an X-linked recessive (XR-CGD) form caused by mutations in the CYBB (OMIM #300481) gene encoding the gp91(phox) protein, and an autosomal recessive (AR-CGD) form caused by mutations in the CYBA (OMIM #608508), NCF1 (OMIM #608512), NCF2 (OMIM #608515) and NCF4 (OMIM #601488) genes encoding p22(phox), p47(phox), p67(phox) and p40(phox), respectively.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="CGD" ontology_id="1536"/>
+		<entity id="s1.e2" charOffset="21-34"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="111-115"
+			type="GENE" text="CYBB" ontology_id="1536"/>
+		<entity id="s1.e4" charOffset="176-195"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e5" charOffset="237-241"
+			type="GENE" text="CYBA" ontology_id="1535"/>
+		<entity id="s1.e6" charOffset="258-262"
+			type="GENE" text="NCF1" ontology_id="653361"/>
+		<entity id="s1.e7" charOffset="279-283"
+			type="GENE" text="NCF2" ontology_id="4688"/>
+		<entity id="s1.e8" charOffset="303-307"
+			type="GENE" text="NCF4" ontology_id="4689"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e5"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e14"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e14"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e14"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e14"
+		    e2="s1.e12" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we evaluated the clinical, laboratory and genetic findings and the prognostic effects of molecular inheritance of our 24 CGD cases (14 XR, 10 autosomal recessive-AR).">
+		<entity id="s2.e1" charOffset="136-139"
+			type="GENE" text="CGD" ontology_id="1536"/>
+		<entity id="s2.e2" charOffset="157-176"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

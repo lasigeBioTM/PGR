@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28686853">
+	<sentence id="s1" text="These subjects share a set of common facial features that include a prominent maxilla and upper lip that readily reveal the upper gingiva, widely spaced teeth, and a broad nasal tip.">
+		<entity id="s1.e1" charOffset="23-26"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="96-99"
+			type="GENE" text="lip" ontology_id="23049"/>
+		<entity id="s1.e3" charOffset="139-158"
+			type="HP" text="widely spaced teeth" ontology_id="HP_0000687"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

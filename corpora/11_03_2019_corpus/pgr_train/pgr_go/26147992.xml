@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26147992">
+	<sentence id="s1" text="Leber congenital amaurosis (clathrin coat assembly) and retinitis pigmentosa (RP) are retinal degenerative diseases which cause severe retinal dystrophy affecting the photoreceptors.">
+		<entity id="s1.e1" charOffset="28-50"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<entity id="s1.e2" charOffset="135-152"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="clathrin coat assembly is predominantly inherited as an autosomal recessive trait and contributes to 5% of all retinal dystrophies; whereas RP is inherited by all the Mendelian pattern of inheritance and both are leading causes of visual impairment in children and young adults.">
+		<entity id="s2.e1" charOffset="0-22"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<entity id="s2.e2" charOffset="56-75"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="111-130"
+			type="HP" text="retinal dystrophies" ontology_id="HP_0000556"/>
+		<entity id="s2.e4" charOffset="231-248"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here we have studied eleven consanguineous clathrin coat assembly and one autosomal recessive RP (arRP) south Indian families to know the prevalence of mutations in known genes and also to know the involvement of novel loci, if any.">
+		<entity id="s3.e1" charOffset="43-65"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<entity id="s3.e2" charOffset="74-93"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29372391">
+	<sentence id="s1" text="Mutations in ganglioside-induced differentiation-associated-protein 1 (mitochondrial fission) have been associated with both subtypes of Charcot-Marie-Tooth (CMT) disease, autosomal recessive (mitochondrial fission and oxidation-reduction process-CMT2K) and autosomal dominant (AD-CMT2K).">
+		<entity id="s1.e1" charOffset="71-92"
+			type="GO" text="mitochondrial fission" ontology_id="GO_0000266"/>
+		<entity id="s1.e2" charOffset="172-191"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="193-214"
+			type="GO" text="mitochondrial fission" ontology_id="GO_0000266"/>
+		<entity id="s1.e4" charOffset="219-246"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Three families (families 1, 2 and 3) were found to have an autosomal recessive (oxidation-reduction process) pattern of inheritance while family 4 displayed an autosomal dominant (AD) mode of inheritance.">
+		<entity id="s2.e1" charOffset="59-78"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="80-107"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s2.e3" charOffset="184-203"
+			type="HP" text="mode of inheritance" ontology_id="HP_0000005"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Electro-physiologic studies revealed an axonal type of neuropathy (oxidation-reduction process-CMT2K and AD-CMT2K) in all affected individuals.">
+		<entity id="s3.e1" charOffset="55-65"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e2" charOffset="67-94"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Our study expands the mutational spectrum of mitochondrial fission-related CMT disease with the identification of new and unreported GDAP1 variants and demonstrates the predominance of the axonal form of neuropathy in CMT disease associated with GDAP1.">
+		<entity id="s4.e1" charOffset="45-66"
+			type="GO" text="mitochondrial fission" ontology_id="GO_0000266"/>
+		<entity id="s4.e2" charOffset="204-214"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

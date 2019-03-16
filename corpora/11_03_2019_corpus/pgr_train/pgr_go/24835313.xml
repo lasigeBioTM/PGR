@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24835313">
+	<sentence id="s1" text="Several gene encoding proteins related to collagen metabolism have been described in some cases of autosomal recessive OI (including protein stabilization, protein folding, protein peptidyl-prolyl isomerization, FKBP65, negative regulation of angiogenesis, proteolysis, positive regulation of cell proliferation, protein peptidyl-prolyl isomerization).">
+		<entity id="s1.e1" charOffset="99-118"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="133-154"
+			type="GO" text="protein stabilization" ontology_id="GO_0050821"/>
+		<entity id="s1.e3" charOffset="156-171"
+			type="GO" text="protein folding" ontology_id="GO_0006457"/>
+		<entity id="s1.e4" charOffset="173-210"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<entity id="s1.e5" charOffset="220-255"
+			type="GO" text="negative regulation of angiogenesis" ontology_id="GO_0016525"/>
+		<entity id="s1.e6" charOffset="257-268"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e7" charOffset="270-311"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e8" charOffset="313-350"
+			type="GO" text="protein peptidyl-prolyl isomerization" ontology_id="GO_0000413"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, endoplasmic reticulum organization, a gene that encodes endoplasmic reticulum organization, a monovalent cation-specific channel involved in calcium flux from intracellular stores and in cell differentiation, has been associated with autosomal recessive OI.">
+		<entity id="s2.e1" charOffset="10-44"
+			type="GO" text="endoplasmic reticulum organization" ontology_id="GO_0007029"/>
+		<entity id="s2.e2" charOffset="66-100"
+			type="GO" text="endoplasmic reticulum organization" ontology_id="GO_0007029"/>
+		<entity id="s2.e3" charOffset="216-235"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

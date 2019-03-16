@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28271496">
+	<sentence id="s1" text="Mutations in NOTCH3 causes cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL), a hereditary cerebrovascular disease that leads to ischemic strokes and dementia, but in which migraine is often present, sometimes long before the onset of other symptoms.">
+		<entity id="s1.e1" charOffset="13-19"
+			type="GENE" text="NOTCH3" ontology_id="4854"/>
+		<entity id="s1.e2" charOffset="98-117"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e3" charOffset="119-126"
+			type="GENE" text="CADASIL" ontology_id="4854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

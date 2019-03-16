@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25807461">
+	<sentence id="s1" text="Down-regulation of PLZF has been found in various tumor cell lines.">
+		<entity id="s1.e1" charOffset="19-23"
+			type="GENE" text="PLZF" ontology_id="7704"/>
+		<entity id="s1.e2" charOffset="50-55"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="There has been virtually no tissue study on the expression of PLZF in prostate cancer (PCa).">
+		<entity id="s2.e1" charOffset="62-66"
+			type="GENE" text="PLZF" ontology_id="7704"/>
+		<entity id="s2.e2" charOffset="79-85"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="87-90"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="PCa is a heterogeneous disease, most of which are indolent and non-lethal.">
+		<entity id="s3.e1" charOffset="0-3"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<entity id="s3.e2" charOffset="9-22"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This study aimed to investigate the expression of PLZF by immunohistochemistry in different grade as well as metastatic PCa and to correlate the alteration of PLZF expression with PCa aggressiveness.">
+		<entity id="s4.e1" charOffset="50-54"
+			type="GENE" text="PLZF" ontology_id="7704"/>
+		<entity id="s4.e2" charOffset="120-123"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<entity id="s4.e3" charOffset="184-198"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These data demonstrated that down-regulation of PLZF is an important molecular process for tumor progression and loss of PLZF expression detected by routine immunohistochemistry is a promising and valuable biomarker for PCa aggressiveness and metastasis in the personalized care of PCa.">
+		<entity id="s5.e1" charOffset="48-52"
+			type="GENE" text="PLZF" ontology_id="7704"/>
+		<entity id="s5.e2" charOffset="91-96"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="220-223"
+			type="GENE" text="PCa" ontology_id="28982"/>
+		<entity id="s5.e4" charOffset="224-238"
+			type="HP" text="aggressiveness" ontology_id="HP_0000718"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e4"
+		    e2="s5.e6" pgr="false"/>
+	</sentence>
+</document>

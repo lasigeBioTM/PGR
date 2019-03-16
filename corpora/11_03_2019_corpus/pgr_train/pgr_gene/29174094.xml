@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29174094">
+	<sentence id="s1" text="Tricho-hepato-enteric syndrome (SD/THE) and Multiple intestinal atresia with combined immune deficiency (MIA-CID) are autosomal recessive disorders that present immunological and gastrointestinal features.">
+		<entity id="s1.e1" charOffset="53-71"
+			type="HP" text="intestinal atresia" ontology_id="HP_0011100"/>
+		<entity id="s1.e2" charOffset="105-108"
+			type="GENE" text="MIA" ontology_id="8190"/>
+		<entity id="s1.e3" charOffset="118-137"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="There are two different phenotypes of patients with TTC7A mutations: the severe form, caused by null mutations and leading to the classical MIA-CID; and the mild form, caused by missense mutations and leading to predominant features of VEO-IBD, less severe immunological involvement and hair abnormalities.">
+		<entity id="s2.e1" charOffset="52-57"
+			type="GENE" text="TTC7A" ontology_id="57217"/>
+		<entity id="s2.e2" charOffset="140-143"
+			type="GENE" text="MIA" ontology_id="8190"/>
+		<entity id="s2.e3" charOffset="287-305"
+			type="HP" text="hair abnormalities" ontology_id="HP_0001595"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We expand the knowledge about TTC7A deficiency, describing a patient with the mild phenotype of TTC7A deficiency but presenting overlapping features of SD/THE and MIA-CID: intestinal atresia and inflammatory bowel disease evocative of MIA-CID, but also dental abnormalities, huge forehead, liver abnormalities, autoimmune thyroiditis and hypogammaglobulinemia, evocative of SD/THE">
+		<entity id="s3.e1" charOffset="30-35"
+			type="GENE" text="TTC7A" ontology_id="57217"/>
+		<entity id="s3.e2" charOffset="163-166"
+			type="GENE" text="MIA" ontology_id="8190"/>
+		<entity id="s3.e3" charOffset="172-190"
+			type="HP" text="intestinal atresia" ontology_id="HP_0011100"/>
+		<entity id="s3.e4" charOffset="253-273"
+			type="HP" text="dental abnormalities" ontology_id="HP_0000164"/>
+		<entity id="s3.e5" charOffset="290-309"
+			type="HP" text="liver abnormalities" ontology_id="HP_0001392"/>
+		<entity id="s3.e6" charOffset="338-359"
+			type="HP" text="hypogammaglobulinemia" ontology_id="HP_0004313"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p6" e1="s3.e2"
+		    e2="s3.e10" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e2"
+		    e2="s3.e14" pgr="false"/>
+	</sentence>
+</document>

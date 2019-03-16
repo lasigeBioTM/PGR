@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30765526">
+	<sentence id="s1" text="These apoptotic process displayed hypertension, hyperkalemia, hyperactive NCC, and other features fully recapitulating human and mouse models of PHAII caused by gain-of-function ion homeostasis.">
+		<entity id="s1.e1" charOffset="6-23"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="21-33"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<entity id="s1.e3" charOffset="35-47"
+			type="HP" text="hyperkalemia" ontology_id="HP_0002153"/>
+		<entity id="s1.e4" charOffset="165-180"
+			type="GO" text="ion homeostasis" ontology_id="GO_0050801"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

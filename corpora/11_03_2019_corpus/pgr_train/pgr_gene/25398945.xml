@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25398945">
+	<sentence id="s1" text="Leber congenital amaurosis (LCA) and juvenile retinitis pigmentosa (RP) are severe hereditary diseases that causes visual impairment in infants and children.">
+		<entity id="s1.e1" charOffset="28-31"
+			type="GENE" text="LCA" ontology_id="1211"/>
+		<entity id="s1.e2" charOffset="68-70"
+			type="GENE" text="RP" ontology_id="100287745"/>
+		<entity id="s1.e3" charOffset="115-132"
+			type="HP" text="visual impairment" ontology_id="HP_0000505"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

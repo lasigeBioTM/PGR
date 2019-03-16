@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30171257">
+	<sentence id="s1" text="Anaplastic thyroid cancer (protein phosphorylation) is associated with poor prognosis and is often untreatable.">
+		<entity id="s1.e1" charOffset="19-25"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="27-50"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The abnormal regulation of protein polyubiquitination-483 may play an important role in tumorigenesis, and positive regulation of Rho protein signal transduction is known to regulate cell polarity, cell migration, and cell division.">
+		<entity id="s2.e1" charOffset="27-53"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="88-93"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="107-161"
+			type="GO" text="positive regulation of Rho protein signal transduction" ontology_id="GO_0035025"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Tumor proliferation promoted by the regulation of protein polyubiquitinationNA expression can be regulated in thyroid cancer by upregulating transforming growth factor-β1 (TGF-β1), which is thought to interact with protein targeting to membrane.">
+		<entity id="s3.e1" charOffset="50-76"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="192-221"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="When compared with adjacent non-tumor tissues, we found that protein polyubiquitination-483 was upregulated and protein targeting to membrane was downregulated in 80 thyroid tumor samples.">
+		<entity id="s4.e1" charOffset="32-37"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="61-87"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e3" charOffset="89-118"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

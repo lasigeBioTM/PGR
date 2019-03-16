@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24169644">
+	<sentence id="s1" text="A third of patients with paraganglial tumors, pheochromocytoma, and paraganglioma, carry germline mutations in one of the susceptibility genes, regulation of cell adhesion, protein ubiquitination, NF1, mitochondrial electron transport, succinate to ubiquinone, succinate metabolic process, aerobic respiration, mitochondrial electron transport, succinate to ubiquinone, tricarboxylic acid cycle, negative regulation of cell proliferation, and MAX.">
+		<entity id="s1.e1" charOffset="38-44"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="46-62"
+			type="HP" text="pheochromocytoma" ontology_id="HP_0002666"/>
+		<entity id="s1.e3" charOffset="68-81"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e4" charOffset="144-171"
+			type="GO" text="regulation of cell adhesion" ontology_id="GO_0030155"/>
+		<entity id="s1.e5" charOffset="173-195"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s1.e6" charOffset="202-259"
+			type="GO" text="mitochondrial electron transport, succinate to ubiquinone" ontology_id="GO_0006121"/>
+		<entity id="s1.e7" charOffset="261-288"
+			type="GO" text="succinate metabolic process" ontology_id="GO_0006105"/>
+		<entity id="s1.e8" charOffset="290-309"
+			type="GO" text="aerobic respiration" ontology_id="GO_0009060"/>
+		<entity id="s1.e9" charOffset="311-368"
+			type="GO" text="mitochondrial electron transport, succinate to ubiquinone" ontology_id="GO_0006121"/>
+		<entity id="s1.e10" charOffset="370-394"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s1.e11" charOffset="396-437"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e17"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e17"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e17"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e17"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e17"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e17"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e17"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e33"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e33"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p20" e1="s1.e33"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e33"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p22" e1="s1.e33"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p23" e1="s1.e33"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p24" e1="s1.e33"
+		    e2="s1.e16" pgr="true"/>
+	</sentence>
+</document>

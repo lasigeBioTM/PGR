@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25502460">
+	<sentence id="s1" text="Structural rearrangements of chromosome 10 are frequently observed in glioblastoma multiforme and over 80 % of tumour samples archived in the catalogue of somatic mutations in cancer database had gene copy number loss for PI4K2A which encodes phosphatidylinositol 4-kinase type IIalpha.">
+		<entity id="s1.e1" charOffset="70-82"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<entity id="s1.e2" charOffset="111-117"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="176-182"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="273-277"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This in silico study suggests that in glioblastoma multiforme, karyotypic changes have the potential to cause multiple abnormalities in sets of genes involved in phosphoinositide metabolism and this may be important for understanding drug resistance and phosphoinositide pathway redundancy in the advanced disease state.">
+		<entity id="s2.e1" charOffset="38-50"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<entity id="s2.e2" charOffset="136-139"
+			type="GENE" text="set" ontology_id="6418"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

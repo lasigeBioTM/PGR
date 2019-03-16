@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28742274">
+	<sentence id="s1" text="Hemangioblastomas (HBs) are uncommon tumors characterized by the presence of inactivating alterations in the von Hippel-Lindau (VHL) gene in inherited cases and by infrequent somatic mutation in sporadic entities.">
+		<entity id="s1.e1" charOffset="37-43"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="128-131"
+			type="GENE" text="VHL" ontology_id="7428"/>
+		<entity id="s1.e3" charOffset="175-191"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s1.e4" charOffset="195-203"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Genes harboring the most significant mutations include PCDH9, KLHL12, DCAF4L1, and VHL in sporadic HBs, and ZNF814, DLG2, RIMS1, PNN, and MUC7 in familial HBs.">
+		<entity id="s2.e1" charOffset="55-60"
+			type="GENE" text="PCDH9" ontology_id="5101"/>
+		<entity id="s2.e2" charOffset="62-68"
+			type="GENE" text="KLHL12" ontology_id="59349"/>
+		<entity id="s2.e3" charOffset="70-77"
+			type="GENE" text="DCAF4L1" ontology_id="285429"/>
+		<entity id="s2.e4" charOffset="83-86"
+			type="GENE" text="VHL" ontology_id="7428"/>
+		<entity id="s2.e5" charOffset="90-98"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e6" charOffset="108-114"
+			type="GENE" text="ZNF814" ontology_id="730051"/>
+		<entity id="s2.e7" charOffset="116-120"
+			type="GENE" text="DLG2" ontology_id="2305"/>
+		<entity id="s2.e8" charOffset="122-127"
+			type="GENE" text="RIMS1" ontology_id="22999"/>
+		<entity id="s2.e9" charOffset="129-132"
+			type="GENE" text="PNN" ontology_id="5411"/>
+		<entity id="s2.e10" charOffset="138-142"
+			type="GENE" text="MUC7" ontology_id="4589"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e5"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e5"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e5"
+		    e2="s2.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Five genes, including OTOGL, PLCB4, SCEL, THSD4, and WWOX, have CNVs in the six patients with sporadic HBs, and three genes, including ABCA6, CWC27, and LAMA2, have CNVs in the five patients with familial HBs.">
+		<entity id="s3.e1" charOffset="22-27"
+			type="GENE" text="OTOGL" ontology_id="283310"/>
+		<entity id="s3.e2" charOffset="29-34"
+			type="GENE" text="PLCB4" ontology_id="5332"/>
+		<entity id="s3.e3" charOffset="36-40"
+			type="GENE" text="SCEL" ontology_id="8796"/>
+		<entity id="s3.e4" charOffset="42-47"
+			type="GENE" text="THSD4" ontology_id="79875"/>
+		<entity id="s3.e5" charOffset="53-57"
+			type="GENE" text="WWOX" ontology_id="51741"/>
+		<entity id="s3.e6" charOffset="94-102"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s3.e7" charOffset="135-140"
+			type="GENE" text="ABCA6" ontology_id="23460"/>
+		<entity id="s3.e8" charOffset="142-147"
+			type="GENE" text="CWC27" ontology_id="10283"/>
+		<entity id="s3.e9" charOffset="153-158"
+			type="GENE" text="LAMA2" ontology_id="3908"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e4"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e5"
+		    e2="s3.e6" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e6"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e6"
+		    e2="s3.e8" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e6"
+		    e2="s3.e9" pgr="false"/>
+	</sentence>
+</document>

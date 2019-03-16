@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29071511">
+	<sentence id="s1" text="The most common and severe form, primary hyperoxaluria Type I, is due to the deficit of liver peroxisomal alanine/glyoxylate aminotransferase (AGT).">
+		<entity id="s1.e1" charOffset="41-54"
+			type="HP" text="hyperoxaluria" ontology_id="HP_0003159"/>
+		<entity id="s1.e2" charOffset="55-59"
+			type="GENE" text="Type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="143-146"
+			type="GENE" text="AGT" ontology_id="189"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Primary hyperoxaluria Type II and primary hyperoxaluria Type III are due to the deficit of glyoxylate reductase/hydroxypyruvate reductase (GRHPR) and 4-hydroxy-2-oxoglutarate aldolase (HOGA1), respectively.">
+		<entity id="s2.e1" charOffset="8-21"
+			type="HP" text="hyperoxaluria" ontology_id="HP_0003159"/>
+		<entity id="s2.e2" charOffset="22-26"
+			type="GENE" text="Type" ontology_id="6445"/>
+		<entity id="s2.e3" charOffset="139-144"
+			type="GENE" text="GRHPR" ontology_id="9380"/>
+		<entity id="s2.e4" charOffset="185-190"
+			type="GENE" text="HOGA1" ontology_id="112817"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

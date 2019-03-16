@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25122612">
+	<sentence id="s1" text="We used Cpotassium ion transport-C to investigate long-range interactions at three breast cancer gene deserts mapping to 2q35, 8q24.21, and 9q31.2.">
+		<entity id="s1.e1" charOffset="9-32"
+			type="GO" text="potassium ion transport" ontology_id="GO_0006813"/>
+		<entity id="s1.e2" charOffset="90-96"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

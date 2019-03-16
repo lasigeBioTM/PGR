@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24325915">
+	<sentence id="s1" text="Triple-negative (TN) breast cancer is an aggressive subtype of breast cancer associated with a unique set of epidemiologic and genetic risk factors.">
+		<entity id="s1.e1" charOffset="28-34"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="102-105"
+			type="GENE" text="set" ontology_id="6418"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Associations with TN breast cancer were confirmed for 10 loci (LGR6, MDM4, CASP8, 2q35, 2p24.1, TERT-rs10069690, ESR1, TOX3, 19p13.1, RALY), and we identified associations with TN breast cancer for 15 additional breast cancer loci (P AAAA 0.05: PEX14, 2q24.1, 2q31.1, ADAM29, EBF1, TCF7L2, 11q13.1, 11q24.3, 12p13.1, PTHLH, NTN4, 12q24, BRCA2, RAD51L1-rs2588809, MKL1).">
+		<entity id="s2.e1" charOffset="28-34"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="63-67"
+			type="GENE" text="LGR6" ontology_id="59352"/>
+		<entity id="s2.e3" charOffset="69-73"
+			type="GENE" text="MDM4" ontology_id="4194"/>
+		<entity id="s2.e4" charOffset="75-80"
+			type="GENE" text="CASP8" ontology_id="841"/>
+		<entity id="s2.e5" charOffset="113-117"
+			type="GENE" text="ESR1" ontology_id="2099"/>
+		<entity id="s2.e6" charOffset="119-123"
+			type="GENE" text="TOX3" ontology_id="27324"/>
+		<entity id="s2.e7" charOffset="134-138"
+			type="GENE" text="RALY" ontology_id="22913"/>
+		<entity id="s2.e8" charOffset="245-250"
+			type="GENE" text="PEX14" ontology_id="5195"/>
+		<entity id="s2.e9" charOffset="268-274"
+			type="GENE" text="ADAM29" ontology_id="11086"/>
+		<entity id="s2.e10" charOffset="276-280"
+			type="GENE" text="EBF1" ontology_id="1879"/>
+		<entity id="s2.e11" charOffset="282-288"
+			type="GENE" text="TCF7L2" ontology_id="6934"/>
+		<entity id="s2.e12" charOffset="317-322"
+			type="GENE" text="PTHLH" ontology_id="5744"/>
+		<entity id="s2.e13" charOffset="324-328"
+			type="GENE" text="NTN4" ontology_id="8079"/>
+		<entity id="s2.e14" charOffset="337-342"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e12" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e11" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p13" e1="s2.e1"
+		    e2="s2.e14" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Further, two SNPs independent of previously reported signals in ESR1 [rs12525163 odds ratio (OR) = 1.15, P = 4.9 × 10(-) (4)] and 19p13.1 (rs1864112 OR = 0.84, P = 1.8 × 10(-) (9)) were associated with TN breast cancer.">
+		<entity id="s3.e1" charOffset="64-68"
+			type="GENE" text="ESR1" ontology_id="2099"/>
+		<entity id="s3.e2" charOffset="212-218"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

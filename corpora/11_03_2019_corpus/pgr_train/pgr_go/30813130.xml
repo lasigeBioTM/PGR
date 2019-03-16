@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30813130">
+	<sentence id="s1" text="The heterogeneity test, sensitivity analysis, and publication bias test was performed by Review Manager 5.3 software.Overall, 22 case-control studies with 5049 cases and 4157 controls were included in this meta-analysis, which contained 20 studies of regulation of histone methylation C677T polymorphism, 12 studies of MTHFR A1298C polymorphism and 4 studies of methionine biosynthetic process A66G polymorphism.">
+		<entity id="s1.e1" charOffset="4-17"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="251-284"
+			type="GO" text="regulation of histone methylation" ontology_id="GO_0031060"/>
+		<entity id="s1.e3" charOffset="362-393"
+			type="GO" text="methionine biosynthetic process" ontology_id="GO_0009086"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

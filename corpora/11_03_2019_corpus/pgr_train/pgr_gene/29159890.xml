@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29159890">
+	<sentence id="s1" text="Our report of variant in ARMC9 Leading to Joubert syndrome phenotype (JS30), elucidates the genetic heterogeneity of Joubert syndrome, and expands the gene list for ciliopathies">
+		<entity id="s1.e1" charOffset="25-30"
+			type="GENE" text="ARMC9" ontology_id="80210"/>
+		<entity id="s1.e2" charOffset="100-113"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25861810">
+	<sentence id="s1" text="Pathway analyses demonstrated that methylation levels associated with age and BMI are overrepresented among genes involved in cancer, cardiac muscle tissue development 2 diabetes and cardiovascular disease.">
+		<entity id="s1.e1" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="134-167"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="183-205"
+			type="HP" text="cardiovascular disease" ontology_id="HP_0001626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our results highlight the negative regulation of transcription by RNA polymerase II of age, BMI and HbA1c on epigenetic variation of candidate genes for obesity, cardiac muscle tissue development 2 diabetes and cancer in human adipose tissue.">
+		<entity id="s2.e1" charOffset="26-83"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="153-160"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e3" charOffset="162-195"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e4" charOffset="182-188"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e6"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

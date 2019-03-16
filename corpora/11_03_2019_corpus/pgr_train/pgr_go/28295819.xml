@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28295819">
+	<sentence id="s1" text="Germ cell tumors (peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase) are a rare form of childhood cancer that originate from the primordial germ cell.">
+		<entity id="s1.e1" charOffset="10-16"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="18-108"
+			type="GO" text="peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase" ontology_id="GO_0017186"/>
+		<entity id="s1.e3" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A variant in release of cytochrome c from mitochondria (rs210138) was positively associated with peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase (OR [95% CI]: 1.70 [1.32, 2.18]), with a strong estimated effect for testis tumors (OR [95% CI]: 3.31 [1.89, 5.79]).">
+		<entity id="s2.e1" charOffset="13-54"
+			type="GO" text="release of cytochrome c from mitochondria" ontology_id="GO_0001836"/>
+		<entity id="s2.e2" charOffset="60-150"
+			type="GO" text="peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase" ontology_id="GO_0017186"/>
+		<entity id="s2.e3" charOffset="227-233"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

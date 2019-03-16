@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26637975">
+	<sentence id="s1" text="The disease phenocardiac muscle tissue development comprises characteristic circumferential skin creases accompanied by intellectual disability, a cleft palate, short stature, and dysmorphic features.">
+		<entity id="s1.e1" charOffset="17-50"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="120-143"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="147-159"
+			type="HP" text="cleft palate" ontology_id="HP_0000175"/>
+		<entity id="s1.e4" charOffset="161-174"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

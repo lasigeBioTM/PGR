@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28695896">
+	<sentence id="s1" text="Here, we describe the generation of transgenic, inducible CRISPR-based mouse systems to engineer and study recurrent colon cancer-associated translational initiation-positive regulation of Wnt signaling pathway and protein dephosphorylation-positive regulation of Wnt signaling pathway chromosome rearrangements in vivo.">
+		<entity id="s1.e1" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="141-165"
+			type="GO" text="translational initiation" ontology_id="GO_0006413"/>
+		<entity id="s1.e3" charOffset="166-210"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<entity id="s1.e4" charOffset="215-240"
+			type="GO" text="protein dephosphorylation" ontology_id="GO_0006470"/>
+		<entity id="s1.e5" charOffset="241-285"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We show that both positive regulation of Wnt signaling pathway and positive regulation of Wnt signaling pathway fusion events are sufficient to initiate hyperplasia and tumour development in vivo, without additional cooperating genetic events.">
+		<entity id="s2.e1" charOffset="18-62"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<entity id="s2.e2" charOffset="67-111"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<entity id="s2.e3" charOffset="130-136"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Altogether, our study provides direct evidence that endogenous positive regulation of Wnt signaling pathway and positive regulation of Wnt signaling pathway chromosome rearrangements can initiate and maintain tumour development, and indicate a viable therapeutic window for LGK974 treatment of RSPO-fusion cancers">
+		<entity id="s3.e1" charOffset="63-107"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<entity id="s3.e2" charOffset="112-156"
+			type="GO" text="positive regulation of Wnt signaling pathway" ontology_id="GO_0030177"/>
+		<entity id="s3.e3" charOffset="170-176"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="267-273"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

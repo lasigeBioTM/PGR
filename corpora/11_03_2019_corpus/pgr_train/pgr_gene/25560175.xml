@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25560175">
+	<sentence id="s1" text="Breast tissue and blood from patients with invasive breast cancer (n = 38) and benign breast disease (n = 30) were compared with those from healthy individuals (n = 36), matched with the cancer patients by age at diagnosis, ethnicity, body mass index, menopausal status and familial history of cancer.">
+		<entity id="s1.e1" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="240-244"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Tumor-specific methylation changes at IGF2 DMR2 were observed in 59% of cancer patients, IGF2 DMR0 in 38%, DIRAS3 DMR in 36%, GRB10 ICR in 23%, PEG3 DMR in 21%, MEST ICR in 19%, H19 ICR in 18%, KvDMR in 8% and SNRPN/SNURF ICR in 4%.">
+		<entity id="s2.e1" charOffset="38-42"
+			type="GENE" text="IGF2" ontology_id="3481"/>
+		<entity id="s2.e2" charOffset="43-46"
+			type="GENE" text="DMR" ontology_id="91833"/>
+		<entity id="s2.e3" charOffset="72-78"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="107-113"
+			type="GENE" text="DIRAS3" ontology_id="9077"/>
+		<entity id="s2.e5" charOffset="126-131"
+			type="GENE" text="GRB10" ontology_id="2887"/>
+		<entity id="s2.e6" charOffset="144-148"
+			type="GENE" text="PEG3" ontology_id="5178"/>
+		<entity id="s2.e7" charOffset="161-165"
+			type="GENE" text="MEST" ontology_id="4232"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e3"
+		    e2="s2.e7" pgr="false"/>
+	</sentence>
+</document>

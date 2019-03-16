@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29421438">
+	<sentence id="s1" text="However, the role of neural tube closure in tumor biology remains poorly studied.">
+		<entity id="s1.e1" charOffset="21-40"
+			type="GO" text="neural tube closure" ontology_id="GO_0001843"/>
+		<entity id="s1.e2" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our purpose of this study is to discover the physiological effects and mechanism of neural tube closure in non-small-cell lung cancer (NSCLC) in vitro.">
+		<entity id="s2.e1" charOffset="84-103"
+			type="GO" text="neural tube closure" ontology_id="GO_0001843"/>
+		<entity id="s2.e2" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

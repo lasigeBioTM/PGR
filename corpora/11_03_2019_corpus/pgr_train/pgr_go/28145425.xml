@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28145425">
+	<sentence id="s1" text="p.(Arg320His) mutation in the protein tetramerization gene in human 11p15.1 has recently been identified in patients with progressive myoclonus epilepsies, a group of rare inherited disorders manifesting with action myoclonus, myoclonic epilepsy, and ataxia.">
+		<entity id="s1.e1" charOffset="30-53"
+			type="GO" text="protein tetramerization" ontology_id="GO_0051262"/>
+		<entity id="s1.e2" charOffset="134-143"
+			type="HP" text="myoclonus" ontology_id="HP_0001336"/>
+		<entity id="s1.e3" charOffset="144-154"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="237-245"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e5" charOffset="251-257"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="As previously observed in the mutant mouse carrying a disrupted protein tetramerization gene, these findings reveal that individuals with a protein tetramerization loss-of-function variant can present intellectual disability without seizure and epilepsy">
+		<entity id="s2.e1" charOffset="64-87"
+			type="GO" text="protein tetramerization" ontology_id="GO_0051262"/>
+		<entity id="s2.e2" charOffset="183-206"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="215-222"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

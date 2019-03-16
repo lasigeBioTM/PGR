@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28993958">
+	<sentence id="s1" text="Hypomorphic cellular response to DNA damage stimulus mutations in males are typically associated with anhidrotic ectodermal dysplasia with immunodeficiency (positive regulation of NF-kappaB transcription factor activity-ID).">
+		<entity id="s1.e1" charOffset="12-52"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e2" charOffset="113-133"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e3" charOffset="157-219"
+			type="GO" text="positive regulation of NF-kappaB transcription factor activity" ontology_id="GO_0051092"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="As rare polymorphisms have been described in cellular response to DNA damage stimulus and polygenic inheritance remains an option in the presented case, this study emphasizes the need for thorough functional and genetic evaluation when encountering and interpreting suspected disease-causing cellular response to DNA damage stimulus-ID variants">
+		<entity id="s2.e1" charOffset="45-85"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s2.e2" charOffset="90-111"
+			type="HP" text="polygenic inheritance" ontology_id="HP_0010982"/>
+		<entity id="s2.e3" charOffset="292-332"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

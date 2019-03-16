@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25109669">
+	<sentence id="s1" text="Episodic ataxia cardiac muscle tissue development 2 (positive regulation of cytosolic calcium ion concentration) is an autosomal dominant disorder associated with attacks of ataxia that are typically precipitated by stress, ethanol, caffeine or exercise.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="16-49"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="53-111"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Thus, it is possible that subtle dysfunction arising from multiple cell cardiac muscle tissue developments is necessary for the expression of certain ataxia syndromes.">
+		<entity id="s2.e1" charOffset="72-105"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e2" charOffset="150-156"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

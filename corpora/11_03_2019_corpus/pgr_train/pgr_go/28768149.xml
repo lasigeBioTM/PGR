@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28768149">
+	<sentence id="s1" text="A variable-length poly-T variant in intron 6 of the protein targeting to mitochondrion gene, rs10524523, is associated with risk and age-of-onset of sporadic (late-onset) Alzheimer's disease.">
+		<entity id="s1.e1" charOffset="52-86"
+			type="GO" text="protein targeting to mitochondrion" ontology_id="GO_0006626"/>
+		<entity id="s1.e2" charOffset="149-157"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

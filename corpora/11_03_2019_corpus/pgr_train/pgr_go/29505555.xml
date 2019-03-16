@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29505555">
+	<sentence id="s1" text="Three loci with high mutation frequencies, the 138665410 negative regulation of transcription, DNA-templated gene variant, the 23862952 regulation of the force of heart contraction gene variant, and the 71098693 epithelial cell development gene variant were found to be significantly associated with sporadic ASD (PAAAA0.05); variants in FOXL2 and MYH6 were found in patients with isolated, sporadic ASD (PAAAA5×10^-4).">
+		<entity id="s1.e1" charOffset="57-108"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="136-180"
+			type="GO" text="regulation of the force of heart contraction" ontology_id="GO_0002026"/>
+		<entity id="s1.e3" charOffset="212-239"
+			type="GO" text="epithelial cell development" ontology_id="GO_0002064"/>
+		<entity id="s1.e4" charOffset="238-246"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CONCLUSIONS This was the first study that demonstrated variants in negative regulation of transcription, DNA-templated and epithelial cell development associated with sporadic ASD, and supported the use of WES and bioinformatics analysis to identify disease-associated mutations">
+		<entity id="s2.e1" charOffset="67-118"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e2" charOffset="123-150"
+			type="GO" text="epithelial cell development" ontology_id="GO_0002064"/>
+		<entity id="s2.e3" charOffset="145-153"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

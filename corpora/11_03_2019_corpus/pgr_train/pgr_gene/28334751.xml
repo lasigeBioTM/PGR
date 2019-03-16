@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334751">
+	<sentence id="s1" text="To this end, we generated a set of melanoma and neuroblastoma cell lines stably overexpressing wild-type (WT), catalytically inactive (D508N) and N-terminal mutants, or shRNA against ATP13A2.">
+		<entity id="s1.e1" charOffset="8-11"
+			type="GENE" text="end" ontology_id="2022"/>
+		<entity id="s1.e2" charOffset="35-43"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e3" charOffset="48-61"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e4" charOffset="100-104"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e5" charOffset="183-190"
+			type="GENE" text="ATP13A2" ontology_id="23400"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e7"
+		    e2="s1.e1" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e3"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

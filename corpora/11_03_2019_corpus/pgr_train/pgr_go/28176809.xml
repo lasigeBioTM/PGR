@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28176809">
+	<sentence id="s1" text="Recessive mutations in the secreted metalloprotease proteolysis cause ectopia lentis and short stature in humans with Weill-Marchesani-like syndrome and primary open angle glaucoma and ectopia lentis in dogs.">
+		<entity id="s1.e1" charOffset="52-63"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e2" charOffset="70-84"
+			type="HP" text="ectopia lentis" ontology_id="HP_0001083"/>
+		<entity id="s1.e3" charOffset="89-102"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s1.e4" charOffset="172-180"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

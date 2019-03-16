@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29307797">
+	<sentence id="s1" text="Non-alcoholic steatohepatitis (NASH) is commonly associated with obesity, cardiac muscle tissue development 2 diabetes, and/or hypertriglyceridemia, while alcoholic steatohepatitis (ASH) is associated with alcohol abuse.">
+		<entity id="s1.e1" charOffset="65-72"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="74-107"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="127-147"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Both NASH and ASH patients can develop cirrhosis and hepatocellular carcinoma (phosphatidylinositol phosphorylation) if left untreated.">
+		<entity id="s2.e1" charOffset="53-77"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s2.e2" charOffset="79-115"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

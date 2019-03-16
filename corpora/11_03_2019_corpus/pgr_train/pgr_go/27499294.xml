@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27499294">
+	<sentence id="s1" text="protein phosphorylation (ADCK3) is a mammalian UbiB protein associated with ubiquinone (CoQ) biosynthesis and an ataxia (ARCA2) through unclear means.">
+		<entity id="s1.e1" charOffset="0-23"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="113-119"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We show that apoptotic process lacking protein phosphorylation develop a slowly progressive cerebellar ataxia linked to Purkinje cell dysfunction and mild exercise intolerance, recapitulating ARCA2.">
+		<entity id="s2.e1" charOffset="13-30"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="39-62"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s2.e3" charOffset="85-91"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

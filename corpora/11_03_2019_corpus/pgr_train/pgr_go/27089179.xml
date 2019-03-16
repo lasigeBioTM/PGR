@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27089179">
+	<sentence id="s1" text="Uveal melanomas are molecularly distinct from cutaneous melanomas and lack mutations in protein phosphorylation, positive regulation of endothelial cell proliferation, activation of MAPK activity, and NF1.">
+		<entity id="s1.e1" charOffset="46-65"
+			type="HP" text="cutaneous melanomas" ontology_id="HP_0012056"/>
+		<entity id="s1.e2" charOffset="88-111"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="113-166"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s1.e4" charOffset="168-195"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

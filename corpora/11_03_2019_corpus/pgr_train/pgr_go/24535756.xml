@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24535756">
+	<sentence id="s1" text="Testing for high-risk (hr) cardiac muscle tissue developments of human papillomavirus (HPV) is highly sensitive as a screening test of high-grade cervical intraepithelial neoplastic (CIN2/3) disease, the precursor of cervical cancer.">
+		<entity id="s1.e1" charOffset="27-60"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="226-232"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

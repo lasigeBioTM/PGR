@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24766809">
+	<sentence id="s1" text="Mice carrying kinase-dead CLP1 also displayed microcephaly and reduced cortical brain volume due to the enhanced cell death of neuronal progenitors that is associated with reduced numbers of cortical neurons.">
+		<entity id="s1.e1" charOffset="26-30"
+			type="GENE" text="CLP1" ontology_id="10978"/>
+		<entity id="s1.e2" charOffset="46-58"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

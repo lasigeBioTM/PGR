@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30030762">
+	<sentence id="s1" text="In gastrointestinal tumors, FEZF1 plays an oncogenic role through DNA demethylation.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="28-33"
+			type="GENE" text="FEZF1" ontology_id="389549"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the role of FEZF1 in the prognosis of human glioma prognosis remains unclear.">
+		<entity id="s2.e1" charOffset="21-26"
+			type="GENE" text="FEZF1" ontology_id="389549"/>
+		<entity id="s2.e2" charOffset="53-59"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In this research, we discovered that FEZF1 was significantly increased in glioma tissues in contrast to normal brain tissues (NBTs; P AAAA 0.05).">
+		<entity id="s3.e1" charOffset="37-42"
+			type="GENE" text="FEZF1" ontology_id="389549"/>
+		<entity id="s3.e2" charOffset="74-80"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Furthermore, a high level of FEZF1 in patients with glioma acted as an independent biomarker to predict reduced survival (P = 0.026).">
+		<entity id="s4.e1" charOffset="29-34"
+			type="GENE" text="FEZF1" ontology_id="389549"/>
+		<entity id="s4.e2" charOffset="52-58"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In an in vitro experiment, FEZF1 can promote the proliferation, migration, and invasion of glioma cells and inhibit cell apoptosis by activating Akt-ERK pathway.">
+		<entity id="s5.e1" charOffset="27-32"
+			type="GENE" text="FEZF1" ontology_id="389549"/>
+		<entity id="s5.e2" charOffset="91-97"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s5.e3" charOffset="145-148"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<entity id="s5.e4" charOffset="149-152"
+			type="GENE" text="ERK" ontology_id="2048"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+	</sentence>
+</document>

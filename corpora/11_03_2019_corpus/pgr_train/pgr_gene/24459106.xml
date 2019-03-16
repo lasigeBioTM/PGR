@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24459106">
+	<sentence id="s1" text="In a family with sensory neuropathy with loss of pain perception and destruction of the pedal skeleton we report a missense mutation in a highly conserved amino acid residue of atlastin GTPase 3 (ATL3), an endoplasmic reticulum-shaping GTPase.">
+		<entity id="s1.e1" charOffset="25-35"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="196-200"
+			type="GENE" text="ATL3" ontology_id="25923"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="ATL3 is a paralogue of ATL1, a membrane curvature-generating molecule that is involved in spastic paraplegia and hereditary sensory neuropathy.">
+		<entity id="s2.e1" charOffset="0-4"
+			type="GENE" text="ATL3" ontology_id="25923"/>
+		<entity id="s2.e2" charOffset="23-27"
+			type="GENE" text="ATL1" ontology_id="51062"/>
+		<entity id="s2.e3" charOffset="132-142"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

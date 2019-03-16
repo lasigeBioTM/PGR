@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28623007">
+	<sentence id="s1" text="Three neurodegenerative diseases [Amyotrophic Lateral Sclerosis (ALS), Parkinson's disease (PD) and Alzheimer's disease (AD)] have many characteristics like pathological mechanisms and genes.">
+		<entity id="s1.e1" charOffset="6-32"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="65-68"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We will systematically examine seven genes (CHN1, MDH1, PCP4, RTN1, SLC14A1, SNAP25 and VSNL1) that are altered in the three neurodegenerative diseases.">
+		<entity id="s2.e1" charOffset="44-48"
+			type="GENE" text="CHN1" ontology_id="1123"/>
+		<entity id="s2.e2" charOffset="50-54"
+			type="GENE" text="MDH1" ontology_id="4190"/>
+		<entity id="s2.e3" charOffset="56-60"
+			type="GENE" text="PCP4" ontology_id="5121"/>
+		<entity id="s2.e4" charOffset="62-66"
+			type="GENE" text="RTN1" ontology_id="6252"/>
+		<entity id="s2.e5" charOffset="68-75"
+			type="GENE" text="SLC14A1" ontology_id="6563"/>
+		<entity id="s2.e6" charOffset="77-83"
+			type="GENE" text="SNAP25" ontology_id="6616"/>
+		<entity id="s2.e7" charOffset="88-93"
+			type="GENE" text="VSNL1" ontology_id="7447"/>
+		<entity id="s2.e8" charOffset="125-151"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e6"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e7"
+		    e2="s2.e8" pgr="false"/>
+	</sentence>
+</document>

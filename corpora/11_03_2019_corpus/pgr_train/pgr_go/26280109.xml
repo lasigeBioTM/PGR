@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26280109">
+	<sentence id="s1" text="Our results indicate that the protein expression level of pyrimidine nucleotide metabolic process in pancreatic cancer tissue is a good predictor of PFS, and thus dCK may be the chloride transport biomarker of dFdC sensitivity in pancreatic cancer patients treated with dFdC, although other proteins would also contribute to dFdC-sensitivity at the cellular level in vivo and in vitro.">
+		<entity id="s1.e1" charOffset="58-97"
+			type="GO" text="pyrimidine nucleotide metabolic process" ontology_id="GO_0006220"/>
+		<entity id="s1.e2" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="178-196"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29046478">
+	<sentence id="s1" text="Loss-of-function mutations of G protein-coupled acetylcholine receptor signaling pathway, which encodes G-protein subunit α11 (Gα11), a signaling partner for the calcium-sensing receptor (detection of calcium ion), result in familial hypocalciuric hypercalcemia cardiac muscle tissue development 2 (G protein-coupled acetylcholine receptor signaling pathway).">
+		<entity id="s1.e1" charOffset="30-88"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<entity id="s1.e2" charOffset="188-212"
+			type="GO" text="detection of calcium ion" ontology_id="GO_0005513"/>
+		<entity id="s1.e3" charOffset="228-241"
+			type="HP" text="hypercalcemia" ontology_id="HP_0003072"/>
+		<entity id="s1.e4" charOffset="262-295"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e5" charOffset="299-357"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="G protein-coupled acetylcholine receptor signaling pathway is characterized by hypercalcemia, inappropriately normal or raised parathyroid hormone (negative regulation of transcription by RNA polymerase II) concentrations, and normal or low urinary calcium excretion.">
+		<entity id="s2.e1" charOffset="0-58"
+			type="GO" text="G protein-coupled acetylcholine receptor signaling pathway" ontology_id="GO_0007213"/>
+		<entity id="s2.e2" charOffset="79-92"
+			type="HP" text="hypercalcemia" ontology_id="HP_0003072"/>
+		<entity id="s2.e3" charOffset="148-205"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

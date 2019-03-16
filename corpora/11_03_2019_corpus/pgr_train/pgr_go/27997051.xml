@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27997051">
+	<sentence id="s1" text="Although regulation of collagen fibril organization immunoreactivity was almost absent in neurons containing neurofibrillary tangles, AEBP1 was highly expressed in neurons with pretangles and in the microtubule cytoskeleton organization-immunopositive, dystrophic neurites of senile plaques.">
+		<entity id="s1.e1" charOffset="9-51"
+			type="GO" text="regulation of collagen fibril organization" ontology_id="GO_1904026"/>
+		<entity id="s1.e2" charOffset="109-132"
+			type="HP" text="neurofibrillary tangles" ontology_id="HP_0002185"/>
+		<entity id="s1.e3" charOffset="236-236"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26351325">
+	<sentence id="s1" text="Furthermore, in vitro inhibition of cancer-derived negative regulation of transcription by RNA polymerase II noncanonical signals results in an increase of chemosensitivity in a colorectal cancer cell line.">
+		<entity id="s1.e1" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="51-108"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

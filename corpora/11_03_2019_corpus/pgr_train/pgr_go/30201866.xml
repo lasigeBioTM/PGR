@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30201866">
+	<sentence id="s1" text="The sonic Hedgehog/osteoblast differentiation signaling pathway (HH) is critical for maintaining tissue polarity in development and contributes to tumor stemness.">
+		<entity id="s1.e1" charOffset="19-45"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s1.e2" charOffset="147-152"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Important factors osteoblast differentiation1 and GLI2 were always expressed, only exceptionally one of them was lowered, suggesting the functionality of HH in all tumors tested.">
+		<entity id="s2.e1" charOffset="18-44"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s2.e2" charOffset="164-169"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results recognize the sensitivity of tumor cell types to GANT61 in cell culture and support a critical role for osteoblast differentiation factors in tumor progression through restraining apoptosis.">
+		<entity id="s3.e1" charOffset="41-46"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="116-142"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

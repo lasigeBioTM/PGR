@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29637450">
+	<sentence id="s1" text="To explore the relationship between NF2 promoter gene mutation and the risk of medulloblastomas (regulation of cell adhesion).">
+		<entity id="s1.e1" charOffset="79-95"
+			type="HP" text="medulloblastomas" ontology_id="HP_0002885"/>
+		<entity id="s1.e2" charOffset="97-124"
+			type="GO" text="regulation of cell adhesion" ontology_id="GO_0030155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

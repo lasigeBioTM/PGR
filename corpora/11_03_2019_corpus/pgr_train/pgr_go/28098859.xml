@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28098859">
+	<sentence id="s1" text="Williams-Beuren syndrome (outflow tract morphogenesis, no. OMIM 194050) is a rare multisystem genetic disorder caused by a microdeletion on chromosome 7q11.23 and characterized by cardiovascular malformations, mental retardation, and a specific facial dysmorphism.">
+		<entity id="s1.e1" charOffset="26-53"
+			type="GO" text="outflow tract morphogenesis" ontology_id="GO_0003151"/>
+		<entity id="s1.e2" charOffset="180-208"
+			type="HP" text="cardiovascular malformations" ontology_id="HP_0030680"/>
+		<entity id="s1.e3" charOffset="245-263"
+			type="HP" text="facial dysmorphism" ontology_id="HP_0001999"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, we reported that a series of non‑Hodgkin's lymphoma occurs in children with outflow tract morphogenesis and thus hypothesized that a predisposition to cancer may be associated with this genetic disorder.">
+		<entity id="s2.e1" charOffset="86-113"
+			type="GO" text="outflow tract morphogenesis" ontology_id="GO_0003151"/>
+		<entity id="s2.e2" charOffset="161-167"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

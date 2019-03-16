@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26002316">
+	<sentence id="s1" text="In this study, we investigated the expression of activation of JUN kinase activity in temporal lobe epilepsy (TLE) and in a kainic acid (KA)-induced mouse model of epileptic seizures, and determined whether down-regulation of activation of JUN kinase activity can decrease susceptibility to seizures and neuron cellular protein catabolic process induced by KA.">
+		<entity id="s1.e1" charOffset="49-82"
+			type="GO" text="activation of JUN kinase activity" ontology_id="GO_0007257"/>
+		<entity id="s1.e2" charOffset="100-108"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="174-182"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="282-316"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that activation of JUN kinase activity was markedly increased in TLE patients and a mouse model of epileptic seizures; apoptotic process underexpressing activation of JUN kinase activity through lentivirus bearing LV-Letm1-RNAi showed decreased susceptibility, delayed first seizure and decreased seizure duration response to the epileptogenic properties of KA.">
+		<entity id="s2.e1" charOffset="14-47"
+			type="GO" text="activation of JUN kinase activity" ontology_id="GO_0007257"/>
+		<entity id="s2.e2" charOffset="118-126"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="128-145"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e4" charOffset="242-249"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Subsequently, a decreased activation of protein phosphorylation following seizure induction was observed in apoptotic process underexpressing activation of JUN kinase activity, which also exhibited less neuronal apoptosis in the CA3 region of the hippocampus, as assessed three days after KA administration.">
+		<entity id="s3.e1" charOffset="40-63"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s3.e2" charOffset="54-61"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s3.e3" charOffset="108-125"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e4" charOffset="109-142"
+			type="GO" text="activation of JUN kinase activity" ontology_id="GO_0007257"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We also found that apoptotic process underexpressing activation of JUN kinase activity exhibited a delayed pentylenetetrazole (PTZ)-induced kindling seizure process">
+		<entity id="s4.e1" charOffset="19-36"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s4.e2" charOffset="40-73"
+			type="GO" text="activation of JUN kinase activity" ontology_id="GO_0007257"/>
+		<entity id="s4.e3" charOffset="136-143"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28663096">
+	<sentence id="s1" text="Eight different androgen metabolic process mutations were detected in 15 patients with posterior hypospadias (60%, 15/25), including six previously described mutations (p.Q6X, Q71X, p.L20P, p.G203S, p.R227Q, and p.R246Q) and two novel mutations (p.G196R and p.L73Pfs<sup>∗</sup>17).">
+		<entity id="s1.e1" charOffset="16-42"
+			type="GO" text="androgen metabolic process" ontology_id="GO_0008209"/>
+		<entity id="s1.e2" charOffset="97-108"
+			type="HP" text="hypospadias" ontology_id="HP_0000047"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our data suggest that mutations of the androgen metabolic process gene are the main causes of posterior hypospadias and seem to affect the semen quality of adult patients, whereas mutations in AR and steroid biosynthetic process gene were rare in these hypospadias patients.">
+		<entity id="s2.e1" charOffset="39-65"
+			type="GO" text="androgen metabolic process" ontology_id="GO_0008209"/>
+		<entity id="s2.e2" charOffset="104-115"
+			type="HP" text="hypospadias" ontology_id="HP_0000047"/>
+		<entity id="s2.e3" charOffset="200-228"
+			type="GO" text="steroid biosynthetic process" ontology_id="GO_0006694"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

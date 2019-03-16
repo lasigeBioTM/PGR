@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29668979">
+	<sentence id="s1" text="Mutations in bestrophin-1 (chloride transport) are associated with distinct retinopathies, notably three forms with autosomal dominant inheritance and one condition with an autosomal recessive mode of transmission.">
+		<entity id="s1.e1" charOffset="27-45"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s1.e2" charOffset="173-192"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Although heterozygous missense mutations in chloride transport reveal dominant-negative effects in patients with autosomal dominant chloride transport disease (BD), heterozygous mutations associated with autosomal recessive bestrophinopathy (ARB) display no disease phenotype.">
+		<entity id="s2.e1" charOffset="44-62"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s2.e2" charOffset="132-150"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s2.e3" charOffset="190-209"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Taken together, our data provide insight into the molecular pathways of dominantly and recessively acting chloride transport missense mutations suggesting that the site of subcellular protein quality control as well as the rate and degree of mutant protein degradation are ultimately responsible for the distinct retinal disease phenotypes in BD and ARB">
+		<entity id="s3.e1" charOffset="106-124"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s3.e2" charOffset="313-328"
+			type="HP" text="retinal disease" ontology_id="HP_0000479"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

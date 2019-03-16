@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28526779">
+	<sentence id="s1" text="We report ten new patients from eight unrelated kindreds with lipid phosphorylation nephropathy.">
+		<entity id="s1.e1" charOffset="62-83"
+			type="GO" text="lipid phosphorylation" ontology_id="GO_0046834"/>
+		<entity id="s1.e2" charOffset="84-95"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In conclusion, we did not observe a clear genotype-phenotype correlation in patients with lipid phosphorylation nephropathy, suggesting additional factors mediating phenotypic heterogeneity.">
+		<entity id="s2.e1" charOffset="90-111"
+			type="GO" text="lipid phosphorylation" ontology_id="GO_0046834"/>
+		<entity id="s2.e2" charOffset="112-123"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<entity id="s2.e3" charOffset="176-189"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29648643">
+	<sentence id="s1" text="Human-induced neuronal progenitor cells (iNPCs) carrying dominant and recessive GARS mutations showed alterations of mitochondrial proteins, which were more prominent in iNPCs with dominant, neuropathy-causing mutations.">
+		<entity id="s1.e1" charOffset="80-84"
+			type="GENE" text="GARS" ontology_id="2617"/>
+		<entity id="s1.e2" charOffset="191-201"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our data suggest that altered mitochondria-associated endoplasmic reticulum (ER) membranes (MAM) may be important disease mechanisms leading to neuropathy in this condition">
+		<entity id="s2.e1" charOffset="92-95"
+			type="GENE" text="MAM" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="144-154"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

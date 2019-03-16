@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30279180">
+	<sentence id="s1" text="Mutation of aspartic acid 378 of hnRNPDL to either asparagine or histidine has been associated with limb girdle muscular dystrophy.">
+		<entity id="s1.e1" charOffset="33-40"
+			type="GENE" text="hnRNPDL" ontology_id="9987"/>
+		<entity id="s1.e2" charOffset="100-130"
+			type="HP" text="limb girdle muscular dystrophy" ontology_id="HP_0006785"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

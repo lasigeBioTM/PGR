@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29196973">
+	<sentence id="s1" text="Moreover, the novel mutation, p.R414C, adds up to the literature for the infantile-onset form of autosomal recessive ataxia associated with SPTBN2.">
+		<entity id="s1.e1" charOffset="97-116"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="117-123"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="140-146"
+			type="GENE" text="SPTBN2" ontology_id="6712"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

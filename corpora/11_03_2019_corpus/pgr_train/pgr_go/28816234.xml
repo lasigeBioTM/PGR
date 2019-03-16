@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28816234">
+	<sentence id="s1" text="Human autosomal recessive osteopetrosis (androgen catabolic process), also known as infantile malignant osteopetrosis, is a rare genetic bone disorder that often causes death.">
+		<entity id="s1.e1" charOffset="6-25"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="41-67"
+			type="GO" text="androgen catabolic process" ontology_id="GO_0006710"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

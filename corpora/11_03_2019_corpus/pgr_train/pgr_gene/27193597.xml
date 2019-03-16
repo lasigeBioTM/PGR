@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27193597">
+	<sentence id="s1" text="Mining GWAS databases revealed association of cis-eSNPs for more than 50 genes with T2D (e.g. PIK3C2A, RBMS1, UFSP1), gluco-metabolic phenotypes (e.g. INPP5E, SNX17, ERAP2, FN3KRP), and obesity (e.g. POMC, CPEB4).">
+		<entity id="s1.e1" charOffset="94-101"
+			type="GENE" text="PIK3C2A" ontology_id="5286"/>
+		<entity id="s1.e2" charOffset="103-108"
+			type="GENE" text="RBMS1" ontology_id="5937"/>
+		<entity id="s1.e3" charOffset="110-115"
+			type="GENE" text="UFSP1" ontology_id="402682"/>
+		<entity id="s1.e4" charOffset="139-143"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e5" charOffset="159-164"
+			type="GENE" text="SNX17" ontology_id="9784"/>
+		<entity id="s1.e6" charOffset="166-171"
+			type="GENE" text="ERAP2" ontology_id="64167"/>
+		<entity id="s1.e7" charOffset="173-179"
+			type="GENE" text="FN3KRP" ontology_id="79672"/>
+		<entity id="s1.e8" charOffset="186-193"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e9" charOffset="200-204"
+			type="GENE" text="POMC" ontology_id="5443"/>
+		<entity id="s1.e10" charOffset="206-211"
+			type="GENE" text="CPEB4" ontology_id="80315"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e6"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e5"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

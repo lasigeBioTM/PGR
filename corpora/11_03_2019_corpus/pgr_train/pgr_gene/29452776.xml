@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29452776">
+	<sentence id="s1" text="Several studies have shown that reproductive factors, such as age at natural menopause, parity and polycystic ovarian syndrome (PCOS), may play a role in the development of heart failure.">
+		<entity id="s1.e1" charOffset="77-80"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s1.e2" charOffset="173-186"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, the aim of the current study was to explore whether any reproductive factor is potentially related to heart failure in women, based on genetic similarities.">
+		<entity id="s2.e1" charOffset="113-126"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<entity id="s2.e2" charOffset="132-135"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, age at menarche, gestational diabetes and PCOS were found to be genetically linked to risk factors for heart failure, such as atrial fibrillation, diabetes and smoking.">
+		<entity id="s3.e1" charOffset="16-19"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s3.e2" charOffset="112-125"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Corresponding implicated genes, such as TNNI3K, ErbB3, MKL2, MTNR1B and PRKD1, may explain the associations between reproductive factors and heart failure.">
+		<entity id="s4.e1" charOffset="40-46"
+			type="GENE" text="TNNI3K" ontology_id="51086"/>
+		<entity id="s4.e2" charOffset="48-53"
+			type="GENE" text="ErbB3" ontology_id="2065"/>
+		<entity id="s4.e3" charOffset="61-67"
+			type="GENE" text="MTNR1B" ontology_id="4544"/>
+		<entity id="s4.e4" charOffset="72-77"
+			type="GENE" text="PRKD1" ontology_id="5587"/>
+		<entity id="s4.e5" charOffset="141-154"
+			type="HP" text="heart failure" ontology_id="HP_0001635"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e5" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e4"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26915689">
+	<sentence id="s1" text="Deafness genes, which harbor pathogenic mutations that have been identified in families with hereditary hearing loss, are commonly expressed in the auditory positive regulation of protein phosphorylation organ or the cochlea and may contribute to normal hearing function, yet some of the mouse models carrying these mutations fail to recapitulate the hearing loss phenotype.">
+		<entity id="s1.e1" charOffset="104-116"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="157-203"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we cellular response to interleukin-4 that distinct expression patterns of those deafness genes in the cochlea of a non-human primate, the common marmoset (Callithrix jacchus).">
+		<entity id="s2.e1" charOffset="18-52"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e2" charOffset="96-104"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The deafness genes in utero embryonic development, negative regulation of transcription by RNA polymerase II, epidermis development, DFNA5, and ossification were expressed in marmoset cochleae in patterns different from those in mouse cochleae.">
+		<entity id="s3.e1" charOffset="4-12"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s3.e2" charOffset="19-49"
+			type="GO" text="in utero embryonic development" ontology_id="GO_0001701"/>
+		<entity id="s3.e3" charOffset="51-108"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e4" charOffset="110-131"
+			type="GO" text="epidermis development" ontology_id="GO_0008544"/>
+		<entity id="s3.e5" charOffset="144-156"
+			type="GO" text="ossification" ontology_id="GO_0001503"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Of note, all those genes are causative for progressive hearing loss in humans, but not in apoptotic process.">
+		<entity id="s4.e1" charOffset="55-67"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s4.e2" charOffset="90-107"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The other tested genes, including the deafness gene regulation of cell shape, in which mutation recapitulates deafness in apoptotic process, were expressed in a similar manner in both species.">
+		<entity id="s5.e1" charOffset="38-46"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s5.e2" charOffset="52-76"
+			type="GO" text="regulation of cell shape" ontology_id="GO_0008360"/>
+		<entity id="s5.e3" charOffset="102-119"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

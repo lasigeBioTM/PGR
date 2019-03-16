@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28328135">
+	<sentence id="s1" text="Since the original description of the IARS2-related cataracts, growth hormone deficiency, sensory neuropathy, sensorineural hearing loss, skeletal dysplasia syndrome (CAGSSS; OMIM 616007) in an extended consanguineous family of French-Canadian descent, no further patients have been reported.">
+		<entity id="s1.e1" charOffset="38-43"
+			type="GENE" text="IARS2" ontology_id="55699"/>
+		<entity id="s1.e2" charOffset="52-61"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e3" charOffset="98-108"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e4" charOffset="124-136"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e5" charOffset="138-156"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report on a female Danish patient with a novel homozygous IARS2 mutation, p.Gly874Arg, who presented at birth with bilateral hip dislocation and short stature.">
+		<entity id="s2.e1" charOffset="67-72"
+			type="GENE" text="IARS2" ontology_id="55699"/>
+		<entity id="s2.e2" charOffset="134-137"
+			type="GENE" text="hip" ontology_id="64399"/>
+		<entity id="s2.e3" charOffset="154-167"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="At 3 months, additional dysmorphic features were noted and at 18 months her radiographic skeletal abnormalities were suggestive of an underlying spondyloepimetaphyseal dysplasia (SEMD).">
+		<entity id="s3.e1" charOffset="89-111"
+			type="HP" text="skeletal abnormalities" ontology_id="HP_0000924"/>
+		<entity id="s3.e2" charOffset="145-177"
+			type="HP" text="spondyloepimetaphyseal dysplasia" ontology_id="HP_0002651"/>
+		<entity id="s3.e3" charOffset="179-183"
+			type="GENE" text="SEMD" ontology_id="10371"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We present her clinical features and particularly highlight her skeletal findings, which confirm the presence of a primary SEMD skeletal dysplasia in a growing list of mitochondrial-related disorders including CAGSSS, CODAS, EVEN-PLUS, and X-linked SEMD-MR syndromes">
+		<entity id="s4.e1" charOffset="123-127"
+			type="GENE" text="SEMD" ontology_id="10371"/>
+		<entity id="s4.e2" charOffset="128-146"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<entity id="s4.e3" charOffset="254-256"
+			type="GENE" text="MR" ontology_id="4306"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

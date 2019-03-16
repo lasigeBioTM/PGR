@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30588709">
+	<sentence id="s1" text="The primary objective of the study was to estimate the maximum tolerated dose (MTD) and/or recommended phase II dose (RP2D) of oral alpelisib in patients with advanced solid tumors who had progressed despite standard therapy.">
+		<entity id="s1.e1" charOffset="79-82"
+			type="GENE" text="MTD" ontology_id="4493"/>
+		<entity id="s1.e2" charOffset="174-180"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28774369">
+	<sentence id="s1" text="In this case report, a 14-month-old boy had the clinical manifestations of delayed development, unusual facies (prominent forehead, midface retraction, hypertelorism, low-set ears, upturned nose, and micrognathia), and multiple congenital malformations (including cerebral dysplasia, dislocation of the hip joint, and cryptorchidism).">
+		<entity id="s1.e1" charOffset="96-110"
+			type="HP" text="unusual facies" ontology_id="HP_0001999"/>
+		<entity id="s1.e2" charOffset="152-165"
+			type="HP" text="hypertelorism" ontology_id="HP_0000316"/>
+		<entity id="s1.e3" charOffset="167-179"
+			type="HP" text="low-set ears" ontology_id="HP_0000369"/>
+		<entity id="s1.e4" charOffset="200-212"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<entity id="s1.e5" charOffset="303-306"
+			type="GENE" text="hip" ontology_id="64399"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

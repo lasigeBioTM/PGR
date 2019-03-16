@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25853559">
+	<sentence id="s1" text="Genetic variation in the TMC6/TMC8 region has been linked to beta-type HPV infection and squamous cell carcinoma of the skin, cervical cancer, HPV persistence and progression to cervical cancer.">
+		<entity id="s1.e1" charOffset="25-29"
+			type="GENE" text="TMC6" ontology_id="11322"/>
+		<entity id="s1.e2" charOffset="30-34"
+			type="GENE" text="TMC8" ontology_id="147138"/>
+		<entity id="s1.e3" charOffset="89-124"
+			type="HP" text="squamous cell carcinoma of the skin" ontology_id="HP_0006739"/>
+		<entity id="s1.e4" charOffset="135-141"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we have tested the hypothesis that the common TMC8 SNP rs7208422 is associated with high-risk HPV infection and risk of head and neck squamous cell carcinoma (HNSCC).">
+		<entity id="s2.e1" charOffset="52-56"
+			type="GENE" text="TMC8" ontology_id="147138"/>
+		<entity id="s2.e2" charOffset="140-163"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

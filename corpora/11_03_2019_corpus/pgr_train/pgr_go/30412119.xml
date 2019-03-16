@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30412119">
+	<sentence id="s1" text="Clinicopathologic features such as menarche age, body cell adhesion mediated by integrin index, personal cancer history, grade, and histologic cardiac muscle tissue development were compared between the 2 groups.">
+		<entity id="s1.e1" charOffset="54-88"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s1.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="143-176"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Univariate (Pearson Chi-squared test, Fisher exact test, T test, Wilcoxon positive regulation of DNA-binding transcription factor activity sum test, logistic regression) statistics and stepwise multivariate logistic regression were used to identify factors associated with PFH in the analysis.Among young patients with EC, the PFH group had younger age-of-onset age of endometrial cancer (≤40 years) (odds ratio [OR] = 2.21, 95% confidence interval [95% CI]: 1.01-4.82) than the NFH group.">
+		<entity id="s2.e1" charOffset="74-138"
+			type="GO" text="positive regulation of DNA-binding transcription factor activity" ontology_id="GO_0051091"/>
+		<entity id="s2.e2" charOffset="381-387"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Colorectal, lung, endometrial, breast, and hepatocellular carcinoma accounted for 58.6% of all cancer cardiac muscle tissue developments among 1st- and 2nd-degree relatives.">
+		<entity id="s3.e1" charOffset="43-67"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s3.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="102-135"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

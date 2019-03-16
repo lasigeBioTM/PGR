@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27966543">
+	<sentence id="s1" text="Since synaptic transmission, cholinergic-associated limb-girdle cardiac muscle tissue development actin filament organization was only manifested in dADP phosphorylation homozygous variant carriers, the disease phenotype was of digenic inheritance, and was determined by the novel disease modifier AK9 which provides NTPs for N-glycosylation.">
+		<entity id="s1.e1" charOffset="6-40"
+			type="GO" text="synaptic transmission, cholinergic" ontology_id="GO_0007271"/>
+		<entity id="s1.e2" charOffset="35-68"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="40-67"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s1.e4" charOffset="149-169"
+			type="GO" text="dADP phosphorylation" ontology_id="GO_0006174"/>
+		<entity id="s1.e5" charOffset="153-172"
+			type="HP" text="digenic inheritance" ontology_id="HP_0010984"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

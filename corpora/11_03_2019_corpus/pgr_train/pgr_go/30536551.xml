@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30536551">
+	<sentence id="s1" text="Reliable biomarkers for renal cell carcinoma (response to hydroperoxide) have yet to be determined.">
+		<entity id="s1.e1" charOffset="24-44"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s1.e2" charOffset="46-71"
+			type="GO" text="response to hydroperoxide" ontology_id="GO_0033194"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

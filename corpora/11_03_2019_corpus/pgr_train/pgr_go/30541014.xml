@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30541014">
+	<sentence id="s1" text="MATERIAL AND METHODS Human neuroblastoma SH-SY5Y cells were treated for 24 h with increasing concentrations of aggregated Aβ₂₅₋₃₅ (5, 15, 25, and 45 μmol) with or without the acetyl-CoA biosynthetic process1 siRNA pretreatment.">
+		<entity id="s1.e1" charOffset="27-40"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="175-206"
+			type="GO" text="acetyl-CoA biosynthetic process" ontology_id="GO_0006085"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

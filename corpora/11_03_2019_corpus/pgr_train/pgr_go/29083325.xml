@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29083325">
+	<sentence id="s1" text="Deficiency in Krüppel-like zinc finger transcription factor GLI-similar 3 (negative regulation of transcription by RNA polymerase II) in humans is associated with the development of congenital hypothyroidism.">
+		<entity id="s1.e1" charOffset="75-132"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="193-207"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the functions of negative regulation of transcription by RNA polymerase II in the thyroid gland and the mechanism by which GLIS3 dysfunction causes hypothyroidism are unknown.">
+		<entity id="s2.e1" charOffset="26-83"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="157-171"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our study identifies negative regulation of transcription by RNA polymerase II as a key regulator of TSH/cell surface receptor signaling pathway-mediated thyroid hormone biosynthesis and proliferation of thyroid follicular cells and uncovers a mechanism by which GLIS3 deficiency causes neonatal hypothyroidism and prevents goiter development">
+		<entity id="s3.e1" charOffset="21-78"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="105-144"
+			type="GO" text="cell surface receptor signaling pathway" ontology_id="GO_0007166"/>
+		<entity id="s3.e3" charOffset="261-275"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

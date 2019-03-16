@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29730428">
+	<sentence id="s1" text="This protein is expressed during development of skeletal muscle, central nervous system and neural crest derivatives, and regulates expression of target genes that negative regulation of transcription by RNA polymerase II on proliferation, survival, differentiation and motility in these lineages.">
+		<entity id="s1.e1" charOffset="65-72"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e2" charOffset="164-221"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Somatic genetic rearrangements that juxtapose the positive regulation of transcription, DNA-templated DNA binding domain to the transcriptional activation domain of other transcription factors deregulate PAX3 function and contribute to the pathogenesis of the soft tissue cancers alveolar rhabdomyosarcoma and biphenotypic sinonasal sarcoma.">
+		<entity id="s2.e1" charOffset="50-101"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s2.e2" charOffset="289-305"
+			type="HP" text="rhabdomyosarcoma" ontology_id="HP_0002859"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

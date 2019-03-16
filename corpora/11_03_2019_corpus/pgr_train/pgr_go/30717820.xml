@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30717820">
+	<sentence id="s1" text="Dasatinib treatment of the apoptotic process with intrasplenic xenografts decreased tumor growth and increased survival times, compared with mice treated with vehicle only.">
+		<entity id="s1.e1" charOffset="27-44"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="84-89"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

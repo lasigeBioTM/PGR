@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27449031">
+	<sentence id="s1" text="Hypermethylated in cancer 1 (negative regulation of transcription by RNA polymerase II) is frequently deleted or epigenetically silenced in various human cancers.">
+		<entity id="s1.e1" charOffset="19-25"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="29-86"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we found that negative regulation of transcription by RNA polymerase II acted as a tumor suppressor and that its expression was downregulated in UM.">
+		<entity id="s2.e1" charOffset="29-86"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="98-103"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The results provide evidence that lncRNA-numb is a newly proposed tumor suppressor that is involved in negative regulation of transcription by RNA polymerase II-induced phenotypes.">
+		<entity id="s3.e1" charOffset="66-71"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="103-160"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Taken together, our studies of UM reveal a critical role of negative regulation of transcription by RNA polymerase II in the regulation of tumorigenesis, at least partly through its downstream target, lncRNA-numb, and provide a potential therapeutic target for UM">
+		<entity id="s4.e1" charOffset="60-117"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s4.e2" charOffset="139-144"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

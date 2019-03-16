@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26077881">
+	<sentence id="s1" text="The findings in this study expand our understanding of SRPS locus heterogeneity and demonstrate the importance of intraciliary transport involved in cilium assembly in dynein-2 complex stability, cilium function, Hedgehog regulation and skeletogenesis.">
+		<entity id="s1.e1" charOffset="66-79"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="114-164"
+			type="GO" text="intraciliary transport involved in cilium assembly" ontology_id="GO_0035735"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

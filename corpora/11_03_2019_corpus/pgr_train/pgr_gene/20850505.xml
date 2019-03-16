@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20850505">
+	<sentence id="s1" text="In a large Scottish pedigree, a balanced translocation t (1;11)(q42.1;q14.3) disrupting the DISC1 and DISC2 genes segregates with major mental illness, including schizophrenia and depression.">
+		<entity id="s1.e1" charOffset="92-97"
+			type="GENE" text="DISC1" ontology_id="27185"/>
+		<entity id="s1.e2" charOffset="162-175"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A frame-shift carboxyl-terminal deletion was reported in DISC1 in an American family with schizophrenia, but subsequently found in two controls.">
+		<entity id="s2.e1" charOffset="57-62"
+			type="GENE" text="DISC1" ontology_id="27185"/>
+		<entity id="s2.e2" charOffset="90-103"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

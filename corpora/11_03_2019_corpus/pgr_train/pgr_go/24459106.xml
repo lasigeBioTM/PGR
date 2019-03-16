@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24459106">
+	<sentence id="s1" text="In a family with sensory neuropathy with loss of pain perception and destruction of the pedal skeleton we report a missense mutation in a highly conserved amino acid residue of atlastin GTPase 3 (protein homooligomerization), an endoplasmic reticulum-shaping GTPase.">
+		<entity id="s1.e1" charOffset="25-35"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="196-223"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="protein homooligomerization is a paralogue of endoplasmic reticulum organization, a membrane curvature-generating molecule that is involved in spastic paraplegia and hereditary sensory neuropathy.">
+		<entity id="s2.e1" charOffset="0-27"
+			type="GO" text="protein homooligomerization" ontology_id="GO_0051260"/>
+		<entity id="s2.e2" charOffset="46-80"
+			type="GO" text="endoplasmic reticulum organization" ontology_id="GO_0007029"/>
+		<entity id="s2.e3" charOffset="155-165"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

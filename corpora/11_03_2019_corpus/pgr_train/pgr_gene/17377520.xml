@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17377520">
+	<sentence id="s1" text="PITPNM3, known as a human homologue of the Drosophila retinal degeneration B (rdgB), lacks the N-terminal PIT domain needed for transport of phospholipids, renewal of photoreceptors membrane and providing the electroretinogram (ERG) response to light.">
+		<entity id="s1.e1" charOffset="0-7"
+			type="GENE" text="PITPNM3" ontology_id="83394"/>
+		<entity id="s1.e2" charOffset="54-74"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="78-82"
+			type="GENE" text="rdgB" ontology_id="9600"/>
+		<entity id="s1.e4" charOffset="228-231"
+			type="GENE" text="ERG" ontology_id="2078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

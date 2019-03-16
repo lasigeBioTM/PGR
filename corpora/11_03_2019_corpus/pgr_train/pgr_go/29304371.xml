@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29304371">
+	<sentence id="s1" text="We observed a higher rate of individuals with a history of high blood pressure among affected versus healthy individuals carrying angiogenesis variants, suggesting that ANGPTL6 could trigger cerebrovascular lesions when combined with other risk factors such as hypertension.">
+		<entity id="s1.e1" charOffset="130-142"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<entity id="s1.e2" charOffset="261-273"
+			type="HP" text="hypertension" ontology_id="HP_0000822"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

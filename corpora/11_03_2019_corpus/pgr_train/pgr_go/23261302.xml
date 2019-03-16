@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23261302">
+	<sentence id="s1" text="Primary ciliary dyskinesia (motile cilium assembly) is a genetically heterogeneous, autosomal-recessive disorder, characterized by oto-sino-pulmonary disease and situs abnormalities.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-50"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s1.e3" charOffset="69-82"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results revealed that mutations in cilium movement are a cause of ciliary dysmotility and motile cilium assembly and further demonstrate the utility of exome sequencing to identify genetic causes in heterogeneous recessive disorders">
+		<entity id="s2.e1" charOffset="41-56"
+			type="GO" text="cilium movement" ontology_id="GO_0003341"/>
+		<entity id="s2.e2" charOffset="88-110"
+			type="GO" text="motile cilium assembly" ontology_id="GO_0044458"/>
+		<entity id="s2.e3" charOffset="197-210"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

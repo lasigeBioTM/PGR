@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25683699">
+	<sentence id="s1" text="X-linked Myopathy with Excessive Autophagy (XMEA) affects proximal muscles of the lower extremities and follows a progressive course reminiscent of muscular dystrophy.">
+		<entity id="s1.e1" charOffset="44-48"
+			type="GENE" text="XMEA" ontology_id="203547"/>
+		<entity id="s1.e2" charOffset="148-166"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

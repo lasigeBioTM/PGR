@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19526372">
+	<sentence id="s1" text="The membrane-type frizzled-related protein (embryo development ending in birth or egg hatching) is the only gene so far reported implicated in autosomal recessive, non-syndromic and syndromic forms of PM.">
+		<entity id="s1.e1" charOffset="44-94"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<entity id="s1.e2" charOffset="143-162"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="To identify the disease-causing defect in these families, we first analysed embryo development ending in birth or egg hatching gene, then some candidate genes (regulation of transcription by RNA polymerase II, transcription initiation from RNA polymerase II promoter, positive regulation of gene expression, SOX2, visual perception-3 and visual perception) and loci (MCOP1, NNO1 and embryo development ending in birth or egg hatching) previously implicated in different forms of microphthalmia.">
+		<entity id="s2.e1" charOffset="76-126"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<entity id="s2.e2" charOffset="160-208"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s2.e3" charOffset="210-266"
+			type="GO" text="transcription initiation from RNA polymerase II promoter" ontology_id="GO_0006367"/>
+		<entity id="s2.e4" charOffset="268-306"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s2.e5" charOffset="282-296"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s2.e6" charOffset="314-331"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e7" charOffset="338-355"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s2.e8" charOffset="383-433"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e6"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e7"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e8"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+</document>

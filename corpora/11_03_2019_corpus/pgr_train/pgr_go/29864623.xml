@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29864623">
+	<sentence id="s1" text="There is growing evidence shown that microRNAs (protein polyubiquitinationNAs) are associated with cancer and can play a role in human cancers as oncogenes or tumor suppressor genes.">
+		<entity id="s1.e1" charOffset="48-74"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s1.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="159-164"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="MicroRNA-214 (protein polyubiquitination-214) shows carcinogenesis in various tumor types, but little is known about biological functions of protein polyubiquitination-214 in esophageal squamous cell carcinoma (ESCC).">
+		<entity id="s2.e1" charOffset="14-40"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s2.e2" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="163-186"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In addition, the expression of protein polyubiquitination-214 inhibited proliferation of ESCC cells in vitro and inhibit the growth of xenograft tumor in vivo.">
+		<entity id="s3.e1" charOffset="31-57"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s3.e2" charOffset="145-150"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="The results show protein polyubiquitination-214 serve as a tumor promoter regulating cells migration, invasion and apoptosis in ESCC.">
+		<entity id="s4.e1" charOffset="17-43"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s4.e2" charOffset="59-64"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In summary, these results suggest that protein polyubiquitination-214 serves as tumor promoter to promote proliferation, migration, invasion and inhibit apoptosis of ESCC cells by targeting negative regulation of macroautophagy via PI3K/AKT/mTOR signaling pathway.">
+		<entity id="s5.e1" charOffset="39-65"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<entity id="s5.e2" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="190-227"
+			type="GO" text="negative regulation of macroautophagy" ontology_id="GO_0016242"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24169644">
+	<sentence id="s1" text="A third of patients with paraganglial tumors, pheochromocytoma, and paraganglioma, carry germline mutations in one of the susceptibility genes, RET, VHL, NF1, SDHAF2, SDHA, SDHB, SDHC, SDHD, TMEM127, and MAX.">
+		<entity id="s1.e1" charOffset="38-44"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="46-62"
+			type="HP" text="pheochromocytoma" ontology_id="HP_0002666"/>
+		<entity id="s1.e3" charOffset="68-81"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e4" charOffset="144-147"
+			type="GENE" text="RET" ontology_id="5979"/>
+		<entity id="s1.e5" charOffset="149-152"
+			type="GENE" text="VHL" ontology_id="7428"/>
+		<entity id="s1.e6" charOffset="159-165"
+			type="GENE" text="SDHAF2" ontology_id="54949"/>
+		<entity id="s1.e7" charOffset="167-171"
+			type="GENE" text="SDHA" ontology_id="6389"/>
+		<entity id="s1.e8" charOffset="173-177"
+			type="GENE" text="SDHB" ontology_id="6390"/>
+		<entity id="s1.e9" charOffset="179-183"
+			type="GENE" text="SDHC" ontology_id="6391"/>
+		<entity id="s1.e10" charOffset="185-189"
+			type="GENE" text="SDHD" ontology_id="6392"/>
+		<entity id="s1.e11" charOffset="191-198"
+			type="GENE" text="TMEM127" ontology_id="55654"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e11" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p10" e1="s1.e17"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p11" e1="s1.e17"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p12" e1="s1.e17"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e17"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p14" e1="s1.e17"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p15" e1="s1.e17"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p16" e1="s1.e17"
+		    e2="s1.e16" pgr="true"/>
+		<pair id="s1.p17" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p18" e1="s1.e33"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p19" e1="s1.e33"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p20" e1="s1.e33"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p21" e1="s1.e33"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p22" e1="s1.e33"
+		    e2="s1.e12" pgr="true"/>
+		<pair id="s1.p23" e1="s1.e33"
+		    e2="s1.e14" pgr="true"/>
+		<pair id="s1.p24" e1="s1.e33"
+		    e2="s1.e16" pgr="true"/>
+	</sentence>
+</document>

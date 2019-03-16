@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28801086">
+	<sentence id="s1" text="The patient had a history of severe neonatal jaundice, hemolytic crisis with rhabdomyolysis triggered by febrile viral infections, dysarthria, and intellectual disability during early childhood.">
+		<entity id="s1.e1" charOffset="36-53"
+			type="HP" text="neonatal jaundice" ontology_id="HP_0006579"/>
+		<entity id="s1.e2" charOffset="98-101"
+			type="GENE" text="red" ontology_id="8444"/>
+		<entity id="s1.e3" charOffset="131-141"
+			type="HP" text="dysarthria" ontology_id="HP_0001260"/>
+		<entity id="s1.e4" charOffset="147-170"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24455740">
+	<sentence id="s1" text="This study is to investigate multiple chemotherapeutic agent- and radiation-related genetic biomarkers in locally advanced rectal cancer (chemotaxis) patients following fluoropyrimidine-based concurrent chemoradiotherapy (CCRT) for response prediction.">
+		<entity id="s1.e1" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="138-148"
+			type="GO" text="chemotaxis" ontology_id="GO_0006935"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We initially selected 6 fluoropyrimidine metabolism-related genes (thymine catabolic process, ORPT, dTMP biosynthetic process, pyrimidine nucleoside metabolic process, TK1, and TK2) and 3 radiotherapy response-related genes (protein-containing complex assembly, HIF-1α, and HIF-2α) as targets for gene expression identification in 60 chemotaxis cancer specimens.">
+		<entity id="s2.e1" charOffset="67-92"
+			type="GO" text="thymine catabolic process" ontology_id="GO_0006210"/>
+		<entity id="s2.e2" charOffset="100-125"
+			type="GO" text="dTMP biosynthetic process" ontology_id="GO_0006231"/>
+		<entity id="s2.e3" charOffset="127-166"
+			type="GO" text="pyrimidine nucleoside metabolic process" ontology_id="GO_0006213"/>
+		<entity id="s2.e4" charOffset="225-260"
+			type="GO" text="protein-containing complex assembly" ontology_id="GO_0065003"/>
+		<entity id="s2.e5" charOffset="227-237"
+			type="GO" text="chemotaxis" ontology_id="GO_0006935"/>
+		<entity id="s2.e6" charOffset="238-244"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e3"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="After CCRT, 39 of 60 (65%) chemotaxis patients were classified as responders (pathological tumor regression grade 2 ~ 4).">
+		<entity id="s3.e1" charOffset="27-37"
+			type="GO" text="chemotaxis" ontology_id="GO_0006935"/>
+		<entity id="s3.e2" charOffset="91-96"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

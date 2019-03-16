@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27485451">
+	<sentence id="s1" text="Somatic missense mutations in the Ser/Thr protein phosphatase 2A (PP2A) Aα scaffold subunit gene PPP2R1A are among the few genomic alterations that occur frequently in serous endometrial carcinoma (EC) and carcinosarcoma, two clinically aggressive subtypes of uterine cancer with few therapeutic options.">
+		<entity id="s1.e1" charOffset="97-104"
+			type="GENE" text="PPP2R1A" ontology_id="5518"/>
+		<entity id="s1.e2" charOffset="175-196"
+			type="HP" text="endometrial carcinoma" ontology_id="HP_0012114"/>
+		<entity id="s1.e3" charOffset="268-274"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Accordingly, overexpression of the Aα mutants in EC cells harboring wild-type PPP2R1A increased anchorage-independent growth and tumor formation, and triggered hyperphosphorylation of oncogenic PP2A-B56/B' substrates in the GSK3β, Akt, and mTOR/p70S6K signaling pathways.">
+		<entity id="s2.e1" charOffset="78-85"
+			type="GENE" text="PPP2R1A" ontology_id="5518"/>
+		<entity id="s2.e2" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="231-234"
+			type="GENE" text="Akt" ontology_id="207"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

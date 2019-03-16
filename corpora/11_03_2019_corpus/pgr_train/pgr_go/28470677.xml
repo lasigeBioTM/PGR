@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28470677">
+	<sentence id="s1" text="In a two-stage study, we analyzed the existing genome-wide association study dataset of 868 pancreatic cancer patients from MD Anderson Cancer Center in relation to overall survival using generation of precursor metabolites and energy regression.">
+		<entity id="s1.e1" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="188-234"
+			type="GO" text="generation of precursor metabolites and energy" ontology_id="GO_0006091"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="According to The Cancer Genome Atlas data and our previous RNA-sequencing data, the mRNA expression level of negative regulation of translational initiation but not N-acetylglucosamine metabolic process, L-methylmalonyl-CoA metabolic process or monocyte activation involved in immune response was significantly lower in pancreatic tumors than in normal adjacent tissues.">
+		<entity id="s2.e1" charOffset="109-156"
+			type="GO" text="negative regulation of translational initiation" ontology_id="GO_0045947"/>
+		<entity id="s2.e2" charOffset="165-202"
+			type="GO" text="N-acetylglucosamine metabolic process" ontology_id="GO_0006044"/>
+		<entity id="s2.e3" charOffset="179-226"
+			type="GO" text="monocyte activation involved in immune response" ontology_id="GO_0002280"/>
+		<entity id="s2.e4" charOffset="204-241"
+			type="GO" text="L-methylmalonyl-CoA metabolic process" ontology_id="GO_0046491"/>
+		<entity id="s2.e5" charOffset="222-228"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Additional validation efforts and functional studies are warranted to demonstrate whether negative regulation of translational initiation is a novel tumor suppressor gene and a potential therapeutic target for pancreatic cancer">
+		<entity id="s3.e1" charOffset="90-137"
+			type="GO" text="negative regulation of translational initiation" ontology_id="GO_0045947"/>
+		<entity id="s3.e2" charOffset="149-154"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

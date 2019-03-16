@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30015928">
+	<sentence id="s1" text="Bone morphogenetic protein 7 (positive regulation of gene expression), a member of the BMP family of signaling molecules, has been implicated in various types of cancer, particularly prostate cancer and breast cancer.">
+		<entity id="s1.e1" charOffset="30-68"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e2" charOffset="162-168"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28053981">
+	<sentence id="s1" text="Muscarinic acetylcholine receptor M3 (CHRM3) was reported as a key receptor in different cancer types.">
+		<entity id="s1.e1" charOffset="38-43"
+			type="GENE" text="CHRM3" ontology_id="1131"/>
+		<entity id="s1.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="<i>CHRM3</i> is located at 1q42-43 which was reported to associate with bladder cancer.">
+		<entity id="s2.e1" charOffset="3-8"
+			type="GENE" text="CHRM3" ontology_id="1131"/>
+		<entity id="s2.e2" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study attempted to delineate whether genetic variants of li>CHRM3</i> contribute to bladder cancer in Chinese Han population in south Taiwan.">
+		<entity id="s3.e1" charOffset="64-69"
+			type="GENE" text="CHRM3" ontology_id="1131"/>
+		<entity id="s3.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Five haplotypes (GTTAT, ATTGT, GCTAC, ACTAC, and ACCAC) were found significantly associated with low li>CHRM3</i> mRNA level and contributed to increased susceptibility of bladder cancer in Kaohsiung city after rigid 10000 consecutive permutation tests.">
+		<entity id="s4.e1" charOffset="104-109"
+			type="GENE" text="CHRM3" ontology_id="1131"/>
+		<entity id="s4.e2" charOffset="180-186"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="To our knowledge, this is the first genetic association study that reveals the genetic contribution of li>CHRM3</i> gene in bladder cancer etiology">
+		<entity id="s5.e1" charOffset="106-111"
+			type="GENE" text="CHRM3" ontology_id="1131"/>
+		<entity id="s5.e2" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

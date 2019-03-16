@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27476655">
+	<sentence id="s1" text="In this article, we report a clinically recognizable craniofacial disorder characterized by facial dysmorphisms, severe micrognathia, rhizomelic shortening, microcephalic dwarfism, and mild developmental delay due to loss-of-function heterozygous mutations in ARCN1, which encodes the coatomer subunit delta of COPI.">
+		<entity id="s1.e1" charOffset="92-111"
+			type="HP" text="facial dysmorphisms" ontology_id="HP_0001999"/>
+		<entity id="s1.e2" charOffset="120-132"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<entity id="s1.e3" charOffset="134-155"
+			type="HP" text="rhizomelic shortening" ontology_id="HP_0008905"/>
+		<entity id="s1.e4" charOffset="171-179"
+			type="HP" text="dwarfism" ontology_id="HP_0003510"/>
+		<entity id="s1.e5" charOffset="185-189"
+			type="HP" text="mild" ontology_id="HP_0012825"/>
+		<entity id="s1.e6" charOffset="190-209"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e7" charOffset="260-265"
+			type="GENE" text="ARCN1" ontology_id="372"/>
+		<entity id="s1.e8" charOffset="302-307"
+			type="GENE" text="delta" ontology_id="5694"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e9"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e4"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e13"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e5"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e17"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e6"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e21"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

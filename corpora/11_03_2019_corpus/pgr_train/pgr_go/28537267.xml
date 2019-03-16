@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28537267">
+	<sentence id="s1" text="In addition to replicating previously reported loci, we identify five novel loci significantly associated with endometriosis risk (PAAAA5 × 10<sup>-8</sup>), implicating genes involved in negative regulation of cell adhesion steroid hormone pathways (FN1, biological_process, transcription by RNA polymerase II, Golgi organization and G protein-coupled receptor signaling pathway).">
+		<entity id="s1.e1" charOffset="111-124"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<entity id="s1.e2" charOffset="188-224"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e3" charOffset="256-274"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e4" charOffset="276-310"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s1.e5" charOffset="312-330"
+			type="GO" text="Golgi organization" ontology_id="GO_0007030"/>
+		<entity id="s1.e6" charOffset="335-379"
+			type="GO" text="G protein-coupled receptor signaling pathway" ontology_id="GO_0007186"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Conditional analysis identified five secondary association signals, including two at the transcription by RNA polymerase II locus, resulting in 19 independent single nucleotide polymorphisms (SNPs) robustly associated with endometriosis, which together explain up to 5.19% of variance in endometriosis.">
+		<entity id="s2.e1" charOffset="89-123"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<entity id="s2.e2" charOffset="223-236"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30504766">
+	<sentence id="s1" text="Palatable foods (fat and sweet) induce hyperphagia, and facilitate the development of obesity.">
+		<entity id="s1.e1" charOffset="17-20"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s1.e2" charOffset="39-50"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<entity id="s1.e3" charOffset="86-93"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we show that adipocyte OGT is essential for high fat diet-induced hyperphagia, but is dispensable for baseline food intake.">
+		<entity id="s2.e1" charOffset="28-31"
+			type="GENE" text="OGT" ontology_id="8473"/>
+		<entity id="s2.e2" charOffset="54-57"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s2.e3" charOffset="71-82"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Adipocyte OGT stimulates hyperphagia by transcriptional activation of de novo lipid desaturation and accumulation of N-arachidonyl ethanolamine (AEA), an endogenous appetite-inducing cannabinoid (CB).">
+		<entity id="s3.e1" charOffset="10-13"
+			type="GENE" text="OGT" ontology_id="8473"/>
+		<entity id="s3.e2" charOffset="25-36"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Pharmacological manipulation of peripheral CB1 signaling regulates hyperphagia in an adipocyte OGT-dependent manner.">
+		<entity id="s4.e1" charOffset="67-78"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<entity id="s4.e2" charOffset="95-98"
+			type="GENE" text="OGT" ontology_id="8473"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="These findings define adipocyte OGT as a fat sensor that regulates peripheral lipid signals, and uncover an unexpected adipose-to-brain axis to induce hyperphagia and obesity">
+		<entity id="s5.e1" charOffset="32-35"
+			type="GENE" text="OGT" ontology_id="8473"/>
+		<entity id="s5.e2" charOffset="41-44"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s5.e3" charOffset="151-162"
+			type="HP" text="hyperphagia" ontology_id="HP_0002591"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

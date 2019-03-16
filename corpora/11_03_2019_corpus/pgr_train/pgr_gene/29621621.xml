@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29621621">
+	<sentence id="s1" text="Our results confirm two previous reports indicating that loss of function of a single allele of SLC6A1 causes epilepsy.">
+		<entity id="s1.e1" charOffset="96-102"
+			type="GENE" text="SLC6A1" ontology_id="6529"/>
+		<entity id="s1.e2" charOffset="110-118"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

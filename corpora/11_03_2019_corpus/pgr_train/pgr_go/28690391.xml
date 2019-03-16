@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28690391">
+	<sentence id="s1" text="ADP transport is one of the nuclear genes responsible of autosomal dominant progressive external ophthalmoplegia (adPEO) with mitochondrial DNA multiple deletions.">
+		<entity id="s1.e1" charOffset="0-13"
+			type="GO" text="ADP transport" ontology_id="GO_0015866"/>
+		<entity id="s1.e2" charOffset="76-87"
+			type="HP" text="progressive" ontology_id="HP_0003676"/>
+		<entity id="s1.e3" charOffset="97-112"
+			type="HP" text="ophthalmoplegia" ontology_id="HP_0000602"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Further studies are needed to assess the prevalence of central neurological manifestations in ADP transport mitochondrial disease">
+		<entity id="s2.e1" charOffset="55-62"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s2.e2" charOffset="94-107"
+			type="GO" text="ADP transport" ontology_id="GO_0015866"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

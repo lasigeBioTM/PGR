@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28987323">
+	<sentence id="s1" text="The knock out animals were protected from HFD induced obesity, fatty liver and insulin resistance.">
+		<entity id="s1.e1" charOffset="54-61"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="63-66"
+			type="GENE" text="fat" ontology_id="948"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

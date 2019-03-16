@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27618312">
+	<sentence id="s1" text="Further, mice heterozygous for either Magoh or Rbm8a exhibit aberrant neurogenesis and microcephaly.">
+		<entity id="s1.e1" charOffset="9-13"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="38-43"
+			type="GENE" text="Magoh" ontology_id="4116"/>
+		<entity id="s1.e3" charOffset="47-52"
+			type="GENE" text="Rbm8a" ontology_id="9939"/>
+		<entity id="s1.e4" charOffset="87-99"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Using a new conditional allele, we first show that Eif4a3 haploinsufficiency phenocopies aberrant neurogenesis and microcephaly of Magoh and Rbm8a mutant mice.">
+		<entity id="s2.e1" charOffset="51-57"
+			type="GENE" text="Eif4a3" ontology_id="9775"/>
+		<entity id="s2.e2" charOffset="115-127"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e3" charOffset="131-136"
+			type="GENE" text="Magoh" ontology_id="4116"/>
+		<entity id="s2.e4" charOffset="141-146"
+			type="GENE" text="Rbm8a" ontology_id="9939"/>
+		<entity id="s2.e5" charOffset="154-158"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

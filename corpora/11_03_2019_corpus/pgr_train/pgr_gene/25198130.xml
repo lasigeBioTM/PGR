@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25198130">
+	<sentence id="s1" text="Here we used an integrative strategy to examine the hypothesis that genetic variants at FOXA1/2 binding elements may be associated with sexual dimorphism of hepatocellular carcinoma (HCC) risk.">
+		<entity id="s1.e1" charOffset="88-93"
+			type="GENE" text="FOXA1" ontology_id="3169"/>
+		<entity id="s1.e2" charOffset="136-139"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<entity id="s1.e3" charOffset="157-181"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e4" charOffset="183-186"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, results from our real-time quantitative polymerase chain reaction (qPCR) using 72 normal liver tissues adjacent to the tumors showed that SERPINA6 expression was significantly different among different genotypes of this variant (GG versus CC: P = 0.032; Group test: P = 0.060).">
+		<entity id="s2.e1" charOffset="129-135"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="148-156"
+			type="GENE" text="SERPINA6" ontology_id="866"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

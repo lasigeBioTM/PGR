@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28731174">
+	<sentence id="s1" text="Non-small cell lung cancer (NSCLC) is the most common type of lung cancer.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="54-58"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, LHX3 is associated with unfavorable overall survival (n=866, p=0.004) and represents an independent prognostic factor (HR=2.36, p=0.000) in lung adenocarcinoma (ADC) patients, but is not associated with overall survival of squamous cell carcinoma (SCC) patients (n=524, p=0.27).">
+		<entity id="s2.e1" charOffset="13-17"
+			type="GENE" text="LHX3" ontology_id="8022"/>
+		<entity id="s2.e2" charOffset="153-172"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s2.e3" charOffset="174-177"
+			type="GENE" text="ADC" ontology_id="113451"/>
+		<entity id="s2.e4" charOffset="236-259"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s2.e5" charOffset="261-264"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e8"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Further functional studies show that forced expression of LHX3 in lung cancer cells obviously promotes cell proliferation and invasion, whereas inhibits cell apoptosis.">
+		<entity id="s3.e1" charOffset="58-62"
+			type="GENE" text="LHX3" ontology_id="8022"/>
+		<entity id="s3.e2" charOffset="71-77"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

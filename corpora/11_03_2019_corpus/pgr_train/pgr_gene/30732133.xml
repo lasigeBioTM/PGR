@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30732133">
+	<sentence id="s1" text="In the present study, we evaluated the association of SENPs polymorphism with susceptibility as well as clinicopathologic features and patients' response of breast cancer (BC) in a Chinese population.We genotyped SENP1 (rs61918808), SENP2 (rs6762208), SENP7 (rs61697963) by sequencing in a case-control study including 210 BC patients and 225 healthy volunteers.">
+		<entity id="s1.e1" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="213-218"
+			type="GENE" text="SENP1" ontology_id="29843"/>
+		<entity id="s1.e3" charOffset="233-238"
+			type="GENE" text="SENP2" ontology_id="59343"/>
+		<entity id="s1.e4" charOffset="252-257"
+			type="GENE" text="SENP7" ontology_id="57337"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26225770">
+	<sentence id="s1" text="Previous studies have shown that c-regulation of transcription by RNA polymerase II is overexpressed in cases of aggressive bladder cancer (intracellular signal transduction).">
+		<entity id="s1.e1" charOffset="35-83"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<entity id="s1.e2" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="140-173"
+			type="GO" text="intracellular signal transduction" ontology_id="GO_0035556"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

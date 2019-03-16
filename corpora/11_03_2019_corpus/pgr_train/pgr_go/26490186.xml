@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26490186">
+	<sentence id="s1" text="The cell-cell signaling variation p.Pro108Thr, located in the T-box domain, was identified in a patient with tricuspid atresia, an exon-intron boundary variation of positive regulation of transcription, DNA-templated (IVS4+5GAAAAA) was detected in a Tetralogy of Fallot patient and an 8p23 microdeletion was detected in one patient with atrioventricular septal defect and psychomotor delay.">
+		<entity id="s1.e1" charOffset="4-23"
+			type="GO" text="cell-cell signaling" ontology_id="GO_0007267"/>
+		<entity id="s1.e2" charOffset="94-111"
+			type="HP" text="tricuspid atresia" ontology_id="HP_0011662"/>
+		<entity id="s1.e3" charOffset="150-201"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e4" charOffset="322-352"
+			type="HP" text="atrioventricular septal defect" ontology_id="HP_0006695"/>
+		<entity id="s1.e5" charOffset="357-374"
+			type="HP" text="psychomotor delay" ontology_id="HP_0001263"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

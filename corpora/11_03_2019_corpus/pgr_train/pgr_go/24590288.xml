@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24590288">
+	<sentence id="s1" text="The autosomal recessive neurodegenerative disease spinal muscular atrophy (spliceosomal snRNP assembly) results from low levels of survival motor neuron (mRNA splicing, via spliceosome) protein; however, it is unclear how reduced mRNA splicing, via spliceosome promotes spliceosomal snRNP assembly development.">
+		<entity id="s1.e1" charOffset="4-23"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="24-49"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e3" charOffset="75-102"
+			type="GO" text="spliceosomal snRNP assembly" ontology_id="GO_0000387"/>
+		<entity id="s1.e4" charOffset="154-184"
+			type="GO" text="mRNA splicing, via spliceosome" ontology_id="GO_0000398"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

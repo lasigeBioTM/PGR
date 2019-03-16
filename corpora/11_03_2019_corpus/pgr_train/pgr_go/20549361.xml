@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20549361">
+	<sentence id="s1" text="Malonyl coenzyme A (CoA) decarboxylase (EC 4.1.1.9, acetyl-CoA biosynthetic process) deficiency, or malonic aciduria, is a rare inborn error of metabolism characterised by a variable phenotype of developmental delay, seizures, cardiomyopathy and acidosis.">
+		<entity id="s1.e1" charOffset="52-83"
+			type="GO" text="acetyl-CoA biosynthetic process" ontology_id="GO_0006085"/>
+		<entity id="s1.e2" charOffset="196-215"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="217-225"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="227-241"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This case of malonic aciduria with cardiomyopathy demonstrates improvement in cardiac function attributable to polysaccharide digestion-restricted/fatty acid biosynthetic process-supplemented diet">
+		<entity id="s2.e1" charOffset="35-49"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s2.e2" charOffset="111-135"
+			type="GO" text="polysaccharide digestion" ontology_id="GO_0044245"/>
+		<entity id="s2.e3" charOffset="147-178"
+			type="GO" text="fatty acid biosynthetic process" ontology_id="GO_0006633"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

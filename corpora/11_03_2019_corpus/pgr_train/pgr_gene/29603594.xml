@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29603594">
+	<sentence id="s1" text="Glioblastoma multiforme (GBM) is a highly malignant type of brain tumor found in humans.">
+		<entity id="s1.e1" charOffset="52-56"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="66-71"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Additional plasma and 52 brain tissues obtained from patients with gliomas were used to validate the association rate of serum amyloid A1 (SAA1) in different grades of gliomas and its distribution in tumors.">
+		<entity id="s2.e1" charOffset="67-74"
+			type="HP" text="gliomas" ontology_id="HP_0009733"/>
+		<entity id="s2.e2" charOffset="139-143"
+			type="GENE" text="SAA1" ontology_id="6288"/>
+		<entity id="s2.e3" charOffset="200-205"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Microarray database analysis further validated the coefficient of SAA1 levels in gliomas.">
+		<entity id="s3.e1" charOffset="66-70"
+			type="GENE" text="SAA1" ontology_id="6288"/>
+		<entity id="s3.e2" charOffset="81-88"
+			type="HP" text="gliomas" ontology_id="HP_0009733"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="SAA1 was identified from MS analysis, and its level was revealed to be correlated with the disease grade, clinical severity, and survival rate of patients with gliomas.">
+		<entity id="s4.e1" charOffset="0-4"
+			type="GENE" text="SAA1" ontology_id="6288"/>
+		<entity id="s4.e2" charOffset="160-167"
+			type="HP" text="gliomas" ontology_id="HP_0009733"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Magnetic resonance imaging and tumor region-specific microarray analysis identified a correlation between SAA1 and GBM cell infiltration in patients.">
+		<entity id="s5.e1" charOffset="31-36"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="106-110"
+			type="GENE" text="SAA1" ontology_id="6288"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In summary, our results demonstrate that SAA1 in combination with integrin αV and β3 can serve as an indicator of high glioblastoma risk.">
+		<entity id="s6.e1" charOffset="41-45"
+			type="GENE" text="SAA1" ontology_id="6288"/>
+		<entity id="s6.e2" charOffset="119-131"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

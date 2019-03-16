@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27345729">
+	<sentence id="s1" text="Hennekam lymphangiectasia-lymphedema syndrome is an autosomal recessive disorder, with 25% of patients having mutations in positive regulation of vascular endothelial growth factor production.">
+		<entity id="s1.e1" charOffset="52-71"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="123-191"
+			type="GO" text="positive regulation of vascular endothelial growth factor production" ontology_id="GO_0010575"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28500065">
+	<sentence id="s1" text="<i>LCAM1</i> and li>MPDZ</i> (li>MUPP1</i>) are the only known human gene loci associated with non-syndromic hydrocephalus.">
+		<entity id="s1.e1" charOffset="20-24"
+			type="GENE" text="MPDZ" ontology_id="84708"/>
+		<entity id="s1.e2" charOffset="109-122"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Global li>Mpdz</i> gene deletion or conditional inactivation in Nestin-positive cells led to formation of supratentorial hydrocephalus in the early postnatal period.">
+		<entity id="s2.e1" charOffset="10-14"
+			type="GENE" text="Mpdz" ontology_id="84708"/>
+		<entity id="s2.e2" charOffset="121-134"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This work provides a relevant hydrocephalus mouse model and demonstrates that li>Mpdz</i> is essential to maintain integrity of the ependyma">
+		<entity id="s3.e1" charOffset="30-43"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<entity id="s3.e2" charOffset="81-85"
+			type="GENE" text="Mpdz" ontology_id="84708"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

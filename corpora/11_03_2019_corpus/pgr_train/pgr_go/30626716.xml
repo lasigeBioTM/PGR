@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30626716">
+	<sentence id="s1" text="Here, we report a reduction of histone deacetylase 3 (negative regulation of transcription by RNA polymerase II) protein amounts in eutopic endometrium of infertile women with endometriosis compared to a control group.">
+		<entity id="s1.e1" charOffset="54-111"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="176-189"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Reduction of li>negative regulation of transcription by RNA polymerase II</i> abrogated decidualization in a primary culture of human endometrial stromal cells (hESCs) similar to that observed in infertile patients with endometriosis.">
+		<entity id="s2.e1" charOffset="16-73"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="220-233"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Collectively, we found attenuation of negative regulation of transcription by RNA polymerase II and overexpression of collagen cardiac muscle tissue development I in the eutopic endometrium of infertile patients with endometriosis.">
+		<entity id="s3.e1" charOffset="38-95"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s3.e2" charOffset="127-160"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s3.e3" charOffset="188-201"
+			type="HP" text="endometriosis" ontology_id="HP_0030127"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

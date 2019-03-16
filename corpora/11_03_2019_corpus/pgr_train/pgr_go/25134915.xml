@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25134915">
+	<sentence id="s1" text="Single nucleotide polymorphisms (SNPs) in telomere maintenance via telomerase have been associated with risk of cancer, which strengthens the role of WRAP53 in the pathogenesis of human malignancies.">
+		<entity id="s1.e1" charOffset="42-77"
+			type="GO" text="telomere maintenance via telomerase" ontology_id="GO_0007004"/>
+		<entity id="s1.e2" charOffset="112-118"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In transcription elongation from RNA polymerase II promoter, telomere maintenance via telomerase has been considered as a candidate cancer susceptibility gene.">
+		<entity id="s2.e1" charOffset="3-59"
+			type="GO" text="transcription elongation from RNA polymerase II promoter" ontology_id="GO_0006368"/>
+		<entity id="s2.e2" charOffset="9-44"
+			type="GO" text="telomere maintenance via telomerase" ontology_id="GO_0007004"/>
+		<entity id="s2.e3" charOffset="80-86"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Accordingly, we performed a study to examine the association of a frequent genetic variation in telomere maintenance via telomerase, rs2287499 (C/G), with breast cancer risk and prognosis among Iranian-Azeri population.">
+		<entity id="s3.e1" charOffset="96-131"
+			type="GO" text="telomere maintenance via telomerase" ontology_id="GO_0007004"/>
+		<entity id="s3.e2" charOffset="162-168"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

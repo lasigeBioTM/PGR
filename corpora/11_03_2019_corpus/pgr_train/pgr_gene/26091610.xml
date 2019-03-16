@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26091610">
+	<sentence id="s1" text="We generated a transgenic rat strain with a missense mutation in V286L (V286L-TG), in the gene encoding the neuronal nicotinic acetylcholine receptor β2 subunit (CHRNB2) found in patients with autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE).">
+		<entity id="s1.e1" charOffset="162-168"
+			type="GENE" text="CHRNB2" ontology_id="1141"/>
+		<entity id="s1.e2" charOffset="212-221"
+			type="HP" text="nocturnal" ontology_id="HP_0025301"/>
+		<entity id="s1.e3" charOffset="230-234"
+			type="GENE" text="lobe" ontology_id="84335"/>
+		<entity id="s1.e4" charOffset="235-243"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To confirm that V286L-TG rats exhibit seizures similar to those observed in humans, gene expression patterns and behavioral phenotypes were analyzed.">
+		<entity id="s2.e1" charOffset="38-46"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="129-133"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This seizure type is similar to AAAAAAparoxysmal arousalsAAAAAA that are observed in human ADNFLE.">
+		<entity id="s3.e1" charOffset="5-12"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s3.e2" charOffset="13-17"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

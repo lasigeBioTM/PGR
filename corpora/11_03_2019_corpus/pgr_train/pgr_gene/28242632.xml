@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28242632">
+	<sentence id="s1" text="Response rates in both treatment arms were less than 5% in the overall population and in the liposarcoma subgroup.">
+		<entity id="s1.e1" charOffset="33-36"
+			type="GENE" text="arm" ontology_id="80210"/>
+		<entity id="s1.e2" charOffset="93-104"
+			type="HP" text="liposarcoma" ontology_id="HP_0012034"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

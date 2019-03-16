@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28112229">
+	<sentence id="s1" text="Chronic hepatitis B virus (HBV) infection is partly responsible for hepatitis, fatty liver disease and hepatocellular carcinoma (HCC).">
+		<entity id="s1.e1" charOffset="103-127"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="129-132"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

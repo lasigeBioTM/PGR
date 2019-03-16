@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27481395">
+	<sentence id="s1" text="Glycine cleavage system (GCS) catalyzes the degradation of glycine and disruption of its components encoded by GLDC, AMT and GCSH are the only known causes of glycine encephalopathy, also known as non-ketotic hyperglycinemia (NKH).">
+		<entity id="s1.e1" charOffset="25-28"
+			type="GENE" text="GCS" ontology_id="2729"/>
+		<entity id="s1.e2" charOffset="111-115"
+			type="GENE" text="GLDC" ontology_id="2731"/>
+		<entity id="s1.e3" charOffset="117-120"
+			type="GENE" text="AMT" ontology_id="275"/>
+		<entity id="s1.e4" charOffset="167-181"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e5" charOffset="209-224"
+			type="HP" text="hyperglycinemia" ontology_id="HP_0002154"/>
+		<entity id="s1.e6" charOffset="226-229"
+			type="GENE" text="NKH" ontology_id="275"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e6"
+		    e2="s1.e10" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e10"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+</document>

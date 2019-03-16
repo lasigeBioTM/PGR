@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26358778">
+	<sentence id="s1" text="Moreover, overexpression of mutant but not normal CCDC174 in neuroblastoma cells caused rapid apoptosis.">
+		<entity id="s1.e1" charOffset="50-57"
+			type="GENE" text="CCDC174" ontology_id="51244"/>
+		<entity id="s1.e2" charOffset="61-74"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

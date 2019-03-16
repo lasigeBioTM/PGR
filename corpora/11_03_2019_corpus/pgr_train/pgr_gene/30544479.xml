@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30544479">
+	<sentence id="s1" text="To retrospectively analyze and quantitatively correlate UGT1A1 (bilirubin UDP- glucuronosyltransferase gene) genotypes and unconjugated hyperbilirubinemia (UCH) phenotypes among Chinese children.We retrospectively reviewed UCH patients, quantitatively analyzed genotype-phenotype correlation by comparing with healthy controls.">
+		<entity id="s1.e1" charOffset="113-117"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="136-154"
+			type="HP" text="hyperbilirubinemia" ontology_id="HP_0002904"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Pfam database, SWISS-model, and Pymol were used for UGT1A1 protein domain analysis and protein modeling for assessing the effect of novel missense variants on protein structure.Seventy four cases, including 21 prolonged unconjugated hyperbilirubinemia (PUCH), 30 Gilbert syndrome (GS), 22 Crigler-Najjar syndrome type II (CNS-II), and 1 Crigler-Najjar syndrome type I (CNS-I) phenotypes were analyzed.">
+		<entity id="s2.e1" charOffset="233-251"
+			type="HP" text="hyperbilirubinemia" ontology_id="HP_0002904"/>
+		<entity id="s2.e2" charOffset="313-317"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28646536">
+	<sentence id="s1" text="Cystinuria is a heterogeneous, rare but important cause of inherited kidney stone disease due to mutations in 2 genes: SLC3A1 and SLC7A9.">
+		<entity id="s1.e1" charOffset="16-29"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="119-125"
+			type="GENE" text="SLC3A1" ontology_id="6519"/>
+		<entity id="s1.e3" charOffset="130-136"
+			type="GENE" text="SLC7A9" ontology_id="11136"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We report 83 patients affected by cystinuria: 44 presented prenatally with a HEC (HEC group) and 39 with a classical postnatal form (CC group).">
+		<entity id="s2.e1" charOffset="34-44"
+			type="HP" text="cystinuria" ontology_id="HP_0003131"/>
+		<entity id="s2.e2" charOffset="77-80"
+			type="GENE" text="HEC" ontology_id="10403"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This study shows a relationship between genotype and the clinical form of cystinuria, suggesting that only the patients with the most severe mutations presented with an HEC.">
+		<entity id="s3.e1" charOffset="74-84"
+			type="HP" text="cystinuria" ontology_id="HP_0003131"/>
+		<entity id="s3.e2" charOffset="169-172"
+			type="GENE" text="HEC" ontology_id="10403"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

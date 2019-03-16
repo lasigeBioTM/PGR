@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29506883">
+	<sentence id="s1" text="In the present case, magnetic resonance imaging (MRI) obtained during infancy revealed symmetric lesions in the substantia nigra of a patient with Leigh syndrome with an NDUFA1 mutation; lesions of the bilateral putamen and brainstem were subsequently observed.">
+		<entity id="s1.e1" charOffset="170-176"
+			type="GENE" text="NDUFA1" ontology_id="4694"/>
+		<entity id="s1.e2" charOffset="202-211"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

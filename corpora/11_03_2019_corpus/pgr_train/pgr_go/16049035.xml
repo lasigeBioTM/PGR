@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16049035">
+	<sentence id="s1" text="A genetically determined generalized hyperexcitability had been predicted in primarily generalized seizures, but surprisingly the first epilepsy gene discovered, response to hypoxia, was in a focal (frontal negative regulation of protein kinase activity)-onset syndrome.">
+		<entity id="s1.e1" charOffset="99-107"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="136-144"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="162-181"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s1.e4" charOffset="207-253"
+			type="GO" text="negative regulation of protein kinase activity" ontology_id="GO_0006469"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The reason why response to hypoxia causes focal-onset seizures is unknown.">
+		<entity id="s2.e1" charOffset="15-34"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s2.e2" charOffset="54-62"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Recently, the second focal (temporal negative regulation of protein kinase activity)-onset epilepsy gene, axon guidance (unknown function), was discovered.">
+		<entity id="s3.e1" charOffset="37-83"
+			type="GO" text="negative regulation of protein kinase activity" ontology_id="GO_0006469"/>
+		<entity id="s3.e2" charOffset="91-99"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s3.e3" charOffset="106-119"
+			type="GO" text="axon guidance" ontology_id="GO_0007411"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="response to hypoxia led the way to mutation identifications in 15 ion channel genes, most causing primarily generalized epilepsies.">
+		<entity id="s4.e1" charOffset="0-19"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s4.e2" charOffset="120-130"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Mutations in the mitotic cytokinesis gene (unknown function) occur in other rare JME families, and yet in other families, associations are present between JME (or other generalized epilepsies) and single nucleotide polymorphisms in the regulation of transcription by RNA polymerase II gene (unknown function) and the malic enzyme 2 (ME2) gene.">
+		<entity id="s5.e1" charOffset="17-36"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<entity id="s5.e2" charOffset="181-191"
+			type="HP" text="epilepsies" ontology_id="HP_0001250"/>
+		<entity id="s5.e3" charOffset="236-284"
+			type="GO" text="regulation of transcription by RNA polymerase II" ontology_id="GO_0006357"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

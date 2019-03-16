@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26002316">
+	<sentence id="s1" text="In this study, we investigated the expression of JIP3 in temporal lobe epilepsy (TLE) and in a kainic acid (KA)-induced mouse model of epileptic seizures, and determined whether down-regulation of JIP3 can decrease susceptibility to seizures and neuron damage induced by KA.">
+		<entity id="s1.e1" charOffset="49-53"
+			type="GENE" text="JIP3" ontology_id="23162"/>
+		<entity id="s1.e2" charOffset="71-79"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="145-153"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="253-259"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We found that JIP3 was markedly increased in TLE patients and a mouse model of epileptic seizures; mice underexpressing JIP3 through lentivirus bearing LV-Letm1-RNAi showed decreased susceptibility, delayed first seizure and decreased seizure duration response to the epileptogenic properties of KA.">
+		<entity id="s2.e1" charOffset="14-18"
+			type="GENE" text="JIP3" ontology_id="23162"/>
+		<entity id="s2.e2" charOffset="89-97"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e3" charOffset="99-103"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e4" charOffset="213-220"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Subsequently, a decreased activation of JNK following seizure induction was observed in mice underexpressing JIP3, which also exhibited less neuronal apoptosis in the CA3 region of the hippocampus, as assessed three days after KA administration.">
+		<entity id="s3.e1" charOffset="40-43"
+			type="GENE" text="JNK" ontology_id="5599"/>
+		<entity id="s3.e2" charOffset="54-61"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s3.e3" charOffset="88-92"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s3.e4" charOffset="109-113"
+			type="GENE" text="JIP3" ontology_id="23162"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We also found that mice underexpressing JIP3 exhibited a delayed pentylenetetrazole (PTZ)-induced kindling seizure process">
+		<entity id="s4.e1" charOffset="19-23"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s4.e2" charOffset="40-44"
+			type="GENE" text="JIP3" ontology_id="23162"/>
+		<entity id="s4.e3" charOffset="107-114"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

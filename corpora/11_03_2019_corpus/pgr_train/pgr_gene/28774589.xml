@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28774589">
+	<sentence id="s1" text="Using whole-exome sequencing in four probands with undiagnosed skin hyperkeratosis/ichthyosis, we identified compound heterozygosity for mutations in KDSR, encoding an enzyme in the de novo synthesis pathway of ceramides.">
+		<entity id="s1.e1" charOffset="68-82"
+			type="HP" text="hyperkeratosis" ontology_id="HP_0000962"/>
+		<entity id="s1.e2" charOffset="150-154"
+			type="GENE" text="KDSR" ontology_id="2531"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

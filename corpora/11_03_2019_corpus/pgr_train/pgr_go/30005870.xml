@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30005870">
+	<sentence id="s1" text="RAB3A interacting protein (protein targeting to membrane) has been determined to be involved in cancer progression; however, its expression pattern and function in gastric cancer remain unknown.">
+		<entity id="s1.e1" charOffset="27-56"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to determine the association between protein targeting to membrane and gastric cancer, in addition to its functional role in this disease.">
+		<entity id="s2.e1" charOffset="63-92"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s2.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Overexpression of protein targeting to membrane in gastric cancer was verified at both transcriptional and translational levels.">
+		<entity id="s3.e1" charOffset="18-47"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s3.e2" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Cellular studies showed that protein targeting to membrane could induce an aggressive phenotype in gastric cancer cells and that its expression was correlated with markers of the epithelial-mesenchymal transition (cytokine production).">
+		<entity id="s4.e1" charOffset="29-58"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s4.e2" charOffset="107-113"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="214-233"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="In addition, we verified the co-expression of and interplay between protein targeting to membrane and regulation of transcription, DNA-templated during gastric cancer progression.">
+		<entity id="s5.e1" charOffset="68-97"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s5.e2" charOffset="102-144"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s5.e3" charOffset="122-128"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="Thus, these findings elucidated the central role of protein targeting to membrane in inducing an invasive phenotype in gastric cancer cells, in addition to its involvement in cytokine production.">
+		<entity id="s6.e1" charOffset="52-81"
+			type="GO" text="protein targeting to membrane" ontology_id="GO_0006612"/>
+		<entity id="s6.e2" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e3" charOffset="175-194"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="true"/>
+	</sentence>
+</document>

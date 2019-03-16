@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30661349">
+	<sentence id="s1" text="The results showed that the concentration of inflammatory cytokines [interleukin 1β (IL1β) and tumor necrosis factor α (TNF-α)], myeloperoxidase (MPO) activity in the lung tissue and blood, protein abundance of toll-like receptor 4 (TLR4), nuclear factor κB (NF-κB, p65), phosphorylated p65 (p-p65), inhibitor κBα (IκBα), and phosphorylated IκBα (p-IκBα), and relative mRNA expression of genes associated with inflammation, such as TLR4, NF-κB, IL1β, interleukin 6 (IL6), and TNF-α, were significantly upregulated in the LPS group compared to the PBS group.">
+		<entity id="s1.e1" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="121-123"
+			type="GENE" text="NF" ontology_id="23114"/>
+		<entity id="s1.e3" charOffset="146-149"
+			type="GENE" text="MPO" ontology_id="4353"/>
+		<entity id="s1.e4" charOffset="233-237"
+			type="GENE" text="TLR4" ontology_id="7099"/>
+		<entity id="s1.e5" charOffset="521-524"
+			type="GENE" text="LPS" ontology_id="3664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

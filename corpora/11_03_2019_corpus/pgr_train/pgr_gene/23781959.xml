@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23781959">
+	<sentence id="s1" text="Autosomal recessive CMT cases are generally characterized by earlier onset, usually before the age of 2 or 3 years, and rapid clinical progression that results in severe polyneuropathy and more marked distal limb deformities such as pes equino-varus, claw-like hands, and often major spinal deformities.">
+		<entity id="s1.e1" charOffset="174-184"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="233-236"
+			type="GENE" text="pes" ontology_id="23481"/>
+		<entity id="s1.e3" charOffset="284-302"
+			type="HP" text="spinal deformities" ontology_id="HP_0008443"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recent clinical, morphological and molecular investigations of CMT families with autosomal recessive inheritance allowed the identification of many genes such as GDAP1, MTMR2, SBF2, NDRG1, EGR2, SH3TC2, PRX, FGD4, and FIG4, implicated in demyelinating forms (ARCMT1 or CMT4), and LMNA, MED25, HINT1, GDAP1, LRSAM1, NEFL, HSPB1 and MFN2 in axonal forms (ARCMT2).">
+		<entity id="s2.e1" charOffset="81-100"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="101-112"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<entity id="s2.e3" charOffset="162-167"
+			type="GENE" text="GDAP1" ontology_id="54332"/>
+		<entity id="s2.e4" charOffset="169-174"
+			type="GENE" text="MTMR2" ontology_id="8898"/>
+		<entity id="s2.e5" charOffset="176-180"
+			type="GENE" text="SBF2" ontology_id="81846"/>
+		<entity id="s2.e6" charOffset="182-187"
+			type="GENE" text="NDRG1" ontology_id="10397"/>
+		<entity id="s2.e7" charOffset="189-193"
+			type="GENE" text="EGR2" ontology_id="1959"/>
+		<entity id="s2.e8" charOffset="203-206"
+			type="GENE" text="PRX" ontology_id="25824"/>
+		<entity id="s2.e9" charOffset="208-212"
+			type="GENE" text="FGD4" ontology_id="121512"/>
+		<entity id="s2.e10" charOffset="218-222"
+			type="GENE" text="FIG4" ontology_id="9896"/>
+		<entity id="s2.e11" charOffset="269-273"
+			type="GENE" text="CMT4" ontology_id="54332"/>
+		<entity id="s2.e12" charOffset="280-284"
+			type="GENE" text="LMNA" ontology_id="4000"/>
+		<entity id="s2.e13" charOffset="286-291"
+			type="GENE" text="MED25" ontology_id="55090"/>
+		<entity id="s2.e14" charOffset="293-298"
+			type="GENE" text="HINT1" ontology_id="3094"/>
+		<entity id="s2.e15" charOffset="307-313"
+			type="GENE" text="LRSAM1" ontology_id="90678"/>
+		<entity id="s2.e16" charOffset="315-319"
+			type="GENE" text="NEFL" ontology_id="4747"/>
+		<entity id="s2.e17" charOffset="321-326"
+			type="GENE" text="HSPB1" ontology_id="3315"/>
+		<entity id="s2.e18" charOffset="331-335"
+			type="GENE" text="MFN2" ontology_id="9927"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e11" pgr="true"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e12" pgr="true"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e1"
+		    e2="s2.e14" pgr="true"/>
+		<pair id="s2.p13" e1="s2.e1"
+		    e2="s2.e15" pgr="true"/>
+		<pair id="s2.p14" e1="s2.e1"
+		    e2="s2.e16" pgr="true"/>
+		<pair id="s2.p15" e1="s2.e1"
+		    e2="s2.e17" pgr="false"/>
+		<pair id="s2.p16" e1="s2.e1"
+		    e2="s2.e18" pgr="true"/>
+		<pair id="s2.p17" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p18" e1="s2.e33"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p19" e1="s2.e33"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p20" e1="s2.e33"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p21" e1="s2.e33"
+		    e2="s2.e11" pgr="false"/>
+		<pair id="s2.p22" e1="s2.e33"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p23" e1="s2.e33"
+		    e2="s2.e15" pgr="false"/>
+		<pair id="s2.p24" e1="s2.e33"
+		    e2="s2.e17" pgr="false"/>
+		<pair id="s2.p25" e1="s2.e33"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p26" e1="s2.e33"
+		    e2="s2.e20" pgr="false"/>
+		<pair id="s2.p27" e1="s2.e33"
+		    e2="s2.e22" pgr="false"/>
+		<pair id="s2.p28" e1="s2.e33"
+		    e2="s2.e24" pgr="false"/>
+		<pair id="s2.p29" e1="s2.e33"
+		    e2="s2.e26" pgr="false"/>
+		<pair id="s2.p30" e1="s2.e33"
+		    e2="s2.e28" pgr="false"/>
+		<pair id="s2.p31" e1="s2.e33"
+		    e2="s2.e30" pgr="false"/>
+		<pair id="s2.p32" e1="s2.e33"
+		    e2="s2.e32" pgr="false"/>
+	</sentence>
+</document>

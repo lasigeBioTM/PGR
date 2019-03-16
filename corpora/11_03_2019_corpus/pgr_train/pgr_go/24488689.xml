@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24488689">
+	<sentence id="s1" text="Genetic insights into the pathophysiology of amyotrophic lateral sclerosis (signal transduction) are untangling the clinical heterogeneity that may contribute to poor clinical trial outcomes and thus to a lack of effective treatments.">
+		<entity id="s1.e1" charOffset="76-95"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="125-138"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

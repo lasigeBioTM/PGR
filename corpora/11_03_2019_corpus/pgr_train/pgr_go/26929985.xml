@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26929985">
+	<sentence id="s1" text="These analyses revealed significantly higher methylation frequencies in high-grade tumors relative to low-intermediate-grade tumors for the ATP5G2, negative regulation of transcription by RNA polymerase II and forebrain development genes (PAAAA0.05), and similarly significant increases in mean levels of methylation in high-grade tumors for the ATP5G2, VAX2, actin cytoskeleton reorganization, negative regulation of transcription by RNA polymerase II, regulation of transcription, DNA-templated, negative regulation of transcription by RNA polymerase II, negative regulation of transcription by RNA polymerase II, and nucleosome assembly genes (PAAAA0.05).">
+		<entity id="s1.e1" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="148-205"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="210-231"
+			type="GO" text="forebrain development" ontology_id="GO_0030900"/>
+		<entity id="s1.e4" charOffset="360-393"
+			type="GO" text="actin cytoskeleton reorganization" ontology_id="GO_0031532"/>
+		<entity id="s1.e5" charOffset="395-452"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e6" charOffset="454-496"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e7" charOffset="498-555"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e8" charOffset="557-614"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e9" charOffset="620-639"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+	</sentence>
+</document>

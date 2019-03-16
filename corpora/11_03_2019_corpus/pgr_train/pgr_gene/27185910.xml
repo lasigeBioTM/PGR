@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27185910">
+	<sentence id="s1" text="Here we demonstrate that the prostate cancer cell lines LNCaP and LAPC4 display markedly different sensitivity to docetaxel with AR activation, and RNA-seq analysis of these cell lines identified KDM5D (lysine-specific demethylase 5D) encoded on the Y chromosome as a potential mediator of this sensitivity.">
+		<entity id="s1.e1" charOffset="38-44"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="196-201"
+			type="GENE" text="KDM5D" ontology_id="8284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

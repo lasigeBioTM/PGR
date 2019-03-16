@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="12642876">
+	<sentence id="s1" text="Liver cancer is very common worldwide and the rates of hepatocellular carcinoma (phosphatidylinositol phosphorylation) have increased by over 70% in the last 2 decades in the US.">
+		<entity id="s1.e1" charOffset="6-12"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="55-79"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e3" charOffset="81-117"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We present the cloning and characterization of a novel gene, microvillus organization (Cancer related gene-Liver 2), which displays high expression in murine and human hepatocellular carcinomas.">
+		<entity id="s2.e1" charOffset="61-85"
+			type="GO" text="microvillus organization" ontology_id="GO_0032528"/>
+		<entity id="s2.e2" charOffset="168-192"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Using in situ hybridization, we show that microvillus organization mRNA levels are increased early during the development of liver tumors in C3H/HeJ apoptotic process, and that in normal tissues CRG-L2 mRNA is restricted to the murine testis and human placenta.">
+		<entity id="s3.e1" charOffset="42-66"
+			type="GO" text="microvillus organization" ontology_id="GO_0032528"/>
+		<entity id="s3.e2" charOffset="131-137"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="149-166"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Its restricted expression in normal tissues and unique early upregulation during tumor development make microvillus organization an excellent candidate as a new clinical marker of HCC">
+		<entity id="s4.e1" charOffset="81-86"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="104-128"
+			type="GO" text="microvillus organization" ontology_id="GO_0032528"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

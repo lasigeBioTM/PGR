@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29859855">
+	<sentence id="s1" text="A large, complex, and robust gene network containing well-known lung cancer-related genes, including EGFR and TERT, was identified from combined gene lists for lung adenocarcinoma.">
+		<entity id="s1.e1" charOffset="69-75"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="101-105"
+			type="GENE" text="EGFR" ontology_id="1956"/>
+		<entity id="s1.e3" charOffset="110-114"
+			type="GENE" text="TERT" ontology_id="7015"/>
+		<entity id="s1.e4" charOffset="160-179"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

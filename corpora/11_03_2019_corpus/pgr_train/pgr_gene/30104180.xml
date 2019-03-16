@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30104180">
+	<sentence id="s1" text="Owing to the lack of universal and specific tumor markers for neuroblastoma (NB), in this prospective study, we adopted an EpCAM-independent method to detect CTCs in the peripheral blood of NB patients.">
+		<entity id="s1.e1" charOffset="44-49"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="62-75"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="123-128"
+			type="GENE" text="EpCAM" ontology_id="4072"/>
+		<entity id="s1.e4" charOffset="170-173"
+			type="GENE" text="per" ontology_id="93210"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

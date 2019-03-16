@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="10633131">
+	<sentence id="s1" text="Previously, the combination of hypoparathyroidism, deafness, and renal dysplasia has been proposed to represent a specific syndrome (MIM 146255) under the acronym HDR.">
+		<entity id="s1.e1" charOffset="31-49"
+			type="HP" text="hypoparathyroidism" ontology_id="HP_0000829"/>
+		<entity id="s1.e2" charOffset="51-59"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="65-80"
+			type="HP" text="renal dysplasia" ontology_id="HP_0000110"/>
+		<entity id="s1.e4" charOffset="133-136"
+			type="GENE" text="MIM" ontology_id="9788"/>
+		<entity id="s1.e5" charOffset="163-166"
+			type="GENE" text="HDR" ontology_id="2625"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e9"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Hemizygosity of the distal region, designated HDR1, can cause hypoparathyroidism and in addition sensorineuronal deafness and renal dysplasia/insufficiency or a subset of this triad">
+		<entity id="s2.e1" charOffset="46-49"
+			type="GENE" text="HDR" ontology_id="2625"/>
+		<entity id="s2.e2" charOffset="62-80"
+			type="HP" text="hypoparathyroidism" ontology_id="HP_0000829"/>
+		<entity id="s2.e3" charOffset="113-121"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s2.e4" charOffset="126-141"
+			type="HP" text="renal dysplasia" ontology_id="HP_0000110"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29443088">
+	<sentence id="s1" text="In addition to describing how to perform the EEG-ECG recordings, we also detail methods to quantify the resulting data for seizures, EEG spectral power, cardiac function, and heart rate variability, which we demonstrate in an example experiment using a mouse with epilepsy due to magnesium ion homeostasis gene deletion.">
+		<entity id="s1.e1" charOffset="123-131"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="264-272"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="280-305"
+			type="GO" text="magnesium ion homeostasis" ontology_id="GO_0010960"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

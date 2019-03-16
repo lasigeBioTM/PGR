@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26660953">
+	<sentence id="s1" text="In a unique case from a consanguineous union presenting with overgrowth, macrocephaly, retinal coloboma, large thumbs, severe varicose veins and learning disabilities, exome sequencing identified a homozygous nonsense platelet aggregation variant.">
+		<entity id="s1.e1" charOffset="73-85"
+			type="HP" text="macrocephaly" ontology_id="HP_0000256"/>
+		<entity id="s1.e2" charOffset="87-103"
+			type="HP" text="retinal coloboma" ontology_id="HP_0000480"/>
+		<entity id="s1.e3" charOffset="218-238"
+			type="GO" text="platelet aggregation" ontology_id="GO_0070527"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Taken together, these results suggest the implication of platelet aggregation in a new autosomal recessive MCA.">
+		<entity id="s2.e1" charOffset="57-77"
+			type="GO" text="platelet aggregation" ontology_id="GO_0070527"/>
+		<entity id="s2.e2" charOffset="87-106"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

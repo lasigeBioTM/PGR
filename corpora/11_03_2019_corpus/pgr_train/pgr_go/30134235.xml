@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30134235">
+	<sentence id="s1" text="This review discusses recurrent aberrations in NKTCL detected by NGS, which can be categorized into three main groups, specifically, tumor suppressors (TP53, response to virus, and starch catabolic process), the JAK/STAT cascade, and epigenetic modifiers (response to estrogen, histone H2A monoubiquitination, nucleosome disassembly, and EP300).">
+		<entity id="s1.e1" charOffset="133-138"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="158-175"
+			type="GO" text="response to virus" ontology_id="GO_0009615"/>
+		<entity id="s1.e3" charOffset="181-205"
+			type="GO" text="starch catabolic process" ontology_id="GO_0005983"/>
+		<entity id="s1.e4" charOffset="256-276"
+			type="GO" text="response to estrogen" ontology_id="GO_0043627"/>
+		<entity id="s1.e5" charOffset="278-308"
+			type="GO" text="histone H2A monoubiquitination" ontology_id="GO_0035518"/>
+		<entity id="s1.e6" charOffset="310-332"
+			type="GO" text="nucleosome disassembly" ontology_id="GO_0006337"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

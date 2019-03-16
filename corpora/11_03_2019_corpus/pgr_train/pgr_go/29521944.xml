@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29521944">
+	<sentence id="s1" text="The major categories of pancreatic neuroendocrine tumor (Pannegative regulation of transcription, DNA-templated) are well-differentiated NET and poorly differentiated neuroendocrine carcinoma.">
+		<entity id="s1.e1" charOffset="50-55"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="60-111"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Sequencing of these tumors has identified multiple important genes in the pathogenesis of Pannegative regulation of transcription, DNA-templateds, such as nucleosome assembly/ATRX, negative regulation of transcription by RNA polymerase II, TP53, RB, and regulation of cell growth pathway genes.">
+		<entity id="s2.e1" charOffset="20-25"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="93-144"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e3" charOffset="155-174"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<entity id="s2.e4" charOffset="181-238"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e5" charOffset="254-279"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our data support that high-grade progression in Pannegative regulation of transcription, DNA-templateds may be the result of the progressive accumulation of genetic changes (CNVs and point mutational changes) within the body of the tumor.">
+		<entity id="s3.e1" charOffset="51-102"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s3.e2" charOffset="232-237"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

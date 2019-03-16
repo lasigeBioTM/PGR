@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26685052">
+	<sentence id="s1" text="We present a case of a patient with long-standing hyperpigmented macules and erythematous papules over his chest, abdomen, back and arms, suggestive of Dowling-Degos disease (DDD).">
+		<entity id="s1.e1" charOffset="50-72"
+			type="HP" text="hyperpigmented macules" ontology_id="HP_0001034"/>
+		<entity id="s1.e2" charOffset="77-97"
+			type="HP" text="erythematous papules" ontology_id="HP_0030350"/>
+		<entity id="s1.e3" charOffset="132-136"
+			type="GENE" text="arms" ontology_id="57498"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In addition, there were hyperkeratotic papules, alternating red and white nail-bed discolouration, and V-shaped nail notching consistent with Darier disease (DD).">
+		<entity id="s2.e1" charOffset="24-46"
+			type="HP" text="hyperkeratotic papules" ontology_id="HP_0045059"/>
+		<entity id="s2.e2" charOffset="60-63"
+			type="GENE" text="red" ontology_id="8444"/>
+		<entity id="s2.e3" charOffset="74-78"
+			type="GENE" text="nail" ontology_id="51744"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

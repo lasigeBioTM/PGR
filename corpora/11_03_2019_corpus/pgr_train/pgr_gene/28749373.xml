@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28749373">
+	<sentence id="s1" text="The RS-MC was also validated against measurements and simulations in heterogeneous phantoms created by placing lung or bone slabs in a water phantom.">
+		<entity id="s1.e1" charOffset="4-6"
+			type="GENE" text="RS" ontology_id="5308"/>
+		<entity id="s1.e2" charOffset="69-82"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The RS-MC algorithm demonstrated improved dosimetric accuracy over the RS-PBA in the presence of homogenous, heterogeneous and anthropomorphic phantoms.">
+		<entity id="s2.e1" charOffset="4-6"
+			type="GENE" text="RS" ontology_id="5308"/>
+		<entity id="s2.e2" charOffset="109-122"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="For complex disease sites like breast, head and neck, and lung cancer, the RS-MC algorithm will provide significantly more accurate treatment planning">
+		<entity id="s3.e1" charOffset="63-69"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="75-77"
+			type="GENE" text="RS" ontology_id="5308"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26376857">
+	<sentence id="s1" text="A heterozygous mutation (c.643CAAAAA; p.Q215X) in the monocarboxylate transporter 12-encoding gene MCT12 (also known as SLC16A12) that mediates creatine transport was recently identified as the cause of a syndrome with juvenile cataracts, microcornea, and glucosuria in a single family.">
+		<entity id="s1.e1" charOffset="99-104"
+			type="GENE" text="MCT12" ontology_id="387700"/>
+		<entity id="s1.e2" charOffset="120-128"
+			type="GENE" text="SLC16A12" ontology_id="387700"/>
+		<entity id="s1.e3" charOffset="228-237"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e4" charOffset="239-250"
+			type="HP" text="microcornea" ontology_id="HP_0000482"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27193124">
+	<sentence id="s1" text="Here, we have performed a prospective nationwide genetic association study using the Human Exome BeadChip and identified gene variants in encoding dynactin 4 (DCTN4), retinoic acid early transcript 1E (RAET1E), and V-akt murine thymoma viral oncogene homolog 3 (AKT3) to be associated with unfavourable outcome in patients with pneumococcal meningitis.">
+		<entity id="s1.e1" charOffset="159-164"
+			type="GENE" text="DCTN4" ontology_id="51164"/>
+		<entity id="s1.e2" charOffset="202-208"
+			type="GENE" text="RAET1E" ontology_id="135250"/>
+		<entity id="s1.e3" charOffset="217-220"
+			type="GENE" text="akt" ontology_id="207"/>
+		<entity id="s1.e4" charOffset="262-266"
+			type="GENE" text="AKT3" ontology_id="10000"/>
+		<entity id="s1.e5" charOffset="341-351"
+			type="HP" text="meningitis" ontology_id="HP_0001287"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="No clinical replication cohort is available, so we validated the role of one of these targets, AKT3, in a pneumococcal meningitis mouse model.">
+		<entity id="s2.e1" charOffset="95-99"
+			type="GENE" text="AKT3" ontology_id="10000"/>
+		<entity id="s2.e2" charOffset="119-129"
+			type="HP" text="meningitis" ontology_id="HP_0001287"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

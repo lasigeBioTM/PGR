@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28376086">
+	<sentence id="s1" text="The mitochondrial protein mitochondrial membrane fission has been recently identified as a novel pathogenic cause in a wide spectrum of neurological diseases, including inherited optic atrophy, Charcot-Marie-Tooth cardiac muscle tissue development 2, Leigh syndrome, progressive myoclonic ataxia and lethal congenital pontocerebellar hypoplasia.">
+		<entity id="s1.e1" charOffset="26-56"
+			type="GO" text="mitochondrial membrane fission" ontology_id="GO_0090149"/>
+		<entity id="s1.e2" charOffset="179-192"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s1.e3" charOffset="214-247"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e4" charOffset="260-266"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e5" charOffset="294-315"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutant apoptotic process manifest the main clinical features identified in patients, including ataxia, optic atrophy and cerebellar hypoplasia, which were completely rescued by expression of the human ortholog.">
+		<entity id="s2.e1" charOffset="7-24"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e2" charOffset="95-101"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e3" charOffset="103-116"
+			type="HP" text="optic atrophy" ontology_id="HP_0000648"/>
+		<entity id="s2.e4" charOffset="121-142"
+			type="HP" text="cerebellar hypoplasia" ontology_id="HP_0001321"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29859466">
+	<sentence id="s1" text="Most of the available anticancer drugs are designed to coenzyme A biosynthetic process on specific targets by altering the activity of involved transporters and genes.">
+		<entity id="s1.e1" charOffset="26-32"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="55-86"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The literature supports the evidence of natural compounds exhibiting antioxidant, antimitotic, anti-inflammatory, antibiotic as well as anticancer coenzyme A biosynthetic processivity.">
+		<entity id="s2.e1" charOffset="140-146"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="147-178"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In this review, we have selected marine sponges as a prolific source of biocoenzyme A biosynthetic processive compounds which can be explored for their possible use in cancer and have tried to link their role in cancer pathway.">
+		<entity id="s3.e1" charOffset="75-106"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s3.e2" charOffset="168-174"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We used Cytoscape network analysis and Search tool for retrieval of intercoenzyme A biosynthetic processing genes/ proteins (STRING) to study the possible interactions to show the links between the antioxidants, antibiotics, anti-inflammatory and antimitotic agents and their targets for their possible use in cancer.">
+		<entity id="s4.e1" charOffset="73-104"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s4.e2" charOffset="310-316"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

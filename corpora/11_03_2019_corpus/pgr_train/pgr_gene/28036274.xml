@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28036274">
+	<sentence id="s1" text="Furthermore, we identified several unreported tissue-specific TFs that may contribute to breast cancer, including ATOH8, DMRT2, TBX15 and ZNF367.">
+		<entity id="s1.e1" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="114-119"
+			type="GENE" text="ATOH8" ontology_id="84913"/>
+		<entity id="s1.e3" charOffset="121-126"
+			type="GENE" text="DMRT2" ontology_id="10655"/>
+		<entity id="s1.e4" charOffset="128-133"
+			type="GENE" text="TBX15" ontology_id="6913"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

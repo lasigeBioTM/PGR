@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28844659">
+	<sentence id="s1" text="Transplantation of mitotic cell cycle checkpoint photoreceptors, derived either from neonatal retinae or pluripotent stem cells (PSCs), can restore rod-mediated visual function in murine models of inherited blindness.">
+		<entity id="s1.e1" charOffset="19-48"
+			type="GO" text="mitotic cell cycle checkpoint" ontology_id="GO_0007093"/>
+		<entity id="s1.e2" charOffset="207-216"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

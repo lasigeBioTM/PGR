@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28657137">
+	<sentence id="s1" text="A single family with an autosomal recessive form of OFCS and a homozygous missense mutation in skeletal system development gene has been described.">
+		<entity id="s1.e1" charOffset="24-43"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="95-122"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This report provides evidence that bi-allelic null skeletal system development mutations may lead to a multi-system autosomal recessive disorders, where SCID might represent the main feature">
+		<entity id="s2.e1" charOffset="51-78"
+			type="GO" text="skeletal system development" ontology_id="GO_0001501"/>
+		<entity id="s2.e2" charOffset="116-135"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

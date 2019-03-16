@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26886902">
+	<sentence id="s1" text="The patient together with her younger brother was diagnosed at the age of 5 years with familial congenital hypopituitarism, due to homozygous mutation c.150delA in PROP1 gene.">
+		<entity id="s1.e1" charOffset="107-122"
+			type="HP" text="hypopituitarism" ontology_id="HP_0040075"/>
+		<entity id="s1.e2" charOffset="164-169"
+			type="GENE" text="PROP1" ontology_id="5626"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Due to evolving hypopituitarism, she was replaced with thyroxine (from age 5), hydrocortisone (from age 13), GH (from age 13 until 17), and sex steroids in adolescence and adulthood.">
+		<entity id="s2.e1" charOffset="16-31"
+			type="HP" text="hypopituitarism" ontology_id="HP_0040075"/>
+		<entity id="s2.e2" charOffset="140-143"
+			type="GENE" text="sex" ontology_id="55558"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

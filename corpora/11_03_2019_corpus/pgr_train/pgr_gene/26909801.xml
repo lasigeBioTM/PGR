@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26909801">
+	<sentence id="s1" text="Primary ciliary dyskinesia (PCD) is a recessively inherited disease that leads to chronic respiratory disorders owing to impaired mucociliary clearance.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

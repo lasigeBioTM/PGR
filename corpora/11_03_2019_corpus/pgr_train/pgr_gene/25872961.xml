@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25872961">
+	<sentence id="s1" text="Mitochondrial 3-hydroxy-3-methylglutaryl-CoA lyase (HMGCL) deficiency is an autosomal recessive disorder affecting the leucine catabolic pathway and ketone body synthesis, and is clinically characterized by metabolic crises with hypoketotic hypoglycemia, metabolic acidosis and hyperammonemia.">
+		<entity id="s1.e1" charOffset="52-57"
+			type="GENE" text="HMGCL" ontology_id="3155"/>
+		<entity id="s1.e2" charOffset="241-253"
+			type="HP" text="hypoglycemia" ontology_id="HP_0001943"/>
+		<entity id="s1.e3" charOffset="278-292"
+			type="HP" text="hyperammonemia" ontology_id="HP_0001987"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

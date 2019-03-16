@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28011715">
+	<sentence id="s1" text="Ectodermal dysplasia-9 (ED-9) is a congenital condition characterized by hypotrichosis and natural killer cell activation involved in immune response dystrophy without other disorders, and anatomical structure morphogenesis is a pathogenic gene for ED-9.">
+		<entity id="s1.e1" charOffset="73-86"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<entity id="s1.e2" charOffset="91-149"
+			type="GO" text="natural killer cell activation involved in immune response" ontology_id="GO_0002323"/>
+		<entity id="s1.e3" charOffset="189-223"
+			type="GO" text="anatomical structure morphogenesis" ontology_id="GO_0009653"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

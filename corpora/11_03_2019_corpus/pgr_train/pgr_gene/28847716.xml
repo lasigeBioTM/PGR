@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28847716">
+	<sentence id="s1" text="Then the inflammatory corneal neovascularization (CorNV) model and fungal corneal infections were induced in Balb/c mice, and mRNA levels of Mxra7 as well as several matrix-remodeling related genes (Mmp3, Mmp13, Ecm1, Timp1) were monitored with RT-PCR.">
+		<entity id="s1.e1" charOffset="22-48"
+			type="HP" text="corneal neovascularization" ontology_id="HP_0011496"/>
+		<entity id="s1.e2" charOffset="116-120"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="141-146"
+			type="GENE" text="Mxra7" ontology_id="439921"/>
+		<entity id="s1.e4" charOffset="199-203"
+			type="GENE" text="Mmp3" ontology_id="4314"/>
+		<entity id="s1.e5" charOffset="205-210"
+			type="GENE" text="Mmp13" ontology_id="4322"/>
+		<entity id="s1.e6" charOffset="212-216"
+			type="GENE" text="Ecm1" ontology_id="1893"/>
+		<entity id="s1.e7" charOffset="218-223"
+			type="GENE" text="Timp1" ontology_id="7076"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25863124">
+	<sentence id="s1" text="Small cell lung cancer (SCLC) is the most aggressive cardiac muscle tissue development of lung cancer.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="53-86"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In particular, the negative regulation of phosphatase activity, MAPK cascade and protein transport genes were commonly mutated in both early and late stage tumors, primary tumors and metastases, and tumors before and after chemotherapy, as in the case of the TP53 and RB1 genes.">
+		<entity id="s2.e1" charOffset="19-62"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s2.e2" charOffset="64-76"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s2.e3" charOffset="81-98"
+			type="GO" text="protein transport" ontology_id="GO_0015031"/>
+		<entity id="s2.e4" charOffset="138-144"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

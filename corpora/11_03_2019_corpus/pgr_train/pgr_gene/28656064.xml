@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28656064">
+	<sentence id="s1" text="Through epigenomic study of a colon cancer cell line pair (HCT116 and DKO), we identified li>JPH3</i> as a methylated novel tumor suppressor gene (TSG) candidate at 16q24.">
+		<entity id="s1.e1" charOffset="36-42"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="124-129"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="147-150"
+			type="GENE" text="TSG" ontology_id="57045"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus, li>JPH3</i> was identified as a novel TSG methylated in colorectal and gastric tumors which promotes mitochondrial-mediated apoptosis, also as a potential metastasis and survival biomarker for digestive cancers">
+		<entity id="s2.e1" charOffset="44-47"
+			type="GENE" text="TSG" ontology_id="57045"/>
+		<entity id="s2.e2" charOffset="85-90"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="209-215"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

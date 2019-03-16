@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24024198">
+	<sentence id="s1" text="Here, we report two novel GUCA1A (the gene for guanylate cyclase activating protein 1) mutations identified in unrelated Spanish families affected by autosomal dominant retinal degeneration (adRD) with cone and rod involvement.">
+		<entity id="s1.e1" charOffset="26-32"
+			type="GENE" text="GUCA1A" ontology_id="2978"/>
+		<entity id="s1.e2" charOffset="169-189"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<entity id="s1.e3" charOffset="211-214"
+			type="GENE" text="rod" ontology_id="9735"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

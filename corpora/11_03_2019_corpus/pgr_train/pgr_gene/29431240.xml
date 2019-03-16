@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29431240">
+	<sentence id="s1" text="It has been reported that N-myc downstream regulated gene 1 (NDRG1) is related to the prognosis of non-small cell lung cancer (NSCLC), and associated with c-Myc degradation in NSCLC cell lines.">
+		<entity id="s1.e1" charOffset="26-31"
+			type="GENE" text="N-myc" ontology_id="4613"/>
+		<entity id="s1.e2" charOffset="61-66"
+			type="GENE" text="NDRG1" ontology_id="10397"/>
+		<entity id="s1.e3" charOffset="119-125"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="155-160"
+			type="GENE" text="c-Myc" ontology_id="4609"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the relationship of NDRG1 to prognosis or c-Myc expression in lung adenocarcinoma has not been well clarified.">
+		<entity id="s2.e1" charOffset="29-34"
+			type="GENE" text="NDRG1" ontology_id="10397"/>
+		<entity id="s2.e2" charOffset="51-56"
+			type="GENE" text="c-Myc" ontology_id="4609"/>
+		<entity id="s2.e3" charOffset="71-90"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The present study was designed to investigate the prognostic significance of NDRG1 and/or c-Myc expression in lung adenocarcinoma using immunohistochemistry with a tissue microarray.">
+		<entity id="s3.e1" charOffset="77-82"
+			type="GENE" text="NDRG1" ontology_id="10397"/>
+		<entity id="s3.e2" charOffset="90-95"
+			type="GENE" text="c-Myc" ontology_id="4609"/>
+		<entity id="s3.e3" charOffset="110-129"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="We examined 184 lung adenocarcinomas and observed low expression of NDRG1 in adenocarcinoma in situ (AIS) and minimally invasive adenocarcinoma (MIA), whereas high expression of NDRG1 was seen in invasive adenocarcinoma.">
+		<entity id="s4.e1" charOffset="16-35"
+			type="HP" text="lung adenocarcinoma" ontology_id="HP_0030078"/>
+		<entity id="s4.e2" charOffset="68-73"
+			type="GENE" text="NDRG1" ontology_id="10397"/>
+		<entity id="s4.e3" charOffset="101-104"
+			type="GENE" text="AIS" ontology_id="231"/>
+		<entity id="s4.e4" charOffset="145-148"
+			type="GENE" text="MIA" ontology_id="8190"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28506993">
+	<sentence id="s1" text="Finally, we reveal that papillary craniopharyngioma (proteolysis), a benign human pituitary tumour harbouring li>BRAF p.V600E</i> also contains Sox2<sup>+</sup> cells with sustained proliferative capacity and disrupted pituitary differentiation.">
+		<entity id="s1.e1" charOffset="34-51"
+			type="HP" text="craniopharyngioma" ontology_id="HP_0030062"/>
+		<entity id="s1.e2" charOffset="53-64"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s1.e3" charOffset="92-98"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

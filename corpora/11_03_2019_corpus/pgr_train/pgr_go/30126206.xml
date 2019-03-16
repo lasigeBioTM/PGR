@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30126206">
+	<sentence id="s1" text="We here report that (-)-epigallocatechin gallate (EGCG) inhibited programmed cell death ligand 1 (PD-L1) expression in non⁻small-cell lung cancer cells, induced by both interferon (adaptive immune response)-γ and epidermal growth factor (angiogenesis).">
+		<entity id="s1.e1" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="181-205"
+			type="GO" text="adaptive immune response" ontology_id="GO_0002250"/>
+		<entity id="s1.e3" charOffset="238-250"
+			type="GO" text="angiogenesis" ontology_id="GO_0001525"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, 0.3% GTE in drinking water reduced the average number of tumors GPI anchor metabolic process mouse from 4.1 ± 0.5 to 2.6 ± 0.4 and the percentage of PD-L1 positive cells from 9.6% to 2.9%, a decrease of 70%, in lung tumors of A/J apoptotic process given a single intraperitoneal injection of 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone (NNK).">
+		<entity id="s2.e1" charOffset="70-76"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="77-105"
+			type="GO" text="GPI anchor metabolic process" ontology_id="GO_0006505"/>
+		<entity id="s2.e3" charOffset="243-260"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In co-culture exGPI anchor metabolic processiments using positive regulation of protein kinase B signaling-OVA melanoma cells and tumor-specific CD3+ T cells, EGCG reduced li>PD-L1</i> mRNA expression about 30% in F10-OVA cells and restored li>interleukin-2</i> mRNA expression in tumor-specific CD3+ T cells.">
+		<entity id="s3.e1" charOffset="16-44"
+			type="GO" text="GPI anchor metabolic process" ontology_id="GO_0006505"/>
+		<entity id="s3.e2" charOffset="57-106"
+			type="GO" text="positive regulation of protein kinase B signaling" ontology_id="GO_0051897"/>
+		<entity id="s3.e3" charOffset="84-89"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

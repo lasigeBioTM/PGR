@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="20409997">
+	<sentence id="s1" text="Hair-natural killer cell activation involved in immune response ectodermal dysplasia (HNED; OMIM 602032) constitutes a rare subgroup of ectodermal dysplasias characterised by onychodystrophy, hypotrichosis and brittle hair.">
+		<entity id="s1.e1" charOffset="5-63"
+			type="GO" text="natural killer cell activation involved in immune response" ontology_id="GO_0002323"/>
+		<entity id="s1.e2" charOffset="64-84"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e3" charOffset="192-205"
+			type="HP" text="hypotrichosis" ontology_id="HP_0001006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our study confirms linkage of a variant clinical form of hair-natural killer cell activation involved in immune response ectodermal dysplasia to chromosome 12 without any mutation in the coding sequences of the epidermis development gene.">
+		<entity id="s2.e1" charOffset="62-120"
+			type="GO" text="natural killer cell activation involved in immune response" ontology_id="GO_0002323"/>
+		<entity id="s2.e2" charOffset="121-141"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s2.e3" charOffset="211-232"
+			type="GO" text="epidermis development" ontology_id="GO_0008544"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

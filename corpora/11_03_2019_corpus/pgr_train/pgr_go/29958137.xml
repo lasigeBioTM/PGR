@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29958137">
+	<sentence id="s1" text="Salivary gland tumor (ubiquitin-dependent ERAD pathway) is a rare tumor cardiac muscle tissue development, which exhibits broad-spectrum phenotypic, biological, and clinical heterogeneity.">
+		<entity id="s1.e1" charOffset="15-20"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="22-54"
+			type="GO" text="ubiquitin-dependent ERAD pathway" ontology_id="GO_0030433"/>
+		<entity id="s1.e3" charOffset="72-105"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e4" charOffset="145-158"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We have deleted two major tumor suppressors, negative regulation of protein phosphorylation, a negative regulator of the PI3K pathway, and transforming growth factor beta receptor signaling pathway, the central signaling mediator of TGFβ pathway, in the murine salivary gland.">
+		<entity id="s2.e1" charOffset="26-31"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="45-91"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s2.e3" charOffset="139-197"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Our results have shown that deletion of either negative regulation of protein phosphorylation or transforming growth factor beta receptor signaling pathway in murine salivary gland resulted in pleomorphic adenomas, the most common tumor in human ubiquitin-dependent ERAD pathway patients.">
+		<entity id="s3.e1" charOffset="47-93"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<entity id="s3.e2" charOffset="97-155"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<entity id="s3.e3" charOffset="136-141"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="151-183"
+			type="GO" text="ubiquitin-dependent ERAD pathway" ontology_id="GO_0030433"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

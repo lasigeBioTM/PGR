@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29952944">
+	<sentence id="s1" text="No differences were found in age, negative regulation of cell adhesion, mean arterial pressure, heart rate, HDL, cirrhosis etiology, degree of alcohol consumption, encephalopathy, variceal bleeding history, or hepatocellular carcinoma between patients with or without adrenal insufficiency.">
+		<entity id="s1.e1" charOffset="34-70"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s1.e2" charOffset="164-178"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<entity id="s1.e3" charOffset="210-234"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

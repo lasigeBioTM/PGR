@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30261661">
+	<sentence id="s1" text="Fc-histone H3 acetylation receptor-IIb (FcγRIIb) and its ligand are reported to be associated with obesity and cardiac muscle tissue development 2 diabetes mellitus (T2DM).">
+		<entity id="s1.e1" charOffset="3-25"
+			type="GO" text="histone H3 acetylation" ontology_id="GO_0043966"/>
+		<entity id="s1.e2" charOffset="99-106"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e3" charOffset="111-144"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

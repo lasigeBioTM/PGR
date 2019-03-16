@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24998186">
+	<sentence id="s1" text="We evaluated whether methylation of tumor-suppressor genes (TSGs) would classify non-muscle-invasive (NMI) bladder cancer subgroups and predict outcome.">
+		<entity id="s1.e1" charOffset="36-41"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="60-63"
+			type="GENE" text="TSG" ontology_id="57045"/>
+		<entity id="s1.e3" charOffset="102-105"
+			type="GENE" text="NMI" ontology_id="9111"/>
+		<entity id="s1.e4" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A retrospective design included the following paraffin-embedded primary NMI tumor types (n = 251): pTa low grade (LG) (n = 79), pT1LG (n = 81), and pT1 high grade (HG) (n = 91).">
+		<entity id="s2.e1" charOffset="72-75"
+			type="GENE" text="NMI" ontology_id="9111"/>
+		<entity id="s2.e2" charOffset="76-81"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="99-102"
+			type="GENE" text="pTa" ontology_id="171558"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Methylation of RARB, CD44, PAX5A, GSTP1, IGSF4 (CADM1), PYCARD, CDH13, TP53, and GATA5 classified pTa versus pT1 tumors whereas RARB, CD44, GSTP1, IGSF4, CHFR, PYCARD, TP53, STK11, and GATA5 distinguished LG versus HG tumors.">
+		<entity id="s3.e1" charOffset="15-19"
+			type="GENE" text="RARB" ontology_id="5915"/>
+		<entity id="s3.e2" charOffset="34-39"
+			type="GENE" text="GSTP1" ontology_id="2950"/>
+		<entity id="s3.e3" charOffset="41-46"
+			type="GENE" text="IGSF4" ontology_id="23705"/>
+		<entity id="s3.e4" charOffset="48-53"
+			type="GENE" text="CADM1" ontology_id="23705"/>
+		<entity id="s3.e5" charOffset="56-62"
+			type="GENE" text="PYCARD" ontology_id="29108"/>
+		<entity id="s3.e6" charOffset="64-69"
+			type="GENE" text="CDH13" ontology_id="1012"/>
+		<entity id="s3.e7" charOffset="81-86"
+			type="GENE" text="GATA5" ontology_id="140628"/>
+		<entity id="s3.e8" charOffset="98-101"
+			type="GENE" text="pTa" ontology_id="171558"/>
+		<entity id="s3.e9" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e10" charOffset="154-158"
+			type="GENE" text="CHFR" ontology_id="55743"/>
+		<entity id="s3.e11" charOffset="174-179"
+			type="GENE" text="STK11" ontology_id="6794"/>
+		<pair id="s3.p1" e1="s3.e8"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e9"
+		    e2="s3.e11" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e7"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e2"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e3"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p7" e1="s3.e4"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p8" e1="s3.e5"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p9" e1="s3.e6"
+		    e2="s3.e9" pgr="false"/>
+		<pair id="s3.p10" e1="s3.e9"
+		    e2="s3.e10" pgr="false"/>
+	</sentence>
+</document>

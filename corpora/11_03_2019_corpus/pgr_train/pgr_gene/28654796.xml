@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28654796">
+	<sentence id="s1" text="Sushi repeat-containing protein X-linked 2 (SRPX2), a novel chondroitin sulfate proteoglycan, is overexpressed in human cancer.">
+		<entity id="s1.e1" charOffset="44-49"
+			type="GENE" text="SRPX2" ontology_id="27286"/>
+		<entity id="s1.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recent studies have reported that SRPX2 overexpression is observed in gastrointestinal cancer, and promotes migration and invasion of cancer cells.">
+		<entity id="s2.e1" charOffset="34-39"
+			type="GENE" text="SRPX2" ontology_id="27286"/>
+		<entity id="s2.e2" charOffset="87-93"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="While, the clinical significance and biological function of SRPX2 remain rarely known in hepatocellular carcinoma (HCC).">
+		<entity id="s3.e1" charOffset="60-65"
+			type="GENE" text="SRPX2" ontology_id="27286"/>
+		<entity id="s3.e2" charOffset="89-113"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s3.e3" charOffset="115-118"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Here, we found that the levels of SRPX2 in HCC tissues were notably overexpressed compared to non-cancerous specimens.">
+		<entity id="s4.e1" charOffset="34-39"
+			type="GENE" text="SRPX2" ontology_id="27286"/>
+		<entity id="s4.e2" charOffset="43-46"
+			type="GENE" text="HCC" ontology_id="84668"/>
+		<entity id="s4.e3" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The positive expression of SRPX2 was prominently correlated with venous infiltration and advanced TNM tumor stage.">
+		<entity id="s5.e1" charOffset="27-32"
+			type="GENE" text="SRPX2" ontology_id="27286"/>
+		<entity id="s5.e2" charOffset="98-101"
+			type="GENE" text="TNM" ontology_id="10178"/>
+		<entity id="s5.e3" charOffset="102-107"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29084757">
+	<sentence id="s1" text="Defects of positive regulation of cytosolic calcium ion concentration, calcium- and integrin-binding protein 2, have been reported to cause isolated deafness, positive regulation of cytosolic calcium ion concentration and Usher syndrome type-IJ, characterized by congenital profound deafness, balance defects and blindness.">
+		<entity id="s1.e1" charOffset="11-69"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s1.e2" charOffset="149-157"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="159-217"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s1.e4" charOffset="222-230"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s1.e5" charOffset="261-270"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e4"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We report here two new nonsense mutations (pGln12* and pTyr110*) in li>positive regulation of cytosolic calcium ion concentration</i> patients displaying nonsyndromic profound hearing loss, with no evidence of vestibular or retinal dysfunction.">
+		<entity id="s2.e1" charOffset="71-129"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s2.e2" charOffset="167-175"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s2.e3" charOffset="176-188"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Also, the generated li>positive regulation of cytosolic calcium ion concentration</i><sup>-/-</sup> apoptotic process display an early onset profound deafness and have normal balance and retinal functions.">
+		<entity id="s3.e1" charOffset="23-81"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s3.e2" charOffset="100-117"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e3" charOffset="128-136"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s3.e4" charOffset="137-145"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="This essential role of positive regulation of cytosolic calcium ion concentration in mechanotransduction and cell survival that, we show, is restricted to the cochlea, probably accounts for the presence in li>CIB2</i><sup>-/-</sup> apoptotic process and li>CIB2</i> patients, unlike in Usher syndrome, of isolated hearing loss without balance and vision deficits">
+		<entity id="s4.e1" charOffset="23-81"
+			type="GO" text="positive regulation of cytosolic calcium ion concentration" ontology_id="GO_0007204"/>
+		<entity id="s4.e2" charOffset="232-249"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s4.e3" charOffset="301-313"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

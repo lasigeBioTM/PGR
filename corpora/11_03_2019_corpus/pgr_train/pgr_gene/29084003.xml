@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29084003">
+	<sentence id="s1" text="Furthermore, we identified some potential lung cancer driver genes, such as TBX2, MCM4, SLC2A1, BIRC5, and CDC20, whose expression is significantly upregulated in lung cancer, and the copy number of these genes is amplified in the genome of patients with lung cancer.">
+		<entity id="s1.e1" charOffset="47-53"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="76-80"
+			type="GENE" text="TBX2" ontology_id="6909"/>
+		<entity id="s1.e3" charOffset="82-86"
+			type="GENE" text="MCM4" ontology_id="4173"/>
+		<entity id="s1.e4" charOffset="88-94"
+			type="GENE" text="SLC2A1" ontology_id="6513"/>
+		<entity id="s1.e5" charOffset="96-101"
+			type="GENE" text="BIRC5" ontology_id="332"/>
+		<entity id="s1.e6" charOffset="107-112"
+			type="GENE" text="CDC20" ontology_id="991"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

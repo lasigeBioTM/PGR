@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28302486">
+	<sentence id="s1" text="We investigated this issue by analyzing the expression patterns of APP, APP-processing secretases, and APP metabolites in mitochondria separated from human neuroblastoma SH-SY5Y cells and those expressing Swedish mutant APP.">
+		<entity id="s1.e1" charOffset="67-70"
+			type="GENE" text="APP" ontology_id="351"/>
+		<entity id="s1.e2" charOffset="156-169"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

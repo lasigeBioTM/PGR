@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27894866">
+	<sentence id="s1" text="Aberrant expression of the sodium channel gene (sodium ion transport) has been proposed to disrupt cardiac action potential and cause human cardiac arrhythmias, but the mechanisms of SCN5A gene regulation and dysregulation still remain largely unexplored.">
+		<entity id="s1.e1" charOffset="48-68"
+			type="GO" text="sodium ion transport" ontology_id="GO_0006814"/>
+		<entity id="s1.e2" charOffset="140-159"
+			type="HP" text="cardiac arrhythmias" ontology_id="HP_0011675"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

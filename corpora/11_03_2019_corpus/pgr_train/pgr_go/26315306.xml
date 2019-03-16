@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26315306">
+	<sentence id="s1" text="Our results demonstrated that SelM may have an important role in protecting against oxidative cellular protein catabolic process in the brain of chicken, which might shed T cell costimulation on the role of SelM in human neurodegenerative disease.">
+		<entity id="s1.e1" charOffset="94-128"
+			type="GO" text="cellular protein catabolic process" ontology_id="GO_0044257"/>
+		<entity id="s1.e2" charOffset="171-191"
+			type="GO" text="T cell costimulation" ontology_id="GO_0031295"/>
+		<entity id="s1.e3" charOffset="206-231"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

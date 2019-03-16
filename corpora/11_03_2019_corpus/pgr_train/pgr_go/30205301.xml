@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30205301">
+	<sentence id="s1" text="The studied CVD biomarkers include positive regulation of cytokine-mediated signaling pathway receptor tyrosine kinase, apolipoproteins, cholesterol, C-reactive protein (positive regulation of gene expression), D-dimer, fibrinogen (histone glutamine methylation), glucose, insulin, interleukins, lipoproteins, myoglobin, N-terminal pro-B-type natriuretic peptide (BNP), tumor necrosis factor alpha (TNF-α) and troponins (cell-substrate junction assembly) on electrochemical transduction format.">
+		<entity id="s1.e1" charOffset="35-93"
+			type="GO" text="positive regulation of cytokine-mediated signaling pathway" ontology_id="GO_0001961"/>
+		<entity id="s1.e2" charOffset="170-208"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e3" charOffset="232-261"
+			type="GO" text="histone glutamine methylation" ontology_id="GO_1990258"/>
+		<entity id="s1.e4" charOffset="309-314"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="421-453"
+			type="GO" text="cell-substrate junction assembly" ontology_id="GO_0007044"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

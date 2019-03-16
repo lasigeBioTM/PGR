@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26327442">
+	<sentence id="s1" text="Mutations in Ankyrin repeat and sterile alpha motif domain containing 6 (biological_process) play a causative role in renal cyst formation in the PKD/Mhm(cy/+) rat model of polycystic kidney disease and in nephronophthisis in humans.">
+		<entity id="s1.e1" charOffset="73-91"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="118-128"
+			type="HP" text="renal cyst" ontology_id="HP_0000107"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="A network of protein partners of biological_process is emerging and their functional characterization provides important clues to understand the role of ANKS6 in renal biology and in mechanisms involved in the formation of renal cysts.">
+		<entity id="s2.e1" charOffset="33-51"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e2" charOffset="223-233"
+			type="HP" text="renal cyst" ontology_id="HP_0000107"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

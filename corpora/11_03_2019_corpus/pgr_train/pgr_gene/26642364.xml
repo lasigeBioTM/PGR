@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26642364">
+	<sentence id="s1" text="Here, we have described a homozygous missense variant (c.602CAAAAT, p.S201F) in POPDC1, identified by whole-exome sequencing, in a family of 4 with cardiac arrhythmia and limb-girdle muscular dystrophy (LGMD).">
+		<entity id="s1.e1" charOffset="80-86"
+			type="GENE" text="POPDC1" ontology_id="11149"/>
+		<entity id="s1.e2" charOffset="148-166"
+			type="HP" text="cardiac arrhythmia" ontology_id="HP_0011675"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our study therefore identifies POPDC1 as a disease gene causing a very rare autosomal recessive cardiac arrhythmia and LGMD, expanding the genetic causes of this heterogeneous group of inherited rare diseases">
+		<entity id="s2.e1" charOffset="31-37"
+			type="GENE" text="POPDC1" ontology_id="11149"/>
+		<entity id="s2.e2" charOffset="76-95"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="96-114"
+			type="HP" text="cardiac arrhythmia" ontology_id="HP_0011675"/>
+		<entity id="s2.e4" charOffset="162-175"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

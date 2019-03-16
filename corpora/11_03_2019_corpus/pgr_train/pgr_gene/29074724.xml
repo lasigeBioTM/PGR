@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29074724">
+	<sentence id="s1" text="Knock-in of nonphosphorylatable PRPS1/2 mutants, which have uninhibited activity, in brain tumor cells under energy stress exhausts cellular ATP and NADPH and increases reactive oxygen species levels, thereby promoting cell apoptosis.">
+		<entity id="s1.e1" charOffset="32-37"
+			type="GENE" text="PRPS1" ontology_id="5631"/>
+		<entity id="s1.e2" charOffset="91-96"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our findings highlight the significance of recalibrating tumor cell metabolism by fine-tuning nucleotide and NAD synthesis in tumor growth.<b>Significance:</b> Our findings elucidate an instrumental function of AMPK in direct regulation of nucleic acid and NAD synthesis in tumor cells in response to energy stress.">
+		<entity id="s2.e1" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="211-215"
+			type="GENE" text="AMPK" ontology_id="5563"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="AMPK phosphorylates PRPS1/2, converts PRPS1/2 hexamers to monomers, and inhibits PRPS1/2 activity and subsequent nucleotide and NAD synthesis to maintain tumor cell growth and survival.">
+		<entity id="s3.e1" charOffset="0-4"
+			type="GENE" text="AMPK" ontology_id="5563"/>
+		<entity id="s3.e2" charOffset="20-25"
+			type="GENE" text="PRPS1" ontology_id="5631"/>
+		<entity id="s3.e3" charOffset="154-159"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

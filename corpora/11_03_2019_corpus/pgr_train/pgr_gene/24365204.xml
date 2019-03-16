@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24365204">
+	<sentence id="s1" text="As a result, we identified one gene set with a joint effect significantly associated with schizophrenia and gene expression profiling analysis suggested that they were mainly neuro- and immune-related genes, such as glutamatergic gene (GRM5), GABAergic genes (GABRB1, GABARAP) and genes located in the MHC region (HLA-C, TAP2, HIST1H1B).">
+		<entity id="s1.e1" charOffset="36-39"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="90-103"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e3" charOffset="236-240"
+			type="GENE" text="GRM5" ontology_id="2915"/>
+		<entity id="s1.e4" charOffset="260-266"
+			type="GENE" text="GABRB1" ontology_id="2560"/>
+		<entity id="s1.e5" charOffset="268-275"
+			type="GENE" text="GABARAP" ontology_id="11337"/>
+		<entity id="s1.e6" charOffset="314-319"
+			type="GENE" text="HLA-C" ontology_id="3107"/>
+		<entity id="s1.e7" charOffset="321-325"
+			type="GENE" text="TAP2" ontology_id="266629"/>
+		<entity id="s1.e8" charOffset="327-335"
+			type="GENE" text="HIST1H1B" ontology_id="3009"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In our study, we identified a set of susceptibility genes that had been missed in single-marker GWAS, and our findings could promote the study of the genetic mechanisms in schizophrenia.">
+		<entity id="s2.e1" charOffset="30-33"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s2.e2" charOffset="172-185"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

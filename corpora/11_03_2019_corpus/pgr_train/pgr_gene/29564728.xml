@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29564728">
+	<sentence id="s1" text="In subgroup analysis, compared with PD patients with initial symptom of tremor and HCs, the minor allele frequency of NMD3 rs34016896 in PD patients with initial symptoms of rigidity/bradykinesia was significantly lower.">
+		<entity id="s1.e1" charOffset="83-86"
+			type="GENE" text="HCs" ontology_id="54205"/>
+		<entity id="s1.e2" charOffset="92-97"
+			type="GENE" text="minor" ontology_id="8013"/>
+		<entity id="s1.e3" charOffset="118-122"
+			type="GENE" text="NMD3" ontology_id="51068"/>
+		<entity id="s1.e4" charOffset="183-195"
+			type="HP" text="bradykinesia" ontology_id="HP_0002067"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

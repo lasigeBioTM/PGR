@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24662834">
+	<sentence id="s1" text="The A Desintegrin And Metalloproteinase 23 (spermatogenesis) gene is epigenetically silenced in different types of tumors, and silencing is often associated with advanced disease and metastasis.">
+		<entity id="s1.e1" charOffset="44-59"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<entity id="s1.e2" charOffset="115-121"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show that invasive breast tumors exhibit significant spermatogenesis-ITH and that this heterogeneity is critical for tumor growth and metastasis.">
+		<entity id="s2.e1" charOffset="35-41"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="62-77"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<entity id="s2.e3" charOffset="96-109"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e4" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Rather, we observed that, in spermatogenesis-heterotypic environments, ADAM23-negative cells promote tumor growth and metastasis by enhancing the proliferation and invasion of adjacent A23-positive cells through the production of regulation of myelination (Leucine-rich Glioma Inactivated 4) and nitric oxide (NO).">
+		<entity id="s3.e1" charOffset="29-44"
+			type="GO" text="spermatogenesis" ontology_id="GO_0007283"/>
+		<entity id="s3.e2" charOffset="101-106"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="230-255"
+			type="GO" text="regulation of myelination" ontology_id="GO_0031641"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

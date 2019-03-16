@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30396386">
+	<sentence id="s1" text="<i>Background:</i> YAP/TAZ have been reported to be highly expressed in malignant tumors.">
+		<entity id="s1.e1" charOffset="19-22"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s1.e2" charOffset="23-26"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s1.e3" charOffset="82-88"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This research was aimed to study the expression of TAZ/YAP protein in malignant melanoma and to investigate its relationship to the clinicopathology and prognosis of patients with malignant melanoma.">
+		<entity id="s2.e1" charOffset="51-54"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s2.e2" charOffset="55-58"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s2.e3" charOffset="70-88"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Relationship between TAZ/YAP and clinical data of malignant melanoma were analyzed.">
+		<entity id="s3.e1" charOffset="21-24"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s3.e2" charOffset="25-28"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s3.e3" charOffset="50-68"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="<i>Results:</i> The number of positive cells of TAZ and YAP in malignant melanoma tumor tissues was significantly higher than that in melanocytic nevi tissues, and the expression of both proteins was positively correlated with malignant melanoma (r = 0.687, P AAAA0.01); TAZ and YAP protein expression in malignant melanoma tissue was significantly correlated with tumor thickness, invasive depth grade, lymph node metastasis and TNM stages (P AAAA0.05), and increased with TNM staging.">
+		<entity id="s4.e1" charOffset="48-51"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s4.e2" charOffset="56-59"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s4.e3" charOffset="63-81"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<entity id="s4.e4" charOffset="82-87"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e5" charOffset="430-433"
+			type="GENE" text="TNM" ontology_id="10178"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e3"
+		    e2="s4.e5" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p5" e1="s4.e1"
+		    e2="s4.e8" pgr="false"/>
+		<pair id="s4.p6" e1="s4.e8"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="High expression of TAZ/YAP significantly reduced the postoperative survival rate in patients with malignant melanoma.">
+		<entity id="s5.e1" charOffset="19-22"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s5.e2" charOffset="23-26"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s5.e3" charOffset="98-116"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="<i>Conclusion:</i> TAZ/YAP is highly expressed in malignant melanoma tumor tissues.">
+		<entity id="s6.e1" charOffset="19-22"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s6.e2" charOffset="23-26"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s6.e3" charOffset="50-68"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<entity id="s6.e4" charOffset="69-74"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e3"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e2"
+		    e2="s6.e4" pgr="false"/>
+		<pair id="s6.p4" e1="s6.e1"
+		    e2="s6.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="The high expression of TAZ/YAP promotes the progression of malignant melanoma and affects the postoperative survival of patients">
+		<entity id="s7.e1" charOffset="23-26"
+			type="GENE" text="TAZ" ontology_id="25937"/>
+		<entity id="s7.e2" charOffset="27-30"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s7.e3" charOffset="59-77"
+			type="HP" text="malignant melanoma" ontology_id="HP_0002861"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+</document>

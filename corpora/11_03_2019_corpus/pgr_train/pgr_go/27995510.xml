@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27995510">
+	<sentence id="s1" text="A growing body of clinical literature emphasizes the negative regulation of transcription by RNA polymerase II of cerebral edema in early brain injury following aneurysmal subarachnoid hemorrhage (sphingosine biosynthetic process).">
+		<entity id="s1.e1" charOffset="53-110"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e2" charOffset="114-128"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<entity id="s1.e3" charOffset="197-229"
+			type="GO" text="sphingosine biosynthetic process" ontology_id="GO_0046512"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Although cerebral edema is not a universal feature of sphingosine biosynthetic process, it portends a poor clinical course, with quantitative analysis revealing a direct correlation between cerebral edema and poor outcome, including mortality and cognitive deficits.">
+		<entity id="s2.e1" charOffset="9-23"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<entity id="s2.e2" charOffset="54-86"
+			type="GO" text="sphingosine biosynthetic process" ontology_id="GO_0046512"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Here, we review these cellular and molecular mechanisms of global cerebral edema formation in sphingosine biosynthetic process.">
+		<entity id="s3.e1" charOffset="66-80"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<entity id="s3.e2" charOffset="94-126"
+			type="GO" text="sphingosine biosynthetic process" ontology_id="GO_0046512"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Given the importance of edema to the outcome of patients with sphingosine biosynthetic process and its status as a highly modifiable pathological process, a better understanding of cerebral edema in sphingosine biosynthetic process promises to hasten the development of medical therapies to improve outcomes in this frequently devastating disease">
+		<entity id="s4.e1" charOffset="24-29"
+			type="HP" text="edema" ontology_id="HP_0000969"/>
+		<entity id="s4.e2" charOffset="62-94"
+			type="GO" text="sphingosine biosynthetic process" ontology_id="GO_0046512"/>
+		<entity id="s4.e3" charOffset="181-195"
+			type="HP" text="cerebral edema" ontology_id="HP_0002181"/>
+		<pair id="s4.p1" e1="s4.e3"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

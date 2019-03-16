@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24355597">
+	<sentence id="s1" text="Interestingly, REEP1 mutations have been linked to neurodegenerative disorders of upper and lower motor neurons, hereditary spastic paraplegia (HSP) and distal hereditary motor neuropathy type V (dHMN-V).">
+		<entity id="s1.e1" charOffset="15-20"
+			type="GENE" text="REEP1" ontology_id="65055"/>
+		<entity id="s1.e2" charOffset="124-142"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<entity id="s1.e3" charOffset="177-187"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e4" charOffset="188-192"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

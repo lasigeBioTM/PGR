@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26446763">
+	<sentence id="s1" text="Indeed, patients with PCBD1 mutations were shown to suffer hypomagnesemia and MODY5-like diabetes.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="PCBD1" ontology_id="5092"/>
+		<entity id="s1.e2" charOffset="59-73"
+			type="HP" text="hypomagnesemia" ontology_id="HP_0002917"/>
+		<entity id="s1.e3" charOffset="78-83"
+			type="GENE" text="MODY5" ontology_id="6928"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in CNNM2 were shown to cause hypomagnesemia, seizures and intellectual disability.">
+		<entity id="s2.e1" charOffset="13-18"
+			type="GENE" text="CNNM2" ontology_id="54805"/>
+		<entity id="s2.e2" charOffset="39-53"
+			type="HP" text="hypomagnesemia" ontology_id="HP_0002917"/>
+		<entity id="s2.e3" charOffset="55-63"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="68-91"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27908734">
+	<sentence id="s1" text="However, the biological function and mechanism of glyceraldehyde-3-phosphate biosynthetic process in cancer remain largely unknown.">
+		<entity id="s1.e1" charOffset="50-97"
+			type="GO" text="glyceraldehyde-3-phosphate biosynthetic process" ontology_id="GO_0046166"/>
+		<entity id="s1.e2" charOffset="101-107"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we have found that glyceraldehyde-3-phosphate biosynthetic process expression was greatly decreased in clinical phosphatidylinositol phosphorylation samples, positively correlated with overall survival, and negatively associated with histological differentiation, tumor size and organ metastasis.">
+		<entity id="s2.e1" charOffset="34-81"
+			type="GO" text="glyceraldehyde-3-phosphate biosynthetic process" ontology_id="GO_0046166"/>
+		<entity id="s2.e2" charOffset="127-163"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s2.e3" charOffset="246-251"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, overexpression of glyceraldehyde-3-phosphate biosynthetic process led to slowed tumor growth and decreased tumor weight in vivo.">
+		<entity id="s3.e1" charOffset="28-75"
+			type="GO" text="glyceraldehyde-3-phosphate biosynthetic process" ontology_id="GO_0046166"/>
+		<entity id="s3.e2" charOffset="90-95"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Therefore, our data suggested that glyceraldehyde-3-phosphate biosynthetic process functioned as a tumor suppressor in phosphatidylinositol phosphorylation and might serve as a potential therapeutic target for the treatment of HCC">
+		<entity id="s4.e1" charOffset="35-82"
+			type="GO" text="glyceraldehyde-3-phosphate biosynthetic process" ontology_id="GO_0046166"/>
+		<entity id="s4.e2" charOffset="99-104"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="119-155"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

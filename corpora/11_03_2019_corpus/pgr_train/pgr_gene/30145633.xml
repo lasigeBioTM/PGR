@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30145633">
+	<sentence id="s1" text="Bcl2-associated athanogene 3 (BAG3) mutations have been reported to cause the myofibrillar myopathy (MFM) which shows progressive limb muscle weakness, respiratory failure, and cardiomyopathy.">
+		<entity id="s1.e1" charOffset="30-34"
+			type="GENE" text="BAG3" ontology_id="9531"/>
+		<entity id="s1.e2" charOffset="91-99"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e3" charOffset="152-171"
+			type="HP" text="respiratory failure" ontology_id="HP_0002878"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We aimed to find the genetic cause of Korean patients with sensory motor polyneuropathy, myopathy and rigid spine.">
+		<entity id="s2.e1" charOffset="12-16"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s2.e2" charOffset="73-87"
+			type="HP" text="polyneuropathy" ontology_id="HP_0001271"/>
+		<entity id="s2.e3" charOffset="89-97"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We found BAG3 mutation in one patient with neuropathy, myopathy and rigid spine syndrome, and performed electrophysiological study, whole body MRI and muscle biopsy on the patient.">
+		<entity id="s3.e1" charOffset="9-13"
+			type="GENE" text="BAG3" ontology_id="9531"/>
+		<entity id="s3.e2" charOffset="43-53"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e3" charOffset="55-63"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="A de novo heterozygous p.Pro209Leu (c.626CAAAAT) mutation in BAG3 was identified in a female myopathy.">
+		<entity id="s4.e1" charOffset="61-65"
+			type="GENE" text="BAG3" ontology_id="9531"/>
+		<entity id="s4.e2" charOffset="93-101"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="She showed an axonal sensory-motor polyneuropathy like Charcot-Marie-Tooth disease (CMT), myopathy, rigid spine and respiratory dysfunction; however, she did not show any cardiomyopathy, which is a common symptom in BAG3 mutation.">
+		<entity id="s5.e1" charOffset="35-49"
+			type="HP" text="polyneuropathy" ontology_id="HP_0001271"/>
+		<entity id="s5.e2" charOffset="90-98"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s5.e3" charOffset="216-220"
+			type="GENE" text="BAG3" ontology_id="9531"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="We described a BAG3 mutation patient with atypical phenotype of CMT and myopathy, and those are expected to broaden the clinical spectrum of the disease and help to diagnose it">
+		<entity id="s6.e1" charOffset="15-19"
+			type="GENE" text="BAG3" ontology_id="9531"/>
+		<entity id="s6.e2" charOffset="72-80"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+</document>

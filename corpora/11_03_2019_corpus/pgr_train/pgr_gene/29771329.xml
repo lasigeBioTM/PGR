@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29771329">
+	<sentence id="s1" text="Overexpression of Pmp22 in rodent models recapitulates several aspects of neuropathy, and reduction of Pmp22 in such models results in amelioration of the neuropathy phenotype.">
+		<entity id="s1.e1" charOffset="18-23"
+			type="GENE" text="Pmp22" ontology_id="5827"/>
+		<entity id="s1.e2" charOffset="74-84"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

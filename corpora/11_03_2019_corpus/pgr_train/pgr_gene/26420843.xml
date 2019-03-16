@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26420843">
+	<sentence id="s1" text="Vestibular sensory-evoked potentials demonstrate severe to profound vestibular deficits in Dfnb31(neo/neo) and Dfnb31(wi/wi) mice.">
+		<entity id="s1.e1" charOffset="59-67"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s1.e2" charOffset="125-129"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Because Dfnb31(wi/wi) and Dfnb31(neo/neo) mice faithfully recapitulate hearing and vision symptoms in patients, our findings of vestibular dysfunction in these Dfnb31 mutants raise the question of whether DFNB31-deficient patients may acquire vestibular as well as hearing and vision loss.">
+		<entity id="s2.e1" charOffset="42-46"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="116-120"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s2.e3" charOffset="128-150"
+			type="HP" text="vestibular dysfunction" ontology_id="HP_0001751"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

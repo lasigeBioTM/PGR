@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22936811">
+	<sentence id="s1" text="We also functionally characterized two CaBP4 mutants that are associated with a congenital variant of human night blindness and other closely related nonstationary retinal diseases.">
+		<entity id="s1.e1" charOffset="39-44"
+			type="GENE" text="CaBP4" ontology_id="57010"/>
+		<entity id="s1.e2" charOffset="114-123"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<entity id="s1.e3" charOffset="164-180"
+			type="HP" text="retinal diseases" ontology_id="HP_0000479"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

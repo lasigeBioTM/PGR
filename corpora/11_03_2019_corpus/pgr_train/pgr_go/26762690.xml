@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26762690">
+	<sentence id="s1" text="Extensive glycosaminoglycan catabolic process gene deletions were identified in four patients; using DNA microarray analysis two patients showed the loss of the entire regulation of gene expression gene, and epilepsy developed in only one of them.">
+		<entity id="s1.e1" charOffset="10-45"
+			type="GO" text="glycosaminoglycan catabolic process" ontology_id="GO_0006027"/>
+		<entity id="s1.e2" charOffset="168-197"
+			type="GO" text="regulation of gene expression" ontology_id="GO_0010468"/>
+		<entity id="s1.e3" charOffset="183-191"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Wide allelic heterogeneity was noted, with large gene alterations (e.g. glycosaminoglycan catabolic process/IDSP1 gene inversions, partial to extensive IDS deletions, and one chimeric IDS-IDSP1 allele) that occurred at higher frequencies than previously reported (36% vs 18.9-29%).">
+		<entity id="s2.e1" charOffset="13-26"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="72-107"
+			type="GO" text="glycosaminoglycan catabolic process" ontology_id="GO_0006027"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings suggest a wide allelic heterogeneity in Mexican MPSII patients; DNA microarray analysis contributes to further delineation of the resulting phenocardiac muscle tissue development for glycosaminoglycan catabolic process and neighboring loci deletions">
+		<entity id="s3.e1" charOffset="36-49"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s3.e2" charOffset="158-191"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s3.e3" charOffset="196-231"
+			type="GO" text="glycosaminoglycan catabolic process" ontology_id="GO_0006027"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

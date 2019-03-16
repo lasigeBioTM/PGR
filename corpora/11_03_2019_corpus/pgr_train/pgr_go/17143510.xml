@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="17143510">
+	<sentence id="s1" text="The lack of good molecular markers for diagnosis as well as treatment assessment has rendered the hepatocellular carcinoma (phosphatidylinositol phosphorylation) a major challenge in health care.">
+		<entity id="s1.e1" charOffset="98-122"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="124-160"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="An analysis approach combing supervised significant analysis of microarray (SAM), prediction analysis of microarray (protein ubiquitination), and unsupervised hierarchical cluster methodologies statistically determined 211 upregulated and 78 downregulated genes between liver cancer and non-cancer liver tissues, and demonstrated AAAA or = 93% accuracy in classifying the tissue samples.">
+		<entity id="s2.e1" charOffset="117-139"
+			type="GO" text="protein ubiquitination" ontology_id="GO_0016567"/>
+		<entity id="s2.e2" charOffset="276-282"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Numerous genes found in this study were also differentially expressed in human phosphatidylinositol phosphorylation and many other human cancers including breast, prostate and lung cancers, etc., serving as tumor suppressors, promoters, prognostic markers or chemotherapy targets.">
+		<entity id="s3.e1" charOffset="79-115"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s3.e2" charOffset="137-143"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="207-212"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

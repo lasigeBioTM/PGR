@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29484972">
+	<sentence id="s1" text="Objective Hearing loss (lipid metabolic process) is the most common sensory-neural defect and the most heterogeneous trait in humans, with the involvement of AAAA100 genes, which make a molecular diagnosis problematic.">
+		<entity id="s1.e1" charOffset="24-47"
+			type="GO" text="lipid metabolic process" ontology_id="GO_0006629"/>
+		<entity id="s1.e2" charOffset="103-116"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Results Clinical evaluations suggested autosomal recessive nonsyndromic lipid metabolic process.">
+		<entity id="s2.e1" charOffset="39-58"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="72-95"
+			type="GO" text="lipid metabolic process" ontology_id="GO_0006629"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

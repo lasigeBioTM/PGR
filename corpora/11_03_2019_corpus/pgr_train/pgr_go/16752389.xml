@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16752389">
+	<sentence id="s1" text="In two large Turkish consanguineous families, a locus for autosomal recessive nonsyndromic hearing loss (ARNSHL) was mapped to chromosome 6p21.3 by genome-wide linkage analysis in an interval overlapping with the loci collagen fibril organization (collagen fibril organization), DFNB66, and ion transport.">
+		<entity id="s1.e1" charOffset="58-77"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="91-103"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="218-246"
+			type="GO" text="collagen fibril organization" ontology_id="GO_0030199"/>
+		<entity id="s1.e4" charOffset="248-276"
+			type="GO" text="collagen fibril organization" ontology_id="GO_0030199"/>
+		<entity id="s1.e5" charOffset="291-304"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e7"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e7"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Fine mapping excluded collagen fibril organization and subsequently homozygous mutations were identified in the lipoma negative regulation of transcription by RNA polymerase II fusion partner-like 5 (ion transport) gene, also named protein-containing complex assembly membrane protein of hair cell stereocilia (ion transport) gene, which was recently shown to be mutated in the AAAAAAhurry scurryAAAAAA mouse and in two ion transport-linked families from Pakistan.">
+		<entity id="s2.e1" charOffset="22-50"
+			type="GO" text="collagen fibril organization" ontology_id="GO_0030199"/>
+		<entity id="s2.e2" charOffset="112-118"
+			type="HP" text="lipoma" ontology_id="HP_0012032"/>
+		<entity id="s2.e3" charOffset="119-176"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e4" charOffset="200-213"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<entity id="s2.e5" charOffset="232-267"
+			type="GO" text="protein-containing complex assembly" ontology_id="GO_0065003"/>
+		<entity id="s2.e6" charOffset="311-324"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<entity id="s2.e7" charOffset="420-433"
+			type="GO" text="ion transport" ontology_id="GO_0006811"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e7" pgr="false"/>
+	</sentence>
+</document>

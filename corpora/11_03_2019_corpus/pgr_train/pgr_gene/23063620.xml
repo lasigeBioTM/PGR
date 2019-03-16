@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23063620">
+	<sentence id="s1" text="We describe five affected individuals with similar dysmorphic facies, and three of them had either complete situs inversus, dextrocardia, or transposition of the great arteries; similar cardiac abnormalities were previously identified in a mouse mutant for the orthologous Megf8.">
+		<entity id="s1.e1" charOffset="51-68"
+			type="HP" text="dysmorphic facies" ontology_id="HP_0001999"/>
+		<entity id="s1.e2" charOffset="124-136"
+			type="HP" text="dextrocardia" ontology_id="HP_0001651"/>
+		<entity id="s1.e3" charOffset="162-167"
+			type="GENE" text="great" ontology_id="122042"/>
+		<entity id="s1.e4" charOffset="186-207"
+			type="HP" text="cardiac abnormalities" ontology_id="HP_0001627"/>
+		<entity id="s1.e5" charOffset="273-278"
+			type="GENE" text="Megf8" ontology_id="1954"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

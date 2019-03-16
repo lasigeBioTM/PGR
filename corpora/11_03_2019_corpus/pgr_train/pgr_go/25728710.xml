@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25728710">
+	<sentence id="s1" text="In order to investigate whether somatic positive regulation of hematopoietic stem cell proliferation gene mutations play a role in sporadic pediatric myeloproliferative diseases, we performed a mutation screening of a large representative cohort of pediatric acute myeloid leukemia, myeloid leukemia of Down syndrome, and juvenile myelomonocytic leukemia samples and show that gain-of-function THPO mutations are extremely rare in sporadic pediatric myeloproliferative diseases">
+		<entity id="s1.e1" charOffset="40-100"
+			type="GO" text="positive regulation of hematopoietic stem cell proliferation" ontology_id="GO_1902035"/>
+		<entity id="s1.e2" charOffset="131-139"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

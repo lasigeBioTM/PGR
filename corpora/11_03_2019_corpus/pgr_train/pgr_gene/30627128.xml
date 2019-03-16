@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30627128">
+	<sentence id="s1" text="Chronic mucocutaneous candidiasis (CMC) occurs in patients with mutations in genes affecting IL-17-mediated immunity, such as li>STAT3, AIRE, RORC, CARD9, IL12B</i>, and li>IL12RB1</i>, or gain of function (GOF) mutations in li>STAT1</i>.">
+		<entity id="s1.e1" charOffset="8-33"
+			type="HP" text="mucocutaneous candidiasis" ontology_id="HP_0002728"/>
+		<entity id="s1.e2" charOffset="93-98"
+			type="GENE" text="IL-17" ontology_id="3605"/>
+		<entity id="s1.e3" charOffset="136-140"
+			type="GENE" text="AIRE" ontology_id="326"/>
+		<entity id="s1.e4" charOffset="142-146"
+			type="GENE" text="RORC" ontology_id="6097"/>
+		<entity id="s1.e5" charOffset="148-153"
+			type="GENE" text="CARD9" ontology_id="64170"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

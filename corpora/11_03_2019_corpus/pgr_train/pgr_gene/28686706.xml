@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28686706">
+	<sentence id="s1" text="However, all experimental models of electrolytic deep vein thrombosis, tissue factor-induced pulmonary embolism, transient focal brain ischaemic stroke, or skin-wound healing showed largely similar phenotypes between PlgT/T mice and wild-type mice.">
+		<entity id="s1.e1" charOffset="49-69"
+			type="HP" text="deep vein thrombosis" ontology_id="HP_0002625"/>
+		<entity id="s1.e2" charOffset="93-111"
+			type="HP" text="pulmonary embolism" ontology_id="HP_0002204"/>
+		<entity id="s1.e3" charOffset="217-220"
+			type="GENE" text="Plg" ontology_id="5340"/>
+		<entity id="s1.e4" charOffset="224-228"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Coexistence in mice of PlgT/T and Pros1E/E did not affect pulmonary embolism symptoms, compared with those in Pros1E/E mice.">
+		<entity id="s2.e1" charOffset="15-19"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="23-26"
+			type="GENE" text="Plg" ontology_id="5340"/>
+		<entity id="s2.e3" charOffset="58-76"
+			type="HP" text="pulmonary embolism" ontology_id="HP_0002204"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29620629">
+	<sentence id="s1" text="In the PPI network, 2 clusters of VTE genes, including ribosomal protein family genes and NADH family-ubiquinol-cytochrome genes, were identified, such as ribosomal protein L9 (RPL9), RPL5, RPS20, RPL23, and tumor protein p53 (TP53).The nod-like receptor signaling pathway, ribosomal protein family genes, such as RPL9, RPL5, RPS20, and RPL23, and DEG of TP53 may have the potential to be used as targets for diagnosis and treatment of VTE">
+		<entity id="s1.e1" charOffset="177-181"
+			type="GENE" text="RPL9" ontology_id="6133"/>
+		<entity id="s1.e2" charOffset="184-188"
+			type="GENE" text="RPL5" ontology_id="6125"/>
+		<entity id="s1.e3" charOffset="190-195"
+			type="GENE" text="RPS20" ontology_id="6224"/>
+		<entity id="s1.e4" charOffset="197-202"
+			type="GENE" text="RPL23" ontology_id="9349"/>
+		<entity id="s1.e5" charOffset="208-213"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

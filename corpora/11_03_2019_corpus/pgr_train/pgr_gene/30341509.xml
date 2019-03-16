@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30341509">
+	<sentence id="s1" text="Primary hyperoxaluria type 1 (PH1) is a rare but devastating autosomal recessive inherited disease caused by mutations in gene AGXT.">
+		<entity id="s1.e1" charOffset="8-21"
+			type="HP" text="hyperoxaluria" ontology_id="HP_0003159"/>
+		<entity id="s1.e2" charOffset="22-26"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="61-80"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="127-131"
+			type="GENE" text="AGXT" ontology_id="189"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

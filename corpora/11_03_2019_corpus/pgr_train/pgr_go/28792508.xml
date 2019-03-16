@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28792508">
+	<sentence id="s1" text="Here, we tested the positive regulation of microtubule polymerization protein-coding exons in 510 sporadic signal transduction patients in whom response to superoxide, RNA splicing, regulation of transcription, DNA-templated, and negative regulation of protein phosphorylation genes were screened before.">
+		<entity id="s1.e1" charOffset="20-69"
+			type="GO" text="positive regulation of microtubule polymerization" ontology_id="GO_0031116"/>
+		<entity id="s1.e2" charOffset="54-62"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e3" charOffset="63-82"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e4" charOffset="144-166"
+			type="GO" text="response to superoxide" ontology_id="GO_0000303"/>
+		<entity id="s1.e5" charOffset="168-180"
+			type="GO" text="RNA splicing" ontology_id="GO_0008380"/>
+		<entity id="s1.e6" charOffset="182-224"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e7" charOffset="230-276"
+			type="GO" text="negative regulation of protein phosphorylation" ontology_id="GO_0001933"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e2"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our results suggested that variants in positive regulation of microtubule polymerization are not common risk factors for Chinese sporadic signal transduction and that the frequency of variants of unknown significance in the cohort study was 0.39%">
+		<entity id="s2.e1" charOffset="39-88"
+			type="GO" text="positive regulation of microtubule polymerization" ontology_id="GO_0031116"/>
+		<entity id="s2.e2" charOffset="85-93"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="94-113"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

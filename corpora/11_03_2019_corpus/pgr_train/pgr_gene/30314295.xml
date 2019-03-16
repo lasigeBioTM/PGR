@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30314295">
+	<sentence id="s1" text="Molecular genetic tests for episodic ataxia type 2 (EA2) usually target only the specific calcium channel gene (li>CACNA1A</i>) that is known to cause EA2.">
+		<entity id="s1.e1" charOffset="28-36"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s1.e2" charOffset="37-43"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="44-48"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we present a case of a proband with a complex episodic ataxias (EA)/seizure phenotype with an EA-affected father; and an unaffected mother, all negative for li>CACNA1A</i> gene mutations.">
+		<entity id="s2.e1" charOffset="51-59"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s2.e2" charOffset="60-66"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s2.e3" charOffset="73-80"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="86-90"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The trio was studied by whole-exome sequencing to identify candidate genes responsible for causing the complex EA/seizure phenotype.">
+		<entity id="s3.e1" charOffset="4-8"
+			type="GENE" text="trio" ontology_id="7204"/>
+		<entity id="s3.e2" charOffset="114-121"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s3.e3" charOffset="127-131"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="While the li>SCN2A</i> variant is likely to be causal for episodic ataxia, each variant may potentially contribute to the phenotypes observed in this family.">
+		<entity id="s4.e1" charOffset="58-66"
+			type="HP" text="episodic" ontology_id="HP_0025303"/>
+		<entity id="s4.e2" charOffset="67-73"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s4.e3" charOffset="127-131"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

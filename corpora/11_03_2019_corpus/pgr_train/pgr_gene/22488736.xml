@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22488736">
+	<sentence id="s1" text="He has similar clinical findings, including mild facial dysmorphisms and intellectual disability, as other individuals with much larger deletions of the terminus of the long arm of chromosome 14.">
+		<entity id="s1.e1" charOffset="44-48"
+			type="HP" text="mild" ontology_id="HP_0012825"/>
+		<entity id="s1.e2" charOffset="49-68"
+			type="HP" text="facial dysmorphisms" ontology_id="HP_0001999"/>
+		<entity id="s1.e3" charOffset="73-96"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e4" charOffset="174-177"
+			type="GENE" text="arm" ontology_id="80210"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

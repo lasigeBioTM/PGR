@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30231971">
+	<sentence id="s1" text="Squamous cell carcinoma (SCC) can progress to malignant metastatic cancer, including an aggressive subtype known as spindle cell carcinoma (spSCC). spSCC formation involves epithelial-to-mesenchymal transition (EMT), yet the molecular basis of this event remains unknown.">
+		<entity id="s1.e1" charOffset="25-28"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s1.e2" charOffset="67-73"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="211-214"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we show that human spSCC tumours also feature strong nuclear localisation of YAP and overexpression of activated YAP (NLS-YAP-5SA) with Keratin-5 (K5-CreERt) is sufficient to induce rapid formation of both SCC and spSCC in mice.">
+		<entity id="s2.e1" charOffset="27-30"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s2.e2" charOffset="31-38"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="83-86"
+			type="GENE" text="YAP" ontology_id="55249"/>
+		<entity id="s2.e4" charOffset="229-233"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="spSCC tumours arise at sites of epithelial scratch wounding, where tumour-initiating epithelial cells undergo EMT to generate spSCC.">
+		<entity id="s3.e1" charOffset="2-5"
+			type="GENE" text="SCC" ontology_id="6317"/>
+		<entity id="s3.e2" charOffset="6-13"
+			type="HP" text="tumours" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="67-73"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s3.e4" charOffset="110-113"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e6"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

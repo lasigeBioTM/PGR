@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30504367">
+	<sentence id="s1" text="Several important genetic alterations (i.e., mutations, deletions) have been identified to be involved in the initiation and progression of pancreatic cancer, including KRAS and inactivation of tumor suppressors, such as TP53, SMAD4 and CDKN2A.">
+		<entity id="s1.e1" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="169-173"
+			type="GENE" text="KRAS" ontology_id="3845"/>
+		<entity id="s1.e3" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="227-232"
+			type="GENE" text="SMAD4" ontology_id="4089"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, siRNA-based therapeutics face important challenges, including rapid serum degradation, poor tumor cell uptake and cellular uptake, leading to off-target effects.">
+		<entity id="s2.e1" charOffset="34-38"
+			type="GENE" text="face" ontology_id="2178"/>
+		<entity id="s2.e2" charOffset="101-106"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Therefore, there is a great need for the development of safe and effective nanoparticles for better tumor-specific delivery of anti-cancer therapeutics.">
+		<entity id="s3.e1" charOffset="22-27"
+			type="GENE" text="great" ontology_id="122042"/>
+		<entity id="s3.e2" charOffset="100-105"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

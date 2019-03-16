@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24417797">
+	<sentence id="s1" text="The gene responsible for an autosomal recessive Pelizaeus-Merzbacher-like disease called HLD5 is named fam126a (also known as hyccin or drctnnb1a).">
+		<entity id="s1.e1" charOffset="28-47"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="103-110"
+			type="GENE" text="fam126a" ontology_id="84668"/>
+		<entity id="s1.e3" charOffset="126-132"
+			type="GENE" text="hyccin" ontology_id="84668"/>
+		<entity id="s1.e4" charOffset="136-145"
+			type="GENE" text="drctnnb1a" ontology_id="84668"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

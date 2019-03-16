@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803404">
+	<sentence id="s1" text="Single-gene variant analysis showed significant associations of the TT genotype of lipid hydroxylation and the rare GG genotype of transcription-coupled nucleotide-excision repair with bladder cancer susceptibility (OR = 1.34, 95% CI 1.22-1.40, P AAAA 0.0001).">
+		<entity id="s1.e1" charOffset="83-102"
+			type="GO" text="lipid hydroxylation" ontology_id="GO_0002933"/>
+		<entity id="s1.e2" charOffset="118-166"
+			type="GO" text="transcription-coupled nucleotide-excision repair" ontology_id="GO_0006283"/>
+		<entity id="s1.e3" charOffset="180-186"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

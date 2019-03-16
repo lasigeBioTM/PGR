@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27618552">
+	<sentence id="s1" text="Furthermore, we identified the activity of nitric oxide synthase 2 (NOS2, also known as iNOS) originating from the glioma cells as a driving stimulus in the control of microglial caspase-3 activity.">
+		<entity id="s1.e1" charOffset="68-72"
+			type="GENE" text="NOS2" ontology_id="339345"/>
+		<entity id="s1.e2" charOffset="88-92"
+			type="GENE" text="iNOS" ontology_id="51477"/>
+		<entity id="s1.e3" charOffset="115-121"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Repression of glioma NOS2 expression in vivo led to a reduction in both microglia recruitment and tumor expansion, whereas depletion of microglial caspase-3 gene promoted tumor growth.">
+		<entity id="s2.e1" charOffset="14-20"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s2.e2" charOffset="21-25"
+			type="GENE" text="NOS2" ontology_id="339345"/>
+		<entity id="s2.e3" charOffset="98-103"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our results provide evidence that inhibition of the denitrosylation of S-nitrosylated procaspase-3 mediated by the redox protein Trx2 is a part of the microglial pro-tumoral activation pathway initiated by glioma cancer cells">
+		<entity id="s3.e1" charOffset="129-133"
+			type="GENE" text="Trx2" ontology_id="9757"/>
+		<entity id="s3.e2" charOffset="166-171"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="206-212"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s3.e4" charOffset="213-219"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

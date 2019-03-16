@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28422131">
+	<sentence id="s1" text="The encoded protein, complexin 1, is crucially involved in neuronal synaptic regulation, and homozygous Cplx1 knockout mice have the earliest known onset of ataxia seen in a mouse model.">
+		<entity id="s1.e1" charOffset="104-109"
+			type="GENE" text="Cplx1" ontology_id="10815"/>
+		<entity id="s1.e2" charOffset="119-123"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e3" charOffset="157-163"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Recently, a homozygous truncating variant in CPLX1 was suggested to be causative for migrating epilepsy and structural brain abnormalities.">
+		<entity id="s2.e1" charOffset="45-50"
+			type="GENE" text="CPLX1" ontology_id="10815"/>
+		<entity id="s2.e2" charOffset="95-103"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="However, the currently limited knowledge on CPLX1 suggests that loss of complexin 1 function may lead to a complex but variable clinical phenotype, and our findings encourage further investigations of CPLX1 in patients with ID, developmental delay and myoclonic epilepsy to unravel the phenotypic spectrum of carriers of CPLX1 variants">
+		<entity id="s3.e1" charOffset="44-49"
+			type="GENE" text="CPLX1" ontology_id="10815"/>
+		<entity id="s3.e2" charOffset="228-247"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s3.e3" charOffset="262-270"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

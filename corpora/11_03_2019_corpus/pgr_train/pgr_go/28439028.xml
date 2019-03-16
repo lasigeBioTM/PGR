@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28439028">
+	<sentence id="s1" text="Hereditary sensory and autonomic neuropathy cardiac muscle tissue development III, or familial dysautonomia [FD; Online Mendelian Inheritance in Man (OMIM) 223900], affects the development and long-term viability of neurons in the peripheral nervous system (PNS) and retina.">
+		<entity id="s1.e1" charOffset="33-43"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e2" charOffset="44-77"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

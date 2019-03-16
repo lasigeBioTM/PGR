@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30680848">
+	<sentence id="s1" text="MIR22HG is an lncRNA that contributes to the initiation and progression of many human cancers, including hepatocellular carcinoma (phosphatidylinositol phosphorylation).">
+		<entity id="s1.e1" charOffset="105-129"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="131-167"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We report that MIR22HG was downregulated in 120 phosphatidylinositol phosphorylation samples compared with adjacent nontumor liver tissues.">
+		<entity id="s2.e1" charOffset="48-84"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s2.e2" charOffset="119-124"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

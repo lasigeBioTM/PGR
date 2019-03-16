@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30078471">
+	<sentence id="s1" text="Differently from other digestive malignancies, gastric cancer (GC) carcinogenesis seems more heterogeneous and unclear.">
+		<entity id="s1.e1" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="63-65"
+			type="GENE" text="GC" ontology_id="2638"/>
+		<entity id="s1.e3" charOffset="93-106"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This entails failing in identification of reliable serum tumor markers for screening early GC (EGC) as well as persisting ominous prognosis of this disease.">
+		<entity id="s2.e1" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="91-93"
+			type="GENE" text="GC" ontology_id="2638"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the case of GC, in fact, several cytological and molecular works have already demonstrated GJ to be an interesting biological material for improving clinicopathologic and prognostic knowledge of this cancer.">
+		<entity id="s3.e1" charOffset="15-17"
+			type="GENE" text="GC" ontology_id="2638"/>
+		<entity id="s3.e2" charOffset="22-26"
+			type="GENE" text="fact" ontology_id="11198"/>
+		<entity id="s3.e3" charOffset="203-209"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

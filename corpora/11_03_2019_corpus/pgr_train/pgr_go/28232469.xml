@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28232469">
+	<sentence id="s1" text="Despite the identification of several oncogenic driver mutations leading to constitutive JAK-cholesterol metabolic process activation, the cellular and molecular biology of myeloproliferative neoplasms (proteolysis) remains incompletely understood.">
+		<entity id="s1.e1" charOffset="93-122"
+			type="GO" text="cholesterol metabolic process" ontology_id="GO_0008203"/>
+		<entity id="s1.e2" charOffset="192-201"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="203-214"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our results reveal a novel genetic biological_process-like mouse model and identify a tumor suppressor role for li>NOL3</i> in the pathogenesis of myeloid malignancies">
+		<entity id="s2.e1" charOffset="35-53"
+			type="GO" text="biological_process" ontology_id="GO_0043550"/>
+		<entity id="s2.e2" charOffset="86-91"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

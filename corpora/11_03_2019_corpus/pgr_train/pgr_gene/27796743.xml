@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27796743">
+	<sentence id="s1" text="We report a novel gene duplication syndrome (10q21.2q21.3 microduplication) and present a new evidence for VIPR2 duplication, as a candidate gene for autism.">
+		<entity id="s1.e1" charOffset="107-112"
+			type="GENE" text="VIPR2" ontology_id="7434"/>
+		<entity id="s1.e2" charOffset="150-156"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27206021">
+	<sentence id="s1" text="Congenital dyserythropoietic anemia cardiac muscle tissue development I (chromatin organization) is a rare autosomal recessive disease characterized by macrocytic anemia, ineffective erythropoiesis, and secondary hemochromatosis.">
+		<entity id="s1.e1" charOffset="36-69"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="73-95"
+			type="GO" text="chromatin organization" ontology_id="GO_0006325"/>
+		<entity id="s1.e3" charOffset="89-108"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="153-179"
+			type="HP" text="ineffective erythropoiesis" ontology_id="HP_0010972"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Main complications were due to anemia and ineffective erythropoiesis [osteoporosis (8/9, 89%), cholelithiasis (21/30, 70%), pulmonary arterial hypertension (tyrosine biosynthetic process) (6/25, 24%)] and iron overload [hypothyroidism (9/24, 38%), and diabetes mellitus (6/32, 19%)].">
+		<entity id="s2.e1" charOffset="42-68"
+			type="HP" text="ineffective erythropoiesis" ontology_id="HP_0010972"/>
+		<entity id="s2.e2" charOffset="124-155"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s2.e3" charOffset="157-186"
+			type="GO" text="tyrosine biosynthetic process" ontology_id="GO_0006571"/>
+		<entity id="s2.e4" charOffset="220-234"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

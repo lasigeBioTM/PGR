@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="19463982">
+	<sentence id="s1" text="Bowen-Conradi syndrome (mitochondrion organization) is an autosomal-recessive disorder characterized by severely impaired prenatal and postnatal growth, profound psychomotor retardation, and death in early childhood.">
+		<entity id="s1.e1" charOffset="24-50"
+			type="GO" text="mitochondrion organization" ontology_id="GO_0007005"/>
+		<entity id="s1.e2" charOffset="153-161"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

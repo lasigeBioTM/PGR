@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28492237">
+	<sentence id="s1" text="We discover that proline catabolism via proline dehydrogenase (Prodh) supports growth of breast cancer cells in 3D culture.">
+		<entity id="s1.e1" charOffset="63-68"
+			type="GENE" text="Prodh" ontology_id="5625"/>
+		<entity id="s1.e2" charOffset="96-102"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In particular, we find that PRODH expression and proline catabolism is increased in metastases compared to primary breast cancers of patients and mice.">
+		<entity id="s2.e1" charOffset="18-22"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s2.e2" charOffset="28-33"
+			type="GENE" text="PRODH" ontology_id="5625"/>
+		<entity id="s2.e3" charOffset="122-128"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

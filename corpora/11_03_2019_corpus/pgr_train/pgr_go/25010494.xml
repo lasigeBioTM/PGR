@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25010494">
+	<sentence id="s1" text="Absence epilepsy (AE) is a common cardiac muscle tissue development of genetic gentranscription by RNA polymerase IIlized epilepsy (GGE), particularly in children.">
+		<entity id="s1.e1" charOffset="8-16"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="34-67"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="82-116"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="By creating new Pcnxl2 frameshift alleles using TALEN mutagenesis, we show that Pcnxl2 deficiency is responsible for mitigating the seizure phenocardiac muscle tissue development - making Pcnxl2 the first known modifier gene for absence seizures in any species.">
+		<entity id="s2.e1" charOffset="132-139"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="145-178"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e3" charOffset="237-245"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Together these new findings expand our knowledge of how natural variation modulates seizures, and highlights the feasibility of characterizing and validating modifiers in mouse strains and substrains in the post-genome sequence transcription by RNA polymerase II.">
+		<entity id="s3.e1" charOffset="84-92"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s3.e2" charOffset="228-262"
+			type="GO" text="transcription by RNA polymerase II" ontology_id="GO_0006366"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

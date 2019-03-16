@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26856603">
+	<sentence id="s1" text="Alzheimer's disease (AD) is a serious neurodegenerative disease, and microRNAs (miRNAs) have been linked to its pathogenesis.">
+		<entity id="s1.e1" charOffset="38-63"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="80-83"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

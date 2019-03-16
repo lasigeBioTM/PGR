@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30185235">
+	<sentence id="s1" text="Pediatric refractory epilepsy is a broad phenotypic spectrum with great genetic heterogeneity.">
+		<entity id="s1.e1" charOffset="21-29"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="66-71"
+			type="GENE" text="great" ontology_id="122042"/>
+		<entity id="s1.e3" charOffset="80-93"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Other novel mutations detected in unclassified epilepsy patients involve the SCN8A, CACNA1A, GABRB3, GABRA1, IQSEC2, TSC1, VRK2, ATP1A2, PCDH19, SLC9A6 and CHD2 genes.">
+		<entity id="s2.e1" charOffset="47-55"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="77-82"
+			type="GENE" text="SCN8A" ontology_id="6334"/>
+		<entity id="s2.e3" charOffset="84-91"
+			type="GENE" text="CACNA1A" ontology_id="773"/>
+		<entity id="s2.e4" charOffset="93-99"
+			type="GENE" text="GABRB3" ontology_id="2562"/>
+		<entity id="s2.e5" charOffset="101-107"
+			type="GENE" text="GABRA1" ontology_id="2554"/>
+		<entity id="s2.e6" charOffset="109-115"
+			type="GENE" text="IQSEC2" ontology_id="23096"/>
+		<entity id="s2.e7" charOffset="117-121"
+			type="GENE" text="TSC1" ontology_id="7248"/>
+		<entity id="s2.e8" charOffset="123-127"
+			type="GENE" text="VRK2" ontology_id="7444"/>
+		<entity id="s2.e9" charOffset="129-135"
+			type="GENE" text="ATP1A2" ontology_id="477"/>
+		<entity id="s2.e10" charOffset="137-143"
+			type="GENE" text="PCDH19" ontology_id="57526"/>
+		<entity id="s2.e11" charOffset="145-151"
+			type="GENE" text="SLC9A6" ontology_id="10479"/>
+		<entity id="s2.e12" charOffset="156-160"
+			type="GENE" text="CHD2" ontology_id="1106"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="true"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="true"/>
+		<pair id="s2.p9" e1="s2.e1"
+		    e2="s2.e10" pgr="true"/>
+		<pair id="s2.p10" e1="s2.e1"
+		    e2="s2.e11" pgr="true"/>
+		<pair id="s2.p11" e1="s2.e1"
+		    e2="s2.e12" pgr="true"/>
+	</sentence>
+</document>

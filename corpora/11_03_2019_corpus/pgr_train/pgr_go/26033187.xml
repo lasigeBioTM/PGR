@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26033187">
+	<sentence id="s1" text="regulation of signaling receptor activity may enhance the migratory and invasive capabilities of endometrial tumor cells by the phosphorylation of ERK1/2, positive regulation of protein phosphorylation and p38 molecules.">
+		<entity id="s1.e1" charOffset="0-41"
+			type="GO" text="regulation of signaling receptor activity" ontology_id="GO_0010469"/>
+		<entity id="s1.e2" charOffset="109-114"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="155-201"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="regulation of signaling receptor activity is a dysregulated gene involved in the tumorigenesis, bio-pathological features and outcomes of EEC. uPA may be a potential molecule and target for the detection and treatment of EEC.">
+		<entity id="s2.e1" charOffset="0-41"
+			type="GO" text="regulation of signaling receptor activity" ontology_id="GO_0010469"/>
+		<entity id="s2.e2" charOffset="81-86"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

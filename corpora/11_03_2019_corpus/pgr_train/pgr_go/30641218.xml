@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30641218">
+	<sentence id="s1" text="Recently, a few lamellipodium assembly GTPase activating proteins (lamellipodium assemblyGAPs) have been identified as tumor suppressors in some human cancers.">
+		<entity id="s1.e1" charOffset="16-38"
+			type="GO" text="lamellipodium assembly" ontology_id="GO_0007186"/>
+		<entity id="s1.e2" charOffset="100-105"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The present study aimed to explore actin filament organization expression in cervical cancer and the possible function in tumor progression.">
+		<entity id="s2.e1" charOffset="35-62"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s2.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="122-127"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="actin filament organization expression in cervical cancer cell lines was assessed by RT-PCR and Western blotting.">
+		<entity id="s3.e1" charOffset="0-27"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s3.e2" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="actin filament organization expression in cervical cancer tissues and normal tissues was assessed by immunohistochemistry.">
+		<entity id="s4.e1" charOffset="0-27"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s4.e2" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Here, we showed lower expression of actin filament organization in cell lines and human cervical cancer samples.">
+		<entity id="s5.e1" charOffset="36-63"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s5.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Manipulation of actin filament organization affected cell proliferation in vitro and tumor growth in vivo.">
+		<entity id="s6.e1" charOffset="16-43"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s6.e2" charOffset="85-90"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Furthermore, the phosphorylation of positive regulation of protein phosphorylation was enhanced in actin filament organization silencing cervical cancer cells.">
+		<entity id="s7.e1" charOffset="36-82"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s7.e2" charOffset="56-83"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s7.e3" charOffset="103-109"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s8" text="Stepwise investigations demonstrated that actin filament organization suppressed malignant phenotype of cervical cancer cells via inhibiting PI3K/positive regulation of protein phosphorylation signaling pathway.">
+		<entity id="s8.e1" charOffset="42-69"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s8.e2" charOffset="113-119"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s8.e3" charOffset="146-192"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e2"
+		    e2="s8.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s9" text="These results reveal that actin filament organization functions as a tumor suppressor in cervical cancer that suppresses tumor growth, at least partly, through inhibition of PI3K/positive regulation of protein phosphorylation signaling and up-regulation of P21 and P27 expression">
+		<entity id="s9.e1" charOffset="26-53"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s9.e2" charOffset="69-74"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s9.e3" charOffset="98-104"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s9.e4" charOffset="179-225"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+		<pair id="s9.p2" e1="s9.e2"
+		    e2="s9.e4" pgr="true"/>
+		<pair id="s9.p3" e1="s9.e1"
+		    e2="s9.e3" pgr="false"/>
+		<pair id="s9.p4" e1="s9.e6"
+		    e2="s9.e3" pgr="true"/>
+	</sentence>
+</document>

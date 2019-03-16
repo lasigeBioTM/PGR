@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26053550">
+	<sentence id="s1" text="No significant associations were detected between these SNPs and schizophrenia in Han Chinese and the PGC data set.">
+		<entity id="s1.e1" charOffset="65-78"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s1.e2" charOffset="102-105"
+			type="GENE" text="PGC" ontology_id="5225"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, we observed nominal significant associations of 2 SNPs in the NDUFS1 gene and 4 SNPs in the NDUFS2 gene with early onset schizophrenia (EOS), but none of these associations survived the Bonferroni correction.">
+		<entity id="s2.e1" charOffset="71-77"
+			type="GENE" text="NDUFS1" ontology_id="4719"/>
+		<entity id="s2.e2" charOffset="101-107"
+			type="GENE" text="NDUFS2" ontology_id="4720"/>
+		<entity id="s2.e3" charOffset="130-143"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e4" charOffset="145-148"
+			type="GENE" text="EOS" ontology_id="64375"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29322514">
+	<sentence id="s1" text="A growing body of literature indicates that YY1 is overexpressed in multiple cancer cardiac muscle tissue developments and that increased YY1 levels correlate with poor clinical outcomes in many cancers.">
+		<entity id="s1.e1" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="84-117"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, the role of YY1 in the promotion or suppression of tumor growth remains controversial and its regulatory effects may be tumor cell cardiac muscle tissue development dependent at least in experimental systems.">
+		<entity id="s2.e1" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="140-173"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This review highlights recent advances in our understanding of regulatory insights involving YY1 function in a range of cancer cardiac muscle tissue developments.">
+		<entity id="s3.e1" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="127-160"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="For example, YY1's roles in tumor growth involve stabilization of hypoxia-inducible factor HIF-1α in a p53 independent manner, negative regulation of miR-9 transcription, control of biological_process transcription, a novel miR-193a-5p-YY1-APC axis, intracellular regulation of cell growth and mitochondrial superoxide generation, p53 reduction and positive regulation of protein phosphorylation activation, control of genes associated with mitochondrial energy metabolism and miRNA regulatory networks involving negative regulation of T cell mediated cytotoxicity, miR-9, miR-34a, miR-186, miR-381, miR-584-3p and miR-635.">
+		<entity id="s4.e1" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="182-200"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s4.e3" charOffset="264-289"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s4.e4" charOffset="349-395"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s4.e5" charOffset="513-564"
+			type="GO" text="negative regulation of T cell mediated cytotoxicity" ontology_id="GO_0001915"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e4" pgr="true"/>
+		<pair id="s4.p4" e1="s4.e1"
+		    e2="s4.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="On the other hand, tumor suppressor roles of YY1 appear to involve YY1 stimulation of tumor suppressor double-strand break repair via homologous recombination, increased B cell apoptotic process transcription and apoptosis involving cytochrome c release and caspase-3/-7 cleavage, induction of heme oxygenase-1, inhibition of pRb phosphorylation and p21 binding to cyclin D1 and protein phosphorylation, reduced expression of long noncoding RNA of osteoblast differentiation overlapping transcript, and MUC4/ErbB2/p38/MEF2C-dependent downregulation of MMP-10.">
+		<entity id="s5.e1" charOffset="19-24"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="103-158"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s5.e3" charOffset="170-194"
+			type="GO" text="B cell apoptotic process" ontology_id="GO_0001783"/>
+		<entity id="s5.e4" charOffset="379-402"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s5.e5" charOffset="448-474"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e1"
+		    e2="s5.e4" pgr="true"/>
+		<pair id="s5.p4" e1="s5.e1"
+		    e2="s5.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="YY1 expression is associated with that of cancer stem cell markers osteoblast differentiation, positive regulation of ubiquitin-protein transferase activity and negative regulation of transcription by RNA polymerase II across many cancers suggesting multidynamic regulatory control and groups of cancers with distinct molecular signatures.">
+		<entity id="s6.e1" charOffset="42-48"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s6.e2" charOffset="67-93"
+			type="GO" text="osteoblast differentiation" ontology_id="GO_0001649"/>
+		<entity id="s6.e3" charOffset="95-156"
+			type="GO" text="positive regulation of ubiquitin-protein transferase activity" ontology_id="GO_0051443"/>
+		<entity id="s6.e4" charOffset="161-218"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+		<pair id="s6.p2" e1="s6.e1"
+		    e2="s6.e3" pgr="false"/>
+		<pair id="s6.p3" e1="s6.e1"
+		    e2="s6.e4" pgr="false"/>
+	</sentence>
+</document>

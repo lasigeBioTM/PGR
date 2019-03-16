@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24273168">
+	<sentence id="s1" text="The toxic subcellular accumulation of lipids predisposes several human metabolic syndromes, including obesity, cardiac muscle tissue development 2 diabetes, and some forms of neurodegeneration.">
+		<entity id="s1.e1" charOffset="102-109"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e2" charOffset="111-144"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

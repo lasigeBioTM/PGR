@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29370225">
+	<sentence id="s1" text="We genotyped a set of mitochondrial SNPs using Illumina HumanExome arrays and tested for association in the Swedish schizophrenia sample (NAAAA 10,000).">
+		<entity id="s1.e1" charOffset="15-18"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e2" charOffset="116-129"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We conducted the largest association study of mitochondrial DNA variants and schizophrenia but did not find an association that survived multiple testing correction.">
+		<entity id="s2.e1" charOffset="77-90"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<entity id="s2.e2" charOffset="103-107"
+			type="GENE" text="find" ontology_id="81501"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

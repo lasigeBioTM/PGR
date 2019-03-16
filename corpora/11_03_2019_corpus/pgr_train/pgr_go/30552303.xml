@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30552303">
+	<sentence id="s1" text="In contrast, among the factors supporting the resistance in negative regulation of phosphatase activity can be an elevated concentration of MP-positive regulation of receptor-mediated endocytosis which, together with the coexistence of hypertriglyceridemia, may constitute an important mechanism of resistance to clopidogrel">
+		<entity id="s1.e1" charOffset="60-103"
+			type="GO" text="negative regulation of phosphatase activity" ontology_id="GO_0010923"/>
+		<entity id="s1.e2" charOffset="143-195"
+			type="GO" text="positive regulation of receptor-mediated endocytosis" ontology_id="GO_0048260"/>
+		<entity id="s1.e3" charOffset="186-206"
+			type="HP" text="hypertriglyceridemia" ontology_id="HP_0002155"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

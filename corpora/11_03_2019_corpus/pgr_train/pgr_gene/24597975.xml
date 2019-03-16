@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24597975">
+	<sentence id="s1" text="Recently, loss-of-function mutations in BCAP31 were reported in association with severe developmental delay, deafness and dystonia.">
+		<entity id="s1.e1" charOffset="40-46"
+			type="GENE" text="BCAP31" ontology_id="10134"/>
+		<entity id="s1.e2" charOffset="88-107"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="109-117"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e4" charOffset="122-130"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Remarkably, a patient with an isolated deletion at the 3'-end of SLC6A8 had a similar severe phenotype as seen in BCAP31 deficiency but without deafness.">
+		<entity id="s2.e1" charOffset="65-71"
+			type="GENE" text="SLC6A8" ontology_id="6535"/>
+		<entity id="s2.e2" charOffset="114-120"
+			type="GENE" text="BCAP31" ontology_id="10134"/>
+		<entity id="s2.e3" charOffset="144-152"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

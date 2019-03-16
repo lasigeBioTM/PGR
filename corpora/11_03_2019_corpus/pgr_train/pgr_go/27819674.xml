@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27819674">
+	<sentence id="s1" text="Metaplastic breast carcinoma is an aggressive form of invasive breast cancer with histological evidence of epithelial to mesenchymal transition (cytokine production).">
+		<entity id="s1.e1" charOffset="12-28"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<entity id="s1.e2" charOffset="70-76"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="145-164"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we show that cell adhesion (cell adhesion), a secreted matricellular protein of the CCN (CYR61/CTGF/NOV) family, is significantly downregulated in clinical samples of human spindle cell metaplastic breast carcinoma.">
+		<entity id="s2.e1" charOffset="18-31"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s2.e2" charOffset="33-46"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s2.e3" charOffset="195-211"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="cell adhesion<sup>fl/fl</sup>;MMTV-Cre apoptotic process developed invasive high grade mammary carcinomas with bona fide cytokine production, histologically similar to human metaplastic breast carcinomas.">
+		<entity id="s3.e1" charOffset="0-13"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s3.e2" charOffset="39-56"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s3.e3" charOffset="99-118"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<entity id="s3.e4" charOffset="164-180"
+			type="HP" text="breast carcinoma" ontology_id="HP_0003002"/>
+		<pair id="s3.p1" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

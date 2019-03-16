@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22645276">
+	<sentence id="s1" text="We therefore screened patients with hereditary PHPV, as well as bilateral optic nerve aplasia (ONA) or hypoplasia (ONH), for mutations in ATOH7.">
+		<entity id="s1.e1" charOffset="64-73"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e2" charOffset="74-93"
+			type="HP" text="optic nerve aplasia" ontology_id="HP_0012521"/>
+		<entity id="s1.e3" charOffset="138-143"
+			type="GENE" text="ATOH7" ontology_id="220202"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We identified a homozygous ATOH7 mutation (N46H) in a large family with an autosomal recessive PHPV disease trait linked to 10q21, and a heterozygous variant (R65G, p.Arg65Gly) in one of five sporadic ONA patients.">
+		<entity id="s2.e1" charOffset="27-32"
+			type="GENE" text="ATOH7" ontology_id="220202"/>
+		<entity id="s2.e2" charOffset="75-94"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e3" charOffset="192-200"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

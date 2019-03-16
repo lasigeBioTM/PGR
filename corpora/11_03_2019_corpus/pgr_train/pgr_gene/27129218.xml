@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27129218">
+	<sentence id="s1" text="The interaction required the tumor necrosis factor receptor-associated factor domain of USP7 and the central region of UVSSA and was disrupted by an amino acid substitution in the tumor necrosis factor receptor-associated factor-binding motif of UVSSA.">
+		<entity id="s1.e1" charOffset="29-34"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="88-92"
+			type="GENE" text="USP7" ontology_id="7874"/>
+		<entity id="s1.e3" charOffset="119-124"
+			type="GENE" text="UVSSA" ontology_id="57654"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

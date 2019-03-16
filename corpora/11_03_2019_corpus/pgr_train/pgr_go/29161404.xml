@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29161404">
+	<sentence id="s1" text="Mutations in a proline-rich-repeat region (angiotensin maturation) of regulation of macroautophagy cause amyotrophic lateral sclerosis (signal transduction)/frontotemporal dementia (FTD); however, neither the normal functions of the PRR nor impacts of ALS-associated mutations within it are well understood.">
+		<entity id="s1.e1" charOffset="43-65"
+			type="GO" text="angiotensin maturation" ontology_id="GO_0002003"/>
+		<entity id="s1.e2" charOffset="70-98"
+			type="GO" text="regulation of macroautophagy" ontology_id="GO_0016241"/>
+		<entity id="s1.e3" charOffset="119-142"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<entity id="s1.e4" charOffset="136-155"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

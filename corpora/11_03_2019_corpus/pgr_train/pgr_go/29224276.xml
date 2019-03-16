@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29224276">
+	<sentence id="s1" text="<b>Objective:</b> To investigate the significance of negative regulation of osteoblast differentiation in glioma and whether it is involved in the malignant transformation of glioma by epithelial-mesenchymal transition (cytokine production).">
+		<entity id="s1.e1" charOffset="53-102"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s1.e2" charOffset="106-112"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s1.e3" charOffset="220-239"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="<b>Methods:</b> Using immunohistochemical method detected the expression level of negative regulation of osteoblast differentiation in 60 cases of gliomas (including WHO grades Ⅱ, Ⅲ and Ⅳ, each for 20 cases) and 20 cases of non-tumor brain tissues.">
+		<entity id="s2.e1" charOffset="82-131"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s2.e2" charOffset="147-153"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s2.e3" charOffset="228-233"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Real-time fluorescence quantitative PCR and Western blot were used to detect the expression level of negative regulation of osteoblast differentiation mRNA and protein in 61 cases of fresh glioma tissue (WHO grade Ⅱ 16 cases, Ⅲ 21 cases, Ⅳ 24 cases) and 12 cases of adjacent tissues, and the expression levels of E-cadherin, N-cadherin and vimentin were also investigated in fresh glioma tissue.">
+		<entity id="s3.e1" charOffset="101-150"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s3.e2" charOffset="189-195"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="<b>Results:</b> Immunohistochemistry results showed that the percentages of negative regulation of osteoblast differentiation expression in glioma was 90%(54/60) compared with 30%(6/20) in non-tumor brain tissues(li>P</i>AAAA0.01).">
+		<entity id="s4.e1" charOffset="76-125"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s4.e2" charOffset="140-146"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<entity id="s4.e3" charOffset="193-198"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The percentages of negative regulation of osteoblast differentiation expression were 75% (15/20), 95% (19/20), and 100% (20/20) in the WHO gradesⅡ, Ⅲ and Ⅳ gliomas, respectively.">
+		<entity id="s5.e1" charOffset="19-68"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s5.e2" charOffset="156-162"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Real-time fluorescence quantitative PCR and Western blot showed that the expression level of negative regulation of transcription, DNA-templated 2 in gliomas was significantly higher than that in para-cancerous tissues (li>P</i>AAAA0.01), and those in WHO grades Ⅳ and Ⅲ gliomas were significantly higher than that in WHO grade Ⅱ glioma (li>P</i>AAAA0.01).">
+		<entity id="s6.e1" charOffset="93-144"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s6.e2" charOffset="150-156"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Detection of key protein expression in cytokine production by Western blot displayed that the expression of E-cadherin was negatively associated with negative regulation of osteoblast differentiation in glioma (li>r</i>=-0.972, li>P</i>AAAA0.01).">
+		<entity id="s7.e1" charOffset="39-58"
+			type="GO" text="cytokine production" ontology_id="GO_0001816"/>
+		<entity id="s7.e2" charOffset="134-183"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s7.e3" charOffset="187-193"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e3" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="The expression of N-cadherin and vimentin was positively associated with negative regulation of osteoblast differentiation in glioma(li>r</i>=0.971, li>P</i>AAAA0.01; li>r</i>=0.968, li>P</i>AAAA0.01).">
+		<entity id="s8.e1" charOffset="73-122"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s8.e2" charOffset="126-132"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s9" text="<b>Conclusions:</b> The expression of negative regulation of osteoblast differentiation in human glioma is positively correlated with the malignant grade of glioma, which may be involved in the malignant progression of glioma by EMT">
+		<entity id="s9.e1" charOffset="38-87"
+			type="GO" text="negative regulation of osteoblast differentiation" ontology_id="GO_0045668"/>
+		<entity id="s9.e2" charOffset="97-103"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s9.p1" e1="s9.e1"
+		    e2="s9.e2" pgr="false"/>
+	</sentence>
+</document>

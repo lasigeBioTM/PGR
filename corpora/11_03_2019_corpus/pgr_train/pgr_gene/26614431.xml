@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26614431">
+	<sentence id="s1" text="The SNPs rs2124437 (RASGRP3), rs1335022 (GRIK2), rs4512367 (PREX2), rs4748011 (CCDC3), and rs1435218 (LNX1) were analyzed in 500 histopathologically confirmed oral cancers and 500 healthy controls with a minimum of 10 years of tobacco usage.">
+		<entity id="s1.e1" charOffset="20-27"
+			type="GENE" text="RASGRP3" ontology_id="25780"/>
+		<entity id="s1.e2" charOffset="41-46"
+			type="GENE" text="GRIK2" ontology_id="2901"/>
+		<entity id="s1.e3" charOffset="60-65"
+			type="GENE" text="PREX2" ontology_id="80243"/>
+		<entity id="s1.e4" charOffset="79-84"
+			type="GENE" text="CCDC3" ontology_id="83643"/>
+		<entity id="s1.e5" charOffset="102-106"
+			type="GENE" text="LNX1" ontology_id="84708"/>
+		<entity id="s1.e6" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A significant association of the SNPs in oral cancer was observed in RASGRP3 AA (rs2124437) (p AAAA 0.000, OR 1.34, 95 % confidence interval (CI) 1.01-1.76), GRIK2 TT (rs1335022) (p = 0.008, OR 1.58, 95 % CI 1.23-2.03), PREX2 CC (p = 0.008, OR 1.56, 95 % CI 1.15-2.1), and TT (p AAAA 0.000, OR 2.77, 1.68-4.57) genotypes, whereas the heterozygous genotypes showed higher frequencies in controls, i.e., GRIK2 CT (rs1335022) (p = 0.029, OR 0.68, 95 % CI 0.53-0.87) and PREX2 CT (p = 0.004, OR 0.49, 95 % CI 0.37-0.64), indicating protection.">
+		<entity id="s2.e1" charOffset="46-52"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="69-76"
+			type="GENE" text="RASGRP3" ontology_id="25780"/>
+		<entity id="s2.e3" charOffset="158-163"
+			type="GENE" text="GRIK2" ontology_id="2901"/>
+		<entity id="s2.e4" charOffset="220-225"
+			type="GENE" text="PREX2" ontology_id="80243"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

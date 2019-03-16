@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24357125">
+	<sentence id="s1" text="Likely haploinsufficiency of one or several of the 19 genes in the common deleted interval (actin filament organization, post-translational protein modification, double-strand break repair via homologous recombination, protein O-linked glycosylation via serine, nucleobase-containing compound metabolic process, zinc ion transport, biological_process, biological_process, cellular response to DNA damage stimulus, LOC100289511, regulation of alternative mRNA splicing, via spliceosome, bile acid and bile salt transport, eye development, mitochondrial calcium ion transmembrane transport, single fertilizationP1, mitochondrial respiratory chain complex IV assembly, negative regulation of ERK1 and ERK2 cascade, negative regulation of ERK1 and ERK2 cascade-mitochondrial respiratory chain complex IV assembly, single fertilization) was responsible for these manifestations, but apart from eye development, mutations in which cause autosomal recessive Waardenburg anophthalmia syndrome, and actin filament organization, mutations in which are associated with congenital macrothrombocytopenia, no disease associations have so far been reported for the other genes.">
+		<entity id="s1.e1" charOffset="92-119"
+			type="GO" text="actin filament organization" ontology_id="GO_0007015"/>
+		<entity id="s1.e2" charOffset="121-160"
+			type="GO" text="post-translational protein modification" ontology_id="GO_0043687"/>
+		<entity id="s1.e3" charOffset="162-217"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s1.e4" charOffset="219-260"
+			type="GO" text="protein O-linked glycosylation via serine" ontology_id="GO_0018242"/>
+		<entity id="s1.e5" charOffset="262-310"
+			type="GO" text="nucleobase-containing compound metabolic process" ontology_id="GO_0006139"/>
+		<entity id="s1.e6" charOffset="312-330"
+			type="GO" text="zinc ion transport" ontology_id="GO_0006829"/>
+		<entity id="s1.e7" charOffset="332-350"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e8" charOffset="352-370"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e9" charOffset="368-387"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e10" charOffset="372-412"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s1.e11" charOffset="428-484"
+			type="GO" text="regulation of alternative mRNA splicing, via spliceosome" ontology_id="GO_0000381"/>
+		<entity id="s1.e12" charOffset="484-505"
+			type="HP" text="macrothrombocytopenia" ontology_id="HP_0040185"/>
+		<entity id="s1.e13" charOffset="486-519"
+			type="GO" text="bile acid and bile salt transport" ontology_id="GO_0015721"/>
+		<entity id="s1.e14" charOffset="521-536"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e15" charOffset="538-587"
+			type="GO" text="mitochondrial calcium ion transmembrane transport" ontology_id="GO_0006851"/>
+		<entity id="s1.e16" charOffset="589-609"
+			type="GO" text="single fertilization" ontology_id="GO_0007338"/>
+		<entity id="s1.e17" charOffset="599-650"
+			type="GO" text="mitochondrial respiratory chain complex IV assembly" ontology_id="GO_0033617"/>
+		<entity id="s1.e18" charOffset="606-650"
+			type="GO" text="negative regulation of ERK1 and ERK2 cascade" ontology_id="GO_0070373"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e7"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e10"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e11"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e13"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e14"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p13" e1="s1.e15"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p14" e1="s1.e18"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p15" e1="s1.e17"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p16" e1="s1.e16"
+		    e2="s1.e9" pgr="false"/>
+		<pair id="s1.p17" e1="s1.e1"
+		    e2="s1.e12" pgr="false"/>
+		<pair id="s1.p18" e1="s1.e2"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p19" e1="s1.e4"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p20" e1="s1.e6"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p21" e1="s1.e8"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p22" e1="s1.e11"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p23" e1="s1.e14"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p24" e1="s1.e18"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p25" e1="s1.e16"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p26" e1="s1.e19"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p27" e1="s1.e21"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p28" e1="s1.e23"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p29" e1="s1.e25"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p30" e1="s1.e27"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p31" e1="s1.e29"
+		    e2="s1.e34" pgr="false"/>
+		<pair id="s1.p32" e1="s1.e31"
+		    e2="s1.e34" pgr="false"/>
+	</sentence>
+</document>

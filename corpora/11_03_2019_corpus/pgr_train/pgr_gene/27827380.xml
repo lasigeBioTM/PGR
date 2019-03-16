@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27827380">
+	<sentence id="s1" text="While examining pedigrees of JEB patients with LAMA3 mutations, we observed that heterozygous carriers of functional null mutations displayed subtle enamel pitting in the absence of skin fragility or other JEB symptoms.">
+		<entity id="s1.e1" charOffset="47-52"
+			type="GENE" text="LAMA3" ontology_id="3910"/>
+		<entity id="s1.e2" charOffset="182-196"
+			type="HP" text="skin fragility" ontology_id="HP_0001030"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The reported enamel abnormality in LAMA3 mutation carriers could be attributed to a half dose effect of the laminin α3 chain (haploinsufficiency)">
+		<entity id="s2.e1" charOffset="13-31"
+			type="HP" text="enamel abnormality" ontology_id="HP_0000682"/>
+		<entity id="s2.e2" charOffset="35-40"
+			type="GENE" text="LAMA3" ontology_id="3910"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

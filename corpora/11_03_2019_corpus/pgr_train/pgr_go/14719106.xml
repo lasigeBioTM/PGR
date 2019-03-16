@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="14719106">
+	<sentence id="s1" text="Subsequent quantitative PCR experiments confirmed that response to oxidative stress, regulation of mitotic cell cycle, female pregnancy, and an signal transduction by protein phosphorylation (GenBank accession number BF696304) were expressed at significantly higher levels in tumors with metastasis.">
+		<entity id="s1.e1" charOffset="55-83"
+			type="GO" text="response to oxidative stress" ontology_id="GO_0006979"/>
+		<entity id="s1.e2" charOffset="85-117"
+			type="GO" text="regulation of mitotic cell cycle" ontology_id="GO_0007346"/>
+		<entity id="s1.e3" charOffset="119-135"
+			type="GO" text="female pregnancy" ontology_id="GO_0007565"/>
+		<entity id="s1.e4" charOffset="144-190"
+			type="GO" text="signal transduction by protein phosphorylation" ontology_id="GO_0023014"/>
+		<entity id="s1.e5" charOffset="195-201"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

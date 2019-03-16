@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30562637">
+	<sentence id="s1" text="Colorectal cancer cell lines with CHFR methylation demonstrated increased sensitivity to irinotecan.">
+		<entity id="s1.e1" charOffset="11-17"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="34-38"
+			type="GENE" text="CHFR" ontology_id="55743"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

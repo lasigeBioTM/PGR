@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29302025">
+	<sentence id="s1" text="Here, we identify a cause of the autosomal recessive cblC class of inborn errors of vitamin B<sub>12</sub> metabolism that we name AAAAAAepi-cblCAAAAAA.">
+		<entity id="s1.e1" charOffset="33-52"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="53-57"
+			type="GENE" text="cblC" ontology_id="23624"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

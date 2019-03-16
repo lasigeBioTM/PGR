@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28144995">
+	<sentence id="s1" text="In this study, we describe the phenotypic spectrum of distal hereditary motor neuropathy caused by mutations in the small heat shock proteins HSPB1 and HSPB8 and investigate the functional consequences of newly discovered variants.">
+		<entity id="s1.e1" charOffset="54-60"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s1.e2" charOffset="78-88"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s1.e3" charOffset="142-147"
+			type="GENE" text="HSPB1" ontology_id="3315"/>
+		<entity id="s1.e4" charOffset="152-157"
+			type="GENE" text="HSPB8" ontology_id="26353"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Among 510 unrelated patients with distal motor neuropathy, we identified mutations in HSPB1 (28 index patients/510; 5.5%) and HSPB8 (four index patients/510; 0.8%) genes.">
+		<entity id="s2.e1" charOffset="34-40"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s2.e2" charOffset="47-57"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s2.e3" charOffset="86-91"
+			type="GENE" text="HSPB1" ontology_id="3315"/>
+		<entity id="s2.e4" charOffset="126-131"
+			type="GENE" text="HSPB8" ontology_id="26353"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We demonstrate that HSPB1 and HSPB8 mutations are a major cause of inherited motor axonal neuropathy.">
+		<entity id="s3.e1" charOffset="20-25"
+			type="GENE" text="HSPB1" ontology_id="3315"/>
+		<entity id="s3.e2" charOffset="30-35"
+			type="GENE" text="HSPB8" ontology_id="26353"/>
+		<entity id="s3.e3" charOffset="90-100"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="true"/>
+	</sentence>
+</document>

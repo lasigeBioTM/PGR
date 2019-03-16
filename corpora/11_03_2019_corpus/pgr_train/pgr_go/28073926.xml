@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28073926">
+	<sentence id="s1" text="Renpenning syndrome is a group of X-linked intellectual disability syndromes caused by mutations in human polyglutamine-binding protein 1 (activation of innate immune response) gene.">
+		<entity id="s1.e1" charOffset="43-66"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="139-175"
+			type="GO" text="activation of innate immune response" ontology_id="GO_0002218"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

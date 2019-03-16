@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27764096">
+	<sentence id="s1" text="Age-related hearing impairment (ARHI), one of the most common sensory disorders, can be mitigated, but not cured or eliminated.">
+		<entity id="s1.e1" charOffset="12-30"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="32-36"
+			type="GENE" text="ARHI" ontology_id="9077"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The latter SNP lies just outside exon 8 and is highly correlated (r2 = 0.96) with the missense SNP rs5756795 in exon 7 of TRIOBP, a gene previously associated with prelingual nonsyndromic hearing loss.">
+		<entity id="s2.e1" charOffset="122-128"
+			type="GENE" text="TRIOBP" ontology_id="11078"/>
+		<entity id="s2.e2" charOffset="188-200"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We also tested variants within exons of 132 other previously-identified hearing loss genes, and identified two common additional significant SNPs: rs2877561 (synonymous change in ILDR1, p = 6.2x10-5), which replicated in the UK Biobank (p = 0.00057), and had a significant GERA SRT (p = 0.00019) and speech discrimination score (SDS; p = 0.0019); and rs9493627 (missense change in EYA4, p = 0.00011) which replicated in the UK Biobank (p = 0.0095), other GERA groups (p = 0.0080), and had a consistent significant result for SRT (p = 0.041) and suggestive result for SDS (p = 0.081).">
+		<entity id="s3.e1" charOffset="72-84"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s3.e2" charOffset="179-184"
+			type="GENE" text="ILDR1" ontology_id="286676"/>
+		<entity id="s3.e3" charOffset="329-332"
+			type="GENE" text="SDS" ontology_id="51119"/>
+		<entity id="s3.e4" charOffset="381-385"
+			type="GENE" text="EYA4" ontology_id="2070"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

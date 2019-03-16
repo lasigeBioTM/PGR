@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28960803">
+	<sentence id="s1" text="We present two new cases of Warsaw Breakage Syndrome (WABS), an autosomal recessive cohesinopathy, in sisters aged 13 and 11 years who both had compound heterozygous mutations in DDX11.">
+		<entity id="s1.e1" charOffset="54-58"
+			type="GENE" text="WABS" ontology_id="1663"/>
+		<entity id="s1.e2" charOffset="64-83"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The sisters reported here display the distinguishing clinical features of WABS: pre- and post-natal growth restriction, microcephaly, intellectual disability, sensorineural hearing loss with cochlear abnormalities, and facial dysmorphic features.">
+		<entity id="s2.e1" charOffset="74-78"
+			type="GENE" text="WABS" ontology_id="1663"/>
+		<entity id="s2.e2" charOffset="120-132"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e3" charOffset="134-157"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e4" charOffset="173-185"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

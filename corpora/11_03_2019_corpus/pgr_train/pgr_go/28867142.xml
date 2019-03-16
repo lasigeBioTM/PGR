@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28867142">
+	<sentence id="s1" text="By leveraging whole-exome sequencing data on a large family-based ASD cohort, the Simons Simplex Collection, we systematisister chromatid cohesiony evaluated the potential role of PMMs in autism risk.">
+		<entity id="s1.e1" charOffset="121-146"
+			type="GO" text="sister chromatid cohesion" ontology_id="GO_0007062"/>
+		<entity id="s1.e2" charOffset="188-194"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28055971">
+	<sentence id="s1" text="Progression of prostate cancer (PC) to castration-recurrent growth (CRPC) remains dependent on sustained expression and transcriptional activity of the androgen receptor (AR).">
+		<entity id="s1.e1" charOffset="24-30"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="171-173"
+			type="GENE" text="AR" ontology_id="231"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="By comparing the Src-induced AR-cistrome and/or transcriptome in LNCaP to those in CRPC and LuCaP35.1 tumors, we identified an 11-gene Src-regulated CRPC signature consisting of AR-dependent, AR binding site (ARBS)-associated genes whose expression is altered by DHT in LNCaP[Src527F] but not in LNCaP cells.">
+		<entity id="s2.e1" charOffset="17-20"
+			type="GENE" text="Src" ontology_id="6714"/>
+		<entity id="s2.e2" charOffset="29-31"
+			type="GENE" text="AR" ontology_id="231"/>
+		<entity id="s2.e3" charOffset="102-108"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

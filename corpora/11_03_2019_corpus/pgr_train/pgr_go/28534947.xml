@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28534947">
+	<sentence id="s1" text="The review then discusses the diseases associated with positive regulation of cell proliferation‑2, including degeneration of the retina, Sjögren's syndrome, age‑related cataracts, degeneration of the testes, azoospermia, lung cancer, constipation, repair of impaired intestinal mucosa barrier, leukemia, cystic fibrosis, leukoencephalopathy, epilepsy and diabetes mellitus.">
+		<entity id="s1.e1" charOffset="55-96"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s1.e2" charOffset="170-179"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e3" charOffset="209-220"
+			type="HP" text="azoospermia" ontology_id="HP_0000027"/>
+		<entity id="s1.e4" charOffset="227-233"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="322-341"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e6" charOffset="343-351"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

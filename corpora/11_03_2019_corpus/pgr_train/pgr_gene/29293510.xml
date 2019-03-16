@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29293510">
+	<sentence id="s1" text="The objective of this study was to investigate the safety and the tolerability of combined cellular immunotherapy with low-dose cyclophosphamide (CPA) in patients with advanced solid tumors.">
+		<entity id="s1.e1" charOffset="146-149"
+			type="GENE" text="CPA" ontology_id="1357"/>
+		<entity id="s1.e2" charOffset="183-189"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This study targeted a novel tumor-associated antigen, ring finger protein 43 (RNF43).">
+		<entity id="s2.e1" charOffset="28-33"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="78-83"
+			type="GENE" text="RNF43" ontology_id="54894"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Eligible patients were resistant to standard therapy, HLA-A*24:02- or A*02:01-positive and exhibiting high RNF43 expression in their tumor cells.">
+		<entity id="s3.e1" charOffset="107-112"
+			type="GENE" text="RNF43" ontology_id="54894"/>
+		<entity id="s3.e2" charOffset="133-138"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="We successfully showed that the combination of immune cell therapy and CPA was safe, might induce tumor-specific immune responses and clinical efficacy, and was accompanied by a decreased ratio of Tregs in patients with RNF43-positive advanced solid tumors">
+		<entity id="s4.e1" charOffset="71-74"
+			type="GENE" text="CPA" ontology_id="1357"/>
+		<entity id="s4.e2" charOffset="98-103"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="220-225"
+			type="GENE" text="RNF43" ontology_id="54894"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

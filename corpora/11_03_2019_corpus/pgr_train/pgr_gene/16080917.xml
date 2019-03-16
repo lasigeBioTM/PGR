@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="16080917">
+	<sentence id="s1" text="Corneal changes in aniridia-related keratopathy (ARK) include peripheral pannus and epithelial abnormalities, which eventually result in corneal opacity and contribute to visual loss.">
+		<entity id="s1.e1" charOffset="49-52"
+			type="GENE" text="ARK" ontology_id="558"/>
+		<entity id="s1.e2" charOffset="137-152"
+			type="HP" text="corneal opacity" ontology_id="HP_0007957"/>
+		<entity id="s1.e3" charOffset="171-182"
+			type="HP" text="visual loss" ontology_id="HP_0000572"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The corneal abnormalities of Pax6+/- mice provide an excellent model for the corneal changes seen in PAX6+/- humans.">
+		<entity id="s2.e1" charOffset="4-25"
+			type="HP" text="corneal abnormalities" ontology_id="HP_0000481"/>
+		<entity id="s2.e2" charOffset="29-33"
+			type="GENE" text="Pax6" ontology_id="5080"/>
+		<entity id="s2.e3" charOffset="37-41"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e4" charOffset="101-105"
+			type="GENE" text="PAX6" ontology_id="5080"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

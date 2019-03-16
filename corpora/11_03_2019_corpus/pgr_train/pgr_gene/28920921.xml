@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28920921">
+	<sentence id="s1" text="The short-limbed dwarfism metaphyseal chondrodysplasia type Schmid (MCDS) is linked to mutations in type X collagen, which increase ER stress by inducing misfolding of the mutant protein and subsequently disrupting hypertrophic chondrocyte differentiation.">
+		<entity id="s1.e1" charOffset="4-25"
+			type="HP" text="short-limbed dwarfism" ontology_id="HP_0008873"/>
+		<entity id="s1.e2" charOffset="55-59"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In MCDS mice expressing the Col10a1.pN617K mutation, CBZ reduced the MCDS-associated expansion of the growth plate hypertrophic zone, attenuated enhanced expression of ER stress markers such as Bip and Atf4, increased bone growth, and reduced skeletal dysplasia.">
+		<entity id="s2.e1" charOffset="8-12"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="194-197"
+			type="GENE" text="Bip" ontology_id="3309"/>
+		<entity id="s2.e3" charOffset="202-206"
+			type="GENE" text="Atf4" ontology_id="468"/>
+		<entity id="s2.e4" charOffset="243-261"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29046115">
+	<sentence id="s1" text="However, activated T cells and B cells secrete pro-osteoclastogenic factors including receptor activator of Nuclear factor-kappaB (NF-kB) ligand (RANKL), Interleukin (IL)-17A, and tumor necrosis factor (TNF)-α promoting bone loss in inflammatory states such as rheumatoid arthritis.">
+		<entity id="s1.e1" charOffset="146-151"
+			type="GENE" text="RANKL" ontology_id="8600"/>
+		<entity id="s1.e2" charOffset="180-185"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="203-206"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="T cell-produced TNF and IL-17A further contribute to bone loss in hyperparathyroidism, while T cell production of the anabolic Wingless integration site (Wnt) ligand, Wnt10b, promotes bone formation in response to anabolic parathyroid hormone and the immunomodulatory costimulation inhibitor cytotoxic T lymphocyte-associated protein-4-IgG (abatacept).">
+		<entity id="s2.e1" charOffset="16-19"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<entity id="s2.e2" charOffset="66-85"
+			type="HP" text="hyperparathyroidism" ontology_id="HP_0000843"/>
+		<entity id="s2.e3" charOffset="167-173"
+			type="GENE" text="Wnt10b" ontology_id="7480"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

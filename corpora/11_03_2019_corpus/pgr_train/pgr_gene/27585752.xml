@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27585752">
+	<sentence id="s1" text="Besides, previous evidence suggested that AHI1 expression was changed in schizophrenia patients.">
+		<entity id="s1.e1" charOffset="42-46"
+			type="GENE" text="AHI1" ontology_id="54806"/>
+		<entity id="s1.e2" charOffset="73-86"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Furthermore, association signal between AHI1 variants and schizophrenia has been reported in several European samples.">
+		<entity id="s2.e1" charOffset="40-44"
+			type="GENE" text="AHI1" ontology_id="54806"/>
+		<entity id="s2.e2" charOffset="58-71"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In the present study, we first analyzed two expression quantitative trait loci (eQTL) datasets in healthy individuals and investigated the associations of eQTL of AHI1 with schizophrenia in independent European samples.">
+		<entity id="s3.e1" charOffset="163-167"
+			type="GENE" text="AHI1" ontology_id="54806"/>
+		<entity id="s3.e2" charOffset="173-186"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="These results suggested that AHI1 is likely a risk gene for schizophrenia, at least in European populations.">
+		<entity id="s4.e1" charOffset="29-33"
+			type="GENE" text="AHI1" ontology_id="54806"/>
+		<entity id="s4.e2" charOffset="60-73"
+			type="HP" text="schizophrenia" ontology_id="HP_0100753"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

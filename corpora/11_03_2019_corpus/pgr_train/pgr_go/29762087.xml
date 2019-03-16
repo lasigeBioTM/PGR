@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29762087">
+	<sentence id="s1" text="Among the available genomic studies, the key findings in Africa were variants in positive regulation of transcription, DNA-templated (P193H), regulation of histone methylation 677TT, and regulation of histone methylation 1298CC that were associated with atrial septal defect, ventricular septal defect (VSD), Tetralogy of Fallot (negative regulation of transcription by RNA polymerase II), and patent ductus arteriosus phenotypes and 22q.11 deletion, which is associated with negative regulation of transcription by RNA polymerase II.">
+		<entity id="s1.e1" charOffset="81-132"
+			type="GO" text="positive regulation of transcription, DNA-templated" ontology_id="GO_0045893"/>
+		<entity id="s1.e2" charOffset="142-175"
+			type="GO" text="regulation of histone methylation" ontology_id="GO_0031060"/>
+		<entity id="s1.e3" charOffset="198-218"
+			type="HP" text="atrial septal defect" ontology_id="HP_0001631"/>
+		<entity id="s1.e4" charOffset="220-245"
+			type="HP" text="ventricular septal defect" ontology_id="HP_0001629"/>
+		<entity id="s1.e5" charOffset="302-359"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

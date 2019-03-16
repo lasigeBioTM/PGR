@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29328371">
+	<sentence id="s1" text="Despite extensive research on cancer stem cells in colorectal cancer, the impact of stem cell markers on patient survival remains unclear, particularly in those with distant metastasis.">
+		<entity id="s1.e1" charOffset="30-36"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="74-80"
+			type="GENE" text="impact" ontology_id="55364"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we focused on colon cancer with peritoneal metastasis and investigated the association between the expression of CD133, aldehyde dehydrogenase-1 (ALDH1) and leucine-rich repeating G-protein coupled receptor-5 (Lgr5), and disease prognosis.">
+		<entity id="s2.e1" charOffset="35-41"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="161-166"
+			type="GENE" text="ALDH1" ontology_id="216"/>
+		<entity id="s2.e3" charOffset="225-229"
+			type="GENE" text="Lgr5" ontology_id="8549"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The expression of CD133, ALDH1 and Lgr5 was found to be positive in 55.6, 47.2 and 78.9% of the primary tumour samples, respectively.">
+		<entity id="s3.e1" charOffset="25-30"
+			type="GENE" text="ALDH1" ontology_id="216"/>
+		<entity id="s3.e2" charOffset="35-39"
+			type="GENE" text="Lgr5" ontology_id="8549"/>
+		<entity id="s3.e3" charOffset="104-110"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

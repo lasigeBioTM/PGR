@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27480663">
+	<sentence id="s1" text="Recessive mutations in BRAT1 cause lethal neonatal rigidity and multifocal seizure syndrome, a phenotype characterized by neonatal microcephaly, hypertonia, and refractory epilepsy with premature death by age 2 years.">
+		<entity id="s1.e1" charOffset="23-28"
+			type="GENE" text="BRAT1" ontology_id="221927"/>
+		<entity id="s1.e2" charOffset="51-59"
+			type="HP" text="rigidity" ontology_id="HP_0002063"/>
+		<entity id="s1.e3" charOffset="64-74"
+			type="HP" text="multifocal" ontology_id="HP_0030651"/>
+		<entity id="s1.e4" charOffset="75-82"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s1.e5" charOffset="131-143"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e6" charOffset="145-155"
+			type="HP" text="hypertonia" ontology_id="HP_0001276"/>
+		<entity id="s1.e7" charOffset="172-180"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here, we report two affected siblings with compound heterozygous truncating mutations in BRAT1 and intra-familial phenotypic heterogeneity, with a less severe disease course in the female sibling.">
+		<entity id="s2.e1" charOffset="89-94"
+			type="GENE" text="BRAT1" ontology_id="221927"/>
+		<entity id="s2.e2" charOffset="125-138"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This phenotypic variability should be taken into account when treating patients with BRAT1-associated neurodegenerative disease.">
+		<entity id="s3.e1" charOffset="85-90"
+			type="GENE" text="BRAT1" ontology_id="221927"/>
+		<entity id="s3.e2" charOffset="102-127"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Mildly affected individuals with BRAT1 mutations show that BRAT1 must be considered as a cause in childhood refractory epilepsy and microcephaly with survival beyond infancy.">
+		<entity id="s4.e1" charOffset="33-38"
+			type="GENE" text="BRAT1" ontology_id="221927"/>
+		<entity id="s4.e2" charOffset="119-127"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s4.e3" charOffset="132-144"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29680514">
+	<sentence id="s1" text="The increased levels of SELENBP1 and Glycogen synthase kinase 3 subunit α (GSK3α) genes in contrast with reduced levels of B-cell translocation gene 1 (BTG1), human leukocyte antigen DRB1 (HLA-DRB1), heterogeneous nuclear ribonucleoprotein A3 (HNRPA3), and serine/arginine-rich splicing factor 1 (SFRS1) genes have also been reported.">
+		<entity id="s1.e1" charOffset="24-32"
+			type="GENE" text="SELENBP1" ontology_id="8991"/>
+		<entity id="s1.e2" charOffset="152-156"
+			type="GENE" text="BTG1" ontology_id="694"/>
+		<entity id="s1.e3" charOffset="183-187"
+			type="GENE" text="DRB1" ontology_id="129831"/>
+		<entity id="s1.e4" charOffset="200-213"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e5" charOffset="244-250"
+			type="GENE" text="HNRPA3" ontology_id="220988"/>
+		<entity id="s1.e6" charOffset="297-302"
+			type="GENE" text="SFRS1" ontology_id="6426"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

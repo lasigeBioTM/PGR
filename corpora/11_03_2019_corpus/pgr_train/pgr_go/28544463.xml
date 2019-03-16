@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28544463">
+	<sentence id="s1" text="This study also identified a de novo c.3015_3027dup frameshift mutation predicting p.Lys1010Glnfs*57 in neurofilament bundle assembly from a microtubule-based movement family with an atypical clinical symptom of prominent proximal weakness.">
+		<entity id="s1.e1" charOffset="104-133"
+			type="GO" text="neurofilament bundle assembly" ontology_id="GO_0033693"/>
+		<entity id="s1.e2" charOffset="141-167"
+			type="GO" text="microtubule-based movement" ontology_id="GO_0007018"/>
+		<entity id="s1.e3" charOffset="200-208"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Therefore, this study suggests that the lysosome localization loss and translational elongations by the 3' UTR of the neurofilament bundle assembly mutations may be a relatively frequent genetic cause of axonal peripheral neuropathy with the specific characteristics of proximal dominant weakness">
+		<entity id="s2.e1" charOffset="40-61"
+			type="GO" text="lysosome localization" ontology_id="GO_0032418"/>
+		<entity id="s2.e2" charOffset="101-130"
+			type="GO" text="neurofilament bundle assembly" ontology_id="GO_0033693"/>
+		<entity id="s2.e3" charOffset="253-261"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

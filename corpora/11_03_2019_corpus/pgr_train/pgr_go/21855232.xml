@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21855232">
+	<sentence id="s1" text="These tumors often exhibit a plasmablastic morphology, a finding which prompted our interest in looking for phosphorylation fusions in plasma cell neoplasms.">
+		<entity id="s1.e1" charOffset="6-12"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="108-123"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s1.e3" charOffset="147-156"
+			type="HP" text="neoplasms" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We studied 46 cases of extramedullary plasmacytoma by immunostaining with anti-phosphorylation antibody and fluorescence in situ hybridization (superoxide metabolic process) analysis using an ALK break-apart probe and found one case to be ALK protein-positive and demonstrated the disruption of the ALK gene in this case.">
+		<entity id="s2.e1" charOffset="38-50"
+			type="HP" text="plasmacytoma" ontology_id="HP_0011857"/>
+		<entity id="s2.e2" charOffset="79-94"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s2.e3" charOffset="144-172"
+			type="GO" text="superoxide metabolic process" ontology_id="GO_0006801"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This finding expands the lists of the phosphorylation-positive tumors, and phosphorylation-positive extramedullary plasmacytoma may benefit from the treatment of ALK inhibitor in the future">
+		<entity id="s3.e1" charOffset="38-53"
+			type="GO" text="phosphorylation" ontology_id="GO_0016310"/>
+		<entity id="s3.e2" charOffset="63-69"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="103-115"
+			type="HP" text="plasmacytoma" ontology_id="HP_0011857"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

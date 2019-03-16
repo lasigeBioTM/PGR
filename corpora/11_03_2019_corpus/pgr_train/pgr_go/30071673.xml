@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30071673">
+	<sentence id="s1" text="<i>vascular endothelial growth factor receptor signaling pathway</i>, which is a gene encoding the ligand for the vascular endothelial growth factor receptor 3 (negative regulation of transcription by RNA polymerase IIR3/FLT4) and important for lymph vessel development during lymphangiogenesis, has been associated with a specific subtype of primary lymphedema.">
+		<entity id="s1.e1" charOffset="3-64"
+			type="GO" text="vascular endothelial growth factor receptor signaling pathway" ontology_id="GO_0048010"/>
+		<entity id="s1.e2" charOffset="161-218"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="303-308"
+			type="HP" text="edema" ontology_id="HP_0000969"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Through Sanger sequencing of a proband with bilateral congenital pedal edema resembling Milroy disease, we identified a novel mutation (NM_005429.2; c.361+5GAAAAA) in li>vascular endothelial growth factor receptor signaling pathway</i>.">
+		<entity id="s2.e1" charOffset="44-53"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s2.e2" charOffset="71-76"
+			type="HP" text="edema" ontology_id="HP_0000969"/>
+		<entity id="s2.e3" charOffset="170-231"
+			type="GO" text="vascular endothelial growth factor receptor signaling pathway" ontology_id="GO_0048010"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

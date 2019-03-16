@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27389535">
+	<sentence id="s1" text="Using a proteomics screen, we now show that the mitochondrial unfoldase-peptidase complex ATP metabolic processP associates with the oncoprotein protein phosphorylation and the respiratory chain Complex II subunit succinate dehydrogenase B (aerobic respiration) in mitochondria of tumor cells.">
+		<entity id="s1.e1" charOffset="90-111"
+			type="GO" text="ATP metabolic process" ontology_id="GO_0046034"/>
+		<entity id="s1.e2" charOffset="128-151"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e3" charOffset="224-243"
+			type="GO" text="aerobic respiration" ontology_id="GO_0009060"/>
+		<entity id="s1.e4" charOffset="249-254"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Deregulated mitochondrial respiration induced by ATP metabolic processP targeting causes oxidative stress, which in turn reduces tumor cell proliferation, suppresses cell motility, and abolishes metastatic dissemination in vivo.">
+		<entity id="s2.e1" charOffset="49-70"
+			type="GO" text="ATP metabolic process" ontology_id="GO_0046034"/>
+		<entity id="s2.e2" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="proteolysis involved in cellular protein catabolic process is universally overexpressed in primary and metastatic human cancer, correlating with shortened patient survival.">
+		<entity id="s3.e1" charOffset="0-58"
+			type="GO" text="proteolysis involved in cellular protein catabolic process" ontology_id="GO_0051603"/>
+		<entity id="s3.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Therefore, tumors exploit ATP metabolic processP-directed proteostasis to maintain mitochondrial bioenergetics, buffer oxidative stress, and enable metastatic competence.">
+		<entity id="s4.e1" charOffset="11-16"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="26-47"
+			type="GO" text="ATP metabolic process" ontology_id="GO_0046034"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

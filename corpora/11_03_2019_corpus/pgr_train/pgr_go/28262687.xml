@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28262687">
+	<sentence id="s1" text="regulation of transcription, DNA-templated (Immunoglobulin Superfamily 1) gene defects cause central hypothyroidism and macroorchidism.">
+		<entity id="s1.e1" charOffset="0-42"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="93-100"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s1.e3" charOffset="101-115"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s1.e4" charOffset="120-134"
+			type="HP" text="macroorchidism" ontology_id="HP_0000053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Based on a patient with a full deletion of regulation of transcription, DNA-templated clinically followed from neonate to adulthood, we investigated a common pituitary origin for hypothyroidism and macroorchidism, and the role of regulation of transcription, DNA-templated as regulator of pituitary hormone secretion.">
+		<entity id="s2.e1" charOffset="43-85"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e2" charOffset="179-193"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s2.e3" charOffset="198-212"
+			type="HP" text="macroorchidism" ontology_id="HP_0000053"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In conclusion, two relevant molecular mechanisms linked to central hypothyroidism and macroorchidism in regulation of transcription, DNA-templated deficiency are identified, revealing regulation of transcription, DNA-templated as an important regulator of TGFβ/Activin pathways in the pituitary">
+		<entity id="s3.e1" charOffset="59-66"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<entity id="s3.e2" charOffset="67-81"
+			type="HP" text="hypothyroidism" ontology_id="HP_0000821"/>
+		<entity id="s3.e3" charOffset="86-100"
+			type="HP" text="macroorchidism" ontology_id="HP_0000053"/>
+		<entity id="s3.e4" charOffset="104-146"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

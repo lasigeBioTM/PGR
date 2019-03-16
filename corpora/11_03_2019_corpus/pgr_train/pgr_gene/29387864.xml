@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29387864">
+	<sentence id="s1" text="RNA sequencing transcriptome analysis revealed that inflammatory mediators such as tumor necrosis factor (TNF)-α suppressed expression of R-spondin-1 (Rspo1, a critical growth factor for intestinal epithelial cells) in Sirt6-silenced YAMC cells li>in vitro</i>.">
+		<entity id="s1.e1" charOffset="83-88"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="106-109"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<entity id="s1.e3" charOffset="151-156"
+			type="GENE" text="Rspo1" ontology_id="284654"/>
+		<entity id="s1.e4" charOffset="219-224"
+			type="GENE" text="Sirt6" ontology_id="51548"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

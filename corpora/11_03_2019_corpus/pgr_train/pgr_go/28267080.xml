@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28267080">
+	<sentence id="s1" text="Blood and tissue samples from 48 osteosarcoma patients were obtained, and the following polymorphisms were analyzed; folate import across plasma membrane 80GAAAAA, negative regulation of translation 829CAAAAT, regulation of histone methylation 677CAAAAT, MTHFR 1298AAAAAC, and nucleobase-containing compound metabolic process 347CAAAAG.">
+		<entity id="s1.e1" charOffset="33-45"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<entity id="s1.e2" charOffset="117-153"
+			type="GO" text="folate import across plasma membrane" ontology_id="GO_1904447"/>
+		<entity id="s1.e3" charOffset="164-198"
+			type="GO" text="negative regulation of translation" ontology_id="GO_0017148"/>
+		<entity id="s1.e4" charOffset="210-243"
+			type="GO" text="regulation of histone methylation" ontology_id="GO_0031060"/>
+		<entity id="s1.e5" charOffset="277-325"
+			type="GO" text="nucleobase-containing compound metabolic process" ontology_id="GO_0006139"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Even though the role of single nucleotide polymorphisms of nucleobase-containing compound metabolic process in chemotherapy-induced tumor necrosis has not been investigated yet, the nucleobase-containing compound metabolic process 347CAAAAG polymorphism may influence the levels of adenosine after lactation treatment, which may affect the histologic response of osteosarcoma.">
+		<entity id="s2.e1" charOffset="59-107"
+			type="GO" text="nucleobase-containing compound metabolic process" ontology_id="GO_0006139"/>
+		<entity id="s2.e2" charOffset="88-93"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="210-219"
+			type="GO" text="lactation" ontology_id="GO_0007595"/>
+		<entity id="s2.e4" charOffset="275-287"
+			type="HP" text="osteosarcoma" ontology_id="HP_0002669"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29907571">
+	<sentence id="s1" text="Here, we investigated whether synonymous changes could affect expression of the potassium voltage-gated channel subfamily H member 2 (li>KCNH2</i>) gene, encoding the human ether-a-go-go-related gene (hERG) ion channel, which is linked to hereditary cardiac arrhythmia.">
+		<entity id="s1.e1" charOffset="201-205"
+			type="GENE" text="hERG" ontology_id="3757"/>
+		<entity id="s1.e2" charOffset="250-268"
+			type="HP" text="cardiac arrhythmia" ontology_id="HP_0011675"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

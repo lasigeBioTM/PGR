@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27270415">
+	<sentence id="s1" text="Mice with a neuronal deletion of regulation of intracellular cholesterol transport recapitulated the human phenocardiac muscle tissue development, exhibiting seizures and a severe survival defect in adulthood.">
+		<entity id="s1.e1" charOffset="33-82"
+			type="GO" text="regulation of intracellular cholesterol transport" ontology_id="GO_0032383"/>
+		<entity id="s1.e2" charOffset="67-100"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="113-120"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our data support regulation of intracellular cholesterol transport deficiency as a cause of autosomal recessive epileptic encephalopathy">
+		<entity id="s2.e1" charOffset="17-66"
+			type="GO" text="regulation of intracellular cholesterol transport" ontology_id="GO_0032383"/>
+		<entity id="s2.e2" charOffset="92-111"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

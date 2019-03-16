@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="18348268">
+	<sentence id="s1" text="This study supports heterogeneity for CDPX1-like phenotypes and sorting these out will help to define the biological pathway and genetic contributors">
+		<entity id="s1.e1" charOffset="20-33"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="38-43"
+			type="GENE" text="CDPX1" ontology_id="415"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

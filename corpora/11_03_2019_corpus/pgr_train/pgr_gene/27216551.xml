@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27216551">
+	<sentence id="s1" text="Spastic paraplegia (SPG) type 28 is an autosomal recessive SPG caused by mutations in the DDHD1 gene.">
+		<entity id="s1.e1" charOffset="20-23"
+			type="GENE" text="SPG" ontology_id="55764"/>
+		<entity id="s1.e2" charOffset="25-29"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="39-58"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="90-95"
+			type="GENE" text="DDHD1" ontology_id="80821"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We examined a Japanese 54-years-old male patient with autosomal recessive SPG.">
+		<entity id="s2.e1" charOffset="54-73"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="74-77"
+			type="GENE" text="SPG" ontology_id="55764"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Through the examination of 48 candidate genes known to be responsible for autosomal recessive SPG, we identified a novel homozygous 4-bp deletion, c.914_917delGTAA, p.Ser305Ilefs*2 in exon2 of the DDHD1 gene encoding phosphatidic acid-preferring phospholipase A1 (PA-PLA1).">
+		<entity id="s3.e1" charOffset="74-93"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s3.e2" charOffset="94-97"
+			type="GENE" text="SPG" ontology_id="55764"/>
+		<entity id="s3.e3" charOffset="197-202"
+			type="GENE" text="DDHD1" ontology_id="80821"/>
+		<entity id="s3.e4" charOffset="264-271"
+			type="GENE" text="PA-PLA1" ontology_id="80821"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+	</sentence>
+</document>

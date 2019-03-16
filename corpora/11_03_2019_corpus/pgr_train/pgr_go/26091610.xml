@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26091610">
+	<sentence id="s1" text="We generated a transgenic rat strain with a missense mutation in V286L (V286L-TG), in the gene encoding the neuronal nicotinic acetylcholine receptor β2 subunit (response to hypoxia) found in patients with autosomal dominant nocturnal frontal negative regulation of protein kinase activity epilepsy (ADNFLE).">
+		<entity id="s1.e1" charOffset="162-181"
+			type="GO" text="response to hypoxia" ontology_id="GO_0001666"/>
+		<entity id="s1.e2" charOffset="225-234"
+			type="HP" text="nocturnal" ontology_id="HP_0025301"/>
+		<entity id="s1.e3" charOffset="243-289"
+			type="GO" text="negative regulation of protein kinase activity" ontology_id="GO_0006469"/>
+		<entity id="s1.e4" charOffset="248-256"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To confirm that V286L-TG rats exhibit seizures similar to those observed in humans, gene expression patterns and behavioral phenocardiac muscle tissue developments were analyzed.">
+		<entity id="s2.e1" charOffset="38-46"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e2" charOffset="129-162"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="This seizure cardiac muscle tissue development is similar to AAAAAAparoxysmal arousalsAAAAAA that are observed in human ADNFLE.">
+		<entity id="s3.e1" charOffset="5-12"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<entity id="s3.e2" charOffset="13-46"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

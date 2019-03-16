@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29179176">
+	<sentence id="s1" text="Chorea-acanthocytosis (ChAc), a neurodegenerative disease, results from loss-of-function-mutations of the chorein-encoding gene VPS13A.">
+		<entity id="s1.e1" charOffset="23-27"
+			type="GENE" text="ChAc" ontology_id="23230"/>
+		<entity id="s1.e2" charOffset="32-57"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Affected patients suffer from a progressive movement disorder including chorea, parkinsonism, dystonia, tongue protrusion, dysarthria, dysphagia, tongue and lip biting, gait impairment, progressive distal muscle wasting, weakness, epileptic seizures, cognitive impairment, and behavioral changes.">
+		<entity id="s2.e1" charOffset="44-61"
+			type="HP" text="movement disorder" ontology_id="HP_0100022"/>
+		<entity id="s2.e2" charOffset="72-78"
+			type="HP" text="chorea" ontology_id="HP_0002072"/>
+		<entity id="s2.e3" charOffset="80-92"
+			type="HP" text="parkinsonism" ontology_id="HP_0001300"/>
+		<entity id="s2.e4" charOffset="94-102"
+			type="HP" text="dystonia" ontology_id="HP_0001332"/>
+		<entity id="s2.e5" charOffset="104-121"
+			type="HP" text="tongue protrusion" ontology_id="HP_0010808"/>
+		<entity id="s2.e6" charOffset="123-133"
+			type="HP" text="dysarthria" ontology_id="HP_0001260"/>
+		<entity id="s2.e7" charOffset="135-144"
+			type="HP" text="dysphagia" ontology_id="HP_0002015"/>
+		<entity id="s2.e8" charOffset="157-160"
+			type="GENE" text="lip" ontology_id="23049"/>
+		<entity id="s2.e9" charOffset="241-249"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s2.e10" charOffset="251-271"
+			type="HP" text="cognitive impairment" ontology_id="HP_0100543"/>
+		<entity id="s2.e11" charOffset="277-295"
+			type="HP" text="behavioral changes" ontology_id="HP_0000708"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e6"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e7"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e8"
+		    e2="s2.e9" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e8"
+		    e2="s2.e10" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e8"
+		    e2="s2.e11" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Chorein, SGK1, ORAI1 and SOCE further confer survival of tumor cells.">
+		<entity id="s3.e1" charOffset="9-13"
+			type="GENE" text="SGK1" ontology_id="6446"/>
+		<entity id="s3.e2" charOffset="15-20"
+			type="GENE" text="ORAI1" ontology_id="84876"/>
+		<entity id="s3.e3" charOffset="57-62"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

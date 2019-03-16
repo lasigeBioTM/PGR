@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30048532">
+	<sentence id="s1" text="The main objective of this study is to provide a brief version of the Spanish translation of the PIP, across a sample consisting of 465 main familial caregivers (85.2% female, n = 396) between 27 and 67 years old ([Formula: see text] = 44.13; SD = 5.35) of paediatric patients between 9 and 18 years old ([Formula: see text] = 12.10, SD = 2.20; 56.8% men, n = 264) diagnosed with diabetes mellitus type I (20.9% of the sample; n = 97), short stature (32.5% of the sample; n = 151), or a chronic respiratory disease (asthma, cystic fibrosis, bronchiolitis obliterans and bronchiectasis) (46.6% of the sample; n = 217).">
+		<entity id="s1.e1" charOffset="97-100"
+			type="GENE" text="PIP" ontology_id="5304"/>
+		<entity id="s1.e2" charOffset="351-354"
+			type="GENE" text="men" ontology_id="8178"/>
+		<entity id="s1.e3" charOffset="398-402"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e4" charOffset="436-449"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30209139">
+	<sentence id="s1" text="Primary ciliary dyskinesia (PCD) can manifest in the neonatal period with severe respiratory distress.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We describe a child with PCD who presented at term with severe neonatal respiratory distress, persistent right upper lobe collapse and failure to thrive who underwent lobectomy prior to the diagnosis of PCD at the age of 3 years.">
+		<entity id="s2.e1" charOffset="25-28"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s2.e2" charOffset="117-121"
+			type="GENE" text="lobe" ontology_id="84335"/>
+		<entity id="s2.e3" charOffset="135-152"
+			type="HP" text="failure to thrive" ontology_id="HP_0001508"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

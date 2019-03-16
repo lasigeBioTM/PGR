@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27124303">
+	<sentence id="s1" text="Disruption of PHF21A has previously been implicated in the causation of intellectual disability (but not aniridia).">
+		<entity id="s1.e1" charOffset="14-20"
+			type="GENE" text="PHF21A" ontology_id="51317"/>
+		<entity id="s1.e2" charOffset="72-95"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

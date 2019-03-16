@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29892959">
+	<sentence id="s1" text="Identification of this mutation reveals the allelic heterogeneity of RDH5 in patients with RP phenotype.">
+		<entity id="s1.e1" charOffset="52-65"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="69-73"
+			type="GENE" text="RDH5" ontology_id="5959"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

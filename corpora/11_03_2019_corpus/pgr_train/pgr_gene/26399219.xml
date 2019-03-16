@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26399219">
+	<sentence id="s1" text="Epithelial-mesenchymal transition (EMT) is a process whereby epithelial cells assume mesenchymal characteristics to facilitate cancer metastasis.">
+		<entity id="s1.e1" charOffset="35-38"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s1.e2" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, EMT also contributes to the initiation and development of primary tumors.">
+		<entity id="s2.e1" charOffset="9-12"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s2.e2" charOffset="75-81"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Prior studies that explored the hypothesis that EMT gene variants contribute to epithelial ovarian carcinoma (EOC) risk have been based on small sample sizes and none have sought replication in an independent population.">
+		<entity id="s3.e1" charOffset="48-51"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<entity id="s3.e2" charOffset="91-108"
+			type="HP" text="ovarian carcinoma" ontology_id="HP_0025318"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

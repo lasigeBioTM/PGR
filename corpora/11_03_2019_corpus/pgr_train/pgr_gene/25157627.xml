@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25157627">
+	<sentence id="s1" text="Though KRT5 has been identified to be the causal gene of DDD, the heterogeneity of this disease was displayed: for example, POFUT1 and POGLUT1 were recently identified and confirmed to be additional pathogenic genes of DDD.">
+		<entity id="s1.e1" charOffset="7-11"
+			type="GENE" text="KRT5" ontology_id="3852"/>
+		<entity id="s1.e2" charOffset="66-79"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="124-130"
+			type="GENE" text="POFUT1" ontology_id="23509"/>
+		<entity id="s1.e4" charOffset="135-142"
+			type="GENE" text="POGLUT1" ontology_id="56983"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="No other novel mutation or this deletion was detected in POFUT1 in a second DDD family and a sporadic DDD case by Sanger Sequencing.">
+		<entity id="s2.e1" charOffset="57-63"
+			type="GENE" text="POFUT1" ontology_id="23509"/>
+		<entity id="s2.e2" charOffset="93-101"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

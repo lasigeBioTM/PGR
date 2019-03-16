@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28755528">
+	<sentence id="s1" text="Triple-negative breast cancer (TNBC), lacking the steroid hormone receptors ER and PR and the oncoprotein signal transduction, is characterized by its aggressive pattern and insensitivity to endocrine and HER2-directed therapy.">
+		<entity id="s1.e1" charOffset="23-29"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="106-125"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Human kallikrein-related peptidases regulation of systemic arterial blood pressure-15 provide a rich source of serine protease-type biomarkers associated with tumor growth and cancer progression for a variety of malignant diseases.">
+		<entity id="s2.e1" charOffset="36-82"
+			type="GO" text="regulation of systemic arterial blood pressure" ontology_id="GO_0003073"/>
+		<entity id="s2.e2" charOffset="159-164"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="176-182"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In this study, recombinant amelogenesis protein was generated and affinity-purified KLK4-directed polyclonal antibody pAb587 established to allow localization of KLK4 protein expression in tumor cell lines and archived formalin-fixed, paraffin-embedded TNBC tumor tissue specimens.">
+		<entity id="s3.e1" charOffset="27-39"
+			type="GO" text="amelogenesis" ontology_id="GO_0097186"/>
+		<entity id="s3.e2" charOffset="189-194"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="For this, amelogenesis protein expression was assessed by immunohistochemistry in primary tumor tissue sections (tissue microarrays) of 188 TNBC patients, mainly treated with anthracycline- or CMF-based polychemotherapy.">
+		<entity id="s4.e1" charOffset="10-22"
+			type="GO" text="amelogenesis" ontology_id="GO_0097186"/>
+		<entity id="s4.e2" charOffset="90-95"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="amelogenesis protein is localized in the cytoplasm of tumor and stroma cells.">
+		<entity id="s5.e1" charOffset="0-12"
+			type="GO" text="amelogenesis" ontology_id="GO_0097186"/>
+		<entity id="s5.e2" charOffset="54-59"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In this patient cohort, elevated stroma cell amelogenesis expression, but not tumor cell KLK4 expression, is predictive for poor disease-free survival by univariate analysis (hazard ratio: 2.26, p=0.001) and multivariable analysis (hazard ratio: 2.12, pAAAA0.01).">
+		<entity id="s6.e1" charOffset="45-57"
+			type="GO" text="amelogenesis" ontology_id="GO_0097186"/>
+		<entity id="s6.e2" charOffset="78-83"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

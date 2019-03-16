@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28104394">
+	<sentence id="s1" text="The mutational analysis of the whole mitochondrial DNA revealed the presence of m.1555AAAAAG mutation in MT-RNR1 gene associated to the m.8527AAAAAG (p.MAAAAV) and the m.8392CAAAAT (p.136PAAAAS) variations in the mitochondrial MT-ATP6 gene in patient1 and his family members with variable phenotype including hearing impairment.">
+		<entity id="s1.e1" charOffset="227-234"
+			type="GENE" text="MT-ATP6" ontology_id="100287745"/>
+		<entity id="s1.e2" charOffset="309-327"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

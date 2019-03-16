@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24895994">
+	<sentence id="s1" text="Defects in Membrane Frizzled-related Protein (embryo development ending in birth or egg hatching) cause autosomal recessive retinitis pigmentosa (biological_process).">
+		<entity id="s1.e1" charOffset="46-96"
+			type="GO" text="embryo development ending in birth or egg hatching" ontology_id="GO_0009792"/>
+		<entity id="s1.e2" charOffset="104-123"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="146-164"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

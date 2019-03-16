@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29735674">
+	<sentence id="s1" text="Like other macular degenerations, pathogenesis within the retinal pigment epithelium (RPE) appears to contribute to the loss of photoreceptors from the central retina.">
+		<entity id="s1.e1" charOffset="11-32"
+			type="HP" text="macular degenerations" ontology_id="HP_0000608"/>
+		<entity id="s1.e2" charOffset="86-89"
+			type="GENE" text="RPE" ontology_id="6120"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

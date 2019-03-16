@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29099273">
+	<sentence id="s1" text="Of the 465,447 CpG sites analyzed, 12 showed differential methylation (false discovery rate AAAA0.15), including markers within genes associated with monogenic diabetes (HNF4A) or obesity (RREB1).">
+		<entity id="s1.e1" charOffset="170-175"
+			type="GENE" text="HNF4A" ontology_id="3172"/>
+		<entity id="s1.e2" charOffset="180-187"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e3" charOffset="189-194"
+			type="GENE" text="RREB1" ontology_id="6239"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

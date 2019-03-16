@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29153328">
+	<sentence id="s1" text="Here we find, launching from Drosophila models of amyotrophic lateral sclerosis and frontotemporal dementia, that TDP-43 impairs the induction of multiple key stress genes required to protect from disease by reducing the recruitment of the chromatin remodeler Chd1 to chromatin.">
+		<entity id="s1.e1" charOffset="8-12"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s1.e2" charOffset="84-107"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<entity id="s1.e3" charOffset="114-120"
+			type="GENE" text="TDP-43" ontology_id="23435"/>
+		<entity id="s1.e4" charOffset="260-264"
+			type="GENE" text="Chd1" ontology_id="1105"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Enhancing chromatin dynamics may be a treatment approach to amyotrophic lateral scleorosis (ALS)/frontotemporal dementia (FTD)">
+		<entity id="s2.e1" charOffset="92-95"
+			type="GENE" text="ALS" ontology_id="3483"/>
+		<entity id="s2.e2" charOffset="97-120"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

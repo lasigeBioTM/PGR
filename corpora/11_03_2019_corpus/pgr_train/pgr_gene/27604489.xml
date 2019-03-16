@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27604489">
+	<sentence id="s1" text="Mucinous tubular and spindle cell carcinoma (MTSCC) is a relatively rare subtype of renal cell carcinoma (RCC) with distinctive morphologic and cytogenetic features.">
+		<entity id="s1.e1" charOffset="84-104"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<entity id="s1.e2" charOffset="106-109"
+			type="GENE" text="RCC" ontology_id="7515"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We demonstrate the presence of either biallelic loss of Hippo pathway tumor suppressor genes (TSG) and/or evidence of alteration of Hippo pathway genes in 85% of samples.">
+		<entity id="s2.e1" charOffset="70-75"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="94-97"
+			type="GENE" text="TSG" ontology_id="57045"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

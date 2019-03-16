@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27767175">
+	<sentence id="s1" text="When stratified by tumor histology, three SNPs (negative regulation of transcription by RNA polymerase II rs2274971A AAAA G, fructose 6-phosphate metabolic process rs11168417C AAAA T, and cellular response to reactive oxygen species rs3785921G AAAA A) were significantly associated with OS and/or DFS only in squamous cell carcinoma, whereas fructose 6-phosphate metabolic process rs1132173C AAAA T exhibited a significant association with survival outcomes only in adenocarcinoma.">
+		<entity id="s1.e1" charOffset="19-24"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="48-105"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="125-163"
+			type="GO" text="fructose 6-phosphate metabolic process" ontology_id="GO_0006002"/>
+		<entity id="s1.e4" charOffset="188-232"
+			type="GO" text="cellular response to reactive oxygen species" ontology_id="GO_0034614"/>
+		<entity id="s1.e5" charOffset="235-258"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s1.e6" charOffset="302-340"
+			type="GO" text="fructose 6-phosphate metabolic process" ontology_id="GO_0006002"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e6"
+		    e2="s1.e10" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e10"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e8"
+		    e2="s1.e10" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23064016">
+	<sentence id="s1" text="Deficiency of the extracellular matrix molecule morphogenesis of an epithelium, normally expressed by the ureteric bud, leads to bilateral renal agenesis in humans with Fraser syndrome and blebbed (morphogenesis of an epithelium(bl/bl)) apoptotic process.">
+		<entity id="s1.e1" charOffset="48-78"
+			type="GO" text="morphogenesis of an epithelium" ontology_id="GO_0002009"/>
+		<entity id="s1.e2" charOffset="129-138"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e3" charOffset="139-153"
+			type="HP" text="renal agenesis" ontology_id="HP_0000104"/>
+		<entity id="s1.e4" charOffset="198-228"
+			type="GO" text="morphogenesis of an epithelium" ontology_id="GO_0002009"/>
+		<entity id="s1.e5" charOffset="237-254"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This prevented renal agenesis in morphogenesis of an epithelium(bl/bl) apoptotic process, permitting kidney development and postnatal survival.">
+		<entity id="s2.e1" charOffset="15-29"
+			type="HP" text="renal agenesis" ontology_id="HP_0000104"/>
+		<entity id="s2.e2" charOffset="33-63"
+			type="GO" text="morphogenesis of an epithelium" ontology_id="GO_0002009"/>
+		<entity id="s2.e3" charOffset="71-88"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

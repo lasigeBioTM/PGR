@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27447970">
+	<sentence id="s1" text="tRNA methylation is a RNA methyltransferase that has been shown to be implicated in development of human cancer.">
+		<entity id="s1.e1" charOffset="0-16"
+			type="GO" text="tRNA methylation" ontology_id="GO_0030488"/>
+		<entity id="s1.e2" charOffset="105-111"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, the functional role of tRNA methylation, mechanism of NSUN2 overexpression and its association with clinicopathologic features in breast cancer remain unclear.">
+		<entity id="s2.e1" charOffset="32-48"
+			type="GO" text="tRNA methylation" ontology_id="GO_0030488"/>
+		<entity id="s2.e2" charOffset="146-152"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="To investigate alterations in the expression and functional role of tRNA methylation in breast cancer, NSUN2 expression was assessed in breast cancer cells and tissues obtained from cancers at different American Joint Committee on Cancer (AJCC) stages, and its functions were investigated using breast cancer cells.">
+		<entity id="s3.e1" charOffset="68-84"
+			type="GO" text="tRNA methylation" ontology_id="GO_0030488"/>
+		<entity id="s3.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="tRNA methylation expression was shown to be significantly higher in breast cancer cells and tissues than in normal breast epithelial cells and tissues, at both mRNA and protein levels.">
+		<entity id="s4.e1" charOffset="0-16"
+			type="GO" text="tRNA methylation" ontology_id="GO_0030488"/>
+		<entity id="s4.e2" charOffset="75-81"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="Our results demonstrated that the overall expression of tRNA methylation significantly correlated with clinical stage (P=0.027), tumor classification (P=0.012), pathological differentiation (P=0.023), as well as with the expression levels of estrogen receptor (PAAAA0.001), progesterone receptor (P=0.001), and regulation of proteasomal protein catabolic process-67 (PAAAA0.001).">
+		<entity id="s5.e1" charOffset="56-72"
+			type="GO" text="tRNA methylation" ontology_id="GO_0030488"/>
+		<entity id="s5.e2" charOffset="129-134"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="311-362"
+			type="GO" text="regulation of proteasomal protein catabolic process" ontology_id="GO_0061136"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="Our findings provide a unique insight into the roles and effects of tRNA methylation overexpression in breast cancer cells, and highlight the necessity of the investigation of novel therapeutic targets, such as NSUN2, for the improvement of breast cancer treatments">
+		<entity id="s6.e1" charOffset="68-84"
+			type="GO" text="tRNA methylation" ontology_id="GO_0030488"/>
+		<entity id="s6.e2" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+</document>

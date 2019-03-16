@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27793028">
+	<sentence id="s1" text="In this study, a TF-cascade-targeted strategy aiming to disrupt tumor blood vessels was developed by combination of TF-targeted HMME-loaded drug delivery system and PDT.">
+		<entity id="s1.e1" charOffset="17-19"
+			type="GENE" text="TF" ontology_id="7018"/>
+		<entity id="s1.e2" charOffset="64-69"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="PDT is a promising new modality in the treatment of cancers, which employs the interaction between a tumor-localizing photosensitizer and light of an appropriate wavelength to bring about ROS-induced cell death.">
+		<entity id="s2.e1" charOffset="101-106"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="138-143"
+			type="GENE" text="light" ontology_id="8740"/>
+		<entity id="s2.e3" charOffset="188-191"
+			type="GENE" text="ROS" ontology_id="6098"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In vivo multispectral fluorescent imaging, the EGFP-EGF1 conjugated nanoparticles showed significantly higher accumulation in tumor tissues than non-conjugated ones.">
+		<entity id="s3.e1" charOffset="52-56"
+			type="GENE" text="EGF1" ontology_id="85476"/>
+		<entity id="s3.e2" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Tumor tissue slides further presented that EGFP-EGF1 conjugated nanoparticles showed significantly higher accumulation in tumor vasculature than non-conjugated ones.">
+		<entity id="s4.e1" charOffset="48-52"
+			type="GENE" text="EGF1" ontology_id="85476"/>
+		<entity id="s4.e2" charOffset="122-127"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="In vivo imaging, ex vivo imaging and tumor tissue slides showed that PDT further contribute EGFP-EGF1-NP accumulation in tumor.">
+		<entity id="s5.e1" charOffset="37-42"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="97-101"
+			type="GENE" text="EGF1" ontology_id="85476"/>
+		<entity id="s5.e3" charOffset="102-104"
+			type="GENE" text="NP" ontology_id="4860"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="These promising results indicated that PDT enhanced EGFP-EGF1modified PEG-PLGA nanoparticle accumulation in tumor vaculature.">
+		<entity id="s6.e1" charOffset="57-61"
+			type="GENE" text="EGF1" ontology_id="85476"/>
+		<entity id="s6.e2" charOffset="108-113"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="A combination of both EGFP-EGF1 modification and PDT provided a positive feed-back target effect to tumor vessels and might have a great potential for tumor therapy">
+		<entity id="s7.e1" charOffset="27-31"
+			type="GENE" text="EGF1" ontology_id="85476"/>
+		<entity id="s7.e2" charOffset="100-105"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="131-136"
+			type="GENE" text="great" ontology_id="122042"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e2"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+</document>

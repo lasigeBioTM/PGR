@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28033303">
+	<sentence id="s1" text="One presently identified eQTL for the protein targeting to peroxisome gene was rs10948059, which had been associated with prostate cancer from previous association studies.">
+		<entity id="s1.e1" charOffset="38-69"
+			type="GO" text="protein targeting to peroxisome" ontology_id="GO_0006625"/>
+		<entity id="s1.e2" charOffset="131-137"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The results imply that variants associated with prostate cancer can be identified through expressional change in the protein targeting to peroxisome gene, but not in the overlapped glycine N-methyltransferase gene which had been considered as a candidate gene.Further studies are required to understand their underlying mechanisms for the strong eQTLs for the SNHG5 and PEX6 genes">
+		<entity id="s2.e1" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="117-148"
+			type="GO" text="protein targeting to peroxisome" ontology_id="GO_0006625"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

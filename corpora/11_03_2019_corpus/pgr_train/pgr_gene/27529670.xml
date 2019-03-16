@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27529670">
+	<sentence id="s1" text="The extracellular matrix (ECM) is a known factor in tumor invasion, and differences in the ECM of nontumor brain and glioblastoma has been proven.">
+		<entity id="s1.e1" charOffset="26-29"
+			type="GENE" text="ECM" ontology_id="22915"/>
+		<entity id="s1.e2" charOffset="52-57"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="117-129"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

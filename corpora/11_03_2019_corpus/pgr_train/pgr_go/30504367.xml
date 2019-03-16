@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30504367">
+	<sentence id="s1" text="Several important genetic alterations (i.e., mutations, deletions) have been identified to be involved in the initiation and progression of pancreatic cancer, including positive regulation of protein phosphorylation and inactivation of tumor suppressors, such as TP53, transforming growth factor beta receptor signaling pathway and CDKN2A.">
+		<entity id="s1.e1" charOffset="151-157"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="169-215"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e3" charOffset="236-241"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="269-327"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="However, siRNA-based therapeutics interstrand cross-link repair important challenges, including rapid serum degradation, poor tumor cell uptake and cellular uptake, leading to off-target effects.">
+		<entity id="s2.e1" charOffset="34-63"
+			type="GO" text="interstrand cross-link repair" ontology_id="GO_0036297"/>
+		<entity id="s2.e2" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Therefore, there is a adenylate cyclase-activating G protein-coupled receptor signaling pathway need for the development of safe and effective nanoparticles for better tumor-specific delivery of anti-cancer therapeutics.">
+		<entity id="s3.e1" charOffset="22-95"
+			type="GO" text="adenylate cyclase-activating G protein-coupled receptor signaling pathway" ontology_id="GO_0007189"/>
+		<entity id="s3.e2" charOffset="168-173"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="200-206"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

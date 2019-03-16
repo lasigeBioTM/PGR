@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23828044">
+	<sentence id="s1" text="A branch-site mutation in the human gene encoding assembly factor NUBPL has recently been associated with mitochondrial encephalopathy and complex I deficiency in seven independent cases.">
+		<entity id="s1.e1" charOffset="66-71"
+			type="GENE" text="NUBPL" ontology_id="80224"/>
+		<entity id="s1.e2" charOffset="120-134"
+			type="HP" text="encephalopathy" ontology_id="HP_0001298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

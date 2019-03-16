@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27058983">
+	<sentence id="s1" text="Locations of mutations linked to human disease, including those responsible for Southeast Asian ovalocytosis, heprotein phosphorylationitary stomatocytosis, heprotein phosphorylationitary spherocytosis, and distal renal tubular acidosis, provide molecular insights into their effect on Band 3 folding.">
+		<entity id="s1.e1" charOffset="112-135"
+			type="GO" text="protein phosphorylation" ontology_id="GO_0006468"/>
+		<entity id="s1.e2" charOffset="168-181"
+			type="HP" text="spherocytosis" ontology_id="HP_0004444"/>
+		<entity id="s1.e3" charOffset="187-216"
+			type="HP" text="distal renal tubular acidosis" ontology_id="HP_0008341"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

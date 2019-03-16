@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742505">
+	<sentence id="s1" text="Mutations in the extracellular matrix organization gene result in X-linked Alport syndrome, homozygous or compound heterozygous mutations in activation of cysteine-type endopeptidase activity involved in apoptotic process or glomerular basement membrane development are responsible for autosomal recessive Alport syndrome, and heterozygous mutations in COL4A3 or COL4A4 cause autosomal dominant Alport syndrome or benign familial hematuria.">
+		<entity id="s1.e1" charOffset="17-50"
+			type="GO" text="extracellular matrix organization" ontology_id="GO_0030198"/>
+		<entity id="s1.e2" charOffset="141-221"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s1.e3" charOffset="178-197"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="225-265"
+			type="GO" text="glomerular basement membrane development" ontology_id="GO_0032836"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e4"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This result suggests that activation of cysteine-type endopeptidase activity involved in apoptotic process and glomerular basement membrane development digenic mutations in negative regulation of insulin receptor signaling pathway mimicking an autosomal dominant inheritance should be considered as a novel inheritance pattern of benign familial hematuria, although the disease-causing mechanism remains unknown">
+		<entity id="s2.e1" charOffset="26-106"
+			type="GO" text="activation of cysteine-type endopeptidase activity involved in apoptotic process" ontology_id="GO_0006919"/>
+		<entity id="s2.e2" charOffset="111-151"
+			type="GO" text="glomerular basement membrane development" ontology_id="GO_0032836"/>
+		<entity id="s2.e3" charOffset="173-230"
+			type="GO" text="negative regulation of insulin receptor signaling pathway" ontology_id="GO_0046627"/>
+		<entity id="s2.e4" charOffset="175-186"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

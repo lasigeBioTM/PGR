@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22561202">
+	<sentence id="s1" text="6q14 deletions have been associated with intellectual disability and a distinct pattern of positive regulation of glucose transmembrane transport anomalies, including upslanted palpebral fissures with epicanthal folds, a short nose with broad nasal biological_process, anteverted nares, long philtrum, and thin upper lip.">
+		<entity id="s1.e1" charOffset="41-64"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e2" charOffset="91-145"
+			type="GO" text="positive regulation of glucose transmembrane transport" ontology_id="GO_0010828"/>
+		<entity id="s1.e3" charOffset="167-195"
+			type="HP" text="upslanted palpebral fissures" ontology_id="HP_0000582"/>
+		<entity id="s1.e4" charOffset="201-217"
+			type="HP" text="epicanthal folds" ontology_id="HP_0000286"/>
+		<entity id="s1.e5" charOffset="221-231"
+			type="HP" text="short nose" ontology_id="HP_0003196"/>
+		<entity id="s1.e6" charOffset="249-267"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e14"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Possible candidate genes in 6q14 for intellectual disability might be biological_process, DNA damage response, signal transduction by p53 class mediator, adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway, and SNX14">
+		<entity id="s2.e1" charOffset="37-60"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e2" charOffset="70-88"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e3" charOffset="90-152"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator" ontology_id="GO_0030330"/>
+		<entity id="s2.e4" charOffset="154-227"
+			type="GO" text="adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway" ontology_id="GO_0007193"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

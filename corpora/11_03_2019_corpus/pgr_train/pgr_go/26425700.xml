@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26425700">
+	<sentence id="s1" text="Candidate markers were identified by bisulfite conversion-based genome-wide methylation screening of lung tissue from lung cancer, fibrotic ILD, and ER to Golgi vesicle-mediated transport. cfDNA from 400 μl serum (n = 204) served to test the diagnostic performance of these markers.">
+		<entity id="s1.e1" charOffset="123-129"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="149-187"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Cancer was distinguished from ILD with a specificity of 88%, (95%CI: 0.57-1), and ER to Golgi vesicle-mediated transport from cancer with a specificity of 88% (95%CI: 0.64-0.97).">
+		<entity id="s2.e1" charOffset="82-120"
+			type="GO" text="ER to Golgi vesicle-mediated transport" ontology_id="GO_0006888"/>
+		<entity id="s2.e2" charOffset="126-132"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

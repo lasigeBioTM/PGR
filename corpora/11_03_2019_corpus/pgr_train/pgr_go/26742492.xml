@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26742492">
+	<sentence id="s1" text="The novel potential autism susceptibility genes phosphatidylserine biosynthetic process and epidermal growth factor receptor signaling pathway were uncovered and warrant further genetic and functional analyses.">
+		<entity id="s1.e1" charOffset="20-26"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e2" charOffset="48-87"
+			type="GO" text="phosphatidylserine biosynthetic process" ontology_id="GO_0006659"/>
+		<entity id="s1.e3" charOffset="92-142"
+			type="GO" text="epidermal growth factor receptor signaling pathway" ontology_id="GO_0007173"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

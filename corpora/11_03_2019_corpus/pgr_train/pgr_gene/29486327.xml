@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29486327">
+	<sentence id="s1" text="The fat mass and obesity-associated (FTO) gene is tightly related to body weight and fat mass, and plays a pivotal role in regulating lipid accumulation in hepatocytes.">
+		<entity id="s1.e1" charOffset="4-7"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s1.e2" charOffset="8-12"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s1.e3" charOffset="17-24"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e4" charOffset="37-40"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

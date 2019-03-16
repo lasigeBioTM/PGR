@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26514363">
+	<sentence id="s1" text="In the single-locus analysis, two variants, the MAPK cascade rs1805794 (OR 1.42, 95% CI 1.15-1.76, P = 0.001), and DNA repair rs1048771 (OR 1.61, 95% CI 1.17-2.22, P = 0.002) were significantly associated with glioma risk.">
+		<entity id="s1.e1" charOffset="48-60"
+			type="GO" text="MAPK cascade" ontology_id="GO_0000165"/>
+		<entity id="s1.e2" charOffset="115-125"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e3" charOffset="206-212"
+			type="HP" text="glioma" ontology_id="HP_0009733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

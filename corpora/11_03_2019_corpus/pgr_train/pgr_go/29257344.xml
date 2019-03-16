@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29257344">
+	<sentence id="s1" text="The expression of uncarboxylated cartilage condensation (ucMGP), carboxylated MGP (cMGP), matrix metalloproteinase (MMP)‑13, collagen cardiac muscle tissue development X, collagen type II, tumor necrosis factor (negative regulation of transcription by RNA polymerase II)‑α and interleukin (IL)‑1β were detected by ELISA, immunohistochemistry, reverse transcription‑quantitative polymerase chain reaction and western blotting.">
+		<entity id="s1.e1" charOffset="33-55"
+			type="GO" text="cartilage condensation" ontology_id="GO_0001502"/>
+		<entity id="s1.e2" charOffset="134-167"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="160-165"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e4" charOffset="212-269"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

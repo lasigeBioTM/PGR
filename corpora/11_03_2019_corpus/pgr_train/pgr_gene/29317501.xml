@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29317501">
+	<sentence id="s1" text="CHIP plays a protective role in mouse models of neurodegenerative disease, and in humans, mutations in CHIP cause spinocerebellar ataxia autosomal recessive type 16 (SCAR16), a fatal neurodegenerative disease characterized by truncal and limb ataxia that results in gait instability.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="CHIP" ontology_id="10273"/>
+		<entity id="s1.e2" charOffset="48-73"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<entity id="s1.e3" charOffset="130-136"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e4" charOffset="137-156"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e5" charOffset="157-161"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e6"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e10"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

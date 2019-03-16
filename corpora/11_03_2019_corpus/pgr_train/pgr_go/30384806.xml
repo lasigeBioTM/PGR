@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30384806">
+	<sentence id="s1" text="Furthermore, microRNA-22 targeted positive regulation of endothelial cell proliferation proto-oncogene, GTPase (NRAS) in breast cancer cells.">
+		<entity id="s1.e1" charOffset="34-87"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s1.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The expression levels of positive regulation of endothelial cell proliferation in human clinical specimens were higher in breast cancer tissues when compared to normal tissues.">
+		<entity id="s2.e1" charOffset="25-78"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<entity id="s2.e2" charOffset="129-135"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, microRNA-22 sensitized breast cancer cells to paclitaxel by regulation of positive regulation of endothelial cell proliferation.">
+		<entity id="s3.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="84-137"
+			type="GO" text="positive regulation of endothelial cell proliferation" ontology_id="GO_0001938"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

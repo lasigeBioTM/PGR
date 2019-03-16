@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29638194">
+	<sentence id="s1" text="Fasting serum tumor necrosis factor (TNF)-like antigen 1A (TL1A) and its receptor death receptor 3 (DR3), NOGO-B (reticulon 4B) and its receptor NUS1, high-sensitivity C-reactive protein (hsCRP), A disintegrin and metalloproteinase with thrombospondin motifs (ADAMTS) 1, 4, 5 and interleukin (IL) 6 levels were determined.">
+		<entity id="s1.e1" charOffset="14-19"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="37-40"
+			type="GENE" text="TNF" ontology_id="7124"/>
+		<entity id="s1.e3" charOffset="106-110"
+			type="GENE" text="NOGO" ontology_id="57142"/>
+		<entity id="s1.e4" charOffset="145-149"
+			type="GENE" text="NUS1" ontology_id="116150"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

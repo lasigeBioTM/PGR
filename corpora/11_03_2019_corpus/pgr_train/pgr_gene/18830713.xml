@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="18830713">
+	<sentence id="s1" text="A previously reported CLCN2 gene for epilepsy was excluded as the disease-causing gene in the family by mutational analysis of all exons and exon-intron boundaries of CLCN2 and by haplotype analysis.">
+		<entity id="s1.e1" charOffset="22-27"
+			type="GENE" text="CLCN2" ontology_id="1181"/>
+		<entity id="s1.e2" charOffset="37-45"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

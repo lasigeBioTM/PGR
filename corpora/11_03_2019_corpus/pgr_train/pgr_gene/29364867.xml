@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29364867">
+	<sentence id="s1" text="Integration of cell culture genomes, transcriptomes and tumour phenotypes with functional studies and human data reveals additional widespread effects of oncogenic dosage variation on cell morphology and plasticity, histopathology and clinical outcome, with the highest Kras<sup>MUT</sup> levels underlying aggressive undifferentiated phenotypes.">
+		<entity id="s1.e1" charOffset="56-62"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="270-274"
+			type="GENE" text="Kras" ontology_id="3845"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Mechanistically, different oncogenic gains and dosages evolve along distinct evolutionary routes, licensed by defined allelic states and/or combinations of hallmark tumour suppressor alterations (Cdkn2a, Trp53, Tgfβ-pathway).">
+		<entity id="s2.e1" charOffset="165-171"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="196-202"
+			type="GENE" text="Cdkn2a" ontology_id="1029"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

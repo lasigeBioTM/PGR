@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29339498">
+	<sentence id="s1" text="This mutation was also found in a second unrelated family with the same clinical phenotype, while no germline or somatic li>MAFA</i> mutations were identified in nine patients with sporadic insulinomatosis.">
+		<entity id="s1.e1" charOffset="124-128"
+			type="GENE" text="MAFA" ontology_id="10219"/>
+		<entity id="s1.e2" charOffset="181-189"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

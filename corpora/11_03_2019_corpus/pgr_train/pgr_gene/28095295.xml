@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28095295">
+	<sentence id="s1" text="Osteopetrosis (OPT) is a rare skeletal disorder with phenotypic and genotypic heterogeneity: a variety of clinical features besides the bony defect may be present, and at least ten different genes are known to be involved in the disease pathogenesis.">
+		<entity id="s1.e1" charOffset="15-18"
+			type="GENE" text="OPT" ontology_id="51430"/>
+		<entity id="s1.e2" charOffset="78-91"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the framework of this heterogeneity, we report the clinical description of a neonate, first child of consanguineous parents, who had osteoclast-rich osteopetrosis and bone marrow failure in early life, but no other usual classical features of infantile malignant OPT, such as visual or hearing impairments.">
+		<entity id="s2.e1" charOffset="25-38"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="266-269"
+			type="GENE" text="OPT" ontology_id="51430"/>
+		<entity id="s2.e3" charOffset="289-308"
+			type="HP" text="hearing impairments" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

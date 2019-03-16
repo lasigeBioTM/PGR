@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29359854">
+	<sentence id="s1" text="Biotinidase (biotin metabolic process) deficiency is a rare autosomal recessive metabolic disease, which develops neurological and cutaneous symptoms because of the impaired biotin recycling.">
+		<entity id="s1.e1" charOffset="13-37"
+			type="GO" text="biotin metabolic process" ontology_id="GO_0006768"/>
+		<entity id="s1.e2" charOffset="60-79"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Fatigue, hypotonia, proximal muscular weakness, hearing deficits, rash and respiratory problems are common clinical phenocardiac muscle tissue development of our patients.">
+		<entity id="s2.e1" charOffset="20-28"
+			type="HP" text="proximal" ontology_id="HP_0012840"/>
+		<entity id="s2.e2" charOffset="121-154"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

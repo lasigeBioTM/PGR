@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28687524">
+	<sentence id="s1" text="His facial features included a high anterior hairline, small eyes with narrowed palpebral fissures, a bulbous nasal biological_process with a short columella, and a large mouth with a thin upper vermilion, and small chin.">
+		<entity id="s1.e1" charOffset="116-134"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s1.e2" charOffset="142-157"
+			type="HP" text="short columella" ontology_id="HP_0002000"/>
+		<entity id="s1.e3" charOffset="165-176"
+			type="HP" text="large mouth" ontology_id="HP_0000154"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="De novo missense and frameshift mutations and deletions involving negative regulation of transcription by RNA polymerase II have been described in patients with intellectual disability and autism, but without any of the dysmorphic findings or malformations associated with Pierpont syndrome, implying a mutation-specific mechanism for the pathogenicity of p.Tyr446Cys.">
+		<entity id="s2.e1" charOffset="66-123"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="161-184"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="189-195"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="His distinctive facial and digital features are further evidence that p.Tyr446Cys results in a clinically recognizable, syndromic form of intellectual disability in contrast to other negative regulation of transcription by RNA polymerase II mutations">
+		<entity id="s3.e1" charOffset="138-161"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s3.e2" charOffset="183-240"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30247156">
+	<sentence id="s1" text="The underlying molecular mechanisms of age-related hearing loss (ARHL) in humans and many strains of apoptotic process have not been fully characterized.">
+		<entity id="s1.e1" charOffset="51-63"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="101-118"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="TOR signaling-cKO apoptotic process developed hearing loss considerably more slowly than WT littermates.">
+		<entity id="s2.e1" charOffset="0-13"
+			type="GO" text="TOR signaling" ontology_id="GO_0031929"/>
+		<entity id="s2.e2" charOffset="11-28"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s2.e3" charOffset="39-51"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Conversely, regulation of translation loss led to the early-onset death of cochlear hair cells and consequently accelerated hearing loss.">
+		<entity id="s3.e1" charOffset="12-37"
+			type="GO" text="regulation of translation" ontology_id="GO_0006417"/>
+		<entity id="s3.e2" charOffset="124-136"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

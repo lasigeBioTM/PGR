@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30030956">
+	<sentence id="s1" text="Hearing impairment (HI) caused by mutations in the connexin-26 gene (gap junction assembly) accounts for the majority of cases with inherited, nonsyndromic sensorineural hearing loss.">
+		<entity id="s1.e1" charOffset="69-90"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e2" charOffset="170-182"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This study describes the first use of pentose-phosphate shunt, oxidative branch for gap junction assembly associated non-syndromic deafness in Iran.">
+		<entity id="s2.e1" charOffset="38-79"
+			type="GO" text="pentose-phosphate shunt, oxidative branch" ontology_id="GO_0009051"/>
+		<entity id="s2.e2" charOffset="46-67"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s2.e3" charOffset="93-101"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="gap junction assembly donor splicing site IVS1+1GAAAAAgt;A mutation analysis was performed using Sanger sequencing for a total of 71 Iranian families with at least 1 deaf child diagnosed with non-syndromic deafness.">
+		<entity id="s3.e1" charOffset="0-21"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s3.e2" charOffset="206-214"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="This is the first report of a successful application of pentose-phosphate shunt, oxidative branch for hearing loss in Iran.">
+		<entity id="s4.e1" charOffset="56-97"
+			type="GO" text="pentose-phosphate shunt, oxidative branch" ontology_id="GO_0009051"/>
+		<entity id="s4.e2" charOffset="102-114"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

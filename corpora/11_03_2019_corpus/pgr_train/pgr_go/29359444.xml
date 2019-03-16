@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29359444">
+	<sentence id="s1" text="Arp2/3 complex-mediated actin nucleation mutations, first reported to be the cause of the Prader-Willi like syndrome with autism by Schaaf et al. (2013) Nature Genetics, 45: 1405-1408 show the wide range of phenotypic spectrum from lethal arthrogryposis multiplex congenital to autism spectrum disorder (ASD) and mild intellectual disability (ID).">
+		<entity id="s1.e1" charOffset="0-40"
+			type="GO" text="Arp2/3 complex-mediated actin nucleation" ontology_id="GO_0034314"/>
+		<entity id="s1.e2" charOffset="122-128"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s1.e3" charOffset="239-253"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<entity id="s1.e4" charOffset="318-341"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Our results indicate that Arp2/3 complex-mediated actin nucleation mutations cause multiple congenital anomalies and intellectual disability accompanied by arthrogryposis multiplex congenita and various endocrinologic abnormalities, supporting that the view that clinical phenotypes of Arp2/3 complex-mediated actin nucleation mutations are variable">
+		<entity id="s2.e1" charOffset="26-66"
+			type="GO" text="Arp2/3 complex-mediated actin nucleation" ontology_id="GO_0034314"/>
+		<entity id="s2.e2" charOffset="117-140"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="156-170"
+			type="HP" text="arthrogryposis" ontology_id="HP_0002804"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

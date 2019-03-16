@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30819650">
+	<sentence id="s1" text="We will also discuss emerging paradigms of the molecular and cellular pathophysiology of disease-causing ephrinB2-EphB4-RASA1 mutations, including the potential role of somatic mosaicism.">
+		<entity id="s1.e1" charOffset="120-125"
+			type="GENE" text="RASA1" ontology_id="5921"/>
+		<entity id="s1.e2" charOffset="169-186"
+			type="HP" text="somatic mosaicism" ontology_id="HP_0001442"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

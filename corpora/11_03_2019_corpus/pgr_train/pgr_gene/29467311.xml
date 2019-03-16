@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29467311">
+	<sentence id="s1" text="These data suggest a previously unrecognized mechanism by which EBNALP coactivates transcription through subverting of EP300 and thus affects the expression of LCL genes regulated by a broad range of host TFs.<b>IMPORTANCE</b> Epstein-Barr virus was the first human DNA tumor virus discovered over 50 years ago.">
+		<entity id="s1.e1" charOffset="119-124"
+			type="GENE" text="EP300" ontology_id="2033"/>
+		<entity id="s1.e2" charOffset="270-275"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26293662">
+	<sentence id="s1" text="Two sisters with c.137TAAAAC (p.Leu46Pro) PIGY variants had multi-system disease including dysmorphism, seizures, severe developmental delay, cataracts and early death.">
+		<entity id="s1.e1" charOffset="42-46"
+			type="GENE" text="PIGY" ontology_id="84992"/>
+		<entity id="s1.e2" charOffset="104-112"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="121-140"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e4" charOffset="142-151"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

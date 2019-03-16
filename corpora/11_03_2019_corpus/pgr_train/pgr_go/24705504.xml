@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24705504">
+	<sentence id="s1" text="Friedreich ataxia (regulation of ferrochelatase activity) is the most frequent progressive autosomal recessive disorder associated with unstable expansion of glycogen catabolic process trinucleotide repeats in the first intron of the regulation of ferrochelatase activity gene, which encodes for the mitochondrial frataxin protein.">
+		<entity id="s1.e1" charOffset="11-17"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="19-56"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<entity id="s1.e3" charOffset="158-184"
+			type="GO" text="glycogen catabolic process" ontology_id="GO_0005980"/>
+		<entity id="s1.e4" charOffset="234-271"
+			type="GO" text="regulation of ferrochelatase activity" ontology_id="GO_0010722"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

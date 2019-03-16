@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27353389">
+	<sentence id="s1" text="A mutation of Lrrc6 has been identified in human patients with primary ciliary dyskinesia (PCD).">
+		<entity id="s1.e1" charOffset="14-19"
+			type="GENE" text="Lrrc6" ontology_id="23639"/>
+		<entity id="s1.e2" charOffset="71-89"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e3" charOffset="91-94"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Mutant mice lacking Lrrc6 show typical PCD defects such as hydrocephalus and laterality defects.">
+		<entity id="s2.e1" charOffset="7-11"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s2.e2" charOffset="20-25"
+			type="GENE" text="Lrrc6" ontology_id="23639"/>
+		<entity id="s2.e3" charOffset="39-42"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s2.e4" charOffset="59-72"
+			type="HP" text="hydrocephalus" ontology_id="HP_0000238"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

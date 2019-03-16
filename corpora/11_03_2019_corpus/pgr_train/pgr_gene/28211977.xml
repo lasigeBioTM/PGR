@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28211977">
+	<sentence id="s1" text="Loss-of-function mutations of GATAD2B have recently been defined to cause a recognizable syndrome with intellectual disability (ID).">
+		<entity id="s1.e1" charOffset="30-37"
+			type="GENE" text="GATAD2B" ontology_id="57459"/>
+		<entity id="s1.e2" charOffset="103-126"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We herein report an infant with feeding difficulty, developmental delay, hypotonia, and dysmorphic features including small palpebral fissures, telecanthus, sparse hair and eyebrow, cup-shaped ears, and clinodactyly.">
+		<entity id="s2.e1" charOffset="52-71"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s2.e2" charOffset="118-142"
+			type="HP" text="small palpebral fissures" ontology_id="HP_0045025"/>
+		<entity id="s2.e3" charOffset="193-197"
+			type="GENE" text="ears" ontology_id="2058"/>
+		<entity id="s2.e4" charOffset="203-215"
+			type="HP" text="clinodactyly" ontology_id="HP_0030084"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

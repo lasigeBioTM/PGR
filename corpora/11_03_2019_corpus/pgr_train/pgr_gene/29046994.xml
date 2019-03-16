@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29046994">
+	<sentence id="s1" text="We measured the expression of autophagy genes in peripheral blood mononuclear cells of 20 patients with Huntington's disease (HD), 20 with spinocerebellar ataxia type 2 (SCA2), and 20 healthy individuals.">
+		<entity id="s1.e1" charOffset="155-161"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="162-166"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="170-174"
+			type="GENE" text="SCA2" ontology_id="6311"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

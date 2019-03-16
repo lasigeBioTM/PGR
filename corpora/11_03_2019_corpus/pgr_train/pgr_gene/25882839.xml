@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25882839">
+	<sentence id="s1" text="RNF170 is an endoplasmic reticulum membrane ubiquitin ligase that contributes to the ubiquitination of activated inositol 1,4,5-trisphosphate (IP3) receptors, and also, when point mutated (arginine to cysteine at position 199), causes autosomal dominant sensory ataxia (ADSA), a disease characterized by neurodegeneration in the posterior columns of the spinal cord.">
+		<entity id="s1.e1" charOffset="0-6"
+			type="GENE" text="RNF170" ontology_id="81790"/>
+		<entity id="s1.e2" charOffset="262-268"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="270-274"
+			type="GENE" text="ADSA" ontology_id="81790"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

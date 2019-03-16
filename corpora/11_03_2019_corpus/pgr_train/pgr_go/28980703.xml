@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28980703">
+	<sentence id="s1" text="Further, high activation of NF-kappaB-inducing kinase activity expression level was correlated with higher tumor stage, lymph node metastasis, myometrial invasion, and lower survival rate.">
+		<entity id="s1.e1" charOffset="14-62"
+			type="GO" text="activation of NF-kappaB-inducing kinase activity" ontology_id="GO_0007250"/>
+		<entity id="s1.e2" charOffset="107-112"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These collective data indicated that activation of NF-kappaB-inducing kinase activity overexpression promotes EC tumorigenesis by activating mitotic cell cycle and cell division pathways, and IRAK1 may serve as a promising therapeutic strategy for EC">
+		<entity id="s2.e1" charOffset="37-85"
+			type="GO" text="activation of NF-kappaB-inducing kinase activity" ontology_id="GO_0007250"/>
+		<entity id="s2.e2" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

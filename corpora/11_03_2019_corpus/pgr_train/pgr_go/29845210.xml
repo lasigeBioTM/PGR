@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29845210">
+	<sentence id="s1" text="In the present review, 22 loci of glaucoma are presented, including the relevant genes (myocilin, interleukin 20 receptor subunit B, optineurin, ankyrin repeat‑ and negative regulation of insulin receptor signaling pathway box‑containing protein 10, WD repeat‑containing protein 36, EGF‑containing fibulin‑like extracellular matrix protein 1, neurotrophin 4, TANK‑binding kinase 1, cytochrome P450 subfamily I polypeptide 1, latent transforming growth factor β binding protein 2 and positive regulation of protein phosphorylation tyrosine kinase endothelial) and 74 other genes (including toll‑like receptor 4, sine oculis homeobox Drosophila homolog of 1, doublecortin‑like kinase 1, RE repeats‑encoding gene, retinitis pigmentosa GTPase regulator‑interacting protein, lysyl oxidase‑like protein 1, heat‑shock 70‑kDa protein 1A, baculoviral positive regulation of cell proliferation repeat‑containing protein 6, 5,10‑methylenetetrahydrofolate reductase and nitric oxide synthase 3 and nanophthalmos 1) that are more closely associated with glaucoma.">
+		<entity id="s1.e1" charOffset="34-42"
+			type="HP" text="glaucoma" ontology_id="HP_0000501"/>
+		<entity id="s1.e2" charOffset="165-222"
+			type="GO" text="negative regulation of insulin receptor signaling pathway" ontology_id="GO_0046627"/>
+		<entity id="s1.e3" charOffset="483-529"
+			type="GO" text="positive regulation of protein phosphorylation" ontology_id="GO_0001934"/>
+		<entity id="s1.e4" charOffset="842-883"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

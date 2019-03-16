@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25574029">
+	<sentence id="s1" text="The 1p breakpoint disrupts the 5' UTR of AHDC1, which encodes AT-hook DNA-binding motif containing-1 protein, and AHDC1-truncating mutations have recently been described in a syndrome that includes developmental delay, but not congenital heart disease [Xia, F., Bainbridge, M.N., Tan, T.Y., Wangler, M.F., Scheuerle, A.E., Zackai, E.H., Harr, M.H., Sutton, V.R., Nalam, R.L., Zhu, W. et al. (2014) De Novo truncating mutations in AHDC1 in individuals with syndromic expressive language delay, hypotonia, and sleep apnea.">
+		<entity id="s1.e1" charOffset="41-46"
+			type="GENE" text="AHDC1" ontology_id="27245"/>
+		<entity id="s1.e2" charOffset="198-217"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e3" charOffset="477-491"
+			type="HP" text="language delay" ontology_id="HP_0000750"/>
+		<entity id="s1.e4" charOffset="508-519"
+			type="HP" text="sleep apnea" ontology_id="HP_0010535"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Matr3(Gt-ex13) homozygotes are early embryo lethal, but Matr3(Gt-ex13) heterozygotes exhibit incompletely penetrant BAV, CoA and PDA phenotypes similar to those in the human proband, as well as ventricular septal defect (VSD) and double-outlet right ventricle (DORV).">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="Matr3" ontology_id="9782"/>
+		<entity id="s2.e2" charOffset="194-219"
+			type="HP" text="ventricular septal defect" ontology_id="HP_0001629"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

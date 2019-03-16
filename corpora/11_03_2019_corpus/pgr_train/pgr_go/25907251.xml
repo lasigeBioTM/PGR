@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25907251">
+	<sentence id="s1" text="Based on the elastic negative regulation of transcription, DNA-templated, 33 genes out of 1381 genes related to bladder cancer were selected.">
+		<entity id="s1.e1" charOffset="21-72"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e2" charOffset="120-126"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This study indicates that the elastic negative regulation of transcription, DNA-templated has a higher capacity than the Lasso and boosting for the prediction of survival time in bladder cancer patients.">
+		<entity id="s2.e1" charOffset="38-89"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s2.e2" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29740943">
+	<sentence id="s1" text="It is dominated by cerebellar ataxia and susceptible to stresses that coenzyme A biosynthetic process as factors provoking disease onset or episodes of rapid neurological deterioration possibly leading to death.">
+		<entity id="s1.e1" charOffset="19-36"
+			type="HP" text="cerebellar ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="70-101"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

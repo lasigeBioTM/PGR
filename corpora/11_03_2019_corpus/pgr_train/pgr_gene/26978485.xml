@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26978485">
+	<sentence id="s1" text="A moderate to severe reduction (AAAA50%) in PRODH activity resulting from recessive deletions and/or missense mutations has been shown to cause type 1 hyperprolinemia (HPI).">
+		<entity id="s1.e1" charOffset="44-49"
+			type="GENE" text="PRODH" ontology_id="5625"/>
+		<entity id="s1.e2" charOffset="144-148"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="151-166"
+			type="HP" text="hyperprolinemia" ontology_id="HP_0008358"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here we studied the frequency of a recurrent small 22q11.2 deletion encompassing PRODH and the neighboring DGCR6 gene in three case-control studies, one comprising HPI patients (n = 83), and the other two comprising autism spectrum disorder (ASD) patients (total of n = 2800), analyzed with high-resolution microarrays.">
+		<entity id="s2.e1" charOffset="81-86"
+			type="GENE" text="PRODH" ontology_id="5625"/>
+		<entity id="s2.e2" charOffset="107-112"
+			type="GENE" text="DGCR6" ontology_id="8214"/>
+		<entity id="s2.e3" charOffset="216-222"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

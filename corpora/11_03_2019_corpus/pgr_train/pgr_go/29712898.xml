@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29712898">
+	<sentence id="s1" text="Here we show that a series of transcription fcoenzyme A biosynthetic processors, including C/EBPβ, regulation of transcription, DNA-templated, and negative regulation of transcription by RNA polymerase II, could act as potential modulators of histone methylation in tumor cells.">
+		<entity id="s1.e1" charOffset="45-76"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s1.e2" charOffset="71-113"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e3" charOffset="119-176"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="186-191"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e4"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Of note, C/EBPβ, an independent prognostic fcoenzyme A biosynthetic processor for patients with ovarian cancer, mediates an important mechanism through which epigenetic enzyme modifies groups of functionally related genes in a context-dependent manner.">
+		<entity id="s2.e1" charOffset="44-75"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s2.e2" charOffset="104-110"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="By recruiting the methyltransferase positive regulation of cell proliferation, C/EBPβ can maintain an open chromatin state by H3K79 methylation of multiple drug-resistance genes, thereby augmenting the chemoresistance of tumor cells.">
+		<entity id="s3.e1" charOffset="36-77"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s3.e2" charOffset="221-226"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

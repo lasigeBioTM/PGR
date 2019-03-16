@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26109344">
+	<sentence id="s1" text="To identify potential biological differences by bile acid metabolic process among Luminal A breast cancers, gene expression data from 108 CAU and 57 AA breast tumors were analyzed.">
+		<entity id="s1.e1" charOffset="48-75"
+			type="GO" text="bile acid metabolic process" ontology_id="GO_0008206"/>
+		<entity id="s1.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="159-165"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Six genes (positive regulation of cell death, DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest, visual perception, L-serine metabolic process, cholesterol metabolic process, dTMP biosynthetic process) were differentially expressed by bile acid metabolic process among Luminal A breast cancers and were associated with survival (HR AAAA0.8, HR AAAA1.25).">
+		<entity id="s2.e1" charOffset="11-44"
+			type="GO" text="positive regulation of cell death" ontology_id="GO_0010942"/>
+		<entity id="s2.e2" charOffset="46-139"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest" ontology_id="GO_0006977"/>
+		<entity id="s2.e3" charOffset="83-110"
+			type="GO" text="bile acid metabolic process" ontology_id="GO_0008206"/>
+		<entity id="s2.e4" charOffset="134-140"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e5" charOffset="160-186"
+			type="GO" text="L-serine metabolic process" ontology_id="GO_0006563"/>
+		<entity id="s2.e6" charOffset="188-217"
+			type="GO" text="cholesterol metabolic process" ontology_id="GO_0008203"/>
+		<entity id="s2.e7" charOffset="219-244"
+			type="GO" text="dTMP biosynthetic process" ontology_id="GO_0006231"/>
+		<entity id="s2.e8" charOffset="1158-158"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e4"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e5"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e6"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e7"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="For all six genes, tumors in AA had higher expression of poor prognosis genes (visual perception, L-serine metabolic process, cholesterol metabolic process, dTMP biosynthetic process) and lower expression of good prognosis genes (positive regulation of cell death, DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest).">
+		<entity id="s3.e1" charOffset="19-25"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="79-96"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s3.e3" charOffset="98-124"
+			type="GO" text="L-serine metabolic process" ontology_id="GO_0006563"/>
+		<entity id="s3.e4" charOffset="126-155"
+			type="GO" text="cholesterol metabolic process" ontology_id="GO_0008203"/>
+		<entity id="s3.e5" charOffset="151-184"
+			type="GO" text="positive regulation of cell death" ontology_id="GO_0010942"/>
+		<entity id="s3.e6" charOffset="157-182"
+			type="GO" text="dTMP biosynthetic process" ontology_id="GO_0006231"/>
+		<entity id="s3.e7" charOffset="186-279"
+			type="GO" text="DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest" ontology_id="GO_0006977"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e7" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p6" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Some of these differences (visual perception and L-serine metabolic process) may exist from the earliest stages of tumor development, or may even precede malignancy">
+		<entity id="s4.e1" charOffset="27-44"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s4.e2" charOffset="49-75"
+			type="GO" text="L-serine metabolic process" ontology_id="GO_0006563"/>
+		<entity id="s4.e3" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

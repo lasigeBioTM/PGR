@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28368018">
+	<sentence id="s1" text="Here we show in a child with microthrombocytopenia, eosinophilia and inflammatory disease, a homozygous frameshift mutation in Arp2/3 complex-mediated actin nucleation (p.Val91Trpfs*30).">
+		<entity id="s1.e1" charOffset="52-64"
+			type="HP" text="eosinophilia" ontology_id="HP_0001880"/>
+		<entity id="s1.e2" charOffset="127-167"
+			type="GO" text="Arp2/3 complex-mediated actin nucleation" ontology_id="GO_0034314"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Thus loss of Arp2/3 complex-mediated actin nucleation produces a unique set of platelet abnormalities, and is associated with haematopoietic/immune symptoms affecting cell lineages where this isoform predominates.">
+		<entity id="s2.e1" charOffset="13-53"
+			type="GO" text="Arp2/3 complex-mediated actin nucleation" ontology_id="GO_0034314"/>
+		<entity id="s2.e2" charOffset="79-101"
+			type="HP" text="platelet abnormalities" ontology_id="HP_0001872"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

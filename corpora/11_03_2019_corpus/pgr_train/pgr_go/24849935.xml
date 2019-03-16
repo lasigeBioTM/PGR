@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24849935">
+	<sentence id="s1" text="Bardet-Biedl syndrome (visual perception) is a rare ciliopathy disorder that is clinically and genetically heterogeneous with 18 known genes.">
+		<entity id="s1.e1" charOffset="23-40"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<entity id="s1.e2" charOffset="107-120"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="This result represents another indication for the genetic heterogeneity of visual perception and extends the mutational spectrum of the disease by introducing nine novel mutations in five BBS genes.">
+		<entity id="s2.e1" charOffset="58-71"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="75-92"
+			type="GO" text="visual perception" ontology_id="GO_0007601"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29914902">
+	<sentence id="s1" text="After 1 year, because of worsening in spatial orientation and the onset of dressing apraxia, he was referred to our memory clinic.">
+		<entity id="s1.e1" charOffset="38-45"
+			type="GENE" text="spatial" ontology_id="219793"/>
+		<entity id="s1.e2" charOffset="84-91"
+			type="HP" text="apraxia" ontology_id="HP_0002186"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

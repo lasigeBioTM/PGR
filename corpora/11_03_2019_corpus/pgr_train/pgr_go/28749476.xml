@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28749476">
+	<sentence id="s1" text="WES also unraveled pathogenic mutations in genes not commonly linked to FTD, including mutations in Alzheimer (membrane protein ectodomain proteolysis, membrane protein ectodomain proteolysis), lysosomal (proteolysis involved in cellular protein catabolic process, 7-exon macro-deletion) and cholesterol homeostasis pathways (bile acid biosynthetic process).ConclusionOur unbiased approach reveals a wide genetic spectrum underlying clinical FTD, including 11% of seemingly sporadic FTD.">
+		<entity id="s1.e1" charOffset="111-150"
+			type="GO" text="membrane protein ectodomain proteolysis" ontology_id="GO_0006509"/>
+		<entity id="s1.e2" charOffset="152-191"
+			type="GO" text="membrane protein ectodomain proteolysis" ontology_id="GO_0006509"/>
+		<entity id="s1.e3" charOffset="205-263"
+			type="GO" text="proteolysis involved in cellular protein catabolic process" ontology_id="GO_0051603"/>
+		<entity id="s1.e4" charOffset="326-356"
+			type="GO" text="bile acid biosynthetic process" ontology_id="GO_0006699"/>
+		<entity id="s1.e5" charOffset="363-371"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+</document>

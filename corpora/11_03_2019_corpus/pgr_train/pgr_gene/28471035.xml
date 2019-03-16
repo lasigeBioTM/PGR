@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28471035">
+	<sentence id="s1" text="Hereditary sensory and autonomic neuropathies (HSAN) type II are characterized by autosomal recessive inheritance, onset at birth and self-mutilating behavior.">
+		<entity id="s1.e1" charOffset="53-57"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="82-101"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="102-113"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

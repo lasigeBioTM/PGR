@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24390428">
+	<sentence id="s1" text="Treatment of tumor cells with the inhibitor GSK2830371 increases phosphorylation of Wip1 substrates and causes growth inhibition in both hematopoietic tumor cell lines and Wip1-amplified breast tumor cells harboring wild-type TP53.">
+		<entity id="s1.e1" charOffset="13-18"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="84-88"
+			type="GENE" text="Wip1" ontology_id="8493"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29024210">
+	<sentence id="s1" text="We report a case of ALK-positive renal cell carcinoma coincident with Hodgkin lymphoma.">
+		<entity id="s1.e1" charOffset="20-23"
+			type="GENE" text="ALK" ontology_id="238"/>
+		<entity id="s1.e2" charOffset="33-53"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The variety of growth patterns and cell features led us to speculate a possibility of ALK-positive renal cell carcinoma (ALK + RCC).">
+		<entity id="s2.e1" charOffset="86-89"
+			type="GENE" text="ALK" ontology_id="238"/>
+		<entity id="s2.e2" charOffset="99-119"
+			type="HP" text="renal cell carcinoma" ontology_id="HP_0005584"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

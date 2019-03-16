@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30531685">
+	<sentence id="s1" text="MATERIAL AND METHODS The proliferation of prostate cancer cells was determined by CCK-8 assay.">
+		<entity id="s1.e1" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="82-85"
+			type="GENE" text="CCK" ontology_id="885"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CONCLUSIONS Our findings indicate that resveratrol induces apoptosis via HIF-1α/ROS/p53 signaling in prostate cancer cells and may be a useful therapeutic agent against prostate cancer">
+		<entity id="s2.e1" charOffset="80-83"
+			type="GENE" text="ROS" ontology_id="6098"/>
+		<entity id="s2.e2" charOffset="110-116"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

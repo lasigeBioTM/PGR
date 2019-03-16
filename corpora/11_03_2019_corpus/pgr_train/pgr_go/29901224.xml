@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29901224">
+	<sentence id="s1" text="The search for clinically relevant molecular markers in classical Hodgkin lymphoma (eye development) is hampered by the histopathological complexity of the disease, resulting from the admixture of a small number of neoplastic Hodgkin and Reed-Sternberg (H-regulation of transcription, DNA-templated) cells with an abundant and heterogeneous microenvironment.">
+		<entity id="s1.e1" charOffset="84-99"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s1.e2" charOffset="256-298"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e3" charOffset="287-300"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We reinforce the potential of proteolysis as an interesting target to be explored in adult and pediatric eye development, and alert for its dual biological role in H-regulation of transcription, DNA-templated cells and tumor microenvironment">
+		<entity id="s2.e1" charOffset="30-41"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s2.e2" charOffset="99-114"
+			type="GO" text="eye development" ontology_id="GO_0001654"/>
+		<entity id="s2.e3" charOffset="166-208"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s2.e4" charOffset="173-178"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

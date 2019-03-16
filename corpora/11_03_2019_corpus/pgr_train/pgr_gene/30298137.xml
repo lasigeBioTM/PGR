@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30298137">
+	<sentence id="s1" text="Additionally, multivariate logistic regression analysis identified that the mutant genotype of rs4148323 in the UGT1A1 gene, ABO incompatibility, G6PD deficiency, and SS genotype at rs1805173 locus of the HO-1 gene were genetic risk factors of neonatal hyperbilirubinemia.">
+		<entity id="s1.e1" charOffset="125-128"
+			type="GENE" text="ABO" ontology_id="28"/>
+		<entity id="s1.e2" charOffset="253-271"
+			type="HP" text="hyperbilirubinemia" ontology_id="HP_0002904"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Our data demonstrate that G211 mutation in the UGT1A1 gene, ABO incompatibility, G6PD deficiency, and the SS genotype of the repeats in the promoter region of the HO-1 gene are risk factors for neonatal hyperbilirubinemia in Fujian, Southeastern China">
+		<entity id="s2.e1" charOffset="60-63"
+			type="GENE" text="ABO" ontology_id="28"/>
+		<entity id="s2.e2" charOffset="203-221"
+			type="HP" text="hyperbilirubinemia" ontology_id="HP_0002904"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

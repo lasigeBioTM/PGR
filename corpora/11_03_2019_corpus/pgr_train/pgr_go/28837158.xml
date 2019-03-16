@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28837158">
+	<sentence id="s1" text="The purpose of this study was to evaluate the frequency of mosaicism detected by next-generation sequencing in genes associated with epilepsy-related neurodevelopmental disorders.MethodsWe conducted a retrospective analysis of 893 probands with epilepsy who had a multigene epilepsy panel or whole-exome sequencing performed in a clinical diagnostic laboratory and were positive for a pathogenic or likely pathogenic variant in one of nine genes (regulation of postsynapse organization, chloride transmembrane transport, inhibitory synapse assembly, response to ethanol, potassium ion transmembrane transport, negative regulation of gene expression, cell adhesion, cardiac muscle cell action potential involved in contraction, or sodium ion transmembrane transport).">
+		<entity id="s1.e1" charOffset="133-141"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e2" charOffset="447-485"
+			type="GO" text="regulation of postsynapse organization" ontology_id="GO_0099175"/>
+		<entity id="s1.e3" charOffset="487-519"
+			type="GO" text="chloride transmembrane transport" ontology_id="GO_1902476"/>
+		<entity id="s1.e4" charOffset="521-548"
+			type="GO" text="inhibitory synapse assembly" ontology_id="GO_1904862"/>
+		<entity id="s1.e5" charOffset="550-569"
+			type="GO" text="response to ethanol" ontology_id="GO_0045471"/>
+		<entity id="s1.e6" charOffset="571-608"
+			type="GO" text="potassium ion transmembrane transport" ontology_id="GO_0071805"/>
+		<entity id="s1.e7" charOffset="610-648"
+			type="GO" text="negative regulation of gene expression" ontology_id="GO_0010629"/>
+		<entity id="s1.e8" charOffset="650-663"
+			type="GO" text="cell adhesion" ontology_id="GO_0007155"/>
+		<entity id="s1.e9" charOffset="665-725"
+			type="GO" text="cardiac muscle cell action potential involved in contraction" ontology_id="GO_0086002"/>
+		<entity id="s1.e10" charOffset="730-764"
+			type="GO" text="sodium ion transmembrane transport" ontology_id="GO_0035725"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+		<pair id="s1.p8" e1="s1.e1"
+		    e2="s1.e9" pgr="true"/>
+		<pair id="s1.p9" e1="s1.e1"
+		    e2="s1.e10" pgr="true"/>
+	</sentence>
+</document>

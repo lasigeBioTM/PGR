@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25351776">
+	<sentence id="s1" text="We analyzed, by conventional and molecular cytogenetics, 19 novel positive regulation of gene expression-negative unrelated 46,XX subjects both familial and sporadic, with isolated DSD.">
+		<entity id="s1.e1" charOffset="66-104"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s1.e2" charOffset="157-165"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A further XX male, ascertained because of intellectual disability, carried a de novo nodal signaling pathway duplication at Xq27.1, involving sex determination.">
+		<entity id="s2.e1" charOffset="42-65"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e2" charOffset="85-108"
+			type="GO" text="nodal signaling pathway" ontology_id="GO_0038092"/>
+		<entity id="s2.e3" charOffset="142-159"
+			type="GO" text="sex determination" ontology_id="GO_0007530"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

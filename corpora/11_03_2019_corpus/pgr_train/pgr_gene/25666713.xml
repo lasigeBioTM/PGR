@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25666713">
+	<sentence id="s1" text="Here, we utilized the CRISPR-Cas9 system to generate Kcnj13 mutant mice by zygote injection to verify the pathogenic role of human KCNJ13, mutations of which are thought to cause Leber congenital amaurosis (LCA), an early-onset form of blindness.">
+		<entity id="s1.e1" charOffset="47-50"
+			type="GENE" text="era" ontology_id="2099"/>
+		<entity id="s1.e2" charOffset="53-59"
+			type="GENE" text="Kcnj13" ontology_id="3769"/>
+		<entity id="s1.e3" charOffset="67-71"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e4" charOffset="131-137"
+			type="GENE" text="KCNJ13" ontology_id="3769"/>
+		<entity id="s1.e5" charOffset="207-210"
+			type="GENE" text="LCA" ontology_id="1211"/>
+		<entity id="s1.e6" charOffset="236-245"
+			type="HP" text="blindness" ontology_id="HP_0000618"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e5"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+</document>

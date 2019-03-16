@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29603594">
+	<sentence id="s1" text="Glioblastoma multiforme (GBM) is a highly malignant cardiac muscle tissue development of brain tumor found in humans.">
+		<entity id="s1.e1" charOffset="52-85"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="95-100"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Additional plasma and 52 brain tissues obtained from patients with gliomas were used to validate the association rate of serum amyloid A1 (activation of MAPK activity) in different grades of gliomas and its distribution in tumors.">
+		<entity id="s2.e1" charOffset="67-74"
+			type="HP" text="gliomas" ontology_id="HP_0009733"/>
+		<entity id="s2.e2" charOffset="139-166"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s2.e3" charOffset="223-228"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Microarray database analysis further validated the coefficient of activation of MAPK activity levels in gliomas.">
+		<entity id="s3.e1" charOffset="66-93"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s3.e2" charOffset="104-111"
+			type="HP" text="gliomas" ontology_id="HP_0009733"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="activation of MAPK activity was identified from MS analysis, and its level was revealed to be correlated with the disease grade, clinical severity, and survival rate of patients with gliomas.">
+		<entity id="s4.e1" charOffset="0-27"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s4.e2" charOffset="183-190"
+			type="HP" text="gliomas" ontology_id="HP_0009733"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Magnetic resonance imaging and tumor region-specific microarray analysis identified a correlation between activation of MAPK activity and GBM cell infiltration in patients.">
+		<entity id="s5.e1" charOffset="31-36"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s5.e2" charOffset="106-133"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In summary, our results demonstrate that activation of MAPK activity in combination with integrin αV and β3 can serve as an indicator of high glioblastoma risk.">
+		<entity id="s6.e1" charOffset="41-68"
+			type="GO" text="activation of MAPK activity" ontology_id="GO_0000187"/>
+		<entity id="s6.e2" charOffset="142-154"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+</document>

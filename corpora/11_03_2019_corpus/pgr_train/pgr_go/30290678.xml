@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30290678">
+	<sentence id="s1" text="The study was carried out to explore the risk stratification of the poor prognosis for patients underwent surgical treatment.60 patients diagnosed with neuroblastoma were primarily enrolled in the study from nucleosome assembly 2008 to April 2016.">
+		<entity id="s1.e1" charOffset="152-165"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="208-227"
+			type="GO" text="nucleosome assembly" ontology_id="GO_0006334"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Clinical variables, including age, International Neuroblastoma Staging System (INSS) stage, tumor size and site, histology, and positive regulation of gene expression status were retrospectively analyzed, and cell migration was chosen as the endpoint.The median age of patients was 8.2 months and average follow-up period was 40.2 ± 8.6 months.">
+		<entity id="s2.e1" charOffset="92-97"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="128-166"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s2.e3" charOffset="209-223"
+			type="GO" text="cell migration" ontology_id="GO_0016477"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Cox multifactor regression analysis revealed that age, histology and positive regulation of gene expression status had significant prognostic effect on event-free survival (cell migration) rate for neuroblastoma patients underwent surgical treatment.In our study, we identified a series of prognostic factors including age, histology, and MYCN status predicting the prognosis of neuroblastoma patients after surgical treatment">
+		<entity id="s3.e1" charOffset="69-107"
+			type="GO" text="positive regulation of gene expression" ontology_id="GO_0010628"/>
+		<entity id="s3.e2" charOffset="173-187"
+			type="GO" text="cell migration" ontology_id="GO_0016477"/>
+		<entity id="s3.e3" charOffset="187-200"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

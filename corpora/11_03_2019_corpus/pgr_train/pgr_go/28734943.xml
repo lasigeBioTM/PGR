@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28734943">
+	<sentence id="s1" text="More important, negative regulation of endodermal cell differentiation haploinsufficiency markedly increased the incidence and severity of abdominal aortic aneurysms, and caused aortic tRNA splicing, via endonucleolytic cleavage and ligation ruptures and dissections, indicating that α2(V) chain deficits may play roles in these pathologies in humans">
+		<entity id="s1.e1" charOffset="16-70"
+			type="GO" text="negative regulation of endodermal cell differentiation" ontology_id="GO_1903225"/>
+		<entity id="s1.e2" charOffset="149-165"
+			type="HP" text="aortic aneurysms" ontology_id="HP_0004942"/>
+		<entity id="s1.e3" charOffset="185-241"
+			type="GO" text="tRNA splicing, via endonucleolytic cleavage and ligation" ontology_id="GO_0006388"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

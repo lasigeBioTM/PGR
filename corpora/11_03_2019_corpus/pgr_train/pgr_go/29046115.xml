@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29046115">
+	<sentence id="s1" text="However, activated T cells and B cells secrete pro-osteoclastogenic factors including receptor activator of Nuclear factor-kappaB (NF-kB) ligand (monocyte chemotaxis), Interleukin (IL)-17A, and tumor necrosis factor (negative regulation of transcription by RNA polymerase II)-α promoting bone loss in inflammatory states such as rheumatoid arthritis.">
+		<entity id="s1.e1" charOffset="146-165"
+			type="GO" text="monocyte chemotaxis" ontology_id="GO_0002548"/>
+		<entity id="s1.e2" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="217-274"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="T cell-produced negative regulation of transcription by RNA polymerase II and IL-17A further contribute to bone loss in hyperparathyroidism, while T cell production of the anabolic Wingless integration site (Wnt) ligand, negative regulation of fat cell differentiation, promotes bone formation in response to anabolic parathyroid hormone and the immunomodulatory costimulation inhibitor cytotoxic T lymphocyte-associated protein-4-IgG (abatacept).">
+		<entity id="s2.e1" charOffset="16-73"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s2.e2" charOffset="120-139"
+			type="HP" text="hyperparathyroidism" ontology_id="HP_0000843"/>
+		<entity id="s2.e3" charOffset="221-268"
+			type="GO" text="negative regulation of fat cell differentiation" ontology_id="GO_0045599"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

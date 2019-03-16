@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24827421">
+	<sentence id="s1" text="By way of whole-exome sequencing, we identified a homozygous missense mutation in VARS2 in one subject with microcephaly and epilepsy associated with isolated deficiency of the mitochondrial respiratory chain (MRC) complex I and compound heterozygous mutations in TARS2 in two siblings presenting with axial hypotonia and severe psychomotor delay associated with multiple MRC defects.">
+		<entity id="s1.e1" charOffset="82-87"
+			type="GENE" text="VARS2" ontology_id="7407"/>
+		<entity id="s1.e2" charOffset="108-120"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e3" charOffset="125-133"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="177-190"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s1.e5" charOffset="210-213"
+			type="GENE" text="MRC" ontology_id="4345"/>
+		<entity id="s1.e6" charOffset="264-269"
+			type="GENE" text="TARS2" ontology_id="80222"/>
+		<entity id="s1.e7" charOffset="302-307"
+			type="HP" text="axial" ontology_id="HP_0025287"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e8"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e7" pgr="false"/>
+		<pair id="s1.p8" e1="s1.e6"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p9" e1="s1.e7"
+		    e2="s1.e14" pgr="false"/>
+		<pair id="s1.p10" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p11" e1="s1.e20"
+		    e2="s1.e6" pgr="false"/>
+		<pair id="s1.p12" e1="s1.e20"
+		    e2="s1.e7" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Expression of the corresponding wild-type transcripts in immortalized mutant fibroblasts rescued the biochemical impairment of mitochondrial respiration and yeast modeling of the VARS2 mutation confirmed its pathogenic role.">
+		<entity id="s2.e1" charOffset="127-140"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s2.e2" charOffset="179-184"
+			type="GENE" text="VARS2" ontology_id="7407"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our study reports the first mutations in the VARS2 and TARS2 genes, which encode two mitochondrial aminoacyl-tRNA synthetases, as causes of clinically distinct, early-onset mitochondrial encephalopathies.">
+		<entity id="s3.e1" charOffset="45-50"
+			type="GENE" text="VARS2" ontology_id="7407"/>
+		<entity id="s3.e2" charOffset="55-60"
+			type="GENE" text="TARS2" ontology_id="80222"/>
+		<entity id="s3.e3" charOffset="85-98"
+			type="HP" text="mitochondrial" ontology_id="HP_0001427"/>
+		<entity id="s3.e4" charOffset="187-203"
+			type="HP" text="encephalopathies" ontology_id="HP_0001298"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+</document>

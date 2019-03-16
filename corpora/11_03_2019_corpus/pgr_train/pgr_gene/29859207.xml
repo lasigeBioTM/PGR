@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29859207">
+	<sentence id="s1" text="We have recently demonstrated that DNA damage signaling from DNA double-strand breaks (DSBs) promotes PD-L1 upregulation in cancer cells.">
+		<entity id="s1.e1" charOffset="39-45"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<entity id="s1.e2" charOffset="124-130"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22201925">
+	<sentence id="s1" text="Until recently, four loci (purine nucleobase metabolic process, cochlea morphogenesis, DFN4, and striated muscle contraction) had been implicated in nonsyndromic X-linked hearing loss; however, a new classification (purine nucleobase metabolic process-5) has been proposed to reduce confusion in the terminology.">
+		<entity id="s1.e1" charOffset="27-62"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s1.e2" charOffset="64-85"
+			type="GO" text="cochlea morphogenesis" ontology_id="GO_0090103"/>
+		<entity id="s1.e3" charOffset="97-124"
+			type="GO" text="striated muscle contraction" ontology_id="GO_0006941"/>
+		<entity id="s1.e4" charOffset="131-143"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e5" charOffset="216-251"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In addition to the cochlea morphogenesis gene, which was the first gene identified as causing nonsyndromic X-linked hearing loss, a second gene, purine nucleobase metabolic process, has recently been identified to be the causative gene of purine nucleobase metabolic process (purine nucleobase metabolic process).">
+		<entity id="s2.e1" charOffset="19-40"
+			type="GO" text="cochlea morphogenesis" ontology_id="GO_0090103"/>
+		<entity id="s2.e2" charOffset="101-113"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s2.e3" charOffset="145-180"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s2.e4" charOffset="201-236"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<entity id="s2.e5" charOffset="239-274"
+			type="GO" text="purine nucleobase metabolic process" ontology_id="GO_0006144"/>
+		<pair id="s2.p1" e1="s2.e4"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+	</sentence>
+</document>

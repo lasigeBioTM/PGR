@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28239884">
+	<sentence id="s1" text="Punctate palmoplantar keratoderma type 1 (PPPK1) is a rare autosomal dominant inherited skin disease, characterized by multiple hyperkeratotic lesions on the palms and soles.">
+		<entity id="s1.e1" charOffset="9-33"
+			type="HP" text="palmoplantar keratoderma" ontology_id="HP_0000982"/>
+		<entity id="s1.e2" charOffset="34-38"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

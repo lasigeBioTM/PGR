@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28720310">
+	<sentence id="s1" text="Preclinical studies have demonstrated that EMP2 is associated with disease prognosis in a number of human cancers, including glioblastoma.">
+		<entity id="s1.e1" charOffset="43-47"
+			type="GENE" text="EMP2" ontology_id="2013"/>
+		<entity id="s1.e2" charOffset="106-112"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="125-137"
+			type="HP" text="glioblastoma" ontology_id="HP_0012174"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The four large extracellular domains of EMP2 and its association with the extracellular matrix makes it an attractive target for future cancer therapies.">
+		<entity id="s2.e1" charOffset="40-44"
+			type="GENE" text="EMP2" ontology_id="2013"/>
+		<entity id="s2.e2" charOffset="136-142"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Translational research suggests that EMP2 may be targeted with antibodies to improve tumor control and survival in a variety of murine models and cancer types.">
+		<entity id="s3.e1" charOffset="37-41"
+			type="GENE" text="EMP2" ontology_id="2013"/>
+		<entity id="s3.e2" charOffset="85-90"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="146-152"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

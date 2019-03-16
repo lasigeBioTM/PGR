@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25255716">
+	<sentence id="s1" text="Spinocerebellar ataxia type 1 (SCA1) is a dominantly inherited neurodegenerative disease of the cerebellum caused by a polyglutamine-repeat expansion in the protein ATXN1.">
+		<entity id="s1.e1" charOffset="16-22"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e2" charOffset="23-27"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e3" charOffset="31-35"
+			type="GENE" text="SCA1" ontology_id="6310"/>
+		<entity id="s1.e4" charOffset="165-170"
+			type="GENE" text="ATXN1" ontology_id="6310"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29899443">
+	<sentence id="s1" text="We obtained cryo-electron microscopy structures of an activated filament that is allosterically induced by citrate (ACC-citrate), and an inactivated filament form that results from binding of the BRCT domains of the breast cancer cardiac muscle tissue development 1 susceptibility protein (double-strand break repair via homologous recombination).">
+		<entity id="s1.e1" charOffset="223-229"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="230-263"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e3" charOffset="290-345"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

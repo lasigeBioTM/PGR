@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29982334">
+	<sentence id="s1" text="The most important finding is the recurrently mutated gene, animal organ morphogenesis, which has never been reported in parathyroid tumors before.">
+		<entity id="s1.e1" charOffset="60-86"
+			type="GO" text="animal organ morphogenesis" ontology_id="GO_0009887"/>
+		<entity id="s1.e2" charOffset="133-138"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Moreover, we identified two different somatic mutations in the negative regulation of cell proliferation gene and one somatic mutation in the negative regulation of transcription by RNA polymerase II gene.">
+		<entity id="s2.e1" charOffset="38-54"
+			type="HP" text="somatic mutation" ontology_id="HP_0001428"/>
+		<entity id="s2.e2" charOffset="63-104"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s2.e3" charOffset="142-199"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The Y54X mutation in the negative regulation of cell proliferation gene was previously identified in parathyroid carcinomas, which proved that parathyroid adenomas and carcinomas might possess similar molecular signatures.">
+		<entity id="s3.e1" charOffset="25-66"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s3.e2" charOffset="101-123"
+			type="HP" text="parathyroid carcinomas" ontology_id="HP_0006780"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25599650">
+	<sentence id="s1" text="Both display heterotaxy, cardiopulmonary malformations and cystic kidneys, a syndrome also characteristic of mutations in Invs and Nphp3, the other known components of the IC.">
+		<entity id="s1.e1" charOffset="59-73"
+			type="HP" text="cystic kidneys" ontology_id="HP_0000107"/>
+		<entity id="s1.e2" charOffset="122-126"
+			type="GENE" text="Invs" ontology_id="27130"/>
+		<entity id="s1.e3" charOffset="131-136"
+			type="GENE" text="Nphp3" ontology_id="27031"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

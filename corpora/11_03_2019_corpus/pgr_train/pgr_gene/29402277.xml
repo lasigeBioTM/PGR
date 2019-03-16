@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29402277">
+	<sentence id="s1" text="Primary ciliary dyskinesia (PCD) is a rare, autosomal recessive disease with abnormalities in the structure of cilia, causing impairment of muco-ciliary clearance with respiratory tract infections, heterotaxia and abnormal sperm motility with male infertility.">
+		<entity id="s1.e1" charOffset="8-26"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="28-31"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s1.e3" charOffset="44-63"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e4" charOffset="198-209"
+			type="HP" text="heterotaxia" ontology_id="HP_0030853"/>
+		<entity id="s1.e5" charOffset="214-237"
+			type="HP" text="abnormal sperm motility" ontology_id="HP_0012206"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, with a comprehensive literature review, we report a couple with an infertility history of 9 years and three unsuccessful IVF treatments, where male partner has Kartagener's Syndrome, a subtype of PCD, displaying recurrent respiratory infections, dextrocardia and total asthenozoospermia.">
+		<entity id="s2.e1" charOffset="127-130"
+			type="GENE" text="IVF" ontology_id="6331"/>
+		<entity id="s2.e2" charOffset="202-205"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s2.e3" charOffset="252-264"
+			type="HP" text="dextrocardia" ontology_id="HP_0001651"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

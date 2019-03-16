@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25220058">
+	<sentence id="s1" text="As in MOPDII patients, disruption of pericentrin (cilium assembly) in apoptotic process caused a number of abnormalities including microcephaly, aberrant hemodynamics analyzed by in utero echocardiography, and cardiovascular anomalies; the latter being associated with mortality, as in the human condition.">
+		<entity id="s1.e1" charOffset="50-65"
+			type="GO" text="cilium assembly" ontology_id="GO_0060271"/>
+		<entity id="s1.e2" charOffset="70-87"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="118-130"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

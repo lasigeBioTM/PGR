@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28775359">
+	<sentence id="s1" text="The zinc transporter cellular zinc ion homeostasis influences epithelial cell morphology and migration in various cancers; however, its role in regulating cell invasion and chemotherapeutic resistance in human lung cancer is not yet clear.">
+		<entity id="s1.e1" charOffset="21-50"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s1.e2" charOffset="114-120"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Here, integrated analysis of gene expression in non-small cell lung cancer revealed that cellular zinc ion homeostasis expression is significantly correlated with increased tumour size and regional lymph node spread, as well as shorter overall survival (OS) and disease-free survival (DFS).">
+		<entity id="s2.e1" charOffset="68-74"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="89-118"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s2.e3" charOffset="173-179"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="cellular zinc ion homeostasis silencing by lentivirus-mediated shRNA blocked human lung cancer cell epithelial-mesenchymal transition and metastasis in vitro and in vivo, respectively.">
+		<entity id="s3.e1" charOffset="0-29"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s3.e2" charOffset="88-94"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Moreover, cellular zinc ion homeostasis knockdown enhanced cancer cell sensitivity to cisplatin-induced death by inhibiting stemness in lung cancer cells.">
+		<entity id="s4.e1" charOffset="10-39"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s4.e2" charOffset="59-65"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Collectively, these data suggest that cellular zinc ion homeostasis may be a novel therapeutic target and predictive marker of tumour metastasis in non-small cell lung cancer">
+		<entity id="s5.e1" charOffset="38-67"
+			type="GO" text="cellular zinc ion homeostasis" ontology_id="GO_0006882"/>
+		<entity id="s5.e2" charOffset="127-133"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

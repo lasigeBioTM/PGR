@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26915689">
+	<sentence id="s1" text="Deafness genes, which harbor pathogenic mutations that have been identified in families with hereditary hearing loss, are commonly expressed in the auditory end organ or the cochlea and may contribute to normal hearing function, yet some of the mouse models carrying these mutations fail to recapitulate the hearing loss phenotype.">
+		<entity id="s1.e1" charOffset="104-116"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="157-160"
+			type="GENE" text="end" ontology_id="2022"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In this study, we find that distinct expression patterns of those deafness genes in the cochlea of a non-human primate, the common marmoset (Callithrix jacchus).">
+		<entity id="s2.e1" charOffset="18-22"
+			type="GENE" text="find" ontology_id="81501"/>
+		<entity id="s2.e2" charOffset="66-74"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The deafness genes GJB3, CRYM, GRHL2, DFNA5, and ATP6B1 were expressed in marmoset cochleae in patterns different from those in mouse cochleae.">
+		<entity id="s3.e1" charOffset="4-12"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s3.e2" charOffset="19-23"
+			type="GENE" text="GJB3" ontology_id="2707"/>
+		<entity id="s3.e3" charOffset="25-29"
+			type="GENE" text="CRYM" ontology_id="1428"/>
+		<entity id="s3.e4" charOffset="31-36"
+			type="GENE" text="GRHL2" ontology_id="79977"/>
+		<entity id="s3.e5" charOffset="49-55"
+			type="GENE" text="ATP6B1" ontology_id="525"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Of note, all those genes are causative for progressive hearing loss in humans, but not in mice.">
+		<entity id="s4.e1" charOffset="55-67"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s4.e2" charOffset="90-94"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The other tested genes, including the deafness gene COCH, in which mutation recapitulates deafness in mice, were expressed in a similar manner in both species.">
+		<entity id="s5.e1" charOffset="38-46"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s5.e2" charOffset="52-56"
+			type="GENE" text="COCH" ontology_id="1690"/>
+		<entity id="s5.e3" charOffset="102-106"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="true"/>
+	</sentence>
+</document>

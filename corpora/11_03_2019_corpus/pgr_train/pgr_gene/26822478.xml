@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26822478">
+	<sentence id="s1" text="By demonstrating that MT-bound Tau inhibits the Eg5 kinesin and cell mitosis, our work provides a new framework to consider the role of Tau in neurodegenerative diseases.">
+		<entity id="s1.e1" charOffset="31-34"
+			type="GENE" text="Tau" ontology_id="4137"/>
+		<entity id="s1.e2" charOffset="143-169"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

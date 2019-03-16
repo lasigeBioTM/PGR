@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29407415">
+	<sentence id="s1" text="This paper deals with the molecular investigation of Waardenburg syndrome (WS) in a sample of 49 clinically diagnosed probands (most from southeastern Brazil), 24 of them having the type 1 (WS1) variant (10 familial and 14 isolated cases) and 25 being affected by the type 2 (WS2) variant (five familial and 20 isolated cases).">
+		<entity id="s1.e1" charOffset="182-186"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="223-237"
+			type="HP" text="isolated cases" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29744576">
+	<sentence id="s1" text="Here, we summarize the cellular functions of negative regulation of neuron apoptotic process, its roles in the nervous system, and its link to multiple neurodegenerative diseases, with a particular focus dedicated to recent lysosome-related mechanistic developments">
+		<entity id="s1.e1" charOffset="45-92"
+			type="GO" text="negative regulation of neuron apoptotic process" ontology_id="GO_0043524"/>
+		<entity id="s1.e2" charOffset="152-178"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

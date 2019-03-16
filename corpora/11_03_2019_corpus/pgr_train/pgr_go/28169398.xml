@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28169398">
+	<sentence id="s1" text="The gonadoblastoma gene, testis-specific protein Y-encoded (sex differentiation), on the Y chromosome and its X-homologue, negative regulation of DNA replication, are cell cycle regulators and function as a proto-oncogene and a tumor suppressor respectively in human oncogenesis.">
+		<entity id="s1.e1" charOffset="4-18"
+			type="HP" text="gonadoblastoma" ontology_id="HP_0000150"/>
+		<entity id="s1.e2" charOffset="60-79"
+			type="GO" text="sex differentiation" ontology_id="GO_0007548"/>
+		<entity id="s1.e3" charOffset="123-161"
+			type="GO" text="negative regulation of DNA replication" ontology_id="GO_0008156"/>
+		<entity id="s1.e4" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="sex differentiation and negative regulation of DNA replication co-localize with the endogenous oxidation-reduction process, in the presence of ligand, on the promoters and differentially regulate the expression of the endogenous AR target genes in the androgen-responsive LNCaP prostate cancer cells.">
+		<entity id="s2.e1" charOffset="0-19"
+			type="GO" text="sex differentiation" ontology_id="GO_0007548"/>
+		<entity id="s2.e2" charOffset="24-62"
+			type="GO" text="negative regulation of DNA replication" ontology_id="GO_0008156"/>
+		<entity id="s2.e3" charOffset="95-122"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s2.e4" charOffset="228-234"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Hence, negative regulation of cell adhesion differentiation and negative regulation of DNA replication exert opposing effects on the transactivation functions of oxidation-reduction process and AR-Vs important for various physiological and disease processes sensitive to male sex hormone actions, thereby not only affecting the pathogenesis of male-specific prostate cancer but also likely contributing to sex differences in the health and diseases of man">
+		<entity id="s3.e1" charOffset="7-26"
+			type="GO" text="sex differentiation" ontology_id="GO_0007548"/>
+		<entity id="s3.e2" charOffset="7-43"
+			type="GO" text="negative regulation of cell adhesion" ontology_id="GO_0007162"/>
+		<entity id="s3.e3" charOffset="31-69"
+			type="GO" text="negative regulation of DNA replication" ontology_id="GO_0008156"/>
+		<entity id="s3.e4" charOffset="129-156"
+			type="GO" text="oxidation-reduction process" ontology_id="GO_0055114"/>
+		<entity id="s3.e5" charOffset="275-281"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e3"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e2"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+</document>

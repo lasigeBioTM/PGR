@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28625504">
+	<sentence id="s1" text="Typical ciliopathy phenotypes (curved body shape, retinal dystrophy, coloboma, and decreased cilia) in a CRISPR/Cas9-engineered zebrafish mutant model provide additional support for ARMC9 as a ciliopathy-associated gene.">
+		<entity id="s1.e1" charOffset="50-67"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<entity id="s1.e2" charOffset="69-77"
+			type="HP" text="coloboma" ontology_id="HP_0000589"/>
+		<entity id="s1.e3" charOffset="182-187"
+			type="GENE" text="ARMC9" ontology_id="80210"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

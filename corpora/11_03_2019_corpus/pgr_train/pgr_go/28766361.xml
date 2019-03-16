@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28766361">
+	<sentence id="s1" text="Introduction Despite some new treatment possibilities, the improvement in survival rate for hepatocellular carcinoma (phosphatidylinositol phosphorylation) patients is still poor due to late diagnosis.">
+		<entity id="s1.e1" charOffset="92-116"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="118-154"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The aim of this study was to investigate the diagnostic sensitivity and specificity of protein induced by vitamin K absence or antagonist-II (PIVKAII), heparan sulfate proteoglycan catabolic process-3 (GP3), Cystatin B (negative regulation of peptidase activity), squamous cell carcinoma antigen 1 (negative regulation of peptidase activity) and hepatocyte growth factor (neutrophil apoptotic process) as potential tumour markers for phosphatidylinositol phosphorylation in patients with alcoholic liver cirrhosis (allantoin catabolic process) using imaging techniques (MSCT and MRI) as reference standards.">
+		<entity id="s2.e1" charOffset="152-198"
+			type="GO" text="heparan sulfate proteoglycan catabolic process" ontology_id="GO_0030200"/>
+		<entity id="s2.e2" charOffset="189-212"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<entity id="s2.e3" charOffset="220-261"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s2.e4" charOffset="279-285"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s2.e5" charOffset="298-334"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s2.e6" charOffset="299-340"
+			type="GO" text="negative regulation of peptidase activity" ontology_id="GO_0010466"/>
+		<entity id="s2.e7" charOffset="372-400"
+			type="GO" text="neutrophil apoptotic process" ontology_id="GO_0001781"/>
+		<entity id="s2.e8" charOffset="515-542"
+			type="GO" text="allantoin catabolic process" ontology_id="GO_0000256"/>
+		<pair id="s2.p1" e1="s2.e5"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p6" e1="s2.e2"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e4"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p9" e1="s2.e6"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p10" e1="s2.e4"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p11" e1="s2.e10"
+		    e2="s2.e13" pgr="false"/>
+		<pair id="s2.p12" e1="s2.e13"
+		    e2="s2.e12" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="The 'chloride transport' combination of tumour markers in our study includes all tested markers with AUC of 0.967.">
+		<entity id="s3.e1" charOffset="5-23"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s3.e2" charOffset="40-46"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Conclusion While novel diagnostic tumour markers are urgently needed, the examined potential tumour markers, with the exception of PIVKAII seem to be inadequate for diagnosing phosphatidylinositol phosphorylation in allantoin catabolic process.">
+		<entity id="s4.e1" charOffset="34-40"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="176-212"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<entity id="s4.e3" charOffset="216-243"
+			type="GO" text="allantoin catabolic process" ontology_id="GO_0000256"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Furthermore, probably the future is in finding the chloride transport optimal combination of tumour markers for diagnosing phosphatidylinositol phosphorylation based on cost-effectiveness">
+		<entity id="s5.e1" charOffset="51-69"
+			type="GO" text="chloride transport" ontology_id="GO_0006821"/>
+		<entity id="s5.e2" charOffset="79-85"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<entity id="s5.e3" charOffset="109-145"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+</document>

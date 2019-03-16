@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30442880">
+	<sentence id="s1" text="BACKGROUND The distribution of fat mass and obesity-associated gene (FTO) genes rs9939609 and rs1421085 in obese and normal ethnic Mongolians was analyzed to investigate the association of FTO gene polymorphisms with obesity and metabolic syndrome in ethnic Mongolians.">
+		<entity id="s1.e1" charOffset="31-34"
+			type="GENE" text="fat" ontology_id="948"/>
+		<entity id="s1.e2" charOffset="35-39"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s1.e3" charOffset="44-51"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s1.e4" charOffset="69-72"
+			type="GENE" text="FTO" ontology_id="79068"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="RESULTS Body mass, body mass index (BMI), waist circumference (WC), hip circumference (HC), waist-hip ratio (WHR), SBP, DBP, FPG, triglyceride (TG), total cholesterol (TC), and low-density lipoprotein cholesterol (LDL-C) were higher, while HDL-C was lower in the obesity group compared with controls.">
+		<entity id="s2.e1" charOffset="13-17"
+			type="GENE" text="mass" ontology_id="2200"/>
+		<entity id="s2.e2" charOffset="68-71"
+			type="GENE" text="hip" ontology_id="64399"/>
+		<entity id="s2.e3" charOffset="120-123"
+			type="GENE" text="DBP" ontology_id="2638"/>
+		<entity id="s2.e4" charOffset="263-270"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

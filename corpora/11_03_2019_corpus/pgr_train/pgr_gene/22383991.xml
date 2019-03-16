@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22383991">
+	<sentence id="s1" text="Some of the genes causing the Fanconi anemia (FA) syndrome, such as BRCA2, BRIP1, PALB2, and RAD51C, are associated with high or moderate risk of developing breast cancer.">
+		<entity id="s1.e1" charOffset="68-73"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s1.e2" charOffset="75-80"
+			type="GENE" text="BRIP1" ontology_id="64979"/>
+		<entity id="s1.e3" charOffset="82-87"
+			type="GENE" text="PALB2" ontology_id="79728"/>
+		<entity id="s1.e4" charOffset="93-99"
+			type="GENE" text="RAD51C" ontology_id="5889"/>
+		<entity id="s1.e5" charOffset="164-170"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Very recently, SLX4 has been established as a new FA gene raising the question of its implication in breast cancer risk.">
+		<entity id="s2.e1" charOffset="15-19"
+			type="GENE" text="SLX4" ontology_id="84464"/>
+		<entity id="s2.e2" charOffset="108-114"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="This study aimed at answering this question sequencing the entire coding region of SLX4 in 526 familial breast cancer cases from Italy.">
+		<entity id="s3.e1" charOffset="83-87"
+			type="GENE" text="SLX4" ontology_id="84464"/>
+		<entity id="s3.e2" charOffset="111-117"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Our results indicate that testing for SLX4 germline mutations is unlikely to be relevant for the identification of individuals at risk of breast cancer, at least in the Italian population">
+		<entity id="s4.e1" charOffset="38-42"
+			type="GENE" text="SLX4" ontology_id="84464"/>
+		<entity id="s4.e2" charOffset="145-151"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+</document>

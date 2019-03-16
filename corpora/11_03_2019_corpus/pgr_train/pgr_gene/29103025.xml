@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29103025">
+	<sentence id="s1" text="Cervical cancer is the fourth most common malignancy among women worldwide, and continued research to discover biomarkers or therapeutic targets will aid early diagnosis and treatment of this cancer.">
+		<entity id="s1.e1" charOffset="9-15"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="150-153"
+			type="GENE" text="aid" ontology_id="57379"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We have identified nine genes of interest that appear to be involved in cervical cancer development: SPARCL1, SYCP2, KIF4A, PRC1, TOP2A, LAMP3, KIF20A, MCM2, and APOBEC3B.">
+		<entity id="s2.e1" charOffset="81-87"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="101-108"
+			type="GENE" text="SPARCL1" ontology_id="8404"/>
+		<entity id="s2.e3" charOffset="110-115"
+			type="GENE" text="SYCP2" ontology_id="10388"/>
+		<entity id="s2.e4" charOffset="117-122"
+			type="GENE" text="KIF4A" ontology_id="24137"/>
+		<entity id="s2.e5" charOffset="124-128"
+			type="GENE" text="PRC1" ontology_id="9055"/>
+		<entity id="s2.e6" charOffset="130-135"
+			type="GENE" text="TOP2A" ontology_id="7153"/>
+		<entity id="s2.e7" charOffset="137-142"
+			type="GENE" text="LAMP3" ontology_id="27074"/>
+		<entity id="s2.e8" charOffset="144-150"
+			type="GENE" text="KIF20A" ontology_id="10112"/>
+		<entity id="s2.e9" charOffset="152-156"
+			type="GENE" text="MCM2" ontology_id="4176"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+		<pair id="s2.p5" e1="s2.e1"
+		    e2="s2.e6" pgr="true"/>
+		<pair id="s2.p6" e1="s2.e1"
+		    e2="s2.e7" pgr="false"/>
+		<pair id="s2.p7" e1="s2.e1"
+		    e2="s2.e8" pgr="false"/>
+		<pair id="s2.p8" e1="s2.e1"
+		    e2="s2.e9" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Furthermore, gene ontology (GO) and co-expression analysis of these differentially expressed genes indicated that SPARCL1 may play a core role in cervical cancer development.">
+		<entity id="s3.e1" charOffset="114-121"
+			type="GENE" text="SPARCL1" ontology_id="8404"/>
+		<entity id="s3.e2" charOffset="155-161"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Further, we analyzed the expression of these nine genes during the progression of cervical cancer, and found that SPARCL1 is also related to precancerous lesions and migration processes during cervical cancer pathogenesis.">
+		<entity id="s4.e1" charOffset="91-97"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="114-121"
+			type="GENE" text="SPARCL1" ontology_id="8404"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Finally, we validated these observations by investigating SPARCL1 expression in cervical cancer tissue and serum samples.">
+		<entity id="s5.e1" charOffset="58-65"
+			type="GENE" text="SPARCL1" ontology_id="8404"/>
+		<entity id="s5.e2" charOffset="89-95"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="The diagnostic specificity of serum SPARCL1 in cervical cancer occurrence was also compared with other high incidence diseases.">
+		<entity id="s6.e1" charOffset="36-43"
+			type="GENE" text="SPARCL1" ontology_id="8404"/>
+		<entity id="s6.e2" charOffset="56-62"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="All of these data indicate that SPARCL1 may be a novel cancer predictive marker and a potential therapeutic target for tumor development and progression in cervical cancer">
+		<entity id="s7.e1" charOffset="32-39"
+			type="GENE" text="SPARCL1" ontology_id="8404"/>
+		<entity id="s7.e2" charOffset="55-61"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s7.e3" charOffset="119-124"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e1"
+		    e2="s7.e2" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e3" pgr="false"/>
+	</sentence>
+</document>

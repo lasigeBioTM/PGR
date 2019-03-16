@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27553092">
+	<sentence id="s1" text="β-Ureidopropionase deficiency is a rare autosomal recessive disease affecting the last step of pyrimidine degradation, and it is caused by a mutation in the UPB1 gene.">
+		<entity id="s1.e1" charOffset="40-59"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="87-91"
+			type="GENE" text="step" ontology_id="84867"/>
+		<entity id="s1.e3" charOffset="157-161"
+			type="GENE" text="UPB1" ontology_id="51733"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

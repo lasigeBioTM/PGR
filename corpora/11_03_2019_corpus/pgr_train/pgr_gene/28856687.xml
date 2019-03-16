@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28856687">
+	<sentence id="s1" text="Familial clustering of schizophrenia (SCZ), bipolar disorder (BPD), and major depressive disorder (MDD) was systematically reported (Aukes et al, Genet Med 2012, 14, 338-341) and convergent evidence from genetics, symptomatology, and psychopharmacology imply that there are intrinsic connections between these three major psychiatric disorders, for example, any two or even three of these disorders could co-exist in some families.">
+		<entity id="s1.e1" charOffset="44-60"
+			type="HP" text="bipolar disorder" ontology_id="HP_0007302"/>
+		<entity id="s1.e2" charOffset="152-155"
+			type="GENE" text="Med" ontology_id="1298"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

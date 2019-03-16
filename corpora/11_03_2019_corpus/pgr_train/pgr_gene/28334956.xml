@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334956">
+	<sentence id="s1" text="PRUNE is a member of the DHH (Asp-His-His) phosphoesterase protein superfamily of molecules important for cell motility, and implicated in cancer progression.">
+		<entity id="s1.e1" charOffset="25-28"
+			type="GENE" text="DHH" ontology_id="50846"/>
+		<entity id="s1.e2" charOffset="139-145"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here we investigated multiple families from Oman, India, Iran and Italy with individuals affected by a new autosomal recessive neurodevelopmental and degenerative disorder in which the cardinal features include primary microcephaly and profound global developmental delay.">
+		<entity id="s2.e1" charOffset="107-126"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s2.e2" charOffset="185-193"
+			type="GENE" text="cardinal" ontology_id="22900"/>
+		<entity id="s2.e3" charOffset="219-231"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s2.e4" charOffset="236-244"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<entity id="s2.e5" charOffset="252-271"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

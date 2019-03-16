@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28534947">
+	<sentence id="s1" text="The review then discusses the diseases associated with ClC‑2, including degeneration of the retina, Sjögren's syndrome, age‑related cataracts, degeneration of the testes, azoospermia, lung cancer, constipation, repair of impaired intestinal mucosa barrier, leukemia, cystic fibrosis, leukoencephalopathy, epilepsy and diabetes mellitus.">
+		<entity id="s1.e1" charOffset="55-58"
+			type="GENE" text="ClC" ontology_id="23529"/>
+		<entity id="s1.e2" charOffset="132-141"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<entity id="s1.e3" charOffset="171-182"
+			type="HP" text="azoospermia" ontology_id="HP_0000027"/>
+		<entity id="s1.e4" charOffset="189-195"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e5" charOffset="284-303"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e6" charOffset="305-313"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

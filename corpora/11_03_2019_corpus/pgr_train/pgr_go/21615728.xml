@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="21615728">
+	<sentence id="s1" text="Hyperpolarization-coenzyme A biosynthetic processivated cyclic nucleotide-gated channels (HCN) can act as pacemakers in the brain making them strong candidates for driving aberrant hypersynchronous network activity seen in epilepsy.">
+		<entity id="s1.e1" charOffset="18-49"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s1.e2" charOffset="223-231"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="However, only recently have genetic studies demonstrated sequence variation in protein homotetramerization and cellular response to cAMP genes associated with human epilepsy.">
+		<entity id="s2.e1" charOffset="79-106"
+			type="GO" text="protein homotetramerization" ontology_id="GO_0051289"/>
+		<entity id="s2.e2" charOffset="111-136"
+			type="GO" text="cellular response to cAMP" ontology_id="GO_0071320"/>
+		<entity id="s2.e3" charOffset="144-152"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="These include a triple proline deletion in cellular response to cAMP that increases channel function and occurs more often in patients with febrile seizure syndromes.">
+		<entity id="s3.e1" charOffset="43-68"
+			type="GO" text="cellular response to cAMP" ontology_id="GO_0071320"/>
+		<entity id="s3.e2" charOffset="148-155"
+			type="HP" text="seizure" ontology_id="HP_0001250"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

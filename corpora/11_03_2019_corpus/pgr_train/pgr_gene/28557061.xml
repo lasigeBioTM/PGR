@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28557061">
+	<sentence id="s1" text="Of all the movement disorders, myoclonus is the most difficult to encapsulate into any simple framework.">
+		<entity id="s1.e1" charOffset="11-29"
+			type="HP" text="movement disorders" ontology_id="HP_0100022"/>
+		<entity id="s1.e2" charOffset="31-40"
+			type="HP" text="myoclonus" ontology_id="HP_0001336"/>
+		<entity id="s1.e3" charOffset="87-93"
+			type="GENE" text="simple" ontology_id="9516"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In dogs, myotonia is associated with mutations in CLCN1.">
+		<entity id="s2.e1" charOffset="9-17"
+			type="HP" text="myotonia" ontology_id="HP_0002486"/>
+		<entity id="s2.e2" charOffset="50-55"
+			type="GENE" text="CLCN1" ontology_id="1180"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

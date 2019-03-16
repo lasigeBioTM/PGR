@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28099929">
+	<sentence id="s1" text="Spinal muscular atrophy (SMA) is a lethal autosomal recessive neurological disease characterized by selective degeneration of motor neurons in the spinal cord.">
+		<entity id="s1.e1" charOffset="25-28"
+			type="GENE" text="SMA" ontology_id="6606"/>
+		<entity id="s1.e2" charOffset="42-61"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

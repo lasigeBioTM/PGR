@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28386063">
+	<sentence id="s1" text="Several known breast cancer susceptibility genes encode proteins involved in DNA damage response (DDR) and are characterized by rare loss-of-function mutations.">
+		<entity id="s1.e1" charOffset="21-27"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="81-87"
+			type="GENE" text="damage" ontology_id="51438"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="c.7253dupT in TEX15, encoding a DDR factor important in meiosis, associated with hereditary breast cancer (p = 0.018) and likely represents a Northern Finnish founder mutation.">
+		<entity id="s2.e1" charOffset="14-19"
+			type="GENE" text="TEX15" ontology_id="56154"/>
+		<entity id="s2.e2" charOffset="99-105"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="A deletion (c.640_644del5) in RNF168, causative for recessive RIDDLE syndrome, had high prevalence in majority of the analyzed cohorts, but did not associate with breast cancer.">
+		<entity id="s3.e1" charOffset="30-36"
+			type="GENE" text="RNF168" ontology_id="165918"/>
+		<entity id="s3.e2" charOffset="170-176"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, truncating variants in TEX15 and FANCD2 are potential breast cancer risk factors, warranting further investigations in other populations.">
+		<entity id="s4.e1" charOffset="38-43"
+			type="GENE" text="TEX15" ontology_id="56154"/>
+		<entity id="s4.e2" charOffset="48-54"
+			type="GENE" text="FANCD2" ontology_id="2177"/>
+		<entity id="s4.e3" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+</document>

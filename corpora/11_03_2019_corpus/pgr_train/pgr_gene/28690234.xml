@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28690234">
+	<sentence id="s1" text="Epilepsy with mental retardation limited to females (EFMR) is a syndrome characterized by early onset heat-sensitive epilepsy of infancy or early childhood and generally limited to females, which previously reported that the cadherin gene superfamily subtype protocadherin 19 (PCDH19) gene is its pathogenic gene.">
+		<entity id="s1.e1" charOffset="53-57"
+			type="GENE" text="EFMR" ontology_id="57526"/>
+		<entity id="s1.e2" charOffset="117-125"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="225-233"
+			type="GENE" text="cadherin" ontology_id="1015"/>
+		<entity id="s1.e4" charOffset="277-283"
+			type="GENE" text="PCDH19" ontology_id="57526"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Cognitive impairment or autism-like performance were often identified in these patients, hematuria metabolic diseases screening was normal, no abnormal MRI imaging of the head, and de novo PCDH19 gene mutations were found in their epilepsy gene chip sequencing.">
+		<entity id="s2.e1" charOffset="24-30"
+			type="HP" text="autism" ontology_id="HP_0000717"/>
+		<entity id="s2.e2" charOffset="189-195"
+			type="GENE" text="PCDH19" ontology_id="57526"/>
+		<entity id="s2.e3" charOffset="231-239"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s2.e4" charOffset="245-249"
+			type="GENE" text="chip" ontology_id="10273"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e5"
+		    e2="s2.e1" pgr="false"/>
+	</sentence>
+</document>

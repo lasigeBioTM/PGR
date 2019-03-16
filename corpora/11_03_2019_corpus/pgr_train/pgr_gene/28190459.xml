@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28190459">
+	<sentence id="s1" text="We show that morpholino-mediated inpp5k loss of function in the zebrafish results in shortened body axis, microphthalmia with disorganized lens, microcephaly, reduced touch-evoked motility, and highly disorganized myofibers.">
+		<entity id="s1.e1" charOffset="33-39"
+			type="GENE" text="inpp5k" ontology_id="51763"/>
+		<entity id="s1.e2" charOffset="106-120"
+			type="HP" text="microphthalmia" ontology_id="HP_0000568"/>
+		<entity id="s1.e3" charOffset="145-157"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Altogether these data demonstrate that mutations in INPP5K cause a congenital muscular dystrophy syndrome with short stature, cataracts, and intellectual disability">
+		<entity id="s2.e1" charOffset="52-58"
+			type="GENE" text="INPP5K" ontology_id="51763"/>
+		<entity id="s2.e2" charOffset="78-96"
+			type="HP" text="muscular dystrophy" ontology_id="HP_0003560"/>
+		<entity id="s2.e3" charOffset="111-124"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<entity id="s2.e4" charOffset="126-135"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

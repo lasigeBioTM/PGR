@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30155490">
+	<sentence id="s1" text="miR-122, the expression of which is regulated by several transcription factors, such as HNF1A, was recently reported to be associated with type 2 diabetes (T2DM) and hepatocellular carcinoma.">
+		<entity id="s1.e1" charOffset="0-3"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s1.e2" charOffset="88-93"
+			type="GENE" text="HNF1A" ontology_id="6927"/>
+		<entity id="s1.e3" charOffset="139-143"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e4" charOffset="158-160"
+			type="GENE" text="DM" ontology_id="1760"/>
+		<entity id="s1.e5" charOffset="166-190"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<pair id="s1.p1" e1="s1.e5"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="HNF1A variants can cause diabetes and might be involved in the development of primary liver neoplasm.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="HNF1A" ontology_id="6927"/>
+		<entity id="s2.e2" charOffset="92-100"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Lower serum miR-122 is a unique feature of HNF1A-DM patients and might partially explain the increased risk for liver neoplasm and abnormal lipid metabolism in HNF1A-DM patients">
+		<entity id="s3.e1" charOffset="12-15"
+			type="GENE" text="miR" ontology_id="220972"/>
+		<entity id="s3.e2" charOffset="43-48"
+			type="GENE" text="HNF1A" ontology_id="6927"/>
+		<entity id="s3.e3" charOffset="49-51"
+			type="GENE" text="DM" ontology_id="1760"/>
+		<entity id="s3.e4" charOffset="118-126"
+			type="HP" text="neoplasm" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

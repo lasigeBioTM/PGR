@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30367044">
+	<sentence id="s1" text="The underlining mechanisms of dietary cholesterol and nonalcoholic steatohepatitis (NASH) in contributing to hepatocellular carcinoma (phosphatidylinositol phosphorylation) remain undefined.">
+		<entity id="s1.e1" charOffset="109-133"
+			type="HP" text="hepatocellular carcinoma" ontology_id="HP_0001402"/>
+		<entity id="s1.e2" charOffset="135-171"
+			type="GO" text="phosphatidylinositol phosphorylation" ontology_id="GO_0046854"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

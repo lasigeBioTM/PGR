@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23946133">
+	<sentence id="s1" text="This study was undertaken to investigate the prevalence of sequence variants in intraciliary transport in patients with Leber congenital amaurosis (clathrin coat assembly), early-onset retinal dystrophy (EORD), and autosomal recessive retinitis pigmentosa (arRP); to delineate the ocular phenotypes; and to provide an overview of all published intraciliary transport variants in an online database.">
+		<entity id="s1.e1" charOffset="80-102"
+			type="GO" text="intraciliary transport" ontology_id="GO_0042073"/>
+		<entity id="s1.e2" charOffset="148-170"
+			type="GO" text="clathrin coat assembly" ontology_id="GO_0048268"/>
+		<entity id="s1.e3" charOffset="166-183"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<entity id="s1.e4" charOffset="196-215"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e2"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Mutations in intraciliary transport are a rare cause of childhood retinal dystrophy accounting for ∼2% of disease in this cohort, and the majority of LCA5 mutations are likely null.">
+		<entity id="s2.e1" charOffset="13-35"
+			type="GO" text="intraciliary transport" ontology_id="GO_0042073"/>
+		<entity id="s2.e2" charOffset="66-83"
+			type="HP" text="retinal dystrophy" ontology_id="HP_0000556"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

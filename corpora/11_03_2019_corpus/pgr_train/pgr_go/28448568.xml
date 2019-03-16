@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28448568">
+	<sentence id="s1" text="The therapeutic capacity of fenretinide (N-[4-hydroxyphenyl] retinamide; 4-acute inflammatory response) has been demonstrated for several conditions, including cancer, obesity, diabetes, and ocular disease.">
+		<entity id="s1.e1" charOffset="75-102"
+			type="GO" text="acute inflammatory response" ontology_id="GO_0002526"/>
+		<entity id="s1.e2" charOffset="160-166"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="168-175"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="For example, administration of 3-keto-acute inflammatory response instead of fenretinide may be preferential if inhibition of SCD1 or ceramide biosynthetic process activity is the goal (cancer), while MPR may be better for retinoid metabolic process modulation (carotenoid metabolism).">
+		<entity id="s2.e1" charOffset="38-65"
+			type="GO" text="acute inflammatory response" ontology_id="GO_0002526"/>
+		<entity id="s2.e2" charOffset="134-163"
+			type="GO" text="ceramide biosynthetic process" ontology_id="GO_0046513"/>
+		<entity id="s2.e3" charOffset="161-167"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s2.e4" charOffset="223-249"
+			type="GO" text="retinoid metabolic process" ontology_id="GO_0001523"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

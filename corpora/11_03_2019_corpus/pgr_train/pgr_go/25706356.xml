@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25706356">
+	<sentence id="s1" text="Mabry syndrome, hyperphosphatasia mental retardation syndrome (HPMRS), is an autosomal recessive disease characterized by increased serum levels of alkaline phosphatase (asparagine catabolic process via L-aspartate), severe developmental delay, intellectual disability, and seizures.">
+		<entity id="s1.e1" charOffset="16-33"
+			type="HP" text="hyperphosphatasia" ontology_id="HP_0003155"/>
+		<entity id="s1.e2" charOffset="77-96"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e3" charOffset="170-214"
+			type="GO" text="asparagine catabolic process via L-aspartate" ontology_id="GO_0033345"/>
+		<entity id="s1.e4" charOffset="224-243"
+			type="HP" text="developmental delay" ontology_id="HP_0001263"/>
+		<entity id="s1.e5" charOffset="245-268"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e6" charOffset="274-282"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p5" e1="s1.e3"
+		    e2="s1.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We performed whole-exome sequencing of a patient with severe intellectual disability, distinctive facial appearance, fragile nails, and persistent increased serum levels of asparagine catabolic process via L-aspartate.">
+		<entity id="s2.e1" charOffset="61-84"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e2" charOffset="117-130"
+			type="HP" text="fragile nails" ontology_id="HP_0001808"/>
+		<entity id="s2.e3" charOffset="173-217"
+			type="GO" text="asparagine catabolic process via L-aspartate" ontology_id="GO_0033345"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Nonsynonymous changes or frameshift mutations in preassembly of GPI anchor in ER membrane have been identified in patients with CHIME syndrome, a rare autosomal recessive disorder characterized by colobomas, congenital heart defects, early onset migratory ichthyosiform dermatosis, intellectual disability, and ear abnormalities.">
+		<entity id="s3.e1" charOffset="49-89"
+			type="GO" text="preassembly of GPI anchor in ER membrane" ontology_id="GO_0016254"/>
+		<entity id="s3.e2" charOffset="151-170"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s3.e3" charOffset="197-206"
+			type="HP" text="colobomas" ontology_id="HP_0000589"/>
+		<entity id="s3.e4" charOffset="208-232"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<entity id="s3.e5" charOffset="246-255"
+			type="HP" text="migratory" ontology_id="HP_0025279"/>
+		<entity id="s3.e6" charOffset="282-305"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e6" pgr="true"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e5" pgr="false"/>
+	</sentence>
+</document>

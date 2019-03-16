@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28777935">
+	<sentence id="s1" text="We identified a highly significant enrichment of de novo variants in YWHAG, establishing their role in early-onset epilepsy, and we provide additional support for the prior assignment of SLC1A2.">
+		<entity id="s1.e1" charOffset="69-74"
+			type="GENE" text="YWHAG" ontology_id="7532"/>
+		<entity id="s1.e2" charOffset="111-114"
+			type="GENE" text="set" ontology_id="6418"/>
+		<entity id="s1.e3" charOffset="115-123"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<entity id="s1.e4" charOffset="187-193"
+			type="GENE" text="SLC1A2" ontology_id="6506"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

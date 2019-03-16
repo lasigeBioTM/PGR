@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30531685">
+	<sentence id="s1" text="MATERIAL AND METHODS The proliferation of prostate cancer cells was determined by neuron migration-8 assay.">
+		<entity id="s1.e1" charOffset="51-57"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="82-98"
+			type="GO" text="neuron migration" ontology_id="GO_0001764"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="CONCLUSIONS Our findings indicate that resveratrol induces apoptosis via HIF-1α/regulation of cell growth/p53 signaling in prostate cancer cells and may be a useful therapeutic agent against prostate cancer">
+		<entity id="s2.e1" charOffset="80-105"
+			type="GO" text="regulation of cell growth" ontology_id="GO_0001558"/>
+		<entity id="s2.e2" charOffset="132-138"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

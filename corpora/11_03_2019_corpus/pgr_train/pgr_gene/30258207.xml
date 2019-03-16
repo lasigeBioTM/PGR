@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30258207">
+	<sentence id="s1" text="Biallelic mutations in IBA57 cause a mitochondrial disorder with a broad phenotypic spectrum that ranges from severe intellectual disability to adolescent-onset spastic paraplegia.">
+		<entity id="s1.e1" charOffset="23-28"
+			type="GENE" text="IBA57" ontology_id="200205"/>
+		<entity id="s1.e2" charOffset="117-140"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s1.e3" charOffset="161-179"
+			type="HP" text="spastic paraplegia" ontology_id="HP_0001258"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

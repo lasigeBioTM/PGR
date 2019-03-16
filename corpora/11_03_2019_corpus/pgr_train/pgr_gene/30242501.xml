@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30242501">
+	<sentence id="s1" text="Consequently, the disruption of Ush2a in zebrafish led to a hearing impairment, like that in mammals.">
+		<entity id="s1.e1" charOffset="32-37"
+			type="GENE" text="Ush2a" ontology_id="7399"/>
+		<entity id="s1.e2" charOffset="60-78"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="In summary, for the first time, we generated a ush2a knockout zebrafish line with auditory disorder and retinal degeneration which mimicked the symptoms of patients, and revealed that disruption of fibronectin assembly may be one of the factors underlying RP.">
+		<entity id="s2.e1" charOffset="47-52"
+			type="GENE" text="ush2a" ontology_id="7399"/>
+		<entity id="s2.e2" charOffset="104-124"
+			type="HP" text="retinal degeneration" ontology_id="HP_0000546"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

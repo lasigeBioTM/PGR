@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28542515">
+	<sentence id="s1" text="X-linked hearing impairment is the rarest form of genetic hearing loss (HL) and represents only a minor fraction of all cases.">
+		<entity id="s1.e1" charOffset="9-27"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="58-70"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<entity id="s1.e3" charOffset="98-103"
+			type="GENE" text="minor" ontology_id="8013"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Subpopulation screening of the coding exons and flanking introns of SMPX was further performed for 338 Chinese patients with nonsydromic HL by Sanger sequencing, and another two potential causative substitutions (c.238CAAAAA and c.55AAAAAG) in SMPX were identified in additional sporadic cases of congenital deafness.">
+		<entity id="s2.e1" charOffset="68-72"
+			type="GENE" text="SMPX" ontology_id="23676"/>
+		<entity id="s2.e2" charOffset="279-287"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="308-316"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Collectively, this study is the first to report the role of SMPX in Chinese population and identify a novel frameshift mutation in SMPX that causes not only nonsyndromic late-onset progressive HL, but also congenital hearing impairment.">
+		<entity id="s3.e1" charOffset="60-64"
+			type="GENE" text="SMPX" ontology_id="23676"/>
+		<entity id="s3.e2" charOffset="217-235"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

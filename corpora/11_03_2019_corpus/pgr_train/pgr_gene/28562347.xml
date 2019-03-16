@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28562347">
+	<sentence id="s1" text="This study aimed to evaluate the interactions between single nucleotide polymorphisms of ERCC6 (rs1917799) and ERCC8 (rs158572 and rs158916) in gastric cancer and its precancerous diseases.">
+		<entity id="s1.e1" charOffset="89-94"
+			type="GENE" text="ERCC6" ontology_id="2074"/>
+		<entity id="s1.e2" charOffset="111-116"
+			type="GENE" text="ERCC8" ontology_id="1161"/>
+		<entity id="s1.e3" charOffset="152-158"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In situ ERCC6 and ERCC8 protein expression were detected by immunohistochemistry in 109 chronic superficial gastritis, 109 chronic atrophic gastritis and 109 gastric cancer cases.">
+		<entity id="s2.e1" charOffset="8-13"
+			type="GENE" text="ERCC6" ontology_id="2074"/>
+		<entity id="s2.e2" charOffset="18-23"
+			type="GENE" text="ERCC8" ontology_id="1161"/>
+		<entity id="s2.e3" charOffset="166-172"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our results demonstrated pairwise epistatic interactions between ERCC6 and ERCC8 SNPs that ERCC6 rs1917799-ERCC8 rs158572 combination was associated with decreased risk of chronic atrophic gastritis and increased risk of gastric cancer.">
+		<entity id="s3.e1" charOffset="65-70"
+			type="GENE" text="ERCC6" ontology_id="2074"/>
+		<entity id="s3.e2" charOffset="75-80"
+			type="GENE" text="ERCC8" ontology_id="1161"/>
+		<entity id="s3.e3" charOffset="229-235"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="ERCC6 rs1917799 also showed a significant interaction with ERCC8 rs158916 to reduce gastric cancer risk.">
+		<entity id="s4.e1" charOffset="0-5"
+			type="GENE" text="ERCC6" ontology_id="2074"/>
+		<entity id="s4.e2" charOffset="59-64"
+			type="GENE" text="ERCC8" ontology_id="1161"/>
+		<entity id="s4.e3" charOffset="92-98"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e3" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="The expressions of ERCC6, ERCC8 and ERCC6-ERCC8 combination have similarities that higher positivity was observed in chronic superficial gastritis compared with chronic atrophic gastritis and gastric cancer.">
+		<entity id="s5.e1" charOffset="19-24"
+			type="GENE" text="ERCC6" ontology_id="2074"/>
+		<entity id="s5.e2" charOffset="26-31"
+			type="GENE" text="ERCC8" ontology_id="1161"/>
+		<entity id="s5.e3" charOffset="200-206"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In conclusion, ERCC6 rs1917799, ERCC8 rs158572 and rs158916 demonstrated pairwise epistatic interactions to associate with chronic atrophic gastritis and gastric cancer risk.">
+		<entity id="s6.e1" charOffset="15-20"
+			type="GENE" text="ERCC6" ontology_id="2074"/>
+		<entity id="s6.e2" charOffset="32-37"
+			type="GENE" text="ERCC8" ontology_id="1161"/>
+		<entity id="s6.e3" charOffset="162-168"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e3" pgr="true"/>
+		<pair id="s6.p2" e1="s6.e2"
+		    e2="s6.e3" pgr="false"/>
+	</sentence>
+</document>

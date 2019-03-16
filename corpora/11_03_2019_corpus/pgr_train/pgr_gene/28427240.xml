@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28427240">
+	<sentence id="s1" text="Here, we examined the effects of UBE2T on the progression of gastric cancer.">
+		<entity id="s1.e1" charOffset="33-38"
+			type="GENE" text="UBE2T" ontology_id="29089"/>
+		<entity id="s1.e2" charOffset="69-75"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="UBE2T was highly expressed in gastric tumors and gastric cancer cells.">
+		<entity id="s2.e1" charOffset="0-5"
+			type="GENE" text="UBE2T" ontology_id="29089"/>
+		<entity id="s2.e2" charOffset="38-44"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="57-63"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="siRNA-mediated suppression of UBE2T inhibited gastric cancer cell proliferation and colony formation by promoting cell cycle arrest at G2/M phase and increasing apoptosis.">
+		<entity id="s3.e1" charOffset="30-35"
+			type="GENE" text="UBE2T" ontology_id="29089"/>
+		<entity id="s3.e2" charOffset="54-60"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="Suppression of UBE2T also attenuated the invasive and metastatic abilities of gastric cancer cells by altering expression of epithelial-mesenchymal transition (EMT)-related factors.">
+		<entity id="s4.e1" charOffset="15-20"
+			type="GENE" text="UBE2T" ontology_id="29089"/>
+		<entity id="s4.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="160-163"
+			type="GENE" text="EMT" ontology_id="3702"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="A xenograft model in which nude mice were injected with UBE2T knockdown human gastric cancer cells confirmed that suppression of UBE2T also decreased tumor formation and growth in vivo.">
+		<entity id="s5.e1" charOffset="27-31"
+			type="GENE" text="nude" ontology_id="54820"/>
+		<entity id="s5.e2" charOffset="32-36"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s5.e3" charOffset="56-61"
+			type="GENE" text="UBE2T" ontology_id="29089"/>
+		<entity id="s5.e4" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s5.e5" charOffset="150-155"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e4" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p3" e1="s5.e2"
+		    e2="s5.e4" pgr="false"/>
+		<pair id="s5.p4" e1="s5.e3"
+		    e2="s5.e5" pgr="true"/>
+		<pair id="s5.p5" e1="s5.e1"
+		    e2="s5.e8" pgr="false"/>
+		<pair id="s5.p6" e1="s5.e5"
+		    e2="s5.e8" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="These results suggest that UBE2T plays a critical role in gastric cancer, and that it may serve as a useful prognostic biomarker and therapeutic target in gastric cancer patients">
+		<entity id="s6.e1" charOffset="27-32"
+			type="GENE" text="UBE2T" ontology_id="29089"/>
+		<entity id="s6.e2" charOffset="66-72"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+</document>

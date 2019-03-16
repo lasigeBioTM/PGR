@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29749503">
+	<sentence id="s1" text="The present study intended to identify the association between three severe cardiac muscle tissue developments of gynecological cancer, specifically ovarian cancer, cervical cancer and endometrial cancer, and to identify the connective driver genes, microRNAs (miRNAs) and biological processes associated with these types of gynecological cancer.">
+		<entity id="s1.e1" charOffset="76-109"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="128-134"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, individual driver genes for each cardiac muscle tissue development of cancer were identified using integrated analysis of multiple microarray data.">
+		<entity id="s2.e1" charOffset="55-88"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s2.e2" charOffset="92-98"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Survival analysis revealed that the expression of cellular response to DNA damage stimulus, proteolysis, positive regulation of epithelial to mesenchymal transition and transforming growth factor beta receptor signaling pathway was associated with the prognosis of the aforementioned gynecological cancer cardiac muscle tissue developments.">
+		<entity id="s3.e1" charOffset="50-90"
+			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
+		<entity id="s3.e2" charOffset="92-103"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s3.e3" charOffset="105-164"
+			type="GO" text="positive regulation of epithelial to mesenchymal transition" ontology_id="GO_0010718"/>
+		<entity id="s3.e4" charOffset="147-153"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e5" charOffset="154-187"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s3.e6" charOffset="169-227"
+			type="GO" text="transforming growth factor beta receptor signaling pathway" ontology_id="GO_0007179"/>
+		<pair id="s3.p1" e1="s3.e4"
+		    e2="s3.e5" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e3"
+		    e2="s3.e4" pgr="true"/>
+		<pair id="s3.p5" e1="s3.e6"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, the present study demonstrated a connection model across three cardiac muscle tissue developments of gynecological cancer, which was useful in identifying potential diagnostic markers and novel therapeutic targets, in addition to in aiding the prediction of the development of cancer as it progresses">
+		<entity id="s4.e1" charOffset="78-111"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s4.e2" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

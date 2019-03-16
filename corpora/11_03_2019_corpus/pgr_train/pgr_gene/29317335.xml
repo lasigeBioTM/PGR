@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29317335">
+	<sentence id="s1" text="Four established melanoma susceptibility genes achieved nominal statistical significance, MC1R (p = .0014), MITF (p = .0165) BRCA2 (p = .0206), and MTAP (p = .0393).">
+		<entity id="s1.e1" charOffset="17-25"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<entity id="s1.e2" charOffset="108-112"
+			type="GENE" text="MITF" ontology_id="4286"/>
+		<entity id="s1.e3" charOffset="125-130"
+			type="GENE" text="BRCA2" ontology_id="675"/>
+		<entity id="s1.e4" charOffset="148-152"
+			type="GENE" text="MTAP" ontology_id="4507"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We also observed a suggestive association for FANCA (p = .002), a gene previously implicated in melanoma survival.">
+		<entity id="s2.e1" charOffset="46-51"
+			type="GENE" text="FANCA" ontology_id="2175"/>
+		<entity id="s2.e2" charOffset="96-104"
+			type="HP" text="melanoma" ontology_id="HP_0002861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Although MC1R carriers were represented proportionally among the four molecular tumor subtypes, these individuals accounted for 69% of ultraviolet (UV) radiation mutational signatures among triple-wild type tumors (p = .040), highlighting the increased sensitivity to UV exposure among individuals with loss-of-function variants in MC1R">
+		<entity id="s3.e1" charOffset="80-85"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="89-93"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

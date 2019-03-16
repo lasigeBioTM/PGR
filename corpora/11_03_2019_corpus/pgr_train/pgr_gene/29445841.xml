@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29445841">
+	<sentence id="s1" text="In human, PDC deficiency leads to severe neurodevelopmental delay and progressive neurodegeneration.">
+		<entity id="s1.e1" charOffset="10-13"
+			type="GENE" text="PDC" ontology_id="25953"/>
+		<entity id="s1.e2" charOffset="41-65"
+			type="HP" text="neurodevelopmental delay" ontology_id="HP_0012758"/>
+		<entity id="s1.e3" charOffset="70-99"
+			type="HP" text="progressive neurodegeneration" ontology_id="HP_0002344"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

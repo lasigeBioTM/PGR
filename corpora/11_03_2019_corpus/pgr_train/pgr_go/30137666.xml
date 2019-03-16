@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30137666">
+	<sentence id="s1" text="Wnt transgenic apoptotic process provide convincing evidence that Wnt signaling is involved in breast cancer initiation and progression, which is further strengthened by observations on human clinical breast cancer patients and studies on in vitro cultured human breast cancer cells.">
+		<entity id="s1.e1" charOffset="15-32"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

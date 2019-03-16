@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30507891">
+	<sentence id="s1" text="For diagnosis of central nervous system degeneration in adolescents with bulbar symptoms, great attention should be paid to JALS">
+		<entity id="s1.e1" charOffset="17-52"
+			type="HP" text="central nervous system degeneration" ontology_id="HP_0007009"/>
+		<entity id="s1.e2" charOffset="90-95"
+			type="GENE" text="great" ontology_id="122042"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

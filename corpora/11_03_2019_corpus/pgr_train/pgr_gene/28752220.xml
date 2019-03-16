@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28752220">
+	<sentence id="s1" text="Therefore, hypertrophic cardiomyopathy and tubulopathy may not be considered as constant features of MRPS22.">
+		<entity id="s1.e1" charOffset="24-38"
+			type="HP" text="cardiomyopathy" ontology_id="HP_0001638"/>
+		<entity id="s1.e2" charOffset="101-107"
+			type="GENE" text="MRPS22" ontology_id="56945"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

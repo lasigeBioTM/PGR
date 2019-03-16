@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29898953">
+	<sentence id="s1" text="Myotonic dystrophy 1 (DM1) is a multisystem disorder primarily affecting the central nervous system, heart and skeletal muscle.">
+		<entity id="s1.e1" charOffset="22-25"
+			type="GENE" text="DM1" ontology_id="1760"/>
+		<entity id="s1.e2" charOffset="77-84"
+			type="HP" text="central" ontology_id="HP_0030645"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

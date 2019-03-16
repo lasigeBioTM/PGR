@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25965574">
+	<sentence id="s1" text="TAF12, NFYC, and RAD54L co-located on human chromosome 1p32-35.3 and mouse chromosome 4qD1-D3 were identified as oncogenes that are gained in tumors in both species and required for disease initiation and progression.">
+		<entity id="s1.e1" charOffset="7-11"
+			type="GENE" text="NFYC" ontology_id="4802"/>
+		<entity id="s1.e2" charOffset="17-23"
+			type="GENE" text="RAD54L" ontology_id="8438"/>
+		<entity id="s1.e3" charOffset="142-148"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

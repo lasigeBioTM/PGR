@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28869607">
+	<sentence id="s1" text="Depletion of the exon 3-containing long isoform of mitochondrial translational elongation (MRPL33-L) led to impaired proliferation and increased apoptosis in cancer cell lines and in a xenograft model.">
+		<entity id="s1.e1" charOffset="51-89"
+			type="GO" text="mitochondrial translational elongation" ontology_id="GO_0070125"/>
+		<entity id="s1.e2" charOffset="158-164"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="More importantly, overexpression of mitochondrial translational elongation-L could increase tumorigenic potential of regulation of low-density lipoprotein particle clearance-depleted cancer cells, likely indicating that regulation of low-density lipoprotein particle clearance mediates tumorigenesis through splicing regulation of mitochondrial translational elongation pre-mRNA.">
+		<entity id="s2.e1" charOffset="36-74"
+			type="GO" text="mitochondrial translational elongation" ontology_id="GO_0070125"/>
+		<entity id="s2.e2" charOffset="92-97"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e3" charOffset="117-173"
+			type="GO" text="regulation of low-density lipoprotein particle clearance" ontology_id="GO_0010988"/>
+		<entity id="s2.e4" charOffset="133-139"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e6"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Finally, we found that inclusion of mitochondrial translational elongation exon 3 was promoted in human colorectal cancer tissues and this was correlated with regulation of low-density lipoprotein particle clearance levels.">
+		<entity id="s3.e1" charOffset="36-74"
+			type="GO" text="mitochondrial translational elongation" ontology_id="GO_0070125"/>
+		<entity id="s3.e2" charOffset="115-121"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="159-215"
+			type="GO" text="regulation of low-density lipoprotein particle clearance" ontology_id="GO_0010988"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In summary, our findings underscore the biological significance of mitochondrial translational elongation-L and regulation of low-density lipoprotein particle clearance in the tumor formation and identifies regulation of low-density lipoprotein particle clearance as a critical splicing regulator of mitochondrial translational elongation pre-mRNA in cancer cells">
+		<entity id="s4.e1" charOffset="67-105"
+			type="GO" text="mitochondrial translational elongation" ontology_id="GO_0070125"/>
+		<entity id="s4.e2" charOffset="112-168"
+			type="GO" text="regulation of low-density lipoprotein particle clearance" ontology_id="GO_0010988"/>
+		<entity id="s4.e3" charOffset="126-131"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e4" charOffset="219-225"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e2"
+		    e2="s4.e4" pgr="false"/>
+		<pair id="s4.p3" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+		<pair id="s4.p4" e1="s4.e2"
+		    e2="s4.e6" pgr="false"/>
+	</sentence>
+</document>

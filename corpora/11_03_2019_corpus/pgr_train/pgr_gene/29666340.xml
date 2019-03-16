@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29666340">
+	<sentence id="s1" text="The student's t-test was used to compare FOXP1 expression in the tumour and the adjacent normal tissues.">
+		<entity id="s1.e1" charOffset="41-46"
+			type="GENE" text="FOXP1" ontology_id="27086"/>
+		<entity id="s1.e2" charOffset="65-71"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="There was a significantly higher expression level of FOXP1 in the tumour than in the adjacent normal tissue (0.0052 ± 0.0021 vs 0.0027 ± 0.0018, P AAAA 0.001).">
+		<entity id="s2.e1" charOffset="53-58"
+			type="GENE" text="FOXP1" ontology_id="27086"/>
+		<entity id="s2.e2" charOffset="66-72"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Patients with genotype AA were found to have remarkably higher FOXP1 expression in the tumour than those with genotype CC (P = 0.01).">
+		<entity id="s3.e1" charOffset="63-68"
+			type="GENE" text="FOXP1" ontology_id="27086"/>
+		<entity id="s3.e2" charOffset="87-93"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

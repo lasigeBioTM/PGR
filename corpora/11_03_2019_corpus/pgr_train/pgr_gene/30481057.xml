@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30481057">
+	<sentence id="s1" text="Pathogenic mutations have been identified in the TIMM8A (DDP) and DNAJC19 (TIMM14) genes and are linked to Mohr-Tranebjærg syndrome and dilated cardiomyopathy syndrome (with and without ataxia), respectively.">
+		<entity id="s1.e1" charOffset="49-55"
+			type="GENE" text="TIMM8A" ontology_id="1678"/>
+		<entity id="s1.e2" charOffset="57-60"
+			type="GENE" text="DDP" ontology_id="1678"/>
+		<entity id="s1.e3" charOffset="66-73"
+			type="GENE" text="DNAJC19" ontology_id="131118"/>
+		<entity id="s1.e4" charOffset="75-81"
+			type="GENE" text="TIMM14" ontology_id="131118"/>
+		<entity id="s1.e5" charOffset="186-192"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e4"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27736906">
+	<sentence id="s1" text="HIV-1 transgenic mice on the FVB/NJ background (TgFVB) represent a validated model of HIV-associated nephropathy (HIVAN).">
+		<entity id="s1.e1" charOffset="17-21"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="101-112"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="A major susceptibility locus, HIVAN1, was previously mapped to chromosome 3A1-A3 in a cross between TgFVB and CAST/EiJ (CAST) strains, and introgression of a 51.9 Mb segment encompassing HIVAN1 from CAST into TgFVB resulted in accelerated development of nephropathy.">
+		<entity id="s2.e1" charOffset="110-114"
+			type="GENE" text="CAST" ontology_id="10849"/>
+		<entity id="s2.e2" charOffset="254-265"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Of these, Frem1, Foxo1, and Setd7 have been implicated in the pathogenesis of nephropathy.">
+		<entity id="s3.e1" charOffset="10-15"
+			type="GENE" text="Frem1" ontology_id="158326"/>
+		<entity id="s3.e2" charOffset="17-22"
+			type="GENE" text="Foxo1" ontology_id="2308"/>
+		<entity id="s3.e3" charOffset="28-33"
+			type="GENE" text="Setd7" ontology_id="80854"/>
+		<entity id="s3.e4" charOffset="78-89"
+			type="HP" text="nephropathy" ontology_id="HP_0000112"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e2"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e3"
+		    e2="s3.e4" pgr="false"/>
+	</sentence>
+</document>

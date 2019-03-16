@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27000805">
+	<sentence id="s1" text="We presented the significant clinical heterogeneity among three Chinese late-onset fatty acid beta-oxidation using acyl-CoA dehydrogenase patients with similar electron transport chain genotype by collecting clinical information, muscle histology, and genetic analysis.">
+		<entity id="s1.e1" charOffset="38-51"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s1.e2" charOffset="83-137"
+			type="GO" text="fatty acid beta-oxidation using acyl-CoA dehydrogenase" ontology_id="GO_0033539"/>
+		<entity id="s1.e3" charOffset="160-184"
+			type="GO" text="electron transport chain" ontology_id="GO_0022900"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

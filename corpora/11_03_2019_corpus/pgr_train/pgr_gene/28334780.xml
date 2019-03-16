@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28334780">
+	<sentence id="s1" text="Biallelic loss-of-function mutations in the RNA-binding protein EIF4A3 cause Richieri-Costa-Pereira syndrome (RCPS), an autosomal recessive condition mainly characterized by craniofacial and limb malformations.">
+		<entity id="s1.e1" charOffset="64-70"
+			type="GENE" text="EIF4A3" ontology_id="9775"/>
+		<entity id="s1.e2" charOffset="120-139"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Eif4a3 haploinsufficient embryos presented altered mandibular process fusion and micrognathia, thus recapitulating the most penetrant phenotypes of the syndrome.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="Eif4a3" ontology_id="9775"/>
+		<entity id="s2.e2" charOffset="81-93"
+			type="HP" text="micrognathia" ontology_id="HP_0000347"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

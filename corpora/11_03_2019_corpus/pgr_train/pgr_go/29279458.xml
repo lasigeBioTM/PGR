@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29279458">
+	<sentence id="s1" text="Primary macronodular adrenal hyperplasia (PMAH), also known in the past as bilateral macronodular adrenalhyperplasia or adrenocorticotropin (negative regulation of tumor necrosis factor production)-independent macronodular adrenal hyperplasia, is a rare cardiac muscle tissue development of Cushing's syndrome (CS) and is associated with bilateralenlargement of the adrenal glands.">
+		<entity id="s1.e1" charOffset="21-40"
+			type="HP" text="adrenal hyperplasia" ontology_id="HP_0008221"/>
+		<entity id="s1.e2" charOffset="75-84"
+			type="HP" text="bilateral" ontology_id="HP_0012832"/>
+		<entity id="s1.e3" charOffset="141-196"
+			type="GO" text="negative regulation of tumor necrosis factor production" ontology_id="GO_0032720"/>
+		<entity id="s1.e4" charOffset="254-287"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e5"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Autosomal dominant inheritance of AIMAH was confirmed by genocardiac muscle tissue developments of one family member.">
+		<entity id="s2.e1" charOffset="19-30"
+			type="HP" text="inheritance" ontology_id="HP_0000005"/>
+		<entity id="s2.e2" charOffset="61-94"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In addition, haploid clone of tumor DNA was confirmed by germline mutation and somaticmutation, which suggested the pathogenic mechanism of AAAAAAtwo-hit-model.AAAAA; biological_process was the causative gene of AIMAH pedigrees.">
+		<entity id="s3.e1" charOffset="30-35"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="167-185"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

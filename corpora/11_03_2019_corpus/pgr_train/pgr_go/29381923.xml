@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29381923">
+	<sentence id="s1" text="Specifically, glutamate catabolic process via 2-oxoglutarate, positive regulation of cardiac muscle hypertrophy, and adenylate cyclase-modulating G protein-coupled receptor signaling pathway were hypermethylated and downregulated in colon cancer, suggesting that the low expression levels of these genes may be regulated by DNA hypermethylation.">
+		<entity id="s1.e1" charOffset="14-60"
+			type="GO" text="glutamate catabolic process via 2-oxoglutarate" ontology_id="GO_0006539"/>
+		<entity id="s1.e2" charOffset="62-111"
+			type="GO" text="positive regulation of cardiac muscle hypertrophy" ontology_id="GO_0010613"/>
+		<entity id="s1.e3" charOffset="117-190"
+			type="GO" text="adenylate cyclase-modulating G protein-coupled receptor signaling pathway" ontology_id="GO_0007188"/>
+		<entity id="s1.e4" charOffset="127-133"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

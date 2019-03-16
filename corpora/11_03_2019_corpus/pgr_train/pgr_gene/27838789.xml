@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27838789">
+	<sentence id="s1" text="We describe a multigenerational Saudi family with an autosomal dominant form of hypohidrotic ectodermal dysplasia in which positional mapping and exome sequencing identified a novel variant in KDF1 that fully segregates with the phenotype.">
+		<entity id="s1.e1" charOffset="93-113"
+			type="HP" text="ectodermal dysplasia" ontology_id="HP_0000968"/>
+		<entity id="s1.e2" charOffset="193-197"
+			type="GENE" text="KDF1" ontology_id="126695"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

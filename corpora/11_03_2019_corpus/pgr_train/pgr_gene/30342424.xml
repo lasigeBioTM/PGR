@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30342424">
+	<sentence id="s1" text="Their phosphorylation activity has also linked them to the development of neurodegenerative diseases like Alzheimer's disease, amyotrophic lateral sclerosis or spinocerebellar ataxia type 11.">
+		<entity id="s1.e1" charOffset="74-100"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<entity id="s1.e2" charOffset="176-182"
+			type="HP" text="ataxia" ontology_id="HP_0001251"/>
+		<entity id="s1.e3" charOffset="183-187"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The final analysis of all this information led us to propose TTBK1 as a new target for the treatment of neurodegenerative diseases and its selective inhibitors as potential effective drugs for the treatment of these severe unmet disorders">
+		<entity id="s2.e1" charOffset="61-66"
+			type="GENE" text="TTBK1" ontology_id="84630"/>
+		<entity id="s2.e2" charOffset="104-130"
+			type="HP" text="neurodegenerative diseases" ontology_id="HP_0002180"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

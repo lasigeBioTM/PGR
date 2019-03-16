@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26762690">
+	<sentence id="s1" text="Extensive IDS gene deletions were identified in four patients; using DNA microarray analysis two patients showed the loss of the entire AFF2 gene, and epilepsy developed in only one of them.">
+		<entity id="s1.e1" charOffset="10-13"
+			type="GENE" text="IDS" ontology_id="3423"/>
+		<entity id="s1.e2" charOffset="136-140"
+			type="GENE" text="AFF2" ontology_id="2334"/>
+		<entity id="s1.e3" charOffset="151-159"
+			type="HP" text="epilepsy" ontology_id="HP_0001250"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Wide allelic heterogeneity was noted, with large gene alterations (e.g. IDS/IDSP1 gene inversions, partial to extensive IDS deletions, and one chimeric IDS-IDSP1 allele) that occurred at higher frequencies than previously reported (36% vs 18.9-29%).">
+		<entity id="s2.e1" charOffset="13-26"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s2.e2" charOffset="72-75"
+			type="GENE" text="IDS" ontology_id="3423"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Our findings suggest a wide allelic heterogeneity in Mexican MPSII patients; DNA microarray analysis contributes to further delineation of the resulting phenotype for IDS and neighboring loci deletions">
+		<entity id="s3.e1" charOffset="36-49"
+			type="HP" text="heterogeneity" ontology_id="HP_0001425"/>
+		<entity id="s3.e2" charOffset="158-162"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s3.e3" charOffset="167-170"
+			type="GENE" text="IDS" ontology_id="3423"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+	</sentence>
+</document>

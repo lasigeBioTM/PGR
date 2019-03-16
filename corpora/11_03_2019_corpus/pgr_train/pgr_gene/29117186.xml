@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29117186">
+	<sentence id="s1" text="The high-risk HPV types (HR HPV) account for approximately 5% of the global burden of cancer and thus cause high morbidity and mortality.">
+		<entity id="s1.e1" charOffset="18-22"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="86-92"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

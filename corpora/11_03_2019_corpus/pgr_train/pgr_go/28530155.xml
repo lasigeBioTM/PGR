@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28530155">
+	<sentence id="s1" text="To examine if CRC patients have altered decorin levels, expression of decorin and its target genes, endothelial cell morphogenesis and vascular endothelial growth factor A (negative regulation of transcription by RNA polymerase II), were analyzed in their tumors.">
+		<entity id="s1.e1" charOffset="100-130"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0001886"/>
+		<entity id="s1.e2" charOffset="173-230"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e3" charOffset="204-210"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Compared to normal tissues, decorin expression was reduced in CRC patients' tumors, while there were increased endothelial cell morphogenesis and negative regulation of transcription by RNA polymerase II levels.">
+		<entity id="s2.e1" charOffset="76-82"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="111-141"
+			type="GO" text="endothelial cell morphogenesis" ontology_id="GO_0001886"/>
+		<entity id="s2.e3" charOffset="146-203"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Several therapeutic strategies expressing positive regulation of cell proliferation have been employed in clinical trials for treating metastatic colorectal cancer.">
+		<entity id="s3.e1" charOffset="42-83"
+			type="GO" text="positive regulation of cell proliferation" ontology_id="GO_0008284"/>
+		<entity id="s3.e2" charOffset="157-163"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

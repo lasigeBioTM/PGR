@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28798667">
+	<sentence id="s1" text="In order to provide an additional insight into its functional role we compared target gene expression levels between human neuroblastoma cells (SH-SY5Y) stably overexpressing li>negative regulation of transcription, DNA-templated</i> cDNA of either humans or the common chimpanzee, Rhesus monkey, and marmoset, respectively.">
+		<entity id="s1.e1" charOffset="123-136"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e2" charOffset="178-229"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

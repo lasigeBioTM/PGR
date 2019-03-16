@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28302382">
+	<sentence id="s1" text="In humans, heterozygous mutations in NKX2.5 result in congenital heart defects (CHDs).">
+		<entity id="s1.e1" charOffset="37-43"
+			type="GENE" text="NKX2.5" ontology_id="1482"/>
+		<entity id="s1.e2" charOffset="54-78"
+			type="HP" text="congenital heart defects" ontology_id="HP_0001627"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="NKX2.5-R142C is a mutation that was reported to be associated with atrial septal defect (ASD) and atrioventricular (AV) block in 13-patients from one family.">
+		<entity id="s2.e1" charOffset="0-6"
+			type="GENE" text="NKX2.5" ontology_id="1482"/>
+		<entity id="s2.e2" charOffset="67-87"
+			type="HP" text="atrial septal defect" ontology_id="HP_0001631"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28361972">
+	<sentence id="s1" text="Oculopharyngeal muscular dystrophy (OPMD) is an autosomal dominant, late-onset muscle disorder characterized by ptosis, swallowing difficulties, proximal limb weakness and nuclear aggregates in skeletal muscles.">
+		<entity id="s1.e1" charOffset="36-40"
+			type="GENE" text="OPMD" ontology_id="8106"/>
+		<entity id="s1.e2" charOffset="112-118"
+			type="HP" text="ptosis" ontology_id="HP_0000508"/>
+		<entity id="s1.e3" charOffset="120-143"
+			type="HP" text="swallowing difficulties" ontology_id="HP_0002015"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

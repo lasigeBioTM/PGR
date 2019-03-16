@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29893028">
+	<sentence id="s1" text="The aim this study was to investigate the prevalence of single nucleotide polymorphisms in LEP gene (LEP 3'UTR A/C, -2548 G/A) and LEPR (K109R and Q223R) and their association with Leptin level and obesity.">
+		<entity id="s1.e1" charOffset="91-94"
+			type="GENE" text="LEP" ontology_id="3952"/>
+		<entity id="s1.e2" charOffset="198-205"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="The K109R polymorphism was associated with obesity (P = .025) and seems to significantly decrease the LEP levels (P AAAA .001).">
+		<entity id="s2.e1" charOffset="43-50"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<entity id="s2.e2" charOffset="102-105"
+			type="GENE" text="LEP" ontology_id="3952"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="Concerning LEP G2548A polymorphism, our results showed that the OR of obesity associated with 2548 AA/GG was 1.87[1.106-2.78] P = .028 vs 1.41[1.035-1.85] P = .045 for 223AA/GG polymorphism.">
+		<entity id="s3.e1" charOffset="11-14"
+			type="GENE" text="LEP" ontology_id="3952"/>
+		<entity id="s3.e2" charOffset="70-77"
+			type="HP" text="obesity" ontology_id="HP_0001513"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+</document>

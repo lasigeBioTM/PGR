@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27737959">
+	<sentence id="s1" text="Here, we report that biallelic mutations in NCAPD2, NCAPH, or NCAPD3, encoding subunits of these complexes, cause microcephaly.">
+		<entity id="s1.e1" charOffset="44-50"
+			type="GENE" text="NCAPD2" ontology_id="9918"/>
+		<entity id="s1.e2" charOffset="52-57"
+			type="GENE" text="NCAPH" ontology_id="23397"/>
+		<entity id="s1.e3" charOffset="62-68"
+			type="GENE" text="NCAPD3" ontology_id="23310"/>
+		<entity id="s1.e4" charOffset="114-126"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28803936">
+	<sentence id="s1" text="Addition of exogenous negative regulation of cell proliferation (6XHis-tagged, E. coli expressed and partially purified using Ni-ion columns) significantly suppressed the tumor necrosis factor-α (negative regulation of transcription by RNA polymerase II-α)-stimulated human umbilical cord vascular endothelial cell (HUVEC) microtubule cytoskeleton organization formation.">
+		<entity id="s1.e1" charOffset="22-63"
+			type="GO" text="negative regulation of cell proliferation" ontology_id="GO_0008285"/>
+		<entity id="s1.e2" charOffset="171-176"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="196-253"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e4" charOffset="269-306"
+			type="GO" text="microtubule cytoskeleton organization" ontology_id="GO_0000226"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

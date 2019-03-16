@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30627128">
+	<sentence id="s1" text="Chronic mucocutaneous candidiasis (CMC) occurs in patients with mutations in genes affecting positive regulation of interleukin-23 production-mediated immunity, such as li>STAT3, regulation of transcription, DNA-templated, negative regulation of transcription by RNA polymerase II, positive regulation of stress-activated MAPK cascade, IL12B</i>, and li>IL12RB1</i>, or gain of function (GOF) mutations in li>STAT1</i>.">
+		<entity id="s1.e1" charOffset="8-33"
+			type="HP" text="mucocutaneous candidiasis" ontology_id="HP_0002728"/>
+		<entity id="s1.e2" charOffset="93-141"
+			type="GO" text="positive regulation of interleukin-23 production" ontology_id="GO_0032747"/>
+		<entity id="s1.e3" charOffset="179-221"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e4" charOffset="223-280"
+			type="GO" text="negative regulation of transcription by RNA polymerase II" ontology_id="GO_0000122"/>
+		<entity id="s1.e5" charOffset="282-334"
+			type="GO" text="positive regulation of stress-activated MAPK cascade" ontology_id="GO_0032874"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+	</sentence>
+</document>

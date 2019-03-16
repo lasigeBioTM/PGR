@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26820484">
+	<sentence id="s1" text="Membrane transporters (such as ABCs, establishment of T cell polaritys and ATPases) coenzyme A biosynthetic process in carcinogenesis and chemoresistance development, but their relevance for prognosis of epithelial ovarian cancer (EOC) remains poorly understood.">
+		<entity id="s1.e1" charOffset="37-69"
+			type="GO" text="establishment of T cell polarity" ontology_id="GO_0001768"/>
+		<entity id="s1.e2" charOffset="55-86"
+			type="GO" text="coenzyme A biosynthetic process" ontology_id="GO_0015937"/>
+		<entity id="s1.e3" charOffset="194-200"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

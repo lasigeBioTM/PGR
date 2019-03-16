@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25521980">
+	<sentence id="s1" text="X-linked spondylo-epiphyseal dysplasia tarda (SEDT) is an X-linked recessive, late-onset, progressive skeletal disorder characterized by mild-to-moderate short-trunked short stature.">
+		<entity id="s1.e1" charOffset="18-38"
+			type="HP" text="epiphyseal dysplasia" ontology_id="HP_0002656"/>
+		<entity id="s1.e2" charOffset="46-50"
+			type="GENE" text="SEDT" ontology_id="6399"/>
+		<entity id="s1.e3" charOffset="168-181"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+</document>

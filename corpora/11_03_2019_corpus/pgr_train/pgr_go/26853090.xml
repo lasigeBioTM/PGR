@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26853090">
+	<sentence id="s1" text="We compare and contrast our cellular response to interleukin-4ings with previous studies reporting on critical 1q43-q44 regions and their constituent genes associated with seizures, microcephaly, and corpus callosum abnormalities [Ballif et al., 2012; Hum Genet 131:145-156; Nagamani et al., 2012; Eur J Hum Genet 20:176-179].">
+		<entity id="s1.e1" charOffset="28-62"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s1.e2" charOffset="172-180"
+			type="HP" text="seizures" ontology_id="HP_0001250"/>
+		<entity id="s1.e3" charOffset="182-194"
+			type="HP" text="microcephaly" ontology_id="HP_0000252"/>
+		<entity id="s1.e4" charOffset="200-229"
+			type="HP" text="corpus callosum abnormalities" ontology_id="HP_0001273"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29259035">
+	<sentence id="s1" text="In conclusion, our research results strongly recommend combination analysis of cytoplasmic and nuclear girdin for a precise prognostic prediction in breast cancer.-Zhang, H., Yu, F., Qin, F., Shao, Y., Chong, W., Guo, Z., Liu, X., Fu, L., Gu, F., Ma, Y.">
+		<entity id="s1.e1" charOffset="156-162"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="183-186"
+			type="GENE" text="Qin" ontology_id="2290"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28173120">
+	<sentence id="s1" text="To better understand the biological role of this factor, we generated mitochondrial proton-transporting ATP synthase complex assembly-deficient apoptotic process and found that the homozygous Tmem70-/- knockouts exhibited profound growth retardation and embryonic lethality at ∼9.5 days post coitum.">
+		<entity id="s1.e1" charOffset="70-133"
+			type="GO" text="mitochondrial proton-transporting ATP synthase complex assembly" ontology_id="GO_0033615"/>
+		<entity id="s1.e2" charOffset="144-161"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<entity id="s1.e3" charOffset="209-217"
+			type="HP" text="profound" ontology_id="HP_0012829"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

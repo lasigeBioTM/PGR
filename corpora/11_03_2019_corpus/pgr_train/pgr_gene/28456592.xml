@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28456592">
+	<sentence id="s1" text="The aim of this study was to look for genetic causes of Currarino Syndrome in sporadic patients after ruling out other causes, like chromosome aberrations, disease-causing variants in possible MNX1 cooperating transcription factors and aberrant methylation in the promoter of the MNX1 gene.">
+		<entity id="s1.e1" charOffset="78-86"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s1.e2" charOffset="193-197"
+			type="GENE" text="MNX1" ontology_id="3110"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

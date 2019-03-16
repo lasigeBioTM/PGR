@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30285736">
+	<sentence id="s1" text="Pulmonary veno-occlusive disease (PVOD) is a rare and fatal cause of pulmonary arterial hypertension (PAH).">
+		<entity id="s1.e1" charOffset="69-100"
+			type="HP" text="pulmonary arterial hypertension" ontology_id="HP_0002092"/>
+		<entity id="s1.e2" charOffset="102-105"
+			type="GENE" text="PAH" ontology_id="5053"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Different from other types of PAH, PVOD patients have a dismal prognosis because of the progressive nature of pulmonary vascular involvement and fatal pulmonary edema induced by PAH-targeted drugs.">
+		<entity id="s2.e1" charOffset="30-33"
+			type="GENE" text="PAH" ontology_id="5053"/>
+		<entity id="s2.e2" charOffset="151-166"
+			type="HP" text="pulmonary edema" ontology_id="HP_0100598"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="In a recent article published in the journal, Yang and his colleagues found pulmonary edema was not demonstrated in 2 of the 6 PVOD patients injected with prostacyclin analogues (a kind of PAH-targeted drug).">
+		<entity id="s3.e1" charOffset="76-91"
+			type="HP" text="pulmonary edema" ontology_id="HP_0100598"/>
+		<entity id="s3.e2" charOffset="189-192"
+			type="GENE" text="PAH" ontology_id="5053"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Here, we reported a sporadic PVOD patient evidenced by pathology and EIF2AK4 biallelic mutation.">
+		<entity id="s4.e1" charOffset="20-28"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s4.e2" charOffset="69-76"
+			type="GENE" text="EIF2AK4" ontology_id="440275"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

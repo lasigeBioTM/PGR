@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24853665">
+	<sentence id="s1" text="Several recent studies applied targeted genome enrichment (peptide cross-linking) and massively parallel sequencing (MPS) to simultaneously screen a large negative regulation of transcription, DNA-templated of known hearing loss (HL) genes.">
+		<entity id="s1.e1" charOffset="59-80"
+			type="GO" text="peptide cross-linking" ontology_id="GO_0018149"/>
+		<entity id="s1.e2" charOffset="155-206"
+			type="GO" text="negative regulation of transcription, DNA-templated" ontology_id="GO_0045892"/>
+		<entity id="s1.e3" charOffset="168-180"
+			type="HP" text="hearing loss" ontology_id="HP_0000365"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="To evaluate the effectiveness of peptide cross-linking and MPS on screening sporadic NSHL patients, we recruited 63 unrelated sporadic NSHL probands, who had various levels of HL and were excluded for mutations in gap junction assembly, fatty acid biosynthetic process-transcription, DNA-templated, and regulation of pH genes.">
+		<entity id="s2.e1" charOffset="33-54"
+			type="GO" text="peptide cross-linking" ontology_id="GO_0018149"/>
+		<entity id="s2.e2" charOffset="76-84"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<entity id="s2.e3" charOffset="214-235"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s2.e4" charOffset="237-268"
+			type="GO" text="fatty acid biosynthetic process" ontology_id="GO_0006633"/>
+		<entity id="s2.e5" charOffset="269-297"
+			type="GO" text="transcription, DNA-templated" ontology_id="GO_0006351"/>
+		<entity id="s2.e6" charOffset="303-319"
+			type="GO" text="regulation of pH" ontology_id="GO_0006885"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e2"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e2"
+		    e2="s2.e5" pgr="true"/>
+		<pair id="s2.p5" e1="s2.e2"
+		    e2="s2.e6" pgr="false"/>
+	</sentence>
+</document>

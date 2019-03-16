@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29878199">
+	<sentence id="s1" text="The patients' phenocardiac muscle tissue development consisted of amelogenesis imperfecta, skeletal dysplasia, and decreased bone mineral density compatible with osteoporosis.">
+		<entity id="s1.e1" charOffset="19-52"
+			type="GO" text="cardiac muscle tissue development" ontology_id="GO_0048738"/>
+		<entity id="s1.e2" charOffset="91-109"
+			type="HP" text="skeletal dysplasia" ontology_id="HP_0002652"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

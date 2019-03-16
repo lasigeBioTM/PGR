@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23379998">
+	<sentence id="s1" text="Recent advances in whole exome sequencing technology show promise for further elucidation of disease causing variants as in the recent identification of rare variants within regulation of transcription, DNA-templated segregating with pathological myopia.">
+		<entity id="s1.e1" charOffset="174-216"
+			type="GO" text="regulation of transcription, DNA-templated" ontology_id="GO_0006355"/>
+		<entity id="s1.e2" charOffset="247-253"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

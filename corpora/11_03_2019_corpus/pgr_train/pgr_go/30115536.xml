@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30115536">
+	<sentence id="s1" text="In this research, we measured the expression of protein processing involved in protein targeting to mitochondrion protein by immunohistochemistry assay in 89 paired paraffin-embedded tumor tissues and corresponding adjacent normal tissues from patients with colorectal adenocarcinoma and investigated possible correlations of UQCRC2 expression with clinicopathological parameters and prognosis.">
+		<entity id="s1.e1" charOffset="48-113"
+			type="GO" text="protein processing involved in protein targeting to mitochondrion" ontology_id="GO_0006627"/>
+		<entity id="s1.e2" charOffset="183-188"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="These results provided novel insights into the potential role of protein processing involved in protein targeting to mitochondrion in the tumorigenesis and progression of CRC, and revealed that UQCRC2 may serve as a new prognostic and therapeutic target in CRC">
+		<entity id="s2.e1" charOffset="65-130"
+			type="GO" text="protein processing involved in protein targeting to mitochondrion" ontology_id="GO_0006627"/>
+		<entity id="s2.e2" charOffset="138-143"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="12382951">
+	<sentence id="s1" text="In a previous report, we described the clinical and radiographical features of three related subjects with the disease and suggest that due to the unusual combination of limb defects and to its phenotypic similarity with the limb malformative pattern induced by disrupting the positive regulation of transcription by RNA polymerase II gene in mouse, the triphalangeal thumb-brachyectrodactyly syndrome might be caused by mutations in a HOX gene.">
+		<entity id="s1.e1" charOffset="277-334"
+			type="GO" text="positive regulation of transcription by RNA polymerase II" ontology_id="GO_0045944"/>
+		<entity id="s1.e2" charOffset="354-373"
+			type="HP" text="triphalangeal thumb" ontology_id="HP_0001199"/>
+		<entity id="s1.e3" charOffset="380-392"
+			type="HP" text="ectrodactyly" ontology_id="HP_0100257"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

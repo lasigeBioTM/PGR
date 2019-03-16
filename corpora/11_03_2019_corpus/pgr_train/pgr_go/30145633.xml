@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30145633">
+	<sentence id="s1" text="Bcl2-associated athanogene 3 (extrinsic apoptotic signaling pathway via death domain receptors) mutations have been reported to cause the myofibrillar myopathy (MFM) which shows progressive limb muscle weakness, respiratory failure, and cardiomyopathy.">
+		<entity id="s1.e1" charOffset="30-94"
+			type="GO" text="extrinsic apoptotic signaling pathway via death domain receptors" ontology_id="GO_0008625"/>
+		<entity id="s1.e2" charOffset="151-159"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s1.e3" charOffset="212-231"
+			type="HP" text="respiratory failure" ontology_id="HP_0002878"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We aimed to cellular response to interleukin-4 the genetic cause of Korean patients with sensory motor polyneuropathy, myopathy and rigid spine.">
+		<entity id="s2.e1" charOffset="12-46"
+			type="GO" text="cellular response to interleukin-4" ontology_id="GO_0071353"/>
+		<entity id="s2.e2" charOffset="103-117"
+			type="HP" text="polyneuropathy" ontology_id="HP_0001271"/>
+		<entity id="s2.e3" charOffset="119-127"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We found extrinsic apoptotic signaling pathway via death domain receptors mutation in one patient with neuropathy, myopathy and rigid spine syndrome, and performed electrophysiological study, whole body MRI and muscle biopsy on the patient.">
+		<entity id="s3.e1" charOffset="9-73"
+			type="GO" text="extrinsic apoptotic signaling pathway via death domain receptors" ontology_id="GO_0008625"/>
+		<entity id="s3.e2" charOffset="103-113"
+			type="HP" text="neuropathy" ontology_id="HP_0009830"/>
+		<entity id="s3.e3" charOffset="115-123"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s4" text="A de novo heterozygous p.Pro209Leu (c.626CAAAAT) mutation in extrinsic apoptotic signaling pathway via death domain receptors was identified in a female myopathy.">
+		<entity id="s4.e1" charOffset="61-125"
+			type="GO" text="extrinsic apoptotic signaling pathway via death domain receptors" ontology_id="GO_0008625"/>
+		<entity id="s4.e2" charOffset="153-161"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s5" text="She showed an axonal sensory-motor polyneuropathy like Charcot-Marie-Tooth disease (CMT), myopathy, rigid spine and respiratory dysfunction; however, she did not show any cardiomyopathy, which is a common symptom in extrinsic apoptotic signaling pathway via death domain receptors mutation.">
+		<entity id="s5.e1" charOffset="35-49"
+			type="HP" text="polyneuropathy" ontology_id="HP_0001271"/>
+		<entity id="s5.e2" charOffset="90-98"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<entity id="s5.e3" charOffset="216-280"
+			type="GO" text="extrinsic apoptotic signaling pathway via death domain receptors" ontology_id="GO_0008625"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+		<pair id="s5.p2" e1="s5.e2"
+		    e2="s5.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s6" text="We described a extrinsic apoptotic signaling pathway via death domain receptors mutation patient with atypical phenotype of CMT and myopathy, and those are expected to broaden the clinical spectrum of the disease and help to diagnose it">
+		<entity id="s6.e1" charOffset="15-79"
+			type="GO" text="extrinsic apoptotic signaling pathway via death domain receptors" ontology_id="GO_0008625"/>
+		<entity id="s6.e2" charOffset="132-140"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="true"/>
+	</sentence>
+</document>

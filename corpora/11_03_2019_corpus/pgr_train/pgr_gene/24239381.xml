@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24239381">
+	<sentence id="s1" text="Phenotypically, bs mice exhibit nuclear cataracts and male infertility; genetic analyses assigned the bs locus to mouse chromosome 2.">
+		<entity id="s1.e1" charOffset="19-23"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s1.e2" charOffset="40-49"
+			type="HP" text="cataracts" ontology_id="HP_0000518"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Based on the function of TBC1D20 as a RABGAP and the bs cataract and testicular phenotypes, we hypothesized that mutations in TBC1D20 may contribute to Warburg micro syndrome (WARBM); WARBM constitutes a spectrum of disorders characterized by eye, brain, and endocrine abnormalities caused by mutations in RAB3GAP1, RAB3GAP2, and RAB18.">
+		<entity id="s2.e1" charOffset="25-32"
+			type="GENE" text="TBC1D20" ontology_id="128637"/>
+		<entity id="s2.e2" charOffset="41-44"
+			type="GENE" text="GAP" ontology_id="5921"/>
+		<entity id="s2.e3" charOffset="56-64"
+			type="HP" text="cataract" ontology_id="HP_0000518"/>
+		<entity id="s2.e4" charOffset="330-334"
+			type="GENE" text="RAB1" ontology_id="5861"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e3"
+		    e2="s2.e4" pgr="false"/>
+	</sentence>
+</document>

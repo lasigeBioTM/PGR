@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28041644">
+	<sentence id="s1" text="Defects in motile cilia and sperm flagella cause primary ciliary dyskinesia (PCD), characterized by chronic airway disease, infertility, and left-right body axis disturbance.">
+		<entity id="s1.e1" charOffset="57-75"
+			type="HP" text="ciliary dyskinesia" ontology_id="HP_0012265"/>
+		<entity id="s1.e2" charOffset="77-80"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="This result has clinical and genetic counseling implications for genetically unsolved male case subjects with a classic PCD phenotype that lack additional phenotypes such as intellectual disability or retinitis pigmentosa">
+		<entity id="s2.e1" charOffset="120-123"
+			type="GENE" text="PCD" ontology_id="352909"/>
+		<entity id="s2.e2" charOffset="174-197"
+			type="HP" text="intellectual disability" ontology_id="HP_0001249"/>
+		<entity id="s2.e3" charOffset="214-217"
+			type="GENE" text="men" ontology_id="8178"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

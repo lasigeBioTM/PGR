@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25997889">
+	<sentence id="s1" text="Broad GNAS methylation abnormalities are also observed in most sporadic PHP1B (sporPHP1B) cases.">
+		<entity id="s1.e1" charOffset="6-10"
+			type="GENE" text="GNAS" ontology_id="2778"/>
+		<entity id="s1.e2" charOffset="63-71"
+			type="HP" text="sporadic" ontology_id="HP_0003745"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="We now investigated 23 Japanese sporPHP1B cases, who presented with hypocalcemia, hyperphosphatemia, elevated PTH levels, and occasionally with TSH elevations and mild AHO features.">
+		<entity id="s2.e1" charOffset="68-80"
+			type="HP" text="hypocalcemia" ontology_id="HP_0002901"/>
+		<entity id="s2.e2" charOffset="82-99"
+			type="HP" text="hyperphosphatemia" ontology_id="HP_0002905"/>
+		<entity id="s2.e3" charOffset="110-113"
+			type="GENE" text="PTH" ontology_id="5741"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30107296">
+	<sentence id="s1" text="Here, using a microarray screen, we found that knocking down DNA repair in human neuroblastoma cells results in down-regulation of microRNA-221 (protein polyubiquitination-221).">
+		<entity id="s1.e1" charOffset="61-71"
+			type="GO" text="DNA repair" ontology_id="GO_0006281"/>
+		<entity id="s1.e2" charOffset="75-88"
+			type="HP" text="neuroblastoma" ontology_id="HP_0003006"/>
+		<entity id="s1.e3" charOffset="139-165"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s1.p1" e1="s1.e3"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

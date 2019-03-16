@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="23911318">
+	<sentence id="s1" text="These data suggest AMPD2-related PCH as a potentially treatable early-onset neurodegenerative disease.">
+		<entity id="s1.e1" charOffset="19-24"
+			type="GENE" text="AMPD2" ontology_id="271"/>
+		<entity id="s1.e2" charOffset="76-101"
+			type="HP" text="neurodegenerative disease" ontology_id="HP_0002180"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

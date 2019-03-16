@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29109511">
+	<sentence id="s1" text="Global-genome nucleotide excision repair (GG-NER) prevents ultraviolet (UV) light-induced skin cancer by removing mutagenic cyclobutane pyrimidine dimers (CPDs).">
+		<entity id="s1.e1" charOffset="45-48"
+			type="GENE" text="NER" ontology_id="7376"/>
+		<entity id="s1.e2" charOffset="95-101"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e3" charOffset="155-158"
+			type="GENE" text="CPD" ontology_id="9455"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

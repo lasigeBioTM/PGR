@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25927284">
+	<sentence id="s1" text="Functional loss of expression of breast cancer susceptibility gene 1(double-strand break repair via homologous recombination) has been implicated in genomic instability and cancer progression.">
+		<entity id="s1.e1" charOffset="40-46"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="69-124"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="There is emerging evidence that double-strand break repair via homologous recombination gene product (BRCA1) also plays a role in cancer cell migration.">
+		<entity id="s2.e1" charOffset="32-87"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s2.e2" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="We performed a quantitative proteomics study of EOC patient tumor tissues and identified changes in expression of several key regulators of actin cytoskeleton/cell adhesion and cell migration (proteolysis, 14-3-3, extracellular matrix disassembly, negative regulation of actin filament polymerization, mitotic cytokinesis, CFN1) associated with loss of double-strand break repair via homologous recombination function.">
+		<entity id="s3.e1" charOffset="60-65"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s3.e2" charOffset="193-204"
+			type="GO" text="proteolysis" ontology_id="GO_0006508"/>
+		<entity id="s3.e3" charOffset="214-246"
+			type="GO" text="extracellular matrix disassembly" ontology_id="GO_0022617"/>
+		<entity id="s3.e4" charOffset="248-300"
+			type="GO" text="negative regulation of actin filament polymerization" ontology_id="GO_0030837"/>
+		<entity id="s3.e5" charOffset="258-313"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s3.e6" charOffset="302-321"
+			type="GO" text="mitotic cytokinesis" ontology_id="GO_0000281"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e5" pgr="true"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+		<pair id="s3.p3" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p4" e1="s3.e1"
+		    e2="s3.e4" pgr="false"/>
+		<pair id="s3.p5" e1="s3.e1"
+		    e2="s3.e6" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="By immunohistochemistry of ovarian tumors with double-strand break repair via homologous recombination(+/+) and BRCA1(null) status, we further verified our proteomic-based finding of elevated negative regulation of actin filament polymerization expression associated with BRCA1 deficiency.">
+		<entity id="s4.e1" charOffset="35-40"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="47-102"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s4.e3" charOffset="192-244"
+			type="GO" text="negative regulation of actin filament polymerization" ontology_id="GO_0030837"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="true"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="Finally, we established a causal link between negative regulation of actin filament polymerization and double-strand break repair via homologous recombination-induced changes in cell migration thus uncovering a novel mechanistic basis for BRCA1-dependent regulation of ovarian cancer cell migration.">
+		<entity id="s5.e1" charOffset="46-98"
+			type="GO" text="negative regulation of actin filament polymerization" ontology_id="GO_0030837"/>
+		<entity id="s5.e2" charOffset="55-110"
+			type="GO" text="double-strand break repair via homologous recombination" ontology_id="GO_0000724"/>
+		<entity id="s5.e3" charOffset="229-235"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e3"
+		    e2="s5.e3" pgr="true"/>
+		<pair id="s5.p2" e1="s5.e1"
+		    e2="s5.e3" pgr="false"/>
+	</sentence>
+</document>

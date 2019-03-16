@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29471829">
+	<sentence id="s1" text="In fact, cells which simultaneously express both sets of markers have the highest tumor initiating capacity.">
+		<entity id="s1.e1" charOffset="3-7"
+			type="GENE" text="fact" ontology_id="11198"/>
+		<entity id="s1.e2" charOffset="82-87"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In ALDH<sup>+</sup>CD24<sup>-</sup>CD44<sup>+</sup> BCSCs, we identified P4HA2, PTGR1 and RAB40B as potential prognostic markers, which were virtually related to the status of BCSCs and tumor growth in TNBC cells">
+		<entity id="s2.e1" charOffset="80-85"
+			type="GENE" text="PTGR1" ontology_id="22949"/>
+		<entity id="s2.e2" charOffset="90-96"
+			type="GENE" text="RAB40B" ontology_id="10966"/>
+		<entity id="s2.e3" charOffset="186-191"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

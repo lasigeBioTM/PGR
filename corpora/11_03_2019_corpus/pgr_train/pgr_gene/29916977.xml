@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29916977">
+	<sentence id="s1" text="Popliteal pterygium syndrome shares features with van der Woude syndrome but, in addition, is characterized by genital anomalies, syndactyly of fingers and toes, and toenail dysplasia.">
+		<entity id="s1.e1" charOffset="10-19"
+			type="HP" text="pterygium" ontology_id="HP_0001059"/>
+		<entity id="s1.e2" charOffset="50-53"
+			type="GENE" text="van" ontology_id="10318"/>
+		<entity id="s1.e3" charOffset="111-128"
+			type="HP" text="genital anomalies" ontology_id="HP_0000078"/>
+		<entity id="s1.e4" charOffset="166-183"
+			type="HP" text="toenail dysplasia" ontology_id="HP_0100797"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+</document>

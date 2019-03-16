@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27863507">
+	<sentence id="s1" text="Mutations in the gene encoding the nuclear matrix protein Matrin 3 have been found in familial cases of signal transduction, as well as autosomal dominant distal myopathy with vocal cord and pharyngeal weakness.">
+		<entity id="s1.e1" charOffset="104-123"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s1.e2" charOffset="155-161"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s1.e3" charOffset="162-170"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="We previously found that spinal cord and muscle, organs involved in either signal transduction or distal myopathy, have relatively lower levels of Matrin 3 compared to the brain and other peripheral organs in the murine system.">
+		<entity id="s2.e1" charOffset="75-94"
+			type="GO" text="signal transduction" ontology_id="GO_0007165"/>
+		<entity id="s2.e2" charOffset="98-104"
+			type="HP" text="distal" ontology_id="HP_0012839"/>
+		<entity id="s2.e3" charOffset="105-113"
+			type="HP" text="myopathy" ontology_id="HP_0003198"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

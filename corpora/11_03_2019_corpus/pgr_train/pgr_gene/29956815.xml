@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29956815">
+	<sentence id="s1" text="Kank1, an important member of the Kank gene family, plays an important role in the development of many malignant tumors.">
+		<entity id="s1.e1" charOffset="0-4"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s1.e2" charOffset="113-119"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="As a brand new tumor-suppressor gene, the expression of Kank1 gene has been revealed to be downregulated or absent in many malignant tumors.">
+		<entity id="s2.e1" charOffset="15-20"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="56-60"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s2.e3" charOffset="133-139"
+			type="HP" text="tumors" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="However, there is no study concerning the specific role of Kank1 in the development and progression of lung cancer.">
+		<entity id="s3.e1" charOffset="59-63"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s3.e2" charOffset="108-114"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In the present study, we found that the Kankl gene was significantly downregulated in human lung cancer and lung cancer cells.">
+		<entity id="s4.e1" charOffset="40-44"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s4.e2" charOffset="97-103"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s5" text="When the Kankl gene was upregulated, we found that the proliferation of lung cancer cells was significantly inhibited, the cells were arrested in the G0/G1 phase, the apoptosis of cells was observed, the expression of the caspase family of genes was altered with mainly the activation of caspase-3 and -9, and Bcl-2/Bax ratio was significantly imbalanced.">
+		<entity id="s5.e1" charOffset="9-13"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s5.e2" charOffset="77-83"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s5.p1" e1="s5.e1"
+		    e2="s5.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s6" text="In addition, we also found that upregulation of the Kankl gene resulted in the inhibition of tumor cell invasion and metastasis.">
+		<entity id="s6.e1" charOffset="52-56"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s6.e2" charOffset="93-98"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s6.p1" e1="s6.e1"
+		    e2="s6.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s7" text="Concurrently, in vivo nude mice experiments also confirmed that upregulation of Kank1 expression led to reduced tumor formation in nude mice and significantly reduced tumor volume.">
+		<entity id="s7.e1" charOffset="22-26"
+			type="GENE" text="nude" ontology_id="54820"/>
+		<entity id="s7.e2" charOffset="27-31"
+			type="GENE" text="mice" ontology_id="23581"/>
+		<entity id="s7.e3" charOffset="80-84"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s7.e4" charOffset="112-117"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s7.p1" e1="s7.e3"
+		    e2="s7.e4" pgr="false"/>
+		<pair id="s7.p2" e1="s7.e1"
+		    e2="s7.e4" pgr="false"/>
+		<pair id="s7.p3" e1="s7.e2"
+		    e2="s7.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s8" text="These results revealed that upregulation of the Kankl gene inhibited the progression of lung cancer both in vitro and in vivo, and its mechanism was closely related to cell apoptosis as well as tumor invasion and metastasis">
+		<entity id="s8.e1" charOffset="48-52"
+			type="GENE" text="Kank" ontology_id="23189"/>
+		<entity id="s8.e2" charOffset="93-99"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s8.e3" charOffset="194-199"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s8.p1" e1="s8.e1"
+		    e2="s8.e3" pgr="false"/>
+		<pair id="s8.p2" e1="s8.e1"
+		    e2="s8.e2" pgr="false"/>
+	</sentence>
+</document>

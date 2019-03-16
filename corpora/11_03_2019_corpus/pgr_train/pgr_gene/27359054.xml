@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="27359054">
+	<sentence id="s1" text="Here we found that perilipin-1 (PLIN1) mRNA expression is significantly downregulated in human breast cancer.">
+		<entity id="s1.e1" charOffset="32-37"
+			type="GENE" text="PLIN1" ontology_id="5346"/>
+		<entity id="s1.e2" charOffset="102-108"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Further Cox proportional hazard models analysis revealed that the reduced expression of PLIN1 is an independent predictor of overall survival in estrogen receptor positive (p AAAA 0.0001, HR = 0.87, 95% CI = 0.81-0.92, N = 3,600) and luminal A-subtype (p = 0.02, HR = 0.88, 95% CI = 0.78-0.98, N = 1,469) breast cancer patients.">
+		<entity id="s2.e1" charOffset="8-11"
+			type="GENE" text="Cox" ontology_id="1351"/>
+		<entity id="s2.e2" charOffset="88-93"
+			type="GENE" text="PLIN1" ontology_id="5346"/>
+		<entity id="s2.e3" charOffset="312-318"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e3"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="We also demonstrated that the exogenous expression of PLIN1 in human breast cancer MCF-7 and MDA-MB-231 cells significantly inhibits cell proliferation, migration, invasion and in vivo tumorigenesis in mice.">
+		<entity id="s3.e1" charOffset="54-59"
+			type="GENE" text="PLIN1" ontology_id="5346"/>
+		<entity id="s3.e2" charOffset="76-82"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Together, these data provide novel insights into a prognostic significance of PLIN1 in human breast cancer and reveal a potentially new gene therapy target for breast cancer">
+		<entity id="s4.e1" charOffset="78-83"
+			type="GENE" text="PLIN1" ontology_id="5346"/>
+		<entity id="s4.e2" charOffset="100-106"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

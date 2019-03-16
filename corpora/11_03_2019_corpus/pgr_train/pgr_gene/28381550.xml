@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28381550">
+	<sentence id="s1" text="Bartter syndrome type 3 is a clinically heterogeneous hereditary salt-losing tubulopathy caused by mutations of the chloride voltage-gated channel Kb gene (li>CLCNKB</i>), which encodes the ClC-Kb chloride channel involved in NaCl reabsorption in the renal tubule.">
+		<entity id="s1.e1" charOffset="17-21"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s1.e2" charOffset="40-53"
+			type="HP" text="heterogeneous" ontology_id="HP_0001425"/>
+		<entity id="s1.e3" charOffset="159-165"
+			type="GENE" text="CLCNKB" ontology_id="1188"/>
+		<entity id="s1.e4" charOffset="190-193"
+			type="GENE" text="ClC" ontology_id="23529"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e2"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Among patients, 29.5% had a phenotype of ante/neonatal Bartter syndrome (polyhydramnios or diagnosis in the first month of life), 44.5% had classic Bartter syndrome (diagnosis during childhood, hypercalciuria, and/or polyuria), and 26.0% had Gitelman-like syndrome (fortuitous discovery of hypokalemia with hypomagnesemia and/or hypocalciuria in childhood or adulthood).">
+		<entity id="s2.e1" charOffset="33-37"
+			type="GENE" text="type" ontology_id="6445"/>
+		<entity id="s2.e2" charOffset="194-208"
+			type="HP" text="hypercalciuria" ontology_id="HP_0002150"/>
+		<entity id="s2.e3" charOffset="290-301"
+			type="HP" text="hypokalemia" ontology_id="HP_0002900"/>
+		<entity id="s2.e4" charOffset="307-321"
+			type="HP" text="hypomagnesemia" ontology_id="HP_0002917"/>
+		<entity id="s2.e5" charOffset="329-342"
+			type="HP" text="hypocalciuria" ontology_id="HP_0003127"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="false"/>
+		<pair id="s2.p4" e1="s2.e1"
+		    e2="s2.e5" pgr="false"/>
+	</sentence>
+</document>

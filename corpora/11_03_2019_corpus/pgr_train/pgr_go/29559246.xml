@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29559246">
+	<sentence id="s1" text="The subcapsular cell adhesion mediated by integrin-forming tumor was composed of poorly differentiated tumor cells arranged in small vague glandular or slit-lumen nests, and focally fused or anastomosing large trabecular patterns within the prominent fibrotic stroma.">
+		<entity id="s1.e1" charOffset="16-50"
+			type="GO" text="cell adhesion mediated by integrin" ontology_id="GO_0033627"/>
+		<entity id="s1.e2" charOffset="59-64"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="The tumor cells with immunoreactivity to CK7, CK19, Cam5.2, biological_process, fatty acid beta-oxidation using acyl-CoA dehydrogenase, protein polyubiquitination, MOC-31 and AE1/AE3, supported a diagnosis of intrahepatic cholangiocarcinoma.">
+		<entity id="s2.e1" charOffset="4-9"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="60-78"
+			type="GO" text="biological_process" ontology_id="GO_0008150"/>
+		<entity id="s2.e3" charOffset="80-134"
+			type="GO" text="fatty acid beta-oxidation using acyl-CoA dehydrogenase" ontology_id="GO_0033539"/>
+		<entity id="s2.e4" charOffset="136-162"
+			type="GO" text="protein polyubiquitination" ontology_id="GO_0000209"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+		<pair id="s2.p3" e1="s2.e1"
+		    e2="s2.e4" pgr="true"/>
+	</sentence>
+</document>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28739378">
+	<sentence id="s1" text="Carney triad (CT) is a very rare disease with synchronous or metachronous occurrence of at least three different tumor entities; gastric gastrointestinal stromal tumor (GIST), paraganglioma (tricarboxylic acid cycle), and pulmonary chondroma.">
+		<entity id="s1.e1" charOffset="113-118"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="176-189"
+			type="HP" text="paraganglioma" ontology_id="HP_0002668"/>
+		<entity id="s1.e3" charOffset="191-215"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<entity id="s1.e4" charOffset="222-241"
+			type="HP" text="pulmonary chondroma" ontology_id="HP_0031474"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="Another disease that shares two of the tumor components of CT, namely GIST and tricarboxylic acid cycle is the Carney-Stratakis syndrome (CSS) or dyad.">
+		<entity id="s2.e1" charOffset="39-44"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s2.e2" charOffset="79-103"
+			type="GO" text="tricarboxylic acid cycle" ontology_id="GO_0006099"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="true"/>
+	</sentence>
+	<sentence id="s3" text="There is only partial overlap between the two conditions (there are a few patients with CT that have sarcosine catabolic process subunit mutations) but both lead to increased methylation of the entire genome in the tumors associated with them.">
+		<entity id="s3.e1" charOffset="101-128"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<entity id="s3.e2" charOffset="215-220"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="Other tumors (outside CT and CSS) that have sarcosine catabolic process deficiency are associated with increased methylation of the entire genome, but only in CT there is site-specific methylation of the SDHC gene.">
+		<entity id="s4.e1" charOffset="6-11"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e2" charOffset="44-71"
+			type="GO" text="sarcosine catabolic process" ontology_id="GO_1901053"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+	</sentence>
+</document>

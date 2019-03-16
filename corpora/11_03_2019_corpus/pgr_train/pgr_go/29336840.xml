@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29336840">
+	<sentence id="s1" text="Biallelic loss-of-function mutations in myeloid leukocyte activation and positive regulation of antigen processing and presentation of peptide antigen via MHC class II cause a rare disease that resembles early-onset frontotemporal dementia with bone lesions called polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy (myeloid leukocyte activation).">
+		<entity id="s1.e1" charOffset="40-68"
+			type="GO" text="myeloid leukocyte activation" ontology_id="GO_0002274"/>
+		<entity id="s1.e2" charOffset="73-167"
+			type="GO" text="positive regulation of antigen processing and presentation of peptide antigen via MHC class II" ontology_id="GO_0002588"/>
+		<entity id="s1.e3" charOffset="127-150"
+			type="HP" text="frontotemporal dementia" ontology_id="HP_0002145"/>
+		<entity id="s1.e4" charOffset="233-252"
+			type="HP" text="leukoencephalopathy" ontology_id="HP_0002352"/>
+		<entity id="s1.e5" charOffset="343-371"
+			type="GO" text="myeloid leukocyte activation" ontology_id="GO_0002274"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e5" pgr="false"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e2"
+		    e2="s1.e8" pgr="false"/>
+		<pair id="s1.p6" e1="s1.e8"
+		    e2="s1.e6" pgr="true"/>
+	</sentence>
+</document>

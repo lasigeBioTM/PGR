@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30272273">
+	<sentence id="s1" text="In OSCC samples, a high GLI3 expression was associated with tumour size but not with prognosis.">
+		<entity id="s1.e1" charOffset="24-28"
+			type="GENE" text="GLI3" ontology_id="2737"/>
+		<entity id="s1.e2" charOffset="60-66"
+			type="HP" text="tumour" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

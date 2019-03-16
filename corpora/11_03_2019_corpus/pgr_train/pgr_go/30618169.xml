@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="30618169">
+	<sentence id="s1" text="Lactate dehydrogenase A (pyruvate metabolic process), a key enzyme in glycolysis, is highly expressed in a variety of tumors and catalyzes pyruvate to lactate.">
+		<entity id="s1.e1" charOffset="25-51"
+			type="GO" text="pyruvate metabolic process" ontology_id="GO_0006090"/>
+		<entity id="s1.e2" charOffset="118-123"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s2" text="In the present study, we first analyzed the association and clinical significance of p53 and pyruvate metabolic process in breast cancer expressing wild-type p53 (wt-p53) and found that LDHA mRNA levels are negatively correlated with wt-p53 but not with mutation p53 mRNA levels, and low p53 and high LDHA expression are significantly associated with poor overall survival rates.">
+		<entity id="s2.e1" charOffset="93-119"
+			type="GO" text="pyruvate metabolic process" ontology_id="GO_0006090"/>
+		<entity id="s2.e2" charOffset="130-136"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Moreover, a series of pyruvate metabolic process gain-of-function and rescore experiments were carried out in breast cancer MCF7 cells expressing endogenous wt-p53, showing that ectopic expression of p53 decreases aerobic glycolysis, cell proliferation, migration, invasion and tumor formation of breast cancer cells and that restoration of the expression of pyruvate metabolic process in p53-overexpressing cells could abolish the suppressive effect of p53 on aerobic glycolysis and other malignant phenotypes.">
+		<entity id="s3.e1" charOffset="22-48"
+			type="GO" text="pyruvate metabolic process" ontology_id="GO_0006090"/>
+		<entity id="s3.e2" charOffset="117-123"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s3.e3" charOffset="278-283"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e3" pgr="false"/>
+		<pair id="s3.p2" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s4" text="In conclusion, our findings showed that repression of pyruvate metabolic process induced by wt-p53 blocks tumor growth and invasion through downregulation of aerobic glycolysis in breast cancer, providing new insights into the mechanism by which p53 contributes to the development and progression of breast cancer">
+		<entity id="s4.e1" charOffset="54-80"
+			type="GO" text="pyruvate metabolic process" ontology_id="GO_0006090"/>
+		<entity id="s4.e2" charOffset="106-111"
+			type="HP" text="tumor" ontology_id="HP_0002664"/>
+		<entity id="s4.e3" charOffset="187-193"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s4.p1" e1="s4.e1"
+		    e2="s4.e2" pgr="false"/>
+		<pair id="s4.p2" e1="s4.e1"
+		    e2="s4.e3" pgr="false"/>
+	</sentence>
+</document>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="25807459">
+	<sentence id="s1" text="Missense mutations in the human GPI biosynthesis enzyme pigv are associated with a multiple congenital malformation syndrome with a high frequency of Hirschsprung disease and renal anomalies.">
+		<entity id="s1.e1" charOffset="32-35"
+			type="GENE" text="GPI" ontology_id="10007"/>
+		<entity id="s1.e2" charOffset="56-60"
+			type="GENE" text="pigv" ontology_id="55650"/>
+		<entity id="s1.e3" charOffset="175-190"
+			type="HP" text="renal anomalies" ontology_id="HP_0000077"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e3" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e3" pgr="false"/>
+	</sentence>
+</document>

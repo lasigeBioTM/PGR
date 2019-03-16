@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29742560">
+	<sentence id="s1" text="Keratitis-ichthyosis-deafness (sister chromatid cohesion) syndrome is a rare genodermatosis that typically results from mutations of the gap junction assembly gene or, less commonly, the apoptotic process gene.">
+		<entity id="s1.e1" charOffset="21-29"
+			type="HP" text="deafness" ontology_id="HP_0000365"/>
+		<entity id="s1.e2" charOffset="31-56"
+			type="GO" text="sister chromatid cohesion" ontology_id="GO_0007062"/>
+		<entity id="s1.e3" charOffset="137-158"
+			type="GO" text="gap junction assembly" ontology_id="GO_0016264"/>
+		<entity id="s1.e4" charOffset="187-204"
+			type="GO" text="apoptotic process" ontology_id="GO_0006915"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Given that patients with sister chromatid cohesion syndrome are at high risk of developing squamous cell carcinoma, biopsies were performed.">
+		<entity id="s2.e1" charOffset="25-50"
+			type="GO" text="sister chromatid cohesion" ontology_id="GO_0007062"/>
+		<entity id="s2.e2" charOffset="91-114"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+</document>

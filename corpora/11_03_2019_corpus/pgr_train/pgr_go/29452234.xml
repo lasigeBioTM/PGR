@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29452234">
+	<sentence id="s1" text="double-strand break repair is one of the essential proteins of this pathway and single-nucleotide polymorphisms (SNPs) of this gene are reported to be associated with cancer risks.">
+		<entity id="s1.e1" charOffset="0-26"
+			type="GO" text="double-strand break repair" ontology_id="GO_0006302"/>
+		<entity id="s1.e2" charOffset="167-173"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+	</sentence>
+</document>

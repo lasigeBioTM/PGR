@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="26578640">
+	<sentence id="s1" text="Disorders of signalling of various paracrine factors (FGFs, BMPs, WNTs, PTHrP/IHH, and CNP/NPR2) or genetic defects affecting cartilage extracellular matrix usually cause disproportionate short stature.">
+		<entity id="s1.e1" charOffset="91-95"
+			type="GENE" text="NPR2" ontology_id="10641"/>
+		<entity id="s1.e2" charOffset="188-201"
+			type="HP" text="short stature" ontology_id="HP_0004322"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

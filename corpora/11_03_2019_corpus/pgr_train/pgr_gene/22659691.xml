@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="22659691">
+	<sentence id="s1" text="Image degradation by loss of higher spatial frequencies causes form-deprivation myopia (FDM) in humans and animals, and cyclical illumination (flicker) at certain frequencies may prevent FDM.">
+		<entity id="s1.e1" charOffset="36-43"
+			type="GENE" text="spatial" ontology_id="219793"/>
+		<entity id="s1.e2" charOffset="80-86"
+			type="HP" text="myopia" ontology_id="HP_0000545"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>

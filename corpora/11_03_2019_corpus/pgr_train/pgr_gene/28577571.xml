@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="28577571">
+	<sentence id="s1" text="Mutations in four genes (LDLR, APOB, PCSK9 and LDLRAP1) account for the majority of cases with familial hypercholesterolemia.">
+		<entity id="s1.e1" charOffset="25-29"
+			type="GENE" text="LDLR" ontology_id="3949"/>
+		<entity id="s1.e2" charOffset="31-35"
+			type="GENE" text="APOB" ontology_id="338"/>
+		<entity id="s1.e3" charOffset="37-42"
+			type="GENE" text="PCSK9" ontology_id="255738"/>
+		<entity id="s1.e4" charOffset="104-124"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e2"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e3"
+		    e2="s1.e4" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Here in, we review the recent evidence of association of the genetic variants with hypercholesterolemia and the three lipid traits; total cholesterol (TC), HDL-cholesterol (HDL-C) and LDL-cholesterol (LDL-C), their biological pathways and the associated pathogenetic mechanisms.">
+		<entity id="s2.e1" charOffset="83-103"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s2.e2" charOffset="124-130"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+	</sentence>
+	<sentence id="s3" text="Nearly 80 genes involved in lipid metabolism (encoding structural components of lipoproteins, lipoprotein receptors and related proteins, enzymes, lipid transporters, lipid transfer proteins, and activators or inhibitors of protein function and gene transcription) with single nucleotide variants (SNVs) that are recognized to be associated with hypercholesterolemia and serum lipid traits in genome-wide association studies and candidate gene studies were identified.">
+		<entity id="s3.e1" charOffset="346-366"
+			type="HP" text="hypercholesterolemia" ontology_id="HP_0003124"/>
+		<entity id="s3.e2" charOffset="383-389"
+			type="GENE" text="traits" ontology_id="55929"/>
+		<pair id="s3.p1" e1="s3.e1"
+		    e2="s3.e2" pgr="false"/>
+	</sentence>
+</document>

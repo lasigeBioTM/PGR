@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="29262419">
+	<sentence id="s1" text="Homozygous RSPO1 mutations cause a syndrome of 46,XX disorder of sexual development (DSD), palmoplantar keratoderma (PPK), and predisposition to squamous cell carcinoma.">
+		<entity id="s1.e1" charOffset="11-16"
+			type="GENE" text="RSPO1" ontology_id="284654"/>
+		<entity id="s1.e2" charOffset="91-115"
+			type="HP" text="palmoplantar keratoderma" ontology_id="HP_0000982"/>
+		<entity id="s1.e3" charOffset="145-168"
+			type="HP" text="squamous cell carcinoma" ontology_id="HP_0002860"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Both have PPK and hearing impairment and carried a novel homozygous mutation c.332GAAAAA (p.Cys111Tyr) located in the highly conserved furin-like cysteine-rich domain-2 (FU-CRD2).">
+		<entity id="s2.e1" charOffset="18-36"
+			type="HP" text="hearing impairment" ontology_id="HP_0000365"/>
+		<entity id="s2.e2" charOffset="135-140"
+			type="GENE" text="furin" ontology_id="5045"/>
+		<entity id="s2.e3" charOffset="170-172"
+			type="GENE" text="FU" ontology_id="27148"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e2" pgr="false"/>
+		<pair id="s2.p2" e1="s2.e1"
+		    e2="s2.e3" pgr="false"/>
+	</sentence>
+</document>

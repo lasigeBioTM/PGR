@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24835313">
+	<sentence id="s1" text="Several gene encoding proteins related to collagen metabolism have been described in some cases of autosomal recessive OI (including CRTAP, LEPRE1, PPIB, FKBP65, SERPINF1, BMP1, WNT1, FKBP10).">
+		<entity id="s1.e1" charOffset="99-118"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<entity id="s1.e2" charOffset="133-138"
+			type="GENE" text="CRTAP" ontology_id="10491"/>
+		<entity id="s1.e3" charOffset="140-146"
+			type="GENE" text="LEPRE1" ontology_id="64175"/>
+		<entity id="s1.e4" charOffset="148-152"
+			type="GENE" text="PPIB" ontology_id="5479"/>
+		<entity id="s1.e5" charOffset="162-170"
+			type="GENE" text="SERPINF1" ontology_id="5176"/>
+		<entity id="s1.e6" charOffset="172-176"
+			type="GENE" text="BMP1" ontology_id="649"/>
+		<entity id="s1.e7" charOffset="178-182"
+			type="GENE" text="WNT1" ontology_id="7471"/>
+		<entity id="s1.e8" charOffset="184-190"
+			type="GENE" text="FKBP10" ontology_id="60681"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="true"/>
+		<pair id="s1.p2" e1="s1.e1"
+		    e2="s1.e3" pgr="true"/>
+		<pair id="s1.p3" e1="s1.e1"
+		    e2="s1.e4" pgr="true"/>
+		<pair id="s1.p4" e1="s1.e1"
+		    e2="s1.e5" pgr="true"/>
+		<pair id="s1.p5" e1="s1.e1"
+		    e2="s1.e6" pgr="true"/>
+		<pair id="s1.p6" e1="s1.e1"
+		    e2="s1.e7" pgr="true"/>
+		<pair id="s1.p7" e1="s1.e1"
+		    e2="s1.e8" pgr="true"/>
+	</sentence>
+	<sentence id="s2" text="Recently, TMEM38B, a gene that encodes TRIC-B, a monovalent cation-specific channel involved in calcium flux from intracellular stores and in cell differentiation, has been associated with autosomal recessive OI.">
+		<entity id="s2.e1" charOffset="10-17"
+			type="GENE" text="TMEM38B" ontology_id="55151"/>
+		<entity id="s2.e2" charOffset="39-45"
+			type="GENE" text="TRIC-B" ontology_id="55151"/>
+		<entity id="s2.e3" charOffset="189-208"
+			type="HP" text="autosomal recessive" ontology_id="HP_0000007"/>
+		<pair id="s2.p1" e1="s2.e1"
+		    e2="s2.e3" pgr="true"/>
+		<pair id="s2.p2" e1="s2.e2"
+		    e2="s2.e3" pgr="true"/>
+	</sentence>
+</document>
