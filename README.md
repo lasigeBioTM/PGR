@@ -1,6 +1,6 @@
 # PGR: A Silver Standard Corpus of Human Phenotype-Gene Relations
 
-The PGR corpus is a silver standard corpus of human phenotype and gene annotations and their relations. This corpus is available in the **corpora/10_12_2018_corpus/** directory (in *.tsv* and *.xml* formats).
+The PGR corpus is a silver standard corpus of human phenotype and gene annotations and their relations. This corpus is available in the **corpora/10_12_2018_corpus/** directory (in *.tsv* and *.xml* formats). Later, a new corpus was created using a different query and is available in the **corpora/11_03_2019_corpus/** directory (in *.tsv* and *.xml* formats)
 If you intend to create a new corpus you can follow the bellow guidelines.
 
 ## Dependencies
@@ -38,7 +38,7 @@ Use the Dockerfile to setup the rest of the experimental environment.
     * **geniass/**
     
 * ### corpora/
-    * **original_corpus/**
+    * **10_12_2018_corpus/**
         * **pgr_test/**
             * **pgr_gene/**
             * **pgr_go/**
@@ -46,7 +46,12 @@ Use the Dockerfile to setup the rest of the experimental environment.
             * **pgr_gene/**
             * **pgr_go/**
         * __test.tsv__
-        * __train.tsv__   
+        * __train.tsv__
+    * **11_03_2019_corpus/**
+        * **pgr_train/**
+            * **pgr_gene/**
+            * **pgr_go/**
+        * __train.tsv__    
           
 
 * ### data/
