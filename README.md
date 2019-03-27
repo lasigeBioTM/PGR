@@ -3,6 +3,8 @@
 The PGR corpus is a silver standard corpus of human phenotype and gene annotations and their relations. This corpus is available in the **corpora/10_12_2018_corpus/** directory (in *.tsv* and *.xml* formats). Later, a new corpus was created using a different query, available at the **corpora/11_03_2019_corpus/** directory (in *.tsv* and *.xml* formats).
 If you intend to create a new corpus you can follow the bellow guidelines.
 
+Our academic paper which describes PGR in detail can be found [here](https://arxiv.org/abs/1903.10728).
+
 ## Dependencies
 
 * Python >= 3.5
@@ -26,45 +28,6 @@ If you intend to create a new corpus you can follow the bellow guidelines.
  git clone -b IHP_Python3.6 --single-branch git@github.com:lasigeBioTM/IHP.git
 ````
 Use the Dockerfile to setup the rest of the experimental environment or the [PGR Image](https://hub.docker.com/r/dpavot/pgr) available at Docker Hub.
-
-## Configuration
-
-* ### bin/
-    * **MER/**
-        * **data/**
-            * __genes.txt__
-            * __genes_links.tsv__
-    * **IHP/**
-    * **geniass/**
-    
-* ### corpora/
-    * **10_12_2018_corpus/**
-        * **pgr_test/**
-            * **pgr_gene/**
-            * **pgr_go/**
-        * **pgr_train/**
-            * **pgr_gene/**
-            * **pgr_go/**
-        * __test.tsv__
-        * __train.tsv__
-    * **11_03_2019_corpus/**
-        * **pgr_train/**
-            * **pgr_gene/**
-            * **pgr_go/**
-        * __train.tsv__    
-          
-
-* ### data/
-    * __ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt__
-    * __ALL_SOURCES_ALL_FREQUENCIES_phenotype_to_genes.txt__
-    * __gene2go.gz__
-    
-* ### src/
-    * **annotations.py**
-    * **pgr_corpus.py**
-    * **pubmed_corpus.py**
-    * **relations.py**
-    * **statistics.py**
    
 ## Usage
 
@@ -121,6 +84,45 @@ where [ENTITY TYPE] (*gene* or *go*) corresponds to the intended pair of entitie
 * Creates: 
     * __report.txt__
 
+## Configuration
+
+* ### bin/
+    * **MER/**
+        * **data/**
+            * __genes.txt__
+            * __genes_links.tsv__
+    * **IHP/**
+    * **geniass/**
+    
+* ### corpora/
+    * **10_12_2018_corpus/**
+        * **pgr_test/**
+            * **pgr_gene/**
+            * **pgr_go/**
+        * **pgr_train/**
+            * **pgr_gene/**
+            * **pgr_go/**
+        * __test.tsv__
+        * __train.tsv__
+    * **11_03_2019_corpus/**
+        * **pgr_train/**
+            * **pgr_gene/**
+            * **pgr_go/**
+        * __train.tsv__    
+          
+
+* ### data/
+    * __ALL_SOURCES_ALL_FREQUENCIES_genes_to_phenotype.txt__
+    * __ALL_SOURCES_ALL_FREQUENCIES_phenotype_to_genes.txt__
+    * __gene2go.gz__
+    
+* ### src/
+    * **annotations.py**
+    * **pgr_corpus.py**
+    * **pubmed_corpus.py**
+    * **relations.py**
+    * **statistics.py**
+    
 ## Reference
 
 - Diana Sousa, Andre Lamurias, and Francisco M. Couto. 2019. A Silver Standard Corpus of Human Phenotype-Gene Relations. In Proceedings  of  the  2019  Conference  of  the  North American Chapter of the Association for Computational Linguistics: Human Language Technologies.
