@@ -125,4 +125,4 @@ where [ENTITY TYPE] (*gene* or *go*) corresponds to the intended pair of entitie
     
 ## Reference
 
-- Diana Sousa, Andre Lamurias, and Francisco M. Couto. 2019. A Silver Standard Corpus of Human Phenotype-Gene Relations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 1487–1492, Association for Computational Linguistics.
+- Diana Sousa, Andre Lamurias, and Francisco M. Couto. 2019. A Silver Standard Corpus of Human Phenotype-Gene Relations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 1487–1492.
