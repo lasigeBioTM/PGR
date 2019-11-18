@@ -62,6 +62,7 @@ WORKDIR jsre
 WORKDIR /bin/IHP
 RUN apt-get update -y && apt-get -y install git liblapack-dev liblapack3 libopenblas-base libopenblas-dev
 RUN apt-get update -y && apt-get -y install python3-dev libmysqlclient-dev -y
+RUN apt-get update -y && apt-get -y install python3 python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-pip -y
 RUN apt-get update -y && apt-get install python3-pip -y && pip3 install mysqlclient && apt-get install python3-scipy -y && pip3 install -r requirements.txt
 
 # Initial Configuration
