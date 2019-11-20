@@ -871,7 +871,7 @@ def main():
     os.chdir('bin/MER/')
     os.system('cd data; ../produce_data_files.sh genes.txt')
     os.system('cd data; wget http://purl.obolibrary.org/obo/hp.owl')
-    os,system('cd data; ../produce_data_files.sh hp.owl')
+    os.system('cd data; ../produce_data_files.sh hp.owl')
     annotations('../../corpora/pubmed_corpus/', 'get_entities.sh','../../corpora/per_directory_annotations/final_report', 'data/hp_links.tsv', '../../corpora/')
     os.chdir('../..')
     update_annotations('corpora/pubmed_corpus/', 'data/', 'corpora/divided_by_sentences_annotations/','corpora/annotations_to_check.tsv', 'bin/MER/data/', 'corpora/added_annotations/')
