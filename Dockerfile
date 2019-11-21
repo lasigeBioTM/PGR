@@ -83,6 +83,7 @@ ENV RUBYOPT="-KU -E utf-8:utf-8"
 WORKDIR /bin
 RUN apt-get install gawk -y
 RUN mv genes.txt MER/data/
+RUN mv hp.txt MER/data/
 RUN mv genes_links.tsv MER/data/
 
 
