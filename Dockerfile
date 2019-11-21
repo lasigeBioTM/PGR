@@ -85,6 +85,7 @@ RUN apt-get install gawk -y
 RUN mv genes.txt MER/data/
 RUN mv hp.txt MER/data/
 RUN mv genes_links.tsv MER/data/
+RUN mv hp_links.tsv MER/data/
 
 
 # --------------------------------------------------------------
