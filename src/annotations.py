@@ -153,7 +153,7 @@ def dict_hp(mer_hp_links_file):
     hp_links_file = open(mer_hp_links_file, 'r', encoding = 'utf-8')
     hp_links = hp_links_file.readlines()
     hp_links_file.close()
-
+    print(hp_links)
     dict_hp_name_id = {}
 
     for line in hp_links:
@@ -870,7 +870,6 @@ def main():
     join_report_files('corpora/per_directory_annotations/')
     os.chdir('bin/MER/')
     os.system('cd data; ../produce_data_files.sh genes.txt')
-    os.system('cd data; ../produce_data_files.sh hp.txt')
     annotations('../../corpora/pubmed_corpus/', 'get_entities.sh','../../corpora/per_directory_annotations/final_report', 'data/hp_links.tsv', '../../corpora/')
     os.chdir('../..')
     update_annotations('corpora/pubmed_corpus/', 'data/', 'corpora/divided_by_sentences_annotations/','corpora/annotations_to_check.tsv', 'bin/MER/data/', 'corpora/added_annotations/')
