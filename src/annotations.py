@@ -153,7 +153,7 @@ def dict_hp(mer_hp_links_file):
     hp_links_file = open(mer_hp_links_file, 'r', encoding = 'utf-8')
     hp_links = hp_links_file.readlines()
     hp_links_file.close()
-    print(hp_links)
+
     dict_hp_name_id = {}
 
     for line in hp_links:
