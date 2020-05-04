@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="30093605">
-	<sentence id="s1" text="Mutations in two genes, li>PKD1</i> and li>PKD2</i>, account for most cases of autosomal dominant polycystic kidney disease, one of the most common monogenetic disorders.">
+	<sentence id="s1" text="Mutations in two genes, li>PKD1 and li>PKD2, account for most cases of autosomal dominant polycystic kidney disease, one of the most common monogenetic disorders.">
 		<entity id="s1.e1" charOffset="27-31"
 			type="GENE" text="PKD1" ontology_id="5310"/>
-		<entity id="s1.e2" charOffset="43-47"
+		<entity id="s1.e2" charOffset="39-43"
 			type="GENE" text="PKD2" ontology_id="25865"/>
-		<entity id="s1.e3" charOffset="109-123"
+		<entity id="s1.e3" charOffset="101-115"
 			type="HP" text="kidney disease" ontology_id="HP_0000077"/>
 		<pair id="s1.p1" e1="s1.e1"
 		    e2="s1.e3" pgr="true"/>

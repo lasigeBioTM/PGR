@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="30206173">
-	<sentence id="s1" text="We confirmed previous studies showing that tumor necrosis factor alpha (TNF-α) induced reactivation of infectious virus, and by analyzing expression of the progenitor cell marker CD34 as well as myeloid cell differentiation markers in IE<sup>+</sup> cells after treatment with TNF-α, we showed that TNF-α induced transcriptional reactivation of IE gene expression independently of differentiation.">
+	<sentence id="s1" text="We confirmed previous studies showing that tumor necrosis factor alpha (TNF-α) induced reactivation of infectious virus, and by analyzing expression of the progenitor cell marker CD34 as well as myeloid cell differentiation markers in IE+ cells after treatment with TNF-α, we showed that TNF-α induced transcriptional reactivation of IE gene expression independently of differentiation.">
 		<entity id="s1.e1" charOffset="43-48"
 			type="HP" text="tumor" ontology_id="HP_0002664"/>
 		<entity id="s1.e2" charOffset="72-75"

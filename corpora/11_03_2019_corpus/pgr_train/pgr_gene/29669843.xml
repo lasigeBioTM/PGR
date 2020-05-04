@@ -16,14 +16,14 @@
 		<pair id="s2.p1" e1="s2.e1"
 		    e2="s2.e2" pgr="false"/>
 	</sentence>
-	<sentence id="s3" text="Therefore, we conducted genotyping for 17 SNPs of six NER core genes (li>XPA, XPC, XPG, ERCC1, ERCC2</i>, and li>ERCC4</i>) in 89 ovarian cancer cases and 356 cancer-free controls.">
+	<sentence id="s3" text="Therefore, we conducted genotyping for 17 SNPs of six NER core genes (li>XPA, XPC, XPG, ERCC1, ERCC2, and li>ERCC4) in 89 ovarian cancer cases and 356 cancer-free controls.">
 		<entity id="s3.e1" charOffset="54-57"
 			type="GENE" text="NER" ontology_id="7376"/>
 		<entity id="s3.e2" charOffset="78-81"
 			type="GENE" text="XPC" ontology_id="7508"/>
 		<entity id="s3.e3" charOffset="88-93"
 			type="GENE" text="ERCC1" ontology_id="2067"/>
-		<entity id="s3.e4" charOffset="138-144"
+		<entity id="s3.e4" charOffset="130-136"
 			type="HP" text="cancer" ontology_id="HP_0002664"/>
 		<pair id="s3.p1" e1="s3.e1"
 		    e2="s3.e4" pgr="false"/>
@@ -32,40 +32,40 @@
 		<pair id="s3.p3" e1="s3.e3"
 		    e2="s3.e4" pgr="false"/>
 	</sentence>
-	<sentence id="s4" text="The result showed that both li>ERCC1</i> rs11615 and li>XPC</i> rs2228000 were significantly associated with reduced risk of ovarian cancer under dominant genetic model (adjusted OR = 0.35, 95% CI = 0.20-0.61, li>P</i>=0.0002 and adjusted OR = 0.49, 95% CI = 0.30-0.81, li>P</i>=0.005 respectively).">
+	<sentence id="s4" text="The result showed that both li>ERCC1 rs11615 and li>XPC rs2228000 were significantly associated with reduced risk of ovarian cancer under dominant genetic model (adjusted OR = 0.35, 95% CI = 0.20-0.61, li>P=0.0002 and adjusted OR = 0.49, 95% CI = 0.30-0.81, li>P=0.005 respectively).">
 		<entity id="s4.e1" charOffset="31-36"
 			type="GENE" text="ERCC1" ontology_id="2067"/>
-		<entity id="s4.e2" charOffset="56-59"
+		<entity id="s4.e2" charOffset="52-55"
 			type="GENE" text="XPC" ontology_id="7508"/>
-		<entity id="s4.e3" charOffset="133-139"
+		<entity id="s4.e3" charOffset="125-131"
 			type="HP" text="cancer" ontology_id="HP_0002664"/>
 		<pair id="s4.p1" e1="s4.e3"
 		    e2="s4.e3" pgr="true"/>
 		<pair id="s4.p2" e1="s4.e1"
 		    e2="s4.e3" pgr="false"/>
 	</sentence>
-	<sentence id="s5" text="In addition, li>XPC</i> rs2228001 and li>ERCC2</i> rs238406 had statistically significant association with the increased risk of ovarian cancer under dominant genetic model (adjusted OR = 1.72, 95% CI = 1.02-2.92, li>P</i>=0.043 and adjusted OR = 2.07, 95% CI = 1.07-4.01, li>P</i>=0.032 respectively).">
+	<sentence id="s5" text="In addition, li>XPC rs2228001 and li>ERCC2 rs238406 had statistically significant association with the increased risk of ovarian cancer under dominant genetic model (adjusted OR = 1.72, 95% CI = 1.02-2.92, li>P=0.043 and adjusted OR = 2.07, 95% CI = 1.07-4.01, li>P=0.032 respectively).">
 		<entity id="s5.e1" charOffset="16-19"
 			type="GENE" text="XPC" ontology_id="7508"/>
-		<entity id="s5.e2" charOffset="137-143"
+		<entity id="s5.e2" charOffset="129-130"
 			type="HP" text="cancer" ontology_id="HP_0002664"/>
 		<pair id="s5.p1" e1="s5.e1"
 		    e2="s5.e2" pgr="true"/>
 	</sentence>
-	<sentence id="s6" text="<i>ERCC1</i> rs3212986 were related with the increased risk of ovarian cancer under recessive model (adjusted OR = 2.40, 95% CI = 1.30-4.44, li>P</i>=0.005).">
-		<entity id="s6.e1" charOffset="3-8"
+	<sentence id="s6" text="ERCC1 rs3212986 were related with the increased risk of ovarian cancer under recessive model (adjusted OR = 2.40, 95% CI = 1.30-4.44, li>P=0.005).">
+		<entity id="s6.e1" charOffset="0-5"
 			type="GENE" text="ERCC1" ontology_id="2067"/>
-		<entity id="s6.e2" charOffset="71-77"
+		<entity id="s6.e2" charOffset="64-70"
 			type="HP" text="cancer" ontology_id="HP_0002664"/>
 		<pair id="s6.p1" e1="s6.e1"
 		    e2="s6.e2" pgr="false"/>
 	</sentence>
-	<sentence id="s7" text="In conclusion, our results indicated that li>ERCC1, XPC</i> and li>ERCC2</i> might influence ovarian cancer susceptibility.">
+	<sentence id="s7" text="In conclusion, our results indicated that li>ERCC1, XPC and li>ERCC2 might influence ovarian cancer susceptibility.">
 		<entity id="s7.e1" charOffset="45-50"
 			type="GENE" text="ERCC1" ontology_id="2067"/>
 		<entity id="s7.e2" charOffset="52-55"
 			type="GENE" text="XPC" ontology_id="7508"/>
-		<entity id="s7.e3" charOffset="101-107"
+		<entity id="s7.e3" charOffset="93-99"
 			type="HP" text="cancer" ontology_id="HP_0002664"/>
 		<pair id="s7.p1" e1="s7.e3"
 		    e2="s7.e3" pgr="true"/>

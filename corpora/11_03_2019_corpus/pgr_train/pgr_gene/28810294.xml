@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="28810294">
-	<sentence id="s1" text="<b>Methods:</b> The fallopian tubes in 58 cases of pelvic HGSC (54 cases of ovarian primary, 3 cases of tubal primary, 1 case of peritoneum) and 25 cases of pelvic non-HGSC (5 cases of ovarian low-grade serous cancer, 9 cases of endometrioid cancer, and 11 cases of clear cell ovary carcinoma) were collected from June 2015 to December 2016, and serially examined under light microscope (SEE-FIM protocol).">
-		<entity id="s1.e1" charOffset="30-34"
+	<sentence id="s1" text="Methods: The fallopian tubes in 58 cases of pelvic HGSC (54 cases of ovarian primary, 3 cases of tubal primary, 1 case of peritoneum) and 25 cases of pelvic non-HGSC (5 cases of ovarian low-grade serous cancer, 9 cases of endometrioid cancer, and 11 cases of clear cell ovary carcinoma) were collected from June 2015 to December 2016, and serially examined under light microscope (SEE-FIM protocol).">
+		<entity id="s1.e1" charOffset="23-27"
 			type="GENE" text="tube" ontology_id="51175"/>
-		<entity id="s1.e2" charOffset="210-216"
+		<entity id="s1.e2" charOffset="203-209"
 			type="HP" text="cancer" ontology_id="HP_0002664"/>
-		<entity id="s1.e3" charOffset="370-375"
+		<entity id="s1.e3" charOffset="363-368"
 			type="GENE" text="light" ontology_id="8740"/>
 		<pair id="s1.p1" e1="s1.e3"
 		    e2="s1.e3" pgr="false"/>

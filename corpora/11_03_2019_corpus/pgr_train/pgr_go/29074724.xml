@@ -8,10 +8,10 @@
 		<pair id="s1.p1" e1="s1.e1"
 		    e2="s1.e2" pgr="false"/>
 	</sentence>
-	<sentence id="s2" text="Our findings highlight the significance of recalibrating tumor cell metabolism by fine-tuning nucleotide and NAD synthesis in tumor growth.<b>Significance:</b> Our findings elucidate an instrumental function of lipid biosynthetic process in direct regulation of nucleic acid and NAD synthesis in tumor cells in response to energy stress.">
+	<sentence id="s2" text="Our findings highlight the significance of recalibrating tumor cell metabolism by fine-tuning nucleotide and NAD synthesis in tumor growth.Significance: Our findings elucidate an instrumental function of lipid biosynthetic process in direct regulation of nucleic acid and NAD synthesis in tumor cells in response to energy stress.">
 		<entity id="s2.e1" charOffset="57-62"
 			type="HP" text="tumor" ontology_id="HP_0002664"/>
-		<entity id="s2.e2" charOffset="211-237"
+		<entity id="s2.e2" charOffset="204-230"
 			type="GO" text="lipid biosynthetic process" ontology_id="GO_0008610"/>
 		<pair id="s2.p1" e1="s2.e1"
 		    e2="s2.e2" pgr="false"/>

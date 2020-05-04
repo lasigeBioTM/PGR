@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="28791728">
-	<sentence id="s1" text="Our analyses identified 15 CpG sites within the cellular response to DNA damage stimulus 1A promoter that were significantly hypermethylated and 14 CpG loci within the calcineurin-NFAT signaling cascade gene body that were significantly hypomethylated (pLIS AAAA 1 × 10<sup>-5</sup> ) in the tumours of active smokers.">
+	<sentence id="s1" text="Our analyses identified 15 CpG sites within the cellular response to DNA damage stimulus 1A promoter that were significantly hypermethylated and 14 CpG loci within the calcineurin-NFAT signaling cascade gene body that were significantly hypomethylated (pLIS AAAA 1 × 10-5) in the tumours of active smokers.">
 		<entity id="s1.e1" charOffset="48-88"
 			type="GO" text="cellular response to DNA damage stimulus" ontology_id="GO_0006974"/>
 		<entity id="s1.e2" charOffset="168-202"
 			type="GO" text="calcineurin-NFAT signaling cascade" ontology_id="GO_0033173"/>
-		<entity id="s1.e3" charOffset="264-270"
+		<entity id="s1.e3" charOffset="280-286"
 			type="HP" text="tumour" ontology_id="HP_0002664"/>
 		<pair id="s1.p1" e1="s1.e1"
 		    e2="s1.e3" pgr="true"/>

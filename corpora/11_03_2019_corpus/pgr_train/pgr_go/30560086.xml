@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="30560086">
-	<sentence id="s1" text="Ectopically injected human cancer cell lines develop into tumors in SCID attachment of GPI anchor to protein, thus providing a human-sized li>in vivo</i> model for evaluating imaging methods to improve cancer detection and therapeutic research and development.">
+	<sentence id="s1" text="Ectopically injected human cancer cell lines develop into tumors in SCID attachment of GPI anchor to protein, thus providing a human-sized li>in vivo model for evaluating imaging methods to improve cancer detection and therapeutic research and development.">
 		<entity id="s1.e1" charOffset="27-33"
 			type="HP" text="cancer" ontology_id="HP_0002664"/>
 		<entity id="s1.e2" charOffset="58-64"

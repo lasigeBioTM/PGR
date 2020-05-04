@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="28663096">
-	<sentence id="s1" text="Eight different SRD5A2 mutations were detected in 15 patients with posterior hypospadias (60%, 15/25), including six previously described mutations (p.Q6X, Q71X, p.L20P, p.G203S, p.R227Q, and p.R246Q) and two novel mutations (p.G196R and p.L73Pfs<sup>∗</sup>17).">
+	<sentence id="s1" text="Eight different SRD5A2 mutations were detected in 15 patients with posterior hypospadias (60%, 15/25), including six previously described mutations (p.Q6X, Q71X, p.L20P, p.G203S, p.R227Q, and p.R246Q) and two novel mutations (p.G196R and p.L73Pfs∗17).">
 		<entity id="s1.e1" charOffset="16-22"
 			type="GENE" text="SRD5A2" ontology_id="6716"/>
 		<entity id="s1.e2" charOffset="77-88"

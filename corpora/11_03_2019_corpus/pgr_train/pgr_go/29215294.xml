@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="29215294">
-	<sentence id="s1" text="Herein, we designed a retro-inverso isomer of lsup>L</sup>c(cell-cell signaling-1), termed lsup>D</sup>c(LyP-1), expecting to inspire brain metastatic tumor targeted drug delivery.">
-		<entity id="s1.e1" charOffset="60-79"
+	<sentence id="s1" text="Herein, we designed a retro-inverso isomer of lLc(cell-cell signaling-1), termed lDc(LyP-1), expecting to inspire brain metastatic tumor targeted drug delivery.">
+		<entity id="s1.e1" charOffset="50-69"
 			type="GO" text="cell-cell signaling" ontology_id="GO_0007267"/>
-		<entity id="s1.e2" charOffset="151-156"
+		<entity id="s1.e2" charOffset="131-136"
 			type="HP" text="tumor" ontology_id="HP_0002664"/>
 		<pair id="s1.p1" e1="s1.e1"
 		    e2="s1.e2" pgr="true"/>
 	</sentence>
-	<sentence id="s2" text="Further, lsup>L</sup>c(cell-cell signaling-1) modified PEG-PLA micelles displayed much higher in vivo distribution in brain metastatic tumor than lsup>D</sup>c(LyP-1).">
-		<entity id="s2.e1" charOffset="23-42"
+	<sentence id="s2" text="Further, lLc(cell-cell signaling-1) modified PEG-PLA micelles displayed much higher in vivo distribution in brain metastatic tumor than lDc(LyP-1).">
+		<entity id="s2.e1" charOffset="13-32"
 			type="GO" text="cell-cell signaling" ontology_id="GO_0007267"/>
-		<entity id="s2.e2" charOffset="135-140"
+		<entity id="s2.e2" charOffset="125-130"
 			type="HP" text="tumor" ontology_id="HP_0002664"/>
 		<pair id="s2.p1" e1="s2.e1"
 		    e2="s2.e2" pgr="true"/>
 	</sentence>
-	<sentence id="s3" text="All results suggested that lsup>L</sup>c(cell-cell signaling-1) had a better performance than lsup>D</sup>c(LyP-1) in brain metastatic tumor-targeted drug delivery">
-		<entity id="s3.e1" charOffset="41-60"
+	<sentence id="s3" text="All results suggested that lLc(cell-cell signaling-1) had a better performance than lDc(LyP-1) in brain metastatic tumor-targeted drug delivery">
+		<entity id="s3.e1" charOffset="31-50"
 			type="GO" text="cell-cell signaling" ontology_id="GO_0007267"/>
-		<entity id="s3.e2" charOffset="135-140"
+		<entity id="s3.e2" charOffset="114-119"
 			type="HP" text="tumor" ontology_id="HP_0002664"/>
 		<pair id="s3.p1" e1="s3.e1"
 		    e2="s3.e2" pgr="true"/>

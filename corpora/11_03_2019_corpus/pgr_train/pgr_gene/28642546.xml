@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="28642546">
-	<sentence id="s1" text="Mutations in SLC4A11, a Na<sup>+</sup> dependent OH<sup>-</sup> transporter, cause congenital hereditary endothelial dystrophy (CHED) and Fuchs' endothelial corneal dystrophy (FECD), the two most common forms of endothelial degeneration.">
+	<sentence id="s1" text="Mutations in SLC4A11, a Na+ dependent OH- transporter, cause congenital hereditary endothelial dystrophy (CHED) and Fuchs' endothelial corneal dystrophy (FECD), the two most common forms of endothelial degeneration.">
 		<entity id="s1.e1" charOffset="13-20"
 			type="GENE" text="SLC4A11" ontology_id="83959"/>
-		<entity id="s1.e2" charOffset="128-132"
+		<entity id="s1.e2" charOffset="106-110"
 			type="GENE" text="CHED" ontology_id="8621"/>
-		<entity id="s1.e3" charOffset="157-174"
+		<entity id="s1.e3" charOffset="135-152"
 			type="HP" text="corneal dystrophy" ontology_id="HP_0001131"/>
-		<entity id="s1.e4" charOffset="176-180"
+		<entity id="s1.e4" charOffset="154-158"
 			type="GENE" text="FECD" ontology_id="1296"/>
 		<pair id="s1.p1" e1="s1.e1"
 		    e2="s1.e3" pgr="true"/>
