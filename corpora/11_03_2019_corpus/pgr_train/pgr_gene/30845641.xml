@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document id="30845641">
-	<sentence id="s1" text="Vegetarian and vegan diets have increased worldwide in the last decades, according to the knowledge that they might prevent coronary heart disease, cancer, and type 2 diabetes.">
+	<sentence id="s1" text="Vegetarian and vegan diets have increased worldwide in the last decades, according to the knowledge that they might prevent coronary heart disease, cancer, and cardiac muscle tissue development 2 diabetes.">
+		<entity id="s1.e1" charOffset="148-154"
+			type="HP" text="cancer" ontology_id="HP_0002664"/>
+		<entity id="s1.e2" charOffset="160-164"
+			type="GENE" text="type" ontology_id="6445"/>
+		<pair id="s1.p1" e1="s1.e1"
+		    e2="s1.e2" pgr="false"/>
+	</sentence>
+</document>
