@@ -60,16 +60,29 @@ WORKDIR jsre
 
 # Install Python Libraries
 WORKDIR /bin/IHP
+
+RUN apt-get update && \
+        apt-get install -y software-properties-common && \
+        add-apt-repository ppa:deadsnakes/ppa && \
+        apt-get update -y  && \
+        apt-get install -y build-essential python3.6 python3.6-dev python3-pip && \
+        apt-get install -y git  && \
+        # update pip
+        python3.6 -m pip install pip --upgrade && \
+        python3.6 -m pip install wheel && \
+        pip3 install scipy && pip3 install -r requirements.txt
+
 RUN apt-get update -y && apt-get -y install git liblapack-dev liblapack3 libopenblas-base libopenblas-dev
-RUN apt-get update -y && apt-get -y install python3-dev libmysqlclient-dev -y
-RUN apt-get update -y && apt-get -y install python3 python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-pip -y
-RUN apt-get update -y && apt-get install python3-pip -y && pip3 install mysqlclient && apt-get install python3-scipy -y && pip3 install -r requirements.txt
+RUN apt-get update -y && apt-get -y install libmysqlclient-dev -y
+RUN apt-get update -y && apt-get -y install libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev -y
+RUN apt-get update -y && pip3 install mysqlclient
 
 # Initial Configuration
 RUN pip3 install -e git+https://github.com/garydoranjr/misvm.git#egg=misvm
 RUN pip3 install --upgrade cython
 RUN pip3 install word2vec
-RUN python3 -m nltk.downloader punkt
+RUN python3.6 -m nltk.downloader punkt
+#RUN python3 -m nltk.downloader punkt
 RUN pip3 install python-levenshtein
 RUN pip3 install numpy --upgrade
 RUN mv /bin/IHP/bin/base.prop /bin/IHP/bin/stanford-ner-2015-04-20/
@@ -124,7 +137,7 @@ RUN wget ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2go.gz
 ENV localedef -i en_US -f UTF-8 C.UTF-8
 ENV LANG="C.UTF-8"
 ENV LC_LANG="C.UTF-8"
-RUN apt-get update -y && apt-get install libicu-dev -y && pip3 install pycld2 && pip3 install pyicu && pip3 install polyglot
+RUN apt-get update -y && apt-get install libicu-dev -y && pip3 install pycld2 && pip3 install pyicu-binary && pip3 install polyglot
 
 
 WORKDIR /
