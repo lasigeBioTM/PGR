@@ -7,7 +7,7 @@ Our academic paper which describes PGR in detail can be found [here](https://acl
 
 ## Dependencies
 
-* Python >= 3.5
+* Python >= 3.5 and < 3.8
 
 * Pre-processing:
     * [Genia Sentence Splitter](http://www.nactem.ac.uk/y-matsu/geniass/)
